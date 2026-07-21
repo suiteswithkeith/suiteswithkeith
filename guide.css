@@ -515,3 +515,18 @@
 }
 
 .rank-img2 { width: 100%; margin-top: 20px; aspect-ratio: 4/3; object-fit: cover; }
+
+/* ---------- Physical note / cross-link callout ---------- */
+.physical-note{ background:var(--cream); padding:60px 0; text-align:center; }
+.physical-note p{ font-family:var(--font-mag-body); font-style:italic; font-size:1.05rem; color:var(--ink-soft); margin:0; }
+.physical-note a{ color:var(--olive-deep); border-bottom:1px solid var(--olive-deep); padding-bottom:1px; }
+.physical-note a:hover{ color:var(--charcoal); border-color:var(--charcoal); }
+
+/* ---------- In This Guide jump nav ---------- */
+.in-guide-section { background: var(--cream); padding: 50px 0 10px; }
+.in-guide-section .container { display: flex; justify-content: flex-end; }
+.in-guide-section .rank-toc { max-width: 280px; width: 100%; }
+
+@media (max-width: 700px) {
+  .in-guide-section .container { justify-content: center; }
+}
