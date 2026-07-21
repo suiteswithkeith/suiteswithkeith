@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ island.name }} Guide | The Greece Collection | Suites With Keith</title>
+<meta name="description" content="{{ island.meta_desc }}">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="guide.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="greece-collection.html" class="active">The Greece Collection</a>
+    <a href="destination-guides.html">Destination Guides</a>
+    <a href="about.html">About</a>
+  </div>
+</nav>
+
+<header class="guide-hero" style="background-image:url('{{ island.hero_img }}');">
+  <div class="container">
+    <p class="issue-tag">The Greece Collection &middot; Issue No. 01</p>
+    <span class="num">{{ island.num }}</span>
+    <h1>{{ island.name }}</h1>
+    <p class="tagline">{{ island.tagline }}</p>
+  </div>
+</header>
+
+<section class="at-a-glance">
+  <div class="container">
+    <div class="aag-head">
+      <span class="eyebrow-mag">{{ island.name }} &middot; At a Glance</span>
+      <h2>{{ island.aag_line }}</h2>
+    </div>
+    <div class="aag-grid">
+      <div class="aag-col">
+        <div class="aag-facts">
+          <div>
+            <h4>Best For</h4>
+            <ul>
+              {% for item in island.best_for %}<li>{{ item }}</li>{% endfor %}
+            </ul>
+          </div>
+          <div>
+            <h4>Ideal Stay</h4>
+            <ul><li>{{ island.ideal_stay }}</li></ul>
+            <h4 style="margin-top:20px;">Best Months</h4>
+            <ul>
+              {% for m in island.best_months %}<li>{{ m }}</li>{% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="aag-col">
+        <div class="aag-dontmiss">
+          <h4>Don't Miss</h4>
+          {% for d in island.dont_miss %}
+          <h5>{{ d.title }}</h5>
+          <p>{{ d.desc }}</p>
+          {% endfor %}
+        </div>
+        <div class="aag-around">
+          <h4>Getting Around</h4>
+          <p>{{ island.getting_around }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="keiths-verdict">
+      <span class="eyebrow-mag">Keith's Take</span>
+      <p>{{ island.keiths_take }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="stay-areas">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Where to Stay</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="areas-grid">
+      {% for a in island.areas %}
+      <div>
+        <h4>{{ a.name }}</h4>
+        <p>{{ a.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% for h in island.hotels %}
+<section class="hotel-profile">
+  <div class="container">
+    <div class="hotel-grid {{ 'reverse' if loop.index0 % 2 == 1 else '' }}">
+      <div class="hotel-media">
+        <img src="{{ h.img1 }}" alt="{{ h.name }} — {{ island.name }}">
+      </div>
+      <div class="hotel-copy">
+        <span class="eyebrow-tag">{{ island.name }}</span>
+        <h3>{{ h.name }}</h3>
+        <p class="hotel-sub">{{ h.sub }}</p>
+        <p class="hotel-desc">{{ h.desc }}</p>
+        <div class="hotel-meta">
+          <div>
+            <span class="label">Best For</span>
+            <span class="val">{{ h.best_for }}</span>
+          </div>
+          <div>
+            <span class="label">Starting Rate</span>
+            <span class="val">{{ h.rate }}</span>
+          </div>
+          <div style="grid-column: 1 / -1;">
+            <span class="label">Room I'd Book</span>
+            <span class="val">{{ h.room }}<span class="room-note">{{ h.room_note }}</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hotel-notes">
+      <div>
+        <h5>Keith's Notes</h5>
+        {% for n in h.notes %}
+        <p class="note-item"><b>{{ n.lead }}</b> {{ n.rest }}</p>
+        {% endfor %}
+      </div>
+      <div>
+        <h5>Keith's Take</h5>
+        <p class="take-text">{{ h.take }}</p>
+        {% if h.img2 %}<img src="{{ h.img2 }}" alt="{{ h.name }} detail" style="width:100%; margin-top:22px; aspect-ratio:4/3; object-fit:cover;">{% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+<section class="three-days">
+  <div class="container">
+    <div class="td-head">
+      <span class="eyebrow-mag">{{ island.name }} &middot; Three Perfect Days</span>
+      <h2>How I'd Spend Three Days Here</h2>
+      <p>{{ island.three_days.intro }}</p>
+    </div>
+    <div class="td-grid">
+      <div class="td-photo">
+        <img src="{{ island.three_days.photo }}" alt="{{ island.name }} scenery">
+      </div>
+      <div>
+        {% for d in island.three_days.days %}
+        <div class="td-day">
+          <h4>{{ d.title }}</h4>
+          <p>{{ d.text }}</p>
+          <div class="td-meta">{{ d.meta | safe }}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="td-tip">
+      <span class="eyebrow-mag">Keith's Tip</span>
+      <p>{{ island.three_days.tip }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="guide-cta">
+  <div class="container">
+    <span class="eyebrow">Ready To Plan {{ island.name }}?</span>
+    <h2>Let's design an itinerary tailored to how you actually want to experience {{ island.name }}.</h2>
+    <a href="services.html" class="btn btn-tan">Start Planning</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Suites With Keith</h4>
+      <p>Luxury travel advisor specializing in Europe, honeymoons, hotel bookings, and personalized itineraries.</p>
+    </div>
+    <div class="footer-mid">
+      <div class="footer-badge">SWK</div>
+      <div class="partner-logos">
+        <img src="images/logos/virtuoso.png" alt="Virtuoso">
+        <img src="images/logos/fora-pro.png" alt="Fora Pro">
+      </div>
+    </div>
+    <div class="footer-right">
+      <h4>Get In Touch</h4>
+      <p>keith.pence@fora.travel</p>
+      <p><a href="https://instagram.com/suiteswithkeith">@suiteswithkeith</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

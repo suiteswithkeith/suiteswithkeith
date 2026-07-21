@@ -634,6 +634,24 @@ a { color: inherit; text-decoration: none; }
 .footer-mid { text-align: center; }
 .footer-mid img { margin: 0 auto 14px; }
 
+.partner-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.partner-logos img {
+  height: 22px;
+  width: auto;
+  background: var(--cream);
+  padding: 9px 16px;
+  border-radius: 4px;
+  margin: 0;
+}
+
 /* ---------- Greece collection page ---------- */
 .gc-feature {
   display: grid;

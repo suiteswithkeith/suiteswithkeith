@@ -4,8 +4,68 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Greece Collection | Suites With Keith</title>
-<meta name="description" content="A 60-page luxury travel journal featuring 19 carefully selected hotels, eight Greek islands, itineraries, and firsthand recommendations.">
+<meta name="description" content="Issue No. 01 of The Greece Collection — four weeks island hopping through the Cyclades, 38 hotels, and seven destination guides.">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="guide.css">
+<style>
+  .mag-cover {
+    position: relative; min-height: 92vh; display:flex; align-items:flex-end;
+    background-image:url('images/islands/cover.jpg'); background-size:cover; background-position:center;
+    color: var(--guide-cream); overflow:hidden;
+  }
+  .mag-cover::after{ content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(18,24,42,0.05) 0%, rgba(18,24,42,0.05) 45%, rgba(18,24,42,0.75) 100%); z-index:1; }
+  .mag-cover .container{ position:relative; z-index:2; width:100%; padding-bottom:80px; text-align:center; }
+  .mag-cover .issue-tag{ font-family:var(--font-body); font-size:0.7rem; letter-spacing:0.3em; text-transform:uppercase; opacity:0.9; margin-bottom:26px; }
+  .mag-cover h1{ font-family:var(--font-mag); font-weight:500; font-size:clamp(2.6rem,6.5vw,5.2rem); letter-spacing:0.12em; text-transform:uppercase; margin:0 0 26px; line-height:1.2; }
+  .mag-cover .sub{ font-family:var(--font-mag-body); font-style:italic; font-size:1.2rem; opacity:0.92; margin:0; }
+
+  .toc-section{ background:var(--guide-navy); color:var(--guide-cream); padding:100px 0; }
+  .toc-head{ text-align:center; margin-bottom:64px; }
+  .toc-head .eyebrow-mag{ color:var(--guide-gold); }
+  .toc-head h2{ font-family:var(--font-mag); font-weight:500; font-size:clamp(1.9rem,3.4vw,2.6rem); letter-spacing:0.06em; text-transform:uppercase; margin:16px 0 0; }
+  .toc-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--guide-line); }
+  .toc-card{ background:var(--guide-navy); padding:36px; display:flex; gap:24px; align-items:center; transition:background 0.2s ease; }
+  .toc-card:hover{ background:var(--guide-navy-deep); }
+  .toc-card img{ width:110px; height:140px; object-fit:cover; flex-shrink:0; }
+  .toc-num{ font-family:var(--font-mag-body); font-style:italic; color:var(--guide-gold); font-size:1rem; display:block; margin-bottom:6px; }
+  .toc-card h3{ font-family:var(--font-mag); font-weight:500; font-size:1.3rem; letter-spacing:0.04em; text-transform:uppercase; margin:0 0 10px; }
+  .toc-card p{ font-family:var(--font-mag-body); font-style:italic; font-size:0.95rem; color:rgba(245,241,233,0.78); margin:0 0 12px; line-height:1.5; }
+  .toc-card .toc-link{ font-family:var(--font-body); font-size:0.68rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--guide-gold); border-bottom:1px solid rgba(201,185,151,0.4); padding-bottom:2px; }
+
+  .note-excerpt{ padding:100px 0; }
+  .note-excerpt .container{ max-width:760px; text-align:center; }
+  .note-excerpt .eyebrow{ display:block; margin-bottom:24px; }
+  .note-excerpt blockquote{ font-family:var(--font-mag-body); font-style:italic; font-size:1.4rem; line-height:1.6; color:var(--charcoal); margin:0 0 30px; }
+  .note-excerpt p.attrib{ font-size:0.75rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--ink-soft); }
+  .note-excerpt .signature{ font-family:var(--font-mag-body); font-style:italic; font-size:2.2rem; margin-top:30px; }
+
+  .edit-section{ background:var(--cream-deep); padding:100px 0; }
+  .edit-head{ text-align:center; margin-bottom:60px; }
+  .edit-head h2{ font-family:var(--font-mag); font-weight:500; font-size:clamp(1.9rem,3.4vw,2.6rem); letter-spacing:0.06em; margin:16px 0 10px; }
+  .edit-head p{ font-family:var(--font-mag-body); font-style:italic; color:var(--ink-soft); font-size:1.05rem; }
+  .edit-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:36px 28px; }
+  .edit-item{ text-align:center; border-top:1px solid var(--hairline); padding-top:20px; }
+  .edit-item h5{ font-size:0.66rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--olive-deep); font-weight:600; margin:0 0 12px; }
+  .edit-item .winner{ font-family:var(--font-mag-body); font-style:italic; font-size:1.15rem; color:var(--charcoal); display:block; }
+  .edit-item .isle{ font-size:0.75rem; color:var(--ink-soft); text-transform:uppercase; letter-spacing:0.08em; }
+
+  @media (max-width:900px){
+    .toc-grid{ grid-template-columns:1fr; }
+    .edit-grid{ grid-template-columns:repeat(2,1fr); }
+  }
+  @media (max-width:600px){ .edit-grid{ grid-template-columns:1fr; } }
+
+  .physical-note{ background:var(--cream); padding:0 0 90px; text-align:center; }
+  .physical-note p{ font-family:var(--font-mag-body); font-style:italic; font-size:1.05rem; color:var(--ink-soft); margin:0; }
+  .physical-note a{ color:var(--olive-deep); border-bottom:1px solid var(--olive-deep); padding-bottom:1px; }
+  .physical-note a:hover{ color:var(--charcoal); border-color:var(--charcoal); }
+
+  .flipbook-section{ background:var(--cream); padding:0 0 100px; }
+  .flipbook-head{ text-align:center; margin-bottom:40px; }
+  .flipbook-head .eyebrow-mag{ color:var(--olive-deep); }
+  .flipbook-head h2{ font-family:var(--font-mag); font-weight:500; font-size:clamp(1.6rem,3vw,2.2rem); letter-spacing:0.05em; margin:14px 0 0; }
+  .flipbook-frame{ max-width:960px; margin:0 auto; box-shadow:0 30px 60px rgba(0,0,0,0.18); }
+</style>
 </head>
 <body>
 
@@ -19,89 +79,153 @@
   </div>
 </nav>
 
-<div class="hero" style="min-height:auto; background-image:url('https://picsum.photos/seed/hero-greece-band/1600/500'); padding:0;">
-  <div class="icon-band" style="width:100%;">
-    <div class="container">
-      <div>
-        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.4"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg>
-        <h3>Expert Guidance</h3>
-        <p>Personalized itineraries built around your travel style.</p>
-      </div>
-      <div>
-        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.4"><circle cx="8" cy="15" r="4.5"/><path d="M11.3 11.7 20 3M16 4l3 3M13.5 9.5l2.5 2.5"/></svg>
-        <h3>Preferred Partnerships</h3>
-        <p>VIP amenities and insider access at the world's leading hotels.</p>
-      </div>
-      <div>
-        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.4"><circle cx="12" cy="12" r="9.5"/><path d="M15 9l-2 6-6 2 2-6 6-2z"/></svg>
-        <h3>Seamless Planning</h3>
-        <p>Every detail thoughtfully arranged.</p>
-      </div>
+<header class="mag-cover">
+  <div class="container">
+    <p class="issue-tag">Issue No. 01 &middot; Summer 2026</p>
+    <h1>The Greece<br>Collection</h1>
+    <p class="sub">A Suites With Keith Collection</p>
+  </div>
+</header>
+
+<section class="note-excerpt">
+  <div class="container">
+    <span class="eyebrow">A Note From Keith</span>
+    <blockquote>Over the past few months, I spent four weeks island hopping through the Cyclades, and it's easy to understand why Greece has become one of the world's most beloved destinations. Traveling solo across eight islands, I never once felt alone. I felt looked after.</blockquote>
+    <p class="attrib">After touring and staying at 38 remarkable hotels across the region</p>
+    <div class="signature">Keith</div>
+  </div>
+</section>
+
+<section class="flipbook-section">
+  <div class="container">
+    <div class="flipbook-head">
+      <span class="eyebrow-mag">Issue No. 01</span>
+      <h2>Read the Full Issue</h2>
+    </div>
+    <div class="flipbook-frame">
+      <div style="position:relative;padding-top:max(60%,326px);height:0;width:100%"><iframe title="The Greece Collection | Issue No. 01 | Luxury Greece Travel Guide by Suites With Keith" allow="clipboard-write; autoplay; encrypted-media; fullscreen; picture-in-picture" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?backgroundColor=%23dac5a7&backgroundColorFullscreen=%23dac5a7&logoImageUrl=https%3A%2F%2Fcanva.link%2F8ojv4p820h4ghv7&pubId=de188a1210fcf02fcf0e87f610807bf9&themeMainColor=%231a1a1a&themeSecondaryColor=%23ffffff"></iframe></div>
     </div>
   </div>
-</div>
+</section>
 
-<section class="section">
+<section class="toc-section">
   <div class="container">
-    <div class="section-heading">
-      <h2>The Greece Collection</h2>
-      <div class="rule"></div>
+    <div class="toc-head">
+      <span class="eyebrow-mag">The Collection</span>
+      <h2>Seven Destinations</h2>
     </div>
-    <div class="gc-feature">
-      <img src="https://picsum.photos/seed/greece-journal-stack/800/660" alt="Stack of navy Greece Collection travel journals on marble">
-      <div>
-        <a href="#" class="btn btn-tan">Read Issue No. 01</a>
-        <p class="desc">A 60-page luxury travel journal featuring 19 carefully selected hotels, eight Greek islands, thoughtfully designed itineraries, and firsthand recommendations from four weeks exploring the Cyclades.</p>
+    <div class="toc-grid">
+      <div class="toc-card">
+        <img src="images/islands/santorini-hero.jpg" alt="Santorini">
+        <div>
+          <span class="toc-num">01</span>
+          <h3>Santorini</h3>
+          <p>The island that introduced the world to Cycladic luxury.</p>
+          <a href="santorini.html" class="toc-link">Read the Guide &rarr;</a>
+        </div>
+      </div>
+      <div class="toc-card">
+        <img src="images/islands/folegandros-hero.jpg" alt="Folegandros">
+        <div>
+          <span class="toc-num">02</span>
+          <h3>Folegandros</h3>
+          <p>Dramatic cliffs. Unhurried luxury.</p>
+          <a href="folegandros.html" class="toc-link">Read the Guide &rarr;</a>
+        </div>
+      </div>
+      <div class="toc-card">
+        <img src="images/islands/mykonos-hero.jpg" alt="Mykonos">
+        <div>
+          <span class="toc-num">03</span>
+          <h3>Mykonos</h3>
+          <p>The island that always has another side to discover.</p>
+          <a href="mykonos.html" class="toc-link">Read the Guide &rarr;</a>
+        </div>
+      </div>
+      <div class="toc-card">
+        <img src="images/islands/paros-hero.jpg" alt="Paros">
+        <div>
+          <span class="toc-num">04</span>
+          <h3>Paros</h3>
+          <p>Timeless villages, understated luxury.</p>
+          <a href="paros.html" class="toc-link">Read the Guide &rarr;</a>
+        </div>
+      </div>
+      <div class="toc-card">
+        <img src="images/islands/sifnos-hero.jpg" alt="Sifnos">
+        <div>
+          <span class="toc-num">05</span>
+          <h3>Sifnos</h3>
+          <p>Some islands ask you to see more. Sifnos asks you to linger.</p>
+          <a href="sifnos.html" class="toc-link">Read the Guide &rarr;</a>
+        </div>
+      </div>
+      <div class="toc-card">
+        <img src="images/islands/milos-hero.jpg" alt="Milos">
+        <div>
+          <span class="toc-num">06</span>
+          <h3>Milos</h3>
+          <p>Nature's masterpiece in the Cyclades.</p>
+          <a href="milos.html" class="toc-link">Read the Guide &rarr;</a>
+        </div>
+      </div>
+      <div class="toc-card">
+        <img src="images/islands/athens-hero.jpg" alt="Athens">
+        <div>
+          <span class="toc-num">07</span>
+          <h3>Athens</h3>
+          <p>A city that reminds you why people have been coming here for centuries.</p>
+          <a href="athens.html" class="toc-link">Read the Guide &rarr;</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section" style="padding-top:0;">
+<section class="edit-section">
   <div class="container">
-    <div class="section-heading">
-      <h2>Inside Issue No. 01</h2>
-      <div class="rule"></div>
+    <div class="edit-head">
+      <span class="eyebrow">Four Weeks. Eight Islands. Thirty-Eight Hotels.</span>
+      <h2>The Edit</h2>
+      <p>The places I'd recommend without hesitation.</p>
     </div>
-    <div class="inside-grid">
-      <div class="inside-card">
-        <h4>At a Glance</h4>
-        <div class="frame" style="background-image:url('https://picsum.photos/seed/inside-folegandros/600/450');"></div>
-        <p>Compare each island side by side before you book.</p>
-        <a href="#" class="read-link">Explore This Section &rarr;</a>
-      </div>
-      <div class="inside-card">
-        <h4>Three Perfect Days</h4>
-        <div class="frame" style="background-image:url('https://picsum.photos/seed/inside-sifnos/600/450');"></div>
-        <p>Thoughtfully designed itineraries for each island.</p>
-        <a href="#" class="read-link">Continue Reading &rarr;</a>
-      </div>
-      <div class="inside-card">
-        <h4>19 Curated Hotels</h4>
-        <div class="frame" style="background-image:url('https://picsum.photos/seed/inside-hotels/600/450');"></div>
-        <p>Personally selected hotels I'd confidentally recommend.</p>
-        <a href="#" class="read-link">View In The Collection &rarr;</a>
-      </div>
+    <div class="edit-grid">
+      <div class="edit-item"><h5>My Favorite Hotel</h5><span class="winner">Canaves Epitome</span><span class="isle">Santorini</span></div>
+      <div class="edit-item"><h5>Best Honeymoon Hotel</h5><span class="winner">Andronis Boutique</span><span class="isle">Santorini</span></div>
+      <div class="edit-item"><h5>Best Hotel Design</h5><span class="winner">Gundari</span><span class="isle">Folegandros</span></div>
+      <div class="edit-item"><h5>Best New Resort</h5><span class="winner">Fouquet's Mykonos</span><span class="isle">Mykonos</span></div>
+      <div class="edit-item"><h5>Best Beach Hotel</h5><span class="winner">Bill &amp; Coo Coast</span><span class="isle">Mykonos</span></div>
+      <div class="edit-item"><h5>Best Family Hotel</h5><span class="winner">Andronis Arcadia</span><span class="isle">Santorini</span></div>
+      <div class="edit-item"><h5>Best Hotel Suite</h5><span class="winner">River Pool Suite</span><span class="isle">Canaves Oia Suites</span></div>
+      <div class="edit-item"><h5>Best Wellness Hotel</h5><span class="winner">Andronis Concept</span><span class="isle">Santorini</span></div>
+      <div class="edit-item"><h5>Best Hotel Restaurant</h5><span class="winner">Omnia</span><span class="isle">Canaves Epitome</span></div>
+      <div class="edit-item"><h5>Best Breakfast</h5><span class="winner">Bill &amp; Coo Suites</span><span class="isle">Mykonos</span></div>
+      <div class="edit-item"><h5>Best Sunset</h5><span class="winner">Canaves Epitome</span><span class="isle">Santorini</span></div>
+      <div class="edit-item"><h5>Best Pool</h5><span class="winner">Cali Mykonos</span><span class="isle">Mykonos</span></div>
+      <div class="edit-item"><h5>Best Service</h5><span class="winner">Bill &amp; Coo</span><span class="isle">Mykonos</span></div>
+      <div class="edit-item"><h5>Best for First-Time Visitors</h5><span class="winner">Santorini</span><span class="isle">Island</span></div>
+      <div class="edit-item"><h5>Most Surprising Island</h5><span class="winner">Mykonos</span><span class="isle">Island</span></div>
+      <div class="edit-item"><h5>Best Santorini Villa</h5><span class="winner">Canaves Sunday</span><span class="isle">10-Bedroom Villa</span></div>
+      <div class="edit-item"><h5>Best Paros Villa</h5><span class="winner">Jupiter</span><span class="isle">5-Bedroom Villa</span></div>
+      <div class="edit-item"><h5>Most Underrated Island</h5><span class="winner">Sifnos</span><span class="isle">Island</span></div>
+      <div class="edit-item"><h5>Best for Return Visitors</h5><span class="winner">Paros</span><span class="isle">Island</span></div>
+      <div class="edit-item"><h5>Best for Slow Travel</h5><span class="winner">Folegandros</span><span class="isle">Island</span></div>
+      <div class="edit-item"><h5>The Island I Keep Thinking About</h5><span class="winner">Paros</span><span class="isle">Island</span></div>
     </div>
   </div>
 </section>
 
-<section class="section partners-section" style="padding-top:0;">
+<section class="physical-note">
   <div class="container">
-    <h2>Featured Hotels &amp; Partners</h2>
-    <p>Through preferred partnerships, clients may receive complimentary breakfast, hotel credits, room upgrades, and VIP recognition.</p>
-    <div class="partners-grid">
-      <span class="partner-name">Four Seasons</span>
-      <span class="partner-name">Bvlgari</span>
-      <span class="partner-name">Six Senses</span>
-      <span class="partner-name">One&amp;Only</span>
-      <span class="partner-name">Banyan Tree</span>
-      <span class="partner-name">Airelles</span>
-      <span class="partner-name">Capella</span>
-      <span class="partner-name">Rosewood</span>
-      <span class="partner-name">Aman</span>
-      <span class="partner-name">The Luxury Collection</span>
-    </div>
+    <p>Prefer a printed copy? <a href="mailto:keith.pence@fora.travel?subject=The%20Greece%20Collection%20—%20Physical%20Copy">Reach out</a> if you're interested in acquiring a physical copy of The Greece Collection.</p>
+  </div>
+</section>
+
+<section class="guide-cta">
+  <div class="container">
+    <span class="eyebrow">Planning A Greece Trip?</span>
+    <h2>If this collection inspired your next trip, I'd love to help you design an itinerary tailored specifically to you.</h2>
+    <a href="services.html" class="btn btn-tan">Let's Plan Your Trip</a>
   </div>
 </section>
 
@@ -113,13 +237,15 @@
     </div>
     <div class="footer-mid">
       <div class="footer-badge">SWK</div>
-      <span style="font-family:var(--font-display); letter-spacing:0.1em; font-size:0.85rem; opacity:0.85;">Virtuoso</span>
+      <div class="partner-logos">
+        <img src="images/logos/virtuoso.png" alt="Virtuoso">
+        <img src="images/logos/fora-pro.png" alt="Fora Pro">
+      </div>
     </div>
     <div class="footer-right">
       <h4>Get In Touch</h4>
       <p>keith.pence@fora.travel</p>
       <p><a href="https://instagram.com/suiteswithkeith">@suiteswithkeith</a></p>
-      <p style="margin-top:10px;">Fora Pro</p>
     </div>
   </div>
 </footer>

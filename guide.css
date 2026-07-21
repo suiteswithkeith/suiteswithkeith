@@ -1,0 +1,434 @@
+/* ============================================
+   THE GREECE COLLECTION — destination guide theme
+   Extends styles.css. Load AFTER styles.css.
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+  --guide-navy:      #1c2436;
+  --guide-navy-deep: #12182a;
+  --guide-cream:     #f5f1e9;
+  --guide-gold:      #c9b997;
+  --guide-gold-deep: #b7a37c;
+  --guide-line:      rgba(245, 241, 233, 0.22);
+  --font-mag:        'Cinzel', var(--font-display);
+  --font-mag-body:   'Cormorant Garamond', var(--font-display);
+}
+
+/* ---------- Guide hero ---------- */
+.guide-hero {
+  position: relative;
+  min-height: 78vh;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  color: var(--guide-cream);
+  overflow: hidden;
+}
+
+.guide-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(18,24,42,0.15) 0%, rgba(18,24,42,0.1) 40%, rgba(18,24,42,0.82) 100%);
+  z-index: 1;
+}
+
+.guide-hero .container { position: relative; z-index: 2; width: 100%; padding-bottom: 70px; }
+
+.guide-hero .issue-tag {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-bottom: 18px;
+}
+
+.guide-hero .num {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--guide-gold);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.guide-hero h1 {
+  font-family: var(--font-mag);
+  font-weight: 500;
+  font-size: clamp(2.6rem, 6vw, 5rem);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 22px;
+  line-height: 1.1;
+}
+
+.guide-hero .tagline {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  max-width: 620px;
+  line-height: 1.5;
+  opacity: 0.95;
+  margin: 0;
+}
+
+/* ---------- At a glance (navy band) ---------- */
+.at-a-glance {
+  background: var(--guide-navy);
+  color: var(--guide-cream);
+  padding: 90px 0;
+}
+
+.aag-head {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.aag-head .eyebrow-mag {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--guide-gold);
+}
+
+.aag-head h2 {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  margin: 14px 0 0;
+  color: var(--guide-cream);
+}
+
+.aag-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 60px;
+}
+
+.aag-col h4 {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--guide-gold);
+  margin: 0 0 16px;
+  font-weight: 500;
+}
+
+.aag-col ul {
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 0;
+}
+
+.aag-col ul li {
+  font-family: var(--font-mag-body);
+  font-size: 1.15rem;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--guide-line);
+}
+
+.aag-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-bottom: 8px;
+}
+
+.aag-dontmiss { margin-bottom: 32px; }
+.aag-dontmiss h5 {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin: 0 0 4px;
+}
+.aag-dontmiss p {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 0.88rem;
+  color: rgba(245,241,233,0.72);
+  margin: 0 0 22px;
+  line-height: 1.5;
+}
+
+.aag-around h4 { margin-top: 8px; }
+.aag-around p {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 0.92rem;
+  color: rgba(245,241,233,0.78);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.keiths-verdict {
+  border-top: 1px solid var(--guide-line);
+  margin-top: 48px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.keiths-verdict .eyebrow-mag { display: block; margin-bottom: 16px; }
+
+.keiths-verdict p {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 760px;
+  margin: 0 auto;
+  color: var(--guide-cream);
+}
+
+/* ---------- Where to stay neighborhoods ---------- */
+.stay-areas { background: var(--cream); padding: 90px 0 40px; }
+
+.stay-areas .section-heading h2 { font-family: var(--font-mag); letter-spacing: 0.06em; }
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.areas-grid h4 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+
+.areas-grid p {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* ---------- Hotel profile ---------- */
+.hotel-profile {
+  padding: 70px 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.hotel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+  margin-bottom: 40px;
+}
+
+.hotel-grid.reverse .hotel-media { order: 2; }
+.hotel-grid.reverse .hotel-copy { order: 1; }
+
+.hotel-media img {
+  width: 100%;
+  aspect-ratio: 4/3.1;
+  object-fit: cover;
+}
+
+.hotel-copy .eyebrow-tag {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--olive-deep);
+  font-weight: 500;
+}
+
+.hotel-copy h3 {
+  font-family: var(--font-mag);
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: 0.02em;
+  margin: 10px 0 4px;
+  text-transform: uppercase;
+}
+
+.hotel-copy .hotel-sub {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+  margin: 0 0 20px;
+}
+
+.hotel-copy .hotel-desc {
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin: 0 0 26px;
+}
+
+.hotel-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 24px;
+  border-top: 1px solid var(--hairline);
+  padding-top: 22px;
+}
+
+.hotel-meta .label {
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.hotel-meta .val { font-size: 0.9rem; }
+.hotel-meta .val.room-note {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  color: var(--ink-soft);
+  display: block;
+  margin-top: 4px;
+  font-size: 0.85rem;
+}
+
+.hotel-notes {
+  background: var(--cream-deep);
+  padding: 40px 44px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.hotel-notes h5 {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-deep);
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.hotel-notes .note-item {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  line-height: 1.65;
+  margin: 0 0 16px;
+}
+
+.hotel-notes .note-item b { color: var(--charcoal); font-weight: 500; }
+
+.hotel-notes .take-text {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  font-size: 1.08rem;
+  color: var(--charcoal);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---------- Three perfect days ---------- */
+.three-days { background: var(--guide-navy); color: var(--guide-cream); padding: 100px 0; }
+
+.td-head { text-align: center; margin-bottom: 64px; }
+.td-head .eyebrow-mag { color: var(--guide-gold); }
+.td-head h2 {
+  font-family: var(--font-mag);
+  font-weight: 500;
+  font-size: clamp(1.9rem, 3.4vw, 2.6rem);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 16px 0 12px;
+}
+.td-head p {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: rgba(245,241,233,0.8);
+  margin: 0;
+}
+
+.td-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 70px;
+  align-items: start;
+}
+
+.td-photo img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+.td-day { margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid var(--guide-line); }
+.td-day:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.td-day h4 {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--guide-gold);
+  font-weight: 500;
+  margin: 0 0 14px;
+}
+
+.td-day p {
+  font-family: var(--font-mag-body);
+  font-size: 1.12rem;
+  line-height: 1.65;
+  color: rgba(245,241,233,0.92);
+  margin: 0 0 12px;
+}
+
+.td-day .td-meta {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: rgba(245,241,233,0.65);
+  line-height: 1.8;
+}
+
+.td-day .td-meta b { color: var(--guide-cream); font-weight: 500; }
+
+.td-tip {
+  margin-top: 44px;
+  padding-top: 32px;
+  border-top: 1px solid var(--guide-line);
+  text-align: center;
+}
+.td-tip .eyebrow-mag { display: block; margin-bottom: 14px; color: var(--guide-gold); }
+.td-tip p {
+  font-family: var(--font-mag-body);
+  font-style: italic;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ---------- Guide CTA ---------- */
+.guide-cta {
+  padding: 100px 0;
+  text-align: center;
+  background: var(--cream);
+}
+.guide-cta .eyebrow { display: block; margin-bottom: 18px; }
+.guide-cta h2 {
+  font-family: var(--font-mag);
+  font-weight: 500;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  max-width: 640px;
+  margin: 0 auto 30px;
+  line-height: 1.4;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .aag-grid, .hotel-grid, .hotel-grid.reverse, .td-grid, .hotel-notes { grid-template-columns: 1fr; }
+  .hotel-grid.reverse .hotel-media, .hotel-grid.reverse .hotel-copy { order: initial; }
+  .areas-grid { grid-template-columns: 1fr; gap: 32px; }
+  .aag-facts { grid-template-columns: 1fr; }
+  .hotel-meta { grid-template-columns: 1fr; }
+}
