@@ -432,3 +432,10 @@
   .aag-facts { grid-template-columns: 1fr; }
   .hotel-meta { grid-template-columns: 1fr; }
 }
+
+/* ---------- Flipbook embed (Issuu) ---------- */
+.flipbook-section{ background:var(--cream); padding:90px 0; }
+.flipbook-head{ text-align:center; margin-bottom:40px; }
+.flipbook-head .eyebrow-mag{ color:var(--olive-deep); }
+.flipbook-head h2{ font-family:var(--font-mag); font-weight:500; font-size:clamp(1.6rem,3vw,2.2rem); letter-spacing:0.05em; margin:14px 0 0; }
+.flipbook-frame{ max-width:960px; margin:0 auto; box-shadow:0 30px 60px rgba(0,0,0,0.18); }
