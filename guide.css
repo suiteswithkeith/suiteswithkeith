@@ -88,6 +88,16 @@
   margin-bottom: 56px;
 }
 
+.aag-head-split {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+  text-align: left;
+}
+.aag-head-split .aag-head-text { flex: 1; }
+.aag-head-split .in-guide-inline { flex-shrink: 0; width: 260px; margin-top: 4px; }
+
 .aag-head .eyebrow-mag {
   font-family: var(--font-body);
   font-size: 0.7rem;
@@ -103,6 +113,11 @@
   font-size: clamp(1.6rem, 3vw, 2.3rem);
   margin: 14px 0 0;
   color: var(--guide-cream);
+}
+
+@media (max-width: 900px) {
+  .aag-head-split { flex-direction: column; text-align: center; }
+  .aag-head-split .in-guide-inline { width: 100%; align-self: center; max-width: 320px; }
 }
 
 .aag-grid {
@@ -522,11 +537,11 @@
 .physical-note a{ color:var(--olive-deep); border-bottom:1px solid var(--olive-deep); padding-bottom:1px; }
 .physical-note a:hover{ color:var(--charcoal); border-color:var(--charcoal); }
 
-/* ---------- In This Guide jump nav ---------- */
-.in-guide-section { background: var(--cream); padding: 50px 0 10px; }
-.in-guide-section .container { display: flex; justify-content: flex-end; }
-.in-guide-section .rank-toc { max-width: 280px; width: 100%; }
-
+/* ---------- Merged Category Winners (Napa-style pages) ---------- */
+.winners-merged { max-width: 780px; margin: 0 auto; }
+.winners-merged h2 { text-align: center; margin-bottom: 40px; }
+.winner-list-two-col { column-count: 2; column-gap: 48px; }
+.winner-list-two-col li { break-inside: avoid; }
 @media (max-width: 700px) {
-  .in-guide-section .container { justify-content: center; }
+  .winner-list-two-col { column-count: 1; }
 }
