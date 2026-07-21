@@ -6,6 +6,28 @@
 <title>Suites With Keith | Luxury Travel, Expertly Curated</title>
 <meta name="description" content="Suites With Keith — personalized hotel bookings, VIP amenities, and bespoke itineraries for luxury travelers.">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="guide.css">
+<style>
+  .collection-teaser { background: var(--guide-navy); color: var(--guide-cream); }
+  .collection-teaser .container {
+    display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 70px; align-items: center;
+    padding: 100px 32px;
+  }
+  .collection-teaser .media img { width: 100%; aspect-ratio: 4/3.3; object-fit: cover; }
+  .collection-teaser .eyebrow-mag { color: var(--guide-gold); }
+  .collection-teaser h2 {
+    font-family: var(--font-mag); font-weight: 500; letter-spacing: 0.04em;
+    font-size: clamp(1.8rem, 3.2vw, 2.5rem); margin: 16px 0 24px; text-transform: uppercase;
+  }
+  .collection-teaser blockquote {
+    font-family: var(--font-mag-body); font-style: italic; font-size: 1.15rem;
+    line-height: 1.6; color: rgba(245,241,233,0.92); margin: 0 0 26px;
+  }
+  .collection-teaser .attrib { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--guide-gold); margin: 0 0 34px; }
+  @media (max-width: 900px) {
+    .collection-teaser .container { grid-template-columns: 1fr; padding: 70px 32px; }
+  }
+</style>
 </head>
 <body>
 
@@ -19,32 +41,26 @@
   </div>
 </nav>
 
-<header class="hero" style="background-image:url('https://picsum.photos/seed/hero-home/1600/900');">
+<header class="hero" style="background-image:url('images/personal/santorini-window.jpg');">
   <div class="container">
     <p class="eyebrow">Suites With Keith</p>
     <h1>Luxury travel,<br>expertly curated</h1>
     <p class="sub">Personalized hotel bookings, VIP amenities, and bespoke itineraries.</p>
-    <a href="services.html" class="btn btn-tan">Start Planning</a>
+    <a href="https://www.foratravel.com/advisor/keith-pence" class="btn btn-tan" target="_blank" rel="noopener">Start Planning</a>
   </div>
 </header>
 
-<section class="section note-section">
+<section class="collection-teaser">
   <div class="container">
-    <div class="note-photo">
-      <img src="https://picsum.photos/seed/keith-athens/700/900" alt="Keith walking through the columns of a Greek ruin at golden hour">
+    <div class="media">
+      <img src="images/personal/santorini-rooftop.jpg" alt="White Cycladic rooftops overlooking the Santorini caldera">
     </div>
-    <div class="note-content">
-      <span class="eyebrow">A Note From Keith</span>
-      <div class="rule"></div>
-      <blockquote>Over the past few months, I spent four weeks island hopping through the Cyclades, and it's easy to understand why Greece has become one of the world's most beloved destinations.</blockquote>
-      <p class="attribution">"Those moments are what stayed with me most."<br>Xenia</p>
-      <p><em>The ancient Greek tradition of welcoming strangers with generosity and kindness.</em></p>
-      <p>Whether you're planning your first trip to Greece or your fifth, I hope these pages help you discover somewhere that feels just right.</p>
-      <p style="font-size:0.8rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-soft);">Until next time,</p>
-      <div class="signature">Keith</div>
-      <p class="signature-cap">Founder, Suites With Keith</p>
-      <img class="journal-photo" src="https://picsum.photos/seed/journal-open/500/380" alt="The Greece Collection journal opened to a hotel feature spread">
-      <a href="greece-collection.html" class="btn btn-tan">Read Issue No. 01</a>
+    <div>
+      <span class="eyebrow-mag">Featured &middot; Issue No. 01</span>
+      <h2>The Greece Collection</h2>
+      <blockquote>Over the past few months, I spent four weeks island hopping through the Cyclades, touring and staying at 38 remarkable hotels across the region. Traveling solo across eight islands, I never once felt alone. I felt looked after.</blockquote>
+      <p class="attrib">Keith &middot; Founder, Suites With Keith</p>
+      <a href="greece-collection.html" class="btn btn-tan">Explore The Collection</a>
     </div>
   </div>
 </section>
@@ -85,7 +101,7 @@
       <h2>If this collection inspired your next trip, I'd love to help you design an itinerary tailored specifically to you.</h2>
       <a href="services.html" class="btn btn-tan">Let's Plan Your Trip</a>
     </div>
-    <img src="https://picsum.photos/seed/suite-interior/700/540" alt="Hotel suite with open doors overlooking the sea">
+    <img src="images/personal/gundari-user-3.jpg" alt="Hotel suite with open doors overlooking the sea">
   </div>
 </section>
 
