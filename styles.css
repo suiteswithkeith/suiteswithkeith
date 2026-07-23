@@ -552,6 +552,160 @@ a { color: inherit; text-decoration: none; }
 
 .faq-center { text-align: center; }
 
+/* ---------- FAQ accordion ---------- */
+.faq-accordion {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.faq-acc {
+  border-bottom: 1px solid rgba(60, 60, 56, 0.18);
+}
+.faq-acc:first-of-type {
+  border-top: 1px solid rgba(60, 60, 56, 0.18);
+}
+.faq-acc > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 22px 4px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+.faq-acc > summary::-webkit-details-marker { display: none; }
+.faq-acc > summary::after {
+  content: "+";
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--olive);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+.faq-acc[open] > summary::after { transform: rotate(45deg); }
+.faq-acc > summary:hover { color: var(--olive-deep); }
+.faq-acc:focus-within > summary { outline: none; }
+.faq-acc .faq-answer {
+  padding: 0 4px 26px;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  animation: faqReveal 0.25s ease;
+}
+@keyframes faqReveal {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.faq-cta-center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ---------- Contact form ---------- */
+.contact-band { background: var(--cream); padding: 90px 0; }
+.contact-form { max-width: 640px; margin: 0 auto; }
+.contact-form .field { margin-bottom: 22px; }
+.contact-form .field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+.contact-form label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--charcoal);
+  background: #fff;
+  border: 1px solid rgba(60, 60, 56, 0.22);
+  border-radius: 2px;
+  padding: 13px 14px;
+}
+.contact-form textarea { min-height: 130px; resize: vertical; }
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--olive);
+  box-shadow: 0 0 0 3px rgba(111, 116, 92, 0.12);
+}
+.contact-form .btn {
+  width: 100%;
+  margin-top: 6px;
+  border: none;
+  cursor: pointer;
+}
+.contact-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.form-status {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 0.95rem;
+  min-height: 1.2em;
+}
+.form-status.success { color: var(--olive-deep); }
+.form-status.error { color: #a1483d; }
+@media (max-width: 600px) {
+  .contact-form .field-row { grid-template-columns: 1fr; gap: 0; }
+}
+
+/* ---------- Sample proposal teaser ---------- */
+.sample-teaser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  background: var(--cream-deep);
+}
+.sample-teaser-media {
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.sample-teaser-body {
+  padding: 70px 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sample-teaser-body h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  margin: 12px 0 18px;
+  color: var(--charcoal);
+}
+.sample-teaser-body p {
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin: 0 0 28px;
+  max-width: 460px;
+}
+.sample-teaser-body .btn { align-self: flex-start; }
+@media (max-width: 760px) {
+  .sample-teaser { grid-template-columns: 1fr; }
+  .sample-teaser-media { min-height: 240px; }
+  .sample-teaser-body { padding: 48px 28px; }
+}
+
 /* ---------- Featured hotels & footer ---------- */
 .partners-section {
   text-align: center;
