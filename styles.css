@@ -499,6 +499,19 @@ a { color: inherit; text-decoration: none; }
   color: var(--ink-soft);
   margin: 0;
 }
+.service-sample-link {
+  display: inline-block;
+  margin-top: 18px;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--olive-deep);
+  border-bottom: 1px solid var(--olive-deep);
+  padding-bottom: 2px;
+}
+.service-sample-link:hover { color: var(--charcoal); border-color: var(--charcoal); }
 
 /* ---------- FAQ page (photo band) ---------- */
 .faq-hero {
