@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design System · Suites With Keith</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f5f1e9; --cream-deep:#efe9dd; --olive:#6f745c; --olive-deep:#565b46;
+    --tan:#c9b997; --tan-deep:#b7a37c; --charcoal:#3c3c38; --ink-soft:#5c5c56;
+    --white:#fff; --hairline:rgba(60,60,56,0.18);
+    --navy:#1c2436; --navy-deep:#12182a; --gold:#c9b997; --gold-deep:#b7a37c; --guide-line:rgba(245,241,233,0.22);
+    --display:'Playfair Display',Georgia,serif; --body:'Jost','Helvetica Neue',Arial,sans-serif;
+    --mag:'Cinzel',var(--display); --mag-body:'Cormorant Garamond',var(--display);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--cream);color:var(--charcoal);font-family:var(--body);font-weight:300;line-height:1.6;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 32px;}
+
+  /* labels */
+  .eyebrow{font-family:var(--body);font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;font-weight:500;color:var(--ink-soft);}
+  .eyebrow.gold{color:var(--gold-deep);}
+
+  /* masthead */
+  .masthead{padding:90px 0 56px;border-bottom:1px solid var(--hairline);}
+  .masthead h1{font-family:var(--display);font-weight:500;font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.05;margin:20px 0 18px;letter-spacing:0.01em;}
+  .masthead .sub{font-family:var(--mag-body);font-style:italic;font-size:1.35rem;color:var(--ink-soft);margin:0;max-width:36ch;}
+
+  /* sections */
+  section{padding:64px 0;border-bottom:1px solid var(--hairline);}
+  .sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:40px;}
+  .sec-head h2{font-family:var(--display);font-weight:500;font-size:clamp(1.7rem,3vw,2.2rem);margin:0;}
+  .sec-head .num{font-family:var(--body);font-size:0.72rem;letter-spacing:0.2em;color:var(--tan-deep);font-weight:500;}
+
+  /* color swatches */
+  .swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:20px;}
+  .sw{border:1px solid var(--hairline);background:var(--white);}
+  .sw .chip{height:82px;}
+  .sw .meta{padding:12px 14px 16px;}
+  .sw .nm{font-family:var(--body);font-weight:500;font-size:0.82rem;letter-spacing:0.02em;}
+  .sw .hex{font-family:var(--body);font-weight:400;font-size:0.78rem;color:var(--ink-soft);font-variant-numeric:tabular-nums;text-transform:uppercase;margin-top:2px;}
+  .sw .use{font-size:0.74rem;color:var(--ink-soft);margin-top:8px;line-height:1.4;}
+  .palette-label{font-family:var(--body);font-weight:500;font-size:0.74rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--charcoal);margin:36px 0 18px;}
+  .palette-label:first-of-type{margin-top:0;}
+
+  /* type specimens */
+  .spec{padding:26px 0;border-top:1px solid var(--hairline);display:grid;grid-template-columns:150px 1fr;gap:28px;align-items:baseline;}
+  .spec:first-child{border-top:none;padding-top:0;}
+  .spec .role{font-family:var(--body);font-size:0.74rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);line-height:1.5;}
+  .spec .role b{display:block;color:var(--charcoal);font-weight:500;letter-spacing:0.04em;margin-bottom:4px;}
+  .specimen-playfair{font-family:var(--display);font-weight:500;font-size:2.4rem;line-height:1.1;margin:0;}
+  .specimen-jost{font-family:var(--body);font-weight:300;font-size:1.05rem;margin:0;max-width:60ch;}
+  .specimen-cinzel{font-family:var(--mag);font-weight:500;font-size:1.8rem;text-transform:uppercase;letter-spacing:0.08em;margin:0;}
+  .specimen-cormorant{font-family:var(--mag-body);font-style:italic;font-weight:500;font-size:1.7rem;line-height:1.35;margin:0;max-width:40ch;}
+
+  /* type scale */
+  .scale{margin-top:44px;border-top:1px solid var(--hairline);}
+  .scale-row{display:grid;grid-template-columns:180px 1fr auto;gap:20px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--hairline);}
+  .scale-row .lbl{font-weight:500;font-size:0.82rem;}
+  .scale-row .val{font-size:0.78rem;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
+  .scale-row .face{font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--tan-deep);text-align:right;}
+
+  /* buttons */
+  .btn{display:inline-block;padding:16px 30px;font-family:var(--body);font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;border:none;cursor:default;}
+  .btn-tan{background:var(--tan);color:var(--charcoal);}
+  .btn-olive{background:var(--olive-deep);color:var(--cream);}
+  .btn-dark{background:var(--charcoal);color:var(--cream);}
+  .row{display:flex;flex-wrap:wrap;gap:18px;align-items:center;}
+  .spec-note{font-size:0.78rem;color:var(--ink-soft);margin-top:20px;}
+  .spec-note code{font-family:var(--body);background:var(--cream-deep);padding:2px 7px;font-size:0.76rem;}
+
+  /* forms */
+  .field{max-width:340px;}
+  .field label{display:block;font-family:var(--body);font-size:0.72rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);font-weight:500;margin-bottom:8px;}
+  .field input{width:100%;font-family:var(--body);font-size:0.95rem;color:var(--charcoal);background:#fff;border:1px solid var(--hairline);border-radius:2px;padding:13px 14px;}
+  .field input:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px rgba(111,116,92,0.12);}
+
+  /* token cards */
+  .tokens{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px;}
+  .token{border:1px solid var(--hairline);padding:22px;background:var(--white);}
+  .token h4{font-family:var(--body);font-weight:500;font-size:0.74rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 16px;}
+  .token .demo{margin-bottom:14px;}
+  .token p{margin:0;font-size:0.8rem;color:var(--ink-soft);line-height:1.5;}
+  .token p code{font-family:var(--body);font-variant-numeric:tabular-nums;color:var(--charcoal);}
+  .corner-sharp{width:64px;height:44px;background:var(--tan);}
+  .corner-2{width:64px;height:44px;background:var(--tan);border-radius:2px;}
+  .corner-round{width:44px;height:44px;background:var(--olive);border-radius:50%;}
+  .shadow-a{width:100%;height:44px;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,0.12);}
+  .shadow-b{width:100%;height:44px;background:#fff;box-shadow:0 20px 40px rgba(0,0,0,0.12);}
+
+  /* magazine theme panel */
+  .mag-panel{background:var(--navy);color:var(--cream);border:none;margin-top:0;}
+  .mag-panel .wrap{padding-top:72px;padding-bottom:72px;}
+  .mag-panel .sec-head h2{color:var(--cream);font-family:var(--mag);text-transform:uppercase;letter-spacing:0.08em;font-size:clamp(1.5rem,2.6vw,2rem);}
+  .mag-panel .sec-head .num{color:var(--gold);}
+  .mag-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center;}
+  .mag-quote{font-family:var(--mag-body);font-style:italic;font-size:1.5rem;line-height:1.5;margin:0;}
+  .mag-quote::before{content:"\201C";display:block;font-family:var(--mag);font-size:2.6rem;color:var(--gold);line-height:0.4;margin-bottom:12px;}
+  .mag-quote + .attr{margin-top:22px;font-family:var(--body);font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);}
+  .mag-swatches{display:flex;gap:0;}
+  .mag-swatches div{flex:1;height:120px;display:flex;align-items:flex-end;padding:10px;font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;}
+  .mag-note{margin-top:28px;font-family:var(--mag-body);font-style:italic;font-size:1.05rem;color:rgba(245,241,233,0.7);}
+
+  footer{padding:48px 0 80px;}
+  footer p{font-size:0.78rem;color:var(--ink-soft);margin:0;}
+
+  @media (max-width:680px){
+    .spec{grid-template-columns:1fr;gap:12px;}
+    .scale-row{grid-template-columns:1fr auto;}
+    .scale-row .face{display:none;}
+    .mag-grid{grid-template-columns:1fr;gap:32px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <span class="eyebrow">Design System · Reference</span>
+    <h1>Suites With Keith</h1>
+    <p class="sub">The visual system behind the site and The Greece Collection.</p>
+  </div>
+</header>
+
+<!-- COLOR -->
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="num">01</span><h2>Color</h2></div>
+
+    <p class="palette-label">Core Palette</p>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#f5f1e9;border-bottom:1px solid var(--hairline)"></div><div class="meta"><div class="nm">Cream</div><div class="hex">#F5F1E9</div><div class="use">Page background</div></div></div>
+      <div class="sw"><div class="chip" style="background:#efe9dd"></div><div class="meta"><div class="nm">Cream Deep</div><div class="hex">#EFE9DD</div><div class="use">Panels, subtle cards</div></div></div>
+      <div class="sw"><div class="chip" style="background:#6f745c"></div><div class="meta"><div class="nm">Olive</div><div class="hex">#6F745C</div><div class="use">Accent</div></div></div>
+      <div class="sw"><div class="chip" style="background:#565b46"></div><div class="meta"><div class="nm">Olive Deep</div><div class="hex">#565B46</div><div class="use">Primary buttons, focus ring</div></div></div>
+      <div class="sw"><div class="chip" style="background:#c9b997"></div><div class="meta"><div class="nm">Tan</div><div class="hex">#C9B997</div><div class="use">Nav bar, tan buttons, gold accent</div></div></div>
+      <div class="sw"><div class="chip" style="background:#b7a37c"></div><div class="meta"><div class="nm">Tan Deep</div><div class="hex">#B7A37C</div><div class="use">Hover, deeper accent</div></div></div>
+      <div class="sw"><div class="chip" style="background:#3c3c38"></div><div class="meta"><div class="nm">Charcoal</div><div class="hex">#3C3C38</div><div class="use">Primary text, dark buttons</div></div></div>
+      <div class="sw"><div class="chip" style="background:#5c5c56"></div><div class="meta"><div class="nm">Ink Soft</div><div class="hex">#5C5C56</div><div class="use">Secondary text, eyebrows</div></div></div>
+      <div class="sw"><div class="chip" style="background:#ffffff;border-bottom:1px solid var(--hairline)"></div><div class="meta"><div class="nm">White</div><div class="hex">#FFFFFF</div><div class="use">Inputs, cards</div></div></div>
+      <div class="sw"><div class="chip" style="background:linear-gradient(135deg,#f5f1e9 50%,rgba(60,60,56,0.18) 50%)"></div><div class="meta"><div class="nm">Hairline</div><div class="hex">60,60,56 · .18</div><div class="use">Dividers, borders</div></div></div>
+    </div>
+
+    <p class="palette-label">The Greece Collection — Magazine Theme</p>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#1c2436"></div><div class="meta"><div class="nm">Navy</div><div class="hex">#1C2436</div><div class="use">Dark sections</div></div></div>
+      <div class="sw"><div class="chip" style="background:#12182a"></div><div class="meta"><div class="nm">Navy Deep</div><div class="hex">#12182A</div><div class="use">Overlays</div></div></div>
+      <div class="sw"><div class="chip" style="background:#c9b997"></div><div class="meta"><div class="nm">Gold</div><div class="hex">#C9B997</div><div class="use">Accent on navy</div></div></div>
+      <div class="sw"><div class="chip" style="background:#b7a37c"></div><div class="meta"><div class="nm">Gold Deep</div><div class="hex">#B7A37C</div><div class="use">Deeper gold</div></div></div>
+      <div class="sw"><div class="chip" style="background:linear-gradient(135deg,#1c2436 50%,rgba(245,241,233,0.22) 50%)"></div><div class="meta"><div class="nm">Guide Line</div><div class="hex">245,241,233 · .22</div><div class="use">Dividers on navy</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TYPOGRAPHY -->
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="num">02</span><h2>Typography</h2></div>
+
+    <div class="spec">
+      <div class="role"><b>Playfair Display</b>Serif · Display<br>weights 400 / 500 / 600</div>
+      <p class="specimen-playfair">Flexible planning, built around you</p>
+    </div>
+    <div class="spec">
+      <div class="role"><b>Jost</b>Sans · Body &amp; UI<br>weights 300 / 400 / 500 / 600</div>
+      <p class="specimen-jost">Thoughtfully curated European itineraries, honeymoons, and luxury escapes — the running text and interface voice of the site, set at weight 300 for an airy, editorial read.</p>
+    </div>
+    <div class="spec">
+      <div class="role"><b>Cinzel</b>Serif · Magazine Display<br>uppercase, tracked</div>
+      <p class="specimen-cinzel">The Greece Collection</p>
+    </div>
+    <div class="spec">
+      <div class="role"><b>Cormorant Garamond</b>Serif · Editorial<br>italic · pull-quotes &amp; captions</div>
+      <p class="specimen-cormorant">A firsthand luxury travel journal to the Cyclades — chic, editorial, and made to keep.</p>
+    </div>
+
+    <div class="scale">
+      <div class="scale-row"><span class="lbl">Hero H1</span><span class="val">clamp(2.4rem, 5vw, 4.2rem) · 500</span><span class="face">Playfair</span></div>
+      <div class="scale-row"><span class="lbl">Magazine cover H1</span><span class="val">clamp(2.6rem, 6.5vw, 5.2rem) · 500 · 0.12em</span><span class="face">Cinzel</span></div>
+      <div class="scale-row"><span class="lbl">Section H2</span><span class="val">clamp(1.8rem, 3vw, 2.4rem) · 500</span><span class="face">Playfair / Cinzel</span></div>
+      <div class="scale-row"><span class="lbl">Sub-head H3</span><span class="val">~1.5rem · 500</span><span class="face">Playfair</span></div>
+      <div class="scale-row"><span class="lbl">Body</span><span class="val">1rem · 300 · line-height 1.6</span><span class="face">Jost</span></div>
+      <div class="scale-row"><span class="lbl">Pull quote</span><span class="val">~1.25rem · italic</span><span class="face">Cormorant</span></div>
+      <div class="scale-row"><span class="lbl">Eyebrow / label</span><span class="val">0.72rem · UPPER · 0.22em · 500</span><span class="face">Jost</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- BUTTONS -->
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="num">03</span><h2>Buttons</h2></div>
+    <div class="row">
+      <span class="btn btn-tan">Let's Plan Your Trip</span>
+      <span class="btn btn-olive">Get In Touch</span>
+      <span class="btn btn-dark">Read Guide</span>
+    </div>
+    <p class="spec-note">Padding <code>16px 30px</code> · <code>0.72rem</code> uppercase · tracking <code>0.16em</code> · no radius, no border. Hover darkens one step and lifts with <code>0 6px 18px rgba(0,0,0,.12)</code>.</p>
+  </div>
+</section>
+
+<!-- FORMS -->
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="num">04</span><h2>Forms</h2></div>
+    <div class="field">
+      <label for="demo">Email</label>
+      <input id="demo" type="text" placeholder="you@example.com">
+    </div>
+    <p class="spec-note">White field · 1px hairline border · radius <code>2px</code> · padding <code>13px 14px</code>. Focus (click in): olive border + <code>0 0 0 3px rgba(111,116,92,.12)</code> glow.</p>
+  </div>
+</section>
+
+<!-- TOKENS -->
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="num">05</span><h2>Shape, Elevation &amp; Layout</h2></div>
+    <div class="tokens">
+      <div class="token">
+        <h4>Corners</h4>
+        <div class="demo row" style="gap:14px"><div class="corner-sharp"></div><div class="corner-2"></div><div class="corner-round"></div></div>
+        <p>Sharp <code>0</code> by default. Inputs <code>2px</code>. Dots &amp; badges <code>50%</code>.</p>
+      </div>
+      <div class="token">
+        <h4>Elevation</h4>
+        <div class="demo"><div class="shadow-a"></div></div>
+        <div class="demo"><div class="shadow-b"></div></div>
+        <p>Buttons <code>0 6px 18px /.12</code>. Cards &amp; popovers <code>0 20px 40px /.12</code>. Low and soft.</p>
+      </div>
+      <div class="token">
+        <h4>Layout</h4>
+        <div class="demo" style="border:1px solid var(--hairline);height:44px;position:relative;background:var(--cream-deep)"><div style="position:absolute;left:14%;right:14%;top:0;bottom:0;background:var(--tan)"></div></div>
+        <p>Container <code>max-width 1180px</code>, centered. Section rhythm <code>90–100px</code> desktop → <code>56–64px</code> mobile. Grid gaps <code>40–50px</code>.</p>
+      </div>
+      <div class="token">
+        <h4>Motion &amp; A11y</h4>
+        <div class="demo" style="height:44px;border:2px solid var(--olive-deep);outline-offset:3px;background:var(--white)"></div>
+        <p>Transitions <code>~0.25s ease</code>. Focus ring <code>2px olive-deep</code>, 3px offset. Honors <code>prefers-reduced-motion</code>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAGAZINE THEME -->
+<section class="mag-panel">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">06</span><h2>Magazine Theme</h2></div>
+    <div class="mag-grid">
+      <div>
+        <p class="mag-quote">This is beautiful. Well done — chic and editorial. It makes you stand out in what's becoming a crowded space.</p>
+        <p class="attr">Rosewood London</p>
+        <p class="mag-note">Used for The Greece Collection: navy grounds, gold accents, Cinzel headlines, and Cormorant Garamond for pull-quotes and captions.</p>
+      </div>
+      <div class="mag-swatches">
+        <div style="background:#1c2436;color:#f5f1e9;border:1px solid var(--guide-line)">Navy</div>
+        <div style="background:#12182a;color:#f5f1e9">Navy Deep</div>
+        <div style="background:#c9b997;color:#1c2436">Gold</div>
+        <div style="background:#b7a37c;color:#1c2436">Gold Deep</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Suites With Keith · Design system reference · Pulled from styles.css &amp; guide.css</p>
+  </div>
+</footer>
+
+</body>
+</html>
