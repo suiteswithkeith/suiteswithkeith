@@ -81,8 +81,33 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://suiteswithkeith.com/montenegro.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/napa-sonoma.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/rankings.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/santorini-hotels-ranked.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://suiteswithkeith.com/greek-ferry-rules.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/zannier-ile-de-bendor.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 </urlset>
