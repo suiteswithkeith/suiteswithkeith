@@ -512,6 +512,10 @@
 .rank-notes .note-item b { color: var(--charcoal); font-weight: 500; }
 .rank-copy .rank-take { font-family: var(--font-mag-body); font-style: italic; font-size: 1rem; color: var(--charcoal); margin: 0; }
 
+.fora-perks { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding: 14px 18px; margin: 0 0 18px; background: var(--white); border-left: 3px solid var(--guide-gold-deep); }
+.fora-perks .fora-perks-label { font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: var(--olive-deep); white-space: nowrap; }
+.fora-perks .fora-perks-items { font-size: 0.82rem; color: var(--ink-soft); }
+
 .rank-sidebar-section { background: var(--guide-navy); color: var(--guide-cream); padding: 90px 0; }
 .rank-sidebar-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; }
 .rank-sidebar-grid h2 { font-family: var(--font-mag); font-weight: 500; font-size: 1.5rem; letter-spacing: 0.04em; text-transform: uppercase; margin: 0 0 30px; }
