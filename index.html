@@ -105,6 +105,15 @@
     .mobile-sticky-cta { display: block; }
     body { padding-bottom: 70px; }
   }
+
+  /* ---- Considering another destination? ---- */
+  .dest-explore-grid { grid-template-columns: repeat(4, 1fr); }
+  @media (max-width: 900px) {
+    .dest-explore-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .dest-explore-grid { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
+  }
 </style>
 <script type="application/ld+json">
 {
@@ -231,6 +240,54 @@
       <blockquote>Over the past few months, I spent four weeks island hopping through the Cyclades, touring and staying at 38 remarkable hotels across the region. Traveling solo across eight islands, I never once felt alone. I felt looked after.</blockquote>
       <p class="attrib">Keith &middot; Founder, Suites With Keith</p>
       <a href="greece-collection.html" class="btn btn-tan" data-gtag-label="greece_collection" data-gtag-location="collection_teaser">Explore the Greece Collection</a>
+    </div>
+  </div>
+</section>
+
+<section class="section dest-explore">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Considering Another Destination?</p>
+      <h2>Greece isn't the only place I plan honeymoons</h2>
+      <p>A look at a few other destinations I plan often</p>
+    </div>
+    <div class="proposal-grid dest-explore-grid">
+      <a class="proposal-card" href="sample-proposal.html" data-gtag-label="explore_maldives" data-gtag-location="dest_explore">
+        <div class="pc-thumb" style="background-image:url('images/proposals/cover-hero.jpg');"></div>
+        <div class="pc-body">
+          <span class="pc-type">Honeymoon</span>
+          <h3>The Maldives</h3>
+          <p>Three overwater-luxury itineraries, compared side by side.</p>
+          <span class="pc-link">Explore &rarr;</span>
+        </div>
+      </a>
+      <a class="proposal-card" href="sample-proposal-lake-como.html" data-gtag-label="explore_lake_como" data-gtag-location="dest_explore">
+        <div class="pc-thumb" style="background-image:url('images/proposals/lake-como/passalacqua/garden-lake.jpg');"></div>
+        <div class="pc-body">
+          <span class="pc-type">Lakeside Escape</span>
+          <h3>Lake Como</h3>
+          <p>Four of the lake's finest hotels, compared side by side.</p>
+          <span class="pc-link">Explore &rarr;</span>
+        </div>
+      </a>
+      <a class="proposal-card" href="sample-proposal-paris.html" data-gtag-label="explore_paris" data-gtag-location="dest_explore">
+        <div class="pc-thumb" style="background-image:url('images/proposals/paris/peninsula/eiffel-terrace.jpg');"></div>
+        <div class="pc-body">
+          <span class="pc-type">City &amp; Culture</span>
+          <h3>Paris</h3>
+          <p>Five of the city's finest palace hotels, compared.</p>
+          <span class="pc-link">Explore &rarr;</span>
+        </div>
+      </a>
+      <a class="proposal-card" href="napa-sonoma.html" data-gtag-label="explore_napa_sonoma" data-gtag-location="dest_explore">
+        <div class="pc-thumb" style="background-image:url('images/napa/four-seasons-1.jpg');"></div>
+        <div class="pc-body">
+          <span class="pc-type">Wine Country</span>
+          <h3>Napa &amp; Sonoma</h3>
+          <p>Nine luxury hotels, ranked from personal stays.</p>
+          <span class="pc-link">Explore &rarr;</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
