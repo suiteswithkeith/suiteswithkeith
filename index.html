@@ -52,6 +52,59 @@
   @media (max-width: 900px) {
     .collection-teaser .container { grid-template-columns: 1fr; padding: 70px 32px; }
   }
+
+  /* ---- Hero trust line ---- */
+  .hero-trust {
+    margin: 18px 0 0;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(245,241,233,0.85);
+  }
+
+  /* ---- Honeymoon CTA section ---- */
+  .honeymoon-cta { background: var(--cream); }
+  .honeymoon-cta-body { font-size: 1.02rem; line-height: 1.7; color: var(--ink-soft); margin: 0 0 30px; }
+  .honeymoon-cta-secondary { font-size: 0.88rem; color: var(--ink-soft); margin: 18px 0 0; }
+  .honeymoon-cta-secondary a { color: var(--olive-deep); text-decoration: underline; }
+
+  /* ---- Featured single testimonial ---- */
+  .featured-testimonial { background: var(--cream-deep); padding: 64px 0; }
+  .featured-testimonial .container { max-width: 720px; }
+  .featured-quote-header { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+  .featured-quote-avatar {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: var(--charcoal); color: var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-size: 1.1rem; flex-shrink: 0;
+  }
+  .featured-quote-name { font-weight: 500; font-size: 1rem; }
+  .featured-quote-trip { font-family: var(--font-display); font-style: italic; color: var(--ink-soft); font-size: 0.9rem; }
+  .featured-quote-stars { margin-left: auto; color: var(--tan-deep); letter-spacing: 2px; }
+  .featured-quote p { font-family: var(--font-display); font-style: italic; font-size: 1.15rem; line-height: 1.7; color: var(--ink-soft); margin: 0; }
+
+  /* ---- Floating mobile CTA ---- */
+  .mobile-sticky-cta {
+    display: none;
+    position: fixed;
+    left: 16px; right: 16px; bottom: 16px;
+    z-index: 500;
+    text-align: center;
+    background: var(--tan);
+    color: var(--charcoal);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 3px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  }
+  @media (max-width: 700px) {
+    .mobile-sticky-cta { display: block; }
+    body { padding-bottom: 70px; }
+  }
 </style>
 <script type="application/ld+json">
 {
@@ -120,9 +173,9 @@
     <a href="index.html" class="nav-brand"><span class="nav-word">Suites With Keith</span></a>
     <div class="nav-links">
       <a href="services.html">Services</a>
-      <a href="greece-collection.html">The Greece Collection</a>
-      <a href="destination-guides.html">Destination Guides</a>
-      <a href="rankings.html">Keith's Rankings</a>
+      <a href="greece-collection.html" data-gtag-label="greece_collection" data-gtag-location="nav">The Greece Collection</a>
+      <a href="destination-guides.html" data-gtag-label="destination_guides" data-gtag-location="nav">Destination Guides</a>
+      <a href="rankings.html" data-gtag-label="keiths_rankings" data-gtag-location="nav">Keith's Rankings</a>
       <a href="about.html">About</a>
     </div>
   </div>
@@ -132,10 +185,40 @@
   <div class="container">
     <p class="eyebrow">Suites With Keith</p>
     <h1>Luxury travel,<br>expertly curated</h1>
-    <p class="sub">Personalized hotel bookings, VIP amenities, and bespoke itineraries.</p>
-    <a href="https://www.foratravel.com/advisor/keith-pence" class="btn btn-tan" target="_blank" rel="noopener">Start Planning</a>
+    <p class="sub">Luxury honeymoons, personalized hotel bookings, exclusive VIP amenities, and bespoke itineraries.</p>
+    <a href="#inquire" class="btn btn-tan" data-gtag-label="plan_your_honeymoon" data-gtag-location="hero">Plan Your Honeymoon</a>
+    <p class="hero-trust">Virtuoso Advisor &bull; Exclusive Hotel Perks &bull; Personalized Planning</p>
   </div>
 </header>
+
+<section class="section honeymoon-cta" id="honeymoon">
+  <div class="container split-cta">
+    <div>
+      <span class="eyebrow">Planning Your Honeymoon?</span>
+      <h2>Your honeymoon deserves more than another booking site.</h2>
+      <p class="honeymoon-cta-body">I help couples choose the right destinations, recommend hotels I've personally experienced, secure exclusive perks, and design seamless itineraries tailored to each couple.</p>
+      <a href="#inquire" class="btn btn-tan" data-gtag-label="plan_your_honeymoon" data-gtag-location="honeymoon_section">Plan Your Honeymoon</a>
+      <p class="honeymoon-cta-secondary">Not ready to plan? <a href="greece-collection.html" data-gtag-label="greece_collection" data-gtag-location="honeymoon_section">Download my Greece Collection</a> for hotel recommendations, island guides, and sample itineraries.</p>
+    </div>
+    <img src="images/personal/canaves-oia-user-1.jpg" alt="Private suite terrace overlooking the Santorini caldera">
+  </div>
+</section>
+
+<section class="featured-testimonial">
+  <div class="container">
+    <div class="featured-quote">
+      <div class="featured-quote-header">
+        <div class="featured-quote-avatar">T</div>
+        <div>
+          <div class="featured-quote-name">Tyler &amp; Spencer C.</div>
+          <div class="featured-quote-trip">travel to France</div>
+        </div>
+        <div class="featured-quote-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      </div>
+      <p>&ldquo;Keith immediately stepped in with the perfect recommendation and made the entire process effortless&hellip; when we pulled up, the staff greeted us by name and surprised us with a complimentary room upgrade. From the very beginning, we felt genuinely looked after.&rdquo;</p>
+    </div>
+  </div>
+</section>
 
 <section class="collection-teaser">
   <div class="container">
@@ -143,11 +226,11 @@
       <img src="images/personal/greece-collection-cover-mockup.jpg" alt="The Greece Collection, Issue No. 01 — printed journal cover">
     </div>
     <div>
-      <span class="eyebrow-mag">Featured &middot; Issue No. 01</span>
+      <span class="eyebrow-mag">Still Deciding Where To Honeymoon?</span>
       <h2>The Greece Collection</h2>
       <blockquote>Over the past few months, I spent four weeks island hopping through the Cyclades, touring and staying at 38 remarkable hotels across the region. Traveling solo across eight islands, I never once felt alone. I felt looked after.</blockquote>
       <p class="attrib">Keith &middot; Founder, Suites With Keith</p>
-      <a href="greece-collection.html" class="btn btn-tan">Explore The Collection</a>
+      <a href="greece-collection.html" class="btn btn-tan" data-gtag-label="greece_collection" data-gtag-location="collection_teaser">Explore the Greece Collection</a>
     </div>
   </div>
 </section>
@@ -204,7 +287,7 @@
     <div>
       <span class="eyebrow">Planning A Trip To Greece &mdash; Or Elsewhere?</span>
       <h2>Whether this collection inspired your next trip or you're dreaming of somewhere new, I'd love to help you design an itinerary tailored specifically to you.</h2>
-      <a href="https://www.foratravel.com/advisor/keith-pence" class="btn btn-tan" target="_blank" rel="noopener">Let's Plan Your Trip</a>
+      <a href="#inquire" class="btn btn-tan" data-gtag-label="plan_your_honeymoon" data-gtag-location="split_cta">Let's Plan Your Trip</a>
     </div>
     <img src="images/personal/gundari-user-3.jpg" alt="Hotel suite with open doors overlooking the sea">
   </div>
@@ -321,6 +404,94 @@
   })();
 </script>
 
+<section id="inquire" class="contact-band">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Plan Your Honeymoon</h2>
+      <p>Tell me a little about your trip and I'll be in touch within a couple of days</p>
+    </div>
+    <form class="contact-form" action="https://formspree.io/f/mjgnadov" method="POST">
+      <!-- Spam honeypot — leave empty -->
+      <input type="text" name="_gotcha" class="contact-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="_subject" value="New honeymoon inquiry from Suites With Keith homepage">
+      <input type="hidden" name="occasion" value="Honeymoon">
+      <div class="field-row">
+        <div class="field">
+          <label for="hf-name">Name</label>
+          <input id="hf-name" type="text" name="name" required>
+        </div>
+        <div class="field">
+          <label for="hf-email">Email</label>
+          <input id="hf-email" type="email" name="email" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="hf-dates">Travel Dates</label>
+        <input id="hf-dates" type="text" name="travel_dates" placeholder="e.g. June 2027, or still deciding">
+      </div>
+      <div class="field">
+        <label for="hf-message">Tell me about your honeymoon</label>
+        <textarea id="hf-message" name="message" placeholder="Where you're dreaming of, how many nights, any must-haves&hellip;"></textarea>
+      </div>
+      <button type="submit" class="btn btn-olive">Plan Your Honeymoon</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<a href="#inquire" class="mobile-sticky-cta" data-gtag-label="plan_your_honeymoon" data-gtag-location="sticky_mobile">Plan Your Honeymoon</a>
+
+<script>
+(function () {
+  var form = document.querySelector('#inquire .contact-form');
+  if (!form) return;
+  var status = form.querySelector('.form-status');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type="submit"]');
+    status.textContent = 'Sending…';
+    status.className = 'form-status';
+    if (btn) btn.disabled = true;
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(function (r) {
+      if (r.ok) {
+        form.reset();
+        status.textContent = 'Thank you — your inquiry is on its way. I’ll be in touch soon.';
+        status.className = 'form-status success';
+        if (window.gtag) {
+          gtag('event', 'generate_lead', { form_location: 'homepage_inquire' });
+        }
+      } else {
+        return r.json().then(function (d) {
+          throw new Error((d.errors && d.errors[0] && d.errors[0].message) || 'Something went wrong.');
+        });
+      }
+    }).catch(function (err) {
+      status.textContent = err.message + ' You can also email keith.pence@fora.travel directly.';
+      status.className = 'form-status error';
+    }).then(function () {
+      if (btn) btn.disabled = false;
+    });
+  });
+})();
+</script>
+
+<script>
+(function () {
+  if (!window.gtag) return;
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-gtag-label]');
+    if (!el) return;
+    gtag('event', 'cta_click', {
+      cta_label: el.getAttribute('data-gtag-label'),
+      cta_location: el.getAttribute('data-gtag-location') || ''
+    });
+  });
+})();
+</script>
 
 <footer class="site-footer">
   <div class="container footer-signup">
