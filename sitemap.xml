@@ -56,6 +56,11 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://suiteswithkeith.com/hoper.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://suiteswithkeith.com/folegandros.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
