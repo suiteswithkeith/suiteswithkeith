@@ -394,6 +394,19 @@ document.addEventListener('DOMContentLoaded', async function() {
     '  h2 { font-size: clamp(1.35rem, 6.5vw, 2rem) !important; }',
     '  img, video, iframe { max-width: 100% !important; height: auto !important; }',
     '  * { flex-wrap: wrap !important; }',
+    '}',
+    /* The document lays out with hard-coded multi-column grids and no
+       breakpoints, so on a phone they overflow and get clipped by the
+       overflow-x:hidden wrapper. Collapse them to a single column.
+       Note the grids are inline styles re-serialised by React, so match
+       on the property name rather than on a specific value spelling. */
+    '@media (max-width: 760px) {',
+    '  section { padding-left: 20px !important; padding-right: 20px !important; }',
+    '  [style*="grid-template-columns"] { grid-template-columns: 1fr !important; }',
+    /* ...but keep compact label/value pairs side by side inside a collapsed card */
+    '  [style*="grid-template-columns"] [style*="grid-template-columns: repeat(2, 1fr)"],',
+    '  [style*="grid-template-columns"] [style*="grid-template-columns:repeat(2,1fr)"]',
+    '    { grid-template-columns: repeat(2, 1fr) !important; }',
     '}'
   ].join('\n');
   function apply() {
@@ -409,6 +422,23 @@ document.addEventListener('DOMContentLoaded', async function() {
     apply();
     if (ticks >= 150) clearInterval(poll);
   }, 100);
+
+  /* The "Contact Keith" buttons render from the design system with no
+     click handler wired up, so they do nothing. Listen on window so the
+     behaviour survives the bundler swapping out documentElement and any
+     re-render. */
+  var MAILTO = 'mailto:keith.pence@fora.travel'
+    + '?subject=' + encodeURIComponent('Greece 2026 — question about my trip');
+  window.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t || !t.closest) return;
+    var el = t.closest('button, a');
+    if (!el) return;
+    var label = (el.textContent || '').trim().toLowerCase();
+    if (label !== 'contact keith' && label !== 'contact') return;
+    e.preventDefault();
+    window.location.href = MAILTO;
+  }, true);
 })();
 </script>
 </body>
