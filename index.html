@@ -55,7 +55,7 @@
 
   /* ---- Hero trust line ---- */
   .hero-trust {
-    margin: 18px 0 0;
+    margin: 30px 0 0;
     font-size: 0.78rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -194,8 +194,8 @@
   <div class="container">
     <p class="eyebrow">Suites With Keith</p>
     <h1>Luxury travel,<br>expertly curated</h1>
-    <p class="sub">Luxury honeymoons, personalized hotel bookings, exclusive VIP amenities, and bespoke itineraries.</p>
-    <a href="#inquire" class="btn btn-tan" data-gtag-label="plan_your_honeymoon" data-gtag-location="hero">Plan Your Honeymoon</a>
+    <p class="sub">Personalized hotel bookings, exclusive VIP amenities, and bespoke itineraries &mdash; from honeymoons to milestone trips.</p>
+    <a href="#inquire" class="btn btn-tan" data-gtag-label="start_planning" data-gtag-location="hero">Start Planning</a>
     <p class="hero-trust">Virtuoso Advisor &bull; Exclusive Hotel Perks &bull; Personalized Planning</p>
   </div>
 </header>
@@ -235,7 +235,7 @@
       <img src="images/personal/greece-collection-cover-mockup.jpg" alt="The Greece Collection, Issue No. 01 — printed journal cover">
     </div>
     <div>
-      <span class="eyebrow-mag">Still Deciding Where To Honeymoon?</span>
+      <span class="eyebrow-mag">Still Deciding Where To Go?</span>
       <h2>The Greece Collection</h2>
       <blockquote>Over the past few months, I spent four weeks island hopping through the Cyclades, touring and staying at 38 remarkable hotels across the region. Traveling solo across eight islands, I never once felt alone. I felt looked after.</blockquote>
       <p class="attrib">Keith &middot; Founder, Suites With Keith</p>
@@ -248,7 +248,7 @@
   <div class="container">
     <div class="section-heading">
       <p class="eyebrow">Considering Another Destination?</p>
-      <h2>Greece isn't the only place I plan honeymoons</h2>
+      <h2>Greece is only the beginning</h2>
       <p>A look at a few other destinations I plan often</p>
     </div>
     <div class="proposal-grid dest-explore-grid">
@@ -344,7 +344,7 @@
     <div>
       <span class="eyebrow">Planning A Trip To Greece &mdash; Or Elsewhere?</span>
       <h2>Whether this collection inspired your next trip or you're dreaming of somewhere new, I'd love to help you design an itinerary tailored specifically to you.</h2>
-      <a href="#inquire" class="btn btn-tan" data-gtag-label="plan_your_honeymoon" data-gtag-location="split_cta">Let's Plan Your Trip</a>
+      <a href="#inquire" class="btn btn-tan" data-gtag-label="start_planning" data-gtag-location="split_cta">Let's Plan Your Trip</a>
     </div>
     <img src="images/personal/gundari-user-3.jpg" alt="Hotel suite with open doors overlooking the sea">
   </div>
@@ -464,14 +464,13 @@
 <section id="inquire" class="contact-band">
   <div class="container">
     <div class="section-heading">
-      <h2>Plan Your Honeymoon</h2>
+      <h2>Plan Your Trip</h2>
       <p>Tell me a little about your trip and I'll be in touch within a couple of days</p>
     </div>
     <form class="contact-form" action="https://formspree.io/f/mjgnadov" method="POST">
       <!-- Spam honeypot — leave empty -->
       <input type="text" name="_gotcha" class="contact-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <input type="hidden" name="_subject" value="New honeymoon inquiry from Suites With Keith homepage">
-      <input type="hidden" name="occasion" value="Honeymoon">
+      <input type="hidden" name="_subject" value="New trip inquiry from Suites With Keith homepage">
       <div class="field-row">
         <div class="field">
           <label for="hf-name">Name</label>
@@ -482,21 +481,35 @@
           <input id="hf-email" type="email" name="email" required>
         </div>
       </div>
-      <div class="field">
-        <label for="hf-dates">Travel Dates</label>
-        <input id="hf-dates" type="text" name="travel_dates" placeholder="e.g. June 2027, or still deciding">
+      <div class="field-row">
+        <div class="field">
+          <label for="hf-dates">Travel Dates</label>
+          <input id="hf-dates" type="text" name="travel_dates" placeholder="e.g. June 2027, or still deciding">
+        </div>
+        <div class="field">
+          <label for="hf-occasion">Occasion</label>
+          <select id="hf-occasion" name="occasion">
+            <option value="">Select one</option>
+            <option>Honeymoon</option>
+            <option>Anniversary</option>
+            <option>Family / Multi-Generational</option>
+            <option>Milestone Celebration</option>
+            <option>Leisure / Getaway</option>
+            <option>Other</option>
+          </select>
+        </div>
       </div>
       <div class="field">
-        <label for="hf-message">Tell me about your honeymoon</label>
+        <label for="hf-message">Tell me about your trip</label>
         <textarea id="hf-message" name="message" placeholder="Where you're dreaming of, how many nights, any must-haves&hellip;"></textarea>
       </div>
-      <button type="submit" class="btn btn-olive">Plan Your Honeymoon</button>
+      <button type="submit" class="btn btn-olive">Start Planning</button>
       <p class="form-status" role="status" aria-live="polite"></p>
     </form>
   </div>
 </section>
 
-<a href="#inquire" class="mobile-sticky-cta" data-gtag-label="plan_your_honeymoon" data-gtag-location="sticky_mobile">Plan Your Honeymoon</a>
+<a href="#inquire" class="mobile-sticky-cta" data-gtag-label="start_planning" data-gtag-location="sticky_mobile">Start Planning</a>
 
 <script>
 (function () {
@@ -578,5 +591,6 @@
   </div>
 </footer>
 
+<script src="track.js" defer></script>
 </body>
 </html>
