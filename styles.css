@@ -1041,6 +1041,7 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
 .footer-signup {
   border-bottom: 1px solid rgba(245,241,233,0.14);
   padding: 0 0 28px;
+  margin-bottom: 44px;
   text-align: center;
 }
 .footer-signup h4 {
