@@ -1058,3 +1058,6 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
 
 .footer-signup .beehiiv-wrap { max-width: 340px; margin: 0 auto; overflow: hidden; }
 .footer-signup .beehiiv-wrap iframe { max-width: 100% !important; width: 100% !important; }
+
+.signup-continue { margin: 12px 0 0; font-size: 0.78rem; letter-spacing: 0.06em; opacity: 0.85; text-align: center; }
+.signup-continue a { text-decoration: underline; text-underline-offset: 3px; }
