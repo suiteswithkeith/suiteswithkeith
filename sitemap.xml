@@ -121,6 +121,61 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://suiteswithkeith.com/hotel-guides.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/canaves-epitome-santorini.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/gundari-folegandros.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/canaves-oia-suites-santorini.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/parilio-paros.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/andronis-boutique-santorini.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/bill-and-coo-coast-mykonos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/kalesma-mykonos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/cali-mykonos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/cosme-paros.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/stamna-sifnos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://suiteswithkeith.com/greek-ferry-rules.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
