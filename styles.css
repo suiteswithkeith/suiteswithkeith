@@ -281,9 +281,11 @@ p a:not(.btn):not(.read-link):hover {
   padding: 22px 24px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 12px;
 }
+
+.guide-card .info > .read-link { white-space: nowrap; }
 
 .guide-card h3 {
   font-family: var(--font-display);
