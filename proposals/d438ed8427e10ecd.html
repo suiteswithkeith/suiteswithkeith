@@ -48,6 +48,14 @@
   .jc-strip .nights { font-family: var(--font-body); font-weight: 300; font-size: 0.85rem; color: var(--ink-soft); margin-top: 4px; }
 
   /* Section heads */
+  /* Route map */
+  .jc-map { padding-bottom: 90px; }
+  .jc-map .map-card { background: #1c2436; padding: clamp(16px, 3vw, 36px); }
+  .jc-map .map-scroll { overflow-x: auto; }
+  .jc-map svg { display: block; width: 100%; min-width: 720px; height: auto; }
+  .jc-map text { font-family: var(--font-body); }
+  .jc-map .map-caption { font-family: var(--font-body); font-weight: 300; font-size: 0.85rem; color: var(--ink-soft); margin: 14px 0 0; }
+
   .jc-section { padding-bottom: 90px; }
   .jc-section h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 24px; }
   .jc-section .lede { font-family: var(--font-body); font-weight: 300; font-size: 1rem; color: var(--charcoal); max-width: 760px; line-height: 1.65; margin: 0 0 36px; }
@@ -172,6 +180,106 @@
         <div class="nights">4 nights</div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="jc-map">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Where You're Going</span>
+    <h2 style="font-family:var(--font-display);font-weight:500;font-size:clamp(1.7rem,3vw,2.3rem);color:var(--charcoal);margin:12px 0 24px;">The Route, Measured In Time</h2>
+    <div class="map-card">
+      <div class="map-scroll">
+        <svg viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the route from Athens through Sifnos and Milos to Santorini, with ferry crossing times">
+
+          <!-- Attica coast -->
+          <path d="M0,0 L170,0 C152,30 168,52 150,70 C160,95 205,122 268,152 C230,176 170,168 118,152 C70,140 30,146 0,152 Z" fill="#f5f1e9" opacity="0.22"/>
+          <text x="60" y="118" font-size="13" letter-spacing="2" fill="rgba(245,241,233,0.5)">ATTICA</text>
+
+          <!-- Context islands -->
+          <ellipse cx="396" cy="162" rx="14" ry="10" fill="#f5f1e9" opacity="0.18"/>
+          <ellipse cx="424" cy="242" rx="10" ry="14" fill="#f5f1e9" opacity="0.18"/>
+          <ellipse cx="468" cy="320" rx="15" ry="12" fill="#f5f1e9" opacity="0.18"/>
+          <text x="490" y="324" font-size="12" letter-spacing="1.5" fill="rgba(245,241,233,0.45)">SERIFOS</text>
+          <ellipse cx="498" cy="434" rx="9" ry="7" fill="#f5f1e9" opacity="0.18"/>
+          <ellipse cx="638" cy="222" rx="12" ry="16" fill="#f5f1e9" opacity="0.18"/>
+          <text x="658" y="226" font-size="12" letter-spacing="1.5" fill="rgba(245,241,233,0.45)">SYROS</text>
+          <ellipse cx="830" cy="219" rx="16" ry="11" fill="#f5f1e9" opacity="0.18"/>
+          <text x="852" y="223" font-size="12" letter-spacing="1.5" fill="rgba(245,241,233,0.45)">MYKONOS</text>
+          <ellipse cx="745" cy="344" rx="18" ry="15" fill="#f5f1e9" opacity="0.18"/>
+          <text x="769" y="348" font-size="12" letter-spacing="1.5" fill="rgba(245,241,233,0.45)">PAROS</text>
+          <ellipse cx="694" cy="361" rx="7" ry="12" fill="#f5f1e9" opacity="0.18" transform="rotate(20 694 361)"/>
+          <ellipse cx="647" cy="498" rx="16" ry="8" fill="#f5f1e9" opacity="0.18" transform="rotate(-25 647 498)"/>
+          <text x="600" y="482" font-size="12" letter-spacing="1.5" fill="rgba(245,241,233,0.45)">FOLEGANDROS</text>
+          <ellipse cx="728" cy="478" rx="12" ry="7" fill="#f5f1e9" opacity="0.18" transform="rotate(-15 728 478)"/>
+          <ellipse cx="800" cy="465" rx="14" ry="11" fill="#f5f1e9" opacity="0.18"/>
+          <text x="792" y="444" font-size="12" letter-spacing="1.5" fill="rgba(245,241,233,0.45)">IOS</text>
+
+          <!-- Flight home (dotted) -->
+          <path d="M858,548 Q 480,10 118,62" fill="none" stroke="rgba(245,241,233,0.35)" stroke-width="1.6" stroke-dasharray="2 7" stroke-linecap="round"/>
+          <text x="484" y="148" font-size="12" letter-spacing="1.5" fill="rgba(245,241,233,0.55)" text-anchor="middle">FLIGHT HOME &middot; SANTORINI &rarr; ATHENS &middot; 45M</text>
+
+          <!-- Ferry legs -->
+          <path d="M112,70 Q 330,140 550,368" fill="none" stroke="#c9b997" stroke-width="2.5" stroke-dasharray="8 7" stroke-linecap="round"/>
+          <path d="M556,396 Q 494,432 448,458" fill="none" stroke="#c9b997" stroke-width="2.5" stroke-dasharray="8 7" stroke-linecap="round"/>
+          <path d="M446,478 Q 650,560 846,568" fill="none" stroke="#c9b997" stroke-width="2.5" stroke-dasharray="8 7" stroke-linecap="round"/>
+
+          <!-- Ferry time chips -->
+          <g>
+            <rect x="268" y="176" width="152" height="28" rx="14" fill="#f5f1e9"/>
+            <text x="344" y="194" font-size="12.5" font-weight="500" letter-spacing="1.5" fill="#1c2436" text-anchor="middle">FERRY &middot; 2H 30M</text>
+          </g>
+          <g>
+            <rect x="520" y="430" width="110" height="28" rx="14" fill="#f5f1e9"/>
+            <text x="575" y="448" font-size="12.5" font-weight="500" letter-spacing="1.5" fill="#1c2436" text-anchor="middle">FERRY &middot; 45M</text>
+          </g>
+          <g>
+            <rect x="560" y="580" width="152" height="28" rx="14" fill="#f5f1e9"/>
+            <text x="636" y="598" font-size="12.5" font-weight="500" letter-spacing="1.5" fill="#1c2436" text-anchor="middle">FERRY &middot; 2H 30M</text>
+          </g>
+
+          <!-- Visited islands -->
+          <path d="M562,357 C578,360 580,378 575,395 C570,408 556,406 549,396 C542,384 544,362 562,357 Z" fill="#f5f1e9" stroke="#b7a37c" stroke-width="1.5"/>
+          <path d="M408,470 C406,452 428,442 448,448 C462,452 466,462 462,470 C456,464 448,460 442,462 C450,468 452,476 446,480 C434,488 412,484 408,470 Z" fill="#f5f1e9" stroke="#b7a37c" stroke-width="1.5"/>
+          <path d="M856,536 C872,530 884,542 886,560 C888,578 878,592 862,594 C852,595 846,588 850,582 C858,584 868,578 870,564 C871,550 864,542 854,544 Z" fill="#f5f1e9" stroke="#b7a37c" stroke-width="1.5"/>
+          <ellipse cx="845" cy="558" rx="4" ry="7" fill="#f5f1e9" opacity="0.6"/>
+
+          <!-- Stop markers -->
+          <g>
+            <circle cx="106" cy="60" r="14" fill="#c9b997"/>
+            <text x="106" y="65" font-size="12" font-weight="600" fill="#1c2436" text-anchor="middle">1</text>
+            <text x="130" y="56" font-size="16" font-weight="500" letter-spacing="1" fill="#f5f1e9">Athens</text>
+            <text x="130" y="74" font-size="11.5" letter-spacing="1" fill="rgba(245,241,233,0.65)">AUG 21&ndash;26 &middot; 5 NIGHTS</text>
+          </g>
+          <g>
+            <circle cx="562" cy="381" r="14" fill="#c9b997"/>
+            <text x="562" y="386" font-size="12" font-weight="600" fill="#1c2436" text-anchor="middle">2</text>
+            <text x="590" y="376" font-size="16" font-weight="500" letter-spacing="1" fill="#f5f1e9">Sifnos</text>
+            <text x="590" y="394" font-size="11.5" letter-spacing="1" fill="rgba(245,241,233,0.65)">AUG 26&ndash;30 &middot; 4 NIGHTS</text>
+          </g>
+          <g>
+            <circle cx="434" cy="465" r="14" fill="#c9b997"/>
+            <text x="434" y="470" font-size="12" font-weight="600" fill="#1c2436" text-anchor="middle">3</text>
+            <text x="404" y="460" font-size="16" font-weight="500" letter-spacing="1" fill="#f5f1e9" text-anchor="end">Milos</text>
+            <text x="404" y="478" font-size="11.5" letter-spacing="1" fill="rgba(245,241,233,0.65)" text-anchor="end">AUG 30&ndash;SEP 2 &middot; 3 NIGHTS</text>
+          </g>
+          <g>
+            <circle cx="866" cy="566" r="14" fill="#c9b997"/>
+            <text x="866" y="571" font-size="12" font-weight="600" fill="#1c2436" text-anchor="middle">4</text>
+            <text x="838" y="546" font-size="16" font-weight="500" letter-spacing="1" fill="#f5f1e9" text-anchor="end">Santorini</text>
+            <text x="838" y="564" font-size="11.5" letter-spacing="1" fill="rgba(245,241,233,0.65)" text-anchor="end">SEP 2&ndash;6 &middot; 4 NIGHTS</text>
+          </g>
+
+          <!-- Legend -->
+          <g>
+            <line x1="40" y1="596" x2="76" y2="596" stroke="#c9b997" stroke-width="2.5" stroke-dasharray="8 7" stroke-linecap="round"/>
+            <text x="86" y="600" font-size="11.5" letter-spacing="1" fill="rgba(245,241,233,0.65)">FERRY, FROM YOUR CONFIRMED TICKETS</text>
+            <line x1="40" y1="620" x2="76" y2="620" stroke="rgba(245,241,233,0.35)" stroke-width="1.6" stroke-dasharray="2 7" stroke-linecap="round"/>
+            <text x="86" y="624" font-size="11.5" letter-spacing="1" fill="rgba(245,241,233,0.65)">FLIGHT HOME</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <p class="map-caption">Illustrative, not to scale &mdash; but every crossing time is exact, taken from your confirmed reservations.</p>
   </div>
 </section>
 
