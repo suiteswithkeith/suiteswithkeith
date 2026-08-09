@@ -1061,3 +1061,22 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
 
 .signup-continue { margin: 12px 0 0; font-size: 0.78rem; letter-spacing: 0.06em; opacity: 0.85; text-align: center; }
 .signup-continue a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- Scroll reveal (reveal.js) ----------
+   Only applies once reveal.js adds .reveal-ready to <html>,
+   so content is never hidden if JS doesn't run. */
+@media (prefers-reduced-motion: no-preference) {
+  html.reveal-ready .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  html.reveal-ready .reveal.reveal-in {
+    opacity: 1;
+    transform: none;
+  }
+  /* Gentle stagger for side-by-side grid children */
+  html.reveal-ready .areas-grid > .reveal:nth-child(2),
+  html.reveal-ready .rank-sidebar-grid > .reveal:nth-child(2) { transition-delay: 0.12s; }
+  html.reveal-ready .areas-grid > .reveal:nth-child(3) { transition-delay: 0.24s; }
+}
