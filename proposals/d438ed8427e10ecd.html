@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>John &amp; Claire's Greek Honeymoon | Suites With Keith</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  :root {
+    --container-max: 1160px;
+    --grid-gap: 32px;
+  }
+  .jc-eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--olive-deep);
+    display: block;
+  }
+  .jc-container { max-width: var(--container-max); margin: 0 auto; padding-left: 40px; padding-right: 40px; }
+
+  /* Hero */
+  .jc-hero { position: relative; width: 100%; height: 86vh; min-height: 560px; }
+  .jc-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .jc-hero .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(28,28,26,0.15) 0%, rgba(28,28,26,0.55) 100%); }
+  .jc-hero .inner { position: absolute; left: 0; right: 0; bottom: 0; max-width: var(--container-max); margin: 0 auto; padding: 0 40px 64px; }
+  .jc-hero .jc-eyebrow { color: var(--cream); }
+  .jc-hero h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2.4rem, 5.5vw, 4rem); color: var(--cream); margin: 14px 0 10px; max-width: 780px; line-height: 1.1; }
+  .jc-hero p { font-family: var(--font-body); font-weight: 300; font-size: 1.05rem; color: var(--cream); margin: 0; }
+
+  /* Confirmed intro */
+  .jc-intro { padding: 90px 0 70px; }
+  .jc-intro .grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--grid-gap); align-items: start; }
+  .jc-intro p { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.25rem, 2.2vw, 1.6rem); color: var(--charcoal); margin: 0; line-height: 1.45; }
+
+  /* Stop strip */
+  .jc-strip { padding-bottom: 90px; }
+  .jc-strip .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--grid-gap); }
+  .jc-strip .cell { border-top: 1px solid var(--hairline); padding-top: 18px; }
+  .jc-strip .dates { font-family: var(--font-body); font-size: 0.68rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.22em; color: var(--ink-soft); }
+  .jc-strip .place { font-family: var(--font-display); font-weight: 500; font-size: 1.3rem; color: var(--charcoal); margin-top: 6px; }
+  .jc-strip .nights { font-family: var(--font-body); font-weight: 300; font-size: 0.85rem; color: var(--ink-soft); margin-top: 4px; }
+
+  /* Section heads */
+  .jc-section { padding-bottom: 90px; }
+  .jc-section h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 24px; }
+  .jc-section .lede { font-family: var(--font-body); font-weight: 300; font-size: 1rem; color: var(--charcoal); max-width: 760px; line-height: 1.65; margin: 0 0 36px; }
+
+  /* Transfer cards */
+  .jc-transfers { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--grid-gap); }
+  .jc-card { background: var(--white); border: 1px solid var(--hairline); padding: 26px 28px; }
+  .jc-tag { display: inline-block; font-family: var(--font-body); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); border: 1px solid var(--olive); padding: 4px 10px; }
+  .jc-card .route { font-family: var(--font-display); font-weight: 500; font-size: 1.2rem; color: var(--charcoal); margin: 12px 0 10px; }
+  .jc-card .detail { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); line-height: 1.55; margin: 0; }
+  .jc-footnote { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); max-width: 760px; line-height: 1.6; margin: 28px 0 0; }
+
+  /* Stops */
+  .jc-stop { padding-bottom: 90px; }
+  .jc-stop .grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--grid-gap); align-items: center; }
+  .jc-stop .media img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+  .jc-stop h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 20px; }
+  .jc-label { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); margin-bottom: 6px; }
+  .jc-stop .hotel { font-family: var(--font-display); font-weight: 500; font-size: 1.15rem; color: var(--charcoal); }
+  .jc-stop .hotel-note { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); margin-top: 2px; }
+  .jc-divider { border-top: 1px solid var(--hairline); margin: 22px 0; }
+  .jc-highlights { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 0.98rem; color: var(--charcoal); line-height: 1.6; }
+  .jc-highlights li { padding-left: 18px; position: relative; margin-bottom: 10px; }
+  .jc-highlights li::before { content: ""; position: absolute; left: 0; top: 10px; width: 5px; height: 5px; border-radius: 50%; background: var(--olive); }
+
+  /* Day by day */
+  .jc-days { margin-top: 26px; background: var(--cream-deep); padding: 24px; }
+  .jc-days .head { font-family: var(--font-body); font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-soft); margin-bottom: 8px; }
+  .jc-day { border-top: 1px solid var(--hairline); padding: 14px 0 6px; }
+  .jc-day .date { font-family: var(--font-display); font-weight: 500; font-size: 1.02rem; color: var(--charcoal); margin-bottom: 8px; }
+  .jc-item { display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 5px 0; }
+  .jc-item .time { font-family: var(--font-body); font-size: 0.76rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--olive-deep); }
+  .jc-item .what { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--charcoal); line-height: 1.55; }
+  .jc-item .what a { display: inline-block; margin-left: 6px; font-size: 0.72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); }
+
+  /* Dining */
+  .jc-dining-group { margin-bottom: 44px; }
+  .jc-dining-group:last-child { margin-bottom: 0; }
+  .jc-dining-group .place { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 22px; }
+  .jc-dining-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+  .jc-dining-card .name { font-family: var(--font-display); font-weight: 500; font-size: 1.1rem; margin-bottom: 10px; }
+  .jc-dining-card .name a { color: var(--charcoal); text-decoration: none; border-bottom: 1px solid var(--hairline); }
+  .jc-dining-card .meta { font-family: var(--font-body); font-weight: 300; font-size: 0.88rem; color: var(--ink-soft); }
+  .jc-badge { display: inline-block; margin-top: 14px; font-family: var(--font-body); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--cream); background: var(--olive); padding: 5px 12px; }
+
+  /* Confirmations */
+  .jc-confirm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+  .jc-confirm-col .title { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 4px; }
+  .jc-confirm { padding: 12px 0; border-bottom: 1px solid var(--hairline); }
+  .jc-confirm .name { font-family: var(--font-display); font-weight: 500; font-size: 1rem; color: var(--charcoal); }
+  .jc-confirm .when { font-family: var(--font-body); font-weight: 300; font-size: 0.85rem; color: var(--ink-soft); margin-top: 2px; }
+  .jc-confirm .ref { font-family: var(--font-body); font-weight: 400; font-size: 0.85rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 4px; }
+
+  /* Support */
+  .jc-support { padding-bottom: 90px; }
+  .jc-support .grid { border-top: 1px solid var(--hairline); padding-top: 36px; display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--grid-gap); align-items: start; }
+  .jc-support .big { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin-top: 12px; line-height: 1.15; }
+  .jc-support p { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; line-height: 1.7; color: var(--charcoal); margin: 0 0 18px; }
+  .jc-phone-row { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; border-top: 1px solid var(--hairline); padding-top: 20px; }
+  .jc-phone-row .label { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); }
+  .jc-phone-row a { font-family: var(--font-display); font-weight: 500; font-size: 1.6rem; letter-spacing: 0.02em; color: var(--charcoal); text-decoration: none; }
+  .jc-sig { font-family: var(--font-body); font-weight: 300; font-size: 0.9rem; color: var(--ink-soft); margin-top: 14px; }
+
+  .jc-footer { border-top: 1px solid var(--hairline); padding: 32px 40px; text-align: center; font-family: var(--font-body); font-size: 0.78rem; color: var(--ink-soft); }
+
+  @media (max-width: 900px) {
+    .jc-container { padding-left: 24px; padding-right: 24px; }
+    .jc-hero .inner { padding: 0 24px 48px; }
+    .jc-intro .grid, .jc-stop .grid, .jc-support .grid { grid-template-columns: 1fr; }
+    .jc-strip .grid { grid-template-columns: repeat(2, 1fr); }
+    .jc-transfers { grid-template-columns: 1fr; }
+    .jc-dining-grid { grid-template-columns: 1fr; }
+    .jc-confirm-grid { grid-template-columns: 1fr; }
+    .jc-stop .media { order: 0 !important; }
+    .jc-stop .copy { order: 1 !important; }
+    .jc-item { grid-template-columns: 84px 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="jc-hero">
+  <img src="../images/itinerary/hero.jpg" alt="Aegean coastline at golden hour">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Private Itinerary &middot; Prepared by Suites With Keith</span>
+    <h1>John &amp; Claire&rsquo;s Greek Honeymoon</h1>
+    <p>Athens &middot; Sifnos &middot; Milos &middot; Santorini &nbsp;&mdash;&nbsp; August 21&ndash;September 6, 2026</p>
+  </div>
+</header>
+
+<section class="jc-intro">
+  <div class="jc-container">
+    <div class="grid">
+      <div><span class="jc-eyebrow">Your Trip, Confirmed</span></div>
+      <p>Sixteen nights, four islands, one plan. Every hotel, transfer, excursion, and dinner reservation arranged in advance &mdash; so all you have to do is pack.</p>
+    </div>
+  </div>
+</section>
+
+<section class="jc-strip">
+  <div class="jc-container">
+    <div class="grid">
+      <div class="cell">
+        <span class="dates">Aug 21&ndash;26</span>
+        <div class="place">Athens</div>
+        <div class="nights">5 nights</div>
+      </div>
+      <div class="cell">
+        <span class="dates">Aug 26&ndash;30</span>
+        <div class="place">Sifnos</div>
+        <div class="nights">4 nights</div>
+      </div>
+      <div class="cell">
+        <span class="dates">Aug 30&ndash;Sep 2</span>
+        <div class="place">Milos</div>
+        <div class="nights">3 nights</div>
+      </div>
+      <div class="cell">
+        <span class="dates">Sep 2&ndash;6</span>
+        <div class="place">Santorini</div>
+        <div class="nights">4 nights</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-section">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Getting Between the Islands</span>
+    <h2>Ferries, flights &amp; airport transfers</h2>
+    <p class="lede">Greek island transfers are their own kind of planning &mdash; ferry schedules shift with the wind, and the right connection turns a travel day into part of the trip. Here&rsquo;s exactly how you'll move from the airport through four islands and home again &mdash; two Delta legs across the Atlantic, a private car in from the airport, three Seajets high-speed catamarans between the islands, and the early Aegean hop home &mdash; each one booked and timed around the day it belongs to.</p>
+    <div class="jc-transfers">
+      <div class="jc-card">
+        <span class="jc-tag">Delta &middot; DL0296</span>
+        <div class="route">Atlanta &rarr; Athens</div>
+        <p class="detail">Departs ATL 4:20 PM Aug 20, lands ATH 10:00 AM Fri, Aug 21 &mdash; 10h 40m on an A330-900neo. Comfort Classic, seats 34G and 34F.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Private Limo Transfer</span>
+        <div class="route">Athens Airport &rarr; Electra Palace</div>
+        <p class="detail">10:30 pickup at Eleftherios Venizelos for two, luggage included, straight to the hotel door in Plaka. Order 25368, prepaid &mdash; currently dated Aug 20 and needs moving to Aug 21 to meet the flight.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Private Car &middot; Daytrip</span>
+        <div class="route">Plaka &rarr; Piraeus Port</div>
+        <p class="detail">Aug 26 &mdash; 6:45 AM pickup at Thrasivoylou 9 for the 7:45 ferry. Sedan for two, no stops, free cancellation up to 24 hours before. Booking P48DFP2E.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Seajets &middot; Champion Jet 3</span>
+        <div class="route">Piraeus &rarr; Sifnos</div>
+        <p class="detail">Wed, Aug 26 &mdash; 07:45 to 10:15, about 2 hours 30 minutes, VIP platinum seating booked for both. E-ticket boarding, no collection needed. Reservation 7736URCBG.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Seajets &middot; Champion Jet 3</span>
+        <div class="route">Sifnos &rarr; Adamantas, Milos</div>
+        <p class="detail">Sun, Aug 30 &mdash; 10:25 to 11:10, a quick 45-minute hop, business club-class seats. Timed to land in Milos with the whole day still ahead. Reservation 7736URCRT.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Seajets &middot; Olympic Champion Jet</span>
+        <div class="route">Adamantas &rarr; Santorini</div>
+        <p class="detail">Wed, Sep 2 &mdash; 11:40 to 14:10, about 2 hours 30 minutes, VIP platinum seating, with port transfers arranged on both ends. Reservation 7736URCRH.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Aegean Airlines &middot; A3351</span>
+        <div class="route">Santorini &rarr; Athens</div>
+        <p class="detail">Sun, Sep 6 &mdash; 06:00 to 06:45, nonstop, ComfortFlex economy for both. An early start out of Oia, so a pre-dawn transfer to the airport is worth arranging. Booking reference 7QGWO9.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Delta &middot; DL0297</span>
+        <div class="route">Athens &rarr; Atlanta</div>
+        <p class="detail">Sep 6 &mdash; 11:30 AM out of ATH, landing 4:47 PM at the international terminal, 12h 17m on an A330-900neo. Comfort Classic, seats 35C and 35D, connecting from the morning flight off Santorini.</p>
+      </div>
+    </div>
+    <p class="jc-footnote">Every leg &mdash; ferry, flight, and car &mdash; is booked and confirmed. Reference numbers are listed with each one.</p>
+  </div>
+</section>
+
+<section class="jc-stop">
+  <div class="jc-container">
+    <div class="grid">
+      <div class="media">
+        <img src="../images/itinerary/athens.jpg" alt="Athens — the Acropolis above Plaka">
+      </div>
+      <div class="copy">
+        <span class="jc-eyebrow">Stop 01 &middot; Aug 21&ndash;26</span>
+        <h2>Athens</h2>
+        <div class="jc-label">Where You&rsquo;ll Stay</div>
+        <div class="hotel">Ma Maison N&deg;10, Plaka</div>
+        <div class="hotel-note">An elegant villa on Thrasivoylou, in Plaka right under the Acropolis. First night Aug 21 in the presidential suite at Electra Palace on N. Nikodimou, then the villa Aug 22&ndash;26 &mdash; check in 4:00 PM, out 11:00 AM. Confirmation HM3Q4YEWRS, hosted by Yannis.</div>
+        <div class="jc-divider"></div>
+        <div class="jc-label">The Highlights</div>
+        <ul class="jc-highlights">
+          <li>Private 2-hour guided tour of the Acropolis &amp; Parthenon with Travel Curious</li>
+          <li>Beach club day at Manko Athens in Glifada &mdash; &euro;140 minimum spend prepaid</li>
+          <li>The Ultimate Athens Food Tour with Greeking.me &mdash; Aug 25, a private gastronomy walk for two</li>
+          <li>Welcome dinner at the Electra Roof Garden &mdash; Aug 21 at 8:00 PM, the Acropolis lit up across the terrace</li>
+        </ul>
+        <div class="jc-days">
+          <div class="head">Day by Day</div>
+          <div class="jc-day">
+            <div class="date">Fri, Aug 21</div>
+            <div class="jc-item"><span class="time">10:00 AM</span><span class="what">Delta DL0296 lands at Athens from Atlanta, seats 34G and 34F.</span></div>
+            <div class="jc-item"><span class="time">10:30 AM</span><span class="what">Private car meets you at arrivals and drives straight to Electra Palace in Plaka. Order 25368, prepaid &mdash; the booking is dated Aug 20 and needs moving to today.</span></div>
+            <div class="jc-item"><span class="time">8:00 PM</span><span class="what">Dinner at the Electra Roof Garden, the Acropolis lit up across the terrace. Booked for two under John Shows.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Sat, Aug 22</div>
+            <div class="jc-item"><span class="time">4:00 PM</span><span class="what">Check in to Ma Maison N&deg;10 on Thrasivoylou &mdash; the Plaka villa, yours through Aug 26. Confirmation HM3Q4YEWRS, hosted by Yannis.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Sun, Aug 23</div>
+            <div class="jc-item"><span class="time">7:45 AM</span><span class="what">Private 2-hour Acropolis and Parthenon walking tour with Travel Curious. Your guide meets you at Sparta Point Caf&eacute;, Propilaion 9 &mdash; arrive 10 minutes early. Ref PE185652119.<a href="https://www.travelcurious.com" target="_blank" rel="noopener">Travel Curious</a></span></div>
+            <div class="jc-item"><span class="time">6:00 PM</span><span class="what">Sunset drinks at 360 Cocktail Bar, booked for two.</span></div>
+            <div class="jc-item"><span class="time">9:00 PM</span><span class="what">Dinner on Dolli&rsquo;s Rooftop, booked under Claire Pritchard.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Mon, Aug 24</div>
+            <div class="jc-item"><span class="time">All day</span><span class="what">Beach club day at Manko Athens in Glifada, on the Riviera. &euro;140 minimum spend already settled.<a href="https://www.mankoathens.com" target="_blank" rel="noopener">Manko Athens</a></span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Tue, Aug 25</div>
+            <div class="jc-item"><span class="time">10:30 AM</span><span class="what">The Ultimate Athens Food Tour with Greeking.me &mdash; private for two, meeting at Syntagma Square by the central fountain. Booking PE184655511.<a href="https://greeking.me" target="_blank" rel="noopener">Greeking.me</a></span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Wed, Aug 26</div>
+            <div class="jc-item"><span class="time">6:45 AM</span><span class="what">Daytrip sedan from the villa on Thrasivoylou to Piraeus, no stops, two bags. Booking P48DFP2E.</span></div>
+            <div class="jc-item"><span class="time">7:45 AM</span><span class="what">Seajets Champion Jet 3 out of Piraeus for Sifnos, VIP platinum seats. Reservation 7736URCBG.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-stop">
+  <div class="jc-container">
+    <div class="grid">
+      <div class="copy">
+        <span class="jc-eyebrow">Stop 02 &middot; Aug 26&ndash;30</span>
+        <h2>Sifnos</h2>
+        <div class="jc-label">Where You&rsquo;ll Stay</div>
+        <div class="hotel">Stamna Sifnos</div>
+        <div class="hotel-note">Suite with private pool and sea view, above Apollonia &mdash; advance purchase rate. Port pickup at Sifnos confirmed. Confirmation 50181SG001874.</div>
+        <div class="jc-divider"></div>
+        <div class="jc-label">The Highlights</div>
+        <ul class="jc-highlights">
+          <li>Group cooking class at Narlis Farm &mdash; Aug 28 at 10:00 AM, &euro;120 per person, paid on arrival</li>
+          <li>ATV rental confirmed &mdash; delivered to Stamna, then the hilltop villages and coastline at your own pace</li>
+          <li>Hike down to the hidden cove at Fykiada Beach</li>
+          <li>Dinner at Bostani and Cantina, Apollonia&rsquo;s favorite tables</li>
+        </ul>
+        <div class="jc-days">
+          <div class="head">Day by Day</div>
+          <div class="jc-day">
+            <div class="date">Wed, Aug 26</div>
+            <div class="jc-item"><span class="time">10:15 AM</span><span class="what">Arrive Sifnos. Stamna&rsquo;s port pickup is confirmed and waiting; your suite has a private pool and sea view. Confirmation 50181SG001874.</span></div>
+            <div class="jc-item"><span class="time">On arrival</span><span class="what">The ATV is brought to the hotel &mdash; no pickup to arrange, and collected from Stamna at the end of the stay.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Thu, Aug 27</div>
+            <div class="jc-item"><span class="time">7:00 PM</span><span class="what">Dinner at Bostani, Apollonia.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Fri, Aug 28</div>
+            <div class="jc-item"><span class="time">10:00 AM</span><span class="what">Group cooking class at Narlis Farm &mdash; ATV or a walk up to Apollonia. &euro;120 per person, paid on arrival.<a href="https://www.narlisfarm.gr" target="_blank" rel="noopener">Narlis Farm</a></span></div>
+            <div class="jc-item"><span class="time">10:00 PM</span><span class="what">A late table at Cantina.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Sat, Aug 29</div>
+            <div class="jc-item"><span class="time">7:00 PM</span><span class="what">Loggia, held 7&ndash;9 PM.</span></div>
+            <div class="jc-item"><span class="time">7:30 PM</span><span class="what">Stamna Sifnos, booked for two under Claire Pritchard.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Sun, Aug 30</div>
+            <div class="jc-item"><span class="time">10:25 AM</span><span class="what">Seajets Champion Jet 3 to Adamantas, business club class. Reservation 7736URCRT.</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="media">
+        <img src="../images/itinerary/sifnos.jpg" alt="Sifnos — Apollonia hillside">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-stop">
+  <div class="jc-container">
+    <div class="grid">
+      <div class="media">
+        <img src="../images/itinerary/milos.jpg" alt="Milos — the coastline at Kleftiko">
+      </div>
+      <div class="copy">
+        <span class="jc-eyebrow">Stop 03 &middot; Aug 30&ndash;Sep 2</span>
+        <h2>Milos</h2>
+        <div class="jc-label">Where You&rsquo;ll Stay</div>
+        <div class="hotel">Er&eacute;ma, a Member of Design Hotels</div>
+        <div class="hotel-note">Horizon Suite at Cape Chalaka &mdash; quiet, design-forward, sea views, breakfast included. Private transfer from Adamantas port arranged for arrival. Confirmation 98973SG001270.</div>
+        <div class="jc-divider"></div>
+        <div class="jc-label">The Highlights</div>
+        <ul class="jc-highlights">
+          <li>Half-day speed boat cruise to Kleftiko and Polyegos with Excellent Yachting &mdash; Aug 31, fully paid</li>
+          <li>Sunrise over the lunar landscape at Sarakiniko</li>
+          <li>625cc ATV delivered to Er&eacute;ma Aug 30&ndash;Sep 1 for the western beaches &mdash; Ammoudaraki, Triades, Agios Ioannis</li>
+          <li>Lunch at O&rsquo;Hammos, tucked above the water &mdash; a suggestion, no booking needed</li>
+        </ul>
+        <div class="jc-days">
+          <div class="head">Day by Day</div>
+          <div class="jc-day">
+            <div class="date">Sun, Aug 30</div>
+            <div class="jc-item"><span class="time">11:10 AM</span><span class="what">Arrive Adamantas; private transfer to Er&eacute;ma at Cape Chalaka. Horizon Suite, breakfast included. Confirmation 98973SG001270.</span></div>
+            <div class="jc-item"><span class="time">Morning</span><span class="what">The 625cc ATV is brought to Er&eacute;ma, yours through Sep 1, and collected from the hotel at the end. Paid to the rental partner on collection.</span></div>
+            <div class="jc-item"><span class="time">7:30 PM</span><span class="what">Dinner at Akiton, booked for two.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Mon, Aug 31</div>
+            <div class="jc-item"><span class="time">10:00 AM</span><span class="what">Half-day speed boat to Kleftiko and Polyegos with Excellent Yachting, departing Pollonia Port. Fully paid, ref PE184694812.<a href="https://www.e-y.gr" target="_blank" rel="noopener">Excellent Yachting</a></span></div>
+            <div class="jc-item"><span class="time">7:00 PM</span><span class="what">Dinner at Sirocco in Plaka.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Tue, Sep 1</div>
+            <div class="jc-item"><span class="time">Morning</span><span class="what">The western beaches by ATV &mdash; Ammoudaraki, Triades, Agios Ioannis.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Wed, Sep 2</div>
+            <div class="jc-item"><span class="time">11:40 AM</span><span class="what">Seajets Olympic Champion Jet to Santorini, VIP platinum seats. Reservation 7736URCRH.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-stop">
+  <div class="jc-container">
+    <div class="grid">
+      <div class="copy">
+        <span class="jc-eyebrow">Stop 04 &middot; Sep 2&ndash;6</span>
+        <h2>Santorini</h2>
+        <div class="jc-label">Where You&rsquo;ll Stay</div>
+        <div class="hotel">Andronis Boutique Hotel</div>
+        <div class="hotel-note">Caldera-view suite in Oia on Nik. Nomikou to close out the trip &mdash; check in Sep 2, out Sep 6. Booked as two confirmations &mdash; 9093592526988 for Sep 2&ndash;3, GAL516633749 for Sep 3&ndash;6.</div>
+        <div class="jc-divider"></div>
+        <div class="jc-label">The Highlights</div>
+        <ul class="jc-highlights">
+          <li>The Whole Experience wine tasting and lunch at Vassaltis &mdash; Sep 4 at 2:00 PM, transfer from Andronis included</li>
+          <li>Sunset cruise along the caldera aboard the Wally yacht with Saint Yachting &mdash; Sep 3</li>
+          <li>Degustation dinner at Lycabettus &mdash; Sep 4 at 7:30 PM, Cliff area, reached by about 130 steps</li>
+          <li>Dinner at Omnia, Canaves Epitome &mdash; Sep 3 at 7:00 PM, poolside seafood above Ammoudi Bay, smart casual</li>
+        </ul>
+        <div class="jc-days">
+          <div class="head">Day by Day</div>
+          <div class="jc-day">
+            <div class="date">Wed, Sep 2</div>
+            <div class="jc-item"><span class="time">2:10 PM</span><span class="what">Arrive Santorini and check in to Andronis Boutique Hotel in Oia. Confirmation 9093592526988 covers tonight.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Thu, Sep 3</div>
+            <div class="jc-item"><span class="time">Afternoon</span><span class="what">Sunset cruise along the caldera aboard the Wally yacht with Saint Yachting.<a href="https://www.saintyachts.com" target="_blank" rel="noopener">Saint Yachting</a></span></div>
+            <div class="jc-item"><span class="time">7:00 PM</span><span class="what">Dinner at Omnia, Canaves Epitome &mdash; poolside above Ammoudi Bay, smart casual. Tables held 30 minutes.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Fri, Sep 4</div>
+            <div class="jc-item"><span class="time">2:00 PM</span><span class="what">Vassaltis Vineyards, The Whole Experience tasting and lunch for two. Taxi from Andronis, paid to the driver in cash.<a href="https://vassaltis.com" target="_blank" rel="noopener">Vassaltis</a></span></div>
+            <div class="jc-item"><span class="time">7:30 PM</span><span class="what">Degustation dinner at Lycabettus, Cliff area &mdash; about 130 steps down from street level.</span></div>
+          </div>
+          <div class="jc-day">
+            <div class="date">Sun, Sep 6</div>
+            <div class="jc-item"><span class="time">6:00 AM</span><span class="what">Aegean A3351 to Athens, landing 6:45 AM. Booking reference 7QGWO9.</span></div>
+            <div class="jc-item"><span class="time">11:30 AM</span><span class="what">Delta DL0297 Athens to Atlanta, arriving 4:47 PM. Comfort Classic, seats 35C and 35D.</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="media">
+        <img src="../images/itinerary/santorini.jpg" alt="Santorini — Oia caldera at sunset">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-section">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Every Table, Booked</span>
+    <h2>Dining reservations, handled</h2>
+
+    <div class="jc-dining-group">
+      <div class="place">Athens</div>
+      <div class="jc-dining-grid">
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.electrahotels.gr" target="_blank" rel="noopener">Electra Roof Garden</a></div>
+          <div class="meta">Athens</div>
+          <div class="meta">Aug 21, 8:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.three-sixty.gr" target="_blank" rel="noopener">360 Cocktail Bar</a></div>
+          <div class="meta">Monastiraki, Athens</div>
+          <div class="meta">Aug 23, 6:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.thedolli.com" target="_blank" rel="noopener">Dolli&rsquo;s Rooftop</a></div>
+          <div class="meta">Plaka, Athens</div>
+          <div class="meta">Aug 23, 9:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.mankoathens.com" target="_blank" rel="noopener">Manko Athens</a></div>
+          <div class="meta">Glifada, Athens Riviera</div>
+          <div class="meta">Aug 24 &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="jc-dining-group">
+      <div class="place">Sifnos</div>
+      <div class="jc-dining-grid">
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Bostani%20Apollonia%20Sifnos" target="_blank" rel="noopener">Bostani</a></div>
+          <div class="meta">Sifnos</div>
+          <div class="meta">Aug 27, 7:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Cantina%20Sifnos" target="_blank" rel="noopener">Cantina</a></div>
+          <div class="meta">Sifnos</div>
+          <div class="meta">Aug 28, 10:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Loggia%20Apollonia%20Sifnos" target="_blank" rel="noopener">Loggia</a></div>
+          <div class="meta">Sifnos</div>
+          <div class="meta">Aug 29, 7:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.stamnasifnos.com" target="_blank" rel="noopener">Stamna Sifnos</a></div>
+          <div class="meta">Sifnos</div>
+          <div class="meta">Aug 29, 7:30 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="jc-dining-group">
+      <div class="place">Milos</div>
+      <div class="jc-dining-grid">
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Akiton%20Milos" target="_blank" rel="noopener">Akiton</a></div>
+          <div class="meta">Milos</div>
+          <div class="meta">Aug 30, 7:30 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Sirocco%20Plaka%20Milos" target="_blank" rel="noopener">Sirocco</a></div>
+          <div class="meta">Plaka, Milos</div>
+          <div class="meta">Aug 31, 7:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="jc-dining-group">
+      <div class="place">Santorini</div>
+      <div class="jc-dining-grid">
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.canaves.com" target="_blank" rel="noopener">Omnia, Canaves Epitome</a></div>
+          <div class="meta">Oia, above Ammoudi Bay</div>
+          <div class="meta">Sep 3, 7:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://vassaltis.com" target="_blank" rel="noopener">Vassaltis Vineyards</a></div>
+          <div class="meta">Santorini</div>
+          <div class="meta">Sep 4, 2:00 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.andronis.com" target="_blank" rel="noopener">Lycabettus, Andronis</a></div>
+          <div class="meta">Oia, Santorini</div>
+          <div class="meta">Sep 4, 7:30 PM &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="jc-section">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Everything in One Place</span>
+    <h2>Confirmation numbers</h2>
+    <div class="jc-confirm-grid">
+      <div class="jc-confirm-col">
+        <div class="title">Flights</div>
+        <div class="jc-confirm">
+          <div class="name">Delta DL0296 &middot; Atlanta &rarr; Athens</div>
+          <div class="when">Aug 20, 4:20 PM &mdash; Aug 21, 10:00 AM</div>
+          <div class="ref">Seats 34G, 34F</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Aegean A3351 &middot; Santorini &rarr; Athens</div>
+          <div class="when">Sep 6, 6:00 AM</div>
+          <div class="ref">7QGWO9</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Delta DL0297 &middot; Athens &rarr; Atlanta</div>
+          <div class="when">Sep 6, 11:30 AM</div>
+          <div class="ref">Seats 35C, 35D</div>
+        </div>
+      </div>
+      <div class="jc-confirm-col">
+        <div class="title">Ferries &amp; Transfers</div>
+        <div class="jc-confirm">
+          <div class="name">Airport &rarr; Electra Palace</div>
+          <div class="when">Aug 21, 10:30 AM</div>
+          <div class="ref">Taxiplon 25368</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Plaka &rarr; Piraeus Port</div>
+          <div class="when">Aug 26, 6:45 AM</div>
+          <div class="ref">Daytrip P48DFP2E</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Seajets &middot; Piraeus &rarr; Sifnos</div>
+          <div class="when">Aug 26, 7:45 AM</div>
+          <div class="ref">7736URCBG</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Seajets &middot; Sifnos &rarr; Milos</div>
+          <div class="when">Aug 30, 10:25 AM</div>
+          <div class="ref">7736URCRT</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Seajets &middot; Milos &rarr; Santorini</div>
+          <div class="when">Sep 2, 11:40 AM</div>
+          <div class="ref">7736URCRH</div>
+        </div>
+      </div>
+      <div class="jc-confirm-col">
+        <div class="title">Stays &amp; Experiences</div>
+        <div class="jc-confirm">
+          <div class="name">Ma Maison N&deg;10, Plaka</div>
+          <div class="when">Aug 22&ndash;26</div>
+          <div class="ref">HM3Q4YEWRS</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Stamna Sifnos</div>
+          <div class="when">Aug 26&ndash;30</div>
+          <div class="ref">50181SG001874</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Er&eacute;ma, Milos</div>
+          <div class="when">Aug 30&ndash;Sep 2</div>
+          <div class="ref">98973SG001270</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Andronis Boutique Hotel</div>
+          <div class="when">Sep 2&ndash;3 / Sep 3&ndash;6</div>
+          <div class="ref">9093592526988 / GAL516633749</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Acropolis walking tour</div>
+          <div class="when">Aug 23, 7:45 AM</div>
+          <div class="ref">PE185652119</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Athens food tour</div>
+          <div class="when">Aug 25, 10:30 AM</div>
+          <div class="ref">PE184655511</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Kleftiko speed boat, Milos</div>
+          <div class="when">Aug 31, 10:00 AM</div>
+          <div class="ref">PE184694812</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-support">
+  <div class="jc-container">
+    <div class="grid">
+      <div>
+        <span class="jc-eyebrow">While You&rsquo;re Away</span>
+        <div class="big">I&rsquo;m here if<br>anything comes up</div>
+      </div>
+      <div>
+        <p>Please reach out during your trip if anything comes up at all. I&rsquo;ll be in Austin &mdash; eight hours behind you &mdash; but I&rsquo;ll do my best to assist the moment something goes sideways.</p>
+        <p>The one potential challenge is ferry cancellations, which on the larger boats you&rsquo;re booked on are extremely rare. I&rsquo;ll be watching the Beaufort wind scale ahead of each crossing to make sure everything is all good. If we need to pivot, I have back-ups in place.</p>
+        <div class="jc-phone-row">
+          <span class="label">Anytime, day or night</span>
+          <a href="tel:+14152724316">415.272.4316</a>
+        </div>
+        <div class="jc-sig">&mdash; Keith</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="jc-footer">
+  Suites With Keith &middot; Curated by Keith Pence
+</footer>
+
+</body>
+</html>
