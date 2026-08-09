@@ -613,7 +613,7 @@ HOTELS = [
             ("Canaves service at the friendliest rate.", "Suite for suite, the most accessible way into the portfolio."),
         ],
         know=[
-            ("Only the master suite has a private pool.", "Everyone else shares the main pool — fine for a buyout group, worth knowing for a couple booking a single suite."),
+            ("Only the master suite has a private pool.", "Everyone else shares the main pool — fine for a buyout group, worth knowing for a couple booking a single suite. Sunday guests can also use the pool at <a href=\"canaves-epitome-santorini.html\">Canaves Epitome</a>, a short shuttle away."),
             ("Age restrictions lift only on a buyout.", "Booked as individual suites, standard Canaves age policies apply; signed as a full-villa contract, kids of any age are welcome."),
             ("Book it as a celebration.", "This property makes the most sense taken whole — honeymoons and couples are better served at <a href=\"canaves-oia-suites-santorini.html\">Oia Suites</a> or <a href=\"canaves-epitome-santorini.html\">Epitome</a>."),
         ],
