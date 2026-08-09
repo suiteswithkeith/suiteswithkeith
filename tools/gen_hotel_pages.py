@@ -595,7 +595,7 @@ HOTELS = [
         stat1_num="8", stat1_label="Suites In The Heart Of Oia",
         rank_href="santorini-hotels-ranked.html", rank_text="The Canaves portfolio, ranked",
         related_text="See The Full Santorini Ranking", cta2_text="The Santorini Ranking",
-        hero_img="../islands/santorini-hero.jpg", img2="../islands/santorini-hero.jpg",
+        hero_img="canaves-sunday-1.jpg", img2="canaves-sunday-2.jpg",
         stat2_num="10", stat2_label="Bedrooms As A Full-Property Buyout",
         meta_desc="Keith's firsthand review of Canaves Sunday — eight relaxed suites in the heart of Oia, bookable as one ten-bedroom villa buyout.",
         tagline="The Canaves you book when you want the whole thing to yourselves — eight suites in the heart of Oia, bookable as one ten-bedroom villa.",
