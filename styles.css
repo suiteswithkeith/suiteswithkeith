@@ -659,6 +659,29 @@ p a:not(.btn):not(.read-link):hover {
 
 /* ---------- Contact form ---------- */
 .contact-band { background: var(--cream); padding: 90px 0; }
+/* Floating mobile CTA (shared) */
+.mobile-sticky-cta {
+  display: none;
+  position: fixed;
+  left: 16px; right: 16px; bottom: 16px;
+  z-index: 500;
+  text-align: center;
+  background: var(--tan);
+  color: var(--charcoal);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 16px;
+  border-radius: 3px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+@media (max-width: 700px) {
+  .mobile-sticky-cta { display: block; }
+  body:has(.mobile-sticky-cta) { padding-bottom: 70px; }
+}
+
 .contact-form { max-width: 640px; margin: 0 auto; }
 .contact-form .field { margin-bottom: 22px; }
 .contact-form .field-row {

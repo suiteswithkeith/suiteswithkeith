@@ -93,6 +93,9 @@
       <div><span class="stat-num">15</span><span class="stat-label">Luxury Hotels Toured &amp; Reviewed</span></div>
       <div><span class="stat-num">Honeymoons</span><span class="stat-label">Anniversaries &amp; Caldera Escapes</span></div>
     </div>
+    <div style="margin-top:32px;">
+      <a href="#plan" class="btn btn-tan">Plan Your Honeymoon</a>
+    </div>
   </div>
 </header>
 
@@ -209,6 +212,12 @@
       </div>
     </div>
     
+
+    <div class="rank-cta">
+      <p class="rank-cta-line">Seeing something you love?</p>
+      <p class="rank-cta-sub">Every hotel on this list is bookable through me &mdash; same rate as booking direct, extra perks included, zero planning stress.</p>
+      <a href="#plan" class="btn btn-olive">Check Availability With Keith</a>
+    </div>
     <div class="rank-card reverse">
       <div class="rank-media">
         <img src="images/hotels/grace-1.jpg" alt="Andronis Luxury Suites">
@@ -333,6 +342,12 @@
       </div>
     </div>
     
+
+    <div class="rank-cta">
+      <p class="rank-cta-line">Not sure which one is right for you?</p>
+      <p class="rank-cta-sub">That's literally my job. Tell me about your trip &mdash; two minutes, no commitment &mdash; and I'll tell you exactly where I'd stay.</p>
+      <a href="#plan" class="btn btn-olive">Ask Keith</a>
+    </div>
     <div class="rank-card reverse">
       <div class="rank-media">
         <img src="images/hotels/andronis-arcadia-1.jpg" alt="Andronis Arcadia">
@@ -431,11 +446,90 @@
 
 <section class="guide-cta" id="plan">
   <div class="container">
-    <span class="eyebrow">Planning A Trip To Santorini?</span>
-    <h2>As a luxury travel advisor, I help clients choose the right hotel, secure preferred partner amenities, and build a personalized itinerary for the caldera.</h2>
-    <a href="mailto:keith.pence@fora.travel?subject=Santorini%20Trip%20Inquiry&body=Hi%20Keith%2C%0A%0AI%27m%20interested%20in%20planning%20a%20trip%20to%20Santorini.%0A%0AName%3A%20%0ATravel%20Dates%3A%20%0ADestination%28s%29%3A%20%0ABudget%3A%20%0AOccasion%3A%20%0A%0A" class="btn btn-tan">Plan Your Trip</a>
+    <span class="eyebrow">Planning A Santorini Honeymoon?</span>
+    <h2>I've toured every luxury hotel on this island. Tell me a little about your trip and I'll match you to the right hotel and the right room &mdash; with preferred partner perks included.</h2>
+    <form class="contact-form" action="https://formspree.io/f/mjgnadov" method="POST" style="text-align:left; margin-top:40px;">
+      <!-- Spam honeypot — leave empty -->
+      <input type="text" name="_gotcha" class="contact-hidden" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none;">
+      <input type="hidden" name="_subject" value="New Santorini honeymoon inquiry from the ranking page">
+      <input type="hidden" name="source_page" value="santorini-hotels-ranked">
+      <div class="field-row">
+        <div class="field">
+          <label for="sf-name">Name</label>
+          <input id="sf-name" type="text" name="name" required>
+        </div>
+        <div class="field">
+          <label for="sf-email">Email</label>
+          <input id="sf-email" type="email" name="email" required>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="sf-dates">Travel Dates</label>
+          <input id="sf-dates" type="text" name="travel_dates" placeholder="e.g. September 2027, or still deciding">
+        </div>
+        <div class="field">
+          <label for="sf-occasion">Occasion</label>
+          <select id="sf-occasion" name="occasion">
+            <option value="">Select one</option>
+            <option>Honeymoon</option>
+            <option>Anniversary</option>
+            <option>Wedding / Group Celebration</option>
+            <option>Milestone Celebration</option>
+            <option>Leisure / Getaway</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="sf-message">Which hotels caught your eye?</label>
+        <textarea id="sf-message" name="message" placeholder="e.g. Canaves Oia Suites looks perfect &mdash; thinking 4 nights in late September&hellip;"></textarea>
+      </div>
+      <button type="submit" class="btn btn-tan">Plan My Honeymoon</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
   </div>
 </section>
+
+<a href="#plan" class="mobile-sticky-cta">Plan Your Honeymoon</a>
+
+<script>
+(function () {
+  var form = document.querySelector('#plan .contact-form');
+  if (!form) return;
+  var status = form.querySelector('.form-status');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type="submit"]');
+    status.textContent = 'Sending\u2026';
+    status.className = 'form-status';
+    if (btn) btn.disabled = true;
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(function (r) {
+      if (r.ok) {
+        form.reset();
+        status.textContent = 'Thank you \u2014 your inquiry is on its way. I\u2019ll be in touch soon.';
+        status.className = 'form-status success';
+        if (window.gtag) {
+          gtag('event', 'generate_lead', { form_location: 'santorini_ranked' });
+        }
+      } else {
+        return r.json().then(function (d) {
+          throw new Error((d.errors && d.errors[0] && d.errors[0].message) || 'Something went wrong.');
+        });
+      }
+    }).catch(function (err) {
+      status.textContent = err.message + ' You can also email keith.pence@fora.travel directly.';
+      status.className = 'form-status error';
+    }).then(function () {
+      if (btn) btn.disabled = false;
+    });
+  });
+})();
+</script>
 
 <footer class="site-footer">
   <div class="container footer-signup">
