@@ -20,7 +20,7 @@ PAGE = Template("""<!DOCTYPE html>
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>$name Review — $island, Greece | Suites With Keith</title>
+<title>$name Review — $locale | Suites With Keith</title>
 <meta name="description" content="$meta_desc">
 <link rel="canonical" href="https://suiteswithkeith.com/hotels/$slug.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -28,16 +28,16 @@ PAGE = Template("""<!DOCTYPE html>
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 
 <meta property="og:type" content="article">
-<meta property="og:title" content="$name Review — $island, Greece | Suites With Keith">
+<meta property="og:title" content="$name Review — $locale | Suites With Keith">
 <meta property="og:description" content="$meta_desc">
 <meta property="og:url" content="https://suiteswithkeith.com/hotels/$slug.html">
-<meta property="og:image" content="https://suiteswithkeith.com/images/hotels/$hero_img">
+<meta property="og:image" content="https://suiteswithkeith.com/images/$img_dir/$hero_img">
 <meta property="og:site_name" content="Suites With Keith">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="$name Review — $island, Greece | Suites With Keith">
+<meta name="twitter:title" content="$name Review — $locale | Suites With Keith">
 <meta name="twitter:description" content="$meta_desc">
-<meta name="twitter:image" content="https://suiteswithkeith.com/images/hotels/$hero_img">
+<meta name="twitter:image" content="https://suiteswithkeith.com/images/$img_dir/$hero_img">
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../guide.css">
@@ -50,9 +50,9 @@ PAGE = Template("""<!DOCTYPE html>
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "$name Review — $island, Greece",
+  "headline": "$name Review — $locale",
   "description": "$meta_desc",
-  "image": "https://suiteswithkeith.com/images/hotels/$hero_img",
+  "image": "https://suiteswithkeith.com/images/$img_dir/$hero_img",
   "author": { "@type": "Person", "name": "Keith Pence" },
   "publisher": {
     "@type": "Organization",
@@ -78,9 +78,9 @@ PAGE = Template("""<!DOCTYPE html>
   </div>
 </nav>
 
-<header class="rank-hero" style="background-image:url('../images/hotels/$hero_img');">
+<header class="rank-hero" style="background-image:url('../images/$img_dir/$hero_img');">
   <div class="container">
-    <span class="eyebrow-mag">Hotel Guides &middot; $island, Greece</span>
+    <span class="eyebrow-mag">Hotel Guides &middot; $locale</span>
     <h1>$name</h1>
     <p class="tagline">$tagline</p>
     <div class="rank-stats">
@@ -101,7 +101,7 @@ $intro_paras
     </div>
     <div class="rank-toc">
       <h4>At A Glance</h4>
-      <span class="glance-row"><span class="g-label">Island</span><a href="../$island_page">$island Destination Guide &rarr;</a></span>
+      <span class="glance-row"><span class="g-label">$region_label</span>$region_html</span>
       <span class="glance-row"><span class="g-label">Style</span>$style_label</span>
       <span class="glance-row"><span class="g-label">Perfect For</span>$perfect_for</span>
       <span class="glance-row"><span class="g-label">My Ranking</span><a href="../$rank_href">$rank_text &rarr;</a></span>
@@ -113,7 +113,7 @@ $intro_paras
   <div class="container">
     <div class="rank-card">
       <div class="rank-media">
-        <img src="../images/hotels/$img2" alt="$name, $island">
+        <img src="../images/$img_dir/$img2" alt="$name, $island">
       </div>
       <div class="rank-copy">
         <span class="rank-num">What Stood Out</span>
@@ -142,7 +142,7 @@ $know_notes
     <div class="print-callout">
       <span class="eyebrow-mag">Book $short_name Through Me</span>
       <h3>Same Rate, More Perks</h3>
-      <p>Rates through me are identical to booking direct &mdash; the perks are not. As a Fora advisor$partner_clause, my clients receive a space-available upgrade, daily breakfast, and a $credit_label &mdash; plus my direct line to the team on property before and during your stay.</p>
+      <p>$perks_html</p>
       <a href="$mailto" class="btn btn-olive">Check Availability</a>
     </div>
   </div>
@@ -153,7 +153,7 @@ $know_notes
     <span class="eyebrow">Planning A Trip To $island?</span>
     <h2>I've personally $visited_verb $short_name. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.</h2>
     <a href="$mailto" class="btn btn-tan">Plan Your Trip</a>
-    <p style="margin-top:26px;"><a href="../$island_page" class="read-link">My $island Guide &rarr;</a> &nbsp;&nbsp; <a href="../$rank_href" class="read-link">$cta2_text &rarr;</a></p>
+    <p style="margin-top:26px;"><a href="../$island_page" class="read-link">$cta_island_text &rarr;</a> &nbsp;&nbsp; <a href="../$cta2_href" class="read-link">$cta2_text &rarr;</a></p>
   </div>
 </section>
 
@@ -622,6 +622,411 @@ HOTELS = [
         ],
         verdict="For groups or buyouts needing flexibility and privacy, this is my pick for the best villa in Santorini — and the most budget-friendly door into Canaves.",
     ),
+    dict(
+        slug="grace-santorini", name="Grace Hotel Santorini", short_name="Grace",
+        island="Santorini", island_page="santorini.html",
+        stat1_num="#07", stat1_label="In My Santorini Ranking",
+        rank_href="santorini-hotels-ranked.html", rank_text="#07 in my Santorini ranking",
+        related_text="See The Full Santorini Ranking", cta2_text="The Santorini Ranking",
+        hero_img="andronis-luxury-1.jpg", img2="andronis-luxury-1.jpg",
+        stat2_num="Fog", stat2_label="Line &mdash; Sometimes You're Above It",
+        meta_desc="Keith's firsthand review of Grace Hotel Santorini — high on the Imerovigli caldera, beautiful bright rooms, exceptional dining, and the caveats to know before booking.",
+        tagline="Set so high on the Imerovigli caldera you're sometimes literally above the fog line — beautiful, with caveats worth knowing.",
+        style_label="Caldera boutique", perfect_for="Honeymooners comfortable outside Oia",
+        credit_label="&euro;100 hotel credit", partner_clause="", visited_verb="toured every corner of",
+        intro=[
+            "I wanted to love Grace more than I did. Set way up on the Caldera in Imerovigli, you're sometimes literally above the fog line — a genuinely unique feeling, and ideal for honeymooners okay with being outside Oia.",
+            "The room design is simple, white, and elegant, and surprisingly bright for Santorini. The dining is exceptional too: Michelin-starred chef Lefteris Lazarou personally visits tables, and the food felt distinctly Greek yet modern.",
+            "So why #07 in my <a href=\"../santorini-hotels-ranked.html\">Santorini ranking</a>? Privacy and price. Some rooms sit directly on the Fira-to-Oia walking path — strangers passing in front of your private plunge pool — and at this rate level, there are simply better choices on the island until pricing comes down.",
+        ],
+        stood_out=[
+            ("Above the fog line.", "The Imerovigli elevation gives Grace a caldera perspective no Oia hotel can match — on the right morning it's otherworldly."),
+            ("Bright, elegant rooms.", "Simple and white, and surprisingly luminous for a caldera property — many Santorini rooms run dark; these don't."),
+            ("Exceptional dining.", "Michelin-starred chef Lefteris Lazarou personally visits tables — distinctly Greek, yet modern."),
+            ("A honeymoon feel without Oia's foot traffic.", "For couples happy to trade the Oia postcard for altitude and quiet, the setting delivers."),
+        ],
+        know=[
+            ("Privacy is inconsistent.", "Some rooms sit right on the Fira-to-Oia walking path. If you book Grace, tell me — I'll make sure your room isn't one of them."),
+            ("Skip the indoor hot tub rooms.", "One of the top categories smells strongly of chlorine as soon as you walk in — I'd steer you to a different suite."),
+            ("The price is the problem.", "A fantastic option, but at this rate level I'd compare it hard against my top five in the <a href=\"../santorini-hotels-ranked.html\">Santorini ranking</a> before committing."),
+        ],
+        verdict="A fantastic option — but at this price point, there are better choices on Santorini. Until rates come down, I'd look elsewhere first.",
+    ),
+    dict(
+        slug="mystique-santorini", name="Mystique", short_name="Mystique",
+        island="Santorini", island_page="santorini.html",
+        stat1_num="#09", stat1_label="In My Santorini Ranking",
+        rank_href="santorini-hotels-ranked.html", rank_text="#09 in my Santorini ranking",
+        related_text="See The Full Santorini Ranking", cta2_text="The Santorini Ranking",
+        hero_img="katikies-1.jpg", img2="katikies-1.jpg",
+        stat2_num="35&ndash;45%", stat2_label="Of Stays Are Bonvoy Redemptions",
+        meta_desc="Keith's firsthand review of Mystique Santorini — good bones and a great location, but rooms that need a renovation. Who it still makes sense for.",
+        tagline="Good bones, a great location, and the Empiria Group behind it &mdash; but the rooms need a renovation before I'd send most clients.",
+        style_label="Caldera resort (Marriott Luxury Collection)", perfect_for="Marriott Bonvoy redemptions",
+        credit_label="hotel credit", partner_clause="", visited_verb="toured every corner of",
+        intro=[
+            "Of all the hotels I toured on Santorini, I was most let down by Mystique — a bummer given how much I love the Empiria Group team behind some of the best hotels in the Cyclades.",
+            "The rooms had little to no privacy and felt bland and under-decorated; even the largest room I toured had oddly empty spaces that needed furniture. The signature earthy cave rooms also run dark, and combined with the sparse decor, some feel almost echoey.",
+            "Here's the context that explains a lot: I was told 35&ndash;45% of stays are Marriott Bonvoy redemptions, which may explain the pricing strategy — and why cash guests can feel shortchanged at these rates. The bones and the location are genuinely good; the property just needs updated finishes to justify the price.",
+        ],
+        stood_out=[
+            ("The location and the bones.", "The caldera perch is real, and the sculpted architecture photographs beautifully — the raw material for a great hotel is all here."),
+            ("The Empiria Group connection.", "The same team runs some of the best hotels in the Cyclades — which is exactly why I believe a renovation would change everything."),
+            ("A points sweet spot.", "If you're sitting on Marriott Bonvoy points, this is one of the highest-value caldera redemptions that exists."),
+            ("Earth tones instead of white.", "Mystique's warm, sculpted look is a genuine change from Santorini's standard whitewash — when it's lit well, it's special."),
+        ],
+        know=[
+            ("Privacy is minimal.", "The rooms I toured had little to none — a real issue at this price point on this island."),
+            ("The cave rooms run dark.", "Combined with sparse decor, some rooms feel almost echoey. Ask me about specific categories before booking."),
+            ("Paying cash? Look one notch up.", "At cash rates, my <a href=\"../santorini-hotels-ranked.html\">top five on Santorini</a> deliver meaningfully more for similar money."),
+        ],
+        verdict="I'd probably only send Bonvoy enthusiasts here for now — otherwise there are better options.",
+    ),
+    dict(
+        slug="katikies-santorini", name="Katikies Santorini", short_name="Katikies",
+        island="Santorini", island_page="santorini.html",
+        stat1_num="#10", stat1_label="In My Santorini Ranking",
+        rank_href="santorini-hotels-ranked.html", rank_text="#10 in my Santorini ranking",
+        related_text="See The Full Santorini Ranking", cta2_text="The Santorini Ranking",
+        hero_img="mystique-1.jpg", img2="mystique-1.jpg",
+        stat2_num="3", stat2_label="Caldera Properties In The Portfolio",
+        meta_desc="Keith's firsthand review of the Katikies portfolio on Santorini — an undeniably beautiful setting with dated execution, and what would change his mind.",
+        tagline="Three caldera properties with an undeniably beautiful setting &mdash; and interiors that feel stuck sometime in the early 2010s.",
+        style_label="Caldera hotel portfolio", perfect_for="Katikies loyalists &mdash; or anyone willing to wait for a renovation",
+        credit_label="hotel credit", partner_clause="", visited_verb="toured",
+        intro=[
+            "I was really not impressed by Katikies, and I say that with no joy — the setting across all three of their Caldera properties is undeniably beautiful, the white terraced architecture is what half of Santorini's postcards are made of, and the spa at Pelagos House is expansive and genuinely impressive.",
+            "But the hotels themselves feel stuck sometime in the early 2010s. The furniture needs an update — some pieces looked like they belonged at your grandmother's house, not a five-star Santorini stay — and unlike Andronis or Canaves, there are no coverings over the patios, which translates directly into an overall lack of privacy.",
+            "There's real potential here. If Katikies follows Andronis and Canaves into continuous renovation, they could genuinely compete again — the location was never the problem. Until then, my honest advice is in the verdict below.",
+        ],
+        stood_out=[
+            ("The setting.", "All three Caldera properties occupy genuinely beautiful positions — this is the terraced white Santorini everyone pictures."),
+            ("The spa at Pelagos House.", "Expansive and impressive — the standout facility across the portfolio."),
+            ("The photographs.", "The iconic white stairs and infinity pools still deliver the postcard, even where the rooms behind them don't."),
+            ("The potential.", "Good bones, great locations — a serious renovation would move this portfolio several spots up my ranking."),
+        ],
+        know=[
+            ("No coverings over the patios.", "Unlike Andronis or Canaves, which means less shade and much less privacy on your terrace."),
+            ("The interiors are dated.", "Furniture and finishes lag the top of the island by a decade — you feel it most at these rates."),
+            ("The honest math.", "Spend $100&ndash;$200 more per night and you're at one of my <a href=\"../santorini-hotels-ranked.html\">top five on Santorini</a> — that delta buys a different trip."),
+        ],
+        verdict="Until a renovation lands, spend $100&ndash;$200 more per night and stay at one of the options above it on my list instead.",
+    ),
+    dict(
+        slug="meadowood-napa-valley", name="Meadowood Napa Valley", short_name="Meadowood",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="St. Helena, Napa Valley", region_label="Region",
+        region_html="St. Helena, Napa Valley, California",
+        stat1_num="#01", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#01 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="meadowood-1.jpg", img2="meadowood-2.jpg",
+        stat2_num="~40", stat2_label="Cottages &mdash; Not A Bad Room Among Them",
+        meta_desc="Keith's firsthand review of Meadowood Napa Valley — the benchmark of wine country after years of repeat stays. Service, cottages, spa, and who it's for.",
+        tagline="The benchmark of wine country &mdash; Aman-level service, private cottages, and the property I measure every other Napa stay against.",
+        style_label="Estate resort", perfect_for="Honeymoons, celebrations, wine lovers, returning visitors",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Meadowood is a Fora / Virtuoso preferred partner, and booking through me often includes an additional $500 property credit on top of standard amenities like breakfast and upgrade priority.",
+        visited_verb="stayed many times at", credit_label="", partner_clause="",
+        intro=[
+            "There's something so special about Meadowood, and it's sort of hard to put your finger on it. Service is at Aman quality standards, with a real sense of place, spacious and fairly private cottages, a beautiful spa, and thoughtful turndown treats each evening.",
+            "It's a small property — around 40 cottages tucked into a private wooded estate above St. Helena — and there really isn't a bad room to be had. That combination of intimacy and polish is why it holds #01 in my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma ranking</a> after years of repeat stays across the valley.",
+            "Every time I go to Meadowood, I feel well taken care of — and I can't say that about every property on this list.",
+        ],
+        stood_out=[
+            ("Service at Aman standards.", "The single biggest separator in wine country — you feel looked after from arrival to checkout."),
+            ("The cottages.", "Spacious, private, and scattered through the estate's woods — around 40 keys total, with no bad rooms."),
+            ("The tennis facility is a hidden gem.", "Beautiful courts with instructors I'd recommend in a heartbeat."),
+            ("The details.", "Thoughtful turndown treats each evening, and a beautiful spa to build slow mornings around."),
+        ],
+        know=[
+            ("Mind the stairs.", "About 90% of rooms aren't fully accessible, though buggies are available for those with mobility concerns."),
+            ("It skews a bit older.", "The property tends to attract 40+ couples, though there's a family pool and it works well solo too."),
+            ("Book through a Virtuoso partner.", "The additional credit — often $500 — meaningfully changes the math on a multi-night stay."),
+        ],
+        verdict="Every time I go to Meadowood, I feel well taken care of — and I can't say that about every property on this list.",
+    ),
+    dict(
+        slug="four-seasons-napa-valley", name="Four Seasons Napa Valley", short_name="Four Seasons Napa",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="Calistoga, Napa Valley", region_label="Region",
+        region_html="Calistoga, Napa Valley, California",
+        stat1_num="#02", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#02 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="four-seasons-1.jpg", img2="four-seasons-2.jpg",
+        stat2_num="1&#9733;", stat2_label="Michelin Restaurant In The Vineyards",
+        meta_desc="Keith's firsthand review of Four Seasons Napa Valley — four-plus stays in, the most versatile luxury resort in wine country, with a Michelin star on property.",
+        tagline="Set within its own working vineyard in Calistoga &mdash; consistently excellent, and the rare wine country hotel that fits almost everyone.",
+        style_label="Vineyard resort", perfect_for="Families, girls trips, couples, groups",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Four Seasons Napa Valley is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        visited_verb="stayed repeatedly at", credit_label="", partner_clause="",
+        intro=[
+            "I've stayed at Four Seasons Napa Valley four or five times now, and since they've worked out the early kinks, I think they've earned the #02 spot in my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma ranking</a>.",
+            "Architecturally the hotel is beautiful, with a mix of dark, moody rooms and bright white farmhouse styles set within the vineyards. The pools are gorgeous, the one-star Michelin restaurant is fantastic, and I love the pool bar.",
+            "What actually separates it from the property just below it on my list is simpler: service at genuine Four Seasons standard, applied to a resort that fits families, couples, girls trips, and multi-couple groups equally well.",
+        ],
+        stood_out=[
+            ("Service at Four Seasons standard.", "Genuinely what separates it from the hotels below it — consistent across every stay I've had."),
+            ("A Michelin star on property.", "The one-star restaurant is fantastic, and the pool bar is a favorite in its own right."),
+            ("The architecture.", "Dark moody rooms or bright white farmhouse styles, set within a working vineyard."),
+            ("It fits almost everyone.", "Families, couples, girls trips, and groups all genuinely work here — rare at this level."),
+        ],
+        know=[
+            ("The ground-floor showers are oddly exposed.", "They face the pathways — you can close the curtain, but it's a strange design choice worth knowing about."),
+            ("Calistoga is the far end of the valley.", "Beautiful, quieter, and a longer drive from the southern wineries — plan tastings accordingly."),
+            ("Watch for the free-night offers.", "Third or fourth night free shows up through preferred partner channels — it changes the math on longer stays."),
+        ],
+        verdict="It's a great property that lends itself to a large swath of people.",
+    ),
+    dict(
+        slug="montage-healdsburg", name="Montage Healdsburg", short_name="Montage Healdsburg",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="Healdsburg, Sonoma County", region_label="Region",
+        region_html="Healdsburg, Sonoma County, California",
+        stat1_num="#03", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#03 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="montage-1.jpg", img2="montage-3-firepit.jpg",
+        stat2_num="20+", stat2_label="Stays &mdash; My Most-Returned-To Hotel",
+        meta_desc="Keith's firsthand review of Montage Healdsburg after 20+ stays — vineyard rooms with fire pits, the best restaurant view in wine country, and what to book.",
+        tagline="My home away from home &mdash; 20-plus stays in, the vineyard rooms and their fire pits still never get old.",
+        style_label="Hillside vineyard resort", perfect_for="Wine lovers, couples, returning visitors",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Montage Healdsburg is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        visited_verb="stayed 20+ times at", credit_label="", partner_clause="",
+        intro=[
+            "I love the Montage and have stayed there at least 20 times over the past few years — more than any other hotel on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a>, which tells you most of what you need to know.",
+            "It's perfectly situated just outside downtown Healdsburg, close to wineries, with a complimentary shuttle to the plaza. The dining has perhaps the best view of any restaurant on this list, and I actually prefer the vineyard rooms over the mountain or oak rooms.",
+            "It's just a great property, and I feel lucky I've spent so many nights there.",
+        ],
+        stood_out=[
+            ("Book a vineyard room.", "Waking up and sitting by your fire pit overlooking the vineyards never gets old — my clear pick over the mountain and oak categories."),
+            ("The best restaurant view on my list.", "Dinner looks out over the vines and hills — no other wine country dining room matches it."),
+            ("They remember you.", "One masseuse in particular I make a point to see every time I go — the returning-guest experience is real."),
+            ("The Healdsburg shuttle.", "Complimentary rides to the plaza mean nobody argues about who's driving home from dinner."),
+        ],
+        know=[
+            ("Service has slipped slightly in recent visits.", "As has some wear and tear on the finishes — nothing major, but worth knowing at this rate level."),
+            ("Choose your room category deliberately.", "Vineyard rooms are the property's magic; the others are lovely but miss the signature view."),
+            ("Healdsburg is Sonoma, not Napa.", "A more relaxed, less commercial base — my preference, but know which valley you're signing up for."),
+        ],
+        verdict="It's just a great property, and I feel lucky I've spent so many nights there.",
+    ),
+    dict(
+        slug="solage-calistoga", name="Solage Calistoga", short_name="Solage",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="Calistoga, Napa Valley", region_label="Region",
+        region_html="Calistoga, Napa Valley, California",
+        stat1_num="#04", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#04 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="solage-1.jpg", img2="solage-2.jpg",
+        stat2_num="Private", stat2_label="Gardens Or Terraces On Most Rooms",
+        meta_desc="Keith's firsthand review of Solage Calistoga — iconic California wine country design, private terraces, and honest notes on where it trails the top three.",
+        tagline="Iconic California wine country design &mdash; private gardens, a laid-back energy, and rates that undercut the hotels above it.",
+        style_label="Design resort (Auberge)", perfect_for="Younger couples, families, girls trips",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Solage is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        visited_verb="stayed at", credit_label="", partner_clause="",
+        intro=[
+            "Solage is sort of iconic — it really defines California wine country luxury, and the design still holds up as the template half the newer properties are chasing.",
+            "It sits at #04 on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a> for two honest reasons: it doesn't have the service standards of the properties above it, and it's starting to feel a bit dated — especially the spa. That said, I love the design, and most rooms have a private garden or terrace, some with private hot tubs.",
+            "The math works in its favor: rates run lower than the top three, making it one of the strongest cost-to-experience options in the valley.",
+        ],
+        stood_out=[
+            ("Real privacy.", "If you need a completely private terrace or garden, Solage is one of the best options on my entire list — some rooms add private hot tubs."),
+            ("The design.", "Iconic Calistoga-modern that defined the look of California wine country luxury."),
+            ("The value.", "Rates run meaningfully lower than the properties above it — strong cost-to-experience."),
+            ("The energy.", "Younger, more relaxed, and less formal than the top of the list — a feature, not a bug, for the right trip."),
+        ],
+        know=[
+            ("The spa could use a refresh.", "It's a big reason people book here, so this is worth knowing before you go."),
+            ("Service isn't top-three standard.", "Perfectly good — just not the level of Meadowood or Four Seasons, and you notice at the margins."),
+            ("Calistoga base.", "The far north end of the valley — quieter, hot-springs country, and a longer drive from southern Napa wineries."),
+        ],
+        verdict="A fantastic hotel — just not quite at the level of the three above it.",
+    ),
+    dict(
+        slug="macarthur-place-sonoma", name="MacArthur Place", short_name="MacArthur Place",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="Sonoma, California", region_label="Region",
+        region_html="Downtown Sonoma, California",
+        stat1_num="#05", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#05 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="macarthur.jpg", img2="macarthur.jpg",
+        stat2_num="Walk", stat2_label="To Downtown Sonoma &mdash; No Driving Back",
+        meta_desc="Keith's firsthand review of MacArthur Place — Sonoma's hidden gem, steps from downtown, with beautiful design, reasonable rates, and a freshly remodeled pool.",
+        tagline="Sonoma's hidden gem &mdash; walk to the plaza, skip the designated driver, and pay less than the marquee names.",
+        style_label="Boutique garden estate", perfect_for="Returning visitors, walkability, wine tasting",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. MacArthur Place is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available.",
+        visited_verb="stayed at", credit_label="", partner_clause="",
+        intro=[
+            "I love MacArthur Place and think it's such a hidden gem in Sonoma. It's right next to downtown, so you can walk or bike into town, the design is beautiful, prices are reasonable, and the pool just finished an extensive remodel.",
+            "The location advantage is bigger than it sounds: it's the easiest walk to town on my entire <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a>, which means nobody worries about driving back after a few glasses of wine.",
+            "Downtown Sonoma itself is a big part of the draw — quaint, local, and less commercialized than Healdsburg, with easy access to Glen Ellen. And it's just an easy getaway from San Francisco.",
+        ],
+        stood_out=[
+            ("The easiest walk to town on my list.", "Wine-taste all afternoon and stroll home — no designated driver required."),
+            ("The design.", "A beautiful garden-estate feel that punches above its rate."),
+            ("The freshly remodeled pool.", "Just finished an extensive renovation — the property's newest asset."),
+            ("Downtown Sonoma.", "Quaint, local, and less commercialized than Healdsburg, with Glen Ellen close by."),
+        ],
+        know=[
+            ("The spa is lackluster.", "It's the one weak point compared to the top four — plan treatments elsewhere if the spa is central to your trip."),
+            ("It's a boutique, not a resort.", "Fewer facilities than the marquee names — the town is your amenity."),
+            ("Best as a second-trip base.", "Ideal for returning visitors who've done the Napa marquee circuit and want walkable, local wine country."),
+        ],
+        verdict="A great option for return visitors who'd rather not drive back to their hotel every night.",
+    ),
+    dict(
+        slug="stanly-ranch-napa", name="Stanly Ranch", short_name="Stanly Ranch",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="Carneros, Napa Valley", region_label="Region",
+        region_html="Carneros, Napa Valley, California",
+        stat1_num="#06", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#06 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="stanly-ranch.jpg", img2="stanly-ranch.jpg",
+        stat2_num="Fire", stat2_label="Pits On Every Room's Terrace",
+        meta_desc="Keith's firsthand review of Stanly Ranch — the most architecturally striking hotel in Napa, the prettiest spa, and why the location keeps it at #06.",
+        tagline="Possibly the most architecturally striking hotel in wine country &mdash; with a location that never quite feels like wine country.",
+        style_label="Modern ranch resort (Auberge)", perfect_for="Younger couples, wellness travelers, design lovers",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Stanly Ranch is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        visited_verb="stayed at", credit_label="", partner_clause="",
+        intro=[
+            "Stanly Ranch might be the most architecturally striking hotel on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a>. The spa is arguably the prettiest in the valley, every room has a large outdoor terrace with a fire pit, and Bear, the main restaurant, is one of the more interesting dining options in Napa.",
+            "So why #06? The location doesn't quite deliver the classic wine country feeling. It's convenient to both Napa and Sonoma, but it sits out in the Carneros marshes — beautiful in its own way, just not the vineyard postcard most people fly in for.",
+            "Beautiful, but I don't find myself wanting to go back as often as the hotels above it.",
+        ],
+        stood_out=[
+            ("The architecture.", "Arguably the most striking design statement in wine country — modern ranch done at full conviction."),
+            ("The spa.", "The prettiest in the valley in my book — wellness travelers should weight this heavily."),
+            ("Fire pits on every terrace.", "Every room gets a large outdoor terrace with its own fire pit."),
+            ("Bear.", "The main restaurant is one of the more interesting dining options in Napa right now."),
+        ],
+        know=[
+            ("It doesn't feel like wine country.", "Convenient to both valleys, but set in the marshes — if the vineyard postcard is the point, look at <a href=\"montage-healdsburg.html\">Montage</a> or <a href=\"meadowood-napa-valley.html\">Meadowood</a>."),
+            ("Terrace privacy is limited.", "Despite the indoor-outdoor emphasis, many terraces offer almost none — ask me about specific rooms."),
+            ("Small frictions.", "The lighting controls are unintuitive — a minor but recurring frustration across stays."),
+        ],
+        verdict="Beautiful, but I don't find myself wanting to go back as often as the hotels above it.",
+    ),
+    dict(
+        slug="madrona-manor-healdsburg", name="Madrona Manor", short_name="Madrona",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="Healdsburg, Sonoma County", region_label="Region",
+        region_html="Healdsburg, Sonoma County, California",
+        stat1_num="#07", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#07 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="madrona.jpg", img2="madrona.jpg",
+        stat2_num="Estate", stat2_label="Living &mdash; Not A Traditional Hotel",
+        meta_desc="Keith's firsthand review of Madrona Manor — a Jay Jeffers-designed Healdsburg estate that feels like a home, and one of Sonoma's most romantic stays.",
+        tagline="Not a hotel so much as someone's impossibly beautiful estate &mdash; and one of the most romantic front porches in Sonoma County.",
+        style_label="Historic estate (Jay Jeffers design)", perfect_for="Couples, romantic getaways",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Madrona is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available.",
+        visited_verb="stayed at", credit_label="", partner_clause="",
+        intro=[
+            "Madrona Manor feels completely different from every other hotel on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a> — more like staying at someone's incredibly beautiful estate than a traditional luxury hotel.",
+            "The design by Jay Jeffers is stunning, and sitting on the front porch with a glass of wine overlooking the vineyards is one of my favorite experiences anywhere in Sonoma County.",
+            "The trade-offs are real but simple: there's no spa, the pool is underwhelming, and this is emphatically a couples property — I wouldn't recommend it for families. For a romantic weekend, none of that matters.",
+        ],
+        stood_out=[
+            ("The Jay Jeffers design.", "A stunning estate restoration — every room feels collected rather than specified."),
+            ("The front porch.", "A glass of wine overlooking the vineyards from that porch is one of my favorite moments in Sonoma County."),
+            ("The estate feel.", "You're a houseguest, not a room number — completely different energy from every resort on this list."),
+            ("E-bikes to Healdsburg Plaza.", "Just a few minutes away, while the property itself stays perfectly peaceful."),
+        ],
+        know=[
+            ("No spa, and the pool is underwhelming.", "The main drawbacks on an otherwise special property — build your trip around the estate, not the facilities."),
+            ("This is a couples property.", "I wouldn't recommend it for families — and that's precisely its charm."),
+            ("An estate has estate quirks.", "Historic buildings mean character over uniformity — ask me which rooms suit you."),
+        ],
+        verdict="An easy recommendation for a romantic weekend with beautiful design and one of the most charming atmospheres in wine country.",
+    ),
+    dict(
+        slug="carneros-resort-napa", name="Carneros Resort &amp; Spa", short_name="Carneros",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="Carneros, Napa Valley", region_label="Region",
+        region_html="Carneros, Napa Valley, California",
+        stat1_num="#08", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#08 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="carneros.jpg", img2="carneros.jpg",
+        stat2_num="Top 5", stat2_label="Potential &mdash; After A Renovation",
+        meta_desc="Keith's firsthand review of Carneros Resort & Spa — sprawling grounds, private cottages, real wine country feel, and why it's overdue for a refresh.",
+        tagline="Sprawling grounds, private cottages, and true wine country atmosphere &mdash; held back by rooms overdue for a refresh.",
+        style_label="Cottage resort", perfect_for="Families, multi-couple groups, older couples",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Carneros is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        visited_verb="stayed multiple times at", credit_label="", partner_clause="",
+        intro=[
+            "Carneros has the potential to be a top-five property on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a>, but it's overdue for a renovation.",
+            "The grounds are sprawling and beautiful, every cottage has private outdoor space, and I actually prefer the location to Stanly Ranch — it feels much more like wine country.",
+            "With a renovation, I honestly think this property could move several spots higher on my list. Until then, know what you're booking: wonderful bones, inconsistent execution.",
+        ],
+        stood_out=[
+            ("It feels like wine country.", "I prefer this location to Stanly Ranch — the vineyard-and-barn landscape is the real thing."),
+            ("Every cottage has private outdoor space.", "The layout is built for slow mornings on your own patio."),
+            ("One of Napa's larger spas.", "Serious square footage, even if it's showing its age alongside the rooms."),
+            ("The two-bedroom residences are fantastic.", "The best product on the property — ideal for families and multi-couple groups."),
+        ],
+        know=[
+            ("It's overdue for a renovation.", "Rooms and spa are both showing their age — at these rates, that matters."),
+            ("Service has been hit or miss.", "Across multiple stays, consistency has been the main issue."),
+            ("Book the residences if you can.", "I can't personally speak to the standard rooms, though most have private patios — the two-bedrooms are the play."),
+        ],
+        verdict="With a renovation, I honestly think this property could move several spots higher on this list.",
+    ),
+    dict(
+        slug="alila-napa-valley", name="Alila Napa Valley", short_name="Alila",
+        island="Wine Country", island_page="napa-sonoma.html", img_dir="napa",
+        locale="St. Helena, Napa Valley", region_label="Region",
+        region_html="St. Helena, Napa Valley, California",
+        stat1_num="#09", stat1_label="In My Napa &amp; Sonoma Ranking",
+        rank_href="napa-sonoma.html", rank_text="#09 in my Napa &amp; Sonoma ranking",
+        related_text="See The Full Napa &amp; Sonoma Ranking", cta_island_text="The Napa &amp; Sonoma Ranking",
+        cta2_href="hotel-guides.html", cta2_text="All Hotel Guides",
+        mailto_prep="in",
+        hero_img="alila.jpg", img2="alila.jpg",
+        stat2_num="Walk", stat2_label="To Downtown St. Helena",
+        meta_desc="Keith's firsthand review of Alila Napa Valley — a sleek modern hotel walkable to St. Helena, strongest for Hyatt points travelers.",
+        tagline="A sleek modern hotel that happens to be in Napa &mdash; excellent location, walkable to St. Helena, strongest on points.",
+        style_label="Modern boutique (Hyatt)", perfect_for="Hyatt loyalists, younger travelers",
+        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Alila is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available.",
+        visited_verb="stayed at", credit_label="", partner_clause="",
+        intro=[
+            "I like Alila quite a bit, but it doesn't have the charm or sense of place of the hotels above it on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a> — it feels more like a really nice modern hotel that happens to be in Napa.",
+            "The location is excellent, though, and being able to walk into downtown St. Helena is a huge plus — one of the few walkable bases in the heart of the valley.",
+            "Where it genuinely shines is for points travelers: if you're sitting on Hyatt points, this is one of the best redemptions in wine country.",
+        ],
+        stood_out=[
+            ("Walkable to St. Helena.", "One of the few luxury bases where downtown dining is a stroll, not a drive."),
+            ("Book a vineyard-facing room.", "Significantly better than the alternatives if you can get one."),
+            ("The Hyatt points play.", "For World of Hyatt loyalists, one of wine country's best-value redemptions."),
+            ("Clean modern design.", "Sleek and current — if you prefer contemporary over farmhouse, this is your aesthetic."),
+        ],
+        know=[
+            ("It lacks wine country soul.", "More sleek city hotel than vineyard estate — the charm of the properties above it isn't here."),
+            ("The pool is on the smaller side.", "A letdown compared to the other luxury resorts nearby."),
+            ("Paying cash? Compare upward.", "At full cash rates, the hotels above it on my list usually deliver more personality for similar money."),
+        ],
+        verdict="A good hotel, but it lacks some of the personality that keeps me coming back to the properties higher up on this list.",
+    ),
 ]
 
 import os
@@ -630,16 +1035,31 @@ os.makedirs(f"{SITE}/hotels", exist_ok=True)
 for h in HOTELS:
     plain_name = html.unescape(h["name"])
     body = (
-        "Hi Keith,%0A%0AI'm interested in " + quote(plain_name) + " on " + h["island"] +
+        "Hi Keith,%0A%0AI'm interested in " + quote(plain_name) + " " + h.get("mailto_prep", "on") + " " + h["island"] +
         ".%0A%0AName: %0ATravel Dates: %0AOccasion: %0A%0A"
     )
     mailto = ("mailto:keith.pence@fora.travel?subject=" + quote(plain_name + " Inquiry") + "&body=" + body)
+    rank_href_v = h.get("rank_href", "best-hotels-greece.html")
+    perks_default = (
+        "Rates through me are identical to booking direct &mdash; the perks are not. As a Fora advisor"
+        + h.get("partner_clause", "")
+        + ", my clients receive a space-available upgrade, daily breakfast, and a "
+        + h.get("credit_label", "hotel credit")
+        + " &mdash; plus my direct line to the team on property before and during your stay."
+    )
     out = PAGE.substitute(
+        locale=h.get("locale", h["island"] + ", Greece"),
+        img_dir=h.get("img_dir", "hotels"),
+        region_label=h.get("region_label", "Island"),
+        region_html=h.get("region_html", '<a href="../' + h["island_page"] + '">' + h["island"] + ' Destination Guide &rarr;</a>'),
+        perks_html=h.get("perks_html", perks_default),
+        cta_island_text=h.get("cta_island_text", "My " + h["island"] + " Guide"),
+        cta2_href=h.get("cta2_href", rank_href_v),
         slug=h["slug"], name=h["name"], short_name=h["short_name"], island=h["island"],
         island_page=h["island_page"], rank_num=h.get("rank_num", ""), hero_img=h["hero_img"], img2=h["img2"],
         stat1_num=h.get("stat1_num", "#" + h.get("rank_num", "")),
         stat1_label=h.get("stat1_label", "In My Greece Top 10"),
-        rank_href=h.get("rank_href", "best-hotels-greece.html"),
+        rank_href=rank_href_v,
         rank_text=h.get("rank_text", "#" + h.get("rank_num", "") + " of my Greece Top 10"),
         related_text=h.get("related_text", "See The Full Greece Top 10"),
         cta2_text=h.get("cta2_text", "The Greece Top 10"),
