@@ -314,11 +314,11 @@ HOTELS = [
         hero_img="andronis-boutique-1.jpg", img2="andronis-boutique-2.jpg",
         stat2_num="25", stat2_label="Suites &amp; Villas In Oia",
         meta_desc="Keith's firsthand review of Andronis Boutique Hotel — authentic renovated cave-style suites in Oia, every room with a plunge pool or jacuzzi.",
-        tagline="Authentic cave-style luxury in the heart of Oia — my top Santorini property until I experienced Canaves.",
+        tagline="Authentic cave-style luxury in the heart of Oia — the rooms first-time Santorini visitors are dreaming about.",
         style_label="Cave-style boutique", perfect_for="Younger honeymooners, first-timers",
         credit_label="&euro;100 hotel credit", partner_clause=" with a preferred partnership at Andronis", visited_verb="toured every corner of",
         intro=[
-            "This was actually my top property in Santorini until I experienced Canaves — which is to say it's a truly fantastic, top-notch hotel. Recently renovated, the rooms are authentic cave-style rooms with beautiful finishes and fixtures, and they're what people actually picture when they book Santorini.",
+            "Andronis Boutique is a truly fantastic, top-notch hotel — firmly in the very top tier of my Santorini list. Recently renovated, the rooms are authentic cave-style rooms with beautiful finishes and fixtures, and they're what people actually picture when they book Santorini.",
             "Some of the suites are incredibly unique, particularly the two-level Eternal Suite, and every room has a plunge pool or jacuzzi — which isn't the case at the Canaves hotels. Rates also tend to land slightly below sister property Andronis Luxury Suites, which skews a little older; Boutique lends itself to younger honeymooners.",
             "Book dinner at Lycabettus — Andronis' famous cliffside restaurant — the moment you confirm your room. It fills faster than the hotels do.",
         ],
