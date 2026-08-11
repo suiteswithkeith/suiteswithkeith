@@ -81,6 +81,8 @@
   .fd-award { font-size: 0.64rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--tan-deep); font-weight: 600; margin: 0 0 6px; }
 
   .fd-map { background: #1c2436; padding: clamp(16px, 3vw, 36px); margin: 0 0 48px; }
+  .guide-card .fd-award { font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--tan-deep); font-weight: 600; margin: 4px 0 8px; }
+  .guide-card .info p { margin-top: 0; }
   .fd-map-scroll { overflow-x: auto; }
   .fd-map svg { display: block; width: 100%; min-width: 620px; height: auto; }
   .fd-map text { font-family: var(--font-body); }
@@ -205,7 +207,7 @@
     </div>
     <div class="fd-map">
       <div class="fd-map-scroll">
-        <svg viewBox="0 0 660 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of Italy showing the five regions Keith plans most: Lake Como, Florence, Tuscany, Rome, and the Amalfi Coast">
+        <svg viewBox="60 10 600 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of Italy showing the five regions Keith plans most: Lake Como, Florence, Tuscany, Rome, and the Amalfi Coast">
           <!-- stylized peninsula -->
           <path d="M150,112 C196,76 262,58 312,60 C338,61 350,74 356,94 C362,114 354,134 364,156 C382,198 414,240 442,286 C468,328 490,374 516,414 C534,442 560,462 584,480 C604,494 622,510 626,532 C630,554 612,562 596,553 C582,545 572,534 556,530 C540,526 524,528 512,518 C498,506 494,490 482,478 C468,464 448,462 442,476 C436,490 444,506 452,520 C464,542 474,564 478,588 C482,612 480,636 470,656 C463,670 450,682 436,677 C422,672 419,656 417,642 C414,624 413,608 402,596 C389,582 371,576 359,562 C345,546 341,524 329,508 C313,486 289,472 273,450 C253,424 245,392 235,362 C225,332 211,304 197,276 C183,248 167,222 159,192 C151,166 141,138 150,112 Z" fill="#f5f1e9" opacity="0.12"/>
           <!-- Sicily + Sardinia -->
@@ -243,98 +245,143 @@
         </svg>
       </div>
     </div>
-    <div class="fd-grid" style="gap: 48px 60px;">
-      <div class="fd-city">
-        <h4>Florence</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/villa-san-michele.jpg" alt="Belmond Villa San Michele above Florence">
-          <div class="name">Belmond Villa San Michele</div>
-          <p>A former 15th-century monastery in the Fiesole hills above the city, recently renovated, with the best views in Florence and a private shuttle into town.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/fs-florence.jpg" alt="Four Seasons Hotel Firenze gardens">
-          <div class="name">Four Seasons Hotel Firenze</div>
-          <p>Two Renaissance palazzos bordering one of the city's largest private gardens &mdash; resort-like calm inside the city center.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/hotel-lungarno.jpg" alt="Hotel Lungarno lounge over the Arno, Florence">
-          <div class="name">Hotel Lungarno</div>
-          <p>The Lungarno Collection's riverside classic &mdash; nautical-chic rooms hanging over the Arno with Ponte Vecchio views, steps from everything.</p>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/villa-san-michele.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Belmond Villa San Michele</h3>
+            <p>Florence &middot; A former 15th-century monastery in the Fiesole hills above the city, recently renovated, with the best views in Florence and a private shuttle into town.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Rome</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/de-russie.jpg" alt="Hotel de Russie, Rome">
-          <div class="name">Hotel de Russie</div>
-          <p>My top overall pick in Rome &mdash; a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/hotel-eden.jpg" alt="Hotel Eden, Rome">
-          <div class="name">Hotel Eden</div>
-          <p>Quieter, romantic, Dorchester Collection &mdash; ideal for couples who want old-world charm without the crowds.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/st-regis-rome.jpg" alt="The St. Regis Rome">
-          <div class="name">The St. Regis Rome</div>
-          <p>Belle &Eacute;poque grandeur and a nightly champagne sabrage ritual, for guests who want a bit more spectacle.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/fs-florence.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Four Seasons Hotel Firenze</h3>
+            <p>Florence &middot; Two Renaissance palazzos bordering one of the city's largest private gardens &mdash; resort-like calm inside the city center.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Tuscany</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/rosewood-castiglion.jpg" alt="Rosewood Castiglion del Bosco in the Val d'Orcia">
-          <div class="name">Rosewood Castiglion del Bosco</div>
-          <p class="fd-award">Three Michelin Keys</p>
-          <p>A 5,000-acre Ferragamo-family estate in the Val d'Orcia with its own Brunello winery and Italy's only private golf club &mdash; my top Tuscany pick for a multi-night countryside stay.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/castello-di-casole.jpg" alt="Belmond Castello di Casole at dusk">
-          <div class="name">Belmond Castello di Casole</div>
-          <p>A hilltop castle estate near Siena with sweeping countryside views, slightly more traditional in feel.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/como-castello.jpg" alt="COMO Castello del Nero in Chianti">
-          <div class="name">COMO Castello del Nero</div>
-          <p>A 12th-century converted castle in Chianti, well-positioned for day trips to Florence and Siena.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/hotel-lungarno.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Hotel Lungarno</h3>
+            <p>Florence &middot; The Lungarno Collection's riverside classic &mdash; nautical-chic rooms hanging over the Arno with Ponte Vecchio views, steps from everything.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Lake Como</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/proposals/lake-como/passalacqua/pool.jpg" alt="Passalacqua gardens and pool, Lake Como">
-          <div class="name">Passalacqua</div>
-          <p class="fd-award">Three Michelin Keys</p>
-          <p>An 18th-century villa turned 24-room showpiece &mdash; the most celebrated new hotel in Europe, and a place I send clients without hesitation.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/proposals/lake-como/il-sereno/exterior.jpg" alt="Il Sereno on Lake Como">
-          <div class="name">Il Sereno</div>
-          <p>Patricia Urquiola's modern lakefront statement &mdash; floor-to-ceiling glass, a floating pool, and water-taxi arrivals at your suite.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/proposals/lake-como/mandarin-oriental/aerial.jpg" alt="Mandarin Oriental Lago di Como">
-          <div class="name">Mandarin Oriental, Lago di Como</div>
-          <p>A resort-scale garden estate with private villas and the lake's famous floating pool &mdash; the family-friendly way to do Como.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/de-russie.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Hotel de Russie</h3>
+            <p>Rome &middot; My top overall pick in Rome &mdash; a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Amalfi Coast</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/caruso.jpg" alt="Belmond Hotel Caruso infinity pool, Ravello">
-          <div class="name">Belmond Hotel Caruso</div>
-          <p>Perched in Ravello above the coast, with the most dramatic infinity pool on the Amalfi Coast &mdash; quieter and more composed than Positano.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/hotel-eden.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Hotel Eden</h3>
+            <p>Rome &middot; Quieter, romantic, Dorchester Collection &mdash; ideal for couples who want old-world charm without the crowds.</p>
+          </div>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/il-san-pietro.jpg" alt="Il San Pietro di Positano">
-          <div class="name">Il San Pietro di Positano</div>
-          <p class="fd-award">Three Michelin Keys</p>
-          <p>Carved into the cliffs near Positano, Michelin-starred dining, private beach club &mdash; one of my personal favorites.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/st-regis-rome.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>The St. Regis Rome</h3>
+            <p>Rome &middot; Belle &Eacute;poque grandeur and a nightly champagne sabrage ritual, for guests who want a bit more spectacle.</p>
+          </div>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/le-sirenuse.jpg" alt="Le Sirenuse, Positano">
-          <div class="name">Le Sirenuse</div>
-          <p>The address in Positano itself, for guests who want to be in the center of the action.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/rosewood-castiglion.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Rosewood Castiglion del Bosco</h3>
+            <p class="fd-award">Three Michelin Keys</p>
+            <p>Tuscany &middot; A 5,000-acre Ferragamo-family estate in the Val d'Orcia with its own Brunello winery and Italy's only private golf club &mdash; my top Tuscany pick for a multi-night countryside stay.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/castello-di-casole.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Belmond Castello di Casole</h3>
+            <p>Tuscany &middot; A hilltop castle estate near Siena with sweeping countryside views, slightly more traditional in feel.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/como-castello.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>COMO Castello del Nero</h3>
+            <p>Tuscany &middot; A 12th-century converted castle in Chianti, well-positioned for day trips to Florence and Siena.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/proposals/lake-como/passalacqua/pool.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Passalacqua</h3>
+            <p class="fd-award">Three Michelin Keys</p>
+            <p>Lake Como &middot; An 18th-century villa turned 24-room showpiece &mdash; the most celebrated new hotel in Europe, and a place I send clients without hesitation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/proposals/lake-como/il-sereno/exterior.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Il Sereno</h3>
+            <p>Lake Como &middot; Patricia Urquiola's modern lakefront statement &mdash; floor-to-ceiling glass, a floating pool, and water-taxi arrivals at your suite.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/proposals/lake-como/mandarin-oriental/aerial.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Mandarin Oriental, Lago di Como</h3>
+            <p>Lake Como &middot; A resort-scale garden estate with private villas and the lake's famous floating pool &mdash; the family-friendly way to do Como.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/caruso.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Belmond Hotel Caruso</h3>
+            <p>Amalfi Coast &middot; Perched in Ravello above the coast, with the most dramatic infinity pool on the Amalfi Coast &mdash; quieter and more composed than Positano.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/il-san-pietro.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Il San Pietro di Positano</h3>
+            <p class="fd-award">Three Michelin Keys</p>
+            <p>Amalfi Coast &middot; Carved into the cliffs near Positano, Michelin-starred dining, private beach club &mdash; one of my personal favorites.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/le-sirenuse.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Le Sirenuse</h3>
+            <p>Amalfi Coast &middot; The address in Positano itself, for guests who want to be in the center of the action.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -362,34 +409,44 @@
       <h2>Paris</h2>
       <p>Paris is the easiest great decision in travel &mdash; the harder question is which palace suits you. I place clients by neighborhood, personality, and occasion, and my preferred partner status at the palace hotels means the amenities follow you there.</p>
     </div>
-    <div class="fd-grid two" style="gap: 48px 60px;">
-      <div class="fd-city">
-        <h4>Concorde &amp; The Tuileries</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/proposals/paris/crillon/pool.jpg" alt="H&ocirc;tel de Crillon, Paris">
-          <div class="name">H&ocirc;tel de Crillon, A Rosewood Hotel</div>
-          <p class="fd-award">Forbes Five-Star</p>
-          <p>The 18th-century landmark on Place de la Concorde, reborn under Rosewood &mdash; grand without stuffiness, with one of the city's most beautiful pools.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/proposals/paris/le-meurice/panorama.jpg" alt="Le Meurice with views over the Tuileries">
-          <div class="name">Le Meurice</div>
-          <p class="fd-award">Forbes Five-Star</p>
-          <p>Dorchester Collection's grande dame facing the Tuileries &mdash; Alain Ducasse dining and rooms that look straight down the gardens.</p>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/proposals/paris/crillon/pool.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>H&ocirc;tel de Crillon, A Rosewood Hotel</h3>
+            <p class="fd-award">Forbes Five-Star</p>
+            <p>Concorde &amp; The Tuileries &middot; The 18th-century landmark on Place de la Concorde, reborn under Rosewood &mdash; grand without stuffiness, with one of the city's most beautiful pools.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>&Eacute;toile &amp; The Champs-&Eacute;lys&eacute;es</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/proposals/paris/peninsula/eiffel-terrace.jpg" alt="The Peninsula Paris rooftop with Eiffel Tower view">
-          <div class="name">The Peninsula Paris</div>
-          <p class="fd-award">Forbes Five-Star</p>
-          <p>Impeccably rebuilt near the Arc de Triomphe &mdash; rooftop dining with Eiffel views and the sharpest service technology of any palace.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/proposals/paris/le-meurice/panorama.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Le Meurice</h3>
+            <p class="fd-award">Forbes Five-Star</p>
+            <p>Concorde &amp; The Tuileries &middot; Dorchester Collection's grande dame facing the Tuileries &mdash; Alain Ducasse dining and rooms that look straight down the gardens.</p>
+          </div>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/proposals/paris/fouquets/exterior.jpg" alt="H&ocirc;tel Barri&egrave;re Fouquet's Paris">
-          <div class="name">H&ocirc;tel Barri&egrave;re Fouquet's</div>
-          <p>The Champs-&Eacute;lys&eacute;es address with a private-club feel &mdash; younger in energy, and home to one of the city's best spas.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/proposals/paris/peninsula/eiffel-terrace.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>The Peninsula Paris</h3>
+            <p class="fd-award">Forbes Five-Star</p>
+            <p>&Eacute;toile &amp; The Champs-&Eacute;lys&eacute;es &middot; Impeccably rebuilt near the Arc de Triomphe &mdash; rooftop dining with Eiffel views and the sharpest service technology of any palace.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/proposals/paris/fouquets/exterior.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>H&ocirc;tel Barri&egrave;re Fouquet's</h3>
+            <p>&Eacute;toile &amp; The Champs-&Eacute;lys&eacute;es &middot; The Champs-&Eacute;lys&eacute;es address with a private-club feel &mdash; younger in energy, and home to one of the city's best spas.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -409,10 +466,8 @@
     </div>
     <div class="fd-map">
       <div class="fd-map-scroll">
-        <svg viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the Cyclades showing the islands and hotels Keith plans most">
-          <path d="M0,0 L170,0 C152,30 168,52 150,70 C160,95 205,122 268,152 C230,176 170,168 118,152 C70,140 30,146 0,152 Z" fill="#f5f1e9" opacity="0.14"/>
-          <text x="60" y="118" font-size="13" letter-spacing="2" fill="rgba(245,241,233,0.5)">ATHENS</text>
-          <text x="500" y="52" font-size="13" letter-spacing="3" fill="rgba(245,241,233,0.4)" text-anchor="middle">THE AEGEAN</text>
+        <svg viewBox="390 30 610 610" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the Cyclades showing the islands and hotels Keith plans most">
+          <text x="560" y="80" font-size="13" letter-spacing="3" fill="rgba(245,241,233,0.4)">THE AEGEAN</text>
           <ellipse cx="468" cy="320" rx="15" ry="12" fill="#f5f1e9" opacity="0.16"/>
           <ellipse cx="424" cy="242" rx="10" ry="14" fill="#f5f1e9" opacity="0.16"/>
           <ellipse cx="638" cy="222" rx="12" ry="16" fill="#f5f1e9" opacity="0.16"/>
@@ -448,46 +503,64 @@
         </svg>
       </div>
     </div>
-    <div class="fd-grid two" style="gap: 48px 60px;">
-      <div class="fd-city">
-        <h4>Santorini</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/hotels/canaves-oia-2.jpg" alt="Canaves Oia Suites">
-          <div class="name">Canaves Oia Suites</div>
-          <p>The classic caldera experience, perfected &mdash; recently renovated, remarkably private, with the best spa product on the caldera.</p>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/hotels/canaves-oia-2.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Canaves Oia Suites</h3>
+            <p>Santorini &middot; The classic caldera experience, perfected &mdash; recently renovated, remarkably private, with the best spa product on the caldera.</p>
+          </div>
           <a href="hotels/canaves-oia-suites-santorini.html" class="read-link">Explore &rarr;</a>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/hotels/canaves-epitome-2.jpg" alt="Canaves Epitome">
-          <div class="name">Canaves Epitome</div>
-          <p>The best hotel I experienced in Greece &mdash; garden seclusion near Ammoudi Bay, a true Aegean sunset, and no age restrictions, which makes it the caldera-area pick for families.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/hotels/canaves-epitome-2.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Canaves Epitome</h3>
+            <p>Santorini &middot; The best hotel I experienced in Greece &mdash; garden seclusion near Ammoudi Bay, a true Aegean sunset, and no age restrictions, which makes it the caldera-area pick for families.</p>
+          </div>
           <a href="hotels/canaves-epitome-santorini.html" class="read-link">Explore &rarr;</a>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/hotels/andronis-boutique-2.jpg" alt="Andronis Boutique Hotel">
-          <div class="name">Andronis Boutique</div>
-          <p>Authentic cave-style suites in the heart of Oia, freshly renovated, with a plunge pool or jacuzzi in every room.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/hotels/andronis-boutique-2.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Andronis Boutique</h3>
+            <p>Santorini &middot; Authentic cave-style suites in the heart of Oia, freshly renovated, with a plunge pool or jacuzzi in every room.</p>
+          </div>
           <a href="hotels/andronis-boutique-santorini.html" class="read-link">Explore &rarr;</a>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Beyond Santorini</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/hotels/gundari-2.jpg" alt="Gundari, Folegandros">
-          <div class="name">Gundari &middot; Folegandros</div>
-          <p>A dark stone showpiece on a clifftop of one of Greece's quietest islands &mdash; 27 suites and villas, all with plunge pools, and the most striking infinity pool in the Cyclades.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/hotels/gundari-2.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Gundari &middot; Folegandros</h3>
+            <p>A dark stone showpiece on a clifftop of one of Greece's quietest islands &mdash; 27 suites and villas, all with plunge pools, and the most striking infinity pool in the Cyclades.</p>
+          </div>
           <a href="hotels/gundari-folegandros.html" class="read-link">Explore &rarr;</a>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/hotels/parilio-2.jpg" alt="Parilio, Paros">
-          <div class="name">Parilio &middot; Paros</div>
-          <p>The most beautiful design story in the islands, just outside Naoussa &mdash; with new hilltop villas that suit families and groups wonderfully.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/hotels/parilio-2.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Parilio &middot; Paros</h3>
+            <p>The most beautiful design story in the islands, just outside Naoussa &mdash; with new hilltop villas that suit families and groups wonderfully.</p>
+          </div>
           <a href="hotels/parilio-paros.html" class="read-link">Explore &rarr;</a>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/hotels/cali-mykonos-1.jpg" alt="Cali, Mykonos">
-          <div class="name">Cali &middot; Mykonos</div>
-          <p>An independent stunner on the island's quiet east side, with truly private plunge pools and the best hotel gym I've ever seen.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/hotels/cali-mykonos-1.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Cali &middot; Mykonos</h3>
+            <p>An independent stunner on the island's quiet east side, with truly private plunge pools and the best hotel gym I've ever seen.</p>
+          </div>
           <a href="hotels/cali-mykonos.html" class="read-link">Explore &rarr;</a>
         </div>
       </div>
@@ -516,46 +589,64 @@
       <p>From temple-lined Kyoto to neon-lit Tokyo, Japan rewards travelers who want depth over pace. A well-built itinerary blends culture, cuisine, and genuinely exceptional hotels.</p>
     </div>
     <div class="fd-photo"><img src="images/destinations/japan-kyoto.jpg" alt="The Ritz-Carlton Kyoto at dusk along the Kamogawa River"></div>
-    <div class="fd-grid two" style="gap: 48px 60px;">
-      <div class="fd-city">
-        <h4>Kyoto</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/aman-kyoto.jpg" alt="Aman Kyoto garden pavilion">
-          <div class="name">Aman Kyoto</div>
-          <p class="fd-award">Three Michelin Keys</p>
-          <p>A secluded forest sanctuary near the city's temples; the most serene, most "Aman" experience in Japan. Best for travelers who want quiet immersion over convenience.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/capella-kyoto.jpg" alt="Capella Kyoto">
-          <div class="name">Capella Kyoto</div>
-          <p>Newer and set in the historic Miyagawa-ch&#333; geisha district, with a strong design pedigree (Kengo Kuma) and private onsen suites. A great pick for couples who want culture without sacrificing polish.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/ritz-kyoto.jpg" alt="The Ritz-Carlton Kyoto on the Kamogawa River">
-          <div class="name">The Ritz-Carlton, Kyoto</div>
-          <p class="fd-award">Forbes Five-Star</p>
-          <p>Riverside, walkable, and more classically "hotel" in feel &mdash; ideal for guests who want a central base with full-service consistency.</p>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/aman-kyoto.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Aman Kyoto</h3>
+            <p class="fd-award">Three Michelin Keys</p>
+            <p>Kyoto &middot; A secluded forest sanctuary near the city's temples; the most serene, most "Aman" experience in Japan. Best for travelers who want quiet immersion over convenience.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Tokyo</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/japan-tokyo.jpg" alt="The Aman Tokyo garden pavilion">
-          <div class="name">Aman Tokyo</div>
-          <p class="fd-award">Three Michelin Keys &middot; Forbes Five-Star</p>
-          <p>Serene, minimalist, perched atop Otemachi Tower with views of the Imperial Palace gardens. The quiet counterpoint to the city's energy.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/capella-kyoto.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Capella Kyoto</h3>
+            <p>Kyoto &middot; Newer and set in the historic Miyagawa-ch&#333; geisha district, with a strong design pedigree (Kengo Kuma) and private onsen suites. A great pick for couples who want culture without sacrificing polish.</p>
+          </div>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/mo-tokyo.jpg" alt="Mandarin Oriental Tokyo">
-          <div class="name">Mandarin Oriental, Tokyo</div>
-          <p class="fd-award">Forbes Five-Star</p>
-          <p>Bolder and more contemporary, with some of the best dining in the city &mdash; three Michelin-starred restaurants on-site.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/ritz-kyoto.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>The Ritz-Carlton, Kyoto</h3>
+            <p class="fd-award">Forbes Five-Star</p>
+            <p>Kyoto &middot; Riverside, walkable, and more classically "hotel" in feel &mdash; ideal for guests who want a central base with full-service consistency.</p>
+          </div>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/peninsula-tokyo.jpg" alt="The Peninsula Tokyo">
-          <div class="name">The Peninsula Tokyo</div>
-          <p class="fd-award">Forbes Five-Star</p>
-          <p>Classic, central Ginza location, excellent for first-time visitors who want to be in the middle of everything.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/japan-tokyo.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Aman Tokyo</h3>
+            <p class="fd-award">Three Michelin Keys &middot; Forbes Five-Star</p>
+            <p>Tokyo &middot; Serene, minimalist, perched atop Otemachi Tower with views of the Imperial Palace gardens. The quiet counterpoint to the city's energy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/mo-tokyo.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Mandarin Oriental, Tokyo</h3>
+            <p class="fd-award">Forbes Five-Star</p>
+            <p>Tokyo &middot; Bolder and more contemporary, with some of the best dining in the city &mdash; three Michelin-starred restaurants on-site.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/peninsula-tokyo.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>The Peninsula Tokyo</h3>
+            <p class="fd-award">Forbes Five-Star</p>
+            <p>Tokyo &middot; Classic, central Ginza location, excellent for first-time visitors who want to be in the middle of everything.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -582,29 +673,32 @@
       <h2>Africa</h2>
       <p>A safari is one of the most rewarding trips I plan &mdash; especially for multigenerational groups. Each camp below offers a different kind of experience, from front-row migration views to game viewing from your own riverside deck.</p>
     </div>
-    <div class="fd-grid">
-      <div class="fd-city">
-        <h4>Tanzania &middot; Serengeti</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/fs-serengeti.jpg" alt="Four Seasons Safari Lodge Serengeti">
-          <div class="name">Four Seasons Safari Lodge, Serengeti</div>
-          <p>Set in the Seronera Valley with a year-round waterhole and full resort infrastructure &mdash; spa, two pools, fitness &mdash; the most comfortable, family-friendly entry point into the Serengeti.</p>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/fs-serengeti.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Four Seasons Safari Lodge, Serengeti</h3>
+            <p>Tanzania &middot; Serengeti &middot; Set in the Seronera Valley with a year-round waterhole and full resort infrastructure &mdash; spa, two pools, fitness &mdash; the most comfortable, family-friendly entry point into the Serengeti.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Kenya &middot; Maasai Mara</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/angama.jpg" alt="Angama Mara on the Oloololo Escarpment">
-          <div class="name">Angama Mara</div>
-          <p>Perched on the edge of the Oloololo Escarpment with sweeping views over the Mara &mdash; ideal for travelers focused on the Great Migration.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/angama.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Angama Mara</h3>
+            <p>Kenya &middot; Maasai Mara &middot; Perched on the edge of the Oloololo Escarpment with sweeping views over the Mara &mdash; ideal for travelers focused on the Great Migration.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Kenya &middot; Mara River</h4>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/destinations/olonana.jpg" alt="Sanctuary Olonana on the Mara River">
-          <div class="name">Sanctuary Olonana</div>
-          <p>Glass-fronted suites directly on the Mara River &mdash; hippos below your deck, and an intimate, contemporary counterpoint to the escarpment lodges.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/destinations/olonana.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Sanctuary Olonana</h3>
+            <p>Kenya &middot; Mara River &middot; Glass-fronted suites directly on the Mara River &mdash; hippos below your deck, and an intimate, contemporary counterpoint to the escarpment lodges.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -687,41 +781,59 @@
       <h2>For The Tennis Traveler</h2>
       <p>Some of the world's best hotels also hide some of its most beautiful courts &mdash; several of them at properties already on this page. These are my favorites, from my full ranking of hotel tennis courts worth traveling for.</p>
     </div>
-    <div class="fd-grid">
-      <div class="fd-city">
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/tennis/il-san-pietro.jpg" alt="The clay court at Il San Pietro di Positano">
-          <div class="name">Il San Pietro di Positano</div>
-          <p>A clay court carved into the cliffside above the Tyrrhenian &mdash; my #1, and reason enough to stay.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/tennis/passalacqua.png" alt="The sunken clay court at Passalacqua">
-          <div class="name">Passalacqua &middot; Lake Como</div>
-          <p>A sunken clay court in the terraced gardens &mdash; play, then swim in the greenhouse pool.</p>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/tennis/il-san-pietro.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>Il San Pietro di Positano</h3>
+            <p>A clay court carved into the cliffside above the Tyrrhenian &mdash; my #1, and reason enough to stay.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/tennis/hotel-cipriani.avif" alt="The tennis court at Hotel Cipriani, Venice">
-          <div class="name">Hotel Cipriani &middot; Venice</div>
-          <p>Lagoon-side tennis in Giudecca's gardens &mdash; the most unexpected court in Europe.</p>
-        </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/tennis/villa-d-este.png" alt="The courts at Villa d'Este, Lake Como">
-          <div class="name">Villa d'Este &middot; Lake Como</div>
-          <p>Clay courts in a 25-acre renaissance park above the lake &mdash; old-world tennis at its finest.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/tennis/passalacqua.png');"></div>
+        <div class="info">
+          <div>
+            <h3>Passalacqua &middot; Lake Como</h3>
+            <p>A sunken clay court in the terraced gardens &mdash; play, then swim in the greenhouse pool.</p>
+          </div>
         </div>
       </div>
-      <div class="fd-city">
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/tennis/burgenstock.jpg" alt="The alpine courts at B&uuml;rgenstock Resort">
-          <div class="name">B&uuml;rgenstock Resort &middot; Lucerne</div>
-          <p>Alpine courts 500 meters above Lake Lucerne &mdash; the best backdrop in the sport.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/tennis/hotel-cipriani.avif');"></div>
+        <div class="info">
+          <div>
+            <h3>Hotel Cipriani &middot; Venice</h3>
+            <p>Lagoon-side tennis in Giudecca's gardens &mdash; the most unexpected court in Europe.</p>
+          </div>
         </div>
-        <div class="fd-hotel">
-          <img class="fd-thumb" src="images/tennis/cheval-blanc-randheli.avif" alt="Tennis at Cheval Blanc Randheli, Maldives">
-          <div class="name">Cheval Blanc Randheli &middot; Maldives</div>
-          <p>Palm-shaded courts on a private island &mdash; morning tennis, afternoon lagoon.</p>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/tennis/villa-d-este.png');"></div>
+        <div class="info">
+          <div>
+            <h3>Villa d'Este &middot; Lake Como</h3>
+            <p>Clay courts in a 25-acre renaissance park above the lake &mdash; old-world tennis at its finest.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/tennis/burgenstock.jpg');"></div>
+        <div class="info">
+          <div>
+            <h3>B&uuml;rgenstock Resort &middot; Lucerne</h3>
+            <p>Alpine courts 500 meters above Lake Lucerne &mdash; the best backdrop in the sport.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/tennis/cheval-blanc-randheli.avif');"></div>
+        <div class="info">
+          <div>
+            <h3>Cheval Blanc Randheli &middot; Maldives</h3>
+            <p>Palm-shaded courts on a private island &mdash; morning tennis, afternoon lagoon.</p>
+          </div>
         </div>
       </div>
     </div>
