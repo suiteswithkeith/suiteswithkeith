@@ -71,6 +71,22 @@
   .fd-photo { margin: 0 0 48px; }
   .fd-photo img { width: 100%; aspect-ratio: 21/9; object-fit: cover; display: block; }
 
+  /* Advantage band */
+  .fd-advantage { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; background: var(--white); border: 1px solid var(--tan); padding: 44px 46px; }
+  .fd-adv-item h4 { font-family: var(--font-body); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--olive-deep); font-weight: 600; margin: 0 0 12px; }
+  .fd-adv-item p { font-size: 0.88rem; color: var(--ink-soft); line-height: 1.65; margin: 0; }
+  @media (max-width: 860px) { .fd-advantage { grid-template-columns: 1fr; padding: 34px 28px; gap: 28px; } }
+
+  /* Signature experiences */
+  .fd-exp { margin-top: 56px; border-top: 1px solid var(--hairline); padding-top: 36px; }
+  .fd-exp .fd-exp-label { font-family: var(--font-body); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--olive-deep); font-weight: 600; margin: 0 0 22px; }
+  .fd-exp-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 48px; }
+  .fd-exp-item { font-size: 0.9rem; color: var(--ink-soft); line-height: 1.6; padding-left: 18px; position: relative; }
+  .fd-exp-item::before { content: ""; position: absolute; left: 0; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: var(--tan-deep); }
+  .fd-exp-item b { color: var(--charcoal); font-weight: 500; }
+  .fd-exp-credit { font-family: var(--font-display); font-style: italic; font-size: 0.95rem; color: var(--ink-soft); margin: 24px 0 0; }
+  @media (max-width: 700px) { .fd-exp-grid { grid-template-columns: 1fr; } }
+
   /* Inline CTA band */
   .fd-cta-band { margin-top: 56px; padding: 26px 30px; background: var(--white); border-left: 3px solid var(--tan-deep); display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
   .fd-section.alt .fd-cta-band { background: var(--cream); }
@@ -132,6 +148,25 @@
   </div>
 </section>
 
+<section class="fd-section" style="padding-top:50px;">
+  <div class="container">
+    <div class="fd-advantage">
+      <div class="fd-adv-item">
+        <h4>Preferred Partnerships</h4>
+        <p>I'm a preferred partner of Rosewood, Four Seasons, Aman, Belmond, Auberge, and many of the world's top hotel brands &mdash; which means space-available upgrades, daily breakfast, property credits, and VIP recognition come with your booking at no extra cost.</p>
+      </div>
+      <div class="fd-adv-item">
+        <h4>Free-Night Promotions</h4>
+        <p>Many of these properties run stay-3-pay-2 or stay-4-pay-3 offers through preferred partner channels. I watch for them and time your booking so the promotion does the saving &mdash; the rate is never higher than booking direct.</p>
+      </div>
+      <div class="fd-adv-item">
+        <h4>Priority Over The Portals</h4>
+        <p>Preferred partner bookings are typically prioritized ahead of credit-card travel programs like Amex or Chase when upgrades and special requests are handed out &mdash; and my direct relationships with the hotels' teams close the rest of the gap.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="fd-section" id="japan">
   <div class="container">
     <div class="fd-head">
@@ -139,6 +174,7 @@
       <h2>Japan</h2>
       <p>From temple-lined Kyoto to neon-lit Tokyo and the food capital of Osaka, Japan rewards travelers who want depth over pace. A well-built itinerary blends culture, cuisine, and genuinely exceptional hotels.</p>
     </div>
+    <div class="fd-photo"><img src="images/destinations/japan-kyoto.jpg" alt="The Ritz-Carlton Kyoto at dusk along the Kamogawa River"></div>
     <div class="fd-grid">
       <div class="fd-city">
         <h4>Kyoto</h4>
@@ -184,6 +220,15 @@
           <div class="name">The Ritz-Carlton, Osaka</div>
           <p>English-manor-meets-Japan design, a longtime favorite for its Club Lounge and classic service.</p>
         </div>
+      </div>
+    </div>
+    <div class="fd-exp">
+      <p class="fd-exp-label">Signature Experiences</p>
+      <div class="fd-exp-grid">
+        <div class="fd-exp-item"><b>Private tea ceremony in Kyoto</b> — with a tea master, in a machiya townhouse rather than a tourist room.</div>
+        <div class="fd-exp-item"><b>Sushi masterclass in Tokyo</b> — behind the counter with an itamae, then eat your work.</div>
+        <div class="fd-exp-item"><b>Sumo morning practice</b> — a quiet seat at a stable's early training session.</div>
+        <div class="fd-exp-item"><b>Private guides throughout</b> — temples before the crowds, markets with someone who knows every stall.</div>
       </div>
     </div>
     <div class="fd-cta-band">
@@ -263,6 +308,16 @@
         </div>
       </div>
     </div>
+    <div class="fd-exp">
+      <p class="fd-exp-label">Signature Experiences</p>
+      <div class="fd-exp-grid">
+        <div class="fd-exp-item"><b>Ferrari &amp; vintage driving days</b> — supercars or classic Alfas through the Val d'Orcia's ribbon roads, lunch at a private estate.</div>
+        <div class="fd-exp-item"><b>Private boat days on Capri &amp; the coast</b> — a chartered gozzo or yacht, the Blue Grotto before the crowds, lunch dockside in Nerano.</div>
+        <div class="fd-exp-item"><b>Market-to-table cooking classes</b> — shop Campo de' Fiori or a Florentine market with a private chef, then cook and eat the haul.</div>
+        <div class="fd-exp-item"><b>After-hours access</b> — the Vatican or the Uffizi after closing, with the right historian walking you through.</div>
+      </div>
+      <p class="fd-exp-credit">Arranged with my on-the-ground partners &mdash; Queen of Clubs, Arno Travel, and TAOLS &mdash; the teams behind some of Italy's finest private experiences.</p>
+    </div>
     <div class="fd-cta-band">
       <p>Italy rewards planning early &mdash; the best suites go first.</p>
       <a href="#inquire" class="btn btn-olive">Start Planning</a>
@@ -298,6 +353,15 @@
           <div class="name">Sanctuary Chief's Camp</div>
           <p>A private-island camp deep in the Delta, combining traditional game drives with mokoro (canoe) safaris through the waterways &mdash; a genuinely different kind of safari.</p>
         </div>
+      </div>
+    </div>
+    <div class="fd-exp">
+      <p class="fd-exp-label">Signature Experiences</p>
+      <div class="fd-exp-grid">
+        <div class="fd-exp-item"><b>Hot-air balloon at dawn</b> — over the Mara or Serengeti, champagne breakfast in the bush on landing.</div>
+        <div class="fd-exp-item"><b>Private conservancy drives</b> — off the public circuits, with your own guide and vehicle for the whole stay.</div>
+        <div class="fd-exp-item"><b>Mokoro canoe safaris</b> — the Okavango at water level, silent except for the birds.</div>
+        <div class="fd-exp-item"><b>Bush dinners &amp; sundowners</b> — the rituals that turn a game-viewing trip into the trip of a lifetime.</div>
       </div>
     </div>
     <div class="fd-cta-band">
@@ -353,6 +417,15 @@
         </div>
       </div>
     </div>
+    <div class="fd-exp">
+      <p class="fd-exp-label">Signature Experiences</p>
+      <div class="fd-exp-grid">
+        <div class="fd-exp-item"><b>Private boat days</b> — Kleftiko's sea caves with my preferred crew on Milos, or a sunset caldera cruise below Oia.</div>
+        <div class="fd-exp-item"><b>Helicopter island hops</b> — Athens or Mykonos to Santorini in under an hour, through my <a href="hoper.html">Hoper partnership</a>.</div>
+        <div class="fd-exp-item"><b>Farm cooking classes on Sifnos</b> — Greece's great foodie island, cooking lunch where it was grown.</div>
+        <div class="fd-exp-item"><b>Vineyard afternoons on Santorini</b> — volcanic assyrtiko tastings timed so you're back for golden hour.</div>
+      </div>
+    </div>
     <div class="fd-cta-band">
       <p>Two islands per week, the right ferries, and hotels I've walked myself.</p>
       <a href="#inquire" class="btn btn-olive">Start Planning</a>
@@ -398,6 +471,15 @@
           <div class="name">The St. Regis Punta Mita</div>
           <p>Quieter and more residential in feel, with butler service throughout &mdash; a refined base on the same beautiful peninsula.</p>
         </div>
+      </div>
+    </div>
+    <div class="fd-exp">
+      <p class="fd-exp-label">Signature Experiences</p>
+      <div class="fd-exp-grid">
+        <div class="fd-exp-item"><b>Private charters &amp; sportfishing</b> — Cabo's marlin waters or a slow day anchored off a quiet bay.</div>
+        <div class="fd-exp-item"><b>Whale watching, December&ndash;April</b> — humpbacks calve in these waters; a private boat beats the crowds every time.</div>
+        <div class="fd-exp-item"><b>Tequila &amp; mezcal tastings</b> — guided by someone who can actually explain what you're drinking.</div>
+        <div class="fd-exp-item"><b>Surf mornings at Punta Mita</b> — private coaching on gentle breaks, back in time for lunch.</div>
       </div>
     </div>
     <div class="fd-cta-band">
