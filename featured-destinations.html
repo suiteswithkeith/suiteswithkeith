@@ -35,6 +35,12 @@
 <link rel="stylesheet" href="guide.css">
 <style>
   /* Minimal destination nav */
+  .fd-utility { background: var(--charcoal); }
+  .fd-utility .container { display: flex; align-items: center; justify-content: flex-end; gap: 26px; padding-top: 9px; padding-bottom: 9px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .fd-utility .container::-webkit-scrollbar { display: none; }
+  .fd-utility a { font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(245,241,233,0.85); white-space: nowrap; }
+  .fd-utility a:hover { color: #fff; }
+  @media (max-width: 860px) { .fd-utility .container { justify-content: flex-start; } }
   .fd-nav { background: var(--cream); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 400; }
   .fd-nav .container { display: flex; align-items: center; justify-content: space-between; padding-top: 18px; padding-bottom: 18px; gap: 18px; }
   .fd-nav .fd-brand { font-family: var(--font-display); font-size: 1.05rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--charcoal); white-space: nowrap; }
@@ -57,7 +63,7 @@
   .fd-trust { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--olive-deep); margin-top: 28px; }
 
   /* Destination sections */
-  .fd-section { padding: 90px 0; }
+  .fd-section { padding: 90px 0; scroll-margin-top: 96px; }
   .fd-section.alt { background: var(--cream-deep); }
   .fd-head { max-width: 720px; margin-bottom: 48px; }
   .fd-head .eyebrow { display: block; margin-bottom: 14px; }
@@ -125,11 +131,20 @@
 </head>
 <body>
 
+<div class="fd-utility">
+  <div class="container">
+    <a href="index.html">Main Site</a>
+    <a href="services.html">Services</a>
+    <a href="services.html#faq">FAQ</a>
+    <a href="destination-guides.html">Destination Guides</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+
 <nav class="fd-nav">
   <div class="container">
     <a href="#top" class="fd-brand">Suites With Keith</a>
     <div class="fd-links">
-      <a href="index.html">Home</a>
       <a href="#italy">Italy</a>
       <a href="#paris">Paris</a>
       <a href="#greece">Greece</a>
