@@ -30,9 +30,16 @@
 <meta name="twitter:description" content="Executive travel, incentive trips, and team offsites planned with the same white-glove approach Suites With Keith brings to luxury honeymoons and milestone travel.">
 <link rel="stylesheet" href="styles.css">
 <style>
-  .dest-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; text-align: center; }
-  @media (max-width: 900px) { .dest-grid { grid-template-columns: repeat(2, 1fr); gap: 36px 30px; } }
-  @media (max-width: 560px) { .dest-grid { grid-template-columns: 1fr; } }
+  .why-band .section-heading h2 { color: var(--cream); }
+  .why-band .section-heading p { color: var(--tan); }
+  .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px 44px; text-align: center; }
+  .why-item h3 { font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--tan); font-weight: 600; margin: 0 0 14px; }
+  .why-item .why-rule { width: 28px; height: 1px; background: rgba(245,241,233,0.3); margin: 0 auto 16px; }
+  .why-item p { color: var(--cream); opacity: 0.85; font-size: 0.93rem; line-height: 1.8; margin: 0 auto; max-width: 36ch; }
+  @media (max-width: 820px) { .why-grid { grid-template-columns: 1fr; gap: 44px; } }
+  .corp-hotels .guide-card .thumb.thumb-type { display: flex; align-items: center; justify-content: center; background: var(--olive-deep); }
+  .corp-hotels .guide-card .thumb.thumb-type span { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--tan); font-weight: 500; }
+  .corp-hotels .guide-card .info { display: block; }
 </style>
 </head>
 <body>
@@ -85,23 +92,27 @@
   </div>
 </section>
 
-<section class="section olive-band">
+<section class="section olive-band why-band">
   <div class="container">
     <div class="section-heading">
-      <h2 style="color:var(--tan);">Why companies work with Keith</h2>
+      <h2>Why companies work with Keith</h2>
+      <p>The Suites With Keith standard, applied to business travel</p>
     </div>
-    <div class="services-grid">
-      <div class="service-card" style="background:transparent;">
-        <h3 style="color:var(--cream);">One Point of Contact</h3>
-        <p style="color:var(--cream); opacity:0.88;">No juggling multiple vendors or booking sites — one advisor handles hotels, transport, and logistics from first inquiry to the trip itself.</p>
+    <div class="why-grid">
+      <div class="why-item">
+        <h3>One Point of Contact</h3>
+        <div class="why-rule"></div>
+        <p>No juggling vendors or booking sites &mdash; one advisor handles hotels, transport, and logistics from first inquiry to the trip itself.</p>
       </div>
-      <div class="service-card" style="background:transparent;">
-        <h3 style="color:var(--cream);">Preferred Partner Access</h3>
-        <p style="color:var(--cream); opacity:0.88;">The same Virtuoso and Fora hotel relationships behind every Suites With Keith trip — often meaning upgrades, amenities, and priority handling for your group.</p>
+      <div class="why-item">
+        <h3>Preferred Partner Access</h3>
+        <div class="why-rule"></div>
+        <p>The same Virtuoso and Fora hotel relationships behind every Suites With Keith trip &mdash; often meaning upgrades, amenities, and priority handling for your group.</p>
       </div>
-      <div class="service-card" style="background:transparent;">
-        <h3 style="color:var(--cream);">Discretion &amp; Reliability</h3>
-        <p style="color:var(--cream); opacity:0.88;">Executive and incentive travel planned with the same care and confidentiality as high-profile personal trips — and a plan for when things change last-minute.</p>
+      <div class="why-item">
+        <h3>Discretion &amp; Reliability</h3>
+        <div class="why-rule"></div>
+        <p>Executive and incentive travel planned with the same care and confidentiality as high-profile personal trips &mdash; and a plan for when things change last-minute.</p>
       </div>
     </div>
   </div>
@@ -113,22 +124,34 @@
       <h2>Where I Send Companies</h2>
       <p>A short list of properties I've personally worked with and would send a group to tomorrow</p>
     </div>
-    <div class="dest-grid">
-      <div class="service-card">
-        <h3>Montage Los Cabos</h3>
-        <p>Cabo's biggest, most complete resort — multiple restaurants, a full spa, and enough space to host a large incentive group without anyone feeling on top of each other.</p>
+    <div class="guide-grid corp-hotels">
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/personal/montage-cabo.jpg');"></div>
+        <div class="info">
+          <h3>Montage Los Cabos</h3>
+          <p>Cabo's biggest, most complete resort &mdash; multiple restaurants, a full spa, and enough space to host a large incentive group without anyone feeling on top of each other.</p>
+        </div>
       </div>
-      <div class="service-card">
-        <h3>Chileno Bay, Auberge Resorts</h3>
-        <p>Quieter and more residential than the resort strip, on one of the only swimmable beaches in Cabo — a strong fit for smaller leadership groups.</p>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Santa Maria Bay &middot; Cabo</span></div>
+        <div class="info">
+          <h3>Chileno Bay, Auberge Resorts</h3>
+          <p>Quieter and more residential than the resort strip, on one of the only swimmable beaches in Cabo &mdash; a strong fit for smaller leadership groups.</p>
+        </div>
       </div>
-      <div class="service-card">
-        <h3>One&amp;Only Palmilla</h3>
-        <p>The original Cabo icon. Still delivers for a milestone incentive trip or a full-property buyout.</p>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>San Jos&eacute; del Cabo</span></div>
+        <div class="info">
+          <h3>One&amp;Only Palmilla</h3>
+          <p>The original Cabo icon. Still delivers for a milestone incentive trip or a full-property buyout.</p>
+        </div>
       </div>
-      <div class="service-card">
-        <h3>Montage Healdsburg</h3>
-        <p>Wine country instead of the coast. I've worked directly with the team here — one of my top picks when the goal is a retreat, not a beach party.</p>
+      <div class="guide-card">
+        <div class="thumb" style="background-image:url('images/napa/montage-1.jpg');"></div>
+        <div class="info">
+          <h3>Montage Healdsburg</h3>
+          <p>Wine country instead of the coast. I've worked directly with the team here &mdash; one of my top picks when the goal is a retreat, not a beach party.</p>
+        </div>
       </div>
     </div>
   </div>
