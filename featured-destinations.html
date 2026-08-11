@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0J39101CS2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0J39101CS2');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Featured Destinations | Suites With Keith</title>
+<meta name="description" content="Luxury travel, expertly curated — personalized hotel bookings, exclusive VIP amenities, and bespoke itineraries across Japan, Italy, Africa, Greece, and Mexico.">
+<link rel="canonical" href="https://suiteswithkeith.com/featured-destinations.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Featured Destinations | Suites With Keith">
+<meta property="og:description" content="Luxury travel, expertly curated — personalized hotel bookings, exclusive VIP amenities, and bespoke itineraries for milestone trips, family travel, and everything worth doing well.">
+<meta property="og:url" content="https://suiteswithkeith.com/featured-destinations.html">
+<meta property="og:image" content="https://suiteswithkeith.com/images/hotels/canaves-oia-1.jpg">
+<meta property="og:site_name" content="Suites With Keith">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Featured Destinations | Suites With Keith">
+<meta name="twitter:description" content="Luxury travel, expertly curated — for milestone trips, family travel, and everything worth doing well.">
+<meta name="twitter:image" content="https://suiteswithkeith.com/images/hotels/canaves-oia-1.jpg">
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="guide.css">
+<style>
+  /* Minimal destination nav */
+  .fd-nav { background: var(--cream); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 400; }
+  .fd-nav .container { display: flex; align-items: center; justify-content: space-between; padding-top: 18px; padding-bottom: 18px; gap: 18px; }
+  .fd-nav .fd-brand { font-family: var(--font-display); font-size: 1.05rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--charcoal); white-space: nowrap; }
+  .fd-nav .fd-links { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
+  .fd-nav .fd-links a { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); }
+  .fd-nav .fd-links a:hover { color: var(--charcoal); }
+  .fd-nav .fd-links .btn { padding: 10px 22px; font-size: 0.68rem; }
+  @media (max-width: 860px) { .fd-nav .fd-links a:not(.btn) { display: none; } }
+
+  /* Editorial hero */
+  .fd-hero { background: var(--cream); text-align: center; padding: 110px 0 90px; }
+  .fd-hero .eyebrow { display: block; margin-bottom: 22px; }
+  .fd-hero h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2.4rem, 6vw, 4.2rem); margin: 0 0 24px; color: var(--charcoal); line-height: 1.12; }
+  .fd-hero .fd-sub { font-family: var(--font-body); font-weight: 300; font-size: clamp(1rem, 1.8vw, 1.2rem); color: var(--ink-soft); max-width: 640px; margin: 0 auto 36px; line-height: 1.7; }
+  .fd-trust { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--olive-deep); margin-top: 28px; }
+
+  /* Destination sections */
+  .fd-section { padding: 90px 0; }
+  .fd-section.alt { background: var(--cream-deep); }
+  .fd-head { max-width: 720px; margin-bottom: 48px; }
+  .fd-head .eyebrow { display: block; margin-bottom: 14px; }
+  .fd-head h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2rem, 4vw, 2.8rem); margin: 0 0 16px; color: var(--charcoal); }
+  .fd-head p { font-size: 1rem; color: var(--ink-soft); line-height: 1.75; margin: 0; }
+
+  .fd-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+  .fd-grid.two { grid-template-columns: repeat(2, 1fr); max-width: 860px; }
+  .fd-city h4 { font-family: var(--font-body); font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--olive-deep); font-weight: 600; margin: 0 0 18px; border-bottom: 1px solid var(--hairline); padding-bottom: 10px; }
+  .fd-hotel { margin-bottom: 22px; }
+  .fd-hotel:last-child { margin-bottom: 0; }
+  .fd-hotel .name { font-family: var(--font-display); font-weight: 500; font-size: 1.08rem; color: var(--charcoal); margin-bottom: 4px; }
+  .fd-hotel p { font-size: 0.88rem; color: var(--ink-soft); line-height: 1.6; margin: 0; }
+  .fd-hotel .read-link { display: inline-block; margin-top: 6px; }
+
+  .fd-photo { margin: 0 0 48px; }
+  .fd-photo img { width: 100%; aspect-ratio: 21/9; object-fit: cover; display: block; }
+
+  /* Inline CTA band */
+  .fd-cta-band { margin-top: 56px; padding: 26px 30px; background: var(--white); border-left: 3px solid var(--tan-deep); display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+  .fd-section.alt .fd-cta-band { background: var(--cream); }
+  .fd-cta-band p { font-family: var(--font-display); font-style: italic; font-size: 1.05rem; color: var(--charcoal); margin: 0; }
+  .fd-cta-band .btn { white-space: nowrap; }
+
+  /* Floating mobile CTA */
+  .fd-sticky-cta {
+    display: none; position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 500;
+    text-align: center; background: var(--tan); color: var(--charcoal);
+    font-family: var(--font-body); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 16px; border-radius: 3px; box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  }
+  @media (max-width: 700px) {
+    .fd-sticky-cta { display: block; }
+    body { padding-bottom: 70px; }
+    .fd-grid, .fd-grid.two { grid-template-columns: 1fr; }
+    .fd-hero { padding: 70px 0 60px; }
+    .fd-section { padding: 64px 0; }
+  }
+  @media (min-width: 701px) and (max-width: 1000px) {
+    .fd-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<nav class="fd-nav">
+  <div class="container">
+    <a href="#top" class="fd-brand">Suites With Keith</a>
+    <div class="fd-links">
+      <a href="#japan">Japan</a>
+      <a href="#italy">Italy</a>
+      <a href="#africa">Africa</a>
+      <a href="#greece">Greece</a>
+      <a href="#mexico">Mexico</a>
+      <a href="#inquire" class="btn btn-tan">Start Planning</a>
+    </div>
+  </div>
+</nav>
+
+<header class="fd-hero" id="top">
+  <div class="container">
+    <span class="eyebrow">Suites With Keith</span>
+    <h1>Luxury travel,<br>expertly curated</h1>
+    <p class="fd-sub">Personalized hotel bookings, exclusive VIP amenities, and bespoke itineraries &mdash; for milestone trips, family travel, and everything worth doing well.</p>
+    <a href="#inquire" class="btn btn-tan">Start Planning</a>
+    <p class="fd-trust">Virtuoso Advisor &middot; Exclusive Hotel Perks &middot; Personalized Planning</p>
+  </div>
+</header>
+
+<section class="fd-section" style="padding-bottom:40px;">
+  <div class="container">
+    <div class="fd-head" style="max-width:none; text-align:center; margin-bottom:0;">
+      <span class="eyebrow">Where To Next?</span>
+      <h2>Featured Destinations</h2>
+      <p style="max-width:560px; margin:0 auto;">A closer look at the places I plan most often &mdash; and the hotels I'd actually send my own family to.</p>
+    </div>
+  </div>
+</section>
+
+<section class="fd-section" id="japan">
+  <div class="container">
+    <div class="fd-head">
+      <span class="eyebrow">Culture &amp; Cuisine</span>
+      <h2>Japan</h2>
+      <p>From temple-lined Kyoto to neon-lit Tokyo and the food capital of Osaka, Japan rewards travelers who want depth over pace. A well-built itinerary blends culture, cuisine, and genuinely exceptional hotels.</p>
+    </div>
+    <div class="fd-grid">
+      <div class="fd-city">
+        <h4>Kyoto</h4>
+        <div class="fd-hotel">
+          <div class="name">Aman Kyoto</div>
+          <p>A secluded forest sanctuary near the city's temples; the most serene, most "Aman" experience in Japan. Best for travelers who want quiet immersion over convenience.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Capella Kyoto</div>
+          <p>Newer and set in the historic Miyagawa-ch&#333; geisha district, with a strong design pedigree (Kengo Kuma) and private onsen suites. A great pick for couples who want culture without sacrificing polish.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">The Ritz-Carlton, Kyoto</div>
+          <p>Riverside, walkable, and more classically "hotel" in feel &mdash; ideal for guests who want a central base with full-service consistency.</p>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Tokyo</h4>
+        <div class="fd-hotel">
+          <div class="name">Aman Tokyo</div>
+          <p>Serene, minimalist, perched atop Otemachi Tower with views of the Imperial Palace gardens. The quiet counterpoint to the city's energy.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Mandarin Oriental, Tokyo</div>
+          <p>Bolder and more contemporary, with some of the best dining in the city &mdash; three Michelin-starred restaurants on-site.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">The Peninsula Tokyo</div>
+          <p>Classic, central Ginza location, excellent for first-time visitors who want to be in the middle of everything.</p>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Osaka</h4>
+        <div class="fd-hotel">
+          <div class="name">The St. Regis Osaka</div>
+          <p>Elegant, central, with signature St. Regis butler service &mdash; a refined base for exploring Osaka's food scene.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Conrad Osaka</div>
+          <p>Sky-high in the Nakanoshima Festival Tower with sweeping river views and a more contemporary, art-forward feel.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">The Ritz-Carlton, Osaka</div>
+          <p>English-manor-meets-Japan design, a longtime favorite for its Club Lounge and classic service.</p>
+        </div>
+      </div>
+    </div>
+    <div class="fd-cta-band">
+      <p>Planning Japan? I'll sequence the cities, the trains, and the tables.</p>
+      <a href="#inquire" class="btn btn-olive">Start Planning</a>
+    </div>
+  </div>
+</section>
+
+<section class="fd-section alt" id="italy">
+  <div class="container">
+    <div class="fd-head">
+      <span class="eyebrow">La Dolce Vita</span>
+      <h2>Italy</h2>
+      <p>Italy is where I've spent the most time personally &mdash; Passalacqua, Il San Pietro, and beyond. Whether it's palazzo grandeur in Florence and Rome or countryside seclusion in Tuscany, I build itineraries around a mix of Belmond, Rosewood, and Auberge-caliber stays.</p>
+    </div>
+    <div class="fd-photo"><img src="images/pools/le-sirenuse.jpg" alt="Le Sirenuse pool overlooking Positano"></div>
+    <div class="fd-grid" style="grid-template-columns: repeat(2, 1fr); gap: 48px 60px;">
+      <div class="fd-city">
+        <h4>Florence</h4>
+        <div class="fd-hotel">
+          <div class="name">Belmond Villa San Michele</div>
+          <p>A former 15th-century monastery in the Fiesole hills above the city, recently renovated, with the best views in Florence and a private shuttle into town.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Four Seasons Hotel Firenze</div>
+          <p>Two Renaissance palazzos bordering one of the city's largest private gardens &mdash; resort-like calm inside the city center.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Portrait Firenze</div>
+          <p>Smaller and more intimate, right on the Ponte Vecchio; a strong pick for couples who want a boutique, design-forward stay.</p>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Rome</h4>
+        <div class="fd-hotel">
+          <div class="name">Hotel de Russie</div>
+          <p>My top overall pick in Rome &mdash; a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Hotel Eden</div>
+          <p>Quieter, romantic, Dorchester Collection &mdash; ideal for couples who want old-world charm without the crowds.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">The St. Regis Rome</div>
+          <p>Belle &Eacute;poque grandeur and a nightly champagne sabrage ritual, for guests who want a bit more spectacle.</p>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Tuscany</h4>
+        <div class="fd-hotel">
+          <div class="name">Rosewood Castiglion del Bosco</div>
+          <p>A 5,000-acre Ferragamo-family estate in the Val d'Orcia with its own Brunello winery and Italy's only private golf club &mdash; my top Tuscany pick for a multi-night countryside stay.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Belmond Castello di Casole</div>
+          <p>A hilltop castle estate near Siena with sweeping countryside views, slightly more traditional in feel.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">COMO Castello del Nero</div>
+          <p>A 12th-century converted castle in Chianti, well-positioned for day trips to Florence and Siena.</p>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Amalfi Coast</h4>
+        <div class="fd-hotel">
+          <div class="name">Belmond Hotel Caruso</div>
+          <p>Perched in Ravello above the coast, with the most dramatic infinity pool on the Amalfi Coast &mdash; quieter and more composed than Positano.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Il San Pietro di Positano</div>
+          <p>Carved into the cliffs near Positano, Michelin-starred dining, private beach club &mdash; one of my personal favorites.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Le Sirenuse</div>
+          <p>The address in Positano itself, for guests who want to be in the center of the action.</p>
+        </div>
+      </div>
+    </div>
+    <div class="fd-cta-band">
+      <p>Italy rewards planning early &mdash; the best suites go first.</p>
+      <a href="#inquire" class="btn btn-olive">Start Planning</a>
+    </div>
+  </div>
+</section>
+
+<section class="fd-section" id="africa">
+  <div class="container">
+    <div class="fd-head">
+      <span class="eyebrow">The Safari</span>
+      <h2>Africa</h2>
+      <p>A safari is one of the most rewarding trips I plan &mdash; especially for multigenerational groups. Each region below offers a different kind of experience, from front-row migration views to private water-based game drives.</p>
+    </div>
+    <div class="fd-grid">
+      <div class="fd-city">
+        <h4>Tanzania &middot; Serengeti</h4>
+        <div class="fd-hotel">
+          <div class="name">Four Seasons Safari Lodge, Serengeti</div>
+          <p>Set in the Seronera Valley with a year-round waterhole and full resort infrastructure &mdash; spa, two pools, fitness &mdash; the most comfortable, family-friendly entry point into the Serengeti.</p>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Kenya &middot; Maasai Mara</h4>
+        <div class="fd-hotel">
+          <div class="name">Angama Mara</div>
+          <p>Perched on the edge of the Oloololo Escarpment with sweeping views over the Mara &mdash; ideal for travelers focused on the Great Migration.</p>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Botswana &middot; Okavango Delta</h4>
+        <div class="fd-hotel">
+          <div class="name">Sanctuary Chief's Camp</div>
+          <p>A private-island camp deep in the Delta, combining traditional game drives with mokoro (canoe) safaris through the waterways &mdash; a genuinely different kind of safari.</p>
+        </div>
+      </div>
+    </div>
+    <div class="fd-cta-band">
+      <p>Safaris book 9&ndash;12 months out &mdash; the right camp matters more than anywhere else I plan.</p>
+      <a href="#inquire" class="btn btn-olive">Start Planning</a>
+    </div>
+  </div>
+</section>
+
+<section class="fd-section alt" id="greece">
+  <div class="container">
+    <div class="fd-head">
+      <span class="eyebrow">The Cyclades</span>
+      <h2>Greece</h2>
+      <p>The Greek islands are where my practice runs deepest &mdash; I've personally toured and stayed at 38 hotels across seven islands. From the caldera's most sophisticated stays to design-led hideaways on the quieter islands, this is planning built entirely on firsthand knowledge.</p>
+    </div>
+    <div class="fd-photo"><img src="images/hotels/canaves-oia-1.jpg" alt="Canaves Oia Suites on the Santorini caldera"></div>
+    <div class="fd-grid" style="grid-template-columns: repeat(2, 1fr); gap: 48px 60px;">
+      <div class="fd-city">
+        <h4>Santorini</h4>
+        <div class="fd-hotel">
+          <div class="name">Canaves Oia Suites</div>
+          <p>The classic caldera experience, perfected &mdash; recently renovated, remarkably private, with the best spa product on the caldera.</p>
+          <a href="hotels/canaves-oia-suites-santorini.html" class="read-link">Explore &rarr;</a>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Canaves Epitome</div>
+          <p>The best hotel I experienced in Greece &mdash; garden seclusion near Ammoudi Bay, a true Aegean sunset, and no age restrictions, which makes it the caldera-area pick for families.</p>
+          <a href="hotels/canaves-epitome-santorini.html" class="read-link">Explore &rarr;</a>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Andronis Boutique</div>
+          <p>Authentic cave-style suites in the heart of Oia, freshly renovated, with a plunge pool or jacuzzi in every room.</p>
+          <a href="hotels/andronis-boutique-santorini.html" class="read-link">Explore &rarr;</a>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Beyond Santorini</h4>
+        <div class="fd-hotel">
+          <div class="name">Gundari &middot; Folegandros</div>
+          <p>A dark stone showpiece on a clifftop of one of Greece's quietest islands &mdash; 27 suites and villas, all with plunge pools, and the most striking infinity pool in the Cyclades.</p>
+          <a href="hotels/gundari-folegandros.html" class="read-link">Explore &rarr;</a>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Parilio &middot; Paros</div>
+          <p>The most beautiful design story in the islands, just outside Naoussa &mdash; with new hilltop villas that suit families and groups wonderfully.</p>
+          <a href="hotels/parilio-paros.html" class="read-link">Explore &rarr;</a>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Cali &middot; Mykonos</div>
+          <p>An independent stunner on the island's quiet east side, with truly private plunge pools and the best hotel gym I've ever seen.</p>
+          <a href="hotels/cali-mykonos.html" class="read-link">Explore &rarr;</a>
+        </div>
+      </div>
+    </div>
+    <div class="fd-cta-band">
+      <p>Two islands per week, the right ferries, and hotels I've walked myself.</p>
+      <a href="#inquire" class="btn btn-olive">Start Planning</a>
+    </div>
+  </div>
+</section>
+
+<section class="fd-section" id="mexico">
+  <div class="container">
+    <div class="fd-head">
+      <span class="eyebrow">Sun &amp; Sea</span>
+      <h2>Mexico</h2>
+      <p>Mexico's Pacific coast is the easiest luxury escape in the Americas &mdash; short flights, no jet lag, and a run of resorts that rival anywhere in the world. Los Cabos brings drama and energy; Punta Mita and the Riviera Nayarit bring lush, quiet polish.</p>
+    </div>
+    <div class="fd-photo"><img src="images/personal/montage-cabo.jpg" alt="Montage Los Cabos on Santa Maria Bay"></div>
+    <div class="fd-grid two" style="gap: 48px 60px;">
+      <div class="fd-city">
+        <h4>Los Cabos</h4>
+        <div class="fd-hotel">
+          <div class="name">Montage Los Cabos</div>
+          <p>Set on Santa Maria Bay &mdash; one of the few genuinely swimmable beaches in Cabo &mdash; with understated design and standout service. My go-to first recommendation here.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">One&amp;Only Palmilla</div>
+          <p>The grande dame of Cabo &mdash; lush, storied, and impeccably serviced, with a swimmable cove and legendary breakfasts.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Las Ventanas al Para&iacute;so</div>
+          <p>A Rosewood resort famous for over-the-top service theater &mdash; ideal for celebrations that deserve a little spectacle.</p>
+        </div>
+      </div>
+      <div class="fd-city">
+        <h4>Punta Mita &amp; Riviera Nayarit</h4>
+        <div class="fd-hotel">
+          <div class="name">One&amp;Only Mandarina</div>
+          <p>Treehouse-style villas folded into a rainforest cliffside &mdash; the most architecturally exciting resort on the Pacific coast.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">Four Seasons Resort Punta Mita</div>
+          <p>The family standby &mdash; two beaches, two golf courses, and the kind of consistency that makes multigenerational trips easy.</p>
+        </div>
+        <div class="fd-hotel">
+          <div class="name">The St. Regis Punta Mita</div>
+          <p>Quieter and more residential in feel, with butler service throughout &mdash; a refined base on the same beautiful peninsula.</p>
+        </div>
+      </div>
+    </div>
+    <div class="fd-cta-band">
+      <p>Cabo or Punta Mita? It depends on your group &mdash; ask me.</p>
+      <a href="#inquire" class="btn btn-olive">Start Planning</a>
+    </div>
+  </div>
+</section>
+
+<section class="fd-section alt" id="inquire">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Start Planning</h2>
+      <p>Tell me where you're dreaming of &mdash; I'll reply personally, usually within a day</p>
+    </div>
+    <form class="contact-form" action="https://formspree.io/f/mjgnadov" method="POST">
+      <!-- Spam honeypot — leave empty -->
+      <input type="text" name="_gotcha" class="contact-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="_subject" value="New trip inquiry — Featured Destinations page">
+      <div class="field-row">
+        <div class="field">
+          <label for="fd-name">Name</label>
+          <input id="fd-name" type="text" name="name" required>
+        </div>
+        <div class="field">
+          <label for="fd-email">Email</label>
+          <input id="fd-email" type="email" name="email" required>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="fd-dest">Destination</label>
+          <select id="fd-dest" name="destination">
+            <option value="">Select one</option>
+            <option>Japan</option>
+            <option>Italy</option>
+            <option>Africa</option>
+            <option>Greece</option>
+            <option>Mexico</option>
+            <option>Somewhere else</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fd-occasion">Occasion</label>
+          <select id="fd-occasion" name="occasion">
+            <option value="">Select one</option>
+            <option>Anniversary</option>
+            <option>Milestone Celebration</option>
+            <option>Family / Multi-Generational</option>
+            <option>Leisure / Getaway</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="fd-message">Tell me about the trip</label>
+        <textarea id="fd-message" name="message" placeholder="Rough dates, who's traveling, what a perfect day looks like&hellip;"></textarea>
+      </div>
+      <button type="submit" class="btn btn-olive">Start Planning</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<script>
+(function () {
+  var form = document.querySelector('#inquire .contact-form');
+  if (!form) return;
+  var status = form.querySelector('.form-status');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type="submit"]');
+    status.textContent = 'Sending…';
+    status.className = 'form-status';
+    if (btn) btn.disabled = true;
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(function (r) {
+      if (r.ok) {
+        form.reset();
+        status.textContent = 'Thank you — your inquiry is on its way. I’ll be in touch soon.';
+        status.className = 'form-status success';
+        if (window.gtag) {
+          gtag('event', 'generate_lead', { form_location: 'featured_destinations' });
+        }
+      } else {
+        return r.json().then(function (d) {
+          throw new Error((d.errors && d.errors[0] && d.errors[0].message) || 'Something went wrong.');
+        });
+      }
+    }).catch(function (err) {
+      status.textContent = err.message + ' You can also email keith.pence@fora.travel directly.';
+      status.className = 'form-status error';
+    }).then(function () {
+      if (btn) btn.disabled = false;
+    });
+  });
+})();
+</script>
+
+<a href="#inquire" class="fd-sticky-cta">Start Planning</a>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Suites With Keith</h4>
+      <p>Luxury travel advisor specializing in personalized hotel bookings, exclusive amenities, and bespoke itineraries.</p>
+    </div>
+    <div class="footer-mid">
+      <div class="footer-badge">SWK</div>
+      <div class="partner-logos">
+        <img src="images/logos/virtuoso.png" alt="Virtuoso">
+        <img src="images/logos/fora-pro.png" alt="Fora Pro">
+      </div>
+    </div>
+    <div class="footer-right">
+      <h4>Get In Touch</h4>
+      <p>keith.pence@fora.travel</p>
+      <p><a href="https://instagram.com/suiteswithkeith">@suiteswithkeith</a></p>
+      <p><a href="privacy.html">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="track.js" defer></script>
+<script src="reveal.js" defer></script>
+</body>
+</html>
