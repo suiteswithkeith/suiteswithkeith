@@ -42,7 +42,12 @@
   .fd-nav .fd-links a { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); }
   .fd-nav .fd-links a:hover { color: var(--charcoal); }
   .fd-nav .fd-links .btn { padding: 10px 22px; font-size: 0.68rem; }
-  @media (max-width: 860px) { .fd-nav .fd-links a:not(.btn) { display: none; } }
+  @media (max-width: 860px) {
+    .fd-nav .container { flex-wrap: wrap; padding-bottom: 0; }
+    .fd-nav .fd-links { width: 100%; flex-wrap: nowrap; overflow-x: auto; gap: 22px; padding: 2px 0 14px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+    .fd-nav .fd-links::-webkit-scrollbar { display: none; }
+    .fd-nav .fd-links a { white-space: nowrap; }
+  }
 
   /* Editorial hero */
   .fd-hero { background: var(--cream); text-align: center; padding: 110px 0 90px; }
@@ -124,6 +129,7 @@
   <div class="container">
     <a href="#top" class="fd-brand">Suites With Keith</a>
     <div class="fd-links">
+      <a href="index.html">Home</a>
       <a href="#italy">Italy</a>
       <a href="#paris">Paris</a>
       <a href="#greece">Greece</a>
@@ -826,6 +832,7 @@
       <h4>Get In Touch</h4>
       <p>keith.pence@fora.travel</p>
       <p><a href="https://instagram.com/suiteswithkeith">@suiteswithkeith</a></p>
+      <p><a href="index.html">Main Website</a></p>
       <p><a href="privacy.html">Privacy Policy</a></p>
     </div>
   </div>
