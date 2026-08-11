@@ -30,6 +30,18 @@
 <meta name="twitter:description" content="Executive travel, incentive trips, and team offsites planned with the same white-glove approach Suites With Keith brings to luxury honeymoons and milestone travel.">
 <link rel="stylesheet" href="styles.css">
 <style>
+  /* Editorial hero: oversized title over cream, then full-bleed photo */
+  .corp-hero { padding: 84px 0 56px; text-align: center; }
+  .corp-hero .eyebrow { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--olive); font-weight: 500; margin: 0 0 18px; }
+  .corp-hero h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.6rem, 7vw, 4.6rem); line-height: 1.08; margin: 0; color: var(--charcoal); }
+  .corp-photo { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+  .corp-photo .frame { height: clamp(300px, 48vw, 540px); background-size: cover; background-position: center 65%; border-radius: 0 120px 0 120px; }
+  @media (max-width: 700px) { .corp-photo .frame { border-radius: 0 56px 0 56px; } }
+  .corp-intro { text-align: center; max-width: 760px; margin: 0 auto; padding: 72px 24px 8px; }
+  .corp-intro .corp-mark { font-family: 'Cinzel', var(--font-display); font-size: 0.85rem; letter-spacing: 0.3em; color: var(--tan-deep); margin-bottom: 26px; }
+  .corp-intro h2 { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: clamp(1.5rem, 3.4vw, 2.2rem); line-height: 1.35; color: var(--olive-deep); margin: 0 0 26px; }
+  .corp-intro p { color: var(--ink-soft); line-height: 1.9; margin: 0 0 18px; }
+  .corp-intro .corp-contact { margin-top: 30px; }
   .why-band .section-heading h2 { color: var(--cream); }
   .why-band .section-heading p { color: var(--tan); }
   .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px 44px; text-align: center; }
@@ -57,20 +69,29 @@
   </div>
 </nav>
 
-<header class="hero" style="min-height:420px; background:var(--charcoal);">
+<header class="corp-hero">
   <div class="container">
-    <p class="eyebrow">Corporate &amp; Group Travel</p>
-    <h1 style="font-size:clamp(2rem,4.4vw,3.2rem);">Executive travel and team trips, planned like they matter</h1>
-    <p class="sub">Incentive trips, offsites, and executive travel &mdash; planned with precision, backed by relationships</p>
-    <a href="#inquire" class="btn btn-tan">Start a Conversation</a>
+    <p class="eyebrow">What We Do</p>
+    <h1>Corporate Travel</h1>
   </div>
 </header>
+
+<div class="corp-photo">
+  <div class="frame" style="background-image:url('images/personal/montage-cabo.jpg');" role="img" aria-label="Oceanfront resort pool at Montage Los Cabos"></div>
+</div>
+
+<section class="corp-intro">
+  <div class="corp-mark">SWK</div>
+  <h2>Travel planning for companies that want it handled &mdash; simply, personally, and at a level their people notice</h2>
+  <p>From managing itineraries for time-pressed executives to designing incentive retreats your top performers will talk about for years, I act as an extension of your team. The relationships behind every Suites With Keith honeymoon &mdash; luxury hotels, private villas, and preferred partners worldwide &mdash; now working for your leadership offsite, your incentive trip, your next executive itinerary.</p>
+  <p>To see how I can put those resources to work for your company, email <a href="mailto:keith.pence@fora.travel">keith.pence@fora.travel</a> or start below.</p>
+  <p class="corp-contact"><a href="#inquire" class="btn btn-olive">Start a Conversation</a></p>
+</section>
 
 <section class="section">
   <div class="container">
     <div class="section-heading">
       <h2>The same approach, built for business</h2>
-      <p>For years, I've built relationships with luxury hotels, private villas, and travel partners around the world to make personal trips feel effortless. Now I'm bringing that same network and hands-on planning to corporate travel — so your leadership offsite, incentive trip, or executive itinerary gets the same level of care as a client's honeymoon.</p>
     </div>
     <div class="services-grid">
       <div class="service-card">
