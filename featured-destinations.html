@@ -68,9 +68,6 @@
   .fd-hotel p { font-size: 0.88rem; color: var(--ink-soft); line-height: 1.6; margin: 0; }
   .fd-hotel .read-link { display: inline-block; margin-top: 6px; }
   .fd-award { font-size: 0.64rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--tan-deep); font-weight: 600; margin: 0 0 6px; }
-  .fd-compact .fd-hotel { display: grid; grid-template-columns: 148px 1fr; gap: 18px; align-items: start; margin-bottom: 28px; }
-  .fd-compact .fd-thumb { aspect-ratio: 1/1; margin-bottom: 0; }
-  .fd-compact .fd-hotel p { font-size: 0.86rem; }
 
   .fd-map { background: #1c2436; padding: clamp(16px, 3vw, 36px); margin: 0 0 48px; }
   .fd-map-scroll { overflow-x: auto; }
@@ -110,7 +107,6 @@
     padding: 16px; border-radius: 3px; box-shadow: 0 6px 20px rgba(0,0,0,0.25);
   }
   @media (max-width: 700px) {
-    .fd-compact .fd-hotel { grid-template-columns: 104px 1fr; gap: 14px; }
     .fd-sticky-cta { display: block; }
     body { padding-bottom: 70px; }
     .fd-grid, .fd-grid.two { grid-template-columns: 1fr; }
@@ -226,7 +222,7 @@
         </svg>
       </div>
     </div>
-    <div class="fd-grid two fd-compact" style="gap: 48px 60px;">
+    <div class="fd-grid" style="gap: 48px 60px;">
       <div class="fd-city">
         <h4>Florence</h4>
         <div class="fd-hotel">
@@ -431,7 +427,7 @@
         </svg>
       </div>
     </div>
-    <div class="fd-grid" style="grid-template-columns: repeat(2, 1fr); gap: 48px 60px;">
+    <div class="fd-grid two" style="gap: 48px 60px;">
       <div class="fd-city">
         <h4>Santorini</h4>
         <div class="fd-hotel">
@@ -499,7 +495,7 @@
       <p>From temple-lined Kyoto to neon-lit Tokyo, Japan rewards travelers who want depth over pace. A well-built itinerary blends culture, cuisine, and genuinely exceptional hotels.</p>
     </div>
     <div class="fd-photo"><img src="images/destinations/japan-kyoto.jpg" alt="The Ritz-Carlton Kyoto at dusk along the Kamogawa River"></div>
-    <div class="fd-grid two fd-compact" style="gap: 48px 60px;">
+    <div class="fd-grid two" style="gap: 48px 60px;">
       <div class="fd-city">
         <h4>Kyoto</h4>
         <div class="fd-hotel">
