@@ -68,6 +68,10 @@
   .fd-hotel p { font-size: 0.88rem; color: var(--ink-soft); line-height: 1.6; margin: 0; }
   .fd-hotel .read-link { display: inline-block; margin-top: 6px; }
 
+  .fd-map { background: #1c2436; padding: clamp(16px, 3vw, 36px); margin: 0 0 48px; }
+  .fd-map-scroll { overflow-x: auto; }
+  .fd-map svg { display: block; width: 100%; min-width: 620px; height: auto; }
+  .fd-map text { font-family: var(--font-body); }
   .fd-thumb { width: 100%; aspect-ratio: 3/2; object-fit: cover; display: block; margin-bottom: 14px; }
   .fd-photo { margin: 0 0 48px; }
   .fd-photo img { width: 100%; aspect-ratio: 21/9; object-fit: cover; display: block; }
@@ -175,10 +179,10 @@
     <div class="fd-head">
       <span class="eyebrow">Culture &amp; Cuisine</span>
       <h2>Japan</h2>
-      <p>From temple-lined Kyoto to neon-lit Tokyo and the food capital of Osaka, Japan rewards travelers who want depth over pace. A well-built itinerary blends culture, cuisine, and genuinely exceptional hotels.</p>
+      <p>From temple-lined Kyoto to neon-lit Tokyo, Japan rewards travelers who want depth over pace. A well-built itinerary blends culture, cuisine, and genuinely exceptional hotels.</p>
     </div>
     <div class="fd-photo"><img src="images/destinations/japan-kyoto.jpg" alt="The Ritz-Carlton Kyoto at dusk along the Kamogawa River"></div>
-    <div class="fd-grid">
+    <div class="fd-grid two" style="gap: 48px 60px;">
       <div class="fd-city">
         <h4>Kyoto</h4>
         <div class="fd-hotel">
@@ -215,21 +219,6 @@
           <p>Classic, central Ginza location, excellent for first-time visitors who want to be in the middle of everything.</p>
         </div>
       </div>
-      <div class="fd-city">
-        <h4>Osaka</h4>
-        <div class="fd-hotel">
-          <div class="name">The St. Regis Osaka</div>
-          <p>Elegant, central, with signature St. Regis butler service &mdash; a refined base for exploring Osaka's food scene.</p>
-        </div>
-        <div class="fd-hotel">
-          <div class="name">Conrad Osaka</div>
-          <p>Sky-high in the Nakanoshima Festival Tower with sweeping river views and a more contemporary, art-forward feel.</p>
-        </div>
-        <div class="fd-hotel">
-          <div class="name">The Ritz-Carlton, Osaka</div>
-          <p>English-manor-meets-Japan design, a longtime favorite for its Club Lounge and classic service.</p>
-        </div>
-      </div>
     </div>
     <div class="fd-exp">
       <p class="fd-exp-label">Signature Experiences</p>
@@ -254,8 +243,47 @@
       <h2>Italy</h2>
       <p>Italy is where I've spent the most time personally &mdash; Passalacqua, Il San Pietro, and beyond. Whether it's palazzo grandeur in Florence and Rome or countryside seclusion in Tuscany, I build itineraries around a mix of Belmond, Rosewood, and Auberge-caliber stays.</p>
     </div>
-    <div class="fd-photo"><img src="images/pools/le-sirenuse.jpg" alt="Le Sirenuse pool overlooking Positano"></div>
-    <div class="fd-grid" style="grid-template-columns: repeat(2, 1fr); gap: 48px 60px;">
+    <div class="fd-map">
+      <div class="fd-map-scroll">
+        <svg viewBox="0 0 660 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of Italy showing the five regions Keith plans most: Lake Como, Florence, Tuscany, Rome, and the Amalfi Coast">
+          <!-- stylized peninsula -->
+          <path d="M150,112 C196,76 262,58 312,60 C338,61 350,74 356,94 C362,114 354,134 364,156 C382,198 414,240 442,286 C468,328 490,374 516,414 C534,442 560,462 584,480 C604,494 622,510 626,532 C630,554 612,562 596,553 C582,545 572,534 556,530 C540,526 524,528 512,518 C498,506 494,490 482,478 C468,464 448,462 442,476 C436,490 444,506 452,520 C464,542 474,564 478,588 C482,612 480,636 470,656 C463,670 450,682 436,677 C422,672 419,656 417,642 C414,624 413,608 402,596 C389,582 371,576 359,562 C345,546 341,524 329,508 C313,486 289,472 273,450 C253,424 245,392 235,362 C225,332 211,304 197,276 C183,248 167,222 159,192 C151,166 141,138 150,112 Z" fill="#f5f1e9" opacity="0.12"/>
+          <!-- Sicily + Sardinia -->
+          <path d="M368,706 L470,700 L428,748 Z" fill="#f5f1e9" opacity="0.10"/>
+          <ellipse cx="128" cy="500" rx="34" ry="72" fill="#f5f1e9" opacity="0.10"/>
+          <!-- seas -->
+          <text x="90" y="330" font-size="12" letter-spacing="3" fill="rgba(245,241,233,0.35)">TYRRHENIAN SEA</text>
+          <text x="470" y="240" font-size="12" letter-spacing="3" fill="rgba(245,241,233,0.35)">ADRIATIC</text>
+          <!-- markers -->
+          <g>
+            <circle cx="282" cy="98" r="9" fill="#c9b997"/>
+            <text x="300" y="94" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9">LAKE COMO</text>
+            <text x="300" y="110" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)">PASSALACQUA &middot; IL SERENO &middot; MANDARIN ORIENTAL</text>
+          </g>
+          <g>
+            <circle cx="290" cy="286" r="9" fill="#c9b997"/>
+            <text x="308" y="282" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9">FLORENCE</text>
+            <text x="308" y="298" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)">VILLA SAN MICHELE &middot; FOUR SEASONS &middot; LUNGARNO</text>
+          </g>
+          <g>
+            <circle cx="300" cy="368" r="9" fill="#c9b997"/>
+            <text x="282" y="364" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9" text-anchor="end">TUSCANY</text>
+            <text x="282" y="380" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)" text-anchor="end">ROSEWOOD &middot; BELMOND &middot; COMO</text>
+          </g>
+          <g>
+            <circle cx="336" cy="470" r="9" fill="#c9b997"/>
+            <text x="318" y="466" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9" text-anchor="end">ROME</text>
+            <text x="318" y="482" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)" text-anchor="end">DE RUSSIE &middot; EDEN &middot; ST. REGIS</text>
+          </g>
+          <g>
+            <circle cx="422" cy="560" r="9" fill="#c9b997"/>
+            <text x="440" y="556" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9">AMALFI COAST</text>
+            <text x="440" y="572" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)">CARUSO &middot; IL SAN PIETRO &middot; LE SIRENUSE</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="fd-grid" style="gap: 48px 40px;">
       <div class="fd-city">
         <h4>Florence</h4>
         <div class="fd-hotel">
@@ -458,7 +486,47 @@
       <h2>Greece</h2>
       <p>The Greek islands are where my practice runs deepest &mdash; I've personally toured and stayed at 38 hotels across seven islands. From the caldera's most sophisticated stays to design-led hideaways on the quieter islands, this is planning built entirely on firsthand knowledge.</p>
     </div>
-    <div class="fd-photo"><img src="images/hotels/canaves-oia-1.jpg" alt="Canaves Oia Suites on the Santorini caldera"></div>
+    <div class="fd-map">
+      <div class="fd-map-scroll">
+        <svg viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the Cyclades showing the islands and hotels Keith plans most">
+          <path d="M0,0 L170,0 C152,30 168,52 150,70 C160,95 205,122 268,152 C230,176 170,168 118,152 C70,140 30,146 0,152 Z" fill="#f5f1e9" opacity="0.14"/>
+          <text x="60" y="118" font-size="13" letter-spacing="2" fill="rgba(245,241,233,0.5)">ATHENS</text>
+          <text x="500" y="52" font-size="13" letter-spacing="3" fill="rgba(245,241,233,0.4)" text-anchor="middle">THE AEGEAN</text>
+          <ellipse cx="468" cy="320" rx="15" ry="12" fill="#f5f1e9" opacity="0.16"/>
+          <ellipse cx="424" cy="242" rx="10" ry="14" fill="#f5f1e9" opacity="0.16"/>
+          <ellipse cx="638" cy="222" rx="12" ry="16" fill="#f5f1e9" opacity="0.16"/>
+          <ellipse cx="498" cy="434" rx="9" ry="7" fill="#f5f1e9" opacity="0.16"/>
+          <ellipse cx="728" cy="478" rx="12" ry="7" fill="#f5f1e9" opacity="0.16" transform="rotate(-15 728 478)"/>
+          <ellipse cx="800" cy="465" rx="14" ry="11" fill="#f5f1e9" opacity="0.16"/>
+          <!-- featured islands -->
+          <g>
+            <ellipse cx="830" cy="219" rx="17" ry="12" fill="#f5f1e9" opacity="0.9"/>
+            <text x="830" y="192" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9" text-anchor="middle">MYKONOS</text>
+            <text x="830" y="250" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)" text-anchor="middle">CALI &middot; KALESMA &middot; BILL &amp; COO</text>
+          </g>
+          <g>
+            <ellipse cx="745" cy="344" rx="19" ry="15" fill="#f5f1e9" opacity="0.9"/>
+            <text x="778" y="341" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9">PAROS</text>
+            <text x="778" y="357" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)">PARILIO &middot; COSME</text>
+          </g>
+          <g>
+            <ellipse cx="562" cy="381" rx="16" ry="21" fill="#f5f1e9" opacity="0.9"/>
+            <text x="530" y="378" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9" text-anchor="end">SIFNOS</text>
+            <text x="530" y="394" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)" text-anchor="end">STAMNA</text>
+          </g>
+          <g>
+            <ellipse cx="647" cy="498" rx="17" ry="9" fill="#f5f1e9" opacity="0.9" transform="rotate(-25 647 498)"/>
+            <text x="614" y="516" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9" text-anchor="end">FOLEGANDROS</text>
+            <text x="614" y="532" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)" text-anchor="end">GUNDARI</text>
+          </g>
+          <g>
+            <path d="M856,536 C872,530 884,542 886,560 C888,578 878,592 862,594 C852,595 846,588 850,582 C858,584 868,578 870,564 C871,550 864,542 854,544 Z" fill="#f5f1e9" opacity="0.95"/>
+            <text x="838" y="546" font-size="14" font-weight="500" letter-spacing="1.5" fill="#f5f1e9" text-anchor="end">SANTORINI</text>
+            <text x="838" y="562" font-size="10.5" letter-spacing="1" fill="rgba(245,241,233,0.6)" text-anchor="end">CANAVES &middot; ANDRONIS</text>
+          </g>
+        </svg>
+      </div>
+    </div>
     <div class="fd-grid" style="grid-template-columns: repeat(2, 1fr); gap: 48px 60px;">
       <div class="fd-city">
         <h4>Santorini</h4>
