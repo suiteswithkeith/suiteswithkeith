@@ -127,7 +127,7 @@ $stood_out_notes
     <div class="rank-card" style="display:block;">
       <div class="rank-copy" style="max-width:860px;">
         <span class="rank-num">Know Before You Book</span>
-        <h3>The Fine Print, From Someone Who's Been</h3>
+        <h3>$know_heading</h3>
         <div class="rank-notes" style="margin-top:18px;">
 $know_notes
         </div>
@@ -151,7 +151,7 @@ $know_notes
 <section class="guide-cta">
   <div class="container">
     <span class="eyebrow">Planning A Trip To $island?</span>
-    <h2>I've personally $visited_verb $short_name. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.</h2>
+    <h2>$cta_line</h2>
     <a href="$mailto" class="btn btn-tan">Plan Your Trip</a>
     <p style="margin-top:26px;"><a href="../$island_page" class="read-link">$cta_island_text &rarr;</a> &nbsp;&nbsp; <a href="../$cta2_href" class="read-link">$cta2_text &rarr;</a></p>
   </div>
@@ -1029,8 +1029,15 @@ HOTELS = [
     ),
 ]
 
-import os
+import os, glob, importlib.util
 os.makedirs(f"{SITE}/hotels", exist_ok=True)
+
+# Additional hotel batches live in tools/hotel_data_*.py, each exporting HOTELS = [...]
+for _mod_path in sorted(glob.glob(os.path.join(SITE, "tools", "hotel_data_*.py"))):
+    _spec = importlib.util.spec_from_file_location(os.path.basename(_mod_path)[:-3], _mod_path)
+    _mod = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(_mod)
+    HOTELS += _mod.HOTELS
 
 for h in HOTELS:
     plain_name = html.unescape(h["name"])
@@ -1056,7 +1063,10 @@ for h in HOTELS:
         cta_island_text=h.get("cta_island_text", "My " + h["island"] + " Guide"),
         cta2_href=h.get("cta2_href", rank_href_v),
         slug=h["slug"], name=h["name"], short_name=h["short_name"], island=h["island"],
-        island_page=h["island_page"], rank_num=h.get("rank_num", ""), hero_img=h["hero_img"], img2=h["img2"],
+        island_page=h["island_page"], rank_num=h.get("rank_num", ""), hero_img=h["hero_img"],
+        img2=h.get("img2", h["hero_img"]),
+        know_heading=h.get("know_heading", "The Fine Print, From Someone Who's Been"),
+        cta_line=h.get("cta_line", "I've personally " + h["visited_verb"] + " " + h["short_name"] + ". Let me match you to the right room, time it to the right season, and build the rest of the trip around it."),
         stat1_num=h.get("stat1_num", "#" + h.get("rank_num", "")),
         stat1_label=h.get("stat1_label", "In My Greece Top 10"),
         rank_href=rank_href_v,
