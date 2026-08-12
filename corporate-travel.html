@@ -52,6 +52,15 @@
   .corp-hotels .guide-card .thumb.thumb-type { display: flex; align-items: center; justify-content: center; background: var(--olive-deep); }
   .corp-hotels .guide-card .thumb.thumb-type span { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--tan); font-weight: 500; }
   .corp-hotels .guide-card .info { display: block; }
+  /* Preferred partners logo grid */
+  .partner-band { background: var(--white); }
+  .partner-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px 40px; align-items: center; max-width: 1000px; margin: 0 auto; }
+  .partner-grid .partner-logo { display: flex; align-items: center; justify-content: center; padding: 18px 10px; }
+  .partner-grid img { max-height: 74px; max-width: 150px; width: auto; object-fit: contain; filter: grayscale(1); opacity: 0.72; mix-blend-mode: multiply; transition: opacity 0.2s ease; }
+  .partner-grid .partner-logo:hover img { opacity: 1; }
+  .partner-grid .partner-logo.tint img { filter: grayscale(1) brightness(1.14) contrast(1.08); }
+  @media (max-width: 900px) { .partner-grid { grid-template-columns: repeat(3, 1fr); gap: 6px 24px; } }
+  @media (max-width: 560px) { .partner-grid { grid-template-columns: repeat(2, 1fr); } }
 </style>
 </head>
 <body>
@@ -174,6 +183,27 @@
           <p>Wine country instead of the coast. I've worked directly with the team here &mdash; one of my top picks when the goal is a retreat, not a beach party.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section partner-band">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Preferred Partners</h2>
+      <p>A few of the hotel groups I book with preferred-partner benefits &mdash; typically room upgrades, resort credits, and VIP treatment for your travelers</p>
+    </div>
+    <div class="partner-grid">
+      <div class="partner-logo tint"><img src="images/logos/partners/aman.png" alt="Aman"></div>
+      <div class="partner-logo"><img src="images/logos/partners/belmond.png" alt="Belmond"></div>
+      <div class="partner-logo"><img src="images/logos/partners/bulgari.png" alt="Bulgari Hotels &amp; Resorts"></div>
+      <div class="partner-logo"><img src="images/logos/partners/dorchester.png" alt="Dorchester Collection"></div>
+      <div class="partner-logo"><img src="images/logos/partners/four-seasons.png" alt="Four Seasons Hotels &amp; Resorts"></div>
+      <div class="partner-logo"><img src="images/logos/partners/oetker.png" alt="Oetker Collection"></div>
+      <div class="partner-logo"><img src="images/logos/partners/ritz-carlton.png" alt="The Ritz-Carlton"></div>
+      <div class="partner-logo tint"><img src="images/logos/partners/rosewood.png" alt="Rosewood Hotels &amp; Resorts"></div>
+      <div class="partner-logo"><img src="images/logos/partners/st-regis.png" alt="St. Regis Hotels &amp; Resorts"></div>
+      <div class="partner-logo tint"><img src="images/logos/partners/waldorf-astoria.png" alt="Waldorf Astoria Hotels &amp; Resorts"></div>
     </div>
   </div>
 </section>
