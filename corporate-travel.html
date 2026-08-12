@@ -52,21 +52,6 @@
   .corp-hotels .guide-card .thumb.thumb-type { display: flex; align-items: center; justify-content: center; background: var(--olive-deep); }
   .corp-hotels .guide-card .thumb.thumb-type span { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--tan); font-weight: 500; }
   .corp-hotels .guide-card .info { display: block; }
-  /* Preferred partners scrolling marquee */
-  .partner-band { background: var(--white); overflow: hidden; }
-  .partner-marquee { position: relative; overflow: hidden; }
-  .partner-marquee::before, .partner-marquee::after { content: ""; position: absolute; top: 0; bottom: 0; width: 90px; z-index: 1; pointer-events: none; }
-  .partner-marquee::before { left: 0; background: linear-gradient(to right, var(--white), transparent); }
-  .partner-marquee::after { right: 0; background: linear-gradient(to left, var(--white), transparent); }
-  .partner-track { display: flex; align-items: center; gap: 84px; width: max-content; padding: 14px 0; animation: partner-scroll 55s linear infinite; }
-  .partner-marquee:hover .partner-track { animation-play-state: paused; }
-  .partner-set { display: flex; align-items: center; gap: 84px; flex: 0 0 auto; }
-  .partner-track .partner-logo { flex: 0 0 auto; display: flex; align-items: center; justify-content: center; }
-  .partner-track img { height: 54px; max-width: 170px; width: auto; object-fit: contain; filter: grayscale(1); opacity: 0.72; mix-blend-mode: multiply; }
-  .partner-track .partner-logo.tint img { filter: grayscale(1) brightness(1.14) contrast(1.08); }
-  .partner-track .partner-logo.inv img { filter: invert(1) grayscale(1); }
-  @keyframes partner-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-  @media (prefers-reduced-motion: reduce) { .partner-track { animation: none; flex-wrap: wrap; width: auto; justify-content: center; gap: 40px; } .partner-track .partner-set:last-child { display: none; } }
   .rating-strip { text-align: center; margin-top: 46px; }
   .rating-strip-rule { width: 44px; height: 1px; background: var(--hairline); margin: 0 auto 24px; }
   .rating-caption { font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 22px; }
