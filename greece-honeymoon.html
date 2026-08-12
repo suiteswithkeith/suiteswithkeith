@@ -107,7 +107,12 @@
   .swk-secondary p { font-size:16px; line-height:1.65; color:#4A4A44; margin-top:10px; }
   .swk-secondary a { font-size:12px; letter-spacing:2px; text-transform:uppercase; display:inline-block; margin-top:14px; border-bottom:none; }
 
+  .swk-float { position:fixed; right:26px; bottom:26px; z-index:50; font-family:'Jost',sans-serif; font-size:12px; letter-spacing:2.5px; text-transform:uppercase; color:#1C2436; background:#EBD9A8; padding:15px 26px; border-bottom:none; box-shadow:0 6px 24px rgba(18,24,42,.28); opacity:0; transform:translateY(12px); pointer-events:none; transition:opacity .35s ease, transform .35s ease; }
+  .swk-float.swk-float-show { opacity:1; transform:translateY(0); pointer-events:auto; }
+  .swk-float:hover { color:#1C2436; background:#F2E4BD; }
+
   @media (max-width:640px) {
+    .swk-float { right:16px; bottom:16px; padding:13px 20px; font-size:11px; }
     .swk-hero { height:420px; }
     .swk-post h1 { font-size:32px; }
     .swk-deck { font-size:19px; }
@@ -329,6 +334,22 @@
   </div>
 </footer>
 
+<a class="swk-float btn" href="index.html#inquire">Book Your Honeymoon</a>
+
 <script src="track.js" defer></script>
+<script>
+(function () {
+  var btn = document.querySelector('.swk-float');
+  var hero = document.querySelector('.swk-hero');
+  var end = document.querySelector('.swk-cta');
+  function update() {
+    var past = window.scrollY > hero.offsetHeight;
+    var nearEnd = end.getBoundingClientRect().top < window.innerHeight;
+    btn.classList.toggle('swk-float-show', past && !nearEnd);
+  }
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+})();
+</script>
 </body>
 </html>
