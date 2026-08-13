@@ -129,6 +129,16 @@
   @media (min-width: 701px) and (max-width: 1000px) {
     .fd-grid { grid-template-columns: repeat(2, 1fr); }
   }
+
+  /* Typographic thumb for cards awaiting photography */
+  .guide-card .thumb.thumb-type { display: flex; align-items: center; justify-content: center; background: var(--olive-deep); }
+  .guide-card .thumb.thumb-type span { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--tan); font-weight: 500; text-align: center; padding: 0 16px; }
+
+  /* Circuit labels inside a destination section */
+  .fd-circuit { font-family: var(--font-body); font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--olive-deep); font-weight: 600; margin: 0 0 18px; border-bottom: 1px solid var(--hairline); padding-bottom: 10px; }
+  .guide-grid + .fd-circuit, .fd-circuit.follow { margin-top: 52px; }
+
+  .fd-discretion { text-align: center; font-family: var(--font-display); font-style: italic; font-size: 0.95rem; color: var(--ink-soft); margin: 30px auto 0; max-width: 560px; }
 </style>
 </head>
 <body>
@@ -149,6 +159,7 @@
     <div class="fd-links">
       <a href="#italy">Italy</a>
       <a href="#paris">Paris</a>
+      <a href="#london">London</a>
       <a href="#greece">Greece</a>
       <a href="#japan">Japan</a>
       <a href="#africa">Africa</a>
@@ -468,6 +479,26 @@
           <a href="hotels/hotel-barriere-fouquets-paris.html" class="read-link">Explore &rarr;</a>
         </div>
       </div>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>La Samaritaine &middot; 1er</span></div>
+        <div class="info">
+          <div>
+            <h3>Cheval Blanc Paris</h3>
+            <p class="fd-award">Palace Distinction</p>
+            <p>Pont-Neuf &amp; The Seine &middot; LVMH's showpiece above La Samaritaine &mdash; just 72 rooms, Dior Spa, Langosteria over the river, and the most coveted new address in Paris.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Place Vend&ocirc;me &middot; 1er</span></div>
+        <div class="info">
+          <div>
+            <h3>Ritz Paris</h3>
+            <p class="fd-award">Palace Distinction</p>
+            <p>Place Vend&ocirc;me &middot; The word "ritzy" exists because of this hotel &mdash; Bar Hemingway, the Ritz Club pool, and suites that have hosted a century of legends.</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="fd-cta-band">
       <p>Right Bank or Left, palace or boutique &mdash; tell me the occasion and I'll tell you the address.</p>
@@ -476,7 +507,68 @@
   </div>
 </section>
 
-<section class="fd-section" id="greece">
+<section class="fd-section" id="london">
+  <div class="container">
+    <div class="fd-head">
+      <span class="eyebrow">The Capital</span>
+      <h2>London</h2>
+      <p>London is where my most-traveled clients pass through most often &mdash; and where the gap between a good stay and a great one comes down to relationships. These are the grandes dames I book, each with a distinct personality, and each where preferred-partner status means upgrades, credits, and recognition.</p>
+    </div>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Mayfair &middot; Brook Street</span></div>
+        <div class="info">
+          <div>
+            <h3>Claridge's</h3>
+            <p>Mayfair &middot; The art deco icon and London's definitive grande dame &mdash; impeccable service theater, the famous foyer tea, and suites that feel like private Mayfair flats.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Mayfair &middot; Carlos Place</span></div>
+        <div class="info">
+          <div>
+            <h3>The Connaught</h3>
+            <p>Mayfair &middot; Quieter and clubbier than its sibling Claridge's &mdash; home to the Connaught Bar, H&eacute;l&egrave;ne Darroze's dining room, and the most discreet service in the city.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Hyde Park Corner</span></div>
+        <div class="info">
+          <div>
+            <h3>The Lanesborough</h3>
+            <p>Knightsbridge &middot; Regency grandeur on Hyde Park Corner with 24-hour butler service in every room &mdash; the most residential-feeling of London's great hotels.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Whitehall &middot; The OWO</span></div>
+        <div class="info">
+          <div>
+            <h3>Raffles London at The OWO</h3>
+            <p>Whitehall &middot; The Old War Office reborn &mdash; Churchill's former corridors, nine restaurants and bars, and the most exciting opening London has seen in a generation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fd-exp">
+      <p class="fd-exp-label">Signature Experiences</p>
+      <div class="fd-exp-grid">
+        <div class="fd-exp-item"><b>House seats in the West End</b> — the shows everyone wants, arranged with dinner before and a car after.</div>
+        <div class="fd-exp-item"><b>Private shopping &amp; tailoring</b> — appointments on Savile Row and Bond Street, arranged around your schedule.</div>
+        <div class="fd-exp-item"><b>Royal Ascot &amp; Wimbledon hospitality</b> — the English season, done properly, booked well in advance.</div>
+        <div class="fd-exp-item"><b>Countryside by helicopter</b> — the Cotswolds or a castle lunch, out and back in a day.</div>
+      </div>
+    </div>
+    <div class="fd-cta-band">
+      <p>London pairs beautifully with Paris &mdash; two hours by Eurostar, one seamless itinerary.</p>
+      <a href="#inquire" class="btn btn-olive">Start Planning</a>
+    </div>
+  </div>
+</section>
+
+<section class="fd-section alt" id="greece">
   <div class="container">
     <div class="fd-head">
       <span class="eyebrow">The Cyclades</span>
@@ -600,7 +692,7 @@
   </div>
 </section>
 
-<section class="fd-section alt" id="japan">
+<section class="fd-section" id="japan">
   <div class="container">
     <div class="fd-head">
       <span class="eyebrow">Culture &amp; Cuisine</span>
@@ -691,13 +783,14 @@
   </div>
 </section>
 
-<section class="fd-section" id="africa">
+<section class="fd-section alt" id="africa">
   <div class="container">
     <div class="fd-head">
       <span class="eyebrow">The Safari</span>
       <h2>Africa</h2>
-      <p>A safari is one of the most rewarding trips I plan &mdash; especially for multigenerational groups. Each camp below offers a different kind of experience, from front-row migration views to game viewing from your own riverside deck.</p>
+      <p>A safari is one of the most rewarding trips I plan &mdash; and the one where an advisor earns their keep most. I plan two classic circuits: East Africa for the migration and the great open plains, and Southern Africa for the finest lodges and guiding on the continent, with Cape Town as the gateway. Camp choice makes or breaks the trip; that's where I come in.</p>
     </div>
+    <p class="fd-circuit">East Africa &middot; Kenya &amp; Tanzania</p>
     <div class="guide-grid">
       <div class="guide-card">
         <div class="thumb" style="background-image:url('images/destinations/fs-serengeti.jpg');"></div>
@@ -730,6 +823,45 @@
         </div>
       </div>
     </div>
+    <p class="fd-circuit follow">Southern Africa &amp; Cape Town</p>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Greater Kruger &middot; South Africa</span></div>
+        <div class="info">
+          <div>
+            <h3>Royal Malewane</h3>
+            <p>Thornybush &middot; The Royal Portfolio's flagship &mdash; some of the most decorated guides in Africa, a serious spa, and Big Five viewing at the highest level of luxury on the continent.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Sabi Sand &middot; South Africa</span></div>
+        <div class="info">
+          <div>
+            <h3>Londolozi</h3>
+            <p>Sabi Sand &middot; The family-run reserve that set the standard for leopard viewing worldwide &mdash; five camps, one ethos, and guiding that turns first-timers into safari people for life.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Okavango Delta &middot; Botswana</span></div>
+        <div class="info">
+          <div>
+            <h3>Mombo Camp, Wilderness</h3>
+            <p>Okavango Delta &middot; Botswana's most storied camp, on an island in the Delta's richest game country &mdash; water and land safari in one, at the top of the category.</p>
+          </div>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="thumb thumb-type"><span>Bantry Bay &middot; Cape Town</span></div>
+        <div class="info">
+          <div>
+            <h3>Ellerman House</h3>
+            <p>Cape Town &middot; A 13-room Relais &amp; Ch&acirc;teaux house above the Atlantic with a private art collection and wine gallery &mdash; the gateway stay before or after safari, and reason enough to linger.</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="fd-exp">
       <p class="fd-exp-label">Signature Experiences</p>
       <div class="fd-exp-grid">
@@ -737,6 +869,8 @@
         <div class="fd-exp-item"><b>Private conservancy drives</b> — off the public circuits, with your own guide and vehicle for the whole stay.</div>
         <div class="fd-exp-item"><b>Walking safaris &amp; village visits</b> — the Mara on foot with Maasai guides, and time with the communities who steward it.</div>
         <div class="fd-exp-item"><b>Bush dinners &amp; sundowners</b> — the rituals that turn a game-viewing trip into the trip of a lifetime.</div>
+        <div class="fd-exp-item"><b>Sole-use camp buyouts</b> — your family or group as the only guests in camp, with the whole team dedicated to you.</div>
+        <div class="fd-exp-item"><b>Cape Town &amp; the Winelands</b> — private tastings and table bookings in Franschhoek and Stellenbosch to bookend the bush.</div>
       </div>
     </div>
     <div class="fd-cta-band">
@@ -746,7 +880,7 @@
   </div>
 </section>
 
-<section class="fd-section alt" id="mexico">
+<section class="fd-section" id="mexico">
   <div class="container">
     <div class="fd-head">
       <span class="eyebrow">Sun &amp; Sea</span>
@@ -807,7 +941,7 @@
   </div>
 </section>
 
-<section class="fd-section" id="tennis">
+<section class="fd-section alt" id="tennis">
   <div class="container">
     <div class="fd-head">
       <span class="eyebrow">Game, Set, Match</span>
@@ -919,6 +1053,7 @@
             <option>Japan</option>
             <option>Italy / Lake Como</option>
             <option>Paris / France</option>
+            <option>London / UK</option>
             <option>Africa</option>
             <option>Greece</option>
             <option>Mexico</option>
@@ -945,6 +1080,7 @@
       <button type="submit" class="btn btn-olive">Start Planning</button>
       <p class="form-status" role="status" aria-live="polite"></p>
     </form>
+    <p class="fd-discretion">Client itineraries are never published or shared. References available on request.</p>
   </div>
 </section>
 
