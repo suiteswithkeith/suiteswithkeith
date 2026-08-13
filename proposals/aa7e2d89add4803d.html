@@ -50,6 +50,12 @@ document.addEventListener('DOMContentLoaded', async function() {
         e.target.tagName, String(e.target.src || e.target.href || ''));
       return;
     }
+    // Errors thrown by scripts injected into the page by in-app browsers
+    // (Instagram/Facebook autofill bridges, etc.) are not ours — log, don't display.
+    if (/_AutofillCallbackHandler|_pcmBridgeCallbackHandler|instantSearchSDKJSBridge|ceCurrentVideo|__gCrWeb|window\.webkit\.messageHandlers/.test(String(e.message || ''))) {
+      console.warn('[bundle] ignored error from in-app browser injected script:', e.message);
+      return;
+    }
     var p = document.body || document.documentElement;
     var d = document.getElementById('__bundler_err') || p.appendChild(document.createElement('div'));
     d.id = '__bundler_err';
