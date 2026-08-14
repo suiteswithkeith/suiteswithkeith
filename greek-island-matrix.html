@@ -203,8 +203,68 @@
     </div>
 
     <figure style="margin-top:52px">
-      <img src="images/islands/greek-island-matrix.png" alt="A chart placing fourteen Greek islands on two axes: rustic to polished, and undiscovered to well-trodden. Filled dots mark islands with a hotel recommendation." style="max-width:620px;margin:0 auto">
-      <figcaption style="text-align:center">Fourteen islands, placed honestly. Filled dots are islands where I have a hotel pick — scroll for all twenty-one.</figcaption>
+      <svg viewBox="0 0 760 745" role="img" aria-label="A chart placing fourteen Greek islands on two axes: rustic to polished, and undiscovered to well-trodden. Filled dots mark the nine islands with a hotel recommendation; hollow rings mark the five without. An asterisk marks Kimolos, home of the bonus hotel." style="max-width:640px;margin:0 auto;display:block;background:#F5F1E9;border:1px solid #E6DECD">
+        <!-- plot frame -->
+        <rect x="70" y="60" width="620" height="540" fill="none" stroke="#D9CFB8" stroke-width="1"/>
+        <line x1="380" y1="60" x2="380" y2="600" stroke="#C9BA96" stroke-width="1"/>
+        <line x1="70" y1="330" x2="690" y2="330" stroke="#C9BA96" stroke-width="1"/>
+        <!-- axis labels -->
+        <g font-family="Jost, sans-serif" font-size="14" letter-spacing="4" fill="#8C8577">
+          <text x="380" y="38" text-anchor="middle">UNDISCOVERED</text>
+          <text x="380" y="634" text-anchor="middle">WELL-TRODDEN</text>
+          <text x="30" y="330" text-anchor="middle" transform="rotate(-90 30 330)">RUSTIC</text>
+          <text x="730" y="330" text-anchor="middle" transform="rotate(90 730 330)">POLISHED</text>
+        </g>
+        <!-- filled dots: hotel picks -->
+        <g fill="#B7A37C">
+          <g opacity="0.25"><circle cx="207" cy="148" r="12"/><circle cx="380" cy="180" r="12"/><circle cx="236" cy="218" r="12"/><circle cx="146" cy="276" r="12"/><circle cx="417" cy="265" r="12"/><circle cx="516" cy="423" r="12"/><circle cx="429" cy="503" r="12"/><circle cx="591" cy="504" r="12"/><circle cx="595" cy="564" r="12"/></g>
+          <circle cx="207" cy="148" r="7"/>
+          <circle cx="380" cy="180" r="7"/>
+          <circle cx="236" cy="218" r="7"/>
+          <circle cx="146" cy="276" r="7"/>
+          <circle cx="417" cy="265" r="7"/>
+          <circle cx="516" cy="423" r="7"/>
+          <circle cx="429" cy="503" r="7"/>
+          <circle cx="591" cy="504" r="7"/>
+          <circle cx="595" cy="564" r="7"/>
+        </g>
+        <!-- hollow rings: no hotel pick -->
+        <g fill="none" stroke="#B7A37C" stroke-width="2">
+          <circle cx="104" cy="88" r="6"/>
+          <circle cx="306" cy="83" r="6"/>
+          <circle cx="119" cy="211" r="6"/>
+          <circle cx="329" cy="330" r="6"/>
+          <circle cx="341" cy="449" r="6"/>
+        </g>
+        <!-- island labels -->
+        <g font-family="Cinzel, serif" font-size="17" fill="#1C2436">
+          <text x="104" y="115" text-anchor="middle">Kimolos<tspan fill="#B7A37C" font-size="15" dx="3">*</tspan></text>
+          <text x="306" y="110" text-anchor="middle">Koufonisia</text>
+          <text x="207" y="176" text-anchor="middle">Serifos</text>
+          <text x="380" y="208" text-anchor="middle">Folegandros</text>
+          <text x="112" y="239" text-anchor="middle">Amorgos</text>
+          <text x="248" y="246" text-anchor="middle">Sifnos</text>
+          <text x="146" y="304" text-anchor="middle">Tinos</text>
+          <text x="417" y="293" text-anchor="middle">Milos</text>
+          <text x="329" y="358" text-anchor="middle">Syros</text>
+          <text x="516" y="451" text-anchor="middle">Paros</text>
+          <text x="341" y="477" text-anchor="middle">Naxos</text>
+          <text x="429" y="531" text-anchor="middle">Crete</text>
+          <text x="591" y="532" text-anchor="middle">Mykonos</text>
+          <text x="595" y="592" text-anchor="middle">Santorini</text>
+        </g>
+        <!-- legend + brand -->
+        <g font-family="Jost, sans-serif" font-size="13" letter-spacing="1.5" fill="#8C8577">
+          <circle cx="120" cy="676" r="5.5" fill="#B7A37C"/>
+          <text x="134" y="681">HOTEL PICK</text>
+          <circle cx="256" cy="676" r="5" fill="none" stroke="#B7A37C" stroke-width="2"/>
+          <text x="270" y="681">GO FOR THE ISLAND</text>
+          <text x="452" y="681" fill="#B7A37C">*</text>
+          <text x="462" y="681">THE BONUS</text>
+          <text x="380" y="722" text-anchor="middle" letter-spacing="2.5" fill="#B7A37C" font-size="12">@SUITESWITHKEITH</text>
+        </g>
+      </svg>
+      <figcaption style="text-align:center">Fourteen islands, placed honestly. Filled dots are islands where I have a hotel pick — scroll for all twenty-one. The asterisk on Kimolos is the bonus.</figcaption>
     </figure>
 
     <h2 id="how-to-read-it">How to read it</h2>
