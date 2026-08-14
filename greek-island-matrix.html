@@ -84,6 +84,14 @@
   .swk-for { font-size:15px; color:#8C8577; margin-top:12px; }
   .swk-for span { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.14em; color:#B7A37C; margin-right:8px; }
 
+  .swk-toc { background:#F5F1E9; border:1px solid #E6DECD; padding:30px 34px; margin:40px 0 0; }
+  .swk-toc ol { list-style:none; margin:18px 0 0; padding:0; columns:2; column-gap:40px; }
+  .swk-toc li { margin:0 0 12px; break-inside:avoid; }
+  .swk-toc a { font-weight:300; font-size:16px; border-bottom:none; }
+  .swk-toc a:hover { color:#B7A37C; }
+  .swk-toc-num { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.1em; color:#B7A37C; margin-right:10px; }
+  @media (max-width:640px) { .swk-toc ol { columns:1; } .swk-toc { padding:24px 22px; } }
+
   .swk-map { background:#12182A; border:1px solid #2A3244; margin:44px 0 0; padding:0; }
   .swk-map svg { width:100%; height:auto; display:block; }
   .swk-map-caption { font-weight:300; font-size:14px; color:#8C8577; margin-top:10px; }
@@ -163,12 +171,28 @@
 
     <p>If you came here from the carousel, this is the full version — every hotel, with my notes. If you're planning a honeymoon specifically, I mapped out <a href="greece-honeymoon.html">a fourteen-night route through five of these islands</a> with private transfers instead of ferries.</p>
 
+    <div class="swk-toc">
+      <div class="swk-label">In this guide</div>
+      <ol>
+        <li><span class="swk-toc-num">I</span><a href="#how-to-read-it">How to read the matrix</a></li>
+        <li><span class="swk-toc-num">II</span><a href="#the-map">The map</a></li>
+        <li><span class="swk-toc-num">III</span><a href="#the-polished-end">The Polished End &amp; its hotels</a></li>
+        <li><span class="swk-toc-num">IV</span><a href="#the-middle">The Middle &amp; its hotels</a></li>
+        <li><span class="swk-toc-num">V</span><a href="#the-quiet-end">The Quiet End &amp; its hotels</a></li>
+        <li><span class="swk-toc-num">VI</span><a href="#islands-no-pick">Islands I know and love</a></li>
+        <li><span class="swk-toc-num">VII</span><a href="#who-goes-where">Who goes where</a></li>
+        <li><span class="swk-toc-num">VIII</span><a href="#how-to-book">How to book the best hotels</a></li>
+        <li><span class="swk-toc-num">IX</span><a href="#planning-notes">Planning notes</a></li>
+        <li><span class="swk-toc-num">X</span><a href="#common-questions">Common questions</a></li>
+      </ol>
+    </div>
+
     <figure style="margin-top:52px">
       <img src="images/islands/greek-island-matrix.png" alt="A chart placing fourteen Greek islands on two axes: rustic to polished, and undiscovered to well-trodden. Filled dots mark islands with a hotel recommendation." style="max-width:620px;margin:0 auto">
       <figcaption style="text-align:center">Fourteen islands, placed honestly. Filled dots are islands where I have a hotel pick — scroll for all twenty-one.</figcaption>
     </figure>
 
-    <h2>How to read it</h2>
+    <h2 id="how-to-read-it">How to read it</h2>
 
     <div class="swk-panel">
       <div class="swk-label">The two axes</div>
@@ -180,7 +204,7 @@
       </div>
     </div>
 
-    <h2>Where They Actually Sit</h2>
+    <h2 id="the-map">Where They Actually Sit</h2>
     <p>The matrix tells you what an island feels like. This tells you where it is — which matters, because a route is only as good as its ferry connections. Everything above the Crete line is the Cyclades; most pairs of neighbours here are under two hours apart by boat.</p>
 
     <div class="swk-map">
@@ -281,7 +305,7 @@
     </div>
     <p class="swk-map-caption">Not to scale, and not trying to be — the point is who your neighbours are. Dashed lines are the connections I actually use when building routes.</p>
 
-    <h2>The Polished End</h2>
+    <h2 id="the-polished-end">The Polished End</h2>
     <p class="swk-sub">Santorini · Mykonos · Paros · Crete</p>
     <p>These four have the hotels, the restaurants, and the crowds. That's not a criticism — sometimes you want a proper concierge and a sommelier. The skill here is choosing the property that gives you the setting without the scrum.</p>
 
@@ -384,7 +408,7 @@
       <p class="swk-for"><span>BOOK IT IF</span>you want quiet and a swim before breakfast.</p>
     </div>
 
-    <h2>The Middle</h2>
+    <h2 id="the-middle">The Middle</h2>
     <p class="swk-sub">Milos · Sifnos · Folegandros</p>
     <p>This is where I spend most of my own time. Real islands with real hotels — enough infrastructure to be comfortable, not enough to be crowded. If you only trust one recommendation from this page, make it this group.</p>
 
@@ -450,7 +474,7 @@
       <p class="swk-for"><span>BOOK IT IF</span>you want the most dramatic setting in the Cyclades and the fewest people in it.</p>
     </div>
 
-    <h2>The Quiet End</h2>
+    <h2 id="the-quiet-end">The Quiet End</h2>
     <p class="swk-sub">Serifos · Tinos</p>
     <p>Two islands most people skip, each with exactly one hotel I'd send you to. That's not a shortage — it's the whole character of the place.</p>
 
@@ -476,12 +500,12 @@
       <p class="swk-for"><span>BOOK IT IF</span>you'd rather explore than lie down.</p>
     </div>
 
-    <h2>Islands I Know and Love</h2>
+    <h2 id="islands-no-pick">Islands I Know and Love</h2>
     <p class="swk-sub">Kimolos · Koufonisia · Naxos · Syros · Amorgos</p>
     <p>Five islands on the matrix with no hotel pick, and that's an honest answer rather than a gap. Kimolos in particular is one of my favourite places in Greece — a fishing harbour, a handful of tavernas, water you won't believe. There is no hotel there I'd stake my name on, and pretending otherwise would be the fastest way to lose your trust.</p>
     <p>What I'd do instead: pair them. Kimolos as a day trip from Milos. Koufonisia by boat from Naxos. Amorgos for a few nights in a well-chosen rental if you're the kind of traveller who wants that. Naxos and Syros both have good hotels — just not ones I'd single out over the twenty-one above.</p>
 
-    <h2>Who Goes Where</h2>
+    <h2 id="who-goes-where">Who Goes Where</h2>
     <p>The matrix places the islands; this places <em>you</em>. Most mismatched trips I untangle come down to the same mistake — a couple sent to a family island, or a family sent to a couples' island — so here's the honest sorting.</p>
 
     <div class="swk-match">
@@ -509,14 +533,14 @@
       <p>Then there are the three hollow rings on the map: Koufonisia, Amorgos, and Kimolos. These are second-timer islands in the purest sense — you go for the place, not the property. Koufonisia has the best swimming water in the Cyclades, Amorgos has the monastery and the hiking, and Kimolos is the fishing-harbour Greece most people think no longer exists. I build them in as day trips or a few well-chosen rental nights rather than hotel stays, and they're often the part of the trip clients talk about most.</p>
     </div>
 
-    <h2>How to Book the Best Hotels</h2>
+    <h2 id="how-to-book">How to Book the Best Hotels</h2>
     <p>Everything above is useless if the room is gone, so here is how the booking side actually works.</p>
     <p><strong style="font-weight:500">Book the small islands first.</strong> Gundari, Verina Astra, Skinopi — these are hotels with seven to thirty rooms, and the good categories for June and September are gone by February. Santorini and Mykonos have depth; they're the last pieces you place, not the first.</p>
     <p><strong style="font-weight:500">Book the room category, not the hotel.</strong> The gap between a hotel's entry room and the room it's famous for is usually the whole experience — a caldera view at Canaves, a private pool at Epitome, the sunset side at Kalesma. If the budget forces a choice, take the better room at a cheaper hotel over the worst room at a famous one. Every time.</p>
     <p><strong style="font-weight:500">Six to nine months out is the window.</strong> For a June or September trip, that means booking in the autumn or over the holidays. Later than that isn't hopeless — but it means building the route around what's left rather than what's right.</p>
     <p><strong style="font-weight:500">Use an advisor — and not only because I am one.</strong> I book these properties through direct relationships and programs like Virtuoso, which means the same rate you'd pay booking direct usually comes with an upgrade at check-in, daily breakfast, a property credit, and someone the hotel answers to if anything goes sideways. It costs you nothing; the hotel pays me. The only scenario where booking direct wins is a flash sale with harsh prepayment terms — and I'll tell you when that's the better deal.</p>
 
-    <div class="swk-cost">
+    <div class="swk-cost" id="planning-notes">
       <div class="swk-label">Planning notes</div>
       <p>Two islands per week is the right pace. Three is possible; four means you spend the trip in transit.</p>
       <p>Book Sifnos and Folegandros first — the good rooms there are limited and they go early. Santorini and Mykonos have depth, so they can wait.</p>
@@ -524,7 +548,7 @@
       <p>Late May to mid-June and September are the windows. July and August are hot and full; October is a gamble on the weather but the islands are yours.</p>
     </div>
 
-    <h2>Common Questions</h2>
+    <h2 id="common-questions">Common Questions</h2>
     <div class="swk-faq">
       <div>
         <h3>Which island should I start with if it's my first time?</h3>
