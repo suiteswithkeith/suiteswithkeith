@@ -84,6 +84,15 @@
   .swk-for { font-size:15px; color:#8C8577; margin-top:12px; }
   .swk-for span { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.14em; color:#B7A37C; margin-right:8px; }
 
+  .swk-map { background:#12182A; border:1px solid #2A3244; margin:44px 0 0; padding:0; }
+  .swk-map svg { width:100%; height:auto; display:block; }
+  .swk-map-caption { font-weight:300; font-size:14px; color:#8C8577; margin-top:10px; }
+
+  .swk-match { border-top:1px solid #E6DECD; padding-top:26px; margin-top:30px; }
+  .swk-match h3 { margin-top:0; }
+  .swk-match-tag { display:inline-block; font-family:'Cinzel',serif; font-size:11px; letter-spacing:.16em; color:#B7A37C; border:1px solid #E6DECD; padding:6px 12px; margin:14px 8px 0 0; }
+  .swk-match p { font-size:17px; }
+
   .swk-cost { background:#1C2436; color:#E8E4DA; padding:38px 34px; margin:56px 0 0; }
   .swk-cost .swk-label { color:#C9B997; }
   .swk-cost p { font-size:18px; line-height:1.7; margin:16px 0 0; }
@@ -170,6 +179,107 @@
         <div><span class="swk-ring"></span><span>A hollow ring means I know and love the island but I'd send you for the place, not the property. Kimolos and Koufonisia are both in that group, and I'd go to either tomorrow.</span></div>
       </div>
     </div>
+
+    <h2>Where They Actually Sit</h2>
+    <p>The matrix tells you what an island feels like. This tells you where it is — which matters, because a route is only as good as its ferry connections. Everything above the Crete line is the Cyclades; most pairs of neighbours here are under two hours apart by boat.</p>
+
+    <div class="swk-map">
+      <svg viewBox="0 0 700 560" role="img" aria-label="A stylized map of the Cyclades and Crete showing the fourteen islands from the matrix. Filled gold dots mark the nine islands with hotel recommendations; hollow rings mark the five without.">
+        <defs>
+          <radialGradient id="swkSea" cx="50%" cy="38%" r="85%">
+            <stop offset="0%" stop-color="#1A2338"/>
+            <stop offset="100%" stop-color="#101627"/>
+          </radialGradient>
+        </defs>
+        <rect width="700" height="560" fill="url(#swkSea)"/>
+        <!-- faint chart grid -->
+        <g stroke="#26304A" stroke-width="1">
+          <line x1="0" y1="140" x2="700" y2="140"/>
+          <line x1="0" y1="280" x2="700" y2="280"/>
+          <line x1="0" y1="420" x2="700" y2="420"/>
+          <line x1="175" y1="0" x2="175" y2="560"/>
+          <line x1="350" y1="0" x2="350" y2="560"/>
+          <line x1="525" y1="0" x2="525" y2="560"/>
+        </g>
+        <!-- ferry lines -->
+        <g stroke="#3A455F" stroke-width="1.2" stroke-dasharray="2 6" fill="none">
+          <path d="M369,67 L428,95"/>
+          <path d="M428,95 L366,163"/>
+          <path d="M366,163 L468,167"/>
+          <path d="M366,163 L226,184"/>
+          <path d="M226,184 L164,150"/>
+          <path d="M226,184 L139,230"/>
+          <path d="M139,230 L186,215"/>
+          <path d="M139,230 L294,246"/>
+          <path d="M294,246 L452,289"/>
+          <path d="M468,167 L505,191"/>
+          <path d="M505,191 L598,209"/>
+          <path d="M452,289 L380,478"/>
+        </g>
+        <!-- island shapes -->
+        <g fill="#232D46" stroke="#3A455F" stroke-width="1">
+          <ellipse cx="369" cy="67" rx="26" ry="12" transform="rotate(-12 369 67)"/>
+          <ellipse cx="288" cy="95" rx="16" ry="11"/>
+          <ellipse cx="428" cy="95" rx="18" ry="12" transform="rotate(8 428 95)"/>
+          <ellipse cx="366" cy="163" rx="22" ry="16"/>
+          <ellipse cx="468" cy="167" rx="26" ry="20" transform="rotate(-8 468 167)"/>
+          <ellipse cx="164" cy="150" rx="14" ry="11"/>
+          <ellipse cx="226" cy="184" rx="15" ry="12"/>
+          <ellipse cx="186" cy="215" rx="9" ry="7"/>
+          <ellipse cx="139" cy="230" rx="20" ry="12" transform="rotate(6 139 230)"/>
+          <ellipse cx="294" cy="246" rx="16" ry="7" transform="rotate(-18 294 246)"/>
+          <path d="M436,282 q4,-16 20,-14 q14,2 12,16 q-2,12 -16,12 q-18,0 -16,-14 Z"/>
+          <ellipse cx="505" cy="191" rx="10" ry="6"/>
+          <ellipse cx="598" cy="209" rx="22" ry="7" transform="rotate(-24 598 209)"/>
+          <path d="M90,486 q60,-26 150,-18 q90,8 170,2 q90,-8 180,10 q30,6 20,20 q-10,14 -60,14 q-140,4 -260,0 q-120,-4 -190,-8 q-24,-4 -10,-20 Z"/>
+        </g>
+        <!-- markers: filled = hotel pick, ring = no pick -->
+        <g>
+          <circle cx="369" cy="67" r="5" fill="#C9B997"/>
+          <circle cx="428" cy="95" r="5" fill="#C9B997"/>
+          <circle cx="366" cy="163" r="5" fill="#C9B997"/>
+          <circle cx="164" cy="150" r="5" fill="#C9B997"/>
+          <circle cx="226" cy="184" r="5" fill="#C9B997"/>
+          <circle cx="139" cy="230" r="5" fill="#C9B997"/>
+          <circle cx="294" cy="246" r="5" fill="#C9B997"/>
+          <circle cx="450" cy="284" r="5" fill="#C9B997"/>
+          <circle cx="380" cy="486" r="5" fill="#C9B997"/>
+          <circle cx="288" cy="95" r="4.5" fill="none" stroke="#C9B997" stroke-width="1.6"/>
+          <circle cx="468" cy="167" r="4.5" fill="none" stroke="#C9B997" stroke-width="1.6"/>
+          <circle cx="186" cy="215" r="4.5" fill="none" stroke="#C9B997" stroke-width="1.6"/>
+          <circle cx="505" cy="191" r="4.5" fill="none" stroke="#C9B997" stroke-width="1.6"/>
+          <circle cx="598" cy="209" r="4.5" fill="none" stroke="#C9B997" stroke-width="1.6"/>
+        </g>
+        <!-- labels -->
+        <g font-family="Cinzel, serif" font-size="13" letter-spacing="2" fill="#EDE7DA">
+          <text x="369" y="46" text-anchor="middle">TINOS</text>
+          <text x="288" y="76" text-anchor="middle" fill="#8C93A6">SYROS</text>
+          <text x="452" y="78" text-anchor="middle">MYKONOS</text>
+          <text x="366" y="196" text-anchor="middle">PAROS</text>
+          <text x="480" y="146" text-anchor="middle" fill="#8C93A6">NAXOS</text>
+          <text x="164" y="130" text-anchor="middle">SERIFOS</text>
+          <text x="240" y="164" text-anchor="middle">SIFNOS</text>
+          <text x="181" y="238" text-anchor="middle" fill="#8C93A6" font-size="11">KIMOLOS</text>
+          <text x="120" y="257" text-anchor="middle">MILOS</text>
+          <text x="294" y="273" text-anchor="middle">FOLEGANDROS</text>
+          <text x="466" y="316" text-anchor="middle">SANTORINI</text>
+          <text x="514" y="176" text-anchor="middle" fill="#8C93A6" font-size="11">KOUFONISIA</text>
+          <text x="612" y="236" text-anchor="middle" fill="#8C93A6">AMORGOS</text>
+          <text x="380" y="530" text-anchor="middle">CRETE</text>
+        </g>
+        <!-- legend + compass -->
+        <g font-family="Jost, sans-serif" font-size="12" letter-spacing="1.5" fill="#8C93A6">
+          <circle cx="30" cy="524" r="5" fill="#C9B997"/>
+          <text x="44" y="528">HOTEL PICK</text>
+          <circle cx="150" cy="524" r="4.5" fill="none" stroke="#C9B997" stroke-width="1.6"/>
+          <text x="164" y="528">GO FOR THE ISLAND</text>
+          <text x="660" y="40" text-anchor="middle" font-family="Cinzel, serif" fill="#C9B997">N</text>
+          <line x1="660" y1="48" x2="660" y2="76" stroke="#C9B997" stroke-width="1"/>
+          <path d="M660,44 l-4,10 l4,-3 l4,3 Z" fill="#C9B997"/>
+        </g>
+      </svg>
+    </div>
+    <p class="swk-map-caption">Not to scale, and not trying to be — the point is who your neighbours are. Dashed lines are the connections I actually use when building routes.</p>
 
     <h2>The Polished End</h2>
     <p class="swk-sub">Santorini · Mykonos · Paros · Crete</p>
@@ -370,6 +480,40 @@
     <p class="swk-sub">Kimolos · Koufonisia · Naxos · Syros · Amorgos</p>
     <p>Five islands on the matrix with no hotel pick, and that's an honest answer rather than a gap. Kimolos in particular is one of my favourite places in Greece — a fishing harbour, a handful of tavernas, water you won't believe. There is no hotel there I'd stake my name on, and pretending otherwise would be the fastest way to lose your trust.</p>
     <p>What I'd do instead: pair them. Kimolos as a day trip from Milos. Koufonisia by boat from Naxos. Amorgos for a few nights in a well-chosen rental if you're the kind of traveller who wants that. Naxos and Syros both have good hotels — just not ones I'd single out over the twenty-one above.</p>
+
+    <h2>Who Goes Where</h2>
+    <p>The matrix places the islands; this places <em>you</em>. Most mismatched trips I untangle come down to the same mistake — a couple sent to a family island, or a family sent to a couples' island — so here's the honest sorting.</p>
+
+    <div class="swk-match">
+      <h3>Honeymoons &amp; couples</h3>
+      <div><span class="swk-match-tag">Santorini</span><span class="swk-match-tag">Folegandros</span><span class="swk-match-tag">Milos</span><span class="swk-match-tag">Sifnos</span></div>
+      <p>Santorini earns its reputation for two or three nights in a caldera suite — <a href="hotels/canaves-oia-suites-santorini.html">Canaves Oia</a> or <a href="hotels/andronis-boutique-santorini.html">Andronis</a> — then move on before the crowds wear you down. The rest of the honeymoon belongs in the middle of the matrix: <a href="hotels/gundari-folegandros.html">Gundari</a> on Folegandros is the single most romantic setting in the Cyclades, and <a href="hotels/skinopi-lodge-milos.html">Skinopi</a> or <a href="hotels/erema-milos.html">Erema</a> on Milos give you the kind of privacy resorts advertise and rarely deliver. If you want it fully adults-only, that's <a href="hotels/bill-and-coo-suites-mykonos.html">Bill &amp; Coo</a> on Mykonos and Minos Palace on Crete. The full route is in the <a href="greece-honeymoon.html">honeymoon guide</a>.</p>
+    </div>
+
+    <div class="swk-match">
+      <h3>Families</h3>
+      <div><span class="swk-match-tag">Crete</span><span class="swk-match-tag">Paros</span><span class="swk-match-tag">Naxos</span></div>
+      <p>Crete is the easy answer: direct flights, real distances, and hotels with room to spread out — Minos Beach for the walk-into-the-sea bungalows, Acro Suites if the kids are older and you still want drama. In the Cyclades, Paros is the family island that doesn't feel like a compromise — <a href="hotels/cosme-paros.html">Cosme</a> puts you a stroll from Naoussa's harbour, and <a href="hotels/cali-mykonos.html">Cali</a> on Mykonos is the one polished-end hotel I'd genuinely hand a multi-generation group. Naxos has the best beaches for children in the whole chain; I pair it with Paros rather than base a trip on it. What I don't do is put families on the caldera — cliff paths, steps, and strollers are a bad mix.</p>
+    </div>
+
+    <div class="swk-match">
+      <h3>Friends &amp; groups</h3>
+      <div><span class="swk-match-tag">Mykonos</span><span class="swk-match-tag">Paros</span></div>
+      <p>Mykonos is still the best island in Greece for a group that wants restaurants, beach clubs, and a scene — the trick is sleeping somewhere calm, which is exactly what <a href="hotels/kalesma-mykonos.html">Kalesma</a> and Cali are for. Paros does the same trip at two-thirds the price and half the attitude, with Naoussa as the night out.</p>
+    </div>
+
+    <div class="swk-match">
+      <h3>Second-timers &amp; the quiet-seeking</h3>
+      <div><span class="swk-match-tag">Serifos</span><span class="swk-match-tag">Tinos</span><span class="swk-match-tag">Sifnos</span></div>
+      <p>If you've done the famous islands and want the Greece you suspected was hiding behind them, this is the group. Sifnos for the food, Tinos for the villages and walking, Serifos for beaches with nobody on them. One hotel each — <a href="hotels/stamna-sifnos.html">Stamna</a> or Verina Astra, Odera, Perma — and that scarcity is the point.</p>
+    </div>
+
+    <h2>How to Book the Best Hotels</h2>
+    <p>Everything above is useless if the room is gone, so here is how the booking side actually works.</p>
+    <p><strong style="font-weight:500">Book the small islands first.</strong> Gundari, Verina Astra, Skinopi — these are hotels with seven to thirty rooms, and the good categories for June and September are gone by February. Santorini and Mykonos have depth; they're the last pieces you place, not the first.</p>
+    <p><strong style="font-weight:500">Book the room category, not the hotel.</strong> The gap between a hotel's entry room and the room it's famous for is usually the whole experience — a caldera view at Canaves, a private pool at Epitome, the sunset side at Kalesma. If the budget forces a choice, take the better room at a cheaper hotel over the worst room at a famous one. Every time.</p>
+    <p><strong style="font-weight:500">Six to nine months out is the window.</strong> For a June or September trip, that means booking in the autumn or over the holidays. Later than that isn't hopeless — but it means building the route around what's left rather than what's right.</p>
+    <p><strong style="font-weight:500">Use an advisor — and not only because I am one.</strong> I book these properties through direct relationships and programs like Virtuoso, which means the same rate you'd pay booking direct usually comes with an upgrade at check-in, daily breakfast, a property credit, and someone the hotel answers to if anything goes sideways. It costs you nothing; the hotel pays me. The only scenario where booking direct wins is a flash sale with harsh prepayment terms — and I'll tell you when that's the better deal.</p>
 
     <div class="swk-cost">
       <div class="swk-label">Planning notes</div>
