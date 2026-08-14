@@ -78,11 +78,28 @@
   .swk-ring { width:12px; height:12px; border-radius:50%; border:2px solid #B7A37C; background:transparent; flex:none; margin-top:7px; }
 
   .swk-hotel { border-top:1px solid #E6DECD; padding-top:24px; margin-top:26px; }
-  .swk-hotel-name { font-family:'Playfair Display',serif; font-size:21px; color:#1C2436; }
-  .swk-hotel-name a { border-bottom:1px solid #B7A37C; }
   .swk-hotel p { font-size:17px; margin-top:10px; }
-  .swk-for { font-size:15px; color:#8C8577; margin-top:12px; }
+  .swk-for { font-size:15px; color:#8C8577; margin-top:14px; }
   .swk-for span { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.14em; color:#B7A37C; margin-right:8px; }
+
+  .swk-hcard { display:grid; grid-template-columns:250px 1fr; background:#FFFFFF; border:1px solid #E6DECD; margin-top:28px; box-shadow:0 1px 0 rgba(28,36,54,.04); }
+  .swk-hcard-media { background-size:cover; background-position:center; min-height:100%; }
+  .swk-hcard-body { padding:26px 28px 28px; min-width:0; }
+  .swk-hcard-head { display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+  .swk-hotel-name { font-family:'Playfair Display',serif; font-size:22px; color:#1C2436; }
+  .swk-hotel-name a { border-bottom:1px solid #B7A37C; }
+  .swk-rate { font-family:'Cinzel',serif; font-size:12px; letter-spacing:.1em; color:#B7A37C; white-space:nowrap; }
+  .swk-hcard-meta { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:#8C8577; margin-top:8px; }
+  .swk-hcard-body p { font-size:16.5px; line-height:1.7; margin-top:14px; }
+  .swk-hcard-link { font-size:13px; letter-spacing:2px; text-transform:uppercase; margin-top:16px !important; }
+  .swk-hcard-link a { border-bottom:none; color:#B7A37C; }
+  .swk-hcard-link a:hover { color:#1C2436; }
+  .swk-rate-note { font-size:14px; color:#8C8577; margin-top:26px; font-style:italic; font-family:'Cormorant Garamond',serif; font-size:17px; }
+  @media (max-width:680px) {
+    .swk-hcard { grid-template-columns:1fr; }
+    .swk-hcard-media { min-height:210px; }
+    .swk-hcard-body { padding:22px 20px 24px; }
+  }
 
   .swk-toc { background:#F5F1E9; border:1px solid #E6DECD; padding:30px 34px; margin:40px 0 0; }
   .swk-toc ol { list-style:none; margin:18px 0 0; padding:0; columns:2; column-gap:40px; }
