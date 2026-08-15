@@ -506,6 +506,10 @@
 .rank-toc a:last-child { border-bottom: none; }
 
 .rank-list { background: var(--cream); padding: 0 0 90px; }
+/* A rank-list that opens the page sits directly under .rank-intro and needs no
+   top padding. One that follows the full-bleed navy block does — otherwise its
+   first card butts straight into the section above with no breathing room. */
+.three-days + .rank-list { padding-top: 90px; }
 .rank-card { display: grid; grid-template-columns: 1fr 1.1fr; gap: 50px; align-items: center; padding: 56px 0; border-top: 1px solid var(--hairline); }
 .rank-card:first-of-type { border-top: none; padding-top: 0; }
 .rank-card.reverse .rank-media { order: 2; }
