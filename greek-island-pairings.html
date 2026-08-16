@@ -99,6 +99,20 @@
     .swk-route-body { padding:0 20px 22px; }
   }
 
+  .swk-skip { display:flex; flex-direction:column; gap:0; margin-top:30px; border-top:1px solid #E6DECD; }
+  .swk-skip > div { display:grid; grid-template-columns:34px 1fr; gap:20px; align-items:start; padding:26px 0; border-bottom:1px solid #E6DECD; }
+  .swk-skip-mark { font-family:'Cinzel',serif; font-size:13px; letter-spacing:.12em; color:#B7A37C; border:1px solid #E0D6C0; border-radius:50%; width:34px; height:34px; display:flex; align-items:center; justify-content:center; margin-top:2px; }
+  .swk-skip-pair { font-family:'Playfair Display',serif; font-size:21px; color:#1C2436; }
+  .swk-skip-verdict { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:19px; color:#8C8577; margin-top:4px; }
+  .swk-skip p { font-size:17px; margin-top:12px; }
+  .swk-skip-yes { border-bottom:none; }
+  .swk-skip-yes .swk-skip-mark { color:#1C2436; border-color:#B7A37C; background:#EFE7D6; }
+  .swk-skip-yes .swk-skip-verdict { color:#1C2436; }
+
+  .swk-perks { display:flex; flex-direction:column; gap:14px; margin-top:26px; }
+  .swk-perks > div { display:grid; grid-template-columns:10px 1fr; gap:16px; align-items:start; font-weight:300; font-size:17px; line-height:1.6; color:#E8E4DA; }
+  .swk-perks span { width:6px; height:6px; border-radius:50%; background:#C9B997; margin-top:11px; }
+
   .swk-cost { background:#1C2436; color:#E8E4DA; padding:38px 34px; margin:56px 0 0; }
   .swk-cost .swk-label { color:#C9B997; }
   .swk-cost p { font-size:18px; line-height:1.7; margin:16px 0 0; }
@@ -121,6 +135,8 @@
   .swk-float:hover { color:#1C2436; background:#F2E4BD; }
 
   @media (max-width:640px) {
+    .swk-skip > div { grid-template-columns:28px 1fr; gap:14px; }
+    .swk-skip-mark { width:28px; height:28px; font-size:11px; }
     .swk-float { right:16px; bottom:16px; padding:13px 20px; font-size:11px; }
     .swk-hero { height:420px; }
     .swk-post h1 { font-size:32px; }
@@ -313,6 +329,48 @@
 
     <p>What I'd push back on: five islands in two weeks, and any route that starts on Santorini. The first is a logistics exercise disguised as a holiday. The second quietly costs you both the best hotels and the best ending. If you're weighing a route you've already sketched, <a href="three-mistakes-greek-islands.html">the three mistakes I see most</a> covers the rest.</p>
 
+    <h2 id="skip">Combinations I'd skip</h2>
+    <p class="swk-sub">And the one rule that explains all three.</p>
+
+    <p>Every route above is built the same way: each island has a different job. The pairings below fail that test &mdash; not because any of these islands is a bad island, but because the second one repeats what the first one already did. When that happens you haven't added a place. You've added a travel day.</p>
+
+    <div class="swk-skip">
+      <div>
+        <div class="swk-skip-mark">01</div>
+        <div>
+          <div class="swk-skip-pair">Mykonos + Santorini</div>
+          <div class="swk-skip-verdict">Bookends, not a pair.</div>
+          <p>Back to back, this is two transfers to swap one expensive crowd for another &mdash; same season, same prices, same photographs. It works when something sits between them doing a different job, which is exactly what routes <a href="#d">D</a> and <a href="#e">E</a> are. Straight from one to the other, you've paid twice for one kind of trip.</p>
+        </div>
+      </div>
+      <div>
+        <div class="swk-skip-mark">02</div>
+        <div>
+          <div class="swk-skip-pair">Paros + Naxos</div>
+          <div class="swk-skip-verdict">I'd pick one.</div>
+          <p>Neighbours doing the same thing well &mdash; village life, good food, long beaches &mdash; and Paros does it better, with the two strongest points hotels in the Cyclades on it. Naxos is a fine island and a poor second one. Spend those three nights somewhere that actually feels different.</p>
+        </div>
+      </div>
+      <div>
+        <div class="swk-skip-mark">03</div>
+        <div>
+          <div class="swk-skip-pair">Milos + Kimolos</div>
+          <div class="swk-skip-verdict">Make it a day trip.</div>
+          <p>Kimolos is lovely and it's twenty minutes from Milos, which is the problem: it's the quiet fishing-harbour version of something Milos already gives you. Go for lunch, come back for dinner. Don't spend a night and a hotel change on it. The one exception since this summer: <a href="greek-island-matrix.html#islands-no-pick">Espera</a>, the island's first real hotel &mdash; if that's the draw, make Kimolos the base and Milos the day trip instead.</p>
+        </div>
+      </div>
+      <div class="swk-skip-yes">
+        <div class="swk-skip-mark">&#10003;</div>
+        <div>
+          <div class="swk-skip-pair">Santorini + Folegandros + Milos</div>
+          <div class="swk-skip-verdict">This one works.</div>
+          <p>One for the sight, one for the silence, one for the water. Three islands that don't compete with each other, all on the same line west &mdash; and the clearest illustration of the rule: two islands that contrast beat three that repeat.</p>
+        </div>
+      </div>
+    </div>
+
+    <p>If the second island does what the first one already did, cut it and give the nights back to the island you liked. That single edit improves more itineraries than any hotel upgrade I can arrange.</p>
+
     <div class="swk-cost">
       <div class="swk-label">On timing</div>
       <p>There are three windows I'd book any of these in: <strong>May, early June, and September into early October.</strong> Late spring gives you everything open and everything green, with the water just warm enough. Autumn gives you a sea that's had all summer to warm up, light that's long and low all afternoon, restaurants open but no longer full, and caldera properties that are impossible in August back within reach.</p>
@@ -338,17 +396,24 @@
         <h3>Can I take a ferry the same day I fly home?</h3>
         <p>You can, and I don't book it that way. Ferries cancel for wind with little notice. I leave a night of margin between the last crossing and the flight.</p>
       </div>
-      <div>
-        <h3>Can you book these for me?</h3>
-        <p>Yes — that's the job. Hotels, ferries the day the schedules open, private port transfers on both ends, and the reservations that need booking weeks out. I have direct relationships with most of the properties on these islands, which usually means an upgrade, breakfast, or a credit you can't get booking direct.</p>
+    </div>
+
+    <div class="swk-cost">
+      <div class="swk-label">HAVE ME BOOK IT</div>
+      <p>Any of the five routes above, booked end to end &mdash; <strong>at no cost to you</strong>. Hotels, ferries the day the schedules open, private port transfers on both ends, and the restaurant reservations that need booking weeks out rather than the week you arrive.</p>
+      <div class="swk-perks">
+        <div><span></span><div>Direct relationships with most of the properties on these islands &mdash; which usually means an upgrade, breakfast, or a resort credit you can't get booking direct.</div></div>
+        <div><span></span><div>Ferries booked the morning schedules open, with a night of margin before every flight.</div></div>
+        <div><span></span><div>One person to call when a boat cancels for wind &mdash; and a plan B already written.</div></div>
+        <div><span></span><div>Points used where they're worth the most and cash where they aren't, if you're carrying a balance into the trip.</div></div>
       </div>
     </div>
 
     <div class="swk-cta">
-      <h2>Which pairing is yours?</h2>
-      <p>Tell me your dates, who you're travelling with, and what you want out of it. I'll tell you which of these five fits — and which hotel on each island.</p>
+      <h2>Start with your dates</h2>
+      <p>Tell me when you're going, who's coming, and which of the five sounds most like your trip. I'll come back with a route, the hotels I'd book on each island, and what it costs.</p>
       <a class="swk-btn" href="index.html#inquire">Start your inquiry</a>
-      <p class="swk-alt">Or see <a href="planning-with-swk.html">what planning with me actually looks like</a>, or <a href="https://instagram.com/suiteswithkeith" target="_blank" rel="noopener">DM me on Instagram</a>.</p>
+      <p class="swk-alt">Not ready yet? <a href="https://instagram.com/suiteswithkeith" target="_blank" rel="noopener">DM me on Instagram</a> &mdash; I answer these myself. Or see <a href="planning-with-swk.html">what planning with me actually looks like</a>.</p>
     </div>
 
   </div>
