@@ -506,6 +506,10 @@
 .rank-toc a:last-child { border-bottom: none; }
 
 .rank-list { background: var(--cream); padding: 0 0 90px; }
+/* A rank-list that continues after another full-width section needs its own
+   top padding — otherwise the first card sits flush against the band above it. */
+.rank-list.rank-list-cont { padding-top: 90px; }
+@media (max-width: 700px) { .rank-list.rank-list-cont { padding-top: 60px; } }
 .rank-card { display: grid; grid-template-columns: 1fr 1.1fr; gap: 50px; align-items: center; padding: 56px 0; border-top: 1px solid var(--hairline); }
 .rank-card:first-of-type { border-top: none; padding-top: 0; }
 .rank-card.reverse .rank-media { order: 2; }
