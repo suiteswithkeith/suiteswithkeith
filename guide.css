@@ -622,3 +622,32 @@
   .property-header { grid-template-columns: 1fr; }
   .score-row { justify-content: center; }
 }
+
+
+/* ---------- Compiled guide pages (santorini-guide, mykonos-excursions) ---------- */
+.sg-eat { max-width: 780px; }
+  .sg-eat .sg-item { padding: 22px 0; border-bottom: 1px solid var(--hairline); }
+  .sg-eat .sg-item:first-of-type { border-top: 1px solid var(--hairline); }
+  .sg-eat .sg-name { font-family: var(--font-mag); font-size: 1.15rem; color: var(--charcoal); margin: 0 0 6px; }
+  .sg-eat .sg-name span { font-family: var(--font-mag-body); font-style: italic; font-size: 0.95rem; color: var(--guide-gold-deep); margin-left: 10px; }
+  .sg-eat .sg-note { font-size: 0.94rem; color: var(--ink-soft); line-height: 1.7; margin: 0; }
+  .sg-close { font-family: var(--font-mag-body); font-style: italic; font-size: 1.05rem; color: var(--charcoal); margin: 30px 0 0; max-width: 720px; line-height: 1.55; }
+
+  .sg-sunset-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px 60px; margin-top: 46px; }
+  .sg-sunset-grid h4 { font-family: var(--font-mag); font-weight: 500; font-size: 1.1rem; letter-spacing: 0.04em; color: var(--guide-gold); margin: 0 0 10px; }
+  .sg-sunset-grid p { font-size: 0.94rem; line-height: 1.7; color: rgba(245,241,233,0.82); margin: 0; }
+  .sg-sunset-intro { max-width: 720px; font-size: 1rem; line-height: 1.75; color: rgba(245,241,233,0.9); margin: 16px 0 0; }
+
+  .sg-tips { max-width: 780px; list-style: none; margin: 40px 0 0; padding: 0; counter-reset: sgtip; }
+  .sg-tips li { counter-increment: sgtip; position: relative; padding: 0 0 26px 52px; }
+  .sg-tips li::before { content: counter(sgtip); position: absolute; left: 0; top: -2px; font-family: var(--font-mag-body); font-style: italic; font-size: 1.3rem; color: var(--guide-gold-deep); }
+  .sg-tips b { color: var(--charcoal); font-weight: 500; }
+  .sg-tips li { font-size: 1rem; line-height: 1.7; color: var(--ink-soft); }
+
+  .sg-hero-link { margin-top: 26px; }
+  .sg-hero-link a { color: var(--guide-gold); border-bottom: 1px solid currentColor; padding-bottom: 2px; font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; }
+
+  @media (max-width: 700px) {
+    .sg-sunset-grid { grid-template-columns: 1fr; gap: 32px; }
+    .sg-tips li { padding-left: 42px; }
+  }
