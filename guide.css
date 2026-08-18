@@ -446,6 +446,10 @@
   .areas-grid { grid-template-columns: 1fr; gap: 32px; }
   .aag-facts { grid-template-columns: 1fr; }
   .hotel-meta { grid-template-columns: 1fr; }
+
+  /* Read-links wrap at this width, so give stacked links room to read
+     as separate items rather than one run-on block. */
+  .aag-around p + p { margin-top: 10px; }
 }
 
 /* ---------- Flipbook embed (Issuu) ---------- */

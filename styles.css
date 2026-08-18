@@ -983,6 +983,11 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
 
   .footer-grid { grid-template-columns: 1fr; text-align: center; }
   .footer-right { text-align: center; }
+
+  /* Long read-links must wrap on narrow screens; nowrap forces the
+     surrounding grid wider than the viewport and shifts the page sideways. */
+  .read-link,
+  .guide-card .info > .read-link { white-space: normal; }
 }
 
 @media (max-width: 600px) {
