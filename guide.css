@@ -676,3 +676,64 @@
   .rank-notes { padding: 22px 20px; }
   .rank-toc { padding: 26px 24px; }
 }
+
+/* ---------- Santorini shortlist page (santorini-guide) ----------
+   Excursions band with the island map, the slim already-booked band,
+   and the floating plan-my-trip button. */
+.sg-do-band { background: var(--guide-navy); color: var(--guide-cream); padding: 96px 0; }
+.sg-do-band .td-head { margin-bottom: 48px; }
+
+.sg-map-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 60px; align-items: center; margin: 0 0 72px; }
+.sg-map svg { width: 100%; height: auto; display: block; }
+.sg-map text { font-family: var(--font-body); font-size: 17px; letter-spacing: 0.02em; }
+.sg-map .lbl-land { fill: var(--guide-navy); font-weight: 500; }
+.sg-map .lbl-sea { fill: var(--guide-cream); font-weight: 400; }
+.sg-map .lbl-it { fill: var(--guide-gold); font-family: var(--font-mag-body); font-style: italic; }
+.sg-map .lbl-cap { fill: rgba(245,241,233,0.45); font-size: 12.5px; letter-spacing: 0.22em; }
+.sg-map-cap { font-family: var(--font-mag-body); font-style: italic; font-size: 0.85rem; color: rgba(245,241,233,0.55); margin: 16px 0 0; text-align: center; }
+
+.sg-getaround h4 { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--guide-gold); margin: 0 0 14px; font-weight: 500; }
+.sg-getaround .ga-item { padding: 15px 0; border-top: 1px solid var(--guide-line); }
+.sg-getaround .ga-item:last-of-type { border-bottom: 1px solid var(--guide-line); margin-bottom: 20px; }
+.sg-getaround .ga-item b { display: block; font-family: var(--font-mag); font-weight: 500; font-size: 1rem; letter-spacing: 0.02em; margin: 0 0 5px; color: var(--guide-cream); }
+.sg-getaround .ga-item p { margin: 0; font-size: 0.9rem; line-height: 1.65; color: rgba(245,241,233,0.75); }
+.sg-getaround .read-link { color: var(--guide-gold); }
+
+.sg-do-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--guide-line); border: 1px solid var(--guide-line); }
+.sg-do { background: var(--guide-navy); padding: 32px 30px 28px; }
+.sg-do .do-meta { display: block; font-size: 0.64rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--guide-gold); font-weight: 600; margin-bottom: 12px; }
+.sg-do h4 { font-family: var(--font-mag); font-weight: 500; font-size: 1.25rem; letter-spacing: 0.03em; margin: 0 0 10px; color: var(--guide-cream); }
+.sg-do p { font-size: 0.93rem; line-height: 1.68; color: rgba(245,241,233,0.78); margin: 0; }
+.sg-do .do-price { display: block; margin-top: 14px; font-family: var(--font-mag-body); font-style: italic; font-size: 0.98rem; color: var(--guide-gold); }
+.sg-do-band .sg-close { color: rgba(245,241,233,0.85); }
+.sg-do-band .sg-close a { color: var(--guide-gold); border-bottom: 1px solid rgba(201,185,151,0.4); }
+
+.sg-booked { background: var(--guide-navy-deep); color: var(--guide-cream); padding: 60px 0; }
+.sg-booked .container { display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+.sg-booked .eyebrow-mag { color: var(--guide-gold); }
+.sg-booked h3 { font-family: var(--font-mag); font-weight: 500; font-size: 1.4rem; letter-spacing: 0.04em; margin: 10px 0 0; }
+.sg-booked p { margin: 10px 0 0; font-size: 0.95rem; line-height: 1.65; color: rgba(245,241,233,0.75); max-width: 560px; }
+.sg-booked .btn { flex-shrink: 0; }
+
+/* Floating plan-my-trip button. Hidden until the reader is past the hero,
+   and hidden again while the booking form is on screen. */
+.sg-fab {
+  position: fixed; right: 20px; bottom: 20px; z-index: 90;
+  background: var(--guide-gold-deep); color: var(--guide-navy-deep);
+  border-radius: 999px; padding: 15px 26px;
+  box-shadow: 0 10px 28px rgba(18,24,42,0.35);
+  opacity: 0; transform: translateY(16px); pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease, background 0.2s ease;
+}
+.sg-fab.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.sg-fab:hover { background: var(--guide-gold); }
+
+@media (max-width: 900px) {
+  .sg-do-band { padding: 72px 0; }
+  .sg-map-grid { grid-template-columns: 1fr; gap: 44px; margin-bottom: 56px; }
+  .sg-do-grid { grid-template-columns: 1fr; }
+  .sg-do { padding: 26px 22px 24px; }
+  .sg-booked .container { display: block; }
+  .sg-booked .btn { margin-top: 22px; }
+  .sg-fab { right: 16px; bottom: 16px; padding: 14px 22px; }
+}
