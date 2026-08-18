@@ -78,6 +78,17 @@
     .toc-grid{ grid-template-columns:1fr; }
     .edit-grid{ grid-template-columns:repeat(2,1fr); }
   }
+  /* The 110px thumbnail never shrinks, so 36px of card padding left the copy
+     with less room than its longest word needed and the card outgrew the screen. */
+  @media (max-width:600px){
+    .toc-card{ padding:28px 24px; gap:18px; min-width:0; }
+    .toc-card img{ width:88px; height:112px; }
+    .toc-card > div{ min-width:0; overflow-wrap:break-word; }
+  }
+  @media (max-width:380px){
+    .toc-card{ padding:24px 20px; gap:14px; }
+    .toc-card img{ width:72px; height:92px; }
+  }
   @media (max-width:600px){ .edit-grid{ grid-template-columns:1fr; } }
 
 </style>

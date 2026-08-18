@@ -450,6 +450,13 @@
   /* Read-links wrap at this width, so give stacked links room to read
      as separate items rather than one run-on block. */
   .aag-around p + p { margin-top: 10px; }
+
+  /* Once these grids are a single column, a child that refuses to wrap drags
+     the whole column past the viewport and shifts every sibling with it. */
+  .aag-grid > *, .hotel-grid > *, .rank-card > *, .td-grid > * { min-width: 0; }
+
+  /* 44px of side padding leaves a ~240px text column on a phone. */
+  .hotel-notes { padding: 32px 24px; }
 }
 
 /* ---------- Flipbook embed (Issuu) ---------- */
@@ -655,3 +662,17 @@
     .sg-sunset-grid { grid-template-columns: 1fr; gap: 32px; }
     .sg-tips li { padding-left: 42px; }
   }
+
+/* ---------- Narrow-screen corrections ----------
+   These override rules declared later in this file, so they have to live at
+   the end: same specificity, so source order decides. */
+@media (max-width: 900px) {
+  /* nowrap on a long label sets the min-content width of the whole column,
+     which pushed the card — and the page — wider than the viewport. */
+  .fora-perks .fora-perks-label { white-space: normal; }
+
+  /* Side padding tuned for a wide column leaves too little room for text
+     once these boxes are the full width of a phone screen. */
+  .rank-notes { padding: 22px 20px; }
+  .rank-toc { padding: 26px 24px; }
+}

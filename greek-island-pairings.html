@@ -66,6 +66,8 @@
 
   .swk-guide-link { font-size:13px; letter-spacing:2px; text-transform:uppercase; margin-top:10px !important; }
   .swk-guide-link a { border-bottom:none; color:#B7A37C; white-space:nowrap; display:inline-block; }
+  /* These links are wider than a small phone, so nowrap pushed the page sideways. */
+  @media (max-width:520px){ .swk-guide-link a { white-space:normal; } }
   .swk-route-body .swk-guide-link { display:flex; flex-wrap:wrap; gap:8px 26px; }
   .swk-guide-link a:hover { color:#1C2436; }
 

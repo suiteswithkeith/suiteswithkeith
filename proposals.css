@@ -314,3 +314,9 @@
   .pr-rated-grid { grid-template-columns: 1fr; }
   .pr-compare table { min-width: 580px; }
 }
+
+/* Four-across variant of .pr-three. This lived as an inline style on the
+   markup, which outranks every media query and kept four columns on phones. */
+.pr-three-4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1000px) { .pr-three-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .pr-three-4 { grid-template-columns: 1fr; } }
