@@ -1073,8 +1073,14 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
   .t-slide { padding: 32px 24px; }
   .t-arrow { width: 36px; height: 36px; font-size: 1.2rem; }
   /* flex: 1 keeps min-width: auto, so the slide's min-content width pushed the
-     track — and the next arrow — past the right edge of the screen. */
-  .t-track { min-width: 0; }
+     track — and the next arrow — past the right edge of the screen. Dropping
+     the arrows below the quote also gives the text the full width of the
+     screen instead of a ~200px column between them. */
+  .t-carousel { flex-wrap: wrap; justify-content: center; gap: 0; }
+  .t-track { flex: 1 0 100%; min-width: 0; order: 1; }
+  .t-arrow { order: 2; margin-top: 22px; }
+  .t-arrow.t-prev { margin-right: 10px; }
+  .t-arrow.t-next { margin-left: 10px; }
   .t-header { flex-wrap: wrap; row-gap: 6px; }
   .t-header .t-stars { margin-left: 0; flex-basis: 100%; }
 }
