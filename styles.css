@@ -865,6 +865,14 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
   line-height: 1.7;
 }
 
+.footer-slogan {
+  font-family: var(--font-display);
+  font-size: 1.05rem !important;
+  letter-spacing: 0.03em;
+  opacity: 1 !important;
+  margin: 0 0 10px !important;
+}
+
 .footer-right { text-align: right; }
 
 .footer-badge {
