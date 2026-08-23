@@ -737,3 +737,16 @@
   .sg-booked .btn { margin-top: 22px; }
   .sg-fab { right: 16px; bottom: 16px; padding: 14px 22px; }
 }
+
+/* ---------- Hotel inquiry (replaces the mailto CTAs) ---------- */
+.guide-cta .hotel-inquire-form { max-width: 460px; margin: 6px auto 0; text-align: left; }
+.hotel-inquire-form label { display: block; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 500; color: var(--ink-soft); margin: 0 0 8px; }
+.hotel-inquire-form input[type="text"], .hotel-inquire-form input[type="email"] { width: 100%; box-sizing: border-box; font-family: var(--font-body); font-size: 0.95rem; color: var(--charcoal); background: #fff; border: 1px solid var(--hairline); border-radius: 2px; padding: 13px 14px; margin: 0 0 16px; }
+.hotel-inquire-form input:focus { outline: none; border-color: var(--olive); box-shadow: 0 0 0 3px rgba(111,116,92,0.12); }
+.hotel-inquire-form .hi-step2[hidden] { display: none; }
+.hotel-inquire-form button[type="submit"] { width: 100%; }
+.hotel-inquire-form .hi-note { font-size: 0.8rem; color: var(--ink-soft); margin: 12px 0 0; text-align: center; }
+.hotel-inquire-form .hi-status { margin: 14px 0 0; font-size: 0.95rem; text-align: center; }
+.hotel-inquire-form.hi-done .hi-step1, .hotel-inquire-form.hi-done .hi-step2,
+.hotel-inquire-form.hi-done button[type="submit"], .hotel-inquire-form.hi-done .hi-note { display: none; }
+.hotel-inquire-form.hi-done .hi-status { font-size: 1.05rem; }

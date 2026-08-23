@@ -87,7 +87,7 @@
       <div><span class="stat-num">20m</span><span class="stat-label">Heated Indoor Pool At Auriga Spa</span></div>
     </div>
     <div style="margin-top:32px;">
-      <a href="mailto:keith.pence@fora.travel?subject=Capella%20Sydney%20Inquiry&body=Hi%20Keith%2C%0A%0AI%27m%20interested%20in%20Capella%20Sydney.%0A%0AName%3A%20%0ATravel%20Dates%3A%20%0AOccasion%3A%20%0A%0A" class="btn btn-tan">Inquire To Book</a>
+      <a href="#inquire" class="btn btn-tan" data-gtag-label="inquire_to_book" data-gtag-location="hotel_hero">Inquire To Book</a>
     </div>
   </div>
 </header>
@@ -222,16 +222,33 @@
       <span class="eyebrow-mag">Book Capella Sydney Through Me</span>
       <h3>Same Rate, More Perks</h3>
       <p>Rates through me are identical to booking direct &mdash; the perks are not. As a Fora advisor, my clients typically receive preferred partner amenities such as daily breakfast, a property credit, and upgrade priority, confirmed for your exact dates when we book.</p>
-      <a href="mailto:keith.pence@fora.travel?subject=Capella%20Sydney%20Inquiry&body=Hi%20Keith%2C%0A%0AI%27m%20interested%20in%20Capella%20Sydney.%0A%0AName%3A%20%0ATravel%20Dates%3A%20%0AOccasion%3A%20%0A%0A" class="btn btn-olive">Check Availability</a>
+      <a href="#inquire" class="btn btn-olive" data-gtag-label="check_availability" data-gtag-location="hotel_perks">Check Availability</a>
     </div>
   </div>
 </section>
 
-<section class="guide-cta">
+<section class="guide-cta" id="inquire">
   <div class="container">
     <span class="eyebrow">Planning A Trip To Sydney?</span>
     <h2>Let me price your exact dates, confirm the perks, and build the rest of Australia around it.</h2>
-    <a href="mailto:keith.pence@fora.travel?subject=Sydney%20Trip%20Inquiry&body=Hi%20Keith%2C%0A%0AI%27m%20planning%20a%20trip%20to%20Sydney.%0A%0AName%3A%20%0ATravel%20Dates%3A%20%0AOccasion%3A%20%0A%0A" class="btn btn-tan">Plan Your Trip</a>
+    <form class="hotel-inquire-form" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Capella Sydney Inquiry">
+      <input type="hidden" name="hotel" value="Capella Sydney">
+      <input type="hidden" name="page" value="hotels/capella-sydney.html">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="hi-step1">
+        <label for="hi-when">When are you thinking?</label>
+        <input id="hi-when" type="text" name="travel_dates" placeholder="Late June, 5 nights" required autocomplete="off">
+      </div>
+      <div class="hi-step2">
+        <label for="hi-name">And where do I send the recommendation?</label>
+        <input id="hi-name" type="text" name="name" placeholder="Name" required autocomplete="name">
+        <input id="hi-email" type="email" name="email" placeholder="Email" required autocomplete="email">
+      </div>
+      <button type="submit" class="btn btn-tan" data-gtag-label="hotel_inquiry_send" data-gtag-location="hotel_cta">Send</button>
+      <p class="hi-note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="hi-status" role="status" aria-live="polite"></p>
+    </form>
     <p style="margin-top:26px;"><a href="../hotel-guides.html" class="read-link">All Hotel Guides &rarr;</a></p>
   </div>
 </section>
@@ -268,6 +285,7 @@
 
 <script src="../track.js" defer></script>
 <script src="../reveal.js" defer></script>
+<script defer src="../js/hotel-inquire.js"></script>
 <script defer src="../js/swk-events.js"></script>
 </body>
 </html>

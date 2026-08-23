@@ -88,7 +88,7 @@ PAGE = Template("""<!DOCTYPE html>
       <div><span class="stat-num">$stat2_num</span><span class="stat-label">$stat2_label</span></div>
     </div>
     <div style="margin-top:32px;">
-      <a href="$mailto" class="btn btn-tan">Inquire To Book</a>
+      <a href="#inquire" class="btn btn-tan" data-gtag-label="inquire_to_book" data-gtag-location="hotel_hero">Inquire To Book</a>
     </div>
   </div>
 </header>
@@ -143,16 +143,33 @@ $know_notes
       <span class="eyebrow-mag">Book $short_name Through Me</span>
       <h3>Same Rate, More Perks</h3>
       <p>$perks_html</p>
-      <a href="$mailto" class="btn btn-olive">Check Availability</a>
+      <a href="#inquire" class="btn btn-olive" data-gtag-label="check_availability" data-gtag-location="hotel_perks">Check Availability</a>
     </div>
   </div>
 </section>
 
-<section class="guide-cta">
+<section class="guide-cta" id="inquire">
   <div class="container">
     <span class="eyebrow">Planning A Trip To $island?</span>
     <h2>$cta_line</h2>
-    <a href="$mailto" class="btn btn-tan">Plan Your Trip</a>
+    <form class="hotel-inquire-form" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="$plain_name Inquiry">
+      <input type="hidden" name="hotel" value="$plain_name">
+      <input type="hidden" name="page" value="hotels/$out_file">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="hi-step1">
+        <label for="hi-when">When are you thinking?</label>
+        <input id="hi-when" type="text" name="travel_dates" placeholder="Late June, 5 nights" required autocomplete="off">
+      </div>
+      <div class="hi-step2">
+        <label for="hi-name">And where do I send the recommendation?</label>
+        <input id="hi-name" type="text" name="name" placeholder="Name" required autocomplete="name">
+        <input id="hi-email" type="email" name="email" placeholder="Email" required autocomplete="email">
+      </div>
+      <button type="submit" class="btn btn-tan" data-gtag-label="hotel_inquiry_send" data-gtag-location="hotel_cta">Send</button>
+      <p class="hi-note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="hi-status" role="status" aria-live="polite"></p>
+    </form>
     <p style="margin-top:26px;"><a href="../$island_page" class="read-link">$cta_island_text &rarr;</a> &nbsp;&nbsp; <a href="../$cta2_href" class="read-link">$cta2_text &rarr;</a></p>
   </div>
 </section>
@@ -189,6 +206,8 @@ $know_notes
 
 <script src="../track.js" defer></script>
 <script src="../reveal.js" defer></script>
+<script defer src="../js/hotel-inquire.js"></script>
+<script defer src="../js/swk-events.js"></script>
 </body>
 </html>
 """)
@@ -1081,6 +1100,7 @@ for h in HOTELS:
         stood_out_notes="\n".join(note(b, t) for b, t in h["stood_out"]),
         know_notes="\n".join(note(b, t) for b, t in h["know"]),
         verdict=h["verdict"], mailto=mailto,
+        plain_name=html.escape(plain_name, quote=True), out_file=h["slug"] + ".html",
     )
     path = f"{SITE}/hotels/{h['slug']}.html"
     with open(path, "w") as f:

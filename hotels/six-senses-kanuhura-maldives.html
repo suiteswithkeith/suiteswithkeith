@@ -81,7 +81,7 @@
       <div><span class="stat-num">87</span><span class="stat-label">Sqm Beach Villas In My Sample Pricing</span></div>
     </div>
     <div style="margin-top:32px;">
-      <a href="mailto:keith.pence@fora.travel?subject=Six%20Senses%20Kanuhura%20Inquiry&body=Hi Keith,%0A%0AI'm interested in Six%20Senses%20Kanuhura in the Maldives.%0A%0AName: %0ATravel Dates: %0AOccasion: %0A%0A" class="btn btn-tan">Inquire To Book</a>
+      <a href="#inquire" class="btn btn-tan" data-gtag-label="inquire_to_book" data-gtag-location="hotel_hero">Inquire To Book</a>
     </div>
   </div>
 </header>
@@ -142,16 +142,33 @@
       <span class="eyebrow-mag">Book Kanuhura Through Me</span>
       <h3>Same Rate, More Perks</h3>
       <p>Rates through me are identical to booking direct &mdash; the perks are not. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit &mdash; plus my direct line to the team on property before and during your stay.</p>
-      <a href="mailto:keith.pence@fora.travel?subject=Six%20Senses%20Kanuhura%20Inquiry&body=Hi Keith,%0A%0AI'm interested in Six%20Senses%20Kanuhura in the Maldives.%0A%0AName: %0ATravel Dates: %0AOccasion: %0A%0A" class="btn btn-olive">Check Availability</a>
+      <a href="#inquire" class="btn btn-olive" data-gtag-label="check_availability" data-gtag-location="hotel_perks">Check Availability</a>
     </div>
   </div>
 </section>
 
-<section class="guide-cta">
+<section class="guide-cta" id="inquire">
   <div class="container">
     <span class="eyebrow">Planning A Trip To Maldives?</span>
     <h2>Kanuhura earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.</h2>
-    <a href="mailto:keith.pence@fora.travel?subject=Six%20Senses%20Kanuhura%20Inquiry&body=Hi Keith,%0A%0AI'm interested in Six%20Senses%20Kanuhura in the Maldives.%0A%0AName: %0ATravel Dates: %0AOccasion: %0A%0A" class="btn btn-tan">Plan Your Trip</a>
+    <form class="hotel-inquire-form" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Six Senses Kanuhura Inquiry">
+      <input type="hidden" name="hotel" value="Six Senses Kanuhura">
+      <input type="hidden" name="page" value="hotels/six-senses-kanuhura-maldives.html">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="hi-step1">
+        <label for="hi-when">When are you thinking?</label>
+        <input id="hi-when" type="text" name="travel_dates" placeholder="Late June, 5 nights" required autocomplete="off">
+      </div>
+      <div class="hi-step2">
+        <label for="hi-name">And where do I send the recommendation?</label>
+        <input id="hi-name" type="text" name="name" placeholder="Name" required autocomplete="name">
+        <input id="hi-email" type="email" name="email" placeholder="Email" required autocomplete="email">
+      </div>
+      <button type="submit" class="btn btn-tan" data-gtag-label="hotel_inquiry_send" data-gtag-location="hotel_cta">Send</button>
+      <p class="hi-note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="hi-status" role="status" aria-live="polite"></p>
+    </form>
     <p style="margin-top:26px;"><a href="../sample-proposal.html" class="read-link">The Sample Maldives Proposal &rarr;</a> &nbsp;&nbsp; <a href="../the-fifteen.html" class="read-link">The Fifteen &rarr;</a></p>
   </div>
 </section>
@@ -188,6 +205,7 @@
 
 <script src="../track.js" defer></script>
 <script src="../reveal.js" defer></script>
+<script defer src="../js/hotel-inquire.js"></script>
 <script defer src="../js/swk-events.js"></script>
 </body>
 </html>
