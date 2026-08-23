@@ -1,0 +1,43 @@
+---
+// The one-field ask. Renders the standard inquiry section; the submit +
+// progressive-disclosure behavior lives in Layout.astro and keys off
+// `.inquire-form`, so use at most one per page.
+const {
+  subject,
+  page,
+  placeholder = 'Santorini in June',
+  deck = '&ldquo;Santorini in June&rdquo; is a complete answer. I&rsquo;ll take it from there.',
+  dark = false,
+  heading = 'Where and when?',
+  eyebrow = 'One question',
+  hotel = '',
+} = Astro.props;
+const labelStyle = dark ? 'color:var(--band-ash);' : '';
+---
+<section class={`section inquire${dark ? ' band on-shadow' : ''}`} id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">{eyebrow}</span>
+    <h2 class="display-l reveal">{heading}</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:40ch;" set:html={deck} />
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value={subject} />
+      <input type="hidden" name="page" value={page} />
+      {hotel && <input type="hidden" name="hotel" value={hotel} />}
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style={labelStyle}>Where and when?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder={placeholder} required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name" style={labelStyle}>And where do I send the recommendation?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style={`margin-top:2px; ${labelStyle}`}>Anything else? Nights, budget, occasion &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn">Send</button>
+      <p class="note" style={labelStyle}>Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>

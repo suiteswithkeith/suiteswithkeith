@@ -45,8 +45,8 @@ def extract(slug: str) -> dict:
     m = re.search(r'<a href="(already-booked[^"]+)" class="read-link">([^<]+?)(?:&nbsp;|\s)*&rarr;', aag)
     if m:
         g["already_booked"] = {"href": "/" + m.group(1), "label": m.group(2).strip()}
-    facts = grab(r'<div class="aag-facts">(.*?)</div>\s*</div>\s*<div class="aag-col">', aag)
-    blocks = re.findall(r"<h4>([^<]+)</h4>\s*<ul>(.*?)</ul>", facts)
+    facts = grab(r'<div class="aag-facts">(.*?)<div class="aag-dontmiss">', aag)
+    blocks = re.findall(r"<h4[^>]*>([^<]+)</h4>\s*<ul>(.*?)</ul>", facts, re.S)
     g["facts"] = [
         {"label": lbl.strip(), "items": re.findall(r"<li>(.*?)</li>", ul)} for lbl, ul in blocks
     ]
@@ -65,6 +65,8 @@ def extract(slug: str) -> dict:
             href = m.group(1)
             if not re.match(r"https?:|mailto:|#|/", href):
                 href = "/" + href
+            if g["already_booked"] and href == g["already_booked"]["href"]:
+                continue
             g["around_links"].append({"href": href, "label": re.sub(r"\s+", " ", m.group(2)).strip()})
     g["verdict"] = grab(r'keiths-verdict">.*?<p>(.*?)</p>', aag)
 

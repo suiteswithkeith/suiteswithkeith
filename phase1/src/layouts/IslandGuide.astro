@@ -1,0 +1,240 @@
+---
+// Renders one island guide from phase1/src/data/guides.json.
+import Layout from './Layout.astro';
+import Ask from '../components/Ask.astro';
+import guides from '../data/guides.json';
+
+const { slug } = Astro.props;
+const g = guides[slug];
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: g.title.split('|')[0].trim(),
+  description: g.description,
+  image: 'https://suiteswithkeith.com' + g.hero_img,
+  author: { '@type': 'Person', name: 'Keith Pence' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Suites With Keith',
+    logo: { '@type': 'ImageObject', url: 'https://suiteswithkeith.com/favicon-32.png' },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://suiteswithkeith.com/${slug}.html` },
+});
+const ext = (href) => /^https?:/.test(href);
+---
+<Layout
+  canonical={`${slug}.html`}
+  title={g.title}
+  description={g.description}
+  preload={g.hero_img}
+  current="guides"
+>
+
+<Fragment slot="head" set:html={`<script type="application/ld+json">${schema}</script>`} />
+
+<!-- hero -->
+<header class="hero" style="min-height:min(80svh,760px);">
+  <img class="hero-img" src={g.hero_img} alt="" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow" set:html={g.issue_tag} />
+    <h1 class="display-xl" style="margin-top:18px;" set:html={g.h1} />
+    <p class="sub" set:html={g.tagline} />
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="guide_hero">Tell me when you&rsquo;re going</a>
+      <a class="btn btn-ghost on-shadow" href="#hotels" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">The hotels</a>
+    </div>
+  </div>
+</header>
+
+<!-- at a glance -->
+<section class="section">
+  <div class="container glance-grid">
+    <div>
+      <span class="eyebrow reveal" style="display:block; margin-bottom:16px;" set:html={`${g.h1} &middot; at a glance`} />
+      <h2 class="display-l reveal" set:html={g.aag_h2} />
+      <div class="verdict reveal" style="margin-top:30px;">
+        <p set:html={g.verdict} />
+      </div>
+      {g.already_booked && (
+        <p class="reveal" style="margin-top:26px;">
+          <a href={g.already_booked.href} class="brass-link">{g.already_booked.label} &rarr;</a>
+        </p>
+      )}
+    </div>
+    <div>
+      <dl class="kv reveal">
+        {g.facts.map((f) => (
+          <div class="kv-row"><dt>{f.label}</dt><dd set:html={f.items.join(' &middot; ')} /></div>
+        ))}
+        <div class="kv-row"><dt>Don&rsquo;t miss</dt><dd>
+          {g.dont_miss.map((d, i) => (
+            <span><b set:html={d.h} /> &mdash; <span set:html={d.p} />{i < g.dont_miss.length - 1 ? ' ' : ''}</span>
+          ))}
+        </dd></div>
+        <div class="kv-row"><dt>Getting around</dt><dd set:html={g.around_text} /></div>
+      </dl>
+      <div class="reveal" style="margin-top:20px; display:flex; flex-direction:column; gap:10px;">
+        {g.around_links.map((l) => (
+          <a href={l.href} class="brass-link" target={ext(l.href) ? '_blank' : undefined} rel={ext(l.href) ? 'noopener sponsored' : undefined}><span set:html={l.label} /> &rarr;</a>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- where to stay -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Where to stay</span>
+      <h2 class="display-l">Pick your ground first</h2>
+    </div>
+    <div class="areas reveal">
+      {g.stay_areas.map((a) => (
+        <div class="area">
+          <h3 set:html={a.h} />
+          <p set:html={a.p} />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- hotel picks -->
+<section class="section" id="hotels" style="padding-bottom:0; scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal" style="margin-bottom:0;">
+      <span class="eyebrow">The hotels</span>
+      <h2 class="display-l">My picks, with reasons</h2>
+    </div>
+  </div>
+</section>
+{g.hotels.map((h, i) => (
+  <section class="section">
+    <div class="container">
+      <div class={`hp-grid${i % 2 ? ' flip' : ''}`}>
+        <figure class="reveal hp-media">
+          <img src={h.img} alt={h.img_alt} width="1600" height="1200" loading="lazy" decoding="async" />
+        </figure>
+        <div class="reveal">
+          <span class="eyebrow" set:html={h.kicker} />
+          <h3 class="display-m" style="font-size:clamp(1.6rem,3vw,2.1rem); margin-top:12px;" set:html={h.name} />
+          <p class="deck" style="margin-top:8px; font-size:1.05rem;" set:html={h.sub} />
+          <p class="body-2" style="margin-top:18px;" set:html={h.desc} />
+          <dl class="kv" style="margin-top:26px;">
+            <div class="kv-row"><dt>Right for</dt><dd set:html={h.best_for} /></div>
+            <div class="kv-row"><dt>Rate</dt><dd set:html={h.rate} /></div>
+            <div class="kv-row"><dt>Room I&rsquo;d book</dt><dd><b set:html={h.room} />{h.room_note && <span class="body-2" style="display:block; font-size:.9rem; margin-top:4px;" set:html={h.room_note} />}</dd></div>
+          </dl>
+          {h.href && <p style="margin-top:24px;"><a class="btn btn-ghost" href={h.href}>Read the full review</a></p>}
+        </div>
+      </div>
+      <div class="hp-notes">
+        <div class="reveal">
+          <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:16px;">Keith&rsquo;s notes</p>
+          {h.notes.map((n) => (
+            <p class="hp-note"><b set:html={n.b} /> <span set:html={n.t} /></p>
+          ))}
+        </div>
+        <div class="reveal">
+          <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:16px;">The verdict</p>
+          <div class="verdict"><p set:html={h.take} /></div>
+          {h.img2 && <img src={h.img2} alt={h.img2_alt || ''} width="1200" height="900" loading="lazy" decoding="async" style="margin-top:24px; aspect-ratio:4/3; object-fit:cover;" />}
+        </div>
+      </div>
+    </div>
+  </section>
+))}
+
+<!-- three days -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow" set:html={g.td_eyebrow} />
+      <h2 class="display-l" set:html={g.td_h2} />
+      {g.td_deck && <p class="deck" style="margin-top:16px; max-width:46ch;" set:html={g.td_deck} />}
+    </div>
+    <div class="td-grid">
+      {g.td_photo && (
+        <figure class="reveal" style="margin:0;">
+          <img src={g.td_photo.src} alt={g.td_photo.alt} width="1600" height="1200" loading="lazy" decoding="async" style="aspect-ratio:4/5; object-fit:cover;" />
+        </figure>
+      )}
+      <div class="ledger reveal" style="border-top:none;">
+        {g.days.map((d, i) => (
+          <div class="ledger-row" style={i === 0 ? 'border-top:1px solid var(--band-hairline);' : ''}>
+            <span class="n">{String(i + 1).padStart(2, '0')}</span>
+            <span class="d">
+              <b set:html={d.h.replace(/Day (One|Two|Three) \|\s*/, '')} /> {' '}<span set:html={d.p} />
+              {d.meta && <span class="day-meta" set:html={d.meta} />}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+    {g.td_tip && (
+      <div class="reveal" style="margin-top:44px; max-width:640px;">
+        <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:12px;">Keith&rsquo;s tip</p>
+        <p class="deck" set:html={g.td_tip} />
+      </div>
+    )}
+  </div>
+</section>
+
+{g.note_html && (
+  <section class="section" style="padding:64px 0 0;">
+    <div class="container" style="max-width:720px; text-align:center;">
+      <p class="deck note-x" set:html={g.note_html} />
+    </div>
+  </section>
+)}
+
+<Ask
+  subject={`Inquiry — ${g.h1} guide`}
+  page={slug}
+  placeholder={`${g.h1} in June`}
+  deck={`&ldquo;${g.h1} in June&rdquo; is a complete answer. I&rsquo;ll take it from there.`}
+/>
+
+</Layout>
+
+<style>
+  .brass-link { font-size: .74rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .brass-link:hover { text-decoration: underline; }
+
+  .glance-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 940px) { .glance-grid { grid-template-columns: 1fr 1.1fr; gap: 72px; } }
+  .glance-grid dd :global(a) { color: var(--brass); }
+  .glance-grid dd b { font-weight: 500; }
+
+  .areas { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .areas { grid-template-columns: repeat(3, 1fr); } }
+  .area { border: 1px solid var(--band-hairline); padding: clamp(24px, 3vw, 34px); }
+  .area h3 { font-family: var(--display); font-weight: 500; font-size: 1.4rem; margin-bottom: 10px; }
+  .area p { color: var(--band-ash); font-size: .95rem; line-height: 1.6; }
+
+  .hp-grid { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 900px) {
+    .hp-grid { grid-template-columns: 1.05fr 1fr; gap: 64px; }
+    .hp-grid.flip .hp-media { order: 2; }
+  }
+  .hp-media { margin: 0; }
+  .hp-media img { aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+
+  .hp-notes { display: grid; gap: 40px; grid-template-columns: 1fr; margin-top: 48px; border-top: 1px solid var(--hairline); padding-top: 40px; }
+  /* keep loaded images from inflating their 1fr tracks to intrinsic width */
+  .hp-grid > *, .hp-notes > *, .td-grid > * { min-width: 0; }
+  .hp-notes img, .td-grid figure img { width: 100%; }
+  @media (min-width: 900px) { .hp-notes { grid-template-columns: 1.2fr 1fr; gap: 64px; } }
+  .hp-note { font-size: .96rem; color: var(--ash); line-height: 1.65; margin-bottom: 14px; padding-left: 16px; position: relative; }
+  .hp-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
+  .hp-note b { color: var(--ink); font-weight: 500; }
+
+  .td-grid { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .td-grid { grid-template-columns: 1fr 1.4fr; gap: 64px; } }
+  .day-meta { display: block; margin-top: 10px; font-family: var(--stamp); font-size: .72rem; letter-spacing: .04em; color: var(--band-ash); line-height: 1.7; }
+  .day-meta :global(b) { color: var(--band-ink); font-weight: 700; }
+  .day-meta :global(a) { color: var(--brass-lit); }
+
+  .note-x :global(a) { color: var(--brass); }
+</style>
