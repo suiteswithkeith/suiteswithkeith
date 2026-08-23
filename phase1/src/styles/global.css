@@ -84,11 +84,8 @@ a { color: inherit; }
   letter-spacing: .1em; text-transform: uppercase; color: var(--brass);
   border: 1px solid currentColor; padding: .42em .9em; white-space: nowrap;
 }
-.stamp::before { content: ""; width: 5px; height: 5px; background: currentColor; border-radius: 50%; }
-.stamp::before { flex-shrink: 0; }
 @media (max-width: 560px) {
-  .stamp { white-space: normal; line-height: 1.6; align-items: flex-start; }
-  .stamp::before { margin-top: .55em; }
+  .stamp { white-space: normal; line-height: 1.6; }
 }
 .stamp.plain { border: none; padding: 0; font-weight: 400; color: var(--ash); }
 .on-shadow .stamp { color: var(--brass-lit); }
