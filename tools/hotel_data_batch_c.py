@@ -3,8 +3,8 @@
 #
 # NO_IMAGE: soneva-jani-maldives — no hotel photo in repo; using scenic Maldives image images/proposals/divider-overwater.jpg
 # NO_IMAGE: joali-being-maldives — no hotel photo in repo; using scenic Maldives image images/proposals/cover-hero.jpg
-# NO_IMAGE: four-seasons-hualalai-hawaii — no hotel photo in repo; using regional Hawaii image images/tennis/mauna-kea.png
-# NO_IMAGE: four-seasons-lanai-hawaii — no hotel photo in repo; using regional Hawaii image images/tennis/mauna-kea.png
+# NO_IMAGE: four-seasons-hualalai-hawaii — no hotel photo in repo; using regional Hawaii image images/tennis/mauna-kea.jpg
+# NO_IMAGE: four-seasons-lanai-hawaii — no hotel photo in repo; using regional Hawaii image images/tennis/mauna-kea.jpg
 # NO_IMAGE: auberge-du-soleil-napa — no hotel photo in repo; using scenic wine-country image images/napa/montage-3-firepit.jpg
 # NO_IMAGE: aman-tokyo — no hotel photo in repo; using scenic Tokyo image images/destinations/japan-tokyo.jpg
 # NO_IMAGE: montage-los-cabos — using Keith's own Los Cabos photo images/personal/montage-cabo.jpg (taken at the property)
