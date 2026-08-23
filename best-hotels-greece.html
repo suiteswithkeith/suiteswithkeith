@@ -634,9 +634,6 @@
         form.reset();
         status.textContent = 'Thank you — your inquiry is on its way. I’ll be in touch soon.';
         status.className = 'form-status success';
-        if (window.gtag) {
-          gtag('event', 'generate_lead', { form_location: 'greece_top10' });
-        }
       } else {
         return r.json().then(function (d) {
           throw new Error((d.errors && d.errors[0] && d.errors[0].message) || 'Something went wrong.');
@@ -684,5 +681,6 @@
 
 <script src="track.js" defer></script>
 <script src="reveal.js" defer></script>
+<script defer src="js/swk-events.js"></script>
 </body>
 </html>

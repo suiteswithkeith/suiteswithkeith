@@ -597,9 +597,6 @@
         form.reset();
         status.textContent = 'Thank you — your inquiry is on its way. I’ll be in touch soon.';
         status.className = 'form-status success';
-        if (window.gtag) {
-          gtag('event', 'generate_lead', { form_location: 'homepage_inquire' });
-        }
       } else {
         return r.json().then(function (d) {
           throw new Error((d.errors && d.errors[0] && d.errors[0].message) || 'Something went wrong.');
@@ -610,20 +607,6 @@
       status.className = 'form-status error';
     }).then(function () {
       if (btn) btn.disabled = false;
-    });
-  });
-})();
-</script>
-
-<script>
-(function () {
-  if (!window.gtag) return;
-  document.addEventListener('click', function (e) {
-    var el = e.target.closest('[data-gtag-label]');
-    if (!el) return;
-    gtag('event', 'cta_click', {
-      cta_label: el.getAttribute('data-gtag-label'),
-      cta_location: el.getAttribute('data-gtag-location') || ''
     });
   });
 })();
@@ -660,5 +643,6 @@
 </footer>
 
 <script src="track.js" defer></script>
+<script defer src="js/swk-events.js"></script>
 </body>
 </html>
