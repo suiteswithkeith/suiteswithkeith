@@ -1,0 +1,999 @@
+<title>Plaster &amp; Shadow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Courier+Prime:wght@400;700&family=Jost:wght@300;400;500&display=swap">
+
+<style>
+/* ─────────── tokens ─────────── */
+:root{
+  --ground:#F2EFE6; --ground-2:#E9E5DA; --card:#FBFAF6;
+  --ink:#161712; --ink-2:#65665C; --ink-3:#8C8D82;
+  --brass:#836229; --brass-lit:#B08A4F;
+  --olive:#4A5040;
+  --rule:rgba(22,23,18,.15); --rule-firm:rgba(22,23,18,.32);
+  --band:#161712; --band-ink:#F2EFE6; --band-ink-2:#9A9B90; --band-brass:#BE975A;
+  --band-rule:rgba(242,239,230,.18);
+  --flag-good:#4A5040; --flag-warn:#8A5A1E; --flag-bad:#8C3A2B;
+  --shadow-s:0 1px 2px rgba(22,23,18,.06),0 6px 18px rgba(22,23,18,.07);
+  --shadow-m:0 2px 4px rgba(22,23,18,.07),0 18px 40px rgba(22,23,18,.10);
+  --display:'Bodoni Moda',Didot,'Times New Roman',serif;
+  --body:'Jost','Helvetica Neue',Arial,sans-serif;
+  --stamp:'Courier Prime',ui-monospace,'Courier New',monospace;
+  --dur-1:180ms; --dur-2:280ms; --dur-3:520ms;
+  --ease:cubic-bezier(.2,.6,.2,1);
+  --col:min(1120px,100% - 3rem);
+  --read:66ch;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#141510; --ground-2:#1C1D17; --card:#1E1F19;
+    --ink:#F2EFE6; --ink-2:#9A9B90; --ink-3:#74756B;
+    --brass:#BE975A; --brass-lit:#C6A166;
+    --olive:#8D9679;
+    --rule:rgba(242,239,230,.15); --rule-firm:rgba(242,239,230,.30);
+    --band:#0B0C08; --band-ink:#F2EFE6; --band-ink-2:#9A9B90; --band-brass:#BE975A;
+    --band-rule:rgba(242,239,230,.16);
+    --flag-good:#8D9679; --flag-warn:#C99A50; --flag-bad:#CC7A66;
+    --shadow-s:0 1px 2px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.34);
+    --shadow-m:0 2px 4px rgba(0,0,0,.44),0 18px 40px rgba(0,0,0,.42);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#141510; --ground-2:#1C1D17; --card:#1E1F19;
+  --ink:#F2EFE6; --ink-2:#9A9B90; --ink-3:#74756B;
+  --brass:#BE975A; --brass-lit:#C6A166;
+  --olive:#8D9679;
+  --rule:rgba(242,239,230,.15); --rule-firm:rgba(242,239,230,.30);
+  --band:#0B0C08; --band-ink:#F2EFE6; --band-ink-2:#9A9B90; --band-brass:#BE975A;
+  --band-rule:rgba(242,239,230,.16);
+  --flag-good:#8D9679; --flag-warn:#C99A50; --flag-bad:#CC7A66;
+  --shadow-s:0 1px 2px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.34);
+  --shadow-m:0 2px 4px rgba(0,0,0,.44),0 18px 40px rgba(0,0,0,.42);
+}
+
+/* ─────────── base ─────────── */
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:var(--body); font-weight:300; font-size:1.0625rem; line-height:1.65;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{text-wrap:balance; margin:0;}
+p{margin:0;}
+a{color:inherit;}
+:focus-visible{outline:2px solid var(--brass); outline-offset:3px; border-radius:1px;}
+::selection{background:var(--brass); color:var(--ground);}
+
+.col{width:var(--col); margin-inline:auto;}
+.read{max-width:var(--read);}
+
+.eyebrow{
+  font-family:var(--body); font-size:.7rem; font-weight:500;
+  letter-spacing:.24em; text-transform:uppercase; color:var(--brass); margin:0;
+}
+.stamp{
+  font-family:var(--stamp); font-size:.72rem; letter-spacing:.04em;
+  text-transform:uppercase; color:var(--ink-2);
+}
+
+/* ─────────── masthead ─────────── */
+.mast{padding:clamp(3.5rem,9vw,7rem) 0 clamp(2.5rem,5vw,4rem); border-bottom:1px solid var(--rule-firm);}
+.mast-grid{display:grid; grid-template-columns:1fr; gap:2.25rem;}
+@media(min-width:900px){.mast-grid{grid-template-columns:1.35fr .8fr; gap:4rem; align-items:end;}}
+.mast h1{
+  font-family:var(--display); font-weight:400; font-optical-sizing:auto;
+  font-size:clamp(3rem,9.5vw,7rem); line-height:.94; letter-spacing:-.015em;
+  margin:1.1rem 0 0;
+}
+.mast h1 em{font-style:italic; color:var(--brass);}
+.mast .deck{
+  font-family:var(--display); font-style:italic; font-weight:400;
+  font-size:clamp(1.15rem,2.4vw,1.5rem); line-height:1.45; color:var(--ink-2);
+  max-width:34ch; margin-top:1.5rem;
+}
+.mast-meta{display:flex; flex-direction:column; gap:.6rem; padding-bottom:.4rem;}
+.mast-meta div{
+  display:flex; justify-content:space-between; gap:1.5rem;
+  border-top:1px solid var(--rule); padding-top:.6rem;
+  font-family:var(--stamp); font-size:.72rem; text-transform:uppercase; letter-spacing:.05em;
+  color:var(--ink-2);
+}
+.mast-meta div b{font-weight:700; color:var(--ink); text-align:right;}
+
+/* ─────────── section shell ─────────── */
+section{padding:clamp(3.5rem,7vw,6rem) 0; border-bottom:1px solid var(--rule);}
+section:last-of-type{border-bottom:none;}
+.sec-head{margin-bottom:clamp(2rem,4vw,3rem); border-top:2px solid var(--olive); padding-top:1.1rem;}
+.band .sec-head{border-top-color:var(--band-brass);}
+.sec-head h2{
+  font-family:var(--display); font-weight:400; font-optical-sizing:auto;
+  font-size:clamp(1.9rem,4.4vw,3.1rem); line-height:1.06; letter-spacing:-.012em;
+  margin:.7rem 0 0;
+}
+.sec-head .lede{
+  margin-top:1.1rem; max-width:var(--read);
+  font-size:1.09rem; color:var(--ink-2); line-height:1.6;
+}
+h3.sub{
+  font-family:var(--display); font-weight:500; font-size:1.32rem;
+  line-height:1.25; margin:0 0 .55rem;
+}
+h4.mini{
+  font-family:var(--body); font-weight:500; font-size:.72rem;
+  letter-spacing:.2em; text-transform:uppercase; color:var(--ink-2); margin:0 0 .9rem;
+}
+.stack{display:flex; flex-direction:column; gap:1.1rem;}
+.stack-lg{display:flex; flex-direction:column; gap:2.5rem;}
+.body-2{color:var(--ink-2);}
+
+/* ─────────── shadow band ─────────── */
+.band{
+  background:var(--band); color:var(--band-ink);
+  border-block:1px solid var(--band-rule);
+}
+.band .eyebrow{color:var(--band-brass);}
+.band .sec-head .lede,.band .body-2,.band .stamp{color:var(--band-ink-2);}
+.band .card{background:transparent; border-color:var(--band-rule); box-shadow:none;}
+.band .rule{background:var(--band-rule);}
+
+/* ─────────── cards / grids ─────────── */
+.grid{display:grid; gap:1.25rem;}
+.g2{grid-template-columns:1fr;}
+.g3{grid-template-columns:1fr;}
+.g4{grid-template-columns:1fr 1fr;}
+@media(min-width:760px){.g2{grid-template-columns:1fr 1fr;} .g3{grid-template-columns:repeat(3,1fr);}}
+@media(min-width:980px){.g4{grid-template-columns:repeat(4,1fr);}}
+.card{
+  background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow-s);
+  padding:1.5rem 1.4rem; display:flex; flex-direction:column; gap:.7rem;
+  transition:transform var(--dur-1) var(--ease),box-shadow var(--dur-1) var(--ease);
+}
+.card:hover{transform:translateY(-2px); box-shadow:var(--shadow-m);}
+.card p{font-size:.95rem; color:var(--ink-2); line-height:1.58;}
+.card .tag{
+  font-family:var(--stamp); font-size:.68rem; text-transform:uppercase;
+  letter-spacing:.08em; color:var(--brass);
+}
+
+/* audience cards */
+.aud{border-left:2px solid var(--brass); padding-left:1.3rem; transition:border-color var(--dur-1) var(--ease);}
+.aud:hover{border-left-color:var(--brass-lit);}
+.aud .who{font-family:var(--display); font-size:1.28rem; font-weight:500; line-height:1.2;}
+.aud .quote{
+  font-family:var(--display); font-style:italic; font-size:1rem;
+  color:var(--ink-2); line-height:1.5; margin-top:.15rem;
+}
+.aud dl{margin:.6rem 0 0; display:grid; grid-template-columns:auto 1fr; gap:.3rem .9rem; font-size:.9rem;}
+.aud dt{font-family:var(--stamp); font-size:.66rem; text-transform:uppercase; letter-spacing:.07em; color:var(--ink-3); padding-top:.28rem;}
+.aud dd{margin:0; color:var(--ink-2);}
+
+/* ─────────── tables ─────────── */
+.tw{overflow-x:auto; border:1px solid var(--rule); background:var(--card);}
+.band .tw{background:transparent; border-color:var(--band-rule);}
+table{border-collapse:collapse; width:100%; min-width:640px; font-size:.9rem;}
+th,td{text-align:left; padding:.8rem 1rem; border-bottom:1px solid var(--rule); vertical-align:top;}
+.band th,.band td{border-color:var(--band-rule);}
+.band th{background:transparent;}
+th{
+  background:var(--ground-2);
+  font-family:var(--body); font-weight:500; font-size:.67rem;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--ink-2);
+  border-bottom:1px solid var(--rule-firm); white-space:nowrap;
+}
+.band th{color:var(--band-ink-2); border-bottom-color:var(--band-rule);}
+tr:last-child td{border-bottom:none;}
+td.num{font-variant-numeric:tabular-nums; white-space:nowrap;}
+td b{font-weight:500;}
+.pill{
+  display:inline-block; font-family:var(--stamp); font-size:.65rem; font-weight:700;
+  letter-spacing:.06em; text-transform:uppercase; padding:.2rem .5rem;
+  border:1px solid currentColor; white-space:nowrap;
+}
+.pill.bad{color:var(--flag-bad);} .pill.warn{color:var(--flag-warn);} .pill.good{color:var(--flag-good);}
+
+/* ─────────── swatches ─────────── */
+.sw{display:flex; flex-direction:column; border:1px solid var(--rule); background:var(--card);}
+.sw .chip{height:88px; border-bottom:1px solid var(--rule);}
+.sw .m{padding:.85rem .9rem 1rem; display:flex; flex-direction:column; gap:.15rem;}
+.sw .nm{font-weight:500; font-size:.85rem;}
+.sw .hx{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-transform:uppercase; font-variant-numeric:tabular-nums;}
+.sw .us{font-size:.78rem; color:var(--ink-2); line-height:1.45; margin-top:.35rem;}
+
+/* type specimens */
+.spec{display:grid; grid-template-columns:1fr; gap:.5rem; padding:1.6rem 0; border-top:1px solid var(--rule);}
+@media(min-width:820px){.spec{grid-template-columns:170px 1fr; gap:2rem; align-items:baseline;}}
+.spec:first-of-type{border-top:none;}
+.spec .role{font-family:var(--stamp); font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-2); line-height:1.5;}
+.spec .role b{display:block; color:var(--ink); font-size:.78rem; letter-spacing:.08em;}
+.sp-display{font-family:var(--display); font-weight:400; font-size:clamp(2rem,5vw,3.1rem); line-height:1.04; margin:0;}
+.sp-display i{color:var(--brass);}
+.sp-body{font-family:var(--body); font-weight:300; font-size:1.02rem; max-width:58ch; margin:0; color:var(--ink-2);}
+.sp-stamp{font-family:var(--stamp); font-weight:700; font-size:.95rem; letter-spacing:.1em; text-transform:uppercase; margin:0;}
+
+/* ─────────── the 3-second demo ─────────── */
+.demo{border:1px solid var(--band-rule); background:var(--band); color:var(--band-ink); overflow:hidden;}
+.demo-stage{
+  position:relative; aspect-ratio:16/9; min-height:300px;
+  display:grid; place-items:center; text-align:center; padding:2rem 1.5rem;
+  background:
+    radial-gradient(120% 90% at 50% 8%, rgba(190,151,90,.16), transparent 60%),
+    linear-gradient(178deg,#26251c 0%,#14150f 62%,#0B0C08 100%);
+  overflow:hidden;
+}
+.demo-stage::after{
+  content:""; position:absolute; left:-10%; right:-10%; top:38%; height:52%;
+  background:linear-gradient(180deg,rgba(242,239,230,.05),transparent);
+  transform:skewY(-4deg); pointer-events:none;
+}
+.beats{position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; gap:1.1rem;}
+.beat{opacity:0; transform:translateY(10px); transition:opacity var(--dur-3) var(--ease),transform var(--dur-3) var(--ease);}
+.beat.on{opacity:1; transform:none;}
+.b1{
+  font-family:var(--stamp); font-size:.68rem; letter-spacing:.26em;
+  text-transform:uppercase; color:var(--band-brass);
+}
+.b2{
+  font-family:var(--display); font-weight:400; font-optical-sizing:auto;
+  font-size:clamp(1.7rem,5.2vw,3.4rem); line-height:1.04; letter-spacing:-.015em;
+  color:var(--band-ink); max-width:16ch;
+}
+.b2 i{font-style:italic; color:var(--band-brass);}
+.b3{
+  display:inline-flex; align-items:center; gap:.7rem; padding:.42rem .85rem;
+  border:1px solid rgba(190,151,90,.5);
+  font-family:var(--stamp); font-size:.66rem; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--band-brass);
+}
+.b3 span{width:5px; height:5px; background:var(--band-brass); border-radius:50%;}
+.b4{
+  display:inline-block; padding:.85rem 1.7rem; background:var(--band-brass); color:#14150f;
+  font-family:var(--body); font-weight:500; font-size:.72rem;
+  letter-spacing:.16em; text-transform:uppercase;
+}
+.demo-bar{display:flex; align-items:stretch; border-top:1px solid var(--band-rule);}
+.demo-play{
+  appearance:none; border:none; border-right:1px solid var(--band-rule);
+  background:transparent; color:var(--band-ink); cursor:pointer;
+  font-family:var(--body); font-weight:500; font-size:.7rem;
+  letter-spacing:.16em; text-transform:uppercase; padding:.95rem 1.4rem;
+  transition:background var(--dur-1) var(--ease),color var(--dur-1) var(--ease); white-space:nowrap;
+}
+.demo-play:hover{background:var(--band-brass); color:#14150f;}
+.ticks{flex:1; display:grid; grid-template-columns:repeat(4,1fr);}
+.tick{
+  border-right:1px solid var(--band-rule); padding:.7rem .8rem;
+  display:flex; flex-direction:column; gap:.15rem; min-width:0;
+}
+.tick:last-child{border-right:none;}
+.tick .t{font-family:var(--stamp); font-size:.64rem; color:var(--band-brass); font-variant-numeric:tabular-nums;}
+.tick .d{font-size:.76rem; color:var(--band-ink-2); line-height:1.35;}
+.tick.on .d{color:var(--band-ink);}
+.tick{position:relative;}
+.tick::after{
+  content:""; position:absolute; left:0; bottom:0; height:2px; width:0;
+  background:var(--band-brass); transition:width var(--dur-2) linear;
+}
+.tick.on::after{width:100%;}
+
+/* ─────────── scroll story ─────────── */
+.story{display:flex; flex-direction:column;}
+.frame{
+  display:grid; grid-template-columns:1fr; gap:.45rem;
+  padding:1.5rem 0; border-top:1px solid var(--rule);
+}
+@media(min-width:880px){
+  .frame{grid-template-columns:112px 1fr 1.15fr; gap:2.2rem; align-items:start; padding:1.65rem 0;}
+}
+.frame:first-child{border-top:none;}
+.frame .depth{
+  font-family:var(--stamp); font-size:.7rem; color:var(--brass);
+  font-variant-numeric:tabular-nums; letter-spacing:.03em; padding-top:.28rem; white-space:nowrap;
+}
+.frame .what{font-family:var(--display); font-weight:500; font-size:1.2rem; line-height:1.25;}
+.frame .what small{
+  display:block; font-family:var(--stamp); font-size:.66rem; font-weight:400;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3); margin-top:.3rem;
+}
+.frame .why{font-size:.95rem; color:var(--ink-2); line-height:1.58;}
+.frame .why em{font-style:italic; color:var(--ink);}
+
+/* ─────────── motion spec ─────────── */
+.mo{display:grid; grid-template-columns:1fr; gap:0; border:1px solid var(--rule); background:var(--card);}
+.mo-row{display:grid; grid-template-columns:1fr; gap:.35rem; padding:1.15rem 1.3rem; border-top:1px solid var(--rule);}
+@media(min-width:820px){.mo-row{grid-template-columns:150px 1fr 200px; gap:1.6rem; align-items:center;}}
+.mo-row:first-child{border-top:none;}
+.mo-row .nm{font-weight:500; font-size:.95rem;}
+.mo-row .ds{font-size:.88rem; color:var(--ink-2); line-height:1.5;}
+.mo-row .vl{font-family:var(--stamp); font-size:.72rem; color:var(--brass); line-height:1.5;}
+.banned{display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1.2rem;}
+.banned span{
+  font-family:var(--stamp); font-size:.7rem; padding:.34rem .7rem;
+  border:1px solid var(--rule-firm); color:var(--ink-2); text-decoration:line-through;
+}
+
+/* ─────────── build phases ─────────── */
+.phase{display:grid; grid-template-columns:1fr; gap:.8rem; padding:1.9rem 0; border-top:1px solid var(--rule);}
+@media(min-width:880px){.phase{grid-template-columns:64px 1fr 250px; gap:2.2rem; align-items:start;}}
+.phase:first-of-type{border-top:none;}
+.phase .no{
+  font-family:var(--display); font-weight:400; font-size:2.6rem; line-height:.8;
+  color:var(--brass); font-variant-numeric:tabular-nums;
+}
+.phase .hd{font-family:var(--display); font-weight:500; font-size:1.35rem; line-height:1.2; margin-bottom:.5rem;}
+.phase ul{margin:.7rem 0 0; padding-left:1.05rem; display:flex; flex-direction:column; gap:.35rem;}
+.phase li{font-size:.93rem; color:var(--ink-2); line-height:1.5;}
+.phase li b{font-weight:500; color:var(--ink);}
+.phase .ship{
+  border:1px solid var(--rule); padding:.9rem 1rem; background:var(--card);
+  display:flex; flex-direction:column; gap:.3rem;
+}
+.phase .ship .k{font-family:var(--stamp); font-size:.63rem; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-3);}
+.phase .ship .v{font-size:.87rem; color:var(--ink-2); line-height:1.45;}
+.phase .ship .v b{color:var(--ink); font-weight:500;}
+
+/* metric strip */
+.metrics{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--band-rule); border:1px solid var(--band-rule);}
+@media(min-width:820px){.metrics{grid-template-columns:repeat(4,1fr);}}
+.metric{background:var(--band); padding:1.4rem 1.2rem; display:flex; flex-direction:column; gap:.3rem;}
+.metric .v{font-family:var(--display); font-weight:400; font-size:clamp(1.7rem,4vw,2.5rem); line-height:1; font-variant-numeric:tabular-nums;}
+.metric .v.warn{color:var(--band-brass);}
+.metric .k{font-family:var(--stamp); font-size:.66rem; text-transform:uppercase; letter-spacing:.08em; color:var(--band-ink-2); line-height:1.4;}
+
+/* callout */
+.callout{border-left:2px solid var(--brass); padding:.2rem 0 .2rem 1.3rem;}
+.callout p{font-family:var(--display); font-style:italic; font-size:1.2rem; line-height:1.5; color:var(--ink);}
+.band .callout{border-color:var(--band-brass);}
+.band .callout p{color:var(--band-ink);}
+.rule{height:1px; background:var(--rule); border:none; margin:0;}
+
+footer{padding:3.5rem 0 5rem;}
+footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-transform:uppercase; letter-spacing:.05em;}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important;}
+  .beat{opacity:1; transform:none;}
+}
+</style>
+
+<main>
+
+<!-- ══════════ MASTHEAD ══════════ -->
+<header class="mast">
+  <div class="col mast-grid">
+    <div>
+      <p class="eyebrow">Creative direction &middot; Suites With Keith</p>
+      <h1>Plaster<br>&amp; <em>Shadow</em></h1>
+      <p class="deck">A website blueprint for a travel advisor whose actual product is judgment &mdash; not photographs, and not perks.</p>
+    </div>
+    <div class="mast-meta">
+      <div><span>Client</span><b>suiteswithkeith.com</b></div>
+      <div><span>Audited</span><b>193 pages &middot; 123 hotels</b></div>
+      <div><span>Stack today</span><b>Static HTML &middot; GH Pages</b></div>
+      <div><span>Scope</span><b>Identity &middot; IA &middot; Build</b></div>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════ BRAND ══════════ -->
+<section id="brand">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">The brand, as it actually is</p>
+      <h2>You are not running an advisor site.<br>You are running a publishing house.</h2>
+      <p class="lede">I read the whole repository before writing a word of this. The thing that jumped out is not in your copy &mdash; it is in your file tree. You have 123 individual hotel pages, a Python content generator, ten private client proposals, and a printed magazine with a second issue in the pipeline. The median luxury travel advisor has six pages and an Instagram grid.</p>
+    </div>
+
+    <div class="grid g4" style="margin-bottom:2.5rem;">
+      <div class="card"><p class="tag">Inventory</p><h3 class="sub">123</h3><p>Hotel pages, each hand-detailed &mdash; from Aman Kyoto to Erema Milos.</p></div>
+      <div class="card"><p class="tag">Field work</p><h3 class="sub">38 in 4</h3><p>Hotels toured across eight Cycladic islands in four weeks, solo.</p></div>
+      <div class="card"><p class="tag">Editorial</p><h3 class="sub">Issue 01</h3><p>The Greece Collection shipped. Napa and Los Cabos queued behind it.</p></div>
+      <div class="card"><p class="tag">Proof</p><h3 class="sub">Named</h3><p>Rosewood London called the work &ldquo;chic and editorial&rdquo; in your own style guide.</p></div>
+    </div>
+
+    <div class="callout" style="margin-bottom:2.5rem;">
+      <p>Your FAQ already contains the strategy, buried in an answer about credit cards: &ldquo;The perks are similar. The experience isn&rsquo;t.&rdquo; That is the entire brand. Right now it is question seven.</p>
+    </div>
+
+    <div class="grid g2">
+      <div class="stack">
+        <h4 class="mini">The moat</h4>
+        <p>Amex Fine Hotels + Resorts can match your upgrade. Chase can match your resort credit. Any of the thousands of Fora and Virtuoso advisors can match your commission split. <strong>None of them can tell a couple which of Cosme and Parilio to book, because none of them slept in both.</strong></p>
+        <p class="body-2">Perks are a commodity with a public price list. Firsthand, dated, comparative judgment is not. The site should be organised so that a stranger understands this within one screen &mdash; today it takes about four.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">What is diluting it</h4>
+        <p class="body-2"><b>Four typefaces.</b> Playfair, Cinzel, Cormorant and Jost, split across two unrelated themes &mdash; a cream site and a navy magazine that look like two companies.</p>
+        <p class="body-2"><b>The flagship is in a rented frame.</b> Issue No. 01 renders inside an Issuu iframe: someone else&rsquo;s chrome, invisible to Google, slow to load, impossible to link into.</p>
+        <p class="body-2"><b>The evidence is invisible.</b> Nothing on a hotel page states whether you have personally stayed there. That single fact is the whole reason to choose you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ AUDIENCE ══════════ -->
+<section id="audience">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Who is actually arriving</p>
+      <h2>Four people, four different first screens</h2>
+      <p class="lede">These are not personas I invented. Each one is drawn from a testimonial already published on your site, which makes them the most reliable audience research available. They want incompatible things, and that has a direct structural consequence.</p>
+    </div>
+
+    <div class="grid g2" style="gap:2.2rem;">
+      <div class="aud">
+        <p class="who">The Honeymooners</p>
+        <p class="quote">&ldquo;Our honeymoon deserves more than another booking site.&rdquo;</p>
+        <dl>
+          <dt>Stakes</dt><dd>One shot, non-repeatable, months of research already done.</dd>
+          <dt>Fear</dt><dd>Choosing the wrong island, the wrong hotel, the wrong month.</dd>
+          <dt>Needs</dt><dd>Taste they can borrow, and permission to stop researching.</dd>
+          <dt>Serve</dt><dd>The Collections and comparison pages. Long dwell, slow decision.</dd>
+        </dl>
+      </div>
+      <div class="aud">
+        <p class="who">The Reactivated Skeptic</p>
+        <p class="quote">&ldquo;Keith made me believe in using travel agents again.&rdquo;</p>
+        <dl>
+          <dt>Stakes</dt><dd>Time-poor executive. Was about to not book the trip at all.</dd>
+          <dt>Fear</dt><dd>An agent who upsells rather than advises.</dd>
+          <dt>Needs</dt><dd>Visible reasoning &mdash; Stephanie praised that you &ldquo;called out why.&rdquo;</dd>
+          <dt>Serve</dt><dd>Rankings and the sample proposals. Show your working.</dd>
+        </dl>
+      </div>
+      <div class="aud">
+        <p class="who">The Habitual</p>
+        <p class="quote">&ldquo;Four times in the past two months.&rdquo;</p>
+        <dl>
+          <dt>Stakes</dt><dd>Highest lifetime value on the site. Your retainer target.</dd>
+          <dt>Fear</dt><dd>Friction. A form is already too much.</dd>
+          <dt>Needs</dt><dd>A direct line and a saved context.</dd>
+          <dt>Serve</dt><dd>Not the marketing site at all. A private, logged-in surface.</dd>
+        </dl>
+      </div>
+      <div class="aud">
+        <p class="who">The Rescue</p>
+        <p class="quote">&ldquo;Less than 24 hours&rsquo; notice&hellip; Saint-Tropez, peak season.&rdquo;</p>
+        <dl>
+          <dt>Stakes</dt><dd>Urgent, high-intent, arrives already frustrated.</dd>
+          <dt>Fear</dt><dd>That nobody answers in time.</dd>
+          <dt>Needs</dt><dd>To reach a human immediately.</dd>
+          <dt>Serve</dt><dd>A persistent contact affordance on every page.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <hr class="rule" style="margin:2.5rem 0;">
+    <div class="read">
+      <h4 class="mini">The structural consequence</h4>
+      <p>Your only conversion path today is a form at the bottom of a long page, and your stated response time is &ldquo;within a couple of days.&rdquo; That works for the Honeymooners. It loses the Rescue outright and irritates the Habitual &mdash; the two segments with the highest margin.</p>
+      <p style="margin-top:.9rem;" class="body-2">Fix: a persistent inquiry affordance that is always one tap away, and a triage question as the first field &mdash; <em>when do you travel?</em> Anything inside 30 days routes to a different, faster promise than anything beyond it. One extra select element; a materially different business.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ COMPETITORS ══════════ -->
+<section id="competitors" class="band">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">The competitive set</p>
+      <h2>Three tiers, and only one of them is a real fight</h2>
+      <p class="lede">You did not give me a list, so I built one from your own copy &mdash; your FAQ names two competitors directly &mdash; and from where the traffic for these queries actually goes. Confirm or correct this before Phase 1; it is the one assumption in this document I would most want checked.</p>
+    </div>
+
+    <div class="tw" style="margin-bottom:2rem;">
+      <table>
+        <thead><tr><th>Tier</th><th>Who</th><th>They win on</th><th>They cannot do</th><th>How you take it</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>01</b></td>
+            <td><b>Amex FHR &amp; Chase</b><br><span class="stamp">named in your own FAQ</span></td>
+            <td>Instant booking, brand trust, no human required, perks at parity.</td>
+            <td>Judge anything. Advocate for you. Answer at 11pm from Sifnos.</td>
+            <td>Make judgment the visible product. Never compete on perk lists &mdash; you lose a spec war you have already conceded.</td>
+          </tr>
+          <tr>
+            <td><b>02</b></td>
+            <td><b>Other Fora / Virtuoso advisors</b></td>
+            <td>Volume, Instagram reach, referral networks.</td>
+            <td>Publish 123 firsthand hotel records. Almost all run six-page templates.</td>
+            <td>You already beat them on substance and lose on presentation. This is the cheapest win available.</td>
+          </tr>
+          <tr>
+            <td><b>03</b></td>
+            <td><b>Hotel direct sites, Booking, a Google image search</b></td>
+            <td>The first three seconds. Better photography than you will ever fund.</td>
+            <td>Say a bad word about themselves. Ever.</td>
+            <td>Do not out-photograph them. Out-<em>judge</em> them. A hotel will never publish &ldquo;book the other one.&rdquo;</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2">
+      <div class="stack">
+        <h4 class="mini">The peer set to look like</h4>
+        <p class="body-2">Not other advisors. Aim the visual bar at the properties themselves &mdash; Aman, Six Senses, Passalacqua &mdash; and at independent travel print: <em>Cereal</em>, <em>Suitcase</em>, the Gold List. When a visitor cannot tell whether they are on an advisor&rsquo;s site or a hotel&rsquo;s, the pricing conversation changes.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">The weapon you already built</h4>
+        <p class="body-2"><span class="stamp" style="color:var(--band-brass)">cosme-vs-parilio-paros.html</span> is, strategically, the most valuable file in the repository. Head-to-head comparison is the one format structurally unavailable to every tier above. You have one. You should have forty, and they should be a first-class page type &mdash; not an orphan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FIRST THREE SECONDS ══════════ -->
+<section id="three-seconds">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">The first three seconds</p>
+      <h2>The feeling is relief, not wanderlust</h2>
+      <p class="lede">Every competitor sells wanderlust, and they outspend you on it. Wanderlust is also the wrong emotion: a visitor who wants to feel wonder goes to Instagram. A visitor on an advisor&rsquo;s site is already sold on the trip and is now anxious about getting it wrong. The feeling to engineer is <em>someone has already done this work, and better than I could.</em> Relief, then deference.</p>
+    </div>
+
+    <div class="demo">
+      <div class="demo-stage">
+        <div class="beats">
+          <p class="beat b1" data-beat="0">Suites With Keith</p>
+          <p class="beat b2" data-beat="1">I have slept in <i>123 of them.</i></p>
+          <p class="beat b3" data-beat="2"><span></span>Cyclades &middot; 38 hotels &middot; 4 weeks &middot; verified 2025</p>
+          <a class="beat b4" data-beat="3" href="#three-seconds">Tell me where you&rsquo;re going</a>
+        </div>
+      </div>
+      <div class="demo-bar">
+        <button class="demo-play" id="play" type="button">Play 3s &#9654;</button>
+        <div class="ticks">
+          <div class="tick" data-beat="0"><span class="t">0.0 &ndash; 0.6s</span><span class="d">One photograph. Plaster and shadow. A real room.</span></div>
+          <div class="tick" data-beat="1"><span class="t">0.6 &ndash; 1.4s</span><span class="d">The number lands. Specificity is the hook.</span></div>
+          <div class="tick" data-beat="2"><span class="t">1.4 &ndash; 2.2s</span><span class="d">The evidence stamp. Dated, countable.</span></div>
+          <div class="tick" data-beat="3"><span class="t">2.2 &ndash; 3.0s</span><span class="d">One action. Written as a sentence, not a label.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid g2" style="margin-top:2.5rem;">
+      <div class="stack">
+        <h4 class="mini">Why the number, and not a view</h4>
+        <p class="body-2">&ldquo;Luxury travel, tailored to you&rdquo; is what all three competitor tiers say. It is unfalsifiable, so it is unbelievable. <em>123</em> is checkable, and a visitor knows instinctively that nobody fabricates a number that specific. It also does something no adjective can: it makes the visitor feel behind. That is the deference.</p>
+        <p class="body-2">Generate it from the file count at build time so it is never stale, and never wrong.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">Hard rules for the hero</h4>
+        <p class="body-2"><b>No carousel.</b> A rotating hero says you could not decide, and it destroys the largest contentful paint.</p>
+        <p class="body-2"><b>No drone shot of the caldera.</b> It is the single most reproduced image in travel and it signals stock, not presence.</p>
+        <p class="body-2"><b>No &ldquo;Start Planning.&rdquo;</b> It is a system verb. &ldquo;Tell me where you&rsquo;re going&rdquo; is a person asking a question, which is what the visitor actually wants.</p>
+        <p class="body-2"><b>The test:</b> a stranger, at 3.0 seconds, can say out loud what you do and why you are different. If they cannot, the hero has failed regardless of how it looks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ VISUAL IDENTITY ══════════ -->
+<section id="identity">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Visual identity</p>
+      <h2>Keep the plaster. Deepen the shadow. Retire the tan.</h2>
+      <p class="lede">This is an evolution, not a teardown &mdash; your system is genuinely good and the cream ground is the best thing in it. Three changes, each with a reason you can verify. The concept is Cycladic noon: blinding lime plaster against a near-black doorway, one warm metal, almost no middle tones. It is the light Keith actually works in.</p>
+    </div>
+
+    <h4 class="mini">Change one &mdash; the accent fails, measurably</h4>
+    <p class="read body-2" style="margin-bottom:1.4rem;">I ran WCAG contrast on your live tokens. Tan is not a stylistic preference problem; it is unreadable as text on your own page background, and you use it that way for eyebrows and section numbers.</p>
+    <div class="tw" style="margin-bottom:2.5rem;">
+      <table>
+        <thead><tr><th>Pair in your CSS</th><th>Ratio</th><th>Verdict</th><th>Where it is used</th></tr></thead>
+        <tbody>
+          <tr><td><b>Tan</b> #C9B997 on cream #F5F1E9</td><td class="num">1.71:1</td><td><span class="pill bad">Fails</span></td><td>Gold accents on the cream ground</td></tr>
+          <tr><td><b>Tan Deep</b> #B7A37C on cream</td><td class="num">2.18:1</td><td><span class="pill bad">Fails</span></td><td><span class="stamp">.eyebrow.gold</span>, <span class="stamp">.sec-head .num</span></td></tr>
+          <tr><td>Charcoal #3C3C38 on cream</td><td class="num">9.83:1</td><td><span class="pill good">AAA</span></td><td>Body copy &mdash; keep exactly as is</td></tr>
+          <tr><td>Gold #C9B997 on navy #1C2436</td><td class="num">8.02:1</td><td><span class="pill good">AAA</span></td><td>Magazine theme &mdash; tan only works on dark</td></tr>
+          <tr><td><b>Brass</b> #836229 on plaster #F2EFE6</td><td class="num">4.88:1</td><td><span class="pill good">AA</span></td><td>Proposed &mdash; accent on light</td></tr>
+          <tr><td><b>Brass Lit</b> #BE975A on shadow #161712</td><td class="num">6.66:1</td><td><span class="pill good">AA</span></td><td>Proposed &mdash; accent on dark</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g4" style="margin-bottom:2.5rem;">
+      <div class="sw"><div class="chip" style="background:#F2EFE6;"></div><div class="m"><span class="nm">Plaster</span><span class="hx">#F2EFE6</span><span class="us">Page ground. Your cream, warmed a half-step.</span></div></div>
+      <div class="sw"><div class="chip" style="background:#161712;"></div><div class="m"><span class="nm">Shadow</span><span class="hx">#161712</span><span class="us">Text and full-bleed bands. Olive-black, never pure.</span></div></div>
+      <div class="sw"><div class="chip" style="background:#836229;"></div><div class="m"><span class="nm">Brass</span><span class="hx">#836229</span><span class="us">Accent on plaster. Replaces tan.</span></div></div>
+      <div class="sw"><div class="chip" style="background:#BE975A;"></div><div class="m"><span class="nm">Brass Lit</span><span class="hx">#BE975A</span><span class="us">Accent on shadow. The magazine gold, corrected.</span></div></div>
+      <div class="sw"><div class="chip" style="background:#65665C;"></div><div class="m"><span class="nm">Ash</span><span class="hx">#65665C</span><span class="us">Secondary text. Grey pulled toward olive.</span></div></div>
+      <div class="sw"><div class="chip" style="background:#4A5040;"></div><div class="m"><span class="nm">Olive</span><span class="hx">#4A5040</span><span class="us">Structural only. Buttons, focus, rules.</span></div></div>
+      <div class="sw"><div class="chip" style="background:#E9E5DA;"></div><div class="m"><span class="nm">Plaster Deep</span><span class="hx">#E9E5DA</span><span class="us">Recessed panels, table headers.</span></div></div>
+      <div class="sw"><div class="chip" style="background:#FBFAF6;"></div><div class="m"><span class="nm">Lime</span><span class="hx">#FBFAF6</span><span class="us">Cards and inputs. Lifts off plaster.</span></div></div>
+    </div>
+
+    <div class="callout" style="margin-bottom:2.5rem;">
+      <p>The navy magazine theme goes away. Not because navy is wrong, but because two grounds means two brands. Shadow does everything navy did, and it lets a Collections spread sit inside the main site without a seam.</p>
+    </div>
+
+    <h4 class="mini">Change two &mdash; four typefaces become three, with one doing real work</h4>
+    <div style="margin-bottom:2.5rem;">
+      <div class="spec">
+        <p class="role"><b>Bodoni Moda</b>Display &middot; variable optical size &middot; 400/500<br>replaces Playfair + Cinzel + Cormorant</p>
+        <p class="sp-display">Better rooms. <i>Better trips.</i></p>
+      </div>
+      <div class="spec">
+        <p class="role"><b>Jost</b>Body &amp; interface &middot; 300/400/500<br>retained &mdash; the strongest piece of your stack</p>
+        <p class="sp-body">Thoughtfully curated European itineraries, honeymoons and luxury escapes. Set at 300 for an airy editorial read, exactly as your current system specifies. There was never anything wrong with this choice.</p>
+      </div>
+      <div class="spec">
+        <p class="role"><b>Courier Prime</b>Verification stamps only &middot; 400/700<br>new &mdash; the evidence voice</p>
+        <p class="sp-stamp">Stayed &middot; Gundari, Folegandros &middot; 06.2025</p>
+      </div>
+      <p class="body-2 read" style="margin-top:1.6rem;">Bodoni earns the swap conceptually, not just aesthetically: its extreme thick-to-thin stroke contrast is the same contrast the whole identity is built on. Playfair is the most-used serif on the web and reads as a default; Bodoni reads as a decision. Restrict it to display sizes &mdash; it is fragile below about 20px.</p>
+      <p class="body-2 read" style="margin-top:.8rem;">The typewriter face is not decoration. Firsthand verification is the entire brand thesis, so it gets its own voice, used <em>only</em> for dated evidence. The moment it appears on a marketing headline it stops meaning anything.</p>
+    </div>
+
+    <h4 class="mini">Change three &mdash; the photography rule that saves money</h4>
+    <div class="grid g2">
+      <div class="stack">
+        <p class="body-2"><b>Stop showing the hotel&rsquo;s photographs.</b> They are shot by a crew with a budget you cannot match, they appear identically on Booking, Amex and the property&rsquo;s own site, and they prove nothing about you.</p>
+        <p class="body-2"><b>Show your frames instead.</b> The unmade bed at 7am. The breakfast tray. The key on the console. A corridor at 6pm. Interiors, not vistas. Evidence photography, not brochure photography.</p>
+      </div>
+      <div class="stack">
+        <p class="body-2">This is strategically stronger <em>and</em> cheaper. An imperfect photograph that could only have been taken by someone standing in the room outperforms a flawless one that could have come from anywhere &mdash; because the imperfection is the proof.</p>
+        <p class="body-2"><b>Grid:</b> 1180px container, 12 columns, 40px gutters. Sharp corners throughout &mdash; radius 2px on inputs only. Section rhythm 96px desktop, 56px mobile. All retained from your current system.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ PAGE STRUCTURE ══════════ -->
+<section id="structure" class="band">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Page structure</p>
+      <h2>Seven templates cover 193 pages</h2>
+      <p class="lede">Your navigation currently offers Services, The Collections, Destination Guides, Keith&rsquo;s Rankings and About. It is reasonable, but it hides the asset: 123 hotel records sit behind &ldquo;Destination Guides&rdquo; with no way to search, filter or sort them. Promoting that to a first-class product is the highest-leverage structural change on this list.</p>
+    </div>
+
+    <div class="tw" style="margin-bottom:2.5rem;">
+      <table>
+        <thead><tr><th>Template</th><th>Count</th><th>Job</th><th>Serves</th></tr></thead>
+        <tbody>
+          <tr><td><b>Home</b></td><td class="num">1</td><td>Win three seconds, then prove the claim.</td><td>All four</td></tr>
+          <tr><td><b>The Index</b> <span class="pill warn">new</span></td><td class="num">1</td><td>Filter and sort all 123 hotels. Destination, price, occasion, and a <em>Keith stayed here</em> toggle.</td><td>Skeptic, Habitual</td></tr>
+          <tr><td><b>Hotel Record</b></td><td class="num">123</td><td>One property. Verdict first, then the stamp, then who it is wrong for.</td><td>Honeymooners</td></tr>
+          <tr><td><b>Head-to-head</b> <span class="pill warn">promote</span></td><td class="num">1 &rarr; 40</td><td>X or Y, answered. Your only format competitors cannot copy.</td><td>Honeymooners, Skeptic</td></tr>
+          <tr><td><b>Collection</b></td><td class="num">1 &rarr; 3</td><td>The magazine, rendered natively. No Issuu.</td><td>Honeymooners</td></tr>
+          <tr><td><b>Guide</b></td><td class="num">~45</td><td>Long-form island and region editorial. SEO surface.</td><td>Top of funnel</td></tr>
+          <tr><td><b>Proposal</b></td><td class="num">10+</td><td>Private, per-client, unlisted. Already excellent &mdash; leave it alone.</td><td>Closing</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2">
+      <div class="stack">
+        <h4 class="mini">Proposed navigation</h4>
+        <p class="body-2"><b>The Index</b> &mdash; every hotel, filterable. The new front door.</p>
+        <p class="body-2"><b>The Collections</b> &mdash; the magazine. Flagship, unchanged in status.</p>
+        <p class="body-2"><b>Rankings</b> &mdash; opinion, stated plainly. The trust engine.</p>
+        <p class="body-2"><b>Guides</b> &mdash; destination long-form, absorbing the current Destination Guides.</p>
+        <p class="body-2"><b>About</b> &mdash; and Services folds into it. Nobody browses a services menu; they want to know who you are and what it costs.</p>
+        <p class="body-2"><b>Persistent:</b> a single always-visible <em>Tell me where you&rsquo;re going</em>.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">The hotel record, inverted</h4>
+        <p class="body-2">Today a hotel page reads like a brochure. Invert it so the first thing on screen is the only thing a competitor cannot publish:</p>
+        <p class="body-2"><b>1.</b> The verdict, in one sentence. <b>2.</b> The stamp &mdash; stayed or toured, and when. <b>3.</b> Who it is <em>wrong</em> for. <b>4.</b> The room to book, by name. <b>5.</b> Your photographs. <b>6.</b> The perks. <b>7.</b> Inquire.</p>
+        <p class="body-2">Point three is the one that converts. Telling a couple that Cosme is wrong for them is the most persuasive thing on the page, and no hotel site will ever say it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SCROLL STORY ══════════ -->
+<section id="scroll">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Scroll story &middot; home</p>
+      <h2>Each screen kills exactly one objection</h2>
+      <p class="lede">A luxury homepage is not a list of sections; it is an argument in order. The visitor arrives with a stack of unspoken objections, and the page is only as long as it takes to answer them. Depths are approximate viewport heights.</p>
+    </div>
+
+    <div class="story">
+      <div class="frame">
+        <span class="depth">0 &ndash; 100vh</span>
+        <span class="what">The claim<small>Hero</small></span>
+        <span class="why">The three-second sequence. <em>Objection killed: &ldquo;who is this and why should I care?&rdquo;</em> One photograph, one number, one stamp, one sentence-shaped action.</span>
+      </div>
+      <div class="frame">
+        <span class="depth">100 &ndash; 175vh</span>
+        <span class="what">The evidence<small>Counted, dated</small></span>
+        <span class="why">123 hotels, 38 in the Cyclades, eight islands, four weeks. Rendered as a ledger, not as marketing tiles. <em>Objection killed: &ldquo;everyone claims expertise.&rdquo;</em></span>
+      </div>
+      <div class="frame">
+        <span class="depth">175 &ndash; 250vh</span>
+        <span class="what">The judgment<small>Live head-to-head</small></span>
+        <span class="why">A real comparison, on the homepage, answered. Cosme or Parilio. <em>Objection killed: &ldquo;will they just sell me the most expensive one?&rdquo;</em> This is the section your competitors structurally cannot build.</span>
+      </div>
+      <div class="frame">
+        <span class="depth">250 &ndash; 320vh</span>
+        <span class="what">The advocacy<small>One story, in full</small></span>
+        <span class="why">The Saint-Tropez rescue, told end to end &mdash; not sliced into a carousel. It has a complete narrative arc: crisis, intervention, greeted by name, upgrade. <em>Objection killed: &ldquo;what do I actually get that Amex doesn&rsquo;t give me?&rdquo;</em></span>
+      </div>
+      <div class="frame">
+        <span class="depth">320 &ndash; 400vh</span>
+        <span class="what">The Collection<small>Full-bleed shadow band</small></span>
+        <span class="why">The magazine, natively rendered, with a real spread on screen. The ground goes dark here &mdash; the only tonal shift on the page, so it registers as arrival. <em>Objection killed: &ldquo;is this person serious?&rdquo;</em></span>
+      </div>
+      <div class="frame">
+        <span class="depth">400 &ndash; 470vh</span>
+        <span class="what">The range<small>Beyond Greece</small></span>
+        <span class="why">Maldives, Como, Paris, Napa. Deliberately after the Collection, so depth is established before breadth. <em>Objection killed: &ldquo;is this only a Greece person?&rdquo;</em></span>
+      </div>
+      <div class="frame">
+        <span class="depth">470 &ndash; 540vh</span>
+        <span class="what">The ask<small>Inquiry</small></span>
+        <span class="why">Dates first, because dates are the triage. Then destination, then occasion. Budget last and optional &mdash; asking early reads as qualification and costs you the Honeymooners.</span>
+      </div>
+    </div>
+
+    <hr class="rule" style="margin:2.5rem 0;">
+    <p class="read body-2">Nothing below 540vh. If the argument is not won in seven screens it will not be won in twelve, and every additional section dilutes the ones that work. Cut the preferred-partner logo wall or move it to About; a logo grid says <em>I am accredited</em>, which the visitor assumes, while costing you a screen that could have said something only you can say.</p>
+  </div>
+</section>
+
+<!-- ══════════ MOTION ══════════ -->
+<section id="motion">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Motion system</p>
+      <h2>Four behaviours. Everything else is banned.</h2>
+      <p class="lede">Across all 193 pages you currently have three keyframe animations and three intersection observers &mdash; essentially no motion at all. That is a better starting point than the opposite problem, because restraint is the hard part and you have not spent anything yet. You also already honour <span class="stamp">prefers-reduced-motion</span> in 32 places, which is real discipline worth preserving.</p>
+    </div>
+
+    <div class="mo" style="margin-bottom:1.4rem;">
+      <div class="mo-row"><span class="nm">Reveal on enter</span><span class="ds">Opacity 0&rarr;1 with an 8px rise. Fires once, never re-triggers on scroll back. Stagger siblings by 60ms, capped at five.</span><span class="vl">520ms &middot; ease-out &middot; IO threshold .15</span></div>
+      <div class="mo-row"><span class="nm">Hover lift</span><span class="ds">Cards and hotel records only. 2px rise plus shadow. Never on text links &mdash; those get an underline offset shift.</span><span class="vl">180ms &middot; translateY(-2px)</span></div>
+      <div class="mo-row"><span class="nm">Hero drift</span><span class="ds">A single slow scale on the hero photograph. Barely perceptible; if a viewer notices it, it is too fast.</span><span class="vl">20s &middot; scale 1&rarr;1.04 &middot; linear</span></div>
+      <div class="mo-row"><span class="nm">Stamp draw</span><span class="ds">The verification mark draws its border and fades its text in. The one signature moment, reserved for the brand&rsquo;s core claim.</span><span class="vl">280ms border &middot; 180ms text</span></div>
+    </div>
+
+    <div class="grid g2">
+      <div class="stack">
+        <h4 class="mini">Tokens</h4>
+        <p class="body-2"><span class="stamp">--dur-1: 180ms</span> &mdash; state changes, hovers, focus.<br><span class="stamp">--dur-2: 280ms</span> &mdash; disclosure, filters, menu.<br><span class="stamp">--dur-3: 520ms</span> &mdash; entrances only.<br><span class="stamp">--ease: cubic-bezier(.2,.6,.2,1)</span> &mdash; one curve for everything. A decelerating curve reads as weight, and weight reads as expensive.</p>
+        <p class="body-2"><b>Budget:</b> one orchestrated moment per page, everything else micro. On the homepage that moment is the hero sequence. On a hotel record it is the stamp.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">Banned outright</h4>
+        <div class="banned">
+          <span>Parallax layers</span><span>Scroll-jacking</span><span>Counters that count up</span>
+          <span>Text scramble</span><span>Autoplay video</span><span>Carousels</span>
+          <span>Reveal-on-every-element</span><span>Cursor followers</span><span>Page transitions</span>
+        </div>
+        <p class="body-2" style="margin-top:1.2rem;">Each of these reads as a template a competitor also bought. Under reduced-motion every behaviour above collapses to opacity-only or nothing at all &mdash; and the page must still be complete, because a meaningful share of your audience travels with that setting on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TECHNOLOGY ══════════ -->
+<section id="technology" class="band">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Technology</p>
+      <h2>Your architecture is right. Your build step is missing.</h2>
+      <p class="lede">The temptation with a redesign is a rewrite into React. Do not. This is a content site with almost no application logic, it is free to host, and 193 pages of hand-tuned HTML is a genuine asset. The problem is not that the site is static &mdash; it is that nothing stands between you and the HTML, so every image ships unoptimised and every page repeats itself.</p>
+    </div>
+
+    <h4 class="mini" style="color:var(--band-ink-2)">What the audit found</h4>
+    <div class="metrics" style="margin-bottom:2rem;">
+      <div class="metric"><span class="v warn">7 / 768</span><span class="k">Images with lazy loading</span></div>
+      <div class="metric"><span class="v warn">0 / 768</span><span class="k">Images with width &amp; height &mdash; every one a layout shift</span></div>
+      <div class="metric"><span class="v warn">13.5 MB</span><span class="k">athens-excursions.html &mdash; one 13.4MB line of base64 WebP</span></div>
+      <div class="metric"><span class="v warn">103 MB</span><span class="k">images/ &mdash; 232 JPG, 26 PNG, only 3 AVIF</span></div>
+    </div>
+
+    <div class="tw" style="margin-bottom:2.5rem;">
+      <table>
+        <thead><tr><th>Layer</th><th>Today</th><th>Proposed</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td><b>Generator</b></td><td>None. Hand-authored HTML.</td><td><b>Astro</b></td><td>Ships zero JS by default, islands for the two interactive pieces, content collections that map exactly onto 123 hotel records. Eleventy is a fine second choice.</td></tr>
+          <tr><td><b>Content</b></td><td><span class="stamp">tools/hotel_data_batch_*.py</span></td><td>Markdown + frontmatter, one file per hotel</td><td>Your Python generator is already 90% of a static site generator. Formalise it into typed content and the Index becomes a query, not a rebuild.</td></tr>
+          <tr><td><b>Images</b></td><td>232 JPG, 4.3MB PNG photographs</td><td>Astro <span class="stamp">&lt;Image&gt;</span> &rarr; AVIF + WebP, srcset, intrinsic dimensions</td><td>Fixes all three audit failures in one move. Expect 103MB to fall under 15MB.</td></tr>
+          <tr><td><b>Hero</b></td><td>Inline <span class="stamp">style="background-image"</span></td><td><span class="stamp">&lt;img fetchpriority="high"&gt;</span> + preload</td><td>A CSS background is invisible to the preload scanner. This alone is the largest LCP win available and it is a one-line change.</td></tr>
+          <tr><td><b>Magazine</b></td><td>Issuu iframe</td><td>Native spreads</td><td>Recovers the SEO, the load time, the brand chrome and deep links into individual spreads.</td></tr>
+          <tr><td><b>Fonts</b></td><td>4 families, Google-hosted</td><td>3 families, self-hosted &amp; subset</td><td>Removes a third-party round trip on the critical path.</td></tr>
+          <tr><td><b>Hosting</b></td><td>GitHub Pages + CNAME</td><td>Unchanged, or Cloudflare Pages</td><td>Working, free, fast. No reason to touch it.</td></tr>
+          <tr><td><b>Analytics</b></td><td>GA4 + beehiiv</td><td>Unchanged</td><td>Keep both. Style the beehiiv embed to the tokens rather than replacing it.</td></tr>
+          <tr><td><b>Schema</b></td><td>None found</td><td>Hotel, Review, TravelAgency JSON-LD</td><td>123 hotel pages with structured data is a substantial organic surface you are currently leaving unclaimed.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2">
+      <div class="stack">
+        <h4 class="mini" style="color:var(--band-ink-2)">Performance budget</h4>
+        <p class="body-2">LCP under 1.5s on 4G &middot; CLS under 0.05 &middot; JS under 40KB compressed &middot; hero image under 180KB AVIF &middot; total page weight under 900KB &middot; Lighthouse 95+ on all four.</p>
+        <p class="body-2">Enforce it in CI. A budget nobody checks is a wish.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini" style="color:var(--band-ink-2)">The migration is incremental</h4>
+        <p class="body-2">Astro can emit into the existing directory structure, so migrated pages and untouched legacy HTML coexist on the same domain throughout. There is never a cutover weekend, never a moment where the site is half-broken, and any phase can ship on its own.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ BUILD ORDER ══════════ -->
+<section id="build">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Build order</p>
+      <h2>Triage first. Design second.</h2>
+      <p class="lede">This is the one genuinely sequential part of the blueprint, so it is the only part numbered. Phase 0 is deliberately not design work &mdash; it is a week of measurable wins that depend on none of the decisions above, which means it can start tomorrow while the identity is still being argued about. Every phase ships to production.</p>
+    </div>
+
+    <div class="phase">
+      <span class="no">0</span>
+      <div>
+        <p class="hd">Stop the bleeding</p>
+        <p class="body-2">No design decisions required. Pure remediation of what the audit found, scriptable in an afternoon each.</p>
+        <ul>
+          <li><b>Extract the base64 blobs</b> from the three excursion pages. Athens is 13.5MB and Santorini 12.9MB &mdash; both are effectively unusable on cellular.</li>
+          <li><b>Batch-convert and resize</b> all 258 raster images to AVIF with WebP fallback. The 4.3MB PNG photographs are the worst offenders.</li>
+          <li><b>Add width, height and lazy loading</b> to all 768 image tags with a script.</li>
+          <li><b>Change two hex values</b> to fix the tan contrast failure. One-line commit, real accessibility win.</li>
+          <li><b>Preload the hero</b> and move it out of a CSS background.</li>
+        </ul>
+      </div>
+      <div class="ship"><span class="k">Ships</span><span class="v"><b>Week 1.</b> Measurably faster site, no visual change, nothing to approve.</span></div>
+    </div>
+
+    <div class="phase">
+      <span class="no">1</span>
+      <div>
+        <p class="hd">Foundations</p>
+        <p class="body-2">Astro shell, design tokens, the three typefaces, and the seven templates as real components. Migrate ten representative pages &mdash; home, one hotel, one guide, one comparison, About &mdash; and prove the coexistence works.</p>
+      </div>
+      <div class="ship"><span class="k">Ships</span><span class="v"><b>Weeks 2&ndash;3.</b> Ten pages on the new system, 183 untouched and still live.</span></div>
+    </div>
+
+    <div class="phase">
+      <span class="no">2</span>
+      <div>
+        <p class="hd">The Index</p>
+        <p class="body-2">Convert the Python hotel data into content collections and build the filterable index. Filters: destination, occasion, price band, and the <em>Keith stayed here</em> toggle. One small interactive island; everything else static.</p>
+        <p class="body-2"><b>Do this before the homepage.</b> It is the single highest-leverage new thing on the site, it is the thing no competitor has, and the homepage should be designed around a product that already exists rather than one that is promised.</p>
+      </div>
+      <div class="ship"><span class="k">Ships</span><span class="v"><b>Weeks 4&ndash;5.</b> All 123 hotels searchable. The new front door.</span></div>
+    </div>
+
+    <div class="phase">
+      <span class="no">3</span>
+      <div>
+        <p class="hd">The homepage</p>
+        <p class="body-2">The three-second sequence and all seven scroll frames. Built last among the core pages because by now the Index, the templates and the photography rule all exist to link into &mdash; the hero can point at something real.</p>
+      </div>
+      <div class="ship"><span class="k">Ships</span><span class="v"><b>Week 6.</b> The new front page. First measurable conversion change.</span></div>
+    </div>
+
+    <div class="phase">
+      <span class="no">4</span>
+      <div>
+        <p class="hd">The Collections, natively</p>
+        <p class="body-2">Rebuild Issue No. 01 out of the Issuu iframe as real spreads on the shadow ground. Time this with Issue No. 02 so the new format launches with new content rather than as a re-release.</p>
+      </div>
+      <div class="ship"><span class="k">Ships</span><span class="v"><b>Weeks 7&ndash;8.</b> The flagship, indexed by Google for the first time.</span></div>
+    </div>
+
+    <div class="phase">
+      <span class="no">5</span>
+      <div>
+        <p class="hd">The comparison engine</p>
+        <p class="body-2">Promote head-to-head from one orphan page to a generated page type. Any two hotels in the same destination can produce a comparison from data already in the collection. Target forty. This is the competitive weapon and the strongest organic surface on the site.</p>
+      </div>
+      <div class="ship"><span class="k">Ships</span><span class="v"><b>Week 9.</b> Forty pages no competitor can answer.</span></div>
+    </div>
+
+    <div class="phase">
+      <span class="no">6</span>
+      <div>
+        <p class="hd">Conversion &amp; the private surface</p>
+        <p class="body-2">The persistent inquiry affordance, the dates-first triage routing, and a private returning-client surface for the Habitual segment. Fold Services into About. Retire the logo wall.</p>
+      </div>
+      <div class="ship"><span class="k">Ships</span><span class="v"><b>Week 10.</b> The Rescue and the Habitual finally served.</span></div>
+    </div>
+
+    <div class="phase">
+      <span class="no">7</span>
+      <div>
+        <p class="hd">Migrate the tail, then measure</p>
+        <p class="body-2">Move the remaining guides onto the templates, add JSON-LD across all 123 records, wire the performance budget into CI. Then watch three numbers and nothing else: inquiries per thousand sessions, Index-to-inquiry rate, and share of inquiries naming a specific hotel &mdash; the last one tells you whether the judgment is landing.</p>
+      </div>
+      <div class="ship"><span class="k">Ships</span><span class="v"><b>Ongoing.</b> Full migration and a feedback loop.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ OPEN QUESTIONS ══════════ -->
+<section id="open">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Before Phase 1</p>
+      <h2>Four things I assumed</h2>
+      <p class="lede">Everything above is grounded in what is actually in the repository. These four are not, and each would change the work.</p>
+    </div>
+    <div class="grid g2">
+      <div class="card"><p class="tag">Highest impact</p><h3 class="sub">The competitor list is inferred</h3><p>I built the three tiers from your FAQ, which names Amex FHR and Chase directly. You asked about competitors you want to outperform &mdash; if you have specific advisors or brands in mind, that changes the positioning section and possibly the visual bar.</p></div>
+      <div class="card"><p class="tag">Strategic</p><h3 class="sub">Is the retainer the priority?</h3><p>It is your highest-margin product and it is currently one paragraph on the Services page, by invitation. If it is the growth engine, the Habitual segment moves from Phase 6 to Phase 2 and the whole IA shifts.</p></div>
+      <div class="card"><p class="tag">Blocking for identity</p><h3 class="sub">Photography rights</h3><p>The recommendation to lead with your own frames assumes hotel-supplied imagery is licensed to you with restrictions. If you have broad rights and a large personal library, the rule stands anyway on strategy &mdash; but the transition is much cheaper.</p></div>
+      <div class="card"><p class="tag">Scheduling</p><h3 class="sub">Issue No. 02 timing</h3><p>Phase 4 is written to land with the next Collection. If that date is fixed and close, Phase 4 moves ahead of Phase 3 and the homepage waits.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="col">
+    <p>Plaster &amp; Shadow &middot; Website blueprint for Suites With Keith &middot; Grounded in an audit of 193 pages, 123 hotel records and the live design system</p>
+  </div>
+</footer>
+
+</main>
+
+<script>
+(function(){
+  var btn = document.getElementById('play');
+  if(!btn) return;
+  var beats = Array.prototype.slice.call(document.querySelectorAll('.beat'));
+  var ticks = Array.prototype.slice.call(document.querySelectorAll('.tick'));
+  var timers = [];
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  var SCHEDULE = [0, 600, 1400, 2200];
+
+  function clearAll(){
+    timers.forEach(clearTimeout);
+    timers = [];
+  }
+  function setState(i, on){
+    beats.forEach(function(b){ if(+b.dataset.beat === i) b.classList.toggle('on', on); });
+    ticks.forEach(function(t){ if(+t.dataset.beat === i) t.classList.toggle('on', on); });
+  }
+  function showAll(){
+    clearAll();
+    for(var i=0;i<4;i++) setState(i, true);
+  }
+  function reset(){
+    clearAll();
+    for(var i=0;i<4;i++) setState(i, false);
+  }
+  function play(){
+    if(reduce.matches){ showAll(); return; }
+    reset();
+    btn.disabled = true;
+    btn.textContent = 'Playing…';
+    SCHEDULE.forEach(function(ms, i){
+      timers.push(setTimeout(function(){ setState(i, true); }, ms));
+    });
+    timers.push(setTimeout(function(){
+      btn.disabled = false;
+      btn.textContent = 'Replay 3s ▶';
+    }, 3000));
+  }
+
+  btn.addEventListener('click', play);
+
+  if(reduce.matches){
+    showAll();
+    btn.textContent = 'Show sequence';
+  } else {
+    // Play once when the demo first scrolls into view.
+    var stage = document.querySelector('.demo');
+    if('IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+          if(e.isIntersecting){ play(); io.disconnect(); }
+        });
+      }, {threshold:0.4});
+      io.observe(stage);
+    } else {
+      showAll();
+    }
+  }
+})();
+</script>
