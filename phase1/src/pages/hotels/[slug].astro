@@ -1,0 +1,137 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import hotels from '../../data/hotels.json';
+
+export function getStaticPaths() {
+  return hotels
+    .filter((h) => h.slug !== 'cosme-paros') /* bespoke page stays */
+    .map((h) => ({ params: { slug: h.slug }, props: { h } }));
+}
+const { h } = Astro.props;
+const heroSrc = `/images/${h.img_dir}/${h.hero_img}`;
+const img2Src = `/images/${h.img_dir}/${h.img2}`;
+const statLine = [h.stat1_num ? `${h.stat1_num} ${h.stat1_label}` : '', `${h.stat2_num} ${h.stat2_label}`]
+  .filter(Boolean).join(' · ');
+---
+<Layout
+  canonical={`hotels/${h.slug}.html`}
+  title={`${h.plain_name} Review — ${h.locale} | Suites With Keith`}
+  description={h.meta_desc}
+  preload={heroSrc}
+>
+
+<header class="hero" style="min-height:min(72svh,680px);">
+  <img class="hero-img" src={heroSrc} alt={`${h.plain_name}, ${h.island}`} fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Hotel record &middot; <Fragment set:html={h.locale} /></p>
+    <h1 class="display-xl" set:html={h.name} />
+    <p class="stamp" style="margin-top:20px;" set:html={statLine} />
+  </div>
+</header>
+
+<!-- the verdict, first -->
+<section class="section">
+  <div class="container">
+    <div class="verdict reveal">
+      <p set:html={h.verdict} />
+    </div>
+    <dl class="kv reveal" style="margin-top:48px;">
+      <div class="kv-row"><dt set:html={h.region_label} /><dd set:html={h.region_html} /></div>
+      <div class="kv-row"><dt>Style</dt><dd set:html={h.style_label} /></div>
+      <div class="kv-row"><dt>Perfect for</dt><dd set:html={h.perfect_for} /></div>
+      {h.rank_text && (
+        <div class="kv-row"><dt>My ranking</dt><dd><a href={`/${h.rank_href}`} style="color:var(--brass);" set:html={h.rank_text} /></a></dd></div>
+      )}
+    </dl>
+  </div>
+</section>
+
+<!-- the review -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The review</span>
+      <h2 class="display-l" set:html={h.tagline} style="max-width:24ch;" />
+    </div>
+    <div class="reveal" style="max-width:62ch;">
+      {h.intro.map((p) => <p style="margin-bottom:16px;" set:html={p} />)}
+    </div>
+    <div class="photos reveal" style="margin-top:44px;">
+      <figure><img src={heroSrc} alt={`${h.plain_name}, ${h.island}`} width="1600" height="1067" loading="lazy" decoding="async" /></figure>
+      {h.img2 !== h.hero_img && (
+        <figure><img src={img2Src} alt={`${h.plain_name}, ${h.island}`} width="1600" height="1067" loading="lazy" decoding="async" /></figure>
+      )}
+    </div>
+  </div>
+</section>
+
+<!-- what stood out -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">What stood out</span>
+      <h2 class="display-l">The details that made the list</h2>
+    </div>
+    <dl class="kv reveal">
+      {h.stood_out.map((n, i) => (
+        <div class="kv-row"><dt>{String(i + 1).padStart(2, '0')}</dt><dd><b set:html={n.b} /> <span class="body-2" set:html={n.t} /></dd></div>
+      ))}
+    </dl>
+  </div>
+</section>
+
+<!-- know before you book -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Know before you book</span>
+      <h2 class="display-l" set:html={h.know_heading} />
+    </div>
+    <dl class="kv reveal">
+      {h.know.map((n, i) => (
+        <div class="kv-row"><dt>{String(i + 1).padStart(2, '0')}</dt><dd><b set:html={n.b} /> <span class="body-2" set:html={n.t} /></dd></div>
+      ))}
+    </dl>
+  </div>
+</section>
+
+<!-- perks -->
+<section class="section band on-shadow">
+  <div class="container" style="max-width:820px; text-align:center;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Book <Fragment set:html={h.short_name} /> through me</span>
+    <h2 class="display-l reveal">Same rate &mdash; sometimes better.<br>Never the same welcome.</h2>
+    <p class="body-2 reveal" style="margin:22px auto 0; max-width:52ch;" set:html={h.perks_html} />
+  </div>
+</section>
+
+<!-- the ask -->
+<section class="section inquire" id="inquire">
+  <div class="container">
+    <h2 class="display-l reveal">When are you thinking?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;" set:html={h.cta_line} />
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value={`${h.plain_name} Inquiry`} />
+      <input type="hidden" name="hotel" value={`${h.plain_name}, ${h.island}`} />
+      <input type="hidden" name="page" value={`hotels/${h.slug}`} />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when">When are you thinking?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="Late June, 5 nights" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name">And where do I send the recommendation?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+      </div>
+      <button type="submit" class="btn" data-gtag-label="hotel_inquiry_send" data-gtag-location="hotel_cta">Send</button>
+      <p class="note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+    <p class="reveal" style="margin-top:34px;">
+      <a href={`/${h.island_page}`} style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none; margin-right:22px;"><Fragment set:html={h.cta_island_text} /> &rarr;</a>
+      <a href={`/${h.cta2_href}`} style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;"><Fragment set:html={h.cta2_text} /> &rarr;</a>
+    </p>
+  </div>
+</section>
+
+</Layout>

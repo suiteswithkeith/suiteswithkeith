@@ -130,7 +130,7 @@ HOTELS = [
     dict(
         slug="bawah-reserve-indonesia", name="Bawah Reserve", short_name="Bawah",
         island="Indonesia", island_page="top-hotel-tennis-courts.html",
-        locale="Anambas Islands, Indonesia", img_dir="tennis", hero_img="bawah-reserve.png",
+        locale="Anambas Islands, Indonesia", img_dir="tennis", hero_img="bawah-reserve.jpg",
         region_label="Region", region_html="Anambas Islands, Indonesia",
         mailto_prep="in",
         stat1_num="#09", stat1_label="In My Hotel Tennis Ranking",
@@ -163,7 +163,7 @@ HOTELS = [
     dict(
         slug="mauna-kea-beach-hotel-hawaii", name="Mauna Kea Beach Hotel", short_name="Mauna Kea",
         island="Big Island", island_page="top-hotel-tennis-courts.html",
-        locale="Kohala Coast, Hawaii", img_dir="tennis", hero_img="mauna-kea.png",
+        locale="Kohala Coast, Hawaii", img_dir="tennis", hero_img="mauna-kea.jpg",
         region_label="Region", region_html="Kohala Coast, Big Island, Hawaii",
         mailto_prep="on the",
         stat1_num="#11", stat1_label="In My Hotel Tennis Ranking",
@@ -264,7 +264,7 @@ HOTELS = [
     dict(
         slug="four-seasons-hualalai-hawaii", name="Four Seasons Resort Hualalai", short_name="Hualalai",
         island="Big Island", island_page="the-fifteen.html",
-        locale="Kailua-Kona, Hawaii", img_dir="tennis", hero_img="mauna-kea.png",
+        locale="Kailua-Kona, Hawaii", img_dir="tennis", hero_img="mauna-kea.jpg",
         region_label="Region", region_html="Kona-Kohala Coast, Big Island, Hawaii",
         mailto_prep="on the",
         stat1_num="#12", stat1_label="On The Fifteen, My Honeymoon List",
@@ -297,7 +297,7 @@ HOTELS = [
     dict(
         slug="four-seasons-lanai-hawaii", name="Four Seasons Resort Lanai", short_name="Lanai",
         island="Lanai", island_page="the-fifteen.html",
-        locale="Lanai, Hawaii", img_dir="tennis", hero_img="mauna-kea.png",
+        locale="Lanai, Hawaii", img_dir="tennis", hero_img="mauna-kea.jpg",
         region_label="Region", region_html="Island of Lanai, Hawaii",
         mailto_prep="on",
         stat1_num="#13", stat1_label="On The Fifteen, My Honeymoon List",
