@@ -42,7 +42,7 @@ const canonicalPath = canonical === 'index.html' ? '' : canonical;
     <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
     <div class="nav-links" id="nav-links">
       <a href="/services.html">Services</a>
-      <a href="/collections.html" data-gtag-label="collections" data-gtag-location="nav">The Collections</a>
+      <a href="/collections.html" data-gtag-label="collections" data-gtag-location="nav" aria-current={current === 'collections' ? 'page' : undefined}>The Collections</a>
       <a href="/destination-guides.html" data-gtag-label="destination_guides" data-gtag-location="nav">Destination Guides</a>
       <a href="/rankings.html" data-gtag-label="keiths_rankings" data-gtag-location="nav">Keith's Rankings</a>
       <a href="/about.html" aria-current={current === 'about' ? 'page' : undefined}>About</a>
