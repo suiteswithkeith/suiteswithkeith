@@ -177,7 +177,8 @@ a { color: inherit; }
 /* ── ledger (evidence, counted not decorated) ── */
 .ledger { display: grid; grid-template-columns: 1fr; gap: 0; border-top: 1px solid var(--band-hairline); }
 .ledger-row {
-  display: grid; grid-template-columns: auto 1fr; align-items: baseline; gap: 24px;
+  /* numerals center on their text block — baseline alignment left big digits dangling mid-paragraph */
+  display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 24px;
   padding: 22px 0; border-bottom: 1px solid var(--band-hairline);
 }
 .ledger-row .n {
