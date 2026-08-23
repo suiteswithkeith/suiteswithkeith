@@ -101,6 +101,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://suiteswithkeith.com/santorini-vs-mykonos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/paros-vs-mykonos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/paros-vs-milos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/milos-vs-sifnos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/napa-vs-sonoma.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://suiteswithkeith.com/sample-itinerary.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

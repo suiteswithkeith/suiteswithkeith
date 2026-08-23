@@ -1223,5 +1223,581 @@
     "label": "Four Seasons or Montage"
    }
   ]
+ },
+ "santorini-vs-mykonos": {
+  "title": "Santorini or Mykonos | Suites With Keith",
+  "description": "The Cyclades' two headliners, compared by an advisor who toured 38 hotels across the islands — which one your trip actually wants, and the hotel calls inside each.",
+  "eyebrow": "Head-to-head &middot; The Cyclades&rsquo; two headliners",
+  "h1_a": "Santorini",
+  "h1_b": "Mykonos?",
+  "deck": "The two islands with real international airports, and the two carrying the biggest reputations in Greece. I worked both on my Cyclades trip &mdash; here&rsquo;s which one your trip actually wants, and the hotel decisions waiting inside whichever you pick.",
+  "stamp": "From my 38-hotel Cyclades trip &middot; the two islands you can fly into from outside Greece",
+  "preload": "/images/islands/santorini-hero.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Santorini",
+    "h3": "If the caldera is the reason you&rsquo;re coming",
+    "lead": "The island that introduced the world to Cycladic luxury. It earns its reputation for two or three nights in a caldera suite &mdash; the cave rooms, the plunge pools, the sunset &mdash; and it&rsquo;s the crescendo of any route: finish here, don&rsquo;t start.",
+    "img": "/images/islands/santorini-hero.jpg",
+    "alt": "The caldera at Santorini",
+    "w": 1200,
+    "h": 1800
+   },
+   {
+    "eyebrow": "Choose Mykonos",
+    "h3": "If you want range &mdash; the loud island and the quiet one",
+    "lead": "I expected a party island and found some of the best hotels, meals and service of my entire trip through the Cyclades. It&rsquo;s genuinely two islands &mdash; and which one you get depends almost entirely on what was booked before you landed.",
+    "img": "/images/islands/mykonos-hero.jpg",
+    "alt": "A protected bay on Mykonos",
+    "w": 1600,
+    "h": 1200
+   }
+  ],
+  "rows": [
+   [
+    "Nights it deserves",
+    "Two or three in a caldera suite &mdash; then move on",
+    "Three days is the right length for most people"
+   ],
+   [
+    "The trap",
+    "The crowds &mdash; by seven the Oia castle is shoulder to shoulder",
+    "It punishes the unplanned &mdash; tables and beach beds go weeks out"
+   ],
+   [
+    "The stay",
+    "Cave suites on the cliff &mdash; Canaves Oia, Andronis Boutique, Epitome",
+    "Real range: Kalesma&rsquo;s design, Bill &amp; Coo&rsquo;s bay, Fouquet&rsquo;s scene, Cali&rsquo;s quiet"
+   ],
+   [
+    "Who it suits",
+    "Honeymoons, first-timers, the classic picture",
+    "Couples and groups both &mdash; beach clubs by day, serious tables at night"
+   ],
+   [
+    "The day",
+    "The caldera cruise, the wineries, the rim walk",
+    "A private boat to Delos, Rhenia or Tinos &mdash; the best day happens off the island"
+   ],
+   [
+    "Route position",
+    "The finale &mdash; ending here frees the best hotels",
+    "The entry point &mdash; fly in, move south through the Cyclades"
+   ]
+  ],
+  "footnote": "You don&rsquo;t actually have to choose: Mykonos 2 &rarr; Paros 3 &rarr; Santorini 3 is the full-arc route on my island pairings page, and the crossings between neighbours run under two hours. What I&rsquo;d push back on is starting on Santorini &mdash; it&rsquo;s the bar the rest of the trip gets measured against, and arriving day one ties you to whichever caldera hotel has space that night.",
+  "verdict": {
+   "h2": "First time, planning around dinner and the view: Santorini — as the finale.",
+   "paras": [
+    "Santorini earns its reputation, and for a first trip built around the classic picture it&rsquo;s the answer &mdash; two or three nights in a caldera suite, booked well ahead, placed at the end of the route so it&rsquo;s the last thing you see rather than the measuring stick.",
+    "But Mykonos was the island that surprised me most &mdash; substance where I expected only scene. If your trip is as much about the beach day, the boat day and the table as the view, it&rsquo;s the stronger base &mdash; provided the bookings are made before you land. And the honest answer for most ten-night trips is both, with Paros in between."
+   ]
+  },
+  "inside": [
+   {
+    "href": "/andronis-boutique-vs-canaves-oia-suites.html",
+    "label": "Andronis Boutique <em>or</em> Canaves Oia Suites",
+    "q": "Santorini&rsquo;s top two &mdash; the cave room or the caldera, perfected."
+   },
+   {
+    "href": "/canaves-oia-suites-vs-canaves-epitome.html",
+    "label": "Canaves Oia Suites <em>or</em> Epitome",
+    "q": "The Caldera or the sunset &mdash; my #01 twice over."
+   },
+   {
+    "href": "/kalesma-vs-cali-mykonos.html",
+    "label": "Kalesma <em>or</em> Cali",
+    "q": "Pick your flavor of Mykonos."
+   },
+   {
+    "href": "/fouquets-vs-bill-and-coo-coast-mykonos.html",
+    "label": "Fouquet&rsquo;s <em>or</em> Bill &amp; Coo Coast",
+    "q": "South-coast energy, or adults-only calm in a protected bay."
+   },
+   {
+    "href": "/santorini.html",
+    "label": "The Santorini guide",
+    "q": "Every hotel worth booking, from the trip.",
+    "cta": "Read it"
+   },
+   {
+    "href": "/mykonos-excursions.html",
+    "label": "The Mykonos guide",
+    "q": "Where I&rsquo;d stay, eat, and spend the beach days.",
+    "cta": "Read it"
+   }
+  ],
+  "subject": "Santorini vs Mykonos Inquiry",
+  "hotel": "Santorini / Mykonos",
+  "placeholder": "June, 8 nights",
+  "related": [
+   {
+    "href": "/greek-island-pairings.html",
+    "label": "My five island pairings"
+   },
+   {
+    "href": "/greek-island-matrix.html",
+    "label": "The Greek Island Matrix"
+   },
+   {
+    "href": "/greek-ferry-rules.html",
+    "label": "The ferry rules"
+   }
+  ]
+ },
+ "paros-vs-mykonos": {
+  "title": "Paros or Mykonos | Suites With Keith",
+  "description": "Keith's honest split between the Cyclades' two lookers — 45 minutes apart by ferry, and very different trips.",
+  "eyebrow": "Head-to-head &middot; 45&ndash;60 minutes apart by ferry",
+  "h1_a": "Paros",
+  "h1_b": "Mykonos?",
+  "deck": "Paros has Mykonos&rsquo;s good looks, better food, and about a third of the attitude &mdash; it&rsquo;s where I send most people first. But Mykonos is the one with the international airport, the beach clubs, and some of the best hotels and meals of my entire Cyclades trip. Forty-five minutes of ferry separate two very different weeks.",
+  "stamp": "Where I send most people first &middot; vs the island that punishes the unplanned",
+  "preload": "/images/islands/paros-hero.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Paros",
+    "h3": "If you plan around dinner",
+    "lead": "Mykonos&rsquo;s good looks, better food, a third of the attitude. Naousa&rsquo;s restaurants on foot, sailing days to Despotiko&rsquo;s empty beaches, and Par&imacr;lio &mdash; my most-booked hotel on the island, where families are genuinely welcome.",
+    "img": "/images/islands/paros-hero.jpg",
+    "alt": "Naousa, Paros",
+    "w": 1200,
+    "h": 1800
+   },
+   {
+    "eyebrow": "Choose Mykonos",
+    "h3": "If the scene is part of the trip",
+    "lead": "Beach clubs as the native art form, tables worth planning a trip around, and hotels from Kalesma&rsquo;s composed design to Fouquet&rsquo;s south-coast energy. Genuinely two islands &mdash; the loud one and the quiet one &mdash; if the bookings are made early.",
+    "img": "/images/islands/mykonos-days.jpg",
+    "alt": "A Mykonos beach day",
+    "w": 1200,
+    "h": 1500
+   }
+  ],
+  "rows": [
+   [
+    "The attitude",
+    "About a third of Mykonos&rsquo;s",
+    "The point, for the right traveler"
+   ],
+   [
+    "Food",
+    "Better &mdash; and Naousa&rsquo;s restaurants are on foot",
+    "Serious tables, reserved weeks out: ZUMA, Kiki&rsquo;s, Scorpios at sunset"
+   ],
+   [
+    "Getting there",
+    "Small airport served mainly from Athens, or ferry",
+    "Real airport &mdash; direct EU flights"
+   ],
+   [
+    "The stay",
+    "Par&imacr;lio (my most-booked on Paros) and Cosme on the Naousa beachfront",
+    "Kalesma, Bill &amp; Coo Coast, Fouquet&rsquo;s, Cali &mdash; four I&rsquo;ve toured in person"
+   ],
+   [
+    "Kids",
+    "Par&imacr;lio has a proper kids&rsquo; program",
+    "Cali on the quiet east side is the family pick; Bill &amp; Coo is 17+"
+   ],
+   [
+    "The day",
+    "A sailing day from Paros to Despotiko &mdash; the day my clients talk about most",
+    "A private boat to Delos and Rhenia, or across to Tinos"
+   ],
+   [
+    "From, in September",
+    "Par&imacr;lio ~$550 &middot; Cosme ~$700",
+    "Kalesma ~$700 &middot; Cali ~$750"
+   ]
+  ],
+  "footnote": "The crossing is 45 to 60 minutes, which is why my full-arc route does both: Mykonos 2 &rarr; Paros 3 &rarr; Santorini 3. Fly into Mykonos, take the energy first, then let Paros slow the trip down. September rates are approximate entry-level starting points from my matrix &mdash; ask me for your dates.",
+  "verdict": {
+   "h2": "Where I send most people first: Paros.",
+   "paras": [
+    "For most couples &mdash; and every family &mdash; Paros is the better week: the food, the walkable evenings, the sailing day, and design hotels that cost meaningfully less than their Mykonos equivalents.",
+    "But if the version of the trip you&rsquo;re picturing has a beach club in it, book Mykonos and book it properly &mdash; the island rewards planning more than any other in Greece, and with the tables and beds held early, it delivers substance the reputation doesn&rsquo;t advertise. Or take the ferry and do both."
+   ]
+  },
+  "inside": [
+   {
+    "href": "/cosme-vs-parilio-paros.html",
+    "label": "Cosme <em>or</em> Par&imacr;lio",
+    "q": "Paros&rsquo; two best hotels, ten minutes apart and nothing alike."
+   },
+   {
+    "href": "/kalesma-vs-cali-mykonos.html",
+    "label": "Kalesma <em>or</em> Cali",
+    "q": "Pick your flavor of Mykonos."
+   },
+   {
+    "href": "/fouquets-vs-bill-and-coo-coast-mykonos.html",
+    "label": "Fouquet&rsquo;s <em>or</em> Bill &amp; Coo Coast",
+    "q": "The scene with a resort behind it, or the protected bay."
+   },
+   {
+    "href": "/paros.html",
+    "label": "The Paros guide",
+    "q": "The island everyone quietly falls in love with.",
+    "cta": "Read it"
+   },
+   {
+    "href": "/mykonos-excursions.html",
+    "label": "The Mykonos guide",
+    "q": "Where I&rsquo;d stay, eat, and spend the beach days.",
+    "cta": "Read it"
+   }
+  ],
+  "subject": "Paros vs Mykonos Inquiry",
+  "hotel": "Paros / Mykonos",
+  "placeholder": "September, 6 nights",
+  "related": [
+   {
+    "href": "/greek-island-pairings.html",
+    "label": "My five island pairings"
+   },
+   {
+    "href": "/greek-island-matrix.html",
+    "label": "The Greek Island Matrix"
+   }
+  ]
+ },
+ "paros-vs-milos": {
+  "title": "Paros or Milos | Suites With Keith",
+  "description": "The eating island or the swimming island — Keith's split between the two Cyclades he pairs with Santorini most often.",
+  "eyebrow": "Head-to-head &middot; The eating one or the swimming one",
+  "h1_a": "Paros",
+  "h1_b": "Milos?",
+  "deck": "These are the two islands I pair with Santorini most often, and they answer different trips: Paros if you plan around dinner, Milos if you want to be in the water every day. Both keep small Athens-served airports &mdash; and both are the reason the middle of a route beats its bookends.",
+  "stamp": "The eating one vs the swimming one &middot; both from my Cyclades trip",
+  "preload": "/images/islands/paros-hero.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Paros",
+    "h3": "If the table sets the day",
+    "lead": "Mykonos&rsquo;s good looks, better food, a third of the attitude. Naousa on foot at night, a sailing day to Despotiko&rsquo;s empty beaches, and hotels &mdash; Par&imacr;lio, Cosme &mdash; that photograph well and still work when you&rsquo;re actually living in them.",
+    "img": "/images/islands/paros-hero.jpg",
+    "alt": "Naousa harbor, Paros",
+    "w": 1200,
+    "h": 1800
+   },
+   {
+    "eyebrow": "Choose Milos",
+    "h3": "If the water sets the day",
+    "lead": "Volcanic rock and impossible water &mdash; Milos looks like nowhere else in Greece, and it&rsquo;s best seen from a boat. Kleftiko&rsquo;s sculpted white cliffs are the reason you came; Sarakiniko&rsquo;s moonscape is the encore.",
+    "img": "/images/islands/milos-hero.jpg",
+    "alt": "Volcanic coastline on Milos",
+    "w": 1350,
+    "h": 1800
+   }
+  ],
+  "rows": [
+   [
+    "The day",
+    "Long lunches, villages, a sailing day south",
+    "A boat day &mdash; Kleftiko is the island; the roads are the supporting act"
+   ],
+   [
+    "The look",
+    "Classic Cycladic &mdash; Naousa&rsquo;s harbor and whitewash",
+    "Volcanic &mdash; sculpted cliffs, moonscape beaches, impossible water"
+   ],
+   [
+    "The stay",
+    "Par&imacr;lio (families welcome, my most-booked) and beachfront Cosme",
+    "Skinopi Lodge &mdash; the island, not the hotel &mdash; and Er&emacr;ma, 41 suites all with private pools"
+   ],
+   [
+    "Kids",
+    "Par&imacr;lio has a proper kids&rsquo; program",
+    "Skinopi is bring-almost-nothing simple; Er&emacr;ma is the resort option"
+   ],
+   [
+    "Getting there",
+    "Small airport from Athens, or ferry",
+    "Small airport from Athens, or ferry"
+   ],
+   [
+    "To Santorini",
+    "Roughly two hours by high-speed boat",
+    "Roughly two hours by high-speed boat"
+   ],
+   [
+    "From, in September",
+    "Par&imacr;lio ~$550 &middot; Cosme ~$700",
+    "Skinopi ~$500 &middot; Er&emacr;ma ~$800"
+   ]
+  ],
+  "footnote": "Both pair beautifully with Santorini &mdash; they&rsquo;re routes B and C on my pairings page: Milos 4 &rarr; Santorini 3 for the swimming trip, Paros 4 &rarr; Santorini 3 for the eating one. September rates are approximate entry-level starting points; ask me for your dates.",
+  "verdict": {
+   "h2": "Plan around dinner: Paros. Be in the water every day: Milos.",
+   "paras": [
+    "That&rsquo;s genuinely the whole decision, and it&rsquo;s why these two are my B and C pairings with Santorini rather than rivals &mdash; they solve different trips.",
+    "If you can&rsquo;t choose, the tell is the boat: on Milos the boat day isn&rsquo;t an excursion, it&rsquo;s the island &mdash; you experience Milos from the water or you miss it. If that sentence excites you, book Milos. If you&rsquo;d rather be walking to dinner in Naousa while someone else worries about the wind, that&rsquo;s Paros."
+   ]
+  },
+  "inside": [
+   {
+    "href": "/cosme-vs-parilio-paros.html",
+    "label": "Cosme <em>or</em> Par&imacr;lio",
+    "q": "Paros&rsquo; two best hotels &mdash; walk to dinner, or be alone."
+   },
+   {
+    "href": "/paros.html",
+    "label": "The Paros guide",
+    "q": "The island everyone quietly falls in love with.",
+    "cta": "Read it"
+   },
+   {
+    "href": "/milos.html",
+    "label": "The Milos guide",
+    "q": "Nature&rsquo;s masterpiece in the Cyclades.",
+    "cta": "Read it"
+   },
+   {
+    "href": "/paros-excursions.html",
+    "label": "Paros excursions",
+    "q": "The sailing days, villages and tables I&rsquo;d actually book.",
+    "cta": "Read it"
+   }
+  ],
+  "subject": "Paros vs Milos Inquiry",
+  "hotel": "Paros / Milos",
+  "placeholder": "Late June, 7 nights",
+  "related": [
+   {
+    "href": "/greek-island-pairings.html",
+    "label": "My five island pairings"
+   },
+   {
+    "href": "/greek-island-matrix.html",
+    "label": "The Greek Island Matrix"
+   }
+  ]
+ },
+ "milos-vs-sifnos": {
+  "title": "Milos or Sifnos | Suites With Keith",
+  "description": "The middle of Keith's island matrix, where he spends most of his own time — the swimming island or the food island.",
+  "eyebrow": "Head-to-head &middot; The middle of the matrix",
+  "h1_a": "Milos",
+  "h1_b": "Sifnos?",
+  "deck": "This is the part of the matrix where I spend most of my own time &mdash; real islands with real hotels, enough infrastructure to be comfortable and not enough to be crowded. If you only trust one recommendation from my island writing, make it this pair. The choice between them is the day versus the evening.",
+  "stamp": "Where I spend my own time &middot; neighbours &mdash; most crossings here run under two hours",
+  "preload": "/images/islands/milos-hero.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Milos",
+    "h3": "If you came for the water",
+    "lead": "Volcanic rock and impossible water &mdash; it looks like nowhere else in Greece and it&rsquo;s best seen from a boat. Kleftiko, Sarakiniko, and swim stops you can&rsquo;t reach by road.",
+    "img": "/images/islands/milos-hero.jpg",
+    "alt": "Kleftiko's white cliffs, Milos",
+    "w": 1350,
+    "h": 1800
+   },
+   {
+    "eyebrow": "Choose Sifnos",
+    "h3": "If you came for the table",
+    "lead": "The food island &mdash; and it earns the title. This is where Greek cooking gets taken seriously by people who live there, not by people importing a concept. Eat your way through Apollonia and Kastro; linger.",
+    "img": "/images/islands/sifnos-hero.jpg",
+    "alt": "Kastro village, Sifnos",
+    "w": 1349,
+    "h": 1800
+   }
+  ],
+  "rows": [
+   [
+    "The identity",
+    "The swimming one",
+    "The food one &mdash; some islands ask you to see more; Sifnos asks you to linger"
+   ],
+   [
+    "The day",
+    "A boat to Kleftiko &mdash; the island is best seen from the water",
+    "A food walk through Apollonia and Kastro"
+   ],
+   [
+    "The stay",
+    "Skinopi Lodge (no pool, no restaurant &mdash; on purpose) or Er&emacr;ma, new in 2026",
+    "Verina Astra&rsquo;s sixteen cliffside rooms, or Stamna &mdash; #10 on my Greece top 10, already in the Michelin Guide&rsquo;s hotel selection"
+   ],
+   [
+    "The table",
+    "Outdoor kitchens and a breakfast basket on your Skinopi terrace",
+    "Bostani at Verina Astra &mdash; cooked from the hotel&rsquo;s own garden, sold out early every year"
+   ],
+   [
+    "Getting there",
+    "Small airport served from Athens, or ferry",
+    "No airport at all &mdash; a ferry leg mid-trip, which is most of why it&rsquo;s still quiet"
+   ],
+   [
+    "From, in September",
+    "Skinopi ~$500 &middot; Er&emacr;ma ~$800",
+    "Stamna ~$350 &middot; Verina Astra ~$450"
+   ]
+  ],
+  "footnote": "Booking note from the matrix: Verina Astra&rsquo;s dinner and rooms sell out early every single year &mdash; if Sifnos is next summer&rsquo;s trip, book it now, genuinely. And Er&emacr;ma on Milos is the same group behind Par&imacr;lio and Cosme &mdash; Paros then Milos is a trip I&rsquo;d happily build.",
+  "verdict": {
+   "h2": "In the water every day: Milos. At the table every night: Sifnos.",
+   "paras": [
+    "These two are the heart of the matrix&rsquo;s middle &mdash; the islands I&rsquo;d pick for second-timers and the quiet-seeking, and the ones I keep going back to myself.",
+    "And they&rsquo;re neighbours in a part of the Cyclades where crossings run short &mdash; so the honest answer for a week is the E-route philosophy: take the quiet middle seriously, do both, and let Santorini be the finale rather than the trip."
+   ]
+  },
+  "inside": [
+   {
+    "href": "/milos.html",
+    "label": "The Milos guide",
+    "q": "Nature&rsquo;s masterpiece in the Cyclades.",
+    "cta": "Read it"
+   },
+   {
+    "href": "/sifnos.html",
+    "label": "The Sifnos guide",
+    "q": "The island where Greece slows down.",
+    "cta": "Read it"
+   },
+   {
+    "href": "/greek-island-matrix.html",
+    "label": "The Greek Island Matrix",
+    "q": "All nine islands placed, with the hotel picks for each.",
+    "cta": "Read it"
+   },
+   {
+    "href": "/greek-island-pairings.html",
+    "label": "The five pairings",
+    "q": "The routes these islands belong to.",
+    "cta": "Read it"
+   }
+  ],
+  "subject": "Milos vs Sifnos Inquiry",
+  "hotel": "Milos / Sifnos",
+  "placeholder": "September, 6 nights",
+  "related": [
+   {
+    "href": "/trip-ideas.html",
+    "label": "Trip ideas"
+   },
+   {
+    "href": "/greek-ferry-rules.html",
+    "label": "The ferry rules"
+   }
+  ]
+ },
+ "napa-vs-sonoma": {
+  "title": "Napa or Sonoma | Suites With Keith",
+  "description": "After staying at nearly every luxury hotel in both valleys, here's how Keith splits wine country — the polish or the pace.",
+  "eyebrow": "Head-to-head &middot; Wine country",
+  "h1_a": "Napa",
+  "h1_b": "Sonoma?",
+  "deck": "I&rsquo;ve personally stayed at nearly every luxury hotel in both valleys. My #01 and #02 are both Napa &mdash; and yet the hotel I&rsquo;ve returned to more than any other, anywhere, is in Sonoma. That contradiction is the whole decision, so here it is honestly.",
+  "stamp": "Nearly every luxury hotel in both valleys, stayed &middot; my ranking on file",
+  "preload": "/images/napa/meadowood-2.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Napa",
+    "h3": "If the trip is the classic",
+    "lead": "The benchmark end of wine country: Meadowood&rsquo;s Aman-standard service above St. Helena, Four Seasons inside its own working Calistoga vineyard with a Michelin star on property, Auberge&rsquo;s famous terrace over the valley.",
+    "img": "/images/napa/meadowood-2.jpg",
+    "alt": "The wooded estate at Meadowood, Napa Valley",
+    "w": 1360,
+    "h": 891
+   },
+   {
+    "eyebrow": "Choose Sonoma",
+    "h3": "If you want it relaxed",
+    "lead": "Healdsburg is a more relaxed, less commercial base &mdash; and my own preference. Montage&rsquo;s vineyard rooms with their fire pits are the reason I&rsquo;ve stayed twenty-plus times, with a complimentary shuttle to the plaza so nobody argues about who&rsquo;s driving home from dinner.",
+    "img": "/images/napa/montage-1.jpg",
+    "alt": "Vineyard rooms at Montage Healdsburg, Sonoma",
+    "w": 1800,
+    "h": 1013
+   }
+  ],
+  "rows": [
+   [
+    "My ranking says",
+    "#01 Meadowood and #02 Four Seasons are both here",
+    "#03 Montage is my most-returned-to hotel anywhere; MacArthur Place is the hidden gem"
+   ],
+   [
+    "The base",
+    "St. Helena, Rutherford, Calistoga &mdash; the famous names",
+    "Downtown Healdsburg &mdash; relaxed, less commercial"
+   ],
+   [
+    "The feel",
+    "Polish &mdash; a proper concierge, a sommelier, a Michelin star",
+    "Pace &mdash; the fire pit, the vines, the plaza on the shuttle"
+   ],
+   [
+    "The celebration",
+    "Meadowood or Auberge du Soleil &mdash; the honeymoon answers",
+    "Montage &mdash; the anniversary you&rsquo;ll repeat annually"
+   ],
+   [
+    "The group trip",
+    "Four Seasons fits families, girls trips and multi-couple groups equally",
+    "Healdsburg&rsquo;s restaurant scene, walked to and from"
+   ],
+   [
+    "Watch for",
+    "Meadowood&rsquo;s ~$500 Virtuoso credit; Four Seasons&rsquo; 3rd/4th night free",
+    "The vineyard-room category at Montage &mdash; the others miss the signature view"
+   ],
+   [
+    "Know before",
+    "Calistoga is the far end &mdash; plan tastings around the drive",
+    "Healdsburg is Sonoma, not Napa &mdash; know which valley you&rsquo;re signing up for"
+   ]
+  ],
+  "footnote": "Every hotel named here is a Fora / Virtuoso preferred partner &mdash; same rate as booking direct, with the credits and extras layered on, and on multi-night stays those offers genuinely change the math. The full nine-hotel ranking, from personal stays, is on my Napa &amp; Sonoma page.",
+  "verdict": {
+   "h2": "My ranking says Napa. My calendar says Sonoma.",
+   "paras": [
+    "For the celebration &mdash; the honeymoon, the milestone anniversary, the trip where the hotel is the event &mdash; Napa wins on the strength of Meadowood and Four Seasons alone. Every time I go to Meadowood I feel well taken care of, and I can&rsquo;t say that about every property on my list.",
+    "But the trip I actually keep taking is Healdsburg: twenty-plus stays at Montage and counting. If wine country is going to become your place rather than your occasion, that&rsquo;s the valley &mdash; more relaxed, less commercial, and the fire pit over the vines never gets old. Tell me which trip this is, and I&rsquo;ll tell you which valley."
+   ]
+  },
+  "inside": [
+   {
+    "href": "/meadowood-vs-four-seasons-napa-valley.html",
+    "label": "Meadowood <em>or</em> Four Seasons",
+    "q": "My #01 and #02 &mdash; the benchmark or the all-rounder."
+   },
+   {
+    "href": "/four-seasons-napa-valley-vs-montage-healdsburg.html",
+    "label": "Four Seasons <em>or</em> Montage",
+    "q": "The cross-valley call &mdash; the group trip or the two of you."
+   },
+   {
+    "href": "/auberge-du-soleil-vs-montage-healdsburg.html",
+    "label": "Auberge du Soleil <em>or</em> Montage",
+    "q": "The Fifteen&rsquo;s only two wine-country seats."
+   },
+   {
+    "href": "/meadowood-vs-stanly-ranch.html",
+    "label": "Meadowood <em>or</em> Stanly Ranch",
+    "q": "The benchmark, or the valley&rsquo;s boldest design statement."
+   },
+   {
+    "href": "/napa-sonoma.html",
+    "label": "The full ranking",
+    "q": "All nine hotels, from personal stays.",
+    "cta": "Read it"
+   }
+  ],
+  "subject": "Napa vs Sonoma Inquiry",
+  "hotel": "Napa / Sonoma",
+  "placeholder": "Harvest season, 3 nights",
+  "related": [
+   {
+    "href": "/napa-sonoma.html",
+    "label": "My Napa &amp; Sonoma ranking"
+   },
+   {
+    "href": "/the-fifteen.html",
+    "label": "The Fifteen"
+   }
+  ]
  }
 }
