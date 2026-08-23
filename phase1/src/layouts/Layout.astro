@@ -30,8 +30,8 @@ const { title, description = '', current = '', preload = '' } = Astro.props;
       <a href="/hotels/cosme-paros.html" aria-current={current === 'hotels' ? 'page' : undefined}>The Index</a>
       <a href="/index.html#collection">The Collections</a>
       <a href="/compare/cosme-vs-parilio.html" aria-current={current === 'compare' ? 'page' : undefined}>Rankings</a>
-      <a href="/index.html#range">Guides</a>
-      <a href="/index.html#inquire">About</a>
+      <a href="/guides/paros.html" aria-current={current === 'guides' ? 'page' : undefined}>Guides</a>
+      <a href="/about.html" aria-current={current === 'about' ? 'page' : undefined}>About</a>
     </div>
     <span class="preview-chip">Phase 1 · Preview</span>
   </div>
@@ -58,6 +58,8 @@ const { title, description = '', current = '', preload = '' } = Astro.props;
         <a href="/index.html">Home</a>
         <a href="/hotels/cosme-paros.html">Hotel record &middot; Cosme</a>
         <a href="/compare/cosme-vs-parilio.html">Head-to-head</a>
+        <a href="/guides/paros.html">Guide &middot; Paros</a>
+        <a href="/about.html">About</a>
       </div>
     </div>
   </div>
