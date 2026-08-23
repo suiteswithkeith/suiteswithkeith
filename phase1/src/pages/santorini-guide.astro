@@ -1,0 +1,297 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+
+const stay = [
+  { img: '/images/hotels/canaves-oia-1.jpg', name: 'Canaves Oia Suites', tag: 'Best overall', blurb: 'Set higher on the caldera than most, recently renovated top to bottom, and the rare Santorini hotel with real privacy — every room has covered outdoor space.', href: '/hotels/canaves-oia-suites-santorini.html' },
+  { img: '/images/hotels/canaves-epitome-1.jpg', name: 'Canaves Epitome', tag: 'Best for space & privacy', blurb: 'A short walk from Oia near Ammoudi, with villas and residences rather than suites — and an actual sunset into the Aegean instead of a caldera view.', href: '/hotels/canaves-epitome-santorini.html' },
+  { img: '/images/hotels/canaves-ena-1.jpg', name: 'Canaves Ena', tag: 'Most intimate', blurb: 'The original Canaves property, started in the 80s by the same family running it today. Just 18 suites, beautifully brought up to date in 2024.', href: '/hotels/canaves-ena-santorini.html' },
+  { img: '/images/hotels/andronis-boutique-1.jpg', name: 'Andronis Boutique', tag: 'Classic caldera', blurb: 'Cave-style rooms with genuinely unique layouts, all renovated in 2024, and brighter inside than cave rooms have any right to be. Runs the top of my list close.', href: '/hotels/andronis-boutique-santorini.html' },
+  { img: '/images/hotels/andronis-luxury-1.jpg', name: 'Andronis Luxury Suites', tag: 'Best big occasion', blurb: 'The flagship of the portfolio — refined, elegant, old-school luxury rather than cave-style Santorini. Where I&rsquo;d put a milestone anniversary.', href: '/hotels/andronis-luxury-suites-santorini.html' },
+  { img: '/images/hotels/grace-1.jpg', name: 'Grace Hotel', tag: 'Quietest stretch of the rim', blurb: 'Set high above Imerovigli, sometimes literally above the fog line. Simple, white, elegant rooms, and the most polished service on the caldera.', href: '/hotels/grace-santorini.html' },
+];
+
+const excursions = [
+  { meta: 'The one I&rsquo;d never skip · shared · 5 hours', h: 'The caldera cruise', p: 'You cannot understand Santorini from the rim &mdash; you have to be under it. Every boat runs the same circuit: the caldera wall, the volcano and hot springs, the red and white beaches, back for sunset. What you&rsquo;re really choosing is boat size &mdash; fifty-five people, or fourteen with a proper cooked meal instead of a buffet.', price: 'From $87 per person · small boats from $121' },
+  { meta: 'Private · 5 hours', h: 'A private catamaran', p: 'The whole boat and crew for your group &mdash; up to fourteen, just as good for two. You set the departure time, how long you stay in each cove, and whether you swim at the volcano or sail straight past it. The best value here for a family or a group of friends.', price: 'From €1,000 for the boat' },
+  { meta: 'Private · 4–5 hours', h: 'A luxury day yacht', p: 'A different category altogether: a Pardo, a Wally or a Sunreef with a captain and a stewardess, chef&rsquo;s appetizers and good wine on board, chauffeured to the dock and back. For honeymoons and anniversaries &mdash; the day becomes the memory.', price: 'From $1,430 for the yacht' },
+  { meta: 'Inland · 1 hour to half a day', h: 'Vassaltis, the winery', p: 'Assyrtiko grown the way it&rsquo;s grown nowhere else &mdash; vines coiled into low baskets in volcanic ash, no trellis, no irrigation. The wine is bone-dry, saline and unmistakable. A four-wine tasting, a shared lunch in the vines, or the full vineyard walk with a sommelier.', price: 'Tastings from $44 · vineyard lunch from $61' },
+  { meta: 'Morning · 10 km · 3–4 hours', h: 'Fira to Oia, on foot', p: 'The signature walk and the only way to understand the shape of the island &mdash; the whole crescent of the caldera on your left the entire way. Exposed and shadeless: start by eight, carry water, and have a car meet you in Oia rather than walking back.', price: 'The best free thing on the island' },
+  { meta: 'Full day · car or driver', h: 'The inland day', p: 'Akrotiri&rsquo;s buried Bronze Age town in the morning while it&rsquo;s cool, lunch and wine at the vineyard, Pyrgos for the late light &mdash; the highest village on the island, and almost nobody is up there. Dinner inland at Metaxi Mas, where the island actually eats.', price: 'The day people come home talking about' },
+];
+
+const eat = [
+  { name: 'Omnia at Canaves Epitome', tag: 'best meal on the island', note: 'The best meal I had in Greece, and where I&rsquo;d send you for sunset &mdash; Epitome faces an actual sunset into the Aegean rather than a caldera view. It&rsquo;s also one of the harder tables to get at the hour worth having.' },
+  { name: 'Lycabettus at Andronis', tag: 'the big-occasion table', note: 'The famous cliffside room. If you&rsquo;re staying at Andronis, book it the moment your suite is confirmed. If you&rsquo;re not, it&rsquo;s still worth giving an evening to.' },
+  { name: 'Varoulko at Grace, Imerovigli', tag: 'most elegant dinner', note: 'Michelin-starred chef Lefteris Lazarou&rsquo;s seafood tasting menu, and he personally visits tables. Distinctly Greek yet modern &mdash; the strongest part of the Grace experience.' },
+  { name: 'Selene, Fira', tag: 'best modern Greek', note: 'The island&rsquo;s benchmark for a serious tasting menu &mdash; Santorini fava, white eggplant, tomatoes, Assyrtiko. Worth the night away from Oia, and worth a driver to get you back.' },
+  { name: 'Metaxi Mas, Exo Gonia', tag: 'where the island eats', note: 'Inland, away from the caldera entirely, and full of Greeks rather than honeymooners. Long lunches, house wine, and the kind of cooking the rim charges four times as much for. Book it &mdash; everyone has worked this one out by now.' },
+  { name: 'Armeni, below Oia', tag: 'best lunch on the water', note: 'A handful of tables at the water&rsquo;s edge in the little port below Oia, grilled fish straight off the boat. Go at lunch rather than sunset &mdash; same food, a fraction of the crowd, and you won&rsquo;t be climbing back up 300 steps in the dark.' },
+];
+
+const sunsets = [
+  { h: 'Your own terrace', p: 'The reason you paid for the room. Order a bottle, stay put, and watch the whole thing without moving &mdash; no crowd, no walk home in the dark, and the best seat on the island is the one you already booked.' },
+  { h: 'Skaros, Imerovigli', p: 'The short walk out to the old rock takes about twenty minutes and leaves the crowds behind almost immediately. You get the caldera from an angle most visitors never see, and Oia in the distance rather than around you.' },
+  { h: 'From a boat', p: 'Golden hour with a glass of Assyrtiko and roughly two hundred fewer people around you. The cleanest way to avoid the scrum entirely, and the one excursion I recommend to essentially everyone.' },
+  { h: 'Pyrgos, inland', p: 'The highest village on the island, and it faces the whole thing &mdash; sunset on one side, the caldera on the other, and a village that&rsquo;s still a village. Have dinner up here and let the rim empty out below you.' },
+];
+
+const tips = [
+  ['Book dinner before you land.', 'The best tables go four to eight weeks out, and this is the single thing most people leave too late.'],
+  ['Get off the rim once.', 'Pyrgos, the vineyards, the black-sand south &mdash; the island is more than the caldera, and a day away from it is the day people remember.'],
+  ['Two things a day, maximum.', 'Santorini is small but slow. Chasing a list is how a good trip turns into a tiring one.'],
+  ['See the caldera from the water.', 'The one excursion I recommend to everyone &mdash; <a href="/already-booked-santorini.html#catamaran">here&rsquo;s how I&rsquo;d do it</a>.'],
+  ['Never fly home the day you sail.', 'Build in the buffer night. The Aegean does not care about your itinerary &mdash; <a href="/santorini-transfer-cheat-sheet.html">the transfer cheat sheet</a> covers the rest.'],
+];
+---
+<Layout
+  canonical="santorini-guide.html"
+  title="Santorini — Worth It, If You Do It Right | Suites With Keith"
+  description="My favorite Santorini hotels, excursions, restaurants and sunsets in one place — from four weeks in the Cyclades and fifteen Santorini hotels toured in person."
+  preload="/images/islands/santorini-hero.jpg"
+>
+
+<!-- hero -->
+<header class="hero" style="min-height:min(82svh,760px);">
+  <img class="hero-img" src="/images/islands/santorini-hero.jpg" alt="The caldera at Santorini" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Santorini &middot; the shortlist</p>
+    <h1 class="display-xl" style="margin-top:18px;">Worth it &mdash;<br><em>if you do it right</em></h1>
+    <p class="sub">My favorite hotels, excursions, restaurants and sunsets on the island, compiled in one place. Everything here comes from four weeks in the Cyclades and fifteen Santorini hotels toured in person.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Have me book it</a>
+      <a class="btn btn-ghost on-shadow" href="#stay" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">The shortlist</a>
+    </div>
+  </div>
+</header>
+
+<!-- where I'd stay -->
+<section class="section" id="stay" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sg-intro">
+      <div class="reveal">
+        <span class="eyebrow">Where I&rsquo;d stay</span>
+        <h2 class="display-l" style="margin-top:14px;">Six hotels, in the order I&rsquo;d recommend them</h2>
+        <p class="body-2" style="margin-top:18px; max-width:56ch;">I&rsquo;ve stayed in or toured every one of these &mdash; the full write-ups live in <a href="/santorini-hotels-ranked.html" style="color:var(--brass);">my Santorini rankings</a>, and each card links to its own guide. Booking any of them through me is complimentary, and comes with partner amenities you can&rsquo;t get booking direct &mdash; typically a space-available upgrade, daily breakfast, and a hotel credit.</p>
+      </div>
+      <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
+        <p class="stamp plain" style="font-weight:700; color:var(--brass);">On this page</p>
+        <a class="toc-link" href="#stay">Where I&rsquo;d stay</a>
+        <a class="toc-link" href="#do">What I&rsquo;d book</a>
+        <a class="toc-link" href="#eat">Where I&rsquo;d eat</a>
+        <a class="toc-link" href="#sunset">The sunset</a>
+        <a class="toc-link" href="#tips">Things I&rsquo;d tell a friend</a>
+        <a class="toc-link" href="#inquire"><b>Have me book it &rarr;</b></a>
+      </div>
+    </div>
+    <div class="cards reveal" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); margin-top:44px;">
+      {stay.map((h) => (
+        <a class="card" href={h.href}>
+          <img src={h.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+          <div class="pad"><span class="kicker">{h.tag}</span><h3 set:html={h.name} /><p set:html={h.blurb} /><span class="go">Read the guide &rarr;</span></div>
+        </a>
+      ))}
+    </div>
+    <div class="verdict reveal" style="margin-top:44px; max-width:640px;">
+      <p>Land in Santorini on day one and you&rsquo;re choosing from whatever has space that night. End the trip here instead and the whole island is available to you &mdash; it&rsquo;s the single biggest thing that decides which of these you actually get.</p>
+    </div>
+  </div>
+</section>
+
+<!-- what I'd book -->
+<section class="section band on-shadow" id="do" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The excursions</span>
+      <h2 class="display-l">What I&rsquo;d actually book</h2>
+      <p class="deck" style="margin-top:16px;">One day on the water, one day inland &mdash; here&rsquo;s the menu.</p>
+    </div>
+    <div class="sg-map-grid">
+      <div class="reveal sg-map">
+        <svg viewBox="0 0 520 500" role="img" aria-label="Map of Santorini showing Oia, Imerovigli, Fira, Pyrgos, Akrotiri, the vineyards and the volcano">
+          <path d="M 232 52 C 285 40, 358 64, 402 98 C 448 134, 468 205, 466 264 C 464 326, 452 388, 422 428 C 398 460, 342 470, 302 462 C 264 455, 234 446, 198 428 C 174 416, 158 400, 165 388 C 172 377, 198 382, 222 386 C 260 392, 292 379, 306 350 C 330 316, 332 258, 316 210 C 302 164, 274 110, 250 78 C 243 66, 236 58, 232 52 Z" fill="#F2EFE6" opacity="0.96"/>
+          <path d="M 172 108 C 184 132, 186 172, 178 210 C 174 228, 160 226, 158 202 C 156 168, 160 132, 172 108 Z" fill="#F2EFE6" opacity="0.85"/>
+          <circle cx="250" cy="268" r="22" fill="#F2EFE6" opacity="0.85"/>
+          <circle cx="213" cy="300" r="10" fill="#F2EFE6" opacity="0.75"/>
+          <path d="M 338 250 C 342 210, 318 156, 292 116 C 280 98, 268 90, 258 86" fill="none" stroke="#BE975A" stroke-width="2.5" stroke-dasharray="5 6" stroke-linecap="round" opacity="0.9"/>
+          <text class="lbl-cap" x="240" y="182" text-anchor="middle" font-size="12" letter-spacing="2.2">THE CALDERA</text>
+          <text class="lbl-it" x="240" y="322" text-anchor="middle" font-size="18">Nea Kameni</text>
+          <text class="lbl-it" x="240" y="340" text-anchor="middle" font-size="15" opacity="0.8">the volcano</text>
+          <text class="lbl-sea" x="168" y="244" text-anchor="middle" font-size="15" opacity="0.7">Thirasia</text>
+          <g fill="#BE975A" stroke="#F2EFE6" stroke-width="1.5">
+            <circle cx="258" cy="84" r="5.5"/>
+            <circle cx="252" cy="106" r="4.5"/>
+            <circle cx="322" cy="206" r="5.5"/>
+            <circle cx="338" cy="254" r="5.5"/>
+            <circle cx="356" cy="168" r="5.5"/>
+            <circle cx="348" cy="352" r="5.5"/>
+            <circle cx="402" cy="382" r="5.5"/>
+            <circle cx="424" cy="414" r="5.5"/>
+            <circle cx="320" cy="450" r="5.5"/>
+            <circle cx="206" cy="402" r="5.5"/>
+          </g>
+          <text class="lbl-sea" x="246" y="80" text-anchor="end">Oia</text>
+          <text class="lbl-sea" x="240" y="112" text-anchor="end" font-size="15" opacity="0.8">Ammoudi</text>
+          <text class="lbl-sea" x="308" y="202" text-anchor="end">Imerovigli</text>
+          <text class="lbl-land" x="350" y="259">Fira</text>
+          <text class="lbl-land" x="368" y="164">Vassaltis</text>
+          <text class="lbl-land" x="360" y="348">Pyrgos</text>
+          <text class="lbl-land" x="390" y="372" text-anchor="end">Ancient</text>
+          <text class="lbl-land" x="390" y="390" text-anchor="end">Thera</text>
+          <text class="lbl-land" x="410" y="432" text-anchor="end">Perissa</text>
+          <text class="lbl-sea" x="320" y="478" text-anchor="middle" font-size="15" opacity="0.8">Vlychada &middot; the black-sand south</text>
+          <text class="lbl-sea" x="188" y="452" text-anchor="middle">Akrotiri</text>
+        </svg>
+        <p class="map-cap">Not to scale, but close &mdash; the dashed line is the Fira &rarr; Oia rim walk.</p>
+      </div>
+      <div class="reveal">
+        <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:12px;">The shape of it</p>
+        <p style="margin:0 0 26px; font-size:.95rem; line-height:1.7; color:var(--band-ash);">Santorini is a crescent around a flooded volcano. Everything with a view sits along the west rim &mdash; Fira, Imerovigli, Oia &mdash; and everything else worth your time, the vineyards, the ruins and the black-sand beaches, is on the gentle slope behind.</p>
+        <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:12px;">Getting around</p>
+        <div class="ga"><b>Private transfers</b><p>What I arrange by default for the airport and the ferry port &mdash; Athinios is a steep, chaotic switchback with a taxi queue you don&rsquo;t want.</p></div>
+        <div class="ga"><b>A car for one day</b><p>Worth it for the inland day only. Parking in Oia and Fira is close to impossible in season.</p></div>
+        <div class="ga"><b>Taxis are scarce</b><p>A few dozen on the whole island, and none you can hail. Pre-book the driver for a dinner at the other end of the island.</p></div>
+        <div class="ga"><b>Oia to Ammoudi</b><p>Three hundred steps, shared with donkeys. Walk down if you like &mdash; book the car back up.</p></div>
+        <p style="margin-top:18px;"><a class="toc-link" style="color:var(--brass-lit);" href="/santorini-transfer-cheat-sheet.html">The Santorini transfer cheat sheet &rarr;</a></p>
+      </div>
+    </div>
+    <div class="do-grid reveal">
+      {excursions.map((x) => (
+        <div class="do">
+          <span class="stamp plain do-meta" set:html={x.meta} />
+          <h3 set:html={x.h} />
+          <p set:html={x.p} />
+          <span class="do-price" set:html={x.price} />
+        </div>
+      ))}
+    </div>
+    <p class="deck reveal" style="margin-top:40px; max-width:56ch;">The boats and the best tables go weeks ahead in summer &mdash; from mid-June on, three to four weeks out is not too early. Send me the ones you want and I&rsquo;ll build the days around them, and hold whatever fills up first.</p>
+  </div>
+</section>
+
+<!-- where I'd eat -->
+<section class="section" id="eat" style="scroll-margin-top:70px;">
+  <div class="container" style="max-width:880px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Where I&rsquo;d eat</span>
+      <h2 class="display-l">Six tables, in the order I&rsquo;d book them</h2>
+    </div>
+    <div class="reveal">
+      {eat.map((e, i) => (
+        <div class="eat-row">
+          <span class="eat-num">{String(i + 1).padStart(2, '0')}</span>
+          <div>
+            <h3><span set:html={e.name} /> <em set:html={e.tag} /></h3>
+            <p set:html={e.note} />
+          </div>
+        </div>
+      ))}
+    </div>
+    <p class="deck reveal" style="margin-top:34px; max-width:56ch;">Book these four to eight weeks ahead in high season &mdash; from mid-June through mid-September the tables worth having are gone weeks out, and what&rsquo;s left is 6:00pm or 10:30pm. Send me the ones you want and I&rsquo;ll go through your hotel&rsquo;s concierge.</p>
+  </div>
+</section>
+
+<!-- the sunset -->
+<section class="section band on-shadow" id="sunset" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The sunset</span>
+      <h2 class="display-l">Where I&rsquo;d actually watch it</h2>
+      <p class="body-2" style="margin-top:16px; max-width:62ch;">Everyone is told to go to the castle at Oia, so everyone does &mdash; several thousand people standing shoulder to shoulder on a wall, phones up, for a sunset you can see better from almost anywhere else on the island. Go once if you must. Then do one of these instead.</p>
+    </div>
+    <div class="sun-grid reveal">
+      {sunsets.map((s) => (
+        <div class="sun">
+          <h3 set:html={s.h} />
+          <p set:html={s.p} />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- tips -->
+<section class="section" id="tips" style="scroll-margin-top:70px;">
+  <div class="container" style="max-width:860px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Things I&rsquo;d tell a friend</span>
+      <h2 class="display-l">Five things, before you book anything</h2>
+    </div>
+    <div class="ledger reveal" style="border-top-color:var(--hairline);">
+      {tips.map(([b, t], i) => (
+        <div class="ledger-row" style="border-bottom-color:var(--hairline);">
+          <span class="n" style="color:var(--brass);">{String(i + 1).padStart(2, '0')}</span>
+          <span class="d" style="color:var(--ash);"><b style="color:var(--ink);" set:html={b} /> <span class="tip-t" set:html={t} /></span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- already booked -->
+<section class="section" style="padding-top:0;">
+  <div class="container booked-band reveal">
+    <div>
+      <span class="eyebrow" style="display:block; margin-bottom:12px;">Already booked Santorini?</span>
+      <h3 class="display-m">Hotel&rsquo;s done? Start here.</h3>
+      <p class="body-2" style="margin-top:12px; max-width:52ch;">Send me your reservation and I&rsquo;ll handle everything around it &mdash; the boat day on the right morning, the tables that need booking weeks out, and transfers timed to what the Aegean actually does.</p>
+    </div>
+    <a class="btn" href="/already-booked-santorini.html">Start here</a>
+  </div>
+</section>
+
+<Ask
+  subject="Santorini Guide — booking inquiry"
+  page="santorini-guide"
+  placeholder="Santorini in June"
+  deck="Any of the above, booked end to end &mdash; at no cost to you. &ldquo;Santorini in June&rdquo; is a complete answer."
+  dark
+/>
+
+</Layout>
+
+<style>
+  .toc-link { font-size: .72rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .toc-link:hover { text-decoration: underline; }
+  .sg-intro { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .sg-intro { grid-template-columns: 1.6fr 1fr; gap: 80px; } }
+
+  .sg-map-grid { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; margin-bottom: 44px; }
+  @media (min-width: 940px) { .sg-map-grid { grid-template-columns: 1.2fr 1fr; gap: 64px; } }
+  .sg-map-grid > * { min-width: 0; }
+  .sg-map svg { display: block; width: 100%; height: auto; font-family: var(--body); }
+  .sg-map .lbl-cap { fill: rgba(242,239,230,.55); letter-spacing: 2.2px; }
+  .sg-map .lbl-it, .sg-map .lbl-sea { fill: rgba(242,239,230,.85); font-family: var(--display); font-style: italic; font-size: 16px; }
+  .sg-map .lbl-it { fill: rgba(22,23,18,.6); }
+  .sg-map .lbl-land { fill: rgba(22,23,18,.75); font-size: 14px; }
+  .map-cap { font-family: var(--stamp); font-size: .68rem; color: var(--band-ash); margin-top: 12px; letter-spacing: .04em; }
+  .ga { margin-bottom: 16px; }
+  .ga b { display: block; font-weight: 500; color: var(--band-ink); font-size: .97rem; }
+  .ga p { font-size: .9rem; color: var(--band-ash); line-height: 1.6; margin-top: 4px; }
+
+  .do-grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .do-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1020px) { .do-grid { grid-template-columns: repeat(3, 1fr); } }
+  .do { border: 1px solid var(--band-hairline); padding: clamp(22px, 3vw, 30px); display: flex; flex-direction: column; gap: 12px; }
+  .do-meta { font-size: .62rem; color: var(--brass-lit) !important; font-weight: 700 !important; }
+  .do h3 { font-family: var(--display); font-weight: 500; font-size: 1.35rem; }
+  .do p { font-size: .93rem; color: var(--band-ash); line-height: 1.65; flex: 1; }
+  .do-price { font-family: var(--stamp); font-size: .68rem; letter-spacing: .04em; text-transform: uppercase; color: var(--band-ink); border-top: 1px solid var(--band-hairline); padding-top: 12px; }
+
+  .eat-row { display: grid; grid-template-columns: auto 1fr; gap: 22px; padding: 22px 0; border-bottom: 1px solid var(--hairline); align-items: start; }
+  .eat-row:first-child { border-top: 1px solid var(--hairline); }
+  .eat-num { font-family: var(--display); font-size: 1.6rem; color: var(--brass); line-height: 1.3; font-variant-numeric: tabular-nums; }
+  .eat-row h3 { font-family: var(--display); font-weight: 500; font-size: 1.25rem; }
+  .eat-row h3 em { font-style: italic; font-weight: 400; font-size: 1rem; color: var(--brass); margin-left: 6px; }
+  .eat-row p { font-size: .95rem; color: var(--ash); line-height: 1.65; margin-top: 6px; max-width: 62ch; }
+
+  .sun-grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .sun-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1020px) { .sun-grid { grid-template-columns: repeat(4, 1fr); } }
+  .sun { border: 1px solid var(--band-hairline); padding: clamp(22px, 3vw, 30px); }
+  .sun h3 { font-family: var(--display); font-weight: 500; font-size: 1.3rem; margin-bottom: 10px; }
+  .sun p { font-size: .92rem; color: var(--band-ash); line-height: 1.65; }
+
+  .tip-t :global(a) { color: var(--brass); }
+  .booked-band { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(28px, 4vw, 44px); display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+</style>

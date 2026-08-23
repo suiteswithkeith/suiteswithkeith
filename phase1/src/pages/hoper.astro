@@ -1,0 +1,162 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+
+const cards = [
+  {
+    num: '01', img: '/images/hoper/hoper-views-1.jpg', alt: 'The Aegean coastline seen through the window of a Hoper helicopter',
+    h: 'Skip the ferry, keep the view', tag: 'The travel day, deleted',
+    bestfor: 'Best for · honeymooners, tight itineraries, anyone who&rsquo;s met the Meltemi',
+    desc: 'Ferries are part of the Greek island experience &mdash; until the wind picks up, the boat cancels, and your carefully planned week starts unraveling. A helicopter transfer turns the most fragile part of your itinerary into the most memorable one: no port crowds, no rolling swell, just the Cyclades unfolding beneath you.',
+    notes: [
+      ['Minutes, not hours.', 'Athens to Santorini or Mykonos runs under an hour; island-to-island hops like Mykonos to Santorini take about 45 minutes versus up to three hours by sea.'],
+      ['Seats or the whole aircraft.', 'Hoper sells scheduled flights by the seat, and I can also arrange private charters when you want the helicopter to yourselves.'],
+      ['It&rsquo;s a scenic flight disguised as a transfer.', 'The approach over the caldera &mdash; or over Oia&rsquo;s rooftops &mdash; is something clients talk about for years.'],
+    ],
+    take: 'This is the upgrade I recommend most often for honeymoons: not a bigger suite, but a better travel day.',
+  },
+  {
+    num: '02', img: '/images/hoper/hoper-fleet-1.jpg', alt: 'A Hoper helicopter flying over the chapel at Chrissopigi, Sifnos', id: 'routes',
+    h: 'Where Hoper flies', tag: 'Three bases, the whole Aegean',
+    bestfor: 'Bases · Athens, Santorini &amp; Mykonos',
+    desc: 'Hoper operates from bases in Athens, Santorini, and Mykonos, with scheduled hops to a growing list of islands &mdash; including the small ones the airlines skip entirely. That&rsquo;s the quiet superpower: islands like Sifnos, Folegandros, and Milos have no airport or limited flights, and Hoper puts them minutes away.',
+    notes: [
+      ['From Athens:', 'Santorini, Mykonos, and the Saronic escapes like Spetses and Porto Heli &mdash; the perfect start or end to a Greece itinerary.'],
+      ['Between the islands:', 'Santorini &harr; Mykonos, plus Sifnos, Milos, Folegandros, Ios, Antiparos, Syros, Tinos, and more.'],
+      ['The no-airport islands are the play.', 'This is how you add Folegandros or Sifnos to a honeymoon without surrendering a day to the ferry schedule.'],
+    ],
+    take: 'My favorite itinerary trick: fly the long legs, sail the short ones. Helicopter from Athens, private boat between neighbors.',
+  },
+  {
+    num: '03', img: '/images/hoper/hoper-cabin.jpg', alt: 'A couple taking in the view from the cabin of a Hoper helicopter', id: 'know',
+    h: 'Good to know before you book', tag: 'The honest fine print',
+    bestfor: 'Read this · before your first heli transfer',
+    desc: 'A helicopter is not a flying SUV, and a little planning makes the experience seamless. These are the things I walk every client through before their first flight.',
+    notes: [
+      ['Pack soft and pack light.', 'Luggage space is limited on board. If you&rsquo;re traveling with large hard-shell cases, tell me &mdash; I&rsquo;ll arrange for the rest of your luggage to travel separately so it&rsquo;s waiting at your hotel.'],
+      ['Book early in high season.', 'These are small aircraft with limited daily schedules. June through September, the flights around sunset sell out first.'],
+      ['Weather still gets a vote.', 'Helicopters handle wind differently than ferries, but extreme conditions can shift a flight. Build the same buffer you would anywhere in the Aegean &mdash; never connect to an international flight the same day.'],
+      ['Transfers on both ends matter.', 'Helipads aren&rsquo;t always at the port or the hotel. When I book it, the car on each end is part of the plan.'],
+    ],
+    take: 'Handled well, it&rsquo;s the smoothest travel day you&rsquo;ll have in Greece. Handled casually, it&rsquo;s still a helicopter &mdash; so let&rsquo;s handle it well.',
+  },
+];
+const HOPER = 'https://flyhoper.com/r/a26c69fd-cf63-42bf-a3f7-0fd182d45a5c';
+---
+<Layout
+  canonical="hoper.html"
+  title="The Greek Islands by Helicopter — Hoper Partnership | Suites With Keith"
+  description="Athens to Santorini in under an hour through my partnership with Hoper, Greece's scheduled helicopter airline — routes, honest fine print, and how booking works."
+  preload="/images/hoper/hoper-views-3.jpg"
+>
+
+<!-- hero -->
+<header class="hero" style="min-height:min(80svh,740px);">
+  <img class="hero-img" src="/images/hoper/hoper-views-3.jpg" alt="The Cyclades from the window of a Hoper helicopter" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Partner spotlight &middot; Hoper</p>
+    <h1 class="display-xl" style="margin-top:18px;">The Greek islands,<br><em>by helicopter</em></h1>
+    <p class="sub">Athens to Santorini in under an hour, with the Cyclades laid out below. Through my partnership with Hoper, the ferry is now optional.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Build it into my trip</a>
+      <a class="btn btn-ghost on-shadow" href={HOPER} target="_blank" rel="noopener sponsored" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);" data-gtag-label="hoper_direct" data-gtag-location="hero">Book with Hoper</a>
+    </div>
+  </div>
+</header>
+
+<!-- intro -->
+<section class="section">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <p class="deck" style="max-width:44ch;">Fast ferries cancel in wind, the last boat of the day is a gamble, and a three-island week means three travel days. Hoper is how my clients skip all of it.</p>
+      <p class="body-2" style="margin-top:20px; max-width:58ch;">If you&rsquo;ve read my <a href="/greek-ferry-rules.html" style="color:var(--brass);">ferry rules</a>, you know the honest truth about Greek island logistics. Hoper is Greece&rsquo;s first scheduled helicopter airline &mdash; a fleet of modern glass-cockpit helicopters connecting Athens, Santorini, and Mykonos with the harder-to-reach islands of the Cyclades and beyond. What used to be a full travel day is now a scenic flight measured in minutes, and the view over the caldera on approach is an experience in its own right.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">Book directly through my partner link, or reach out and I&rsquo;ll build the flights into your itinerary &mdash; timed to your hotel check-ins, transfers on both ends included.</p>
+    </div>
+    <div class="reveal">
+      <dl class="kv">
+        <div class="kv-row"><dt>Typical flight</dt><dd><b>45 minutes</b> vs. hours at sea</dd></div>
+        <div class="kv-row"><dt>Islands served</dt><dd><b>12+</b> across the Aegean</dd></div>
+        <div class="kv-row"><dt>Bases</dt><dd>Athens &middot; Santorini &middot; Mykonos</dd></div>
+        <div class="kv-row"><dt>Popular legs</dt><dd>Athens &rarr; Santorini &middot; Mykonos &rarr; Santorini &middot; Santorini &rarr; Milos &middot; Athens &rarr; Sifnos</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+{cards.map((c, i) => (
+  <section class={`section${i % 2 === 0 ? ' band on-shadow' : ''}`} id={c.id} style="scroll-margin-top:70px;">
+    <div class="container">
+      <div class={`hc-grid${i % 2 ? ' flip' : ''}`}>
+        <figure class="reveal hc-media">
+          <img src={c.img} alt={c.alt} width="1800" height="1200" loading="lazy" decoding="async" />
+        </figure>
+        <div class="reveal">
+          <span class="stamp plain" style={`font-weight:700; color:${i % 2 === 0 ? 'var(--brass-lit)' : 'var(--brass)'};`}>No. {c.num}</span>
+          <h2 class="display-l" style="margin-top:12px;" set:html={c.h} />
+          <p class="deck" style="margin-top:10px; font-size:1.05rem;" set:html={c.tag} />
+          <p class="stamp plain small-meta" set:html={c.bestfor} />
+          <p class="body-2" style="margin-top:18px;" set:html={c.desc} />
+          <div style="margin-top:22px;">
+            {c.notes.map(([b, t]) => (
+              <p class="hc-note"><b set:html={b} /> <span set:html={t} /></p>
+            ))}
+          </div>
+          <div class="verdict" style="margin-top:26px;"><p set:html={c.take} /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+))}
+
+<!-- how booking works -->
+<section class="section">
+  <div class="container" style="max-width:820px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">How booking works</span>
+      <h2 class="display-l">Two ways to fly</h2>
+    </div>
+    <p class="body-2 reveal" style="max-width:60ch;">Book seats directly through my Hoper partner link, or send me your itinerary and I&rsquo;ll arrange the flights as part of your trip &mdash; scheduled seats or a private charter, with ground transfers coordinated on both ends. Either way, you&rsquo;re covered by the same Hoper team in the air.</p>
+    <div class="reveal" style="margin-top:26px; display:flex; flex-wrap:wrap; gap:14px;">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="booking_band">Send me your itinerary</a>
+      <a class="btn btn-ghost" href={HOPER} target="_blank" rel="noopener sponsored" data-gtag-label="hoper_direct" data-gtag-location="booking_band">Book direct with Hoper</a>
+    </div>
+    <p class="reveal" style="margin-top:22px;"><a href="/santorini-transfer-cheat-sheet.html" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;">Read the Santorini transfer cheat sheet &rarr;</a></p>
+    <div class="verdict reveal" style="margin-top:44px;">
+      <p>I tell clients to think of Hoper the way they think of a great hotel upgrade: you don&rsquo;t need it, but once you&rsquo;ve flown into Santorini over the caldera instead of shuffling off a ferry at Athinios, it&rsquo;s very hard to go back.</p>
+    </div>
+  </div>
+</section>
+
+<Ask
+  subject="Inquiry — Hoper / helicopter transfers"
+  page="hoper"
+  placeholder="Athens to Santorini, June 12"
+  deck="Tell me the islands and the dates &mdash; I&rsquo;ll time the flights to your check-ins."
+  dark
+/>
+
+</Layout>
+
+<style>
+  .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.4fr 1fr; gap: 80px; } }
+  .intro-grid > * { min-width: 0; }
+
+  .hc-grid { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 900px) {
+    .hc-grid { grid-template-columns: 1fr 1.1fr; gap: 64px; }
+    .hc-grid.flip .hc-media { order: 2; }
+  }
+  .hc-grid > * { min-width: 0; }
+  .hc-media { margin: 0; }
+  .hc-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .small-meta { display: block; margin-top: 14px; font-size: .66rem; }
+  .band .small-meta { color: var(--band-ash); }
+  .hc-note { font-size: .96rem; line-height: 1.65; margin-bottom: 13px; padding-left: 16px; position: relative; color: var(--ash); }
+  .band .hc-note { color: var(--band-ash); }
+  .hc-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
+  .band .hc-note::before { background: var(--brass-lit); }
+  .hc-note b { color: var(--ink); font-weight: 500; }
+  .band .hc-note b { color: var(--band-ink); }
+  .band .verdict { border-left-color: var(--brass-lit); }
+</style>

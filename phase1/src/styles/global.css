@@ -87,7 +87,7 @@ a { color: inherit; }
 @media (max-width: 560px) {
   .stamp { white-space: normal; line-height: 1.6; }
 }
-.stamp.plain { border: none; padding: 0; font-weight: 400; color: var(--ash); }
+.stamp.plain { border: none; padding: 0; font-weight: 400; color: var(--ash); white-space: normal; line-height: 1.7; }
 .on-shadow .stamp { color: var(--brass-lit); }
 
 /* ── buttons: olive, sharp, quiet. Brass is an ink, never a fill. ── */

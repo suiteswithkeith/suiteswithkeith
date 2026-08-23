@@ -1,0 +1,216 @@
+---
+// Renders one ranking page from phase1/src/data/rankings.json.
+import Layout from './Layout.astro';
+import Ask from '../components/Ask.astro';
+import rankings from '../data/rankings.json';
+
+const { slug, askPlaceholder, askDeck } = Astro.props;
+const g = rankings[slug];
+const decode = (s) => s.replace(/&middot;/g, '·').replace(/&amp;/g, '&').replace(/&rsquo;/g, '’');
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: decode(g.h1.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim(),
+  itemListElement: g.cards.map((c, i) => ({
+    '@type': 'ListItem', position: i + 1, name: decode(c.name.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim(),
+  })),
+});
+const ext = (href) => /^https?:/.test(href);
+---
+<Layout
+  canonical={`${slug}.html`}
+  title={g.title}
+  description={g.description}
+  preload={g.hero_img}
+  current="rankings"
+>
+
+<Fragment slot="head" set:html={`<script type="application/ld+json">${schema}</script>`} />
+
+<!-- hero -->
+<header class="hero" style="min-height:min(78svh,720px);">
+  <img class="hero-img" src={g.hero_img} alt="" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow" set:html={g.eyebrow} />
+    <h1 class="display-l" style="margin-top:18px; max-width:20ch; color:var(--band-ink); font-size:clamp(2.1rem,5vw,3.6rem);" set:html={g.h1} />
+    <p class="sub" style="margin-top:18px;" set:html={g.tagline} />
+    <p class="hero-stats" set:html={g.stats.map((s) => `<b>${s.num}</b> ${s.label}`).join(' &nbsp;&middot;&nbsp; ')} />
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="rank_hero">Tell me where you&rsquo;re going</a>
+      <a class="btn btn-ghost on-shadow" href="#rankings" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">The rankings</a>
+    </div>
+  </div>
+</header>
+
+<!-- intro -->
+<section class="section">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <p class="deck" style="max-width:46ch;" set:html={g.intro_paras[0]} />
+      {g.intro_paras.slice(1).map((p) => <p class="body-2" style="margin-top:16px; max-width:58ch;" set:html={p} />)}
+    </div>
+    <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
+      <p class="stamp plain" style="font-weight:700; color:var(--brass);">On this page</p>
+      {g.toc.map((l) => (
+        <a class="toc-link" href={l.href} target={ext(l.href) ? '_blank' : undefined} rel={ext(l.href) ? 'noopener sponsored' : undefined}><span set:html={l.label} /> &rarr;</a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- the rankings -->
+<section class="section" id="rankings" style="padding-top:0; scroll-margin-top:70px;">
+  <div class="container">
+    {g.cards.map((c, i) => (
+      <article class={`rk${i % 2 ? ' flip' : ''}`}>
+        <figure class="reveal rk-media">
+          <img src={c.img} alt={c.img_alt} width="1600" height="1100" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
+          {c.img2 && <img src={c.img2} alt="" width="1600" height="1100" loading="lazy" decoding="async" style="margin-top:18px;" />}
+        </figure>
+        <div class="reveal">
+          <span class="rk-num">{c.num}</span>
+          <h2 class="display-l" style="font-size:clamp(1.6rem,3.4vw,2.4rem); margin-top:8px;" set:html={c.name} />
+          <p class="deck" style="margin-top:8px; font-size:1.05rem;" set:html={c.tag} />
+          {c.bestfor && <p class="stamp plain rk-bestfor" set:html={c.bestfor} />}
+          <p class="body-2" style="margin-top:16px;" set:html={c.desc} />
+          <div style="margin-top:20px;">
+            {c.notes.map((n) => (
+              <p class="rk-note"><b set:html={n.b} /> <span set:html={n.t} /></p>
+            ))}
+          </div>
+          {c.perks_label && (
+            <p class="rk-perks">
+              <span set:html={c.perks_label} />{c.perks_items && <span class="rk-perks-x" set:html={' · ' + c.perks_items} />}
+            </p>
+          )}
+          <div class="verdict" style="margin-top:22px;"><p set:html={c.take} /></div>
+          {c.href && <p style="margin-top:22px;"><a class="btn btn-ghost" href={c.href}>Read the full review</a></p>}
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+{(g.winners.length > 0 || g.pairings.length > 0) && (
+  <section class="section band on-shadow" id={g.pairings.length ? 'pairings' : 'winners'} style="scroll-margin-top:70px;">
+    <div class="container">
+      <div class="sb-grid">
+        {g.pairings.length > 0 && (
+          <div class="reveal">
+            <div class="sec-head" style="margin-bottom:28px;">
+              <span class="eyebrow">Trip design</span>
+              <h2 class="display-l" style="font-size:clamp(1.7rem,3vw,2.3rem);">Smart island pairings</h2>
+            </div>
+            <dl class="kv">
+              {g.pairings.map((p) => (
+                <div class="kv-row band-row"><dt style="color:var(--band-ash);" set:html={p.q} /><dd style="color:var(--band-ink);" set:html={p.a} /></div>
+              ))}
+            </dl>
+          </div>
+        )}
+        {g.winners.length > 0 && (
+          <div class="reveal">
+            <div class="sec-head" style="margin-bottom:28px;">
+              <span class="eyebrow">The superlatives</span>
+              <h2 class="display-l" style="font-size:clamp(1.7rem,3vw,2.3rem);">Category winners</h2>
+            </div>
+            <dl class="kv">
+              {g.winners.map((w) => (
+                <div class="kv-row band-row"><dt style="color:var(--band-ash);" set:html={w.cat} /><dd style="color:var(--band-ink); font-weight:400;"><b style="font-weight:500;" set:html={w.w} /></dd></div>
+              ))}
+            </dl>
+          </div>
+        )}
+      </div>
+    </div>
+  </section>
+)}
+
+{g.transfers.length > 0 && (
+  <section class="section" id="transfers" style="scroll-margin-top:70px;">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Getting between the islands</span>
+        <h2 class="display-l">The right hotels only work with the right logistics</h2>
+      </div>
+      <div class="tr-grid reveal">
+        {g.transfers.map((t) => (
+          <div class="tr-tile">
+            <h3 set:html={t.h} />
+            <p set:html={t.p} />
+            <a class="toc-link" href={t.href}><span set:html={t.label} /> &rarr;</a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+{g.kit && (
+  <section class="section" id="kit" style="padding-top:0; scroll-margin-top:70px;">
+    <div class="container" style="max-width:760px;">
+      <div class="kit reveal">
+        <span class="eyebrow" style="display:block; margin-bottom:10px;">Saw the reel? Take this with you</span>
+        <h3 class="display-m">Get the Greece planning kit</h3>
+        <p class="body-2" style="margin-top:12px;">Join my list for instant access to my Greece planning resources &mdash; the Santorini transfer cheat sheet, the ferry rules, and first access to new rankings and collections before they go public.</p>
+        <div style="margin-top:20px;">
+          <script is:inline async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="02920925-682b-4b12-a526-e4fe0939610c"></script>
+          <p class="small" style="margin-top:10px;"><a href="/subscriber-welcome.html" style="color:var(--brass);">Subscribed? Head to your welcome page for the downloads &rarr;</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+)}
+
+<Ask
+  subject={`Inquiry — ${slug}`}
+  page={slug}
+  placeholder={askPlaceholder}
+  deck={askDeck}
+  dark
+/>
+
+</Layout>
+
+<style>
+  .hero-stats { margin: 20px 0 30px; font-family: var(--stamp); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: rgba(242,239,230,.75); max-width: 60ch; line-height: 2; }
+  .hero-stats :global(b) { color: var(--brass-lit); font-weight: 700; }
+
+  .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.5fr 1fr; gap: 80px; } }
+  .intro-grid > * { min-width: 0; }
+  .intro-grid :global(a) { color: var(--brass); }
+  .toc-link { font-size: .72rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .toc-link:hover { text-decoration: underline; }
+
+  .rk { display: grid; gap: 36px; grid-template-columns: 1fr; align-items: start; padding: clamp(44px, 6vw, 72px) 0; border-top: 1px solid var(--hairline); }
+  .rk:first-of-type { border-top: none; padding-top: 0; }
+  @media (min-width: 900px) {
+    .rk { grid-template-columns: 1fr 1.15fr; gap: 64px; }
+    .rk.flip .rk-media { order: 2; }
+  }
+  .rk > * { min-width: 0; }
+  .rk-media { margin: 0; position: sticky; top: 84px; }
+  .rk-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .rk-num { font-family: var(--display); font-weight: 400; font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1; color: var(--brass); font-variant-numeric: tabular-nums; }
+  .rk-bestfor { display: block; margin-top: 14px; font-size: .66rem; color: var(--ash-3); font-weight: 700; }
+  .rk-note { font-size: .96rem; line-height: 1.65; margin-bottom: 13px; padding-left: 16px; position: relative; color: var(--ash); }
+  .rk-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
+  .rk-note :global(b), .rk-note b { color: var(--ink); font-weight: 500; }
+  .rk-perks { margin-top: 18px; font-family: var(--stamp); font-size: .66rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--brass); border: 1px solid var(--hairline); padding: 10px 14px; line-height: 1.8; }
+  .rk-perks .rk-perks-x { color: var(--ash); font-weight: 400; }
+
+  .sb-grid { display: grid; gap: 56px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 980px) { .sb-grid { grid-template-columns: 1fr 1fr; gap: 72px; } }
+  .band-row { border-bottom-color: var(--band-hairline) !important; }
+  .sb-grid .kv { border-top-color: var(--band-hairline); }
+  .sb-grid dd :global(a) { color: var(--brass-lit); }
+
+  .tr-grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 860px) { .tr-grid { grid-template-columns: repeat(3, 1fr); } }
+  .tr-tile { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(24px, 3vw, 32px); display: flex; flex-direction: column; gap: 12px; }
+  .tr-tile h3 { font-family: var(--display); font-weight: 500; font-size: 1.3rem; }
+  .tr-tile p { font-size: .94rem; color: var(--ash); line-height: 1.6; flex: 1; }
+
+  .kit { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(30px, 4vw, 46px); }
+</style>

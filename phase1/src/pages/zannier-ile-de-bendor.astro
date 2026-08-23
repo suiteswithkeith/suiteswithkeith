@@ -1,0 +1,131 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+---
+<Layout
+  canonical="zannier-ile-de-bendor.html"
+  title="Zannier Île de Bendor | Suites With Keith"
+  description="A private island resort off Bandol, France, once the retreat of Paul Ricard, now reimagined by Zannier Hotels — with the rooms worth booking and the Fora perks that come with booking through me."
+  preload="/images/bendor/bendor-hero.jpg"
+  current="guides"
+>
+
+<!-- hero -->
+<header class="hero" style="min-height:min(84svh,780px);">
+  <img class="hero-img" src="/images/bendor/bendor-hero.jpg" alt="Zannier Île de Bendor from the water" width="1900" height="1267" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Featured property &middot; Provence, France</p>
+    <h1 class="display-xl" style="margin-top:18px;">Zannier<br><em>&Icirc;le de Bendor</em></h1>
+    <p class="sub">A private island off Bandol, once Paul Ricard&rsquo;s personal retreat, now reimagined by Zannier Hotels.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="inquire_to_book" data-gtag-location="hero">Inquire to book</a>
+    </div>
+  </div>
+</header>
+
+<!-- the island -->
+<section class="section">
+  <div class="container island-grid">
+    <div class="reveal">
+      <span class="eyebrow">The island</span>
+      <h2 class="display-l" style="margin-top:14px;">A five-minute boat ride, a world away</h2>
+      <p class="body-2" style="margin-top:20px;">Just off the coast of Bandol on the French Riviera sits a tiny private island with an outsized history. &Icirc;le de Bendor was once the personal retreat of pastis magnate Paul Ricard, who spent decades filling it with gardens, art, and a distinctly southern-French sense of leisure.</p>
+      <p class="body-2" style="margin-top:14px;">Zannier Hotels has now reimagined the entire island as a one-of-a-kind resort &mdash; honey-stone villages, a working harbor, a spa built into the rock, and some of the best sunset views on the C&ocirc;te d&rsquo;Azur. The island unfolds across two garden villages, Delos and Soukana, each with its own pool and its own personality, connected by footpaths and electric buggies.</p>
+      <p style="margin-top:24px;"><a href="#inquire" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;">Inquire about availability &rarr;</a></p>
+    </div>
+    <figure class="reveal" style="margin:0;">
+      <img src="/images/bendor/bendor-exterior.jpg" alt="Zannier Île de Bendor — island exterior and harbor" width="1900" height="1267" loading="lazy" decoding="async" style="width:100%; aspect-ratio:4/5; object-fit:cover;" />
+    </figure>
+  </div>
+</section>
+
+<!-- where to stay -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Where to stay</span>
+      <h2 class="display-l">Three rooms worth knowing before you book</h2>
+    </div>
+    <div class="cards reveal" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));">
+      <div class="card">
+        <img src="/images/bendor/bendor-suite-delos-pavilion.jpg" alt="Delos Pavilion Suite — sea-view bedroom" width="1900" height="1267" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Delos village</span><h3>Delos Pavilion Suite</h3><p>Arched windows open straight onto the sea &mdash; the pick for couples who want to wake up to water on both sides.</p></div>
+      </div>
+      <div class="card">
+        <img src="/images/bendor/bendor-suite-soukana-terrace.jpg" alt="Soukana Terrace Junior Suite — living area" width="1900" height="1267" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Soukana village</span><h3>Soukana Terrace Junior Suite</h3><p>Warmer and more residential, with a private terrace tucked into the gardens &mdash; quieter, and closer to the island&rsquo;s pine groves.</p></div>
+      </div>
+      <div class="card">
+        <img src="/images/bendor/bendor-suite-delos.jpg" alt="The Delos Suite — private terrace with loungers" width="1900" height="1267" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Delos village</span><h3>The Delos Suite</h3><p>The island&rsquo;s most private terrace, with its own dining table, sun loungers, and an outdoor soaking tub under the lemon trees.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- on the island -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">On the island</span>
+      <h2 class="display-l">Dining, wellness, and not a single car</h2>
+    </div>
+    <div class="cards reveal" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));">
+      <div class="card">
+        <img src="/images/bendor/bendor-dining-legrandlarge.jpg" alt="Le Grand Large — cliffside dining table" width="1357" height="1900" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Dining</span><h3>Le Grand Large &amp; La Table Delos</h3><p>Cliffside tables at Le Grand Large for sunset, and a striped, yacht-club dining room at La Table Delos for everything else.</p></div>
+      </div>
+      <div class="card">
+        <img src="/images/bendor/bendor-bar-patrick.jpg" alt="Bar Patrick — hand-tiled bar" width="1900" height="1357" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">The ap&eacute;ro</span><h3>Bar Patrick</h3><p>A hand-tiled bar built for a slow pastis at golden hour &mdash; the island&rsquo;s answer to a proper ap&eacute;ro.</p></div>
+      </div>
+      <div class="card">
+        <img src="/images/bendor/bendor-spa-staircase.jpg" alt="Rēsonance Wellness Centre — spiral staircase to plunge pool" width="1357" height="1900" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Wellness</span><h3>R&emacr;sonance Wellness Centre</h3><p>A spiral stone staircase drops straight into a plunge pool, with a second courtyard pool, treatment rooms, and a tea room above.</p></div>
+      </div>
+      <div class="card">
+        <img src="/images/bendor/bendor-buggy.jpg" alt="Electric Mini Kate buggy on the island" width="1267" height="1900" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Getting around</span><h3>By buggy or on foot</h3><p>Electric &ldquo;Mini Kate&rdquo; buggies shuttle guests between villages, the harbor, and the pools &mdash; there are no cars on the island.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- perks -->
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:760px;">
+    <div class="perks reveal">
+      <span class="eyebrow" style="display:block; margin-bottom:10px;">Booking through Suites With Keith</span>
+      <h3 class="display-m">Fora rates perks at &Icirc;le de Bendor</h3>
+      <ul>
+        <li>Upgrade on arrival (subject to availability)</li>
+        <li>Daily breakfast for up to two guests per bedroom, served in the restaurant (already included in property rates)</li>
+        <li>$100 USD equivalent food &amp; beverage credit to use during the stay (not combinable, not valid on room rate, no cash value if not redeemed in full)</li>
+        <li>Early check-in / late check-out (subject to availability)</li>
+        <li>Complimentary Wi-Fi</li>
+      </ul>
+      <p class="small" style="margin-top:18px; color:var(--ash);">Same rate as booking direct &mdash; the perks and my advocacy come with it.</p>
+    </div>
+  </div>
+</section>
+
+<Ask
+  subject="Inquiry — Zannier Île de Bendor"
+  page="zannier-ile-de-bendor"
+  hotel="Zannier Île de Bendor"
+  placeholder="Bendor in June"
+  deck="Dates and a room type &mdash; or just the dates. I&rsquo;ll take it from there."
+  dark
+/>
+
+</Layout>
+
+<style>
+  .island-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 900px) { .island-grid { grid-template-columns: 1.1fr 1fr; gap: 72px; } }
+  .island-grid > * { min-width: 0; }
+  .perks { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(30px, 4vw, 46px); }
+  .perks ul { margin: 22px 0 0; padding: 0; list-style: none; }
+  .perks li { position: relative; padding-left: 22px; font-size: .97rem; line-height: 1.6; color: var(--ink); margin-bottom: 13px; }
+  .perks li::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
+</style>
