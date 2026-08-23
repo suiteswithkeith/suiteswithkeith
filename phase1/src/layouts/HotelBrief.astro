@@ -1,0 +1,153 @@
+---
+// Renders one hand-authored hotel brief from phase1/src/data/hotelbriefs.json.
+import Layout from './Layout.astro';
+import briefs from '../data/hotelbriefs.json';
+
+const { slug } = Astro.props;
+const g = briefs[slug];
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: g.title.split('|')[0].trim(),
+  description: g.description,
+  image: 'https://suiteswithkeith.com' + g.hero_img,
+  author: { '@type': 'Person', name: 'Keith Pence' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Suites With Keith',
+    logo: { '@type': 'ImageObject', url: 'https://suiteswithkeith.com/favicon-32.png' },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://suiteswithkeith.com/hotels/${slug}.html` },
+});
+---
+<Layout
+  canonical={`hotels/${slug}.html`}
+  title={g.title}
+  description={g.description}
+  preload={g.hero_img}
+  current="rankings"
+>
+
+<Fragment slot="head" set:html={`<script type="application/ld+json">${schema}</script>`} />
+
+<!-- hero -->
+<header class="hero" style="min-height:min(78svh,720px);">
+  <img class="hero-img" src={g.hero_img} alt="" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow" set:html={g.eyebrow} />
+    <h1 class="display-xl" style="margin-top:18px;" set:html={g.h1} />
+    <p class="sub" set:html={g.tagline} />
+    <p class="hb-stats" set:html={g.stats.map((s) => `<b>${s.num}</b> ${s.label}`).join(' &nbsp;&middot;&nbsp; ')} />
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="inquire_to_book" data-gtag-location="hotel_hero">Inquire to book</a>
+    </div>
+  </div>
+</header>
+
+<!-- intro + at a glance -->
+<section class="section">
+  <div class="container hb-intro">
+    <div class="reveal">
+      <p class="deck" style="max-width:48ch;" set:html={g.intro_paras[0]} />
+      {g.intro_paras.slice(1).map((p) => <p class="body-2 hb-p" style="margin-top:16px; max-width:58ch;" set:html={p} />)}
+    </div>
+    <div class="reveal">
+      <dl class="kv">
+        {g.glance.map((r) => (
+          <div class="kv-row"><dt set:html={r.label} /><dd class="hb-dd" set:html={r.html} /></div>
+        ))}
+      </dl>
+    </div>
+  </div>
+</section>
+
+{g.extra_html && <Fragment set:html={g.extra_html} />}
+
+<!-- sections -->
+<section class="section band on-shadow">
+  <div class="container hb-cols">
+    {g.sections.map((s) => (
+      <div class="reveal">
+        <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:8px;" set:html={s.kicker} />
+        <h2 class="display-l" style="font-size:clamp(1.5rem,2.6vw,2rem); margin-bottom:20px;" set:html={s.h3} />
+        {s.notes.map((n) => (
+          <p class="hb-note"><b set:html={n.b} /> <span set:html={n.t} /></p>
+        ))}
+        {s.take && <div class="verdict" style="margin-top:24px; border-left-color:var(--brass-lit);"><p class="hb-take" set:html={s.take} /></div>}
+      </div>
+    ))}
+  </div>
+</section>
+
+<!-- perks -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container" style="max-width:760px;">
+    <div class="hb-perks reveal">
+      <span class="eyebrow" style="display:block; margin-bottom:10px;" set:html={g.perks_eyebrow} />
+      <h3 class="display-m" set:html={g.perks_h3} />
+      <p class="body-2 hb-p" style="margin-top:12px;" set:html={g.perks_p} />
+      <p style="margin-top:20px;"><a class="btn btn-ghost" href="#inquire" data-gtag-label="check_availability" data-gtag-location="hotel_perks">Check availability</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ask -->
+<section class="section inquire" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;" set:html={g.cta_eyebrow} />
+    <h2 class="display-l reveal" style="max-width:30ch; margin-inline:auto; font-size:clamp(1.6rem,3vw,2.3rem);" set:html={g.cta_h2} />
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value={g.subject} />
+      <input type="hidden" name="hotel" value={g.hotel_name} />
+      <input type="hidden" name="page" value={`hotels/${slug}.html`} />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when">When are you thinking?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder={g.placeholder} required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name">And where do I send the recommendation?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px;">Anything else? Nights, budget, occasion &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn" data-gtag-label="hotel_inquiry_send" data-gtag-location="hotel_cta">Send</button>
+      <p class="note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+    {g.related.length > 0 && (
+      <p class="reveal" style="margin-top:26px; display:flex; gap:12px 32px; justify-content:center; flex-wrap:wrap;">
+        {g.related.map((r) => (
+          <a href={r.href} style="font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;"><span set:html={r.label} /> &rarr;</a>
+        ))}
+      </p>
+    )}
+  </div>
+</section>
+
+</Layout>
+
+<style is:global>
+  .hb-stats { margin: 20px 0 30px; font-family: var(--stamp); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: rgba(242,239,230,.75); max-width: 60ch; line-height: 2; }
+  .hb-stats b { color: var(--brass-lit); font-weight: 700; }
+  .hb-intro { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .hb-intro { grid-template-columns: 1.5fr 1fr; gap: 80px; } }
+  .hb-p a, .hb-dd a, .hb-take a { color: var(--brass); }
+  .hb-cols { display: grid; gap: 56px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 940px) { .hb-cols { grid-template-columns: 1fr 1fr; gap: 72px; } }
+  .hb-note { font-size: .96rem; line-height: 1.65; margin-bottom: 14px; padding-left: 16px; position: relative; color: var(--band-ash); }
+  .hb-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass-lit); }
+  .hb-note b { color: var(--band-ink); font-weight: 500; }
+  .hb-note a { color: var(--brass-lit); }
+  .hb-take { color: var(--band-ink); }
+  .hb-perks { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(30px, 4vw, 44px); }
+
+  /* optional embedded map section (Capella Sydney) */
+  .cs-map { padding: clamp(64px, 9vw, 110px) 0 0; }
+  .cs-map .container { max-width: var(--container); margin-inline: auto; padding-inline: clamp(20px, 4vw, 40px); }
+  .cs-map .map-card { background: var(--shadow); padding: clamp(16px, 3vw, 36px); }
+  .cs-map .map-scroll { overflow-x: auto; }
+  .cs-map svg { display: block; width: 100%; min-width: 620px; height: auto; font-family: var(--body); }
+  .cs-map .map-caption { font-family: var(--stamp); font-size: .68rem; color: var(--ash); margin-top: 12px; letter-spacing: .04em; }
+</style>
