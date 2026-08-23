@@ -148,7 +148,7 @@ h4.mini{
   padding:1.5rem 1.4rem; display:flex; flex-direction:column; gap:.7rem;
   transition:transform var(--dur-1) var(--ease),box-shadow var(--dur-1) var(--ease);
 }
-.card:hover{transform:translateY(-2px); box-shadow:var(--shadow-m);}
+@media(hover:hover){.card:hover{transform:translateY(-2px); box-shadow:var(--shadow-m);}}
 .card p{font-size:.95rem; color:var(--ink-2); line-height:1.58;}
 .card .tag{
   font-family:var(--stamp); font-size:.68rem; text-transform:uppercase;
@@ -157,7 +157,7 @@ h4.mini{
 
 /* audience cards */
 .aud{border-left:2px solid var(--brass); padding-left:1.3rem; transition:border-color var(--dur-1) var(--ease);}
-.aud:hover{border-left-color:var(--brass-lit);}
+@media(hover:hover){.aud:hover{border-left-color:var(--brass-lit);}}
 .aud .who{font-family:var(--display); font-size:1.28rem; font-weight:500; line-height:1.2;}
 .aud .quote{
   font-family:var(--display); font-style:italic; font-size:1rem;
@@ -258,7 +258,8 @@ td b{font-weight:500;}
   letter-spacing:.16em; text-transform:uppercase; padding:.95rem 1.4rem;
   transition:background var(--dur-1) var(--ease),color var(--dur-1) var(--ease); white-space:nowrap;
 }
-.demo-play:hover{background:var(--band-brass); color:#14150f;}
+@media(hover:hover){.demo-play:hover{background:var(--band-brass); color:#14150f;}}
+.demo-play:active{transform:scale(.98);}
 .ticks{flex:1; display:grid; grid-template-columns:repeat(4,1fr);}
 .tick{
   border-right:1px solid var(--band-rule); padding:.7rem .8rem;
@@ -349,6 +350,72 @@ td b{font-weight:500;}
 footer{padding:3.5rem 0 5rem;}
 footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-transform:uppercase; letter-spacing:.05em;}
 
+/* ─────────── entry paths ─────────── */
+.paths{display:grid; grid-template-columns:1fr; gap:1px; background:var(--rule); border:1px solid var(--rule);}
+@media(min-width:900px){.paths{grid-template-columns:repeat(4,1fr);}}
+.path{background:var(--card); padding:1.3rem 1.2rem; display:flex; flex-direction:column; gap:.5rem;}
+.path .src{font-family:var(--stamp); font-size:.65rem; text-transform:uppercase; letter-spacing:.09em; color:var(--brass);}
+.path .was{font-family:var(--display); font-size:1.05rem; font-weight:500; line-height:1.28;}
+.path .q{font-family:var(--display); font-style:italic; font-size:.94rem; color:var(--ink-2); line-height:1.45;}
+.path .n{font-size:.83rem; color:var(--ink-2); line-height:1.5; margin-top:.15rem;}
+
+/* ─────────── above-fold ledger ─────────── */
+.fold{border:1px solid var(--rule); background:var(--card);}
+.fold-row{display:grid; grid-template-columns:26px 1fr; gap:1rem; padding:.95rem 1.2rem; border-top:1px solid var(--rule); align-items:start;}
+@media(min-width:780px){.fold-row{grid-template-columns:26px 1.1fr 1.4fr; gap:1.6rem; align-items:center;}}
+.fold-row:first-child{border-top:none;}
+.fold-row .r{font-family:var(--stamp); font-size:.8rem; color:var(--brass); font-variant-numeric:tabular-nums;}
+.fold-row .it{font-weight:500; font-size:.97rem; line-height:1.35;}
+.fold-row .an{font-size:.88rem; color:var(--ink-2); line-height:1.5;}
+.fold-cut{
+  display:flex; align-items:center; gap:1rem; padding:.7rem 1.2rem;
+  border-top:1px dashed var(--rule-firm); border-bottom:1px dashed var(--rule-firm);
+  background:var(--ground-2);
+  font-family:var(--stamp); font-size:.66rem; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-2);
+}
+.fold-cut b{color:var(--flag-bad); font-weight:700;}
+.fold-row.below .it,.fold-row.below .an{color:var(--ink-3);}
+
+/* ─────────── live button specimens ─────────── */
+.btnrow{display:flex; flex-wrap:wrap; gap:1rem; align-items:center; margin:.4rem 0 1rem;}
+.btnp,.btns{
+  display:inline-block; font-family:var(--body); font-weight:500; font-size:.72rem;
+  letter-spacing:.16em; text-transform:uppercase; padding:1.05rem 2.1rem;
+  border:1px solid var(--brass); cursor:pointer; text-decoration:none;
+  transition:transform 100ms var(--ease),background var(--dur-1) var(--ease),color var(--dur-1) var(--ease);
+}
+.btnp{background:var(--brass); color:var(--ground);}
+.btns{background:transparent; color:var(--brass);}
+@media(hover:hover){
+  .btnp:hover{background:var(--brass-lit); border-color:var(--brass-lit);}
+  .btns:hover{background:var(--brass); color:var(--ground);}
+}
+.btnp:active,.btns:active{transform:scale(.98);}
+
+/* ─────────── copy test versions ─────────── */
+.vers{display:grid; grid-template-columns:1fr; gap:1.25rem;}
+@media(min-width:960px){.vers{grid-template-columns:repeat(3,1fr);}}
+.ver{border:1px solid var(--rule); background:var(--card); display:flex; flex-direction:column;}
+.ver-h{padding:.75rem 1.15rem; border-bottom:1px solid var(--rule); display:flex; justify-content:space-between; align-items:baseline; gap:.8rem; background:var(--ground-2);}
+.ver-h .lt{font-family:var(--display); font-size:1.15rem; font-weight:500;}
+.ver-h .st{font-family:var(--stamp); font-size:.63rem; text-transform:uppercase; letter-spacing:.09em; color:var(--brass); text-align:right;}
+.ver-b{padding:1.3rem 1.15rem; display:flex; flex-direction:column; gap:.85rem; flex:1;}
+.ver .hl{font-family:var(--display); font-weight:400; font-size:1.62rem; line-height:1.08; letter-spacing:-.01em;}
+.ver .sl{font-size:.92rem; color:var(--ink-2); line-height:1.52;}
+.ver dl{margin:0; display:flex; flex-direction:column; gap:.55rem; border-top:1px solid var(--rule); padding-top:.85rem; margin-top:auto;}
+.ver dt{font-family:var(--stamp); font-size:.62rem; text-transform:uppercase; letter-spacing:.09em; color:var(--ink-3);}
+.ver dd{margin:.1rem 0 0; font-size:.85rem; color:var(--ink-2); line-height:1.45;}
+.ver dd.risk{color:var(--flag-warn);}
+
+/* ─────────── motion character ─────────── */
+.chars{display:grid; grid-template-columns:1fr; gap:0; border:1px solid var(--rule); background:var(--card);}
+.char{display:grid; grid-template-columns:1fr; gap:.3rem; padding:1.05rem 1.25rem; border-top:1px solid var(--rule);}
+@media(min-width:820px){.char{grid-template-columns:150px 1fr 1fr; gap:1.6rem; align-items:center;}}
+.char:first-child{border-top:none;}
+.char .adj{font-family:var(--display); font-size:1.12rem; font-weight:500;}
+.char .means{font-size:.89rem; color:var(--ink-2); line-height:1.5;}
+.char .phys{font-family:var(--stamp); font-size:.72rem; color:var(--brass); line-height:1.5;}
+
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important;}
   .beat{opacity:1; transform:none;}
@@ -363,13 +430,13 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
     <div>
       <p class="eyebrow">Creative direction &middot; Suites With Keith</p>
       <h1>Plaster<br>&amp; <em>Shadow</em></h1>
-      <p class="deck">A website blueprint for a travel advisor whose actual product is judgment &mdash; not photographs, and not perks.</p>
+      <p class="deck">A website blueprint for a travel advisor whose actual product is judgment &mdash; not photographs, and not perks. Identity, conversion, interaction and build order.</p>
     </div>
     <div class="mast-meta">
       <div><span>Client</span><b>suiteswithkeith.com</b></div>
       <div><span>Audited</span><b>193 pages &middot; 123 hotels</b></div>
       <div><span>Stack today</span><b>Static HTML &middot; GH Pages</b></div>
-      <div><span>Scope</span><b>Identity &middot; IA &middot; Build</b></div>
+      <div><span>Scope</span><b>Identity &middot; IA &middot; Conversion<br>Interaction &middot; Build</b></div>
     </div>
   </div>
 </header>
@@ -568,6 +635,166 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
   </div>
 </section>
 
+<!-- ══════════ CONVERSION ══════════ -->
+<section id="conversion">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">The section that decides everything</p>
+      <h2>Nobody converts on a hero. They only fail to.</h2>
+      <p class="lede">The hero cannot close anyone &mdash; a honeymoon is a five-figure decision made over weeks. What it can do is lose them, and it does that in about four seconds. So the job is not persuasion. It is removing every reason to leave, then asking for something so small that saying yes costs nothing.</p>
+    </div>
+
+    <h4 class="mini">What they were doing sixty seconds ago</h4>
+    <p class="read body-2" style="margin-bottom:1.4rem;">Four traffic sources, four different mental states. The mistake is writing one hero for the average of them &mdash; the average visitor does not exist. Write for the second column, because it is the largest and the coldest.</p>
+    <div class="paths" style="margin-bottom:1.2rem;">
+      <div class="path">
+        <span class="src">Instagram &middot; warm</span>
+        <span class="was">Scrolling, half-bored</span>
+        <span class="q">&ldquo;Is this a real business or a content account?&rdquo;</span>
+        <span class="n">Low intent, high trust. Already likes you. Needs to learn you actually book trips &mdash; many followers do not know that.</span>
+      </div>
+      <div class="path">
+        <span class="src">Google &middot; cold</span>
+        <span class="was">Comparing hotels in eleven tabs</span>
+        <span class="q">&ldquo;Is this another affiliate blog?&rdquo;</span>
+        <span class="n">High intent, zero trust. Arrives mid-research and deeply pattern-matched against SEO spam. The hardest and most valuable arrival.</span>
+      </div>
+      <div class="path">
+        <span class="src">Referral &middot; hot</span>
+        <span class="was">Told a name by a friend</span>
+        <span class="q">&ldquo;Am I in the right place?&rdquo;</span>
+        <span class="n">Highest intent on the site. Needs confirmation and a contact route, nothing else. Do not sell to this person &mdash; they are already sold.</span>
+      </div>
+      <div class="path">
+        <span class="src">Direct &middot; returning</span>
+        <span class="was">Thinking about it since last week</span>
+        <span class="q">&ldquo;What was the next step again?&rdquo;</span>
+        <span class="n">Came back deliberately. The hero should not re-pitch them; it should present the action immediately.</span>
+      </div>
+    </div>
+    <p class="read body-2" style="margin-bottom:2.5rem;"><b>Consequence:</b> the referral and the returning visitor need the action <em>visible</em>, not argued for. The Google arrival needs proof before anything else. These are compatible only if the proof <em>is</em> the headline &mdash; which is what all three test versions below do.</p>
+
+    <hr class="rule" style="margin-bottom:2.5rem;">
+
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="stack">
+        <h4 class="mini">The one promise that matters</h4>
+        <p>It is not &ldquo;I will plan your trip.&rdquo; It is not &ldquo;exclusive perks&rdquo; &mdash; Amex sells those too. The promise underneath every testimonial on your site is this:</p>
+        <div class="callout"><p>You will not get this wrong, and you will not have to become an expert to avoid it.</p></div>
+        <p class="body-2">Every headline candidate is measured against that sentence. If it does not deliver it, it is decoration.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">The promise you are currently making</h4>
+        <p class="body-2"><b>&ldquo;Get In Touch&rdquo; appears 182 times across the site.</b> It is the dominant call to action by a wide margin, and it is a verb with no outcome attached &mdash; it asks the visitor to imagine what happens next and to want it enough to act. Nobody does that work for you.</p>
+        <p class="body-2">The inquiry form sits near 500vh with five visible fields, and the line directly above the submit button promises a reply &ldquo;within a couple of days.&rdquo; That is the last thing a visitor reads before deciding. For the Rescue segment it is disqualifying.</p>
+      </div>
+    </div>
+
+    <h4 class="mini">Evidence above the fold, ranked</h4>
+    <p class="read body-2" style="margin-bottom:1.4rem;">The mobile fold is roughly 640px on an iPhone with the Safari chrome visible &mdash; far less room than a desktop mockup suggests. Everything above it competes for the same few hundred pixels, so rank ruthlessly and cut at the line.</p>
+    <div class="fold" style="margin-bottom:2.5rem;">
+      <div class="fold-row"><span class="r">1</span><span class="it">The number, in the headline</span><span class="an">Answers &ldquo;is this real?&rdquo; before any other question forms. Checkable, and nobody invents a figure that specific.</span></div>
+      <div class="fold-row"><span class="r">2</span><span class="it">A photograph that could only be yours</span><span class="an">An interior, not a vista. Proves presence in a way no sentence can, and does it pre-verbally.</span></div>
+      <div class="fold-row"><span class="r">3</span><span class="it">The verification stamp</span><span class="an">Dated and countable. Converts a claim into a record. This is the single most differentiating pixel on the page.</span></div>
+      <div class="fold-row"><span class="r">4</span><span class="it">The primary action</span><span class="an">Must be fully visible, not clipped by the fold. A half-visible button reads as a page that has not finished loading.</span></div>
+      <div class="fold-row"><span class="r">5</span><span class="it">One credential line</span><span class="an">Virtuoso, and the fee position. Small type. Answers &ldquo;what does this cost me?&rdquo; &mdash; the unasked question that stops the most people.</span></div>
+      <div class="fold-cut"><b>The fold</b> &middot; ~640px, iPhone, Safari with chrome &middot; everything below is a bonus, not a plan</div>
+      <div class="fold-row below"><span class="r">6</span><span class="it">Testimonial excerpt</span><span class="an">Cut it. Social proof this early competes with the number and wins nothing &mdash; nobody trusts a testimonial from a stranger they met four seconds ago.</span></div>
+      <div class="fold-row below"><span class="r">7</span><span class="it">Preferred-partner logo wall</span><span class="an">Cut it. It says &ldquo;I am accredited,&rdquo; which the visitor already assumed, at the cost of the most expensive space on the site.</span></div>
+    </div>
+
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="stack">
+        <h4 class="mini">The action, within ten seconds</h4>
+        <p>Be honest about what ten seconds can buy. It cannot buy a five-field form with name, email, dates, occasion and a paragraph about the trip. It can buy <em>one keystroke of commitment</em>.</p>
+        <p><b>The primary button opens a single field, not the form:</b></p>
+        <div class="callout"><p>Where and when?</p></div>
+        <p class="body-2">One input. Free text. &ldquo;Santorini in June&rdquo; is a complete answer. Name and email are asked <em>after</em> that field is filled, when the visitor has already invested and abandoning feels like a loss. The remaining fields never appear at all &mdash; you ask them in the reply, which is a conversation rather than a form.</p>
+        <p class="body-2">This is the highest-confidence recommendation in the document. Progressive disclosure on a first-touch inquiry reliably beats a full form, and your current form is long, late, and preceded by a two-day promise.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">The supporting image</h4>
+        <p class="body-2"><b>Subject:</b> an interior at dusk &mdash; a lit lamp, an open door to the sea, a room that reads as occupied. A book face-down, a towel, an unmade corner. Human evidence.</p>
+        <p class="body-2"><b>Composition:</b> weight the subject to one third and leave a naturally dark, quiet zone for the type. Choose a photograph that already has that zone rather than manufacturing one with a heavy scrim &mdash; an overlay past about 35% is how a good photograph gets ruined in service of legibility.</p>
+        <p class="body-2"><b>Spec:</b> AVIF under 180KB, 1600px max, srcset at 640 / 1024 / 1600, explicit width and height, <span class="stamp">fetchpriority="high"</span>, preloaded, and a real <span class="stamp">&lt;img&gt;</span> &mdash; never a CSS background.</p>
+        <p class="body-2"><b>Never:</b> a drone shot of the caldera, an infinity pool from behind, or a couple in matching linen walking away from camera. Each one is a signal that the image was bought rather than taken.</p>
+      </div>
+    </div>
+
+    <h4 class="mini">The two buttons</h4>
+    <p class="read body-2" style="margin-bottom:1rem;">Hover and press these &mdash; they carry the exact specification from the interaction section below.</p>
+    <div class="btnrow">
+      <button class="btnp" type="button">Tell me where you&rsquo;re going</button>
+      <button class="btns" type="button">See the 123 hotels</button>
+    </div>
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="stack">
+        <p class="body-2"><b>Primary &mdash; &ldquo;Tell me where you&rsquo;re going.&rdquo;</b> A person asking a question, not a system verb. It states exactly what happens on click, and it is answerable in four words, which is what makes the one-field prompt behind it feel inevitable rather than abrupt.</p>
+      </div>
+      <div class="stack">
+        <p class="body-2"><b>Secondary &mdash; &ldquo;See the 123 hotels.&rdquo;</b> Not &ldquo;Learn more.&rdquo; The secondary button exists for the majority who are not ready to speak to anyone, and it should send them into the proof, not into an About page. It also quietly restates the number for anyone who skipped the headline.</p>
+      </div>
+    </div>
+
+    <h4 class="mini">Three versions worth testing</h4>
+    <p class="read body-2" style="margin-bottom:1.4rem;">These are three different strategies, not three phrasings of one. Each makes a distinct bet about what the cold Google arrival needs first.</p>
+    <div class="vers" style="margin-bottom:2rem;">
+      <div class="ver">
+        <div class="ver-h"><span class="lt">A</span><span class="st">The Count<br>evidence-first</span></div>
+        <div class="ver-b">
+          <p class="hl">I&rsquo;ve slept in 123 of them.</p>
+          <p class="sl">Hotel bookings, honeymoons and itineraries from an advisor who tours the room before recommending it. The booking itself is complimentary.</p>
+          <dl>
+            <dt>Bet</dt><dd>Specificity beats promise. Proof disarms the affiliate-blog reflex fastest.</dd>
+            <dt>Strongest for</dt><dd>Cold Google traffic.</dd>
+            <dt>Risk</dt><dd class="risk">Says nothing about what the visitor gets. Impressive, but not yet useful.</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="ver">
+        <div class="ver-h"><span class="lt">B</span><span class="st">The Relief<br>outcome-first</span></div>
+        <div class="ver-b">
+          <p class="hl">You will not get this trip wrong.</p>
+          <p class="sl">123 hotels toured in person. Tell me the dates and I&rsquo;ll tell you which room to book &mdash; and which one to avoid.</p>
+          <dl>
+            <dt>Bet</dt><dd>Naming the fear outperforms naming the credential. Delivers the core promise verbatim.</dd>
+            <dt>Strongest for</dt><dd>Honeymooners; highest emotional stakes.</dd>
+            <dt>Risk</dt><dd class="risk">Negative framing, and it can read as presumptuous from a stranger.</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="ver">
+        <div class="ver-h"><span class="lt">C</span><span class="st">The Question<br>demonstration-first</span></div>
+        <div class="ver-b">
+          <p class="hl">Cosme or Parilio?</p>
+          <p class="sl">I&rsquo;ve stayed in both. I&rsquo;ll tell you which one is right for you, and I don&rsquo;t charge for the recommendation.</p>
+          <dl>
+            <dt>Bet</dt><dd>Demonstrating judgment beats claiming it. Makes the hero the product rather than an ad for it.</dd>
+            <dt>Strongest for</dt><dd>Everyone. Highest differentiation of the three.</dd>
+            <dt>Risk</dt><dd class="risk">Destination-locked. Needs to swap by traffic source or it is noise to a Maldives visitor.</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid g2">
+      <div class="stack">
+        <h4 class="mini">How to test this honestly</h4>
+        <p class="body-2">A solo advisor site almost certainly does not have the traffic for a clean simultaneous split &mdash; at typical volumes a true A/B on inquiry rate would need months to reach significance, and you would ship nothing while waiting.</p>
+        <p class="body-2"><b>Run them sequentially instead.</b> Three to four weeks each, same season, same ad spend. It is a weaker method and you should treat the result as a strong hint rather than a proof, but it is the honest option at this scale.</p>
+        <p class="body-2"><b>Better: test on the funnel page.</b> <span class="stamp">greece-last-minute.html</span> already concentrates Instagram traffic onto one page with one intent. Variants land there faster and cleaner than on the homepage.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">What to measure</h4>
+        <p class="body-2"><b>Primary:</b> inquiries per thousand sessions. The only number that pays.</p>
+        <p class="body-2"><b>Secondary:</b> share of sessions scrolling past 100vh &mdash; this isolates whether the hero earned the next screen, and it moves long before the primary metric does, which makes it the one you can actually read in four weeks.</p>
+        <p class="body-2"><b>Qualitative, and most valuable:</b> the share of inquiries that name a specific hotel. It tells you whether the judgment is landing, and it is the leading indicator that version C is working.</p>
+        <p class="body-2"><b>Do not measure:</b> time on page or bounce. On a hero, a fast exit and a fast conversion look identical to both.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ══════════ VISUAL IDENTITY ══════════ -->
 <section id="identity">
   <div class="col">
@@ -736,36 +963,88 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
   </div>
 </section>
 
-<!-- ══════════ MOTION ══════════ -->
+<!-- ══════════ INTERACTION ══════════ -->
 <section id="motion">
   <div class="col">
     <div class="sec-head">
-      <p class="eyebrow">Motion system</p>
-      <h2>Four behaviours. Everything else is banned.</h2>
-      <p class="lede">Across all 193 pages you currently have three keyframe animations and three intersection observers &mdash; essentially no motion at all. That is a better starting point than the opposite problem, because restraint is the hard part and you have not spent anything yet. You also already honour <span class="stamp">prefers-reduced-motion</span> in 32 places, which is real discipline worth preserving.</p>
+      <p class="eyebrow">Interaction design</p>
+      <h2>How the site moves</h2>
+      <p class="lede">Across all 193 pages you currently have three keyframe animations and three intersection observers &mdash; effectively no motion at all. That is a far better place to start from than the opposite problem, because restraint is the hard part and you have not spent anything yet. You also already honour <span class="stamp">prefers-reduced-motion</span> in 32 places, which is real discipline. The task is to add four behaviours and refuse the rest.</p>
     </div>
 
+    <h4 class="mini">Personality, translated into physics</h4>
+    <p class="read body-2" style="margin-bottom:1.4rem;">Brand adjectives are useless to an engineer until they become numbers. These five are the ones your own writing and client feedback keep landing on &mdash; here is what each one costs in milliseconds.</p>
+    <div class="chars" style="margin-bottom:2.5rem;">
+      <div class="char"><span class="adj">Assured</span><span class="means">Nothing hesitates, nothing bounces back. A confident thing arrives once and stays.</span><span class="phys">No spring, no overshoot, no elastic easing. Ever.</span></div>
+      <div class="char"><span class="adj">Unhurried</span><span class="means">The brand does not rush the visitor, so the interface does not either &mdash; but slow is not the same as laggy.</span><span class="phys">Entrances at the long end (520ms). Responses to input always under 180ms.</span></div>
+      <div class="char"><span class="adj">Weighted</span><span class="means">Things settle rather than snap. Weight is what reads as expensive; nothing cheap feels heavy.</span><span class="phys">One decelerating curve everywhere: cubic-bezier(.2,.6,.2,1)</span></div>
+      <div class="char"><span class="adj">Quiet</span><span class="means">No element announces itself. If a visitor notices the animation, the animation failed.</span><span class="phys">Travel distances of 8px, never 40px. Opacity does most of the work.</span></div>
+      <div class="char"><span class="adj">Precise</span><span class="means">A hotel inspector&rsquo;s brand. No organic wobble, no randomised delays, no drift.</span><span class="phys">Fixed 60ms stagger, capped at five siblings. No randomness anywhere.</span></div>
+    </div>
+
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="stack">
+        <h4 class="mini">Where motion carries meaning</h4>
+        <p class="body-2"><b>The stamp drawing itself.</b> The one signature moment. Verification is the brand thesis, so the mark that asserts it earns an animation nothing else gets.</p>
+        <p class="body-2"><b>The hero sequence.</b> Only on first visit in a session. It paces the argument so the number lands before the action appears.</p>
+        <p class="body-2"><b>Filter results reordering.</b> On the Index, motion is genuinely informational &mdash; it shows that the set changed rather than that the page reloaded.</p>
+        <p class="body-2"><b>Press feedback.</b> The only motion that is strictly functional. It confirms a tap was received, which on mobile is the difference between one tap and three.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">Where motion only costs</h4>
+        <p class="body-2"><b>Reveal on every element.</b> When everything animates in, the page feels like it is still loading. Reveal containers, not their contents.</p>
+        <p class="body-2"><b>Anything scroll-linked.</b> Parallax and scrub effects tie frame rate to scroll and are the single most common cause of jank on mid-range Android.</p>
+        <p class="body-2"><b>Counters that count up.</b> &ldquo;123&rdquo; animating from zero delays the most important fact on the site for 800ms to perform having a fact.</p>
+        <p class="body-2"><b>Page transitions longer than 200ms.</b> Any navigation delay is a tax paid by the visitors who already decided to go &mdash; your most engaged ones.</p>
+      </div>
+    </div>
+
+    <h4 class="mini">The mobile performance budget</h4>
+    <p class="read body-2" style="margin-bottom:1.4rem;">Every number here is enforceable in CI. A budget nobody checks is a wish, and your image audit is what happens when nothing checks.</p>
+    <div class="tw" style="margin-bottom:2.5rem;">
+      <table>
+        <thead><tr><th>Constraint</th><th>Budget</th><th>Why this number</th></tr></thead>
+        <tbody>
+          <tr><td>Animated properties</td><td class="num"><b>transform &amp; opacity only</b></td><td>The only two the compositor handles without the main thread. Animating width, top, margin or box-shadow forces layout on every frame.</td></tr>
+          <tr><td>Motion JavaScript</td><td class="num"><b>&lt; 3KB</b></td><td>One IntersectionObserver and roughly forty lines. No GSAP, no Framer Motion, no AOS &mdash; each is heavier than every animation on this site combined.</td></tr>
+          <tr><td>Frame rate floor</td><td class="num"><b>60fps on a 4-year-old Android</b></td><td>Not on your phone. Test on the slowest device in the audience, throttled 4&times; in DevTools.</td></tr>
+          <tr><td>Hero drift on mobile</td><td class="num"><b>Disabled &lt; 768px</b></td><td>A 20-second scale burns battery for an effect that is imperceptible at that size.</td></tr>
+          <tr><td>Reveal distance on mobile</td><td class="num"><b>8px &rarr; 4px</b></td><td>Short viewports mean elements enter closer to the edge; the full travel reads as a stutter.</td></tr>
+          <tr><td><span class="stamp">will-change</span></td><td class="num"><b>Applied then removed</b></td><td>Set on animation start, dropped on completion. Left in a stylesheet it permanently promotes layers and exhausts memory on low-end devices.</td></tr>
+          <tr><td>Concurrent animations</td><td class="num"><b>&le; 5</b></td><td>The stagger cap exists for this reason as much as for taste.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4 class="mini">The specification</h4>
     <div class="mo" style="margin-bottom:1.4rem;">
-      <div class="mo-row"><span class="nm">Reveal on enter</span><span class="ds">Opacity 0&rarr;1 with an 8px rise. Fires once, never re-triggers on scroll back. Stagger siblings by 60ms, capped at five.</span><span class="vl">520ms &middot; ease-out &middot; IO threshold .15</span></div>
-      <div class="mo-row"><span class="nm">Hover lift</span><span class="ds">Cards and hotel records only. 2px rise plus shadow. Never on text links &mdash; those get an underline offset shift.</span><span class="vl">180ms &middot; translateY(-2px)</span></div>
-      <div class="mo-row"><span class="nm">Hero drift</span><span class="ds">A single slow scale on the hero photograph. Barely perceptible; if a viewer notices it, it is too fast.</span><span class="vl">20s &middot; scale 1&rarr;1.04 &middot; linear</span></div>
-      <div class="mo-row"><span class="nm">Stamp draw</span><span class="ds">The verification mark draws its border and fades its text in. The one signature moment, reserved for the brand&rsquo;s core claim.</span><span class="vl">280ms border &middot; 180ms text</span></div>
+      <div class="mo-row"><span class="nm">Entry &middot; hero</span><span class="ds">Four-beat sequence at 0 / 600 / 1400 / 2200ms. Fires once per session, stored in sessionStorage &mdash; a returning visitor gets the finished state instantly. Nothing is more irritating than waiting through the same reveal twice.</span><span class="vl">3000ms total &middot; once per session</span></div>
+      <div class="mo-row"><span class="nm">Entry &middot; every other page</span><span class="ds">None. The content is simply there. A guide or a hotel record has no argument to pace, and a load animation on a page reached by deliberate navigation only delays a visitor who already knows what they came for.</span><span class="vl">0ms</span></div>
+      <div class="mo-row"><span class="nm">Scroll &middot; reveal</span><span class="ds">Opacity 0&rarr;1 with an 8px rise. Once, never re-triggering on scroll back. Applied to section containers, not to individual paragraphs.</span><span class="vl">520ms &middot; IO threshold .15 &middot; 60ms stagger, max 5</span></div>
+      <div class="mo-row"><span class="nm">Scroll &middot; sticky</span><span class="ds">Two elements only: the inquiry affordance, and the comparison table header so column identity survives a long scroll. Sticky is not motion; it is orientation.</span><span class="vl">position:sticky &middot; no JS</span></div>
+      <div class="mo-row"><span class="nm">Scroll &middot; hero drift</span><span class="ds">A single slow scale on the hero photograph, desktop only. If a viewer notices it, it is running too fast.</span><span class="vl">20s &middot; scale 1&rarr;1.04 &middot; linear</span></div>
+      <div class="mo-row"><span class="nm">Hover</span><span class="ds">Cards lift 2px with a shadow step. Text links shift underline offset rather than colour. All of it wrapped in a hover-capable media query so touch devices never inherit a stuck hover state.</span><span class="vl">180ms &middot; @media (hover:hover)</span></div>
+      <div class="mo-row"><span class="nm">Press</span><span class="ds">Scale to 0.98 on active, with a one-step background darken. This matters more on mobile than any other behaviour on the list: on touch it is the only confirmation a tap registered, and its absence is what makes people tap three times.</span><span class="vl">100ms &middot; scale(.98) &middot; 44px min target</span></div>
+      <div class="mo-row"><span class="nm">Page transition</span><span class="ds">Cross-fade only, via the View Transitions API &mdash; built into Astro. No slides, no shared-element flights, no held navigation. Where the API is unsupported it degrades to an instant swap, which is a perfectly good outcome.</span><span class="vl">180ms &middot; opacity only</span></div>
+      <div class="mo-row"><span class="nm">Reduced motion</span><span class="ds">Every behaviour above collapses to opacity-only or to nothing. The hero shows its finished state immediately. The page must be complete and comprehensible with all motion removed &mdash; a meaningful share of a travel audience browses with this setting on.</span><span class="vl">All durations &rarr; 0.01ms</span></div>
     </div>
 
     <div class="grid g2">
       <div class="stack">
-        <h4 class="mini">Tokens</h4>
-        <p class="body-2"><span class="stamp">--dur-1: 180ms</span> &mdash; state changes, hovers, focus.<br><span class="stamp">--dur-2: 280ms</span> &mdash; disclosure, filters, menu.<br><span class="stamp">--dur-3: 520ms</span> &mdash; entrances only.<br><span class="stamp">--ease: cubic-bezier(.2,.6,.2,1)</span> &mdash; one curve for everything. A decelerating curve reads as weight, and weight reads as expensive.</p>
-        <p class="body-2"><b>Budget:</b> one orchestrated moment per page, everything else micro. On the homepage that moment is the hero sequence. On a hotel record it is the stamp.</p>
+        <h4 class="mini">The baseline: things that never move</h4>
+        <p class="body-2">Navigation and logo. Prices and fees. The verification stamp once drawn. Form labels, validation messages and error text. Table data. Any block of running prose. The hero on a repeat visit.</p>
+        <p class="body-2"><b>The governing rule:</b> if a visitor could plausibly be reading it, it does not move. Motion on text the eye is already tracking is not styling &mdash; it is an interruption, and it is the fastest way to make an expensive site feel cheap.</p>
+        <p class="body-2">The corollary is a layout rule, not an animation one: nothing may shift because an asset arrived late. That is what the intrinsic dimensions on all 768 images buy you, and it is why Phase 0 comes before any of this.</p>
       </div>
       <div class="stack">
         <h4 class="mini">Banned outright</h4>
         <div class="banned">
-          <span>Parallax layers</span><span>Scroll-jacking</span><span>Counters that count up</span>
-          <span>Text scramble</span><span>Autoplay video</span><span>Carousels</span>
-          <span>Reveal-on-every-element</span><span>Cursor followers</span><span>Page transitions</span>
+          <span>Parallax layers</span><span>Scroll-jacking</span><span>Scroll-scrubbed video</span>
+          <span>Counters that count up</span><span>Text scramble</span><span>Autoplay video</span>
+          <span>Carousels</span><span>Cursor followers</span><span>Reveal-on-every-element</span>
+          <span>Loading spinners</span><span>Skeleton screens</span><span>Marquees</span>
         </div>
-        <p class="body-2" style="margin-top:1.2rem;">Each of these reads as a template a competitor also bought. Under reduced-motion every behaviour above collapses to opacity-only or nothing at all &mdash; and the page must still be complete, because a meaningful share of your audience travels with that setting on.</p>
+        <p class="body-2" style="margin-top:1.2rem;">Each of these reads as a template a competitor also bought. The last two deserve a note: on a static site nothing should ever be slow enough to need a spinner or a skeleton, so if one becomes necessary the correct fix is upstream in Phase 0, not a placeholder that performs speed while delivering the opposite.</p>
       </div>
     </div>
   </div>
