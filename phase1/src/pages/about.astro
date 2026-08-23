@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 ---
 <Layout
+  canonical="about.html"
   title="About Keith | Suites With Keith"
   description="Who plans your trip, what it costs, and how it works. Hotel bookings are complimentary; the judgment comes with them."
   current="about"
@@ -80,7 +81,7 @@ import Layout from '../layouts/Layout.astro';
     <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">That&rsquo;s the whole form. I&rsquo;ll take it from there.</p>
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
       <input type="hidden" name="_subject" value="Inquiry — About page" />
-      <input type="hidden" name="page" value="phase1/about" />
+      <input type="hidden" name="page" value="about" />
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
       <div class="step1">
         <label for="q-when">Where and when?</label>

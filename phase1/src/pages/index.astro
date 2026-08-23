@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 ---
 <Layout
+  canonical="index.html"
   title="Suites With Keith | Better Rooms. Better Trips."
   description="Hotel recommendations from an advisor who has stood in the rooms. 38 hotels toured and stayed across the Cyclades; booking is complimentary."
   preload="/images/personal/gundari-sunset.jpg"
@@ -16,8 +17,8 @@ import Layout from '../layouts/Layout.astro';
     <p class="sub">I checked into the Cyclades so you don&rsquo;t have to guess. Hotel recommendations from the rooms themselves &mdash; and the booking is complimentary.</p>
     <p class="stamp">Cyclades &middot; toured &amp; stayed &middot; 2025</p>
     <div class="hero-ctas">
-      <a class="btn" href="#inquire">Tell me where you&rsquo;re going</a>
-      <a class="btn btn-ghost on-shadow" href="/hotels/cosme-paros.html" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">See the hotels</a>
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Tell me where you&rsquo;re going</a>
+      <a class="btn btn-ghost on-shadow" href="/best-hotels-greece.html" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">See the hotels</a>
     </div>
   </div>
 </header>
@@ -46,18 +47,18 @@ import Layout from '../layouts/Layout.astro';
       <p class="deck" style="margin-top:16px; max-width:44ch;">Paros&rsquo; two best hotels are ten minutes apart and nothing alike. No hotel will answer this question. I will &mdash; it takes about thirty seconds.</p>
     </div>
     <div class="choose reveal">
-      <a class="choose-col" href="/compare/cosme-vs-parilio.html" style="text-decoration:none;">
+      <a class="choose-col" href="/cosme-vs-parilio-paros.html" style="text-decoration:none;">
         <span class="eyebrow">Choose Cosme</span>
         <h3>If you want to walk to dinner</h3>
         <p class="lead">A true beach out front, Naousa on foot, and entry rooms bigger than most hotels&rsquo; junior suites. You won&rsquo;t think about a car once.</p>
       </a>
-      <a class="choose-col" href="/compare/cosme-vs-parilio.html" style="text-decoration:none;">
+      <a class="choose-col" href="/cosme-vs-parilio-paros.html" style="text-decoration:none;">
         <span class="eyebrow">Choose Par&imacr;lio</span>
         <h3>If you want to be alone</h3>
         <p class="lead">Architecture, quiet, and a private pool you&rsquo;ll actually spend the afternoon in. For most honeymoons, this is the one.</p>
       </a>
     </div>
-    <p class="reveal" style="margin-top:26px;"><a href="/compare/cosme-vs-parilio.html" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;">Read the full head-to-head &rarr;</a></p>
+    <p class="reveal" style="margin-top:26px;"><a href="/cosme-vs-parilio-paros.html" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;">Read the full head-to-head &rarr;</a></p>
   </div>
 </section>
 
@@ -85,7 +86,7 @@ import Layout from '../layouts/Layout.astro';
       <span class="eyebrow">The Greece Collection &middot; Issue No. 01</span>
       <h2 class="display-l">The field notes, in print</h2>
       <p class="deck" style="margin-top:16px; max-width:40ch;">A firsthand journal of the Cyclades &mdash; 38 hotels, seven destination guides, and the research behind every verdict on this site.</p>
-      <p style="margin-top:26px;"><a class="btn btn-ghost" href="/index.html#collection">Read Issue No. 01</a></p>
+      <p style="margin-top:26px;"><a class="btn btn-ghost" href="/greece-collection.html">Read Issue No. 01</a></p>
     </div>
     <figure class="reveal" style="margin:0; max-width:520px;">
       <img src="/images/personal/greece-collection-cover-mockup.jpg" alt="The Greece Collection, Issue No. 01 — printed magazine" width="1200" height="900" loading="lazy" decoding="async" style="box-shadow:0 24px 60px rgba(22,23,18,.18);" />
@@ -101,19 +102,19 @@ import Layout from '../layouts/Layout.astro';
       <h2 class="display-l">Where I plan most often</h2>
     </div>
     <div class="cards four reveal">
-      <a class="card" href="#inquire">
-        <img src="/images/proposals/maldives-overwater.jpg" alt="Overwater villas in the Maldives" width="1600" height="1200" loading="lazy" decoding="async" />
+      <a class="card" href="/sample-proposal.html">
+        <img src="/images/proposals/divider-overwater.jpg" alt="Overwater villas in the Maldives" width="1600" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">Honeymoon</span><h3>The Maldives</h3><p>Three overwater itineraries, compared side by side.</p><span class="go">Explore &rarr;</span></div>
       </a>
-      <a class="card" href="#inquire">
-        <img src="/images/proposals/lake-como-garden.jpg" alt="Gardens meeting the water at Lake Como" width="1600" height="1200" loading="lazy" decoding="async" />
+      <a class="card" href="/sample-proposal-lake-como.html">
+        <img src="/images/proposals/lake-como/passalacqua/garden-lake.jpg" alt="Gardens meeting the water at Lake Como" width="1600" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">Lakeside</span><h3>Lake Como</h3><p>Four of the lake&rsquo;s finest hotels, compared.</p><span class="go">Explore &rarr;</span></div>
       </a>
-      <a class="card" href="#inquire">
-        <img src="/images/proposals/paris/crillon-pool.jpg" alt="The pool at Hôtel de Crillon, Paris" width="1600" height="1200" loading="lazy" decoding="async" />
+      <a class="card" href="/sample-proposal-paris.html">
+        <img src="/images/proposals/paris/crillon/pool.jpg" alt="The pool at Hôtel de Crillon, Paris" width="1600" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">City &amp; culture</span><h3>Paris</h3><p>Five palace hotels, compared from stays and tours.</p><span class="go">Explore &rarr;</span></div>
       </a>
-      <a class="card" href="#inquire">
+      <a class="card" href="/napa-sonoma.html">
         <img src="/images/napa/madrona.jpg" alt="The Madrona, Sonoma wine country" width="1800" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">Wine country</span><h3>Napa &amp; Sonoma</h3><p>Nine hotels, ranked from personal stays.</p><span class="go">Explore &rarr;</span></div>
       </a>
@@ -128,8 +129,8 @@ import Layout from '../layouts/Layout.astro';
     <h2 class="display-l reveal">Where and when?</h2>
     <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">&ldquo;Santorini in June&rdquo; is a complete answer. I&rsquo;ll take it from there.</p>
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
-      <input type="hidden" name="_subject" value="Inquiry — Phase 1 preview" />
-      <input type="hidden" name="page" value="phase1/index" />
+      <input type="hidden" name="_subject" value="Website Inquiry" />
+      <input type="hidden" name="page" value="index" />
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
       <div class="step1">
         <label for="q-when">Where and when?</label>

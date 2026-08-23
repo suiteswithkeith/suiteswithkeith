@@ -1,7 +1,8 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro';
 ---
 <Layout
+  canonical="paros.html"
   title="Paros | Suites With Keith"
   description="Keith's Paros guide: where to stay, the room to book at each hotel, three perfect days, and the ferry rules that save your trip."
   current="guides"
@@ -52,7 +53,7 @@ import Layout from '../../layouts/Layout.astro';
           <span class="go">The full record &rarr;</span>
         </div>
       </a>
-      <a class="card" href="/compare/cosme-vs-parilio.html">
+      <a class="card" href="/cosme-vs-parilio-paros.html">
         <img src="/images/hotels/parilio-1.jpg" alt="Parīlio, Paros" width="1800" height="1013" loading="lazy" decoding="async" />
         <div class="pad">
           <span class="kicker">Toured &middot; the design icon</span>
@@ -61,22 +62,22 @@ import Layout from '../../layouts/Layout.astro';
           <span class="go">Cosme or Par&imacr;lio? &rarr;</span>
         </div>
       </a>
-      <a class="card" href="#inquire">
+      <a class="card" href="/hotels/vione-paros.html">
         <img src="/images/hotels/vione-1.jpg" alt="Vione, Paros" width="1800" height="1013" loading="lazy" decoding="async" />
         <div class="pad">
           <span class="kicker">Toured &middot; adults-focused</span>
           <h3>Vione</h3>
           <p><b>Book:</b> a Junior Suite &mdash; surprisingly spacious, one of the island&rsquo;s best values. The spa was the most expansive I saw in the Cyclades. From $800/night.</p>
-          <span class="go">Ask me about Vione &rarr;</span>
+          <span class="go">The full record &rarr;</span>
         </div>
       </a>
-      <a class="card" href="#inquire">
+      <a class="card" href="/hotels/andronis-minois-paros.html">
         <img src="/images/hotels/andronis-minois-1.jpg" alt="Andronis Minois, Paros" width="1800" height="1013" loading="lazy" decoding="async" />
         <div class="pad">
           <span class="kicker">Toured &middot; the resort stay</span>
           <h3>Andronis Minois</h3>
           <p><b>Book:</b> the Minois Blu Suite, sea view. Space, comfort and a proper resort pace &mdash; stay four nights minimum. From $700/night.</p>
-          <span class="go">Ask me about Minois &rarr;</span>
+          <span class="go">The full record &rarr;</span>
         </div>
       </a>
     </div>
@@ -105,6 +106,7 @@ import Layout from '../../layouts/Layout.astro';
     <div class="sec-head reveal">
       <span class="eyebrow">Getting there</span>
       <h2 class="display-l">The ferry rules that save trips</h2>
+      <p style="margin-top:14px;"><a href="/greek-ferry-rules.html" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;">All five rules &rarr;</a></p>
     </div>
     <dl class="kv reveal">
       <div class="kv-row"><dt>Rule 1</dt><dd>Never book the last ferry of the day. If it&rsquo;s cancelled, you&rsquo;ve lost a night.</dd></div>
@@ -123,7 +125,7 @@ import Layout from '../../layouts/Layout.astro';
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
       <input type="hidden" name="_subject" value="Paros Inquiry" />
       <input type="hidden" name="hotel" value="Paros (guide)" />
-      <input type="hidden" name="page" value="phase1/guides/paros" />
+      <input type="hidden" name="page" value="paros" />
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
       <div class="step1">
         <label for="q-when">When are you thinking?</label>

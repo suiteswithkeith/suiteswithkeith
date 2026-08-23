@@ -1,7 +1,8 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro';
 ---
 <Layout
+  canonical="cosme-vs-parilio-paros.html"
   title="Cosme or Parīlio | Suites With Keith"
   description="Paros' two best hotels are ten minutes apart and nothing alike. Keith toured both back to back — here's how to decide in thirty seconds."
   current="compare"
@@ -79,7 +80,7 @@ import Layout from '../../layouts/Layout.astro';
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
       <input type="hidden" name="_subject" value="Cosme vs Parilio Inquiry" />
       <input type="hidden" name="hotel" value="Cosme / Parilio, Paros" />
-      <input type="hidden" name="page" value="phase1/compare/cosme-vs-parilio" />
+      <input type="hidden" name="page" value="cosme-vs-parilio-paros" />
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
       <div class="step1">
         <label for="q-when">When are you thinking?</label>

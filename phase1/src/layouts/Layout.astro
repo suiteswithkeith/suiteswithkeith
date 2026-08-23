@@ -7,17 +7,31 @@ import '@fontsource/jost/400.css';
 import '@fontsource/jost/500.css';
 import '@fontsource/courier-prime/400.css';
 import '@fontsource/courier-prime/700.css';
-const { title, description = '', current = '', preload = '' } = Astro.props;
+const { title, description = '', current = '', preload = '', canonical = '' } = Astro.props;
+const canonicalPath = canonical === 'index.html' ? '' : canonical;
 ---
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
 <title>{title}</title>
 {description && <meta name="description" content={description} />}
+{canonical && <link rel="canonical" href={'https://suiteswithkeith.com/' + canonicalPath} />}
+{canonical && <meta property="og:url" content={'https://suiteswithkeith.com/' + canonicalPath} />}
+<meta property="og:title" content={title} />
+{description && <meta property="og:description" content={description} />}
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 {preload && <link rel="preload" as="image" href={preload} fetchpriority="high" />}
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-0J39101CS2"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0J39101CS2');
+</script>
 
 </head>
 <body>
@@ -27,13 +41,12 @@ const { title, description = '', current = '', preload = '' } = Astro.props;
     <a class="wordmark" href="/index.html">Suites With Keith</a>
     <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
     <div class="nav-links" id="nav-links">
-      <a href="/hotels/cosme-paros.html" aria-current={current === 'hotels' ? 'page' : undefined}>The Index</a>
-      <a href="/index.html#collection">The Collections</a>
-      <a href="/compare/cosme-vs-parilio.html" aria-current={current === 'compare' ? 'page' : undefined}>Rankings</a>
-      <a href="/guides/paros.html" aria-current={current === 'guides' ? 'page' : undefined}>Guides</a>
+      <a href="/services.html">Services</a>
+      <a href="/collections.html" data-gtag-label="collections" data-gtag-location="nav">The Collections</a>
+      <a href="/destination-guides.html" data-gtag-label="destination_guides" data-gtag-location="nav">Destination Guides</a>
+      <a href="/rankings.html" data-gtag-label="keiths_rankings" data-gtag-location="nav">Keith's Rankings</a>
       <a href="/about.html" aria-current={current === 'about' ? 'page' : undefined}>About</a>
     </div>
-    <span class="preview-chip">Phase 1 · Preview</span>
   </div>
 </nav>
 
@@ -53,19 +66,25 @@ const { title, description = '', current = '', preload = '' } = Astro.props;
       </div>
     </div>
     <div>
-      <p class="col-h">Preview</p>
+      <p class="col-h">Explore</p>
       <div class="links">
-        <a href="/index.html">Home</a>
-        <a href="/hotels/cosme-paros.html">Hotel record &middot; Cosme</a>
-        <a href="/compare/cosme-vs-parilio.html">Head-to-head</a>
-        <a href="/guides/paros.html">Guide &middot; Paros</a>
-        <a href="/about.html">About</a>
+        <a href="/collections.html">The Collections</a>
+        <a href="/destination-guides.html">Destination Guides</a>
+        <a href="/rankings.html">Keith&rsquo;s Rankings</a>
+        <a href="/privacy.html">Privacy Policy</a>
       </div>
+    </div>
+  </div>
+  <div class="container" style="margin-top:56px; padding-top:36px; border-top:1px solid var(--hairline);">
+    <p class="col-h">Get first access to future issues</p>
+    <div class="beehiiv-wrap">
+      <script is:inline async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="02920925-682b-4b12-a526-e4fe0939610c"></script>
+      <p style="margin-top:10px;"><a href="/subscriber-welcome.html" style="font-size:.85rem;">Just subscribed? Continue to your welcome page &rarr;</a></p>
     </div>
   </div>
 </footer>
 
-<a href="#inquire" class="btn sticky-cta">Tell me where you&rsquo;re going</a>
+<a href="#inquire" class="btn sticky-cta" data-gtag-label="start_planning" data-gtag-location="sticky_mobile">Tell me where you&rsquo;re going</a>
 
 <script>
   // Nav disclosure
@@ -119,5 +138,6 @@ const { title, description = '', current = '', preload = '' } = Astro.props;
     });
   }
 </script>
+<script is:inline defer src="/js/swk-events.js"></script>
 </body>
 </html>
