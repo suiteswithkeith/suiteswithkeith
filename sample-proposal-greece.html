@@ -513,6 +513,15 @@ a:hover{color:var(--olive)}
       section { padding-left: 0 !important; padding-right: 0 !important; }
     }
   
+
+/* mobile: stack the desktop layout grids (added in static render).
+   Compact grids that already fit a phone — rate rows (1fr 76px 76px),
+   header rows (1fr auto) and itinerary caption rows — keep their columns. */
+@media (max-width: 740px) {
+  div[style*="grid-template-columns"]:not([style*="76px"]):not([style*="1fr auto"]):not([style*="repeat(3"]):not([style*="1fr 1fr 1fr 1fr"]) { grid-template-columns: 1fr !important; }
+  img { height: auto !important; }
+  body { -webkit-text-size-adjust: 100%; }
+}
 </style>
 </head>
 <body>
