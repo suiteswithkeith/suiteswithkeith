@@ -191,7 +191,7 @@ HOTELS = [
     dict(
         slug="hotel-cipriani-venice", name="Hotel Cipriani", short_name="the Cipriani",
         island="Venice", island_page="top-hotel-tennis-courts.html",
-        locale="Venice, Italy", img_dir="tennis", hero_img="hotel-cipriani.avif", img2="cipriani-alt.png",
+        locale="Venice, Italy", img_dir="tennis", hero_img="hotel-cipriani.avif", img2="cipriani-alt.jpg",
         region_label="Region", region_html="Giudecca Island, Venice, Italy",
         mailto_prep="in",
         stat1_num="#02", stat1_label="In My Hotel Tennis Court Ranking",
@@ -295,7 +295,7 @@ HOTELS = [
     dict(
         slug="villa-d-este-lake-como", name="Villa d'Este", short_name="Villa d'Este",
         island="Lake Como", island_page="top-hotel-tennis-courts.html",
-        locale="Cernobbio, Lake Como, Italy", img_dir="tennis", hero_img="villa-d-este.png",
+        locale="Cernobbio, Lake Como, Italy", img_dir="tennis", hero_img="villa-d-este.jpg",
         region_label="Region", region_html="Cernobbio, Lake Como, Italy",
         mailto_prep="on",
         stat1_num="#06", stat1_label="In My Hotel Tennis Court Ranking",
