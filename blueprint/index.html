@@ -660,7 +660,7 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       <div class="stack">
         <h4 class="mini">The fixes, in cost order</h4>
         <p class="body-2"><b>1. Instrument everything</b> &mdash; one shared script include across 193 pages. Days, not weeks, and it must ship first: it is the baseline every later change is measured against. Add a listener for mailto clicks so the current hotel-page loss becomes visible before it is fixed.</p>
-        <p class="body-2"><b>2. Retire mailto on hotel pages</b> &mdash; replace with the one-field ask, hotel name carried as a hidden field to the same Formspree endpoint. The prefill context survives; the transport becomes reliable and measurable.</p>
+        <p class="body-2"><b>2. Retire mailto on hotel pages</b> &mdash; <b>shipped.</b> All 123 pages now carry the one-field ask in the guide-cta section; hotel name and page travel as hidden fields to the existing Formspree endpoint, and generate_lead fires per submit. Zero mailto: links remain under hotels/.</p>
         <p class="body-2"><b>3. Extend the sticky CTA sitewide</b> &mdash; the component exists; include it.</p>
         <p class="body-2"><b>4. Collapse the mobile nav</b> &mdash; wordmark plus a menu control; give the fold back to the hero.</p>
       </div>
@@ -1039,7 +1039,7 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       </div>
       <div class="stack">
         <h4 class="mini" style="color:var(--band-ink-2)">The reply promise is a business decision</h4>
-        <p class="body-2">&ldquo;Within a couple of days&rdquo; is the last thing a visitor reads before submitting, and it prices the service. Two honest options: keep it but move it out of the submit path, or triage &mdash; trips inside 30 days get a same-day promise, everything else keeps the relaxed one. The second converts the Rescue segment; it is only writable if it is operationally true. That is Keith&rsquo;s call, not a copywriting one.</p>
+        <p class="body-2"><b>Decided:</b> Keith confirmed he can reply same-day to last-minute trips, so the triage promise shipped &mdash; the hotel-page form reads &ldquo;Traveling within the next 30 days? You&rsquo;ll hear from me today,&rdquo; and the general form preamble now carries the same line. The Rescue segment finally has a promise that matches its clock.</p>
       </div>
     </div>
   </div>
