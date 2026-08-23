@@ -11,6 +11,7 @@
   --olive-deep:   #565b46;
   --tan:          #c9b997;
   --tan-deep:     #b7a37c;
+  --tan-text:     #836229; /* tan family darkened for text on cream: 4.98:1 AA (tan-deep is 2.18:1) */
   --charcoal:     #3c3c38;
   --ink-soft:     #5c5c56;
   --white:        #ffffff;
@@ -42,7 +43,7 @@ a { color: inherit; text-decoration: none; }
    Buttons and styled read-links keep their own treatment. */
 p a:not(.btn):not(.read-link) {
   text-decoration: underline;
-  text-decoration-color: var(--tan-deep);
+  text-decoration-color: var(--tan-text);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
   transition: text-decoration-color 0.2s ease;
@@ -782,7 +783,7 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
   font-size: 0.68rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--tan-deep);
+  color: var(--tan-text);
   margin-bottom: 10px;
 }
 .pc-body h3 { font-family: var(--font-display); font-weight: 500; font-size: 1.5rem; margin: 0 0 10px; }
@@ -1048,7 +1049,7 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
 }
 .t-name { font-weight: 500; font-size: 1rem; }
 .t-trip { font-family: var(--font-display); font-style: italic; color: var(--ink-soft); font-size: 0.9rem; }
-.t-header .t-stars { margin-left: auto; color: var(--tan-deep); letter-spacing: 2px; }
+.t-header .t-stars { margin-left: auto; color: var(--tan-text); letter-spacing: 2px; }
 
 .t-arrow {
   background: none;
