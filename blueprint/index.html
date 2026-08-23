@@ -1061,10 +1061,10 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
 
     <h4 class="mini" style="color:var(--band-ink-2)">What the audit found</h4>
     <div class="metrics" style="margin-bottom:2rem;">
-      <div class="metric"><span class="v warn">7 / 768</span><span class="k">Images with lazy loading</span></div>
-      <div class="metric"><span class="v warn">0 / 768</span><span class="k">Images with width &amp; height &mdash; every one a layout shift</span></div>
-      <div class="metric"><span class="v warn">13.5 MB</span><span class="k">athens-excursions.html &mdash; one 13.4MB line of base64 WebP</span></div>
-      <div class="metric"><span class="v warn">103 MB</span><span class="k">images/ &mdash; 232 JPG, 26 PNG, only 3 AVIF</span></div>
+      <div class="metric"><span class="v warn">7 / 768</span><span class="k">Images with lazy loading &mdash; fixed in Phase 0: 387</span></div>
+      <div class="metric"><span class="v warn">0 / 768</span><span class="k">Images with width &amp; height &mdash; fixed in Phase 0: 686</span></div>
+      <div class="metric"><span class="v warn">13.5 MB</span><span class="k">athens-excursions.html &mdash; fixed in Phase 0: 0.96MB</span></div>
+      <div class="metric"><span class="v warn">103 MB</span><span class="k">images/ &mdash; fixed in Phase 0: 77MB, AVIF waits for the build step</span></div>
     </div>
 
     <div class="tw" style="margin-bottom:2.5rem;">
@@ -1120,7 +1120,7 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
           <li><b>Preload the hero</b> and move it out of a CSS background.</li>
         </ul>
       </div>
-      <div class="ship"><span class="k">Ships</span><span class="v"><b>Week 1.</b> Measurably faster site, no visual change, nothing to approve.</span></div>
+      <div class="ship"><span class="k">Shipped</span><span class="v"><b>Done &mdash; five commits on the branch.</b> Excursion pages 13.5/12.9/3.7MB &rarr; under 1MB each; 31MB of images recompressed; 686 imgs dimensioned, 380 lazy; eight contrast failures fixed via a new --tan-text token; hero preloads on 147 pages. Every change verified pixel-identical in headless Chromium.</span></div>
     </div>
 
     <div class="phase">
