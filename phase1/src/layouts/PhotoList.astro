@@ -1,0 +1,67 @@
+---
+// Renders one photo-led list page (pools, tennis courts) from photolists.json.
+import Layout from './Layout.astro';
+import Ask from '../components/Ask.astro';
+import lists from '../data/photolists.json';
+
+const { slug, askPlaceholder, askDeck } = Astro.props;
+const g = lists[slug];
+---
+<Layout
+  canonical={`${slug}.html`}
+  title={g.title}
+  description={g.description}
+  current="rankings"
+>
+
+<!-- masthead -->
+<section class="section band on-shadow" style="text-align:center; padding:clamp(70px,10vw,110px) 0;">
+  <div class="container">
+    <span class="eyebrow" set:html={g.eyebrow} />
+    <h1 class="display-xl" style="margin:18px auto 14px; max-width:16ch;" set:html={g.h1} />
+    <p class="deck" style="margin:0 auto; max-width:40ch;" set:html={g.sub} />
+  </div>
+</section>
+
+<!-- the list -->
+<section class="section">
+  <div class="container" style="max-width:1020px;">
+    {g.cards.map((c, i) => (
+      <article class={`pl${i % 2 ? ' flip' : ''}`}>
+        <figure class="reveal pl-media">
+          <img src={c.img} alt={c.name.replace(/<[^>]+>/g, '')} width="1600" height="1240" loading={i < 2 ? 'eager' : 'lazy'} decoding="async" style={c.pos ? `object-position:${c.pos};` : undefined} />
+        </figure>
+        <div class="reveal">
+          <span class="pl-num">{c.num}</span>
+          <h2 class="display-m" style="font-size:clamp(1.5rem,2.6vw,1.9rem); margin-top:6px;" set:html={c.name} />
+          <p class="stamp plain" style="margin-top:8px; font-size:.64rem; font-weight:700; color:var(--brass);" set:html={c.loc + (c.price ? ' &middot; ' + c.price : '') + (c.fora ? ' &middot; ' + c.fora : '')} />
+          <p class="deck" style="margin-top:14px; font-size:1.1rem; max-width:34ch;" set:html={c.desc} />
+          {c.href && <p style="margin-top:20px;"><a href={c.href} style="font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;">Read the brief &rarr;</a></p>}
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<Ask
+  subject={`Inquiry — ${slug}`}
+  page={slug}
+  placeholder={askPlaceholder}
+  deck={askDeck}
+  dark
+/>
+
+</Layout>
+
+<style>
+  .pl { display: grid; gap: 32px; grid-template-columns: 1fr; align-items: center; padding: clamp(36px, 5vw, 56px) 0; border-top: 1px solid var(--hairline); }
+  .pl:first-of-type { border-top: none; padding-top: 0; }
+  @media (min-width: 820px) {
+    .pl { grid-template-columns: 1fr 1fr; gap: 56px; }
+    .pl.flip .pl-media { order: 2; }
+  }
+  .pl > * { min-width: 0; }
+  .pl-media { margin: 0; }
+  .pl-media img { width: 100%; aspect-ratio: 4/3.1; object-fit: cover; }
+  .pl-num { font-family: var(--display); font-style: italic; font-size: 1.4rem; color: var(--brass); font-variant-numeric: tabular-nums; }
+</style>

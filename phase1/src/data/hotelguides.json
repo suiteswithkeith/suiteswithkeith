@@ -1,0 +1,824 @@
+{
+ "title": "Hotel Guides | Suites With Keith",
+ "description": "Keith's firsthand hotel guides — property-by-property reviews from real stays and site visits, organized by destination.",
+ "h1": "Hotel Guides",
+ "intro": "Property-by-property reviews from real stays and site visits &mdash; no press trips, no sponsored placements. Rates through me are identical to booking direct; the perks are not.",
+ "groups": [
+  {
+   "h2": "Greece &amp; The Greek Islands",
+   "blurb": "My 10 favorites from 38 hotels visited across seven islands &mdash; see the <a href=\"/best-hotels-greece.html\" class=\"read-link\">full ranking&nbsp;&rarr;</a>",
+   "cards": [
+    {
+     "img": "/images/hotels/canaves-epitome-1.jpg",
+     "name": "Canaves Epitome",
+     "p": "Santorini &middot; #01 &middot; The best hotel I experienced in Greece",
+     "href": "/hotels/canaves-epitome-santorini.html"
+    },
+    {
+     "img": "/images/hotels/gundari-1.jpg",
+     "name": "Gundari",
+     "p": "Folegandros &middot; #02 &middot; Unlike anything I've ever seen",
+     "href": "/hotels/gundari-folegandros.html"
+    },
+    {
+     "img": "/images/hotels/canaves-oia-1.jpg",
+     "name": "Canaves Oia Suites",
+     "p": "Santorini &middot; #03 &middot; The classic caldera experience, perfected",
+     "href": "/hotels/canaves-oia-suites-santorini.html"
+    },
+    {
+     "img": "/images/hotels/parilio-1.jpg",
+     "name": "Parilio",
+     "p": "Paros &middot; #04 &middot; A design lover's dream outside Naoussa",
+     "href": "/hotels/parilio-paros.html"
+    },
+    {
+     "img": "/images/hotels/andronis-boutique-1.jpg",
+     "name": "Andronis Boutique",
+     "p": "Santorini &middot; #05 &middot; Authentic cave-style luxury in Oia",
+     "href": "/hotels/andronis-boutique-santorini.html"
+    },
+    {
+     "img": "/images/hotels/billandcoo-coast-1.jpg",
+     "name": "Bill &amp; Coo Coast",
+     "p": "Mykonos &middot; #06 &middot; Adults-only on a protected bay",
+     "href": "/hotels/bill-and-coo-coast-mykonos.html"
+    },
+    {
+     "img": "/images/hotels/kalesma-1.jpg",
+     "name": "Kalesma",
+     "p": "Mykonos &middot; #07 &middot; Cycladic minimalism above Ornos Bay",
+     "href": "/hotels/kalesma-mykonos.html"
+    },
+    {
+     "img": "/images/hotels/cali-mykonos-1.jpg",
+     "name": "Cali",
+     "p": "Mykonos &middot; #08 &middot; The best hotel gym I've ever seen",
+     "href": "/hotels/cali-mykonos.html"
+    },
+    {
+     "img": "/images/hotels/cosme-1.jpg",
+     "name": "Cosme",
+     "p": "Paros &middot; #09 &middot; Laid-back beach luxury in Naoussa",
+     "href": "/hotels/cosme-paros.html"
+    },
+    {
+     "img": "/images/hotels/stamna-1.jpg",
+     "name": "Stamna",
+     "p": "Sifnos &middot; #10 &middot; Design-forward calm on a foodie island",
+     "href": "/hotels/stamna-sifnos.html"
+    }
+   ]
+  },
+  {
+   "h2": "More Santorini",
+   "blurb": "The rest of the Canaves &amp; Andronis portfolios, from my <a href=\"/santorini-hotels-ranked.html\" class=\"read-link\">full Santorini ranking&nbsp;&rarr;</a>",
+   "cards": [
+    {
+     "img": "/images/hotels/grace-1.jpg",
+     "name": "Andronis Luxury Suites",
+     "p": "Santorini &middot; The refined Andronis flagship, home of Lycabettus",
+     "href": "/hotels/andronis-luxury-suites-santorini.html"
+    },
+    {
+     "img": "/images/hotels/canaves-ena-1.jpg",
+     "name": "Canaves Ena",
+     "p": "Santorini &middot; 18 suites in 17th-century wine caves",
+     "href": "/hotels/canaves-ena-santorini.html"
+    },
+    {
+     "img": "/images/hotels/andronis-concept-1.jpg",
+     "name": "Andronis Concept",
+     "p": "Santorini &middot; The best spa I saw in the Cyclades",
+     "href": "/hotels/andronis-concept-santorini.html"
+    },
+    {
+     "img": "/images/hotels/andronis-arcadia-1.jpg",
+     "name": "Andronis Arcadia",
+     "p": "Santorini &middot; A true resort with the island's biggest pools",
+     "href": "/hotels/andronis-arcadia-santorini.html"
+    },
+    {
+     "img": "/images/hotels/canaves-sunday-1.jpg",
+     "name": "Canaves Sunday",
+     "p": "Santorini &middot; A 10-bedroom villa + 8 suites &mdash; an 18-bedroom buyout",
+     "href": "/hotels/canaves-sunday-santorini.html"
+    },
+    {
+     "img": "/images/hotels/andronis-luxury-1.jpg",
+     "name": "Grace Hotel",
+     "p": "Santorini &middot; Above the fog line in Imerovigli",
+     "href": "/hotels/grace-santorini.html"
+    },
+    {
+     "img": "/images/hotels/katikies-1.jpg",
+     "name": "Mystique",
+     "p": "Santorini &middot; Good bones, a prime caldera perch",
+     "href": "/hotels/mystique-santorini.html"
+    },
+    {
+     "img": "/images/hotels/mystique-1.jpg",
+     "name": "Katikies",
+     "p": "Santorini &middot; A storied setting awaiting its next chapter",
+     "href": "/hotels/katikies-santorini.html"
+    }
+   ]
+  },
+  {
+   "h2": "Napa &amp; Sonoma",
+   "blurb": "All nine from my wine country ranking &mdash; see the <a href=\"/napa-sonoma.html\" class=\"read-link\">full ranking&nbsp;&rarr;</a>",
+   "cards": [
+    {
+     "img": "/images/napa/meadowood-1.jpg",
+     "name": "Meadowood",
+     "p": "St. Helena &middot; #01 &middot; The benchmark of wine country",
+     "href": "/hotels/meadowood-napa-valley.html"
+    },
+    {
+     "img": "/images/napa/four-seasons-1.jpg",
+     "name": "Four Seasons Napa Valley",
+     "p": "Calistoga &middot; #02 &middot; Consistently excellent, fits everyone",
+     "href": "/hotels/four-seasons-napa-valley.html"
+    },
+    {
+     "img": "/images/napa/montage-1.jpg",
+     "name": "Montage Healdsburg",
+     "p": "Sonoma &middot; #03 &middot; My most-returned-to hotel, 20+ stays",
+     "href": "/hotels/montage-healdsburg.html"
+    },
+    {
+     "img": "/images/napa/solage-1.jpg",
+     "name": "Solage",
+     "p": "Calistoga &middot; #04 &middot; Iconic California design, real privacy",
+     "href": "/hotels/solage-calistoga.html"
+    },
+    {
+     "img": "/images/napa/macarthur.jpg",
+     "name": "MacArthur Place",
+     "p": "Sonoma &middot; #05 &middot; The hidden gem you can walk to town from",
+     "href": "/hotels/macarthur-place-sonoma.html"
+    },
+    {
+     "img": "/images/napa/stanly-ranch.jpg",
+     "name": "Stanly Ranch",
+     "p": "Carneros &middot; #06 &middot; The most striking architecture in the valley",
+     "href": "/hotels/stanly-ranch-napa.html"
+    },
+    {
+     "img": "/images/napa/madrona.jpg",
+     "name": "Madrona Manor",
+     "p": "Healdsburg &middot; #07 &middot; An estate, not a hotel &mdash; pure romance",
+     "href": "/hotels/madrona-manor-healdsburg.html"
+    },
+    {
+     "img": "/images/napa/carneros.jpg",
+     "name": "Carneros Resort &amp; Spa",
+     "p": "Carneros &middot; #08 &middot; True wine country, ready for its next chapter",
+     "href": "/hotels/carneros-resort-napa.html"
+    },
+    {
+     "img": "/images/napa/alila.jpg",
+     "name": "Alila Napa Valley",
+     "p": "St. Helena &middot; #09 &middot; Sleek, modern, and walkable",
+     "href": "/hotels/alila-napa-valley.html"
+    }
+   ]
+  },
+  {
+   "h2": "France &amp; Montenegro",
+   "blurb": "Featured properties from beyond the Aegean",
+   "cards": [
+    {
+     "img": "/images/bendor/bendor-hero.jpg",
+     "name": "Zannier &Icirc;le de Bendor",
+     "p": "Provence &middot; A private island off Bandol, reimagined",
+     "href": "/zannier-ile-de-bendor.html"
+    },
+    {
+     "img": "/images/montenegro/sveti-stefan-aerial.jpg",
+     "name": "Aman Sveti Stefan &amp; Mamula Island",
+     "p": "Montenegro &middot; Two firsthand property reviews",
+     "href": "/montenegro.html"
+    }
+   ]
+  },
+  {
+   "h2": "Asia Pacific &middot; First Looks",
+   "blurb": "Researched briefs on properties I'm watching &mdash; clearly marked until I've walked them myself",
+   "cards": [
+    {
+     "img": "/images/hotels/capella-sydney-1.jpg",
+     "name": "Capella Sydney",
+     "p": "Sydney &middot; First Look &middot; The heritage landmark to beat in the CBD",
+     "href": "/hotels/capella-sydney.html"
+    }
+   ]
+  },
+  {
+   "h2": "More Greece &amp; Athens",
+   "blurb": "Deeper cuts across the islands and Athens &mdash; beyond the Top 10",
+   "cards": [
+    {
+     "img": "/images/hotels/thedolli-1.jpg",
+     "name": "The Dolli",
+     "p": "Athens &middot; Restored neoclassical mansion",
+     "href": "/hotels/the-dolli-athens.html"
+    },
+    {
+     "img": "/images/hotels/astirpalace-1.jpg",
+     "name": "Four Seasons Astir Palace",
+     "p": "Athens &middot; Seaside urban resort",
+     "href": "/hotels/four-seasons-astir-palace-athens.html"
+    },
+    {
+     "img": "/images/hotels/skinopi-1.jpg",
+     "name": "Skinopi Lodge",
+     "p": "Milos &middot; Boutique hillside lodge",
+     "href": "/hotels/skinopi-lodge-milos.html"
+    },
+    {
+     "img": "/images/hotels/erema-1.jpg",
+     "name": "Er&#275;ma, a Member of Design Hotels",
+     "p": "Milos &middot; Contemporary Cycladic estate",
+     "href": "/hotels/erema-milos.html"
+    },
+    {
+     "img": "/images/islands/milos-hero.jpg",
+     "name": "White Pebble Suites",
+     "p": "Milos &middot; Boutique village hotel",
+     "href": "/hotels/white-pebble-suites-milos.html"
+    },
+    {
+     "img": "/images/hotels/nos-1.jpg",
+     "name": "NOS",
+     "p": "Sifnos &middot; Minimalist boutique hotel",
+     "href": "/hotels/nos-sifnos.html"
+    },
+    {
+     "img": "/images/hotels/andronis-minois-1.jpg",
+     "name": "Andronis Minois",
+     "p": "Paros &middot; Relaxed luxury resort",
+     "href": "/hotels/andronis-minois-paros.html"
+    },
+    {
+     "img": "/images/hotels/vione-1.jpg",
+     "name": "Vione",
+     "p": "Paros &middot; Adults-focused boutique hotel",
+     "href": "/hotels/vione-paros.html"
+    },
+    {
+     "img": "/images/islands/paros-hero.jpg",
+     "name": "Jupiter",
+     "p": "Paros &middot; Private five-bedroom villa",
+     "href": "/hotels/jupiter-villa-paros.html"
+    },
+    {
+     "img": "/images/hotels/fouquets-1.jpg",
+     "name": "Fouquet's Mykonos",
+     "p": "Mykonos &middot; South-coast luxury resort",
+     "href": "/hotels/fouquets-mykonos.html"
+    },
+    {
+     "img": "/images/hotels/billandcoo-coast-1.jpg",
+     "name": "Bill &amp; Coo Suites",
+     "p": "Mykonos &middot; Boutique suites near Mykonos Town",
+     "href": "/hotels/bill-and-coo-suites-mykonos.html"
+    },
+    {
+     "img": "/images/islands/cover.jpg",
+     "name": "One&amp;Only Kea",
+     "p": "Kea &middot; Resort &amp; private homes",
+     "href": "/hotels/one-and-only-kea.html"
+    },
+    {
+     "img": "/images/islands/athens-hero.jpg",
+     "name": "One&amp;Only Aesthesis",
+     "p": "Athens Riviera &middot; Riviera beach resort",
+     "href": "/hotels/one-and-only-aesthesis-athens.html"
+    }
+   ]
+  },
+  {
+   "h2": "Montenegro",
+   "blurb": "The Adriatic’s quiet luxury coast",
+   "cards": [
+    {
+     "img": "/images/montenegro/sveti-stefan-aerial.jpg",
+     "name": "Aman Sveti Stefan &amp; Villa Milo&#269;er",
+     "p": "Montenegro &middot; Historic island resort &amp; villa",
+     "href": "/hotels/aman-sveti-stefan-montenegro.html"
+    },
+    {
+     "img": "/images/montenegro/mamula-fort-entrance.jpg",
+     "name": "Mamula Island by Banyan Tree",
+     "p": "Montenegro &middot; Historic fortress hotel",
+     "href": "/hotels/mamula-island-montenegro.html"
+    },
+    {
+     "img": "/images/montenegro/sveti-stefan-aerial.jpg",
+     "name": "One&amp;Only Portonovi",
+     "p": "Montenegro &middot; Marina-front resort",
+     "href": "/hotels/one-and-only-portonovi-montenegro.html"
+    }
+   ]
+  },
+  {
+   "h2": "Italy &amp; The Lakes",
+   "blurb": "Amalfi, Como, Tuscany, Venice, and the south",
+   "cards": [
+    {
+     "img": "/images/pools/miramalfi.jpg",
+     "name": "Miramalfi",
+     "p": "Amalfi &middot; Cliffside coastal hotel",
+     "href": "/hotels/miramalfi-amalfi.html"
+    },
+    {
+     "img": "/images/pools/le-sirenuse.jpg",
+     "name": "Le Sirenuse",
+     "p": "Positano &middot; Iconic family-run grand hotel",
+     "href": "/hotels/le-sirenuse-positano.html"
+    },
+    {
+     "img": "/images/tennis/il-san-pietro.jpg",
+     "name": "Il San Pietro di Positano",
+     "p": "Positano &middot; Cliffside icon (Fora Reserve)",
+     "href": "/hotels/il-san-pietro-di-positano.html"
+    },
+    {
+     "img": "/images/tennis/hotel-cipriani.avif",
+     "name": "Hotel Cipriani",
+     "p": "Venice &middot; Venetian legend (Belmond, Fora Reserve)",
+     "href": "/hotels/hotel-cipriani-venice.html"
+    },
+    {
+     "img": "/images/proposals/lake-como/passalacqua/garden-lake.jpg",
+     "name": "Passalacqua",
+     "p": "Lake Como &middot; Historic villa showpiece (Fora Reserve)",
+     "href": "/hotels/passalacqua-lake-como.html"
+    },
+    {
+     "img": "/images/tennis/villa-d-este.jpg",
+     "name": "Villa d'Este",
+     "p": "Lake Como &middot; Grand renaissance estate (Fora Reserve)",
+     "href": "/hotels/villa-d-este-lake-como.html"
+    },
+    {
+     "img": "/images/tennis/splendido.avif",
+     "name": "Splendido",
+     "p": "Portofino &middot; Riviera icon (Belmond, Fora Reserve)",
+     "href": "/hotels/splendido-portofino.html"
+    },
+    {
+     "img": "/images/destinations/caruso.jpg",
+     "name": "Borgo Egnazia",
+     "p": "Puglia &middot; Village-style resort estate",
+     "href": "/hotels/borgo-egnazia-puglia.html"
+    },
+    {
+     "img": "/images/destinations/il-san-pietro.jpg",
+     "name": "Grand Hotel Timeo",
+     "p": "Sicily &middot; Old-world grande dame (Belmond)",
+     "href": "/hotels/grand-hotel-timeo-taormina.html"
+    },
+    {
+     "img": "/images/destinations/villa-san-michele.jpg",
+     "name": "Belmond Villa San Michele",
+     "p": "Florence &middot; Historic hillside retreat (Belmond)",
+     "href": "/hotels/belmond-villa-san-michele-florence.html"
+    },
+    {
+     "img": "/images/destinations/fs-florence.jpg",
+     "name": "Four Seasons Hotel Firenze",
+     "p": "Florence &middot; Palazzo resort (Four Seasons)",
+     "href": "/hotels/four-seasons-hotel-firenze.html"
+    },
+    {
+     "img": "/images/destinations/hotel-lungarno.jpg",
+     "name": "Hotel Lungarno",
+     "p": "Florence &middot; Riverside boutique (Lungarno Collection)",
+     "href": "/hotels/hotel-lungarno-florence.html"
+    },
+    {
+     "img": "/images/destinations/de-russie.jpg",
+     "name": "Hotel de Russie",
+     "p": "Rome &middot; Garden retreat (Rocco Forte)",
+     "href": "/hotels/hotel-de-russie-rome.html"
+    },
+    {
+     "img": "/images/destinations/hotel-eden.jpg",
+     "name": "Hotel Eden",
+     "p": "Rome &middot; Romantic classic (Dorchester Collection)",
+     "href": "/hotels/hotel-eden-rome.html"
+    },
+    {
+     "img": "/images/destinations/st-regis-rome.jpg",
+     "name": "The St. Regis Rome",
+     "p": "Rome &middot; Belle &Eacute;poque grande dame (St. Regis)",
+     "href": "/hotels/the-st-regis-rome.html"
+    },
+    {
+     "img": "/images/destinations/rosewood-castiglion.jpg",
+     "name": "Rosewood Castiglion del Bosco",
+     "p": "Tuscany &middot; Countryside estate (Rosewood, Three Michelin Keys)",
+     "href": "/hotels/rosewood-castiglion-del-bosco-tuscany.html"
+    },
+    {
+     "img": "/images/destinations/castello-di-casole.jpg",
+     "name": "Belmond Castello di Casole",
+     "p": "Tuscany &middot; Hilltop castle estate (Belmond)",
+     "href": "/hotels/belmond-castello-di-casole-tuscany.html"
+    },
+    {
+     "img": "/images/destinations/como-castello.jpg",
+     "name": "COMO Castello del Nero",
+     "p": "Tuscany &middot; Converted castle retreat (COMO)",
+     "href": "/hotels/como-castello-del-nero-tuscany.html"
+    },
+    {
+     "img": "/images/proposals/lake-como/il-sereno/exterior.jpg",
+     "name": "Il Sereno",
+     "p": "Lake Como &middot; Modern lakefront design hotel",
+     "href": "/hotels/il-sereno-lake-como.html"
+    },
+    {
+     "img": "/images/destinations/caruso.jpg",
+     "name": "Belmond Hotel Caruso",
+     "p": "The Amalfi Coast &middot; Clifftop palazzo (Belmond)",
+     "href": "/hotels/belmond-hotel-caruso-ravello.html"
+    },
+    {
+     "img": "/images/proposals/lake-como/edition/pool.jpg",
+     "name": "The Lake Como EDITION",
+     "p": "Lake Como &middot; Contemporary design hotel (EDITION)",
+     "href": "/hotels/lake-como-edition.html"
+    },
+    {
+     "img": "/images/pools/mandarin-oriental-lake-como.jpg",
+     "name": "Mandarin Oriental, Lago di Como",
+     "p": "Lake Como &middot; Resort-scale garden estate (Mandarin Oriental)",
+     "href": "/hotels/mandarin-oriental-lago-di-como.html"
+    }
+   ]
+  },
+  {
+   "h2": "France",
+   "blurb": "Paris palaces and the Riviera",
+   "cards": [
+    {
+     "img": "/images/bendor/bendor-hero.jpg",
+     "name": "Zannier H&ocirc;tels &Icirc;le de Bendor",
+     "p": "Provence &middot; Private island resort",
+     "href": "/hotels/zannier-ile-de-bendor-france.html"
+    },
+    {
+     "img": "/images/pools/hotel-cap-estel.jpg",
+     "name": "Hotel Cap Estel",
+     "p": "The French Riviera &middot; Private peninsula hideaway",
+     "href": "/hotels/hotel-cap-estel-eze.html"
+    },
+    {
+     "img": "/images/pools/hotel-du-cap-eden-roc.jpg",
+     "name": "H&ocirc;tel du Cap-Eden-Roc",
+     "p": "The French Riviera &middot; Legendary Riviera grande dame",
+     "href": "/hotels/hotel-du-cap-eden-roc-antibes.html"
+    },
+    {
+     "img": "/images/proposals/paris/le-meurice/panorama.jpg",
+     "name": "Le Meurice",
+     "p": "Paris &middot; Classic palace (Dorchester Collection, Forbes Five-Star)",
+     "href": "/hotels/le-meurice-paris.html"
+    },
+    {
+     "img": "/images/proposals/paris/peninsula/eiffel-terrace.jpg",
+     "name": "The Peninsula Paris",
+     "p": "Paris &middot; Polished palace (Forbes Five-Star)",
+     "href": "/hotels/the-peninsula-paris.html"
+    },
+    {
+     "img": "/images/proposals/paris/fouquets/exterior.jpg",
+     "name": "H&ocirc;tel Barri&egrave;re Fouquet's Paris",
+     "p": "Paris &middot; Glamorous modern palace (Barri&egrave;re)",
+     "href": "/hotels/hotel-barriere-fouquets-paris.html"
+    },
+    {
+     "img": "/images/proposals/paris/crillon/pool.jpg",
+     "name": "H&ocirc;tel de Crillon, A Rosewood Hotel",
+     "p": "Paris &middot; Storied palace (Rosewood, Forbes Five-Star)",
+     "href": "/hotels/hotel-de-crillon-paris.html"
+    },
+    {
+     "img": "/images/destinations/cheval-blanc-paris.jpg",
+     "name": "Cheval Blanc Paris",
+     "p": "Paris &middot; Modern palace (LVMH, 72 keys)",
+     "href": "/hotels/cheval-blanc-paris.html"
+    },
+    {
+     "img": "/images/destinations/ritz-paris.jpg",
+     "name": "Ritz Paris",
+     "p": "Paris &middot; The original grand palace (Place Vend&ocirc;me)",
+     "href": "/hotels/ritz-paris.html"
+    }
+   ]
+  },
+  {
+   "h2": "United Kingdom",
+   "blurb": "London's great houses",
+   "cards": [
+    {
+     "img": "/images/destinations/claridges.jpg",
+     "name": "Claridge's",
+     "p": "London &middot; Art deco grande dame (Maybourne)",
+     "href": "/hotels/claridges-london.html"
+    },
+    {
+     "img": "/images/destinations/connaught.jpg",
+     "name": "The Connaught",
+     "p": "London &middot; Discreet luxury house (Maybourne)",
+     "href": "/hotels/connaught-london.html"
+    },
+    {
+     "img": "/images/destinations/lanesborough.jpg",
+     "name": "The Lanesborough",
+     "p": "London &middot; Regency palace, butler service (Oetker)",
+     "href": "/hotels/lanesborough-london.html"
+    },
+    {
+     "img": "/images/destinations/raffles-owo.jpg",
+     "name": "Raffles London at The OWO",
+     "p": "London &middot; Landmark restoration (Raffles)",
+     "href": "/hotels/raffles-london-owo.html"
+    }
+   ]
+  },
+  {
+   "h2": "Switzerland",
+   "blurb": "Alpine grande dames",
+   "cards": [
+    {
+     "img": "/images/tennis/burgenstock.jpg",
+     "name": "B&uuml;rgenstock Resort",
+     "p": "Switzerland &middot; Alpine resort estate (Fora Reserve)",
+     "href": "/hotels/burgenstock-resort-lake-lucerne.html"
+    },
+    {
+     "img": "/images/tennis/gstaad-palace.jpg",
+     "name": "Gstaad Palace",
+     "p": "Switzerland &middot; Alpine palace hotel (Fora Reserve)",
+     "href": "/hotels/gstaad-palace.html"
+    }
+   ]
+  },
+  {
+   "h2": "Mexico",
+   "blurb": "Los Cabos and the Pacific coast",
+   "cards": [
+    {
+     "img": "/images/personal/montage-cabo.jpg",
+     "name": "Montage Los Cabos",
+     "p": "Los Cabos &middot; Luxury beach resort (Montage)",
+     "href": "/hotels/montage-los-cabos.html"
+    },
+    {
+     "img": "/images/hotels/oneandonly-palmilla-1.jpg",
+     "name": "One&amp;Only Palmilla",
+     "p": "Los Cabos &middot; Grande dame resort",
+     "href": "/hotels/oneandonly-palmilla-los-cabos.html"
+    },
+    {
+     "img": "/images/hotels/chileno-bay-1.jpg",
+     "name": "Chileno Bay, Auberge Resorts",
+     "p": "Los Cabos &middot; Contemporary resort (Auberge)",
+     "href": "/hotels/chileno-bay-los-cabos.html"
+    },
+    {
+     "img": "/images/destinations/las-ventanas.jpg",
+     "name": "Las Ventanas al Para&iacute;so",
+     "p": "Los Cabos &middot; Celebration resort (Rosewood)",
+     "href": "/hotels/las-ventanas-los-cabos.html"
+    },
+    {
+     "img": "/images/destinations/oneandonly-mandarina.jpg",
+     "name": "One&amp;Only Mandarina",
+     "p": "Riviera Nayarit &middot; Rainforest cliffside resort",
+     "href": "/hotels/oneandonly-mandarina.html"
+    },
+    {
+     "img": "/images/destinations/naviva-punta-mita.jpg",
+     "name": "Naviva, A Four Seasons Resort",
+     "p": "Punta Mita &middot; Adults-only tented retreat (Four Seasons)",
+     "href": "/hotels/naviva-punta-mita.html"
+    },
+    {
+     "img": "/images/destinations/st-regis-punta-mita.jpg",
+     "name": "The St. Regis Punta Mita",
+     "p": "Punta Mita &middot; Residential beach resort (St. Regis)",
+     "href": "/hotels/st-regis-punta-mita.html"
+    },
+    {
+     "img": "/images/destinations/fs-tamarindo.jpg",
+     "name": "Four Seasons Resort Tamarindo",
+     "p": "Costalegre &middot; Secluded reserve resort (Four Seasons)",
+     "href": "/hotels/four-seasons-tamarindo.html"
+    }
+   ]
+  },
+  {
+   "h2": "United States",
+   "blurb": "Desert, wine country, and the islands of Hawaii",
+   "cards": [
+    {
+     "img": "/images/pools/amangiri.jpg",
+     "name": "Amangiri",
+     "p": "Utah &middot; Desert resort (Aman)",
+     "href": "/hotels/amangiri-utah.html"
+    },
+    {
+     "img": "/images/tennis/mauna-kea.jpg",
+     "name": "Mauna Kea Beach Hotel",
+     "p": "Big Island &middot; Classic beach resort",
+     "href": "/hotels/mauna-kea-beach-hotel-hawaii.html"
+    },
+    {
+     "img": "/images/tennis/mauna-kea.jpg",
+     "name": "Four Seasons Resort Hualalai",
+     "p": "Big Island &middot; Luxury beach resort",
+     "href": "/hotels/four-seasons-hualalai-hawaii.html"
+    },
+    {
+     "img": "/images/tennis/mauna-kea.jpg",
+     "name": "Four Seasons Resort Lanai",
+     "p": "Lanai &middot; Remote island resort",
+     "href": "/hotels/four-seasons-lanai-hawaii.html"
+    },
+    {
+     "img": "/images/napa/montage-3-firepit.jpg",
+     "name": "Auberge du Soleil",
+     "p": "Napa Valley &middot; Wine country hideaway (Auberge)",
+     "href": "/hotels/auberge-du-soleil-napa.html"
+    }
+   ]
+  },
+  {
+   "h2": "Japan",
+   "blurb": "Kyoto ryokan-luxury and Tokyo towers",
+   "cards": [
+    {
+     "img": "/images/destinations/aman-kyoto.jpg",
+     "name": "Aman Kyoto",
+     "p": "Kyoto &middot; Forest sanctuary (Aman)",
+     "href": "/hotels/aman-kyoto.html"
+    },
+    {
+     "img": "/images/destinations/capella-kyoto.jpg",
+     "name": "Capella Kyoto",
+     "p": "Kyoto &middot; Design hotel",
+     "href": "/hotels/capella-kyoto.html"
+    },
+    {
+     "img": "/images/destinations/ritz-kyoto.jpg",
+     "name": "The Ritz-Carlton, Kyoto",
+     "p": "Kyoto &middot; Classic luxury hotel",
+     "href": "/hotels/ritz-carlton-kyoto.html"
+    },
+    {
+     "img": "/images/destinations/japan-tokyo.jpg",
+     "name": "Aman Tokyo",
+     "p": "Tokyo &middot; Urban sanctuary (Aman)",
+     "href": "/hotels/aman-tokyo.html"
+    },
+    {
+     "img": "/images/destinations/mo-tokyo.jpg",
+     "name": "Mandarin Oriental, Tokyo",
+     "p": "Tokyo &middot; Contemporary luxury hotel",
+     "href": "/hotels/mandarin-oriental-tokyo.html"
+    },
+    {
+     "img": "/images/destinations/peninsula-tokyo.jpg",
+     "name": "The Peninsula Tokyo",
+     "p": "Tokyo &middot; Classic grand hotel",
+     "href": "/hotels/peninsula-tokyo.html"
+    }
+   ]
+  },
+  {
+   "h2": "Maldives &amp; Indian Ocean",
+   "blurb": "Overwater icons and private-island escapes",
+   "cards": [
+    {
+     "img": "/images/tennis/cheval-blanc-randheli.avif",
+     "name": "Cheval Blanc Randheli",
+     "p": "Maldives &middot; Private-island resort (LVMH)",
+     "href": "/hotels/cheval-blanc-randheli-maldives.html"
+    },
+    {
+     "img": "/images/tennis/bawah-reserve.jpg",
+     "name": "Bawah Reserve",
+     "p": "Indonesia &middot; Private-island eco resort",
+     "href": "/hotels/bawah-reserve-indonesia.html"
+    },
+    {
+     "img": "/images/proposals/divider-overwater.jpg",
+     "name": "Soneva Jani",
+     "p": "Maldives &middot; Overwater private-island resort",
+     "href": "/hotels/soneva-jani-maldives.html"
+    },
+    {
+     "img": "/images/proposals/cover-hero.jpg",
+     "name": "Joali Being",
+     "p": "Maldives &middot; Wellness private-island resort",
+     "href": "/hotels/joali-being-maldives.html"
+    },
+    {
+     "img": "/images/proposals/design-escape.jpg",
+     "name": "Patina Maldives, Fari Islands",
+     "p": "Maldives &middot; Contemporary design resort",
+     "href": "/hotels/patina-maldives.html"
+    },
+    {
+     "img": "/images/proposals/island-escape.jpg",
+     "name": "Six Senses Kanuhura",
+     "p": "Maldives &middot; Barefoot island resort",
+     "href": "/hotels/six-senses-kanuhura-maldives.html"
+    },
+    {
+     "img": "/images/proposals/four-seasons.jpg",
+     "name": "Four Seasons Resort Maldives at Kuda Huraa",
+     "p": "Maldives &middot; Classic island resort (Four Seasons)",
+     "href": "/hotels/four-seasons-kuda-huraa-maldives.html"
+    },
+    {
+     "img": "/images/proposals/four-seasons.jpg",
+     "name": "Four Seasons Resort Maldives at Landaa Giraavaru",
+     "p": "Maldives &middot; Flagship island resort (Four Seasons)",
+     "href": "/hotels/four-seasons-landaa-giraavaru-maldives.html"
+    },
+    {
+     "img": "/images/proposals/island-escape.jpg",
+     "name": "Banyan Tree Vabbinfaru",
+     "p": "Maldives &middot; Intimate island resort",
+     "href": "/hotels/banyan-tree-vabbinfaru-maldives.html"
+    }
+   ]
+  },
+  {
+   "h2": "Africa &amp; Safari",
+   "blurb": "Camps and lodges worth the flight",
+   "cards": [
+    {
+     "img": "/images/destinations/fs-serengeti.jpg",
+     "name": "Four Seasons Safari Lodge Serengeti",
+     "p": "Tanzania &middot; Safari lodge (Four Seasons)",
+     "href": "/hotels/four-seasons-safari-lodge-serengeti.html"
+    },
+    {
+     "img": "/images/destinations/angama.jpg",
+     "name": "Angama Mara",
+     "p": "Kenya &middot; Escarpment safari lodge",
+     "href": "/hotels/angama-mara-kenya.html"
+    },
+    {
+     "img": "/images/destinations/olonana.jpg",
+     "name": "Sanctuary Olonana",
+     "p": "Kenya &middot; Riverside safari camp",
+     "href": "/hotels/sanctuary-olonana-kenya.html"
+    },
+    {
+     "img": "/images/destinations/royal-malewane.jpg",
+     "name": "Royal Malewane",
+     "p": "South Africa &middot; Flagship luxury lodge (The Royal Portfolio)",
+     "href": "/hotels/royal-malewane-south-africa.html"
+    },
+    {
+     "img": "/images/destinations/londolozi.jpg",
+     "name": "Londolozi",
+     "p": "South Africa &middot; Family-run Sabi Sand reserve",
+     "href": "/hotels/londolozi-south-africa.html"
+    },
+    {
+     "img": "/images/destinations/mombo-camp.jpg",
+     "name": "Mombo Camp",
+     "p": "Botswana &middot; Flagship Okavango camp (Wilderness)",
+     "href": "/hotels/mombo-camp-botswana.html"
+    },
+    {
+     "img": "/images/destinations/ellerman-house.jpg",
+     "name": "Ellerman House",
+     "p": "Cape Town &middot; Private-house hotel (Relais &amp; Ch&acirc;teaux)",
+     "href": "/hotels/ellerman-house-cape-town.html"
+    }
+   ]
+  },
+  {
+   "h2": "More Escapes",
+   "blurb": "Singular places that fit no category",
+   "cards": [
+    {
+     "img": "/images/pools/six-senses-ibiza.jpg",
+     "name": "Six Senses Ibiza",
+     "p": "Ibiza &middot; Wellness resort",
+     "href": "/hotels/six-senses-ibiza.html"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+import data from '../data/hotelguides.json';
+
+const anchor = (h2) => h2.toLowerCase().replace(/&amp;/g, 'and').replace(/&middot;/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+---
+<Layout
+  canonical="hotel-guides.html"
+  title={data.title}
+  description={data.description}
+  current="rankings"
+>
+
+<!-- masthead -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p class="eyebrow reveal">The hotel guides</p>
+    <h1 class="display-xl reveal" style="margin-top:18px; max-width:14ch;" set:html={data.h1} />
+    <p class="deck reveal" style="margin-top:22px; max-width:50ch;">Property-by-property reviews from real stays and site visits &mdash; no press trips, no sponsored placements. Rates through me are identical to booking direct; the perks are not.</p>
+  </div>
+</section>
+
+<!-- jump bar -->
+<nav class="jump" aria-label="Regions on this page">
+  <div class="container">
+    {data.groups.map((g) => <a href={`#${anchor(g.h2)}`} set:html={g.h2} />)}
+  </div>
+</nav>
+
+{data.groups.map((g) => (
+  <section class="section" id={anchor(g.h2)} style="padding-bottom:0; scroll-margin-top:70px;">
+    <div class="container">
+      <div class="sec-head reveal" style="margin-bottom:26px;">
+        <h2 class="display-l" style="font-size:clamp(1.5rem,2.8vw,2.1rem);" set:html={g.h2} />
+        {g.blurb && <p class="body-2 hg-blurb" style="margin-top:10px;" set:html={g.blurb} />}
+      </div>
+      <div class="cards reveal" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr));">
+        {g.cards.map((c) => (
+          <a class="card" href={c.href}>
+            <img src={c.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+            <div class="pad"><h3 set:html={c.name} /><p set:html={c.p} /><span class="go">Read the guide &rarr;</span></div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+))}
+
+<div style="height:clamp(64px,9vw,110px);"></div>
+
+<Ask
+  subject="Inquiry — Hotel Guides"
+  page="hotel-guides"
+  placeholder="Positano in June"
+  deck="Found the hotel? Tell me where and when &mdash; the rate is the same, the welcome isn&rsquo;t."
+  dark
+/>
+
+</Layout>
+
+<style>
+  .jump { position: sticky; top: 0; z-index: 25; background: var(--plaster); border-bottom: 1px solid var(--hairline); }
+  .jump .container { display: flex; gap: 26px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; padding-top: 13px; padding-bottom: 13px; }
+  .jump .container::-webkit-scrollbar { display: none; }
+  .jump a { font-size: .66rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--ash); text-decoration: none; white-space: nowrap; }
+  .jump a:hover { color: var(--ink); }
+  .hg-blurb :global(a) { color: var(--brass); }
+</style>

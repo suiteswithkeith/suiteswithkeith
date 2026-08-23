@@ -1,0 +1,255 @@
+{
+ "top-hotel-pools": {
+  "slug": "top-hotel-pools",
+  "title": "10 World's Most Jaw-Dropping Hotel Pools | Suites With Keith",
+  "description": "Ten hotel pools worth planning a trip around — from a cave pool on Santorini to a private island in the French Riviera, curated by travel advisor Keith Pence.",
+  "eyebrow": "Keith's List &middot; 2026",
+  "h1": "10 World's Most Jaw-Dropping Hotel Pools",
+  "sub": "Save this guide for your next dip.",
+  "cards": [
+   {
+    "img": "/images/pools/miramalfi.jpg",
+    "pos": "center 30%",
+    "num": "01",
+    "name": "Miramalfi",
+    "loc": "Amalfi, Italy",
+    "price": "",
+    "fora": "",
+    "desc": "Carved into the cliffside, facing the Amalfi coastline.",
+    "href": "/hotels/miramalfi-amalfi.html"
+   },
+   {
+    "img": "/images/pools/le-sirenuse.jpg",
+    "pos": null,
+    "num": "02",
+    "name": "Le Sirenuse",
+    "loc": "Positano, Italy",
+    "price": "",
+    "fora": "",
+    "desc": "A rooftop pool overlooking the Amalfi coastline.",
+    "href": "/hotels/le-sirenuse-positano.html"
+   },
+   {
+    "img": "/images/pools/amangiri.jpg",
+    "pos": null,
+    "num": "03",
+    "name": "Amangiri",
+    "loc": "Utah, USA",
+    "price": "",
+    "fora": "",
+    "desc": "A pool built into a red rock mesa in the desert.",
+    "href": "/hotels/amangiri-utah.html"
+   },
+   {
+    "img": "/images/pools/canaves-oia-river-suite.jpg",
+    "pos": null,
+    "num": "04",
+    "name": "Canaves Oia Suites &mdash; River Suite",
+    "loc": "Santorini, Greece",
+    "price": "",
+    "fora": "",
+    "desc": "A private cave pool running out through an arch to the caldera.",
+    "href": "/hotels/canaves-oia-suites-santorini.html"
+   },
+   {
+    "img": "/images/pools/hotel-cap-estel.jpg",
+    "pos": null,
+    "num": "05",
+    "name": "Hotel Cap Estel",
+    "loc": "&Egrave;ze, France",
+    "price": "",
+    "fora": "",
+    "desc": "A pool jutting into the sea on its own private peninsula.",
+    "href": "/hotels/hotel-cap-estel-eze.html"
+   },
+   {
+    "img": "/images/pools/zannier-ile-de-bendor.jpg",
+    "pos": null,
+    "num": "06",
+    "name": "Zannier H&ocirc;tels &mdash; &Icirc;le de Bendor",
+    "loc": "&Icirc;le de Bendor, France",
+    "price": "",
+    "fora": "",
+    "desc": "A private island pool ringed by the French Riviera.",
+    "href": "/hotels/zannier-ile-de-bendor-france.html"
+   },
+   {
+    "img": "/images/pools/six-senses-ibiza.jpg",
+    "pos": null,
+    "num": "07",
+    "name": "Six Senses Ibiza",
+    "loc": "Ibiza, Spain",
+    "price": "",
+    "fora": "",
+    "desc": "A cliffside infinity pool built for sunset.",
+    "href": "/hotels/six-senses-ibiza.html"
+   },
+   {
+    "img": "/images/pools/grace-santorini.jpg",
+    "pos": null,
+    "num": "08",
+    "name": "Grace Hotel Santorini",
+    "loc": "Santorini, Greece",
+    "price": "",
+    "fora": "",
+    "desc": "Cascading infinity pools suspended over the caldera.",
+    "href": "/hotels/grace-santorini.html"
+   },
+   {
+    "img": "/images/pools/mandarin-oriental-lake-como.jpg",
+    "pos": null,
+    "num": "09",
+    "name": "Mandarin Oriental, Lake Como",
+    "loc": "Lake Como, Italy",
+    "price": "",
+    "fora": "",
+    "desc": "An infinity pool floating at the water's edge, framed by the Alps.",
+    "href": "/hotels/mandarin-oriental-lago-di-como.html"
+   },
+   {
+    "img": "/images/pools/hotel-du-cap-eden-roc.jpg",
+    "pos": null,
+    "num": "10",
+    "name": "H&ocirc;tel du Cap-Eden-Roc",
+    "loc": "Cap d'Antibes, France",
+    "price": "",
+    "fora": "",
+    "desc": "The legendary Eden-Roc pool, blasted into the cliffs above the Mediterranean.",
+    "href": "/hotels/hotel-du-cap-eden-roc-antibes.html"
+   }
+  ],
+  "cta": "That's a wrap. Save this guide, then message me — I'll plan the trip."
+ },
+ "top-hotel-tennis-courts": {
+  "slug": "top-hotel-tennis-courts",
+  "title": "The World's Most Beautiful Hotel Tennis Courts | Suites With Keith",
+  "description": "Eleven hotel tennis courts worth planning a trip around — from a cliffside court in Positano to a private island in the Maldives, curated by travel advisor Keith Pence.",
+  "eyebrow": "Keith's List &middot; 2026",
+  "h1": "The World's Most Beautiful Hotel Tennis Courts",
+  "sub": "Save this guide for your next match.",
+  "cards": [
+   {
+    "img": "/images/tennis/il-san-pietro.jpg",
+    "pos": null,
+    "num": "01",
+    "name": "Il San Pietro di Positano",
+    "loc": "Positano, Italy",
+    "price": "$$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "A clay court blasted into the cliffside, with the Amalfi coastline as the backdrop.",
+    "href": "/hotels/il-san-pietro-di-positano.html"
+   },
+   {
+    "img": "/images/tennis/hotel-cipriani.avif",
+    "pos": null,
+    "num": "02",
+    "name": "Hotel Cipriani",
+    "loc": "Venice, Italy",
+    "price": "$$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "A private clay court on Giudecca Island, framed by hedges and the Venetian lagoon.",
+    "href": "/hotels/hotel-cipriani-venice.html"
+   },
+   {
+    "img": "/images/tennis/burgenstock.jpg",
+    "pos": null,
+    "num": "03",
+    "name": "B&uuml;rgenstock Resort",
+    "loc": "Lake Lucerne, Switzerland",
+    "price": "$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "An alpine indoor court wrapped in timber, framed by the peaks above Lake Lucerne.",
+    "href": "/hotels/burgenstock-resort-lake-lucerne.html"
+   },
+   {
+    "img": "/images/tennis/passalacqua.jpg",
+    "pos": null,
+    "num": "04",
+    "name": "Passalacqua",
+    "loc": "Lake Como, Italy",
+    "price": "$$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "A single clay court perched above Lake Como, framed by cypress and the Alps.",
+    "href": "/hotels/passalacqua-lake-como.html"
+   },
+   {
+    "img": "/images/tennis/cheval-blanc-randheli.avif",
+    "pos": null,
+    "num": "05",
+    "name": "Cheval Blanc Randheli",
+    "loc": "Maldives",
+    "price": "$$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "A cerulean court cut into the jungle, ringed by palms on a private Maldivian island.",
+    "href": "/hotels/cheval-blanc-randheli-maldives.html"
+   },
+   {
+    "img": "/images/tennis/villa-d-este.jpg",
+    "pos": null,
+    "num": "06",
+    "name": "Villa d&rsquo;Este",
+    "loc": "Lake Como, Italy",
+    "price": "$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "Century-old courts along the water, part of one of Lake Como's grandest estates.",
+    "href": "/hotels/villa-d-este-lake-como.html"
+   },
+   {
+    "img": "/images/tennis/gstaad-palace.jpg",
+    "pos": null,
+    "num": "07",
+    "name": "Gstaad Palace",
+    "loc": "Gstaad, Switzerland",
+    "price": "$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "Chalet-side clay courts in the Alps, home to an annual stop on the pro tour.",
+    "href": "/hotels/gstaad-palace.html"
+   },
+   {
+    "img": "/images/tennis/splendido.avif",
+    "pos": null,
+    "num": "08",
+    "name": "Splendido",
+    "loc": "Portofino, Italy",
+    "price": "$$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "Terraced above Portofino's harbor, with the Ligurian coastline stretching out beyond the net.",
+    "href": "/hotels/splendido-portofino.html"
+   },
+   {
+    "img": "/images/tennis/bawah-reserve.jpg",
+    "pos": null,
+    "num": "09",
+    "name": "Bawah Reserve",
+    "loc": "Anambas Islands, Indonesia",
+    "price": "$$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "A single court cut into the rainforest, ringed by white sand and turquoise water.",
+    "href": "/hotels/bawah-reserve-indonesia.html"
+   },
+   {
+    "img": "/images/tennis/hotel-du-cap-eden-roc.jpg",
+    "pos": null,
+    "num": "10",
+    "name": "H&ocirc;tel du Cap-Eden-Roc",
+    "loc": "Cap d'Antibes, France",
+    "price": "$$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "Clay courts tucked into the pines, just steps from the Mediterranean below.",
+    "href": "/hotels/hotel-du-cap-eden-roc-antibes.html"
+   },
+   {
+    "img": "/images/tennis/mauna-kea.jpg",
+    "pos": null,
+    "num": "11",
+    "name": "Mauna Kea Beach Hotel",
+    "loc": "Big Island, Hawaii",
+    "price": "$$$",
+    "fora": "Fora Reserve Property",
+    "desc": "Hawaii's original tennis park &mdash; a dozen courts set along the Kohala Coast.",
+    "href": "/hotels/mauna-kea-beach-hotel-hawaii.html"
+   }
+  ],
+  "cta": "That's a wrap. Save this guide, then message me — I'll plan the trip."
+ }
+}
