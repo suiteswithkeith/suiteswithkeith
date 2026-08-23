@@ -1,8 +1,17 @@
 ---
 import RankingList from '../layouts/RankingList.astro';
+
+const versus = [
+  { href: '/andronis-boutique-vs-canaves-oia-suites.html', a: 'Andronis Boutique', b: 'Canaves Oia Suites', q: 'My #01 and #02 &mdash; the cave room or the caldera, perfected.' },
+  { href: '/canaves-oia-suites-vs-canaves-epitome.html', a: 'Canaves Oia Suites', b: 'Epitome', q: 'Same family, one decision: the Caldera or the sunset.' },
+  { href: '/andronis-boutique-vs-andronis-luxury-suites.html', a: 'Andronis Boutique', b: 'Luxury Suites', q: 'Same portfolio, same cliffside &mdash; the honeymoon or the anniversary.' },
+  { href: '/andronis-luxury-suites-vs-canaves-ena.html', a: 'Andronis Luxury Suites', b: 'Canaves Ena', q: 'Flagship polish or family heritage in 17th-century wine caves.' },
+  { href: '/andronis-arcadia-vs-canaves-epitome.html', a: 'Andronis Arcadia', b: 'Canaves Epitome', q: 'Next-door neighbors, opposite trips &mdash; the scene or the private world.' },
+];
 ---
 <RankingList
   slug="santorini-hotels-ranked"
   askPlaceholder="Santorini in June"
   askDeck="&ldquo;Santorini in June&rdquo; is a complete answer. I&rsquo;ll take it from there."
+  versus={versus}
 />
