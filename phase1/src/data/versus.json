@@ -1,408 +1,1227 @@
 {
-  "andronis-boutique-vs-canaves-oia-suites": {
-    "title": "Andronis Boutique or Canaves Oia Suites | Suites With Keith",
-    "description": "The two hotels at the top of Keith's Santorini ranking, minutes apart in Oia. He toured both on the same trip — here's how to decide between them.",
-    "eyebrow": "Head-to-head &middot; Oia, Santorini",
-    "h1_a": "Andronis Boutique",
-    "h1_b": "Canaves Oia Suites?",
-    "deck": "These are #01 and #02 on my Santorini ranking, minutes apart in Oia, and the comparison I&rsquo;m asked to settle most on the island. I toured both on the same trip. The decision comes down to which room you&rsquo;ve been picturing.",
-    "stamp": "Toured same trip &middot; #01 and #02 on my Santorini ranking &middot; both preferred partners",
-    "preload": "/images/hotels/andronis-boutique-1.jpg",
-    "choose": [
-      {
-        "eyebrow": "Choose Andronis Boutique",
-        "h3": "If you&rsquo;re dreaming of the cave room",
-        "lead": "Authentic cave-style suites, recently renovated &mdash; marble, wooden arches, surprisingly bright interiors &mdash; with a plunge pool or jacuzzi in every single room. These are the rooms people actually picture when they book Santorini.",
-        "img": "/images/hotels/andronis-boutique-1.jpg", "alt": "Cave-style suite terrace at Andronis Boutique, Oia", "w": 1800, "h": 1350
-      },
-      {
-        "eyebrow": "Choose Canaves Oia Suites",
-        "h3": "If you want the caldera, perfected",
-        "lead": "Completely renovated, and it blew me away everywhere I looked &mdash; the finishes, the water features, the landscaping. It sits higher on the Caldera than most, which buys something genuinely rare on Santorini: privacy.",
-        "img": "/images/hotels/canaves-oia-1.jpg", "alt": "Caldera suites at Canaves Oia Suites, Santorini", "w": 1800, "h": 1349
-      }
-    ],
-    "rows": [
-      ["My ranking", "#02 in Santorini", "#01 in Santorini"],
-      ["The room", "Authentic cave-style, beautifully renovated", "Contemporary caldera suites, top-to-bottom renovation"],
-      ["Water feature", "Plunge pool or jacuzzi in every room, no exceptions", "Private water features &mdash; but not in every category"],
-      ["The splurge suite", "The two-level Eternal Suite", "The River Pool Suite &mdash; best suite I saw across 38 hotels"],
-      ["Spa &amp; gym", "Spa devotees should look at sister property Andronis Concept", "The best spa product on the Caldera, plus a large gym"],
-      ["Villas", "Suites and villas within Oia", "Two- and three-bedroom pool villas &mdash; nearly nonexistent in Oia"],
-      ["From", "$900 / night", "$1,200 / night"]
-    ],
-    "footnote": "Both are preferred partners &mdash; book either through me and the rate is identical to booking direct, with the partner extras layered on. One planning note: Canaves Oia Suites is 13+; traveling with younger kids, sister property Canaves Epitome, a short walk away, has no age restrictions.",
-    "verdict": {
-      "h2": "If the River Pool Suite is available for your dates, stop deliberating.",
-      "paras": [
-        "Canaves Oia Suites was the best hotel I saw for first-time visitors to Santorini, and I&rsquo;d be hard pressed to recommend anything else first for the classic caldera-luxury experience. Complete privacy doesn&rsquo;t exist anywhere on the Caldera, but Canaves does a particularly good job of engineering it &mdash; set higher than most, with coverings above every room&rsquo;s outdoor space.",
-        "But Andronis Boutique&rsquo;s rooms are the real thing &mdash; genuine cave architecture with a water feature in every room, at rates that usually land a few hundred a night lower. Between the top Oia properties you really can&rsquo;t go wrong; this one is about the picture in your head. And if you land on Boutique, book dinner at Lycabettus the moment you confirm the room."
-      ]
-    },
-    "subject": "Andronis Boutique vs Canaves Oia Suites Inquiry",
-    "hotel": "Andronis Boutique / Canaves Oia Suites",
-    "placeholder": "Late September, 4 nights",
-    "related": [
-      { "href": "/santorini-hotels-ranked.html", "label": "My full Santorini ranking" },
-      { "href": "/hotels/andronis-boutique-santorini.html", "label": "Andronis Boutique review" },
-      { "href": "/hotels/canaves-oia-suites-santorini.html", "label": "Canaves Oia Suites review" },
-      { "href": "/canaves-oia-suites-vs-canaves-epitome.html", "label": "Oia Suites or Epitome" }
-    ]
+ "andronis-boutique-vs-canaves-oia-suites": {
+  "title": "Andronis Boutique or Canaves Oia Suites | Suites With Keith",
+  "description": "The two hotels at the top of Keith's Santorini ranking, minutes apart in Oia. He toured both on the same trip — here's how to decide between them.",
+  "eyebrow": "Head-to-head &middot; Oia, Santorini",
+  "h1_a": "Andronis Boutique",
+  "h1_b": "Canaves Oia Suites?",
+  "deck": "These are #01 and #02 on my Santorini ranking, minutes apart in Oia, and the comparison I&rsquo;m asked to settle most on the island. I toured both on the same trip. The decision comes down to which room you&rsquo;ve been picturing.",
+  "stamp": "Toured same trip &middot; #01 and #02 on my Santorini ranking &middot; both preferred partners",
+  "preload": "/images/hotels/andronis-boutique-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Andronis Boutique",
+    "h3": "If you&rsquo;re dreaming of the cave room",
+    "lead": "Authentic cave-style suites, recently renovated &mdash; marble, wooden arches, surprisingly bright interiors &mdash; with a plunge pool or jacuzzi in every single room. These are the rooms people actually picture when they book Santorini.",
+    "img": "/images/hotels/andronis-boutique-1.jpg",
+    "alt": "Cave-style suite terrace at Andronis Boutique, Oia",
+    "w": 1800,
+    "h": 1350
+   },
+   {
+    "eyebrow": "Choose Canaves Oia Suites",
+    "h3": "If you want the caldera, perfected",
+    "lead": "Completely renovated, and it blew me away everywhere I looked &mdash; the finishes, the water features, the landscaping. It sits higher on the Caldera than most, which buys something genuinely rare on Santorini: privacy.",
+    "img": "/images/hotels/canaves-oia-1.jpg",
+    "alt": "Caldera suites at Canaves Oia Suites, Santorini",
+    "w": 1800,
+    "h": 1349
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#02 in Santorini",
+    "#01 in Santorini"
+   ],
+   [
+    "The room",
+    "Authentic cave-style, beautifully renovated",
+    "Contemporary caldera suites, top-to-bottom renovation"
+   ],
+   [
+    "Water feature",
+    "Plunge pool or jacuzzi in every room, no exceptions",
+    "Private water features &mdash; but not in every category"
+   ],
+   [
+    "The splurge suite",
+    "The two-level Eternal Suite",
+    "The River Pool Suite &mdash; best suite I saw across 38 hotels"
+   ],
+   [
+    "Spa &amp; gym",
+    "Spa devotees should look at sister property Andronis Concept",
+    "The best spa product on the Caldera, plus a large gym"
+   ],
+   [
+    "Villas",
+    "Suites and villas within Oia",
+    "Two- and three-bedroom pool villas &mdash; nearly nonexistent in Oia"
+   ],
+   [
+    "From",
+    "$900 / night",
+    "$1,200 / night"
+   ]
+  ],
+  "footnote": "Both are preferred partners &mdash; book either through me and the rate is identical to booking direct, with the partner extras layered on. One planning note: Canaves Oia Suites is 13+; traveling with younger kids, sister property Canaves Epitome, a short walk away, has no age restrictions.",
+  "verdict": {
+   "h2": "If the River Pool Suite is available for your dates, stop deliberating.",
+   "paras": [
+    "Canaves Oia Suites was the best hotel I saw for first-time visitors to Santorini, and I&rsquo;d be hard pressed to recommend anything else first for the classic caldera-luxury experience. Complete privacy doesn&rsquo;t exist anywhere on the Caldera, but Canaves does a particularly good job of engineering it &mdash; set higher than most, with coverings above every room&rsquo;s outdoor space.",
+    "But Andronis Boutique&rsquo;s rooms are the real thing &mdash; genuine cave architecture with a water feature in every room, at rates that usually land a few hundred a night lower. Between the top Oia properties you really can&rsquo;t go wrong; this one is about the picture in your head. And if you land on Boutique, book dinner at Lycabettus the moment you confirm the room."
+   ]
   },
-
-  "andronis-boutique-vs-andronis-luxury-suites": {
-    "title": "Andronis Boutique or Andronis Luxury Suites | Suites With Keith",
-    "description": "Same portfolio, same cliffside, two different trips. Keith toured both Andronis flagships back to back — here's which one fits which traveler.",
-    "eyebrow": "Head-to-head &middot; The Andronis question",
-    "h1_a": "Andronis Boutique",
-    "h1_b": "Luxury Suites?",
-    "deck": "Same portfolio, same Oia cliffside, two very different trips. The flagship reads refined, old-school luxury; Boutique is the authentic cave-style Santorini people fly in for. I toured both back to back &mdash; here&rsquo;s how I split them.",
-    "stamp": "#02 and #04 on my Santorini ranking &middot; same portfolio &middot; both toured",
-    "preload": "/images/hotels/andronis-boutique-1.jpg",
-    "choose": [
-      {
-        "eyebrow": "Choose Boutique",
-        "h3": "If you want Santorini to look like Santorini",
-        "lead": "Real cave-style rooms, recently renovated, with a plunge pool or jacuzzi in every one. It skews toward younger honeymooners, and rates tend to land below the flagship &mdash; while giving up very little.",
-        "img": "/images/hotels/andronis-boutique-2.jpg", "alt": "Renovated cave interiors at Andronis Boutique", "w": 1800, "h": 1350
-      },
-      {
-        "eyebrow": "Choose Luxury Suites",
-        "h3": "If refined and looked-after is the point",
-        "lead": "The flagship: elegant, more exclusive on paper, all 39 suites and villas with a water feature, and home to Lycabettus &mdash; the island&rsquo;s most famous cliffside table. Also the portfolio&rsquo;s best choice when mobility is a factor.",
-        "img": "/images/hotels/andronis-luxury-1.jpg", "alt": "Cliffside pools at Andronis Luxury Suites, Oia", "w": 1800, "h": 1191
-      }
-    ],
-    "rows": [
-      ["My ranking", "#02 in Santorini", "#04 in Santorini"],
-      ["The room", "Authentic cave-style &mdash; marble, wooden arches", "Spacious and refined &mdash; old-school luxury more than Cycladic"],
-      ["Water feature", "Every room &mdash; plunge pool or jacuzzi", "All 39 &mdash; plunge pool, jacuzzi, or full pool in the villas"],
-      ["Who it suits", "Younger honeymooners, first-timers", "40+ couples, anniversaries &mdash; returning since the honeymoon"],
-      ["Mobility", "Like most of Oia, stairs come with the territory", "A few suites near check-in have only 15&ndash;20 stairs"],
-      ["The signature", "The two-level Eternal Suite", "Lycabettus &mdash; plus a MINI Cooper Cabrio with select suites"],
-      ["Rate", "From $900 / night", "Slightly above Boutique"]
-    ],
-    "footnote": "Whichever you book, reserve Lycabettus the same day you confirm the room &mdash; it fills faster than the hotel does. And both are preferred partners: same rate as booking direct, with the extras layered on.",
-    "verdict": {
-      "h2": "Boutique for the honeymoon; the flagship for the anniversary.",
-      "paras": [
-        "Luxury Suites lends itself perfectly to a 50+ clientele on anniversary trips &mdash; or couples returning to Santorini for the first time since their honeymoon. It&rsquo;s equally beautiful, just more old-school luxury than authentically Santorini, and that&rsquo;s exactly why it works for that trip. It&rsquo;s also my pick in the portfolio when mobility is a concern.",
-        "For everyone else: Boutique&rsquo;s cave-style rooms are the real thing, you give up very little versus the flagship, and you usually pay less doing it."
-      ]
-    },
-    "subject": "Andronis Boutique vs Luxury Suites Inquiry",
-    "hotel": "Andronis Boutique / Andronis Luxury Suites",
-    "placeholder": "June, 5 nights",
-    "related": [
-      { "href": "/santorini-hotels-ranked.html", "label": "My full Santorini ranking" },
-      { "href": "/hotels/andronis-boutique-santorini.html", "label": "Andronis Boutique review" },
-      { "href": "/hotels/andronis-luxury-suites-santorini.html", "label": "Andronis Luxury Suites review" },
-      { "href": "/andronis-boutique-vs-canaves-oia-suites.html", "label": "Boutique or Canaves Oia Suites" }
-    ]
+  "subject": "Andronis Boutique vs Canaves Oia Suites Inquiry",
+  "hotel": "Andronis Boutique / Canaves Oia Suites",
+  "placeholder": "Late September, 4 nights",
+  "related": [
+   {
+    "href": "/santorini-hotels-ranked.html",
+    "label": "My full Santorini ranking"
+   },
+   {
+    "href": "/hotels/andronis-boutique-santorini.html",
+    "label": "Andronis Boutique review"
+   },
+   {
+    "href": "/hotels/canaves-oia-suites-santorini.html",
+    "label": "Canaves Oia Suites review"
+   },
+   {
+    "href": "/canaves-oia-suites-vs-canaves-epitome.html",
+    "label": "Oia Suites or Epitome"
+   }
+  ]
+ },
+ "andronis-boutique-vs-andronis-luxury-suites": {
+  "title": "Andronis Boutique or Andronis Luxury Suites | Suites With Keith",
+  "description": "Same portfolio, same cliffside, two different trips. Keith toured both Andronis flagships back to back — here's which one fits which traveler.",
+  "eyebrow": "Head-to-head &middot; The Andronis question",
+  "h1_a": "Andronis Boutique",
+  "h1_b": "Luxury Suites?",
+  "deck": "Same portfolio, same Oia cliffside, two very different trips. The flagship reads refined, old-school luxury; Boutique is the authentic cave-style Santorini people fly in for. I toured both back to back &mdash; here&rsquo;s how I split them.",
+  "stamp": "#02 and #04 on my Santorini ranking &middot; same portfolio &middot; both toured",
+  "preload": "/images/hotels/andronis-boutique-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Boutique",
+    "h3": "If you want Santorini to look like Santorini",
+    "lead": "Real cave-style rooms, recently renovated, with a plunge pool or jacuzzi in every one. It skews toward younger honeymooners, and rates tend to land below the flagship &mdash; while giving up very little.",
+    "img": "/images/hotels/andronis-boutique-2.jpg",
+    "alt": "Renovated cave interiors at Andronis Boutique",
+    "w": 1800,
+    "h": 1350
+   },
+   {
+    "eyebrow": "Choose Luxury Suites",
+    "h3": "If refined and looked-after is the point",
+    "lead": "The flagship: elegant, more exclusive on paper, all 39 suites and villas with a water feature, and home to Lycabettus &mdash; the island&rsquo;s most famous cliffside table. Also the portfolio&rsquo;s best choice when mobility is a factor.",
+    "img": "/images/hotels/andronis-luxury-1.jpg",
+    "alt": "Cliffside pools at Andronis Luxury Suites, Oia",
+    "w": 1800,
+    "h": 1191
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#02 in Santorini",
+    "#04 in Santorini"
+   ],
+   [
+    "The room",
+    "Authentic cave-style &mdash; marble, wooden arches",
+    "Spacious and refined &mdash; old-school luxury more than Cycladic"
+   ],
+   [
+    "Water feature",
+    "Every room &mdash; plunge pool or jacuzzi",
+    "All 39 &mdash; plunge pool, jacuzzi, or full pool in the villas"
+   ],
+   [
+    "Who it suits",
+    "Younger honeymooners, first-timers",
+    "40+ couples, anniversaries &mdash; returning since the honeymoon"
+   ],
+   [
+    "Mobility",
+    "Like most of Oia, stairs come with the territory",
+    "A few suites near check-in have only 15&ndash;20 stairs"
+   ],
+   [
+    "The signature",
+    "The two-level Eternal Suite",
+    "Lycabettus &mdash; plus a MINI Cooper Cabrio with select suites"
+   ],
+   [
+    "Rate",
+    "From $900 / night",
+    "Slightly above Boutique"
+   ]
+  ],
+  "footnote": "Whichever you book, reserve Lycabettus the same day you confirm the room &mdash; it fills faster than the hotel does. And both are preferred partners: same rate as booking direct, with the extras layered on.",
+  "verdict": {
+   "h2": "Boutique for the honeymoon; the flagship for the anniversary.",
+   "paras": [
+    "Luxury Suites lends itself perfectly to a 50+ clientele on anniversary trips &mdash; or couples returning to Santorini for the first time since their honeymoon. It&rsquo;s equally beautiful, just more old-school luxury than authentically Santorini, and that&rsquo;s exactly why it works for that trip. It&rsquo;s also my pick in the portfolio when mobility is a concern.",
+    "For everyone else: Boutique&rsquo;s cave-style rooms are the real thing, you give up very little versus the flagship, and you usually pay less doing it."
+   ]
   },
-
-  "andronis-luxury-suites-vs-canaves-ena": {
-    "title": "Andronis Luxury Suites or Canaves Ena | Suites With Keith",
-    "description": "The refined Andronis flagship against the freshly renovated Canaves original — #04 and #05 on Keith's Santorini ranking, and closer than the numbers suggest.",
-    "eyebrow": "Head-to-head &middot; Oia, Santorini",
-    "h1_a": "Andronis Luxury Suites",
-    "h1_b": "Canaves Ena?",
-    "deck": "The refined flagship of one Oia dynasty against the freshly renovated original of the other &mdash; #04 and #05 on my Santorini ranking, and closer than those numbers suggest. I toured both on the same trip.",
-    "stamp": "#04 and #05 on my Santorini ranking &middot; both toured &middot; both preferred partners",
-    "preload": "/images/hotels/andronis-luxury-1.jpg",
-    "choose": [
-      {
-        "eyebrow": "Choose Luxury Suites",
-        "h3": "If polish and ease win",
-        "lead": "Spacious suites with a water feature in all 39 rooms, the Mare Sanus Spa, Lycabettus at home, and the portfolio&rsquo;s most manageable stairs &mdash; a few suites sit only 15&ndash;20 steps from check-in.",
-        "img": "/images/hotels/andronis-luxury-1.jpg", "alt": "Andronis Luxury Suites on the Oia cliffside", "w": 1800, "h": 1191
-      },
-      {
-        "eyebrow": "Choose Ena",
-        "h3": "If character and intimacy win",
-        "lead": "Eighteen suites carved from 17th-century wine caves, run by the same family since the 80s and brought fully up to date by a 2024 renovation. Higher on the Caldera &mdash; which buys real privacy &mdash; with a swim-up bar that adds rare social energy.",
-        "img": "/images/hotels/canaves-ena-1.jpg", "alt": "Wine-cave suites at Canaves Ena, Oia", "w": 1800, "h": 1188
-      }
-    ],
-    "rows": [
-      ["My ranking", "#04 in Santorini", "#05 in Santorini"],
-      ["Scale", "39 suites &amp; villas", "18 suites &mdash; genuinely intimate"],
-      ["The room", "Spacious, refined, elegant", "17th-century wine caves &mdash; minimalist, renovated 2024, slightly smaller"],
-      ["Water feature", "Every room, no exceptions", "Not every room &mdash; check your category"],
-      ["Dining", "Lycabettus, plus Miltos&rsquo; Greek Table", "Adami &mdash; authentic Greek gastronomy by the main pool"],
-      ["The social factor", "The island comes to Lycabettus", "The swim-up pool bar &mdash; rare on an island of couples keeping to themselves"],
-      ["Rate", "Slightly above Andronis Boutique", "Usually lands right where Boutique does"]
-    ],
-    "footnote": "Ena is framed as the accessible Canaves, but the value positioning doesn&rsquo;t always show up in the rate &mdash; pricing almost always lands right where Andronis Boutique does. Judge it on the room, the privacy, the water feature, and the price for your actual dates.",
-    "verdict": {
-      "h2": "Flagship polish or family heritage — this one is a mood choice.",
-      "paras": [
-        "If a water feature is non-negotiable, or stairs are a concern, Luxury Suites settles it &mdash; every one of its 39 rooms has a plunge pool, jacuzzi, or full pool, and it&rsquo;s my pick in the portfolio when mobility is a factor.",
-        "But Ena has the most personal story on the Caldera &mdash; one family since the 80s, suites that trace to 17th-century wine caves &mdash; and the team there, especially longtime sales director Des, is a big reason I trust sending clients to the property. The intimacy is the point; just know the square footage isn&rsquo;t the selling feature."
-      ]
-    },
-    "subject": "Andronis Luxury Suites vs Canaves Ena Inquiry",
-    "hotel": "Andronis Luxury Suites / Canaves Ena",
-    "placeholder": "September, 4 nights",
-    "related": [
-      { "href": "/santorini-hotels-ranked.html", "label": "My full Santorini ranking" },
-      { "href": "/hotels/andronis-luxury-suites-santorini.html", "label": "Andronis Luxury Suites review" },
-      { "href": "/hotels/canaves-ena-santorini.html", "label": "Canaves Ena review" },
-      { "href": "/andronis-boutique-vs-andronis-luxury-suites.html", "label": "Boutique or Luxury Suites" }
-    ]
+  "subject": "Andronis Boutique vs Luxury Suites Inquiry",
+  "hotel": "Andronis Boutique / Andronis Luxury Suites",
+  "placeholder": "June, 5 nights",
+  "related": [
+   {
+    "href": "/santorini-hotels-ranked.html",
+    "label": "My full Santorini ranking"
+   },
+   {
+    "href": "/hotels/andronis-boutique-santorini.html",
+    "label": "Andronis Boutique review"
+   },
+   {
+    "href": "/hotels/andronis-luxury-suites-santorini.html",
+    "label": "Andronis Luxury Suites review"
+   },
+   {
+    "href": "/andronis-boutique-vs-canaves-oia-suites.html",
+    "label": "Boutique or Canaves Oia Suites"
+   }
+  ]
+ },
+ "andronis-luxury-suites-vs-canaves-ena": {
+  "title": "Andronis Luxury Suites or Canaves Ena | Suites With Keith",
+  "description": "The refined Andronis flagship against the freshly renovated Canaves original — #04 and #05 on Keith's Santorini ranking, and closer than the numbers suggest.",
+  "eyebrow": "Head-to-head &middot; Oia, Santorini",
+  "h1_a": "Andronis Luxury Suites",
+  "h1_b": "Canaves Ena?",
+  "deck": "The refined flagship of one Oia dynasty against the freshly renovated original of the other &mdash; #04 and #05 on my Santorini ranking, and closer than those numbers suggest. I toured both on the same trip.",
+  "stamp": "#04 and #05 on my Santorini ranking &middot; both toured &middot; both preferred partners",
+  "preload": "/images/hotels/andronis-luxury-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Luxury Suites",
+    "h3": "If polish and ease win",
+    "lead": "Spacious suites with a water feature in all 39 rooms, the Mare Sanus Spa, Lycabettus at home, and the portfolio&rsquo;s most manageable stairs &mdash; a few suites sit only 15&ndash;20 steps from check-in.",
+    "img": "/images/hotels/andronis-luxury-1.jpg",
+    "alt": "Andronis Luxury Suites on the Oia cliffside",
+    "w": 1800,
+    "h": 1191
+   },
+   {
+    "eyebrow": "Choose Ena",
+    "h3": "If character and intimacy win",
+    "lead": "Eighteen suites carved from 17th-century wine caves, run by the same family since the 80s and brought fully up to date by a 2024 renovation. Higher on the Caldera &mdash; which buys real privacy &mdash; with a swim-up bar that adds rare social energy.",
+    "img": "/images/hotels/canaves-ena-1.jpg",
+    "alt": "Wine-cave suites at Canaves Ena, Oia",
+    "w": 1800,
+    "h": 1188
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#04 in Santorini",
+    "#05 in Santorini"
+   ],
+   [
+    "Scale",
+    "39 suites &amp; villas",
+    "18 suites &mdash; genuinely intimate"
+   ],
+   [
+    "The room",
+    "Spacious, refined, elegant",
+    "17th-century wine caves &mdash; minimalist, renovated 2024, slightly smaller"
+   ],
+   [
+    "Water feature",
+    "Every room, no exceptions",
+    "Not every room &mdash; check your category"
+   ],
+   [
+    "Dining",
+    "Lycabettus, plus Miltos&rsquo; Greek Table",
+    "Adami &mdash; authentic Greek gastronomy by the main pool"
+   ],
+   [
+    "The social factor",
+    "The island comes to Lycabettus",
+    "The swim-up pool bar &mdash; rare on an island of couples keeping to themselves"
+   ],
+   [
+    "Rate",
+    "Slightly above Andronis Boutique",
+    "Usually lands right where Boutique does"
+   ]
+  ],
+  "footnote": "Ena is framed as the accessible Canaves, but the value positioning doesn&rsquo;t always show up in the rate &mdash; pricing almost always lands right where Andronis Boutique does. Judge it on the room, the privacy, the water feature, and the price for your actual dates.",
+  "verdict": {
+   "h2": "Flagship polish or family heritage — this one is a mood choice.",
+   "paras": [
+    "If a water feature is non-negotiable, or stairs are a concern, Luxury Suites settles it &mdash; every one of its 39 rooms has a plunge pool, jacuzzi, or full pool, and it&rsquo;s my pick in the portfolio when mobility is a factor.",
+    "But Ena has the most personal story on the Caldera &mdash; one family since the 80s, suites that trace to 17th-century wine caves &mdash; and the team there, especially longtime sales director Des, is a big reason I trust sending clients to the property. The intimacy is the point; just know the square footage isn&rsquo;t the selling feature."
+   ]
   },
-
-  "andronis-arcadia-vs-canaves-epitome": {
-    "title": "Andronis Arcadia or Canaves Epitome | Suites With Keith",
-    "description": "Next-door neighbors outside Oia with the same open-Aegean sunset — one a 114-key resort with a scene, the other Keith's #01 hotel in Greece.",
-    "eyebrow": "Head-to-head &middot; Next-door neighbors, outside Oia",
-    "h1_a": "Andronis Arcadia",
-    "h1_b": "Canaves Epitome?",
-    "deck": "They share a property line just outside Oia and the same golden-hour orientation &mdash; a real sunset into the open Aegean, something the Caldera hotels physically cannot offer. And they could not be aiming at more different trips. One is a true resort with a scene; the other is my favorite hotel in Greece.",
-    "stamp": "Literally next door &middot; both sunset-facing &middot; my #01 in Greece lives here",
-    "preload": "/images/hotels/canaves-epitome-1.jpg",
-    "choose": [
-      {
-        "eyebrow": "Choose Arcadia",
-        "h3": "If you want options and energy",
-        "lead": "A true resort &mdash; 114 suites and villas, every one with a private pool, including some of the island&rsquo;s largest. The ARCADemy kids club gives families real infrastructure, and Pacman&rsquo;s live music and Beefbar Santorini bring a scene the rest of this list doesn&rsquo;t have.",
-        "img": "/images/hotels/andronis-arcadia-1.jpg", "alt": "Private pools at Andronis Arcadia, Santorini", "w": 1800, "h": 1175
-      },
-      {
-        "eyebrow": "Choose Epitome",
-        "h3": "If you want the private world",
-        "lead": "Fifty-three rooms that still feel boutique, landscaped gardens behind volcanic-rock walls, two-bedroom suites with pools and outdoor dining decks &mdash; and Omnia, the best hotel restaurant I ate at across the entire trip.",
-        "img": "/images/hotels/canaves-epitome-1.jpg", "alt": "Gardens and pools at Canaves Epitome, near Oia", "w": 1800, "h": 1200
-      }
-    ],
-    "rows": [
-      ["My ranking", "#08 in Santorini", "#01 on my Greece top 10"],
-      ["Scale", "114 suites &amp; villas &mdash; a true resort", "53 rooms that still feel boutique"],
-      ["Pools", "Private pool in every room &mdash; some of the island&rsquo;s largest", "Suite pools and decks &mdash; some rooms look up into the water"],
-      ["Mood", "A bit of a scene &mdash; two very Mykonos-esque dining options", "A world away from Oia&rsquo;s busy streets"],
-      ["Kids", "The ARCADemy kids club, resort-scale grounds", "No age restrictions &mdash; rare at this level of luxury"],
-      ["Dining", "Pacman with live music, Beefbar Santorini", "Omnia &mdash; worth booking even if you stay elsewhere"],
-      ["Weddings &amp; groups", "Santorini&rsquo;s best room-block hotel", "Full-property buyouts available"]
-    ],
-    "footnote": "One practical note: Arcadia is massive and spread out &mdash; in summer heat, with no meltemi wind blowing, you&rsquo;ll want a golf cart to get around. Epitome is more spread out than the Caldera hotels too, but its 53 rooms still feel boutique.",
-    "verdict": {
-      "h2": "Epitome — unless the scene is the point.",
-      "paras": [
-        "If you&rsquo;re asking me for the single best hotel I experienced across the Greek islands, it&rsquo;s Canaves Epitome &mdash; perhaps one of the top three stays of my entire life. The gardens turn the common areas into a private world minutes from Oia&rsquo;s crowds, the two-bedroom suites are the star, and the sunset is the best in Greece.",
-        "Arcadia is the right Santorini hotel for travelers who want activity and options rather than seclusion &mdash; and for families, the infrastructure is real; they&rsquo;ll tell you the same. Great if you like a bit of a scene; not the move if you want exclusivity and quiet. Planning a wedding at either &mdash; room blocks at Arcadia, a buyout at Epitome &mdash; is exactly what I do."
-      ]
-    },
-    "subject": "Andronis Arcadia vs Canaves Epitome Inquiry",
-    "hotel": "Andronis Arcadia / Canaves Epitome",
-    "placeholder": "Early June, 5 nights",
-    "related": [
-      { "href": "/santorini-hotels-ranked.html", "label": "My full Santorini ranking" },
-      { "href": "/hotels/andronis-arcadia-santorini.html", "label": "Andronis Arcadia review" },
-      { "href": "/hotels/canaves-epitome-santorini.html", "label": "Canaves Epitome review" },
-      { "href": "/santorini-weddings.html", "label": "Santorini weddings" }
-    ]
+  "subject": "Andronis Luxury Suites vs Canaves Ena Inquiry",
+  "hotel": "Andronis Luxury Suites / Canaves Ena",
+  "placeholder": "September, 4 nights",
+  "related": [
+   {
+    "href": "/santorini-hotels-ranked.html",
+    "label": "My full Santorini ranking"
+   },
+   {
+    "href": "/hotels/andronis-luxury-suites-santorini.html",
+    "label": "Andronis Luxury Suites review"
+   },
+   {
+    "href": "/hotels/canaves-ena-santorini.html",
+    "label": "Canaves Ena review"
+   },
+   {
+    "href": "/andronis-boutique-vs-andronis-luxury-suites.html",
+    "label": "Boutique or Luxury Suites"
+   }
+  ]
+ },
+ "andronis-arcadia-vs-canaves-epitome": {
+  "title": "Andronis Arcadia or Canaves Epitome | Suites With Keith",
+  "description": "Next-door neighbors outside Oia with the same open-Aegean sunset — one a 114-key resort with a scene, the other Keith's #01 hotel in Greece.",
+  "eyebrow": "Head-to-head &middot; Next-door neighbors, outside Oia",
+  "h1_a": "Andronis Arcadia",
+  "h1_b": "Canaves Epitome?",
+  "deck": "They share a property line just outside Oia and the same golden-hour orientation &mdash; a real sunset into the open Aegean, something the Caldera hotels physically cannot offer. And they could not be aiming at more different trips. One is a true resort with a scene; the other is my favorite hotel in Greece.",
+  "stamp": "Literally next door &middot; both sunset-facing &middot; my #01 in Greece lives here",
+  "preload": "/images/hotels/canaves-epitome-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Arcadia",
+    "h3": "If you want options and energy",
+    "lead": "A true resort &mdash; 114 suites and villas, every one with a private pool, including some of the island&rsquo;s largest. The ARCADemy kids club gives families real infrastructure, and Pacman&rsquo;s live music and Beefbar Santorini bring a scene the rest of this list doesn&rsquo;t have.",
+    "img": "/images/hotels/andronis-arcadia-1.jpg",
+    "alt": "Private pools at Andronis Arcadia, Santorini",
+    "w": 1800,
+    "h": 1175
+   },
+   {
+    "eyebrow": "Choose Epitome",
+    "h3": "If you want the private world",
+    "lead": "Fifty-three rooms that still feel boutique, landscaped gardens behind volcanic-rock walls, two-bedroom suites with pools and outdoor dining decks &mdash; and Omnia, the best hotel restaurant I ate at across the entire trip.",
+    "img": "/images/hotels/canaves-epitome-1.jpg",
+    "alt": "Gardens and pools at Canaves Epitome, near Oia",
+    "w": 1800,
+    "h": 1200
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#08 in Santorini",
+    "#01 on my Greece top 10"
+   ],
+   [
+    "Scale",
+    "114 suites &amp; villas &mdash; a true resort",
+    "53 rooms that still feel boutique"
+   ],
+   [
+    "Pools",
+    "Private pool in every room &mdash; some of the island&rsquo;s largest",
+    "Suite pools and decks &mdash; some rooms look up into the water"
+   ],
+   [
+    "Mood",
+    "A bit of a scene &mdash; two very Mykonos-esque dining options",
+    "A world away from Oia&rsquo;s busy streets"
+   ],
+   [
+    "Kids",
+    "The ARCADemy kids club, resort-scale grounds",
+    "No age restrictions &mdash; rare at this level of luxury"
+   ],
+   [
+    "Dining",
+    "Pacman with live music, Beefbar Santorini",
+    "Omnia &mdash; worth booking even if you stay elsewhere"
+   ],
+   [
+    "Weddings &amp; groups",
+    "Santorini&rsquo;s best room-block hotel",
+    "Full-property buyouts available"
+   ]
+  ],
+  "footnote": "One practical note: Arcadia is massive and spread out &mdash; in summer heat, with no meltemi wind blowing, you&rsquo;ll want a golf cart to get around. Epitome is more spread out than the Caldera hotels too, but its 53 rooms still feel boutique.",
+  "verdict": {
+   "h2": "Epitome — unless the scene is the point.",
+   "paras": [
+    "If you&rsquo;re asking me for the single best hotel I experienced across the Greek islands, it&rsquo;s Canaves Epitome &mdash; perhaps one of the top three stays of my entire life. The gardens turn the common areas into a private world minutes from Oia&rsquo;s crowds, the two-bedroom suites are the star, and the sunset is the best in Greece.",
+    "Arcadia is the right Santorini hotel for travelers who want activity and options rather than seclusion &mdash; and for families, the infrastructure is real; they&rsquo;ll tell you the same. Great if you like a bit of a scene; not the move if you want exclusivity and quiet. Planning a wedding at either &mdash; room blocks at Arcadia, a buyout at Epitome &mdash; is exactly what I do."
+   ]
   },
-
-  "canaves-oia-suites-vs-canaves-epitome": {
-    "title": "Canaves Oia Suites or Canaves Epitome | Suites With Keith",
-    "description": "Same family, same standard, one decision: the Caldera or the sunset. Keith's #01 in Santorini against his #01 in all of Greece.",
-    "eyebrow": "Head-to-head &middot; The Canaves question",
-    "h1_a": "Canaves Oia Suites",
-    "h1_b": "Epitome?",
-    "deck": "Same family, same standard, a short walk apart &mdash; and one real decision: the Caldera or the sunset. This is #01 on my Santorini ranking against #01 on my Greece top 10, which makes it the closest call on this site.",
-    "stamp": "Sister properties &middot; a short walk apart &middot; my #01 twice over",
-    "preload": "/images/hotels/canaves-oia-1.jpg",
-    "choose": [
-      {
-        "eyebrow": "Choose Oia Suites",
-        "h3": "If the postcard is non-negotiable",
-        "lead": "The classic caldera-luxury experience, perfected &mdash; set higher than most for privacy, completely renovated, with the best spa product on the Caldera and the single best suite I saw in Greece.",
-        "img": "/images/hotels/canaves-oia-2.jpg", "alt": "Caldera view from Canaves Oia Suites", "w": 1800, "h": 1349
-      },
-      {
-        "eyebrow": "Choose Epitome",
-        "h3": "If serenity beats the cliff",
-        "lead": "A short walk from Oia near Ammoudi Bay: gardens behind volcanic-rock walls, two-bedroom suites with pools and dining decks, no age restrictions, and a real sunset into the open Aegean.",
-        "img": "/images/hotels/canaves-epitome-2.jpg", "alt": "Suite pool at Canaves Epitome", "w": 1800, "h": 1200
-      }
-    ],
-    "rows": [
-      ["My ranking", "#01 in Santorini", "#01 on my Greece top 10"],
-      ["Position", "On the Caldera, set higher than most", "A short walk from Oia, near Ammoudi Bay"],
-      ["The view", "The classic caldera image", "A real sunset into the open Aegean &mdash; the Caldera can&rsquo;t do this"],
-      ["Kids", "13+ only", "No age restrictions"],
-      ["The suite", "The River Pool Suite &mdash; best I saw across 38 hotels", "Two-bedroom suites with pools, decks, and outdoor dining"],
-      ["Wellness &amp; extras", "The Caldera&rsquo;s best spa, plus a large gym", "Shuttle access to every Canaves property&rsquo;s restaurants and spas"],
-      ["From", "$1,200 / night", "$1,100 / night"]
-    ],
-    "footnote": "Whichever you choose, book a table at Omnia &mdash; Epitome&rsquo;s restaurant above Ammoudi Bay was the best hotel restaurant I ate at across the entire trip, and it&rsquo;s worth the reservation even if you&rsquo;re sleeping on the Caldera.",
-    "verdict": {
-      "h2": "First trip: the Caldera. Every trip after: Epitome.",
-      "paras": [
-        "First-time visitors picturing the classic cliffside image are choosing a different experience at Epitome &mdash; and if that image is non-negotiable, book Oia Suites. It was the best hotel I saw for first-timers on the island, and I&rsquo;d be hard pressed to recommend anything else first for that trip.",
-        "But the single best hotel I experienced across the Greek islands was Epitome. What the location buys you is space and serenity &mdash; a private world minutes from Oia&rsquo;s crowds &mdash; plus the best sunset in Greece and dining the Caldera hotels can&rsquo;t match. That&rsquo;s why it holds #01 on my Greece list even ranked beside its more famous sibling."
-      ]
-    },
-    "subject": "Canaves Oia Suites vs Epitome Inquiry",
-    "hotel": "Canaves Oia Suites / Canaves Epitome",
-    "placeholder": "May, 5 nights",
-    "related": [
-      { "href": "/santorini-hotels-ranked.html", "label": "My full Santorini ranking" },
-      { "href": "/hotels/canaves-oia-suites-santorini.html", "label": "Canaves Oia Suites review" },
-      { "href": "/hotels/canaves-epitome-santorini.html", "label": "Canaves Epitome review" },
-      { "href": "/best-hotels-greece.html", "label": "My Greece top 10" }
-    ]
+  "subject": "Andronis Arcadia vs Canaves Epitome Inquiry",
+  "hotel": "Andronis Arcadia / Canaves Epitome",
+  "placeholder": "Early June, 5 nights",
+  "related": [
+   {
+    "href": "/santorini-hotels-ranked.html",
+    "label": "My full Santorini ranking"
+   },
+   {
+    "href": "/hotels/andronis-arcadia-santorini.html",
+    "label": "Andronis Arcadia review"
+   },
+   {
+    "href": "/hotels/canaves-epitome-santorini.html",
+    "label": "Canaves Epitome review"
+   },
+   {
+    "href": "/santorini-weddings.html",
+    "label": "Santorini weddings"
+   }
+  ]
+ },
+ "canaves-oia-suites-vs-canaves-epitome": {
+  "title": "Canaves Oia Suites or Canaves Epitome | Suites With Keith",
+  "description": "Same family, same standard, one decision: the Caldera or the sunset. Keith's #01 in Santorini against his #01 in all of Greece.",
+  "eyebrow": "Head-to-head &middot; The Canaves question",
+  "h1_a": "Canaves Oia Suites",
+  "h1_b": "Epitome?",
+  "deck": "Same family, same standard, a short walk apart &mdash; and one real decision: the Caldera or the sunset. This is #01 on my Santorini ranking against #01 on my Greece top 10, which makes it the closest call on this site.",
+  "stamp": "Sister properties &middot; a short walk apart &middot; my #01 twice over",
+  "preload": "/images/hotels/canaves-oia-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Oia Suites",
+    "h3": "If the postcard is non-negotiable",
+    "lead": "The classic caldera-luxury experience, perfected &mdash; set higher than most for privacy, completely renovated, with the best spa product on the Caldera and the single best suite I saw in Greece.",
+    "img": "/images/hotels/canaves-oia-2.jpg",
+    "alt": "Caldera view from Canaves Oia Suites",
+    "w": 1800,
+    "h": 1349
+   },
+   {
+    "eyebrow": "Choose Epitome",
+    "h3": "If serenity beats the cliff",
+    "lead": "A short walk from Oia near Ammoudi Bay: gardens behind volcanic-rock walls, two-bedroom suites with pools and dining decks, no age restrictions, and a real sunset into the open Aegean.",
+    "img": "/images/hotels/canaves-epitome-2.jpg",
+    "alt": "Suite pool at Canaves Epitome",
+    "w": 1800,
+    "h": 1200
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#01 in Santorini",
+    "#01 on my Greece top 10"
+   ],
+   [
+    "Position",
+    "On the Caldera, set higher than most",
+    "A short walk from Oia, near Ammoudi Bay"
+   ],
+   [
+    "The view",
+    "The classic caldera image",
+    "A real sunset into the open Aegean &mdash; the Caldera can&rsquo;t do this"
+   ],
+   [
+    "Kids",
+    "13+ only",
+    "No age restrictions"
+   ],
+   [
+    "The suite",
+    "The River Pool Suite &mdash; best I saw across 38 hotels",
+    "Two-bedroom suites with pools, decks, and outdoor dining"
+   ],
+   [
+    "Wellness &amp; extras",
+    "The Caldera&rsquo;s best spa, plus a large gym",
+    "Shuttle access to every Canaves property&rsquo;s restaurants and spas"
+   ],
+   [
+    "From",
+    "$1,200 / night",
+    "$1,100 / night"
+   ]
+  ],
+  "footnote": "Whichever you choose, book a table at Omnia &mdash; Epitome&rsquo;s restaurant above Ammoudi Bay was the best hotel restaurant I ate at across the entire trip, and it&rsquo;s worth the reservation even if you&rsquo;re sleeping on the Caldera.",
+  "verdict": {
+   "h2": "First trip: the Caldera. Every trip after: Epitome.",
+   "paras": [
+    "First-time visitors picturing the classic cliffside image are choosing a different experience at Epitome &mdash; and if that image is non-negotiable, book Oia Suites. It was the best hotel I saw for first-timers on the island, and I&rsquo;d be hard pressed to recommend anything else first for that trip.",
+    "But the single best hotel I experienced across the Greek islands was Epitome. What the location buys you is space and serenity &mdash; a private world minutes from Oia&rsquo;s crowds &mdash; plus the best sunset in Greece and dining the Caldera hotels can&rsquo;t match. That&rsquo;s why it holds #01 on my Greece list even ranked beside its more famous sibling."
+   ]
   },
-
-  "four-seasons-napa-valley-vs-montage-healdsburg": {
-    "title": "Four Seasons Napa Valley or Montage Healdsburg | Suites With Keith",
-    "description": "#02 and #03 on Keith's Napa & Sonoma ranking — Four Seasons standard in a Calistoga vineyard, or the Healdsburg hotel he's stayed at 20+ times.",
-    "eyebrow": "Head-to-head &middot; Wine country",
-    "h1_a": "Four Seasons Napa Valley",
-    "h1_b": "Montage Healdsburg?",
-    "deck": "#02 and #03 on my Napa &amp; Sonoma ranking &mdash; one at genuine Four Seasons standard inside a working Calistoga vineyard, the other my most-returned-to hotel anywhere, twenty-plus stays in. They&rsquo;re in different valleys, and they answer different trips.",
-    "stamp": "Four or five stays at one &middot; 20+ at the other &middot; #02 and #03 on my ranking",
-    "preload": "/images/napa/four-seasons-1.jpg",
-    "choose": [
-      {
-        "eyebrow": "Choose Four Seasons",
-        "h3": "If the trip is a group",
-        "lead": "The rare wine-country hotel that fits families, couples, girls trips, and multi-couple groups equally well &mdash; gorgeous pools, a one-star Michelin restaurant in the vineyard, and service at genuine Four Seasons standard on every stay I&rsquo;ve had.",
-        "img": "/images/napa/four-seasons-1.jpg", "alt": "Vineyard pools at Four Seasons Napa Valley, Calistoga", "w": 1800, "h": 1013
-      },
-      {
-        "eyebrow": "Choose Montage",
-        "h3": "If it&rsquo;s the two of you and the vines",
-        "lead": "Waking up and sitting by your own fire pit overlooking the vineyards never gets old &mdash; and after twenty-plus stays, it still hasn&rsquo;t. Just outside downtown Healdsburg, with a complimentary shuttle to the plaza and the best restaurant view on my list.",
-        "img": "/images/napa/montage-3-firepit.jpg", "alt": "Vineyard-room fire pit at Montage Healdsburg", "w": 1200, "h": 784
-      }
-    ],
-    "rows": [
-      ["My ranking", "#02 in Napa &amp; Sonoma", "#03 in Napa &amp; Sonoma"],
-      ["The valley", "Napa &mdash; the Calistoga end: quieter, a longer drive to southern wineries", "Sonoma &mdash; just outside downtown Healdsburg, shuttle to the plaza"],
-      ["Room to book", "Dark-moody or bright farmhouse; upper floor if outdoor-shower privacy matters", "A vineyard room &mdash; the fire pit over the vines is the property&rsquo;s magic"],
-      ["Dining", "A one-star Michelin restaurant, plus the pool bar", "The best restaurant view of any table on my list"],
-      ["Who it fits", "Families, couples, girls trips, groups", "Couples, wine lovers, returning visitors"],
-      ["My history", "Four or five stays", "20+ stays &mdash; my most-returned-to hotel"],
-      ["The tell", "Four Seasons service standard, consistent every stay", "They remember you &mdash; one masseuse I book every single visit"]
-    ],
-    "footnote": "Both are Fora / Virtuoso preferred partners &mdash; and Four Seasons Napa runs third- or fourth-night-free offers through partner channels that meaningfully change the math on longer stays. Also know what you&rsquo;re choosing geographically: Healdsburg is Sonoma, not Napa &mdash; more relaxed, less commercial, and my own preference.",
-    "verdict": {
-      "h2": "Groups go to Calistoga; couples go to Healdsburg.",
-      "paras": [
-        "Four Seasons Napa Valley earned its spot the boring way: consistency. Since they worked out the early kinks, service has been at genuine Four Seasons standard on every stay, and it&rsquo;s a property that genuinely lends itself to a large swath of people &mdash; which is rare at this level.",
-        "Montage is the one I keep going back to &mdash; at least twenty stays over the past few years, more than any other hotel on my list. Twenty stays in, I notice small things a first-timer wouldn&rsquo;t, and the team always makes them right. Book the vineyard room; the mountain and oak categories are lovely but miss the signature view."
-      ]
-    },
-    "subject": "Four Seasons Napa vs Montage Healdsburg Inquiry",
-    "hotel": "Four Seasons Napa Valley / Montage Healdsburg",
-    "placeholder": "Harvest season, 3 nights",
-    "related": [
-      { "href": "/napa-sonoma.html", "label": "My full Napa &amp; Sonoma ranking" },
-      { "href": "/hotels/four-seasons-napa-valley.html", "label": "Four Seasons Napa review" },
-      { "href": "/hotels/montage-healdsburg.html", "label": "Montage Healdsburg review" },
-      { "href": "/meadowood-vs-four-seasons-napa-valley.html", "label": "Meadowood or Four Seasons" }
-    ]
+  "subject": "Canaves Oia Suites vs Epitome Inquiry",
+  "hotel": "Canaves Oia Suites / Canaves Epitome",
+  "placeholder": "May, 5 nights",
+  "related": [
+   {
+    "href": "/santorini-hotels-ranked.html",
+    "label": "My full Santorini ranking"
+   },
+   {
+    "href": "/hotels/canaves-oia-suites-santorini.html",
+    "label": "Canaves Oia Suites review"
+   },
+   {
+    "href": "/hotels/canaves-epitome-santorini.html",
+    "label": "Canaves Epitome review"
+   },
+   {
+    "href": "/best-hotels-greece.html",
+    "label": "My Greece top 10"
+   }
+  ]
+ },
+ "four-seasons-napa-valley-vs-montage-healdsburg": {
+  "title": "Four Seasons Napa Valley or Montage Healdsburg | Suites With Keith",
+  "description": "#02 and #03 on Keith's Napa & Sonoma ranking — Four Seasons standard in a Calistoga vineyard, or the Healdsburg hotel he's stayed at 20+ times.",
+  "eyebrow": "Head-to-head &middot; Wine country",
+  "h1_a": "Four Seasons Napa Valley",
+  "h1_b": "Montage Healdsburg?",
+  "deck": "#02 and #03 on my Napa &amp; Sonoma ranking &mdash; one at genuine Four Seasons standard inside a working Calistoga vineyard, the other my most-returned-to hotel anywhere, twenty-plus stays in. They&rsquo;re in different valleys, and they answer different trips.",
+  "stamp": "Four or five stays at one &middot; 20+ at the other &middot; #02 and #03 on my ranking",
+  "preload": "/images/napa/four-seasons-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Four Seasons",
+    "h3": "If the trip is a group",
+    "lead": "The rare wine-country hotel that fits families, couples, girls trips, and multi-couple groups equally well &mdash; gorgeous pools, a one-star Michelin restaurant in the vineyard, and service at genuine Four Seasons standard on every stay I&rsquo;ve had.",
+    "img": "/images/napa/four-seasons-1.jpg",
+    "alt": "Vineyard pools at Four Seasons Napa Valley, Calistoga",
+    "w": 1800,
+    "h": 1013
+   },
+   {
+    "eyebrow": "Choose Montage",
+    "h3": "If it&rsquo;s the two of you and the vines",
+    "lead": "Waking up and sitting by your own fire pit overlooking the vineyards never gets old &mdash; and after twenty-plus stays, it still hasn&rsquo;t. Just outside downtown Healdsburg, with a complimentary shuttle to the plaza and the best restaurant view on my list.",
+    "img": "/images/napa/montage-3-firepit.jpg",
+    "alt": "Vineyard-room fire pit at Montage Healdsburg",
+    "w": 1200,
+    "h": 784
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#02 in Napa &amp; Sonoma",
+    "#03 in Napa &amp; Sonoma"
+   ],
+   [
+    "The valley",
+    "Napa &mdash; the Calistoga end: quieter, a longer drive to southern wineries",
+    "Sonoma &mdash; just outside downtown Healdsburg, shuttle to the plaza"
+   ],
+   [
+    "Room to book",
+    "Dark-moody or bright farmhouse; upper floor if outdoor-shower privacy matters",
+    "A vineyard room &mdash; the fire pit over the vines is the property&rsquo;s magic"
+   ],
+   [
+    "Dining",
+    "A one-star Michelin restaurant, plus the pool bar",
+    "The best restaurant view of any table on my list"
+   ],
+   [
+    "Who it fits",
+    "Families, couples, girls trips, groups",
+    "Couples, wine lovers, returning visitors"
+   ],
+   [
+    "My history",
+    "Four or five stays",
+    "20+ stays &mdash; my most-returned-to hotel"
+   ],
+   [
+    "The tell",
+    "Four Seasons service standard, consistent every stay",
+    "They remember you &mdash; one masseuse I book every single visit"
+   ]
+  ],
+  "footnote": "Both are Fora / Virtuoso preferred partners &mdash; and Four Seasons Napa runs third- or fourth-night-free offers through partner channels that meaningfully change the math on longer stays. Also know what you&rsquo;re choosing geographically: Healdsburg is Sonoma, not Napa &mdash; more relaxed, less commercial, and my own preference.",
+  "verdict": {
+   "h2": "Groups go to Calistoga; couples go to Healdsburg.",
+   "paras": [
+    "Four Seasons Napa Valley earned its spot the boring way: consistency. Since they worked out the early kinks, service has been at genuine Four Seasons standard on every stay, and it&rsquo;s a property that genuinely lends itself to a large swath of people &mdash; which is rare at this level.",
+    "Montage is the one I keep going back to &mdash; at least twenty stays over the past few years, more than any other hotel on my list. Twenty stays in, I notice small things a first-timer wouldn&rsquo;t, and the team always makes them right. Book the vineyard room; the mountain and oak categories are lovely but miss the signature view."
+   ]
   },
-
-  "meadowood-vs-stanly-ranch": {
-    "title": "Meadowood or Stanly Ranch | Suites With Keith",
-    "description": "Keith's #01 in wine country against the valley's boldest design statement — how to choose between the benchmark and the architecture.",
-    "eyebrow": "Head-to-head &middot; Napa",
-    "h1_a": "Meadowood",
-    "h1_b": "Stanly Ranch?",
-    "deck": "My #01 in wine country against the valley&rsquo;s boldest design statement. One is the benchmark I measure every other Napa stay against; the other is the prettiest argument for choosing architecture over vineyards. Years of repeat stays inform both takes.",
-    "stamp": "#01 and #06 on my Napa &amp; Sonoma ranking &middot; repeat stays at both",
-    "preload": "/images/napa/meadowood-1.jpg",
-    "choose": [
-      {
-        "eyebrow": "Choose Meadowood",
-        "h3": "If you want to be taken care of",
-        "lead": "Service at Aman standards &mdash; the single biggest separator in wine country. Around 40 spacious, private cottages tucked into a wooded estate above St. Helena, and there really isn&rsquo;t a bad room to be had.",
-        "img": "/images/napa/meadowood-1.jpg", "alt": "Estate cottages at Meadowood, Napa Valley", "w": 1360, "h": 904
-      },
-      {
-        "eyebrow": "Choose Stanly Ranch",
-        "h3": "If design and wellness are the trip",
-        "lead": "Possibly the most architecturally striking hotel in wine country, with arguably the prettiest spa in the valley, a large fire-pit terrace on every room, and Bear &mdash; one of the more interesting restaurants in Napa right now.",
-        "img": "/images/napa/stanly-ranch.jpg", "alt": "Modern ranch architecture at Stanly Ranch, Napa", "w": 1800, "h": 1013
-      }
-    ],
-    "rows": [
-      ["My ranking", "#01 in Napa &amp; Sonoma", "#06 in Napa &amp; Sonoma"],
-      ["Setting", "A private wooded estate above St. Helena", "The Carneros marshes &mdash; not the vineyard postcard"],
-      ["What it does best", "Service, cottages, slow mornings around the spa", "Architecture, the valley&rsquo;s prettiest spa, Bear"],
-      ["The rooms", "~40 cottages &mdash; not a bad one among them", "Every room has a large terrace with its own fire pit"],
-      ["Who it suits", "Honeymoons, celebrations, wine lovers; skews 40+", "Younger couples, wellness travelers, design lovers"],
-      ["Worth knowing", "The tennis facility is a hidden gem", "The smart-room tech takes a night to learn"]
-    ],
-    "footnote": "Two practical notes: about 90% of Meadowood&rsquo;s rooms aren&rsquo;t fully accessible &mdash; buggies are available for mobility concerns &mdash; and booking it through a Virtuoso partner adds a credit, often $500, that meaningfully changes the math on a multi-night stay. At Stanly Ranch, terrace privacy varies by room &mdash; I&rsquo;ll steer you to the best-sited ones.",
-    "verdict": {
-      "h2": "The benchmark, most of the time.",
-      "paras": [
-        "There&rsquo;s something about Meadowood that&rsquo;s hard to put your finger on &mdash; Aman-quality service, a real sense of place, thoughtful turndown treats each evening. Every time I go, I feel well taken care of, and I can&rsquo;t say that about every property on my list. That&rsquo;s why it holds #01 after years of repeat stays across the valley.",
-        "Stanly Ranch is genuinely beautiful &mdash; but the location doesn&rsquo;t quite deliver the classic wine-country feeling, and I don&rsquo;t find myself wanting to go back as often as the hotels above it. If the vineyard postcard is the point of the trip, that&rsquo;s Meadowood. If the spa and the architecture are the point, Stanly makes its case."
-      ]
-    },
-    "subject": "Meadowood vs Stanly Ranch Inquiry",
-    "hotel": "Meadowood / Stanly Ranch",
-    "placeholder": "October, 3 nights",
-    "related": [
-      { "href": "/napa-sonoma.html", "label": "My full Napa &amp; Sonoma ranking" },
-      { "href": "/hotels/meadowood-napa-valley.html", "label": "Meadowood review" },
-      { "href": "/hotels/stanly-ranch-napa.html", "label": "Stanly Ranch review" },
-      { "href": "/four-seasons-napa-valley-vs-montage-healdsburg.html", "label": "Four Seasons or Montage" }
-    ]
+  "subject": "Four Seasons Napa vs Montage Healdsburg Inquiry",
+  "hotel": "Four Seasons Napa Valley / Montage Healdsburg",
+  "placeholder": "Harvest season, 3 nights",
+  "related": [
+   {
+    "href": "/napa-sonoma.html",
+    "label": "My full Napa &amp; Sonoma ranking"
+   },
+   {
+    "href": "/hotels/four-seasons-napa-valley.html",
+    "label": "Four Seasons Napa review"
+   },
+   {
+    "href": "/hotels/montage-healdsburg.html",
+    "label": "Montage Healdsburg review"
+   },
+   {
+    "href": "/meadowood-vs-four-seasons-napa-valley.html",
+    "label": "Meadowood or Four Seasons"
+   }
+  ]
+ },
+ "meadowood-vs-stanly-ranch": {
+  "title": "Meadowood or Stanly Ranch | Suites With Keith",
+  "description": "Keith's #01 in wine country against the valley's boldest design statement — how to choose between the benchmark and the architecture.",
+  "eyebrow": "Head-to-head &middot; Napa",
+  "h1_a": "Meadowood",
+  "h1_b": "Stanly Ranch?",
+  "deck": "My #01 in wine country against the valley&rsquo;s boldest design statement. One is the benchmark I measure every other Napa stay against; the other is the prettiest argument for choosing architecture over vineyards. Years of repeat stays inform both takes.",
+  "stamp": "#01 and #06 on my Napa &amp; Sonoma ranking &middot; repeat stays at both",
+  "preload": "/images/napa/meadowood-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Meadowood",
+    "h3": "If you want to be taken care of",
+    "lead": "Service at Aman standards &mdash; the single biggest separator in wine country. Around 40 spacious, private cottages tucked into a wooded estate above St. Helena, and there really isn&rsquo;t a bad room to be had.",
+    "img": "/images/napa/meadowood-1.jpg",
+    "alt": "Estate cottages at Meadowood, Napa Valley",
+    "w": 1360,
+    "h": 904
+   },
+   {
+    "eyebrow": "Choose Stanly Ranch",
+    "h3": "If design and wellness are the trip",
+    "lead": "Possibly the most architecturally striking hotel in wine country, with arguably the prettiest spa in the valley, a large fire-pit terrace on every room, and Bear &mdash; one of the more interesting restaurants in Napa right now.",
+    "img": "/images/napa/stanly-ranch.jpg",
+    "alt": "Modern ranch architecture at Stanly Ranch, Napa",
+    "w": 1800,
+    "h": 1013
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#01 in Napa &amp; Sonoma",
+    "#06 in Napa &amp; Sonoma"
+   ],
+   [
+    "Setting",
+    "A private wooded estate above St. Helena",
+    "The Carneros marshes &mdash; not the vineyard postcard"
+   ],
+   [
+    "What it does best",
+    "Service, cottages, slow mornings around the spa",
+    "Architecture, the valley&rsquo;s prettiest spa, Bear"
+   ],
+   [
+    "The rooms",
+    "~40 cottages &mdash; not a bad one among them",
+    "Every room has a large terrace with its own fire pit"
+   ],
+   [
+    "Who it suits",
+    "Honeymoons, celebrations, wine lovers; skews 40+",
+    "Younger couples, wellness travelers, design lovers"
+   ],
+   [
+    "Worth knowing",
+    "The tennis facility is a hidden gem",
+    "The smart-room tech takes a night to learn"
+   ]
+  ],
+  "footnote": "Two practical notes: about 90% of Meadowood&rsquo;s rooms aren&rsquo;t fully accessible &mdash; buggies are available for mobility concerns &mdash; and booking it through a Virtuoso partner adds a credit, often $500, that meaningfully changes the math on a multi-night stay. At Stanly Ranch, terrace privacy varies by room &mdash; I&rsquo;ll steer you to the best-sited ones.",
+  "verdict": {
+   "h2": "The benchmark, most of the time.",
+   "paras": [
+    "There&rsquo;s something about Meadowood that&rsquo;s hard to put your finger on &mdash; Aman-quality service, a real sense of place, thoughtful turndown treats each evening. Every time I go, I feel well taken care of, and I can&rsquo;t say that about every property on my list. That&rsquo;s why it holds #01 after years of repeat stays across the valley.",
+    "Stanly Ranch is genuinely beautiful &mdash; but the location doesn&rsquo;t quite deliver the classic wine-country feeling, and I don&rsquo;t find myself wanting to go back as often as the hotels above it. If the vineyard postcard is the point of the trip, that&rsquo;s Meadowood. If the spa and the architecture are the point, Stanly makes its case."
+   ]
   },
-
-  "meadowood-vs-four-seasons-napa-valley": {
-    "title": "Meadowood or Four Seasons Napa Valley | Suites With Keith",
-    "description": "#01 and #02 on Keith's Napa & Sonoma ranking — the estate that sets the service benchmark, or the vineyard resort that fits almost everyone.",
-    "eyebrow": "Head-to-head &middot; Napa",
-    "h1_a": "Meadowood",
-    "h1_b": "Four Seasons?",
-    "deck": "#01 and #02 on my Napa &amp; Sonoma ranking, and the most common Napa splurge decision I&rsquo;m asked to make. The estate that sets the service benchmark for all of wine country &mdash; or the vineyard resort that fits almost everyone.",
-    "stamp": "Years of repeat stays at both &middot; #01 and #02 on my ranking",
-    "preload": "/images/napa/meadowood-2.jpg",
-    "choose": [
-      {
-        "eyebrow": "Choose Meadowood",
-        "h3": "If the trip is a celebration",
-        "lead": "Around 40 private cottages on a wooded estate, service at Aman standards, and the intimacy-plus-polish combination that keeps it at #01 after years of repeat stays. The wine-country honeymoon and anniversary answer.",
-        "img": "/images/napa/meadowood-2.jpg", "alt": "Wooded estate grounds at Meadowood", "w": 1360, "h": 891
-      },
-      {
-        "eyebrow": "Choose Four Seasons",
-        "h3": "If the trip is a crowd",
-        "lead": "Set inside its own working vineyard in Calistoga, with a one-star Michelin restaurant, gorgeous pools, and the flexibility to host families, girls trips, and multi-couple groups as comfortably as couples.",
-        "img": "/images/napa/four-seasons-2.jpg", "alt": "Farmhouse rooms in the vineyard at Four Seasons Napa Valley", "w": 1800, "h": 1013
-      }
-    ],
-    "rows": [
-      ["My ranking", "#01 in Napa &amp; Sonoma", "#02 in Napa &amp; Sonoma"],
-      ["Setting", "Private wooded estate above St. Helena", "A working vineyard in Calistoga"],
-      ["The rooms", "~40 cottages &mdash; spacious, private, no bad ones", "Dark-moody or bright-farmhouse styles among the vines"],
-      ["Service", "At Aman standards &mdash; wine country&rsquo;s biggest separator", "Genuine Four Seasons standard, consistent every stay"],
-      ["Who it fits", "Honeymoons, celebrations, wine lovers; skews 40+", "Families, couples, girls trips, groups"],
-      ["Watch for", "The Virtuoso credit &mdash; often $500", "Third- or fourth-night-free partner offers"],
-      ["Worth knowing", "~90% of rooms have stairs; buggies available", "Upper floor if outdoor-shower privacy matters"]
-    ],
-    "footnote": "Both are Fora / Virtuoso preferred partners, so either books through me at the same rate as direct with the credits and extras layered on &mdash; and on multi-night stays those offers genuinely change the math.",
-    "verdict": {
-      "h2": "The benchmark or the all-rounder.",
-      "paras": [
-        "For a honeymoon, an anniversary, or any trip where the hotel is the celebration: Meadowood. Every time I go, I feel well taken care of &mdash; the service, the cottages, and the sense of place are why it&rsquo;s the property I measure every other Napa stay against.",
-        "For everything else &mdash; the family trip, the girls trip, the four-couple harvest weekend &mdash; Four Seasons is the rare wine-country hotel that genuinely fits all of them, and the Michelin star and pool scene don&rsquo;t hurt. Both are at the top of my list for a reason; the group decides this one, not the hotels."
-      ]
-    },
-    "subject": "Meadowood vs Four Seasons Napa Inquiry",
-    "hotel": "Meadowood / Four Seasons Napa Valley",
-    "placeholder": "Late September, 3 nights",
-    "related": [
-      { "href": "/napa-sonoma.html", "label": "My full Napa &amp; Sonoma ranking" },
-      { "href": "/hotels/meadowood-napa-valley.html", "label": "Meadowood review" },
-      { "href": "/hotels/four-seasons-napa-valley.html", "label": "Four Seasons Napa review" },
-      { "href": "/meadowood-vs-stanly-ranch.html", "label": "Meadowood or Stanly Ranch" }
-    ]
-  }
+  "subject": "Meadowood vs Stanly Ranch Inquiry",
+  "hotel": "Meadowood / Stanly Ranch",
+  "placeholder": "October, 3 nights",
+  "related": [
+   {
+    "href": "/napa-sonoma.html",
+    "label": "My full Napa &amp; Sonoma ranking"
+   },
+   {
+    "href": "/hotels/meadowood-napa-valley.html",
+    "label": "Meadowood review"
+   },
+   {
+    "href": "/hotels/stanly-ranch-napa.html",
+    "label": "Stanly Ranch review"
+   },
+   {
+    "href": "/four-seasons-napa-valley-vs-montage-healdsburg.html",
+    "label": "Four Seasons or Montage"
+   }
+  ]
+ },
+ "meadowood-vs-four-seasons-napa-valley": {
+  "title": "Meadowood or Four Seasons Napa Valley | Suites With Keith",
+  "description": "#01 and #02 on Keith's Napa & Sonoma ranking — the estate that sets the service benchmark, or the vineyard resort that fits almost everyone.",
+  "eyebrow": "Head-to-head &middot; Napa",
+  "h1_a": "Meadowood",
+  "h1_b": "Four Seasons?",
+  "deck": "#01 and #02 on my Napa &amp; Sonoma ranking, and the most common Napa splurge decision I&rsquo;m asked to make. The estate that sets the service benchmark for all of wine country &mdash; or the vineyard resort that fits almost everyone.",
+  "stamp": "Years of repeat stays at both &middot; #01 and #02 on my ranking",
+  "preload": "/images/napa/meadowood-2.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Meadowood",
+    "h3": "If the trip is a celebration",
+    "lead": "Around 40 private cottages on a wooded estate, service at Aman standards, and the intimacy-plus-polish combination that keeps it at #01 after years of repeat stays. The wine-country honeymoon and anniversary answer.",
+    "img": "/images/napa/meadowood-2.jpg",
+    "alt": "Wooded estate grounds at Meadowood",
+    "w": 1360,
+    "h": 891
+   },
+   {
+    "eyebrow": "Choose Four Seasons",
+    "h3": "If the trip is a crowd",
+    "lead": "Set inside its own working vineyard in Calistoga, with a one-star Michelin restaurant, gorgeous pools, and the flexibility to host families, girls trips, and multi-couple groups as comfortably as couples.",
+    "img": "/images/napa/four-seasons-2.jpg",
+    "alt": "Farmhouse rooms in the vineyard at Four Seasons Napa Valley",
+    "w": 1800,
+    "h": 1013
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#01 in Napa &amp; Sonoma",
+    "#02 in Napa &amp; Sonoma"
+   ],
+   [
+    "Setting",
+    "Private wooded estate above St. Helena",
+    "A working vineyard in Calistoga"
+   ],
+   [
+    "The rooms",
+    "~40 cottages &mdash; spacious, private, no bad ones",
+    "Dark-moody or bright-farmhouse styles among the vines"
+   ],
+   [
+    "Service",
+    "At Aman standards &mdash; wine country&rsquo;s biggest separator",
+    "Genuine Four Seasons standard, consistent every stay"
+   ],
+   [
+    "Who it fits",
+    "Honeymoons, celebrations, wine lovers; skews 40+",
+    "Families, couples, girls trips, groups"
+   ],
+   [
+    "Watch for",
+    "The Virtuoso credit &mdash; often $500",
+    "Third- or fourth-night-free partner offers"
+   ],
+   [
+    "Worth knowing",
+    "~90% of rooms have stairs; buggies available",
+    "Upper floor if outdoor-shower privacy matters"
+   ]
+  ],
+  "footnote": "Both are Fora / Virtuoso preferred partners, so either books through me at the same rate as direct with the credits and extras layered on &mdash; and on multi-night stays those offers genuinely change the math.",
+  "verdict": {
+   "h2": "The benchmark or the all-rounder.",
+   "paras": [
+    "For a honeymoon, an anniversary, or any trip where the hotel is the celebration: Meadowood. Every time I go, I feel well taken care of &mdash; the service, the cottages, and the sense of place are why it&rsquo;s the property I measure every other Napa stay against.",
+    "For everything else &mdash; the family trip, the girls trip, the four-couple harvest weekend &mdash; Four Seasons is the rare wine-country hotel that genuinely fits all of them, and the Michelin star and pool scene don&rsquo;t hurt. Both are at the top of my list for a reason; the group decides this one, not the hotels."
+   ]
+  },
+  "subject": "Meadowood vs Four Seasons Napa Inquiry",
+  "hotel": "Meadowood / Four Seasons Napa Valley",
+  "placeholder": "Late September, 3 nights",
+  "related": [
+   {
+    "href": "/napa-sonoma.html",
+    "label": "My full Napa &amp; Sonoma ranking"
+   },
+   {
+    "href": "/hotels/meadowood-napa-valley.html",
+    "label": "Meadowood review"
+   },
+   {
+    "href": "/hotels/four-seasons-napa-valley.html",
+    "label": "Four Seasons Napa review"
+   },
+   {
+    "href": "/meadowood-vs-stanly-ranch.html",
+    "label": "Meadowood or Stanly Ranch"
+   }
+  ]
+ },
+ "kalesma-vs-cali-mykonos": {
+  "title": "Kalesma or Cali Mykonos | Suites With Keith",
+  "description": "#07 and #08 on Keith's Greece top 10 — laid-back Cycladic design above Ornos, or independent polish on Mykonos's quiet east side.",
+  "eyebrow": "Head-to-head &middot; Mykonos",
+  "h1_a": "Kalesma",
+  "h1_b": "Cali?",
+  "deck": "#07 and #08 on my Greece top 10, and the definitive Mykonos style question: laid-back Cycladic design above Ornos Bay, or independent polish on the quiet east side. Pick your flavor of Mykonos.",
+  "stamp": "#07 and #08 on my Greece top 10 &middot; both toured in person &middot; both preferred partners",
+  "preload": "/images/hotels/kalesma-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Kalesma",
+    "h3": "If the mood is the point",
+    "lead": "Cycladic minimalism in dark wood and marble that just works, set above Ornos Bay and central to everything &mdash; without any of the Mykonos Town chaos. The fire pit overlooking Delos at sunset is the memory that outlasts the trip.",
+    "img": "/images/hotels/kalesma-1.jpg",
+    "alt": "Dark-wood Cycladic suites at Kalesma, above Ornos Bay",
+    "w": 1600,
+    "h": 1100
+   },
+   {
+    "eyebrow": "Choose Cali",
+    "h3": "If space, privacy and the gym win",
+    "lead": "An independent stunner on the island&rsquo;s quieter eastern side, with one of the largest infinity pools I saw in Greece, plunge pools that actually feel private &mdash; and the best hotel gym I have ever seen, anywhere.",
+    "img": "/images/hotels/cali-mykonos-1.jpg",
+    "alt": "The infinity pool at Cali Mykonos",
+    "w": 1600,
+    "h": 1100
+   }
+  ],
+  "rows": [
+   [
+    "My Greece top 10",
+    "#07",
+    "#08"
+   ],
+   [
+    "The setting",
+    "Above Ornos Bay &mdash; central, minutes from everything",
+    "The quiet east side &mdash; far from the party scene, by design"
+   ],
+   [
+    "Design",
+    "Dark wood and marble against Cycladic white",
+    "A strong sense of place the big brands often lack"
+   ],
+   [
+    "Pools",
+    "A second pool with the recent expansion; jacuzzi suites",
+    "One of Greece&rsquo;s largest infinity pools, with real space between loungers"
+   ],
+   [
+    "Wellness",
+    "An intimate spa; the gym covers the basics",
+    "Reformers, squat racks, 75lb dumbbells &mdash; plus padel, tennis and pickleball"
+   ],
+   [
+    "The room to ask for",
+    "Junior suites left of the pool bar &mdash; the base rooms above are more private still",
+    "One of the many rooms with a genuinely private plunge pool"
+   ],
+   [
+    "The vibe",
+    "Laid-back Cycladic",
+    "A little LA &mdash; big-brand polish with independent-hotel soul"
+   ]
+  ],
+  "footnote": "Both are preferred partners &mdash; same rate as booking direct, with the extras layered on. Traveling with kids on Mykonos? Cali on the quieter east side is the pick I give families. And whichever you book, Pere Ubu at Kalesma is one of the island&rsquo;s best sunset tables &mdash; reserve it the moment your trip is confirmed.",
+  "verdict": {
+   "h2": "Cali is flashier on paper — Kalesma won me over.",
+   "paras": [
+    "Kalesma&rsquo;s laid-back beauty is what stayed with me: a glass of wine in the jacuzzi at golden hour with the bay below, the fire pit at sunset before dinner, and a design language unlike anything else on the island. Dining is pleasant rather than the headline &mdash; and Mykonos&rsquo;s remarkable restaurant scene is minutes away.",
+    "But Cali is a genuinely remarkable property I&rsquo;d happily return to &mdash; refined, personal service, staff who greet you by name, and I&rsquo;d stay again just for that gym. For fitness-minded travelers and privacy seekers, it settles the question by itself."
+   ]
+  },
+  "subject": "Kalesma vs Cali Inquiry",
+  "hotel": "Kalesma / Cali Mykonos",
+  "placeholder": "Mykonos in June, 4 nights",
+  "related": [
+   {
+    "href": "/best-hotels-greece.html",
+    "label": "My Greece top 10"
+   },
+   {
+    "href": "/hotels/kalesma-mykonos.html",
+    "label": "Kalesma review"
+   },
+   {
+    "href": "/hotels/cali-mykonos.html",
+    "label": "Cali review"
+   },
+   {
+    "href": "/fouquets-vs-bill-and-coo-coast-mykonos.html",
+    "label": "Fouquet&rsquo;s or Bill &amp; Coo Coast"
+   }
+  ]
+ },
+ "fouquets-vs-bill-and-coo-coast-mykonos": {
+  "title": "Fouquet's or Bill & Coo Coast | Suites With Keith",
+  "description": "Mykonos's most exciting new resort against the adults-only beachfront in a protected bay — Keith's read on which Mykonos you're actually booking.",
+  "eyebrow": "Head-to-head &middot; Mykonos",
+  "h1_a": "Fouquet&rsquo;s",
+  "h1_b": "Bill &amp; Coo Coast?",
+  "deck": "My Best New Resort in Greece against #06 on my Greece top 10 &mdash; south-coast energy with a true luxury resort behind it, or adults-only calm in a protected bay. This is really a question about which Mykonos you&rsquo;re flying in for.",
+  "stamp": "Best New Resort, my Greece Collection edit &middot; #06 on my Greece top 10 &middot; both preferred partners",
+  "preload": "/images/hotels/fouquets-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Fouquet&rsquo;s",
+    "h3": "If you want the scene, with a resort behind it",
+    "lead": "The energy of the south coast &mdash; walk to Paraga Beach and Scorpios, leave the car behind &mdash; with spacious rooms, polished service and ZUMA on property. From $900 a night, booked through me. My Best New Resort in Greece.",
+    "img": "/images/hotels/fouquets-1.jpg",
+    "alt": "Fouquet's Mykonos on the south coast",
+    "w": 1600,
+    "h": 1100
+   },
+   {
+    "eyebrow": "Choose Bill &amp; Coo Coast",
+    "h3": "If the water is the point",
+    "lead": "Adults-only suites directly on a protected bay, so the meltemi that whips other pools barely registers here. Massive, genuinely private rooms &mdash; several with spectacular private pools &mdash; and the best breakfasts I had anywhere in Greece.",
+    "img": "/images/hotels/billandcoo-coast-1.jpg",
+    "alt": "Beachfront suites at Bill & Coo Coast, Mykonos",
+    "w": 1600,
+    "h": 1100
+   }
+  ],
+  "rows": [
+   [
+    "My credential",
+    "Best New Resort &mdash; Greece Collection edit",
+    "#06 on my Greece top 10"
+   ],
+   [
+    "Location",
+    "South coast &mdash; walk to Paraga Beach and Scorpios",
+    "A protected bay &mdash; calm even when the meltemi blows"
+   ],
+   [
+    "The mood",
+    "The energetic side of the island &mdash; that&rsquo;s the point",
+    "The property itself stays calm; the scene is there if you want it"
+   ],
+   [
+    "Dining",
+    "ZUMA &mdash; one of the strongest dinners on Mykonos",
+    "The best breakfasts I had in Greece; Beefbar for a sceney lunch"
+   ],
+   [
+    "The room",
+    "The Aegean Suite with Private Pool",
+    "Suites directly on the water, some with remarkable private pools"
+   ],
+   [
+    "The surprise",
+    "A massive underground basketball court",
+    "A big new gym complex and spa under construction"
+   ]
+  ],
+  "footnote": "Bill &amp; Coo Coast is adults-only &mdash; guests 17 and up. And if you&rsquo;re choosing between Bill &amp; Coo&rsquo;s two properties, it&rsquo;s Coast over the Mykonos Town location every time: the protected bay, the adults-only policy and the beachfront rooms settle it. Both hotels here are preferred partners &mdash; same rate as direct, extras layered on.",
+  "verdict": {
+   "h2": "Decide which Mykonos you're flying in for.",
+   "paras": [
+    "Fouquet&rsquo;s brings the south coast&rsquo;s energy together with the comforts of a true luxury resort &mdash; the right base if you want beach clubs by day and somewhere polished to come back to. I toured it under construction and returned after opening; the finished property exceeded even those expectations, which almost never happens.",
+    "But if what you actually want is quiet beachfront &mdash; your own beach day without leaving the property, a bay that stays calm in August wind &mdash; Bill &amp; Coo Coast is the clear pick, and its breakfasts alone argue the case."
+   ]
+  },
+  "subject": "Fouquets vs Bill and Coo Coast Inquiry",
+  "hotel": "Fouquet's Mykonos / Bill & Coo Coast",
+  "placeholder": "August, 5 nights",
+  "related": [
+   {
+    "href": "/best-hotels-greece.html",
+    "label": "My Greece top 10"
+   },
+   {
+    "href": "/hotels/fouquets-mykonos.html",
+    "label": "Fouquet&rsquo;s review"
+   },
+   {
+    "href": "/hotels/bill-and-coo-coast-mykonos.html",
+    "label": "Bill &amp; Coo Coast review"
+   },
+   {
+    "href": "/kalesma-vs-cali-mykonos.html",
+    "label": "Kalesma or Cali"
+   }
+  ]
+ },
+ "minos-beach-vs-minos-palace-crete": {
+  "title": "Minos Beach or Minos Palace | Suites With Keith",
+  "description": "Same founding family, same bay, ten minutes apart — Crete's 1963 original with its sculpture gardens, or the adults-only peninsula.",
+  "eyebrow": "Head-to-head &middot; Mirabello Bay, Crete",
+  "h1_a": "Minos Beach",
+  "h1_b": "Minos Palace?",
+  "deck": "Same founding family, same bay, about ten minutes apart &mdash; the 1963 original with waterfront bungalows and sculpture gardens, or its adults-only sister on a private peninsula. The Mamidakis family runs both; who&rsquo;s traveling decides which is yours.",
+  "stamp": "Sister properties &middot; both on Mirabello Bay &middot; both on my Greek Island Matrix",
+  "preload": "/images/hotels/minos-beach-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Minos Beach",
+    "h3": "If the trip includes kids &mdash; or art",
+    "lead": "Arguably Crete&rsquo;s first true luxury hotel, and it&rsquo;s aged the way the best things do: 125 whitewashed bungalows in waterfront gardens, none more than about twenty steps from the sea, threaded with more than 55 site-specific artworks.",
+    "img": "/images/hotels/minos-beach-1.jpg",
+    "alt": "Waterfront bungalows at Minos Beach Art Hotel, Crete",
+    "w": 1600,
+    "h": 1100
+   },
+   {
+    "eyebrow": "Choose Minos Palace",
+    "h3": "If you want water on three sides",
+    "lead": "The adults-only sister on its own small peninsula &mdash; an island within an island, where all 148 rooms face the sea because there&rsquo;s nowhere else to face, and a swim before breakfast is a ten-step commute.",
+    "img": "/images/hotels/minos-palace-1.jpg",
+    "alt": "The private peninsula at Minos Palace, Crete",
+    "w": 1600,
+    "h": 1100
+   }
+  ],
+  "rows": [
+   [
+    "Who it&rsquo;s for",
+    "Families, art &amp; design lovers, couples who want calm",
+    "Couples, quiet-seekers, wellness &amp; longevity travelers"
+   ],
+   [
+    "Kids",
+    "Welcome",
+    "Adults only &mdash; the quiet is structural, not seasonal"
+   ],
+   [
+    "The setting",
+    "Waterfront gardens, bungalows ~20 steps from the sea",
+    "A private peninsula with water on three sides"
+   ],
+   [
+    "The signature",
+    "55+ site-specific artworks &mdash; an open-air museum you sleep in",
+    "Infinity Lagoon suites and the Nao Longevity Hub"
+   ],
+   [
+    "Dining",
+    "La Bouillabaisse &mdash; a Greek Cuisine Award since 2020",
+    "The 2024 reset: Amar on the beachfront, MOM&rsquo;s Cretan longevity menus"
+   ],
+   [
+    "Swimming",
+    "Off rocks and small private coves &mdash; not a long sandy run",
+    "A private sandy beach tucked into the coves"
+   ],
+   [
+    "From, in September",
+    "~$650 / night",
+    "~$400 / night"
+   ]
+  ],
+  "footnote": "Rates are approximate September starting points &mdash; ask me for your exact dates. Both are preferred partners. And if what you actually want on this coast is a new-build with a private pool in every room, that&rsquo;s Acro Suites &mdash; compared against the Palace in my adults-only Crete head-to-head.",
+  "verdict": {
+   "h2": "The family books the art hotel; the couple books the peninsula.",
+   "paras": [
+    "Minos Beach is older in the best sense &mdash; established, shaded, unhurried, and unlike anywhere else on the island. Agios Nikolaos is under a mile away on foot, a genuine rarity for a resort of this kind, and worth using for the harbourfront tavernas.",
+    "Minos Palace occupies a piece of geography no new hotel will ever get again &mdash; and it&rsquo;s the best value on my Crete shortlist. Quiet, surrounded by water, the definition of an easy recommendation."
+   ]
+  },
+  "subject": "Minos Beach vs Minos Palace Inquiry",
+  "hotel": "Minos Beach Art Hotel / Minos Palace",
+  "placeholder": "Crete in September",
+  "related": [
+   {
+    "href": "/hotels/minos-beach-art-hotel-crete.html",
+    "label": "Minos Beach review"
+   },
+   {
+    "href": "/hotels/minos-palace-crete.html",
+    "label": "Minos Palace review"
+   },
+   {
+    "href": "/acro-suites-vs-minos-palace-crete.html",
+    "label": "Acro Suites or Minos Palace"
+   },
+   {
+    "href": "/greek-island-matrix.html",
+    "label": "The Greek Island Matrix"
+   }
+  ]
+ },
+ "acro-suites-vs-minos-palace-crete": {
+  "title": "Acro Suites or Minos Palace | Suites With Keith",
+  "description": "Crete's two adults-only answers — the 2021 cliffside new-build with a private pool in every suite, or the peninsula that's the best value on Keith's Crete shortlist.",
+  "eyebrow": "Head-to-head &middot; Adults-only Crete",
+  "h1_a": "Acro Suites",
+  "h1_b": "Minos Palace?",
+  "deck": "Crete&rsquo;s two adults-only answers, on the same north coast: the 2021 cliffside new-build where every one of the 49 suites has a private pool, or the unrepeatable peninsula that&rsquo;s the best value on my Crete shortlist.",
+  "stamp": "Both adults-only &middot; both on my Greek Island Matrix &middot; September rates on file",
+  "preload": "/images/hotels/acro-suites-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Acro Suites",
+    "h3": "If drama is the point",
+    "lead": "Built down the rock face in tiers above Mononaftis Bay, with cave suites carved into the cliff and heated grotto pools &mdash; the closest thing to Santorini&rsquo;s cave-hotel drama anywhere outside Santorini, at a fraction of the caldera&rsquo;s prices and none of its crowds.",
+    "img": "/images/hotels/acro-suites-1.jpg",
+    "alt": "Cliffside suites and pools at Acro Suites, Crete",
+    "w": 1600,
+    "h": 1100
+   },
+   {
+    "eyebrow": "Choose Minos Palace",
+    "h3": "If value and calm are the point",
+    "lead": "A private peninsula with water on three sides, every one of the 148 rooms facing the sea, a sandy beach in the coves, and science-led wellness at the Nao Longevity Hub &mdash; from around $400 a night in September.",
+    "img": "/images/hotels/minos-palace-1.jpg",
+    "alt": "Sea on three sides at Minos Palace, Crete",
+    "w": 1600,
+    "h": 1100
+   }
+  ],
+  "rows": [
+   [
+    "Built",
+    "2021, tiered down a cliff face",
+    "Legacy bones, renovated throughout &mdash; on a location no new hotel will ever get"
+   ],
+   [
+    "Scale",
+    "49 suites &amp; villas",
+    "148 rooms &amp; suites &mdash; resort-scale"
+   ],
+   [
+    "Pools",
+    "A private pool in every single unit",
+    "Sea-facing throughout; top categories add private and Infinity Lagoon pools"
+   ],
+   [
+    "Wellness",
+    "A wellbeing resort in the real sense &mdash; adults only, spa-led",
+    "The Nao Longevity Hub &mdash; science-led programming"
+   ],
+   [
+    "Dining",
+    "Cremnos, UMI and Eleonas &mdash; a week without repeating a dinner",
+    "Amar on the beachfront, MOM&rsquo;s Cretan longevity menus"
+   ],
+   [
+    "Getting there",
+    "30 minutes from Heraklion airport",
+    "Between Agios Nikolaos and Elounda"
+   ],
+   [
+    "From, in September",
+    "~$550 / night",
+    "~$400 / night"
+   ]
+  ],
+  "footnote": "Two practical notes: Acro&rsquo;s tiered cliff layout means stairs and steep paths &mdash; if mobility is a concern, the peninsula is the easier stay &mdash; and Agia Pelagia is a base rather than a destination, so rent a car. September is the sweet spot at both: the sea at its warmest, the crowds thinned. Rates are approximate starting points; ask me for your dates.",
+  "verdict": {
+   "h2": "Santorini drama, or an easy yes.",
+   "paras": [
+    "If you want Santorini&rsquo;s cliff-edge drama without Santorini&rsquo;s prices or crowds, Acro Suites is the booking &mdash; it&rsquo;s the reason I put Crete on the matrix in the first place, and the cave suites with their grotto pools are the rooms to reserve early.",
+    "Minos Palace is the other kind of answer: quiet, surrounded by water, and the best value on my Crete shortlist &mdash; the definition of an easy recommendation."
+   ]
+  },
+  "subject": "Acro Suites vs Minos Palace Inquiry",
+  "hotel": "Acro Suites / Minos Palace",
+  "placeholder": "September, 5 nights",
+  "related": [
+   {
+    "href": "/hotels/acro-suites-crete.html",
+    "label": "Acro Suites review"
+   },
+   {
+    "href": "/hotels/minos-palace-crete.html",
+    "label": "Minos Palace review"
+   },
+   {
+    "href": "/minos-beach-vs-minos-palace-crete.html",
+    "label": "Minos Beach or Minos Palace"
+   },
+   {
+    "href": "/greek-island-matrix.html",
+    "label": "The Greek Island Matrix"
+   }
+  ]
+ },
+ "auberge-du-soleil-vs-montage-healdsburg": {
+  "title": "Auberge du Soleil or Montage Healdsburg | Suites With Keith",
+  "description": "Only two American wine-country hotels made The Fifteen, Keith's honeymoon shortlist — the Rutherford terrace or the vineyard bungalows. Here's how he splits them.",
+  "eyebrow": "Head-to-head &middot; The honeymoon question",
+  "h1_a": "Auberge du Soleil",
+  "h1_b": "Montage Healdsburg?",
+  "deck": "Only two American wine-country properties made The Fifteen &mdash; my shortlist of honeymoon hotels I&rsquo;d book anywhere in the world. Auberge du Soleil carries the Napa flag at #14; Montage Healdsburg carries Sonoma&rsquo;s at #15. This is how I split them.",
+  "stamp": "#14 and #15 on The Fifteen &middot; the shortlist&rsquo;s only wine-country entries &middot; both Fora / Virtuoso partners",
+  "preload": "/images/napa/montage-2.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Auberge du Soleil",
+    "h3": "If the terrace is the honeymoon",
+    "lead": "The original Napa luxury property, perched on the Rutherford hillside &mdash; still the most romantic seat in the valley. My note beside it on The Fifteen names the three reasons: the terrace, the valley, the wine list."
+   },
+   {
+    "eyebrow": "Choose Montage",
+    "h3": "If you want to live among the vines",
+    "lead": "Vineyard bungalows and a slower pace &mdash; waking up by your own fire pit overlooking the vines never gets old, and after twenty-plus stays it still hasn&rsquo;t. The best restaurant view of any table on my list."
+   }
+  ],
+  "rows": [
+   [
+    "The Fifteen",
+    "#14 &mdash; the Napa entry",
+    "#15 &mdash; the Sonoma entry (and #03 on my Napa &amp; Sonoma ranking)"
+   ],
+   [
+    "The valley",
+    "Napa &mdash; the Rutherford hillside",
+    "Sonoma &mdash; just outside downtown Healdsburg"
+   ],
+   [
+    "The view",
+    "Elevated above the valley floor &mdash; the whole stay looks over the vines",
+    "Your own fire-pit terrace over the vineyards"
+   ],
+   [
+    "Dining",
+    "The most famous dining terrace in the valley &mdash; the view that made it a legend",
+    "The best restaurant view on my list"
+   ],
+   [
+    "The wine",
+    "One of the three reasons it made my shortlist &mdash; in the region where that bar is highest",
+    "Healdsburg&rsquo;s wineries minutes away, shuttle to the plaza"
+   ],
+   [
+    "Who it suits",
+    "Adults-first &mdash; the romance is the product",
+    "Couples, wine lovers, returning visitors"
+   ]
+  ],
+  "footnote": "At Auberge, book the terrace with the room &mdash; the famous tables go as fast as the rooms do, so I reserve both together. Families are better matched elsewhere on my Napa &amp; Sonoma list. Both are Fora / Virtuoso preferred partners: same rate as direct, credits and extras layered on.",
+  "verdict": {
+   "h2": "Two seats on The Fifteen — one of them is yours.",
+   "paras": [
+    "Auberge du Soleil can be summarized in six words and lose nothing: the terrace, the valley, the wine list. For the couple who wants the classic Napa romance &mdash; dinner above the valley as the light goes &mdash; it&rsquo;s still the most romantic seat in wine country.",
+    "Montage trades that elevation for intimacy with the vines themselves &mdash; the bungalow, the fire pit, the slower Healdsburg pace. It&rsquo;s the hotel I&rsquo;ve returned to more than any other, anywhere. Tell me your couple and I&rsquo;ll tell you which."
+   ]
+  },
+  "subject": "Auberge du Soleil vs Montage Inquiry",
+  "hotel": "Auberge du Soleil / Montage Healdsburg",
+  "placeholder": "Harvest season, 3 nights",
+  "related": [
+   {
+    "href": "/the-fifteen.html",
+    "label": "The Fifteen &mdash; my honeymoon shortlist"
+   },
+   {
+    "href": "/hotels/auberge-du-soleil-napa.html",
+    "label": "Auberge du Soleil review"
+   },
+   {
+    "href": "/hotels/montage-healdsburg.html",
+    "label": "Montage Healdsburg review"
+   },
+   {
+    "href": "/four-seasons-napa-valley-vs-montage-healdsburg.html",
+    "label": "Four Seasons or Montage"
+   }
+  ]
+ }
 }

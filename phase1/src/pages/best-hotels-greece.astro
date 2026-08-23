@@ -1,8 +1,17 @@
 ---
 import RankingList from '../layouts/RankingList.astro';
+
+const versus = [
+  { href: '/kalesma-vs-cali-mykonos.html', a: 'Kalesma', b: 'Cali', q: 'My #07 and #08 &mdash; pick your flavor of Mykonos.' },
+  { href: '/fouquets-vs-bill-and-coo-coast-mykonos.html', a: 'Fouquet&rsquo;s', b: 'Bill &amp; Coo Coast', q: 'South-coast energy, or adults-only calm in a protected bay.' },
+  { href: '/canaves-oia-suites-vs-canaves-epitome.html', a: 'Canaves Oia Suites', b: 'Epitome', q: 'My #03 and #01 &mdash; the Caldera or the sunset.' },
+  { href: '/minos-beach-vs-minos-palace-crete.html', a: 'Minos Beach', b: 'Minos Palace', q: 'Crete&rsquo;s sister properties &mdash; the art hotel or the peninsula.' },
+  { href: '/acro-suites-vs-minos-palace-crete.html', a: 'Acro Suites', b: 'Minos Palace', q: 'Adults-only Crete &mdash; cliff-edge drama or the easy yes.' },
+];
 ---
 <RankingList
   slug="best-hotels-greece"
   askPlaceholder="Santorini in June"
   askDeck="&ldquo;Santorini in June&rdquo; is a complete answer. I&rsquo;ll take it from there."
+  versus={versus}
 />

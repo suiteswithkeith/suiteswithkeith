@@ -57,7 +57,7 @@ const schema = JSON.stringify({
           <span class="eyebrow" set:html={c.eyebrow} />
           <h3 set:html={c.h3} />
           <p class="lead" set:html={c.lead} />
-          <figure style="margin:24px 0 0;"><img src={c.img} alt={c.alt} width={c.w} height={c.h} loading="lazy" decoding="async" style="aspect-ratio:16/10; object-fit:cover; width:100%;" /></figure>
+          {c.img && <figure style="margin:24px 0 0;"><img src={c.img} alt={c.alt} width={c.w} height={c.h} loading="lazy" decoding="async" style="aspect-ratio:16/10; object-fit:cover; width:100%;" /></figure>}
         </div>
       ))}
     </div>
