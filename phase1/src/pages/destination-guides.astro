@@ -1,0 +1,130 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const startHere = [
+  { href: '/greek-island-matrix.html', img: '/images/personal/santorini-window.jpg', kicker: 'Decision tool', title: 'The Greek Island Matrix', blurb: 'Fourteen islands placed honestly on two axes — plus the 21 hotels I’d actually book, and who each island is for.', cta: 'Find your island →' },
+  { href: '/greek-island-pairings.html', img: '/images/islands/paros-hero.jpg', kicker: 'Trip design', title: 'Five Pairings That Make Sense', blurb: 'Which islands belong on the same trip — five combinations built around the ferries and flights that actually exist.', cta: 'See the five →' },
+  { href: '/greece-honeymoon.html', img: '/images/personal/santorini-rooftop.jpg', kicker: 'Honeymoon', title: 'My Dream Greece Honeymoon', blurb: 'Five islands, fourteen nights, zero ferries — the exact itinerary I’d book for myself, with real costs.', cta: 'Read the itinerary →' },
+  { href: '/planning-with-swk.html', img: '/images/personal/gundari-sunset.jpg', kicker: 'Behind the proposal', title: 'What Planning With Me Looks Like', blurb: 'One Greece trip from first email to finished itinerary — and what actually lands in your inbox.', cta: 'Go behind the proposal →' },
+];
+
+const guides = [
+  { href: '/santorini.html', img: '/images/islands/santorini-hero.jpg', kicker: 'The Cyclades', title: 'Santorini', blurb: 'The island that introduced the world to Cycladic luxury.' },
+  { href: '/mykonos.html', img: '/images/islands/mykonos-hero.jpg', kicker: 'The Cyclades', title: 'Mykonos', blurb: 'Luxury meets its playful side.' },
+  { href: '/paros.html', img: '/images/islands/paros-hero.jpg', kicker: 'The Cyclades', title: 'Paros', blurb: 'The island everyone quietly falls in love with.' },
+  { href: '/sifnos.html', img: '/images/islands/sifnos-hero.jpg', kicker: 'The Cyclades', title: 'Sifnos', blurb: 'The island where Greece slows down.' },
+  { href: '/milos.html', img: '/images/islands/milos-hero.jpg', kicker: 'The Cyclades', title: 'Milos', blurb: 'Nature’s masterpiece in the Cyclades.' },
+  { href: '/folegandros.html', img: '/images/personal/gundari-user-1.jpg', kicker: 'The Cyclades', title: 'Folegandros', blurb: 'Dramatic cliffs, unhurried luxury.' },
+  { href: '/athens.html', img: '/images/islands/athens-hero.jpg', kicker: 'Greece', title: 'Athens', blurb: 'Much more than a gateway to the islands.' },
+  { href: '/napa-sonoma.html', img: '/images/napa/four-seasons-1.jpg', kicker: 'Wine country', title: 'Napa & Sonoma', blurb: 'Nine hotels, ranked from personal stays.' },
+  { href: '/montenegro.html', img: '/images/montenegro/sveti-stefan-aerial.jpg', kicker: 'The Adriatic', title: 'Montenegro', blurb: 'Hotel-by-hotel reviews, updated as I visit.' },
+  { href: '/featured-destinations.html', img: '/images/proposals/lake-como/passalacqua/pool.jpg', kicker: 'The map', title: 'Featured Destinations', blurb: 'Italy, Paris, Greece, Japan, Africa & Mexico — and the hotels I’d send my own family to.' },
+];
+
+const practical = [
+  { href: '/greek-ferry-rules.html', img: '/images/islands/santorini-divider.jpg', kicker: 'Logistics', title: 'Ferry Planning', blurb: 'Five Greek ferry rules to know before booking anything.' },
+  { href: '/three-mistakes-greek-islands.html', img: '/images/islands/mykonos-divider.jpg', kicker: 'Logistics', title: 'Island-Hopping Mistakes', blurb: 'Three mistakes couples make between the Greek islands.' },
+  { href: '/santorini-transfer-cheat-sheet.html', img: '/images/personal/santorini-rooftop.jpg', kicker: 'Logistics', title: 'Santorini Transfers', blurb: 'The cheat sheet for getting there, and getting around.' },
+  { href: '/cosme-vs-parilio-paros.html', img: '/images/hotels/cosme-1.jpg', kicker: 'Head-to-head', title: 'Cosme vs Parīlio', blurb: 'Paros’ two best design hotels, compared.' },
+  { href: '/zannier-ile-de-bendor.html', img: '/images/bendor/bendor-hero.jpg', kicker: 'France', title: 'Zannier Île de Bendor', blurb: 'Provence’s private island, ready to book.' },
+];
+---
+<Layout
+  canonical="destination-guides.html"
+  title="Destination Guides | Suites With Keith"
+  description="Firsthand destination guides — the Greek islands room by room, plus Athens, Napa & Sonoma, Montenegro and beyond. Where to stay, and what each place is wrong for."
+  current="guides"
+>
+
+<!-- masthead -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p class="eyebrow reveal">Destination guides</p>
+    <h1 class="display-xl reveal" style="margin-top:18px; max-width:13ch;">Written from the room, not the brochure</h1>
+    <p class="deck reveal" style="margin-top:22px; max-width:46ch;">Where to stay, how to get there, and what each place is wrong for &mdash; from tours and stays, kept current as I travel.</p>
+  </div>
+</section>
+
+<!-- start here -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Start here</span>
+      <h2 class="display-l">Choosing the trip</h2>
+    </div>
+    <div class="cards four reveal">
+      {startHere.map((g) => (
+        <a class="card" href={g.href}>
+          <img src={g.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+          <div class="pad"><span class="kicker">{g.kicker}</span><h3>{g.title}</h3><p>{g.blurb}</p><span class="go">{g.cta}</span></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- the guides -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The guides</span>
+      <h2 class="display-l">Place by place</h2>
+    </div>
+    <div class="cards four reveal">
+      {guides.map((g) => (
+        <a class="card" href={g.href}>
+          <img src={g.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+          <div class="pad"><span class="kicker">{g.kicker}</span><h3>{g.title}</h3><p>{g.blurb}</p><span class="go">Read the guide &rarr;</span></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- practical -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The fine print</span>
+      <h2 class="display-l">Logistics &amp; head-to-heads</h2>
+    </div>
+    <div class="cards four reveal">
+      {practical.map((g) => (
+        <a class="card" href={g.href}>
+          <img src={g.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+          <div class="pad"><span class="kicker">{g.kicker}</span><h3>{g.title}</h3><p>{g.blurb}</p><span class="go">Read &rarr;</span></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ask -->
+<section class="section inquire band on-shadow" id="inquire">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
+    <h2 class="display-l reveal">Where and when?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">Skip the reading if you&rsquo;d rather &mdash; tell me the trip and I&rsquo;ll bring the guide to you.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Inquiry — Destination Guides" />
+      <input type="hidden" name="page" value="destination-guides" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">Where and when?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="Milos in September" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the recommendation?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Nights, budget, occasion &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn">Send</button>
+      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>

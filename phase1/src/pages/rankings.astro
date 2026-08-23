@@ -1,0 +1,87 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const rankings = [
+  { href: '/best-hotels-greece.html', img: '/images/personal/gundari-sunset.jpg', kicker: 'From 38 visits · 7 islands', title: 'Greece & the Greek Islands', blurb: 'My ten favorite hotels across the islands — with the room worth booking at each.', cta: 'Read the ranking →' },
+  { href: '/santorini-hotels-ranked.html', img: '/images/personal/canaves-oia-user-1.jpg', kicker: 'Tours & stays', title: 'Santorini', blurb: 'Ten hotels on the caldera and beyond, ranked from site tours and stays.', cta: 'Read the ranking →' },
+  { href: '/napa-sonoma.html', img: '/images/napa/four-seasons-1.jpg', kicker: 'Personal stays', title: 'Napa & Sonoma', blurb: 'Nine wine-country hotels, ranked from nights actually slept there.', cta: 'Read the ranking →' },
+  { href: '/the-fifteen.html', img: '/images/hotels/canaves-epitome-1.jpg', kicker: 'The shortlist', title: 'The Fifteen', blurb: 'Honeymoon hotels I’d book anywhere in the world.', cta: 'Read the list →' },
+  { href: '/top-hotel-pools.html', img: '/images/bendor/bendor-hero.jpg', kicker: 'Worth the trip', title: 'Jaw-Dropping Pools', blurb: 'Ten hotel pools worth planning a trip around.', cta: 'Read the list →' },
+  { href: '/top-hotel-tennis-courts.html', img: '/images/tennis/cheval-blanc-randheli.avif', kicker: 'Worth the trip', title: 'Beautiful Tennis Courts', blurb: 'Eleven hotel tennis courts worth planning a trip around.', cta: 'Read the list →' },
+];
+---
+<Layout
+  canonical="rankings.html"
+  title="Keith's Rankings | Suites With Keith"
+  description="Firsthand hotel rankings, city by city and island by island — from real stays and site tours. No press trips, no sponsored placements."
+  current="rankings"
+>
+
+<!-- masthead -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p class="eyebrow reveal">Keith&rsquo;s rankings</p>
+    <h1 class="display-xl reveal" style="margin-top:18px; max-width:13ch;">Ranked, with reasons</h1>
+    <p class="deck reveal" style="margin-top:22px; max-width:44ch;">Every list below comes from stays and site tours &mdash; no press trips, no sponsored placements, and a &ldquo;wrong for&rdquo; next to every &ldquo;right for.&rdquo;</p>
+    <p class="reveal" style="margin-top:24px;"><a href="/hotel-guides.html" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;">Prefer one hotel at a time? Browse the hotel guides &rarr;</a></p>
+  </div>
+</section>
+
+<!-- the lists -->
+<section class="section">
+  <div class="container">
+    <div class="cards reveal" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));">
+      {rankings.map((r) => (
+        <a class="card" href={r.href}>
+          <img src={r.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+          <div class="pad"><span class="kicker">{r.kicker}</span><h3>{r.title}</h3><p>{r.blurb}</p><span class="go">{r.cta}</span></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- how the rankings work -->
+<section class="section band on-shadow">
+  <div class="container" style="max-width:860px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">How the rankings work</span>
+      <h2 class="display-l">Three rules</h2>
+    </div>
+    <div class="ledger reveal">
+      <div class="ledger-row"><span class="n">01</span><span class="d"><b>Seen first.</b> A hotel only gets ranked after I&rsquo;ve toured it or slept in it. On-file research alone doesn&rsquo;t earn a number.</span></div>
+      <div class="ledger-row"><span class="n">02</span><span class="d"><b>Nobody pays for placement.</b> No press trips, no sponsored positions &mdash; nobody moves up a list except by being better in person.</span></div>
+      <div class="ledger-row"><span class="n">03</span><span class="d"><b>Every &ldquo;right for&rdquo; gets a &ldquo;wrong for.&rdquo;</b> A ranking that can&rsquo;t tell you who shouldn&rsquo;t book isn&rsquo;t a ranking &mdash; it&rsquo;s an ad.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ask -->
+<section class="section inquire" id="inquire">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
+    <h2 class="display-l reveal">Where and when?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:40ch;">The lists narrow it down. One sentence from you and I&rsquo;ll narrow it to one.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Inquiry — Rankings" />
+      <input type="hidden" name="page" value="rankings" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when">Where and when?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="Santorini in June" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name">And where do I send the recommendation?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px;">Anything else? Nights, budget, occasion &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn">Send</button>
+      <p class="note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>

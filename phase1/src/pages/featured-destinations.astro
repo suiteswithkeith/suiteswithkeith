@@ -1,0 +1,449 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const sections = [
+  {
+    id: 'italy', band: false, eyebrow: 'La dolce vita', title: 'Italy',
+    intro: 'Italy is where I&rsquo;ve spent the most time personally &mdash; Passalacqua, Il San Pietro, and beyond. Palazzo grandeur in Florence and Rome or countryside seclusion in Tuscany, built around Belmond-, Rosewood- and Auberge-caliber stays.',
+    map: 'italy',
+    circuits: [{ label: null, hotels: [
+      { img: '/images/destinations/villa-san-michele.jpg', kicker: 'Florence', name: 'Belmond Villa San Michele', blurb: 'A former 15th-century monastery in the Fiesole hills above the city, recently renovated, with the best views in Florence and a private shuttle into town.', href: '/hotels/belmond-villa-san-michele-florence.html' },
+      { img: '/images/destinations/fs-florence.jpg', kicker: 'Florence', name: 'Four Seasons Hotel Firenze', blurb: 'Two Renaissance palazzos bordering one of the city&rsquo;s largest private gardens &mdash; resort-like calm inside the city center.', href: '/hotels/four-seasons-hotel-firenze.html' },
+      { img: '/images/destinations/hotel-lungarno.jpg', kicker: 'Florence', name: 'Hotel Lungarno', blurb: 'The Lungarno Collection&rsquo;s riverside classic &mdash; nautical-chic rooms hanging over the Arno with Ponte Vecchio views, steps from everything.', href: '/hotels/hotel-lungarno-florence.html' },
+      { img: '/images/destinations/de-russie.jpg', kicker: 'Rome', name: 'Hotel de Russie', blurb: 'My top overall pick in Rome &mdash; a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.', href: '/hotels/hotel-de-russie-rome.html' },
+      { img: '/images/destinations/hotel-eden.jpg', kicker: 'Rome', name: 'Hotel Eden', blurb: 'Quieter, romantic, Dorchester Collection &mdash; ideal for couples who want old-world charm without the crowds.', href: '/hotels/hotel-eden-rome.html' },
+      { img: '/images/destinations/st-regis-rome.jpg', kicker: 'Rome', name: 'The St. Regis Rome', blurb: 'Belle &Eacute;poque grandeur and a nightly champagne sabrage ritual, for guests who want a bit more spectacle.', href: '/hotels/the-st-regis-rome.html' },
+      { img: '/images/destinations/rosewood-castiglion.jpg', kicker: 'Tuscany', award: 'Three Michelin Keys', name: 'Rosewood Castiglion del Bosco', blurb: 'A 5,000-acre Ferragamo-family estate in the Val d&rsquo;Orcia with its own Brunello winery and Italy&rsquo;s only private golf club &mdash; my top Tuscany pick for a multi-night countryside stay.', href: '/hotels/rosewood-castiglion-del-bosco-tuscany.html' },
+      { img: '/images/destinations/castello-di-casole.jpg', kicker: 'Tuscany', name: 'Belmond Castello di Casole', blurb: 'A hilltop castle estate near Siena with sweeping countryside views, slightly more traditional in feel.', href: '/hotels/belmond-castello-di-casole-tuscany.html' },
+      { img: '/images/destinations/como-castello.jpg', kicker: 'Tuscany', name: 'COMO Castello del Nero', blurb: 'A 12th-century converted castle in Chianti, well-positioned for day trips to Florence and Siena.', href: '/hotels/como-castello-del-nero-tuscany.html' },
+      { img: '/images/proposals/lake-como/passalacqua/pool.jpg', kicker: 'Lake Como', award: 'Three Michelin Keys', name: 'Passalacqua', blurb: 'An 18th-century villa turned 24-room showpiece &mdash; the most celebrated new hotel in Europe, and a place I send clients without hesitation.', href: '/hotels/passalacqua-lake-como.html' },
+      { img: '/images/proposals/lake-como/il-sereno/exterior.jpg', kicker: 'Lake Como', name: 'Il Sereno', blurb: 'Patricia Urquiola&rsquo;s modern lakefront statement &mdash; floor-to-ceiling glass, a floating pool, and water-taxi arrivals at your suite.', href: '/hotels/il-sereno-lake-como.html' },
+      { img: '/images/proposals/lake-como/mandarin-oriental/aerial.jpg', kicker: 'Lake Como', name: 'Mandarin Oriental, Lago di Como', blurb: 'A resort-scale garden estate with private villas and the lake&rsquo;s famous floating pool &mdash; the family-friendly way to do Como.', href: '/hotels/mandarin-oriental-lago-di-como.html' },
+      { img: '/images/destinations/caruso.jpg', kicker: 'Amalfi Coast', name: 'Belmond Hotel Caruso', blurb: 'Perched in Ravello above the coast, with the most dramatic infinity pool on the Amalfi Coast &mdash; quieter and more composed than Positano.', href: '/hotels/belmond-hotel-caruso-ravello.html' },
+      { img: '/images/destinations/il-san-pietro.jpg', kicker: 'Amalfi Coast', award: 'Three Michelin Keys', name: 'Il San Pietro di Positano', blurb: 'Carved into the cliffs near Positano, Michelin-starred dining, private beach club &mdash; one of my personal favorites.', href: '/hotels/il-san-pietro-di-positano.html' },
+      { img: '/images/destinations/le-sirenuse.jpg', kicker: 'Amalfi Coast', name: 'Le Sirenuse', blurb: 'The address in Positano itself, for guests who want to be in the center of the action.', href: '/hotels/le-sirenuse-positano.html' },
+    ]}],
+    experiences: [
+      ['Ferrari &amp; vintage driving days', 'supercars or classic Alfas through the Val d&rsquo;Orcia&rsquo;s ribbon roads, lunch at a private estate.'],
+      ['Private boat days on Capri &amp; the coast', 'a chartered gozzo or yacht, the Blue Grotto before the crowds, lunch dockside in Nerano.'],
+      ['Market-to-table cooking classes', 'shop Campo de&rsquo; Fiori or a Florentine market with a private chef, then cook and eat the haul.'],
+      ['After-hours access', 'the Vatican or the Uffizi after closing, with the right historian walking you through.'],
+    ],
+    expCredit: 'Arranged with my on-the-ground partners &mdash; Queen of Clubs, Arno Travel, and TAOLS &mdash; the teams behind some of Italy&rsquo;s finest private experiences.',
+    cta: 'Italy rewards planning early &mdash; the best suites go first.',
+  },
+  {
+    id: 'paris', band: true, eyebrow: 'The city of light', title: 'Paris',
+    intro: 'Paris is the easiest great decision in travel &mdash; the harder question is which palace suits you. I place clients by neighborhood, personality and occasion, and my partner status at the palace hotels means the amenities follow you there.',
+    circuits: [{ label: null, hotels: [
+      { img: '/images/proposals/paris/crillon/pool.jpg', kicker: 'Concorde & the Tuileries', award: 'Forbes Five-Star', name: 'H&ocirc;tel de Crillon, A Rosewood Hotel', blurb: 'The 18th-century landmark on Place de la Concorde, reborn under Rosewood &mdash; grand without stuffiness, with one of the city&rsquo;s most beautiful pools.', href: '/hotels/hotel-de-crillon-paris.html' },
+      { img: '/images/proposals/paris/le-meurice/panorama.jpg', kicker: 'Concorde & the Tuileries', award: 'Forbes Five-Star', name: 'Le Meurice', blurb: 'Dorchester Collection&rsquo;s grande dame facing the Tuileries &mdash; Alain Ducasse dining and rooms that look straight down the gardens.', href: '/hotels/le-meurice-paris.html' },
+      { img: '/images/proposals/paris/peninsula/eiffel-terrace.jpg', kicker: 'Étoile & the Champs-Élysées', award: 'Forbes Five-Star', name: 'The Peninsula Paris', blurb: 'Impeccably rebuilt near the Arc de Triomphe &mdash; rooftop dining with Eiffel views and the sharpest service technology of any palace.', href: '/hotels/the-peninsula-paris.html' },
+      { img: '/images/proposals/paris/fouquets/exterior.jpg', kicker: 'Étoile & the Champs-Élysées', name: 'H&ocirc;tel Barri&egrave;re Fouquet&rsquo;s', blurb: 'The Champs-&Eacute;lys&eacute;es address with a private-club feel &mdash; younger in energy, and home to one of the city&rsquo;s best spas.', href: '/hotels/hotel-barriere-fouquets-paris.html' },
+      { img: '/images/destinations/cheval-blanc-paris.jpg', kicker: 'Pont-Neuf & the Seine', award: 'Palace Distinction', name: 'Cheval Blanc Paris', blurb: 'LVMH&rsquo;s showpiece above La Samaritaine &mdash; just 72 rooms, Dior Spa, Langosteria over the river, and the most coveted new address in Paris.', href: '/hotels/cheval-blanc-paris.html' },
+      { img: '/images/destinations/ritz-paris.jpg', kicker: 'Place Vendôme', award: 'Palace Distinction', name: 'Ritz Paris', blurb: 'The word &ldquo;ritzy&rdquo; exists because of this hotel &mdash; Bar Hemingway, the Ritz Club pool, and suites that have hosted a century of legends.', href: '/hotels/ritz-paris.html' },
+    ]}],
+    experiences: [
+      ['After-hours at the Louvre &amp; Versailles', 'private guided visits once the doors close, including the King&rsquo;s Private Apartments.'],
+      ['Place Vend&ocirc;me by appointment', 'private salons at the great jewelry and watch houses, and couture atelier visits arranged around your dates.'],
+      ['Champagne by helicopter', 'Reims and &Eacute;pernay in a day: cellar access and lunch at a grande maison, back in Paris for dinner.'],
+      ['The Seine, privately', 'a chartered yacht at dusk with dinner aboard &mdash; not a bateau-mouche in sight.'],
+    ],
+    cta: 'Right Bank or Left, palace or boutique &mdash; tell me the occasion and I&rsquo;ll tell you the address.',
+  },
+  {
+    id: 'london', band: false, eyebrow: 'The capital', title: 'London',
+    intro: 'London is where my most-traveled clients pass through most often &mdash; and where the gap between a good stay and a great one comes down to relationships. These are the grandes dames I book, each with a distinct personality.',
+    circuits: [{ label: null, hotels: [
+      { img: '/images/destinations/claridges.jpg', kicker: 'Mayfair', name: 'Claridge&rsquo;s', blurb: 'The art deco icon and London&rsquo;s definitive grande dame &mdash; impeccable service theater, the famous foyer tea, and suites that feel like private Mayfair flats.', href: '/hotels/claridges-london.html' },
+      { img: '/images/destinations/connaught.jpg', kicker: 'Mayfair', name: 'The Connaught', blurb: 'Quieter and clubbier than its sibling Claridge&rsquo;s &mdash; home to the Connaught Bar, H&eacute;l&egrave;ne Darroze&rsquo;s dining room, and the most discreet service in the city.', href: '/hotels/connaught-london.html' },
+      { img: '/images/destinations/lanesborough.jpg', kicker: 'Knightsbridge', name: 'The Lanesborough', blurb: 'Regency grandeur on Hyde Park Corner with 24-hour butler service in every room &mdash; the most residential-feeling of London&rsquo;s great hotels.', href: '/hotels/lanesborough-london.html' },
+      { img: '/images/destinations/raffles-owo.jpg', kicker: 'Whitehall', name: 'Raffles London at The OWO', blurb: 'The Old War Office reborn &mdash; Churchill&rsquo;s former corridors, nine restaurants and bars, and the most exciting opening London has seen in a generation.', href: '/hotels/raffles-london-owo.html' },
+    ]}],
+    experiences: [
+      ['House seats in the West End', 'the shows everyone wants, arranged with dinner before and a car after.'],
+      ['Private shopping &amp; tailoring', 'appointments on Savile Row and Bond Street, arranged around your schedule.'],
+      ['Royal Ascot &amp; Wimbledon hospitality', 'the English season, done properly, booked well in advance.'],
+      ['Countryside by helicopter', 'the Cotswolds or a castle lunch, out and back in a day.'],
+    ],
+    cta: 'London pairs beautifully with Paris &mdash; two hours by Eurostar, one seamless itinerary.',
+  },
+  {
+    id: 'greece', band: true, eyebrow: 'The Cyclades', title: 'Greece',
+    intro: 'The Greek islands are where my practice runs deepest &mdash; 38 hotels toured and stayed across eight islands this spring. From the caldera&rsquo;s most sophisticated stays to design-led hideaways on the quieter islands, this is planning built entirely on firsthand knowledge.',
+    map: 'greece',
+    circuits: [{ label: null, hotels: [
+      { img: '/images/hotels/canaves-oia-2.jpg', kicker: 'Santorini', name: 'Canaves Oia Suites', blurb: 'The classic caldera experience, perfected &mdash; recently renovated, remarkably private, with the best spa product on the caldera.', href: '/hotels/canaves-oia-suites-santorini.html' },
+      { img: '/images/hotels/canaves-epitome-2.jpg', kicker: 'Santorini', name: 'Canaves Epitome', blurb: 'The best hotel I experienced in Greece &mdash; garden seclusion near Ammoudi Bay, a true Aegean sunset, and no age restrictions, which makes it the caldera-area pick for families.', href: '/hotels/canaves-epitome-santorini.html' },
+      { img: '/images/hotels/andronis-boutique-2.jpg', kicker: 'Santorini', name: 'Andronis Boutique', blurb: 'Authentic cave-style suites in the heart of Oia, freshly renovated, with a plunge pool or jacuzzi in every room.', href: '/hotels/andronis-boutique-santorini.html' },
+      { img: '/images/hotels/gundari-2.jpg', kicker: 'Folegandros', name: 'Gundari', blurb: 'A dark stone showpiece on a clifftop of one of Greece&rsquo;s quietest islands &mdash; 27 suites and villas, all with plunge pools, and the most striking infinity pool in the Cyclades.', href: '/hotels/gundari-folegandros.html' },
+      { img: '/images/hotels/parilio-2.jpg', kicker: 'Paros', name: 'Par&imacr;lio', blurb: 'The most beautiful design story in the islands, just outside Naoussa &mdash; with new hilltop villas that suit families and groups wonderfully.', href: '/hotels/parilio-paros.html' },
+      { img: '/images/hotels/cali-mykonos-1.jpg', kicker: 'Mykonos', name: 'Cali', blurb: 'An independent stunner on the island&rsquo;s quiet east side, with truly private plunge pools and the best hotel gym I&rsquo;ve ever seen.', href: '/hotels/cali-mykonos.html' },
+    ]}],
+    experiences: [
+      ['Private boat days', 'Kleftiko&rsquo;s sea caves with my preferred crew on Milos, or a sunset caldera cruise below Oia.'],
+      ['Helicopter island hops', 'Athens or Mykonos to Santorini in under an hour, through my <a href="/hoper.html">Hoper partnership</a>.'],
+      ['Farm cooking classes on Sifnos', 'Greece&rsquo;s great foodie island, cooking lunch where it was grown.'],
+      ['Vineyard afternoons on Santorini', 'volcanic assyrtiko tastings timed so you&rsquo;re back for golden hour.'],
+    ],
+    cta: 'Two islands per week, the right ferries, and hotels I&rsquo;ve walked myself.',
+  },
+  {
+    id: 'japan', band: false, eyebrow: 'Culture & cuisine', title: 'Japan',
+    intro: 'From temple-lined Kyoto to neon-lit Tokyo, Japan rewards travelers who want depth over pace. A well-built itinerary blends culture, cuisine, and genuinely exceptional hotels.',
+    photo: { src: '/images/destinations/japan-kyoto.jpg', alt: 'The Ritz-Carlton Kyoto at dusk along the Kamogawa River' },
+    circuits: [{ label: null, hotels: [
+      { img: '/images/destinations/aman-kyoto.jpg', kicker: 'Kyoto', award: 'Three Michelin Keys', name: 'Aman Kyoto', blurb: 'A secluded forest sanctuary near the city&rsquo;s temples; the most serene, most &ldquo;Aman&rdquo; experience in Japan. Best for travelers who want quiet immersion over convenience.', href: '/hotels/aman-kyoto.html' },
+      { img: '/images/destinations/capella-kyoto.jpg', kicker: 'Kyoto', name: 'Capella Kyoto', blurb: 'Newer and set in the historic Miyagawa-ch&#333; geisha district, with a strong design pedigree (Kengo Kuma) and private onsen suites. A great pick for couples who want culture without sacrificing polish.', href: '/hotels/capella-kyoto.html' },
+      { img: '/images/destinations/ritz-kyoto.jpg', kicker: 'Kyoto', award: 'Forbes Five-Star', name: 'The Ritz-Carlton, Kyoto', blurb: 'Riverside, walkable, and more classically &ldquo;hotel&rdquo; in feel &mdash; ideal for guests who want a central base with full-service consistency.', href: '/hotels/ritz-carlton-kyoto.html' },
+      { img: '/images/destinations/japan-tokyo.jpg', kicker: 'Tokyo', award: 'Three Michelin Keys · Forbes Five-Star', name: 'Aman Tokyo', blurb: 'Serene, minimalist, perched atop Otemachi Tower with views of the Imperial Palace gardens. The quiet counterpoint to the city&rsquo;s energy.', href: '/hotels/aman-tokyo.html' },
+      { img: '/images/destinations/mo-tokyo.jpg', kicker: 'Tokyo', award: 'Forbes Five-Star', name: 'Mandarin Oriental, Tokyo', blurb: 'Bolder and more contemporary, with some of the best dining in the city &mdash; three Michelin-starred restaurants on-site.', href: '/hotels/mandarin-oriental-tokyo.html' },
+      { img: '/images/destinations/peninsula-tokyo.jpg', kicker: 'Tokyo', award: 'Forbes Five-Star', name: 'The Peninsula Tokyo', blurb: 'Classic, central Ginza location, excellent for first-time visitors who want to be in the middle of everything.', href: '/hotels/peninsula-tokyo.html' },
+    ]}],
+    experiences: [
+      ['Private tea ceremony in Kyoto', 'with a tea master, in a machiya townhouse rather than a tourist room.'],
+      ['Sushi masterclass in Tokyo', 'behind the counter with an itamae, then eat your work.'],
+      ['Sumo morning practice', 'a quiet seat at a stable&rsquo;s early training session.'],
+      ['Private guides throughout', 'temples before the crowds, markets with someone who knows every stall.'],
+    ],
+    cta: 'Planning Japan? I&rsquo;ll sequence the cities, the trains, and the tables.',
+  },
+  {
+    id: 'africa', band: true, eyebrow: 'The safari', title: 'Africa',
+    intro: 'A safari is one of the most rewarding trips I plan &mdash; and the one where an advisor earns their keep most. Two classic circuits: East Africa for the migration and the great open plains, and Southern Africa for the finest lodges and guiding on the continent, with Cape Town as the gateway. Camp choice makes or breaks the trip; that&rsquo;s where I come in.',
+    circuits: [
+      { label: 'East Africa · Kenya & Tanzania', hotels: [
+        { img: '/images/destinations/fs-serengeti.jpg', kicker: 'Tanzania · Serengeti', name: 'Four Seasons Safari Lodge, Serengeti', blurb: 'Set in the Seronera Valley with a year-round waterhole and full resort infrastructure &mdash; spa, two pools, fitness &mdash; the most comfortable, family-friendly entry point into the Serengeti.', href: '/hotels/four-seasons-safari-lodge-serengeti.html' },
+        { img: '/images/destinations/angama.jpg', kicker: 'Kenya · Maasai Mara', name: 'Angama Mara', blurb: 'Perched on the edge of the Oloololo Escarpment with sweeping views over the Mara &mdash; ideal for travelers focused on the Great Migration.', href: '/hotels/angama-mara-kenya.html' },
+        { img: '/images/destinations/olonana.jpg', kicker: 'Kenya · Mara River', name: 'Sanctuary Olonana', blurb: 'Glass-fronted suites directly on the Mara River &mdash; hippos below your deck, and an intimate, contemporary counterpoint to the escarpment lodges.', href: '/hotels/sanctuary-olonana-kenya.html' },
+      ]},
+      { label: 'Southern Africa & Cape Town', hotels: [
+        { img: '/images/destinations/royal-malewane.jpg', kicker: 'Thornybush', name: 'Royal Malewane', blurb: 'The Royal Portfolio&rsquo;s flagship &mdash; some of the most decorated guides in Africa, a serious spa, and Big Five viewing at the highest level of luxury on the continent.', href: '/hotels/royal-malewane-south-africa.html' },
+        { img: '/images/destinations/londolozi.jpg', kicker: 'Sabi Sand', name: 'Londolozi', blurb: 'The family-run reserve that set the standard for leopard viewing worldwide &mdash; five camps, one ethos, and guiding that turns first-timers into safari people for life.', href: '/hotels/londolozi-south-africa.html' },
+        { img: '/images/destinations/mombo-camp.jpg', kicker: 'Okavango Delta', name: 'Mombo Camp, Wilderness', blurb: 'Botswana&rsquo;s most storied camp, on an island in the Delta&rsquo;s richest game country &mdash; water and land safari in one, at the top of the category.', href: '/hotels/mombo-camp-botswana.html' },
+        { img: '/images/destinations/ellerman-house.jpg', kicker: 'Cape Town', name: 'Ellerman House', blurb: 'A 13-room Relais &amp; Ch&acirc;teaux house above the Atlantic with a private art collection and wine gallery &mdash; the gateway stay before or after safari, and reason enough to linger.', href: '/hotels/ellerman-house-cape-town.html' },
+      ]},
+    ],
+    experiences: [
+      ['Hot-air balloon at dawn', 'over the Mara or Serengeti, champagne breakfast in the bush on landing.'],
+      ['Private conservancy drives', 'off the public circuits, with your own guide and vehicle for the whole stay.'],
+      ['Walking safaris &amp; village visits', 'the Mara on foot with Maasai guides, and time with the communities who steward it.'],
+      ['Bush dinners &amp; sundowners', 'the rituals that turn a game-viewing trip into the trip of a lifetime.'],
+      ['Sole-use camp buyouts', 'your family or group as the only guests in camp, with the whole team dedicated to you.'],
+      ['Cape Town &amp; the Winelands', 'private tastings and table bookings in Franschhoek and Stellenbosch to bookend the bush.'],
+    ],
+    cta: 'Safaris book 9&ndash;12 months out &mdash; the right camp matters more than anywhere else I plan.',
+  },
+  {
+    id: 'mexico', band: false, eyebrow: 'Sun & sea', title: 'Mexico',
+    intro: 'Mexico&rsquo;s Pacific coast is the easiest luxury escape in the Americas &mdash; short flights, no jet lag, and a run of resorts that rival anywhere in the world. Los Cabos brings drama and energy; Punta Mita and the Riviera Nayarit bring lush, quiet polish.',
+    circuits: [
+      { label: 'Los Cabos', hotels: [
+        { img: '/images/personal/montage-cabo.jpg', kicker: 'Santa Maria Bay', name: 'Montage Los Cabos', blurb: 'Set on one of the few genuinely swimmable beaches in Cabo, with understated design and standout service. My go-to first recommendation here.', href: '/hotels/montage-los-cabos.html' },
+        { img: '/images/hotels/oneandonly-palmilla-1.jpg', kicker: 'San José del Cabo', name: 'One&amp;Only Palmilla', blurb: 'The grande dame of Cabo &mdash; lush, storied, and impeccably serviced, with a swimmable cove and legendary breakfasts.', href: '/hotels/oneandonly-palmilla-los-cabos.html' },
+        { img: '/images/destinations/las-ventanas.jpg', kicker: 'Los Cabos', name: 'Las Ventanas al Para&iacute;so', blurb: 'A Rosewood resort famous for over-the-top service theater &mdash; ideal for celebrations that deserve a little spectacle.', href: '/hotels/las-ventanas-los-cabos.html' },
+      ]},
+      { label: 'Punta Mita & the Pacific Coast', hotels: [
+        { img: '/images/destinations/oneandonly-mandarina.jpg', kicker: 'Riviera Nayarit', name: 'One&amp;Only Mandarina', blurb: 'Treehouse-style villas folded into a rainforest cliffside &mdash; the most architecturally exciting resort on the Pacific coast.', href: '/hotels/oneandonly-mandarina.html' },
+        { img: '/images/destinations/naviva-punta-mita.jpg', kicker: 'Punta Mita', name: 'Naviva, A Four Seasons Resort', blurb: 'Fifteen tented villas hidden in the Punta Mita jungle &mdash; adults-only, wellness-driven, and as close to a private nature reserve as Mexico gets.', href: '/hotels/naviva-punta-mita.html' },
+        { img: '/images/destinations/st-regis-punta-mita.jpg', kicker: 'Punta Mita', name: 'The St. Regis Punta Mita', blurb: 'Quieter and more residential in feel, with butler service throughout &mdash; a refined base on the same beautiful peninsula.', href: '/hotels/st-regis-punta-mita.html' },
+        { img: '/images/destinations/fs-tamarindo.jpg', kicker: 'Costalegre', name: 'Four Seasons Resort Tamarindo', blurb: 'A 3,000-acre private reserve down the coast from Puerto Vallarta &mdash; dramatic clifftop pools, its own airstrip access, and barely another soul in sight.', href: '/hotels/four-seasons-tamarindo.html' },
+      ]},
+    ],
+    experiences: [
+      ['Private charters &amp; sportfishing', 'Cabo&rsquo;s marlin waters or a slow day anchored off a quiet bay.'],
+      ['Whale watching, December&ndash;April', 'humpbacks calve in these waters; a private boat beats the crowds every time.'],
+      ['Tequila &amp; mezcal tastings', 'guided by someone who can actually explain what you&rsquo;re drinking.'],
+      ['Surf mornings at Punta Mita', 'private coaching on gentle breaks, back in time for lunch.'],
+    ],
+    cta: 'Cabo or Punta Mita? It depends on your group &mdash; ask me.',
+  },
+  {
+    id: 'tennis', band: true, eyebrow: 'Game, set, match', title: 'For the tennis traveler',
+    intro: 'Some of the world&rsquo;s best hotels also hide some of its most beautiful courts &mdash; several of them at properties already on this page. These are my favorites, from my full ranking of hotel tennis courts worth traveling for.',
+    circuits: [{ label: null, hotels: [
+      { img: '/images/tennis/il-san-pietro.jpg', kicker: 'Amalfi Coast', name: 'Il San Pietro di Positano', blurb: 'A clay court carved into the cliffside above the Tyrrhenian &mdash; my #1, and reason enough to stay.', href: '/hotels/il-san-pietro-di-positano.html' },
+      { img: '/images/tennis/passalacqua.jpg', kicker: 'Lake Como', name: 'Passalacqua', blurb: 'A sunken clay court in the terraced gardens &mdash; play, then swim in the greenhouse pool.', href: '/hotels/passalacqua-lake-como.html' },
+      { img: '/images/tennis/hotel-cipriani.avif', kicker: 'Venice', name: 'Hotel Cipriani', blurb: 'Lagoon-side tennis in Giudecca&rsquo;s gardens &mdash; the most unexpected court in Europe.', href: '/hotels/hotel-cipriani-venice.html' },
+      { img: '/images/tennis/villa-d-este.jpg', kicker: 'Lake Como', name: 'Villa d&rsquo;Este', blurb: 'Clay courts in a 25-acre renaissance park above the lake &mdash; old-world tennis at its finest.', href: '/hotels/villa-d-este-lake-como.html' },
+      { img: '/images/tennis/burgenstock.jpg', kicker: 'Lucerne', name: 'B&uuml;rgenstock Resort', blurb: 'Alpine courts 500 meters above Lake Lucerne &mdash; the best backdrop in the sport.', href: '/hotels/burgenstock-resort-lake-lucerne.html' },
+      { img: '/images/tennis/cheval-blanc-randheli.avif', kicker: 'Maldives', name: 'Cheval Blanc Randheli', blurb: 'Palm-shaded courts on a private island &mdash; morning tennis, afternoon lagoon.', href: '/hotels/cheval-blanc-randheli-maldives.html' },
+    ]}],
+    experiences: null,
+    expCredit: 'Tennis programming comes through my partnership with <a href="https://www.luxtennis.com/" target="_blank" rel="noopener">LUX Tennis</a> &mdash; the team placing ATP- and WTA-caliber pros, clinics, and hitting partners at the world&rsquo;s finest resorts.',
+    cta: 'See all eleven courts &mdash; and where I&rsquo;d stay to play them.', ctaHref: '/top-hotel-tennis-courts.html', ctaLabel: 'The full tennis ranking',
+  },
+];
+---
+<Layout
+  canonical="featured-destinations.html"
+  title="Featured Destinations | Suites With Keith"
+  description="The places I plan most often — Italy, Paris, London, Greece, Japan, Africa and Mexico — and the hotels I'd send my own family to, with partner amenities attached."
+  preload="/images/hotels/canaves-oia-1.jpg"
+>
+
+<!-- hero -->
+<header class="hero" style="min-height:min(74svh,700px);">
+  <img class="hero-img" src="/images/hotels/canaves-oia-1.jpg" alt="Whitewashed suites stepping down the caldera at Canaves Oia, Santorini" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Featured destinations</p>
+    <h1 class="display-xl">Where I plan<br><em>most often</em></h1>
+    <p class="sub">The places I keep going back to &mdash; and the hotels I&rsquo;d send my own family to, with partner amenities and my advocacy attached to every booking.</p>
+    <p class="stamp">Virtuoso advisor &middot; Fora Pro &middot; partner perks included</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Tell me where you&rsquo;re going</a>
+    </div>
+  </div>
+</header>
+
+<!-- jump bar -->
+<nav class="jump" aria-label="Destinations on this page">
+  <div class="container">
+    {sections.map((s) => <a href={`#${s.id}`}>{s.title === 'For the tennis traveler' ? 'Tennis' : s.title}</a>)}
+  </div>
+</nav>
+
+<!-- why book here -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <div class="adv reveal">
+      <div>
+        <p class="stamp plain" style="font-weight:700; color:var(--brass);">Preferred partnerships</p>
+        <p>I&rsquo;m a preferred partner of Rosewood, Four Seasons, Aman, Belmond, Auberge and many of the world&rsquo;s top hotel brands &mdash; space-available upgrades, daily breakfast, property credits and VIP recognition come with your booking at no extra cost.</p>
+      </div>
+      <div>
+        <p class="stamp plain" style="font-weight:700; color:var(--brass);">Free-night promotions</p>
+        <p>Many of these properties run stay-3-pay-2 or stay-4-pay-3 offers through partner channels. I watch for them and time your booking so the promotion does the saving &mdash; the rate is never higher than booking direct.</p>
+      </div>
+      <div>
+        <p class="stamp plain" style="font-weight:700; color:var(--brass);">Priority over the portals</p>
+        <p>Partner bookings are typically prioritized ahead of credit-card travel programs like Amex or Chase when upgrades and special requests are handed out &mdash; and my direct relationships with the hotels&rsquo; teams close the rest of the gap.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{sections.map((s) => (
+  <section class={`section${s.band ? ' band on-shadow' : ''}`} id={s.id} style="scroll-margin-top:70px;">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">{s.eyebrow}</span>
+        <h2 class="display-l">{s.title}</h2>
+        <p class={s.band ? 'body-2' : 'body-2'} style="margin-top:16px; max-width:64ch;" set:html={s.intro} />
+      </div>
+
+      {s.map === 'italy' && (
+        <div class="map reveal">
+          <div class="map-scroll">
+            <svg viewBox="60 10 600 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of Italy showing the five regions Keith plans most: Lake Como, Florence, Tuscany, Rome, and the Amalfi Coast">
+              <path d="M150,112 C196,76 262,58 312,60 C338,61 350,74 356,94 C362,114 354,134 364,156 C382,198 414,240 442,286 C468,328 490,374 516,414 C534,442 560,462 584,480 C604,494 622,510 626,532 C630,554 612,562 596,553 C582,545 572,534 556,530 C540,526 524,528 512,518 C498,506 494,490 482,478 C468,464 448,462 442,476 C436,490 444,506 452,520 C464,542 474,564 478,588 C482,612 480,636 470,656 C463,670 450,682 436,677 C422,672 419,656 417,642 C414,624 413,608 402,596 C389,582 371,576 359,562 C345,546 341,524 329,508 C313,486 289,472 273,450 C253,424 245,392 235,362 C225,332 211,304 197,276 C183,248 167,222 159,192 C151,166 141,138 150,112 Z" fill="#F2EFE6" opacity="0.12"/>
+              <path d="M368,706 L470,700 L428,748 Z" fill="#F2EFE6" opacity="0.10"/>
+              <ellipse cx="128" cy="500" rx="34" ry="72" fill="#F2EFE6" opacity="0.10"/>
+              <text x="90" y="330" font-size="12" letter-spacing="3" fill="rgba(242,239,230,0.35)">TYRRHENIAN SEA</text>
+              <text x="470" y="240" font-size="12" letter-spacing="3" fill="rgba(242,239,230,0.35)">ADRIATIC</text>
+              <g>
+                <circle cx="282" cy="98" r="9" fill="#BE975A"/>
+                <text x="300" y="94" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6">LAKE COMO</text>
+                <text x="300" y="110" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)">PASSALACQUA &middot; IL SERENO &middot; MANDARIN ORIENTAL</text>
+              </g>
+              <g>
+                <circle cx="290" cy="286" r="9" fill="#BE975A"/>
+                <text x="308" y="282" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6">FLORENCE</text>
+                <text x="308" y="298" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)">VILLA SAN MICHELE &middot; FOUR SEASONS &middot; LUNGARNO</text>
+              </g>
+              <g>
+                <circle cx="300" cy="368" r="9" fill="#BE975A"/>
+                <text x="282" y="364" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6" text-anchor="end">TUSCANY</text>
+                <text x="282" y="380" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)" text-anchor="end">ROSEWOOD &middot; BELMOND &middot; COMO</text>
+              </g>
+              <g>
+                <circle cx="336" cy="470" r="9" fill="#BE975A"/>
+                <text x="318" y="466" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6" text-anchor="end">ROME</text>
+                <text x="318" y="482" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)" text-anchor="end">DE RUSSIE &middot; EDEN &middot; ST. REGIS</text>
+              </g>
+              <g>
+                <circle cx="422" cy="560" r="9" fill="#BE975A"/>
+                <text x="440" y="556" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6">AMALFI COAST</text>
+                <text x="440" y="572" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)">CARUSO &middot; IL SAN PIETRO &middot; LE SIRENUSE</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      )}
+
+      {s.map === 'greece' && (
+        <div class="map reveal">
+          <div class="map-scroll">
+            <svg viewBox="390 30 610 610" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the Cyclades showing the islands and hotels Keith plans most">
+              <text x="560" y="80" font-size="13" letter-spacing="3" fill="rgba(242,239,230,0.4)">THE AEGEAN</text>
+              <ellipse cx="468" cy="320" rx="15" ry="12" fill="#F2EFE6" opacity="0.16"/>
+              <ellipse cx="424" cy="242" rx="10" ry="14" fill="#F2EFE6" opacity="0.16"/>
+              <ellipse cx="638" cy="222" rx="12" ry="16" fill="#F2EFE6" opacity="0.16"/>
+              <ellipse cx="498" cy="434" rx="9" ry="7" fill="#F2EFE6" opacity="0.16"/>
+              <ellipse cx="728" cy="478" rx="12" ry="7" fill="#F2EFE6" opacity="0.16" transform="rotate(-15 728 478)"/>
+              <ellipse cx="800" cy="465" rx="14" ry="11" fill="#F2EFE6" opacity="0.16"/>
+              <g>
+                <ellipse cx="830" cy="219" rx="17" ry="12" fill="#F2EFE6" opacity="0.9"/>
+                <text x="830" y="192" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6" text-anchor="middle">MYKONOS</text>
+                <text x="830" y="250" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)" text-anchor="middle">CALI &middot; KALESMA &middot; BILL &amp; COO</text>
+              </g>
+              <g>
+                <ellipse cx="745" cy="344" rx="19" ry="15" fill="#F2EFE6" opacity="0.9"/>
+                <text x="778" y="341" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6">PAROS</text>
+                <text x="778" y="357" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)">PARILIO &middot; COSME</text>
+              </g>
+              <g>
+                <ellipse cx="562" cy="381" rx="16" ry="21" fill="#F2EFE6" opacity="0.9"/>
+                <text x="530" y="378" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6" text-anchor="end">SIFNOS</text>
+                <text x="530" y="394" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)" text-anchor="end">STAMNA</text>
+              </g>
+              <g>
+                <ellipse cx="647" cy="498" rx="17" ry="9" fill="#F2EFE6" opacity="0.9" transform="rotate(-25 647 498)"/>
+                <text x="614" y="516" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6" text-anchor="end">FOLEGANDROS</text>
+                <text x="614" y="532" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)" text-anchor="end">GUNDARI</text>
+              </g>
+              <g>
+                <path d="M856,536 C872,530 884,542 886,560 C888,578 878,592 862,594 C852,595 846,588 850,582 C858,584 868,578 870,564 C871,550 864,542 854,544 Z" fill="#F2EFE6" opacity="0.95"/>
+                <text x="838" y="546" font-size="14" font-weight="500" letter-spacing="1.5" fill="#F2EFE6" text-anchor="end">SANTORINI</text>
+                <text x="838" y="562" font-size="10.5" letter-spacing="1" fill="rgba(242,239,230,0.6)" text-anchor="end">CANAVES &middot; ANDRONIS</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      )}
+
+      {s.photo && (
+        <figure class="wide-photo reveal">
+          <img src={s.photo.src} alt={s.photo.alt} width="2200" height="711" loading="lazy" decoding="async" />
+        </figure>
+      )}
+
+      {s.circuits.map((c) => (
+        <>
+          {c.label && <p class="circuit reveal">{c.label}</p>}
+          <div class="cards reveal" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); margin-bottom:8px;">
+            {c.hotels.map((h) => (
+              <a class="card" href={h.href}>
+                <img src={h.img} alt="" width="1600" height="1067" loading="lazy" decoding="async" />
+                <div class="pad">
+                  <span class="kicker">{h.kicker}</span>
+                  <h3 set:html={h.name} />
+                  {h.award && <span class="award">{h.award}</span>}
+                  <p set:html={h.blurb} />
+                  <span class="go">Explore &rarr;</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </>
+      ))}
+
+      {s.experiences && (
+        <div class="exp reveal">
+          <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:20px;">On the ground</p>
+          <div class="exp-grid">
+            {s.experiences.map(([b, rest]) => (
+              <p class="exp-item"><b set:html={b} /> &mdash; <span set:html={rest} /></p>
+            ))}
+          </div>
+          {s.expCredit && <p class="exp-credit" set:html={s.expCredit} />}
+        </div>
+      )}
+      {!s.experiences && s.expCredit && <p class="exp-credit reveal" style="margin-top:32px;" set:html={s.expCredit} />}
+
+      <div class="cta-band reveal">
+        <p class="deck" style="font-size:1.05rem;" set:html={s.cta} />
+        <a class="btn" href={s.ctaHref || '#inquire'} data-gtag-label={s.ctaHref ? 'tennis_ranking' : 'start_planning'} data-gtag-location={s.id}>{s.ctaLabel || 'Start planning'}</a>
+      </div>
+    </div>
+  </section>
+))}
+
+<!-- beyond the hotels -->
+<section class="section" style="padding:64px 0;">
+  <div class="container" style="max-width:760px; text-align:center;">
+    <span class="eyebrow" style="display:block; margin-bottom:14px;">Beyond the hotels</span>
+    <p class="deck" style="margin:0;">Private yacht charters through trusted brokers, private jets for domestic and international travel, and helicopter transfers through my <a href="/hoper.html" style="color:var(--brass);">Hoper partnership</a> &mdash; if the trip calls for it, I&rsquo;ll arrange it.</p>
+  </div>
+</section>
+
+<!-- ask -->
+<section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
+    <h2 class="display-l reveal">Where and when?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">&ldquo;Kyoto in November&rdquo; is a complete answer. I&rsquo;ll take it from there.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Inquiry — Featured Destinations" />
+      <input type="hidden" name="page" value="featured-destinations" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">Where and when?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="Kyoto in November" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the recommendation?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Nights, budget, occasion &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn">Send</button>
+      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+    <p class="small reveal" style="margin-top:26px; color:var(--band-ash); font-family:var(--display); font-style:italic;">Client itineraries are never published or shared. References available on request.</p>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .jump { position: sticky; top: 0; z-index: 25; background: var(--plaster); border-bottom: 1px solid var(--hairline); }
+  .jump .container { display: flex; gap: 26px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; padding-top: 13px; padding-bottom: 13px; }
+  .jump .container::-webkit-scrollbar { display: none; }
+  .jump a { font-size: .68rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); text-decoration: none; white-space: nowrap; }
+  .jump a:hover { color: var(--ink); }
+
+  .adv { display: grid; gap: 28px; grid-template-columns: 1fr; background: var(--lime); border: 1px solid var(--hairline); padding: clamp(28px, 4vw, 44px); }
+  @media (min-width: 860px) { .adv { grid-template-columns: repeat(3, 1fr); gap: 36px; } }
+  .adv p:last-child { margin-top: 12px; font-size: .92rem; color: var(--ash); line-height: 1.65; }
+
+  .map { background: var(--shadow); padding: clamp(16px, 3vw, 36px); margin-bottom: 40px; }
+  .band .map { border: 1px solid var(--band-hairline); }
+  .map-scroll { overflow-x: auto; }
+  .map svg { display: block; width: 100%; min-width: 620px; height: auto; font-family: var(--body); }
+
+  .wide-photo { margin: 0 0 40px; }
+  .wide-photo img { width: 100%; aspect-ratio: 21/9; object-fit: cover; }
+
+  .circuit {
+    font-family: var(--stamp); font-size: .7rem; font-weight: 700; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--brass);
+    border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin: 34px 0 20px;
+  }
+  .band .circuit { color: var(--brass-lit); border-bottom-color: var(--band-hairline); }
+
+  .card .award { font-family: var(--stamp); font-size: .62rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
+
+  .exp { margin-top: 44px; border-top: 1px solid var(--hairline); padding-top: 30px; }
+  .band .exp { border-top-color: var(--band-hairline); }
+  .exp-grid { display: grid; gap: 16px 48px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .exp-grid { grid-template-columns: 1fr 1fr; } }
+  .exp-item { font-size: .93rem; color: var(--ash); line-height: 1.6; padding-left: 16px; position: relative; }
+  .band .exp-item { color: var(--band-ash); }
+  .exp-item::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
+  .band .exp-item::before { background: var(--brass-lit); }
+  .exp-item b { color: var(--ink); font-weight: 500; }
+  .band .exp-item b { color: var(--band-ink); }
+  .exp-item :global(a) { color: var(--brass); }
+  .band .exp-item :global(a) { color: var(--brass-lit); }
+  .exp-credit { font-family: var(--display); font-style: italic; font-size: .95rem; color: var(--ash); margin-top: 22px; }
+  .band .exp-credit { color: var(--band-ash); }
+  .exp-credit :global(a) { color: var(--brass); }
+  .band .exp-credit :global(a) { color: var(--brass-lit); }
+
+  .cta-band { margin-top: 44px; display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; border-left: 2px solid var(--brass); padding-left: clamp(18px, 3vw, 28px); }
+  .band .cta-band { border-left-color: var(--brass-lit); }
+  .cta-band .deck { max-width: 44ch; }
+</style>

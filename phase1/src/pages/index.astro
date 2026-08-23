@@ -69,7 +69,7 @@ import Layout from '../layouts/Layout.astro';
       <span class="eyebrow">Same rate &mdash; sometimes better</span>
       <h2 class="display-l">You can book the room.<br>You can&rsquo;t make them know you.</h2>
     </div>
-    <div class="reveal" style="display:grid; gap:40px; grid-template-columns:1fr;">
+    <div class="reveal adv-grid">
       <p class="story-quote">&ldquo;With less than 24 hours&rsquo; notice we needed a hotel in Saint-Tropez in peak season. Keith stepped in with the perfect recommendation &mdash; and personally contacted the hotel before our arrival. <b>When we pulled up, the staff greeted us by name</b>, welcomed us with cold towels, and surprised us with a complimentary upgrade.&rdquo;</p>
       <div>
         <p class="attr">Tyler &amp; Spencer C. &middot; COMO Le Beauvallon &middot; Saint-Tropez</p>
@@ -81,7 +81,7 @@ import Layout from '../layouts/Layout.astro';
 
 <!-- 5 · The Collection -->
 <section class="section" id="collection">
-  <div class="container" style="display:grid; gap:44px; grid-template-columns:1fr; align-items:center;">
+  <div class="container collection-grid">
     <div class="sec-head reveal" style="margin-bottom:0;">
       <span class="eyebrow">The Greece Collection &middot; Issue No. 01</span>
       <h2 class="display-l">The field notes, in print</h2>
@@ -98,27 +98,28 @@ import Layout from '../layouts/Layout.astro';
 <section class="section" id="range">
   <div class="container">
     <div class="sec-head reveal">
-      <span class="eyebrow">Beyond Greece</span>
+      <span class="eyebrow">The destinations</span>
       <h2 class="display-l">Where I plan most often</h2>
     </div>
     <div class="cards four reveal">
-      <a class="card" href="/sample-proposal.html">
-        <img src="/images/proposals/divider-overwater.jpg" alt="Overwater villas in the Maldives" width="1600" height="1200" loading="lazy" decoding="async" />
-        <div class="pad"><span class="kicker">Honeymoon</span><h3>The Maldives</h3><p>Three overwater itineraries, compared side by side.</p><span class="go">Explore &rarr;</span></div>
+      <a class="card" href="/best-hotels-greece.html">
+        <img src="/images/islands/santorini-hero.jpg" alt="The caldera at Santorini" width="1600" height="1200" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">The Cyclades</span><h3>Greece</h3><p>Eight islands toured this spring &mdash; my ten favorite hotels, ranked.</p><span class="go">Explore &rarr;</span></div>
       </a>
-      <a class="card" href="/sample-proposal-lake-como.html">
-        <img src="/images/proposals/lake-como/passalacqua/garden-lake.jpg" alt="Gardens meeting the water at Lake Como" width="1600" height="1200" loading="lazy" decoding="async" />
-        <div class="pad"><span class="kicker">Lakeside</span><h3>Lake Como</h3><p>Four of the lake&rsquo;s finest hotels, compared.</p><span class="go">Explore &rarr;</span></div>
-      </a>
-      <a class="card" href="/sample-proposal-paris.html">
-        <img src="/images/proposals/paris/crillon/pool.jpg" alt="The pool at Hôtel de Crillon, Paris" width="1600" height="1200" loading="lazy" decoding="async" />
-        <div class="pad"><span class="kicker">City &amp; culture</span><h3>Paris</h3><p>Five palace hotels, compared from stays and tours.</p><span class="go">Explore &rarr;</span></div>
+      <a class="card" href="/featured-destinations.html#italy">
+        <img src="/images/proposals/lake-como/passalacqua/garden-lake.jpg" alt="Gardens meeting the water at Passalacqua, Lake Como" width="1600" height="1200" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Como to the Amalfi Coast</span><h3>Italy</h3><p>The hotels I book from Lake Como to Positano.</p><span class="go">Explore &rarr;</span></div>
       </a>
       <a class="card" href="/napa-sonoma.html">
         <img src="/images/napa/madrona.jpg" alt="The Madrona, Sonoma wine country" width="1800" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">Wine country</span><h3>Napa &amp; Sonoma</h3><p>Nine hotels, ranked from personal stays.</p><span class="go">Explore &rarr;</span></div>
       </a>
+      <a class="card" href="/featured-destinations.html#mexico">
+        <img src="/images/personal/montage-cabo.jpg" alt="Montage Los Cabos on Santa Maria Bay" width="1600" height="1200" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Cabo &amp; Punta Mita</span><h3>Mexico</h3><p>The Pacific-coast resorts I send clients to first.</p><span class="go">Explore &rarr;</span></div>
+      </a>
     </div>
+    <p class="reveal" style="margin-top:26px;"><a href="/destination-guides.html" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;" data-gtag-label="all_guides" data-gtag-location="range">All destinations &amp; guides &rarr;</a></p>
   </div>
 </section>
 
@@ -153,7 +154,11 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <style>
+  .collection-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: center; }
+  .adv-grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
   @media (min-width: 900px) {
-    #collection .container { grid-template-columns: 1fr 1fr; }
+    .collection-grid { grid-template-columns: 1fr 1fr; }
+    .collection-grid figure { justify-self: center; }
+    .adv-grid { grid-template-columns: 1.15fr 1fr; align-items: end; column-gap: 64px; }
   }
 </style>

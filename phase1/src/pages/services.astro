@@ -1,0 +1,266 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqs = [
+  { q: 'What types of trips do you specialize in?', a: 'Europe first &mdash; plus honeymoons, family and multi-generational trips, milestone celebrations, and escapes to Napa Valley, Mexico and beyond.' },
+  { q: 'Do you charge for hotel bookings?', a: 'No. Recommendations and bookings are complimentary, and often carry preferred-partner amenities on top.' },
+  { q: 'Why book through you instead of Amex Fine Hotels + Resorts or Chase?', a: 'The perks are similar. The experience isn&rsquo;t. The rate is the one you&rsquo;d pay booking direct &mdash; sometimes better &mdash; and through my relationships with the hotels, your stay is personalized from before you arrive until you check out.' },
+  { q: 'I have an Amex FHR or Chase credit &mdash; can I still use it with you?', a: 'Yes &mdash; the best play is usually to book one night through Amex or Chase FHR and the remaining nights through me. You typically keep the benefits of both programs, plus my advocacy with the hotel, which the card programs don&rsquo;t offer.' },
+  { q: 'What if I already have travel booked?', a: 'In many cases I can take over the reservation as your advisor, advocate on your behalf, and add any available preferred-partner amenities to a stay you already have.' },
+  { q: 'How far in advance should I inquire?', a: 'Three to six months before departure is ideal. Shorter works &mdash; if you&rsquo;re traveling within the next 30 days, you&rsquo;ll hear from me the same day.' },
+  { q: 'Can you help me use my Amex, Chase, Citi or Bilt points?', a: 'Yes &mdash; I consult on points so you get the best value from them, including booking international business and first-class award flights.' },
+  { q: 'Do you handle transfers?', a: 'Yes &mdash; door-to-door transfers are part of every itinerary I plan: private helicopter charters through my partnership with Hoper, private boats between islands like Sifnos, Paros and Milos, luxury airport transfers, and chauffeured cars across Greece, Italy, France and beyond.' },
+  { q: 'Do you handle excursions?', a: 'Absolutely. Private guides and drivers, chef&rsquo;s tables, after-hours museum tours, wine tastings, a private boat day on Lake Como, a high-touch shopping day in Paris &mdash; if you can imagine it, I&rsquo;ll build it into the trip.' },
+  { q: 'Can you arrange private yacht charters or private jets?', a: 'Yes, through trusted charter brokers: yacht charters from single-day boats to fully crewed multi-day itineraries in the Greek islands, the Amalfi Coast and the Caribbean, and private jet charter for domestic and international routes. Tell me the route, dates and group size and I&rsquo;ll source vetted options.' },
+  { q: 'Do you offer a yearly retainer?', a: 'For the right clients, yes &mdash; a limited number of annual arrangements: one flat yearly fee for unlimited planning access, covering hotels, full itineraries, transfers, points strategy, and support while you&rsquo;re traveling.' },
+  { q: 'Do you book private homes and villas?', a: 'Yes. Through my partner network I have access to a hand-selected list of private homes and villas, each vetted for quality and service. They come with added benefits and, in most cases, no end-of-stay cleaning fee.' },
+];
+
+const faqSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q.replace(/&mdash;/g, '—').replace(/&rsquo;/g, '’'),
+    acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/&mdash;/g, '—').replace(/&rsquo;/g, '’') },
+  })),
+});
+
+const partners = [
+  ['aman.png', 'Aman', 'tint'], ['belmond.png', 'Belmond', ''], ['bulgari.png', 'Bulgari Hotels & Resorts', ''],
+  ['dorchester.png', 'Dorchester Collection', ''], ['four-seasons.png', 'Four Seasons Hotels & Resorts', ''],
+  ['oetker.png', 'Oetker Collection', ''], ['ritz-carlton.png', 'The Ritz-Carlton', ''],
+  ['rosewood.png', 'Rosewood Hotels & Resorts', 'tint'], ['st-regis.png', 'St. Regis Hotels & Resorts', ''],
+  ['waldorf-astoria.png', 'Waldorf Astoria Hotels & Resorts', 'tint'], ['montage.svg', 'Montage Hotels & Resorts', ''],
+  ['auberge.png', 'Auberge Resorts Collection', ''], ['one-and-only.svg', 'One&Only Resorts', ''],
+  ['capella.svg', 'Capella Hotels & Resorts', 'inv'], ['mandarin-oriental.svg', 'Mandarin Oriental Hotel Group', ''],
+  ['six-senses.svg', 'Six Senses Hotels Resorts Spas', ''], ['peninsula.png', 'The Peninsula Hotels', 'tint'],
+  ['langham.png', 'Langham Hospitality Group', 'tint'], ['rocco-forte.svg', 'Rocco Forte Hotels', ''],
+  ['relais-chateaux.png', 'Relais & Châteaux', ''], ['lhw.svg', 'The Leading Hotels of the World', ''],
+];
+---
+<Layout
+  canonical="services.html"
+  title="Services & FAQ | Suites With Keith"
+  description="What working with a travel advisor costs, and what it covers: complimentary hotel bookings, transfers from $350, full-trip planning from $500, yachts, jets, villas and an annual retainer."
+  current="services"
+>
+
+<Fragment slot="head" set:html={`<script type="application/ld+json">${faqSchema}</script>`} />
+
+<!-- masthead -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p class="eyebrow reveal">Services</p>
+    <h1 class="display-xl reveal" style="margin-top:18px; max-width:14ch;">What I do, and what it costs</h1>
+    <p class="deck reveal" style="margin-top:22px; max-width:44ch;">Hotel bookings are complimentary. Everything else is priced in plain numbers below &mdash; no packages, no upsell.</p>
+  </div>
+</section>
+
+<!-- services -->
+<section class="section">
+  <div class="container">
+    <div class="svc-grid reveal">
+      <div class="svc">
+        <span class="stamp plain">Complimentary</span>
+        <h3>Hotel bookings</h3>
+        <p>Three or four recommendations with the room worth booking at each &mdash; and what each hotel is wrong for. Preferred-partner amenities included when available.</p>
+      </div>
+      <div class="svc">
+        <span class="stamp plain">From $350</span>
+        <h3>Transfers &amp; logistics</h3>
+        <p>Private airport transfers, rail and ferry coordination, private boats between islands like Sifnos, Paros and Milos &mdash; and helicopters through my <a href="/hoper.html">partnership with Hoper</a>.</p>
+      </div>
+      <div class="svc">
+        <span class="stamp plain">From $500</span>
+        <h3>Full-trip planning</h3>
+        <p>The whole itinerary: hotels, transportation, the tables worth booking, and what isn&rsquo;t worth your money. <a href="/sample-itinerary.html">See a sample itinerary &rarr;</a></p>
+      </div>
+      <div class="svc">
+        <span class="stamp plain">Through trusted brokers</span>
+        <h3>Yachts &amp; jets</h3>
+        <p>Yacht charters from day boats to fully crewed multi-day itineraries, and private jet charter for domestic and international routes.</p>
+      </div>
+      <div class="svc">
+        <span class="stamp plain">Custom pricing</span>
+        <h3>Corporate &amp; group travel</h3>
+        <p>Executive travel, incentive trips and team offsites &mdash; one point of contact from first inquiry to wheels down. <a href="/corporate-travel.html">Explore corporate travel &rarr;</a></p>
+      </div>
+      <div class="svc">
+        <span class="stamp plain">By invitation</span>
+        <h3>Annual retainer</h3>
+        <p>For clients who travel often: one flat yearly fee, unlimited planning &mdash; hotels, itineraries, transfers, points strategy and on-trip support. Offered to a small number of clients each year.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- client words -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">From clients</span>
+      <h2 class="display-l">In their words</h2>
+    </div>
+    <div class="quotes reveal">
+      <figure>
+        <blockquote>&ldquo;Keith made me believe in using travel agents again. He carefully put together thoughtful options and called out why he would choose each. He took so much work off my shoulders!&rdquo;</blockquote>
+        <figcaption class="attr">Stephanie F. &middot; Capella &middot; Kyoto</figcaption>
+      </figure>
+      <figure>
+        <blockquote>&ldquo;Extremely responsive and quick to help with anything I need. I&rsquo;ve already used his services four times in the past two months. I won&rsquo;t ever book a stay without Keith again.&rdquo;</blockquote>
+        <figcaption class="attr">Caitlin M. &middot; Four Seasons Napa Valley &middot; Calistoga</figcaption>
+      </figure>
+      <figure>
+        <blockquote>&ldquo;With less than 24 hours&rsquo; notice we needed a hotel in Saint-Tropez in peak season. The staff greeted us by name and surprised us with a complimentary upgrade.&rdquo;</blockquote>
+        <figcaption class="attr">Tyler &amp; Spencer C. &middot; COMO Le Beauvallon &middot; Saint-Tropez</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- sample proposals -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">See it first</span>
+      <h2 class="display-l">What lands in your inbox</h2>
+      <p class="deck" style="margin-top:16px; max-width:44ch;">Real sample proposals, across very different trips.</p>
+    </div>
+    <div class="cards reveal" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));">
+      <a class="card" href="/sample-proposal.html">
+        <img src="/images/proposals/cover-hero.jpg" alt="Overwater villas in the Maldives" width="1600" height="1200" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Honeymoon</span><h3>The Maldives</h3><p>Three overwater itineraries, compared side by side.</p><span class="go">View sample &rarr;</span></div>
+      </a>
+      <a class="card" href="/sample-proposal-paris.html">
+        <img src="/images/proposals/paris/peninsula/eiffel-terrace.jpg" alt="Terrace view of the Eiffel Tower from The Peninsula Paris" width="1600" height="1200" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">City &amp; culture</span><h3>Paris</h3><p>Five of the city&rsquo;s palace hotels, compared.</p><span class="go">View sample &rarr;</span></div>
+      </a>
+      <a class="card" href="/sample-proposal-lake-como.html">
+        <img src="/images/proposals/lake-como/passalacqua/garden-lake.jpg" alt="Gardens meeting the water at Passalacqua, Lake Como" width="1600" height="1200" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">Lakeside</span><h3>Lake Como</h3><p>Four of the lake&rsquo;s finest hotels, compared side by side.</p><span class="go">View sample &rarr;</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq" style="padding-top:0;">
+  <div class="container" style="max-width:860px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Questions</span>
+      <h2 class="display-l">Asked often, answered straight</h2>
+    </div>
+    <div class="faq reveal">
+      {faqs.map((f) => (
+        <details>
+          <summary><span set:html={f.q} /><span class="ind" aria-hidden="true">+</span></summary>
+          <p set:html={f.a} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- partners -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="sec-head reveal" style="margin-bottom:10px;">
+      <span class="eyebrow">Preferred partners</span>
+      <h2 class="display-m" style="margin-top:14px;">The hotel groups I book with partner benefits</h2>
+      <p class="body-2 small" style="margin-top:10px; max-width:52ch;">Typically room upgrades, resort credits, and a welcome that knows your name.</p>
+    </div>
+  </div>
+  <div class="marquee reveal" aria-label="Preferred hotel partners">
+    <div class="track">
+      <div class="set">
+        {partners.map(([f, alt, cls]) => (
+          <span class={`plogo ${cls}`}><img src={`/images/logos/partners/${f}`} alt={alt} loading="lazy" decoding="async" /></span>
+        ))}
+      </div>
+      <div class="set" aria-hidden="true">
+        {partners.map(([f, , cls]) => (
+          <span class={`plogo ${cls}`}><img src={`/images/logos/partners/${f}`} alt="" loading="lazy" decoding="async" /></span>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ask -->
+<section class="section inquire band on-shadow" id="inquire">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
+    <h2 class="display-l reveal">Where and when?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">&ldquo;Lake Como in September&rdquo; is a complete answer. I&rsquo;ll take it from there.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Inquiry — Services page" />
+      <input type="hidden" name="page" value="services" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">Where and when?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="Lake Como in September" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the recommendation?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Nights, budget, occasion &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn">Send</button>
+      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .svc-grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 700px) { .svc-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1020px) { .svc-grid { grid-template-columns: repeat(3, 1fr); } }
+  .svc { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(24px, 3vw, 32px); }
+  .svc .stamp.plain { font-size: .66rem; color: var(--brass); font-weight: 700; letter-spacing: .1em; }
+  .svc h3 { font-family: var(--display); font-weight: 500; font-size: 1.35rem; margin: 12px 0 10px; }
+  .svc p { font-size: .95rem; color: var(--ash); line-height: 1.6; }
+  .svc a { color: var(--brass); text-decoration: none; font-weight: 400; }
+  .svc a:hover { text-decoration: underline; }
+
+  .quotes { display: grid; gap: 40px; grid-template-columns: 1fr; }
+  @media (min-width: 860px) { .quotes { grid-template-columns: repeat(3, 1fr); gap: 44px; } }
+  .quotes figure { margin: 0; border-top: 1px solid var(--band-hairline); padding-top: 26px; }
+  .quotes blockquote { margin: 0; font-family: var(--display); font-style: italic; font-size: 1.15rem; line-height: 1.5; }
+  .quotes .attr { margin-top: 18px; }
+
+  .faq details { border-bottom: 1px solid var(--hairline); }
+  .faq details:first-child { border-top: 1px solid var(--hairline); }
+  .faq summary {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 20px;
+    cursor: pointer; list-style: none; padding: 18px 0;
+    font-family: var(--display); font-weight: 500; font-size: 1.08rem; line-height: 1.4;
+  }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq .ind { font-family: var(--stamp); color: var(--brass); font-size: 1rem; transition: transform var(--dur-1) var(--ease); }
+  .faq details[open] .ind { transform: rotate(45deg); }
+  .faq details p { padding: 0 0 22px; max-width: 60ch; color: var(--ash); font-size: .98rem; }
+  .faq details p :global(a) { color: var(--brass); }
+
+  .marquee { position: relative; overflow: hidden; margin-top: 26px; }
+  .marquee::before, .marquee::after { content: ""; position: absolute; top: 0; bottom: 0; width: 90px; z-index: 1; pointer-events: none; }
+  .marquee::before { left: 0; background: linear-gradient(to right, var(--plaster), transparent); }
+  .marquee::after { right: 0; background: linear-gradient(to left, var(--plaster), transparent); }
+  .track { display: flex; align-items: center; gap: 84px; width: max-content; padding: 14px 0; animation: partner-scroll 55s linear infinite; }
+  .marquee:hover .track { animation-play-state: paused; }
+  .set { display: flex; align-items: center; gap: 84px; flex: 0 0 auto; }
+  .plogo { flex: 0 0 auto; display: flex; align-items: center; justify-content: center; }
+  .plogo img { height: 50px; max-width: 165px; width: auto; object-fit: contain; filter: grayscale(1); opacity: .7; mix-blend-mode: multiply; }
+  .plogo.tint img { filter: grayscale(1) brightness(1.14) contrast(1.08); }
+  .plogo.inv img { filter: invert(1) grayscale(1); }
+  @keyframes partner-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) {
+    .track { animation: none; flex-wrap: wrap; width: auto; justify-content: center; gap: 40px; }
+    .set:last-child { display: none; }
+  }
+</style>
