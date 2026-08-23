@@ -246,7 +246,7 @@ td b{font-weight:500;}
 }
 .b3 span{width:5px; height:5px; background:var(--band-brass); border-radius:50%;}
 .b4{
-  display:inline-block; padding:.85rem 1.7rem; background:var(--band-brass); color:#14150f;
+  display:inline-block; padding:.85rem 1.7rem; background:var(--band-ink); color:#14150f;
   font-family:var(--body); font-weight:500; font-size:.72rem;
   letter-spacing:.16em; text-transform:uppercase;
 }
@@ -258,7 +258,7 @@ td b{font-weight:500;}
   letter-spacing:.16em; text-transform:uppercase; padding:.95rem 1.4rem;
   transition:background var(--dur-1) var(--ease),color var(--dur-1) var(--ease); white-space:nowrap;
 }
-@media(hover:hover){.demo-play:hover{background:var(--band-brass); color:#14150f;}}
+@media(hover:hover){.demo-play:hover{background:var(--band-ink); color:#14150f;}}
 .demo-play:active{transform:scale(.98);}
 .ticks{flex:1; display:grid; grid-template-columns:repeat(4,1fr);}
 .tick{
@@ -381,14 +381,14 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
 .btnp,.btns{
   display:inline-block; font-family:var(--body); font-weight:500; font-size:.72rem;
   letter-spacing:.16em; text-transform:uppercase; padding:1.05rem 2.1rem;
-  border:1px solid var(--brass); cursor:pointer; text-decoration:none;
-  transition:transform 100ms var(--ease),background var(--dur-1) var(--ease),color var(--dur-1) var(--ease);
+  border:1px solid transparent; cursor:pointer; text-decoration:none;
+  transition:transform 100ms var(--ease),filter var(--dur-1) var(--ease),border-color var(--dur-1) var(--ease);
 }
-.btnp{background:var(--brass); color:var(--ground);}
-.btns{background:transparent; color:var(--brass);}
+.btnp{background:var(--olive); color:var(--ground); border-color:var(--olive);}
+.btns{background:transparent; color:var(--ink); border-color:var(--rule-firm);}
 @media(hover:hover){
-  .btnp:hover{background:var(--brass-lit); border-color:var(--brass-lit);}
-  .btns:hover{background:var(--brass); color:var(--ground);}
+  .btnp:hover{filter:brightness(.92);}
+  .btns:hover{border-color:var(--ink);}
 }
 .btnp:active,.btns:active{transform:scale(.98);}
 
@@ -436,7 +436,7 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       <div><span>Client</span><b>suiteswithkeith.com</b></div>
       <div><span>Audited</span><b>193 pages &middot; 123 hotels</b></div>
       <div><span>Stack today</span><b>Static HTML &middot; GH Pages</b></div>
-      <div><span>Scope</span><b>Identity &middot; IA &middot; Conversion<br>Interaction &middot; Build</b></div>
+      <div><span>Scope</span><b>Identity &middot; Voice &middot; IA<br>Conversion &middot; Audit &middot; Build</b></div>
     </div>
   </div>
 </header>
@@ -589,6 +589,103 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
   </div>
 </section>
 
+<!-- ══════════ CONVERSION AUDIT ══════════ -->
+<section id="audit">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">The conversion audit</p>
+      <h2>The site converts worst exactly where intent is highest</h2>
+      <p class="lede">Everything in this section is read from the code &mdash; every finding can be checked against a file. What I could not read is behavior: GA4 is installed (G-0J39101CS2), Formspree receives the forms, and beehiiv holds the subscriber data, but I have credentialed access to none of them. Structural findings first; the exact behavioral pulls that would confirm or overturn them are listed at the end, labeled as the assumptions they are.</p>
+    </div>
+
+    <h4 class="mini">Findings, ranked</h4>
+    <div class="tw" style="margin-bottom:2.5rem;">
+      <table>
+        <thead><tr><th>Severity</th><th>Finding</th><th>Evidence</th><th>Consequence</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="pill bad">Critical</span></td>
+            <td><b>All 123 hotel pages convert via mailto: links.</b> Three CTAs per page &mdash; Inquire To Book, Check Availability, Plan Your Trip &mdash; every one a mailto.</td>
+            <td>Every <span class="stamp">hotels/*.html</span></td>
+            <td>On a phone with no configured mail app &mdash; a large share of Gmail and Outlook web users &mdash; the button does nothing or opens an empty picker. No analytics event fires, nothing reaches Formspree, the visitor gets no confirmation. The single highest-intent moment on the site runs on the least reliable transport, and the funnel's most important failure is structurally invisible in GA4.</td>
+          </tr>
+          <tr>
+            <td><span class="pill bad">Critical</span></td>
+            <td><b>On those same hotel pages, the only real form is the newsletter.</b> The beehiiv subscribe embed renders on all 123.</td>
+            <td>123&times; beehiiv loader in <span class="stamp">hotels/</span></td>
+            <td>The lowest-intent action gets a working, tracked, confirmed UI; the highest-intent action gets mailto. The page's conversion hierarchy is inverted.</td>
+          </tr>
+          <tr>
+            <td><span class="pill warn">High</span></td>
+            <td><b>Event instrumentation exists &mdash; on 2 of 193 pages.</b> A well-designed delegated <span class="stamp">cta_click</span> listener with label + location, plus <span class="stamp">generate_lead</span> on form submit.</td>
+            <td><span class="stamp">index.html</span>, <span class="stamp">greece-last-minute.html</span></td>
+            <td>The measurement schema is already built and already good. It simply was never included on the other 191 pages, so the guides, rankings and the entire hotel library are dark to analytics beyond pageviews.</td>
+          </tr>
+          <tr>
+            <td><span class="pill warn">High</span></td>
+            <td><b>The mobile sticky CTA exists &mdash; on the homepage only.</b> <span class="stamp">.mobile-sticky-cta</span> appears under 700px and is instrumented.</td>
+            <td><span class="stamp">index.html</span>, <span class="stamp">styles.css:664</span></td>
+            <td>The pattern the blueprint recommends is already designed, built and shipped &mdash; on the one page where visitors need it least. Hotel pages, where a reader has just finished a verdict, have no persistent way to act on it.</td>
+          </tr>
+          <tr>
+            <td><span class="pill warn">High</span></td>
+            <td><b>The mobile nav stacks vertically.</b> Under 820px the brand and all five links stack in a centered column.</td>
+            <td><span class="stamp">styles.css:149</span></td>
+            <td>Roughly 150&ndash;180px of a ~640px mobile fold is spent on navigation before the hero begins. On an Instagram-heavy audience this is the first thing every visitor pays for.</td>
+          </tr>
+          <tr>
+            <td><span class="pill warn">Med</span></td>
+            <td><b>The reply promise reads &ldquo;within a couple of days&rdquo;</b> directly above the submit button, on all 13 pages carrying the form.</td>
+            <td>13&times; Formspree form</td>
+            <td>The last line a visitor reads before committing sets the slowest possible expectation. Disqualifying for last-minute trips &mdash; the segment greece-last-minute.html exists to capture.</td>
+          </tr>
+          <tr>
+            <td><span class="pill good">Low</span></td>
+            <td><b>Two conversion systems compete in every footer.</b> The newsletter signup renders above the inquiry links sitewide.</td>
+            <td>155&times; beehiiv embeds</td>
+            <td>Acceptable on editorial pages, where subscribe is the right ask. On service pages it splits the exit intent.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="stack">
+        <h4 class="mini">Working today &mdash; preserve, then extend</h4>
+        <p class="body-2"><b>The event schema.</b> <span class="stamp">cta_click{label, location}</span> is exactly what I would have specified. Ship it as one shared JS file on every page rather than redesigning it.</p>
+        <p class="body-2"><b>greece-last-minute.html.</b> The one page built as a funnel behaves like one: single intent, its own hero preload (hand-added before this project), a lead event on submit. It is the template for how service pages should be wired &mdash; and the right test bed.</p>
+        <p class="body-2"><b>Meta coverage.</b> 170 of 176 pages have descriptions. The SEO fundamentals are respected.</p>
+        <p class="body-2"><b>The mailto prefills themselves.</b> The transport is wrong, but the prefilled body &mdash; hotel name, dates, occasion &mdash; shows the right instinct: capture context at the moment of intent. The fix keeps that context and changes only the pipe.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">The fixes, in cost order</h4>
+        <p class="body-2"><b>1. Instrument everything</b> &mdash; one shared script include across 193 pages. Days, not weeks, and it must ship first: it is the baseline every later change is measured against. Add a listener for mailto clicks so the current hotel-page loss becomes visible before it is fixed.</p>
+        <p class="body-2"><b>2. Retire mailto on hotel pages</b> &mdash; replace with the one-field ask, hotel name carried as a hidden field to the same Formspree endpoint. The prefill context survives; the transport becomes reliable and measurable.</p>
+        <p class="body-2"><b>3. Extend the sticky CTA sitewide</b> &mdash; the component exists; include it.</p>
+        <p class="body-2"><b>4. Collapse the mobile nav</b> &mdash; wordmark plus a menu control; give the fold back to the hero.</p>
+      </div>
+    </div>
+
+    <h4 class="mini">What I could not measure &mdash; the exact pulls</h4>
+    <p class="read body-2" style="margin-bottom:1.2rem;">Each structural finding above implies a behavioral question only the live data can answer. Until these are pulled, treat the severity rankings as informed hypotheses, not measurements.</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>Source</th><th>Pull</th><th>Decides</th></tr></thead>
+        <tbody>
+          <tr><td><b>GA4</b></td><td class="num">Sessions by device category, last 90 days</td><td>How much the mobile-nav and sticky-CTA findings actually cost. If mobile share is &gt;60% (likely for Instagram traffic), they move up.</td></tr>
+          <tr><td><b>GA4</b></td><td class="num">cta_click by cta_label &times; cta_location</td><td>Which homepage CTAs earn their fold position &mdash; the only two pages where this already exists are the two most important ones.</td></tr>
+          <tr><td><b>GA4</b></td><td class="num">generate_lead count vs. sessions, by landing page</td><td>The real inquiry rate, and whether greece-last-minute outperforms the homepage per session &mdash; the hypothesis behind testing there first.</td></tr>
+          <tr><td><b>GA4</b></td><td class="num">Landing pages by session, hotels/* aggregated</td><td>Whether the hotel library is already the true front door. If hotels/* out-lands the homepage, Phase 2 (The Index) jumps the queue.</td></tr>
+          <tr><td><b>GA4</b></td><td class="num">Session source/medium for instagram / l.instagram.com</td><td>The actual size of the Instagram funnel, and which pages it lands on.</td></tr>
+          <tr><td><b>Formspree</b></td><td class="num">Submissions by month, and the _subject field split</td><td>Baseline inquiry volume, and how many arrive with a hotel already named &mdash; the leading indicator the blueprint proposes tracking.</td></tr>
+          <tr><td><b>beehiiv</b></td><td class="num">Subscribers by acquisition page</td><td>Whether the hotel-page newsletter embeds actually produce subscribers, or just compete with inquiry.</td></tr>
+          <tr><td><b>Inbox</b></td><td class="num">Count of inquiries that arrived as the mailto template</td><td>The one place mailto clicks leave a trace. If this number is near zero against meaningful hotel-page traffic, the critical finding is confirmed.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
 <!-- ══════════ FIRST THREE SECONDS ══════════ -->
 <section id="three-seconds">
   <div class="col">
@@ -602,7 +699,7 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       <div class="demo-stage">
         <div class="beats">
           <p class="beat b1" data-beat="0">Suites With Keith</p>
-          <p class="beat b2" data-beat="1">I have slept in <i>123 of them.</i></p>
+          <p class="beat b2" data-beat="1">Four weeks. Eight islands. <i>38 hotels.</i></p>
           <p class="beat b3" data-beat="2"><span></span>Cyclades &middot; 38 hotels &middot; 4 weeks &middot; verified 2025</p>
           <a class="beat b4" data-beat="3" href="#three-seconds">Tell me where you&rsquo;re going</a>
         </div>
@@ -621,8 +718,8 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
     <div class="grid g2" style="margin-top:2.5rem;">
       <div class="stack">
         <h4 class="mini">Why the number, and not a view</h4>
-        <p class="body-2">&ldquo;Luxury travel, tailored to you&rdquo; is what all three competitor tiers say. It is unfalsifiable, so it is unbelievable. <em>123</em> is checkable, and a visitor knows instinctively that nobody fabricates a number that specific. It also does something no adjective can: it makes the visitor feel behind. That is the deference.</p>
-        <p class="body-2">Generate it from the file count at build time so it is never stale, and never wrong.</p>
+        <p class="body-2">&ldquo;Luxury travel, tailored to you&rdquo; is what all three competitor tiers say. It is unfalsifiable, so it is unbelievable. <em>38 hotels in four weeks</em> is checkable, and a visitor knows instinctively that nobody fabricates a claim that specific — where an adjective would slide past, an itinerary stops the scroll. It also does something no adjective can: it makes the visitor feel behind. That is the deference.</p>
+        <p class="body-2">Generate every such number from the content collection at build time so none can drift from the truth as the library grows.</p>
       </div>
       <div class="stack">
         <h4 class="mini">Hard rules for the hero</h4>
@@ -742,8 +839,8 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       <div class="ver">
         <div class="ver-h"><span class="lt">A</span><span class="st">The Count<br>evidence-first</span></div>
         <div class="ver-b">
-          <p class="hl">I&rsquo;ve slept in 123 of them.</p>
-          <p class="sl">Hotel bookings, honeymoons and itineraries from an advisor who tours the room before recommending it. The booking itself is complimentary.</p>
+          <p class="hl">Four weeks. Eight islands. 38 hotels.</p>
+          <p class="sl">I checked into the Cyclades so you don&rsquo;t have to guess. Hotel recommendations from the rooms themselves &mdash; and the booking is complimentary.</p>
           <dl>
             <dt>Bet</dt><dd>Specificity beats promise. Proof disarms the affiliate-blog reflex fastest.</dd>
             <dt>Strongest for</dt><dd>Cold Google traffic.</dd>
@@ -835,6 +932,8 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       <p>The navy magazine theme goes away. Not because navy is wrong, but because two grounds means two brands. Shadow does everything navy did, and it lets a Collections spread sit inside the main site without a seam.</p>
     </div>
 
+    <p class="read body-2" style="margin-bottom:2.5rem;"><b>Brass is an ink, not a paint.</b> Your instinct against excessive gold is correct, and the palette obeys it structurally: brass appears only where it carries meaning &mdash; type accents, the verification stamp, thin rules, a highlighted figure. Never a button fill, never a background field, never a flourish. Buttons are olive, the brand&rsquo;s structural color. One warm note used as punctuation is what keeps this from ever reading as a gold website.</p>
+
     <h4 class="mini">Change two &mdash; four typefaces become three, with one doing real work</h4>
     <div style="margin-bottom:2.5rem;">
       <div class="spec">
@@ -862,6 +961,85 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       <div class="stack">
         <p class="body-2">This is strategically stronger <em>and</em> cheaper. An imperfect photograph that could only have been taken by someone standing in the room outperforms a flawless one that could have come from anywhere &mdash; because the imperfection is the proof.</p>
         <p class="body-2"><b>Grid:</b> 1180px container, 12 columns, 40px gutters. Sharp corners throughout &mdash; radius 2px on inputs only. Section rhythm 96px desktop, 56px mobile. All retained from your current system.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TEXT ENGINEERING ══════════ -->
+<section id="voice" class="band">
+  <div class="col">
+    <div class="sec-head">
+      <p class="eyebrow">Text engineering</p>
+      <h2>The voice already exists. It&rsquo;s just not on the marketing pages.</h2>
+      <p class="lede">There was no need to invent a voice for this brand, because the repository contains two of them. The hotel library is written by a person with positions; the marketing layer is written by the category. Text engineering here is not a rewrite from zero &mdash; it is promoting the first voice into the second's job.</p>
+    </div>
+
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="stack">
+        <h4 class="mini">Voice one &mdash; the hotel library</h4>
+        <div class="callout"><p>&ldquo;I stayed at Bill &amp; Coo&rsquo;s Mykonos Town property, but I preferred the Coast location for a few reasons: it&rsquo;s adults-only, it has a beautiful private beach club, rooms sit directly on the ocean&hellip;&rdquo;</p></div>
+        <div class="callout"><p>&ldquo;They&rsquo;re more private than the one I stayed in &mdash; and interestingly, the base rooms above the junior suites are more private still.&rdquo;</p></div>
+        <p class="body-2">First person. A verdict, then the reasons. Positional detail no brochure would bother with &mdash; <em>the base rooms above the junior suites</em>. Comparison offered as a service, not a boast. This is the voice a $30,000 honeymoon trusts.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">Voice two &mdash; the marketing layer</h4>
+        <div class="callout"><p>&ldquo;&hellip;uncovering the details that transform a trip from memorable to unforgettable.&rdquo;</p></div>
+        <p class="body-2">That is the current About page opener, and it could open any advisor&rsquo;s About page in the category. Counted across the live site: <b>curated &times;27, exclusive &times;23, tailored &times;20, unforgettable &times;16, bespoke &times;12, hidden gem &times;12</b> &mdash; 110 instances of exactly the vocabulary that makes expertise sound like everyone else&rsquo;s.</p>
+        <p class="body-2">The tell: none of those words carry information. Each one occupies the space where a specific opinion &mdash; the actual product &mdash; would have gone.</p>
+      </div>
+    </div>
+
+    <h4 class="mini" style="color:var(--band-ink-2)">Rules, derived from voice one</h4>
+    <div class="tw" style="margin-bottom:2.5rem;">
+      <table>
+        <thead><tr><th>Rule</th><th>Instead of</th><th>Write</th></tr></thead>
+        <tbody>
+          <tr><td><b>Verdict first, reasons after.</b> The reader gets the answer before the argument.</td><td class="num">&ldquo;A stunning property with much to offer&hellip;&rdquo;</td><td>&ldquo;Book the Coast, not the Town property &mdash; here&rsquo;s why.&rdquo;</td></tr>
+          <tr><td><b>One positional detail beats three adjectives.</b> Specificity is what proves presence.</td><td class="num">&ldquo;Spacious, private, beautifully designed suites&rdquo;</td><td>&ldquo;The base rooms above the junior suites are more private still.&rdquo;</td></tr>
+          <tr><td><b>Name what it&rsquo;s wrong for.</b> The most persuasive sentence available, and the one no hotel can publish.</td><td class="num">&ldquo;Perfect for every kind of traveler&rdquo;</td><td>&ldquo;Skip it if you want nightlife within walking distance.&rdquo;</td></tr>
+          <tr><td><b>CTAs are sentences a person says.</b> No system verbs.</td><td class="num">&ldquo;Get In Touch&rdquo; (&times;182 today)</td><td>&ldquo;Tell me where you&rsquo;re going.&rdquo;</td></tr>
+          <tr><td><b>Numbers only when the evidence signs them.</b> See the ledger below.</td><td class="num">&ldquo;Hundreds of hotels worldwide&rdquo;</td><td>&ldquo;38 hotels. Eight islands. Four weeks.&rdquo;</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="stack">
+        <h4 class="mini" style="color:var(--band-ink-2)">The honesty ledger</h4>
+        <p class="body-2">A correction to this document&rsquo;s own earlier draft: one hero version read <em>&ldquo;I&rsquo;ve slept in 123 of them.&rdquo;</em> The repository does not support it, so it is gone. What the evidence signs:</p>
+        <p class="body-2"><b>38</b> &mdash; hotels toured and stayed across the Cyclades in four weeks. Keith&rsquo;s own published words. The strongest claim on file; the hero number.</p>
+        <p class="body-2"><b>123</b> &mdash; hotels documented in the library. Real and impressive, but it means <em>profiled</em>, not <em>slept in</em> &mdash; only six pages currently carry explicit firsthand-stay language. Usable for the Index (&ldquo;123 hotels on file&rdquo;), never for a personal-experience claim.</p>
+        <p class="body-2">Both numbers should be generated from the content collection at build time, so neither can drift from the truth as the library grows.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini" style="color:var(--band-ink-2)">The stamp grammar</h4>
+        <p class="body-2">The verification stamp is the voice&rsquo;s most compressed form, so its grammar is strict: <span class="stamp" style="color:var(--band-brass)">STAYED &middot; Property &middot; MM.YYYY</span> or <span class="stamp" style="color:var(--band-brass)">TOURED &middot; Property &middot; MM.YYYY</span>. Two statuses only &mdash; no &ldquo;featured,&rdquo; no &ldquo;partner,&rdquo; nothing that blurs the line between visited and researched. A hotel with neither status shows no stamp at all, which is itself information.</p>
+        <p class="body-2"><b>The data behind it does not exist yet as data.</b> It exists in Keith&rsquo;s memory and scattered in prose on six pages. Populating status and date for all 123 records is a Keith-only task, flagged in the open questions &mdash; the stamp system, the Index toggle and the honest hero all depend on it, and nobody else can write it truthfully.</p>
+      </div>
+    </div>
+
+    <h4 class="mini" style="color:var(--band-ink-2)">Live copy, rewritten in voice one</h4>
+    <div class="tw" style="margin-bottom:2.5rem;">
+      <table>
+        <thead><tr><th>Where</th><th>Today</th><th>Rewritten</th></tr></thead>
+        <tbody>
+          <tr><td><b>About, opener</b></td><td class="num" style="white-space:normal">&ldquo;I&rsquo;ve spent years exploring exceptional hotels and destinations, building trusted relationships and uncovering the details that transform a trip from memorable to unforgettable.&rdquo;</td><td>&ldquo;Last year I spent four weeks checking into 38 hotels across eight Greek islands &mdash; because &lsquo;which room should we book?&rsquo; deserves a better answer than a screenshot of someone else&rsquo;s stay.&rdquo;</td></tr>
+          <tr><td><b>Hero, sub</b></td><td class="num" style="white-space:normal">&ldquo;Personalized hotel bookings, exclusive VIP amenities, and bespoke itineraries &mdash; from honeymoons to milestone trips.&rdquo;</td><td>&ldquo;Hotel recommendations from someone who has stood in the rooms. Booking is complimentary; the judgment comes with it.&rdquo;</td></tr>
+          <tr><td><b>Services, custom planning</b></td><td class="num" style="white-space:normal">&ldquo;Comprehensive travel planning tailored to your destination, priorities, and travel style.&rdquo;</td><td>&ldquo;I plan the whole trip &mdash; hotels, rooms worth the upgrade, tables worth booking, the ferry that beats the flight &mdash; and tell you what isn&rsquo;t worth your money.&rdquo;</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2">
+      <div class="stack">
+        <h4 class="mini" style="color:var(--band-ink-2)">Microcopy for the one-field ask</h4>
+        <p class="body-2"><b>Prompt:</b> &ldquo;Where and when?&rdquo; &middot; <b>Placeholder:</b> &ldquo;Santorini in June&rdquo; &middot; <b>After the answer:</b> &ldquo;And where do I send the recommendation?&rdquo; (name + email). <b>Confirmation:</b> &ldquo;Got it. You&rsquo;ll hear from me, not an autoresponder.&rdquo;</p>
+        <p class="body-2">Every line is something a person would say across a table. That is the entire microcopy standard.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini" style="color:var(--band-ink-2)">The reply promise is a business decision</h4>
+        <p class="body-2">&ldquo;Within a couple of days&rdquo; is the last thing a visitor reads before submitting, and it prices the service. Two honest options: keep it but move it out of the submit path, or triage &mdash; trips inside 30 days get a same-day promise, everything else keeps the relaxed one. The second converts the Rescue segment; it is only writable if it is operationally true. That is Keith&rsquo;s call, not a copywriting one.</p>
       </div>
     </div>
   </div>
@@ -1021,6 +1199,7 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       <div class="mo-row"><span class="nm">Entry &middot; hero</span><span class="ds">Four-beat sequence at 0 / 600 / 1400 / 2200ms. Fires once per session, stored in sessionStorage &mdash; a returning visitor gets the finished state instantly. Nothing is more irritating than waiting through the same reveal twice.</span><span class="vl">3000ms total &middot; once per session</span></div>
       <div class="mo-row"><span class="nm">Entry &middot; every other page</span><span class="ds">None. The content is simply there. A guide or a hotel record has no argument to pace, and a load animation on a page reached by deliberate navigation only delays a visitor who already knows what they came for.</span><span class="vl">0ms</span></div>
       <div class="mo-row"><span class="nm">Scroll &middot; reveal</span><span class="ds">Opacity 0&rarr;1 with an 8px rise. Once, never re-triggering on scroll back. Applied to section containers, not to individual paragraphs.</span><span class="vl">520ms &middot; IO threshold .15 &middot; 60ms stagger, max 5</span></div>
+      <div class="mo-row"><span class="nm">Collection &middot; spread turn</span><span class="ds">The one editorial discovery moment: native magazine spreads advance with a crossfade and a 12px settle, swipeable on touch. No page-curl skeuomorphism, no hijacked scroll &mdash; the reader turns the page; the page never turns itself.</span><span class="vl">280ms &middot; opacity + 12px &middot; touch swipe</span></div>
       <div class="mo-row"><span class="nm">Scroll &middot; sticky</span><span class="ds">Two elements only: the inquiry affordance, and the comparison table header so column identity survives a long scroll. Sticky is not motion; it is orientation.</span><span class="vl">position:sticky &middot; no JS</span></div>
       <div class="mo-row"><span class="nm">Scroll &middot; hero drift</span><span class="ds">A single slow scale on the hero photograph, desktop only. If a viewer notices it, it is running too fast.</span><span class="vl">20s &middot; scale 1&rarr;1.04 &middot; linear</span></div>
       <div class="mo-row"><span class="nm">Hover</span><span class="ds">Cards lift 2px with a shadow step. Text links shift underline offset rather than colour. All of it wrapped in a hover-capable media query so touch devices never inherit a stuck hover state.</span><span class="vl">180ms &middot; @media (hover:hover)</span></div>
@@ -1084,6 +1263,23 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       </table>
     </div>
 
+
+    <h4 class="mini" style="color:var(--band-ink-2)">The hotel record, as data</h4>
+    <p class="read body-2" style="margin-bottom:1.2rem;">The schema is the contract between the honesty rules and the build. Everything user-facing &mdash; the stamp, the Index toggle, the hero numbers, the comparisons &mdash; derives from these fields, so a claim can only appear if its field is filled.</p>
+    <div class="tw" style="margin-bottom:2rem;">
+      <table>
+        <thead><tr><th>Field</th><th>Type</th><th>Drives</th></tr></thead>
+        <tbody>
+          <tr><td><span class="stamp" style="color:var(--band-brass)">status</span></td><td class="num">stayed | toured | researched</td><td>The stamp, the Index toggle, the build-time counts. Only Keith writes it; <b>researched renders no stamp</b>, and 117 of 123 records start there until he says otherwise.</td></tr>
+          <tr><td><span class="stamp" style="color:var(--band-brass)">visited</span></td><td class="num">YYYY-MM</td><td>The date on the stamp. Required when status is stayed or toured.</td></tr>
+          <tr><td><span class="stamp" style="color:var(--band-brass)">verdict</span></td><td class="num">one sentence</td><td>The first line of the record page and the comparison rows.</td></tr>
+          <tr><td><span class="stamp" style="color:var(--band-brass)">wrong_for</span></td><td class="num">one sentence</td><td>The credibility line. Optional on researched records, expected on stayed ones.</td></tr>
+          <tr><td><span class="stamp" style="color:var(--band-brass)">room_to_book</span></td><td class="num">string</td><td>The single most-asked question, answered by name.</td></tr>
+          <tr><td><span class="stamp" style="color:var(--band-brass)">destination &middot; occasions &middot; price_band</span></td><td class="num">enums</td><td>The Index filters and comparison eligibility (same destination &rarr; comparable).</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="read body-2" style="margin-bottom:2.5rem;"><b>Forms stay on Formspree</b> &mdash; the endpoint works and carries history. The one-field ask posts to it with the hotel slug and page as hidden fields, replacing every hotel-page mailto; the shared events file fires <span class="stamp" style="color:var(--band-brass)">generate_lead</span> on success. No backend gets built for this.</p>
     <div class="grid g2">
       <div class="stack">
         <h4 class="mini" style="color:var(--band-ink-2)">Performance budget</h4>
@@ -1186,6 +1382,54 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
       </div>
       <div class="ship"><span class="k">Ships</span><span class="v"><b>Ongoing.</b> Full migration and a feedback loop.</span></div>
     </div>
+
+    <hr class="rule" style="margin:3rem 0 2.5rem;">
+    <h4 class="mini">Launch gates, measurement, and the content engine</h4>
+    <p class="read body-2" style="margin-bottom:1.6rem;">A phase ships when it clears four gates, and the whole program runs on one dashboard and one weekly habit. This is the part of the plan that outlives the redesign.</p>
+
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="card">
+        <p class="tag">Gate 1 &middot; Performance</p>
+        <p>LCP under 1.5s and CLS under 0.05 on a 4&times;-throttled mid-range Android profile &mdash; not on a MacBook. Checked in CI against the budget, per phase, before merge.</p>
+      </div>
+      <div class="card">
+        <p class="tag">Gate 2 &middot; Honesty</p>
+        <p>Every number, stamp and claim on a shipping page traces to the content collection or to something Keith signed off. A claim without a source blocks the merge the same way a failing test does.</p>
+      </div>
+      <div class="card">
+        <p class="tag">Gate 3 &middot; Events</p>
+        <p>Every CTA on a shipping page carries a label and location; a click in staging shows up in GA4 DebugView before the page goes live. What isn&rsquo;t measured at launch is never measured.</p>
+      </div>
+      <div class="card">
+        <p class="tag">Gate 4 &middot; Mobile</p>
+        <p>The page is reviewed on a real phone before desktop &mdash; the fold, the tap targets, the sticky CTA, the form. If it only feels premium at 1280px, it isn&rsquo;t done.</p>
+      </div>
+    </div>
+
+    <div class="grid g2" style="margin-bottom:2.5rem;">
+      <div class="stack">
+        <h4 class="mini">Immediate &mdash; before any redesign phase</h4>
+        <p class="body-2"><b>Ship the shared events file to all 193 pages.</b> The delegated listener on index.html is already correct; extracting it to one included script and adding a mailto-click listener takes a day. Every later decision then has a baseline &mdash; including a measured count of how much the hotel-page mailto buttons currently lose.</p>
+        <p class="body-2"><b>Pull the eight audit queries.</b> One sitting with GA4, Formspree and beehiiv. Two findings in this document &mdash; the device split and whether hotels/* out-lands the homepage &mdash; can reorder the phases.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">The weekly dashboard &mdash; three numbers, no more</h4>
+        <p class="body-2"><b>Inquiries per 1,000 sessions</b> &mdash; the number that pays. <b>Share of sessions passing 100vh on the tested page</b> &mdash; the fast-moving proxy during hero tests. <b>Share of inquiries naming a specific hotel</b> &mdash; the signal that the judgment positioning is landing, readable today from Formspree subject lines.</p>
+        <p class="body-2">Hero copy tests run sequentially on greece-last-minute.html, three to four weeks per version, one variable at a time &mdash; and the result is a strong hint, never a proof, at this traffic scale.</p>
+      </div>
+    </div>
+
+    <div class="grid g2">
+      <div class="stack">
+        <h4 class="mini">The content engine</h4>
+        <p class="body-2">After Phase 2, adding a hotel is one Markdown file: the record page, the Index entry, and eligibility for every same-destination comparison all generate from it. After each trip, Keith&rsquo;s only editorial duty is updating status, date and verdict fields &mdash; fifteen minutes that compound the moat. Collections issues keep their own cadence; the engine means an issue&rsquo;s hotels land in the Index the day the issue ships.</p>
+      </div>
+      <div class="stack">
+        <h4 class="mini">Standing risks</h4>
+        <p class="body-2"><b>Fora compliance</b> &mdash; advisor marketing may carry host-agency rules on claims and testimonials; confirm before the copy phase locks. <b>Photography rights</b> &mdash; still the open question from the identity section. <b>The Issuu retirement</b> &mdash; keep the embed live until native spreads ship with Issue No. 02; never a gap where the flagship is down. <b>Rollback</b> &mdash; GitHub Pages deploys from main, so every phase reverts with one git revert; no phase may depend on an unrevertable external change.</p>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -1194,11 +1438,12 @@ footer p{font-family:var(--stamp); font-size:.72rem; color:var(--ink-2); text-tr
   <div class="col">
     <div class="sec-head">
       <p class="eyebrow">Before Phase 1</p>
-      <h2>Four things I assumed</h2>
-      <p class="lede">Everything above is grounded in what is actually in the repository. These four are not, and each would change the work.</p>
+      <h2>Five things only you can answer</h2>
+      <p class="lede">Everything above is grounded in what is actually in the repository. These are not, and each one changes the work.</p>
     </div>
     <div class="grid g2">
-      <div class="card"><p class="tag">Highest impact</p><h3 class="sub">The competitor list is inferred</h3><p>I built the three tiers from your FAQ, which names Amex FHR and Chase directly. You asked about competitors you want to outperform &mdash; if you have specific advisors or brands in mind, that changes the positioning section and possibly the visual bar.</p></div>
+      <div class="card"><p class="tag">Blocking for the stamp</p><h3 class="sub">Which hotels have you actually stayed in?</h3><p>The stamp, the Index toggle and the hero numbers all read from a status field &mdash; stayed, toured or researched &mdash; plus a date, for each of the 123 records. Six pages carry that information today, in prose. Nobody can fill it in but you, and Phase 2 depends on it.</p></div>
+      <div class="card"><p class="tag">Positioning</p><h3 class="sub">The competitive set is still inferred</h3><p>You&rsquo;ve said a competitor list arrives separately. Until it does, the three tiers built from your FAQ remain the working set; when it lands, the positioning and the visual peer bar both get re-checked against it.</p></div>
       <div class="card"><p class="tag">Strategic</p><h3 class="sub">Is the retainer the priority?</h3><p>It is your highest-margin product and it is currently one paragraph on the Services page, by invitation. If it is the growth engine, the Habitual segment moves from Phase 6 to Phase 2 and the whole IA shifts.</p></div>
       <div class="card"><p class="tag">Blocking for identity</p><h3 class="sub">Photography rights</h3><p>The recommendation to lead with your own frames assumes hotel-supplied imagery is licensed to you with restrictions. If you have broad rights and a large personal library, the rule stands anyway on strategy &mdash; but the transition is much cheaper.</p></div>
       <div class="card"><p class="tag">Scheduling</p><h3 class="sub">Issue No. 02 timing</h3><p>Phase 4 is written to land with the next Collection. If that date is fixed and close, Phase 4 moves ahead of Phase 3 and the homepage waits.</p></div>
