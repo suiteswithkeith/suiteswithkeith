@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+import '../styles/swk-article.css';
+import body from '../data/planning-with-swk-body.html?raw';
+---
+<Layout
+  canonical="planning-with-swk.html"
+  title="What Planning With Me Looks Like | Suites With Keith"
+  description="One Greece trip, from the first email to the finished itinerary — and everything I send in between. Yours would look nothing like it."
+  preload="/images/personal/gundari-sunset.jpg"
+  current="guides"
+>
+<Fragment set:html={body} />
+<Ask
+  subject="Inquiry — Planning with SWK"
+  page="planning-with-swk"
+  placeholder="Greece, two weeks, next October"
+  deck="Your dates, who&rsquo;s traveling, what you want it to feel like &mdash; I&rsquo;ll come back with routes that actually work on your dates."
+  dark
+/>
+</Layout>

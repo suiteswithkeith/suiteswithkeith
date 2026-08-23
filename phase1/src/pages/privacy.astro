@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import body from '../data/privacy-body.html?raw';
+---
+<Layout
+  canonical="privacy.html"
+  title="Privacy Policy | Suites With Keith"
+  description="What information Suites With Keith collects, how it's used, and the choices you have."
+>
+<section class="section">
+  <div class="container legal" style="max-width:760px;">
+    <Fragment set:html={body} />
+  </div>
+</section>
+</Layout>
+
+<style is:global>
+  .legal h1 { font-family: var(--display); font-weight: 400; font-size: clamp(2rem, 4.5vw, 3rem); margin-bottom: 8px; }
+  .legal .legal-updated, .legal h1 + p { font-family: var(--stamp); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); margin: 0 0 40px; }
+  .legal h2 { font-family: var(--display); font-weight: 500; font-size: 1.3rem; margin: 40px 0 14px; }
+  .legal p { margin: 0 0 16px; color: var(--ash); font-size: 1rem; line-height: 1.7; }
+  .legal ul { margin: 0 0 16px; padding-left: 22px; color: var(--ash); }
+  .legal li { margin-bottom: 8px; }
+  .legal a { color: var(--brass); }
+</style>

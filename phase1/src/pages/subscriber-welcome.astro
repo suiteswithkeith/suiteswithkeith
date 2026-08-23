@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  canonical="subscriber-welcome.html"
+  title="Welcome | Suites With Keith"
+  description="Everything I promised, all in one place — your downloads, the Greece Collection, and what happens next."
+>
+
+<section class="section band on-shadow" style="text-align:center; padding:clamp(70px,10vw,100px) 0;">
+  <div class="container">
+    <span class="eyebrow">You&rsquo;re in</span>
+    <h1 class="display-xl" style="margin:18px auto 14px;">Welcome &mdash; glad you&rsquo;re here.</h1>
+    <p class="deck" style="margin:0 auto; max-width:40ch;">Everything I promised, all in one place. No inbox digging required.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="sw-grid reveal">
+      <div class="sw-card">
+        <span class="stamp plain" style="font-weight:700; color:var(--brass);">Your download</span>
+        <h3>The Santorini Transfer Cheat Sheet</h3>
+        <p>The printable playbook I give my own clients &mdash; flights vs. ferries, the private transfer move, and the rules that save honeymoons when the wind picks up.</p>
+        <a href="/downloads/santorini-transfer-cheat-sheet.pdf" class="btn" data-gtag-label="download_cheat_sheet" data-gtag-location="subscriber_welcome">Download the PDF</a>
+      </div>
+      <div class="sw-card">
+        <span class="stamp plain" style="font-weight:700; color:var(--brass);">The flagship</span>
+        <h3>The Greece Collection</h3>
+        <p>Four weeks, eight islands, thirty-eight hotels &mdash; my complete firsthand guide to the Cyclades, from Santorini to Folegandros.</p>
+        <a href="/greece-collection.html" class="btn btn-ghost">Explore the Collection</a>
+      </div>
+    </div>
+    <div class="reveal" style="max-width:640px; margin:56px auto 0; text-align:center;">
+      <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:14px;">What happens next</p>
+      <p class="body-2">You&rsquo;re on the list for first access to <b style="color:var(--ink); font-weight:500;">Issue No. 02 &mdash; the Napa &amp; Sonoma Collection</b>, landing September 15, plus every new guide and ranking before it goes public &mdash; all firsthand, no press trips, no sponsored placements. And if a trip is already taking shape, don&rsquo;t wait for the next issue: <a href="mailto:keith.pence@fora.travel?subject=Trip%20Inquiry" style="color:var(--brass);">email me</a> and we&rsquo;ll start planning.</p>
+    </div>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .sw-grid { display: grid; gap: 22px; grid-template-columns: 1fr; max-width: 860px; margin: 0 auto; }
+  @media (min-width: 720px) { .sw-grid { grid-template-columns: 1fr 1fr; } }
+  .sw-card { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(26px, 3.5vw, 38px); display: flex; flex-direction: column; align-items: flex-start; }
+  .sw-card h3 { font-family: var(--display); font-weight: 500; font-size: 1.4rem; margin: 12px 0; }
+  .sw-card p { font-size: .95rem; color: var(--ash); line-height: 1.65; margin-bottom: 24px; flex: 1; }
+</style>

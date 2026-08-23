@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+
+const VIATOR = 'https://www.viator.com/Greece/d53-ttd?pid=P00058688&uid=U00849966&mcid=58086&currency=USD';
+const PE = 'https://www.projectexpedition.com/?utm_source=foratravelinc-30959-keithpence-116104&utm_medium=referral&utm_campaign=tagent';
+
+const cards = [
+  { h: 'Santorini', sub: 'The caldera · best May–June, Sept–Oct', items: [
+      ['Sunset catamaran cruise.', 'The one thing I tell every couple to lock in early &mdash; the good boats sell out weeks ahead in high season.'],
+      ['Winery afternoon.', 'Santorini&rsquo;s volcanic Assyrtiko is unlike anything else in Greece. Book a guided tasting with a driver.'],
+      ['Fira&ndash;Oia caldera hike.', 'Free, iconic, and best started early &mdash; finish with lunch in Oia.'],
+    ], links: [[VIATOR, 'Browse & book Santorini experiences', true], ['/santorini.html', 'My full Santorini guide'], ['/santorini-excursions.html', 'My Santorini excursions']] },
+  { h: 'Milos', sub: 'The wild one · boat days essential', items: [
+      ['Kleftiko boat excursion.', 'Milos is an island you experience from the water &mdash; the sculpted white cliffs of Kleftiko are the reason you came.'],
+      ['Sarakiniko at golden hour.', 'The moonscape beach. Go early or late; bring water shoes.'],
+    ], links: [[VIATOR, 'Browse & book Milos experiences', true], ['/milos.html', 'My full Milos guide']] },
+  { h: 'Mykonos', sub: 'The icon · reserve everything early', items: [
+      ['Delos day trip.', 'The ancient island next door &mdash; go with a licensed guide in the morning before the heat.'],
+      ['Private boat to Rhenia.', 'The swimming day the beach clubs can&rsquo;t give you.'],
+      ['Beach club reservations.', 'Scorpios and its peers book out &mdash; decide your days early.'],
+    ], links: [[VIATOR, 'Browse & book Mykonos experiences', true], ['/mykonos.html', 'My full Mykonos guide'], ['/mykonos-excursions.html', 'My Mykonos excursions']] },
+  { h: 'Athens', sub: 'The gateway worth 2–3 nights', items: [
+      ['Private Acropolis tour.', 'An expert guide at opening time changes the entire experience.'],
+      ['Athens Riviera day.', 'Beach clubs and seaside lunches thirty minutes from the center.'],
+    ], links: [[VIATOR, 'Browse & book Athens experiences', true], ['/athens.html', 'My full Athens guide'], ['/athens-excursions.html', 'My Athens excursions']] },
+  { h: 'Paros & Sifnos', sub: 'The quiet sophisticates', items: [
+      ['Sailing day from Paros.', 'South-coast sailing to Despotiko&rsquo;s empty beaches &mdash; the day my clients talk about most.'],
+      ['Sifnos food walk.', 'The culinary island of the Cyclades &mdash; eat your way through Apollonia and Kastro.'],
+    ], links: [[VIATOR, 'Browse & book Cyclades experiences', true], ['/paros.html', 'My full Paros guide'], ['/sifnos.html', 'My full Sifnos guide']] },
+  { h: 'Everywhere else', sub: 'Italy · France · Mexico · beyond', items: [
+      ['Tours &amp; experiences worldwide.', 'For any destination, my Project Expedition link covers vetted tours and activities globally &mdash; cooking classes in Tuscany, snorkeling in Cabo, guides in Kyoto.'],
+      ['Island hopping by helicopter.', 'For Greece, I arrange private helicopter transfers through my partnership with <a href="/hoper.html">Hoper</a>.'],
+    ], links: [[PE, 'Browse & book experiences worldwide', true], ['/destination-guides.html', 'All my destination guides'], ['/hotel-guides.html', 'My hotel guides']] },
+];
+---
+<Layout
+  canonical="trip-ideas.html"
+  title="Trip Ideas — A Starting Point | Suites With Keith"
+  description="A few ideas worth booking early in the destinations I know best, with links to explore and reserve them — while we plan the rest together."
+>
+
+<!-- masthead -->
+<section class="section band on-shadow" style="text-align:center; padding:clamp(70px,10vw,110px) 0;">
+  <div class="container" style="max-width:760px;">
+    <span class="eyebrow">From Keith &middot; a starting point</span>
+    <h1 class="display-xl" style="margin:18px auto 14px;">Let&rsquo;s start planning</h1>
+    <p class="body-2" style="margin:22px auto 0; max-width:58ch;">You reached out about a trip &mdash; this page is my way of getting you something useful right away, while we talk. Below are a few ideas worth booking early in the destinations I know best, with links where you can explore and reserve them yourself. Anything you book through these links is handled by trusted operators I work with; everything else &mdash; hotels, itineraries, the connective tissue that makes a trip effortless &mdash; is what I do personally.</p>
+  </div>
+</section>
+
+<!-- ideas -->
+<section class="section">
+  <div class="container">
+    <div class="ti-grid reveal">
+      {cards.map((c) => (
+        <div class="ti-card">
+          <h3 set:html={c.h} />
+          <p class="stamp plain ti-sub" set:html={c.sub} />
+          {c.items.map(([b, t]) => (
+            <p class="ti-note"><b set:html={b} /> <span set:html={t} /></p>
+          ))}
+          <div class="ti-links">
+            {c.links.map(([href, label, sponsored]) => (
+              <a href={href} target={sponsored ? '_blank' : undefined} rel={sponsored ? 'noopener sponsored' : undefined}><span set:html={label} /> &rarr;</a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<Ask
+  subject="Inquiry — Trip Ideas"
+  page="trip-ideas"
+  eyebrow="When you're ready"
+  heading="The full version is me building the whole trip around you"
+  placeholder="Santorini in June"
+  deck="The links above are the self-serve version. Tell me where and when, and I&rsquo;ll do the rest."
+  dark
+/>
+
+</Layout>
+
+<style>
+  .ti-grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .ti-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .ti-grid { grid-template-columns: repeat(3, 1fr); } }
+  .ti-card { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(24px, 3vw, 32px); display: flex; flex-direction: column; }
+  .ti-card h3 { font-family: var(--display); font-weight: 500; font-size: 1.4rem; }
+  .ti-sub { display: block; margin: 6px 0 16px; font-size: .64rem; color: var(--brass) !important; font-weight: 700 !important; }
+  .ti-note { font-size: .93rem; color: var(--ash); line-height: 1.65; margin-bottom: 12px; }
+  .ti-note b { color: var(--ink); font-weight: 500; }
+  .ti-note :global(a) { color: var(--brass); }
+  .ti-links { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--hairline); display: flex; flex-direction: column; gap: 8px; }
+  .ti-links a { font-size: .7rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .ti-links a:hover { text-decoration: underline; }
+</style>

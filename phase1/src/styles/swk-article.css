@@ -154,3 +154,17 @@
   .swk-skip > div { grid-template-columns: 28px 1fr; gap: 14px; }
   .swk-skip-mark { width: 28px; height: 28px; font-size: .64rem; }
 }
+
+/* ── stages, rate lines & pull quote (planning-with-swk) ── */
+.swk-stage { border-top: 1px solid var(--hairline); padding-top: 30px; margin-top: 52px; }
+.swk-stage-num { font-family: var(--stamp); font-weight: 700; font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; color: var(--brass); }
+.swk-stage h2 { margin-top: 10px; }
+.swk-rates { margin-top: 26px; border-top: 1px solid var(--hairline); }
+.swk-rateline { display: grid; grid-template-columns: 1fr auto; gap: 8px 20px; align-items: baseline; border-bottom: 1px solid var(--hairline); padding: 18px 0; }
+.swk-rate-name { font-family: var(--display); font-weight: 500; font-size: 1.2rem; color: var(--ink); }
+.swk-rate-figure { font-family: var(--stamp); font-weight: 700; font-size: .72rem; letter-spacing: .08em; color: var(--brass); white-space: nowrap; }
+.swk-rateline .swk-rate-note { grid-column: 1 / -1; font-weight: 300; font-size: .95rem !important; line-height: 1.65; color: var(--ash) !important; margin: 0 !important; font-style: normal; font-family: var(--body); }
+.swk-rate-meta { font-family: var(--stamp); font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash-3); }
+.swk-quote { font-family: var(--display); font-style: italic; font-size: clamp(1.2rem, 2.2vw, 1.4rem); line-height: 1.5; color: var(--ink); border-left: 2px solid var(--brass); padding-left: 24px; margin: 40px 0 0; }
+.swk-cost a { color: var(--brass-lit); border-bottom-color: rgba(190,151,90,.45); }
+.swk-cost a:hover { color: var(--band-ink); }

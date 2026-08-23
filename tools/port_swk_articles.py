@@ -11,7 +11,7 @@ import json, re, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUTDIR = ROOT / "phase1" / "src" / "data"
-SLUGS = ["greek-island-matrix", "greece-honeymoon", "greek-island-pairings"]
+SLUGS = ["greek-island-matrix", "greece-honeymoon", "greek-island-pairings", "planning-with-swk"]
 
 SWAPS = {
     "#12182A": "#161712", "#1A2338": "#22231C", "#101627": "#161712",
@@ -20,7 +20,7 @@ SWAPS = {
     "#C9BA96": "#BE975A", "#D9CFB8": "#C9C4B2", "#EDE7DA": "#F2EFE6",
     "#E8E4DA": "#F2EFE6", "#F5F1E9": "#F2EFE6", "#FFFDF8": "#F2EFE6",
     "#E6DECD": "#D8D3C3", "#E0D6C0": "#D8D3C3", "#8C8577": "#65665C",
-    "#2A2A26": "#1F201A", "#EBD9A8": "#BE975A", "#EFE7D6": "#E9E5DA",
+    "#2A2A26": "#1F201A", "#EBD9A8": "#BE975A", "#EFE7D6": "#E9E5DA", "#5C5A53": "#65665C",
     "#4A4A44": "#65665C",
 }
 
