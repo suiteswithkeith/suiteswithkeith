@@ -146,7 +146,6 @@ a { color: inherit; }
 
 /* ── sections ── */
 .section { padding: clamp(64px, 9vw, 110px) 0; }
-section.section + section.section { border-top: 1px solid var(--hairline); }
 .band { background: var(--shadow); color: var(--band-ink); border: none; }
 .band .body-2, .band .deck { color: var(--band-ash); }
 .band .eyebrow { color: var(--brass-lit); }
