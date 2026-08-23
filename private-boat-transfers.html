@@ -83,7 +83,7 @@
       <p>If you've read my <a href="greek-ferry-rules.html">ferry rules</a>, you already know the problem: the fast boats sell out, the schedules shift, the good departure times vanish in July, and a two-island week can quietly cost you two full travel days at the port.</p>
       <p>A private boat transfer solves it. Instead of dragging your luggage down to Santorini&rsquo;s ferry port at 7am, or into the scrum at Mykonos&rsquo; new port, a captain meets you at a small port near your hotel, you leave when you're ready, and you're on the next island in the time it takes to have lunch. On the right route it's genuinely the nicest hour of the trip.</p>
       <p>These are arranged individually — boat, captain, route, and timing all depend on your islands and your dates. Tell me where you're going and I'll price it and hold it for you.</p>
-      <p style="margin-top:28px;"><a href="mailto:keith.pence@fora.travel?subject=Private%20Boat%20Transfer%20Inquiry&body=Hi%20Keith%2C%0A%0AI%27m%20interested%20in%20a%20private%20boat%20transfer%20in%20Greece.%0A%0AName%3A%20%0ATravel%20Dates%3A%20%0ARoute%20%28from%20%E2%86%92%20to%29%3A%20%0ANumber%20Of%20Guests%3A%20%0AHotels%20On%20Each%20End%3A%20%0AOccasion%3A%20%0A%0A" class="btn btn-olive" data-gtag-label="boat_transfer_inquiry" data-gtag-location="intro">Ask Me About A Transfer&nbsp;&rarr;</a></p>
+      <p style="margin-top:28px;"><a href="#ask" class="btn btn-olive" data-gtag-label="boat_transfer_inquiry" data-gtag-location="intro">Ask Me About A Transfer&nbsp;&rarr;</a></p>
     </div>
     <div class="rank-toc">
       <h4>On This Page</h4>
@@ -190,7 +190,7 @@
       <h3>If You'd Rather Have A Yacht</h3>
       <p>A transfer boat is the practical end of this. The other end is a crewed yacht &mdash; a sailing catamaran or a motor yacht with a captain, a chef, and cabins &mdash; chartered by the day or by the week, with the islands as your route rather than your destination.</p>
       <p>It's a different budget and a different kind of trip, but it answers the same instinct: seeing the Cyclades from the water instead of from a ferry queue. If that's what you're actually picturing, tell me and I'll put options in front of you.</p>
-      <a href="mailto:keith.pence@fora.travel?subject=Yacht%20Charter%20Inquiry&body=Hi%20Keith%2C%0A%0AI%27m%20interested%20in%20a%20yacht%20charter%20in%20Greece.%0A%0AName%3A%20%0ATravel%20Dates%3A%20%0ANumber%20Of%20Guests%3A%20%0AIslands%20Of%20Interest%3A%20%0ASailing%20Or%20Motor%3A%20%0ABudget%20Range%3A%20%0A%0A" class="btn btn-olive" data-gtag-label="yacht_charter_inquiry" data-gtag-location="yacht_callout">Ask About A Charter&nbsp;&rarr;</a>
+      <a href="#ask" class="btn btn-olive" data-gtag-label="yacht_charter_inquiry" data-gtag-location="yacht_callout">Ask About A Charter&nbsp;&rarr;</a>
     </div>
   </div>
 </section>
@@ -274,7 +274,25 @@
   <div class="container">
     <span class="eyebrow">Saw The Reel?</span>
     <h2>Tell me your two islands and your dates, and I'll come back with the right boat and a real price.</h2>
-    <a href="mailto:keith.pence@fora.travel?subject=Private%20Boat%20Transfer%20Inquiry&body=Hi%20Keith%2C%0A%0AI%27m%20interested%20in%20a%20private%20boat%20transfer%20in%20Greece.%0A%0AName%3A%20%0ATravel%20Dates%3A%20%0ARoute%20%28from%20%E2%86%92%20to%29%3A%20%0ANumber%20Of%20Guests%3A%20%0AHotels%20On%20Each%20End%3A%20%0AOccasion%3A%20%0A%0A" class="btn btn-tan" data-gtag-label="boat_transfer_inquiry" data-gtag-location="footer_cta">Ask Me About A Transfer</a>
+    <form class="hotel-inquire-form" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Private Boat Transfer Inquiry">
+      <input type="hidden" name="page" value="private-boat-transfers.html">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="hi-step1">
+        <label for="hi-when">Which two islands, and when?</label>
+        <input id="hi-when" type="text" name="travel_dates" placeholder="Sifnos to Milos, June 12" required autocomplete="off">
+      </div>
+      <div class="hi-step2">
+        <label for="hi-name">And where do I send the price?</label>
+        <input id="hi-name" type="text" name="name" placeholder="Name" required autocomplete="name">
+        <input id="hi-email" type="email" name="email" placeholder="Email" required autocomplete="email">
+        <label for="hi-details">Anything else? Guests, hotels, swim stops, a yacht instead &mdash; optional</label>
+        <input id="hi-details" type="text" name="details" placeholder="4 of us &middot; staying in Kastro &middot; would love a swim stop" autocomplete="off">
+      </div>
+      <button type="submit" class="btn btn-tan" data-gtag-label="boat_transfer_inquiry" data-gtag-location="footer_cta">Send</button>
+      <p class="hi-note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="hi-status" role="status" aria-live="polite"></p>
+    </form>
     <p style="margin-top:22px;"><a href="planning-with-swk.html" class="read-link">Or See How Planning With Me Works&nbsp;&rarr;</a></p>
   </div>
 </section>
@@ -309,6 +327,8 @@
   </div>
 </footer>
 
+<script src="js/hotel-inquire.js" defer></script>
+<script src="js/swk-events.js" defer></script>
 <script src="track.js" defer></script>
 </body>
 </html>
