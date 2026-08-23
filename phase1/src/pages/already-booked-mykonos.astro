@@ -1,0 +1,228 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const cards = [
+  { id: 'restaurants', num: '01', img: '/images/hotels/kalesma-2.jpg', alt: 'Dining at golden hour on Mykonos',
+    h: 'Dinner reservations', tag: 'The tables that make the trip &mdash; held before you land', meta: 'Booked · 3–6 weeks ahead in high season',
+    desc: 'Mykonos has quietly become one of the best dining islands in the Mediterranean &mdash; a mix of world-class hotel restaurants, glamorous beachfront institutions, and one perfect old taverna. The catch: everyone knows it. From late June through early September the tables worth having are reserved weeks ahead, and the sunset seatings go first. Send me your dates and I&rsquo;ll hold the nights that matter &mdash; including the ones that are already tight by the time most people start looking.',
+    notes: [
+      ['ZUMA at Fouquet&rsquo;s.', 'One of the strongest dining experiences on Mykonos and worth planning an evening around, even if you&rsquo;re staying elsewhere. I&rsquo;d book this one before anything else on the island.'],
+      ['Pere Ubu at Kalesma.', 'One of the best places on the island to watch the sun disappear into the Aegean &mdash; the kind of table I reserve the moment a trip is confirmed rather than the month before.'],
+      ['Interni or M-Eating, Mykonos Town.', 'My picks for a first-night dinner in town &mdash; wander the whitewashed maze first, then settle in late, the way the island does it.'],
+      ['Kiki&rsquo;s Tavern, Agios Sostis.', 'The famous no-reservations, no-electricity grill house. Go at opening or embrace the wait &mdash; and let me put it on a day where waiting doesn&rsquo;t cost you anything.'],
+      ['Scorpios at sunset.', 'As much a ritual as a restaurant. The sunset seating books out weeks in advance, so it&rsquo;s a hard reservation rather than a walk-in &mdash; and it&rsquo;s the single most common way a Mykonos evening goes wrong.'],
+    ],
+    take: 'One rule for Mykonos: book dinner late. The island doesn&rsquo;t sit down before nine, and the best atmosphere starts after that. Send me your dates and I&rsquo;ll tell you which of these nights are already tight and what I can still get.' },
+  { id: 'boat-day', num: '02', img: '/images/hotels/cali-mykonos-1.jpg', alt: 'The water off Mykonos from Cali',
+    h: 'Your day on the water', tag: 'The best day on Mykonos happens off it', meta: 'Best for · couples, groups, anyone escaping the scene',
+    desc: 'A private boat turns the island&rsquo;s biggest weakness &mdash; summer crowds &mdash; into a non-issue: swim stops at coves you can&rsquo;t reach by road, lunch on deck, and an arrival at the beach club by sea while everyone else sits in traffic. I charter these with the crews I use myself and build the route around what your day actually needs.',
+    notes: [
+      ['Delos &amp; Rhenia.', 'The classic day: morning wandering the ancient ruins of Delos &mdash; one of Greece&rsquo;s great archaeological sites &mdash; then an afternoon swimming off Rhenia&rsquo;s empty beaches.'],
+      ['Day trip to Tinos.', 'My sleeper pick: a private boat to the villages of nearby Tinos, a completely different Greece thirty minutes away. Almost nobody asks for this one, and everybody who does comes back talking about it.'],
+      ['Arrive at Scorpios by boat.', 'Skip the summer traffic entirely and pull up to the island&rsquo;s most famous beach club from the water &mdash; which only works if the boat and the club booking are timed together.'],
+      ['Book the boat before you land.', 'Good crews and good weather windows both sell out, and the Meltemi is strongest in this part of the Cyclades. I arrange the charter, the route, and the beach club timing as one plan, placed early in your stay so there&rsquo;s room to move it.'],
+    ],
+    take: 'If you do one splurge on Mykonos, make it this &mdash; not a bigger room. Send me your dates and I&rsquo;ll price the right boat for the right morning.' },
+  { id: 'beach-clubs', num: '03', img: '/images/hotels/billandcoo-coast-1.jpg', alt: 'Beachfront loungers on Mykonos',
+    h: 'Beach clubs &amp; day plans', tag: 'Match the club to the day &mdash; and book the beds', meta: 'Best for · long lunches, people-watching, a proper beach day',
+    desc: 'Beach clubs are Mykonos&rsquo; native art form, and they range from bohemian-calm to full festival. Picking wrong costs you a day: the design crowd&rsquo;s beach and the full-production beach are twenty minutes and an entirely different mood apart. I match the club to the day you want and reserve the beds, because by late morning in August walk-ins are choosing between the back row and going home.',
+    notes: [
+      ['Scorpios, Paraga.', 'The icon &mdash; seafood lunch, sunset ritual, and a slow build into the island&rsquo;s best-dressed party. Book weeks out for sunset, which in practice means having someone on it early.'],
+      ['Alemagou, Ftelia.', 'My pick for the design crowd &mdash; bamboo, dry-stone, and a windward beach that stays cooler and calmer in spirit than the south coast.'],
+      ['Nammos, Psarou.', 'The most famous beach lunch in Greece &mdash; glamorous, expensive, and exactly what it promises. Go for lunch, not for quiet.'],
+      ['SantAnna, Paraga.', 'Seawater pools, cabanas, and an events calendar that rivals a boutique festival &mdash; the pick when you want the full production. Beds here are a booking, not a hope.'],
+      ['Or just stay at your hotel.', 'If you&rsquo;re at Bill &amp; Coo Coast or Cali you already have a private beach, and some of the best days on the island are the ones where you never leave. I&rsquo;ll tell you which days those are.'],
+    ],
+    take: 'Boat taxis are the island&rsquo;s best-kept secret &mdash; most south coast clubs are a short hop by water, no parking involved. Tell me what kind of day you want and I&rsquo;ll pick the club, hold the beds, and get you there by sea.' },
+  { id: 'athens', num: '04', img: '/images/islands/athens-hero.jpg', alt: 'Athens at dusk',
+    h: 'The Athens add-on', tag: 'Two or three nights, not a layover', meta: 'Best for · bookending the trip, food lovers, first-time Greece',
+    desc: 'Most people treat Athens as a gateway to the islands. I think that&rsquo;s a mistake. Give yourself two or three nights and you&rsquo;ll discover one of Europe&rsquo;s most exciting food cities, incredible luxury hotels, and neighborhoods that feel completely different from one another. It&rsquo;s the perfect way to begin or end a trip through Greece.',
+    notes: [
+      ['Put it at the end, not the beginning.', 'Flying home out of Athens gives you a buffer against a cancelled ferry or a delayed island flight &mdash; and you arrive in the city already unwound.'],
+      ['Two nights is the minimum that works.', 'One night is an airport hotel with extra steps. Three is genuinely great.'],
+      ['Book the Acropolis early.', 'Timed entry, and the first slot of the morning is the only one worth having in summer.'],
+    ],
+    take: 'Read the full <a href="/athens.html">Athens guide</a> for where I&rsquo;d stay and how I&rsquo;d spend the days.' },
+];
+---
+<Layout
+  canonical="already-booked-mykonos.html"
+  title="Already Booked Mykonos? Start Here | Suites With Keith"
+  description="Send me what you've booked and I'll build the rest of the trip around it — the tables, the boat day, the beach beds, the transfers."
+  preload="/images/islands/mykonos-hero.jpg"
+>
+
+<!-- hero -->
+<header class="hero" style="min-height:min(76svh,700px);">
+  <img class="hero-img" src="/images/islands/mykonos-hero.jpg" alt="The windmills of Mykonos above the sea" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Mykonos &middot; already booked</p>
+    <h1 class="display-xl" style="margin-top:18px;">Already booked<br><em>your hotel?</em></h1>
+    <p class="sub">Send me what you&rsquo;ve booked and I&rsquo;ll build the rest of the trip around it &mdash; the tables, the boat day, the beach beds, the transfers.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="send_reservations" data-gtag-location="hero">Send me your reservations</a>
+    </div>
+  </div>
+</header>
+
+<!-- intro -->
+<section class="section">
+  <div class="container ab-intro">
+    <div class="reveal">
+      <p class="deck" style="max-width:46ch;">Mykonos punishes the unplanned more than any island in Greece.</p>
+      <p class="body-2" style="margin-top:20px; max-width:58ch;">The famous tables are reserved weeks out, the best beach club beds are gone by mid-morning, and in July the road to the south coast turns into a parking lot right when everyone&rsquo;s heading to dinner. That&rsquo;s the part I take on. Send me your hotel confirmation and your dates, and I&rsquo;ll come back with a plan for the days around it &mdash; tables held at the restaurants worth the evening, a private boat on the right morning, beach beds reserved rather than queued for, and transfers that account for the August road to the south coast. You keep the room you booked. I build the trip around it.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">Mykonos was the most surprising island of my four weeks in the Cyclades &mdash; I expected a party island and found some of the best hotels, meals, and service of the entire trip. Still deciding on the hotel? Start with my <a href="/mykonos.html" style="color:var(--brass);">Mykonos guide</a>.</p>
+    </div>
+    <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
+      <p class="stamp plain" style="font-weight:700; color:var(--brass);">What I handle</p>
+      <a class="toc-link" href="#inquire"><b>Send me your reservations &rarr;</b></a>
+      <a class="toc-link" href="#restaurants">Dinner reservations</a>
+      <a class="toc-link" href="#boat-day">Your day on the water</a>
+      <a class="toc-link" href="#beach-clubs">Beach clubs &amp; day plans</a>
+      <a class="toc-link" href="#athens">Athens add-on</a>
+      <a class="toc-link" href="#extensions">Santorini &amp; Paros extensions</a>
+      <a class="toc-link" href="#logistics">Transfers &amp; ferries</a>
+    </div>
+  </div>
+</section>
+
+{cards.map((c, i) => (
+  <section class={`section${i % 2 === 0 ? ' band on-shadow' : ''}`} id={c.id} style="scroll-margin-top:70px;">
+    <div class="container">
+      <div class={`ab-grid${i % 2 ? ' flip' : ''}`}>
+        <figure class="reveal ab-media">
+          <img src={c.img} alt={c.alt} width="1800" height="1300" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
+        </figure>
+        <div class="reveal">
+          <span class="stamp plain" style={`font-weight:700; color:${i % 2 === 0 ? 'var(--brass-lit)' : 'var(--brass)'};`}>No. {c.num}</span>
+          <h2 class="display-l" style="margin-top:12px;" set:html={c.h} />
+          <p class="deck" style="margin-top:10px; font-size:1.05rem;" set:html={c.tag} />
+          <p class="stamp plain ab-meta" set:html={c.meta} />
+          <p class="body-2" style="margin-top:18px;" set:html={c.desc} />
+          <div style="margin-top:22px;">
+            {c.notes.map(([b, t]) => <p class="ab-note"><b set:html={b} /> <span set:html={t} /></p>)}
+          </div>
+          <div class="verdict" style="margin-top:26px;"><p class="ab-take" set:html={c.take} /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+))}
+
+<!-- extensions -->
+<section class="section" id="extensions" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Santorini &amp; Paros extensions</span>
+      <h2 class="display-l">Add one island, not three</h2>
+    </div>
+    <div class="cards reveal" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); max-width:760px;">
+      <a class="card" href="/santorini.html">
+        <img src="/images/islands/santorini-hero.jpg" alt="" width="1600" height="1200" loading="lazy" decoding="async" style="object-position:center bottom;" />
+        <div class="pad"><span class="kicker">The Cyclades</span><h3>Santorini</h3><p>The classic pairing &mdash; caldera drama and honeymoon luxury, 45 minutes by helicopter or a few hours by ferry.</p><span class="go">Read the guide &rarr;</span></div>
+      </a>
+      <a class="card" href="/paros.html">
+        <img src="/images/islands/paros-hero.jpg" alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">The Cyclades</span><h3>Paros</h3><p>The decompression island &mdash; beaches, villages, and restaurants without the Mykonos pace.</p><span class="go">Read the guide &rarr;</span></div>
+      </a>
+    </div>
+    <div class="verdict reveal" style="margin-top:36px; max-width:640px;">
+      <p>Mykonos first, then the quieter island &mdash; not the other way around. Ending on Mykonos means ending tired. Both connections run by ferry, helicopter through my <a href="/hoper.html" style="color:var(--brass);">partnership with Hoper</a>, or private boat.</p>
+    </div>
+  </div>
+</section>
+
+<!-- logistics -->
+<section class="section band on-shadow" id="logistics" style="scroll-margin-top:70px;">
+  <div class="container ab-log">
+    <div class="reveal">
+      <div class="sec-head" style="margin-bottom:24px;">
+        <span class="eyebrow">Getting there &amp; around</span>
+        <h2 class="display-l" style="font-size:clamp(1.6rem,2.8vw,2.2rem);">Airport &amp; ferry logistics</h2>
+      </div>
+      <dl class="kv">
+        <div class="kv-row ab-row"><dt style="color:var(--band-ash);">Arriving</dt><dd style="color:var(--band-ink);">Fly Athens &rarr; JMK &middot; direct EU flights &middot; high-speed ferry &middot; private helicopter</dd></div>
+        <div class="kv-row ab-row"><dt style="color:var(--band-ash);">Getting around</dt><dd style="color:var(--band-ink);">Private transfers &middot; boat taxis &middot; ATV / rental car</dd></div>
+        <div class="kv-row ab-row"><dt style="color:var(--band-ash);">What I arrange</dt><dd style="color:var(--band-ink);">Private transfers between airport, port and hotel are the baseline. Boat taxis to the beach clubs, private charters to Delos, Rhenia and Tinos, and helicopters through my <a href="/hoper.html" style="color:var(--brass-lit);">Hoper partnership</a> &mdash; Mykonos is one of Hoper&rsquo;s three bases, so island hops are scheduled daily in season.</dd></div>
+      </dl>
+      <div style="margin-top:20px; display:flex; flex-direction:column; gap:10px;">
+        <a class="toc-link" style="color:var(--brass-lit);" href="/greek-ferry-rules.html">5 Greek ferry rules every couple should know &rarr;</a>
+        <a class="toc-link" style="color:var(--brass-lit);" href="/mykonos-excursions.html">The Mykonos excursions guide &rarr;</a>
+      </div>
+    </div>
+    <div class="reveal">
+      <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:16px;">Rules I&rsquo;d give any client</p>
+      <div class="ab-rule"><b>Never book the last ferry of the day.</b> If it cancels, there&rsquo;s nothing behind it.</div>
+      <div class="ab-rule"><b>Don&rsquo;t drive to dinner in August.</b> The south coast road jams at sunset. Boat taxi or leave early.</div>
+      <div class="ab-rule"><b>Don&rsquo;t fly home the same day you sail.</b> Build in a night. The Aegean does not care about your itinerary.</div>
+      <div class="ab-rule"><b>The Meltemi is strongest here.</b> July and August wind cancels fast ferries &mdash; the northern Cyclades feel it most.</div>
+      <div class="verdict" style="margin-top:30px; border-left-color:var(--brass-lit);">
+        <p>Mykonos is genuinely both the loud island and the quiet one &mdash; but only if the bookings are already made, because this is not an island that rewards deciding at breakfast. You&rsquo;ve done the hard part by choosing the hotel. Send me the confirmation and let me handle the rest.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- the form -->
+<section class="section inquire" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Send me your reservations</span>
+    <h2 class="display-l reveal">Your hotel and dates are enough to start</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">I&rsquo;ll build the rest.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST" style="max-width:520px;">
+      <input type="hidden" name="_subject" value="Already Booked Mykonos — reservation details" />
+      <input type="hidden" name="page" value="already-booked-mykonos" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <label for="ab-name">Name</label>
+      <input id="ab-name" type="text" name="name" required autocomplete="name" />
+      <label for="ab-email">Email</label>
+      <input id="ab-email" type="email" name="email" required autocomplete="email" />
+      <label for="ab-hotel">Hotel you booked</label>
+      <input id="ab-hotel" type="text" name="hotel" placeholder="Kalesma" autocomplete="off" />
+      <label for="ab-dates">Travel dates</label>
+      <input id="ab-dates" type="text" name="travel_dates" placeholder="July 2027, 4 nights" autocomplete="off" />
+      <label for="ab-details">What you&rsquo;ve booked, and anything else &mdash; rough is fine</label>
+      <input id="ab-details" type="text" name="details" placeholder="Flights booked &middot; group of six &middot; want the boat day" autocomplete="off" />
+      <button type="submit" class="btn">Send my reservations</button>
+      <p class="note">Rather just forward the confirmation emails? Send them to keith.pence@fora.travel and I&rsquo;ll work from those.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .toc-link { font-size: .72rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .toc-link:hover { text-decoration: underline; }
+  .ab-intro { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .ab-intro { grid-template-columns: 1.5fr 1fr; gap: 80px; } }
+
+  .ab-grid { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) {
+    .ab-grid { grid-template-columns: 1fr 1.15fr; gap: 64px; }
+    .ab-grid.flip .ab-media { order: 2; }
+  }
+  .ab-grid > * { min-width: 0; }
+  .ab-media { margin: 0; position: sticky; top: 84px; }
+  .ab-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .ab-meta { display: block; margin-top: 14px; font-size: .64rem; font-weight: 700 !important; }
+  .band .ab-meta { color: var(--band-ash); }
+  .ab-note { font-size: .95rem; line-height: 1.65; margin-bottom: 13px; padding-left: 16px; position: relative; color: var(--ash); }
+  .band .ab-note { color: var(--band-ash); }
+  .ab-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
+  .band .ab-note::before { background: var(--brass-lit); }
+  .ab-note b { color: var(--ink); font-weight: 500; }
+  .band .ab-note b { color: var(--band-ink); }
+  .band .verdict { border-left-color: var(--brass-lit); }
+  .ab-take :global(a) { color: var(--brass); }
+  .band .ab-take :global(a) { color: var(--brass-lit); }
+
+  .ab-log { display: grid; gap: 56px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 980px) { .ab-log { grid-template-columns: 1.2fr 1fr; gap: 72px; } }
+  .ab-row { border-bottom-color: var(--band-hairline) !important; }
+  .ab-log .kv { border-top-color: var(--band-hairline); }
+  .ab-rule { font-size: .96rem; color: var(--band-ash); line-height: 1.65; margin-bottom: 14px; padding-left: 16px; position: relative; }
+  .ab-rule::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass-lit); }
+  .ab-rule b { color: var(--band-ink); font-weight: 500; }
+</style>

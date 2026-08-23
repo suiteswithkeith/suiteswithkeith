@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+import '../styles/swk-article.css';
+import body from '../data/greek-island-pairings-body.html?raw';
+import ld from '../data/greek-island-pairings-ld.json?raw';
+---
+<Layout
+  canonical="greek-island-pairings.html"
+  title="Five Greek Island Pairings That Actually Make Sense"
+  description="Which Greek islands belong on the same trip — five combinations built around the ferries and flights that actually exist, with the nights split island by island."
+  current="guides"
+>
+<Fragment slot="head" set:html={`<script type="application/ld+json">${ld}</script>`} />
+<Fragment set:html={body} />
+<Ask
+  subject="Inquiry — Island pairings"
+  page="greek-island-pairings"
+  placeholder="Two islands in June"
+  deck="Tell me who&rsquo;s traveling and when &mdash; I&rsquo;ll tell you which pairing fits, and split the nights."
+  dark
+/>
+</Layout>

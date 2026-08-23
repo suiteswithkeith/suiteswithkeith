@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+import '../styles/swk-article.css';
+import body from '../data/greece-honeymoon-body.html?raw';
+import ld from '../data/greece-honeymoon-ld.json?raw';
+---
+<Layout
+  canonical="greece-honeymoon.html"
+  title="My Dream Greece Honeymoon: Five Islands, Fourteen Nights, Zero Ferries"
+  description="A five-island, fourteen-night Cyclades honeymoon with private transfers instead of ferries — the hotels, the rooms, what it costs, and when to go."
+  preload="/images/personal/santorini-rooftop.jpg"
+  current="guides"
+>
+<Fragment slot="head" set:html={`<script type="application/ld+json">${ld}</script>`} />
+<Fragment set:html={body} />
+<Ask
+  subject="Inquiry — Greece honeymoon itinerary"
+  page="greece-honeymoon"
+  placeholder="Honeymoon, next June"
+  deck="This exact trip, priced for your dates &mdash; it costs nothing and takes a day."
+  dark
+/>
+</Layout>

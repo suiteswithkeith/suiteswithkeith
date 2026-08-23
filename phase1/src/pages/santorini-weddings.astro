@@ -1,0 +1,202 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const venues = [
+  { img: '/images/hotels/canaves-sunday-2.jpg', alt: 'Canaves Sunday pool terrace, Oia', kicker: 'The full buyout',
+    name: 'Canaves Sunday &middot; Oia', tag: 'An 18-bedroom private compound in the heart of Oia',
+    desc: 'A ten-bedroom villa plus eight standalone suites, taken over as one private compound with a three-to-one staff-to-guest ratio &mdash; and once a buyout contract is signed, the age restrictions lift, so the flower girl and the grandparents are equally welcome. This is my pick for the best villa experience in Santorini, and it was practically designed for a wedding weekend.',
+    notes: [['Oia outside the front door.', 'Your guests wake up in the middle of the town everyone flies here to see.'], ['Canaves service throughout.', 'The same team behind the island&rsquo;s best hotels runs your private compound.']],
+    href: '/hotels/canaves-sunday-santorini.html' },
+  { img: '/images/hotels/canaves-epitome-1.jpg', alt: 'Canaves Epitome pool at dusk', kicker: 'The sunset buyout',
+    name: 'Canaves Epitome &middot; near Ammoudi Bay', tag: '53 suites, gardens behind volcanic-rock walls, a real sunset',
+    desc: 'The best hotel I experienced in Greece also happens to offer full-property buyouts with no age restrictions once the contract is signed. Epitome gives a wedding what the caldera hotels physically can&rsquo;t: space to spread out, gardens that feel like a private world, and an actual sunset into the open Aegean instead of the sun slipping behind a cliff &mdash; the best in Greece, in my opinion, and the backdrop your photographer is dreaming about.',
+    notes: [['Omnia on property.', 'The best hotel restaurant I ate at across the entire trip handles your welcome dinner.'], ['Boutique scale, resort space.', '53 suites keeps the guest list generous without losing intimacy.']],
+    href: '/hotels/canaves-epitome-santorini.html' },
+  { img: '/images/hotels/andronis-arcadia-1.jpg', alt: 'Andronis Arcadia infinity pool at sunset', kicker: 'The resort scale',
+    name: 'Andronis Arcadia &middot; Oia', tag: '114 suites &amp; villas for the big guest list',
+    desc: 'When the guest list passes eighty, Arcadia is the answer: a true resort next door to Epitome with sunset-facing rooms, private pools in every key (including some of the island&rsquo;s largest), the Evexia Spa, a kids club, and event experience the boutique properties can&rsquo;t match. Andronis markets weddings and celebrations here officially &mdash; this is where scale stops being a compromise.',
+    notes: [['Room-block friendly.', '114 keys means real availability, even in peak season with real notice.'], ['Something for every guest.', 'Kids club for the families, Beefbar and Pacman for the afterparty crowd.']],
+    href: '/hotels/andronis-arcadia-santorini.html' },
+];
+---
+<Layout
+  canonical="santorini-weddings.html"
+  title="Santorini Weddings & Celebrations | Suites With Keith"
+  description="The caldera is the easy part. Housing forty guests, holding the right rooms, and getting everyone across the Aegean on time — that's where I come in."
+  preload="/images/hotels/canaves-sunday-1.jpg"
+>
+
+<!-- hero -->
+<header class="hero" style="min-height:min(80svh,740px);">
+  <img class="hero-img" src="/images/hotels/canaves-sunday-1.jpg" alt="The private pool terrace at Canaves Sunday, Oia" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Destination weddings &middot; Greece</p>
+    <h1 class="display-xl" style="margin-top:18px;">Santorini weddings<br><em>&amp; celebrations</em></h1>
+    <p class="sub">The caldera is the easy part. Housing forty guests, holding the right rooms, and getting everyone across the Aegean on time &mdash; that&rsquo;s where I come in.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Start the conversation</a>
+    </div>
+  </div>
+</header>
+
+<!-- intro -->
+<section class="section">
+  <div class="container wd-intro">
+    <div class="reveal">
+      <p class="deck" style="max-width:46ch;">Every Santorini wedding is actually two projects &mdash; and the second one never comes up at the engagement party.</p>
+      <p class="body-2" style="margin-top:20px; max-width:58ch;">There&rsquo;s the celebration itself &mdash; the ceremony, the design, the dinner as the sun drops into the Aegean. And then there&rsquo;s where two dozen to a hundred people sleep, how they get from Athens to a caldera-edge village with no cars, and what happens to your welcome dinner when the meltemi cancels the afternoon ferries.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">I handle the second project from firsthand knowledge &mdash; I&rsquo;ve personally toured and stayed at <a href="/santorini-hotels-ranked.html" style="color:var(--brass);">every luxury hotel on Santorini worth considering</a>, I know which properties do full buyouts and on what terms, and I book it all with Fora preferred-partner benefits at rates identical to booking direct. For the celebration itself, I work hand-in-hand with a luxury wedding planner who happens to be family &mdash; my sister-in-law.</p>
+    </div>
+    <div class="reveal">
+      <dl class="kv">
+        <div class="kv-row"><dt>18</dt><dd>Bedrooms in Oia&rsquo;s largest full buyout</dd></div>
+        <div class="kv-row"><dt>15</dt><dd>Santorini hotels toured &amp; reviewed</dd></div>
+        <div class="kv-row"><dt>2</dt><dd>Planners &mdash; travel &amp; event, one team</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- venues -->
+<section class="section band on-shadow" id="venues" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Where to hold it</span>
+      <h2 class="display-l">Three venues, three scales</h2>
+    </div>
+    {venues.map((v, i) => (
+      <article class={`wd-card${i % 2 ? ' flip' : ''}`}>
+        <figure class="reveal wd-media">
+          <img src={v.img} alt={v.alt} width="1800" height="1300" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
+        </figure>
+        <div class="reveal">
+          <span class="stamp plain" style="font-weight:700; color:var(--brass-lit);" set:html={v.kicker} />
+          <h3 class="display-l" style="font-size:clamp(1.5rem,2.8vw,2.1rem); margin-top:10px;" set:html={v.name} />
+          <p class="deck" style="margin-top:8px; font-size:1.05rem;" set:html={v.tag} />
+          <p class="body-2" style="margin-top:16px;" set:html={v.desc} />
+          <div style="margin-top:18px;">
+            {v.notes.map(([b, t]) => <p class="wd-note"><b set:html={b} /> <span set:html={t} /></p>)}
+          </div>
+          <p style="margin-top:22px;"><a class="btn btn-ghost on-shadow" href={v.href}>Read the full guide</a></p>
+        </div>
+      </article>
+    ))}
+    <div class="reveal" style="border-top:1px solid var(--band-hairline); padding-top:36px; max-width:820px;">
+      <span class="stamp plain" style="font-weight:700; color:var(--brass-lit);">The intimate option</span>
+      <h3 class="display-m" style="margin-top:10px;">Caldera ceremonies for twenty or fewer</h3>
+      <p class="body-2" style="margin-top:12px;">Not every wedding needs a buyout. For elopements and micro-weddings, the classic caldera hotels &mdash; <a href="/hotels/canaves-oia-suites-santorini.html" style="color:var(--brass-lit);">Canaves Oia Suites</a>, <a href="/hotels/andronis-boutique-santorini.html" style="color:var(--brass-lit);">Andronis Boutique</a>, <a href="/hotels/andronis-luxury-suites-santorini.html" style="color:var(--brass-lit);">Andronis Luxury Suites</a> &mdash; deliver the postcard at a fraction of the logistics. I&rsquo;ll match the property to your group size, your privacy expectations, and the water feature you want in the photos. Note that most caldera properties hold a 13+ age policy outside buyout contracts.</p>
+    </div>
+  </div>
+</section>
+
+<!-- logistics -->
+<section class="section" id="logistics" style="scroll-margin-top:70px;">
+  <div class="container wd-grid2">
+    <div class="reveal">
+      <div class="sec-head" style="margin-bottom:24px;">
+        <span class="eyebrow">Guest logistics</span>
+        <h2 class="display-l" style="font-size:clamp(1.6rem,2.8vw,2.2rem);">Getting everyone there</h2>
+      </div>
+      <dl class="kv">
+        <div class="kv-row"><dt>Guests flying in?</dt><dd>Athens or direct European connections &mdash; I build arrival windows so no one lands after the last caldera transfer.</dd></div>
+        <div class="kv-row"><dt>Ferry or flight?</dt><dd>Both &mdash; but never the last ferry of the day, and never a departure that same evening. <a href="/greek-ferry-rules.html" style="color:var(--brass);">The ferry rules apply double for weddings</a>.</dd></div>
+        <div class="kv-row"><dt>VIPs &amp; wedding party?</dt><dd>Helicopter transfers through my <a href="/hoper.html" style="color:var(--brass);">Hoper partnership</a> &mdash; Athens or Mykonos to Santorini in under an hour.</dd></div>
+        <div class="kv-row"><dt>The meltemi blows?</dt><dd>August wind cancels fast ferries, not weddings &mdash; buffer days and backup routings are built into every guest itinerary.</dd></div>
+        <div class="kv-row"><dt>Arrival day chaos?</dt><dd>Port-to-hotel transfers pre-arranged for every guest &mdash; no one negotiates with a taxi line in wedding attire.</dd></div>
+      </dl>
+    </div>
+    <div class="reveal">
+      <div class="sec-head" style="margin-bottom:24px;">
+        <span class="eyebrow">The division of labor</span>
+        <h2 class="display-l" style="font-size:clamp(1.6rem,2.8vw,2.2rem);">What I handle</h2>
+      </div>
+      <dl class="kv">
+        <div class="kv-row"><dt>Venue &amp; buyouts</dt><dd>Sourced firsthand, not from brochures.</dd></div>
+        <div class="kv-row"><dt>Room blocks</dt><dd>Held &amp; managed for your full guest list.</dd></div>
+        <div class="kv-row"><dt>Guest travel</dt><dd>Flights, ferries &amp; transfers, guest by guest.</dd></div>
+        <div class="kv-row"><dt>Honeymoon</dt><dd>The part I&rsquo;m best known for.</dd></div>
+        <div class="kv-row"><dt>Partner perks</dt><dd>Upgrades, breakfasts &amp; credits for you and your guests.</dd></div>
+        <div class="kv-row"><dt>On-trip support</dt><dd>One text away while it all happens.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- how we work -->
+<section class="section" id="how" style="padding-top:0; scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">How we work</span>
+      <h2 class="display-l">Two planners, one team</h2>
+      <p class="deck" style="margin-top:16px; max-width:52ch;">Destination weddings fall apart in the gap between the event planner and the travel logistics &mdash; so we closed the gap.</p>
+    </div>
+    <div class="wd-three reveal">
+      <div>
+        <h3>The travel &mdash; Keith</h3>
+        <p>Venue and buyout sourcing, room blocks, guest flights and ferries, transfers, the honeymoon, and every hotel relationship on the island &mdash; built from personally touring all of them.</p>
+      </div>
+      <div>
+        <h3>The wedding &mdash; a luxury planner</h3>
+        <p>Design, vendors, styling, and the day itself &mdash; led by a luxury wedding planner who&rsquo;s also family: my sister-in-law. When your travel advisor and your wedding planner share a dinner table, nothing gets lost in translation.</p>
+      </div>
+      <div>
+        <h3>One thread</h3>
+        <p>One conversation covers the ceremony and the seating chart <em>and</em> whether the ferry schedule threatens the welcome dinner. Nothing falls between two vendors, because there&rsquo;s no gap between us.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ask -->
+<section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Tell me about the celebration</span>
+    <h2 class="display-l reveal">Dates can be rough. Guest counts can be guesses.</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:42ch;">The earlier we talk, the more options stay open.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST" style="max-width:520px;">
+      <input type="hidden" name="_subject" value="Wedding inquiry — Santorini weddings page" />
+      <input type="hidden" name="page" value="santorini-weddings" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <label for="wf-name" style="color:var(--band-ash);">Name</label>
+      <input id="wf-name" type="text" name="name" required autocomplete="name" />
+      <label for="wf-email" style="color:var(--band-ash);">Email</label>
+      <input id="wf-email" type="email" name="email" required autocomplete="email" />
+      <label for="wf-dates" style="color:var(--band-ash);">Season or date you have in mind</label>
+      <input id="wf-dates" type="text" name="wedding_dates" placeholder="September 2027, or still dreaming" autocomplete="off" />
+      <label for="wf-guests" style="color:var(--band-ash);">Estimated guest count &mdash; and anything else</label>
+      <input id="wf-guests" type="text" name="details" placeholder="Around 60 guests &middot; thinking full buyout" autocomplete="off" />
+      <button type="submit" class="btn">Start planning the wedding</button>
+      <p class="note" style="color:var(--band-ash);">You&rsquo;ll hear from me, not an autoresponder.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .wd-intro { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .wd-intro { grid-template-columns: 1.5fr 1fr; gap: 80px; } }
+  .wd-intro .kv-row dt { font-family: var(--display); font-size: 1.7rem; color: var(--brass); letter-spacing: 0; text-transform: none; }
+
+  .wd-card { display: grid; gap: 36px; grid-template-columns: 1fr; align-items: center; padding: clamp(36px, 5vw, 56px) 0; }
+  @media (min-width: 900px) {
+    .wd-card { grid-template-columns: 1fr 1.1fr; gap: 64px; }
+    .wd-card.flip .wd-media { order: 2; }
+  }
+  .wd-card > * { min-width: 0; }
+  .wd-media { margin: 0; }
+  .wd-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .wd-note { font-size: .95rem; line-height: 1.65; margin-bottom: 12px; padding-left: 16px; position: relative; color: var(--band-ash); }
+  .wd-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass-lit); }
+  .wd-note b { color: var(--band-ink); font-weight: 500; }
+
+  .wd-grid2 { display: grid; gap: 56px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 980px) { .wd-grid2 { grid-template-columns: 1fr 1fr; gap: 72px; } }
+
+  .wd-three { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 860px) { .wd-three { grid-template-columns: repeat(3, 1fr); } }
+  .wd-three > div { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(24px, 3vw, 32px); }
+  .wd-three h3 { font-family: var(--display); font-weight: 500; font-size: 1.25rem; margin-bottom: 10px; }
+  .wd-three p { font-size: .94rem; color: var(--ash); line-height: 1.65; }
+</style>

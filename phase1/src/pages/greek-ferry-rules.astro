@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+
+const rules = [
+  ['Never book the last ferry of the day', 'It&rsquo;s tempting to squeeze one more hour at the beach before heading to the next island. But if that final ferry gets delayed or cancelled, you&rsquo;re not catching a later one &mdash; there isn&rsquo;t one. You&rsquo;ve lost the night, and possibly thrown off everything booked after it. Always leave a buffer. An earlier departure costs you a little beach time; a cancelled last ferry can cost you a hotel night, a missed dinner reservation, or worse, a missed flight home.'],
+  ['Fast ferries cancel in wind. Slow ones don&rsquo;t (as often).', 'High-speed catamarans are the fastest way between islands, but they&rsquo;re also the most sensitive to wind. During the Meltemi &mdash; the strong seasonal wind that picks up across the Cyclades in July and August &mdash; high-speed ferries are often the first to be suspended, sometimes at wind speeds that barely affect the larger, more stable conventional ferries. It doesn&rsquo;t happen every day, but it happens enough that it&rsquo;s worth planning around, especially in peak summer. If you&rsquo;re traveling during meltemi season, a conventional ferry is the safer bet.'],
+  ['Taking a fast ferry? Pack motion sickness patches.', 'Even on a clear, calm-looking day, high-speed ferries can get surprisingly rocky &mdash; they sit lower in the water and move faster through chop than the eye can predict from the dock. Conventional ferries are larger, more stable, and usually let you get up on an open deck for fresh air, which helps. If you&rsquo;re prone to motion sickness, pack accordingly regardless of the forecast.'],
+  ['Don&rsquo;t fly home the same day you sail.', 'This is the rule most couples break, and the one I&rsquo;d fight hardest to keep. Ferries run behind schedule more often than people expect, and if your international flight is the same day as your final ferry, there&rsquo;s no room for error. Build in a night in Athens before you fly out. It&rsquo;s one extra hotel night for a lot of peace of mind &mdash; and honestly, Athens deserves the evening anyway.'],
+  ['Two islands per week. That&rsquo;s the limit.', 'It&rsquo;s tempting to try to see everything &mdash; Santorini, Mykonos, Paros, Naxos, all in ten days. In practice, three islands usually means at least one full day lost to travel, packing, and transfers, which quietly eats into the vacation you planned. Two islands per week gives you enough time to actually settle into each place instead of spending your trip living out of a suitcase.'],
+];
+---
+<Layout
+  canonical="greek-ferry-rules.html"
+  title="5 Greek Ferry Rules Every Couple Should Know | Suites With Keith"
+  description="The logistics couples skip past when they're busy picking islands — five ferry rules I give every couple before they book a Greece trip."
+  preload="/images/islands/santorini-divider.jpg"
+  current="guides"
+>
+
+<!-- hero -->
+<header class="hero" style="min-height:min(70svh,640px);">
+  <img class="hero-img" src="/images/islands/santorini-divider.jpg" alt="A ferry crossing the Aegean below the Santorini caldera" width="1800" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Greek islands &middot; ferry planning</p>
+    <h1 class="display-l" style="margin-top:18px; max-width:20ch; color:var(--band-ink); font-size:clamp(2rem,4.6vw,3.4rem);">5 ferry rules every couple should know before booking</h1>
+    <p class="sub" style="margin-top:16px;">The logistics couples skip past when they&rsquo;re busy picking islands &mdash; and the mistakes I see most often because of it.</p>
+  </div>
+</header>
+
+<!-- intro + rules -->
+<section class="section">
+  <div class="container" style="max-width:820px;">
+    <p class="deck reveal" style="text-align:center; max-width:44ch; margin:0 auto;">Planning a Greece honeymoon usually starts with the fun part &mdash; picking islands, scrolling sunset photos, imagining the infinity pool. But how you move between islands can make or break the trip.</p>
+    <div class="ledger reveal" style="border-top-color:var(--hairline); margin-top:52px;">
+      {rules.map(([h, p], i) => (
+        <div class="ledger-row" style="border-bottom-color:var(--hairline); padding:32px 0;">
+          <span class="n" style="color:var(--brass);">{String(i + 1).padStart(2, '0')}</span>
+          <span class="d" style="color:var(--ash); max-width:none;">
+            <b style="color:var(--ink); font-family:var(--display); font-size:1.25rem; display:block; margin-bottom:8px;" set:html={h} />
+            <span set:html={p} />
+          </span>
+        </div>
+      ))}
+    </div>
+    <div class="callout reveal">
+      <span class="eyebrow" style="display:block; margin-bottom:10px;">Want to skip the ferry altogether?</span>
+      <h3 class="display-m">Private boat &amp; helicopter transfers</h3>
+      <p class="body-2" style="margin-top:12px;">For couples who&rsquo;d rather not deal with schedules, wind delays, or crowded terminals, a private boat or helicopter transfer is often worth it &mdash; especially between islands like Santorini and Mykonos, where a helicopter can turn a half-day ferry commitment into a 20-minute flight. It&rsquo;s one of the most common upgrades I arrange for honeymooners, through my <a href="/hoper.html" style="color:var(--brass);">partnership with Hoper</a>.</p>
+    </div>
+  </div>
+</section>
+
+<Ask
+  subject="Inquiry — Ferry rules"
+  page="greek-ferry-rules"
+  placeholder="Santorini & Paros in June"
+  deck="Just starting, or already booked and want a second set of eyes on the route &mdash; either way, tell me the islands and the dates."
+  dark
+/>
+
+</Layout>
+
+<style>
+  .callout { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(30px, 4vw, 44px); margin-top: 56px; }
+</style>
