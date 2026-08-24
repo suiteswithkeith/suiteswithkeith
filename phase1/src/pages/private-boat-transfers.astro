@@ -130,6 +130,39 @@ const cards = [
   </div>
 </section>
 
+<!-- two ways in -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The boat is one piece</span>
+      <h2 class="display-l">Where are you starting from?</h2>
+    </div>
+    <div class="choose reveal">
+      <div class="choose-col">
+        <span class="eyebrow">Nothing booked yet</span>
+        <h3>Hotels are where I start</h3>
+        <p class="lead">Hotel bookings through me are complimentary &mdash; I&rsquo;m paid by the hotel, and you get preferred-partner extras on top of the same rate: typically a space-available upgrade, daily breakfast, and a hotel credit. The boat, the cars, and the timing get built around the rooms.</p>
+        <p style="margin-top:24px; display:flex; flex-wrap:wrap; gap:14px;">
+          <a class="btn" href="#inquire" data-gtag-label="plan_whole_trip" data-gtag-location="boat_paths">Have me plan the trip</a>
+          <a class="btn btn-ghost" href="/services.html" data-gtag-label="services_link" data-gtag-location="boat_paths">What I do &amp; what it costs</a>
+        </p>
+      </div>
+      <div class="choose-col">
+        <span class="eyebrow">Already booked your hotel?</span>
+        <h3>I can still handle everything around it</h3>
+        <p class="lead">Nothing gets cancelled or rebooked &mdash; I work around what you&rsquo;ve confirmed and build the days on top of it: the boat between islands, the cars on both ends, the tables, the timing. Send me the confirmation and your dates; that&rsquo;s all I need to start.</p>
+        <p style="margin-top:24px; display:flex; flex-wrap:wrap; gap:12px 28px;">
+          <a class="btn" href="#inquire" data-gtag-label="already_booked_inquiry" data-gtag-location="boat_paths">Send me your dates</a>
+        </p>
+        <p style="margin-top:16px; display:flex; flex-wrap:wrap; gap:10px 28px;">
+          <a class="pb-link" href="/already-booked-santorini.html">What I take on &middot; Santorini &rarr;</a>
+          <a class="pb-link" href="/already-booked-mykonos.html">What I take on &middot; Mykonos &rarr;</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <Ask
   subject="Inquiry — private boat transfers"
   page="private-boat-transfers"
@@ -162,4 +195,6 @@ const cards = [
   .hc-note b { color: var(--ink); font-weight: 500; }
   .band .hc-note b { color: var(--band-ink); }
   .band .verdict { border-left-color: var(--brass-lit); }
+  .pb-link { font-size: .7rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .pb-link:hover { text-decoration: underline; }
 </style>
