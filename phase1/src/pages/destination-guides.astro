@@ -18,6 +18,7 @@ const guides = [
   { href: '/athens.html', img: '/images/islands/athens-hero.jpg', kicker: 'Greece', title: 'Athens', blurb: 'Much more than a gateway to the islands.' },
   { href: '/napa-sonoma.html', img: '/images/napa/four-seasons-1.jpg', kicker: 'Wine country', title: 'Napa & Sonoma', blurb: 'Nine hotels, ranked from personal stays.' },
   { href: '/montenegro.html', img: '/images/montenegro/sveti-stefan-aerial.jpg', kicker: 'The Adriatic', title: 'Montenegro', blurb: 'Hotel-by-hotel reviews, updated as I visit.' },
+  { href: '/zannier-ile-de-bendor.html', img: '/images/bendor/bendor-hero.jpg', kicker: 'France', title: 'Zannier Île de Bendor', blurb: 'Provence’s private island, ready to book.' },
   { href: '/featured-destinations.html', img: '/images/proposals/lake-como/passalacqua/pool.jpg', kicker: 'The map', title: 'Featured Destinations', blurb: 'Italy, Paris, Greece, Japan, Africa & Mexico — and the hotels I’d send my own family to.' },
 ];
 
@@ -26,9 +27,6 @@ const practical = [
   { href: '/three-mistakes-greek-islands.html', img: '/images/islands/mykonos-divider.jpg', kicker: 'Logistics', title: 'Island-Hopping Mistakes', blurb: 'Three mistakes couples make between the Greek islands.' },
   { href: '/santorini-transfer-cheat-sheet.html', img: '/images/personal/santorini-rooftop.jpg', kicker: 'Logistics', title: 'Santorini Transfers', blurb: 'The cheat sheet for getting there, and getting around.' },
   { href: '/private-boat-transfers.html', img: '/images/transfers/private-boat-hero.jpg', kicker: 'Logistics', title: 'Private Boat Transfers', blurb: 'Island to island on your schedule, not the ferry’s — from €1,000 per boat.' },
-  { href: '/cosme-vs-parilio-paros.html', img: '/images/hotels/cosme-1.jpg', kicker: 'Head-to-head', title: 'Cosme vs Parīlio', blurb: 'Paros’ two best design hotels, compared.' },
-  { href: '/four-seasons-astir-palace-vs-one-and-only-aesthesis.html', img: '/images/islands/athens-hero.jpg', kicker: 'Head-to-head', title: 'The Athens Riviera', blurb: 'Astir Palace or One&Only Aesthesis — choose your Riviera flag.' },
-  { href: '/zannier-ile-de-bendor.html', img: '/images/bendor/bendor-hero.jpg', kicker: 'France', title: 'Zannier Île de Bendor', blurb: 'Provence’s private island, ready to book.' },
 ];
 ---
 <Layout
@@ -112,6 +110,10 @@ const practical = [
         <img src="/images/napa/carneros.jpg" alt="" width="1600" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">Wine country</span><h3>Napa or Sonoma</h3><p>My ranking says one valley; my calendar says the other.</p><span class="go">Settle it &rarr;</span></div>
       </a>
+      <a class="card" href="/four-seasons-astir-palace-vs-one-and-only-aesthesis.html">
+        <img src="/images/islands/athens-hero.jpg" alt="" width="1800" height="1200" loading="lazy" decoding="async" />
+        <div class="pad"><span class="kicker">The Athens Riviera</span><h3>Astir Palace or Aesthesis</h3><p>Choose your Riviera flag &mdash; the peninsula or the beach scene.</p><span class="go">Settle it &rarr;</span></div>
+      </a>
     </div>
   </div>
 </section>
@@ -121,7 +123,7 @@ const practical = [
   <div class="container">
     <div class="sec-head reveal">
       <span class="eyebrow">The fine print</span>
-      <h2 class="display-l">Logistics &amp; head-to-heads</h2>
+      <h2 class="display-l">The logistics</h2>
     </div>
     <div class="cards four reveal">
       {practical.map((g) => (
