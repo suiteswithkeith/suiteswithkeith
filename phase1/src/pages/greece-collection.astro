@@ -1,0 +1,215 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+
+const toc = [
+  { num: '01', href: '/santorini.html', img: '/images/islands/santorini-hero.jpg', w: 1200, h: 1800, name: 'Santorini', p: 'The island that introduced the world to Cycladic luxury.' },
+  { num: '02', href: '/folegandros.html', img: '/images/islands/folegandros-hero.jpg', w: 1201, h: 1800, name: 'Folegandros', p: 'Dramatic cliffs. Unhurried luxury.' },
+  { num: '03', href: '/mykonos.html', img: '/images/islands/mykonos-hero.jpg', w: 1350, h: 1800, name: 'Mykonos', p: 'The island that always has another side to discover.' },
+  { num: '04', href: '/paros.html', img: '/images/islands/paros-hero.jpg', w: 1200, h: 1800, name: 'Paros', p: 'Timeless villages, understated luxury.' },
+  { num: '05', href: '/sifnos.html', img: '/images/islands/sifnos-hero.jpg', w: 1349, h: 1800, name: 'Sifnos', p: 'Some islands ask you to see more. Sifnos asks you to linger.' },
+  { num: '06', href: '/milos.html', img: '/images/islands/milos-hero.jpg', w: 1350, h: 1800, name: 'Milos', p: 'Nature&rsquo;s masterpiece in the Cyclades.' },
+  { num: '07', href: '/athens.html', img: '/images/islands/athens-hero.jpg', w: 1800, h: 1200, name: 'Athens', p: 'A city that reminds you why people have been coming here for centuries.' },
+  { num: '+', href: '/greek-island-matrix.html', img: '/images/islands/greek-island-matrix.png', w: 1080, h: 1270, name: 'The Island Matrix', p: 'Fourteen islands, placed honestly &mdash; and the twenty-one hotels I&rsquo;d actually book.', cta: 'See the Matrix' },
+];
+
+const edit = [
+  ['My Favorite Hotel', '<a href="/hotels/canaves-epitome-santorini.html">Canaves Epitome</a>', 'Santorini'],
+  ['Best Honeymoon Hotel', '<a href="/hotels/andronis-boutique-santorini.html">Andronis Boutique</a>', 'Santorini'],
+  ['Best Hotel Design', '<a href="/hotels/gundari-folegandros.html">Gundari</a>', 'Folegandros'],
+  ['Best New Resort', '<a href="/hotels/fouquets-mykonos.html">Fouquet&rsquo;s Mykonos</a>', 'Mykonos'],
+  ['Best Beach Hotel', '<a href="/hotels/bill-and-coo-coast-mykonos.html">Bill &amp; Coo Coast</a>', 'Mykonos'],
+  ['Best Family Hotel', '<a href="/hotels/andronis-arcadia-santorini.html">Andronis Arcadia</a>', 'Santorini'],
+  ['Best Hotel Suite', 'River Pool Suite', 'Canaves Oia Suites'],
+  ['Best Wellness Hotel', '<a href="/hotels/andronis-concept-santorini.html">Andronis Concept</a>', 'Santorini'],
+  ['Best Hotel Restaurant', 'Omnia', 'Canaves Epitome'],
+  ['Best Breakfast', '<a href="/hotels/bill-and-coo-suites-mykonos.html">Bill &amp; Coo Suites</a>', 'Mykonos'],
+  ['Best Sunset', '<a href="/hotels/canaves-epitome-santorini.html">Canaves Epitome</a>', 'Santorini'],
+  ['Best Pool', '<a href="/hotels/cali-mykonos.html">Cali Mykonos</a>', 'Mykonos'],
+  ['Best Service', 'Bill &amp; Coo', 'Mykonos'],
+  ['Best for First-Time Visitors', 'Santorini', 'Island'],
+  ['Most Surprising Island', 'Mykonos', 'Island'],
+  ['Best Santorini Villa', '<a href="/hotels/canaves-sunday-santorini.html">Canaves Sunday</a>', '10-Bedroom Villa'],
+  ['Best Paros Villa', '<a href="/hotels/jupiter-villa-paros.html">Jupiter</a>', '5-Bedroom Villa'],
+  ['Most Underrated Island', 'Sifnos', 'Island'],
+  ['Best for Return Visitors', 'Paros', 'Island'],
+  ['Best for Slow Travel', 'Folegandros', 'Island'],
+  ['The Island I Keep Thinking About', 'Paros', 'Island'],
+];
+
+const praise = [
+  ['This is beautiful. Well done &mdash; chic and editorial. It makes you stand out in what&rsquo;s becoming a crowded space, and I love that for you.', 'Rosewood London', ''],
+  ['You are our Greek Ambassador. Everything came together so beautifully, and your journal is absolutely stunning &mdash; such a wonderful keepsake. You should be incredibly proud of what you created.', 'Empiria Group', ''],
+  ['OMG Keith! When did you manage to put all that together? This is some incredible work &mdash; I LOVE it! I will share it with the team and I am super excited to get the hard copy too. You are the best!', 'Canaves', 'Santorini'],
+  ['Congratulations on creating such a beautifully curated travel journal! We&rsquo;re honoured to have Vione featured in the Paros section.', 'Vione', 'Paros'],
+  ['Thanks for featuring <em>Fouquet&rsquo;s Mykonos</em> in your travel journal. We really appreciate your support.', 'Fouquet&rsquo;s', 'Mykonos'],
+  ['This is just <em>amazing</em>. I genuinely like what you do &mdash; you can see that you truly do it from your heart.', 'Empiria', ''],
+  ['Your work is absolutely beautiful, and you&rsquo;re firmly on our vendor list.', 'Bella Events', ''],
+  ['It looks amazing &mdash; such a nice and useful guide for Greece!', 'Gundari', 'Folegandros'],
+];
+---
+<Layout
+  canonical="greece-collection.html"
+  title="The Greece Collection | Luxury Greece Honeymoon Guide"
+  description="Issue No. 01 of The Greece Collection — a firsthand luxury travel and honeymoon guide to the Cyclades, featuring 38 hotels and seven destination guides."
+  current="collections"
+  preload="/images/islands/cover.jpg"
+>
+<Fragment slot="head">
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://suiteswithkeith.com/images/islands/cover.jpg" />
+  <meta property="og:site_name" content="Suites With Keith" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://suiteswithkeith.com/images/islands/cover.jpg" />
+</Fragment>
+
+<!-- cover -->
+<header class="hero" style="min-height:min(92svh,900px);">
+  <img class="hero-img" src="/images/islands/cover.jpg" alt="The cover of The Greece Collection — whitewashed Cycladic architecture over the Aegean" width="1600" height="1100" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">The Collections &middot; Issue No. 01 &middot; Summer 2026</p>
+    <h1 class="display-xl" style="margin-top:18px;">The Greece <em>Collection</em></h1>
+    <p class="sub">A Suites With Keith Collection &mdash; four weeks island hopping the Cyclades, thirty-eight hotels toured and slept in, and the ones I&rsquo;d recommend without hesitation.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#issue" data-gtag-label="read_issue" data-gtag-location="hero">Read the issue</a>
+      <a class="btn btn-ghost on-shadow" href="#inquire" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);" data-gtag-label="start_planning" data-gtag-location="hero">Plan the trip</a>
+    </div>
+  </div>
+</header>
+
+<!-- a note from keith -->
+<section class="section">
+  <div class="container" style="max-width:820px; text-align:center;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:26px;">A note from Keith</span>
+    <blockquote class="story-quote reveal" style="margin:0 auto; max-width:36ch;">Over the past few months, I spent four weeks island hopping through the Cyclades, and it&rsquo;s easy to understand why Greece has become one of the world&rsquo;s most beloved destinations. Traveling solo across eight islands, I never once felt alone. <b>I felt looked after.</b></blockquote>
+    <p class="stamp plain reveal" style="margin-top:30px;">After touring and staying at 38 remarkable hotels across the Cyclades, these are the ones I&rsquo;d recommend to my clients without hesitation.</p>
+    <p class="gc-signature reveal">Keith</p>
+  </div>
+</section>
+
+<!-- the issue -->
+<section class="section" id="issue" style="padding-top:0; scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;">
+      <span class="eyebrow">Issue No. 01</span>
+      <h2 class="display-l">Read the full issue</h2>
+    </div>
+    <div class="gc-frame reveal">
+      <div style="position:relative;padding-top:max(60%,326px);height:0;width:100%"><iframe title="The Greece Collection | Issue No. 01 | Luxury Greece Travel Guide by Suites With Keith" allow="clipboard-write; autoplay; encrypted-media; fullscreen; picture-in-picture" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?backgroundColor=%23f5f1e9&backgroundColorFullscreen=%23f5f1e9&d=the_greece_collection_issue_no._01_luxury_gree&themeMainColor=%231F1F1F&themeSecondaryColor=%23C8A46B&u=suiteswithkeith"></iframe></div>
+    </div>
+    <p class="stamp plain reveal" style="text-align:center; margin-top:18px;">Prefer a printed copy? The Collection is also available as a physical keepsake edition &mdash; <a href="mailto:keith.pence@fora.travel?subject=The%20Greece%20Collection%20%E2%80%94%20Physical%20Copy" style="color:var(--brass);">request one here</a>.</p>
+  </div>
+</section>
+
+<!-- seven destinations -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;">
+      <span class="eyebrow">The Collection</span>
+      <h2 class="display-l">Seven destinations</h2>
+    </div>
+    <div class="gc-toc">
+      {toc.map((t) => (
+        <a class="gc-toc-card reveal" href={t.href}>
+          <img src={t.img} alt={t.name} width={t.w} height={t.h} loading="lazy" decoding="async" />
+          <div>
+            <span class="gc-num">{t.num}</span>
+            <h3 set:html={t.name} />
+            <p set:html={t.p} />
+            <span class="gc-link">{t.cta ?? 'Read the Guide'}&nbsp;&rarr;</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- the edit -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;">
+      <span class="eyebrow">Four weeks &middot; eight islands &middot; thirty-eight hotels</span>
+      <h2 class="display-l">The Edit</h2>
+      <p class="deck" style="margin:16px auto 0; max-width:40ch;">The places I&rsquo;d recommend without hesitation.</p>
+    </div>
+    <div class="gc-edit reveal">
+      {edit.map(([label, winner, isle]) => (
+        <div class="gc-edit-item">
+          <h5 set:html={label} />
+          <span class="gc-winner" set:html={winner} />
+          <span class="gc-isle" set:html={isle} />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- praise -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;">
+      <span class="eyebrow">Praise for the Collection</span>
+      <h2 class="display-l">What partners are saying</h2>
+    </div>
+    <div class="gc-praise">
+      {praise.map(([q, who, where]) => (
+        <figure class="gc-praise-card reveal">
+          <blockquote set:html={q} />
+          <figcaption>{who}{where && <span> &middot; {where}</span>}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>
+
+<Ask
+  subject="Inquiry — The Greece Collection"
+  page="greece-collection"
+  eyebrow="Planning a Greece trip?"
+  heading="If this collection inspired your next trip, I'd love to design the itinerary around you"
+  placeholder="The Cyclades in June"
+  deck="Tell me where and when, and I&rsquo;ll take it from there."
+/>
+
+</Layout>
+
+<style>
+  .gc-signature { font-family: var(--display); font-style: italic; font-size: 2.1rem; margin-top: 28px; color: var(--ink); }
+  .gc-frame { border: 1px solid var(--hairline-firm); padding: clamp(10px, 1.6vw, 18px); background: var(--lime); }
+
+  .gc-toc { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--band-hairline); border: 1px solid var(--band-hairline); }
+  .gc-toc-card { display: flex; gap: 24px; align-items: center; padding: clamp(24px, 3vw, 36px); background: var(--shadow); text-decoration: none; min-width: 0; transition: background var(--dur-1) var(--ease); }
+  .gc-toc-card:hover { background: var(--shadow-2); }
+  .gc-toc-card img { width: 110px; height: 140px; object-fit: cover; flex-shrink: 0; }
+  .gc-toc-card > div { min-width: 0; overflow-wrap: break-word; }
+  .gc-num { font-family: var(--stamp); font-size: .72rem; letter-spacing: .14em; color: var(--brass-lit); display: block; margin-bottom: 8px; }
+  .gc-toc-card h3 { font-family: var(--display); font-weight: 500; font-size: 1.35rem; color: var(--band-ink); margin: 0 0 8px; }
+  .gc-toc-card p { font-size: .93rem; color: var(--band-ash); line-height: 1.55; margin: 0 0 12px; }
+  .gc-link { font-family: var(--stamp); font-size: .66rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-lit); }
+  .gc-toc-card:hover .gc-link { text-decoration: underline; text-underline-offset: 3px; }
+
+  .gc-edit { display: grid; grid-template-columns: repeat(4, 1fr); gap: 36px 28px; }
+  .gc-edit-item { text-align: center; border-top: 1px solid var(--hairline); padding-top: 20px; }
+  .gc-edit-item h5 { font-family: var(--stamp); font-size: .64rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); margin: 0 0 12px; }
+  .gc-winner { font-family: var(--display); font-style: italic; font-size: 1.2rem; color: var(--ink); display: block; margin-bottom: 4px; }
+  .gc-winner :global(a) { color: inherit; text-decoration: none; }
+  .gc-winner :global(a:hover) { text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--brass); }
+  .gc-isle { font-family: var(--stamp); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash); }
+
+  .gc-praise { display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(20px, 2.6vw, 32px); }
+  .gc-praise-card { margin: 0; border: 1px solid var(--band-hairline); padding: clamp(24px, 3vw, 34px); }
+  .gc-praise-card blockquote { font-family: var(--display); font-style: italic; font-size: 1.12rem; line-height: 1.55; color: var(--band-ink); margin: 0 0 18px; }
+  .gc-praise-card figcaption { font-family: var(--stamp); font-size: .68rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-lit); }
+  .gc-praise-card figcaption span { color: var(--band-ash); font-weight: 400; }
+
+  @media (max-width: 900px) {
+    .gc-toc { grid-template-columns: 1fr; }
+    .gc-edit { grid-template-columns: repeat(2, 1fr); }
+    .gc-praise { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .gc-toc-card { padding: 24px 20px; gap: 18px; }
+    .gc-toc-card img { width: 84px; height: 108px; }
+    .gc-edit { grid-template-columns: 1fr; }
+  }
+</style>
