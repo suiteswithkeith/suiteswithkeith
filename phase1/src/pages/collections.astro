@@ -1,0 +1,102 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+
+const issues = [
+  {
+    href: '/greece-collection.html',
+    img: '/images/islands/cover.jpg',
+    badge: 'Available now',
+    meta: 'Issue No. 01 &middot; Summer 2026',
+    h2: 'The Greece Collection',
+    p: 'Four weeks island hopping the Cyclades. Thirty-eight hotels toured and slept in, seven destination guides, and the ones I&rsquo;d recommend without hesitation.',
+    cta: 'Read the issue',
+    external: false,
+  },
+  {
+    href: 'https://idyllic-sunset-66985.myflodesk.com/kurdjx2e4y',
+    img: '/images/napa/carneros.jpg',
+    badge: 'September 15',
+    meta: 'Issue No. 02 &middot; Fall 2026',
+    h2: 'The Napa &amp; Sonoma Collection',
+    p: 'Every hotel and who it&rsquo;s actually for, my restaurant and winery picks town by town, and a day on the Sonoma Coast most visitors never make.',
+    cta: 'Join the waitlist',
+    external: true,
+  },
+];
+---
+<Layout
+  canonical="collections.html"
+  title="The Collections | Suites With Keith"
+  description="Firsthand travel journals from Keith — one region at a time, every hotel seen in person. The Greece Collection is out now; Napa & Sonoma arrives September 15."
+  current="collections"
+>
+
+<!-- masthead -->
+<section class="section band on-shadow" style="text-align:center; padding:clamp(70px,10vw,110px) 0;">
+  <div class="container" style="max-width:760px;">
+    <span class="eyebrow">Suites With Keith</span>
+    <h1 class="display-xl" style="margin:18px auto 14px;">The Collections</h1>
+    <p class="body-2" style="margin:22px auto 0; max-width:44ch;">Firsthand travel journals. One region at a time, every hotel seen in person.</p>
+  </div>
+</section>
+
+<!-- issues -->
+<section class="section">
+  <div class="container">
+    {issues.map((i, n) => (
+      <article class={`issue reveal${n % 2 ? ' flip' : ''}`}>
+        <figure class="issue-cover">
+          {i.external
+            ? <a href={i.href} target="_blank" rel="noopener"><img src={i.img} alt="" width="1600" height="1100" loading={n === 0 ? 'eager' : 'lazy'} decoding="async" /><span class="issue-badge" set:html={i.badge} /></a>
+            : <a href={i.href}><img src={i.img} alt="" width="1600" height="1100" loading={n === 0 ? 'eager' : 'lazy'} decoding="async" /><span class="issue-badge" set:html={i.badge} /></a>}
+        </figure>
+        <div class="issue-body">
+          <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:10px;" set:html={i.meta} />
+          <h2 class="display-l" style="font-size:clamp(1.7rem,3.4vw,2.5rem);" set:html={i.h2} />
+          <p class="body-2" style="margin-top:16px; max-width:52ch;" set:html={i.p} />
+          <p style="margin-top:24px;">
+            {i.external
+              ? <a class="btn btn-ghost" href={i.href} target="_blank" rel="noopener" data-gtag-label="issue_waitlist" data-gtag-location="collections"><span set:html={i.cta} /> &rarr;</a>
+              : <a class="btn" href={i.href} data-gtag-label="issue_read" data-gtag-location="collections"><span set:html={i.cta} /> &rarr;</a>}
+          </p>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<!-- what a collection is -->
+<section class="section band on-shadow">
+  <div class="container" style="max-width:860px; text-align:center;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">What a Collection is</span>
+    <h2 class="display-l reveal">Everything in here, I saw myself.</h2>
+    <p class="body-2 reveal" style="margin:22px auto 0; max-width:54ch;">Each Collection is one region, worked properly &mdash; weeks on the ground, every hotel toured or slept in, and an honest read on who each one is actually for.</p>
+    <p class="body-2 reveal" style="margin:16px auto 0; max-width:54ch;">No press trips. No sponsored placements. Nothing recommended I haven&rsquo;t stood in.</p>
+  </div>
+</section>
+
+<Ask
+  subject="Inquiry — The Collections"
+  page="collections"
+  eyebrow="Planning a trip?"
+  heading="If one of these started an idea, I'd love to build the itinerary around you"
+  placeholder="The Cyclades in June"
+  deck="Tell me where and when, and I&rsquo;ll take it from there."
+/>
+
+</Layout>
+
+<style>
+  .issue { display: grid; gap: 36px; grid-template-columns: 1fr; align-items: center; padding: clamp(40px, 5.5vw, 64px) 0; border-top: 1px solid var(--hairline); }
+  .issue:first-of-type { border-top: none; padding-top: 0; }
+  @media (min-width: 900px) {
+    .issue { grid-template-columns: 1.1fr 1fr; gap: 72px; }
+    .issue.flip .issue-cover { order: 2; }
+  }
+  .issue > :global(*) { min-width: 0; }
+  .issue-cover { margin: 0; position: relative; }
+  .issue-cover a { display: block; position: relative; }
+  .issue-cover img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  .issue-badge { position: absolute; top: 16px; left: 16px; font-family: var(--stamp); font-size: .64rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--lime); background: var(--olive); padding: 6px 12px; }
+</style>

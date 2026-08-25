@@ -1,0 +1,167 @@
+---
+// Renders one head-to-head hotel comparison from phase1/src/data/versus.json.
+import Layout from './Layout.astro';
+import versus from '../data/versus.json';
+
+const { slug } = Astro.props;
+const g = versus[slug];
+const plain = (s) =>
+  s
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&mdash;/g, '—')
+    .replace(/&middot;/g, '·')
+    .replace(/&rsquo;/g, '’')
+    .replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ')
+    .trim();
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: g.title.split('|')[0].trim(),
+  description: g.description,
+  image: 'https://suiteswithkeith.com' + g.preload,
+  author: { '@type': 'Person', name: 'Keith Pence' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Suites With Keith',
+    logo: { '@type': 'ImageObject', url: 'https://suiteswithkeith.com/favicon-32.png' },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://suiteswithkeith.com/${slug}.html` },
+});
+---
+<Layout
+  canonical={`${slug}.html`}
+  title={g.title}
+  description={g.description}
+  preload={g.preload}
+  current="rankings"
+>
+
+<Fragment slot="head" set:html={`<script type="application/ld+json">${schema}</script>`} />
+
+<header class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p class="eyebrow reveal" set:html={g.eyebrow} />
+    <h1 class="display-xl reveal vs-h1"><span set:html={g.h1_a} /> or <em style="font-style:italic; color:var(--brass);" set:html={g.h1_b} /></h1>
+    <p class="deck reveal" style="margin-top:22px; max-width:48ch;" set:html={g.deck} />
+    <p class="stamp reveal" style="margin-top:26px;" set:html={g.stamp} />
+  </div>
+</header>
+
+<!-- the 30-second answer -->
+<section class="section">
+  <div class="container">
+    <div class="choose reveal">
+      {g.choose.map((c) => (
+        <div class="choose-col">
+          <span class="eyebrow" set:html={c.eyebrow} />
+          <h3 set:html={c.h3} />
+          <p class="lead" set:html={c.lead} />
+          {c.img && <figure style="margin:24px 0 0;"><img src={c.img} alt={c.alt} width={c.w} height={c.h} loading="lazy" decoding="async" style="aspect-ratio:16/10; object-fit:cover; width:100%;" /></figure>}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- the table -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Side by side</span>
+      <h2 class="display-l">How they compare</h2>
+    </div>
+    <div class="table-wrap reveal">
+      <table>
+        <thead><tr><th></th><th set:html={plain(g.h1_a)} /><th set:html={plain(g.h1_b).replace(/\?$/, '')} /></tr></thead>
+        <tbody>
+          {g.rows.map(([label, a, b]) => (
+            <tr><td class="rowlabel" set:html={label} /><td set:html={a} /><td set:html={b} /></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    {g.footnote && <p class="body-2 reveal small" style="margin-top:18px; max-width:62ch;" set:html={g.footnote} />}
+  </div>
+</section>
+
+<!-- the verdict -->
+<section class="section band on-shadow">
+  <div class="container" style="max-width:860px;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">The question behind the question</span>
+    <h2 class="display-l reveal" set:html={g.verdict.h2} />
+    {g.verdict.paras.map((p) => (
+      <p class="body-2 reveal" style="margin-top:22px; max-width:56ch;" set:html={p} />
+    ))}
+  </div>
+</section>
+
+{g.inside && g.inside.length > 0 && (
+  <section class="section">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Zoom in</span>
+        <h2 class="display-l" style="font-size:clamp(1.6rem,3.2vw,2.3rem);">The decisions inside this one</h2>
+      </div>
+      <div class="vsi-grid reveal">
+        {g.inside.map((v) => (
+          <a class="vsi-tile" href={v.href}>
+            <span class="vsi-names" set:html={v.label} />
+            <span class="vsi-q" set:html={v.q} />
+            <span class="vsi-go">{v.cta || 'Settle it'} &rarr;</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+<!-- the ask -->
+<section class="section inquire" id="inquire">
+  <div class="container">
+    <h2 class="display-l reveal">Still deciding?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:42ch;">Tell me your dates and I&rsquo;ll tell you which one has the room worth having &mdash; same rate you&rsquo;d pay booking direct, sometimes better.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value={g.subject} />
+      <input type="hidden" name="hotel" value={g.hotel} />
+      <input type="hidden" name="page" value={slug} />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when">When are you thinking?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder={g.placeholder} required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name">And where do I send the recommendation?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px;">Anything else? Nights, budget, occasion &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn" data-gtag-label="versus_inquiry_send" data-gtag-location="versus_cta">Send</button>
+      <p class="note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+    {g.related.length > 0 && (
+      <p class="reveal" style="margin-top:26px; display:flex; gap:12px 32px; justify-content:center; flex-wrap:wrap;">
+        {g.related.map((r) => (
+          <a href={r.href} style="font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;"><span set:html={r.label} /> &rarr;</a>
+        ))}
+      </p>
+    )}
+  </div>
+</section>
+
+</Layout>
+
+<style is:global>
+  .vs-h1 { margin-top: 18px; max-width: 18ch; font-size: clamp(2rem, 5.2vw, 3.4rem); }
+  .vsi-grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 720px) { .vsi-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .vsi-grid { grid-template-columns: repeat(3, 1fr); } }
+  .vsi-tile { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(22px, 3vw, 30px); display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: var(--ink); transition: transform .25s ease, box-shadow .25s ease; }
+  @media (hover:hover) { .vsi-tile:hover { transform: translateY(-2px); box-shadow: 0 2px 4px rgba(22,23,18,.07), 0 18px 40px rgba(22,23,18,.10); } }
+  .vsi-names { font-family: var(--display); font-weight: 500; font-size: 1.25rem; line-height: 1.3; }
+  .vsi-names em { font-style: italic; color: var(--brass); font-weight: 400; }
+  .vsi-q { font-size: .9rem; color: var(--ash); line-height: 1.6; flex: 1; }
+  .vsi-go { font-size: .68rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); padding-top: 6px; }
+</style>

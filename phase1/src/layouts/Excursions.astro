@@ -1,0 +1,175 @@
+---
+// Renders one excursion guide from phase1/src/data/excursions.json.
+import Layout from './Layout.astro';
+import Ask from '../components/Ask.astro';
+import data from '../data/excursions.json';
+
+const { slug, title, description, guideHref, guideLabel, placeholder } = Astro.props;
+const g = data[slug];
+const cap = slug.charAt(0).toUpperCase() + slug.slice(1);
+const isRules = (sc) => /how to use|two nights/i.test(sc.label);
+const isDays = (sc) => /days$/i.test(sc.label);
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title.split('|')[0].trim(),
+  description,
+  image: 'https://suiteswithkeith.com' + g.hero_img,
+  author: { '@type': 'Person', name: 'Keith Pence' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Suites With Keith',
+    logo: { '@type': 'ImageObject', url: 'https://suiteswithkeith.com/favicon-32.png' },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://suiteswithkeith.com/${slug}-excursions.html` },
+});
+---
+<Layout
+  canonical={`${slug}-excursions.html`}
+  title={title}
+  description={description}
+  preload={g.hero_img}
+  current="guides"
+>
+
+<Fragment slot="head" set:html={`<script type="application/ld+json">${schema}</script>`} />
+
+<!-- hero -->
+<header class="hero" style="min-height:min(82svh,760px);">
+  <img class="hero-img" src={g.hero_img} alt="" width="1600" height="1200" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow" set:html={g.eyebrow} />
+    <h1 class="display-xl" style="margin-top:18px;" set:html={g.h1} />
+    <p class="sub" set:html={g.sub} />
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="send_picks" data-gtag-location="exc_hero">Send me your picks</a>
+      {guideHref && <a class="btn btn-ghost on-shadow" href={guideHref} style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">{guideLabel}</a>}
+    </div>
+  </div>
+</header>
+
+{g.screens.map((sc) => (
+  <>
+  <section class="section">
+    <div class="container">
+      <div class="sec-head reveal">
+        {sc.eyebrow && <span class="eyebrow" set:html={sc.eyebrow} />}
+        <h2 class="display-l" style="font-size:clamp(1.7rem,3.4vw,2.5rem);" set:html={sc.title} />
+        {sc.note && <p class="deck" style="margin-top:16px; max-width:56ch; font-style:italic;" set:html={sc.note} />}
+        {sc.intro.map((p) => <p class="body-2" style="margin-top:16px; max-width:62ch;" set:html={p} />)}
+      </div>
+      {sc.groups.map((group) => (
+        isDays(sc) ? (
+          <div class="exc-days reveal">
+            {group.map((c) => (
+              <div class="exc-day">
+                <h3 set:html={c.title.replace(' | ', ' &middot; ')} />
+                <div>
+                  {c.ps.map((p) => (
+                    p.kind === 'meta'
+                      ? <p class="exc-meta" set:html={p.t} />
+                      : <p class="exc-day-p" set:html={p.t} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div class={`exc-grid reveal${isRules(sc) ? ' exc-rules' : ''}`}>
+            {group.map((c) => (
+              <div class="exc-card">
+                {c.num && <span class="exc-num" set:html={c.num} />}
+                {c.chip && <span class="exc-chip" set:html={c.chip} />}
+                <h3 set:html={c.title} />
+                {c.ps.map((p) => (
+                  p.kind === 'price'
+                    ? <p class="exc-price" set:html={p.t} />
+                    : p.kind === 'verdict'
+                      ? <p class="exc-verdict" set:html={p.t} />
+                      : p.kind === 'meta'
+                        ? <p class="exc-meta" set:html={p.t} />
+                        : <p class="exc-desc" set:html={p.t} />
+                ))}
+              </div>
+            ))}
+          </div>
+        )
+      ))}
+      {sc.table && (
+        <div class="exc-charter reveal">
+          {sc.table.eyebrow && <span class="eyebrow" style="display:block; margin-bottom:10px;" set:html={sc.table.eyebrow} />}
+          {sc.table.title && <h3 class="display-m" style="font-size:clamp(1.3rem,2.4vw,1.7rem); margin-bottom:14px;" set:html={sc.table.title} />}
+          {sc.table.paras.slice(0, 1).map((p) => <p class="body-2" style="max-width:62ch; margin-bottom:18px;" set:html={p} />)}
+          <div class="table-wrap">
+            <table>
+              <thead><tr>{sc.table.head.map((h) => <th set:html={h} />)}</tr></thead>
+              <tbody>
+                {sc.table.rows.map((r) => (
+                  <tr>{r.map((cell, i) => i === 0 ? <td class="rowlabel" set:html={cell} /> : <td set:html={cell} />)}</tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {sc.table.paras.slice(1).map((p) => <p class="body-2 small" style="margin-top:14px; max-width:62ch;" set:html={p} />)}
+        </div>
+      )}
+      {sc.outro && <p class="body-2 reveal" style="margin-top:26px; max-width:62ch;" set:html={sc.outro} />}
+    </div>
+  </section>
+  {sc.img_after && (
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <figure class="reveal" style="margin:0;">
+          <img src={sc.img_after} alt="" width="1600" height="820" loading="lazy" decoding="async" style="width:100%; aspect-ratio:2/1; object-fit:cover;" />
+        </figure>
+      </div>
+    </section>
+  )}
+  </>
+))}
+
+<Ask
+  subject={`Inquiry — ${cap} excursions`}
+  page={`${slug}-excursions`}
+  eyebrow="Next"
+  heading={g.closing.title}
+  deck={g.closing.p}
+  placeholder={placeholder}
+  dark
+/>
+
+<section class="section" style="padding:28px 0 60px;">
+  <div class="container" style="max-width:760px; text-align:center;">
+    <p class="small" style="color:var(--ash-3); line-height:1.8;" set:html={g.footer_note} />
+  </div>
+</section>
+
+</Layout>
+
+<style is:global>
+  .exc-grid { display: grid; gap: 22px; grid-template-columns: 1fr; margin-top: 34px; }
+  @media (min-width: 720px) { .exc-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .exc-grid { grid-template-columns: repeat(3, 1fr); } }
+  .exc-grid + .exc-grid { margin-top: 22px; }
+  .exc-card { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(22px, 3vw, 30px); display: flex; flex-direction: column; min-width: 0; }
+  .exc-chip { align-self: flex-start; font-family: var(--stamp); font-size: .62rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--olive); border: 1px solid var(--olive); padding: 4px 10px; margin-bottom: 14px; }
+  .exc-num { font-family: var(--stamp); font-size: .66rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); margin-bottom: 10px; }
+  .exc-card h3 { font-family: var(--display); font-weight: 500; font-size: 1.25rem; margin-bottom: 10px; }
+  .exc-desc { font-size: .93rem; color: var(--ash); line-height: 1.65; }
+  .exc-desc + .exc-desc { margin-top: 10px; }
+  .exc-verdict { font-family: var(--display); font-style: italic; font-size: .95rem; color: var(--ink); line-height: 1.6; margin-top: 12px; padding-left: 14px; border-left: 2px solid var(--brass); }
+  .exc-price { margin-top: auto; padding-top: 16px; font-family: var(--stamp); font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--brass); }
+  .exc-card .exc-price { border-top: 1px solid var(--hairline); margin-top: 16px; }
+  .exc-card .exc-desc + .exc-price, .exc-card .exc-verdict + .exc-price { margin-top: 16px; }
+  .exc-meta { margin-top: 12px; font-family: var(--stamp); font-size: .66rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--olive); }
+  .exc-rules .exc-card { background: transparent; }
+
+  .exc-days { margin-top: 34px; border-top: 1px solid var(--hairline); }
+  .exc-day { display: grid; gap: 10px 40px; grid-template-columns: 1fr; padding: 26px 0; border-bottom: 1px solid var(--hairline); align-items: start; }
+  @media (min-width: 800px) { .exc-day { grid-template-columns: 240px 1fr; } }
+  .exc-day h3 { font-family: var(--display); font-weight: 500; font-size: 1.2rem; }
+  .exc-day-p { font-size: .96rem; color: var(--ash); line-height: 1.7; }
+  .exc-day .exc-meta { margin-top: 8px; }
+
+  .exc-charter { margin-top: 40px; background: var(--lime); border: 1px solid var(--hairline); padding: clamp(24px, 3.5vw, 40px); }
+</style>

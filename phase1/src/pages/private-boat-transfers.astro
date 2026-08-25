@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Ask from '../components/Ask.astro';
 
 const cards = [
   {
@@ -73,7 +72,7 @@ const cards = [
     <div class="reveal">
       <p class="deck" style="max-width:44ch;">The fast boats sell out, the schedules shift, and a two-island week can quietly cost you two full travel days at the port.</p>
       <p class="body-2" style="margin-top:20px; max-width:58ch;">If you&rsquo;ve read my <a href="/greek-ferry-rules.html" style="color:var(--brass);">ferry rules</a>, you already know the problem. A private boat transfer solves it. Instead of dragging your luggage down to Santorini&rsquo;s ferry port at 7am, or into the scrum at Mykonos&rsquo; new port, a captain meets you at a small harbor near your hotel, you leave when you&rsquo;re ready, and you&rsquo;re on the next island in the time it takes to have lunch. On the right route it&rsquo;s genuinely the nicest hour of the trip.</p>
-      <p class="body-2" style="margin-top:14px; max-width:58ch;">These are arranged individually &mdash; boat, captain, route, and timing all depend on your islands and your dates. Tell me where you&rsquo;re going and I&rsquo;ll price it and hold it for you.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">These are arranged individually &mdash; boat, captain, route, and timing all depend on your islands and your dates. One thing to know up front: I&rsquo;m not a boat-ticket desk. The transfer comes as part of the hotel work &mdash; for trips whose hotels I&rsquo;m booking, or as an add-on to a hotel booking you&rsquo;ve already made and hand over to me to manage.</p>
     </div>
     <div class="reveal">
       <dl class="kv">
@@ -82,6 +81,40 @@ const cards = [
         <div class="kv-row"><dt>Best crossings</dt><dd>Sifnos &harr; Milos &middot; Mykonos &harr; Paros &middot; Santorini &harr; Folegandros &middot; Santorini &harr; Milos</dd></div>
         <div class="kv-row"><dt>Included</dt><dd>Boat &amp; captain &middot; cars on both ends &middot; luggage handled &middot; optional swim stop</dd></div>
       </dl>
+    </div>
+  </div>
+</section>
+
+<!-- two ways in -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The boat is one piece</span>
+      <h2 class="display-l">Where are you starting from?</h2>
+      <p class="deck" style="margin-top:16px; max-width:52ch;">The transfer isn&rsquo;t a standalone service &mdash; it comes attached to the hotels, either ones I&rsquo;m booking for you or ones you hand me to manage.</p>
+    </div>
+    <div class="choose reveal">
+      <div class="choose-col">
+        <span class="eyebrow">Nothing booked yet</span>
+        <h3>Hotels are where I start</h3>
+        <p class="lead">Hotel bookings through me are complimentary &mdash; I&rsquo;m paid by the hotel, and you get preferred-partner extras on top of the same rate: typically a space-available upgrade, daily breakfast, and a hotel credit. The boat, the cars, and the timing get built around the rooms.</p>
+        <p style="margin-top:24px; display:flex; flex-wrap:wrap; gap:14px;">
+          <a class="btn" href="#inquire" data-gtag-label="plan_whole_trip" data-gtag-location="boat_paths">Have me plan the trip</a>
+          <a class="btn btn-ghost" href="/services.html" data-gtag-label="services_link" data-gtag-location="boat_paths">What I do &amp; what it costs</a>
+        </p>
+      </div>
+      <div class="choose-col">
+        <span class="eyebrow">Already booked your hotel?</span>
+        <h3>I can still handle everything around it</h3>
+        <p class="lead">Nothing gets cancelled or rebooked &mdash; I work around what you&rsquo;ve confirmed and build the days on top of it: the boat between islands, the cars on both ends, the tables, the timing. Send me the confirmation and your dates; that&rsquo;s all I need to start.</p>
+        <p style="margin-top:24px; display:flex; flex-wrap:wrap; gap:12px 28px;">
+          <a class="btn" href="#inquire" data-gtag-label="already_booked_inquiry" data-gtag-location="boat_paths">Send me your dates</a>
+        </p>
+        <p style="margin-top:16px; display:flex; flex-wrap:wrap; gap:10px 28px;">
+          <a class="pb-link" href="/already-booked-santorini.html">What I take on &middot; Santorini &rarr;</a>
+          <a class="pb-link" href="/already-booked-mykonos.html">What I take on &middot; Mykonos &rarr;</a>
+        </p>
+      </div>
     </div>
   </div>
 </section>
@@ -130,13 +163,42 @@ const cards = [
   </div>
 </section>
 
-<Ask
-  subject="Inquiry — private boat transfers"
-  page="private-boat-transfers"
-  placeholder="Sifnos to Milos, June 12 &mdash; two of us"
-  deck="Tell me the two islands and the dates &mdash; I&rsquo;ll come back with the right boat and a real price."
-  dark
-/>
+<!-- ask -->
+<section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
+    <h2 class="display-l reveal">Which islands, and when?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;">Tell me the crossing, the dates, and where things stand with your hotels &mdash; I&rsquo;ll come back with the right boat and a real price.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Inquiry — private boat transfers" />
+      <input type="hidden" name="page" value="private-boat-transfers" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">Which islands, and when?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="Sifnos to Milos &middot; June 12 &middot; two of us" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-hotel-status" style="color:var(--band-ash);">Where do things stand with hotels?</label>
+        <select id="q-hotel-status" name="hotel_status" class="pb-select" required>
+          <option value="">Select one</option>
+          <option>Nothing booked yet &mdash; I&rsquo;d like help with the hotels too</option>
+          <option>Hotels booked &mdash; take them over and build around them</option>
+          <option>Partly booked &mdash; some islands still open</option>
+        </select>
+        <label for="q-hotels" style="color:var(--band-ash);">Your hotels &mdash; booked or in mind</label>
+        <input id="q-hotels" type="text" name="hotels" placeholder="Skinopi Lodge in Milos &middot; still deciding on Sifnos" autocomplete="off" />
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the plan?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Group size, luggage, swim stop &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="4 of us &middot; six bags &middot; add a swim stop" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn">Send</button>
+      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
 
 </Layout>
 
@@ -162,4 +224,8 @@ const cards = [
   .hc-note b { color: var(--ink); font-weight: 500; }
   .band .hc-note b { color: var(--band-ink); }
   .band .verdict { border-left-color: var(--brass-lit); }
+  .pb-link { font-size: .7rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .pb-link:hover { text-decoration: underline; }
+  .pb-select { width: 100%; font-family: var(--body); font-size: .95rem; color: var(--ink); background: var(--lime); border: 1px solid var(--hairline); border-radius: 2px; padding: 14px; margin-bottom: 16px; }
+  .pb-select:focus { outline: none; border-color: var(--olive); box-shadow: 0 0 0 3px rgba(74,80,64,.14); }
 </style>

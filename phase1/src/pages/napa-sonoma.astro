@@ -1,8 +1,19 @@
 ---
 import RankingList from '../layouts/RankingList.astro';
+
+const versus = [
+  { href: '/meadowood-vs-four-seasons-napa-valley.html', a: 'Meadowood', b: 'Four Seasons', q: 'My #01 and #02 &mdash; the benchmark or the all-rounder.' },
+  { href: '/four-seasons-napa-valley-vs-montage-healdsburg.html', a: 'Four Seasons', b: 'Montage Healdsburg', q: 'Different valleys, different answers &mdash; the group trip or the two of you.' },
+  { href: '/meadowood-vs-stanly-ranch.html', a: 'Meadowood', b: 'Stanly Ranch', q: 'The estate that sets the service bar, or the valley&rsquo;s boldest design statement.' },
+  { href: '/auberge-du-soleil-vs-montage-healdsburg.html', a: 'Auberge du Soleil', b: 'Montage', q: 'The Fifteen&rsquo;s only two wine-country seats &mdash; the honeymoon question.' },
+  { href: '/auberge-du-soleil-vs-meadowood.html', a: 'Auberge du Soleil', b: 'Meadowood', q: 'Napa&rsquo;s old guard &mdash; the most romantic seat, or the best-run house.' },
+  { href: '/solage-vs-four-seasons-napa-valley.html', a: 'Solage', b: 'Four Seasons', q: 'The Calistoga question &mdash; the design icon or the five-star apparatus.' },
+  { href: '/carneros-resort-vs-stanly-ranch.html', a: 'Carneros', b: 'Stanly Ranch', q: 'The southern gateway &mdash; the postcard or the statement.' },
+];
 ---
 <RankingList
   slug="napa-sonoma"
   askPlaceholder="Healdsburg in October"
   askDeck="&ldquo;Healdsburg in October&rdquo; is a complete answer. I&rsquo;ll take it from there."
+  versus={versus}
 />
