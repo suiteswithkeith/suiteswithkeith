@@ -31,25 +31,6 @@
 <meta name="twitter:description" content="Firsthand luxury travel journals from Suites With Keith. Issue No. 01: Greece. Issue No. 02: Napa &amp; Sonoma, September 15.">
 <meta name="twitter:image" content="https://suiteswithkeith.com/images/islands/cover.jpg">
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&display=swap">
-<style>
-  /* Site nav, matched to the Phase 1 design system */
-  .swk-nav { position: relative; z-index: 30; background: #F2EFE6; border-bottom: 1px solid rgba(22,23,18,0.15); }
-  .swk-nav-c { max-width: 1180px; margin-inline: auto; padding-inline: clamp(20px, 4vw, 40px); display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 64px; }
-  .swk-wordmark { font-family: 'Bodoni Moda', 'Playfair Display', Didot, serif; font-weight: 500; font-size: 1.12rem; letter-spacing: .02em; color: #1F201A; text-decoration: none; white-space: nowrap; }
-  .swk-nav-links { display: flex; gap: 30px; align-items: center; }
-  .swk-nav-links a { font-family: 'Jost', 'Helvetica Neue', Arial, sans-serif; font-size: .74rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; color: #65665C; transition: color 180ms cubic-bezier(.2,.6,.2,1); }
-  @media (hover:hover) { .swk-nav-links a:hover { color: #1F201A; } }
-  .swk-nav-links a[aria-current="page"] { color: #836229; }
-  .swk-nav-toggle { display: none; appearance: none; background: none; border: none; cursor: pointer; font-family: 'Jost', sans-serif; font-size: .74rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: #1F201A; padding: 10px 0; }
-  @media (max-width: 860px) {
-    .swk-nav-links { display: none; position: absolute; left: 0; right: 0; top: 64px; flex-direction: column; align-items: flex-start; gap: 0; background: #F2EFE6; border-bottom: 1px solid rgba(22,23,18,0.15); padding: 8px 20px 18px; }
-    .swk-nav-links a { padding: 12px 0; width: 100%; border-top: 1px solid rgba(22,23,18,0.15); }
-    .swk-nav-links a:first-child { border-top: none; }
-    .swk-nav.open .swk-nav-links { display: flex; }
-    .swk-nav-toggle { display: block; }
-  }
-</style>
 <link rel="stylesheet" href="guide.css">
 <style>
   /* ---- Masthead ---- */
@@ -155,29 +136,18 @@
 </head>
 <body>
 
-<nav class="swk-nav" id="swk-nav">
-  <div class="swk-nav-c">
-    <a class="swk-wordmark" href="index.html">Suites With Keith</a>
-    <button class="swk-nav-toggle" id="swk-nav-toggle" aria-expanded="false" aria-controls="swk-nav-links">Menu</button>
-    <div class="swk-nav-links" id="swk-nav-links">
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-brand"><span class="nav-word">Suites With Keith</span></a>
+    <div class="nav-links">
       <a href="services.html">Services</a>
-      <a href="collections.html" aria-current="page">The Collections</a>
+      <a href="collections.html" class="active">The Collections</a>
       <a href="destination-guides.html">Destination Guides</a>
       <a href="rankings.html">Keith's Rankings</a>
       <a href="about.html">About</a>
     </div>
   </div>
 </nav>
-<script>
-(function () {
-  var t = document.getElementById('swk-nav-toggle');
-  var nav = document.getElementById('swk-nav');
-  if (t && nav) t.addEventListener('click', function () {
-    var open = nav.classList.toggle('open');
-    t.setAttribute('aria-expanded', String(open));
-  });
-})();
-</script>
 
 <header class="coll-masthead">
   <div class="container">
