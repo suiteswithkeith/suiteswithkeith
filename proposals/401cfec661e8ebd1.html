@@ -81,6 +81,23 @@
   .fun .est { font-family:'Courier Prime',monospace; font-size:.72rem; letter-spacing:.04em; margin:0 0 8px; }
   .maplink { font-family:'Courier Prime',monospace; font-size:.68rem; text-transform:uppercase; letter-spacing:.12em; color:var(--gold); text-decoration:none; border-bottom:1px solid var(--line); }
 
+  /* ————— Mykonos wildcard ————— */
+  .wild { background:#EAE6D8; margin-top:88px; padding:80px 0; }
+  .hcard { border:1px solid var(--line); background:var(--card); display:flex; flex-direction:column; }
+  .hcard .photo { height:200px; }
+  .hcard .body { padding:22px; display:flex; flex-direction:column; gap:8px; }
+  .hcard .label { font-family:'Courier Prime',monospace; font-size:.7rem; text-transform:uppercase; letter-spacing:.16em; color:var(--gold); }
+  .hcard .name { font-family:'Bodoni Moda',Didot,serif; font-weight:500; font-size:1.25rem; line-height:1.25; }
+  .hcard .name a { color:var(--ink); text-decoration:none; border-bottom:1px solid rgba(22,23,18,.25); }
+  .hcard .cred { font-family:'Courier Prime',monospace; font-size:.7rem; letter-spacing:.06em; text-transform:uppercase; color:#4A5040; }
+  .hcard p { font-size:.9rem; color:var(--muted); line-height:1.55; }
+  .whys { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; margin:0 0 40px; }
+  .why { border-top:1px solid var(--line); padding-top:12px; }
+  .why .t { font-family:'Bodoni Moda',Didot,serif; font-weight:500; font-size:1.05rem; margin-bottom:6px; }
+  .why p { font-size:.88rem; color:var(--muted); line-height:1.55; }
+  @media (max-width:980px) { .whys { grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:720px) { .wild { margin-top:64px; padding:56px 0; } .whys { grid-template-columns:1fr; } }
+
   /* ————— Dark island-choice section ————— */
   .dark { background:var(--dark2); color:var(--cream); margin-top:88px; padding:88px 0; }
   .dark h2.big { color:var(--cream); }
@@ -413,6 +430,123 @@
       </div>
     </div>
     <div class="photo wide"><img src="../images/islands/santorini-days.jpg" alt="Santorini days" loading="lazy"></div>
+  </section>
+
+  <!-- ————— The wildcard · Mykonos ————— -->
+  <section class="wild">
+    <div class="wrap">
+      <span class="kicker">The Wildcard · An idea, not a change of plan</span>
+      <h2 class="big">Or: open on Mykonos <em>instead</em></h2>
+      <p class="intro" style="margin-bottom:34px;">Hear me out. Santorini is the postcard, and if it's the dream, we keep it. But if you're open to it, I think Mykonos might actually fit the two of you better for the opening act: the hotel options are stronger, it's more of a mother-daughter island — beach clubs, boutiques, real evenings out together — and in May it's none of the chaos it's famous for in August. It's so perfect that time of year. It's also, honestly, more culturally interesting: ancient Delos, one of Greece's great archaeological sites, is a morning's boat ride away. And the connections work identically — direct flights from Athens, and Paros or Milos are an easy hop onward.</p>
+      <div class="photo h340"><img src="../images/islands/mykonos-hero.jpg" alt="Mykonos" loading="lazy"></div>
+
+      <div class="whys">
+        <div class="why">
+          <div class="t">Better hotels</div>
+          <p>Two of my Greece Top 10 and my Best New Resort in Greece are on this island. Santorini's suites are beautiful; Mykonos' resorts are complete.</p>
+        </div>
+        <div class="why">
+          <div class="t">May is the secret</div>
+          <p>The famous crowds and the meltemi wind are July–August problems. In May you get the beach clubs, the water and the town at half volume and full charm.</p>
+        </div>
+        <div class="why">
+          <div class="t">More to actually do</div>
+          <p>Delos and Rhenia by boat, a day trip to the villages of Tinos, beach clubs from bohemian to glamorous, and Mykonos Town's whitewashed maze after dark.</p>
+        </div>
+        <div class="why">
+          <div class="t">Same easy logistics</div>
+          <p>Fly Athens → Mykonos in 40 minutes, then a short ferry on to Paros or Milos on May 22. Nothing else about the trip changes.</p>
+        </div>
+      </div>
+
+      <div class="rule-head">Where I'd put you — all four toured in person</div>
+      <div class="grid2" style="margin-bottom:40px;">
+        <div class="hcard">
+          <div class="photo"><img src="../images/hotels/fouquets-1.jpg" alt="Fouquet's Mykonos" loading="lazy"></div>
+          <div class="body">
+            <div class="label">The front-runner for you two</div>
+            <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Fouquet%27s%20Mykonos" target="_blank" rel="noopener">Fouquet's Mykonos</a></div>
+            <div class="cred">Best New Resort · My Greece Collection edit · From ~$900/night</div>
+            <p>The energy of the south coast with a true luxury resort behind it — spacious suites, standout dining (dinner at ZUMA is worth planning an evening around), and a walk to Paraga Beach and Scorpios so you can leave the car behind. Beach clubs by day, somewhere polished to come back to. The Aegean Suite with private pool is the room I'd book.</p>
+          </div>
+        </div>
+        <div class="hcard">
+          <div class="photo"><img src="../images/hotels/cali-mykonos-1.jpg" alt="Cali Mykonos" loading="lazy"></div>
+          <div class="body">
+            <div class="label">The other front-runner</div>
+            <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Cali%20Mykonos" target="_blank" rel="noopener">Cali Mykonos</a></div>
+            <div class="cred">#08 · My Greece Top 10</div>
+            <p>An independent stunner on the island's quiet east side — one of the largest infinity pools in Greece with real space between the loungers, plunge pools that are genuinely private, and staff who greet you by name. The hotel runs boats to the beach clubs when you want the scene, and keeps you far from it when you don't. Addison will also appreciate the best hotel gym I've ever seen.</p>
+          </div>
+        </div>
+        <div class="hcard">
+          <div class="photo"><img src="../images/hotels/billandcoo-coast-1.jpg" alt="Bill &amp; Coo Coast" loading="lazy"></div>
+          <div class="body">
+            <div class="label">Best for the water</div>
+            <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Bill%20%26%20Coo%20Coast%20Mykonos" target="_blank" rel="noopener">Bill &amp; Coo Coast</a></div>
+            <div class="cred">#06 · My Greece Top 10 · Adults-only</div>
+            <p>Massive, incredibly private suites directly on a protected bay — unlike most Mykonos luxury perched high above the sea, this one puts you on the shoreline, with a beautiful private beach club and lunch at Beefbar on-site. And the best breakfasts I had anywhere in Greece: I was usually full until dinner.</p>
+          </div>
+        </div>
+        <div class="hcard">
+          <div class="photo"><img src="../images/islands/mykonos-divider.jpg" alt="Mykonos Town" loading="lazy"></div>
+          <div class="body">
+            <div class="label">Best for town evenings</div>
+            <div class="name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Bill%20%26%20Coo%20Suites%20Mykonos" target="_blank" rel="noopener">Bill &amp; Coo Suites, Mykonos Town</a></div>
+            <div class="cred">Best Breakfast &amp; Best Service · My Greece Collection edit</div>
+            <p>The sister property, minutes from Mykonos Town — the pick if your Mykonos is dinners, boutiques and evenings wandering the whitewashed maze together, with the group's exceptional service and award-winning breakfast running through it. Between the two Bill &amp; Coos you're choosing a location, not a level of quality.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rule-head">For the two of you on Mykonos</div>
+      <div class="grid3">
+        <div class="fun">
+          <span class="kind">Boat day · Culture</span>
+          <div class="name">Delos &amp; Rhenia by private boat</div>
+          <p>A morning among the ancient ruins of Delos — the sacred island at the center of the Cyclades — then an afternoon swimming off Rhenia's empty beaches. History for Linda, the swim stops for Addison, lunch on deck for both.</p>
+          <div class="est">Private charter — I'll price the right boat for the morning</div>
+          <a class="maplink" href="https://www.google.com/maps/search/?api=1&amp;query=Delos%2C%20Greece" target="_blank" rel="noopener">Google Maps →</a>
+        </div>
+        <div class="fun">
+          <span class="kind">Beach club</span>
+          <div class="name">Alemagou, Ftelia</div>
+          <p>My pick for the design crowd — bamboo, dry-stone, and a beach that stays calmer in spirit than the south coast. The long, stylish lunch of the trip.</p>
+          <div class="est">Sunbeds booked ahead — easy in May</div>
+          <a class="maplink" href="https://www.google.com/maps/search/?api=1&amp;query=Alemagou%2C%20Ftelia%2C%20Mykonos" target="_blank" rel="noopener">Google Maps →</a>
+        </div>
+        <div class="fun">
+          <span class="kind">The ritual</span>
+          <div class="name">Scorpios at sunset — arriving by sea</div>
+          <p>The island's most famous sunset, and we skip the road entirely: a boat taxi pulls you up to the beach club from the water. In May you can actually get the good tables.</p>
+          <div class="est">Sunset seating + boat taxi, timed together</div>
+          <a class="maplink" href="https://www.google.com/maps/search/?api=1&amp;query=Scorpios%2C%20Paraga%2C%20Mykonos" target="_blank" rel="noopener">Google Maps →</a>
+        </div>
+        <div class="fun">
+          <span class="kind">Evenings</span>
+          <div class="name">Mykonos Town after dark</div>
+          <p>Wander the whitewashed maze as the light goes gold, then a late dinner at Interni or M-Eating — the island doesn't sit down before nine, and the best of it starts after that.</p>
+          <div class="est">Dinner est. €70–100 per person</div>
+          <a class="maplink" href="https://www.google.com/maps/search/?api=1&amp;query=Interni%2C%20Mykonos%20Town" target="_blank" rel="noopener">Google Maps →</a>
+        </div>
+        <div class="fun">
+          <span class="kind">Lunch</span>
+          <div class="name">Kiki's Tavern, Agios Sostis</div>
+          <p>The famous no-reservations, no-electricity grill house above a quiet northern beach. Go at opening, embrace the short May wait, and swim below afterward.</p>
+          <div class="est">Est. €30–50 per person</div>
+          <a class="maplink" href="https://www.google.com/maps/search/?api=1&amp;query=Kiki%27s%20Tavern%2C%20Agios%20Sostis%2C%20Mykonos" target="_blank" rel="noopener">Google Maps →</a>
+        </div>
+        <div class="fun">
+          <span class="kind">Day trip</span>
+          <div class="name">Tinos, the sleeper pick</div>
+          <p>A private boat to the villages of Tinos — a completely different Greece thirty minutes away. Almost nobody asks for this one, and everybody who does comes back talking about it.</p>
+          <div class="est">Private charter — priced with the Delos day</div>
+          <a class="maplink" href="https://www.google.com/maps/search/?api=1&amp;query=Tinos%2C%20Greece" target="_blank" rel="noopener">Google Maps →</a>
+        </div>
+      </div>
+
+      <p style="font-size:.95rem;color:var(--muted);line-height:1.6;max-width:760px;margin:36px 0 0;">If this tempts you at all, say the word and I'll price your dates at all four — same May 19–22 window, same onward ferry, and rates through me come with a space-available upgrade, daily breakfast and a hotel credit. If Santorini's the dream, we keep the dream. Both answers are right.</p>
+    </div>
   </section>
 
   <!-- ————— Stop 02 · The choice ————— -->
