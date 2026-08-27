@@ -58,6 +58,10 @@
 
   function injectStyles() {
     var css = [
+      /* display:flex would override the hidden attribute's display:none —
+         without this rule the invisible overlay covers the page and eats
+         every click. */
+      '.swkb-overlay[hidden]{display:none}',
       '.swkb-overlay{position:fixed;inset:0;z-index:200;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(22,23,18,.62);opacity:0;transition:opacity .22s ease}',
       '.swkb-overlay.swkb-open{opacity:1}',
       '.swkb-card{position:relative;width:min(600px,100%);max-height:calc(100vh - 40px);overflow-y:auto;background:var(--plaster,#F2EFE6);color:var(--ink,#1F201A);padding:52px 48px 44px;box-shadow:0 30px 80px rgba(22,23,18,.45);transform:translateY(14px);transition:transform .22s ease}',
