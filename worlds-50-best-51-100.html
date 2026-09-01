@@ -25,6 +25,7 @@ h1,h2,h3,.w50-wordmark{font-optical-sizing:none;font-variation-settings:'opsz' 2
 .w50-nav-links a:hover{color:var(--ink)}
 .w50-cta{font-family:var(--stamp);font-size:13px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;background:var(--olive);color:var(--plaster) !important;padding:14px 26px;transition:background var(--dur-1) var(--ease)}
 .w50-cta:hover{background:var(--ink);color:var(--plaster) !important}
+.w50-cta .cta-short{display:none}
 .w50-section{padding:96px 48px}
 .w50-wrap{max-width:var(--container);margin:0 auto}
 .w50-eyebrow{font-family:var(--stamp);font-size:14px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass)}
@@ -36,7 +37,7 @@ h1,h2,h3,.w50-wordmark{font-optical-sizing:none;font-variation-settings:'opsz' 2
 .w50-stats{display:flex;flex-wrap:wrap;gap:24px 48px;margin-top:56px;border-top:1px solid var(--band-hairline);padding-top:28px;font-family:var(--stamp);font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--band-ash)}
 .w50-stats .lit{color:var(--brass-lit)}
 .picks-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:56px}
-.pick{background:var(--lime);border:1px solid var(--hairline);display:flex;flex-direction:column}
+.pick{background:var(--lime);border:1px solid var(--hairline);display:flex;flex-direction:column;scroll-margin-top:96px}
 .pick img{width:100%;height:300px;object-fit:cover;display:block}
 .pick-pad{padding:30px;display:flex;flex-direction:column;flex:1}
 .pick-meta{display:flex;align-items:center;gap:16px}
@@ -45,6 +46,21 @@ h1,h2,h3,.w50-wordmark{font-optical-sizing:none;font-variation-settings:'opsz' 2
 .pick-chip{margin-left:auto;font-family:var(--stamp);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);border:1px solid var(--hairline);padding:5px 11px;white-space:nowrap}
 .pick h3{font-family:var(--display);font-weight:500;font-size:30px;margin:16px 0 0}
 .pick-blurb{font-weight:300;font-size:17px;line-height:1.65;color:var(--ash);margin:16px 0 0;border-left:2px solid var(--brass);padding-left:16px}
+.pick-facts{margin-top:22px;border-top:1px solid var(--hairline)}
+.pf{display:flex;gap:14px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--hairline)}
+.pf-k{font-family:var(--stamp);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);min-width:78px;white-space:nowrap}
+.pf-v{font-weight:300;font-size:15px;line-height:1.55;color:var(--ash)}
+.pick-go{margin-top:auto;padding-top:20px;font-family:var(--stamp);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);text-decoration:none;transition:color var(--dur-1) var(--ease)}
+.pick-go:hover{color:var(--ink)}
+.shortcut{margin-top:72px;border-top:1px solid var(--hairline);padding-top:56px}
+.shortcut .sub{font-weight:300;font-size:17px;line-height:1.65;color:var(--ash);margin:16px 0 0;max-width:560px}
+.shortcut-rows{margin-top:36px;border-top:1px solid var(--hairline)}
+.sc-row{display:flex;gap:16px 24px;align-items:baseline;padding:15px 0;border-bottom:1px solid var(--hairline);flex-wrap:wrap}
+.sc-k{font-family:var(--stamp);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);min-width:190px}
+.sc-v{font-weight:300;font-size:16px;line-height:1.7}
+.sc-v a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--hairline-firm);transition:color var(--dur-1) var(--ease),border-color var(--dur-1) var(--ease)}
+.sc-v a:hover{color:var(--brass);border-color:currentColor}
+.sc-sep{color:var(--ash-3)}
 .w50-list{background:var(--plaster-deep)}
 .list-head{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap}
 .list-legend{font-family:var(--stamp);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ash-3)}
@@ -56,6 +72,9 @@ h1,h2,h3,.w50-wordmark{font-optical-sizing:none;font-variation-settings:'opsz' 2
 .lr-city{font-family:var(--stamp);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ash-3);text-align:right}
 .lr.pick-row{border-left:2px solid var(--brass);padding-left:16px}
 .lr.pick-row .lr-name{font-weight:500}
+a.lr{text-decoration:none;color:inherit;transition:background var(--dur-1) var(--ease)}
+a.lr:hover{background:rgba(131,98,41,.06)}
+a.lr:hover .lr-name{color:var(--brass)}
 .perks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;border-top:1px solid var(--band-hairline)}
 .perk{padding:36px 32px;border-right:1px solid var(--band-hairline)}
 .perk:first-child{padding-left:0}
@@ -86,16 +105,30 @@ h1,h2,h3,.w50-wordmark{font-optical-sizing:none;font-variation-settings:'opsz' 2
 .w50-footer .meta{font-family:var(--stamp);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ash-3)}
 .w50-footer .meta a{color:inherit;text-decoration:none}
 .w50-footer .meta a:hover{color:var(--ink)}
+.sticky-cta{font-family:var(--stamp);letter-spacing:.16em}
 section[id]{scroll-margin-top:78px}
 @media(max-width:900px){
-  .w50-nav{padding:16px 20px}
-  .w50-nav-links{gap:0}
-  .w50-nav-links a:not(.w50-cta){display:none}
+  .w50-nav{position:static;flex-direction:column;align-items:stretch;gap:14px;padding:18px 20px 0}
+  .w50-wordmark{font-size:20px}
+  .w50-nav-links{width:100%;justify-content:space-between;gap:8px 10px;flex-wrap:wrap;border-top:1px solid var(--hairline);padding:12px 0 14px}
+  .w50-nav-links a{font-size:11px;letter-spacing:.1em}
+  .w50-cta{background:none;color:var(--brass) !important;padding:0;font-size:11px;letter-spacing:.1em}
+  .w50-cta:hover{background:none;color:var(--ink) !important}
+  .w50-cta .cta-short{display:inline}
+  .w50-cta .cta-long{display:none}
   .w50-section,.w50-hero,.w50-inquire{padding-left:20px;padding-right:20px}
-  .w50-hero{padding-top:72px;padding-bottom:72px}
+  .w50-hero{padding-top:64px;padding-bottom:64px}
   .w50-section{padding-top:60px;padding-bottom:60px}
-  .w50-stats{gap:16px 28px}
+  .w50-stats{gap:16px 28px;margin-top:40px}
   .picks-grid{grid-template-columns:1fr;gap:28px;margin-top:40px}
+  .pick img{height:240px}
+  .pick-pad{padding:24px 20px}
+  .pick h3{font-size:26px}
+  .pick-meta{flex-wrap:wrap;row-gap:10px}
+  .pick-chip{margin-left:0}
+  .shortcut{margin-top:56px;padding-top:44px}
+  .sc-row{flex-direction:column;gap:6px;padding:13px 0}
+  .sc-k{min-width:0}
   .list-cols{grid-template-columns:1fr;column-gap:0;margin-top:36px}
   .lr.last:not(:last-child){border-bottom:none}
   .perks-grid{grid-template-columns:1fr}
@@ -104,6 +137,8 @@ section[id]{scroll-margin-top:78px}
   .w50-form-row{flex-direction:column;gap:12px}
   .w50-form-row input{border-right:1px solid rgba(22,23,18,.3)}
   .w50-footer{padding:32px 20px}
+  section[id]{scroll-margin-top:16px}
+  .pick{scroll-margin-top:16px}
 }
 </style></head>
 <body>
@@ -114,7 +149,7 @@ section[id]{scroll-margin-top:78px}
     <a href="#picks">My picks</a>
     <a href="#list">The full list</a>
     <a href="#perks">Perks</a>
-    <a class="w50-cta" href="#inquire" data-gtag-label="start_planning" data-gtag-location="nav">Let&rsquo;s plan your trip</a>
+    <a class="w50-cta" href="#inquire" data-gtag-label="start_planning" data-gtag-location="nav"><span class="cta-long">Let&rsquo;s plan your trip</span><span class="cta-short">Plan a trip</span></a>
   </div>
 </nav>
 
@@ -134,86 +169,153 @@ section[id]{scroll-margin-top:78px}
     <div class="w50-eyebrow reveal">My picks</div>
     <h2 class="w50-h2 reveal">Ten I&rsquo;d send you to <em>tomorrow</em></h2>
     <div class="picks-grid">
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-56">
         <img src="/images/worlds-50-best/rosewood-london.jpeg" alt="Rosewood London" width="1600" height="1108" loading="eager" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 56</span><span class="pick-city">London</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Rosewood London</h3>
           <p class="pick-blurb">A Belle &Eacute;poque bank reborn off High Holborn &mdash; the courtyard entrance alone is worth the stay.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">A grand London base &mdash; Covent Garden and the West End on foot.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You want small and boutique; this is stately, not intimate.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">Year-round &mdash; December, with the lights up, is the sleeper.</span></div>
+          </div>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-58">
         <img src="/images/worlds-50-best/il-san-pietro-positano.jpeg" alt="Il San Pietro di Positano" width="1086" height="768" loading="eager" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 58</span><span class="pick-city">Positano, Italy</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Il San Pietro di Positano</h3>
           <p class="pick-blurb">Family-run cliffside legend &mdash; every room a private terrace, and a lift carved through rock to its own beach.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">Honeymoons and big anniversaries &mdash; Amalfi at full volume.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You&rsquo;re bringing young kids; it&rsquo;s a formal, grown-up house.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">Late May&ndash;June or September; July&ndash;August is the crush.</span></div>
+          </div>
+          <a class="pick-go" href="/hotels/il-san-pietro-di-positano.html" data-gtag-label="hotel_brief" data-gtag-location="w50_pick">Read the full brief &rarr;</a>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-62">
         <img src="/images/worlds-50-best/castiglion-del-bosco.jpeg" alt="Castiglion del Bosco" width="1600" height="1067" loading="lazy" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 62</span><span class="pick-city">Montalcino, Tuscany</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Castiglion del Bosco</h3>
           <p class="pick-blurb">An 800-year-old Val d&rsquo;Orcia estate &mdash; Brunello vineyards, a private golf club and suites in the old borgo.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">Slow wine weeks &mdash; Brunello tastings, drives through Val d&rsquo;Orcia.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You want to walk to dinner in town; the estate is gloriously remote.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">May&ndash;June, or September&ndash;October for harvest.</span></div>
+          </div>
+          <a class="pick-go" href="/hotels/rosewood-castiglion-del-bosco-tuscany.html" data-gtag-label="hotel_brief" data-gtag-location="w50_pick">Read the full brief &rarr;</a>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-66">
         <img src="/images/worlds-50-best/orient-express-la-minerva.webp" alt="Orient Express La Minerva" width="1024" height="768" loading="lazy" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 66</span><span class="pick-city">Rome</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Orient Express La Minerva</h3>
           <p class="pick-blurb">The storied Palazzo Fonseca reawakened &mdash; Roman grandeur with a rooftop looking straight at the Pantheon.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">A first Rome trip done at the top level &mdash; the Pantheon is out the front door.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You&rsquo;re after quiet seclusion; you&rsquo;re in the thick of the centro.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">April&ndash;June or September&ndash;October.</span></div>
+          </div>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-67">
         <img src="/images/worlds-50-best/montage-los-cabos.webp" alt="Montage Los Cabos" width="1024" height="656" loading="lazy" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 67</span><span class="pick-city">Cabo San Lucas, Mexico</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Montage Los Cabos</h3>
           <p class="pick-blurb">On swimmable Santa Maria Bay &mdash; rare for Cabo &mdash; with barefoot luxury done properly.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">Families and groups &mdash; Cabo&rsquo;s rare swimmable beach.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You want walkable nightlife; downtown is a drive.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">November&ndash;May; summer runs hot.</span></div>
+          </div>
+          <a class="pick-go" href="/hotels/montage-los-cabos.html" data-gtag-label="hotel_brief" data-gtag-location="w50_pick">Read the full brief &rarr;</a>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-68">
         <img src="/images/worlds-50-best/forestis-dolomites.jpeg" alt="Forestis Dolomites" width="1600" height="1067" loading="lazy" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 68</span><span class="pick-city">Brixen, Italy</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Forestis Dolomites</h3>
           <p class="pick-blurb">A former sanatorium at 1,800 metres &mdash; pure Dolomite air, spring water and floor-to-ceiling peaks.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">A phones-down spa reset &mdash; silence, saunas, mountain air.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You need a scene; evenings here are a whisper.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">December&ndash;March for snow, June&ndash;September for trails.</span></div>
+          </div>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-74">
         <img src="/images/worlds-50-best/four-seasons-tamarindo.jpeg" alt="Four Seasons Tamarindo" width="1600" height="1023" loading="lazy" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 74</span><span class="pick-city">La Manzanilla, Mexico</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Four Seasons Tamarindo</h3>
           <p class="pick-blurb">3,000 acres of protected Pacific coast &mdash; architecture that frames the wild, not the other way around.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">Going properly off-grid &mdash; empty coast, golf, night skies.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You want restaurants and town life nearby; there are none, by design.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">November&ndash;April.</span></div>
+          </div>
+          <a class="pick-go" href="/hotels/four-seasons-tamarindo.html" data-gtag-label="hotel_brief" data-gtag-location="w50_pick">Read the full brief &rarr;</a>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-81">
         <img src="/images/worlds-50-best/capella-hanoi.jpeg" alt="Capella Hanoi" width="1600" height="984" loading="lazy" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 81</span><span class="pick-city">Hanoi, Vietnam</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Capella Hanoi</h3>
           <p class="pick-blurb">Bill Bensley&rsquo;s opera-house fever dream &mdash; 47 art-stuffed rooms a curtain-call from the Opera House.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">Design lovers and city explorers &mdash; the Old Quarter is close by.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">Minimalist calm is your thing; this is maximalism, joyfully.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">October&ndash;April; summer is a steam room.</span></div>
+          </div>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-84">
         <img src="/images/worlds-50-best/borgo-santandrea.webp" alt="Borgo Santandrea" width="1157" height="768" loading="lazy" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 84</span><span class="pick-city">Amalfi, Italy</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Borgo Santandrea</h3>
           <p class="pick-blurb">1960s Italian glamour above Conca dei Marini &mdash; hand-made tiles, a private beach club, 30 rooms.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">The Amalfi Coast without Positano&rsquo;s crowds &mdash; plus a real beach club.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You want to be inside Positano&rsquo;s buzz; this side is quieter.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">May&ndash;June or September.</span></div>
+          </div>
         </div>
       </article>
-      <article class="pick reveal">
+      <article class="pick reveal" id="no-95">
         <img src="/images/worlds-50-best/reschio.jpeg" alt="Reschio" width="1600" height="1108" loading="lazy" decoding="async">
         <div class="pick-pad">
           <div class="pick-meta"><span class="pick-rank">NO. 95</span><span class="pick-city">Lisciano Niccone, Umbria</span><span class="pick-chip">Bookable + perks</span></div>
           <h3>Reschio</h3>
           <p class="pick-blurb">An Etruscan castle restored over thirty years &mdash; estate gin in the minibar, a spa in the old wine cellar.</p>
+          <div class="pick-facts">
+            <div class="pf"><span class="pf-k">Right for</span><span class="pf-v">Romance and long dinners &mdash; riding at dawn, a spa in the cellar.</span></div>
+            <div class="pf"><span class="pf-k">Skip if</span><span class="pf-v">You need a beach or a scene; this is deep countryside.</span></div>
+            <div class="pf"><span class="pf-k">When</span><span class="pf-v">May&ndash;June or September&ndash;October.</span></div>
+          </div>
         </div>
       </article>
+    </div>
+    <div class="shortcut reveal" id="shortcut">
+      <div class="w50-eyebrow">The shortcut</div>
+      <h3 class="w50-h2" style="font-size:clamp(1.6rem,2.8vw,2.1rem);">Start with the trip, not the list</h3>
+      <p class="sub">Know the trip you&rsquo;re planning? These are the ones I&rsquo;d shortlist &mdash; tap a name to jump to it.</p>
+      <div class="shortcut-rows">
+      <div class="sc-row"><span class="sc-k">Honeymoon</span><span class="sc-v"><a href="#no-58">Il San Pietro</a> <span class="sc-sep">&middot;</span> <a href="#no-84">Borgo Santandrea</a></span></div>
+      <div class="sc-row"><span class="sc-k">Wine &amp; countryside</span><span class="sc-v"><a href="#no-62">Castiglion del Bosco</a> <span class="sc-sep">&middot;</span> <a href="#no-95">Reschio</a></span></div>
+      <div class="sc-row"><span class="sc-k">City break</span><span class="sc-v"><a href="#no-56">Rosewood London</a> <span class="sc-sep">&middot;</span> <a href="#no-66">La Minerva</a> <span class="sc-sep">&middot;</span> <a href="#no-81">Capella Hanoi</a></span></div>
+      <div class="sc-row"><span class="sc-k">Spa &amp; silence</span><span class="sc-v"><a href="#no-68">Forestis</a></span></div>
+      <div class="sc-row"><span class="sc-k">Beach with kids</span><span class="sc-v"><a href="#no-67">Montage Los Cabos</a></span></div>
+      <div class="sc-row"><span class="sc-k">Off-grid escape</span><span class="sc-v"><a href="#no-74">Four Seasons Tamarindo</a></span></div>
+      </div>
     </div>
   </div>
 </section>
@@ -225,7 +327,7 @@ section[id]{scroll-margin-top:78px}
         <div class="w50-eyebrow">The full list</div>
         <h2 class="w50-h2">Nos. 51&ndash;100, <em>complete</em></h2>
       </div>
-      <div class="list-legend">Brass rule = my pick &middot; source: 50 Best, 01.09.2026</div>
+      <div class="list-legend">Brass rule = my pick, tap it &middot; source: 50 Best, 01.09.2026</div>
     </div>
     <div class="list-cols reveal">
       <div>
@@ -234,25 +336,25 @@ section[id]{scroll-margin-top:78px}
         <div class="lr"><span class="lr-rank">53</span><span class="lr-name">Park Hyatt Tokyo</span><span class="lr-city">Tokyo</span></div>
         <div class="lr"><span class="lr-rank">54</span><span class="lr-name">Palacio Nazarenas</span><span class="lr-city">Cusco</span></div>
         <div class="lr"><span class="lr-rank">55</span><span class="lr-name">Soneva Fushi</span><span class="lr-city">Maldives</span></div>
-        <div class="lr pick-row"><span class="lr-rank">56</span><span class="lr-name">Rosewood London</span><span class="lr-city">London</span></div>
+        <a class="lr pick-row" href="#no-56" title="Jump to my pick"><span class="lr-rank">56</span><span class="lr-name">Rosewood London</span><span class="lr-city">London</span></a>
         <div class="lr"><span class="lr-rank">57</span><span class="lr-name">Hotel Bel-Air</span><span class="lr-city">Los Angeles</span></div>
-        <div class="lr pick-row"><span class="lr-rank">58</span><span class="lr-name">Il San Pietro di Positano</span><span class="lr-city">Positano</span></div>
+        <a class="lr pick-row" href="#no-58" title="Jump to my pick"><span class="lr-rank">58</span><span class="lr-name">Il San Pietro di Positano</span><span class="lr-city">Positano</span></a>
         <div class="lr"><span class="lr-rank">59</span><span class="lr-name">Mandarin Oriental Hong Kong</span><span class="lr-city">Hong Kong</span></div>
         <div class="lr"><span class="lr-rank">60</span><span class="lr-name">Splendido</span><span class="lr-city">Portofino</span></div>
         <div class="lr"><span class="lr-rank">61</span><span class="lr-name">Mandapa</span><span class="lr-city">Bali</span></div>
-        <div class="lr pick-row"><span class="lr-rank">62</span><span class="lr-name">Castiglion del Bosco</span><span class="lr-city">Montalcino</span></div>
+        <a class="lr pick-row" href="#no-62" title="Jump to my pick"><span class="lr-rank">62</span><span class="lr-name">Castiglion del Bosco</span><span class="lr-city">Montalcino</span></a>
         <div class="lr"><span class="lr-rank">63</span><span class="lr-name">Sofitel Legend Casco Viejo</span><span class="lr-city">Panama City</span></div>
         <div class="lr"><span class="lr-rank">64</span><span class="lr-name">Hotel Esencia</span><span class="lr-city">Tulum</span></div>
         <div class="lr"><span class="lr-rank">65</span><span class="lr-name">The Beverly Hills Hotel</span><span class="lr-city">Los Angeles</span></div>
-        <div class="lr pick-row"><span class="lr-rank">66</span><span class="lr-name">Orient Express La Minerva</span><span class="lr-city">Rome</span></div>
-        <div class="lr pick-row"><span class="lr-rank">67</span><span class="lr-name">Montage Los Cabos</span><span class="lr-city">Cabo San Lucas</span></div>
-        <div class="lr pick-row"><span class="lr-rank">68</span><span class="lr-name">Forestis Dolomites</span><span class="lr-city">Brixen</span></div>
+        <a class="lr pick-row" href="#no-66" title="Jump to my pick"><span class="lr-rank">66</span><span class="lr-name">Orient Express La Minerva</span><span class="lr-city">Rome</span></a>
+        <a class="lr pick-row" href="#no-67" title="Jump to my pick"><span class="lr-rank">67</span><span class="lr-name">Montage Los Cabos</span><span class="lr-city">Cabo San Lucas</span></a>
+        <a class="lr pick-row" href="#no-68" title="Jump to my pick"><span class="lr-rank">68</span><span class="lr-name">Forestis Dolomites</span><span class="lr-city">Brixen</span></a>
         <div class="lr"><span class="lr-rank">69</span><span class="lr-name">The Okura</span><span class="lr-city">Tokyo</span></div>
         <div class="lr"><span class="lr-rank">70</span><span class="lr-name">Rosewood Bangkok</span><span class="lr-city">Bangkok</span></div>
         <div class="lr"><span class="lr-rank">71</span><span class="lr-name">Amangalla</span><span class="lr-city">Galle</span></div>
         <div class="lr"><span class="lr-rank">72</span><span class="lr-name">Ritz Paris</span><span class="lr-city">Paris</span></div>
         <div class="lr"><span class="lr-rank">73</span><span class="lr-name">Palace Hotel Tokyo</span><span class="lr-city">Tokyo</span></div>
-        <div class="lr pick-row last"><span class="lr-rank">74</span><span class="lr-name">Four Seasons Tamarindo</span><span class="lr-city">La Manzanilla</span></div>
+        <a class="lr pick-row last" href="#no-74" title="Jump to my pick"><span class="lr-rank">74</span><span class="lr-name">Four Seasons Tamarindo</span><span class="lr-city">La Manzanilla</span></a>
       </div>
       <div>
         <div class="lr"><span class="lr-rank">75</span><span class="lr-name">La Mamounia</span><span class="lr-city">Marrakech</span></div>
@@ -261,10 +363,10 @@ section[id]{scroll-margin-top:78px}
         <div class="lr"><span class="lr-rank">78</span><span class="lr-name">The Fifth Avenue Hotel</span><span class="lr-city">New York</span></div>
         <div class="lr"><span class="lr-rank">79</span><span class="lr-name">Hotel The Mitsui</span><span class="lr-city">Kyoto</span></div>
         <div class="lr"><span class="lr-rank">80</span><span class="lr-name">Carlton Cannes</span><span class="lr-city">Cannes</span></div>
-        <div class="lr pick-row"><span class="lr-rank">81</span><span class="lr-name">Capella Hanoi</span><span class="lr-city">Hanoi</span></div>
+        <a class="lr pick-row" href="#no-81" title="Jump to my pick"><span class="lr-rank">81</span><span class="lr-name">Capella Hanoi</span><span class="lr-city">Hanoi</span></a>
         <div class="lr"><span class="lr-rank">82</span><span class="lr-name">Huka Lodge</span><span class="lr-city">Taup&#333;</span></div>
         <div class="lr"><span class="lr-rank">83</span><span class="lr-name">The Calile</span><span class="lr-city">Brisbane</span></div>
-        <div class="lr pick-row"><span class="lr-rank">84</span><span class="lr-name">Borgo Santandrea</span><span class="lr-city">Amalfi</span></div>
+        <a class="lr pick-row" href="#no-84" title="Jump to my pick"><span class="lr-rank">84</span><span class="lr-name">Borgo Santandrea</span><span class="lr-city">Amalfi</span></a>
         <div class="lr"><span class="lr-rank">85</span><span class="lr-name">Hoshinoya Tokyo</span><span class="lr-city">Tokyo</span></div>
         <div class="lr"><span class="lr-rank">86</span><span class="lr-name">Four Seasons Hong Kong</span><span class="lr-city">Hong Kong</span></div>
         <div class="lr"><span class="lr-rank">87</span><span class="lr-name">Aman New York</span><span class="lr-city">New York</span></div>
@@ -275,7 +377,7 @@ section[id]{scroll-margin-top:78px}
         <div class="lr"><span class="lr-rank">92</span><span class="lr-name">The Greenwich Hotel</span><span class="lr-city">New York</span></div>
         <div class="lr"><span class="lr-rank">93</span><span class="lr-name">The Maybourne Riviera</span><span class="lr-city">Roquebrune-C.-M.</span></div>
         <div class="lr"><span class="lr-rank">94</span><span class="lr-name">The Johri</span><span class="lr-city">Jaipur</span></div>
-        <div class="lr pick-row"><span class="lr-rank">95</span><span class="lr-name">Reschio</span><span class="lr-city">Lisciano Niccone</span></div>
+        <a class="lr pick-row" href="#no-95" title="Jump to my pick"><span class="lr-rank">95</span><span class="lr-name">Reschio</span><span class="lr-city">Lisciano Niccone</span></a>
         <div class="lr"><span class="lr-rank">96</span><span class="lr-name">Wynn Palace</span><span class="lr-city">Macau</span></div>
         <div class="lr"><span class="lr-rank">97</span><span class="lr-name">Capella Singapore</span><span class="lr-city">Singapore</span></div>
         <div class="lr"><span class="lr-rank">98</span><span class="lr-name">The Oberoi Udaivilas</span><span class="lr-city">Udaipur</span></div>
@@ -338,6 +440,8 @@ section[id]{scroll-margin-top:78px}
     <div class="meta"><a href="https://instagram.com/suiteswithkeith" rel="noopener">@suiteswithkeith</a> &middot; Rankings: The World&rsquo;s 50 Best Hotels 2026</div>
   </div>
 </footer>
+
+<a href="#inquire" class="btn sticky-cta" data-gtag-label="start_planning" data-gtag-location="sticky_mobile">Tell me which one</a>
 
 <script type="module">const i=new IntersectionObserver(e=>{e.forEach(n=>{n.isIntersecting&&(n.target.classList.add("on"),i.unobserve(n.target))})},{threshold:.15});document.querySelectorAll(".reveal").forEach((e,n)=>{e.style.transitionDelay=Math.min(n%5,4)*60+"ms",i.observe(e)});const t=document.querySelector(".w50-form");if(t){const e=t.querySelector(".step2"),n=t.querySelector('input[name="travel_dates"]'),r=t.querySelector(".status"),s=t.querySelector('button[type="submit"]'),o=()=>{e&&e.hidden&&(e.hidden=!1)};e&&n&&(e.hidden=!0,n.addEventListener("focus",o),n.addEventListener("input",o),t.addEventListener("invalid",o,!0)),t.addEventListener("submit",d=>{d.preventDefault(),s.disabled=!0,r.textContent="",fetch(t.action,{method:"POST",body:new FormData(t),headers:{Accept:"application/json"}}).then(c=>{if(!c.ok)throw new Error;t.reset(),t.classList.add("done"),r.textContent="Got it. You\u2019ll hear from me, not an autoresponder."}).catch(()=>{r.textContent="That didn\u2019t send \u2014 email me at keith.pence@fora.travel."}).then(()=>{s.disabled=!1})})}</script>
 <script defer src="/js/swk-events.js"></script>
