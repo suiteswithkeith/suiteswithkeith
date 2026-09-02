@@ -1,7 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <title>Meckley Trip Reference</title>
-<meta name="robots" content="noindex, nofollow">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500;1,6..96,600&family=Jost:ital,wght@0,300;0,400;0,500;1,300&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-display:swap;font-weight:400 900;src:url(/assets/bodoni-moda-latin-ext-wght-normal.BlIE6rrN.woff2) format("woff2-variations");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-display:swap;font-weight:400 900;src:url(/assets/bodoni-moda-latin-wght-normal.BIFT5Qnz.woff2) format("woff2-variations");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Bodoni Moda';font-style:italic;font-display:swap;font-weight:400 900;src:url(/assets/bodoni-moda-latin-ext-opsz-italic.QSGu6YSm.woff2) format("woff2-variations");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Bodoni Moda';font-style:italic;font-display:swap;font-weight:400 900;src:url(/assets/bodoni-moda-latin-opsz-italic.BCRrlh7t.woff2) format("woff2-variations");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-display:swap;font-weight:300;src:url(/assets/jost-latin-ext-300-normal.-ixxmfGr.woff2) format("woff2"),url(/assets/jost-latin-ext-300-normal.DIStW2bt.woff) format("woff");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-display:swap;font-weight:300;src:url(/assets/jost-latin-300-normal.DkBQXsFU.woff2) format("woff2"),url(/assets/jost-latin-300-normal.Ckm9JHl_.woff) format("woff");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-display:swap;font-weight:400;src:url(/assets/jost-latin-ext-400-normal.CpdMQIMr.woff2) format("woff2"),url(/assets/jost-latin-ext-400-normal.Dsyb2mtt.woff) format("woff");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-display:swap;font-weight:400;src:url(/assets/jost-latin-400-normal.q-RKOgPK.woff2) format("woff2"),url(/assets/jost-latin-400-normal.C7S-3Ky6.woff) format("woff");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-display:swap;font-weight:500;src:url(/assets/jost-latin-ext-500-normal.BkvHgcKf.woff2) format("woff2"),url(/assets/jost-latin-ext-500-normal.Cpxiadwk.woff) format("woff");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-display:swap;font-weight:500;src:url(/assets/jost-latin-500-normal.41lBe9I9.woff2) format("woff2"),url(/assets/jost-latin-500-normal.B-AtzreL.woff) format("woff");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Courier Prime';font-style:normal;font-display:swap;font-weight:400;src:url(/assets/courier-prime-latin-ext-400-normal.B-EsvyE4.woff2) format("woff2"),url(/assets/courier-prime-latin-ext-400-normal.CKOCNFvK.woff) format("woff");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Courier Prime';font-style:normal;font-display:swap;font-weight:400;src:url(/assets/courier-prime-latin-400-normal.BbyBr73r.woff2) format("woff2"),url(/assets/courier-prime-latin-400-normal.BAlbUm6l.woff) format("woff");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Courier Prime';font-style:normal;font-display:swap;font-weight:700;src:url(/assets/courier-prime-latin-ext-700-normal.ByMJlNdM.woff2) format("woff2"),url(/assets/courier-prime-latin-ext-700-normal.BIFoAzHx.woff) format("woff");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Courier Prime';font-style:normal;font-display:swap;font-weight:700;src:url(/assets/courier-prime-latin-700-normal.D1YCjmaD.woff2) format("woff2"),url(/assets/courier-prime-latin-700-normal.CVvp4Sof.woff) format("woff");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+</style>
 <style>
   /* Suites with Keith — "Plaster & Shadow"
      Plaster #F2EFE6 · deep plaster #E9E5DA · lime #FBFAF6
@@ -15,30 +34,40 @@
     --ash-light: #8C8D82;
     --brass: #836229;
     --hairline: rgba(22, 23, 18, .15);
-    --desk: #f5f5f4;
-    --page-margin: 0.75in;
     --font-display: 'Bodoni Moda', Didot, 'Bodoni MT', Georgia, serif;
     --font-body: 'Jost', 'Helvetica Neue', Arial, sans-serif;
     --font-stamp: 'Courier Prime', 'Courier New', monospace;
   }
 
-  /* ---- Desk and sheet -------------------------------------------------- */
-  body {
-    margin: 0;
-    background: var(--desk);
-    padding: 48px 24px;
-    -webkit-text-size-adjust: 100%;
-  }
-  .sheet {
-    width: 8.5in;
-    max-width: 100%;
+  /* ---- Page and card ---------------------------------------------------- */
+  /* Plaster page, lime card with a hairline: the same frame as the other
+     client guides on the site. No shadow, no radius. */
+  body { margin: 0; background: var(--plaster); padding: 44px 20px 56px; -webkit-text-size-adjust: 100%; }
+  .card-page {
+    max-width: 760px;
     margin: 0 auto;
-    background: #fff;
-    box-shadow: 0 2px 10px rgba(20, 20, 19, .12);
-    border-radius: 7px;
+    background: var(--lime);
+    border: 1px solid var(--hairline);
     box-sizing: border-box;
-    padding: var(--page-margin);
+    padding: 40px 52px 44px;
   }
+
+  /* ---- Masthead chrome ------------------------------------------------- */
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-family: var(--font-stamp);
+    font-size: 10px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--ash);
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--hairline);
+    margin-bottom: 30px;
+  }
+  .top-row a { color: var(--ash); text-decoration: none; }
+  .top-row a:hover { color: var(--brass); }
 
   /* ---- Body voice ------------------------------------------------------ */
   .doc {
@@ -117,7 +146,7 @@
   }
   .date-cell {
     display: block;
-    background: var(--lime);
+    background: var(--plaster);
     padding: 8px 10px;
     color: var(--ink);
     text-decoration: none;
@@ -223,7 +252,7 @@
   }
   .photo-low { object-position: 50% 68%; margin-bottom: 2px; }
 
-  .card { border: 1px solid var(--hairline); background: var(--lime); margin-top: 8px; }
+  .card { border: 1px solid var(--hairline); background: var(--plaster); margin-top: 8px; }
   .card img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; }
   .card-cap { padding: 8px 12px; }
 
@@ -237,7 +266,7 @@
   }
   .note-box {
     break-inside: avoid;
-    background: var(--lime);
+    background: var(--plaster);
     border: 1px solid var(--hairline);
     padding: 10px 14px;
     margin-top: 24px;
@@ -253,31 +282,50 @@
   .list { margin: 0; padding-left: 20px; display: grid; gap: 4px; }
   .list-tight { margin: 8px 0 0; padding-left: 20px; display: grid; gap: 4px; }
 
-  .doc-footer {
+  .close {
+    margin-top: 40px;
+    padding-top: 18px;
+    border-top: 1px solid var(--hairline);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 16px;
+  }
+  .close-title {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 21px;
+    margin: 0 0 4px;
+  }
+  .close-line { color: var(--ash); font-size: 13.5px; }
+  .close-line a { color: var(--ash); }
+  .close-mark {
     font-family: var(--font-stamp);
     font-size: 10px;
-    letter-spacing: .18em;
+    letter-spacing: .22em;
     text-transform: uppercase;
     color: var(--ash-light);
-    text-align: center;
-    padding-top: 14px;
+    white-space: nowrap;
   }
 
   /* ---- Reading on a phone ---------------------------------------------- */
   @media (max-width: 720px) {
-    body { padding: 0; background: #fff; }
-    .sheet { border-radius: 0; box-shadow: none; padding: 28px 20px 32px; }
+    body { padding: 12px 10px 40px; }
+    .card-page { padding: 26px 18px 30px; }
+    .top-row { margin-bottom: 22px; }
+    .close { flex-direction: column; align-items: flex-start; }
   }
   @media (max-width: 560px) {
     .row { grid-template-columns: 1fr; gap: 2px; }
     .row-label { padding-top: 0; }
     .pair { grid-template-columns: 1fr; }
+    h1 { font-size: 30px; }
   }
 
   /* ---- Print / PDF ----------------------------------------------------- */
   @media print {
     @page {
-      margin: var(--page-margin);
+      margin: 0.75in;
       @bottom-right {
         content: "Page " counter(page) " of " counter(pages);
         font-family: 'Courier Prime', monospace;
@@ -287,14 +335,8 @@
       }
     }
     body { background: #fff; padding: 0; }
-    .sheet {
-      width: auto;
-      max-width: none;
-      margin: 0;
-      padding: 0;
-      box-shadow: none;
-      border-radius: 0;
-    }
+    .card-page { max-width: none; margin: 0; padding: 0; border: 0; background: #fff; }
+    .top-row, .close { break-inside: avoid; }
     .break-page { break-before: page; }
     .totop { display: none !important; }
     .date-cell { color: var(--ink); }
@@ -302,16 +344,22 @@
     .photo, .card img, .note-box { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   }
 </style>
-
-<div class="sheet">
+</head>
+<body>
+<div class="card-page">
 <div class="doc">
 
-  <div class="eyebrow">Italy and Greece · September 3 to 17, 2026</div>
+  <div class="top-row">
+    <a href="https://suiteswithkeith.com/">Suites with Keith</a>
+    <span>Italy and Greece · 2026</span>
+  </div>
+
+  <div class="eyebrow">September 3 to 17 · day by day</div>
   <h1>Brenda, Jim, Taylor, Sol, Megan <em>and</em> Pablo</h1>
   <div class="byline">Prepared by Keith Pence, Suites with Keith | Fora Travel</div>
   <div class="cell">Keith's cell: <strong>+1 415-272-4316</strong> (call or text anytime during the trip)</div>
   <div class="standfirst">Everything runs day by day, in order. Approximate times are marked "approx" and depend on traffic; confirmation numbers sit under each item in brass.</div>
-  <div class="issued">This copy issued 2 September 2026, 4:10 PM CDT · if Keith sends a newer one, use that</div>
+  <div class="issued">This copy issued 2 September 2026, 4:26 PM CDT · if Keith sends a newer one, use that</div>
 
   <nav class="dates" id="dates" aria-label="Jump to a day">
     <div class="dates-title">Jump to a day</div>
@@ -695,5 +743,13 @@
     }).observe(index);
   })();
 </script>
-<div class="doc-footer">Suites with Keith | Fora Travel · Keith Pence · +1 415-272-4316</div>
+<div class="close">
+  <div>
+    <div class="close-title">Keith is a text away</div>
+    <div class="close-line">Keith Pence · Fora Travel · <a href="tel:+14152724316">+1 415-272-4316</a> · <a href="mailto:keith.pence@fora.travel">keith.pence@fora.travel</a></div>
+  </div>
+  <div class="close-mark">Suites with Keith</div>
 </div>
+</div>
+</body>
+</html>
