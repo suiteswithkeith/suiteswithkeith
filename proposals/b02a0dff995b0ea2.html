@@ -34,13 +34,15 @@
 
   /* Stop strip: the clickable dates */
   .jc-strip { padding-bottom: 90px; }
-  .jc-strip .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--grid-gap); }
-  .jc-strip .cell { display: block; border-top: 1px solid var(--hairline); padding-top: 18px; text-decoration: none; color: inherit; transition: border-color 180ms; }
-  .jc-strip .cell:hover { border-top-color: var(--olive); }
-  .jc-strip .dates { font-family: var(--font-body); font-size: 0.68rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.22em; color: var(--ink-soft); }
-  .jc-strip .place { font-family: var(--font-display); font-weight: 500; font-size: 1.3rem; color: var(--charcoal); margin-top: 6px; }
-  .jc-strip .nights { font-family: var(--font-body); font-weight: 300; font-size: 0.85rem; color: var(--ink-soft); margin-top: 4px; }
-  .jc-strip .go { display: inline-block; margin-top: 10px; font-family: var(--font-body); font-size: 0.68rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); border-bottom: 1px solid var(--olive); }
+  .jc-strip .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+  .jc-strip .cell { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--hairline); border-top: 3px solid var(--olive); padding: 22px 22px 20px; text-decoration: none; color: inherit; transition: background 180ms, transform 180ms; }
+  .jc-strip .cell:hover { background: var(--cream-deep); transform: translateY(-2px); }
+  .jc-strip .num { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.2em; color: var(--olive-deep); }
+  .jc-strip .dates { font-family: var(--font-display); font-weight: 500; font-size: 1.7rem; line-height: 1.1; color: var(--charcoal); margin-top: 10px; }
+  .jc-strip .place { font-family: var(--font-body); font-weight: 500; font-size: 1.1rem; color: var(--charcoal); margin-top: 8px; }
+  .jc-strip .nights { font-family: var(--font-body); font-weight: 300; font-size: 0.98rem; color: var(--ink-soft); margin-top: 2px; }
+  .jc-strip .go { margin-top: auto; padding-top: 16px; font-family: var(--font-body); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); }
+  .jc-strip .go::after { content: " \2193"; }
 
   .jc-section { padding-bottom: 90px; }
   .jc-section h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 24px; }
@@ -51,7 +53,7 @@
   .jc-card { background: var(--white); border: 1px solid var(--hairline); padding: 26px 28px; }
   .jc-tag { display: inline-block; font-family: var(--font-body); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); border: 1px solid var(--olive); padding: 4px 10px; }
   .jc-card .route { font-family: var(--font-display); font-weight: 500; font-size: 1.2rem; color: var(--charcoal); margin: 12px 0 10px; }
-  .jc-card .detail { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); line-height: 1.55; margin: 0; }
+  .jc-card .detail { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); line-height: 1.55; margin: 0; }
   .jc-card .detail strong { font-weight: 500; color: var(--charcoal); }
   .jc-footnote { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); max-width: 760px; line-height: 1.6; margin: 28px 0 0; }
 
@@ -65,28 +67,32 @@
   .jc-stop .media { position: sticky; top: 24px; }
   .jc-stop h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 20px; }
   .jc-label { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); margin-bottom: 6px; }
-  .jc-stop .hotel { font-family: var(--font-display); font-weight: 500; font-size: 1.15rem; color: var(--charcoal); }
+  .jc-stop .hotel { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; color: var(--charcoal); }
   .jc-stop .hotel a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--hairline); }
-  .jc-stop .hotel-note { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); margin-top: 2px; line-height: 1.55; }
+  .jc-stop .hotel-note { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); margin-top: 2px; line-height: 1.55; }
   .jc-stop .hotel-note strong { font-weight: 500; color: var(--charcoal); }
-  .jc-ref { font-family: var(--font-body); font-weight: 400; font-size: 0.85rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 6px; }
+  .jc-ref { font-family: var(--font-body); font-weight: 500; font-size: 0.95rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 6px; }
   .jc-divider { border-top: 1px solid var(--hairline); margin: 22px 0; }
-  .jc-highlights { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 0.98rem; color: var(--charcoal); line-height: 1.6; }
+  .jc-highlights { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 1.05rem; color: var(--charcoal); line-height: 1.6; }
   .jc-highlights li { padding-left: 18px; position: relative; margin-bottom: 10px; }
   .jc-highlights li::before { content: ""; position: absolute; left: 0; top: 10px; width: 5px; height: 5px; border-radius: 50%; background: var(--olive); }
-  .jc-note { border-left: 2px solid var(--olive); padding: 6px 0 6px 14px; margin-top: 18px; font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--charcoal); line-height: 1.55; }
+  .jc-note { border-left: 2px solid var(--olive); padding: 6px 0 6px 14px; margin-top: 18px; font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--charcoal); line-height: 1.55; }
 
   /* Day by day */
   .jc-days { margin-top: 26px; background: var(--cream-deep); padding: 24px; }
   .jc-days .head { font-family: var(--font-body); font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-soft); margin-bottom: 8px; }
-  .jc-day { border-top: 1px solid var(--hairline); padding: 14px 0 6px; }
-  .jc-day .date { font-family: var(--font-display); font-weight: 500; font-size: 1.02rem; color: var(--charcoal); margin-bottom: 8px; }
+  .jc-day { border-top: 1px solid var(--hairline); padding: 18px 0 10px; }
+  .jc-day .date { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; color: var(--charcoal); margin-bottom: 8px; }
   .jc-day .date em { font-style: italic; color: var(--olive-deep); }
-  .jc-item { display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 5px 0; }
-  .jc-item .time { font-family: var(--font-body); font-size: 0.76rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--olive-deep); }
-  .jc-item .what { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--charcoal); line-height: 1.55; }
+  .jc-item { display: grid; grid-template-columns: 112px 1fr; gap: 14px; padding: 8px 0; }
+  .jc-item .time { font-family: var(--font-body); font-size: 0.95rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--olive-deep); }
+  .jc-item .what { font-family: var(--font-body); font-weight: 300; font-size: 1.06rem; color: var(--charcoal); line-height: 1.55; }
   .jc-item .what strong { font-weight: 500; }
-  .jc-item .what a { display: inline-block; margin-left: 6px; font-size: 0.72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); }
+  .jc-item .what a { display: inline-block; margin-left: 6px; font-size: 0.8rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); }
+
+  .jc-item .what ul, .hotel-note ul { margin: 6px 0 0; padding-left: 18px; }
+  .jc-item .what li, .hotel-note li { margin-bottom: 6px; padding-left: 2px; }
+  .jc-item .what li::marker, .hotel-note li::marker { color: var(--olive); }
 
   /* Dining */
   .jc-dining-group { margin-bottom: 44px; }
@@ -95,7 +101,7 @@
   .jc-dining-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
   .jc-dining-card .name { font-family: var(--font-display); font-weight: 500; font-size: 1.1rem; margin-bottom: 10px; }
   .jc-dining-card .name a { color: var(--charcoal); text-decoration: none; border-bottom: 1px solid var(--hairline); }
-  .jc-dining-card .meta { font-family: var(--font-body); font-weight: 300; font-size: 0.88rem; color: var(--ink-soft); }
+  .jc-dining-card .meta { font-family: var(--font-body); font-weight: 300; font-size: 0.98rem; color: var(--ink-soft); }
   .jc-badge { display: inline-block; margin-top: 14px; font-family: var(--font-body); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--cream); background: var(--olive); padding: 5px 12px; }
   .jc-badge.soft { color: var(--olive-deep); background: transparent; border: 1px solid var(--olive); }
 
@@ -104,16 +110,16 @@
   .jc-confirm-col .title { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 4px; }
   .jc-confirm { padding: 12px 0; border-bottom: 1px solid var(--hairline); }
   .jc-confirm .name { font-family: var(--font-display); font-weight: 500; font-size: 1rem; color: var(--charcoal); }
-  .jc-confirm .when { font-family: var(--font-body); font-weight: 300; font-size: 0.85rem; color: var(--ink-soft); margin-top: 2px; }
-  .jc-confirm .ref { font-family: var(--font-body); font-weight: 400; font-size: 0.85rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 4px; }
+  .jc-confirm .when { font-family: var(--font-body); font-weight: 300; font-size: 0.95rem; color: var(--ink-soft); margin-top: 2px; }
+  .jc-confirm .ref { font-family: var(--font-body); font-weight: 500; font-size: 1rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 4px; }
 
   /* Fine print */
   .jc-fine { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
   .jc-fine .title { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 14px; }
-  .jc-fine ul { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--charcoal); line-height: 1.55; }
+  .jc-fine ul { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--charcoal); line-height: 1.55; }
   .jc-fine li { padding-left: 18px; position: relative; margin-bottom: 10px; }
   .jc-fine li::before { content: ""; position: absolute; left: 0; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: var(--olive); }
-  .jc-fine p { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); line-height: 1.55; margin: 0 0 12px; }
+  .jc-fine p { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); line-height: 1.55; margin: 0 0 12px; }
 
   /* Support */
   .jc-support { padding-bottom: 90px; }
@@ -133,7 +139,9 @@
     .jc-hero .inner { padding: 0 24px 44px; }
     .jc-intro { padding: 64px 0 48px; }
     .jc-intro .grid, .jc-stop .grid, .jc-support .grid { grid-template-columns: 1fr; }
-    .jc-strip .grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .jc-strip .grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    .jc-strip .cell { padding: 18px 16px 16px; }
+    .jc-strip .dates { font-size: 1.45rem; }
     .jc-transfers, .jc-dining-grid, .jc-confirm-grid, .jc-fine { grid-template-columns: 1fr; }
     .jc-stop .media { position: static; order: 0 !important; }
     .jc-stop .copy { order: 1 !important; }
@@ -174,31 +182,36 @@
   <div class="jc-container">
     <div class="grid">
       <a class="cell" href="#stop-1">
-        <span class="dates">Sep 3&ndash;4</span>
+        <span class="num">Stop 01</span>
+        <div class="dates">Sep 3&ndash;4</div>
         <div class="place">New York</div>
         <div class="nights">1 night</div>
         <span class="go">Jump to</span>
       </a>
       <a class="cell" href="#stop-2">
-        <span class="dates">Sep 5&ndash;8</span>
+        <span class="num">Stop 02</span>
+        <div class="dates">Sep 5&ndash;8</div>
         <div class="place">Amalfi Coast</div>
         <div class="nights">3 nights</div>
         <span class="go">Jump to</span>
       </a>
       <a class="cell" href="#stop-3">
-        <span class="dates">Sep 8&ndash;10</span>
+        <span class="num">Stop 03</span>
+        <div class="dates">Sep 8&ndash;10</div>
         <div class="place">Rome</div>
         <div class="nights">2 nights</div>
         <span class="go">Jump to</span>
       </a>
       <a class="cell" href="#stop-4">
-        <span class="dates">Sep 10&ndash;14</span>
+        <span class="num">Stop 04</span>
+        <div class="dates">Sep 10&ndash;14</div>
         <div class="place">Santorini</div>
         <div class="nights">4 nights &middot; the wedding</div>
         <span class="go">Jump to</span>
       </a>
       <a class="cell" href="#stop-5">
-        <span class="dates">Sep 14&ndash;17</span>
+        <span class="num">Stop 05</span>
+        <div class="dates">Sep 14&ndash;17</div>
         <div class="place">Lake Como</div>
         <div class="nights">3 nights</div>
         <span class="go">Jump to</span>
@@ -328,7 +341,12 @@
         <h2>Amalfi Coast</h2>
         <div class="jc-label">Where You&rsquo;ll Stay</div>
         <div class="hotel"><a href="https://www.hotelsantacaterina.it/en/" target="_blank" rel="noopener">Hotel Santa Caterina</a></div>
-        <div class="hotel-note">Via Mauro Comite 9, Amalfi &middot; 2 Deluxe Double rooms + 1 Front Sea View room, 3 nights. The hotel knows it is Taylor&rsquo;s birthday on the 7th. Requested and awaiting confirmation: the nicest room ready on arrival the 5th, Sol and Taylor in the king-bed room, and all three rooms near each other. <strong>About $315 in food and beverage credits</strong> to spend across your 3 rooms.</div>
+        <div class="hotel-note">Via Mauro Comite 9, Amalfi &middot; 2 Deluxe Double rooms + 1 Front Sea View room, 3 nights.
+  <ul>
+    <li><strong>About $315 in food and beverage credits</strong> to spend across your 3 rooms</li>
+    <li>The hotel knows it is Taylor&rsquo;s birthday on the 7th</li>
+    <li>Requested, awaiting confirmation: the nicest room ready on arrival the 5th, Sol and Taylor in the king-bed room, all three rooms near each other</li>
+  </ul></div>
         <div class="jc-ref">Confirmations 419829624 &middot; 419829627 &middot; 419829636</div>
         <div class="jc-divider"></div>
         <div class="jc-label">The Highlights</div>
@@ -342,9 +360,19 @@
           <div class="head">Day by Day</div>
           <div class="jc-day">
             <div class="date">Sat, Sep 5</div>
-            <div class="jc-item"><span class="time">8:10 AM</span><span class="what">Land Naples. VIP meet and greet: your greeter holds a sign with your name &mdash; at the gate if the flight parks at a jet bridge, or as you step off the shuttle bus if it parks at a remote stand &mdash; then walks the four of you through fast track immigration.</span></div>
+            <div class="jc-item"><span class="time">8:10 AM</span><span class="what">Land Naples. VIP meet and greet:
+  <ul>
+    <li>Your greeter holds a sign with your name</li>
+    <li>At the gate if the plane parks at a jet bridge, or as you step off the shuttle bus if it parks on the tarmac</li>
+    <li>Then walks the four of you through fast track immigration</li>
+  </ul></span></div>
             <div class="jc-item"><span class="time">Helicopter</span><span class="what">Naples to the <strong>Scala</strong> helipad, about 15 minutes in the air. A car meets you at Scala and takes you down to Hotel Santa Caterina, arriving <strong>approx 10:00 AM</strong>.</span></div>
-            <div class="jc-item"><span class="time">Luggage</span><span class="what">Meckleys&rsquo; bags + <strong>Susie and Mike</strong>: a porter handles the transfer to the pre-arranged minivan and it all travels by road to the hotel. <strong>Susie and Mike</strong> arrive at Santa Caterina <strong>approx 11:00 AM</strong>.</span></div>
+            <div class="jc-item"><span class="time">Luggage</span><span class="what">
+  <ul>
+    <li>A porter moves the Meckleys&rsquo; bags to the pre-arranged minivan</li>
+    <li><strong>Susie and Mike</strong> ride with the bags by road</li>
+    <li>They arrive at Santa Caterina <strong>approx 11:00 AM</strong></li>
+  </ul></span></div>
             <div class="jc-item"><span class="time">6:00 PM</span><span class="what">Dinner at the hotel terrace restaurant, Via Mauro Comite 9 &mdash; at your hotel, no travel needed. 6 guests.</span></div>
           </div>
           <div class="jc-day">
@@ -354,14 +382,26 @@
           </div>
           <div class="jc-day">
             <div class="date">Mon, Sep 7 &middot; <em>Taylor&rsquo;s birthday</em></div>
-            <div class="jc-item"><span class="time">Optional</span><span class="what">Boat day &mdash; nothing booked until you say go: <strong>42 ft Lancia Aprea, brand new for 2026</strong>, from Hotel Santa Caterina with skipper. Prosecco and snacks, limoncello tasting, snorkel gear, towels and fuel included; lunch on shore not included. Full refund or rebooking if weather cancels. Timing flexible; Keith to confirm pickup details.</span></div>
+            <div class="jc-item"><span class="time">Optional</span><span class="what">Boat day &mdash; nothing booked until you say go.
+  <ul>
+    <li><strong>42 ft Lancia Aprea, brand new for 2026</strong>, from Hotel Santa Caterina with skipper</li>
+    <li>Includes prosecco and snacks, limoncello tasting, snorkel gear, towels and fuel</li>
+    <li>Lunch on shore not included</li>
+    <li>Full refund or rebooking if weather cancels</li>
+    <li>Timing flexible; Keith to confirm pickup details</li>
+  </ul></span></div>
             <div class="jc-item"><span class="time">7:30 PM</span><span class="what">Birthday dinner at Alici at Borgo Santandrea, Via Giovanni Augustariccio 33, Conca dei Marini &mdash; about 10 minutes by car. 6 guests. Car to and from confirmed through Hotel Santa Caterina.<a href="https://www.google.com/maps/search/Alici+Borgo+Santandrea+Conca+dei+Marini" target="_blank" rel="noopener">Map</a></span></div>
           </div>
           <div class="jc-day">
             <div class="date">Tue, Sep 8</div>
             <div class="jc-item"><span class="time">9:00 AM</span><span class="what">Car with <strong>Susie and Mike</strong> and all luggage departs Santa Caterina, arrives Rome <strong>approx 12:30 PM</strong>. Your bags meet you at the Baglioni.</span></div>
             <div class="jc-item"><span class="time">11:00 AM</span><span class="what">Mercedes minivan pickup at the hotel for the drive up to the <strong>Scala</strong> helipad.</span></div>
-            <div class="jc-item"><span class="time">11:45 AM</span><span class="what">Helicopter departs Scala, lands Rome Urbe Airport approx 12:55 PM (70 minutes in the air). A Mercedes minivan meets you at Urbe; arrive at the Baglioni <strong>approx 1:30 PM</strong>.</span></div>
+            <div class="jc-item"><span class="time">11:45 AM</span><span class="what">Helicopter departs Scala.
+  <ul>
+    <li>70 minutes in the air; lands Rome Urbe Airport approx 12:55 PM</li>
+    <li>A Mercedes minivan meets you at Urbe</li>
+    <li>Arrive at the Baglioni <strong>approx 1:30 PM</strong></li>
+  </ul></span></div>
           </div>
         </div>
       </div>
@@ -426,7 +466,13 @@
         <h2>Santorini</h2>
         <div class="jc-label">Where You&rsquo;ll Stay</div>
         <div class="hotel">Erossea Villa</div>
-        <div class="hotel-note">Private villa, 4 nights &middot; Host: Svati. The villa&rsquo;s complimentary shuttle meets your flight, confirmed. A steamer (distilled water requested) and extra hangers have been arranged, and the villa is stocked with Nespresso pods, fresh fruit and water &mdash; 24 glass bottles per day, 3 per person; the water is paid on arrival, around 180 euros.</div>
+        <div class="hotel-note">Private villa, 4 nights &middot; Host: Svati.
+  <ul>
+    <li>The villa&rsquo;s complimentary shuttle meets your flight, confirmed</li>
+    <li>A steamer (distilled water requested) and extra hangers are arranged</li>
+    <li>Stocked with Nespresso pods, fresh fruit and water: 24 glass bottles per day, 3 per person</li>
+    <li>The water is paid on arrival, around 180 euros</li>
+  </ul></div>
         <div class="jc-note">Please bring <strong>500 euros in cash</strong> (about $580) for the refundable security deposit, collected on arrival and returned at checkout.</div>
         <div class="jc-divider"></div>
         <div class="jc-label">The Highlights</div>
@@ -434,7 +480,7 @@
           <li>Welcome tasting at Venetsanos Winery the evening you land</li>
           <li>Rehearsal dinner at Madame Sousou, at the top of Pyrgos with the sunset view</li>
           <li>The wedding at Islet Santorini on Saturday the 12th</li>
-          <li>Dinner for the whole group of 8 at Basalt, down by the water at Ammoudi Bay</li>
+          <li>Dinner for the whole group of 8 at BLU on Sunday the 13th</li>
         </ul>
         <div class="jc-days">
           <div class="head">Day by Day</div>
@@ -454,7 +500,7 @@
           </div>
           <div class="jc-day">
             <div class="date">Sun, Sep 13</div>
-            <div class="jc-item"><span class="time">6:30 PM</span><span class="what">Dinner for the whole group of 8, confirmed, at Basalt &mdash; Ammoudi Bay, Oia 847 02, down by the water, approx 30 minutes by car from the villa.<a href="https://www.google.com/maps/search/Basalt+Restaurant+Ammoudi+Santorini" target="_blank" rel="noopener">Map</a></span></div>
+            <div class="jc-item"><span class="time">6:30 PM</span><span class="what">Dinner for the whole group of 8, confirmed, at BLU &mdash; approx 20 minutes by car from the villa.<a href="https://www.google.com/maps/search/BLU+Restaurant+Santorini" target="_blank" rel="noopener">Map</a></span></div>
           </div>
           <div class="jc-day">
             <div class="date">Mon, Sep 14</div>
@@ -503,7 +549,13 @@
           <div class="jc-day">
             <div class="date">Thu, Sep 17 &middot; <em>Home</em></div>
             <div class="jc-item"><span class="time">10:00 AM</span><span class="what">Private transfer from Villa d&rsquo;Este, approx. Arrive Milan Linate <strong>approx 11:00 AM</strong>.</span></div>
-            <div class="jc-item"><span class="time">1:40 PM</span><span class="what">AA6826 (operated by British Airways) to London Heathrow, lands 2:45 PM. Your Heathrow greeter meets you with a welcome sign for the Meckleys and walks you between terminals. Bags are checked through to Dallas. Reference VIP-10918-LHR.</span></div>
+            <div class="jc-item"><span class="time">1:40 PM</span><span class="what">AA6826 (operated by British Airways) to London Heathrow, lands 2:45 PM.
+  <ul>
+    <li>Heathrow meet and assist, <strong>confirmed</strong>: your greeter meets you with a welcome sign for the Meckleys</li>
+    <li>They walk you between terminals to AA81</li>
+    <li>Same ticket throughout; bags are checked through to Dallas</li>
+    <li>Reference VIP-10918-LHR</li>
+  </ul></span></div>
             <div class="jc-item"><span class="time">4:25 PM</span><span class="what">AA81 to Dallas Fort Worth, arriving 8:35 PM. Business class; seats 5L and 5D. American QCNWBN &middot; British Airways COEFLO.</span></div>
           </div>
         </div>
@@ -580,8 +632,8 @@
           <span class="jc-badge soft">Wedding event</span>
         </div>
         <div class="jc-card jc-dining-card">
-          <div class="name"><a href="https://www.google.com/maps/search/Basalt+Restaurant+Ammoudi+Santorini" target="_blank" rel="noopener">Basalt</a></div>
-          <div class="meta">Ammoudi Bay, Oia 847 02 &middot; approx 30 min by car</div>
+          <div class="name"><a href="https://www.google.com/maps/search/BLU+Restaurant+Santorini" target="_blank" rel="noopener">BLU</a></div>
+          <div class="meta">Approx 20 min by car from the villa</div>
           <div class="meta">Sep 13, 6:30 PM &middot; Party of 8</div>
           <span class="jc-badge">Confirmed</span>
         </div>
@@ -702,7 +754,7 @@
           <li>Driver names from Arno Transfers for each pickup &mdash; confirming each driver has Brenda&rsquo;s name</li>
           <li>Lake Como dinners &mdash; 2 off property, with transfers; updated version to follow</li>
           <li>The Amalfi boat day September 7 &mdash; whether you would like to do it</li>
-          <li>All Santorini transfers &mdash; the welcome tasting, rehearsal dinner, wedding and Basalt. Two quotes are out; TBC per Brenda&rsquo;s request</li>
+          <li>All Santorini transfers &mdash; the welcome tasting, rehearsal dinner, wedding and dinner at BLU. Two quotes are out; TBC per Brenda&rsquo;s request</li>
           <li>Sol&rsquo;s climbing excursion &mdash; waiting on one more lead; answer by end of day September 3</li>
         </ul>
       </div>
@@ -752,8 +804,7 @@
 
 <footer class="jc-footer">
   Suites With Keith &middot; Curated by Keith Pence<br>
-  This page updated 2 September 2026, 4:34 PM CDT
-</footer>
+  This page updated 2 September 2026, 4:38 PM CDT</footer>
 
 </body>
 </html>
