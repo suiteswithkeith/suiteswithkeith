@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="js">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -181,18 +181,85 @@
     .jc-card { padding: 22px 22px; }
     .jc-footer { padding: 28px 24px; }
   }
+
+  /* ===== Cinematic layer ===== */
+  /* Hero: taller, slow drift, deeper shade, scroll cue */
+  .jc-hero { height: 94vh; min-height: 600px; overflow: hidden; }
+  .jc-hero img { transform: scale(1.02); transform-origin: 50% 40%; }
+  .js .jc-hero img { animation: heroDrift 26s ease-out forwards; }
+  @keyframes heroDrift { from { transform: scale(1.02); } to { transform: scale(1.10); } }
+  .jc-hero .shade { background: linear-gradient(180deg, rgba(20,20,18,0.10) 0%, rgba(20,20,18,0.25) 45%, rgba(20,20,18,0.72) 100%); }
+  .jc-hero .inner { padding-bottom: 76px; }
+  .jc-hero h1 { text-shadow: 0 2px 24px rgba(0,0,0,0.25); }
+  .jc-hero h1 em { font-style: italic; font-weight: 400; }
+  .jc-hero .cue { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); width: 1px; height: 36px; background: linear-gradient(180deg, rgba(245,241,233,0) 0%, rgba(245,241,233,0.9) 100%); }
+  .js .jc-hero .cue { animation: cue 2.2s ease-in-out infinite; }
+  @keyframes cue { 0%,100% { opacity: .35; transform: translate(-50%, 0); } 50% { opacity: 1; transform: translate(-50%, 8px); } }
+  .js .jc-hero .inner > * { opacity: 0; transform: translateY(14px); animation: rise 900ms cubic-bezier(.2,.6,.2,1) forwards; }
+  .js .jc-hero .inner > *:nth-child(1) { animation-delay: 200ms; }
+  .js .jc-hero .inner > *:nth-child(2) { animation-delay: 380ms; }
+  .js .jc-hero .inner > *:nth-child(3) { animation-delay: 560ms; }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+
+  /* Chapter bands: full-bleed photo when the location changes */
+  .jc-chapter { position: relative; height: 64vh; min-height: 400px; overflow: hidden; margin-top: 8px; }
+  .jc-chapter img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform: scale(1.06); transition: transform 1.6s cubic-bezier(.2,.6,.2,1); }
+  .jc-chapter.in img { transform: scale(1.0); }
+  .jc-chapter .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,20,18,0.05) 0%, rgba(20,20,18,0.15) 50%, rgba(20,20,18,0.68) 100%); }
+  .jc-chapter .inner { position: absolute; left: 0; right: 0; bottom: 0; max-width: var(--container-max); margin: 0 auto; padding: 0 40px 52px; }
+  .jc-chapter .jc-eyebrow { color: rgba(245,241,233,0.85); }
+  .jc-chapter h2 { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: clamp(2.6rem, 6.5vw, 5rem); line-height: 1; color: var(--cream); margin: 10px 0 8px; text-shadow: 0 2px 24px rgba(0,0,0,0.25); }
+  .jc-chapter p { font-family: var(--font-body); font-weight: 300; font-size: 1.1rem; color: var(--cream); margin: 0; }
+  .js .jc-chapter .inner > * { opacity: 0; transform: translateY(12px); transition: opacity 700ms cubic-bezier(.2,.6,.2,1), transform 700ms cubic-bezier(.2,.6,.2,1); }
+  .js .jc-chapter.in .inner > * { opacity: 1; transform: none; }
+  .js .jc-chapter.in .inner > *:nth-child(2) { transition-delay: 120ms; }
+  .js .jc-chapter.in .inner > *:nth-child(3) { transition-delay: 240ms; }
+
+  /* Days: soft reveal as they scroll in */
+  .js .jc-daysec { opacity: 0; transform: translateY(16px); transition: opacity 600ms cubic-bezier(.2,.6,.2,1), transform 600ms cubic-bezier(.2,.6,.2,1); }
+  .js .jc-daysec.in { opacity: 1; transform: none; }
+  .jc-daysec .sub::after { content: ""; display: block; width: 44px; height: 2px; background: var(--olive); margin-top: 16px; }
+  .jc-daysec .media img { box-shadow: 0 18px 40px -22px rgba(20,20,18,0.45); }
+  .jc-daysec .cap { font-family: var(--font-body); font-size: 0.78rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); margin: 10px 0 0; }
+  .jc-daysec .cap + img { margin-top: 20px; }
+
+  /* Sticky date bar, appears once the date grid scrolls away */
+  .jc-datebar { position: sticky; top: 0; z-index: 50; background: rgba(245,241,233,0.92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--hairline); transform: translateY(-100%); opacity: 0; transition: transform 320ms cubic-bezier(.2,.6,.2,1), opacity 320ms; }
+  .jc-datebar.on { transform: none; opacity: 1; }
+  .jc-datebar .row { max-width: var(--container-max); margin: 0 auto; padding: 0 40px; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .jc-datebar .row::-webkit-scrollbar { display: none; }
+  .jc-datebar a { flex: 0 0 auto; padding: 12px 12px; font-family: var(--font-body); font-size: 0.86rem; font-weight: 500; color: var(--ink-soft); text-decoration: none; border-bottom: 2px solid transparent; white-space: nowrap; }
+  .jc-datebar a:hover { color: var(--charcoal); }
+  .jc-datebar a.cur { color: var(--charcoal); border-bottom-color: var(--olive); }
+  .jc-datebar a b { font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; margin-right: 4px; }
+  .jc-daysec { scroll-margin-top: 58px; }
+  .jc-chapter { scroll-margin-top: 48px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .js .jc-hero img, .js .jc-hero .cue, .js .jc-hero .inner > * { animation: none; opacity: 1; transform: none; }
+    .js .jc-daysec, .js .jc-chapter .inner > * { opacity: 1; transform: none; transition: none; }
+    .jc-chapter img { transform: none; transition: none; }
+  }
+  @media (max-width: 900px) {
+    .jc-hero { height: 82vh; min-height: 520px; }
+    .jc-chapter { height: 52vh; min-height: 340px; }
+    .jc-chapter .inner { padding: 0 24px 36px; }
+    .jc-datebar .row { padding: 0 12px; }
+    .jc-datebar a { padding: 12px 10px; font-size: 0.82rem; }
+  }
 </style>
 </head>
 <body>
 
 <header class="jc-hero">
-  <img src="../images/worlds-50-best/il-san-pietro-positano.jpeg" alt="The Amalfi Coast at Positano">
+  <img src="../images/destinations/caruso.jpg" alt="The Amalfi Coast from Ravello" style="object-position: 50% 12%;">
   <div class="shade"></div>
   <div class="inner">
     <span class="jc-eyebrow">Private Itinerary &middot; Prepared by Suites With Keith</span>
-    <h1>Brenda, Jim, Taylor, Sol, Megan &amp; Pablo in Italy &amp; Greece</h1>
+    <h1>Brenda, Jim, Taylor, Sol, Megan &amp; Pablo <em>in Italy &amp; Greece</em></h1>
     <p>New York &middot; Amalfi Coast &middot; Rome &middot; Santorini &middot; Lake Como &nbsp;&mdash;&nbsp; September 3&ndash;17, 2026</p>
   </div>
+  <span class="cue" aria-hidden="true"></span>
 </header>
 
 <section class="jc-intro">
@@ -230,6 +297,8 @@
   </div>
 </section>
 
+<nav class="jc-datebar" id="datebar" aria-label="Jump to a day"><div class="row"><a href="#sep-3"><b>3</b>Sep</a><a href="#sep-4"><b>4</b>Sep</a><a href="#sep-5"><b>5</b>Sep</a><a href="#sep-6"><b>6</b>Sep</a><a href="#sep-7"><b>7</b>Sep</a><a href="#sep-8"><b>8</b>Sep</a><a href="#sep-9"><b>9</b>Sep</a><a href="#sep-10"><b>10</b>Sep</a><a href="#sep-11"><b>11</b>Sep</a><a href="#sep-12"><b>12</b>Sep</a><a href="#sep-13"><b>13</b>Sep</a><a href="#sep-14"><b>14</b>Sep</a><a href="#sep-15"><b>15</b>Sep</a><a href="#sep-16"><b>16</b>Sep</a><a href="#sep-17"><b>17</b>Sep</a></div></nav>
+
 <section class="jc-daysec" id="sep-3">
   <div class="jc-container">
     <div class="grid solo">
@@ -264,6 +333,16 @@
     </div>
   </div>
 </section>
+<section class="jc-chapter">
+  <img src="../images/destinations/le-sirenuse.jpg" alt="Positano" style="object-position: 50% 55%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Two &middot; September 5&ndash;8</span>
+    <h2>The Amalfi Coast</h2>
+    <p>Three nights at Hotel Santa Caterina, Amalfi &middot; Taylor&rsquo;s birthday on the 7th</p>
+  </div>
+</section>
+
 <section class="jc-daysec" id="sep-5">
   <div class="jc-container">
     <div class="grid">
@@ -300,7 +379,9 @@
       </div>
       <div class="media">
         <img src="images/meckley/heli-a109-helipad.jpg" alt="Agusta A109 Power on the Scala helipad">
+        <div class="cap">Agusta A109 Power on the Scala helipad</div>
         <img src="images/meckley/heli-a109-int.jpg" alt="Agusta A109 cabin">
+        <div class="cap">Agusta A109 cabin</div>
       </div>
     </div>
   </div>
@@ -339,10 +420,21 @@
       </div>
       <div class="media">
         <img src="images/meckley/boat-lancia42.jpg" alt="42 ft Lancia Aprea">
+        <div class="cap">42 ft Lancia Aprea</div>
       </div>
     </div>
   </div>
 </section>
+<section class="jc-chapter">
+  <img src="../images/destinations/st-regis-rome.jpg" alt="Rome" style="object-position: 50% 50%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Three &middot; September 8&ndash;10</span>
+    <h2>Rome</h2>
+    <p>Two nights at the Baglioni Hotel Regina, Via Veneto</p>
+  </div>
+</section>
+
 <section class="jc-daysec" id="sep-8">
   <div class="jc-container">
     <div class="grid">
@@ -369,7 +461,9 @@
       </div>
       <div class="media">
         <img src="images/meckley/heli-a109-ext.jpg" alt="Agusta A109 Power">
+        <div class="cap">Agusta A109 Power</div>
         <img src="images/meckley/heli-a109-int.jpg" alt="Agusta A109 cabin">
+        <div class="cap">Agusta A109 cabin</div>
       </div>
     </div>
   </div>
@@ -388,6 +482,16 @@
     </div>
   </div>
 </section>
+<section class="jc-chapter">
+  <img src="../images/itinerary/santorini.jpg" alt="Santorini caldera" style="object-position: 50% 50%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Four &middot; September 10&ndash;14</span>
+    <h2>Santorini</h2>
+    <p>Four nights at Erossea Villa &middot; the wedding on Saturday the 12th</p>
+  </div>
+</section>
+
 <section class="jc-daysec" id="sep-10">
   <div class="jc-container">
     <div class="grid">
@@ -415,7 +519,9 @@
       </div>
       <div class="media">
         <img src="images/meckley/jet-xls-ext.jpg" alt="Citation XLS">
+        <div class="cap">Citation XLS</div>
         <img src="images/meckley/jet-xls-int.jpg" alt="Citation XLS cabin">
+        <div class="cap">Citation XLS cabin</div>
       </div>
     </div>
   </div>
@@ -459,6 +565,16 @@
     </div>
   </div>
 </section>
+<section class="jc-chapter">
+  <img src="../images/destinations/como-castello.jpg" alt="Lake Como" style="object-position: 50% 50%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Five &middot; September 14&ndash;17</span>
+    <h2>Lake Como</h2>
+    <p>Three nights at Villa d&rsquo;Este, Cernobbio &middot; then home</p>
+  </div>
+</section>
+
 <section class="jc-daysec" id="sep-14">
   <div class="jc-container">
     <div class="grid">
@@ -484,7 +600,9 @@
       </div>
       <div class="media">
         <img src="images/meckley/jet-xls560-option2.jpg" alt="Citation XLS+">
+        <div class="cap">Citation XLS+</div>
         <img src="images/meckley/jet-xls560-option2-int.jpg" alt="Citation XLS+ cabin">
+        <div class="cap">Citation XLS+ cabin</div>
       </div>
     </div>
   </div>
@@ -506,6 +624,7 @@
       </div>
       <div class="media">
         <img src="images/meckley/boat-como-vaporina.jpg" alt="Classic Vaporina on Lake Como">
+        <div class="cap">Classic Vaporina on Lake Como</div>
       </div>
     </div>
   </div>
@@ -856,7 +975,50 @@
 
 <footer class="jc-footer">
   Suites With Keith &middot; Curated by Keith Pence<br>
-  This page updated 2 September 2026, 7:34 PM CDT</footer>
+  This page updated 2 September 2026, 9:19 PM CDT</footer>
 
+
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Reveal days and chapters as they enter the viewport.
+  var reveal = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); reveal.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+  document.querySelectorAll('.jc-daysec, .jc-chapter').forEach(function (el) { reveal.observe(el); });
+
+  // Sticky date bar: show once the date grid has scrolled past.
+  var bar = document.getElementById('datebar'), grid = document.getElementById('days');
+  if (bar && grid) {
+    new IntersectionObserver(function (entries) {
+      var r = entries[0].boundingClientRect;
+      bar.classList.toggle('on', !entries[0].isIntersecting && r.bottom < 0);
+    }, { threshold: 0 }).observe(grid);
+
+    // Highlight the day that is currently on screen.
+    var links = {}; bar.querySelectorAll('a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+    var current = null;
+    new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        if (current) current.classList.remove('cur');
+        current = links[e.target.id]; if (!current) return;
+        current.classList.add('cur');
+        current.scrollIntoView({ block: 'nearest', inline: 'center', behavior: reduce ? 'auto' : 'smooth' });
+      });
+    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 }).observe && document.querySelectorAll('.jc-daysec').forEach(function (d) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          if (current) current.classList.remove('cur');
+          current = links[e.target.id]; if (!current) return;
+          current.classList.add('cur');
+          current.scrollIntoView({ block: 'nearest', inline: 'center', behavior: reduce ? 'auto' : 'smooth' });
+        });
+      }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 }).observe(d);
+    });
+  }
+})();
+</script>
 </body>
 </html>
