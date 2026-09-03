@@ -984,8 +984,11 @@
   // Reveal days and chapters as they enter the viewport.
   var reveal = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); reveal.unobserve(e.target); } });
-  }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
-  document.querySelectorAll('.jc-daysec, .jc-chapter').forEach(function (el) { reveal.observe(el); });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
+  var hidden = document.querySelectorAll('.jc-daysec, .jc-chapter');
+  hidden.forEach(function (el) { reveal.observe(el); });
+  // Failsafe: nothing on this page may stay hidden, whatever the browser does.
+  setTimeout(function () { hidden.forEach(function (el) { el.classList.add('in'); }); }, 2000);
 
   // Sticky date bar: show once the date grid has scrolled past.
   var bar = document.getElementById('datebar'), grid = document.getElementById('days');
