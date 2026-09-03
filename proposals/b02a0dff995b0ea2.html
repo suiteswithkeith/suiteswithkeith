@@ -232,6 +232,8 @@
   .jc-datebar a:hover { color: var(--charcoal); }
   .jc-datebar a.cur { color: var(--charcoal); border-bottom-color: var(--olive); }
   .jc-datebar a b { font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; margin-right: 4px; }
+  .jc-datebar a.x { margin-left: 10px; padding-left: 16px; border-left: 1px solid var(--hairline); border-bottom-width: 2px; }
+  #transfers { scroll-margin-top: 58px; }
   .jc-daysec { scroll-margin-top: 58px; }
   .jc-chapter { scroll-margin-top: 48px; }
 
@@ -297,7 +299,7 @@
   </div>
 </section>
 
-<nav class="jc-datebar" id="datebar" aria-label="Jump to a day"><div class="row"><a href="#sep-3"><b>3</b>Sep</a><a href="#sep-4"><b>4</b>Sep</a><a href="#sep-5"><b>5</b>Sep</a><a href="#sep-6"><b>6</b>Sep</a><a href="#sep-7"><b>7</b>Sep</a><a href="#sep-8"><b>8</b>Sep</a><a href="#sep-9"><b>9</b>Sep</a><a href="#sep-10"><b>10</b>Sep</a><a href="#sep-11"><b>11</b>Sep</a><a href="#sep-12"><b>12</b>Sep</a><a href="#sep-13"><b>13</b>Sep</a><a href="#sep-14"><b>14</b>Sep</a><a href="#sep-15"><b>15</b>Sep</a><a href="#sep-16"><b>16</b>Sep</a><a href="#sep-17"><b>17</b>Sep</a></div></nav>
+<nav class="jc-datebar" id="datebar" aria-label="Jump to a day"><div class="row"><a href="#sep-3"><b>3</b>Sep</a><a href="#sep-4"><b>4</b>Sep</a><a href="#sep-5"><b>5</b>Sep</a><a href="#sep-6"><b>6</b>Sep</a><a href="#sep-7"><b>7</b>Sep</a><a href="#sep-8"><b>8</b>Sep</a><a href="#sep-9"><b>9</b>Sep</a><a href="#sep-10"><b>10</b>Sep</a><a href="#sep-11"><b>11</b>Sep</a><a href="#sep-12"><b>12</b>Sep</a><a href="#sep-13"><b>13</b>Sep</a><a href="#sep-14"><b>14</b>Sep</a><a href="#sep-15"><b>15</b>Sep</a><a href="#sep-16"><b>16</b>Sep</a><a href="#sep-17"><b>17</b>Sep</a><a href="#transfers" class="x">Flights &amp; cars</a></div></nav>
 
 <section class="jc-daysec" id="sep-3">
   <div class="jc-container">
@@ -971,7 +973,7 @@
 
 <footer class="jc-footer">
   Suites With Keith &middot; Curated by Keith Pence<br>
-  This page updated 2 September 2026, 9:30 PM CDT</footer>
+  This page updated 2 September 2026, 9:32 PM CDT</footer>
 
 
 <script>
@@ -999,17 +1001,22 @@
     }, { passive: true });
     placeBar();
 
-    // Highlight the day being read: the last day whose heading has passed the
-    // top third of the screen. Scroll-driven, so short days are never skipped.
+    // Highlight the section being read: the last one whose heading has passed
+    // the top third of the screen. Scroll-driven, so short days are never skipped.
     var row = bar.querySelector('.row');
-    var days = Array.prototype.slice.call(document.querySelectorAll('.jc-daysec'));
+    var targets = Array.prototype.slice.call(document.querySelectorAll('.jc-daysec, #transfers'));
     var links = {}; bar.querySelectorAll('a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
-    var current = null, marking = false;
+    var current = null, marking = false, jumpingUntil = 0, settle = null;
+    function slideRow() {
+      if (!current) return;
+      var left = current.offsetLeft - (row.clientWidth - current.offsetWidth) / 2;
+      row.scrollTo({ left: Math.max(0, left), behavior: reduce ? 'auto' : 'smooth' });
+    }
     function markCurrent() {
       marking = false;
       var line = window.innerHeight * 0.34, pick = null;
-      for (var i = 0; i < days.length; i++) {
-        if (days[i].getBoundingClientRect().top <= line) pick = days[i]; else break;
+      for (var i = 0; i < targets.length; i++) {
+        if (targets[i].getBoundingClientRect().top <= line) pick = targets[i]; else break;
       }
       var next = pick ? links[pick.id] : null;
       if (next === current) return;
@@ -1017,14 +1024,22 @@
       current = next;
       if (!current) return;
       current.classList.add('cur');
-      // Slide only the bar's own row so the chip is centred. Never touch page
-      // scroll: scrollIntoView here would interrupt the reader's momentum on iOS.
-      var left = current.offsetLeft - (row.clientWidth - current.offsetWidth) / 2;
-      row.scrollTo({ left: Math.max(0, left), behavior: reduce ? 'auto' : 'smooth' });
+      // While an anchor jump is animating, do not start a second smooth scroll:
+      // Safari treats it as a cancel and the page stops at the first day it
+      // passes. Slide the row once the jump has settled instead.
+      if (Date.now() < jumpingUntil) {
+        clearTimeout(settle); settle = setTimeout(slideRow, jumpingUntil - Date.now() + 50);
+      } else {
+        slideRow();
+      }
     }
     window.addEventListener('scroll', function () {
       if (!marking) { marking = true; requestAnimationFrame(markCurrent); }
     }, { passive: true });
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (a) jumpingUntil = Date.now() + 1400;
+    });
     markCurrent();
   }
 })();
