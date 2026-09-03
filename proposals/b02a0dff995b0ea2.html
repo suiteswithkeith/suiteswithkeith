@@ -999,23 +999,33 @@
     }, { passive: true });
     placeBar();
 
-    // Highlight the day that is currently on screen.
+    // Highlight the day being read: the last day whose heading has passed the
+    // top third of the screen. Scroll-driven, so short days are never skipped.
     var row = bar.querySelector('.row');
+    var days = Array.prototype.slice.call(document.querySelectorAll('.jc-daysec'));
     var links = {}; bar.querySelectorAll('a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
-    var current = null;
-    var spot = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (!e.isIntersecting) return;
-        if (current) current.classList.remove('cur');
-        current = links[e.target.id]; if (!current) return;
-        current.classList.add('cur');
-        // Slide only the bar's own row so the chip is centred. Never touch page
-        // scroll: scrollIntoView here interrupts the reader's momentum on iOS.
-        var left = current.offsetLeft - (row.clientWidth - current.offsetWidth) / 2;
-        row.scrollTo({ left: Math.max(0, left), behavior: reduce ? 'auto' : 'smooth' });
-      });
-    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
-    document.querySelectorAll('.jc-daysec').forEach(function (d) { spot.observe(d); });
+    var current = null, marking = false;
+    function markCurrent() {
+      marking = false;
+      var line = window.innerHeight * 0.34, pick = null;
+      for (var i = 0; i < days.length; i++) {
+        if (days[i].getBoundingClientRect().top <= line) pick = days[i]; else break;
+      }
+      var next = pick ? links[pick.id] : null;
+      if (next === current) return;
+      if (current) current.classList.remove('cur');
+      current = next;
+      if (!current) return;
+      current.classList.add('cur');
+      // Slide only the bar's own row so the chip is centred. Never touch page
+      // scroll: scrollIntoView here would interrupt the reader's momentum on iOS.
+      var left = current.offsetLeft - (row.clientWidth - current.offsetWidth) / 2;
+      row.scrollTo({ left: Math.max(0, left), behavior: reduce ? 'auto' : 'smooth' });
+    }
+    window.addEventListener('scroll', function () {
+      if (!marking) { marking = true; requestAnimationFrame(markCurrent); }
+    }, { passive: true });
+    markCurrent();
   }
 })();
 </script>
