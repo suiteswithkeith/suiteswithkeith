@@ -163,7 +163,7 @@ const ext = (href) => /^https?:/.test(href);
 )}
 
 {versus.length > 0 && (
-  <section class="section" id="head-to-head" style="padding-top:0; scroll-margin-top:70px;">
+  <section class="section" id="head-to-head" style={`${(g.winners.length > 0 || g.pairings.length > 0) && g.transfers.length === 0 && !g.kit ? '' : 'padding-top:0; '}scroll-margin-top:70px;`}>
     <div class="container">
       <div class="sec-head reveal">
         <span class="eyebrow">Stuck between two?</span>
