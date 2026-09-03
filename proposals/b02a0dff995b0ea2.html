@@ -993,10 +993,15 @@
   // Sticky date bar: show once the date grid has scrolled past.
   var bar = document.getElementById('datebar'), grid = document.getElementById('days');
   if (bar && grid) {
-    new IntersectionObserver(function (entries) {
-      var r = entries[0].boundingClientRect;
-      bar.classList.toggle('on', !entries[0].isIntersecting && r.bottom < 0);
-    }, { threshold: 0 }).observe(grid);
+    var ticking = false;
+    function placeBar() {
+      ticking = false;
+      bar.classList.toggle('on', grid.getBoundingClientRect().bottom < 0);
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(placeBar); }
+    }, { passive: true });
+    placeBar();
 
     // Highlight the day that is currently on screen.
     var links = {}; bar.querySelectorAll('a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
