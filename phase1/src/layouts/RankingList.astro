@@ -58,6 +58,41 @@ const ext = (href) => /^https?:/.test(href);
   </div>
 </section>
 
+{g.issue_cta && (
+  <section class="section" style="padding-top:0;">
+    <div class="container" style="max-width:760px;">
+      <div class="kit reveal">
+        <span class="eyebrow" style="display:block; margin-bottom:10px;" set:html={g.issue_cta.eyebrow} />
+        <h3 class="display-m" set:html={g.issue_cta.h} />
+        <p class="body-2" style="margin-top:12px;" set:html={g.issue_cta.p} />
+        <p style="margin-top:20px;"><a class="btn" href={g.issue_cta.href} target="_blank" rel="noopener" data-gtag-label="issue_waitlist" data-gtag-location="rankings_page" set:html={g.issue_cta.cta} /></p>
+      </div>
+    </div>
+  </section>
+)}
+
+{g.deals && (
+  <section class="section" id="deals" style="padding-top:0; scroll-margin-top:70px;">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow" set:html={g.deals.eyebrow} />
+        <h2 class="display-l" set:html={g.deals.h} />
+        <p class="deck" style="margin-top:16px; max-width:46ch;" set:html={g.deals.deck} />
+      </div>
+      <div class="vs-grid reveal">
+        {g.deals.items.map((d) => (
+          <div class="tr-tile">
+            <h3 set:html={d.h} />
+            <p set:html={d.p} />
+            <a class="toc-link" href="#inquire">Book this rate &rarr;</a>
+          </div>
+        ))}
+      </div>
+      {g.deals.note && <p class="small reveal" style="margin-top:18px; color:var(--ash);" set:html={g.deals.note} />}
+    </div>
+  </section>
+)}
+
 <!-- the rankings -->
 <section class="section" id="rankings" style="padding-top:0; scroll-margin-top:70px;">
   <div class="container">
@@ -163,7 +198,7 @@ const ext = (href) => /^https?:/.test(href);
 )}
 
 {versus.length > 0 && (
-  <section class="section" id="head-to-head" style="padding-top:0; scroll-margin-top:70px;">
+  <section class="section" id="head-to-head" style={`${(g.winners.length > 0 || g.pairings.length > 0) && g.transfers.length === 0 && !g.kit ? '' : 'padding-top:0; '}scroll-margin-top:70px;`}>
     <div class="container">
       <div class="sec-head reveal">
         <span class="eyebrow">Stuck between two?</span>
