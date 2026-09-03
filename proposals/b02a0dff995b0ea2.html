@@ -930,8 +930,6 @@
       <div>
         <div class="title">At every hotel</div>
         <p>We have requested extra hangers, an extra blanket, a small fan in each room, and glass water bottles only (no plastic).</p>
-        <div class="title" style="margin-top:22px;">One thing I need from you</div>
-        <p>Your credit card details, by phone. I will write them on paper only, use them for the Heathrow connection, Megan&rsquo;s Santorini transfer, and the Como and Amalfi boats, then destroy the paper.</p>
         <div class="title" style="margin-top:22px;">Time zones</div>
         <p>Italy is 7 hours ahead of Austin; Greece is 8 hours ahead.</p>
       </div>
@@ -973,7 +971,7 @@
 
 <footer class="jc-footer">
   Suites With Keith &middot; Curated by Keith Pence<br>
-  This page updated 2 September 2026, 9:27 PM CDT</footer>
+  This page updated 2 September 2026, 9:30 PM CDT</footer>
 
 
 <script>
@@ -1002,6 +1000,7 @@
     placeBar();
 
     // Highlight the day that is currently on screen.
+    var row = bar.querySelector('.row');
     var links = {}; bar.querySelectorAll('a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
     var current = null;
     var spot = new IntersectionObserver(function (entries) {
@@ -1010,7 +1009,10 @@
         if (current) current.classList.remove('cur');
         current = links[e.target.id]; if (!current) return;
         current.classList.add('cur');
-        current.scrollIntoView({ block: 'nearest', inline: 'center', behavior: reduce ? 'auto' : 'smooth' });
+        // Slide only the bar's own row so the chip is centred. Never touch page
+        // scroll: scrollIntoView here interrupts the reader's momentum on iOS.
+        var left = current.offsetLeft - (row.clientWidth - current.offsetWidth) / 2;
+        row.scrollTo({ left: Math.max(0, left), behavior: reduce ? 'auto' : 'smooth' });
       });
     }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
     document.querySelectorAll('.jc-daysec').forEach(function (d) { spot.observe(d); });
