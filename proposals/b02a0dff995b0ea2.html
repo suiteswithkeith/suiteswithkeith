@@ -998,7 +998,7 @@
     // Highlight the day that is currently on screen.
     var links = {}; bar.querySelectorAll('a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
     var current = null;
-    new IntersectionObserver(function (entries) {
+    var spot = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
         if (!e.isIntersecting) return;
         if (current) current.classList.remove('cur');
@@ -1006,17 +1006,8 @@
         current.classList.add('cur');
         current.scrollIntoView({ block: 'nearest', inline: 'center', behavior: reduce ? 'auto' : 'smooth' });
       });
-    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 }).observe && document.querySelectorAll('.jc-daysec').forEach(function (d) {
-      new IntersectionObserver(function (entries) {
-        entries.forEach(function (e) {
-          if (!e.isIntersecting) return;
-          if (current) current.classList.remove('cur');
-          current = links[e.target.id]; if (!current) return;
-          current.classList.add('cur');
-          current.scrollIntoView({ block: 'nearest', inline: 'center', behavior: reduce ? 'auto' : 'smooth' });
-        });
-      }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 }).observe(d);
-    });
+    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+    document.querySelectorAll('.jc-daysec').forEach(function (d) { spot.observe(d); });
   }
 })();
 </script>
