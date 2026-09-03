@@ -31,6 +31,12 @@
   .jc-intro p { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.25rem, 2.2vw, 1.6rem); color: var(--charcoal); margin: 0; line-height: 1.45; }
   .jc-intro .small { font-family: var(--font-body); font-weight: 300; font-size: 1rem; color: var(--ink-soft); margin-top: 22px; line-height: 1.65; }
   .jc-intro .small strong { font-weight: 500; color: var(--charcoal); }
+  .jc-numbers { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 26px; }
+  .jc-numbers > div { background: var(--white); border: 1px solid var(--hairline); border-left: 3px solid var(--olive); padding: 16px 18px; }
+  .jc-numbers .lbl { display: block; font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); }
+  .jc-numbers a { display: block; font-family: var(--font-display); font-weight: 500; font-size: 1.5rem; color: var(--charcoal); text-decoration: none; margin-top: 6px; letter-spacing: 0.01em; }
+  .jc-numbers .note { display: block; font-family: var(--font-body); font-weight: 300; font-size: 0.95rem; color: var(--ink-soft); margin-top: 4px; }
+  @media (max-width: 600px) { .jc-numbers { grid-template-columns: 1fr; } }
 
 
   /* Date grid: the clickable days */
@@ -270,7 +276,11 @@
       <div><span class="jc-eyebrow">Your Trip, Day by Day</span></div>
       <div>
         <p>Fourteen nights, five stops, two helicopters, two private jets, and a wedding in the middle of it. Everything below runs in order, with confirmation numbers under each item.</p>
-        <p class="small">Approximate times are marked <strong>approx</strong> and depend on traffic. Tap any date below to jump straight to that day. Keith&rsquo;s cell is <strong>+1 415-272-4316</strong>, call or text anytime.</p>
+        <p class="small">Approximate times are marked <strong>approx</strong> and depend on traffic. Tap any date below to jump straight to that day.</p>
+        <div class="jc-numbers">
+          <div><span class="lbl">Keith, anytime</span><a href="tel:+14152724316">+1 415-272-4316</a><span class="note">Call or text</span></div>
+          <div><span class="lbl">Arno Transfers, 24/7 emergency</span><a href="https://wa.me/393443443549" target="_blank" rel="noopener">+39 344 344 3549</a><span class="note">WhatsApp, monitored around the clock</span></div>
+        </div>
       </div>
     </div>
   </div>
@@ -990,7 +1000,7 @@
 
 <footer class="jc-footer">
   Suites With Keith &middot; Curated by Keith Pence<br>
-  This page updated 3 September 2026, 8:38 AM CDT</footer>
+  This page updated 3 September 2026, 8:41 AM CDT</footer>
 
 
 <script>
