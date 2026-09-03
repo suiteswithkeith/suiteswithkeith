@@ -28,6 +28,10 @@
   ],
   "toc": [
    {
+    "href": "#deals",
+    "label": "Current Offers"
+   },
+   {
     "href": "#rankings",
     "label": "The Rankings"
    },
@@ -347,7 +351,38 @@
   "transfers": [],
   "kit": false,
   "cta_eyebrow": "Planning A Trip To Napa &amp; Sonoma?",
-  "cta_h2": "As a luxury travel advisor, I help clients choose the right hotel, secure preferred partner amenities, and build personalized itineraries throughout wine country."
+  "cta_h2": "As a luxury travel advisor, I help clients choose the right hotel, secure preferred partner amenities, and build personalized itineraries throughout wine country.",
+  "issue_cta": {
+   "eyebrow": "Issue No. 02 &middot; Fall 2026",
+   "h": "The Napa &amp; Sonoma Collection lands September 15",
+   "p": "Every hotel on this page and who it&rsquo;s actually for, my restaurant and winery picks town by town, and a day on the Sonoma Coast most visitors never make. Join the waitlist and it reaches your inbox first.",
+   "href": "https://idyllic-sunset-66985.myflodesk.com/kurdjx2e4y",
+   "cta": "Join the waitlist &rarr;"
+  },
+  "deals": {
+   "eyebrow": "Live right now",
+   "h": "The current offers",
+   "deck": "What the ranked hotels are running at this moment. Book any of them through me &mdash; complimentary, as always &mdash; and my Fora perks layer on top.",
+   "items": [
+    {
+     "h": "Four Seasons Napa Valley",
+     "p": "<b>Third night free.</b> More time on my #02 &mdash; a complimentary third night on stays now through March 31, 2027."
+    },
+    {
+     "h": "MacArthur Place",
+     "p": "<b>Third night free.</b> The best home base for exploring Sonoma town, and right now the third night is on the house. Ask me for dates."
+    },
+    {
+     "h": "Montage Healdsburg",
+     "p": "<b>15% off residences.</b> The Residential Retreat &mdash; Montage&rsquo;s well-appointed residences at 15% off best rates, for stays April 10 &ndash; November 24, 2026."
+    },
+    {
+     "h": "Alila Napa Valley",
+     "p": "<b>15% off all rooms.</b> Hyatt Priv&eacute; rates on every room type for travel through the end of 2026 &mdash; and if you can move this week, a 33% flash rate on three-plus-night stays runs through September 8."
+    }
+   ],
+   "note": "Offers move quickly &mdash; current as of September 3, 2026. If your dates fall outside a window, tell me anyway; there&rsquo;s usually something I can do."
+  }
  },
  "best-hotels-greece": {
   "slug": "best-hotels-greece",
