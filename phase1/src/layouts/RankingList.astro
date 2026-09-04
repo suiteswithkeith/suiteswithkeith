@@ -21,7 +21,7 @@ const ext = (href) => /^https?:/.test(href);
   canonical={`${slug}.html`}
   title={g.title}
   description={g.description}
-  preload={g.hero_img}
+  preload={g.hero_poster || g.hero_img}
   current="rankings"
 >
 
@@ -29,7 +29,13 @@ const ext = (href) => /^https?:/.test(href);
 
 <!-- hero -->
 <header class="hero" style="min-height:min(78svh,720px);">
-  <img class="hero-img" src={g.hero_img} alt="" width="1800" height="1200" fetchpriority="high" />
+  {g.hero_video ? (
+    <video class="hero-video" autoplay loop muted playsinline preload="metadata" poster={g.hero_poster || g.hero_img} aria-hidden="true">
+      <source src={g.hero_video} type="video/mp4" />
+    </video>
+  ) : (
+    <img class="hero-img" src={g.hero_img} alt="" width="1800" height="1200" fetchpriority="high" />
+  )}
   <div class="container">
     <p class="eyebrow" set:html={g.eyebrow} />
     <h1 class="display-l" style="margin-top:18px; max-width:20ch; color:var(--band-ink); font-size:clamp(2.1rem,5vw,3.6rem);" set:html={g.h1} />
