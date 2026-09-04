@@ -179,12 +179,14 @@ const sections = [
   canonical="featured-destinations.html"
   title="Featured Destinations | Suites With Keith"
   description="The places I plan most often — Italy, Paris, London, Greece, Japan, Africa and Mexico — and the hotels I'd send my own family to, with partner amenities attached."
-  preload="/images/hotels/canaves-oia-1.jpg"
+  preload="/video/oia-hero-poster.jpg"
 >
 
 <!-- hero -->
 <header class="hero" style="min-height:min(74svh,700px);">
-  <img class="hero-img" src="/images/hotels/canaves-oia-1.jpg" alt="Whitewashed suites stepping down the caldera at Canaves Oia, Santorini" width="1800" height="1200" fetchpriority="high" />
+  <video class="hero-video" autoplay loop muted playsinline preload="metadata" poster="/video/oia-hero-poster.jpg" aria-label="Whitewashed arched terrace over the caldera at Canaves Oia, Santorini">
+    <source src="/video/oia-hero.mp4" type="video/mp4" />
+  </video>
   <div class="container">
     <p class="eyebrow">Featured destinations</p>
     <h1 class="display-xl">Where I plan<br><em>most often</em></h1>
