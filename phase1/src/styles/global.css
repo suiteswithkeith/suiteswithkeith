@@ -198,9 +198,6 @@ a { color: inherit; }
 /* ── hero, video variant: full viewport, nav overlaid, staggered entrance ── */
 .hero--video { min-height: 100svh; }
 .hero-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: var(--shadow); }
-@media (prefers-reduced-motion: no-preference) and (min-width: 861px) {
-  .hero-video { animation: hero-drift 24s linear both; }
-}
 .hero--video::after {
   background:
     linear-gradient(180deg, rgba(0,0,0,.10) 0%, rgba(0,0,0,.18) 45%, rgba(0,0,0,.55) 100%),
