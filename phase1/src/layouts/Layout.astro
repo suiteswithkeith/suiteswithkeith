@@ -7,7 +7,7 @@ import '@fontsource/jost/400.css';
 import '@fontsource/jost/500.css';
 import '@fontsource/courier-prime/400.css';
 import '@fontsource/courier-prime/700.css';
-const { title, description = '', current = '', preload = '', canonical = '' } = Astro.props;
+const { title, description = '', current = '', preload = '', canonical = '', navOverlay = false } = Astro.props;
 const canonicalPath = canonical === 'index.html' ? '' : canonical;
 ---
 <!doctype html>
@@ -36,7 +36,7 @@ const canonicalPath = canonical === 'index.html' ? '' : canonical;
 </head>
 <body>
 
-<nav class="nav" id="nav">
+<nav class={navOverlay ? "nav nav--overlay" : "nav"} id="nav">
   <div class="container">
     <a class="wordmark" href="/index.html">Suites With Keith</a>
     <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
