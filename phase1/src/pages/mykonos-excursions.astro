@@ -338,9 +338,9 @@ const booked = [
   .mk-eat h3 em { display: block; font-family: var(--stamp); font-style: normal; font-size: .64rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--brass); margin-top: 6px; }
   .mk-eat p { font-size: .95rem; color: var(--ash); line-height: 1.65; }
   .mk-band { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; }
-  @media (min-width: 940px) { .mk-band { grid-template-columns: 1fr 1.15fr; gap: 64px; } .mk-band.flip .mk-media { order: 2; } }
+  @media (min-width: 940px) { .mk-band { grid-template-columns: 1fr 1.15fr; gap: 64px; } .mk-band.flip .mk-media { order: 2; } .mk-media { position: sticky; top: 84px; } }
   .mk-band > :global(*) { min-width: 0; }
-  .mk-media { margin: 0; position: sticky; top: 84px; }
+  .mk-media { margin: 0; }
   .mk-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
   .mk-note { font-size: .96rem; line-height: 1.65; margin-bottom: 13px; padding-left: 16px; position: relative; color: var(--band-ash); }
   .mk-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass-lit); }
@@ -352,9 +352,9 @@ const booked = [
   @media (min-width: 940px) { .mk-aag { grid-template-columns: 1fr 1fr; gap: 72px; } }
   .mk-aag > :global(*) { min-width: 0; }
   .mk-days { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; }
-  @media (min-width: 940px) { .mk-days { grid-template-columns: 1fr 1.5fr; gap: 64px; } }
+  @media (min-width: 940px) { .mk-days { grid-template-columns: 1fr 1.5fr; gap: 64px; } .mk-days-photo { position: sticky; top: 84px; } }
   .mk-days > :global(*) { min-width: 0; }
-  .mk-days-photo { margin: 0; position: sticky; top: 84px; }
+  .mk-days-photo { margin: 0; }
   .mk-days-photo img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
   .mk-day { padding: 24px 0; border-bottom: 1px solid var(--hairline); }
   .mk-day:first-child { padding-top: 0; }
