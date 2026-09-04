@@ -6,13 +6,17 @@ import Layout from '../layouts/Layout.astro';
   title="Suites With Keith | Better Rooms. Better Trips."
   description="Better Rooms. Better Trips. Hotel recommendations from an advisor who tours the rooms before recommending them — Europe, honeymoons, and hotels worth the airfare. Booking is complimentary."
   preload="/images/personal/gundari-sunset.jpg"
+  navOverlay={true}
 >
 
 <!-- 1 · The claim -->
-<header class="hero">
-  <img class="hero-img" src="/images/personal/gundari-sunset.jpg" alt="Sunset over the Aegean from a suite terrace at Gundari, Folegandros" width="1800" height="1350" fetchpriority="high" />
+<header class="hero hero--video">
+  <video class="hero-video" autoplay loop muted playsinline preload="metadata"
+    poster="/images/personal/gundari-sunset.jpg" aria-hidden="true">
+    <source src="https://cdn.sceneai.art/Hero Section Video/01d1f8de-fec0-4bf5-8b48-9fc2dbc8c6b0.mp4" type="video/mp4" />
+  </video>
   <div class="container">
-    <p class="eyebrow">Suites With Keith</p>
+    <p class="eyebrow">Issue No. 02 &middot; Napa &amp; Sonoma &middot; lands September 15</p>
     <h1 class="display-xl">Better rooms.<br><em>Better trips.</em></h1>
     <p class="sub">Hotel recommendations from someone who&rsquo;s stood in the rooms &mdash; 123 on file across four continents, 38 of them toured in a single spring. Booking is complimentary; the judgment comes with it.</p>
     <div class="hero-ctas">
@@ -20,6 +24,7 @@ import Layout from '../layouts/Layout.astro';
       <a class="btn btn-ghost on-shadow" href="/featured-destinations.html" data-gtag-label="see_destinations" data-gtag-location="hero" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">See the destinations</a>
     </div>
   </div>
+  <span class="hero-cue" aria-hidden="true"></span>
 </header>
 
 <!-- 2 · The evidence -->
