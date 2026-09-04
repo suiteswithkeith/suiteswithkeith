@@ -244,9 +244,10 @@ const ext = (href) => /^https?:/.test(href);
   @media (min-width: 900px) {
     .rk { grid-template-columns: 1fr 1.15fr; gap: 64px; }
     .rk.flip .rk-media { order: 2; }
+    .rk-media { position: sticky; top: 84px; }
   }
   .rk > * { min-width: 0; }
-  .rk-media { margin: 0; position: sticky; top: 84px; }
+  .rk-media { margin: 0; }
   .rk-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
   .rk-num { font-family: var(--display); font-weight: 400; font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1; color: var(--brass); font-variant-numeric: tabular-nums; }
   .rk-bestfor { display: block; margin-top: 14px; font-size: .66rem; color: var(--ash-3); font-weight: 700; }
