@@ -31,11 +31,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-<<<<<<< HEAD
-=======
     <loc>https://suiteswithkeith.com/sample-proposal-greece.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/canaves-vs-andronis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://suiteswithkeith.com/andronis-boutique-vs-canaves-oia-suites.html</loc>
@@ -168,7 +171,6 @@
     <priority>0.8</priority>
   </url>
   <url>
->>>>>>> 6bc610472d986acf6a709483029b377805f6e834
     <loc>https://suiteswithkeith.com/sample-itinerary.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
