@@ -1155,3 +1155,14 @@ a.proposal-card:hover { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); transform: 
 .partner-track .partner-logo.inv img { filter: invert(1) grayscale(1); }
 @keyframes partner-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .partner-track { animation: none; flex-wrap: wrap; width: auto; justify-content: center; gap: 40px; } .partner-track .partner-set:last-child { display: none; } }
+
+/* ── Cinematic pass ──────────────────────────────────────────────
+   Cross-fade page transitions + slower reveal pacing to match the
+   rest of the site. Motion sits behind prefers-reduced-motion. */
+@view-transition{navigation:auto}
+@media (prefers-reduced-motion:reduce){@view-transition{navigation:none}}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.4s}
+@media (prefers-reduced-motion:no-preference){
+  html.reveal-ready .reveal{transform:translateY(26px);transition:opacity 1.05s cubic-bezier(.16,.68,.2,1),transform 1.05s cubic-bezier(.16,.68,.2,1)}
+  html.reveal-ready .reveal.reveal-in{opacity:1;transform:none}
+}
