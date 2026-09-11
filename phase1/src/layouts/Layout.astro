@@ -104,7 +104,7 @@ const canonicalPath = canonical === 'index.html' ? '' : canonical;
     });
   }, { threshold: 0.15 });
   document.querySelectorAll('.reveal').forEach((el, i) => {
-    el.style.transitionDelay = Math.min(i % 5, 4) * 60 + 'ms';
+    el.style.transitionDelay = Math.min(i % 5, 4) * 90 + 'ms';
     io.observe(el);
   });
 

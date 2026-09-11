@@ -594,6 +594,36 @@
     "img2_alt": "Erema detail"
    },
    {
+    "img": "/images/hotels/onero-1.jpg",
+    "img_alt": "Onero — Milos",
+    "kicker": "Milos",
+    "name": "Onero",
+    "sub": "The new arrival at Parasporos",
+    "desc": "Milos' newest luxury opening terraces 31 sea-view suites and villas down the hillside at Parasporos — local stone, native grasses, and private pools, ten minutes from Adamas. It's the first property on the island that pairs Milos' landscape with a true five-star resort stay.",
+    "best_for": "Couples, Honeymooners, Villa Groups, Design Lovers",
+    "rate": "New opening — ask me for current rates",
+    "room": "Eos Sea View Private Pool Suite",
+    "room_note": "Ground-floor suite with its own private pool and a sea-facing terrace.",
+    "href": "/hotels/onero-milos.html",
+    "notes": [
+     {
+      "b": "Base yourself here for the whole island.",
+      "t": "Adamas port is ten minutes away, Plaka fifteen, Sarakiniko eighteen — nothing on Milos is far."
+     },
+     {
+      "b": "Groups should go straight to the villas.",
+      "t": "The three-bedroom Ninemia villas and the grand four-bedroom Orama bring real villa scale with hotel service — rare on Milos."
+     },
+     {
+      "b": "Book early.",
+      "t": "31 keys on the island everyone is asking about — peak-summer weeks will go first."
+     }
+    ],
+    "take": "Milos has been waiting for a resort at this level — Onero finally gives the island's dramatic coastline the five-star base it deserved.",
+    "img2": "/images/hotels/onero-2.jpg",
+    "img2_alt": "Onero suite with private pool"
+   },
+   {
     "img": "/images/hotels/whitepebble-1.jpg",
     "img_alt": "White Pebble Suites — Milos",
     "kicker": "Milos",
