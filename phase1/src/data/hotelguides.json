@@ -291,10 +291,16 @@
      "href": "/hotels/bill-and-coo-suites-mykonos.html"
     },
     {
-     "img": "/images/islands/cover.jpg",
+     "img": "/images/hotels/one-and-only-kea-1.jpg",
      "name": "One&amp;Only Kea",
-     "p": "Kea &middot; Resort &amp; private homes",
+     "p": "Kea &middot; All-villa resort &amp; private homes",
      "href": "/hotels/one-and-only-kea.html"
+    },
+    {
+     "img": "/images/hotels/the-rooster-1.jpg",
+     "name": "The Rooster",
+     "p": "Antiparos &middot; Wellness &amp; lifestyle estate",
+     "href": "/hotels/the-rooster-antiparos.html"
     },
     {
      "img": "/images/islands/athens-hero.jpg",
