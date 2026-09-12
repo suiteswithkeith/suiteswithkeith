@@ -2691,5 +2691,92 @@
     "label": "Napa or Sonoma &mdash; the valley question"
    }
   ]
+ },
+ "one-and-only-kea-vs-aesthesis": {
+  "title": "One&Only Kea Island or Aesthesis? | Suites With Keith",
+  "description": "Greece's two One&Only flags — the all-villa island resort above Vroskopos Bay on Kea, or the Athens Riviera beach scene at Aesthesis. Keith on how to choose, and when to book both.",
+  "eyebrow": "Head-to-head &middot; The One&amp;Only Flags In Greece",
+  "h1_a": "Kea Island",
+  "h1_b": "Aesthesis?",
+  "deck": "One&amp;Only planted two flags in Greece within a year of each other, and they answer very different questions: Kea Island is the all-villa resort on the quiet island an hour from Athens; Aesthesis is the Riviera beach scene with the Acropolis still in reach. Here&rsquo;s how I match clients to each.",
+  "stamp": "The two One&amp;Only flags in Greece &middot; both on my booking list &middot; both bookable with my perks",
+  "choose": [
+   {
+    "eyebrow": "Choose Kea Island",
+    "h3": "If the island is the trip",
+    "lead": "Sixty-three cliffside villas above Vroskopos Bay, every one with a private infinity pool, on an island the ferry crowds skip &mdash; plus real resort depth: Bond Beach Club, a three-floor spa, Club One&rsquo;s courts, clubs for kids and teens. You arrive by speedboat, you stay put, and the world stays behind."
+   },
+   {
+    "eyebrow": "Choose Aesthesis",
+    "h3": "If the city stays in play",
+    "lead": "The Riviera beach coast south of Athens &mdash; home of the M&atilde;nko Beach cabana day I write into my sample honeymoon itinerary &mdash; with the Acropolis still a drive away, not a boat away. Beach mornings, city evenings, no crossing required."
+   }
+  ],
+  "rows": [
+   [
+    "The setting",
+    "161 clifftop acres above Vroskopos Bay on Kea &mdash; the closest Cyclade to Athens, and the one itineraries skip",
+    "The Riviera beach coast south of the city &mdash; home of M&atilde;nko Beach"
+   ],
+   [
+    "The room",
+    "63 villas, every one with a private infinity pool and open sea view &mdash; Private Homes run to six bedrooms",
+    "A beach resort room with the Riviera at the door &mdash; the cabana, not the villa, is the headline"
+   ],
+   [
+    "Getting there",
+    "45 minutes by resort speedboat from Lavrio, 15 by helicopter &mdash; then you&rsquo;re staying put",
+    "A drive from central Athens or the airport &mdash; come and go all week"
+   ],
+   [
+    "The scene",
+    "Bond Beach Club&rsquo;s guest-DJ calendar is the one loud corner of a very quiet island",
+    "M&atilde;nko Beach is the point &mdash; cabanas, long lunches, the Riviera crowd"
+   ],
+   [
+    "How I book it",
+    "The island chapter itself &mdash; a one-base resort week after a night or two in Athens",
+    "The beach-day counterpoint to a Dolli city stay, or a full Riviera stretch alongside Astir"
+   ],
+   [
+    "Who it suits",
+    "Privacy seekers, families, longer stays, one-perfect-base trips",
+    "City-plus-beach trips, honeymoon starts, shorter stays"
+   ]
+  ],
+  "footnote": "A useful tiebreaker: if the itinerary already has Cycladic islands in it, Aesthesis covers the Athens chapter without adding another crossing &mdash; but if you want one island done properly instead of three done quickly, Kea is the better week. Full transparency, as always: I haven&rsquo;t inspected either one yet &mdash; both are on my booking list, and my clients get my vetting call with the on-property team before arrival.",
+  "verdict": {
+   "h2": "Same flag, two different trips.",
+   "paras": [
+    "Kea Island is the deeper commitment and the bigger payoff &mdash; a true all-villa resort on an island most itineraries skip, with enough program depth that you never need to leave. It replaces the island-hop for people who want one perfect base where everything is on property and the pool is yours.",
+    "Aesthesis is the easy yes &mdash; Riviera beach days with the city still in play, and the M&atilde;nko cabana afternoon that anchors my sample honeymoon itinerary. Tell me the shape of the trip &mdash; one deep island week, or Athens with a beach &mdash; and I&rsquo;ll match you to the right flag, or route you through both."
+   ]
+  },
+  "subject": "Kea Island vs Aesthesis Inquiry",
+  "hotel": "One&Only Kea Island / One&Only Aesthesis",
+  "placeholder": "Early June, Athens plus an island",
+  "related": [
+   {
+    "href": "/hotels/one-and-only-kea.html",
+    "label": "One&amp;Only Kea Island guide"
+   },
+   {
+    "href": "/hotels/one-and-only-aesthesis-athens.html",
+    "label": "One&amp;Only Aesthesis review"
+   },
+   {
+    "href": "/athens.html",
+    "label": "The Athens guide"
+   },
+   {
+    "href": "/four-seasons-astir-palace-vs-one-and-only-aesthesis.html",
+    "label": "Astir Palace or Aesthesis &mdash; the other Riviera question"
+   },
+   {
+    "href": "/greece-honeymoon.html",
+    "label": "My dream Greece honeymoon itinerary"
+   }
+  ],
+  "ld_image": "/images/hotels/one-and-only-kea-1.jpg"
  }
 }
