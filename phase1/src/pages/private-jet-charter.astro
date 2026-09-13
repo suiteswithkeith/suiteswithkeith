@@ -1,0 +1,297 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqs = [
+  { q: 'Do you charge a fee to arrange a private jet?', a: 'Not for a point-to-point flight. You see the operator’s quote as it came to me and you pay that number — nothing added. A multi-destination itinerary — several legs, or flights that have to be designed around hotels, cars and a yacht — carries a flat planning fee, quoted in writing before I begin.' },
+  { q: 'If there’s no fee, how are you paid?', a: 'The charter partner compensates me on the booking, the same way hotels do. It doesn’t change your price, and it’s why I can do this for a simple flight without charging you.' },
+  { q: 'How much does it cost to charter a private jet?', a: 'Priced per flight hour, all-in: roughly $5,000–8,000 for a light jet, $7,000–10,000 for a midsize, $9,000–13,000 for a super-midsize, and $12,000–20,000 or more for a heavy or ultra-long-range aircraft. Positioning, daily minimums and peak dates move the number up; empty legs bring it down.' },
+  { q: 'Will I pay more going through you?', a: 'No. You pay the operator’s quote as it came to me; I don’t add to it. What you get on top is someone comparing operators, checking the safety audits, reading the contract, and tying the flight to the rest of the trip.' },
+  { q: 'What is an empty leg?', a: 'A flight an aircraft has to make anyway — repositioning for its next job, or heading home — sold at a steep discount, often 30 to 50 percent off. They only work if your dates and times can bend to the aircraft’s. If they can, tell me and I’ll watch for one.' },
+  { q: 'Is a jet card or fractional share better than on-demand charter?', a: 'It comes down to hours. Below about 25 flight hours a year, on-demand charter is almost always the better deal and keeps you free to pick the right aircraft for each trip. Above that, a card or a share can make sense — and if it does for you, I’ll say so.' },
+  { q: 'How far in advance should I book a charter flight?', a: 'For a domestic flight on an ordinary date, 48 to 72 hours is workable and a week is comfortable. Peak holidays, ski weekends and international routes need two to four weeks — the good aircraft are spoken for early, and permits take time.' },
+  { q: 'Do you arrange international private flights?', a: 'Yes — transatlantic to Europe, flights within Europe, Mexico and the Caribbean. International adds customs, permits and crew-duty limits, so it’s planned differently from a domestic hop, and I’ll walk you through what changes.' },
+  { q: 'Can I bring my dog?', a: 'Usually, yes — in the cabin, on your lap or at your feet. Tell me up front so I choose an operator that welcomes pets rather than tolerates them.' },
+  { q: 'I already have hotels booked. Can you still arrange the flight?', a: 'Yes. Nothing gets cancelled or rebooked — I source the aircraft, time it to your check-in and check-out, and put a car on the ramp at both ends. Send me the route and your confirmations; that’s all I need to start.' },
+];
+
+const faqSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+});
+---
+<Layout
+  canonical="private-jet-charter.html"
+  title="Private Jet Charter, Transparent Pricing | Suites With Keith"
+  description="I arrange private jet charter through vetted operators — no fee for a point-to-point flight, the operator's quote passed through as-is, and a flat planning fee only when a trip has several stops. What a jet actually costs, and what to know before you book."
+>
+
+<Fragment slot="head" set:html={`<script type="application/ld+json">${faqSchema}</script>`} />
+
+<!-- masthead -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p class="eyebrow reveal">Services &middot; private jet charter</p>
+    <h1 class="display-xl reveal" style="margin-top:18px; max-width:12ch;">Private jets, <em style="font-style:italic; color:var(--brass);">priced in plain sight</em></h1>
+    <p class="deck reveal" style="margin-top:22px; max-width:46ch;">How I arrange charter flights for clients, what a jet actually costs, and the part people are usually too polite to ask about: what I charge. For a simple point-to-point flight, nothing.</p>
+    <div class="hero-ctas reveal" style="margin-top:30px;">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="jet_masthead">Ask about a flight</a>
+      <a class="btn btn-ghost" href="#pricing" data-gtag-label="jet_pricing" data-gtag-location="jet_masthead">See how the fee works</a>
+    </div>
+  </div>
+</section>
+
+<!-- intro -->
+<section class="section">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <p class="deck" style="max-width:44ch;">The first question I get about private aviation isn&rsquo;t about the aircraft. It&rsquo;s &ldquo;what is this going to cost me to go through you?&rdquo;</p>
+      <p class="body-2" style="margin-top:20px; max-width:58ch;">Fair question, so here&rsquo;s the whole answer up front. For a point-to-point flight &mdash; one departure, one arrival, home again on a set date &mdash; I don&rsquo;t charge a fee. You see the operator&rsquo;s quote exactly as it came to me, line by line, and you pay that number. Where I do charge is a multi-destination trip: three cities in five days, a jet timed to meet a yacht, an itinerary where the flying and the hotels and the cars all have to be designed together. That&rsquo;s planning work, and it carries a flat fee quoted in writing before I start.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">One thing to know: I&rsquo;m not a charter operator or a broker, and I&rsquo;m not pretending to be. I work with a small set of vetted charter partners I&rsquo;ve used for clients before. What I bring is the same thing I bring to hotels &mdash; judgment about what&rsquo;s right for you, and someone in your corner whose only job is getting you the right aircraft at an honest number.</p>
+    </div>
+    <div class="reveal">
+      <dl class="kv">
+        <div class="kv-row"><dt>Point to point</dt><dd><b>No fee.</b> The operator&rsquo;s quote, passed through as-is</dd></div>
+        <div class="kv-row"><dt>Multi-destination</dt><dd><b>Flat planning fee</b>, quoted in writing before any work begins</dd></div>
+        <div class="kv-row"><dt>Aircraft</dt><dd>Light &middot; midsize &middot; super-midsize &middot; heavy &middot; ultra-long-range</dd></div>
+        <div class="kv-row"><dt>Operators</dt><dd>Part 135 (US) and AOC-holding (Europe) operators, ARGUS or Wyvern audited</dd></div>
+        <div class="kv-row"><dt>Lead time</dt><dd><b>48&ndash;72 hours</b> is workable &middot; peak dates and international, weeks ahead</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- where the fee is, and isn't -->
+<section class="section" id="pricing" style="padding-top:0; scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Two kinds of trip</span>
+      <h2 class="display-l">Where a fee applies, and where it doesn&rsquo;t</h2>
+      <p class="deck" style="margin-top:16px; max-width:52ch;">The line is simple. If it&rsquo;s a flight, there&rsquo;s no fee. If it&rsquo;s a trip I have to design, there is one &mdash; and you&rsquo;ll know the number before I lift a finger.</p>
+    </div>
+    <div class="choose reveal">
+      <div class="choose-col">
+        <span class="eyebrow">Point to point</span>
+        <h3>No fee. The quote is the price.</h3>
+        <p class="lead">Teterboro to Palm Beach for the weekend. Napa to Cabo and back. Athens to Mykonos when the ferry is a non-starter. I source the aircraft from operators I trust, you see the quote itemized, and you pay that number &mdash; nothing added by me, no membership, no card to buy into. What you get on top is someone who has done this before reading the fine print for you.</p>
+        <p class="fee-line"><b>Your cost to work with me: $0</b><br>Same quote, someone in your corner</p>
+        <p style="margin-top:24px; display:flex; flex-wrap:wrap; gap:14px;">
+          <a class="btn" href="#inquire" data-gtag-label="jet_point_to_point" data-gtag-location="jet_paths">Send me a route</a>
+        </p>
+      </div>
+      <div class="choose-col">
+        <span class="eyebrow">Multi-destination</span>
+        <h3>A flat planning fee, agreed first</h3>
+        <p class="lead">Three cities in a week. A jet timed to a yacht in the Cyclades. A family on two coasts meeting in Aspen. When the flying has to be built around hotels, cars, crew-duty limits and a calendar, that&rsquo;s an itinerary, not a booking &mdash; and it carries a flat planning fee, quoted in writing before I do anything. No hourly meter, no surprise line at the end.</p>
+        <p class="fee-line"><b>One flat fee, in writing, up front</b><br>Covers the whole itinerary, not just the flying</p>
+        <p style="margin-top:24px; display:flex; flex-wrap:wrap; gap:12px 28px;">
+          <a class="btn" href="#inquire" data-gtag-label="jet_multi_destination" data-gtag-location="jet_paths">Tell me the trip</a>
+        </p>
+        <p style="margin-top:16px; display:flex; flex-wrap:wrap; gap:10px 28px;">
+          <a class="pb-link" href="/services.html">What full-trip planning covers &rarr;</a>
+          <a class="pb-link" href="/sample-itinerary.html">See a sample itinerary &rarr;</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- No. 01 — the quote -->
+<section class="section band on-shadow" id="quote" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="hc-grid">
+      <div class="reveal hc-aside">
+        <span class="stamp plain" style="font-weight:700; color:var(--brass-lit);">No. 01</span>
+        <h2 class="display-l" style="margin-top:12px;">What a transparent quote looks like</h2>
+        <p class="deck" style="margin-top:10px; font-size:1.05rem;">Every line, before you say yes</p>
+        <p class="stamp plain small-meta">You&rsquo;ll see it &middot; before you sign anything</p>
+        <p class="body-2" style="margin-top:18px;">A charter quote should read like an invoice, not a menu. When I send one over, it&rsquo;s the operator&rsquo;s number, itemized, with the parts that tend to surprise people called out in plain English.</p>
+      </div>
+      <div class="reveal">
+        <div>
+          <p class="hc-note"><b>The aircraft, by name.</b> <span>Type and year of the specific aircraft, not a category. If the operator needs to substitute later, you&rsquo;ll know why and what changes.</span></p>
+          <p class="hc-note"><b>Flight time at the hourly rate.</b> <span>Charter is priced by the flight hour, and the biggest line is simply hours times rate. I&rsquo;ll tell you the rate and the block time so you can check the math yourself.</span></p>
+          <p class="hc-note"><b>Positioning.</b> <span>If the aircraft has to fly empty to reach you, you pay for that leg. It&rsquo;s the most common reason two quotes for the same route differ &mdash; the closer aircraft is usually the cheaper one, and I&rsquo;ll tell you when it isn&rsquo;t the better one.</span></p>
+          <p class="hc-note"><b>Taxes and fees, itemized.</b> <span>In the US, the 7.5% federal excise tax and segment fees. In Europe, VAT where it applies. Landing, handling and crew overnights on multi-day trips. All visible, none tacked on afterward.</span></p>
+          <p class="hc-note"><b>What can still move.</b> <span>De-icing on a winter morning, catering you add, an overnight the weather forces. These are true pass-throughs, and I&rsquo;ll flag which lines they are before you sign so nothing on the final invoice is a surprise.</span></p>
+          <p class="hc-note"><b>What isn&rsquo;t there.</b> <span>No markup from me. No membership, no jet card, no &ldquo;concierge fee.&rdquo; If a line on a quote can&rsquo;t be explained in a sentence, it doesn&rsquo;t belong on the quote.</span></p>
+        </div>
+        <div class="verdict" style="margin-top:26px;"><p>You should be able to read the quote and understand exactly what you&rsquo;re paying for. If you can&rsquo;t, I haven&rsquo;t done my job.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- No. 02 — the cost -->
+<section class="section" id="cost" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="hc-grid flip">
+      <div class="reveal hc-aside">
+        <span class="stamp plain" style="font-weight:700; color:var(--brass);">No. 02</span>
+        <h2 class="display-l" style="margin-top:12px;">What a private jet actually costs</h2>
+        <p class="deck" style="margin-top:10px; font-size:1.05rem;">Ballpark hourly rates, all-in</p>
+        <p class="stamp plain small-meta">Rough guide &middot; 2026 &middot; rates move with fuel, season and demand</p>
+        <p class="body-2" style="margin-top:18px;">People are usually guessing at the number, in both directions. Here&rsquo;s the honest range for on-demand charter, priced per flight hour with fuel, crew and standard fees included. Your quote will land somewhere in here; where depends on the aircraft, the date, and where the closest suitable one happens to be sitting.</p>
+      </div>
+      <div class="reveal">
+        <div>
+          <p class="hc-note"><b>Light jet, 4&ndash;7 seats: roughly $5,000&ndash;8,000 an hour.</b> <span>Phenom 300, Citation CJ3 and CJ4. Two to three hours of comfortable range &mdash; New York to Palm Beach, Los Angeles to Aspen, Napa to Cabo. The workhorse of domestic charter.</span></p>
+          <p class="hc-note"><b>Midsize, 7&ndash;8 seats: roughly $7,000&ndash;10,000 an hour.</b> <span>Citation XLS, Learjet 60, Hawker 800. A proper lavatory, room to move, and enough range to cross the country with a stop.</span></p>
+          <p class="hc-note"><b>Super-midsize, 8&ndash;10 seats: roughly $9,000&ndash;13,000 an hour.</b> <span>Challenger 350, Citation Longitude, Praetor 600. Nonstop coast to coast in a stand-up cabin. For most families, this is the sweet spot.</span></p>
+          <p class="hc-note"><b>Heavy and ultra-long-range, 10&ndash;16 seats: roughly $12,000&ndash;20,000+ an hour.</b> <span>Gulfstream G450 through G650, Global 6000 and 7500, Falcon 8X. Transatlantic nonstop, a bed that&rsquo;s actually a bed, and you arrive rested.</span></p>
+          <p class="hc-note"><b>Minimums and one-ways.</b> <span>Most operators bill a daily minimum of about two flight hours, and a one-way is often priced like a round trip because the aircraft has to come home. Which is where empty legs come in.</span></p>
+          <p class="hc-note"><b>Empty legs.</b> <span>When an aircraft has to reposition anyway, that leg sells at a steep discount &mdash; often 30 to 50 percent off. Flexible on dates and times? Tell me, and I&rsquo;ll watch for one. Not flexible? They&rsquo;re not for you, and I&rsquo;ll say so rather than waste your week.</span></p>
+        </div>
+        <div class="verdict" style="margin-top:26px;"><p>For six of you on a three-hour flight, the per-seat number is often closer to first class than people expect. For a couple crossing the Atlantic, it isn&rsquo;t &mdash; and I&rsquo;ll tell you when it isn&rsquo;t.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- No. 03 — the fine print -->
+<section class="section band on-shadow" id="know" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="hc-grid">
+      <div class="reveal hc-aside">
+        <span class="stamp plain" style="font-weight:700; color:var(--brass-lit);">No. 03</span>
+        <h2 class="display-l" style="margin-top:12px;">Good to know before you fly private</h2>
+        <p class="deck" style="margin-top:10px; font-size:1.05rem;">The honest fine print</p>
+        <p class="stamp plain small-meta">Read this &middot; before you commit to a date</p>
+        <p class="body-2" style="margin-top:18px;">The aircraft is the easy part. What separates a smooth charter from an expensive lesson is the operator behind it, the contract you sign, and the plan for when the weather doesn&rsquo;t cooperate.</p>
+      </div>
+      <div class="reveal">
+        <div>
+          <p class="hc-note"><b>Safety is where I start, not where I finish.</b> <span>Only operators holding a Part 135 certificate in the US or an Air Operator Certificate in Europe, and I ask for the ARGUS or Wyvern audit status on the specific operator flying you. A cheap quote from an operator that can&rsquo;t show it isn&rsquo;t a bargain.</span></p>
+          <p class="hc-note"><b>Quotes are estimates until they&rsquo;re contracts.</b> <span>A quote holds for the aircraft it names, usually for a day or two. Once you sign the charter agreement the price is fixed apart from the true pass-throughs. I&rsquo;ll tell you which lines can move before you sign, not after.</span></p>
+          <p class="hc-note"><b>Cancellation terms vary a lot.</b> <span>Some operators are flexible until 48 hours out. Peak-date bookings are often non-refundable the moment you sign. I read this part so you don&rsquo;t have to, and I&rsquo;ll tell you in one line what you&rsquo;re committing to.</span></p>
+          <p class="hc-note"><b>Peak days cost more and sell out.</b> <span>Thanksgiving, Christmas week, Presidents&rsquo; Day, Aspen in February, the Hamptons on a Friday in July. Expect surcharges, and book weeks ahead rather than days.</span></p>
+          <p class="hc-note"><b>International adds paperwork, not just miles.</b> <span>Customs, overflight permits, crew rest, and a limit on how many hours a crew can work in a day. A transatlantic isn&rsquo;t a longer version of a domestic hop; it&rsquo;s a different plan, and it gets planned that way.</span></p>
+          <p class="hc-note"><b>Pets, luggage, and the golf clubs.</b> <span>Most operators welcome pets in the cabin. Baggage is what catches people: a light jet has a small hold, and a pair of ski bags or a set of clubs is the difference between one cabin class and the next. Tell me what&rsquo;s coming with you.</span></p>
+        </div>
+        <div class="verdict" style="margin-top:26px;"><p>Handled properly, it&rsquo;s the most civilized travel day you&rsquo;ll ever have. Handled casually, it&rsquo;s a very expensive way to learn what a repositioning fee is.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- where I fit -->
+<section class="section" id="fit" style="scroll-margin-top:70px;">
+  <div class="container" style="max-width:820px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Where I fit</span>
+      <h2 class="display-l">I&rsquo;m not the operator. I&rsquo;m the one who reads the contract.</h2>
+    </div>
+    <p class="body-2 reveal" style="max-width:60ch;">Charter brokers are good at aircraft. Hotels are good at rooms. Nobody on either side is looking at your whole trip, and that&rsquo;s the part I care about. When the flight comes through me it&rsquo;s connected to everything else: a car waiting on the ramp at the FBO, a check-in that actually lines up with your wheels-down, and a hotel that knows you&rsquo;re landing at a private terminal rather than walking out of arrivals.</p>
+    <p class="body-2 reveal" style="margin-top:14px; max-width:60ch;">And if the honest answer is that you should fly commercial &mdash; a nonstop in first class for a fraction of the cost, booked on points you already have &mdash; I&rsquo;ll tell you that too. I consult on points; it&rsquo;s the same conversation.</p>
+    <p class="body-2 reveal" style="margin-top:14px; max-width:60ch;">Already have a broker, a jet card or a fractional share? Keep it. I&rsquo;m happy to work around what you have and simply build the trip on the other side of the ramp.</p>
+    <div class="reveal" style="margin-top:26px; display:flex; flex-wrap:wrap; gap:14px;">
+      <a class="btn" href="#inquire" data-gtag-label="jet_inquiry" data-gtag-location="jet_fit">Ask about a flight</a>
+      <a class="btn btn-ghost" href="/hoper.html" data-gtag-label="hoper_cross_link" data-gtag-location="jet_fit">Flying within Greece? The helicopter</a>
+    </div>
+    <div class="verdict reveal" style="margin-top:44px;">
+      <p>The fee question, one more time, because it&rsquo;s the one that matters: a flight from A to B costs you nothing to run through me. A trip I have to design costs a flat fee you&rsquo;ll see before I start. There is no third category.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq" style="padding-top:0; scroll-margin-top:70px;">
+  <div class="container" style="max-width:860px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Questions</span>
+      <h2 class="display-l">Asked often, answered straight</h2>
+    </div>
+    <div class="faq reveal">
+      <details>
+        <summary><span>Do you charge a fee to arrange a private jet?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>Not for a point-to-point flight. You see the operator&rsquo;s quote as it came to me and you pay that number &mdash; nothing added. A multi-destination itinerary &mdash; several legs, or flights that have to be designed around hotels, cars and a yacht &mdash; carries a flat planning fee, quoted in writing before I begin.</p>
+      </details>
+      <details>
+        <summary><span>If there&rsquo;s no fee, how are you paid?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>The charter partner compensates me on the booking, the same way hotels do. It doesn&rsquo;t change your price, and it&rsquo;s why I can do this for a simple flight without charging you.</p>
+      </details>
+      <details>
+        <summary><span>How much does it cost to charter a private jet?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>Priced per flight hour, all-in: roughly $5,000&ndash;8,000 for a light jet, $7,000&ndash;10,000 for a midsize, $9,000&ndash;13,000 for a super-midsize, and $12,000&ndash;20,000 or more for a heavy or ultra-long-range aircraft. Positioning, daily minimums and peak dates move the number up; empty legs bring it down. <a href="#cost">The full breakdown is above.</a></p>
+      </details>
+      <details>
+        <summary><span>Will I pay more going through you?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>No. You pay the operator&rsquo;s quote as it came to me; I don&rsquo;t add to it. What you get on top is someone comparing operators, checking the safety audits, reading the contract, and tying the flight to the rest of the trip.</p>
+      </details>
+      <details>
+        <summary><span>What is an empty leg?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>A flight an aircraft has to make anyway &mdash; repositioning for its next job, or heading home &mdash; sold at a steep discount, often 30 to 50 percent off. They only work if your dates and times can bend to the aircraft&rsquo;s. If they can, tell me and I&rsquo;ll watch for one.</p>
+      </details>
+      <details>
+        <summary><span>Is a jet card or fractional share better than on-demand charter?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>It comes down to hours. Below about 25 flight hours a year, on-demand charter is almost always the better deal and keeps you free to pick the right aircraft for each trip. Above that, a card or a share can make sense &mdash; and if it does for you, I&rsquo;ll say so.</p>
+      </details>
+      <details>
+        <summary><span>How far in advance should I book a charter flight?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>For a domestic flight on an ordinary date, 48 to 72 hours is workable and a week is comfortable. Peak holidays, ski weekends and international routes need two to four weeks &mdash; the good aircraft are spoken for early, and permits take time.</p>
+      </details>
+      <details>
+        <summary><span>Do you arrange international private flights?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>Yes &mdash; transatlantic to Europe, flights within Europe, Mexico and the Caribbean. International adds customs, permits and crew-duty limits, so it&rsquo;s planned differently from a domestic hop, and I&rsquo;ll walk you through what changes.</p>
+      </details>
+      <details>
+        <summary><span>Can I bring my dog?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>Usually, yes &mdash; in the cabin, on your lap or at your feet. Tell me up front so I choose an operator that welcomes pets rather than tolerates them.</p>
+      </details>
+      <details>
+        <summary><span>I already have hotels booked. Can you still arrange the flight?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>Yes. Nothing gets cancelled or rebooked &mdash; I source the aircraft, time it to your check-in and check-out, and put a car on the ramp at both ends. Send me the route and your confirmations; that&rsquo;s all I need to start.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ask -->
+<section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
+    <h2 class="display-l reveal">Where to, and when?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;">Tell me the route, the dates, and how many of you &mdash; I&rsquo;ll come back with the right aircraft and a real, itemized number.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Inquiry — private jet charter">
+      <input type="hidden" name="page" value="private-jet-charter">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">Where to, and when?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="Teterboro to Palm Beach &middot; Dec 19&ndash;26 &middot; four of us" required autocomplete="off">
+      </div>
+      <div class="step2">
+        <label for="q-trip-type" style="color:var(--band-ash);">What kind of trip is it?</label>
+        <select id="q-trip-type" name="trip_type" class="pb-select" required>
+          <option value="">Select one</option>
+          <option>Point to point &mdash; there and back, no fee</option>
+          <option>Multi-destination &mdash; several legs or cities</option>
+          <option>Not sure yet &mdash; help me think it through</option>
+        </select>
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the quote?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name">
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email">
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Passengers, bags, pets, aircraft preference &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="6 of us &middot; ski bags &middot; one small dog" autocomplete="off">
+      </div>
+      <button type="submit" class="btn">Send</button>
+      <p class="note" style="color:var(--band-ash);">Flying within the next 72 hours? Email me directly and you&rsquo;ll hear back today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+.intro-grid{display:grid;gap:44px;grid-template-columns:1fr;align-items:start}@media(min-width:900px){.intro-grid{grid-template-columns:1.4fr 1fr;gap:80px}}.intro-grid>*{min-width:0}
+.hc-grid{display:grid;gap:40px;grid-template-columns:1fr;align-items:start}@media(min-width:900px){.hc-grid{grid-template-columns:.9fr 1.3fr;gap:72px}.hc-grid.flip .hc-aside{order:2}}.hc-grid>*{min-width:0}
+.hc-aside{position:sticky;top:96px}
+.small-meta{display:block;margin-top:14px;font-size:.66rem}.band .small-meta{color:var(--band-ash)}
+.hc-note{font-size:.96rem;line-height:1.65;margin-bottom:13px;padding-left:16px;position:relative;color:var(--ash)}.band .hc-note{color:var(--band-ash)}.hc-note:before{content:"";position:absolute;left:0;top:.62em;width:4px;height:4px;background:var(--brass)}.band .hc-note:before{background:var(--brass-lit)}.hc-note b{color:var(--ink);font-weight:500}.band .hc-note b{color:var(--band-ink)}.band .verdict{border-left-color:var(--brass-lit)}
+.band .kv{border-top-color:var(--band-hairline)}.band .kv-row{border-bottom-color:var(--band-hairline)}.band .kv-row dd{color:var(--band-ash)}.band .kv-row dd b{color:var(--band-ink)}
+.fee-line{margin-top:28px;padding-top:22px;border-top:1px solid var(--hairline);font-family:var(--stamp);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ash-3);line-height:1.8}.fee-line b{color:var(--brass);font-weight:700}
+.pb-link{font-size:.7rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);text-decoration:none}.pb-link:hover{text-decoration:underline}
+.pb-select{width:100%;font-family:var(--body);font-size:.95rem;color:var(--ink);background:var(--lime);border:1px solid var(--hairline);border-radius:2px;padding:14px;margin-bottom:16px}.pb-select:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px #4a504024}
+.faq details{border-bottom:1px solid var(--hairline)}.faq details:first-child{border-top:1px solid var(--hairline)}.faq summary{display:flex;align-items:baseline;justify-content:space-between;gap:20px;cursor:pointer;list-style:none;padding:18px 0;font-family:var(--display);font-weight:500;font-size:1.08rem;line-height:1.4}.faq summary::-webkit-details-marker{display:none}.faq .ind{font-family:var(--stamp);color:var(--brass);font-size:1rem;transition:transform var(--dur-1) var(--ease)}.faq details[open] .ind{transform:rotate(45deg)}.faq details p{padding:0 0 22px;max-width:60ch;color:var(--ash);font-size:.98rem}.faq details p a{color:var(--brass)}
+</style>
