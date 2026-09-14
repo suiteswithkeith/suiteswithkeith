@@ -2,17 +2,17 @@
 import Layout from '../layouts/Layout.astro';
 
 const faqs = [
-  { q: 'What types of trips do you specialize in?', a: 'Europe first &mdash; plus honeymoons, family and multi-generational trips, milestone celebrations, and escapes to Napa Valley, Mexico and beyond.' },
+  { q: 'What types of trips do you specialize in?', a: 'Europe first, then honeymoons, family and multi-generational trips, milestone celebrations, and escapes to Napa Valley, Mexico and beyond.' },
   { q: 'Do you charge for hotel bookings?', a: 'No. Recommendations and bookings are complimentary, and often carry preferred-partner amenities on top.' },
-  { q: 'Why book through you instead of Amex Fine Hotels + Resorts or Chase?', a: 'The perks are similar. The experience isn&rsquo;t. The rate is the one you&rsquo;d pay booking direct &mdash; sometimes better &mdash; and through my relationships with the hotels, your stay is personalized from before you arrive until you check out.' },
-  { q: 'I have an Amex FHR or Chase credit &mdash; can I still use it with you?', a: 'Yes &mdash; the best play is usually to book one night through Amex or Chase FHR and the remaining nights through me. You typically keep the benefits of both programs, plus my advocacy with the hotel, which the card programs don&rsquo;t offer.' },
+  { q: 'Why book through you instead of Amex Fine Hotels + Resorts or Chase?', a: 'The perks are similar. The experience isn&rsquo;t. The rate is the one you&rsquo;d pay booking direct, and sometimes a better one. Through my relationships with the hotels, your stay is personalized from before you arrive until you check out.' },
+  { q: 'I have an Amex FHR or Chase credit. Can I still use it with you?', a: 'Yes. The best play is usually to book one night through Amex or Chase FHR and the remaining nights through me. You typically keep the benefits of both programs, plus my advocacy with the hotel, which the card programs don&rsquo;t offer.' },
   { q: 'What if I already have travel booked?', a: 'In many cases I can take over the reservation as your advisor, advocate on your behalf, and add any available preferred-partner amenities to a stay you already have.' },
-  { q: 'How far in advance should I inquire?', a: 'Three to six months before departure is ideal. Shorter works &mdash; if you&rsquo;re traveling within the next 30 days, you&rsquo;ll hear from me the same day.' },
-  { q: 'Can you help me use my Amex, Chase, Citi or Bilt points?', a: 'Yes &mdash; I consult on points so you get the best value from them, including booking international business and first-class award flights.' },
-  { q: 'Do you handle transfers?', a: 'Yes &mdash; door-to-door transfers are part of every itinerary I plan: private helicopter transfers, private boats between islands like Sifnos, Paros and Milos, luxury airport transfers, and chauffeured cars across Greece, Italy, France and beyond. I work with trusted brokers to negotiate fair pricing for my clients, whether it&rsquo;s a helicopter, a boat or a car.' },
-  { q: 'Do you handle excursions?', a: 'Absolutely. Private guides and drivers, chef&rsquo;s tables, after-hours museum tours, wine tastings, a private boat day on Lake Como, a high-touch shopping day in Paris &mdash; if you can imagine it, I&rsquo;ll build it into the trip.' },
-  { q: 'Can you arrange private yacht charters or private jets?', a: 'Yes, through trusted charter brokers who negotiate fair pricing for my clients: yacht charters from single-day boats to fully crewed multi-day itineraries in the Greek islands, the Amalfi Coast and the Caribbean, and private jet charter for domestic and international routes. Point-to-point flights carry no fee &mdash; you pay the operator&rsquo;s quote as it came to me; multi-destination itineraries carry a flat planning fee quoted up front. Tell me the route, dates and group size and I&rsquo;ll source vetted options.' },
-  { q: 'Do you offer a yearly retainer?', a: 'For the right clients, yes &mdash; a limited number of annual arrangements: one flat yearly fee for unlimited planning access, covering hotels, full itineraries, transfers, points strategy, and support while you&rsquo;re traveling.' },
+  { q: 'How far in advance should I inquire?', a: 'Three to six months before departure is ideal. Shorter works too. If you&rsquo;re traveling within the next 30 days, you&rsquo;ll hear from me the same day.' },
+  { q: 'Can you help me use my Amex, Chase, Citi or Bilt points?', a: 'Yes. I consult on points so you get the best value from them, including international business and first-class award flights.' },
+  { q: 'Do you handle transfers?', a: 'Yes. Door-to-door transfers are part of every itinerary I plan: private helicopter transfers, private boats between islands like Sifnos, Paros and Milos, luxury airport transfers, and chauffeured cars across Greece, Italy, France and beyond. I work with trusted brokers to negotiate fair pricing, whether it&rsquo;s a helicopter, a boat or a car.' },
+  { q: 'Do you handle excursions?', a: 'Yes. Private guides and drivers, chef&rsquo;s tables, after-hours museum tours, wine tastings, a private boat day on Lake Como, a shopping day in Paris with the right doors opened. Tell me what you have in mind and I&rsquo;ll build it into the trip.' },
+  { q: 'Can you arrange private yacht charters or private jets?', a: 'Yes, through trusted charter brokers who negotiate fair pricing for my clients: yacht charters from single-day boats to fully crewed multi-day itineraries in the Greek islands, the Amalfi Coast and the Caribbean, and private jet charter for domestic and international routes. Point-to-point flights carry no fee: you pay the operator&rsquo;s quote as it came to me. Multi-destination itineraries carry a flat planning fee quoted up front. Tell me the route, dates and group size and I&rsquo;ll source vetted options.' },
+  { q: 'Do you offer a yearly retainer?', a: 'For the right clients, yes. I take on a limited number of annual arrangements: one flat yearly fee for unlimited planning, covering hotels, full itineraries, transfers, points strategy, and support while you&rsquo;re traveling.' },
   { q: 'Do you book private homes and villas?', a: 'Yes. Through my partner network I have access to a hand-selected list of private homes and villas, each vetted for quality and service. They come with added benefits and, in most cases, no end-of-stay cleaning fee.' },
 ];
 
@@ -53,7 +53,7 @@ const partners = [
   <div class="container">
     <p class="eyebrow reveal">Services</p>
     <h1 class="display-xl reveal" style="margin-top:18px; max-width:14ch;">What I do, and what it costs</h1>
-    <p class="deck reveal" style="margin-top:22px; max-width:44ch;">Hotel bookings are complimentary. Everything else is priced in plain numbers below &mdash; no packages, no upsell.</p>
+    <p class="deck reveal" style="margin-top:22px; max-width:44ch;">Hotel bookings are complimentary. Everything else is priced in plain numbers below. No packages, no upsell.</p>
   </div>
 </section>
 
@@ -64,32 +64,32 @@ const partners = [
       <div class="svc">
         <span class="stamp plain">Complimentary</span>
         <h3>Hotel bookings</h3>
-        <p>Three or four recommendations with the room worth booking at each &mdash; and what each hotel is wrong for. Preferred-partner amenities included when available.</p>
+        <p>Three or four recommendations, the room worth booking at each, and what each hotel is wrong for. Preferred-partner amenities included when available.</p>
       </div>
       <div class="svc">
         <span class="stamp plain">From $350</span>
         <h3>Transfers &amp; logistics</h3>
-        <p>Private airport transfers, rail and ferry coordination, private boats between islands like Sifnos, Paros and Milos &mdash; and private helicopter transfers. I work with trusted brokers to negotiate fair pricing for my clients. <a href="/private-boat-transfers.html">See private boat transfers &rarr;</a></p>
+        <p>Private airport transfers, rail and ferry coordination, private boats between islands like Sifnos, Paros and Milos, and private helicopter transfers. I work with trusted brokers to negotiate fair pricing. <a href="/private-boat-transfers.html">See private boat transfers &rarr;</a></p>
       </div>
       <div class="svc">
         <span class="stamp plain">From $500</span>
         <h3>Full-trip planning</h3>
-        <p>The whole itinerary: hotels, transportation, the tables worth booking, and what isn&rsquo;t worth your money &mdash; with live support while you&rsquo;re traveling. <a href="/sample-itinerary.html">See a sample itinerary &rarr;</a></p>
+        <p>The whole itinerary: hotels, transportation, the tables worth booking, and what isn&rsquo;t worth your money. Live support while you&rsquo;re traveling. <a href="/sample-itinerary.html">See a sample itinerary &rarr;</a></p>
       </div>
       <div class="svc">
         <span class="stamp plain">Through trusted brokers</span>
         <h3>Yachts &amp; jets</h3>
-        <p>Yacht charters from day boats to fully crewed multi-day itineraries, and private jet charter for domestic and international routes &mdash; with fair pricing negotiated on your behalf. No fee on a point-to-point flight. <a href="/private-jet-charter.html">See private jet charter &rarr;</a></p>
+        <p>Yacht charters from day boats to fully crewed multi-day itineraries, and private jet charter for domestic and international routes, with fair pricing negotiated on your behalf. No fee on a point-to-point flight. <a href="/private-jet-charter.html">See private jet charter &rarr;</a></p>
       </div>
       <div class="svc">
         <span class="stamp plain">Custom pricing</span>
         <h3>Corporate &amp; group travel</h3>
-        <p>Executive travel, incentive trips and team offsites &mdash; one point of contact from first inquiry to wheels down. <a href="/corporate-travel.html">Explore corporate travel &rarr;</a></p>
+        <p>Executive travel, incentive trips and team offsites, with one point of contact from first inquiry to wheels down. <a href="/corporate-travel.html">Explore corporate travel &rarr;</a></p>
       </div>
       <div class="svc">
         <span class="stamp plain">By invitation</span>
         <h3>Annual retainer</h3>
-        <p>For clients who travel often: one flat yearly fee, unlimited planning &mdash; hotels, itineraries, transfers, points strategy and on-trip support. Offered to a small number of clients each year.</p>
+        <p>For clients who travel often. One flat yearly fee covers unlimited planning: hotels, itineraries, transfers, points strategy and on-trip support. Offered to a small number of clients each year.</p>
       </div>
     </div>
   </div>
@@ -130,7 +130,7 @@ const partners = [
     <div class="cards four reveal">
       <a class="card" href="/sample-proposal-greece.html">
         <img src="/images/islands/milos-hero.jpg" alt="White volcanic rock meeting turquoise water in the Greek islands" width="1350" height="1800" loading="lazy" decoding="async" />
-        <div class="pad"><span class="kicker">Island honeymoon</span><h3>Greece</h3><p>A real client proposal, anonymized &mdash; six island stays, compared side by side.</p><span class="go">View sample &rarr;</span></div>
+        <div class="pad"><span class="kicker">Island honeymoon</span><h3>Greece</h3><p>A real client proposal, anonymized. Six island stays, compared side by side.</p><span class="go">View sample &rarr;</span></div>
       </a>
       <a class="card" href="/sample-proposal.html">
         <img src="/images/proposals/cover-hero.jpg" alt="Overwater villas in the Maldives" width="1600" height="1200" loading="lazy" decoding="async" />
@@ -198,7 +198,7 @@ const partners = [
     <h2 class="display-l reveal">Where and when?</h2>
     <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">&ldquo;Lake Como in September&rdquo; is a complete answer. I&rsquo;ll take it from there.</p>
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
-      <input type="hidden" name="_subject" value="Inquiry — Services page" />
+      <input type="hidden" name="_subject" value="Inquiry: Services page" />
       <input type="hidden" name="page" value="services" />
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
       <div class="step1">
@@ -209,7 +209,7 @@ const partners = [
         <label for="q-name" style="color:var(--band-ash);">And where do I send the recommendation?</label>
         <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
         <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
-        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Nights, budget, occasion &mdash; optional</label>
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Nights, budget, occasion (optional)</label>
         <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
       </div>
       <button type="submit" class="btn">Send</button>
