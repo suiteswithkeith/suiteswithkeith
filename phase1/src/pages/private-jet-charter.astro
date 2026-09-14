@@ -11,6 +11,7 @@ const faqs = [
   { q: 'How far in advance should I book a charter flight?', a: 'For a domestic flight on an ordinary date, 48 to 72 hours is workable and a week is comfortable. Peak holidays, ski weekends and international routes need two to four weeks — the good aircraft are spoken for early, and permits take time.' },
   { q: 'Do you arrange international private flights?', a: 'Yes — transatlantic to Europe, flights within Europe, Mexico and the Caribbean. International adds customs, permits and crew-duty limits, so it’s planned differently from a domestic hop, and I’ll walk you through what changes.' },
   { q: 'Can I bring my dog?', a: 'Usually, yes — in the cabin, on your lap or at your feet. Tell me up front so I choose an operator that welcomes pets rather than tolerates them.' },
+  { q: 'I fly private several times a year. Is there a better arrangement than booking one trip at a time?', a: 'Yes. For clients taking four or more trips a year I offer an annual retainer: one flat yearly fee, unlimited planning, and everything — jets, hotels, transfers, points strategy, support while you’re away — on demand, with no per-trip fees. It’s offered to a small number of clients each year. Mention it when you write and I’ll walk you through how it works.' },
   { q: 'I already have hotels booked. Can you still arrange the flight?', a: 'Yes. Nothing gets cancelled or rebooked — I source the aircraft, time it to your check-in and check-out, and put a car on the ramp at both ends. Send me the route and your confirmations; that’s all I need to start.' },
 ];
 
@@ -92,6 +93,16 @@ const faqSchema = JSON.stringify({
           <a class="pb-link" href="/sample-itinerary.html">See a sample itinerary &rarr;</a>
         </p>
       </div>
+    </div>
+    <div class="retainer reveal" id="retainer" style="scroll-margin-top:70px;">
+      <div>
+        <span class="eyebrow">More than four trips a year?</span>
+        <h3>The retainer replaces all of this</h3>
+        <p class="lead">For clients who travel often &mdash; call it four or more trips a year &mdash; I offer a small number of annual arrangements: one flat yearly fee, and everything on demand. The jets, the hotels, the boats between islands, the tables, points strategy, and someone to call while you&rsquo;re away. No per-trip planning fees, no wondering what a given request costs. Concierge-style travel with a single number attached, offered by invitation to a handful of clients each year. If that sounds like you, say so in the note below.</p>
+      </div>
+      <p style="display:flex; flex-wrap:wrap; gap:14px;">
+        <a class="btn" href="#inquire" data-gtag-label="retainer_inquiry" data-gtag-location="jet_paths">Ask about the retainer</a>
+      </p>
     </div>
   </div>
 </section>
@@ -191,7 +202,7 @@ const faqSchema = JSON.stringify({
       <a class="btn btn-ghost" href="/hoper.html" data-gtag-label="hoper_cross_link" data-gtag-location="jet_fit">Flying within Greece? The helicopter</a>
     </div>
     <div class="verdict reveal" style="margin-top:44px;">
-      <p>The fee question, one more time, because it&rsquo;s the one that matters: a flight from A to B costs you nothing to run through me. A trip I have to design costs a flat fee you&rsquo;ll see before I start. There is no third category.</p>
+      <p>The fee question, one more time, because it&rsquo;s the one that matters: a flight from A to B costs you nothing to run through me. A trip I have to design costs a flat fee you&rsquo;ll see before I start. And if you&rsquo;d rather never think about either, that&rsquo;s what <a href="#retainer" style="color:var(--brass);">the retainer</a> is for.</p>
     </div>
   </div>
 </section>
@@ -241,6 +252,10 @@ const faqSchema = JSON.stringify({
         <p>Usually, yes &mdash; in the cabin, on your lap or at your feet. Tell me up front so I choose an operator that welcomes pets rather than tolerates them.</p>
       </details>
       <details>
+        <summary><span>I fly private several times a year. Is there a better arrangement than booking one trip at a time?</span><span class="ind" aria-hidden="true">+</span></summary>
+        <p>Yes. For clients taking four or more trips a year I offer an annual retainer: one flat yearly fee, unlimited planning, and everything &mdash; jets, hotels, transfers, points strategy, support while you&rsquo;re away &mdash; on demand, with no per-trip fees. It&rsquo;s offered to a small number of clients each year. Mention it when you write and I&rsquo;ll walk you through how it works.</p>
+      </details>
+      <details>
         <summary><span>I already have hotels booked. Can you still arrange the flight?</span><span class="ind" aria-hidden="true">+</span></summary>
         <p>Yes. Nothing gets cancelled or rebooked &mdash; I source the aircraft, time it to your check-in and check-out, and put a car on the ramp at both ends. Send me the route and your confirmations; that&rsquo;s all I need to start.</p>
       </details>
@@ -268,6 +283,7 @@ const faqSchema = JSON.stringify({
           <option value="">Select one</option>
           <option>Point to point &mdash; there and back, no fee</option>
           <option>Multi-destination &mdash; several legs or cities</option>
+          <option>Several trips a year &mdash; ask me about the retainer</option>
           <option>Not sure yet &mdash; help me think it through</option>
         </select>
         <label for="q-name" style="color:var(--band-ash);">And where do I send the quote?</label>
@@ -293,6 +309,7 @@ const faqSchema = JSON.stringify({
 .hc-note{font-size:.96rem;line-height:1.65;margin-bottom:13px;padding-left:16px;position:relative;color:var(--ash)}.band .hc-note{color:var(--band-ash)}.hc-note:before{content:"";position:absolute;left:0;top:.62em;width:4px;height:4px;background:var(--brass)}.band .hc-note:before{background:var(--brass-lit)}.hc-note b{color:var(--ink);font-weight:500}.band .hc-note b{color:var(--band-ink)}.band .verdict{border-left-color:var(--brass-lit)}
 .band .kv{border-top-color:var(--band-hairline)}.band .kv-row{border-bottom-color:var(--band-hairline)}.band .kv-row dd{color:var(--band-ash)}.band .kv-row dd b{color:var(--band-ink)}
 .fee-line{margin-top:28px;padding-top:22px;border-top:1px solid var(--hairline);font-family:var(--stamp);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ash-3);line-height:1.8}.fee-line b{color:var(--brass);font-weight:700}
+.retainer{margin-top:22px;border:1px solid var(--hairline);background:var(--plaster-deep);padding:clamp(24px,3.5vw,36px);display:grid;gap:22px;grid-template-columns:1fr;align-items:center}@media(min-width:900px){.retainer{grid-template-columns:1.5fr auto;gap:48px}}.retainer .eyebrow{display:block;margin-bottom:12px}.retainer h3{font-family:var(--display);font-weight:500;font-size:clamp(1.5rem,3vw,2rem);margin-bottom:12px}.retainer .lead{font-size:1rem;color:var(--ash);line-height:1.6;max-width:62ch}
 .pb-link{font-size:.7rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);text-decoration:none}.pb-link:hover{text-decoration:underline}
 .pb-select{width:100%;font-family:var(--body);font-size:.95rem;color:var(--ink);background:var(--lime);border:1px solid var(--hairline);border-radius:2px;padding:14px;margin-bottom:16px}.pb-select:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px #4a504024}
 .faq details{border-bottom:1px solid var(--hairline)}.faq details:first-child{border-top:1px solid var(--hairline)}.faq summary{display:flex;align-items:baseline;justify-content:space-between;gap:20px;cursor:pointer;list-style:none;padding:18px 0;font-family:var(--display);font-weight:500;font-size:1.08rem;line-height:1.4}.faq summary::-webkit-details-marker{display:none}.faq .ind{font-family:var(--stamp);color:var(--brass);font-size:1rem;transition:transform var(--dur-1) var(--ease)}.faq details[open] .ind{transform:rotate(45deg)}.faq details p{padding:0 0 22px;max-width:60ch;color:var(--ash);font-size:.98rem}.faq details p a{color:var(--brass)}
