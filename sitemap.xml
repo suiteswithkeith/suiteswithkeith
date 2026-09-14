@@ -236,6 +236,16 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://suiteswithkeith.com/already-booked-paros.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/already-booked-milos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://suiteswithkeith.com/folegandros.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

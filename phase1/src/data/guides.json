@@ -459,7 +459,10 @@
   "h1": "Milos",
   "tagline": "Nature's masterpiece in the Cyclades.",
   "aag_h2": "The island built for exploration.",
-  "already_booked": null,
+  "already_booked": {
+    "href": "/already-booked-milos.html",
+    "label": "Already Booked Your Hotel? Start Here"
+  },
   "facts": [
    {
     "label": "Best For",
