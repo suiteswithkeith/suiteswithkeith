@@ -3,13 +3,13 @@
   "slug": "santorini",
   "eyebrow": "The Cyclades · Excursion Guide",
   "h1": "Santorini",
-  "sub": "Everything I’d actually book here — boats, wine, walks and tables — with what each one costs and who it’s for.",
+  "sub": "Everything I’d book here, from boats and wine to walks and tables, with what each one costs and who it’s for.",
   "hero_img": "/images/excursions/santorini/44ae8908.webp",
   "screens": [
    {
     "label": "How to use this",
     "eyebrow": "Start Here",
-    "title": "A menu, not a plan",
+    "title": "A menu to pick from",
     "note": "Read through, send me the ones you want, and I’ll build the days around them and hold the bookings that fill up first.",
     "intro": [],
     "img": null,
@@ -22,7 +22,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Santorini is small but slow — the roads are narrow and everything runs on the view. One anchor in the day and one good dinner is the right density."
+         "t": "Santorini is small but slow. The roads are narrow and everything runs on the view. One anchor in the day and one good dinner is the right density."
         }
        ]
       },
@@ -33,7 +33,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The caldera villages are the reason you came, but the island behind them — vineyards, Pyrgos, the black-sand south — is where it stops feeling like a photograph."
+         "t": "The caldera villages are the reason you came, but the island behind them, the vineyards, Pyrgos and the black-sand south, is where it stops feeling like a photograph."
         }
        ]
       },
@@ -58,7 +58,7 @@
     "title": "The island, and where everything sits",
     "note": null,
     "intro": [
-     "Santorini is a crescent around a flooded volcano. Everything with a view sits along the west rim — Fira, Imerovigli, Oia — and everything else, the vineyards, the ruins and the black-sand beaches, is on the gentle slope behind. Tap any pin for what it is."
+     "Santorini is a crescent around a flooded volcano. Everything with a view sits along the west rim at Fira, Imerovigli and Oia. Everything else, the vineyards, the ruins and the black-sand beaches, is on the gentle slope behind. Tap any pin for what it is."
     ],
     "img": null,
     "groups": [
@@ -70,7 +70,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "What I arrange by default for the airport and the ferry port. Athinios is a steep, chaotic switchback and the taxi queue there is genuinely unpleasant."
+         "t": "What I arrange by default for the airport and the ferry port. Athinios is a steep, chaotic switchback and the taxi queue there is unpleasant."
         }
        ]
       },
@@ -81,7 +81,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Worth it for the inland day — wineries, Pyrgos, the south coast. Not worth it for the rest: parking in Oia and Fira is close to impossible in season."
+         "t": "Worth it for the inland day of wineries, Pyrgos and the south coast. Not worth it for the rest: parking in Oia and Fira is close to impossible in season."
         }
        ]
       },
@@ -103,7 +103,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Three hundred steps down, shared with donkeys. Walk down if you like, but book a car for the way back up — especially after lunch and wine."
+         "t": "Three hundred steps down, shared with donkeys. Walk down if you like, but book a car for the way back up, especially after lunch and wine."
         }
        ]
       }
@@ -118,7 +118,7 @@
     "title": "On the water",
     "note": null,
     "intro": [
-     "You cannot understand Santorini from the rim — you have to be under it. Every boat below runs roughly the same circuit out of Ammoudi or the Old Port: along the caldera wall, out to the volcano and the hot springs, past the lighthouse to the red and white beaches, and back at sunset. What changes is how many people are on board with you."
+     "You cannot understand Santorini from the rim. You have to be under it. Every boat below runs roughly the same circuit out of Ammoudi or the Old Port: along the caldera wall, out to the volcano and the hot springs, past the lighthouse to the red and white beaches, and back at sunset. What changes is how many people are on board with you."
     ],
     "img": null,
     "groups": [
@@ -130,7 +130,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "A catamaran with a group, the full circuit, meal and drinks on board. Morning departures are calmer and cheaper; the sunset run is the one people remember. Boat size is what you’re really choosing — from fifty-five people down to fourteen."
+         "t": "A catamaran with a group, the full circuit, meal and drinks on board. Morning departures are calmer and cheaper; the sunset run is the one people remember. Boat size is what you’re choosing, from fifty-five people down to fourteen."
         },
         {
          "kind": "verdict",
@@ -164,7 +164,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The whole boat and crew for your group — up to fourteen, but just as good for two. You set the departure time, how long you stay in each cove, and whether you swim at the volcano or sail straight past it."
+         "t": "The whole boat and crew for your group, up to fourteen, and just as good for two. You set the departure time, how long you stay in each cove, and whether to swim at the volcano or sail straight past it."
         },
         {
          "kind": "verdict",
@@ -202,7 +202,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Nea Kameni is still live — a short, hot climb over black rock to the crater rim, then a swim in the rust-colored sulphur water beside it. Wear something you don’t mind staining."
+         "t": "Nea Kameni is still live. A short, hot climb over black rock to the crater rim, then a swim in the rust-colored sulphur water beside it. Wear something you don’t mind staining."
         }
        ]
       },
@@ -227,7 +227,7 @@
     "title": "Wine, and the island behind the view",
     "note": null,
     "intro": [
-     "Assyrtiko is grown here in a way it isn’t anywhere else — vines coiled into low baskets on the ground, no trellis, no irrigation, roots deep in volcanic ash and pumice. The wine that comes out is bone-dry, saline and unmistakable. Vassaltis is the one I send people to: modern, serious, and small enough that you’re looked after properly."
+     "Assyrtiko is grown here in a way it isn’t anywhere else: vines coiled into low baskets on the ground, no trellis, no irrigation, roots deep in volcanic ash and pumice. The wine that comes out is bone-dry, saline and unmistakable. Vassaltis is the one I send people to: modern, serious, and small enough that you’re looked after properly."
     ],
     "img": null,
     "groups": [
@@ -239,7 +239,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Four wines and four bites, each pairing made for the glass it comes with — current vintages plus a couple of rarer vinifications. A crash course in Assyrtiko and the easiest thing here to slot into an afternoon."
+         "t": "Four wines and four bites, each pairing made for the glass it comes with, current vintages plus a couple of rarer vinifications. A crash course in Assyrtiko and the easiest thing here to slot into an afternoon."
         },
         {
          "kind": "price",
@@ -269,7 +269,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "A walk through the vineyard with one of the sommeliers — how they farm it, why the baskets, what the ash does — then a four-course lunch paired with four wines. The full afternoon, and worth building a day around."
+         "t": "A walk through the vineyard with one of the sommeliers, covering how they farm it, why the baskets and what the ash does, then a four-course lunch paired with four wines. The full afternoon, and worth building a day around."
         },
         {
          "kind": "price",
@@ -295,7 +295,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "A Bronze Age town buried by the eruption and dug back out — three-story houses, paved streets, drainage, frescoes. It’s under a roof, which makes it the right call on a hot day or a rare wet one."
+         "t": "A Bronze Age town buried by the eruption and dug back out: three-story houses, paved streets, drainage, frescoes. It’s under a roof, which makes it the right call on a hot day or a rare wet one."
         }
        ]
       },
@@ -306,7 +306,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Vlychada for the wind-carved cliffs and near-empty sand, Perissa if you’d rather have a lounger and a taverna. Both are a different island from the rim — flat, hot, and gloriously ordinary."
+         "t": "Vlychada for the wind-carved cliffs and near-empty sand, Perissa if you’d rather have a lounger and a taverna. Both are a different island from the rim: flat, hot, and gloriously ordinary."
         }
        ]
       }
@@ -319,7 +319,7 @@
     "label": "On foot",
     "eyebrow": "Santorini · On Foot",
     "title": "Three walks, and one of them is essential",
-    "note": "There is almost no shade anywhere on this island. All three of these are morning walks — start by eight, carry water, and have a car meet you at the far end rather than walking back.",
+    "note": "There is almost no shade anywhere on this island. All three of these are morning walks. Start by eight, carry water, and have a car meet you at the far end rather than walking back.",
     "intro": [],
     "img": null,
     "groups": [
@@ -331,7 +331,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The signature walk, and the only way to understand the shape of the island: the whole crescent of the caldera on your left, Firostefani and Imerovigli, then a long empty stretch over the headland before Oia appears. Undulating and exposed — the hard part is the sun, not the climb."
+         "t": "The signature walk, and the only way to understand the shape of the island: the whole crescent of the caldera on your left, Firostefani and Imerovigli, then a long empty stretch over the headland before Oia appears. Undulating and exposed. The hard part is the sun, not the climb."
         }
        ]
       }
@@ -344,7 +344,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Switchbacks up the Mesa Vouno headland to a Greek and Roman city strung along a ridge 350 metres above the sea, with Kamari on one side and Perissa on the other. Almost nobody walks it — and you can drive most of the way if you’d rather."
+         "t": "Switchbacks up the Mesa Vouno headland to a Greek and Roman city strung along a ridge 350 metres above the sea, with Kamari on one side and Perissa on the other. Almost nobody walks it, and you can drive most of the way if you’d rather."
         }
        ]
       }
@@ -357,7 +357,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Not really a hike, but the best twenty minutes of walking on the island: the steps zigzag down the red cliff to a tiny fishing port with tavernas built onto the rock. Go down for a late lunch, and take a car back up."
+         "t": "Barely a hike, but the best twenty minutes of walking on the island: the steps zigzag down the red cliff to a tiny fishing port with tavernas built onto the rock. Go down for a late lunch, and take a car back up."
         }
        ]
       }
@@ -381,7 +381,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Genuinely the best answer on the caldera side. A bottle, no crowd, and the light doing the work. Any hotel I book you into on the rim faces west for exactly this reason."
+         "t": "The best answer on the caldera side. A bottle, no crowd, and the light doing the work. Any hotel I book you into on the rim faces west for exactly this reason."
         }
        ]
       },
@@ -414,7 +414,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The contrarian pick and my own favorite — from the castle you see the sun go down over the whole island rather than just the water, with the caldera villages glowing on the far ridge."
+         "t": "The contrarian pick and my own favorite. From the castle you see the sun go down over the whole island rather than just the water, with the caldera villages glowing on the far ridge."
         }
        ]
       }
@@ -438,7 +438,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "One of my favorite meals in all of Greece, and not on the caldera — which tells you how good the cooking is."
+         "t": "One of my favorite meals in all of Greece, and not on the caldera, which tells you how good the cooking is."
         }
        ]
       },
@@ -449,7 +449,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The big-occasion table, carved into the cliff face. Usually booked out — if you’re staying at Andronis I’ll have the concierge team try, and it’s worth asking early."
+         "t": "The big-occasion table, carved into the cliff face. Usually booked out. If you’re staying at Andronis I’ll have the concierge team try, and it’s worth asking early."
         }
        ]
       },
@@ -482,7 +482,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "An authentic Greek fish tavern on the water at the bottom of the steps — a super cute spot, and the easy lunch on a day you’re not doing anything else."
+         "t": "An authentic Greek fish tavern on the water at the bottom of the steps, a super cute spot, and the easy lunch on a day you’re not doing anything else."
         }
        ]
       }
@@ -521,7 +521,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The caldera cruise, all day — volcano, hot springs, the red and white beaches, and the cliffs from below. Back late in the afternoon, and keep the evening close to home."
+         "t": "The caldera cruise, all day: volcano, hot springs, the red and white beaches, and the cliffs from below. Back late in the afternoon, and keep the evening close to home."
         },
         {
          "kind": "meta",
@@ -536,7 +536,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "A car for the day. Akrotiri in the morning while it’s cool, lunch and wine at Vassaltis, then Pyrgos for the late light. Dinner inland at Metaxi Mas, which is where the island actually eats."
+         "t": "A car for the day. Akrotiri in the morning while it’s cool, lunch and wine at Vassaltis, then Pyrgos for the late light. Dinner inland at Metaxi Mas, which is where the island eats."
         },
         {
          "kind": "meta",
@@ -551,22 +551,22 @@
   ],
   "closing": {
    "title": "Send me your must-dos",
-   "p": "Reply with the ones you want and anything you’d skip, and I’ll build the days around them — boats held, tables booked, transfers arranged before you land.",
+   "p": "Reply with the ones you want and anything you’d skip, and I’ll build the days around them: boats held, tables booked, transfers arranged before you land.",
    "img": "/images/excursions/santorini/3c694a15.jpg"
   },
-  "footer_note": "Prices are operators’ published starting rates, converted from euros — final cost depends on date, group size and boat. I’ll quote exactly before anything is held."
+  "footer_note": "Prices are operators’ published starting rates, converted from euros. Final cost depends on date, group size and boat. I’ll quote exactly before anything is held."
  },
  "paros": {
   "slug": "paros",
   "eyebrow": "The Cyclades · Excursion Guide",
   "h1": "Paros",
-  "sub": "Everything I’d actually book here — boats, villages, beaches and tables — with what each one costs and who it’s for.",
+  "sub": "Everything I’d book here myself: boats, villages, beaches and tables, with what each one costs and who it’s for.",
   "hero_img": "/images/excursions/paros/44ae8908.webp",
   "screens": [
    {
     "label": "How to use this",
     "eyebrow": "Start Here",
-    "title": "A menu, not a plan",
+    "title": "A menu to pick from",
     "note": "Read through, send me the ones you want, and I’ll build the days around them and hold the bookings that fill up first.",
     "intro": [],
     "img": null,
@@ -579,7 +579,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Paros is the island I recommend more every year — big enough for distinct villages and beaches, compact enough that everything is within reach. Four nights fits all of it without ever feeling rushed."
+         "t": "Paros is the island I recommend more every year: big enough for distinct villages and beaches, compact enough that everything is within reach. Four nights fits all of it without ever feeling rushed."
         }
        ]
       },
@@ -590,7 +590,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Nothing here is more than forty minutes from anything else, so a small car turns the whole island into your neighborhood — the hill villages, the far beaches, and dinner wherever you want it."
+         "t": "Nothing here is more than forty minutes from anything else, so a small car turns the whole island into your neighborhood: the hill villages, the far beaches, and dinner wherever you want it."
         }
        ]
       },
@@ -601,7 +601,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The Antiparos sail and the handful of Naousa tables worth planning around go early — Naousa books up even in October. Tell me those first and the rest can stay loose."
+         "t": "The Antiparos sail and the handful of Naousa tables worth planning around go early. Naousa books up even in October. Tell me those first and the rest can stay loose."
         }
        ]
       }
@@ -615,7 +615,7 @@
     "title": "The island, and where everything sits",
     "note": null,
     "intro": [
-     "Paros is roughly a circle with a mountain in the middle. Naousa and the best beaches sit around the north, Parikia and the ferries on the west, the hill villages climb the slopes inland, and Antiparos — with the clearest water in the Cyclades — hangs just off the southwest corner. Tap any pin for what it is."
+     "Paros is roughly a circle with a mountain in the middle. Naousa and the best beaches sit around the north, Parikia and the ferries on the west, the hill villages climb the slopes inland, and Antiparos, with the clearest water in the Cyclades, hangs just off the southwest corner. Tap any pin for what it is."
     ],
     "img": null,
     "groups": [
@@ -638,7 +638,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Everything docks at Parikia — about three hours from Piraeus direct, or forty minutes from Mykonos and Santorini. Naousa is twenty minutes across the island from the port."
+         "t": "Everything docks at Parikia, about three hours from Piraeus direct or forty minutes from Mykonos and Santorini. Naousa is twenty minutes across the island from the port."
         }
        ]
       },
@@ -660,7 +660,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The little car ferry shuttles from Pounda every half hour and takes ten minutes. No booking, no drama — drive on, drive off, and you’re on a different island for lunch."
+         "t": "The little car ferry shuttles from Pounda every half hour and takes ten minutes. No booking, no drama. Drive on, drive off, and you’re on a different island for lunch."
         }
        ]
       }
@@ -675,7 +675,7 @@
     "title": "On the water",
     "note": null,
     "intro": [
-     "The water on the Antiparos side of Paros is the clearest I know in the Cyclades, and the only way to reach the best of it is by boat. Both sails below run out of Piso Livadi on the east coast — a working fishing harbor twenty minutes from Naousa, with none of the marina scrum you get on the bigger islands."
+     "The water on the Antiparos side of Paros is the clearest I know in the Cyclades, and the only way to reach the best of it is by boat. Both sails below run out of Piso Livadi on the east coast, a working fishing harbor twenty minutes from Naousa, with none of the marina scrum you get on the bigger islands."
     ],
     "img": null,
     "groups": [
@@ -687,11 +687,11 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The one I’d protect on Paros. Out of Piso Livadi under sail at 9:30, down into the Antiparos Strait, anchored in the Blue Lagoon, then right around South Antiparos with a full lunch cooked and served on deck. A last swim off South Paros on the way home. Antiparos is a genuinely unusual little island and the water on that side is the best on Paros."
+         "t": "The one I’d protect on Paros. Out of Piso Livadi under sail at 9:30, down into the Antiparos Strait, anchored in the Blue Lagoon, then right around South Antiparos with a full lunch cooked and served on deck. A last swim off South Paros on the way home. Antiparos is an unusual little island and the water on that side is the best on Paros."
         },
         {
          "kind": "verdict",
-         "t": "Can be fully private for the two of you, or shared with up to ten — your call."
+         "t": "Can be fully private for the two of you, or shared with up to ten. Your call."
         },
         {
          "kind": "price",
@@ -721,7 +721,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "If the sail isn’t your day, take the ten-minute car ferry from Pounda instead. One long main street of galleries and good tavernas, the cave in the hills above, and Soros beach on the way back — a different island for the cost of a coffee."
+         "t": "If the sail isn’t your day, take the ten-minute car ferry from Pounda instead. One long main street of galleries and good tavernas, the cave in the hills above, and Soros beach on the way back. A different island for the cost of a coffee."
         }
        ]
       }
@@ -788,7 +788,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Morning in the mountain village of Lefkes — marble lanes, no sea, no crowds — then south to the fishing village of Aliki for a seafood lunch at To Balconi tou Aki, and the clear water at Lageri in the afternoon."
+         "t": "Morning in the mountain village of Lefkes (marble lanes, no sea, no crowds), then south to the fishing village of Aliki for a seafood lunch at To Balconi tou Aki, and the clear water at Lageri in the afternoon."
         }
        ]
       },
@@ -799,7 +799,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Wind-carved granite coves and water you can see straight through. Unlike any other beach in the Cyclades, and a short hop across the bay from Naousa — go early, before the boats arrive."
+         "t": "Wind-carved granite coves and water you can see straight through. Unlike any other beach in the Cyclades, and a short hop across the bay from Naousa. Go early, before the boats arrive."
         }
        ]
       },
@@ -810,7 +810,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The island’s most relaxed beachfront setting for swimming and a slow lunch. Nothing to do but stay put until the light changes — the day that asks nothing of you at all."
+         "t": "The island’s most relaxed beachfront setting for swimming and a slow lunch. Nothing to do but stay put until the light changes. It is the day that asks nothing of you."
         }
        ]
       },
@@ -821,7 +821,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Santa Pacou back in Lefkes, or Parostia at Cosme — one of my favorite restaurants on the island and the right way to close out Paros. Both are tables I’d lock in before you land."
+         "t": "Santa Pacou back in Lefkes, or Parostia at Cosme, one of my favorite restaurants on the island and the right way to close out Paros. Both are tables I’d lock in before you land."
         }
        ]
       },
@@ -886,7 +886,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Ease into the morning before spending the day at Crios Beach Club, where you’ll find one of the island’s most relaxed beachfront settings for swimming, lunch, and an afternoon by the sea. End your stay with dinner at Parostia — it’s downstairs at Cosme, one of my favorite restaurants on the island, and the perfect way to close out Paros without going anywhere."
+         "t": "Ease into the morning before spending the day at Crios Beach Club, where you’ll find one of the island’s most relaxed beachfront settings for swimming, lunch, and an afternoon by the sea. End your stay with dinner at Parostia. It’s downstairs at Cosme, one of my favorite restaurants on the island, and the perfect way to close out Paros without going anywhere."
         },
         {
          "kind": "meta",
@@ -937,7 +937,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The best cooking on Paros, plate for plate — modern Greek in the lanes behind the harbor, without a view and better for it."
+         "t": "The best cooking on Paros, plate for plate: modern Greek in the lanes behind the harbor, without a view and better for it."
         }
        ]
       },
@@ -948,7 +948,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Where I’d send you when you want the night to keep going — good plates, better energy, and no rush to give the table back."
+         "t": "Where I’d send you when you want the night to keep going: good plates, better energy, and no rush to give the table back."
         }
        ]
       },
@@ -970,7 +970,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "A seaside taverna down on the south coast and one of my favorites on the island. The lunch I’d build the Lefkes day around — go after the village in the morning, before the beach in the afternoon."
+         "t": "A seaside taverna down on the south coast and one of my favorites on the island. The lunch I’d build the Lefkes day around. Go after the village in the morning, before the beach in the afternoon."
         }
        ]
       },
@@ -981,27 +981,27 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Downstairs at Cosme, and one of my favorite restaurants on Paros. The right way to close out the trip — and if you’re staying there, an evening with nowhere to drive afterward."
+         "t": "Downstairs at Cosme, and one of my favorite restaurants on Paros. The right way to close out the trip, and if you’re staying there, an evening with nowhere to drive afterward."
         }
        ]
       }
      ]
     ],
-    "outro": "Naousa books up even in October, so it’s worth deciding early — send me the ones you want and I’ll arrange the tables through your hotel’s concierge once you know which ones you want."
+    "outro": "Naousa books up even in October, so it’s worth deciding early. Send me the ones you want and I’ll arrange the tables through your hotel’s concierge."
    }
   ],
   "closing": {
    "title": "Send me your must-dos",
-   "p": "Reply with the ones you want and anything you’d skip, and I’ll build the days around them — the boat held, tables booked, car and transfers arranged before you land.",
+   "p": "Reply with the ones you want and anything you’d skip, and I’ll build the days around them: the boat held, tables booked, car and transfers arranged before you land.",
    "img": "/images/excursions/paros/3c694a15.jpg"
   },
-  "footer_note": "Prices are operators’ published starting rates, converted from euros — final cost depends on date, group size and boat. I’ll quote exactly before anything is held."
+  "footer_note": "Prices are operators’ published starting rates, converted from euros. Final cost depends on date, group size and boat. I’ll quote exactly before anything is held."
  },
  "athens": {
   "slug": "athens",
   "eyebrow": "Greece · Excursion Guide",
   "h1": "Athens",
-  "sub": "Everything I’d actually book here — guides, food, museums and tables — whether you have two nights or a week.",
+  "sub": "Everything I’d book here: guides, food, museums and tables, for two nights or a week.",
   "hero_img": "/images/excursions/athens/52691ce9.webp",
   "screens": [
    {
@@ -1020,7 +1020,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "This is the one place in Greece where a private guide changes everything — the ruins are rubble without someone to tell you what you’re looking at, and you skip every line."
+         "t": "This is the one place in Greece where a private guide changes everything. The ruins are rubble without someone to tell you what you’re looking at, and you skip every line."
         }
        ]
       },
@@ -1042,7 +1042,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "From June to September the middle of the day on the rock is genuinely punishing. Everything below is written around an eight o’clock start and a slow afternoon."
+         "t": "From June to September the middle of the day on the rock is punishing. Everything below is written around an eight o’clock start and a slow afternoon."
         }
        ]
       }
@@ -1056,7 +1056,7 @@
     "title": "The city, and where everything sits",
     "note": null,
     "intro": [
-     "Central Athens is smaller than people expect — the Acropolis, the Agora, Plaka, Monastiraki and the museum are all within a twenty-minute walk of each other. Kolonaki and Pangrati are the two worth a taxi. Tap any pin for what it is."
+     "Central Athens is smaller than people expect. The Acropolis, the Agora, Plaka, Monastiraki and the museum are all within a twenty-minute walk of each other. Kolonaki and Pangrati are the two worth a taxi. Tap any pin for what it is."
     ],
     "img": null,
     "groups": [],
@@ -1081,7 +1081,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The complete version and the one I book most: the rock first thing — Propylaea, Parthenon, Erechtheion, the Nike temple — then down to the museum to see the sculpture that came off it, with the same guide joining the two halves together."
+         "t": "The complete version and the one I book most: the rock first thing (Propylaea, Parthenon, Erechtheion, the Nike temple), then down to the museum to see the sculpture that came off it, with the same guide joining the two halves together."
         },
         {
          "kind": "verdict",
@@ -1100,7 +1100,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The rock alone, properly explained, in two hours. The right call on a one-night stop, on an arrival day, or in real heat — you get the whole story and keep the rest of the day."
+         "t": "The rock alone, properly explained, in two hours. The right call on a one-night stop, on an arrival day, or in real heat. You get the whole story and keep the rest of the day."
         },
         {
          "kind": "price",
@@ -1115,7 +1115,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "My favorite way to spend a first morning: the Acropolis and the Parthenon on foot, then down into Plaka to eat your way through it — the old bakeries, the cheese and olive shops, and a proper sit-down stop."
+         "t": "My favorite way to spend a first morning: the Acropolis and the Parthenon on foot, then down into Plaka to eat your way through it: the old bakeries, the cheese and olive shops, and a proper sit-down stop."
         },
         {
          "kind": "verdict",
@@ -1134,7 +1134,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Quieter than the Acropolis and, to me, more moving — the market and law courts where the city actually ran, with the best-preserved temple in Greece standing over it. Easy to do unguided after a morning above."
+         "t": "Quieter than the Acropolis and, to me, more moving. This is the market and law courts where the city went about its business, with the best-preserved temple in Greece standing over it. Easy to do unguided after a morning above."
         }
        ]
       },
@@ -1156,7 +1156,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The Acropolis now runs on timed entry with a daily cap, and midsummer afternoons are sometimes closed outright. Every guided option above includes the timed ticket — another reason not to do this one yourselves."
+         "t": "The Acropolis now runs on timed entry with a daily cap, and midsummer afternoons are sometimes closed outright. Every guided option above includes the timed ticket, which is another reason not to do this one yourselves."
         }
        ]
       }
@@ -1170,7 +1170,7 @@
     "title": "The neighborhoods",
     "note": null,
     "intro": [
-     "Athens rewards wandering more than almost any European capital, because the good parts aren’t signposted. Four neighborhoods, each an afternoon, and none of them more than a fifteen-minute walk or a five-minute taxi from the last."
+     "Athens rewards wandering more than almost any European capital, because the good parts aren’t signposted. Four neighborhoods, each an afternoon, and each within a fifteen-minute walk or a five-minute taxi of the last."
     ],
     "img": null,
     "groups": [
@@ -1182,7 +1182,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The old quarter under the rock, and above it the pocket of whitewashed island houses built by masons from Anafi — a corner of the Cyclades hidden in the middle of Athens. Go before ten and it’s yours."
+         "t": "The old quarter under the rock, and above it the pocket of whitewashed island houses built by masons from Anafi, a corner of the Cyclades hidden in the middle of Athens. Go before ten and it’s yours."
         }
        ]
       },
@@ -1204,7 +1204,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The smart end of Athens — boutiques, galleries and cafes on the slope below Lycabettus, and the natural place to spend the hours before a serious dinner."
+         "t": "The smart end of Athens: boutiques, galleries and cafes on the slope below Lycabettus, and the natural place to spend the hours before a serious dinner."
         }
        ]
       },
@@ -1215,7 +1215,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Leafy, residential and where the interesting young kitchens have moved. Nothing to see, which is exactly the point — come for dinner and stay in the square afterwards."
+         "t": "Leafy, residential and where the interesting young kitchens have moved. Nothing to see, which is exactly the point. Come for dinner and stay in the square afterwards."
         }
        ]
       },
@@ -1226,7 +1226,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Varvakios and the spice shops of Evripidou Street — the loudest, most alive part of Athens, and much better with someone who can order for you. A food-focused morning here is the best value guiding in the city."
+         "t": "Varvakios and the spice shops of Evripidou Street, the loudest, most alive part of Athens, and much better with someone who can order for you. A food-focused morning here is the best value guiding in the city."
         }
        ]
       },
@@ -1249,7 +1249,7 @@
     "label": "Museums",
     "eyebrow": "Indoors",
     "title": "The museums worth your time",
-    "note": "Athens has dozens. These are the three I’d actually send you to — and all three are gloriously air-conditioned in August.",
+    "note": "Athens has dozens. These are the three I’d send you to, and all three are gloriously air-conditioned in August.",
     "intro": [],
     "img": null,
     "groups": [
@@ -1261,7 +1261,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The greatest collection of Greek antiquities anywhere — the Mycenaean gold, the bronze Poseidon, the Antikythera mechanism. It’s north of the center and worth the taxi."
+         "t": "The greatest collection of Greek antiquities anywhere: the Mycenaean gold, the bronze Poseidon, the Antikythera mechanism. It’s north of the center and worth the taxi."
         }
        ]
       },
@@ -1309,7 +1309,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Most people don’t realize Athens has a coastline this good twenty-five minutes from the Acropolis. Manko sits on the sand on the Riviera below Vouliagmeni — loungers and umbrellas down to the water, a long Mediterranean lunch, and the sea going gold in the late afternoon. Arrive late morning, stay until the light changes."
+         "t": "Most people don’t realize Athens has a coastline this good twenty-five minutes from the Acropolis. Manko sits on the sand on the Riviera below Vouliagmeni: loungers and umbrellas down to the water, a long Mediterranean lunch, and the sea going gold in the late afternoon. Arrive late morning, stay until the light changes."
         },
         {
          "kind": "verdict",
@@ -1332,7 +1332,7 @@
         },
         {
          "kind": "verdict",
-         "t": "The most romantic half-day in Attica, and the easiest to arrange — a private car and driver is all it takes."
+         "t": "The most romantic half-day in Attica, and the easiest to arrange. A private car and driver is all it takes."
         }
        ]
       },
@@ -1343,11 +1343,11 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Two and a half hours north, on the slopes of Mount Parnassus — the sanctuary of Apollo, the theatre and the stadium stacked up a mountainside above a valley of olive trees running to the sea. The ancient world considered this the center of the earth, and standing there you understand why."
+         "t": "Two and a half hours north, on the slopes of Mount Parnassus: the sanctuary of Apollo, the theatre and the stadium stacked up a mountainside above a valley of olive trees running to the sea. The ancient world considered this the center of the earth, and standing there you understand why."
         },
         {
          "kind": "verdict",
-         "t": "A long day — ten to eleven hours door to door. Worth every one of them, with a guide and a car, not a coach."
+         "t": "A long day, ten to eleven hours door to door. Worth every one of them, with a guide and a car, not a coach."
         }
        ]
       }
@@ -1360,7 +1360,7 @@
     "label": "Rooftops",
     "eyebrow": "Athens",
     "title": "Rooftops and sunset",
-    "note": "The Acropolis is lit every night and visible from half the roofs in the city. This is the hour Athens is at its best — plan one of these into every evening.",
+    "note": "The Acropolis is lit every night and visible from half the roofs in the city. This is the hour Athens is at its best, so plan one of these into every evening.",
     "intro": [],
     "img": null,
     "groups": [
@@ -1372,7 +1372,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Pine paths and smooth marble outcrops directly opposite the rock. Free, uncrowded, and the sunset the locals actually use. Bring something to drink and go up an hour before."
+         "t": "Pine paths and smooth marble outcrops directly opposite the rock. Free, uncrowded, and the sunset the locals use. Bring something to drink and go up an hour before."
         }
        ]
       },
@@ -1394,7 +1394,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Every building on the square has a bar on top and the same extraordinary view. A drink before dinner rather than dinner itself — the cooking rarely matches the outlook."
+         "t": "Every building on the square has a bar on top and the same extraordinary view. A drink before dinner rather than dinner itself. The cooking rarely matches the outlook."
         }
        ]
       },
@@ -1405,7 +1405,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "The marble outcrop just below the Acropolis entrance, where Athens has watched the sun go down for three thousand years. Busy, spectacular, and genuinely slippery — flat shoes."
+         "t": "The marble outcrop just below the Acropolis entrance, where Athens has watched the sun go down for three thousand years. Busy, spectacular, and slippery. Wear flat shoes."
         }
        ]
       }
@@ -1419,7 +1419,7 @@
     "title": "Where I’d eat",
     "note": null,
     "intro": [
-     "Athens is the best eating in Greece — better than any island, and a fraction of the price. Tell me which of these appeal and we’ll work through your hotel’s concierge to get them booked."
+     "Athens is the best eating in Greece, better than any island, and a fraction of the price. Tell me which of these appeal and we’ll work through your hotel’s concierge to get them booked."
     ],
     "img": null,
     "groups": [
@@ -1442,7 +1442,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Ideal for a special night, with incredible Acropolis views — modern Greek cooking that actually deserves the setting rather than coasting on it."
+         "t": "Ideal for a special night, with incredible Acropolis views, and modern Greek cooking that deserves the setting rather than coasting on it."
         }
        ]
       },
@@ -1453,7 +1453,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "On top of the Grande Bretagne, looking straight across at the lit Acropolis. The most reliable grand-hotel evening in Athens — go for a drink at minimum."
+         "t": "On top of the Grande Bretagne, looking straight across at the lit Acropolis. The most reliable grand-hotel evening in Athens. Go for a drink at minimum."
         }
        ]
       },
@@ -1464,7 +1464,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "Probably the coolest restaurant in Athens right now — amazing food, fun atmosphere, and hard to get into. Worth asking your concierge the day you arrive."
+         "t": "Probably the coolest restaurant in Athens right now: amazing food, fun atmosphere, and hard to get into. Worth asking your concierge the day you arrive."
         }
        ]
       },
@@ -1486,7 +1486,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "A beautiful hidden courtyard, and perfect for a romantic dinner. The kind of place you’d never find on your own."
+         "t": "A beautiful hidden courtyard, and perfect for a romantic dinner. You’d never find it on your own."
         }
        ]
       },
@@ -1497,7 +1497,7 @@
        "ps": [
         {
          "kind": "desc",
-         "t": "A beautiful garden setting for a quieter, romantic dinner — the alternative to a rooftop when you want to actually hear each other."
+         "t": "A beautiful garden setting for a quieter, romantic dinner, and the alternative to a rooftop when you want to hear each other."
         }
        ]
       },
@@ -1558,7 +1558,7 @@
       }
      ]
     ],
-    "outro": "Athens books later than you’d think — nine o’clock is normal and ten is not late. For Spondi, Hytra, Pharaoh and CTC, ask your concierge two to three weeks out; those four fill up first."
+    "outro": "Athens books later than you’d think. Nine o’clock is normal and ten is not late. For Spondi, Hytra, Pharaoh and CTC, ask your concierge two to three weeks out; those four fill up first."
    },
    {
     "label": "Two days",
@@ -1595,7 +1595,7 @@
         },
         {
          "kind": "meta",
-         "t": "Dinner: Spondi, Hytra or Pharaoh — the big one"
+         "t": "Dinner: Spondi, Hytra or Pharaoh, the big one"
         }
        ]
       },
@@ -1617,9 +1617,9 @@
   ],
   "closing": {
    "title": "Send me your must-dos",
-   "p": "Reply with the ones you want and anything you’d skip, and I’ll build the days around them — guides confirmed, transfers arranged, and the restaurant list handed to your concierge before you land.",
+   "p": "Reply with the ones you want and anything you’d skip, and I’ll build the days around them: guides confirmed, transfers arranged, and the restaurant list handed to your concierge before you land.",
    "img": "/images/excursions/athens/a5e7f4aa.webp"
   },
-  "footer_note": "Tour prices are published starting rates and vary by group size and date — I’ll quote exactly before anything is held."
+  "footer_note": "Tour prices are published starting rates and vary by group size and date. I’ll quote exactly before anything is held."
  }
 }

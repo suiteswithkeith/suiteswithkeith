@@ -133,7 +133,7 @@ const canonicalPath = canonical === 'index.html' ? '' : canonical;
           form.classList.add('done');
           status.textContent = 'Got it. You’ll hear from me, not an autoresponder.';
         })
-        .catch(() => { status.textContent = 'That didn’t send — email me directly at keith.pence@fora.travel.'; })
+        .catch(() => { status.textContent = 'That didn’t send. Email me directly at keith.pence@fora.travel.'; })
         .then(() => { btn.disabled = false; });
     });
   }

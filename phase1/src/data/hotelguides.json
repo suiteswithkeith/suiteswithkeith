@@ -1,12 +1,12 @@
 {
  "title": "Hotel Guides | Suites With Keith",
- "description": "Keith's firsthand hotel guides — property-by-property reviews from real stays and site visits, organized by destination.",
+ "description": "Keith's firsthand hotel guides: property-by-property reviews from real stays and site visits, organized by destination.",
  "h1": "Hotel Guides",
- "intro": "Property-by-property reviews from real stays and site visits &mdash; no press trips, no sponsored placements. Rates through me are identical to booking direct; the perks are not.",
+ "intro": "Property-by-property reviews from real stays and site visits, with no press trips and no sponsored placements. Rates through me are identical to booking direct; the perks are not.",
  "groups": [
   {
    "h2": "Greece &amp; The Greek Islands",
-   "blurb": "My 10 favorites from 38 hotels visited across seven islands &mdash; see the <a href=\"/best-hotels-greece.html\" class=\"read-link\">full ranking&nbsp;&rarr;</a>",
+   "blurb": "My 10 favorites from 38 hotels visited across seven islands. See the <a href=\"/best-hotels-greece.html\" class=\"read-link\">full ranking&nbsp;&rarr;</a>",
    "cards": [
     {
      "img": "/images/hotels/canaves-epitome-1.jpg",
@@ -101,7 +101,7 @@
     {
      "img": "/images/hotels/canaves-sunday-1.jpg",
      "name": "Canaves Sunday",
-     "p": "Santorini &middot; A 10-bedroom villa + 8 suites &mdash; an 18-bedroom buyout",
+     "p": "Santorini · A 10-bedroom villa + 8 suites, an 18-bedroom buyout",
      "href": "/hotels/canaves-sunday-santorini.html"
     },
     {
@@ -126,7 +126,7 @@
   },
   {
    "h2": "Napa &amp; Sonoma",
-   "blurb": "All nine from my wine country ranking &mdash; see the <a href=\"/napa-sonoma.html\" class=\"read-link\">full ranking&nbsp;&rarr;</a>",
+   "blurb": "All nine from my wine country ranking. See the <a href=\"/napa-sonoma.html\" class=\"read-link\">full ranking&nbsp;&rarr;</a>",
    "cards": [
     {
      "img": "/images/napa/meadowood-1.jpg",
@@ -149,13 +149,13 @@
     {
      "img": "/images/napa/solage-1.jpg",
      "name": "Solage",
-     "p": "Calistoga &middot; #04 &middot; Iconic California design, real privacy",
+     "p": "Calistoga · #04 · California design, real privacy",
      "href": "/hotels/solage-calistoga.html"
     },
     {
      "img": "/images/napa/macarthur.jpg",
      "name": "MacArthur Place",
-     "p": "Sonoma &middot; #05 &middot; The hidden gem you can walk to town from",
+     "p": "Sonoma · #05 · The under-the-radar one you can walk to town from",
      "href": "/hotels/macarthur-place-sonoma.html"
     },
     {
@@ -167,7 +167,7 @@
     {
      "img": "/images/napa/madrona.jpg",
      "name": "Madrona Manor",
-     "p": "Healdsburg &middot; #07 &middot; An estate, not a hotel &mdash; pure romance",
+     "p": "Healdsburg · #07 · An estate, not a hotel, and pure romance",
      "href": "/hotels/madrona-manor-healdsburg.html"
     },
     {
@@ -204,7 +204,7 @@
   },
   {
    "h2": "Asia Pacific &middot; First Looks",
-   "blurb": "Researched briefs on properties I'm watching &mdash; clearly marked until I've walked them myself",
+   "blurb": "Researched briefs on properties I'm watching, clearly marked until I've walked them myself",
    "cards": [
     {
      "img": "/images/hotels/capella-sydney-1.jpg",
@@ -216,7 +216,7 @@
   },
   {
    "h2": "More Greece &amp; Athens",
-   "blurb": "Deeper cuts across the islands and Athens &mdash; beyond the Top 10",
+   "blurb": "Deeper cuts across the islands and Athens, beyond the Top 10",
    "cards": [
     {
      "img": "/images/hotels/thedolli-1.jpg",
@@ -347,7 +347,7 @@
     {
      "img": "/images/pools/le-sirenuse.jpg",
      "name": "Le Sirenuse",
-     "p": "Positano &middot; Iconic family-run grand hotel",
+     "p": "Positano · Family-run grand hotel",
      "href": "/hotels/le-sirenuse-positano.html"
     },
     {

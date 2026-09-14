@@ -2,7 +2,7 @@
  "top-hotel-pools": {
   "slug": "top-hotel-pools",
   "title": "10 World's Most Jaw-Dropping Hotel Pools | Suites With Keith",
-  "description": "Ten hotel pools worth planning a trip around — from a cave pool on Santorini to a private island in the French Riviera, curated by travel advisor Keith Pence.",
+  "description": "Ten hotel pools worth planning a trip around, from a cave pool on Santorini to a private island on the French Riviera, chosen by travel advisor Keith Pence.",
   "eyebrow": "Keith's List &middot; 2026",
   "h1": "10 World's Most Jaw-Dropping Hotel Pools",
   "sub": "Save this guide for your next dip.",
@@ -44,7 +44,7 @@
     "img": "/images/pools/canaves-oia-river-suite.jpg",
     "pos": null,
     "num": "04",
-    "name": "Canaves Oia Suites &mdash; River Suite",
+    "name": "Canaves Oia Suites · River Suite",
     "loc": "Santorini, Greece",
     "price": "",
     "fora": "",
@@ -66,7 +66,7 @@
     "img": "/images/pools/zannier-ile-de-bendor.jpg",
     "pos": null,
     "num": "06",
-    "name": "Zannier H&ocirc;tels &mdash; &Icirc;le de Bendor",
+    "name": "Zannier H&ocirc;tels · &Icirc;le de Bendor",
     "loc": "&Icirc;le de Bendor, France",
     "price": "",
     "fora": "",
@@ -118,12 +118,12 @@
     "href": "/hotels/hotel-du-cap-eden-roc-antibes.html"
    }
   ],
-  "cta": "That's a wrap. Save this guide, then message me — I'll plan the trip."
+  "cta": "That's a wrap. Save this guide, then message me and I'll plan the trip."
  },
  "top-hotel-tennis-courts": {
   "slug": "top-hotel-tennis-courts",
   "title": "The World's Most Beautiful Hotel Tennis Courts | Suites With Keith",
-  "description": "Eleven hotel tennis courts worth planning a trip around — from a cliffside court in Positano to a private island in the Maldives, curated by travel advisor Keith Pence.",
+  "description": "Eleven hotel tennis courts worth planning a trip around, from a cliffside court in Positano to a private island in the Maldives, chosen by travel advisor Keith Pence.",
   "eyebrow": "Keith's List &middot; 2026",
   "h1": "The World's Most Beautiful Hotel Tennis Courts",
   "sub": "Save this guide for your next match.",
@@ -246,10 +246,10 @@
     "loc": "Big Island, Hawaii",
     "price": "$$$",
     "fora": "Fora Reserve Property",
-    "desc": "Hawaii's original tennis park &mdash; a dozen courts set along the Kohala Coast.",
+    "desc": "Hawaii's original tennis park: a dozen courts set along the Kohala Coast.",
     "href": "/hotels/mauna-kea-beach-hotel-hawaii.html"
    }
   ],
-  "cta": "That's a wrap. Save this guide, then message me — I'll plan the trip."
+  "cta": "That's a wrap. Save this guide, then message me and I'll plan the trip."
  }
 }

@@ -3,51 +3,51 @@ import Layout from '../layouts/Layout.astro';
 import Ask from '../components/Ask.astro';
 
 const stay = [
-  { img: '/images/hotels/canaves-oia-1.jpg', name: 'Canaves Oia Suites', tag: 'Best overall', blurb: 'Set higher on the caldera than most, recently renovated top to bottom, and the rare Santorini hotel with real privacy — every room has covered outdoor space.', href: '/hotels/canaves-oia-suites-santorini.html' },
-  { img: '/images/hotels/canaves-epitome-1.jpg', name: 'Canaves Epitome', tag: 'Best for space & privacy', blurb: 'A short walk from Oia near Ammoudi, with villas and residences rather than suites — and an actual sunset into the Aegean instead of a caldera view.', href: '/hotels/canaves-epitome-santorini.html' },
+  { img: '/images/hotels/canaves-oia-1.jpg', name: 'Canaves Oia Suites', tag: 'Best overall', blurb: 'Set higher on the caldera than most, recently renovated top to bottom, and the rare Santorini hotel with real privacy. Every room has covered outdoor space.', href: '/hotels/canaves-oia-suites-santorini.html' },
+  { img: '/images/hotels/canaves-epitome-1.jpg', name: 'Canaves Epitome', tag: 'Best for space & privacy', blurb: 'A short walk from Oia near Ammoudi, with villas and residences rather than suites, and an actual sunset into the Aegean instead of a caldera view.', href: '/hotels/canaves-epitome-santorini.html' },
   { img: '/images/hotels/canaves-ena-1.jpg', name: 'Canaves Ena', tag: 'Most intimate', blurb: 'The original Canaves property, started in the 80s by the same family running it today. Just 18 suites, beautifully brought up to date in 2024.', href: '/hotels/canaves-ena-santorini.html' },
-  { img: '/images/hotels/andronis-boutique-1.jpg', name: 'Andronis Boutique', tag: 'Classic caldera', blurb: 'Cave-style rooms with genuinely unique layouts, all renovated in 2024, and brighter inside than cave rooms have any right to be. Runs the top of my list close.', href: '/hotels/andronis-boutique-santorini.html' },
-  { img: '/images/hotels/andronis-luxury-1.jpg', name: 'Andronis Luxury Suites', tag: 'Best big occasion', blurb: 'The flagship of the portfolio — refined, elegant, old-school luxury rather than cave-style Santorini. Where I&rsquo;d put a milestone anniversary.', href: '/hotels/andronis-luxury-suites-santorini.html' },
+  { img: '/images/hotels/andronis-boutique-1.jpg', name: 'Andronis Boutique', tag: 'Classic caldera', blurb: 'Cave-style rooms with unique layouts, all renovated in 2024, and brighter inside than cave rooms have any right to be. Runs the top of my list close.', href: '/hotels/andronis-boutique-santorini.html' },
+  { img: '/images/hotels/andronis-luxury-1.jpg', name: 'Andronis Luxury Suites', tag: 'Best big occasion', blurb: 'The flagship of the portfolio: refined, elegant, old-school luxury rather than cave-style Santorini. Where I&rsquo;d put a milestone anniversary.', href: '/hotels/andronis-luxury-suites-santorini.html' },
   { img: '/images/hotels/grace-1.jpg', name: 'Grace Hotel', tag: 'Quietest stretch of the rim', blurb: 'Set high above Imerovigli, sometimes literally above the fog line. Simple, white, elegant rooms, and the most polished service on the caldera.', href: '/hotels/grace-santorini.html' },
 ];
 
 const excursions = [
-  { meta: 'The one I&rsquo;d never skip · shared · 5 hours', h: 'The caldera cruise', p: 'You cannot understand Santorini from the rim &mdash; you have to be under it. Every boat runs the same circuit: the caldera wall, the volcano and hot springs, the red and white beaches, back for sunset. What you&rsquo;re really choosing is boat size &mdash; fifty-five people, or fourteen with a proper cooked meal instead of a buffet.', price: 'From $87 per person · small boats from $121' },
-  { meta: 'Private · 5 hours', h: 'A private catamaran', p: 'The whole boat and crew for your group &mdash; up to fourteen, just as good for two. You set the departure time, how long you stay in each cove, and whether you swim at the volcano or sail straight past it. The best value here for a family or a group of friends.', price: 'From €1,000 for the boat' },
-  { meta: 'Private · 4–5 hours', h: 'A luxury day yacht', p: 'A different category altogether: a Pardo, a Wally or a Sunreef with a captain and a stewardess, chef&rsquo;s appetizers and good wine on board, chauffeured to the dock and back. For honeymoons and anniversaries &mdash; the day becomes the memory.', price: 'From $1,430 for the yacht' },
-  { meta: 'Inland · 1 hour to half a day', h: 'Vassaltis, the winery', p: 'Assyrtiko grown the way it&rsquo;s grown nowhere else &mdash; vines coiled into low baskets in volcanic ash, no trellis, no irrigation. The wine is bone-dry, saline and unmistakable. A four-wine tasting, a shared lunch in the vines, or the full vineyard walk with a sommelier.', price: 'Tastings from $44 · vineyard lunch from $61' },
-  { meta: 'Morning · 10 km · 3–4 hours', h: 'Fira to Oia, on foot', p: 'The signature walk and the only way to understand the shape of the island &mdash; the whole crescent of the caldera on your left the entire way. Exposed and shadeless: start by eight, carry water, and have a car meet you in Oia rather than walking back.', price: 'The best free thing on the island' },
-  { meta: 'Full day · car or driver', h: 'The inland day', p: 'Akrotiri&rsquo;s buried Bronze Age town in the morning while it&rsquo;s cool, lunch and wine at the vineyard, Pyrgos for the late light &mdash; the highest village on the island, and almost nobody is up there. Dinner inland at Metaxi Mas, where the island actually eats.', price: 'The day people come home talking about' },
+  { meta: 'The one I&rsquo;d never skip · shared · 5 hours', h: 'The caldera cruise', p: 'You cannot understand Santorini from the rim. You have to be under it. Every boat runs the same circuit: the caldera wall, the volcano and hot springs, the red and white beaches, back for sunset. What you&rsquo;re choosing is boat size: fifty-five people, or fourteen with a proper cooked meal instead of a buffet.', price: 'From $87 per person · small boats from $121' },
+  { meta: 'Private · 5 hours', h: 'A private catamaran', p: 'The whole boat and crew for your group, up to fourteen, and just as good for two. You set the departure time, how long you stay in each cove, and whether to swim at the volcano or sail straight past it. The best value here for a family or a group of friends.', price: 'From €1,000 for the boat' },
+  { meta: 'Private · 4–5 hours', h: 'A luxury day yacht', p: 'A different category altogether: a Pardo, a Wally or a Sunreef with a captain and a stewardess, chef&rsquo;s appetizers and good wine on board, chauffeured to the dock and back. For honeymoons and anniversaries, when the day becomes the memory.', price: 'From $1,430 for the yacht' },
+  { meta: 'Inland · 1 hour to half a day', h: 'Vassaltis, the winery', p: 'Assyrtiko grown the way it&rsquo;s grown nowhere else: vines coiled into low baskets in volcanic ash, no trellis, no irrigation. The wine is bone-dry, saline and unmistakable. A four-wine tasting, a shared lunch in the vines, or the full vineyard walk with a sommelier.', price: 'Tastings from $44 · vineyard lunch from $61' },
+  { meta: 'Morning · 10 km · 3–4 hours', h: 'Fira to Oia, on foot', p: 'The signature walk and the only way to understand the shape of the island, with the whole crescent of the caldera on your left the entire way. Exposed and shadeless: start by eight, carry water, and have a car meet you in Oia rather than walking back.', price: 'The best free thing on the island' },
+  { meta: 'Full day · car or driver', h: 'The inland day', p: 'Akrotiri&rsquo;s buried Bronze Age town in the morning while it&rsquo;s cool, lunch and wine at the vineyard, Pyrgos for the late light. It is the highest village on the island, and almost nobody is up there. Dinner inland at Metaxi Mas, where the island eats.', price: 'The day people come home talking about' },
 ];
 
 const eat = [
-  { name: 'Omnia at Canaves Epitome', tag: 'best meal on the island', note: 'The best meal I had in Greece, and where I&rsquo;d send you for sunset &mdash; Epitome faces an actual sunset into the Aegean rather than a caldera view. It&rsquo;s also one of the harder tables to get at the hour worth having.' },
+  { name: 'Omnia at Canaves Epitome', tag: 'best meal on the island', note: 'The best meal I had in Greece, and where I&rsquo;d send you for sunset, since Epitome faces an actual sunset into the Aegean rather than a caldera view. It&rsquo;s also one of the harder tables to get at the hour worth having.' },
   { name: 'Lycabettus at Andronis', tag: 'the big-occasion table', note: 'The famous cliffside room. If you&rsquo;re staying at Andronis, book it the moment your suite is confirmed. If you&rsquo;re not, it&rsquo;s still worth giving an evening to.' },
-  { name: 'Varoulko at Grace, Imerovigli', tag: 'most elegant dinner', note: 'Michelin-starred chef Lefteris Lazarou&rsquo;s seafood tasting menu, and he personally visits tables. Distinctly Greek yet modern &mdash; the strongest part of the Grace experience.' },
-  { name: 'Selene, Fira', tag: 'best modern Greek', note: 'The island&rsquo;s benchmark for a serious tasting menu &mdash; Santorini fava, white eggplant, tomatoes, Assyrtiko. Worth the night away from Oia, and worth a driver to get you back.' },
-  { name: 'Metaxi Mas, Exo Gonia', tag: 'where the island eats', note: 'Inland, away from the caldera entirely, and full of Greeks rather than honeymooners. Long lunches, house wine, and the kind of cooking the rim charges four times as much for. Book it &mdash; everyone has worked this one out by now.' },
-  { name: 'Armeni, below Oia', tag: 'best lunch on the water', note: 'A handful of tables at the water&rsquo;s edge in the little port below Oia, grilled fish straight off the boat. Go at lunch rather than sunset &mdash; same food, a fraction of the crowd, and you won&rsquo;t be climbing back up 300 steps in the dark.' },
+  { name: 'Varoulko at Grace, Imerovigli', tag: 'most elegant dinner', note: 'Michelin-starred chef Lefteris Lazarou&rsquo;s seafood tasting menu, and he personally visits tables. Distinctly Greek yet modern, and the strongest part of the Grace experience.' },
+  { name: 'Selene, Fira', tag: 'best modern Greek', note: 'The island&rsquo;s benchmark for a serious tasting menu: Santorini fava, white eggplant, tomatoes, Assyrtiko. Worth the night away from Oia, and worth a driver to get you back.' },
+  { name: 'Metaxi Mas, Exo Gonia', tag: 'where the island eats', note: 'Inland, away from the caldera entirely, and full of Greeks rather than honeymooners. Long lunches, house wine, and cooking the rim charges four times as much for. Book it. Everyone has worked this one out by now.' },
+  { name: 'Armeni, below Oia', tag: 'best lunch on the water', note: 'A handful of tables at the water&rsquo;s edge in the little port below Oia, grilled fish straight off the boat. Go at lunch rather than sunset: same food, a fraction of the crowd, and you won&rsquo;t be climbing back up 300 steps in the dark.' },
 ];
 
 const sunsets = [
-  { h: 'Your own terrace', p: 'The reason you paid for the room. Order a bottle, stay put, and watch the whole thing without moving &mdash; no crowd, no walk home in the dark, and the best seat on the island is the one you already booked.' },
+  { h: 'Your own terrace', p: 'The reason you paid for the room. Order a bottle, stay put, and watch the whole thing without moving. No crowd, no walk home in the dark, and the best seat on the island is the one you already booked.' },
   { h: 'Skaros, Imerovigli', p: 'The short walk out to the old rock takes about twenty minutes and leaves the crowds behind almost immediately. You get the caldera from an angle most visitors never see, and Oia in the distance rather than around you.' },
   { h: 'From a boat', p: 'Golden hour with a glass of Assyrtiko and roughly two hundred fewer people around you. The cleanest way to avoid the scrum entirely, and the one excursion I recommend to essentially everyone.' },
-  { h: 'Pyrgos, inland', p: 'The highest village on the island, and it faces the whole thing &mdash; sunset on one side, the caldera on the other, and a village that&rsquo;s still a village. Have dinner up here and let the rim empty out below you.' },
+  { h: 'Pyrgos, inland', p: 'The highest village on the island, and it faces the whole thing: sunset on one side, the caldera on the other, and a village that&rsquo;s still a village. Have dinner up here and let the rim empty out below you.' },
 ];
 
 const tips = [
   ['Book dinner before you land.', 'The best tables go four to eight weeks out, and this is the single thing most people leave too late.'],
-  ['Get off the rim once.', 'Pyrgos, the vineyards, the black-sand south &mdash; the island is more than the caldera, and a day away from it is the day people remember.'],
+  ['Get off the rim once.', 'Pyrgos, the vineyards, the black-sand south. There is an island beyond the caldera, and a day away from it is the day people remember.'],
   ['Two things a day, maximum.', 'Santorini is small but slow. Chasing a list is how a good trip turns into a tiring one.'],
-  ['See the caldera from the water.', 'The one excursion I recommend to everyone &mdash; <a href="/already-booked-santorini.html#catamaran">here&rsquo;s how I&rsquo;d do it</a>.'],
-  ['Never fly home the day you sail.', 'Build in the buffer night. The Aegean does not care about your itinerary &mdash; <a href="/santorini-transfer-cheat-sheet.html">the transfer cheat sheet</a> covers the rest.'],
+  ['See the caldera from the water.', 'The one excursion I recommend to everyone. <a href="/already-booked-santorini.html#catamaran">Here&rsquo;s how I&rsquo;d do it</a>.'],
+  ['Never fly home the day you sail.', 'Build in the buffer night. The Aegean does not care about your itinerary. <a href="/santorini-transfer-cheat-sheet.html">The transfer cheat sheet</a> covers the rest.'],
 ];
 ---
 <Layout
   canonical="santorini-guide.html"
-  title="Santorini — Worth It, If You Do It Right | Suites With Keith"
-  description="My favorite Santorini hotels, excursions, restaurants and sunsets in one place — from four weeks in the Cyclades and fifteen Santorini hotels toured in person."
+  title="Santorini: Worth It, If You Do It Right | Suites With Keith"
+  description="My favorite Santorini hotels, excursions, restaurants and sunsets in one place, from four weeks in the Cyclades and fifteen Santorini hotels toured in person."
   preload="/images/islands/santorini-hero.jpg"
 >
 
@@ -56,7 +56,7 @@ const tips = [
   <img class="hero-img" src="/images/islands/santorini-hero.jpg" alt="The caldera at Santorini" width="1800" height="1200" fetchpriority="high" />
   <div class="container">
     <p class="eyebrow">Santorini &middot; the shortlist</p>
-    <h1 class="display-xl" style="margin-top:18px;">Worth it &mdash;<br><em>if you do it right</em></h1>
+    <h1 class="display-xl" style="margin-top:18px;">Worth it,<br><em>if you do it right</em></h1>
     <p class="sub">My favorite hotels, excursions, restaurants and sunsets on the island, compiled in one place. Everything here comes from four weeks in the Cyclades and fifteen Santorini hotels toured in person.</p>
     <div class="hero-ctas">
       <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Have me book it</a>
@@ -72,7 +72,7 @@ const tips = [
       <div class="reveal">
         <span class="eyebrow">Where I&rsquo;d stay</span>
         <h2 class="display-l" style="margin-top:14px;">Six hotels, in the order I&rsquo;d recommend them</h2>
-        <p class="body-2" style="margin-top:18px; max-width:56ch;">I&rsquo;ve stayed in or toured every one of these &mdash; the full write-ups live in <a href="/santorini-hotels-ranked.html" style="color:var(--brass);">my Santorini rankings</a>, and each card links to its own guide. Booking any of them through me is complimentary, and comes with partner amenities you can&rsquo;t get booking direct &mdash; typically a space-available upgrade, daily breakfast, and a hotel credit.</p>
+        <p class="body-2" style="margin-top:18px; max-width:56ch;">I&rsquo;ve stayed in or toured every one of these. The full write-ups live in <a href="/santorini-hotels-ranked.html" style="color:var(--brass);">my Santorini rankings</a>, and each card links to its own guide. Booking any of them through me is complimentary, and comes with partner amenities you can&rsquo;t get booking direct: typically a space-available upgrade, daily breakfast, and a hotel credit.</p>
       </div>
       <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
         <p class="stamp plain" style="font-weight:700; color:var(--brass);">On this page</p>
@@ -93,7 +93,7 @@ const tips = [
       ))}
     </div>
     <div class="verdict reveal" style="margin-top:44px; max-width:640px;">
-      <p>Land in Santorini on day one and you&rsquo;re choosing from whatever has space that night. End the trip here instead and the whole island is available to you &mdash; it&rsquo;s the single biggest thing that decides which of these you actually get.</p>
+      <p>Land in Santorini on day one and you&rsquo;re choosing from whatever has space that night. End the trip here instead and the whole island is available to you. That is the single biggest thing that decides which of these you get.</p>
     </div>
   </div>
 </section>
@@ -103,8 +103,8 @@ const tips = [
   <div class="container">
     <div class="sec-head reveal">
       <span class="eyebrow">The excursions</span>
-      <h2 class="display-l">What I&rsquo;d actually book</h2>
-      <p class="deck" style="margin-top:16px;">One day on the water, one day inland &mdash; here&rsquo;s the menu.</p>
+      <h2 class="display-l">What I&rsquo;d book</h2>
+      <p class="deck" style="margin-top:16px;">One day on the water, one day inland. Here&rsquo;s the menu.</p>
     </div>
     <div class="sg-map-grid">
       <div class="reveal sg-map">
@@ -142,16 +142,16 @@ const tips = [
           <text class="lbl-sea" x="320" y="478" text-anchor="middle" font-size="15" opacity="0.8">Vlychada &middot; the black-sand south</text>
           <text class="lbl-sea" x="188" y="452" text-anchor="middle">Akrotiri</text>
         </svg>
-        <p class="map-cap">Not to scale, but close &mdash; the dashed line is the Fira &rarr; Oia rim walk.</p>
+        <p class="map-cap">Not to scale, but close. The dashed line is the Fira &rarr; Oia rim walk.</p>
       </div>
       <div class="reveal">
         <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:12px;">The shape of it</p>
-        <p style="margin:0 0 26px; font-size:.95rem; line-height:1.7; color:var(--band-ash);">Santorini is a crescent around a flooded volcano. Everything with a view sits along the west rim &mdash; Fira, Imerovigli, Oia &mdash; and everything else worth your time, the vineyards, the ruins and the black-sand beaches, is on the gentle slope behind.</p>
+        <p style="margin:0 0 26px; font-size:.95rem; line-height:1.7; color:var(--band-ash);">Santorini is a crescent around a flooded volcano. Everything with a view sits along the west rim at Fira, Imerovigli and Oia. Everything else worth your time, the vineyards, the ruins and the black-sand beaches, is on the gentle slope behind.</p>
         <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:12px;">Getting around</p>
-        <div class="ga"><b>Private transfers</b><p>What I arrange by default for the airport and the ferry port &mdash; Athinios is a steep, chaotic switchback with a taxi queue you don&rsquo;t want.</p></div>
+        <div class="ga"><b>Private transfers</b><p>What I arrange by default for the airport and the ferry port. Athinios is a steep, chaotic switchback with a taxi queue you don&rsquo;t want.</p></div>
         <div class="ga"><b>A car for one day</b><p>Worth it for the inland day only. Parking in Oia and Fira is close to impossible in season.</p></div>
         <div class="ga"><b>Taxis are scarce</b><p>A few dozen on the whole island, and none you can hail. Pre-book the driver for a dinner at the other end of the island.</p></div>
-        <div class="ga"><b>Oia to Ammoudi</b><p>Three hundred steps, shared with donkeys. Walk down if you like &mdash; book the car back up.</p></div>
+        <div class="ga"><b>Oia to Ammoudi</b><p>Three hundred steps, shared with donkeys. Walk down if you like, but book the car back up.</p></div>
         <p style="margin-top:18px;"><a class="toc-link" style="color:var(--brass-lit);" href="/santorini-transfer-cheat-sheet.html">The Santorini transfer cheat sheet &rarr;</a></p>
       </div>
     </div>
@@ -165,7 +165,7 @@ const tips = [
         </div>
       ))}
     </div>
-    <p class="deck reveal" style="margin-top:40px; max-width:56ch;">The boats and the best tables go weeks ahead in summer &mdash; from mid-June on, three to four weeks out is not too early. Send me the ones you want and I&rsquo;ll build the days around them, and hold whatever fills up first.</p>
+    <p class="deck reveal" style="margin-top:40px; max-width:56ch;">The boats and the best tables go weeks ahead in summer. From mid-June on, three to four weeks out is not too early. Send me the ones you want and I&rsquo;ll build the days around them, and hold whatever fills up first.</p>
   </div>
 </section>
 
@@ -187,7 +187,7 @@ const tips = [
         </div>
       ))}
     </div>
-    <p class="deck reveal" style="margin-top:34px; max-width:56ch;">Book these four to eight weeks ahead in high season &mdash; from mid-June through mid-September the tables worth having are gone weeks out, and what&rsquo;s left is 6:00pm or 10:30pm. Send me the ones you want and I&rsquo;ll go through your hotel&rsquo;s concierge.</p>
+    <p class="deck reveal" style="margin-top:34px; max-width:56ch;">Book these four to eight weeks ahead in high season. From mid-June through mid-September the tables worth having are gone weeks out, and what&rsquo;s left is 6:00pm or 10:30pm. Send me the ones you want and I&rsquo;ll go through your hotel&rsquo;s concierge.</p>
   </div>
 </section>
 
@@ -196,8 +196,8 @@ const tips = [
   <div class="container">
     <div class="sec-head reveal">
       <span class="eyebrow">The sunset</span>
-      <h2 class="display-l">Where I&rsquo;d actually watch it</h2>
-      <p class="body-2" style="margin-top:16px; max-width:62ch;">Everyone is told to go to the castle at Oia, so everyone does &mdash; several thousand people standing shoulder to shoulder on a wall, phones up, for a sunset you can see better from almost anywhere else on the island. Go once if you must. Then do one of these instead.</p>
+      <h2 class="display-l">Where I&rsquo;d watch it</h2>
+      <p class="body-2" style="margin-top:16px; max-width:62ch;">Everyone is told to go to the castle at Oia, so everyone does: several thousand people standing shoulder to shoulder on a wall, phones up, for a sunset you can see better from almost anywhere else on the island. Go once if you must. Then do one of these instead.</p>
     </div>
     <div class="sun-grid reveal">
       {sunsets.map((s) => (
@@ -234,17 +234,17 @@ const tips = [
     <div>
       <span class="eyebrow" style="display:block; margin-bottom:12px;">Already booked Santorini?</span>
       <h3 class="display-m">Hotel&rsquo;s done? Start here.</h3>
-      <p class="body-2" style="margin-top:12px; max-width:52ch;">Send me your reservation and I&rsquo;ll handle everything around it &mdash; the boat day on the right morning, the tables that need booking weeks out, and transfers timed to what the Aegean actually does.</p>
+      <p class="body-2" style="margin-top:12px; max-width:52ch;">Send me your reservation and I&rsquo;ll handle everything around it: the boat day on the right morning, the tables that need booking weeks out, and transfers timed to what the Aegean does.</p>
     </div>
     <a class="btn" href="/already-booked-santorini.html">Start here</a>
   </div>
 </section>
 
 <Ask
-  subject="Santorini Guide — booking inquiry"
+  subject="Santorini Guide: booking inquiry"
   page="santorini-guide"
   placeholder="Santorini in June"
-  deck="Any of the above, booked end to end &mdash; at no cost to you. &ldquo;Santorini in June&rdquo; is a complete answer."
+  deck="Any of the above, booked end to end, at no cost to you. &ldquo;Santorini in June&rdquo; is a complete answer."
   dark
 />
 

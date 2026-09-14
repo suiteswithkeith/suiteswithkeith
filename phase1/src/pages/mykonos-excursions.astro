@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 
 const stays = [
-  { href: '/hotels/kalesma-mykonos.html', img: '/images/hotels/kalesma-1.jpg', kicker: 'My first call', name: 'Kalesma', p: 'Rather than chasing the island&rsquo;s energy it creates its own &mdash; a Cycladic village of suites, understated architecture and panoramic Aegean views. The most refined stay on the island.' },
+  { href: '/hotels/kalesma-mykonos.html', img: '/images/hotels/kalesma-1.jpg', kicker: 'My first call', name: 'Kalesma', p: 'Rather than chasing the island&rsquo;s energy it creates its own: a Cycladic village of suites, understated architecture and panoramic Aegean views. The most refined stay on the island.' },
   { href: '/hotels/bill-and-coo-coast-mykonos.html', img: '/images/hotels/billandcoo-coast-1.jpg', kicker: 'Best for the water', name: 'Bill &amp; Coo Coast', p: 'Unlike most Mykonos luxury perched high above the sea, this one puts you on the shoreline. Beachfront suites, exceptional dining, and your own beach day without leaving.' },
   { href: '/hotels/fouquets-mykonos.html', img: '/images/hotels/fouquets-1.jpg', kicker: 'Best of both', name: 'Fouquet&rsquo;s Mykonos', p: 'South coast energy with a true luxury resort behind it. The right base if you want beach clubs by day and somewhere polished to come back to.' },
   { href: '/hotels/cali-mykonos.html', img: '/images/hotels/cali-mykonos-1.jpg', kicker: 'Most contemporary', name: 'Cali Mykonos', p: 'Dramatic hillside architecture, the island&rsquo;s largest infinity pools and a private beach. The newest perspective on luxury here, and a strong one.' },
@@ -10,24 +10,24 @@ const stays = [
 
 const eats = [
   { name: 'ZUMA at Fouquet&rsquo;s', tag: 'book this one first', p: 'One of the strongest dining experiences on Mykonos and worth planning an evening around, even if you&rsquo;re staying elsewhere.' },
-  { name: 'Pere Ubu at Kalesma', tag: 'the sunset table', p: 'One of the best places on the island to watch the sun disappear into the Aegean &mdash; the kind of table to reserve the moment your trip is confirmed rather than the month before.' },
-  { name: 'Interni or M-Eating, Mykonos Town', tag: 'first-night dinner', p: 'My picks for your first night &mdash; wander the whitewashed maze first, then settle in late, the way the island does it.' },
-  { name: 'Kiki&rsquo;s Tavern, Agios Sostis', tag: 'worth the wait', p: 'The famous no-reservations, no-electricity grill house. Go at opening or embrace the wait &mdash; put it on a day where waiting doesn&rsquo;t cost you anything.' },
-  { name: 'Scorpios at sunset', tag: 'a ritual more than a restaurant', p: 'The sunset seating books out weeks in advance and gets treated like a walk-in by most first-timers. That&rsquo;s the single most common way a Mykonos evening goes wrong.' },
+  { name: 'Pere Ubu at Kalesma', tag: 'the sunset table', p: 'One of the best places on the island to watch the sun disappear into the Aegean. Reserve it the moment your trip is confirmed rather than the month before.' },
+  { name: 'Interni or M-Eating, Mykonos Town', tag: 'first-night dinner', p: 'My picks for your first night. Wander the whitewashed maze first, then settle in late, the way the island does it.' },
+  { name: 'Kiki&rsquo;s Tavern, Agios Sostis', tag: 'worth the wait', p: 'The famous no-reservations, no-electricity grill house. Go at opening or embrace the wait, and put it on a day where waiting doesn&rsquo;t cost you anything.' },
+  { name: 'Scorpios at sunset', tag: 'the sunset ritual', p: 'The sunset seating books out weeks in advance and gets treated like a walk-in by most first-timers. That&rsquo;s the single most common way a Mykonos evening goes wrong.' },
 ];
 
 const clubs = [
-  ['Scorpios, Paraga.', 'The icon &mdash; seafood lunch, sunset ritual, and a slow build into the island&rsquo;s best-dressed party. Book weeks out for sunset.'],
-  ['Alemagou, Ftelia.', 'My pick for the design crowd &mdash; bamboo, dry-stone, and a windward beach that stays cooler and calmer in spirit than the south coast.'],
-  ['Nammos, Psarou.', 'The most famous beach lunch in Greece &mdash; glamorous, expensive, and exactly what it promises. Go for lunch, not for quiet.'],
-  ['SantAnna, Paraga.', 'Seawater pools, cabanas and an events calendar that rivals a boutique festival. Beds here are a booking, not a hope.'],
+  ['Scorpios, Paraga.', 'The famous one: seafood lunch, sunset ritual, and a slow build into the island&rsquo;s best-dressed party. Book weeks out for sunset.'],
+  ['Alemagou, Ftelia.', 'My pick for the design crowd: bamboo, dry-stone, and a windward beach that stays cooler and calmer in spirit than the south coast.'],
+  ['Nammos, Psarou.', 'The most famous beach lunch in Greece: glamorous, expensive, and exactly what it promises. Go for lunch, not for quiet.'],
+  ['SantAnna, Paraga.', 'Seawater pools, cabanas and an events calendar that rivals a boutique festival. Beds here have to be booked ahead.'],
   ['Or stay at your hotel.', 'If you&rsquo;re at Bill &amp; Coo Coast or Cali you already have a private beach, and some of the best days here are the ones where you never leave.'],
 ];
 
 const boats = [
-  ['Delos &amp; Rhenia.', 'The classic day: a morning among the ancient ruins of Delos &mdash; one of Greece&rsquo;s great archaeological sites &mdash; then an afternoon swimming off Rhenia&rsquo;s empty beaches.'],
+  ['Delos &amp; Rhenia.', 'The classic day: a morning among the ancient ruins of Delos, one of Greece&rsquo;s great archaeological sites, then an afternoon swimming off Rhenia&rsquo;s empty beaches.'],
   ['Day trip to Tinos.', 'My sleeper pick: a private boat to the villages of nearby Tinos, a completely different Greece thirty minutes away. Almost nobody asks for this one, and everybody who does comes back talking about it.'],
-  ['Arrive at Scorpios by boat.', 'Skip the summer traffic entirely and pull up to the island&rsquo;s most famous beach club from the water &mdash; which only works if the boat and the club booking are timed together.'],
+  ['Arrive at Scorpios by boat.', 'Skip the summer traffic entirely and pull up to the island&rsquo;s most famous beach club from the water. It only works if the boat and the club booking are timed together.'],
   ['Book the boat before you land.', 'Good crews and good weather windows both sell out, and the Meltemi is strongest in this part of the Cyclades. I place the charter early in your stay so there&rsquo;s room to move it.'],
 ];
 
@@ -35,17 +35,17 @@ const rules = [
   ['Don&rsquo;t drive to dinner in August', 'The south coast road jams at sunset. Boat taxi, or leave an hour earlier than feels sensible.'],
   ['Never book the last ferry of the day', 'If it cancels, there&rsquo;s nothing behind it.'],
   ['Don&rsquo;t fly home the same day you sail', 'Build in a night. The Aegean does not care about your itinerary.'],
-  ['The Meltemi is strongest here', 'July and August wind cancels fast ferries &mdash; the northern Cyclades feel it most.'],
+  ['The Meltemi is strongest here', 'July and August wind cancels fast ferries, and the northern Cyclades feel it most.'],
 ];
 
 const days = [
-  { h: 'Day One &middot; Arrive', p: 'Ease in with a slow afternoon at the hotel &mdash; private pool or straight to the beach, but resist packing the schedule. As the sun drops, wander the whitewashed streets of Mykonos Town before a long dinner beneath the stars.', meta: 'Dinner: Interni or M-Eating &middot; Booked ahead: the table, and the transfer from the airport' },
+  { h: 'Day One &middot; Arrive', p: 'Ease in with a slow afternoon at the hotel, private pool or straight to the beach, but resist packing the schedule. As the sun drops, wander the whitewashed streets of Mykonos Town before a long dinner beneath the stars.', meta: 'Dinner: Interni or M-Eating &middot; Booked ahead: the table, and the transfer from the airport' },
   { h: 'Day Two &middot; The Beach Day', p: 'A slow lunch at Alemagou, letting the afternoon unfold without watching the clock. Later, a boat transfer to Scorpios to beat the traffic and arrive by sea. Stay through sunset, then back into town for dinner or cocktails.', meta: 'Don&rsquo;t miss: arriving at Scorpios by boat &middot; Booked ahead: beds at both, and the boat taxi between them' },
-  { h: 'Day Three &middot; The Water', p: 'The day worth protecting. Charter a private boat to Delos and Rhenia, or across to Tinos &mdash; or spend one last afternoon at your hotel rather than rushing to another beach club. End with sunset over the Aegean.', meta: 'Don&rsquo;t miss: a swim stop you can&rsquo;t reach by road &middot; Booked ahead: the charter, placed early enough to move for wind' },
+  { h: 'Day Three &middot; The Water', p: 'The day worth protecting. Charter a private boat to Delos and Rhenia, or across to Tinos. Or spend one last afternoon at your hotel rather than rushing to another beach club. End with sunset over the Aegean.', meta: 'Don&rsquo;t miss: a swim stop you can&rsquo;t reach by road &middot; Booked ahead: the charter, placed early enough to move for wind' },
 ];
 
 const booked = [
-  ['You keep the room you booked', 'Nothing gets cancelled or rebooked. I work around whatever you&rsquo;ve already confirmed and build the days on top of it &mdash; the tables, the beach beds, the boat, the transfers.'],
+  ['You keep the room you booked', 'Nothing gets cancelled or rebooked. I work around whatever you&rsquo;ve already confirmed and build the days on top of it: the tables, the beach beds, the boat, the transfers.'],
   ['Send me the confirmation and your dates', 'That&rsquo;s all I need to start. I&rsquo;ll come back with what&rsquo;s still available on your nights, what&rsquo;s already tight, and what I&rsquo;d book first.'],
   ['It&rsquo;s one plan, not five bookings', 'The charter, the beach club timing and your dinner table are the same decision. That&rsquo;s the whole reason to have someone do it rather than assembling it yourself from six tabs.'],
 ];
@@ -53,7 +53,7 @@ const booked = [
 <Layout
   canonical="mykonos-excursions.html"
   title="Mykonos Excursions & Trip Guide | Suites With Keith"
-  description="Where Keith would stay, eat and spend the beach days on Mykonos — the boat days worth chartering, the transfers that matter, and how to have him plan all of it."
+  description="Where Keith would stay, eat and spend the beach days on Mykonos, plus the boat days worth chartering, the transfers that matter, and how to have him plan all of it."
   preload="/images/islands/mykonos-hero.jpg"
   current="guides"
 >
@@ -78,7 +78,7 @@ const booked = [
     <div class="reveal">
       <span class="eyebrow" style="display:block; margin-bottom:16px;">Start here</span>
       <p class="deck" style="max-width:48ch;">Mykonos punishes the unplanned more than any island in Greece. The famous tables are reserved weeks out, the best beach club beds are gone by mid-morning, and in July the road to the south coast turns into a parking lot right when everyone&rsquo;s heading to dinner.</p>
-      <p class="body-2" style="margin-top:16px; max-width:58ch;">I expected a party island and found some of the best hotels, meals and service of my entire trip through the Cyclades. It&rsquo;s genuinely two islands &mdash; the loud one and the quiet one &mdash; and which one you get depends almost entirely on what was booked before you landed.</p>
+      <p class="body-2" style="margin-top:16px; max-width:58ch;">I expected a party island and found some of the best hotels, meals and service of my entire trip through the Cyclades. It&rsquo;s two islands, the loud one and the quiet one, and which one you get depends almost entirely on what was booked before you landed.</p>
       <p class="body-2" style="margin-top:16px; max-width:58ch;">Everything below is what I&rsquo;d tell a friend. If you&rsquo;d rather I just handle it, that&rsquo;s the whole job: <a href="#inquire" style="color:var(--brass);">tell me your dates and I&rsquo;ll build the trip around them</a>.</p>
     </div>
     <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
@@ -116,7 +116,7 @@ const booked = [
     </p>
     <div class="mk-tip reveal">
       <span class="eyebrow" style="display:block; margin-bottom:10px;">Keith&rsquo;s tip</span>
-      <p class="body-2">Booking any of these through me costs you nothing &mdash; I&rsquo;m paid by the hotel, and you get preferred-partner amenities on top of the same rate: typically a space-available upgrade, daily breakfast and a hotel credit. If you&rsquo;re deciding between two of them, <a href="#inquire" style="color:var(--brass);">tell me who&rsquo;s travelling and I&rsquo;ll tell you which one is actually right for your trip</a>.</p>
+      <p class="body-2">Booking any of these through me costs you nothing. I&rsquo;m paid by the hotel, and you get preferred-partner amenities on top of the same rate: typically a space-available upgrade, daily breakfast and a hotel credit. If you&rsquo;re deciding between two of them, <a href="#inquire" style="color:var(--brass);">tell me who&rsquo;s travelling and I&rsquo;ll tell you which one is right for your trip</a>.</p>
     </div>
   </div>
 </section>
@@ -148,7 +148,7 @@ const booked = [
     </figure>
     <div class="reveal">
       <span class="eyebrow" style="display:block; margin-bottom:12px;">01 &middot; Beach clubs</span>
-      <h2 class="display-l" style="font-size:clamp(1.6rem,3.2vw,2.3rem);">Match the club to the day &mdash; and book the beds</h2>
+      <h2 class="display-l" style="font-size:clamp(1.6rem,3.2vw,2.3rem);">Match the club to the day, and book the beds</h2>
       <p class="stamp plain" style="margin-top:14px; font-weight:700; color:var(--brass-lit);">Best for &middot; long lunches, people-watching, a proper beach day</p>
       <p class="body-2" style="margin-top:16px;">Beach clubs are Mykonos&rsquo; native art form, and they range from bohemian-calm to full festival. Picking wrong costs you a day: the design crowd&rsquo;s beach and the full-production beach are twenty minutes and an entirely different mood apart.</p>
       <div style="margin-top:20px;">
@@ -156,7 +156,7 @@ const booked = [
           <p class="mk-note"><b set:html={b} /> <span set:html={t} /></p>
         ))}
       </div>
-      <p class="body-2" style="margin-top:20px; color:var(--band-ash);">Front-row beds go by mid-morning in August. Tell me the kind of day you want and I&rsquo;ll pick the club, hold the beds, and get you there by sea.</p>
+      <p class="body-2" style="margin-top:20px; color:var(--band-ash);">Front-row beds go by mid-morning in August. Tell me what sort of day you want and I&rsquo;ll pick the club, hold the beds, and get you there by sea.</p>
     </div>
   </div>
 </section>
@@ -167,7 +167,7 @@ const booked = [
     <div class="mk-tip reveal" style="margin-top:0; text-align:center;">
       <span class="eyebrow" style="display:block; margin-bottom:10px;">The easiest way to start</span>
       <h3 class="display-m">Tell me your dates</h3>
-      <p class="body-2" style="margin-top:12px;">That&rsquo;s genuinely all I need to begin. I&rsquo;ll come back with what&rsquo;s still available on your nights and what I&rsquo;d book &mdash; hotels included, at no cost to you.</p>
+      <p class="body-2" style="margin-top:12px;">That&rsquo;s all I need to begin. I&rsquo;ll come back with what&rsquo;s still available on your nights and what I&rsquo;d book, hotels included, at no cost to you.</p>
       <p style="margin-top:20px;"><a class="btn" href="#inquire" data-gtag-label="plan_my_trip" data-gtag-location="mk_callout">Plan my trip</a></p>
     </div>
   </div>
@@ -183,13 +183,13 @@ const booked = [
       <span class="eyebrow" style="display:block; margin-bottom:12px;">02 &middot; Boat days &amp; excursions</span>
       <h2 class="display-l" style="font-size:clamp(1.6rem,3.2vw,2.3rem);">The best day on Mykonos happens off it</h2>
       <p class="stamp plain" style="margin-top:14px; font-weight:700; color:var(--brass);">Best for &middot; couples, groups, anyone escaping the scene</p>
-      <p class="body-2" style="margin-top:16px;">A private boat turns the island&rsquo;s biggest weakness &mdash; summer crowds &mdash; into a non-issue: swim stops at coves you can&rsquo;t reach by road, lunch on deck, and an arrival at the beach club by sea while everyone else sits in traffic. I charter these with the crews I use myself.</p>
+      <p class="body-2" style="margin-top:16px;">A private boat turns the island&rsquo;s biggest weakness, the summer crowds, into a non-issue: swim stops at coves you can&rsquo;t reach by road, lunch on deck, and an arrival at the beach club by sea while everyone else sits in traffic. I charter these with the crews I use myself.</p>
       <div style="margin-top:20px;">
         {boats.map(([b, t]) => (
           <p class="mk-note light"><b set:html={b} /> <span set:html={t} /></p>
         ))}
       </div>
-      <p class="body-2" style="margin-top:20px;">If you do one splurge on Mykonos, make it this &mdash; not a bigger room. <a href="#inquire" style="color:var(--brass);">Send me your dates and I&rsquo;ll price the right boat for the right morning.</a></p>
+      <p class="body-2" style="margin-top:20px;">If you do one splurge on Mykonos, make it this one, ahead of a bigger room. <a href="#inquire" style="color:var(--brass);">Send me your dates and I&rsquo;ll price the right boat for the right morning.</a></p>
     </div>
   </div>
 </section>
@@ -209,7 +209,7 @@ const booked = [
         </dl>
         <div style="margin-top:28px;">
           <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:14px;">What I arrange</p>
-          <p class="body-2" style="color:var(--band-ash);">Private transfers between the airport, the port and your hotel are the baseline. Beyond that: boat taxis to the beach clubs so you&rsquo;re never in sunset traffic, private charters to Delos, Rhenia and Tinos, and helicopter transfers through my <a href="/hoper.html" style="color:var(--brass-lit);">partnership with Hoper</a> &mdash; Mykonos is one of Hoper&rsquo;s three bases, so island hops run daily in season.</p>
+          <p class="body-2" style="color:var(--band-ash);">Private transfers between the airport, the port and your hotel are the baseline. Beyond that: boat taxis to the beach clubs so you&rsquo;re never in sunset traffic, private charters to Delos, Rhenia and Tinos, and helicopter transfers through my <a href="/hoper.html" style="color:var(--brass-lit);">partnership with Hoper</a> . Mykonos is one of Hoper&rsquo;s three bases, so island hops run daily in season.</p>
           <p style="margin-top:16px;"><a class="mk-toc" style="color:var(--brass-lit);" href="/greek-ferry-rules.html">5 Greek ferry rules every couple should know &rarr;</a></p>
         </div>
       </div>
@@ -219,7 +219,7 @@ const booked = [
           <p class="mk-note"><b set:html={b + '.'} /> <span set:html={t} /></p>
         ))}
         <div class="verdict" style="margin-top:26px; border-left-color:var(--brass-lit);">
-          <p style="color:var(--band-ink);">Mykonos was the island that surprised me most &mdash; I expected a scene and found substance. The trick is deciding each morning which island you want that day: the loud one or the quiet one. It&rsquo;s genuinely both, but only if the bookings are already made.</p>
+          <p style="color:var(--band-ink);">Mykonos was the island that surprised me most. I expected a scene and found substance. The trick is deciding each morning which island you want that day: the loud one or the quiet one. It is both, but only if the bookings are already made.</p>
         </div>
       </div>
     </div>
@@ -231,8 +231,8 @@ const booked = [
   <div class="container">
     <div class="sec-head reveal">
       <span class="eyebrow">Mykonos &middot; Three days</span>
-      <h2 class="display-l">How I&rsquo;d actually spend them</h2>
-      <p class="deck" style="margin-top:16px; max-width:52ch;">Three days is the right length for most people. This is the shape I&rsquo;d book &mdash; one great beach club, one unforgettable dinner, and enough room left to enjoy the hotel you paid for.</p>
+      <h2 class="display-l">How I&rsquo;d spend them</h2>
+      <p class="deck" style="margin-top:16px; max-width:52ch;">Three days is the right length for most people. This is the shape I&rsquo;d book: one great beach club, one long dinner, and enough room left to enjoy the hotel you paid for.</p>
     </div>
     <div class="mk-days reveal">
       <figure class="mk-days-photo">
@@ -250,7 +250,7 @@ const booked = [
     </div>
     <div class="mk-tip reveal">
       <span class="eyebrow" style="display:block; margin-bottom:10px;">Keith&rsquo;s tip</span>
-      <p class="body-2">My favorite Mykonos itineraries never try to do everything. One incredible beach club, one unforgettable dinner, and plenty of time at the hotel. If you have more than three days, the answer isn&rsquo;t more Mykonos &mdash; it&rsquo;s adding <a href="/paros.html" style="color:var(--brass);">Paros</a> or <a href="/santorini.html" style="color:var(--brass);">Santorini</a> and slowing down.</p>
+      <p class="body-2">My favorite Mykonos itineraries never try to do everything. One great beach club, one long dinner, and plenty of time at the hotel. If you have more than three days, add <a href="/paros.html" style="color:var(--brass);">Paros</a> or <a href="/santorini.html" style="color:var(--brass);">Santorini</a> and slow down, rather than stacking more Mykonos.</p>
     </div>
   </div>
 </section>
@@ -270,7 +270,7 @@ const booked = [
         </div>
       ))}
     </div>
-    <p class="body-2 reveal" style="margin-top:24px; max-width:62ch;">There&rsquo;s a longer version of this &mdash; <a href="/already-booked-mykonos.html" style="color:var(--brass);">everything I take on once the hotel is set</a> &mdash; or just <a href="#inquire" style="color:var(--brass);">send it all over and I&rsquo;ll take it from there</a>.</p>
+    <p class="body-2 reveal" style="margin-top:24px; max-width:62ch;">There&rsquo;s a longer version of this, <a href="/already-booked-mykonos.html" style="color:var(--brass);">everything I take on once the hotel is set</a> , or just <a href="#inquire" style="color:var(--brass);">send it all over and I&rsquo;ll take it from there</a>.</p>
   </div>
 </section>
 
@@ -278,12 +278,12 @@ const booked = [
 <section class="section inquire" id="inquire" style="scroll-margin-top:70px;">
   <div class="container">
     <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Have me plan it</span>
-    <h2 class="display-l reveal" style="max-width:32ch; margin-inline:auto; font-size:clamp(1.6rem,3vw,2.3rem);">Hotels booked through me are complimentary &mdash; and come with perks</h2>
-    <p class="deck reveal" style="margin:18px auto 0; max-width:52ch;">Tell me your dates and roughly what you want the trip to feel like. I&rsquo;ll come back with the hotel I&rsquo;d put you in, the tables worth booking, the right morning for the boat, and transfers that account for what August does to the south coast road. If you&rsquo;ve already booked some of it, send that too &mdash; I&rsquo;ll work around it.</p>
+    <h2 class="display-l reveal" style="max-width:32ch; margin-inline:auto; font-size:clamp(1.6rem,3vw,2.3rem);">Hotels booked through me are complimentary, and come with perks</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:52ch;">Tell me your dates and roughly what you want the trip to feel like. I&rsquo;ll come back with the hotel I&rsquo;d put you in, the tables worth booking, the right morning for the boat, and transfers that account for what August does to the south coast road. If you&rsquo;ve already booked some of it, send that too. I&rsquo;ll work around it.</p>
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST" style="max-width:560px;">
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
-      <input type="hidden" name="_subject" value="Mykonos Guide — trip inquiry" />
-      <input type="hidden" name="lead_source" value="Mykonos reel — mykonos-excursions page" />
+      <input type="hidden" name="_subject" value="Mykonos Guide: trip inquiry" />
+      <input type="hidden" name="lead_source" value="Mykonos reel: mykonos-excursions page" />
       <label for="mk-name" style="color:var(--band-ash);">Name</label>
       <input id="mk-name" type="text" name="name" required autocomplete="name" />
       <label for="mk-email" style="color:var(--band-ash);">Email</label>
@@ -302,19 +302,19 @@ const booked = [
       </select>
       <label for="mk-help" style="color:var(--band-ash);">Where are you starting from?</label>
       <select id="mk-help" name="help_with" class="mk-select">
-        <option>Nothing booked yet &mdash; build the whole trip</option>
-        <option>Hotel booked &mdash; handle everything around it</option>
+        <option>Nothing booked yet: build the whole trip</option>
+        <option>Hotel booked: handle everything around it</option>
         <option>Just the hotel, please</option>
         <option>Adding another island or Athens</option>
-        <option>Not sure yet &mdash; tell me what you&rsquo;d do</option>
+        <option>Not sure yet: tell me what you&rsquo;d do</option>
       </select>
       <label for="mk-booked-field" style="color:var(--band-ash);">Anything you&rsquo;ve already booked</label>
-      <input id="mk-booked-field" type="text" name="already_booked" placeholder="Hotel, flights, ferries, restaurants — rough is fine" autocomplete="off" />
+      <input id="mk-booked-field" type="text" name="already_booked" placeholder="Hotel, flights, ferries, restaurants (rough is fine)" autocomplete="off" />
       <button type="submit" class="btn" data-gtag-label="mykonos_inquiry_send" data-gtag-location="mk_cta">Send my inquiry</button>
       <p class="note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
       <p class="status" role="status" aria-live="polite"></p>
     </form>
-    <p class="reveal small" style="margin-top:22px; color:var(--band-ash);">Prefer to message? DM me at <a href="https://instagram.com/suiteswithkeith" target="_blank" rel="noopener" style="color:var(--brass-lit);">@suiteswithkeith</a> &mdash; I answer those myself.</p>
+    <p class="reveal small" style="margin-top:22px; color:var(--band-ash);">Prefer to message? DM me at <a href="https://instagram.com/suiteswithkeith" target="_blank" rel="noopener" style="color:var(--brass-lit);">@suiteswithkeith</a> . I answer those myself.</p>
     <p class="reveal" style="margin-top:26px; display:flex; gap:12px 32px; justify-content:center; flex-wrap:wrap;">
       <a class="mk-toc" style="color:var(--brass-lit);" href="/greek-island-pairings.html">My five Greek island pairings &rarr;</a>
       <a class="mk-toc" style="color:var(--brass-lit);" href="/mykonos.html">My full Mykonos hotel guide &rarr;</a>

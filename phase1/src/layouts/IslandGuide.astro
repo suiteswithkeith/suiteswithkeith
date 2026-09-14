@@ -68,7 +68,7 @@ const ext = (href) => /^https?:/.test(href);
         ))}
         <div class="kv-row"><dt>Don&rsquo;t miss</dt><dd>
           {g.dont_miss.map((d, i) => (
-            <span><b set:html={d.h} /> &mdash; <span set:html={d.p} />{i < g.dont_miss.length - 1 ? ' ' : ''}</span>
+            <span><b set:html={/[.!?]$/.test(d.h) ? d.h : d.h + '.'} /> <span set:html={d.p} />{i < g.dont_miss.length - 1 ? ' ' : ''}</span>
           ))}
         </dd></div>
         <div class="kv-row"><dt>Getting around</dt><dd set:html={g.around_text} /></div>
@@ -190,7 +190,7 @@ const ext = (href) => /^https?:/.test(href);
 )}
 
 <Ask
-  subject={`Inquiry — ${g.h1} guide`}
+  subject={`Inquiry: ${g.h1} guide`}
   page={slug}
   placeholder={`${g.h1} in June`}
   deck={`&ldquo;${g.h1} in June&rdquo; is a complete answer. I&rsquo;ll take it from there.`}
