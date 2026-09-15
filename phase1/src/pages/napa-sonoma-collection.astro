@@ -1,0 +1,222 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Ask from '../components/Ask.astro';
+
+// Four bases, as the issue orders them (p.4 of Issue No. 02). Each card lists
+// its hotels as links, so the card itself is a <div>, not an <a>.
+const toc = [
+  { num: '01', img: '/images/napa/four-seasons-1.jpg', w: 1600, h: 1100, name: 'Calistoga', p: 'Springs and cabernet &mdash; the top of the valley, where nobody is in a hurry.', hotels: [['Four Seasons Napa Valley', '/hotels/four-seasons-napa-valley.html'], ['Solage', '/hotels/solage-calistoga.html']] },
+  { num: '02', img: '/images/napa/meadowood-1.jpg', w: 1600, h: 1100, name: 'St. Helena &amp; Rutherford', p: 'The valley&rsquo;s main street &mdash; its quiet center, and its highest standard.', hotels: [['Meadowood', '/hotels/meadowood-napa-valley.html'], ['Auberge du Soleil', '/hotels/auberge-du-soleil-napa.html'], ['Alila Napa Valley', '/hotels/alila-napa-valley.html']] },
+  { num: '03', img: '/images/napa/stanly-ranch.jpg', w: 1600, h: 1100, name: 'Napa &amp; Carneros', p: 'Sparkling and cool mornings &mdash; where the valley opens up toward the bay.', hotels: [['Stanly Ranch', '/hotels/stanly-ranch-napa.html'], ['Carneros Resort &amp; Spa', '/hotels/carneros-resort-napa.html']] },
+  { num: '04', img: '/images/napa/montage-1.jpg', w: 1600, h: 1100, name: 'Sonoma County', p: 'Slower, greener, less booked &mdash; and in no hurry to impress you.', hotels: [['Montage Healdsburg', '/hotels/montage-healdsburg.html'], ['MacArthur Place', '/hotels/macarthur-place-sonoma.html'], ['Madrona Manor', '/hotels/madrona-manor-healdsburg.html']] },
+];
+const more = { href: '/napa-sonoma.html', img: '/images/napa/madrona.jpg', w: 1800, h: 1200, name: 'The Rankings', p: 'All ten, ranked from personal stays &mdash; with the offers live right now.', cta: 'See the Rankings' };
+
+// The Edit (p.52), with "My Favorite Hotel" leading as it does on the Greece page.
+const edit = [
+  ['My Favorite Hotel', '<a href="/hotels/meadowood-napa-valley.html">Meadowood</a>', 'St. Helena'],
+  ['Best Hospitality', '<a href="/hotels/meadowood-napa-valley.html">Meadowood Napa Valley</a>', 'St. Helena'],
+  ['Best Special-Occasion Splurge', '<a href="/hotels/auberge-du-soleil-napa.html">Auberge du Soleil</a>', 'Rutherford'],
+  ['Best for Serious Oenophiles', '<a href="/hotels/meadowood-napa-valley.html">Meadowood</a>', 'St. Helena'],
+  ['Best for Multi-Generational Trips', '<a href="/hotels/four-seasons-napa-valley.html">Four Seasons Napa Valley</a>', 'Calistoga'],
+  ['Best Spa', '<a href="/hotels/solage-calistoga.html">Solage</a>', 'Calistoga'],
+  ['Best Resort Pool', '<a href="/hotels/montage-healdsburg.html">Montage Healdsburg</a>', 'Healdsburg'],
+  ['Most Serene Escape', '<a href="/hotels/stanly-ranch-napa.html">Stanly Ranch</a>', 'Carneros'],
+  ['Best Home Base for Exploring Town', '<a href="/hotels/macarthur-place-sonoma.html">MacArthur Place</a>', 'Sonoma'],
+  ['Best Vineyard Views', '<a href="/hotels/alila-napa-valley.html">Alila Napa Valley</a>', 'St. Helena'],
+  ['Best Dining', '<a href="/hotels/madrona-manor-healdsburg.html">Madrona Manor</a>', 'Healdsburg'],
+  ['Best for a Weekend With Friends', '<a href="/hotels/solage-calistoga.html">Solage</a>', 'Calistoga'],
+  ['Best for Dog Lovers', '<a href="/hotels/four-seasons-napa-valley.html">Four Seasons</a> &middot; <a href="/hotels/solage-calistoga.html">Solage</a>', 'A tie'],
+  ['Most Nights Stayed', '<a href="/hotels/montage-healdsburg.html">Montage Healdsburg</a>', 'Healdsburg'],
+  ['Most Underrated', '<a href="/hotels/macarthur-place-sonoma.html">MacArthur Place</a>', 'Sonoma'],
+];
+
+// How booking with me works (p.53).
+const perks = [
+  ['Upgrades, prioritized', 'Preferred-partner guests sit at the top of the upgrade list, sometimes confirmed before arrival.'],
+  ['Breakfast, daily', 'Breakfast for two at nearly every house in this collection, every morning of the stay.'],
+  ['A credit on the folio', 'Property credit for spa, dining, or wine at most of these hotels &mdash; at a few it is among the strongest in the valley.'],
+  ['A person to call', 'You arrive as my guest, not a confirmation number, and if anything wobbles you call me, not a help line.'],
+];
+---
+<Layout
+  canonical="napa-sonoma-collection.html"
+  title="The Napa & Sonoma Collection | Luxury Wine Country Hotel Guide"
+  description="Issue No. 02 of The Collections — a firsthand luxury guide to Napa Valley and Sonoma County: ten hotels across four bases, plus where to eat and taste, town by town."
+  current="collections"
+  preload="/video/napa-hero-poster.jpg"
+>
+<Fragment slot="head">
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://suiteswithkeith.com/images/napa/collection-cover.jpg" />
+  <meta property="og:site_name" content="Suites With Keith" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://suiteswithkeith.com/images/napa/collection-cover.jpg" />
+</Fragment>
+
+<!-- cover -->
+<header class="hero" style="min-height:min(92svh,900px);">
+  <video class="hero-video" autoplay loop muted playsinline preload="metadata" poster="/video/napa-hero-poster.jpg" aria-label="Vineyards and oak-covered hills of Napa and Sonoma wine country">
+    <source src="/video/napa-hero.mp4" type="video/mp4" />
+  </video>
+  <div class="container">
+    <p class="eyebrow">The Collections &middot; Issue No. 02 &middot; Fall 2026</p>
+    <h1 class="display-xl" style="margin-top:18px;">The Napa &amp; Sonoma <em>Collection</em></h1>
+    <p class="sub">A Suites With Keith Collection &mdash; ten hotels across four bases, several years of returning, and the ones I&rsquo;d recommend without hesitation.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#issue" data-gtag-label="read_issue" data-gtag-location="hero">Read the issue</a>
+      <a class="btn btn-ghost on-shadow" href="#inquire" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);" data-gtag-label="start_planning" data-gtag-location="hero">Plan the trip</a>
+    </div>
+  </div>
+</header>
+
+<!-- a note from keith -->
+<section class="section">
+  <div class="container" style="max-width:820px; text-align:center;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:26px;">A note from Keith</span>
+    <blockquote class="story-quote reveal" style="margin:0 auto; max-width:36ch;">Napa and Sonoma are personal to me &mdash; for many reasons, they&rsquo;re probably why I started Suites With Keith to begin with. I grew up twenty-five minutes south, in Marin County, and for years my work brought me back to these valleys almost monthly. <b>Over time, the people who run these hotels became personal friends.</b></blockquote>
+    <p class="stamp plain reveal" style="margin-top:30px;">Ten hotels across four bases &mdash; where I&rsquo;d stay, eat, and taste. Every house here is a Fora or Virtuoso preferred partner.</p>
+    <p class="gc-signature reveal">Keith</p>
+  </div>
+</section>
+
+<!-- the issue -->
+<section class="section" id="issue" style="padding-top:0; scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;">
+      <span class="eyebrow">Issue No. 02</span>
+      <h2 class="display-l">Read the full issue</h2>
+    </div>
+    <div class="gc-frame reveal">
+      <div style="position:relative;padding-top:max(60%,326px);height:0;width:100%"><iframe title="The Napa & Sonoma Collection | Issue No. 02 | Luxury Wine Country Travel Guide by Suites With Keith" allow="clipboard-write; autoplay; encrypted-media; fullscreen; picture-in-picture" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?backgroundColor=%23f5f1e9&backgroundColorFullscreen=%23f5f1e9&d=the_napa_sonoma_collection&themeMainColor=%231F1F1F&themeSecondaryColor=%23C8A46B&u=suiteswithkeith"></iframe></div>
+    </div>
+    <p class="stamp plain reveal" style="text-align:center; margin-top:18px;">Prefer a printed copy? The Collection is also available as a physical keepsake edition &mdash; <a href="mailto:keith.pence@fora.travel?subject=The%20Napa%20%26%20Sonoma%20Collection%20%E2%80%94%20Physical%20Copy" style="color:var(--brass);">request one here</a>.</p>
+  </div>
+</section>
+
+<!-- four bases -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;">
+      <span class="eyebrow">The Collection</span>
+      <h2 class="display-l">Wine country, by town</h2>
+      <p class="deck" style="margin:16px auto 0; max-width:40ch; color:var(--band-ash);">Ten hotels across four bases: where I&rsquo;d stay, eat, and taste.</p>
+    </div>
+    <div class="gc-toc">
+      {toc.map((t) => (
+        <div class="gc-toc-card reveal">
+          <img src={t.img} alt={t.name.replace(/&amp;/g, '&')} width={t.w} height={t.h} loading="lazy" decoding="async" />
+          <div>
+            <span class="gc-num">{t.num}</span>
+            <h3 set:html={t.name} />
+            <p set:html={t.p} />
+            <span class="gc-hotels">
+              {t.hotels.map(([name, href]) => <a class="gc-link" href={href} set:html={name + '&nbsp;&rarr;'} />)}
+            </span>
+          </div>
+        </div>
+      ))}
+      <a class="gc-toc-card reveal" href={more.href}>
+        <img src={more.img} alt={more.name} width={more.w} height={more.h} loading="lazy" decoding="async" />
+        <div>
+          <span class="gc-num">+</span>
+          <h3 set:html={more.name} />
+          <p set:html={more.p} />
+          <span class="gc-link">{more.cta}&nbsp;&rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- the edit -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;">
+      <span class="eyebrow">Ten hotels &middot; four bases &middot; several years</span>
+      <h2 class="display-l">The Edit</h2>
+      <p class="deck" style="margin:16px auto 0; max-width:40ch;">The ones I&rsquo;d recommend without hesitation, sorted by the reason you&rsquo;d book them.</p>
+    </div>
+    <div class="gc-edit reveal">
+      {edit.map(([label, winner, isle]) => (
+        <div class="gc-edit-item">
+          <h5 set:html={label} />
+          <span class="gc-winner" set:html={winner} />
+          <span class="gc-isle" set:html={isle} />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- how booking works -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;">
+      <span class="eyebrow">Suites With Keith</span>
+      <h2 class="display-l">How booking with me works</h2>
+      <p class="deck" style="margin:16px auto 0; max-width:44ch; color:var(--band-ash);">Every hotel in this collection is a property I book through my Fora / Virtuoso partnership. You pay the hotel&rsquo;s own rate, booking through me costs nothing extra, and the reservation arrives with more attached to it.</p>
+    </div>
+    <div class="gc-perks">
+      {perks.map(([h, p]) => (
+        <div class="gc-perk reveal">
+          <h3 set:html={h} />
+          <p set:html={p} />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<Ask
+  subject="Inquiry — The Napa & Sonoma Collection"
+  page="napa-sonoma-collection"
+  eyebrow="Planning a wine country trip?"
+  heading="If this collection inspired your next trip, I'd love to design the itinerary around you"
+  placeholder="Healdsburg in October"
+  deck="Tell me your dates and who&rsquo;s coming, and I&rsquo;ll come back the same day with options and live rates."
+/>
+
+</Layout>
+
+<style>
+  .gc-signature { font-family: var(--display); font-style: italic; font-size: 2.1rem; margin-top: 28px; color: var(--ink); }
+  .gc-frame { border: 1px solid var(--hairline-firm); padding: clamp(10px, 1.6vw, 18px); background: var(--lime); }
+
+  .gc-toc { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--band-hairline); border: 1px solid var(--band-hairline); }
+  .gc-toc-card { display: flex; gap: 24px; align-items: center; padding: clamp(24px, 3vw, 36px); background: var(--shadow); text-decoration: none; min-width: 0; transition: background var(--dur-1) var(--ease); }
+  .gc-toc-card:hover { background: var(--shadow-2); }
+  .gc-toc-card img { width: 110px; height: 140px; object-fit: cover; flex-shrink: 0; }
+  .gc-toc-card > div { min-width: 0; overflow-wrap: break-word; }
+  .gc-num { font-family: var(--stamp); font-size: .72rem; letter-spacing: .14em; color: var(--brass-lit); display: block; margin-bottom: 8px; }
+  .gc-toc-card h3 { font-family: var(--display); font-weight: 500; font-size: 1.35rem; color: var(--band-ink); margin: 0 0 8px; }
+  .gc-toc-card p { font-size: .93rem; color: var(--band-ash); line-height: 1.55; margin: 0 0 12px; }
+  .gc-link { font-family: var(--stamp); font-size: .66rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-lit); text-decoration: none; }
+  .gc-toc-card:hover .gc-link, a.gc-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .gc-hotels { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+
+  .gc-edit { display: grid; grid-template-columns: repeat(4, 1fr); gap: 36px 28px; }
+  .gc-edit-item { text-align: center; border-top: 1px solid var(--hairline); padding-top: 20px; }
+  .gc-edit-item h5 { font-family: var(--stamp); font-size: .64rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); margin: 0 0 12px; }
+  .gc-winner { font-family: var(--display); font-style: italic; font-size: 1.2rem; color: var(--ink); display: block; margin-bottom: 4px; }
+  .gc-winner :global(a) { color: inherit; text-decoration: none; }
+  .gc-winner :global(a:hover) { text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--brass); }
+  .gc-isle { font-family: var(--stamp); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash); }
+
+  .gc-perks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--band-hairline); border: 1px solid var(--band-hairline); }
+  .gc-perk { padding: clamp(24px, 3vw, 34px); background: var(--shadow); }
+  .gc-perk h3 { font-family: var(--display); font-weight: 500; font-size: 1.25rem; color: var(--band-ink); margin: 0 0 10px; }
+  .gc-perk p { font-size: .93rem; color: var(--band-ash); line-height: 1.55; margin: 0; }
+
+  @media (max-width: 900px) {
+    .gc-toc { grid-template-columns: 1fr; }
+    .gc-edit { grid-template-columns: repeat(2, 1fr); }
+    .gc-perks { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .gc-toc-card { padding: 24px 20px; gap: 18px; }
+    .gc-toc-card img { width: 84px; height: 108px; }
+    .gc-edit { grid-template-columns: 1fr; }
+    .gc-perks { grid-template-columns: 1fr; }
+  }
+</style>

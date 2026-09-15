@@ -71,7 +71,7 @@ const ext = (href) => /^https?:/.test(href);
         <span class="eyebrow" style="display:block; margin-bottom:10px;" set:html={g.issue_cta.eyebrow} />
         <h3 class="display-m" set:html={g.issue_cta.h} />
         <p class="body-2" style="margin-top:12px;" set:html={g.issue_cta.p} />
-        <p style="margin-top:20px;"><a class="btn" href={g.issue_cta.href} target="_blank" rel="noopener" data-gtag-label="issue_waitlist" data-gtag-location="rankings_page" set:html={g.issue_cta.cta} /></p>
+        <p style="margin-top:20px;"><a class="btn" href={g.issue_cta.href} target={ext(g.issue_cta.href) ? '_blank' : undefined} rel={ext(g.issue_cta.href) ? 'noopener' : undefined} data-gtag-label={ext(g.issue_cta.href) ? 'issue_waitlist' : 'issue_read'} data-gtag-location="rankings_page" set:html={g.issue_cta.cta} /></p>
       </div>
     </div>
   </section>
