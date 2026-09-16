@@ -9,6 +9,10 @@ import Layout from '../layouts/Layout.astro';
   navOverlay={true}
 >
 
+<Fragment slot="head">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"TravelAgency","name":"Suites With Keith","url":"https://suiteswithkeith.com/","description":"Luxury travel advisory specializing in honeymoon planning, hotel bookings, and bespoke itineraries across Europe and beyond. Booking is complimentary.","image":"https://suiteswithkeith.com/images/personal/gundari-sunset.jpg","email":"keith.pence@fora.travel","sameAs":["https://instagram.com/suiteswithkeith","https://www.foratravel.com/advisor/keith-pence"],"founder":{"@type":"Person","name":"Keith Pence","jobTitle":"Luxury Travel Advisor"},"areaServed":"Worldwide","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"6","bestRating":"5"},"review":[{"@type":"Review","author":{"@type":"Person","name":"Tyler & Spencer C."},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"With less than 24 hours' notice we needed a hotel in Saint-Tropez in peak season. Keith stepped in with the perfect recommendation and personally contacted the hotel before our arrival. When we pulled up, the staff greeted us by name, welcomed us with cold towels, and surprised us with a complimentary upgrade."},{"@type":"Review","author":{"@type":"Person","name":"Nida T."},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Keith knew exactly what I was looking for. It was hard to narrow it down between his options, I loved them all. He handled everything, from booking to communications, and I did not have to worry about a thing."},{"@type":"Review","author":{"@type":"Person","name":"Sue P."},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Extremely helpful and knowledgeable about all areas of Paris. Without his guidance, we would not have thought to stay in an area we were not familiar with. We look forward to booking our next trip with Keith."},{"@type":"Review","author":{"@type":"Person","name":"Stephanie F."},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Keith made me believe in using travel agents again. He carefully put together thoughtful options and called out why he would choose each. He took so much work off my shoulders."},{"@type":"Review","author":{"@type":"Person","name":"Kai Yu W."},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"On our first night in Greece there was a snafu with our hotel. We let Keith know, he communicated on our behalf to the hotel team, and the hotel went above and beyond in addressing it, including giving us an upgrade. Super grateful to have a travel advisor advocate on your behalf."},{"@type":"Review","author":{"@type":"Person","name":"Caitlin M."},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Extremely responsive and quick to help with anything I need. I have already used his services four times in the past two months. Worth its weight in gold. I will not ever book a stay without Keith again."}]}</script>
+</Fragment>
+
 <!-- 1 · The claim -->
 <header class="hero hero--video">
   <video class="hero-video" autoplay loop muted playsinline preload="metadata"
@@ -83,6 +87,30 @@ import Layout from '../layouts/Layout.astro';
   </div>
 </section>
 
+<!-- 4b · The clients -->
+<section class="section" id="clients">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">What clients say</span>
+      <h2 class="display-l">Booked through me, in their words</h2>
+    </div>
+    <div class="proof-grid reveal">
+      <figure class="proof">
+        <blockquote>&ldquo;Keith knew exactly what I was looking for. It was hard to narrow it down between his options, I loved them all. He handled everything, from booking to communications, and I did not have to worry about a thing.&rdquo;</blockquote>
+        <figcaption>Nida T. &middot; Tuscany</figcaption>
+      </figure>
+      <figure class="proof">
+        <blockquote>&ldquo;On our first night in Greece there was a snafu with our hotel. We let Keith know, he communicated on our behalf to the hotel team, and the hotel went above and beyond, including giving us an upgrade. Super grateful to have a travel advisor advocate on your behalf.&rdquo;</blockquote>
+        <figcaption>Kai Yu W. &middot; Santorini</figcaption>
+      </figure>
+      <figure class="proof">
+        <blockquote>&ldquo;Extremely responsive and quick to help with anything I need. I have already used his services four times in the past two months. Worth its weight in gold. I will not ever book a stay without Keith again.&rdquo;</blockquote>
+        <figcaption>Caitlin M. &middot; Four Seasons Napa Valley</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
 <!-- 5 · The Collection -->
 <section class="section" id="collection">
   <div class="container collection-grid">
@@ -133,6 +161,7 @@ import Layout from '../layouts/Layout.astro';
     <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
     <h2 class="display-l reveal">Where and when?</h2>
     <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">&ldquo;Santorini in June&rdquo; is a complete answer. I&rsquo;ll take it from there.</p>
+    <p class="proof-line reveal">&ldquo;Keith made me believe in using travel agents again.&rdquo;<span>Stephanie F. &middot; Capella Kyoto</span></p>
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
       <input type="hidden" name="_subject" value="Website Inquiry" />
       <input type="hidden" name="page" value="index" />
@@ -158,6 +187,20 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <style>
+  .proof-grid { display: grid; grid-template-columns: 1fr; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); }
+  .proof { margin: 0; padding: clamp(26px, 3vw, 36px) 0; }
+  .proof + .proof { border-top: 1px solid var(--hairline); }
+  .proof blockquote { margin: 0; font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(1.12rem, 1.7vw, 1.3rem); line-height: 1.45; color: var(--ink); }
+  .proof figcaption { margin-top: 18px; font-family: var(--stamp); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash); }
+  .proof-line { margin: 22px auto 0; max-width: 36ch; font-family: var(--display); font-style: italic; font-size: clamp(1rem, 1.5vw, 1.12rem); line-height: 1.45; color: var(--ash); }
+  .proof-line span { display: block; margin-top: 8px; font-family: var(--stamp); font-style: normal; font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; }
+  @media (min-width: 900px) {
+    .proof-grid { grid-template-columns: 1fr 1fr 1fr; }
+    .proof { padding: clamp(26px, 3vw, 36px) clamp(20px, 2.6vw, 34px); }
+    .proof + .proof { border-top: none; border-left: 1px solid var(--hairline); }
+    .proof:first-child { padding-left: 0; }
+    .proof:last-child { padding-right: 0; }
+  }
   .collection-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: center; }
   .adv-grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
   @media (min-width: 900px) {

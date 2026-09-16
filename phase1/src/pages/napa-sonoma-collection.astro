@@ -165,6 +165,10 @@ const perks = [
         </div>
       ))}
     </div>
+    <figure class="gc-proof reveal">
+      <blockquote>&ldquo;Keith is absolutely fantastic at what he does. Extremely responsive and quick to help with anything I need. I have already used his services four times in the past two months. Worth its weight in gold. I will not ever book a stay without Keith again.&rdquo;</blockquote>
+      <figcaption>Caitlin M. &middot; Four Seasons Napa Valley &middot; Calistoga</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -180,6 +184,9 @@ const perks = [
 </Layout>
 
 <style>
+  .gc-proof { margin: clamp(36px, 5vw, 56px) auto 0; max-width: 62ch; text-align: center; }
+  .gc-proof blockquote { margin: 0; font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(1.2rem, 2.2vw, 1.5rem); line-height: 1.42; color: var(--band-ink); }
+  .gc-proof figcaption { margin-top: 18px; font-family: var(--stamp); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--brass-lit); }
   .gc-signature { font-family: var(--display); font-style: italic; font-size: 2.1rem; margin-top: 28px; color: var(--ink); }
   .gc-frame { border: 1px solid var(--hairline-firm); padding: clamp(10px, 1.6vw, 18px); background: var(--lime); }
 
