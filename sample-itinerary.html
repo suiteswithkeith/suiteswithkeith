@@ -554,23 +554,39 @@
   </div>
 </section>
 
-<!--
-  TODO (Keith): "Download this itinerary" email capture.
-  Two things have to exist before this section goes live, or it collects addresses and delivers nothing:
-    1. A PDF of this itinerary in /downloads/ (e.g. downloads/sample-itinerary-greece.pdf).
-    2. A Flodesk full-page form with its own segment, the same pattern as the Napa waitlist form
-       linked from collections.html. Paste its URL into the href below.
-  Then delete these comment markers to publish the section.
-
-<section class="section">
+<!-- PDF REQUEST -->
+<section class="section" id="pdf">
   <div class="container" style="text-align:center;">
     <span class="it-eyebrow reveal">Take It With You</span>
     <h2 class="it-h2 reveal" style="max-width:24ch;margin-inline:auto;">The full sixteen-night itinerary, as a PDF</h2>
     <p class="it-lede reveal" style="margin-inline:auto;text-align:center;">Every hotel, every room, every transfer and every table, formatted the way clients receive it. Yours to steal from.</p>
-    <p><a class="btn" href="FLODESK_FORM_URL_HERE" target="_blank" rel="noopener" data-gtag-label="itinerary_pdf" data-gtag-location="sample_itinerary">Send it to me</a></p>
+    <form class="pdf-form reveal" action="https://formspree.io/f/mjgnadov" method="POST" style="max-width:460px; margin:30px auto 0; text-align:left;">
+      <input type="hidden" name="_subject" value="PDF request — Sample Greek honeymoon itinerary">
+      <input type="hidden" name="page" value="sample-itinerary">
+      <input type="hidden" name="request" value="itinerary_pdf">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <label for="pdf-email" style="display:block; font-size:.72rem; letter-spacing:.14em; text-transform:uppercase; font-weight:500; color:var(--ash); margin:0 0 8px;">Where should I send it?</label>
+      <input id="pdf-email" type="email" name="email" placeholder="Email" required autocomplete="email" style="width:100%; font-family:var(--body); font-size:.97rem; color:var(--ink); background:var(--lime); border:1px solid var(--hairline); border-radius:2px; padding:14px; margin-bottom:16px; box-sizing:border-box;">
+      <button type="submit" class="btn" style="width:100%;" data-gtag-label="itinerary_pdf" data-gtag-location="sample_itinerary">Send it to me</button>
+      <p class="pdf-status" role="status" aria-live="polite" style="margin-top:14px; font-size:.97rem; text-align:center;"></p>
+    </form>
   </div>
 </section>
--->
+<script>
+(function () {
+  var f = document.querySelector('.pdf-form');
+  if (!f) return;
+  var st = f.querySelector('.pdf-status'), btn = f.querySelector('button[type="submit"]');
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    btn.disabled = true; st.textContent = '';
+    fetch(f.action, { method: 'POST', body: new FormData(f), headers: { Accept: 'application/json' } })
+      .then(function (r) { if (!r.ok) throw new Error(); f.reset(); st.textContent = 'On its way. I send these myself, so give me a few hours.'; })
+      .catch(function () { st.textContent = 'That did not send. Email me directly at keith.pence@fora.travel.'; })
+      .then(function () { btn.disabled = false; });
+  });
+})();
+</script>
 
 <!-- INQUIRY -->
 <section class="section inquire band on-shadow" id="inquire">
