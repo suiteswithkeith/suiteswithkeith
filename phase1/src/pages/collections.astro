@@ -24,12 +24,21 @@ const issues = [
     external: false,
   },
 ];
+
+const upcoming = [
+  {
+    meta: 'Issue No. 03 &middot; Early 2027',
+    h3: 'The Italy Collection',
+    p: 'Lake Como to the Amalfi Coast, worked the same way &mdash; weeks on the ground, every hotel toured or slept in, and an honest read on who each one is for.',
+  },
+];
 ---
 <Layout
   canonical="collections.html"
   title="The Collections | Suites With Keith"
-  description="Firsthand travel journals from Keith — one region at a time, every hotel seen in person. Issue No. 02, The Napa & Sonoma Collection, is out now."
+  description="Firsthand travel journals from Keith — one region at a time, every hotel seen in person. Issue No. 02, The Napa & Sonoma Collection, is out now. Next: Italy, early 2027."
   current="collections"
+  footerSubscribe={false}
 >
 
 <!-- masthead -->
@@ -66,6 +75,36 @@ const issues = [
   </div>
 </section>
 
+<!-- upcoming editions + subscribe -->
+<section class="section" id="upcoming" style="padding-top:0; scroll-margin-top:70px;">
+  <div class="container">
+    <div class="upcoming">
+      <div>
+        <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Upcoming editions</span>
+        <h2 class="display-l reveal" style="font-size:clamp(1.7rem,3.4vw,2.5rem);">What&rsquo;s next</h2>
+        <ol class="editions reveal">
+          {upcoming.map((u) => (
+            <li class="edition">
+              <p class="stamp plain" style="font-weight:700; color:var(--brass); margin:0;" set:html={u.meta} />
+              <h3 class="edition-title" set:html={u.h3} />
+              <p class="body-2" set:html={u.p} />
+            </li>
+          ))}
+        </ol>
+      </div>
+      <div class="subscribe-panel reveal" id="subscribe">
+        <span class="eyebrow" style="display:block; margin-bottom:14px;">Get first access</span>
+        <h3 class="display-m" style="margin:0;">Subscribers read every issue first.</h3>
+        <p class="body-2">A first look at each edition as it publishes, starting with Italy.</p>
+        <div class="beehiiv-wrap">
+          <script is:inline async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="02920925-682b-4b12-a526-e4fe0939610c"></script>
+          <p style="margin-top:10px;"><a href="/subscriber-welcome.html" style="font-size:.85rem;">Just subscribed? Continue to your welcome page &rarr;</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- what a collection is -->
 <section class="section band on-shadow">
   <div class="container" style="max-width:860px; text-align:center;">
@@ -99,4 +138,18 @@ const issues = [
   .issue-cover a { display: block; position: relative; }
   .issue-cover img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
   .issue-badge { position: absolute; top: 16px; left: 16px; font-family: var(--stamp); font-size: .64rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--lime); background: var(--olive); padding: 6px 12px; }
+
+  .upcoming { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; padding-top: clamp(40px, 5.5vw, 64px); border-top: 1px solid var(--hairline); }
+  @media (min-width: 900px) {
+    .upcoming { grid-template-columns: 1.1fr 1fr; gap: 72px; }
+  }
+  .upcoming > :global(*) { min-width: 0; }
+  .editions { list-style: none; margin: 28px 0 0; padding: 0; border-top: 1px solid var(--hairline); }
+  .edition { padding: 24px 0; border-bottom: 1px solid var(--hairline); }
+  .edition-title { font-family: var(--display); font-weight: 400; font-optical-sizing: auto; font-size: clamp(1.45rem, 2.6vw, 1.95rem); line-height: 1.1; letter-spacing: -.01em; margin: 8px 0 10px; }
+  .edition .body-2 { margin: 0; max-width: 46ch; }
+  .subscribe-panel { border: 1px solid var(--hairline); background: var(--lime); padding: clamp(26px, 3.2vw, 40px); scroll-margin-top: 70px; }
+  .subscribe-panel .body-2 { margin: 12px 0 22px; max-width: 40ch; }
+  .beehiiv-wrap { max-width: 460px; overflow: hidden; }
+  .beehiiv-wrap :global(iframe) { max-width: 100% !important; width: 100% !important; }
 </style>
