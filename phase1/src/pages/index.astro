@@ -202,6 +202,9 @@ import Layout from '../layouts/Layout.astro';
     .proof:last-child { padding-right: 0; }
   }
   .collection-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: center; }
+  /* The testimonial hairline already closes #clients; drop its bottom padding so the gap to the field notes is one measure, not two. */
+  #clients { padding-bottom: 0; }
+  #collection { padding-top: clamp(56px, 8vw, 80px); }
   .adv-grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
   @media (min-width: 900px) {
     .collection-grid { grid-template-columns: 1fr 1fr; }
