@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nina &amp; Daniel’s Greek Honeymoon · Final Documents · Suites With Keith</title>
+<style>
+  @font-face { font-family: 'Bodoni'; src: url('fonts/bodoni.woff2') format('woff2'); font-weight: 100 900; font-style: normal; }
+  @font-face { font-family: 'Bodoni'; src: url('fonts/bodoni-italic.woff2') format('woff2'); font-weight: 100 900; font-style: italic; }
+  @font-face { font-family: 'Jost'; src: url('fonts/jost-300.woff2') format('woff2'); font-weight: 300; }
+  @font-face { font-family: 'Jost'; src: url('fonts/jost-400.woff2') format('woff2'); font-weight: 400; }
+  @font-face { font-family: 'Jost'; src: url('fonts/jost-500.woff2') format('woff2'); font-weight: 500; }
+  @font-face { font-family: 'Courier'; src: url('fonts/courier.woff2') format('woff2'); font-weight: 400; }
+  @font-face { font-family: 'Courier'; src: url('fonts/courier-700.woff2') format('woff2'); font-weight: 700; }
+
+  :root {
+    --plaster: #F2EFE6; --lime: #FBFAF6; --shadow: #161712; --ink: #1F201A; --ash: #65665C;
+    --brass: #836229; --brass-lit: #BE975A; --olive: #4A5040;
+    --hairline: rgba(22,23,18,0.15); --hairline-firm: rgba(22,23,18,0.32);
+    --display: 'Bodoni', Didot, 'Times New Roman', serif;
+    --body: 'Jost', 'Helvetica Neue', Arial, sans-serif;
+    --stamp: 'Courier', 'Courier New', monospace;
+  }
+  @page { size: Letter; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { font-family: var(--body); font-weight: 300; font-size: 10.6pt; line-height: 1.55; color: var(--ink); background: var(--plaster); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .page { position: relative; width: 8.5in; height: 11in; padding: .8in .85in .9in; page-break-after: always; overflow: hidden; background: var(--plaster); }
+  .page:last-child { page-break-after: auto; }
+  .page.dark { background: var(--shadow); color: var(--plaster); }
+  .page.dark .eyebrow { color: var(--brass-lit); }
+  .page.dark .ash { color: #9A9B90; }
+
+  .runner { position: absolute; left: .85in; right: .85in; top: .42in; display: flex; justify-content: space-between; font-family: var(--stamp); font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); }
+  .runner b { font-weight: 700; color: var(--brass); }
+  .folio { position: absolute; left: .85in; right: .85in; bottom: .42in; display: flex; justify-content: space-between; font-family: var(--stamp); font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); border-top: 1px solid var(--hairline); padding-top: 8px; }
+  .page.dark .runner, .page.dark .folio { color: #9A9B90; border-color: rgba(242,239,230,.18); }
+
+  .eyebrow { font-family: var(--body); font-size: 7.4pt; font-weight: 500; letter-spacing: .24em; text-transform: uppercase; color: var(--brass); display: block; margin-bottom: 10px; }
+  h1 { font-family: var(--display); font-weight: 400; font-size: 42pt; line-height: .98; letter-spacing: -.015em; margin: 0; }
+  h1 em { font-style: italic; color: var(--brass-lit); }
+  h2 { font-family: var(--display); font-weight: 400; font-size: 24pt; line-height: 1.05; letter-spacing: -.01em; margin: 0 0 6px; }
+  h3 { font-family: var(--display); font-weight: 500; font-size: 13.5pt; line-height: 1.2; margin: 0 0 4px; }
+  .deck { font-family: var(--display); font-style: italic; font-size: 13pt; line-height: 1.45; color: var(--ash); margin: 8px 0 0; max-width: 44ch; }
+  .ash { color: var(--ash); }
+  .stamp { font-family: var(--stamp); font-size: 7.6pt; letter-spacing: .1em; text-transform: uppercase; color: var(--ash); }
+  .stamp.brass { color: var(--brass); }
+  .conf { font-family: var(--stamp); font-size: 8pt; letter-spacing: .06em; color: var(--ink); }
+  p { margin: 0 0 8px; }
+  .rule { height: 1px; background: var(--hairline); margin: 18px 0; }
+  .sample { position: absolute; right: .85in; top: .78in; font-family: var(--stamp); font-size: 7pt; letter-spacing: .18em; text-transform: uppercase; color: var(--brass); border: 1px solid var(--brass); padding: 4px 8px; }
+  .page.dark .sample { color: var(--brass-lit); border-color: var(--brass-lit); }
+
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-family: var(--stamp); font-size: 7pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); padding: 0 10px 8px 0; border-bottom: 1px solid var(--hairline-firm); }
+  td { vertical-align: top; padding: 9px 10px 9px 0; border-bottom: 1px solid var(--hairline); }
+  td:last-child, th:last-child { padding-right: 0; }
+  td.nw, th.nw { white-space: nowrap; }
+  td .s { display: block; font-family: var(--stamp); font-size: 7.4pt; letter-spacing: .08em; text-transform: uppercase; color: var(--ash); margin-top: 2px; }
+
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .card { border: 1px solid var(--hairline-firm); padding: 16px 18px; background: var(--lime); break-inside: avoid; }
+  .card h3 { margin-bottom: 2px; }
+  .card .kv { display: grid; grid-template-columns: 82px 1fr; gap: 3px 10px; font-size: 9.4pt; margin-top: 10px; }
+  .card .kv b { font-family: var(--stamp); font-size: 7pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ash); padding-top: 3px; }
+  .card ul { margin: 8px 0 0; padding-left: 14px; font-size: 9.4pt; }
+  .card li { margin-bottom: 2px; }
+
+  .day { display: grid; grid-template-columns: 1.05in 1fr; gap: 0 18px; padding: 10px 0; border-bottom: 1px solid var(--hairline); break-inside: avoid; }
+  .day .d { font-family: var(--display); font-size: 14pt; line-height: 1.1; }
+  .day .d small { display: block; font-family: var(--stamp); font-size: 7pt; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); margin-top: 4px; }
+  .day .slot { display: grid; grid-template-columns: 62px 1fr; gap: 0 10px; font-size: 9.8pt; margin-bottom: 3px; }
+  .day .slot b { font-family: var(--stamp); font-size: 7pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ash); padding-top: 3px; }
+  .day .slot .c { font-family: var(--stamp); font-size: 7.4pt; letter-spacing: .06em; color: var(--ash); }
+
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+  .note h3 { margin-bottom: 6px; }
+  .note ul { margin: 0; padding-left: 14px; font-size: 9.6pt; }
+  .note li { margin-bottom: 4px; }
+
+  .cover-meta { position: absolute; left: .85in; right: .85in; bottom: 1.1in; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; font-size: 10pt; }
+  .cover-meta .stamp { display: block; margin-bottom: 6px; color: var(--brass-lit); }
+  .big { font-family: var(--display); font-size: 16pt; line-height: 1.2; }
+  .quote { font-family: var(--display); font-style: italic; font-size: 17pt; line-height: 1.4; max-width: 34ch; }
+</style>
+</head>
+<body>
+
+<!-- 1 · COVER -->
+<section class="page dark">
+  <div class="runner"><span><b>Suites With Keith</b></span><span>Final documents · sent two weeks out</span></div>
+  <span class="sample">Sample copy</span>
+  <div style="padding-top:1.6in;">
+    <span class="eyebrow">A Greek honeymoon · June 5 to 21</span>
+    <h1>Nina &amp; Daniel.<br><em>Sixteen nights,<br>four islands.</em></h1>
+    <p class="deck ash" style="margin-top:22px; color:#9A9B90;">Every hotel, every room, every transfer and every table, arranged in advance. All you have to do is pack.</p>
+  </div>
+  <div class="cover-meta">
+    <div>
+      <span class="stamp">Your advisor, for the whole trip</span>
+      <div class="big">Keith Pence</div>
+      <div class="ash" style="margin-top:4px;">keith.pence@fora.travel<br>Cell number on your copy. Text first, any hour; I answer on Greek time while you travel.</div>
+    </div>
+    <div>
+      <span class="stamp">The route</span>
+      <div class="big">Athens · Sifnos · Milos · Santorini</div>
+      <div class="ash" style="margin-top:4px;">5 nights · 4 nights · 3 nights · 4 nights<br>Piraeus by high-speed ferry, Sifnos to Milos by private boat, Milos to Santorini by ferry.</div>
+    </div>
+  </div>
+  <div class="folio"><span>Nina &amp; Daniel · Greece 2026</span><span>Cover</span></div>
+</section>
+
+<!-- 2 · AT A GLANCE -->
+<section class="page">
+  <div class="runner"><span><b>Suites With Keith</b></span><span>At a glance</span></div>
+  <span class="sample">Sample copy</span>
+  <span class="eyebrow">Page one, on purpose</span>
+  <h2>The whole trip on one page</h2>
+  <p class="deck">If you read nothing else, read this. Everything below is confirmed, paid where it needed to be, and timed against the boats.</p>
+  <div class="rule"></div>
+  <table>
+    <thead><tr><th>Dates</th><th>Island</th><th>Hotel · room</th><th>Nights</th><th>Confirmation</th></tr></thead>
+    <tbody>
+      <tr><td>Jun 5 to 10</td><td>Athens<span class="s">Athens Riviera</span></td><td>Four Seasons Astir Palace<span class="s">Sea View Bungalow Suite</span></td><td>5</td><td class="conf">FS-ATH-SAMPLE</td></tr>
+      <tr><td>Jun 10 to 14</td><td>Sifnos<span class="s">Above Apollonia</span></td><td>Stamna<span class="s">Pool Suite</span></td><td>4</td><td class="conf">STM-SIF-SAMPLE</td></tr>
+      <tr><td>Jun 14 to 17</td><td>Milos<span class="s">Near the volcanic beaches</span></td><td>Erēma, a Member of Design Hotels<span class="s">Horizon Suite with Private Pool</span></td><td>3</td><td class="conf">ERM-MIL-SAMPLE</td></tr>
+      <tr><td>Jun 17 to 21</td><td>Santorini<span class="s">Oia, on the caldera</span></td><td>Andronis Boutique Hotel<span class="s">Eternal Suite</span></td><td>4</td><td class="conf">ANB-OIA-SAMPLE</td></tr>
+    </tbody>
+  </table>
+  <div style="height:22px"></div>
+  <table>
+    <thead><tr><th>Date</th><th>Leg</th><th>How</th><th>Pickup</th><th>Who to call</th></tr></thead>
+    <tbody>
+      <tr><td>Jun 5</td><td>ATH airport to Astir Palace</td><td>Private car, driver at the gate</td><td>On arrival</td><td>Driver name and mobile on your copy</td></tr>
+      <tr><td>Jun 10</td><td>Athens to Sifnos</td><td>Seajets high-speed catamaran from Piraeus, VIP seating, about 2h30</td><td>Car at 6:45 AM for the morning sailing</td><td>Seajets desk, Gate E7 · Stamna port transfer waiting on arrival</td></tr>
+      <tr><td>Jun 14</td><td>Sifnos to Milos</td><td>Private boat, direct crossing timed to your morning</td><td>Hotel car to Kamares at 9:30 AM</td><td>Captain name and mobile on your copy</td></tr>
+      <tr><td>Jun 17</td><td>Milos to Santorini</td><td>Seajets high-speed catamaran, Adamantas to the old port, about 2h30</td><td>Car at 10:15 AM · luggage handled both ends</td><td>Andronis port agent meets the boat</td></tr>
+      <tr><td>Jun 21</td><td>Santorini to JTR airport</td><td>Private car, timed with real margin against the flight</td><td>Confirmed on your copy</td><td>Andronis concierge</td></tr>
+    </tbody>
+  </table>
+  <div class="folio"><span>Nina &amp; Daniel · Greece 2026</span><span>Page 2</span></div>
+</section>
+
+<!-- 3 · HOTELS -->
+<section class="page">
+  <div class="runner"><span><b>Suites With Keith</b></span><span>Hotel confirmations</span></div>
+  <span class="sample">Sample copy</span>
+  <span class="eyebrow">Where you will stay</span>
+  <h2>Four hotels, and what each one comes with</h2>
+  <p class="deck">The rate is the one you would pay booking direct. What changes is what is attached to the reservation, and who the hotel expects to hear from if anything wobbles.</p>
+  <div class="rule"></div>
+  <div class="cards">
+    <div class="card">
+      <span class="stamp brass">Stop 01 · Athens · Jun 5 to 10</span>
+      <h3>Four Seasons Astir Palace</h3>
+      <div class="ash" style="font-size:9.4pt;">Sea View Bungalow Suite · 5 nights</div>
+      <div class="kv"><b>Confirmation</b><span class="conf">FS-ATH-SAMPLE</span><b>Booked as</b><span>Four Seasons preferred partner</span><b>Noted on file</b><span>Honeymoon. Early check-in requested.</span></div>
+      <ul><li>Space-available upgrade at check-in</li><li>Breakfast for two, daily</li><li>Property credit</li><li>The bungalows sit on the water with their own beach. Ask for the one closer to the sand.</li></ul>
+    </div>
+    <div class="card">
+      <span class="stamp brass">Stop 02 · Sifnos · Jun 10 to 14</span>
+      <h3>Stamna</h3>
+      <div class="ash" style="font-size:9.4pt;">Pool Suite · 4 nights</div>
+      <div class="kv"><b>Confirmation</b><span class="conf">STM-SIF-SAMPLE</span><b>Booked as</b><span>Fora partner</span><b>Noted on file</b><span>Private port transfers both ways. Laundry queued for arrival.</span></div>
+      <ul><li>Space-available upgrade</li><li>Daily breakfast</li><li>Hotel credit</li><li>My direct line to the team on property, which matters more than the credit at a hotel this size.</li></ul>
+    </div>
+    <div class="card">
+      <span class="stamp brass">Stop 03 · Milos · Jun 14 to 17</span>
+      <h3>Erēma, a Member of Design Hotels</h3>
+      <div class="ash" style="font-size:9.4pt;">Horizon Suite with Private Pool · 3 nights</div>
+      <div class="kv"><b>Confirmation</b><span class="conf">ERM-MIL-SAMPLE</span><b>Booked as</b><span>Fora partner</span><b>Noted on file</b><span>Arrival off a morning boat. Room ready early, agreed with the property.</span></div>
+      <ul><li>Space-available upgrade</li><li>Daily breakfast</li><li>Hotel credit</li><li>The private-pool suites are what the architecture was designed around. This is the room I would book myself.</li></ul>
+    </div>
+    <div class="card">
+      <span class="stamp brass">Stop 04 · Santorini · Jun 17 to 21</span>
+      <h3>Andronis Boutique Hotel</h3>
+      <div class="ash" style="font-size:9.4pt;">Eternal Suite · 4 nights</div>
+      <div class="kv"><b>Confirmation</b><span class="conf">ANB-OIA-SAMPLE</span><b>Booked as</b><span>Fora partner</span><b>Noted on file</b><span>Lycabettus table held the day the room was confirmed.</span></div>
+      <ul><li>Space-available upgrade</li><li>Daily breakfast</li><li>Hotel credit</li><li>Every room here has a plunge pool or jacuzzi. The Eternal Suite is the two-level one.</li></ul>
+    </div>
+  </div>
+  <div class="folio"><span>Nina &amp; Daniel · Greece 2026</span><span>Page 3</span></div>
+</section>
+
+<!-- 4 · DAY BY DAY, ATHENS + SIFNOS -->
+<section class="page">
+  <div class="runner"><span><b>Suites With Keith</b></span><span>Day by day · Athens and Sifnos</span></div>
+  <span class="sample">Sample copy</span>
+  <span class="eyebrow">Day by day</span>
+  <h2>Athens, then Sifnos</h2>
+  <div class="rule" style="margin-top:12px;"></div>
+
+  <div class="day"><div class="d">Jun 5<small>Fri · Athens</small></div><div>
+    <div class="slot"><b>Arrive</b><span>Driver at the gate, private car to Four Seasons Astir Palace. Early check-in requested.</span></div>
+    <div class="slot"><b>Evening</b><span>Welcome dinner on the rooftop at The Dolli · 8:00 PM · party of 2 <span class="c">· confirmed</span></span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 6<small>Sat · Athens</small></div><div>
+    <div class="slot"><b>Day</b><span>Nothing booked. Sleep, the beach below the bungalow, the villa pools. The first day is for arriving.</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 7<small>Sun · Athens</small></div><div>
+    <div class="slot"><b>Morning</b><span>Free. The hotel beach club.</span></div>
+    <div class="slot"><b>Evening</b><span>Food tour through Athens’ hidden tavernas, guide meets you in the lobby · 6:30 PM</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 8<small>Mon · Athens</small></div><div>
+    <div class="slot"><b>Morning</b><span>Private guided tour of the Acropolis and Acropolis Museum · 8:30 AM pickup</span></div>
+    <div class="slot"><b>Afternoon</b><span>Cabana day at Mãnko Beach, One&amp;Only Aesthesis</span></div>
+    <div class="slot"><b>Evening</b><span>Dinner on the rooftop at The Dolli</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 9<small>Tue · Athens</small></div><div>
+    <div class="slot"><b>Evening</b><span>Private guided walk of the Acropolis at golden hour · 6:45 PM</span></div>
+    <div class="slot"><b>Note</b><span>Pack tonight. The car for Piraeus leaves at 6:45 AM.</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 10<small>Wed · to Sifnos</small></div><div>
+    <div class="slot"><b>6:45 AM</b><span>Car to Piraeus, Gate E7. Seajets high-speed catamaran, VIP seating, about 2h30.</span></div>
+    <div class="slot"><b>Arrive</b><span>Stamna’s driver at Kamares port. Check in, lunch in Apollonia, the pool.</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 11<small>Thu · Sifnos</small></div><div>
+    <div class="slot"><b>Day</b><span>Hike down to the hidden cove at Fykiada Beach. Water, hats, nothing else needed.</span></div>
+    <div class="slot"><b>Evening</b><span>Dinner at Bostani, Apollonia · 7:00 PM · party of 2 <span class="c">· confirmed</span></span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 12<small>Fri · Sifnos</small></div><div>
+    <div class="slot"><b>Morning</b><span>ATV up to Apollonia, wander the hilltop villages and the coast road</span></div>
+    <div class="slot"><b>Afternoon</b><span>Hands-on cooking class at Narlis Farm</span></div>
+    <div class="slot"><b>Evening</b><span>Dinner at Cantina · 10:00 PM · party of 2 <span class="c">· confirmed</span></span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 13<small>Sat · Sifnos</small></div><div>
+    <div class="slot"><b>Day</b><span>Free. Your suite’s pool, or the ATV to whichever beach you liked best.</span></div>
+    <div class="slot"><b>Note</b><span>Hotel car to Kamares at 9:30 AM tomorrow for the private boat.</span></div>
+  </div></div>
+  <div class="folio"><span>Nina &amp; Daniel · Greece 2026</span><span>Page 4</span></div>
+</section>
+
+<!-- 5 · DAY BY DAY, MILOS + SANTORINI -->
+<section class="page">
+  <div class="runner"><span><b>Suites With Keith</b></span><span>Day by day · Milos and Santorini</span></div>
+  <span class="sample">Sample copy</span>
+  <span class="eyebrow">Day by day</span>
+  <h2>Milos, then Santorini</h2>
+  <div class="rule" style="margin-top:12px;"></div>
+
+  <div class="day"><div class="d">Jun 14<small>Sun · to Milos</small></div><div>
+    <div class="slot"><b>9:30 AM</b><span>Hotel car to Kamares. Private boat direct to Milos, timed to your morning, no ferry schedule to work around.</span></div>
+    <div class="slot"><b>Arrive</b><span>Erēma has the Horizon Suite ready off the morning boat. Afternoon at your own pool.</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 15<small>Mon · Milos</small></div><div>
+    <div class="slot"><b>Morning</b><span>Private full-day boat charter departs for the volcanic coastline</span></div>
+    <div class="slot"><b>Afternoon</b><span>Swim stops and lunch aboard</span></div>
+    <div class="slot"><b>Evening</b><span>Sunset return, dinner in Plaka</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 16<small>Tue · Milos</small></div><div>
+    <div class="slot"><b>Sunrise</b><span>Sarakiniko before anyone else is there. Leave the hotel by 6:00 AM.</span></div>
+    <div class="slot"><b>Day</b><span>ATV to the western beaches: Ammoudaraki, Triades, Agios Ioannis</span></div>
+    <div class="slot"><b>1:00 PM</b><span>Lunch at O’Hammos, tucked above the water · party of 2 <span class="c">· confirmed</span></span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 17<small>Wed · to Santorini</small></div><div>
+    <div class="slot"><b>10:15 AM</b><span>Car to Adamantas. Seajets high-speed catamaran to Santorini’s old port, about 2h30. Luggage handled both ends.</span></div>
+    <div class="slot"><b>Arrive</b><span>Andronis port agent meets the boat. Check in to the Eternal Suite. First caldera sunset from your own terrace.</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 18<small>Thu · Santorini</small></div><div>
+    <div class="slot"><b>Day</b><span>Free. Oia on foot in the morning before the day boats arrive, then the plunge pool.</span></div>
+    <div class="slot"><b>Evening</b><span>Dinner at Omnia, Canaves Epitome · 7:00 PM · party of 2 <span class="c">· confirmed</span></span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 19<small>Fri · Santorini</small></div><div>
+    <div class="slot"><b>Morning</b><span>Leisure morning at the hotel pool</span></div>
+    <div class="slot"><b>Afternoon</b><span>Wine tasting and lunch at Vassalitis, driver arranged</span></div>
+    <div class="slot"><b>Evening</b><span>Dinner at Lycabettus, overlooking Oia · 7:30 PM · party of 2 <span class="c">· confirmed</span></span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 20<small>Sat · Santorini</small></div><div>
+    <div class="slot"><b>Afternoon</b><span>Sunset catamaran cruise along the caldera, hotel pickup around 3:00 PM, dinner aboard</span></div>
+  </div></div>
+  <div class="day"><div class="d">Jun 21<small>Sun · Home</small></div><div>
+    <div class="slot"><b>Depart</b><span>Private car to the airport, timed against the flight with real margin, not the two hours a booking site thinks is fine.</span></div>
+  </div></div>
+  <div class="folio"><span>Nina &amp; Daniel · Greece 2026</span><span>Page 5</span></div>
+</section>
+
+<!-- 6 · RESERVATIONS + ISLAND NOTES -->
+<section class="page">
+  <div class="runner"><span><b>Suites With Keith</b></span><span>Tables and notes</span></div>
+  <span class="sample">Sample copy</span>
+  <span class="eyebrow">Dining reservations, handled</span>
+  <h2>Six tables, all confirmed</h2>
+  <div class="rule" style="margin-top:12px;"></div>
+  <table>
+    <thead><tr><th>Restaurant</th><th>Island</th><th>When</th><th>Party</th><th>Getting there</th></tr></thead>
+    <tbody>
+      <tr><td>The Dolli</td><td>Athens</td><td class="nw">Jun 5 · 8:00 PM</td><td>2</td><td>Hotel car, 30 minutes. Rooftop, ask for the Acropolis side.</td></tr>
+      <tr><td>Bostani</td><td>Sifnos</td><td class="nw">Jun 11 · 7:00 PM</td><td>2</td><td>Ten minutes on foot down into Apollonia.</td></tr>
+      <tr><td>Cantina</td><td>Sifnos</td><td class="nw">Jun 12 · 10:00 PM</td><td>2</td><td>Seralia bay. Taxi arranged by Stamna, both ways.</td></tr>
+      <tr><td>O’Hammos</td><td>Milos</td><td class="nw">Jun 16 · 1:00 PM</td><td>2</td><td>Above the water at Papikinou. Park the ATV at the top.</td></tr>
+      <tr><td>Omnia, Canaves Epitome</td><td>Santorini</td><td class="nw">Jun 18 · 7:00 PM</td><td>2</td><td>Hotel driver to Canaves Epitome, ten minutes.</td></tr>
+      <tr><td>Lycabettus</td><td>Santorini</td><td class="nw">Jun 19 · 7:30 PM</td><td>2</td><td>In the hotel. Cliffside, held the day the room was confirmed.</td></tr>
+    </tbody>
+  </table>
+  <div style="height:26px"></div>
+  <span class="eyebrow">Island notes</span>
+  <div class="two">
+    <div class="note"><h3>Athens</h3><ul><li>Pack one evening outfit for The Dolli; everything else is beach and walking.</li><li>Skip the Plaka souvenir streets. The food tour covers the neighborhoods worth your time.</li><li>Cards work everywhere on the Riviera. Take a little cash for the tour tips.</li></ul></div>
+    <div class="note"><h3>Sifnos</h3><ul><li>Beaches need wheels. The ATV is booked from the hotel; Stamna holds the keys.</li><li>Cash for the small tavernas and the Narlis Farm shop. The ATM is in Apollonia.</li><li>Fykiada is a walk in. Water shoes, and leave before the afternoon wind.</li></ul></div>
+    <div class="note"><h3>Milos</h3><ul><li>The western beaches are dirt track. The ATV is fine; a rental car would not be.</li><li>Sarakiniko is best before 7:00 AM. After that it is everyone’s photo.</li><li>The boat day carries lunch, towels and snorkels. Bring reef-safe sunscreen only.</li></ul></div>
+    <div class="note"><h3>Santorini</h3><ul><li>Oia is stairs. Andronis handles the luggage; you carry nothing.</li><li>Change money before you arrive; the caldera ATMs charge accordingly.</li><li>The catamaran cruise runs even in a stiff breeze. If it cancels, I already know, and the fallback is a private sunset table.</li></ul></div>
+  </div>
+  <div class="folio"><span>Nina &amp; Daniel · Greece 2026</span><span>Page 6</span></div>
+</section>
+
+<!-- 7 · WHEN SOMETHING CHANGES -->
+<section class="page dark">
+  <div class="runner"><span><b>Suites With Keith</b></span><span>On the ground</span></div>
+  <span class="sample">Sample copy</span>
+  <div style="padding-top:1.2in;">
+    <span class="eyebrow">The part you are actually paying for</span>
+    <h2 style="font-size:30pt; max-width:20ch;">When a ferry does not run, you text me.</h2>
+    <p class="quote ash" style="margin-top:22px; color:#9A9B90;">The meltemi comes up and the afternoon boat is cancelled. It happens on a real percentage of Cyclades trips. You do not call the ferry company. I rebook the crossing or put you on a private boat, move the hotel night, push the dinner and tell the next hotel you are arriving late. You find out about it after it is solved.</p>
+  </div>
+  <div class="cover-meta" style="bottom:1.2in;">
+    <div>
+      <span class="stamp">Reach me</span>
+      <div class="big">Keith Pence</div>
+      <div class="ash" style="margin-top:4px;">Cell number on your copy · keith.pence@fora.travel<br>I am reachable for the entire trip, on your time zone, not business hours in Texas.</div>
+    </div>
+    <div>
+      <span class="stamp">This is a sample</span>
+      <div class="ash" style="font-size:9.6pt;">A real client copy carries live confirmation numbers, driver and captain mobiles, and my cell on the first page. Everything else is exactly this. Booking hotels through me is complimentary; full-trip planning starts at $500.<br><br>suiteswithkeith.com</div>
+    </div>
+  </div>
+  <div class="folio"><span>Nina &amp; Daniel · Greece 2026</span><span>Page 7</span></div>
+</section>
+
+</body>
+</html>

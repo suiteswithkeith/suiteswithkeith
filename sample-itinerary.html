@@ -581,7 +581,7 @@
     e.preventDefault();
     btn.disabled = true; st.textContent = '';
     fetch(f.action, { method: 'POST', body: new FormData(f), headers: { Accept: 'application/json' } })
-      .then(function (r) { if (!r.ok) throw new Error(); f.reset(); st.textContent = 'On its way. I send these myself, so give me a few hours.'; })
+      .then(function (r) { if (!r.ok) throw new Error(); f.reset(); st.innerHTML = 'Here it is. <a href="/downloads/sample-itinerary-greece.pdf" target="_blank" rel="noopener" data-gtag-label="itinerary_pdf_download" data-gtag-location="sample_itinerary" style="color:var(--brass); text-decoration:underline; text-underline-offset:3px;">Download the PDF</a>. If the link gives you trouble, I will send it by hand.'; })
       .catch(function () { st.textContent = 'That did not send. Email me directly at keith.pence@fora.travel.'; })
       .then(function () { btn.disabled = false; });
   });
