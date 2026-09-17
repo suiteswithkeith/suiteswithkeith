@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Melissa &amp; Ryan in Greece | Suites With Keith</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  :root { --container-max: 1160px; --grid-gap: 32px; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  .jc-eyebrow { font-family: var(--font-body); font-size: 0.72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.22em; color: var(--olive-deep); display: block; }
+  .jc-container { max-width: var(--container-max); margin: 0 auto; padding-left: 40px; padding-right: 40px; }
+
+  /* Hero */
+  .jc-hero { position: relative; width: 100%; height: 86vh; min-height: 560px; }
+  .jc-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; }
+  .jc-hero .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(28,28,26,0.15) 0%, rgba(28,28,26,0.60) 100%); }
+  .jc-hero .inner { position: absolute; left: 0; right: 0; bottom: 0; max-width: var(--container-max); margin: 0 auto; padding: 0 40px 64px; }
+  .jc-hero .jc-eyebrow { color: var(--cream); }
+  .jc-hero h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2.4rem, 5.5vw, 4rem); color: var(--cream); margin: 14px 0 10px; max-width: 820px; line-height: 1.1; }
+  .jc-hero p { font-family: var(--font-body); font-weight: 300; font-size: 1.05rem; color: var(--cream); margin: 0; }
+
+  /* Intro */
+  .jc-intro { padding: 90px 0 70px; }
+  .jc-intro .grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--grid-gap); align-items: start; }
+  .jc-intro p { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.25rem, 2.2vw, 1.6rem); color: var(--charcoal); margin: 0; line-height: 1.45; }
+  .jc-intro .small { font-family: var(--font-body); font-weight: 300; font-size: 1rem; color: var(--ink-soft); margin-top: 22px; line-height: 1.65; }
+  .jc-intro .small strong { font-weight: 500; color: var(--charcoal); }
+  .jc-numbers { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 26px; }
+  .jc-numbers > div { background: var(--white); border: 1px solid var(--hairline); border-left: 3px solid var(--olive); padding: 16px 18px; }
+  .jc-numbers .lbl { display: block; font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); }
+  .jc-numbers a { display: block; font-family: var(--font-display); font-weight: 500; font-size: 1.5rem; color: var(--charcoal); text-decoration: none; margin-top: 6px; letter-spacing: 0.01em; }
+  .jc-numbers .note strong { font-weight: 600; color: var(--charcoal); }
+  .jc-numbers .note { display: block; font-family: var(--font-body); font-weight: 300; font-size: 0.95rem; color: var(--ink-soft); margin-top: 4px; }
+  @media (max-width: 600px) { .jc-numbers { grid-template-columns: 1fr; } }
+
+
+  /* Date grid: the clickable days */
+  .jc-strip { padding-bottom: 80px; }
+  .jc-strip .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  .jc-strip .cell { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--hairline); border-top: 3px solid var(--olive); padding: 18px 18px 16px; text-decoration: none; color: inherit; transition: background 180ms, transform 180ms; }
+  .jc-strip .cell:hover { background: var(--cream-deep); transform: translateY(-2px); }
+  .jc-strip .num { font-family: var(--font-body); font-size: 0.74rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.18em; color: var(--olive-deep); }
+  .jc-strip .dates { font-family: var(--font-display); font-weight: 500; font-size: 1.75rem; line-height: 1.1; color: var(--charcoal); margin-top: 8px; }
+  .jc-strip .place { font-family: var(--font-body); font-weight: 400; font-size: 1.02rem; color: var(--charcoal); margin-top: 6px; line-height: 1.3; }
+
+  /* One section per day */
+  .jc-daysec { padding: 64px 0; border-top: 1px solid var(--hairline); scroll-margin-top: 16px; }
+  .jc-daysec .grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: var(--grid-gap); align-items: start; }
+  .jc-daysec .grid.solo { grid-template-columns: 1fr; max-width: 820px; }
+  .jc-daysec .media { position: sticky; top: 24px; }
+  .jc-daysec .media img { width: 100%; aspect-ratio: 3/2; object-fit: cover; display: block; }
+  .jc-daysec .media img + img { margin-top: 20px; }
+  .jc-daysec h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2rem, 3.4vw, 2.7rem); color: var(--charcoal); margin: 10px 0 4px; line-height: 1.1; }
+  .jc-daysec .sub { font-family: var(--font-body); font-weight: 300; font-size: 1.25rem; color: var(--ink-soft); margin: 0 0 22px; }
+  .jc-daysec .sub em { font-style: italic; color: var(--olive-deep); }
+  .jc-daysec .jc-item { grid-template-columns: 124px 1fr; gap: 16px; padding: 12px 0; border-top: 1px solid var(--hairline); }
+  .jc-daysec .jc-item:first-of-type { border-top: 0; }
+  .jc-daysec .jc-item .time { font-size: 1rem; padding-top: 2px; }
+  .jc-daysec .jc-item .what { font-size: 1.1rem; }
+  .jc-hotel { background: var(--cream-deep); padding: 22px 24px; margin: 18px 0 6px; }
+  .jc-hotel .jc-label { margin-bottom: 8px; }
+  .jc-hotel .hotel { font-family: var(--font-display); font-weight: 500; font-size: 1.4rem; color: var(--charcoal); }
+  .jc-hotel .hotel a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--hairline); }
+  .jc-hotel .hotel-note { font-family: var(--font-body); font-weight: 300; font-size: 1.05rem; color: var(--charcoal); margin-top: 6px; line-height: 1.55; }
+  .jc-hotel .hotel-note strong { font-weight: 500; }
+  .jc-hotel ul { margin: 8px 0 0; padding-left: 18px; }
+  .jc-hotel li { margin-bottom: 6px; }
+  .jc-hotel li::marker { color: var(--olive); }
+  .jc-hotel .jc-ref { margin-top: 10px; }
+  .jc-hotel .jc-note { margin-top: 14px; }
+  .jc-back { display: inline-block; margin-top: 22px; font-family: var(--font-body); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); }
+
+  .jc-section { padding-bottom: 90px; }
+  .jc-section h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 24px; }
+  .jc-section .lede { font-family: var(--font-body); font-weight: 300; font-size: 1rem; color: var(--charcoal); max-width: 760px; line-height: 1.65; margin: 0 0 36px; }
+
+  /* Transfer cards */
+  .jc-transfers { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--grid-gap); }
+  .jc-card { background: var(--white); border: 1px solid var(--hairline); padding: 26px 28px; }
+  .jc-tag { display: inline-block; font-family: var(--font-body); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); border: 1px solid var(--olive); padding: 4px 10px; }
+  .jc-card .route { font-family: var(--font-display); font-weight: 500; font-size: 1.2rem; color: var(--charcoal); margin: 12px 0 10px; }
+  .jc-card .detail { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); line-height: 1.55; margin: 0; }
+  .jc-card .detail strong { font-weight: 500; color: var(--charcoal); }
+  .jc-footnote { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); max-width: 760px; line-height: 1.6; margin: 28px 0 0; }
+
+  /* Stops */
+  .jc-stop { padding-bottom: 90px; scroll-margin-top: 24px; }
+  .jc-stop .grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--grid-gap); align-items: start; }
+  .jc-stop .grid.solo { grid-template-columns: 1fr; max-width: 760px; }
+  .jc-stop .media img { width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block; }
+  .jc-stop .media img.wide { aspect-ratio: 3/2; }
+  .jc-stop .media img + img { margin-top: 32px; }
+  .jc-stop .media { position: sticky; top: 24px; }
+  .jc-stop h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 20px; }
+  .jc-label { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); margin-bottom: 6px; }
+  .jc-stop .hotel { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; color: var(--charcoal); }
+  .jc-stop .hotel a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--hairline); }
+  .jc-stop .hotel-note { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); margin-top: 2px; line-height: 1.55; }
+  .jc-stop .hotel-note strong { font-weight: 500; color: var(--charcoal); }
+  .jc-ref { font-family: var(--font-body); font-weight: 500; font-size: 0.95rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 6px; }
+  .jc-divider { border-top: 1px solid var(--hairline); margin: 22px 0; }
+  .jc-highlights { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 1.05rem; color: var(--charcoal); line-height: 1.6; }
+  .jc-highlights li { padding-left: 18px; position: relative; margin-bottom: 10px; }
+  .jc-highlights li::before { content: ""; position: absolute; left: 0; top: 10px; width: 5px; height: 5px; border-radius: 50%; background: var(--olive); }
+  .jc-note { border-left: 2px solid var(--olive); padding: 6px 0 6px 14px; margin-top: 18px; font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--charcoal); line-height: 1.55; }
+
+  /* Day by day */
+  .jc-days { margin-top: 26px; background: var(--cream-deep); padding: 24px; }
+  .jc-days .head { font-family: var(--font-body); font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-soft); margin-bottom: 8px; }
+  .jc-day { border-top: 1px solid var(--hairline); padding: 18px 0 10px; }
+  .jc-day .date { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; color: var(--charcoal); margin-bottom: 8px; }
+  .jc-day .date em { font-style: italic; color: var(--olive-deep); }
+  .jc-item { display: grid; grid-template-columns: 112px 1fr; gap: 14px; padding: 8px 0; }
+  .jc-item .time { font-family: var(--font-body); font-size: 0.95rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--olive-deep); }
+  .jc-item .what { font-family: var(--font-body); font-weight: 300; font-size: 1.06rem; color: var(--charcoal); line-height: 1.55; }
+  .jc-item .what strong { font-weight: 500; }
+  .jc-item .what a { display: inline-block; margin-left: 6px; font-size: 0.8rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); }
+
+  .jc-item .what ul, .jc-item .what ol, .hotel-note ul { margin: 6px 0 0; padding-left: 18px; }
+  .jc-item .what li, .hotel-note li { margin-bottom: 6px; padding-left: 2px; }
+  .jc-item .what li::marker, .hotel-note li::marker { color: var(--olive); font-weight: 500; }
+
+  /* Dining */
+  .jc-dining-group { margin-bottom: 44px; }
+  .jc-dining-group:last-child { margin-bottom: 0; }
+  .jc-dining-group .place { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 22px; }
+  .jc-dining-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+  .jc-dining-card .name { font-family: var(--font-display); font-weight: 500; font-size: 1.1rem; margin-bottom: 10px; }
+  .jc-dining-card .name a { color: var(--charcoal); text-decoration: none; border-bottom: 1px solid var(--hairline); }
+  .jc-dining-card .meta { font-family: var(--font-body); font-weight: 300; font-size: 0.98rem; color: var(--ink-soft); }
+  .jc-badge { display: inline-block; margin-top: 14px; font-family: var(--font-body); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--cream); background: var(--olive); padding: 5px 12px; }
+  .jc-badge.soft { color: var(--olive-deep); background: transparent; border: 1px solid var(--olive); }
+
+  /* Confirmations */
+  .jc-confirm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+  .jc-confirm-col .title { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 4px; }
+  .jc-confirm { padding: 12px 0; border-bottom: 1px solid var(--hairline); }
+  .jc-confirm .name { font-family: var(--font-display); font-weight: 500; font-size: 1rem; color: var(--charcoal); }
+  .jc-confirm .when { font-family: var(--font-body); font-weight: 300; font-size: 0.95rem; color: var(--ink-soft); margin-top: 2px; }
+  .jc-confirm .ref { font-family: var(--font-body); font-weight: 500; font-size: 1rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 4px; }
+
+  /* Fine print */
+  .jc-fine { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+  .jc-fine .title { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 14px; }
+  .jc-fine ul { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--charcoal); line-height: 1.55; }
+  .jc-fine li { padding-left: 18px; position: relative; margin-bottom: 10px; }
+  .jc-fine li::before { content: ""; position: absolute; left: 0; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: var(--olive); }
+  .jc-fine p { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); line-height: 1.55; margin: 0 0 12px; }
+
+  /* Support */
+  .jc-support { padding-bottom: 90px; }
+  .jc-support .grid { border-top: 1px solid var(--hairline); padding-top: 36px; display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--grid-gap); align-items: start; }
+  .jc-support .big { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin-top: 12px; line-height: 1.15; }
+  .jc-support p { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; line-height: 1.7; color: var(--charcoal); margin: 0 0 18px; }
+  .jc-phone-row { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; border-top: 1px solid var(--hairline); padding-top: 20px; }
+  .jc-phone-row .label { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); }
+  .jc-phone-row a { font-family: var(--font-display); font-weight: 500; font-size: 1.6rem; letter-spacing: 0.02em; color: var(--charcoal); text-decoration: none; }
+  .jc-sig { font-family: var(--font-body); font-weight: 300; font-size: 0.9rem; color: var(--ink-soft); margin-top: 14px; }
+
+  .jc-footer { border-top: 1px solid var(--hairline); padding: 32px 40px; text-align: center; font-family: var(--font-body); font-size: 0.78rem; color: var(--ink-soft); line-height: 1.8; }
+
+  @media (max-width: 900px) {
+    .jc-container { padding-left: 24px; padding-right: 24px; }
+    .jc-hero { height: 72vh; min-height: 480px; }
+    .jc-hero .inner { padding: 0 24px 44px; }
+    .jc-intro { padding: 64px 0 48px; }
+    .jc-intro .grid, .jc-stop .grid, .jc-support .grid { grid-template-columns: 1fr; }
+    .jc-strip .grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .jc-strip .cell { padding: 14px 14px 12px; }
+    .jc-strip .dates { font-size: 1.45rem; }
+    .jc-daysec { padding: 44px 0; }
+    .jc-daysec .grid { grid-template-columns: 1fr; }
+    .jc-daysec .media { position: static; }
+    .jc-daysec .jc-item { grid-template-columns: 96px 1fr; }
+    .jc-transfers, .jc-dining-grid, .jc-confirm-grid, .jc-fine { grid-template-columns: 1fr; }
+    .jc-stop .media { position: static; order: 0 !important; }
+    .jc-stop .copy { order: 1 !important; }
+    .jc-stop .media img { aspect-ratio: 3/2; }
+    .jc-stop, .jc-section, .jc-strip, .jc-support { padding-bottom: 64px; }
+    .jc-item { grid-template-columns: 84px 1fr; }
+    .jc-days { padding: 18px; }
+    .jc-card { padding: 22px 22px; }
+    .jc-footer { padding: 28px 24px; }
+  }
+
+  /* ===== Cinematic layer ===== */
+  /* Hero: taller, slow drift, deeper shade, scroll cue */
+  .jc-hero { height: 94vh; min-height: 600px; overflow: hidden; }
+  .jc-hero img { transform: scale(1.02); transform-origin: 50% 40%; }
+  .js .jc-hero img { animation: heroDrift 26s ease-out forwards; }
+  @keyframes heroDrift { from { transform: scale(1.02); } to { transform: scale(1.10); } }
+  .jc-hero .shade { background: linear-gradient(180deg, rgba(20,20,18,0.10) 0%, rgba(20,20,18,0.25) 45%, rgba(20,20,18,0.72) 100%); }
+  .jc-hero .inner { padding-bottom: 76px; }
+  .jc-hero h1 { text-shadow: 0 2px 24px rgba(0,0,0,0.25); }
+  .jc-hero h1 em { font-style: italic; font-weight: 400; }
+  .jc-hero .cue { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); width: 1px; height: 36px; background: linear-gradient(180deg, rgba(245,241,233,0) 0%, rgba(245,241,233,0.9) 100%); }
+  .js .jc-hero .cue { animation: cue 2.2s ease-in-out infinite; }
+  @keyframes cue { 0%,100% { opacity: .35; transform: translate(-50%, 0); } 50% { opacity: 1; transform: translate(-50%, 8px); } }
+  .js .jc-hero .inner > * { opacity: 0; transform: translateY(14px); animation: rise 900ms cubic-bezier(.2,.6,.2,1) forwards; }
+  .js .jc-hero .inner > *:nth-child(1) { animation-delay: 200ms; }
+  .js .jc-hero .inner > *:nth-child(2) { animation-delay: 380ms; }
+  .js .jc-hero .inner > *:nth-child(3) { animation-delay: 560ms; }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+
+  /* Chapter bands: full-bleed photo when the location changes */
+  .jc-chapter { position: relative; height: 64vh; min-height: 400px; overflow: hidden; margin-top: 8px; }
+  .jc-chapter img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform: scale(1.06); transition: transform 1.6s cubic-bezier(.2,.6,.2,1); }
+  .jc-chapter.in img { transform: scale(1.0); }
+  .jc-chapter .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,20,18,0.05) 0%, rgba(20,20,18,0.15) 50%, rgba(20,20,18,0.68) 100%); }
+  .jc-chapter .inner { position: absolute; left: 0; right: 0; bottom: 0; max-width: var(--container-max); margin: 0 auto; padding: 0 40px 52px; }
+  .jc-chapter .jc-eyebrow { color: rgba(245,241,233,0.85); }
+  .jc-chapter h2 { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: clamp(2.6rem, 6.5vw, 5rem); line-height: 1; color: var(--cream); margin: 10px 0 8px; text-shadow: 0 2px 24px rgba(0,0,0,0.25); }
+  .jc-chapter p { font-family: var(--font-body); font-weight: 300; font-size: 1.1rem; color: var(--cream); margin: 0; }
+  .js .jc-chapter .inner > * { opacity: 0; transform: translateY(12px); transition: opacity 700ms cubic-bezier(.2,.6,.2,1), transform 700ms cubic-bezier(.2,.6,.2,1); }
+  .js .jc-chapter.in .inner > * { opacity: 1; transform: none; }
+  .js .jc-chapter.in .inner > *:nth-child(2) { transition-delay: 120ms; }
+  .js .jc-chapter.in .inner > *:nth-child(3) { transition-delay: 240ms; }
+
+  /* Days: soft reveal as they scroll in */
+  .js .jc-daysec { opacity: 0; transform: translateY(16px); transition: opacity 600ms cubic-bezier(.2,.6,.2,1), transform 600ms cubic-bezier(.2,.6,.2,1); }
+  .js .jc-daysec.in { opacity: 1; transform: none; }
+  .jc-daysec .sub::after { content: ""; display: block; width: 44px; height: 2px; background: var(--olive); margin-top: 16px; }
+  .jc-daysec .media img { box-shadow: 0 18px 40px -22px rgba(20,20,18,0.45); }
+  .jc-daysec .cap { font-family: var(--font-body); font-size: 0.78rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); margin: 10px 0 0; }
+  .jc-daysec .cap + img { margin-top: 20px; }
+
+  /* Sticky date bar, appears once the date grid scrolls away */
+  .jc-datebar { position: sticky; top: 0; z-index: 50; background: rgba(245,241,233,0.92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--hairline); transform: translateY(-100%); opacity: 0; transition: transform 320ms cubic-bezier(.2,.6,.2,1), opacity 320ms; }
+  .jc-datebar.on { transform: none; opacity: 1; }
+  .jc-datebar .row { max-width: var(--container-max); margin: 0 auto; padding: 0 40px; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .jc-datebar .row::-webkit-scrollbar { display: none; }
+  .jc-datebar a { flex: 0 0 auto; padding: 12px 12px; font-family: var(--font-body); font-size: 0.86rem; font-weight: 500; color: var(--ink-soft); text-decoration: none; border-bottom: 2px solid transparent; white-space: nowrap; }
+  .jc-datebar a:hover { color: var(--charcoal); }
+  .jc-datebar a.cur { color: var(--charcoal); border-bottom-color: var(--olive); }
+  .jc-datebar a b { font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; margin-right: 4px; }
+  .jc-datebar a.x { margin-left: 10px; padding-left: 16px; border-left: 1px solid var(--hairline); border-bottom-width: 2px; }
+  #transfers { scroll-margin-top: 58px; }
+  .jc-daysec { scroll-margin-top: 58px; }
+  .jc-chapter { scroll-margin-top: 48px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .js .jc-hero img, .js .jc-hero .cue, .js .jc-hero .inner > * { animation: none; opacity: 1; transform: none; }
+    .js .jc-daysec, .js .jc-chapter .inner > * { opacity: 1; transform: none; transition: none; }
+    .jc-chapter img { transform: none; transition: none; }
+  }
+  @media (max-width: 900px) {
+    .jc-hero { height: 82vh; min-height: 520px; }
+    .jc-chapter { height: 52vh; min-height: 340px; }
+    .jc-chapter .inner { padding: 0 24px 36px; }
+    .jc-datebar .row { padding: 0 12px; }
+    .jc-datebar a { padding: 12px 10px; font-size: 0.82rem; }
+  }
+
+  /* ===== Print ===== */
+  @media print {
+    @page { size: Letter; margin: 0.5in; }
+    html { scroll-behavior: auto; }
+    body { background: #fff; }
+    .js .jc-hero img, .js .jc-hero .inner > *, .js .jc-daysec, .js .jc-chapter .inner > * { animation: none !important; opacity: 1 !important; transform: none !important; transition: none !important; }
+    .jc-chapter img { transform: none !important; }
+    .jc-hero { height: 4.6in; min-height: 0; break-after: avoid; }
+    .jc-hero .inner { padding-bottom: 36px; }
+    .jc-hero .cue, .jc-datebar, .jc-back, .jc-strip .go { display: none !important; }
+    .jc-intro { padding: 36px 0 24px; }
+    .jc-strip { padding-bottom: 28px; }
+    .jc-strip .grid { grid-template-columns: repeat(5, 1fr); gap: 8px; }
+    .jc-strip .cell { padding: 10px 12px; border-top-width: 2px; }
+    .jc-strip .dates { font-size: 1.15rem; }
+    .jc-strip .place { font-size: 0.85rem; }
+    .jc-chapter { height: 3.2in; min-height: 0; break-before: page; break-inside: avoid; margin-top: 0; }
+    .jc-chapter .inner { padding-bottom: 26px; }
+    .jc-chapter h2 { font-size: 2.4rem; }
+    .jc-daysec { padding: 24px 0; break-inside: auto; }
+    .jc-daysec .grid { grid-template-columns: 1.4fr 1fr; gap: 20px; }
+    .jc-daysec .media { position: static; }
+    .jc-daysec .media img { box-shadow: none; aspect-ratio: 3/2; }
+    .jc-daysec h2 { font-size: 1.7rem; }
+    .jc-daysec .sub { font-size: 1rem; margin-bottom: 12px; }
+    .jc-daysec .jc-item { padding: 8px 0; break-inside: avoid; }
+    .jc-daysec .jc-item .what { font-size: 0.95rem; }
+    .jc-daysec .jc-item .time { font-size: 0.85rem; }
+    .jc-hotel { break-inside: avoid; padding: 14px 16px; }
+    .jc-card, .jc-confirm, .jc-dining-card { break-inside: avoid; }
+    .jc-section, .jc-support { padding-bottom: 32px; }
+    .jc-section h2 { font-size: 1.6rem; margin: 8px 0 14px; }
+    .jc-transfers { gap: 14px; }
+    .jc-card { padding: 16px 18px; }
+    .jc-numbers { gap: 10px; grid-template-columns: repeat(3, 1fr); }
+    .jc-numbers .note { font-size: 0.82rem; }
+    .jc-numbers > div { padding: 10px 14px; }
+    .jc-numbers a { font-size: 1.15rem; }
+    a { color: inherit; text-decoration: none; }
+    .jc-item .what a { border-bottom: 0; }
+    .jc-footer { padding: 18px 0 0; }
+  }
+
+  /* Pending items: in hand, not yet confirmed */
+  .jc-pending { display: inline-block; font-family: var(--font-body); font-size: 0.64rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); border: 1px solid var(--olive); padding: 3px 9px; margin-right: 8px; vertical-align: 2px; white-space: nowrap; }
+  .jc-confirm .ref .jc-pending { margin-right: 0; }
+  .jc-contact a { color: var(--charcoal); text-decoration: none; border-bottom: 1px solid var(--hairline); word-break: break-word; }
+  .jc-flag { background: var(--white); border: 1px solid var(--hairline); border-left: 3px solid var(--olive); padding: 22px 24px; margin: 0 0 36px; max-width: 820px; }
+  .jc-flag .title { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--olive-deep); margin-bottom: 8px; }
+  .jc-flag p { font-family: var(--font-body); font-weight: 300; font-size: 1.06rem; color: var(--charcoal); line-height: 1.6; margin: 0; }
+  .jc-flag p strong { font-weight: 500; }
+  #confirmations, #contacts, #notes { scroll-margin-top: 58px; }
+  @media print { .jc-flag { break-inside: avoid; margin-bottom: 18px; padding: 14px 16px; } .jc-pending { border-color: #999; color: #333; } }
+</style>
+</head>
+<body>
+
+<header class="jc-hero">
+  <img src="../images/hotels/andronis-boutique-1.jpg" alt="Terrace over the caldera at Andronis Boutique Hotel, Oia" style="object-position: 50% 55%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Private Itinerary &middot; Prepared by Suites With Keith</span>
+    <h1>Melissa &amp; Ryan <em>in Greece</em></h1>
+    <p>Mykonos &middot; Paros &middot; Santorini &middot; Crete &middot; Paris<br>October 1&ndash;17, 2026</p>
+  </div>
+  <span class="cue" aria-hidden="true"></span>
+</header>
+
+<section class="jc-intro">
+  <div class="jc-container">
+    <div class="grid">
+      <div><span class="jc-eyebrow">Your First Anniversary, Day by Day</span></div>
+      <div>
+        <p>Four islands, one private boat, two fast ferries, and a night in Paris on the way home. One year married, and this is how you mark it. Everything below runs in order, with confirmation numbers under each item.</p>
+        <p class="small"><strong>How to read this page:</strong> all times are local to the place they happen and use the 24 hour clock, exactly as they will appear on your tickets. Anything marked <span class="jc-pending" style="margin:0 2px;">Confirming</span> is in hand on my side and will be filled in here as it lands. Tap any date below to jump straight to that day.</p>
+        <div class="jc-numbers">
+          <div><span class="lbl">Keith, anytime</span><a href="tel:+14152724316">+1 415-272-4316</a><span class="note">Call or text</span></div>
+          <div><span class="lbl">Welcome Wings, 24/7</span><a href="tel:+12124325827">+1 212-432-5827</a><span class="note"><strong>Frankfurt connection, October 2.</strong> Reference VIP-11357-FRA</span></div>
+          <div><span class="lbl">Bill &amp; Coo, Mykonos</span><a href="tel:+302289026663">+30 22890 26663</a><span class="note"><strong>Marios Tasiopoulos.</strong> Your arrival transfer and the boat dock on October 4</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-strip" id="days">
+  <div class="jc-container">
+    <span class="jc-eyebrow">At a Glance</span>
+    <div class="jc-transfers" style="margin:18px 0 44px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+      <a class="jc-card" href="#oct-2" style="text-decoration:none;"><span class="jc-tag">2 nights &middot; Oct 2&ndash;4</span><div class="route">Mykonos</div><p class="detail">Bill &amp; Coo Coast, The Coast Beachfront Suite</p></a>
+      <a class="jc-card" href="#oct-4" style="text-decoration:none;"><span class="jc-tag">4 nights &middot; Oct 4&ndash;8</span><div class="route">Paros</div><p class="detail">Cosme, a Luxury Collection Resort</p></a>
+      <a class="jc-card" href="#oct-8" style="text-decoration:none;"><span class="jc-tag">3 nights &middot; Oct 8&ndash;11</span><div class="route">Santorini</div><p class="detail">Andronis Boutique Hotel, Oia</p></a>
+      <a class="jc-card" href="#oct-11" style="text-decoration:none;"><span class="jc-tag">5 nights &middot; Oct 11&ndash;16</span><div class="route">Crete</div><p class="detail">Minos Beach Art Hotel, Agios Nikolaos</p></a>
+    </div>
+    <span class="jc-eyebrow">Tap a Date</span>
+    <div class="grid" style="margin-top:18px;">
+      <a class="cell" href="#oct-1"><span class="num">Thu</span><div class="dates">Oct 1</div><div class="place">Depart LA</div></a>
+      <a class="cell" href="#oct-2"><span class="num">Fri</span><div class="dates">Oct 2</div><div class="place">Arrive Mykonos</div></a>
+      <a class="cell" href="#oct-3"><span class="num">Sat</span><div class="dates">Oct 3</div><div class="place">Mykonos</div></a>
+      <a class="cell" href="#oct-4"><span class="num">Sun</span><div class="dates">Oct 4</div><div class="place">Boat to Paros</div></a>
+      <a class="cell" href="#oct-5"><span class="num">Mon</span><div class="dates">Oct 5</div><div class="place">Paros</div></a>
+      <a class="cell" href="#oct-6"><span class="num">Tue</span><div class="dates">Oct 6</div><div class="place">Paros</div></a>
+      <a class="cell" href="#oct-7"><span class="num">Wed</span><div class="dates">Oct 7</div><div class="place">Paros</div></a>
+      <a class="cell" href="#oct-8"><span class="num">Thu</span><div class="dates">Oct 8</div><div class="place">To Santorini</div></a>
+      <a class="cell" href="#oct-9"><span class="num">Fri</span><div class="dates">Oct 9</div><div class="place">Santorini</div></a>
+      <a class="cell" href="#oct-10"><span class="num">Sat</span><div class="dates">Oct 10</div><div class="place">Wine &amp; Omnia</div></a>
+      <a class="cell" href="#oct-11"><span class="num">Sun</span><div class="dates">Oct 11</div><div class="place">To Crete</div></a>
+      <a class="cell" href="#oct-12"><span class="num">Mon</span><div class="dates">Oct 12</div><div class="place">Crete</div></a>
+      <a class="cell" href="#oct-13"><span class="num">Tue</span><div class="dates">Oct 13</div><div class="place">Crete</div></a>
+      <a class="cell" href="#oct-14"><span class="num">Wed</span><div class="dates">Oct 14</div><div class="place">Crete</div></a>
+      <a class="cell" href="#oct-15"><span class="num">Thu</span><div class="dates">Oct 15</div><div class="place">Crete</div></a>
+      <a class="cell" href="#oct-16"><span class="num">Fri</span><div class="dates">Oct 16</div><div class="place">To Paris</div></a>
+      <a class="cell" href="#oct-17"><span class="num">Sat</span><div class="dates">Oct 17</div><div class="place">Home</div></a>
+    </div>
+  </div>
+</section>
+
+<nav class="jc-datebar" id="datebar" aria-label="Jump to a day"><div class="row"><a href="#oct-1"><b>1</b>Oct</a><a href="#oct-2"><b>2</b>Oct</a><a href="#oct-3"><b>3</b>Oct</a><a href="#oct-4"><b>4</b>Oct</a><a href="#oct-5"><b>5</b>Oct</a><a href="#oct-6"><b>6</b>Oct</a><a href="#oct-7"><b>7</b>Oct</a><a href="#oct-8"><b>8</b>Oct</a><a href="#oct-9"><b>9</b>Oct</a><a href="#oct-10"><b>10</b>Oct</a><a href="#oct-11"><b>11</b>Oct</a><a href="#oct-12"><b>12</b>Oct</a><a href="#oct-13"><b>13</b>Oct</a><a href="#oct-14"><b>14</b>Oct</a><a href="#oct-15"><b>15</b>Oct</a><a href="#oct-16"><b>16</b>Oct</a><a href="#oct-17"><b>17</b>Oct</a><a href="#transfers" class="x">Flights &amp; ferries</a></div></nav>
+
+<section class="jc-daysec" id="oct-1">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 01 &middot; Thursday</span>
+        <h2>October 1</h2>
+        <p class="sub">Depart Los Angeles</p>
+          <div class="jc-item"><span class="time">15:05</span><span class="what"><strong>Lufthansa LH 457</strong> departs Los Angeles (LAX), Terminal B. Boeing 747-8, Business class. Overnight to Frankfurt.<br><span class="jc-ref">Confirmation on your Lufthansa record</span></span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-chapter">
+  <img src="../images/islands/mykonos-divider.jpg" alt="Mykonos at sunset" style="object-position: 50% 60%;" loading="lazy">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter One &middot; October 2&ndash;4</span>
+    <h2>Mykonos</h2>
+    <p>Two nights at Bill &amp; Coo Coast &middot; The Coast Beachfront Suite</p>
+  </div>
+</section>
+
+<section class="jc-daysec" id="oct-2">
+  <div class="jc-container">
+    <div class="grid">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 02 &middot; Friday</span>
+        <h2>October 2</h2>
+        <p class="sub">Frankfurt connection, arrive Mykonos</p>
+          <div class="jc-item"><span class="time">11:00</span><span class="what">LH 457 lands at Frankfurt (FRA), Terminal 1.</span></div>
+          <div class="jc-item"><span class="time">On arrival</span><span class="what"><strong>Welcome Wings meet and assist.</strong> A greeter meets you on arrival and walks you through the connection in Terminal 1. Standard Meet and Greet service, 3 bags.<br><span class="jc-ref">Reference VIP-11357-FRA</span></span></div>
+          <div class="jc-item"><span class="time">13:20</span><span class="what"><strong>Lufthansa LH 4364</strong>, operated by Discover Airlines, Airbus A320, Business class. Frankfurt to Mykonos (JMK), landing <strong>17:10</strong> Greek time. Greece is 1 hour ahead of Germany.</span></div>
+          <div class="jc-item"><span class="time">17:10</span><span class="what"><strong>Private arrival transfer</strong>, arranged through Bill &amp; Coo. Your driver meets you in the arrivals area and takes you to the hotel. Charged to the room.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 2 nights</div>
+            <div class="hotel"><a href="../hotels/bill-and-coo-coast-mykonos.html" target="_blank" rel="noopener">Bill &amp; Coo Coast, Mykonos</a></div>
+            <div class="hotel-note">The Coast Beachfront Suite. Your contact at the hotel is <strong>Marios Tasiopoulos</strong>.</div>
+            <div class="jc-ref">Confirmation 6676SG003191</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+      <div class="media">
+        <img src="../images/hotels/billandcoo-coast-1.jpg" alt="Pool at Bill and Coo Coast, Mykonos" loading="lazy">
+        <div class="cap">Bill &amp; Coo Coast, Mykonos</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-3">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 03 &middot; Saturday</span>
+        <h2>October 3</h2>
+        <p class="sub">Mykonos, open day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Open day. No fixed arrangements. Sleep off the flight, then the beach or Mykonos Town, whichever wins.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-chapter">
+  <img src="../images/islands/paros-divider.jpg" alt="Pool on Paros from above" style="object-position: 50% 50%;" loading="lazy">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Two &middot; October 4&ndash;8</span>
+    <h2>Paros</h2>
+    <p>Four nights at Cosme, a Luxury Collection Resort &middot; your own buggy for the island</p>
+  </div>
+</section>
+
+<section class="jc-daysec" id="oct-4">
+  <div class="jc-container">
+    <div class="grid">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 04 &middot; Sunday</span>
+        <h2>October 4</h2>
+        <p class="sub">Mykonos to Paros <em>by private boat</em></p>
+          <div class="jc-item"><span class="time">Time to follow</span><span class="what"><span class="jc-pending">Confirming</span><strong>Yrian Cruising private transfer</strong>, vessel Aegean Breeze, a Rock 36. Departs from the Bill &amp; Coo dock, so there is no port to get to. I am confirming the exact departure time with the operator.<br><span class="jc-ref">Booking reference JMJAE0</span></span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 4 nights</div>
+            <div class="hotel"><a href="../hotels/cosme-paros.html" target="_blank" rel="noopener">Cosme, a Luxury Collection Resort, Paros</a></div>
+            <div class="hotel-note">Naoussa, Paros. Booked on Melissa&rsquo;s Marriott Bonvoy account.</div>
+            <div class="jc-ref">Confirmation in Melissa&rsquo;s Bonvoy account</div>
+          </div>
+          <div class="jc-item"><span class="time">On arrival</span><span class="what"><span class="jc-pending">Confirming</span><strong>Buggy rental</strong>, 800cc, arranged through the Cosme concierge for your whole stay on Paros.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+      <div class="media">
+        <img src="../images/hotels/cosme-1.jpg" alt="Suite terrace at Cosme, Paros" loading="lazy">
+        <div class="cap">Cosme, Paros</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-5">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 05 &middot; Monday</span>
+        <h2>October 5</h2>
+        <p class="sub">Paros, open day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Open day. The buggy is yours.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-6">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 06 &middot; Tuesday</span>
+        <h2>October 6</h2>
+        <p class="sub">Paros, open day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Open day. The buggy is yours.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-7">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 07 &middot; Wednesday</span>
+        <h2>October 7</h2>
+        <p class="sub">Paros, open day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Open day. The buggy is yours.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-chapter">
+  <img src="../images/itinerary/santorini.jpg" alt="Santorini caldera" style="object-position: 50% 50%;" loading="lazy">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Three &middot; October 8&ndash;11</span>
+    <h2>Santorini</h2>
+    <p>Three nights at Andronis Boutique Hotel, Oia &middot; Executive Suite with Cave Plunge Pool</p>
+  </div>
+</section>
+
+<section class="jc-daysec" id="oct-8">
+  <div class="jc-container">
+    <div class="grid">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 08 &middot; Thursday</span>
+        <h2>October 8</h2>
+        <p class="sub">Paros to Santorini by ferry</p>
+          <div class="jc-item"><span class="time">12:25</span><span class="what">Be at Paros port, <strong>one hour before departure</strong>.</span></div>
+          <div class="jc-item"><span class="time">13:25</span><span class="what"><strong>Seajets Eurochampion Jet</strong>, Paros to Santorini, arriving <strong>15:10</strong>. 1 hour 45 minutes. VIP Platinum seating for both of you. E-tickets can be downloaded between 48 and 2 hours before departure, and not outside that window.<br><span class="jc-ref">Ferryhopper reference FH25EX3752NP</span></span></div>
+          <div class="jc-item"><span class="time">15:10</span><span class="what"><span class="jc-pending">Confirming</span><strong>Private driver</strong> meets you at Athinios port and takes you up to Oia. The transfer is arranged; the driver confirmation is still to come.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 3 nights</div>
+            <div class="hotel"><a href="../hotels/andronis-boutique-santorini.html" target="_blank" rel="noopener">Andronis Boutique Hotel, Oia</a></div>
+            <div class="hotel-note">Executive Suite with Cave Plunge Pool.</div>
+            <div class="jc-ref">Confirmation 598641756 &middot; Reference 62811143</div>
+          </div>
+          <div class="jc-item"><span class="time">19:30</span><span class="what">Dinner at <strong>Miltos Greek Table</strong>, on property at Andronis. No travel needed on your first night. Two guests.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+      <div class="media">
+        <img src="../images/hotels/andronis-boutique-2.jpg" alt="Cave suite at Andronis Boutique Hotel" loading="lazy">
+        <div class="cap">Andronis Boutique Hotel, Oia</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-9">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 09 &middot; Friday</span>
+        <h2>October 9</h2>
+        <p class="sub">Santorini</p>
+          <div class="jc-item"><span class="time">Daytime</span><span class="what"><span class="jc-pending">Confirming</span><strong>Scuba diving.</strong> Ryan is sourcing this. Send me the details once it is booked and I will add them here.</span></div>
+          <div class="jc-item"><span class="time">20:00</span><span class="what">Dinner at <strong>Metaxy Mas</strong>, Exo Gonia. Two guests.<br><span class="jc-ref">Reserved under Ryan Hogue</span> <a href="https://www.google.com/maps/search/Metaxy+Mas+Santorini" target="_blank" rel="noopener">Map</a></span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-10">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 10 &middot; Saturday</span>
+        <h2>October 10</h2>
+        <p class="sub">Santorini &middot; <em>wine and Omnia</em></p>
+          <div class="jc-item"><span class="time">Afternoon</span><span class="what">Wine tasting at <strong>Vassaltis Vineyards</strong>, Vourvoulos. <a href="https://www.google.com/maps/search/Vassaltis+Vineyards+Santorini" target="_blank" rel="noopener">Map</a></span></div>
+          <div class="jc-item"><span class="time">18:00</span><span class="what">Dinner at <strong>Omnia</strong>, Canaves Epitome, Oia. Two guests.<br><span class="jc-ref">Reserved under Ryan Hogue</span></span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-chapter">
+  <img src="../images/hotels/minos-beach-1.jpg" alt="Minos Beach Art Hotel, Crete" style="object-position: 50% 55%;" loading="lazy">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Four &middot; October 11&ndash;16</span>
+    <h2>Crete</h2>
+    <p>Five nights at Minos Beach Art Hotel, Agios Nikolaos</p>
+  </div>
+</section>
+
+<section class="jc-daysec" id="oct-11">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 11 &middot; Sunday</span>
+        <h2>October 11</h2>
+        <p class="sub">Santorini to Crete by ferry</p>
+          <div class="jc-item"><span class="time">Morning</span><span class="what">At leisure in Oia.</span></div>
+          <div class="jc-item"><span class="time">Check-out</span><span class="what"><span class="jc-pending">Confirming</span><strong>Late check-out</strong> requested with Andronis.</span></div>
+          <div class="jc-item"><span class="time">Early afternoon</span><span class="what"><span class="jc-pending">Confirming</span><strong>Private driver</strong> from the hotel to Athinios port. Be at the port by <strong>14:45</strong>, one hour before departure. Pickup time and driver confirmation to come.</span></div>
+          <div class="jc-item"><span class="time">15:45</span><span class="what"><strong>Seajets Champions League Jet 1</strong>, Santorini to Heraklion, arriving <strong>17:25</strong>. 1 hour 40 minutes.<br><span class="jc-ref"><span class="jc-pending">Confirming</span>Booking reference to come</span></span></div>
+          <div class="jc-item"><span class="time">17:25</span><span class="what"><span class="jc-pending">Confirming</span><strong>Drive to Agios Nikolaos</strong>, about one hour east of Heraklion. The car rental, with pickup at Heraklion, is being arranged.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 5 nights</div>
+            <div class="hotel"><a href="../hotels/minos-beach-art-hotel-crete.html" target="_blank" rel="noopener">Minos Beach Art Hotel, Agios Nikolaos</a></div>
+            <div class="hotel-note">Seaview Room, main building, with balcony.</div>
+            <div class="jc-ref">Confirmation 77166335</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-12">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 12 &middot; Monday</span>
+        <h2>October 12</h2>
+        <p class="sub">Crete, open day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Open day.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-13">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 13 &middot; Tuesday</span>
+        <h2>October 13</h2>
+        <p class="sub">Crete, open day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Open day.</span></div>
+          <div class="jc-item"><span class="time">Boat day</span><span class="what"><span class="jc-pending">Confirming</span>I have sent you the options. Once you choose, the date and details go here, on whichever Crete day suits.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-14">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 14 &middot; Wednesday</span>
+        <h2>October 14</h2>
+        <p class="sub">Crete, open day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Open day.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-15">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 15 &middot; Thursday</span>
+        <h2>October 15</h2>
+        <p class="sub">Crete &middot; <em>last full day in Greece</em></p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Open day.</span></div>
+          <div class="jc-item"><span class="time">Tonight</span><span class="what">Pack tonight. Tomorrow starts at <strong>05:45</strong>.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-16">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 16 &middot; Friday</span>
+        <h2>October 16</h2>
+        <p class="sub">Crete to Paris</p>
+          <div class="jc-item"><span class="time">05:45</span><span class="what"><strong>Early start.</strong> Leave the hotel for Heraklion airport, about one hour&rsquo;s drive. The rental car goes back at the airport around 06:15.</span></div>
+          <div class="jc-item"><span class="time">08:15</span><span class="what"><strong>Sky Express GQ 950</strong>, Airbus A320neo, Economy. Heraklion (HER) to Paris Charles de Gaulle (CDG), landing <strong>10:55</strong> Paris time. 3 hours 40 minutes. France is 1 hour behind Greece.<br><span class="jc-ref">Airline reference HU1N7G &middot; booked via Chase Travel</span></span></div>
+          <div class="jc-item"><span class="time">10:55</span><span class="what"><span class="jc-pending">Confirming</span><strong>Airport transfer</strong> into Paris.</span></div>
+          <div class="jc-item"><span class="time">Afternoon</span><span class="what">Afternoon and evening in Paris.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Tonight, 1 night</div>
+            <div class="hotel">Paris hotel</div>
+            <div class="hotel-note"><span class="jc-pending">Confirming</span>Hotel and airport transfers for Paris are next on my list.</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="oct-17">
+  <div class="jc-container">
+    <div class="grid solo">
+      <article class="copy">
+        <span class="jc-eyebrow">Day 17 &middot; Saturday</span>
+        <h2>October 17</h2>
+        <p class="sub">Paris to Los Angeles</p>
+          <div class="jc-item"><span class="time">Morning</span><span class="what"><span class="jc-pending">Confirming</span><strong>Transfer</strong> to Charles de Gaulle.</span></div>
+          <div class="jc-item"><span class="time">16:00</span><span class="what"><strong>Delta 291</strong>, Paris (CDG) to Los Angeles (LAX), landing <strong>18:44</strong> Los Angeles time. Delta Premium Select. Melissa is in seat 21G.<br><span class="jc-ref">Ticket 0062464160694</span></span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="jc-section" id="transfers" style="padding-top:80px; border-top:1px solid var(--hairline);">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Getting There &amp; Around</span>
+    <h2>All your flights, ferries, boats &amp; cars</h2>
+    <p class="lede">The same legs as above, gathered in one place. Here is how you move from Los Angeles through the islands and home again: Lufthansa across the Atlantic, a private boat to Paros, two fast ferries, a car on Crete, and Paris on the way back.</p>
+    <div class="jc-transfers">
+      <div class="jc-card">
+        <span class="jc-tag">Lufthansa &middot; LH 457</span>
+        <div class="route">Los Angeles &rarr; Frankfurt, overnight</div>
+        <p class="detail">Thu, Oct 1. Departs LAX Terminal B <strong>15:05</strong>, lands Frankfurt Terminal 1 <strong>11:00</strong> Friday. Boeing 747-8, Business class.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Welcome Wings</span>
+        <div class="route">Frankfurt connection</div>
+        <p class="detail">Fri, Oct 2. Greeter meets you on arrival and walks you through Terminal 1 to your Mykonos flight. 3 bags. Reference <strong>VIP-11357-FRA</strong>.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Lufthansa &middot; LH 4364</span>
+        <div class="route">Frankfurt &rarr; Mykonos</div>
+        <p class="detail">Fri, Oct 2. Operated by Discover Airlines, Airbus A320, Business class. Departs <strong>13:20</strong>, lands <strong>17:10</strong>.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Private Transfer</span>
+        <div class="route">Mykonos airport &rarr; Bill &amp; Coo Coast</div>
+        <p class="detail">Fri, Oct 2. Driver meets you in arrivals. Arranged through the hotel and charged to the room.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Private Boat &middot; Yrian Cruising</span>
+        <div class="route">Mykonos &rarr; Paros</div>
+        <p class="detail">Sun, Oct 4. Aegean Breeze, a Rock 36, from the Bill &amp; Coo dock. Reference <strong>JMJAE0</strong>.<br><span class="jc-pending">Confirming</span>Departure time</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Buggy &middot; Cosme concierge</span>
+        <div class="route">Paros, Oct 4&ndash;8</div>
+        <p class="detail">800cc buggy for the length of your Paros stay.<br><span class="jc-pending">Confirming</span>Rental confirmation</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Ferry &middot; Seajets Eurochampion Jet</span>
+        <div class="route">Paros &rarr; Santorini</div>
+        <p class="detail">Thu, Oct 8. Departs <strong>13:25</strong>, arrives <strong>15:10</strong>. VIP Platinum seats. At the port by 12:25. Ferryhopper reference <strong>FH25EX3752NP</strong>.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Private Driver</span>
+        <div class="route">Athinios port &rarr; Oia</div>
+        <p class="detail">Thu, Oct 8. Meets you off the ferry and takes you to Andronis.<br><span class="jc-pending">Confirming</span>Driver confirmation</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Private Driver</span>
+        <div class="route">Oia &rarr; Athinios port</div>
+        <p class="detail">Sun, Oct 11. Early afternoon pickup, at the port by 14:45.<br><span class="jc-pending">Confirming</span>Pickup time and confirmation</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Ferry &middot; Seajets Champions League Jet 1</span>
+        <div class="route">Santorini &rarr; Heraklion</div>
+        <p class="detail">Sun, Oct 11. Departs <strong>15:45</strong>, arrives <strong>17:25</strong>.<br><span class="jc-pending">Confirming</span>Booking reference</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Car Rental</span>
+        <div class="route">Crete, Oct 11&ndash;16</div>
+        <p class="detail">Pickup at Heraklion, about one hour&rsquo;s drive to Agios Nikolaos. Early return at Heraklion airport around 06:15 on the 16th.<br><span class="jc-pending">Confirming</span>Supplier and confirmation</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Sky Express &middot; GQ 950</span>
+        <div class="route">Heraklion &rarr; Paris CDG</div>
+        <p class="detail">Fri, Oct 16. Leave the hotel <strong>05:45</strong>. Departs <strong>08:15</strong>, lands <strong>10:55</strong>. Airbus A320neo, Economy. Airline reference <strong>HU1N7G</strong>, via Chase Travel.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Paris Transfers</span>
+        <div class="route">CDG &harr; Paris</div>
+        <p class="detail">Fri, Oct 16 and Sat, Oct 17.<br><span class="jc-pending">Confirming</span>Both directions</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Delta &middot; DL 291</span>
+        <div class="route">Paris CDG &rarr; Los Angeles</div>
+        <p class="detail">Sat, Oct 17. Departs <strong>16:00</strong>, lands LAX <strong>18:44</strong>. Delta Premium Select. Melissa in 21G. Ticket <strong>0062464160694</strong>.</p>
+      </div>
+    </div>
+    <p class="jc-footnote">Ferries: arrive at the port one hour before departure. Seajets e-tickets can be downloaded between 48 and 2 hours before departure and are not accessible outside that window.</p>
+  </div>
+</section>
+
+<section class="jc-section">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Tables &amp; Tastings</span>
+    <h2>Dining reservations</h2>
+    <div class="jc-dining-group">
+      <div class="place">Santorini</div>
+      <div class="jc-dining-grid">
+        <div class="jc-card jc-dining-card">
+          <div class="name">Miltos Greek Table</div>
+          <div class="meta">On property at Andronis Boutique Hotel, Oia</div>
+          <div class="meta">Oct 8, 19:30 &middot; Party of 2</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.google.com/maps/search/Metaxy+Mas+Santorini" target="_blank" rel="noopener">Metaxy Mas</a></div>
+          <div class="meta">Exo Gonia</div>
+          <div class="meta">Oct 9, 20:00 &middot; Party of 2 &middot; Under Ryan Hogue</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.google.com/maps/search/Vassaltis+Vineyards+Santorini" target="_blank" rel="noopener">Vassaltis Vineyards</a></div>
+          <div class="meta">Wine tasting &middot; Vourvoulos</div>
+          <div class="meta">Oct 10, afternoon &middot; Party of 2</div>
+          <span class="jc-badge soft">Time to follow</span>
+        </div>
+        <div class="jc-card jc-dining-card">
+          <div class="name"><a href="https://www.google.com/maps/search/Omnia+Canaves+Epitome+Oia" target="_blank" rel="noopener">Omnia</a></div>
+          <div class="meta">Canaves Epitome, Oia</div>
+          <div class="meta">Oct 10, 18:00 &middot; Party of 2 &middot; Under Ryan Hogue</div>
+          <span class="jc-badge">Confirmed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-section" id="confirmations">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Everything in One Place</span>
+    <h2>Confirmation numbers</h2>
+    <div class="jc-confirm-grid">
+      <div class="jc-confirm-col">
+        <div class="title">Flights &amp; ferries</div>
+        <div class="jc-confirm">
+          <div class="name">LH 457 &middot; Los Angeles &rarr; Frankfurt</div>
+          <div class="when">Oct 1, 15:05 &middot; Lufthansa, Business</div>
+          <div class="ref">On your Lufthansa record</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">LH 4364 &middot; Frankfurt &rarr; Mykonos</div>
+          <div class="when">Oct 2, 13:20 &middot; Discover Airlines for Lufthansa, Business</div>
+          <div class="ref">On your Lufthansa record</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Private boat &middot; Mykonos &rarr; Paros</div>
+          <div class="when">Oct 4 &middot; Yrian Cruising</div>
+          <div class="ref">JMJAE0</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Ferry &middot; Paros &rarr; Santorini</div>
+          <div class="when">Oct 8, 13:25 &middot; Seajets via Ferryhopper, VIP Platinum</div>
+          <div class="ref">FH25EX3752NP</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Ferry &middot; Santorini &rarr; Heraklion</div>
+          <div class="when">Oct 11, 15:45 &middot; Seajets</div>
+          <div class="ref"><span class="jc-pending">Confirming</span></div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">GQ 950 &middot; Heraklion &rarr; Paris CDG</div>
+          <div class="when">Oct 16, 08:15 &middot; Sky Express via Chase Travel</div>
+          <div class="ref">HU1N7G</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">DL 291 &middot; Paris CDG &rarr; Los Angeles</div>
+          <div class="when">Oct 17, 16:00 &middot; Delta Premium Select</div>
+          <div class="ref">Ticket 0062464160694</div>
+        </div>
+      </div>
+      <div class="jc-confirm-col">
+        <div class="title">Transfers &amp; extras</div>
+        <div class="jc-confirm">
+          <div class="name">Frankfurt meet and assist</div>
+          <div class="when">Oct 2 &middot; Welcome Wings</div>
+          <div class="ref">VIP-11357-FRA</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Mykonos airport transfer</div>
+          <div class="when">Oct 2 &middot; Bill &amp; Coo</div>
+          <div class="ref">Arranged through the hotel</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Buggy rental, 800cc</div>
+          <div class="when">Oct 4&ndash;8 &middot; Cosme concierge</div>
+          <div class="ref"><span class="jc-pending">Confirming</span></div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Athinios port transfer, arrival</div>
+          <div class="when">Oct 8 &middot; Private driver</div>
+          <div class="ref"><span class="jc-pending">Confirming</span></div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Athinios port transfer, departure</div>
+          <div class="when">Oct 11 &middot; Private driver</div>
+          <div class="ref"><span class="jc-pending">Confirming</span></div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Car rental, Heraklion pickup</div>
+          <div class="when">Oct 11&ndash;16</div>
+          <div class="ref"><span class="jc-pending">Confirming</span></div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Crete boat day</div>
+          <div class="when">Date to be chosen</div>
+          <div class="ref"><span class="jc-pending">Confirming</span></div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Paris airport transfers</div>
+          <div class="when">Oct 16 &amp; Oct 17</div>
+          <div class="ref"><span class="jc-pending">Confirming</span></div>
+        </div>
+      </div>
+      <div class="jc-confirm-col">
+        <div class="title">Stays &amp; tables</div>
+        <div class="jc-confirm">
+          <div class="name">Bill &amp; Coo Coast, Mykonos</div>
+          <div class="when">Oct 2&ndash;4 &middot; The Coast Beachfront Suite</div>
+          <div class="ref">6676SG003191</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Cosme, a Luxury Collection Resort, Paros</div>
+          <div class="when">Oct 4&ndash;8 &middot; Marriott</div>
+          <div class="ref">In Melissa&rsquo;s Bonvoy account</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Andronis Boutique Hotel, Oia</div>
+          <div class="when">Oct 8&ndash;11 &middot; Executive Suite with Cave Plunge Pool</div>
+          <div class="ref">598641756 &middot; ref 62811143</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Miltos Greek Table, Andronis</div>
+          <div class="when">Oct 8, 19:30 &middot; 2 guests</div>
+          <div class="ref">Booked</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Metaxy Mas</div>
+          <div class="when">Oct 9, 20:00 &middot; 2 guests</div>
+          <div class="ref">Under Ryan Hogue</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Omnia at Canaves Epitome</div>
+          <div class="when">Oct 10, 18:00 &middot; 2 guests</div>
+          <div class="ref">Under Ryan Hogue</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Minos Beach Art Hotel, Agios Nikolaos</div>
+          <div class="when">Oct 11&ndash;16 &middot; Seaview Room, main building, balcony</div>
+          <div class="ref">77166335</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Paris hotel</div>
+          <div class="when">Oct 16&ndash;17</div>
+          <div class="ref"><span class="jc-pending">Confirming</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-section" id="contacts">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Who to Call</span>
+    <h2>Key contacts</h2>
+    <div class="jc-dining-grid">
+      <div class="jc-card jc-dining-card jc-contact">
+        <div class="name">Keith Pence, Suites With Keith</div>
+        <div class="meta"><a href="tel:+14152724316">+1 415 272 4316</a></div>
+        <div class="meta"><a href="mailto:keith.pence@fora.travel">keith.pence@fora.travel</a></div>
+      </div>
+      <div class="jc-card jc-dining-card jc-contact">
+        <div class="name">Bill &amp; Coo Coast, Mykonos</div>
+        <div class="meta">Marios Tasiopoulos &middot; <a href="tel:+302289026663">+30 22890 26663</a></div>
+        <div class="meta"><a href="mailto:coastsuites@billandcoo.com">coastsuites@billandcoo.com</a></div>
+      </div>
+      <div class="jc-card jc-dining-card jc-contact">
+        <div class="name">Cosme, Paros</div>
+        <div class="meta">Concierge</div>
+        <div class="meta"><a href="mailto:concierge@cosmehotelparos.com">concierge@cosmehotelparos.com</a></div>
+      </div>
+      <div class="jc-card jc-dining-card jc-contact">
+        <div class="name">Andronis Boutique Hotel, Oia</div>
+        <div class="meta">Reception</div>
+        <div class="meta"><a href="mailto:reception@andronisboutiquehotel.com">reception@andronisboutiquehotel.com</a></div>
+      </div>
+      <div class="jc-card jc-dining-card jc-contact">
+        <div class="name">Minos Beach Art Hotel</div>
+        <div class="meta">Agios Nikolaos, Crete</div>
+        <div class="meta"><span class="jc-pending">Confirming</span>Direct contact</div>
+      </div>
+      <div class="jc-card jc-dining-card jc-contact">
+        <div class="name">Welcome Wings</div>
+        <div class="meta">24/7 &middot; <a href="tel:+12124325827">+1 212 432 5827</a></div>
+        <div class="meta"><a href="mailto:support@welcomewings.com">support@welcomewings.com</a></div>
+      </div>
+      <div class="jc-card jc-dining-card jc-contact">
+        <div class="name">Yrian Cruising</div>
+        <div class="meta">Private boat, October 4</div>
+        <div class="meta"><a href="mailto:info@yriancruising.com">info@yriancruising.com</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-section" id="notes">
+  <div class="jc-container">
+    <span class="jc-eyebrow">The Fine Print</span>
+    <h2>Good to know, and still being finalized</h2>
+    <div class="jc-fine">
+      <div>
+        <div class="title">Good to know</div>
+        <ul>
+          <li><strong style="font-weight:500;">Ferry boarding.</strong> Arrive at the port one hour before departure. Seajets e-tickets can be downloaded between 48 and 2 hours before departure and are not accessible outside that window</li>
+          <li><strong style="font-weight:500;">October 16 is an early one.</strong> You leave Agios Nikolaos around 05:45 for the 08:15 flight to Paris</li>
+          <li><strong style="font-weight:500;">Passports.</strong> Both are valid for this trip. Melissa, for your own planning, yours expires in June 2027</li>
+        </ul>
+      </div>
+      <div>
+        <div class="title">Still being finalized</div>
+        <p>Nothing here needs anything from you unless noted. It is simply what I am still confirming on my side.</p>
+        <ul>
+          <li>Paris hotel for the night of October 16, plus Charles de Gaulle transfers</li>
+          <li>Crete boat day: options are with you, waiting on your pick</li>
+          <li>Crete car rental, with an early return at Heraklion airport on the 16th</li>
+          <li>Departure time for the October 4 private boat</li>
+          <li>Late check-out at Andronis on October 11</li>
+          <li>That both of you show as ticketed on Sky Express GQ 950 and Delta 291</li>
+          <li>Santorini driver confirmations, and the Santorini to Heraklion ferry reference</li>
+          <li>Scuba on Santorini: Ryan, this one is yours</li>
+        </ul>
+      </div>
+      <div>
+        <div class="title">Time zones</div>
+        <p>Greece is 10 hours ahead of Los Angeles. Paris is 9 hours ahead. Frankfurt and Paris are 1 hour behind Greece.</p>
+        <div class="title" style="margin-top:22px;">Tipping guide</div>
+        <p>Appreciated but never expected in Greece. Comfortable ranges, always in euros, cash.</p>
+        <ul>
+          <li>Restaurants: round up or leave 5 to 10 percent for a great meal</li>
+          <li>Hotel porters: 2 to 5 euros per bag &middot; Housekeeping: about 5 euros per day</li>
+          <li>Drivers: 10 to 20 euros for a port or airport run</li>
+          <li>Boat skippers: about 10 percent of the charter for a great day</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-support">
+  <div class="jc-container">
+    <div class="grid">
+      <div>
+        <span class="jc-eyebrow">While You&rsquo;re Away</span>
+        <div class="big">I&rsquo;m here if<br>anything comes up</div>
+      </div>
+      <div>
+        <p>Happy first anniversary. Please reach out during your trip if anything comes up at all. I&rsquo;ll be in Austin, eight hours behind you in Greece, and I&rsquo;ll do my best to assist the moment something goes sideways.</p>
+        <div class="jc-phone-row">
+          <span class="label">Anytime, day or night</span>
+          <a href="tel:+14152724316">415.272.4316</a>
+        </div>
+        <div class="jc-sig">Keith</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="jc-footer">
+  Suites With Keith &middot; Curated by Keith Pence<br>
+  This page updated 17 September 2026</footer>
+
+
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Reveal days and chapters as they enter the viewport.
+  var reveal = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); reveal.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
+  var hidden = document.querySelectorAll('.jc-daysec, .jc-chapter');
+  hidden.forEach(function (el) { reveal.observe(el); });
+  // Failsafe: nothing on this page may stay hidden, whatever the browser does.
+  setTimeout(function () { hidden.forEach(function (el) { el.classList.add('in'); }); }, 2000);
+
+  // Sticky date bar: show once the date grid has scrolled past.
+  var bar = document.getElementById('datebar'), grid = document.getElementById('days');
+  if (bar && grid) {
+    var ticking = false;
+    function placeBar() {
+      ticking = false;
+      bar.classList.toggle('on', grid.getBoundingClientRect().bottom < 0);
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(placeBar); }
+    }, { passive: true });
+    placeBar();
+
+    // Highlight the section being read: the last one whose heading has passed
+    // the top third of the screen. Scroll-driven, so short days are never skipped.
+    var row = bar.querySelector('.row');
+    var targets = Array.prototype.slice.call(document.querySelectorAll('.jc-daysec, #transfers'));
+    var links = {}; bar.querySelectorAll('a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+    var current = null, marking = false, jumpingUntil = 0, settle = null;
+    function slideRow() {
+      if (!current) return;
+      var left = current.offsetLeft - (row.clientWidth - current.offsetWidth) / 2;
+      row.scrollTo({ left: Math.max(0, left), behavior: reduce ? 'auto' : 'smooth' });
+    }
+    function markCurrent() {
+      marking = false;
+      var line = window.innerHeight * 0.34, pick = null;
+      for (var i = 0; i < targets.length; i++) {
+        if (targets[i].getBoundingClientRect().top <= line) pick = targets[i]; else break;
+      }
+      var next = pick ? links[pick.id] : null;
+      if (next === current) return;
+      if (current) current.classList.remove('cur');
+      current = next;
+      if (!current) return;
+      current.classList.add('cur');
+      // While an anchor jump is animating, do not start a second smooth scroll:
+      // Safari treats it as a cancel and the page stops at the first day it
+      // passes. Slide the row once the jump has settled instead.
+      if (Date.now() < jumpingUntil) {
+        clearTimeout(settle); settle = setTimeout(slideRow, jumpingUntil - Date.now() + 50);
+      } else {
+        slideRow();
+      }
+    }
+    window.addEventListener('scroll', function () {
+      if (!marking) { marking = true; requestAnimationFrame(markCurrent); }
+    }, { passive: true });
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (a) jumpingUntil = Date.now() + 1400;
+    });
+    markCurrent();
+  }
+})();
+</script>
+</body>
+</html>
