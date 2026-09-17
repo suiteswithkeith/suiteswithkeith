@@ -1,0 +1,89 @@
+  /* ===== Itinerary additions (tools/render_itinerary.py) ===== */
+  :root { --amber: #9A6A14; --amber-bg: #FBF1DC; --amber-line: #D9A441; }
+  body { overflow-x: hidden; }
+  .jc-numbers a.inline, .jc-numbers .note a { display: inline; font: inherit; color: var(--charcoal); margin: 0; border-bottom: 1px solid var(--olive); }
+  .jc-glance { margin: 18px 0 44px; border-left: 3px solid var(--olive); }
+  .jc-glance .hotel-note { margin-top: 8px; }
+  .jc-maplink, .jc-tel, .jc-meta a { color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); font-weight: 500; }
+  .jc-maplink, .jc-meta a[href*="google.com/maps"] { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-left: 4px; }
+  .jc-summary { font-family: var(--font-body); font-weight: 300; font-size: 1.08rem; line-height: 1.6; color: var(--charcoal); margin: 0 0 18px; max-width: 760px; }
+
+  /* Event cards */
+  .jc-daysec .jc-item { padding: 18px 0; }
+  .jc-item .what .jc-title { display: block; font-weight: 500; font-size: 1.14rem; line-height: 1.35; }
+  .jc-item .what .jc-line, .jc-item .what .jc-meta { display: block; margin-top: 6px; }
+  .jc-item .what .jc-meta { font-size: 1rem; color: var(--ink-soft); }
+  .jc-item .what .jc-meta a, .jc-item .what a.jc-tel { display: inline; margin-left: 0; font-size: inherit; text-transform: none; letter-spacing: 0; padding: 6px 0; }
+  .jc-item .what .jc-meta a[href*="google.com/maps"] { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-left: 4px; }
+  .jc-item .what .jc-note { display: block; margin-top: 10px; font-style: italic; }
+  .jc-item .what .jc-ref { display: block; margin-top: 8px; }
+  .jc-who { display: inline-block; font-family: var(--font-body); font-size: 0.64rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--cream); background: var(--olive); padding: 3px 9px; margin: 0 8px 6px 0; vertical-align: 2px; }
+  .jc-ok { display: inline-block; margin-top: 4px; font-family: var(--font-body); font-size: 0.72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: var(--olive-deep); opacity: 0.8; }
+  .jc-tbc { display: inline-block; font-family: var(--font-body); font-size: 0.64rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--amber); background: var(--amber-bg); border: 1px solid var(--amber-line); padding: 3px 9px; margin: 0 8px 6px 0; vertical-align: 2px; }
+  .jc-todo { display: block; margin-top: 12px; padding: 10px 12px; border: 1px dashed var(--amber-line); background: var(--amber-bg); font-family: var(--font-body); font-size: 0.92rem; font-weight: 400; line-height: 1.5; color: var(--charcoal); }
+  .jc-todo b { display: block; font-size: 0.64rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--amber); margin-bottom: 2px; }
+  .jc-draftbar { background: var(--amber-bg); border-bottom: 1px solid var(--amber-line); color: var(--amber); font-family: var(--font-body); font-size: 0.74rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; text-align: center; padding: 9px 16px; line-height: 1.5; }
+
+  /* Today */
+  .jc-today { display: inline-block; margin-left: 8px; background: var(--olive); color: var(--cream); padding: 2px 8px; letter-spacing: 0.14em; }
+  .jc-today[hidden] { display: none; }
+  .jc-strip .cell.today { background: var(--olive); border-color: var(--olive); }
+  .jc-strip .cell.today .num, .jc-strip .cell.today .dates, .jc-strip .cell.today .place { color: var(--cream); }
+  .jc-daysec.today { background: var(--white); box-shadow: inset 3px 0 0 var(--olive); }
+
+  /* Confirmations fold */
+  .jc-fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 48px; }
+  .jc-fold > summary::-webkit-details-marker { display: none; }
+  .jc-fold > summary h2 { margin: 12px 0; }
+  .jc-fold-cue { flex: 0 0 auto; width: 12px; height: 12px; border-right: 2px solid var(--olive-deep); border-bottom: 2px solid var(--olive-deep); transform: rotate(45deg); transition: transform 200ms; margin-right: 6px; }
+  .jc-fold[open] .jc-fold-cue { transform: rotate(-135deg); }
+  .jc-fold[open] > summary { margin-bottom: 12px; }
+  .jc-confirm .ref .jc-tbc { margin: 0 6px 0 0; }
+  .jc-contact .when a { white-space: nowrap; }
+
+  /* Keith card actions */
+  .jc-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+  .jc-actions a { font-family: var(--font-body); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); text-decoration: none; border: 1px solid var(--olive); padding: 12px 16px; min-height: 44px; box-sizing: border-box; }
+  .jc-sig a { color: inherit; }
+
+  /* Phone: 16px gutters, stacked event cards */
+  @media (max-width: 600px) {
+    .jc-container { padding-left: 16px; padding-right: 16px; }
+    .jc-hero .inner, .jc-chapter .inner { padding-left: 16px; padding-right: 16px; }
+    .jc-footer { padding-left: 16px; padding-right: 16px; }
+    .jc-strip .grid { grid-template-columns: 1fr 1fr; }
+    .jc-daysec .jc-item, .jc-item { grid-template-columns: 1fr; gap: 4px; }
+    .jc-hotel { padding: 18px 16px; }
+    .jc-phone-row a { font-size: 1.45rem; }
+  }
+
+  @media print {
+    .jc-draftbar, .jc-fold-cue, .jc-actions, .jc-ok { display: none !important; }
+    .jc-hero { height: 2.4in; }
+    .jc-hero .shade { background: rgba(20,20,18,0.45); }
+    .jc-daysec { break-before: page; border-top: 0; background: #fff !important; box-shadow: none !important; }
+    .jc-daysec .grid.solo { max-width: none; }
+    .jc-daysec .jc-item { grid-template-columns: 110px 1fr; }
+    .jc-item .what .jc-title { font-size: 1rem; }
+    .jc-item .what .jc-meta, .jc-summary { font-size: 0.9rem; }
+    #notes { break-before: page; padding-top: 0 !important; border-top: 0 !important; }
+    .jc-strip .cell.today { background: #fff; }
+    .jc-strip .cell.today .num, .jc-strip .cell.today .dates, .jc-strip .cell.today .place { color: #000; }
+    .jc-today { display: none !important; }
+    .jc-tbc, .jc-todo { background: #fff; color: #000; border-color: #666; }
+    .jc-todo b { color: #000; }
+    body, .jc-item .what, .jc-summary, .jc-card .detail, .jc-item .what .jc-meta, .jc-confirm .when { color: #000; }
+    .jc-maplink, .jc-item .what .jc-meta a[href*="google.com/maps"] { display: none; }
+    .jc-eyebrow, .jc-fold > summary, .jc-confirm-col .title { break-after: avoid; }
+    #confirmations { break-before: page; }
+    .jc-confirm-grid { display: block; columns: 2; column-gap: 28px; }
+    .jc-confirm-col { margin-bottom: 18px; }
+    .jc-intro .small { display: none; }
+    .jc-intro { padding: 24px 0 12px; }
+    .jc-glance { margin: 10px 0 18px; }
+    .jc-numbers { display: none; }
+    .jc-strip .cell, .jc-strip .grid { break-inside: avoid; }
+    .jc-transfers { grid-template-columns: repeat(2, 1fr); }
+    .jc-support { break-inside: avoid; }
+    .jc-support .grid { grid-template-columns: 1fr 1.4fr; }
+  }
