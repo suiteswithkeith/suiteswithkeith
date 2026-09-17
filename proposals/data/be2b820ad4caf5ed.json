@@ -132,9 +132,7 @@
               "note": "An 1886 church in the heart of Carneros, surrounded by Sauvignon Blanc vines. A seated wine and food pairing from the winery chef."
             }
           ],
-          "status": "confirmed_pending_winery_names",
-          "pending_label": "Tasting times to be confirmed",
-          "keith_todo": "Ruby's revised PDF still shows a 12:30 pickup with tastings at 12:45 and 3:15, which can't be right with the 1:00 PM pickup. Ask Ruby for the pushed-back tasting times, add \"time\" to each stop, then set status to confirmed."
+          "status": "confirmed"
         },
         {
           "time": "7:00 PM",
