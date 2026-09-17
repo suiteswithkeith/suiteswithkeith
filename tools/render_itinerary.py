@@ -50,6 +50,16 @@ def long_date(iso):
     return '%s, %s %d' % (wd, month, n)
 
 
+def pin(b):
+    """A bullet or stop: plain text, or {text, maps_query} with a Map pin link."""
+    if isinstance(b, str):
+        return e(b)
+    out = e(b.get('text', ''))
+    if b.get('maps_query'):
+        out += ' <a class="jc-pin" href="%s" target="_blank" rel="noopener">Map</a>' % maps(b['maps_query'])
+    return out
+
+
 def render_event(ev, draft):
     status = ev.get('status', 'info')
     pending = status not in QUIET
@@ -64,10 +74,13 @@ def render_event(ev, draft):
     if ev.get('details'):
         w.append('<span class="jc-line">%s</span>' % e(ev['details']))
     if ev.get('bullets'):
-        w.append('<ul>%s</ul>' % ''.join('<li>%s</li>' % e(b) for b in ev['bullets']))
+        w.append('<ul>%s</ul>' % ''.join('<li>%s</li>' % pin(b) for b in ev['bullets']))
     if ev.get('stops'):
         w.append('<ul class="jc-stops">%s</ul>' % ''.join(
-            '<li><strong>%s</strong> %s</li>' % (e(s.get('time', '')), e(s['name'])) for s in ev['stops']))
+            '<li><strong>%s</strong>%s</li>' % (
+                e(' '.join(x for x in (s.get('time'), s['name']) if x)),
+                pin({'text': '', 'maps_query': s.get('maps_query')}) + ((' <span class="jc-line">%s</span>' % e(s['note'])) if s.get('note') else ''))
+            for s in ev['stops']))
     if ev.get('keith_note'):
         w.append('<span class="jc-note">%s</span>' % e(ev['keith_note']))
     meta = []

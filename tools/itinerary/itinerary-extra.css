@@ -24,6 +24,9 @@
   .jc-todo b { display: block; font-size: 0.64rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--amber); margin-bottom: 2px; }
   .jc-draftbar { background: var(--amber-bg); border-bottom: 1px solid var(--amber-line); color: var(--amber); font-family: var(--font-body); font-size: 0.74rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; text-align: center; padding: 9px 16px; line-height: 1.5; }
 
+  .jc-item .what a.jc-pin { white-space: nowrap; }
+  .jc-stops li { margin-bottom: 10px; }
+
   /* Today */
   .jc-today { display: inline-block; margin-left: 8px; background: var(--olive); color: var(--cream); padding: 2px 8px; letter-spacing: 0.14em; }
   .jc-today[hidden] { display: none; }
@@ -73,7 +76,7 @@
     .jc-tbc, .jc-todo { background: #fff; color: #000; border-color: #666; }
     .jc-todo b { color: #000; }
     body, .jc-item .what, .jc-summary, .jc-card .detail, .jc-item .what .jc-meta, .jc-confirm .when { color: #000; }
-    .jc-maplink, .jc-item .what .jc-meta a[href*="google.com/maps"] { display: none; }
+    .jc-maplink, .jc-item .what a[href*="google.com/maps"] { display: none !important; }
     .jc-eyebrow, .jc-fold > summary, .jc-confirm-col .title { break-after: avoid; }
     #confirmations { break-before: page; }
     .jc-confirm-grid { display: block; columns: 2; column-gap: 28px; }

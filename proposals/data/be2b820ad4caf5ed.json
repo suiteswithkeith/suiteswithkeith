@@ -16,7 +16,6 @@
     "how_to_read": "Tap any day below to jump straight to it. Every address opens in Google Maps and every phone number is tap to call. Anything marked To be confirmed is in hand on my side and gets filled in here as it lands.",
     "updated": "2026-09-17"
   },
-
   "hotel": {
     "name": "MacArthur Place Hotel & Spa",
     "address": "29 E MacArthur Street, Sonoma, CA 95476",
@@ -31,22 +30,19 @@
     "room_details": "One king bed plus pull-out sleeper sofa, private balcony, gas fireplace, soaking tub and walk-in shower",
     "confirmation": "46218SG041293"
   },
-
   "days": [
     {
       "date": "2026-09-28",
       "strip_label": "Arrive Sonoma",
       "title": "Arrival & an easy first night",
-      "summary": "Fly into San Francisco, drive up to Sonoma, check in at MacArthur Place, then walk to dinner on the Plaza.",
+      "summary": "Fly into San Francisco, pick up the rental car and drive up to Sonoma, check in at MacArthur Place, then walk to dinner on the Plaza.",
       "events": [
         {
           "time": "Afternoon",
           "type": "arrival",
-          "title": "Arrive San Francisco, up to Sonoma",
-          "details": "Roughly 1 hour 15 minutes from SFO to MacArthur Place via 101 North and Highway 37 / 121, longer with traffic.",
-          "status": "confirm_transport",
-          "pending_label": "Transport to be confirmed",
-          "keith_todo": "Ask the Harpers: keeping the rental car, or do they want a car service from SFO? Then set status to confirmed or info."
+          "title": "Arrive San Francisco, pick up the rental car, up to Sonoma",
+          "details": "Rental car confirmed by you. Roughly 1 hour 15 minutes from SFO to MacArthur Place via 101 North and Highway 37 / 121, longer with traffic. Send me your landing time when you have it and I'll let the hotel know when to expect you.",
+          "status": "confirmed"
         },
         {
           "time": "From 4:00 PM",
@@ -117,17 +113,28 @@
           "type": "wine_tour",
           "title": "The Explorer, private wine tour with Bohemian Highway Travel Co.",
           "location": "Pickup at MacArthur Place",
-          "phone": "(415) 377-3167",
-          "phone_label": "Bohemian Highway, day of",
+          "phone": "(415) 370-5292",
+          "phone_label": "Jason, your host",
           "confirmation": "Bohemian Highway booking 374640421",
           "paid_note": "Paid in full",
-          "details": "Private driver and host, with two tasting appointments in Sonoma Valley and Carneros chosen around Craig's Pinot and Cab and Claudine's Sauvignon Blanc. Expect to be back at the hotel around 5:00 to 5:30 PM. Gratuities for the driver and winery hosts are not included and are at your discretion.",
+          "details": "Private host and driver in a Land Rover Defender 110, with two tastings chosen around Craig's Pinot and Cab and Claudine's Sauvignon Blanc, plus a chef-prepared picnic lunch. Your host is Jason. Expect to be back at the hotel around 5:00 to 5:30 PM. Gratuities for the host and the wineries are not included and are at your discretion.",
           "link": "https://www.bohohwy.com/faqs",
           "link_label": "Tour FAQ",
-          "stops": [],
+          "stops": [
+            {
+              "name": "Dunstan at Durell Vineyard",
+              "maps_query": "Dunstan Wines, Durell Vineyard, Sonoma, CA",
+              "note": "A tasting in the 1920s farmhouse overlooking one of Sonoma's most storied vineyards. Your picnic lunch from Bloom Carneros is served here."
+            },
+            {
+              "name": "John Anthony, Church Vineyard",
+              "maps_query": "John Anthony Vineyards Church Vineyard, Carneros, Napa, CA",
+              "note": "An 1886 church in the heart of Carneros, surrounded by Sauvignon Blanc vines. A seated wine and food pairing from the winery chef."
+            }
+          ],
           "status": "confirmed_pending_winery_names",
-          "pending_label": "Winery names to be confirmed",
-          "keith_todo": "Add the two wineries and tasting times from Ruby's Sept 12 PDF into stops, e.g. {\"time\": \"1:30 PM\", \"name\": \"Winery name\"}, then set status to confirmed."
+          "pending_label": "Tasting times to be confirmed",
+          "keith_todo": "Ruby's revised PDF still shows a 12:30 pickup with tastings at 12:45 and 3:15, which can't be right with the 1:00 PM pickup. Ask Ruby for the pushed-back tasting times, add \"time\" to each stop, then set status to confirmed."
         },
         {
           "time": "7:00 PM",
@@ -154,16 +161,22 @@
           "time": "Open",
           "type": "free",
           "title": "Ideas for the day",
-          "details": "No wrong answer here.",
+          "details": "No wrong answer here. Jenner is about an hour and 15 minutes from the hotel, so make a day of it if you head for the coast.",
           "bullets": [
             "A drive out to the Sonoma coast, Bodega Bay and Highway 1",
-            "A hike at Jack London State Historic Park or Sonoma Valley Regional Park",
+            {
+              "text": "Coastal hike: the Kortum Trail from Shell Beach, an easy bluff-top walk toward Goat Rock, just south of Jenner",
+              "maps_query": "Shell Beach Trailhead, Kortum Trail, Sonoma Coast State Park, Jenner, CA"
+            },
+            {
+              "text": "Coastal hike: Jenner Headlands Preserve, a bigger climb with huge views over the mouth of the Russian River",
+              "maps_query": "Jenner Headlands Preserve, Jenner, CA"
+            },
+            "A hike closer to home at Jack London State Historic Park or Sonoma Valley Regional Park",
             "Walk-in tastings around the Sonoma Plaza",
             "Lunch, or a drink and a few plates, at Layla downstairs from your room. No reservation needed"
           ],
-          "status": "keith_to_finalize",
-          "pending_label": "Suggestions to be finalized",
-          "keith_todo": "Decide whether to leave this open with suggestions or slot something in, then set status to info."
+          "status": "info"
         },
         {
           "time": "7:15 PM",
@@ -185,35 +198,45 @@
       "date": "2026-10-01",
       "strip_label": "Healdsburg day",
       "title": "Healdsburg day, then Glen Ellen Star",
-      "summary": "A self-guided day up in Healdsburg, about 45 minutes north, a straight shot up 12 and 101: a tasting, a late lunch, shopping around the square, and an afternoon stop at the Siduri tasting room. Head back down by about 6:00 PM for dinner at Glen Ellen Star.",
+      "summary": "A self-guided day up in Healdsburg, about an hour north, a straight shot up 12 and 101: a tasting, a late lunch, shopping around the square, and an afternoon stop at the Siduri tasting room. Head back down by about 6:00 PM for dinner at Glen Ellen Star.",
       "events": [
         {
-          "time": "Late morning",
+          "time": "By 10:45 AM",
           "type": "transport",
           "title": "Up to Healdsburg",
-          "details": "About 45 minutes each way. After tastings, a ride share is the wiser call.",
+          "details": "About 45 minutes to downtown Healdsburg, and Reeve is another 15 minutes out Dry Creek Road. After tastings, a ride share is the wiser call.",
           "status": "client_self_arranged"
         },
         {
-          "time": "Midday",
+          "time": "12:00 PM",
           "type": "wine",
           "title": "Tasting at Reeve Wines",
-          "location": "Reeve Wines, Healdsburg, in the Dry Creek area",
-          "maps_query": "Reeve Wines, Healdsburg, CA",
+          "location": "4551 Dry Creek Road, Healdsburg, CA 95448",
+          "maps_query": "Reeve Wines, 4551 Dry Creek Rd, Healdsburg, CA 95448",
           "link": "https://www.reevewines.com/",
           "link_label": "Reeve Wines",
           "keith_note": "Kelly and Noah at Reeve are friends of mine and will take great care of you.",
           "status": "suggested_not_booked",
-          "keith_todo": "Reach out to Kelly and Noah, lock a late-morning or midday tasting for two, add the time and set status to confirmed."
+          "keith_todo": "Emailed info@reevewines.com Sept 17 asking for 12:00 PM for 2. When Kelly and Noah confirm, set status to confirmed.",
+          "party": 2,
+          "pending_label": "Requested"
         },
         {
           "time": "Early afternoon",
           "type": "lunch",
           "title": "Late lunch and a wander around the Healdsburg Plaza",
-          "details": "Lunch picks coming.",
-          "status": "keith_to_finalize",
-          "pending_label": "Lunch picks to come",
-          "keith_todo": "Pick one or two Healdsburg lunch spots and list them here."
+          "details": "Two I like, both right by the Plaza.",
+          "status": "info",
+          "bullets": [
+            {
+              "text": "Roof 106, the rooftop at The Matheson",
+              "maps_query": "Roof 106 at The Matheson, 106 Matheson St, Healdsburg, CA"
+            },
+            {
+              "text": "Lo & Behold Bar + Kitchen",
+              "maps_query": "Lo & Behold Bar + Kitchen, 214 Healdsburg Ave, Healdsburg, CA"
+            }
+          ]
         },
         {
           "time": "Mid-afternoon",
@@ -222,10 +245,9 @@
           "location": "Siduri Wines tasting lounge, Healdsburg Plaza",
           "maps_query": "Siduri Wines tasting lounge, Healdsburg, CA",
           "link": "https://www.siduri.com/visit.html",
-          "link_label": "Siduri",
-          "details": "Claudine's pick. Mid-afternoon, so you can be on the road out of Healdsburg by 6:00 PM.",
-          "status": "not_yet_booked",
-          "keith_todo": "Book on Tock (exploretock.com/siduri) for about 3:00 or 3:30 PM, add the time and confirmation, set status to confirmed."
+          "link_label": "Reserve at Siduri",
+          "details": "Claudine's pick. I left this one open: walking in should be totally fine, or you can secure a reservation at the link below if you'd rather lock a time. Aim for mid-afternoon so you're on the road out of Healdsburg by 6:00 PM.",
+          "status": "info"
         },
         {
           "time": "By 6:00 PM",
@@ -267,24 +289,88 @@
       ]
     }
   ],
-
   "good_to_know": [
-    {"title": "Layla, downstairs", "text": "The hotel restaurant is right below your room. It is closed for dinner Monday and Tuesday, so think lunch one afternoon, or drinks and a few plates at the bar. No reservation needed."},
-    {"title": "Spa hours", "text": "Spa amenities are open 9:00 AM to 5:00 PM Monday to Thursday and 9:00 AM to 6:00 PM Friday to Sunday: indoor lounge, locker rooms, the outdoor relaxation garden with whirlpool and co-ed steam room, and a fitness room with Peloton bikes, a Woodway treadmill and TRX."},
-    {"title": "Pool", "text": "The pool and outdoor whirlpool are open 7:00 AM to 10:00 PM daily."},
-    {"title": "Tipping on the wine tour", "text": "Gratuities for your Bohemian Highway driver and the winery hosts are not included. They are at your discretion."},
-    {"title": "After tastings", "text": "Please don't drive after tastings. Tuesday is fully driven for you. For everything else, a ride share is the easy call."},
-    {"title": "Healdsburg on Thursday", "text": "You chose a ride share each way over a driver, which makes sense. It is about 45 minutes in each direction, so request the ride back with a little buffer before dinner."}
+    {
+      "title": "Layla, downstairs",
+      "text": "The hotel restaurant is right below your room. It is closed for dinner Monday and Tuesday, so think lunch one afternoon, or drinks and a few plates at the bar. No reservation needed."
+    },
+    {
+      "title": "Spa hours",
+      "text": "Spa amenities are open 9:00 AM to 5:00 PM Monday to Thursday and 9:00 AM to 6:00 PM Friday to Sunday: indoor lounge, locker rooms, the outdoor relaxation garden with whirlpool and co-ed steam room, and a fitness room with Peloton bikes, a Woodway treadmill and TRX."
+    },
+    {
+      "title": "Pool",
+      "text": "The pool and outdoor whirlpool are open 7:00 AM to 10:00 PM daily."
+    },
+    {
+      "title": "Tipping on the wine tour",
+      "text": "Gratuities for your Bohemian Highway driver and the winery hosts are not included. They are at your discretion."
+    },
+    {
+      "title": "After tastings",
+      "text": "Please don't drive after tastings. Tuesday is fully driven for you. For everything else, a ride share is the easy call."
+    },
+    {
+      "title": "Healdsburg on Thursday",
+      "text": "You chose a ride share each way over a driver, which makes sense. It is about 45 minutes in each direction, so request the ride back with a little buffer before dinner."
+    }
   ],
-
   "contacts": [
-    {"name": "MacArthur Place, front desk", "lines": [{"label": "Call", "tel": "707.938.2929"}, {"label": "Text", "sms": "707.210.1037"}]},
-    {"name": "The Spa at MacArthur", "lines": [{"label": "Call", "tel": "707-933-3193"}]},
-    {"name": "Bohemian Highway Travel Co.", "note": "Your wine tour, Tuesday", "lines": [{"label": "Jordan, day of", "tel": "(415) 377-3167"}, {"label": "Ruby Fontana", "tel": "(707) 204-9660"}]},
-    {"name": "Cafe La Haye", "lines": [{"label": "Call", "tel": "707-935-5994"}]},
-    {"name": "Glen Ellen Star", "lines": [{"label": "Call", "tel": "707-343-1384"}]}
+    {
+      "name": "MacArthur Place, front desk",
+      "lines": [
+        {
+          "label": "Call",
+          "tel": "707.938.2929"
+        },
+        {
+          "label": "Text",
+          "sms": "707.210.1037"
+        }
+      ]
+    },
+    {
+      "name": "The Spa at MacArthur",
+      "lines": [
+        {
+          "label": "Call",
+          "tel": "707-933-3193"
+        }
+      ]
+    },
+    {
+      "name": "Bohemian Highway Travel Co.",
+      "note": "Your wine tour, Tuesday",
+      "lines": [
+        {
+          "label": "Jordan, day of",
+          "tel": "(415) 377-3167"
+        },
+        {
+          "label": "Ruby Fontana",
+          "tel": "(707) 204-9660"
+        }
+      ]
+    },
+    {
+      "name": "Cafe La Haye",
+      "lines": [
+        {
+          "label": "Call",
+          "tel": "707-935-5994"
+        }
+      ]
+    },
+    {
+      "name": "Glen Ellen Star",
+      "lines": [
+        {
+          "label": "Call",
+          "tel": "707-343-1384"
+        }
+      ]
+    }
   ],
-
   "keith": {
     "name": "Keith Pence",
     "title": "Travel Advisor, Suites With Keith (Fora)",
