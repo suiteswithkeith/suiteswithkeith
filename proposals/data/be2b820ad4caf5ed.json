@@ -266,10 +266,10 @@
           "distance": "About 15 minutes north of MacArthur Place",
           "party": 2,
           "seating": "Indoors",
-          "confirmation": "Table held for you",
+          "confirmation": "Confirmed directly with the restaurant",
           "keith_note": "Wood-fired, Ari Weiswasser's place, one of the best rooms in the valley.",
-          "status": "held_needs_card_to_secure",
-          "keith_todo": "Call 707-343-1384 ext 2 with a card, move it to Craig and Claudine Harper, then add booked_under, update confirmation and set status to confirmed."
+          "status": "confirmed",
+          "booked_under": "Craig and Claudine Harper"
         }
       ]
     },
