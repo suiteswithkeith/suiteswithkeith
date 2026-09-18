@@ -1,0 +1,1046 @@
+{
+  "_readme": "Source for proposals/4cd91b58c35cde84.html, Keith's Italy research trip working plan. Edit, then run: python3 tools/render_trip_plan.py 4cd91b58c35cde84. Stay and item statuses: confirmed, paid (confirmed and paid), pending (ask is out), open (nothing live), suggested (idea, not contacted), todo, fallback, ruled_out, info.",
+  "meta": {
+    "slug": "4cd91b58c35cde84",
+    "page_title": "Italy, September 22 to October 16",
+    "hero_eyebrow": "Research Trip · Suites With Keith / Fora",
+    "hero_names": "Italy",
+    "hero_place": "September 22 to October 16, 2026",
+    "hero_line": "Working plan for the Italy collection, releasing print and digital February / March 2027",
+    "hero_image": "../images/destinations/como-castello.jpg",
+    "hero_alt": "COMO Castello del Nero in the Chianti hills",
+    "intro_eyebrow": "The plan, one page",
+    "hello": "Twenty four nights, eight regions, one rental car. Every stay, ask, fallback and site visit in trip order, with a live count of what is confirmed and what is still open.",
+    "how_to_read": "Tap a region to jump to it. Each night shows the stay and who the ask is with. The Outstanding list at the bottom is ordered by urgency.",
+    "trip_start": "2026-09-22",
+    "trip_end": "2026-10-16",
+    "timezone": "Europe/Rome",
+    "updated": "2026-09-18"
+  },
+  "key": [
+    {
+      "status": "confirmed",
+      "meaning": "Booked and in writing, or confirmation on its way"
+    },
+    {
+      "status": "paid",
+      "meaning": "Confirmed and paid out of pocket"
+    },
+    {
+      "status": "pending",
+      "meaning": "Ask is out, waiting on a reply"
+    },
+    {
+      "status": "open",
+      "meaning": "Nothing live for this night"
+    },
+    {
+      "status": "suggested",
+      "meaning": "Worth a visit, not contacted"
+    },
+    {
+      "status": "todo",
+      "meaning": "Action on my side"
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Rental car",
+      "text": "Avis #26405920US2. Fiat 600, automatic, unlimited km. Pick up Florence Vespucci (FLR) Friday September 25 at 9:00 AM. Drop Rome Fiumicino (FCO) Saturday October 10 at 12:00 PM. $1,358.61 prepaid. No car from October 10 onward; Arno Travel asked to help with transfers for the Amalfi leg."
+    },
+    {
+      "title": "Why this trip",
+      "text": "Italy collection for Suites With Keith / Fora, releasing print and digital February / March 2027. Eccellenze hosts the first two Florence nights. Everything after is site inspections, shoots and hosted or paid stays."
+    },
+    {
+      "title": "Drive times",
+      "text": "Tuscany to Portofino about 3 hours. Portofino to Cernobbio about 2 hours 45. Como to the Dolomites about 3 hours. Alpe di Siusi to Montalcino about 4 hours 30, the longest day. Val d'Orcia to Rome about 2 hours 30. Rome to Positano about 3 hours."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "florence",
+      "name": "Florence",
+      "dates": "September 22 to 27",
+      "strip_label": "Eccellenze, Collegio, Volterra",
+      "summary": "Two Eccellenze days at Portrait Firenze, a night at Collegio alla Querce, then out to Borgo Pignano Volterra.",
+      "days": [
+        {
+          "date": "2026-09-22",
+          "label": "Arrive Florence",
+          "stay": {
+            "name": "Borgo Pignano Florence",
+            "status": "confirmed",
+            "detail": "Complimentary. Sister property to Borgo Pignano Volterra, opened September 2026. Andrea Buzzacchino (Reservations Manager) is sending the confirmation."
+          },
+          "items": [
+            {
+              "time": "8:00 PM",
+              "title": "Optional informal dinner with Arno Travel",
+              "detail": "Florence city centre. Casual.",
+              "status": "info"
+            }
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Eccellenze Day 1",
+          "stay": {
+            "name": "Portrait Firenze",
+            "status": "confirmed",
+            "detail": "Hosted by Eccellenze."
+          },
+          "items": [
+            {
+              "time": "9:00 AM",
+              "title": "Optional: Discovering Florence with Arno Travel",
+              "detail": "Art, history, craftsmanship. Transfer from the hotel arranged. Casual.",
+              "status": "info"
+            },
+            {
+              "time": "Midday",
+              "title": "Check in, private transfer to Portrait Firenze",
+              "status": "info"
+            },
+            {
+              "time": "12:45 PM",
+              "title": "Welcome lunch, Four Seasons Hotel Firenze",
+              "status": "info"
+            },
+            {
+              "time": "2:00 to 4:00 PM",
+              "title": "Eccellenze presentation and talks, Four Seasons",
+              "detail": "Business casual.",
+              "status": "info"
+            },
+            {
+              "time": "4:00 PM",
+              "title": "Transfer back to the hotel",
+              "status": "info"
+            },
+            {
+              "time": "5:45 PM",
+              "title": "Depart hotel, short walk through the city centre",
+              "status": "info"
+            },
+            {
+              "time": "6:00 to 10:00 PM",
+              "title": "An Evening with Lungarno Collection and Ferragamo",
+              "detail": "Cocktail attire.",
+              "status": "info"
+            },
+            {
+              "time": "10:00 PM",
+              "title": "Florence by night, optional drink",
+              "status": "info"
+            }
+          ],
+          "seen": "Four Seasons Firenze, Portrait Firenze, Lungarno Collection"
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Eccellenze Day 2",
+          "stay": {
+            "name": "Portrait Firenze",
+            "status": "confirmed",
+            "detail": "Hosted by Eccellenze."
+          },
+          "items": [
+            {
+              "time": "9:00 AM",
+              "title": "Depart Portrait on foot",
+              "status": "info"
+            },
+            {
+              "time": "9:30 AM",
+              "title": "A Privileged Glimpse: Florence Beyond the Masterpieces",
+              "status": "info"
+            },
+            {
+              "time": "11:00 AM",
+              "title": "Depart Florence",
+              "status": "info"
+            },
+            {
+              "time": "12:00 PM",
+              "title": "Lunch in the Tuscan countryside",
+              "detail": "Country chic.",
+              "status": "info"
+            },
+            {
+              "time": "About 4:00 PM",
+              "title": "Return to the hotel",
+              "status": "info"
+            },
+            {
+              "time": "6:00 PM",
+              "title": "Transfer from the hotel",
+              "status": "info"
+            },
+            {
+              "time": "6:30 PM",
+              "title": "Sunset aperitivo, Collegio alla Querce (Auberge)",
+              "detail": "Creative black tie.",
+              "status": "info"
+            },
+            {
+              "time": "7:30 PM",
+              "title": "Depart Collegio",
+              "status": "info"
+            },
+            {
+              "time": "8:00 PM",
+              "title": "Eccellenze gala dinner, noble Florentine palazzo",
+              "detail": "Creative black tie.",
+              "status": "info"
+            }
+          ],
+          "seen": "Collegio alla Querce"
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Car day, Chianti",
+          "stay": {
+            "name": "Collegio alla Querce",
+            "status": "paid",
+            "detail": "450 euros plus VAT, paid. Antonella Merli (DOSM), Vittoria Abbondante. Met on Instagram."
+          },
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Breakfast at leisure, Eccellenze checkout from Portrait",
+              "status": "info"
+            },
+            {
+              "time": "About 8:15 AM",
+              "title": "Depart for FLR",
+              "status": "info"
+            },
+            {
+              "time": "9:00 AM",
+              "title": "Pick up the rental car, Florence Vespucci Airport",
+              "detail": "Avis #26405920US2.",
+              "status": "confirmed"
+            },
+            {
+              "time": "Midday",
+              "title": "Lunch at COMO Castello del Nero, Chianti",
+              "detail": "Ilaria Socci hosting, GM joining if available. About 45 minutes from FLR. Ask to see a room or two.",
+              "status": "confirmed"
+            },
+            {
+              "time": "Afternoon",
+              "title": "Suggested visit: Villa La Massa",
+              "detail": "Candeli, on the road back into Florence. Not yet contacted.",
+              "status": "suggested"
+            },
+            {
+              "time": "Evening",
+              "title": "Check in at Collegio alla Querce",
+              "status": "info"
+            }
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Fiesole, then Volterra",
+          "stay": {
+            "name": "Borgo Pignano Volterra",
+            "status": "confirmed",
+            "detail": "Complimentary B&B. Must depart by noon on the 27th, the property goes to exclusive use.",
+            "todo": "Send arrival time and preferred site inspection slot. They asked."
+          },
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Suggested visit: Villa San Michele (Belmond), Fiesole",
+              "detail": "Minutes from Collegio. In the Federico Battistella email.",
+              "status": "pending"
+            },
+            {
+              "time": "Morning",
+              "title": "Suggested visit: Il Salviatino, Fiesole",
+              "detail": "Not contacted. Nicolas Zimmermann (Sales & Marketing), Angelo Cianci.",
+              "status": "open"
+            },
+            {
+              "time": "Early afternoon",
+              "title": "Optional: Borgo Pignano Florence site visit on the way out",
+              "detail": "They offered.",
+              "status": "suggested"
+            },
+            {
+              "time": "2:00 to 3:00 PM",
+              "title": "Drive to Volterra",
+              "detail": "About 75 minutes.",
+              "status": "info"
+            },
+            {
+              "time": "Late afternoon",
+              "title": "Site inspection and shoot at sunset",
+              "status": "info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "western-tuscany",
+      "name": "Western Tuscany",
+      "dates": "September 27 to 29",
+      "strip_label": "Casole or San Felice, else Castelfalfi",
+      "summary": "Two nights, nothing confirmed. This is the biggest gap in the trip. Belmond and Borgo San Felice are both out, Castelfalfi is the fallback with a Monday deadline.",
+      "days": [
+        {
+          "date": "2026-09-27",
+          "label": "Volterra sunrise, then open",
+          "stay": {
+            "name": "Open, nothing live",
+            "status": "open",
+            "detail": "See the live asks and fallback below. Availability is better on the 28th at both Casole and San Felice, so a one night ask may land here first.",
+            "options": [
+              {
+                "name": "Castello di Casole (Belmond)",
+                "status": "pending",
+                "detail": "Federico Battistella, Ludovica Rossi. Asked for 2 nights, flexible to 1. Availability better on the 28th."
+              },
+              {
+                "name": "Borgo San Felice",
+                "status": "pending",
+                "detail": "Zaira De Biasio (DOS). Availability better on the 28th. Nudge drafted, unsent."
+              },
+              {
+                "name": "Castelfalfi",
+                "status": "fallback",
+                "detail": "550 euros per night offered by Sara Bonechi and Alberto Liparoti, site inspection included. 1,100 euros for 2 nights. Decision deadline Monday September 21."
+              }
+            ]
+          },
+          "items": [
+            {
+              "time": "Sunrise",
+              "title": "Shoot at Borgo Pignano Volterra before the noon checkout",
+              "status": "info"
+            },
+            {
+              "time": "By 12:00 PM",
+              "title": "Check out of Borgo Pignano Volterra",
+              "detail": "Property goes to exclusive use.",
+              "status": "info"
+            }
+          ]
+        },
+        {
+          "date": "2026-09-28",
+          "label": "Site visits out west",
+          "stay": {
+            "name": "Open, nothing live",
+            "status": "open",
+            "detail": "Same asks as the 27th. Both Casole and San Felice said the 28th is the better night."
+          },
+          "items": [
+            {
+              "time": "Late morning",
+              "title": "Castelfalfi site inspection",
+              "detail": "Offered by Sara Bonechi. Suggest September 28 late morning. Reply drafted, unsent.",
+              "status": "todo"
+            },
+            {
+              "time": "2:00 to 4:00 PM",
+              "title": "The Place Firenze, offered by Marina Tunjic",
+              "detail": "Conflicts with being out west.",
+              "status": "todo",
+              "todo": "Counter with September 29 morning or decline gracefully."
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "title": "Visits this block",
+          "note": "All within about 45 minutes of Volterra and Casole.",
+          "items": [
+            {
+              "name": "Castelfalfi",
+              "status": "todo",
+              "detail": "Site inspection offered. Suggest September 28 late morning. Reply drafted, unsent."
+            },
+            {
+              "name": "Castello di Casole",
+              "status": "suggested",
+              "detail": "If not staying."
+            },
+            {
+              "name": "Borgo Santo Pietro",
+              "status": "open",
+              "detail": "Never contacted. About 45 minutes."
+            },
+            {
+              "name": "The Place Firenze",
+              "status": "todo",
+              "detail": "Marina Tunjic offered September 28, 2 to 4 PM. Conflicts with being out west. Counter with September 29 morning or decline gracefully."
+            }
+          ]
+        },
+        {
+          "title": "Ruled out",
+          "items": [
+            {
+              "name": "Castello del Nero",
+              "status": "ruled_out",
+              "detail": "No."
+            },
+            {
+              "name": "Il Borro",
+              "status": "ruled_out",
+              "detail": "No."
+            },
+            {
+              "name": "Borgo Pignano",
+              "status": "ruled_out",
+              "detail": "Exclusive use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portofino",
+      "name": "Portofino",
+      "dates": "September 29 to October 1",
+      "strip_label": "Splendido asked, 2 nights",
+      "summary": "Two nights riding on the Belmond email. If Splendido says no, either extend Lake Como to five nights or stay in Tuscany and go straight to Villa d'Este on the 1st.",
+      "drive": "Tuscany to Portofino about 3 hours. Portofino to Cernobbio about 2 hours 45.",
+      "days": [
+        {
+          "date": "2026-09-29",
+          "label": "Drive north via Lucca",
+          "stay": {
+            "name": "Open, Splendido asked",
+            "status": "open",
+            "options": [
+              {
+                "name": "Splendido (Belmond)",
+                "status": "pending",
+                "detail": "In the Federico Battistella email. 2 nights."
+              },
+              {
+                "name": "Splendido Mare",
+                "status": "pending",
+                "detail": "Site visit requested in the same email."
+              }
+            ]
+          },
+          "items": [
+            {
+              "time": "On the way",
+              "title": "La Monastica, Buggiano Castello",
+              "detail": "About 1 hour northwest of Florence toward Lucca, roughly on the A11 route. Placed clients here before. Never contacted. Good lunch or visit stop.",
+              "status": "suggested"
+            },
+            {
+              "time": "Afternoon",
+              "title": "Drive Tuscany to Portofino",
+              "detail": "About 3 hours.",
+              "status": "info"
+            }
+          ]
+        },
+        {
+          "date": "2026-09-30",
+          "label": "Portofino",
+          "stay": {
+            "name": "Open, Splendido asked",
+            "status": "open",
+            "detail": "Second night of the Splendido ask."
+          },
+          "items": []
+        }
+      ],
+      "groups": [
+        {
+          "title": "If Splendido says no",
+          "items": [
+            {
+              "name": "Extend Lake Como to 5 nights",
+              "status": "fallback",
+              "detail": "September 29 to October 4."
+            },
+            {
+              "name": "Stay in Tuscany",
+              "status": "fallback",
+              "detail": "Go straight to Villa d'Este on October 1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lake-como",
+      "name": "Lake Como",
+      "dates": "October 1 to 4",
+      "strip_label": "Villa d'Este, Serbelloni, EDITION",
+      "summary": "Villa d'Este pending, then two confirmed nights at Villa Serbelloni and the EDITION with a boat day for site visits in between.",
+      "days": [
+        {
+          "date": "2026-10-01",
+          "label": "Cernobbio",
+          "stay": {
+            "name": "Villa d'Este, Cernobbio",
+            "status": "pending",
+            "detail": "Natalia Mackowiak (Assistant DOS), Tina Gassert (DOS Americas). Warm ask, the Meckleys stayed here. Natalia replied September 16, needs reading. Ask about the tennis courts.",
+            "todo": "Read Natalia's reply from September 16."
+          },
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Drive Portofino to Cernobbio",
+              "detail": "About 2 hours 45.",
+              "status": "info"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "label": "Bellagio, boat day",
+          "stay": {
+            "name": "Grand Hotel Villa Serbelloni, Bellagio",
+            "status": "confirmed",
+            "detail": "Complimentary B&B. Cristina Fusari (Sales & Revenue), Francesca Barba (DOSM)."
+          },
+          "items": [
+            {
+              "time": "All day",
+              "title": "Boat day, site visits by water from Bellagio",
+              "detail": "Asked the Serbelloni concierge to help arrange the boat.",
+              "status": "info"
+            },
+            {
+              "time": "By water",
+              "title": "Grand Hotel Tremezzo, site visit",
+              "detail": "Gaia Bartoletti and Sabrina Ahmed, Gala group. They declined the stay.",
+              "status": "pending"
+            },
+            {
+              "time": "By water",
+              "title": "Passalacqua, site visit",
+              "detail": "Same Gala group. You booked the Sherwanis here in August.",
+              "status": "pending"
+            },
+            {
+              "time": "By water",
+              "title": "Il Sereno, site visit",
+              "detail": "Asked Gaia Rosetti (DOSM), no reply.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "label": "Cadenabbia",
+          "stay": {
+            "name": "The Lake Como EDITION, Cadenabbia",
+            "status": "paid",
+            "detail": "400 euros plus breakfast, paid. Michael Spada. Asked to see additional rooms beyond my own."
+          },
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Car ferry Bellagio to Cadenabbia",
+              "detail": "About 15 to 20 minutes, drive on and off.",
+              "status": "info"
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "title": "Also pending on the lake",
+          "items": [
+            {
+              "name": "Mandarin Oriental Lago di Como",
+              "status": "pending",
+              "detail": "Anna Fejzo, Tom Puleio. Nudged September 18."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dolomites",
+      "name": "Dolomites",
+      "dates": "October 4 to 8",
+      "strip_label": "Forestis, Aman visit, COMO Alpina",
+      "summary": "Forestis is confirmed for two nights and COMO Alpina for one. Miramonti decides the shape: if they host October 4, everything shifts a day and the open night on the 6th disappears.",
+      "drive": "Como to the Dolomites about 3 hours.",
+      "days": [
+        {
+          "date": "2026-10-04",
+          "label": "Up to the Dolomites",
+          "stay": {
+            "name": "Forestis, above Bressanone",
+            "status": "confirmed",
+            "detail": "Night one of two as booked (October 4 to 6). Miramonti Boutique Hotel, Avelengo above Merano, is asked for this night or a site visit that afternoon. If they host, Forestis shifts to October 5 to 7 and COMO Alpina to October 7 to 8. If visit only, continue to Forestis.",
+            "options": [
+              {
+                "name": "Miramonti Boutique Hotel, Avelengo",
+                "status": "pending",
+                "detail": "General inbox, asked them to route to sales. Asked for the night of October 4 or a site visit that afternoon."
+              }
+            ]
+          },
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Drive Como to the Dolomites",
+              "detail": "About 3 hours.",
+              "status": "info"
+            },
+            {
+              "time": "Afternoon",
+              "title": "Miramonti, Avelengo: stay or site visit",
+              "detail": "Above Merano. Depends on their reply.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-05",
+          "label": "Forestis",
+          "stay": {
+            "name": "Forestis, above Bressanone",
+            "status": "confirmed",
+            "detail": "Hosted, 2 nights. Daniela (marketing@forestis.it). Suite, single occupancy. They have been flexible on dates twice."
+          },
+          "items": []
+        },
+        {
+          "date": "2026-10-06",
+          "label": "Aman, then Alpe di Siusi",
+          "stay": {
+            "name": "Open",
+            "status": "open",
+            "detail": "Unless Miramonti hosts the 4th, which pushes Forestis to cover this night.",
+            "options": [
+              {
+                "name": "COMO Alpina Dolomites, second night",
+                "status": "todo",
+                "detail": "Ask Deborah Carlin for a second night. She said availability opens from the 5th. Not yet asked."
+              },
+              {
+                "name": "Gardena Grödnerhof, Ortisei",
+                "status": "pending",
+                "detail": "Alex Demetz (DOSM), Silvia Bernardi. Sent September 15, no reply."
+              },
+              {
+                "name": "Badia Hill, Alta Badia",
+                "status": "suggested",
+                "detail": "Backup idea, not contacted. Next to Aman."
+              }
+            ]
+          },
+          "items": [
+            {
+              "time": "Late morning",
+              "title": "Aman Rosa Alpina, San Cassiano, site visit",
+              "detail": "Elisa De Nicolo (Sales Manager). Asked for about 11 AM October 6, fallback the 7th. About 1 hour from Forestis. Met Kaya Onaran and the Aman team in Montenegro, June 2026.",
+              "status": "pending"
+            },
+            {
+              "time": "Afternoon",
+              "title": "About 1 hour west to Alpe di Siusi",
+              "status": "info"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "label": "Alpe di Siusi",
+          "stay": {
+            "name": "COMO Alpina Dolomites, Alpe di Siusi",
+            "status": "confirmed",
+            "detail": "1 night complimentary B&B, October 7 to 8. Deborah Carlin (Sales Manager). Reception sending the confirmation."
+          },
+          "items": [
+            {
+              "time": "Free day",
+              "title": "Suggested visit: ADLER Lodge Alpe",
+              "detail": "Next door on Alpe di Siusi. Not contacted.",
+              "status": "suggested"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "val-dorcia",
+      "name": "Val d'Orcia",
+      "dates": "October 8 to 10",
+      "strip_label": "Rosewood, Banfi or Monteverdi",
+      "summary": "The longest drive of the trip lands in Montalcino with nothing confirmed. Rosewood for the 8th, Banfi or Monteverdi for the 9th, Poggio alla Sala held as the backup.",
+      "drive": "Alpe di Siusi to Montalcino about 4 hours 30. Possible stop in Modena (Casa Maria Luigia) or Bologna, both on the A1.",
+      "days": [
+        {
+          "date": "2026-10-08",
+          "label": "Long drive south",
+          "stay": {
+            "name": "Open, Rosewood asked",
+            "status": "open",
+            "options": [
+              {
+                "name": "Rosewood Castiglion del Bosco",
+                "status": "pending",
+                "detail": "Narrowed to 1 night, October 8 to 9. Claudia Chimenti (out of office until Monday September 21), Mitja Dobaja copied. Ashton Kelly made the intro."
+              }
+            ]
+          },
+          "items": [
+            {
+              "time": "All day",
+              "title": "Drive Alpe di Siusi to Montalcino",
+              "detail": "About 4 hours 30, the longest day of the trip. Possible stop at Casa Maria Luigia in Modena, or Bologna, both on the A1.",
+              "status": "info"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "label": "Montalcino, Montepulciano",
+          "stay": {
+            "name": "Open, two asks out",
+            "status": "open",
+            "options": [
+              {
+                "name": "Castello Banfi Il Borgo",
+                "status": "pending",
+                "detail": "Maddalena Vedele (Sales Manager). Asked for October 9. Only availability in the valley for that night. Wine estate, led with the wine and spirits background."
+              },
+              {
+                "name": "Monteverdi Tuscany",
+                "status": "pending",
+                "detail": "Peggy Picano-Nacci (DOS EMEA), Niqui Wigley (Sales Manager, US). Asked for October 9. Buyout on the 8th."
+              }
+            ]
+          },
+          "items": [
+            {
+              "time": "Day",
+              "title": "Lupaia, Montepulciano, site visit",
+              "detail": "Sold out, so asked for a walk-through only. About 40 minutes from Montalcino, 15 from Poggio alla Sala.",
+              "status": "pending"
+            },
+            {
+              "time": "Day",
+              "title": "Banfi or Monteverdi, whichever does not host",
+              "status": "suggested"
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "title": "Fallback if all three say no",
+          "items": [
+            {
+              "name": "Precise Tale Poggio alla Sala, Montepulciano",
+              "status": "fallback",
+              "detail": "About $740 per night, 10 to 17 percent commission, good availability. 45 minutes from Rosewood, 20 from Monteverdi, 15 from Lupaia. Not contacted, holding as backup."
+            },
+            {
+              "name": "Grand Hotel Continental Siena",
+              "status": "fallback",
+              "detail": "About $1,095 for 2 nights."
+            },
+            {
+              "name": "Badia di Pomaio, Arezzo",
+              "status": "fallback",
+              "detail": "About $725."
+            }
+          ]
+        },
+        {
+          "title": "Ruled out",
+          "items": [
+            {
+              "name": "Reschio",
+              "status": "ruled_out",
+              "detail": "No to hosting, and 1 hour 45 east, too far."
+            },
+            {
+              "name": "Castello di Velona",
+              "status": "ruled_out",
+              "detail": "Sold out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rome",
+      "name": "Porto Ercole & Rome",
+      "dates": "October 10 to 13",
+      "strip_label": "Pellicano, then La Minerva",
+      "summary": "Car drop at Fiumicino at noon on the 10th, then a night that depends on Il Pellicano, then two confirmed nights at La Minerva.",
+      "days": [
+        {
+          "date": "2026-10-10",
+          "label": "Drop the car, coast or Rome",
+          "stay": {
+            "name": "Depends on Il Pellicano",
+            "status": "open",
+            "options": [
+              {
+                "name": "Il Pellicano, Porto Ercole",
+                "status": "pending",
+                "detail": "Night of October 10. Gianluca Tammaro (DOS), Francesca Schiraldi. Follow-up drafted, unsent. Mezzatorre released."
+              },
+              {
+                "name": "Hotel de Russie or Hotel de la Ville (Rocco Forte)",
+                "status": "pending",
+                "detail": "For October 10 if Pellicano falls through. Cristina Frazzingaro. Draft ready, unsent, hold until Gianluca replies."
+              }
+            ]
+          },
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Drive Val d'Orcia to Rome",
+              "status": "info"
+            },
+            {
+              "time": "By 12:00 PM",
+              "title": "Drop the car at Fiumicino",
+              "detail": "The noon drop conflicts with driving to Porto Ercole the same day. Worst case, extend the car a day and drop it on the 11th on the way into Rome.",
+              "status": "todo",
+              "todo": "Resolve the car drop versus Porto Ercole. Extending the rental is the fallback."
+            },
+            {
+              "time": "Nearby",
+              "title": "Hotel La Roqqa, Porto Ercole",
+              "detail": "30 minutes from Pellicano. Newer, design-led. Worth a visit ask.",
+              "status": "suggested"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "label": "Rome",
+          "stay": {
+            "name": "Orient Express La Minerva",
+            "status": "confirmed",
+            "detail": "Egle Antanaityte (Commercial Director, Italy). 1 night complimentary plus 1 at 670 euros including VAT and breakfast. Confirmation received."
+          },
+          "items": [
+            {
+              "time": "En route",
+              "title": "La Posta Vecchia, site visit and lunch",
+              "detail": "On the way into Rome, in the same email as Pellicano.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "label": "Rome",
+          "stay": {
+            "name": "Orient Express La Minerva",
+            "status": "paid",
+            "detail": "The paid night, 670 euros including VAT and breakfast."
+          },
+          "items": [
+            {
+              "time": "Open",
+              "title": "Rome site visits, nothing arranged",
+              "detail": "Options: Bulgari, Hassler, Hotel de Russie, Hotel de la Ville. Six Senses declined at 600 euros plus VAT, passed.",
+              "status": "open"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amalfi",
+      "name": "Amalfi Coast",
+      "dates": "October 13 to 16",
+      "strip_label": "Sirenuse, then two open nights",
+      "summary": "Le Sirenuse for one night, Il San Pietro to see, then two nights east in Amalfi that are still uncovered. Depart Naples on the 16th.",
+      "drive": "Rome to Positano about 3 hours. No car from October 10, Arno Travel asked to help with transfers for this leg.",
+      "days": [
+        {
+          "date": "2026-10-13",
+          "label": "Positano",
+          "stay": {
+            "name": "Le Sirenuse, Positano",
+            "status": "pending",
+            "detail": "Leeann Pisacane (DOS, US based), Giulia Sersale (Sales Director), Francesco Sersale copied."
+          },
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Transfer Rome to Positano",
+              "detail": "About 3 hours. Arno asked to help.",
+              "status": "todo"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "label": "San Pietro, then Amalfi",
+          "stay": {
+            "name": "Open, Amalfi asks out",
+            "status": "open",
+            "detail": "First of two Amalfi nights, October 14 to 16.",
+            "options": [
+              {
+                "name": "Santa Caterina",
+                "status": "pending",
+                "detail": "Crescenzo Gargano (DOSM), Valeria D'Amato. Warm ask, the Meckleys just stayed. Asked for both nights, flexible to 1."
+              },
+              {
+                "name": "Borgo Santandrea",
+                "status": "pending",
+                "detail": "Pending since September 15, no reply. Antonella Gatto (PR & Sales)."
+              },
+              {
+                "name": "Hotel Miramalfi",
+                "status": "suggested",
+                "detail": "Idea, not contacted. Autentico Hotels, same group as La Monastica."
+              }
+            ]
+          },
+          "items": [
+            {
+              "time": "11:00 AM",
+              "title": "Il San Pietro di Positano, site visit",
+              "detail": "Agostino Piccolo (DOSM). He has since said he is flexible on dates, so this could move. Asked about the tennis court.",
+              "status": "confirmed"
+            },
+            {
+              "time": "Afternoon",
+              "title": "Move east to Amalfi",
+              "status": "info"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "label": "Amalfi, Ravello",
+          "stay": {
+            "name": "Open, Amalfi asks out",
+            "status": "open",
+            "detail": "Second Amalfi night, same asks as the 14th."
+          },
+          "items": [
+            {
+              "time": "Day",
+              "title": "Santa Caterina, Borgo Santandrea or Miramalfi, whichever is not the stay",
+              "detail": "All within about 25 minutes.",
+              "status": "suggested"
+            },
+            {
+              "time": "Day",
+              "title": "Caruso (Belmond), Ravello",
+              "detail": "Could add to the Federico email.",
+              "status": "suggested"
+            },
+            {
+              "time": "Day",
+              "title": "Palazzo Avino, Ravello",
+              "detail": "Not contacted.",
+              "status": "suggested"
+            },
+            {
+              "time": "Day",
+              "title": "Casa Angelina, Praiano",
+              "detail": "Not contacted.",
+              "status": "suggested"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "label": "Depart Naples",
+          "departure": true,
+          "items": [
+            {
+              "time": "Departure",
+              "title": "Depart Naples",
+              "detail": "Transfer needed.",
+              "status": "todo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outstanding": [
+    {
+      "title": "Before Monday September 21",
+      "items": [
+        "Borgo Pignano Volterra: send arrival time and site inspection slot (they asked)",
+        "Castelfalfi: reply to Sara taking the site inspection (draft ready)",
+        "Borgo San Felice: send the nudge, mention the 28th works (draft ready)",
+        "The Place Firenze: counter Marina's September 28 offer",
+        "Decide on Castelfalfi at 1,100 euros if Belmond is silent",
+        "Read Natalia's Villa d'Este reply (came in September 16, unread)"
+      ]
+    },
+    {
+      "title": "This week",
+      "start": 7,
+      "items": [
+        "Il Pellicano follow-up (draft ready), unlocks the October 10 decision",
+        "COMO Alpina: ask Deborah for a second night (October 6)",
+        "Resolve the October 10 car drop versus Porto Ercole conflict. Worst case, extend the car",
+        "Rome site visits: nothing arranged",
+        "Amalfi: 2 of 3 nights uncovered"
+      ]
+    }
+  ],
+  "lists": [
+    {
+      "title": "Waiting on",
+      "items": [
+        "Belmond / Federico Battistella: 4 nights ride on this (Casole and Splendido)",
+        "Miramonti: decides the Dolomites shape",
+        "Rosewood / Claudia: back Monday",
+        "Banfi, Monteverdi, Lupaia: Val d'Orcia",
+        "Le Sirenuse, Santa Caterina: Amalfi",
+        "Gardena Grödnerhof, Mandarin Oriental, Il Sereno"
+      ]
+    },
+    {
+      "title": "Not contacted, worth considering",
+      "items": [
+        "Il Salviatino",
+        "Villa La Massa",
+        "Borgo Santo Pietro",
+        "La Monastica",
+        "ADLER Lodge Alpe",
+        "Badia Hill",
+        "La Roqqa",
+        "Palazzo Avino",
+        "Casa Angelina",
+        "Miramalfi",
+        "Poggio alla Sala"
+      ]
+    }
+  ],
+  "out_of_pocket": [
+    {
+      "name": "Collegio alla Querce",
+      "amount": 495,
+      "note": "450 euros plus VAT"
+    },
+    {
+      "name": "The Lake Como EDITION",
+      "amount": 400,
+      "note": "plus breakfast"
+    },
+    {
+      "name": "Orient Express La Minerva",
+      "amount": 670,
+      "note": "one paid night, the other comped"
+    }
+  ]
+}
