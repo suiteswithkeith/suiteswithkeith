@@ -17,6 +17,31 @@
   .jc-numbers .big { display: block; font-family: var(--font-display); font-weight: 500; font-size: 1.5rem; color: var(--charcoal); margin-top: 6px; }
   .jc-numbers .big small { font-family: var(--font-body); font-weight: 300; font-size: 1rem; color: var(--ink-soft); }
 
+  /* Day-by-day list */
+  .jc-daylist { display: flex; flex-direction: column; margin: 18px 0 44px; border-top: 1px solid var(--hairline); }
+  .jc-daylist .row { display: grid; grid-template-columns: 120px 1.3fr 1fr auto; gap: 14px; align-items: center; padding: 10px 12px; border-bottom: 1px solid var(--hairline); text-decoration: none; color: inherit; background: var(--white); min-height: 44px; }
+  .jc-daylist .row:hover { background: var(--cream-deep); }
+  .jc-daylist .row.open { background: var(--red-bg); }
+  .jc-daylist .row.pending, .jc-daylist .row.todo { background: var(--amber-bg); }
+  .jc-daylist .row.today { box-shadow: inset 3px 0 0 var(--olive); }
+  .jc-daylist .d { font-family: var(--font-body); font-size: 0.9rem; color: var(--ink-soft); white-space: nowrap; }
+  .jc-daylist .d b { font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; color: var(--charcoal); margin-right: 6px; }
+  .jc-daylist .s { font-family: var(--font-body); font-weight: 400; font-size: 1rem; color: var(--charcoal); line-height: 1.35; }
+  .jc-daylist .l { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); line-height: 1.35; }
+  .jc-daylist .jc-chip { margin: 0; }
+  @media (max-width: 900px) {
+    .jc-daylist .row { grid-template-columns: 92px 1fr auto; }
+    .jc-daylist .l { display: none; }
+  }
+  @media (max-width: 600px) {
+    .jc-daylist .row { grid-template-columns: 76px 1fr auto; gap: 10px; padding: 10px 10px; }
+    .jc-daylist .d { font-size: 0.78rem; }
+    .jc-daylist .d b { font-size: 0.98rem; margin-right: 4px; }
+    .jc-daylist .s { font-size: 0.94rem; }
+    .jc-daylist .jc-chip { font-size: 0.58rem; padding: 3px 6px; }
+  }
+  @media print { .jc-daylist .row { break-inside: avoid; background: #fff; } }
+
   /* Region grid */
   .jc-strip .grid.regions { grid-template-columns: repeat(4, 1fr); }
   .jc-strip .cell.open-cell { border-top-color: var(--red-line); }

@@ -190,6 +190,19 @@ def render(data):
     a('''
 <section class="jc-strip" id="days">
   <div class="jc-container">
+    <span class="jc-eyebrow">Day by Day</span>
+    <div class="jc-daylist">
+''')
+    for b in blocks:
+        for d in b['days']:
+            _, wd, _, n, mon = day_bits(d['date'])
+            if d.get('departure'):
+                stay, status = 'Depart Naples, trip ends', 'departure'
+            else:
+                stay, status = d['stay']['name'], d['stay']['status']
+            a('      <a class="row %s" href="#%s" data-date="%s"><span class="d"><b>%s %d</b> %s</span><span class="s">%s</span><span class="l">%s</span>%s</a>\n'
+              % (status, day_id(d['date']), d['date'], mon, n, wd[:3], e(stay), e(d.get('label', '')), chip(status)))
+    a('''    </div>
     <span class="jc-eyebrow">Essentials</span>
     <div class="jc-transfers" style="margin: 18px 0 44px;">
 ''')
