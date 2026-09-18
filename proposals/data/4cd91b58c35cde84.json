@@ -514,21 +514,26 @@
       "name": "Lake Como",
       "dates": "October 1 to 4",
       "strip_label": "Villa d'Este, Serbelloni, EDITION",
-      "summary": "Villa d'Este pending for the 1st, Il Sereno nudged for the 1st or 3rd, then Villa Serbelloni and the EDITION confirmed. Site visits sort by shore: Il Sereno and Passalacqua from the Cernobbio end, Tremezzo from Cadenabbia.",
+      "summary": "Ideal lake: three hosted nights at Villa d'Este, Il Sereno and Villa Serbelloni. Il Sereno gets first call on the 1st if they host. Villa d'Este only if complimentary. Serbelloni is confirmed, the EDITION is the paid night that would drop if the ideal lands.",
       "days": [
         {
           "date": "2026-10-01",
           "label": "Cernobbio",
           "stay": {
-            "name": "Villa d'Este, Cernobbio",
+            "name": "Il Sereno first, Villa d'Este if free",
             "status": "pending",
-            "detail": "Natalia Mackowiak (Assistant DOS), Tina Gassert (DOS Americas). Warm ask, the Meckleys stayed here. Natalia replied September 16, needs reading. Ask about the tennis courts.",
-            "todo": "Read Natalia's reply from September 16.",
+            "detail": "Priority for this night: Il Sereno if Gaia hosts. Villa d'Este only if it comes back complimentary, even if Natalia replies first. If both host, take Sereno here and see whether Este can move to the 3rd.",
+            "todo": "Read Natalia's reply from September 16. If it is a paid offer, pass.",
             "options": [
               {
                 "name": "Il Sereno, Torno",
                 "status": "pending",
-                "detail": "Nudged Gaia Rosetti (DOSM) September 18: asked for a hosted stay October 1 or 3, otherwise a site visit. Torno is 20 minutes east of Como, an easy stop on the drive in from Portofino."
+                "detail": "First choice. Nudged Gaia Rosetti (DOSM) September 18: hosted night October 1 or 3, otherwise a site visit. Torno is 20 minutes east of Como, on the way in from Portofino."
+              },
+              {
+                "name": "Villa d'Este, Cernobbio",
+                "status": "pending",
+                "detail": "Only if complimentary. Natalia Mackowiak (Assistant DOS), Tina Gassert (DOS Americas). Warm ask, the Meckleys stayed here. Natalia replied September 16, needs reading. Ask about the tennis courts."
               }
             ]
           },
@@ -588,7 +593,7 @@
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
             "status": "paid",
-            "detail": "400 euros plus breakfast, paid. Michael Spada. Asked to see additional rooms beyond my own. Il Sereno was also asked for this night; if Gaia offers October 3, decide against the paid EDITION night."
+            "detail": "400 euros plus breakfast, paid. Michael Spada. Asked to see additional rooms beyond my own. This is the night that drops if the lake comes together as Este, Sereno and Serbelloni, all hosted."
           },
           "items": [
             {
