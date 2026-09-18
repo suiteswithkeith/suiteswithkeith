@@ -2,7 +2,7 @@
   "_readme": "Client-safe source for proposals/be2b820ad4caf5ed.html. This repo is public: no client emails or phones, no prices, no internal notes in here. Edit, then run: python3 tools/render_itinerary.py be2b820ad4caf5ed",
   "meta": {
     "slug": "be2b820ad4caf5ed",
-    "build": "draft",
+    "build": "final",
     "_build_help": "draft shows the amber To be confirmed chips plus the dashed For Keith notes. final hides the For Keith notes. A chip disappears when its event status is set to confirmed.",
     "page_title": "Craig & Claudine in Sonoma",
     "hero_names": "Craig & Claudine",
