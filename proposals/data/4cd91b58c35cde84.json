@@ -46,7 +46,7 @@
   "essentials": [
     {
       "title": "Flights",
-      "text": "Out: land Florence (FLR) Tuesday September 22 at 10:20 PM on BA0522. Arno Travel's transfer meets you outside baggage claim with an ECCELLENZE sign and takes you to Borgo Pignano Florence. Home: Friday October 16, United KYMT99. UA967 Naples (NAP) 2:00 PM to Newark (EWR) 6:20 PM, then UA1409 Newark 8:40 PM to Austin (AUS) 11:43 PM. Economy, seats 36F and 15D, $2,260.23, fully refundable. Watching for award space; cancel KYMT99 if an award opens."
+      "text": "Out, British Airways: BA0186 Austin (AUS) Monday September 21 at 10:30 PM to Heathrow (LHR) Terminal 5, lands 1:55 PM September 22, Club World. Connect at Terminal 5, about 5 hours. BA0522 Heathrow 7:05 PM to Florence Peretola (FLR), lands 10:20 PM, Club Europe. Two checked bags at 32 kg each on both legs. Arno Travel's transfer meets you outside baggage claim with an ECCELLENZE sign and takes you to Borgo Pignano Florence. Home, United KYMT99: UA967 Naples (NAP) Friday October 16 at 2:00 PM to Newark (EWR) 6:20 PM, then UA1409 Newark 8:40 PM to Austin (AUS) 11:43 PM. Economy, seats 36F and 15D, $2,260.23, fully refundable. Watching for award space; cancel KYMT99 if an award opens."
     },
     {
       "title": "Rental car",
@@ -71,7 +71,7 @@
       "days": [
         {
           "date": "2026-09-22",
-          "label": "Land Florence, late",
+          "label": "Austin to Florence via Heathrow",
           "stay": {
             "name": "Borgo Pignano Florence",
             "status": "confirmed",
@@ -79,16 +79,34 @@
           },
           "items": [
             {
+              "time": "Sep 21, 10:30 PM",
+              "title": "BA0186 Austin (AUS) to Heathrow (LHR), Club World",
+              "detail": "Departs Monday night, lands Terminal 5 at 1:55 PM on the 22nd. Two checked bags at 32 kg.",
+              "status": "confirmed"
+            },
+            {
+              "time": "1:55 PM",
+              "title": "Land Heathrow Terminal 5, about 5 hours to connect",
+              "detail": "Same terminal for the Florence flight.",
+              "status": "info"
+            },
+            {
+              "time": "7:05 PM",
+              "title": "BA0522 Heathrow (LHR) to Florence (FLR), Club Europe",
+              "detail": "Lands Peretola at 10:20 PM.",
+              "status": "confirmed"
+            },
+            {
+              "time": "10:20 PM",
+              "title": "Land Florence, Arno Travel transfer to Borgo Pignano Florence",
+              "detail": "Arno's assistant waits outside baggage claim with an ECCELLENZE sign and your name. Arno 24/7 line, call or WhatsApp: +39 344 344 3549.",
+              "status": "confirmed"
+            },
+            {
               "time": "8:00 PM",
               "title": "Optional informal dinner with Arno Travel",
               "detail": "Florence city centre. Casual. You land at 10:20 PM, so this one is out.",
               "status": "info"
-            },
-            {
-              "time": "10:20 PM",
-              "title": "Land Florence (FLR) on BA0522",
-              "detail": "Arno Travel's assistant waits outside baggage claim with an ECCELLENZE sign and your name, then drives you to Borgo Pignano Florence. Arno 24/7 line, call or WhatsApp: +39 344 344 3549.",
-              "status": "confirmed"
             }
           ]
         },
