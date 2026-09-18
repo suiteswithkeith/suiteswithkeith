@@ -438,7 +438,7 @@
       "name": "Portofino",
       "dates": "September 29 to October 1",
       "strip_label": "Splendido asked, 2 nights",
-      "summary": "Two nights riding on the Belmond email. If Splendido says no, either extend Lake Como to five nights or stay in Tuscany and go straight to Villa d'Este on the 1st.",
+      "summary": "Two nights riding on the Belmond email. If Splendido says no, three ways to go: extend Lake Como to five nights, two nights in Milan instead, or stay in Tuscany and go straight to Villa d'Este on the 1st.",
       "drive": "Tuscany to Portofino about 3 hours. Portofino to Cernobbio about 2 hours 45.",
       "days": [
         {
@@ -494,6 +494,11 @@
               "name": "Extend Lake Como to 5 nights",
               "status": "fallback",
               "detail": "September 29 to October 4."
+            },
+            {
+              "name": "Milan, 2 nights",
+              "status": "fallback",
+              "detail": "September 29 to October 1, then down to Como on the 1st as planned. Nothing asked yet. Dropped earlier in favour of Tuscany and Portofino, back on the table as an alternative to five nights on the lake."
             },
             {
               "name": "Stay in Tuscany",
