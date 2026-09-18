@@ -83,9 +83,8 @@
           "title": "Guided mountain bike ride in Marin with NorCal Flow",
           "link": "https://www.norcalflow.com/",
           "link_label": "NorCal Flow",
-          "details": "NorCal Flow meets you at the trailhead with the bike, gear and a guide. Marin trailheads are roughly 35 minutes from Sonoma. Be back at the hotel and cleaned up by 12:45 PM for the wine tour pickup.",
-          "status": "arranged_by_client",
-          "keith_todo": "Get the meeting time and trailhead from Craig and put them in time and location here."
+          "details": "Craig has details.",
+          "status": "arranged_by_client"
         },
         {
           "time": "9:00 AM",
