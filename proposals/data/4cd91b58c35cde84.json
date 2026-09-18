@@ -222,6 +222,12 @@
               "title": "Eccellenze gala dinner, noble Florentine palazzo",
               "detail": "Creative black tie.",
               "status": "info"
+            },
+            {
+              "time": "If a gap",
+              "title": "Suggested visit: Palazzo Portinari Salviati, two Michelin Keys",
+              "detail": "Ten minutes on foot from Portrait. Also fits the morning of the 25th before the airport. Not contacted.",
+              "status": "suggested"
             }
           ],
           "seen": "Collegio alla Querce"
@@ -407,6 +413,11 @@
               "name": "The Place Firenze",
               "status": "todo",
               "detail": "Marina Tunjic offered September 28, 2 to 4 PM. Conflicts with being out west. Counter with September 29 morning or decline gracefully."
+            },
+            {
+              "name": "Castel Monastero",
+              "status": "suggested",
+              "detail": "Michelin Key, level unverified. Next door to Borgo San Felice, only worth it if the 28th lands there. Not contacted."
             }
           ]
         },
@@ -606,6 +617,12 @@
               "title": "Grand Hotel Tremezzo, site visit",
               "detail": "Five minutes on foot from the EDITION. The natural day for it if the Gala group can move the visit off the boat day.",
               "status": "suggested"
+            },
+            {
+              "time": "Afternoon",
+              "title": "Suggested visit: Grand Hotel Victoria, Menaggio, two Michelin Keys",
+              "detail": "A few minutes north of Cadenabbia, same shore as the EDITION and Tremezzo. Not contacted.",
+              "status": "suggested"
             }
           ]
         }
@@ -755,8 +772,14 @@
             {
               "time": "All day",
               "title": "Drive Alpe di Siusi to Montalcino",
-              "detail": "About 4 hours 30, the longest day of the trip. Possible stop at Casa Maria Luigia in Modena, or Bologna, both on the A1.",
+              "detail": "About 4 hours 30, the longest day of the trip. Stop in Modena at Casa Maria Luigia (Bottura, reported three Michelin Keys) for lunch at Francescana al Maria Luigia, or Bologna, both on the A1.",
               "status": "info"
+            },
+            {
+              "time": "Lunch",
+              "title": "Suggested visit: Casa Maria Luigia, Modena, three Michelin Keys",
+              "detail": "Bottura's country house, about 20 minutes off the A1. Lunch needs a reservation. Not contacted.",
+              "status": "suggested"
             }
           ]
         },
@@ -908,8 +931,26 @@
             {
               "time": "Open",
               "title": "Rome site visits, nothing arranged",
-              "detail": "Options: Bulgari, Hassler, Hotel de Russie, Hotel de la Ville. Six Senses declined at 600 euros plus VAT, passed.",
+              "detail": "Michelin Key picks first: Bulgari Roma (three Keys), Hotel Vilòn and J.K. Place Roma (two Keys). Then Hassler, Hotel de Russie, Hotel de la Ville, all one Key. Six Senses declined the stay at 600 euros plus VAT, but Stefano offered a site visit and spa day, touch base a week out.",
               "status": "open"
+            },
+            {
+              "time": "Suggested",
+              "title": "Bulgari Hotel Roma, three Michelin Keys",
+              "detail": "Not contacted.",
+              "status": "suggested"
+            },
+            {
+              "time": "Suggested",
+              "title": "Hotel Vilòn, two Michelin Keys",
+              "detail": "Not contacted. Small, by Palazzo Borghese.",
+              "status": "suggested"
+            },
+            {
+              "time": "Suggested",
+              "title": "J.K. Place Roma, two Michelin Keys",
+              "detail": "Not contacted.",
+              "status": "suggested"
             }
           ]
         }
@@ -1092,7 +1133,14 @@
         "Palazzo Avino",
         "Casa Angelina",
         "Miramalfi",
-        "Poggio alla Sala"
+        "Poggio alla Sala",
+        "Palazzo Portinari Salviati",
+        "Grand Hotel Victoria, Menaggio",
+        "Casa Maria Luigia",
+        "Bulgari Roma",
+        "Hotel Vilòn",
+        "J.K. Place Roma",
+        "Castel Monastero"
       ]
     }
   ],
