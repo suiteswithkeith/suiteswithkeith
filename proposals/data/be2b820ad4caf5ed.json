@@ -53,7 +53,7 @@
           "phone": "707.938.2929",
           "confirmation": "46218SG041293",
           "status": "confirmed",
-          "keith_todo": "Check-in time of 4:00 PM is assumed, confirm with the hotel."
+          "details": "Check-in is 4:00 PM. If you'd like to try for an early check-in, just tell me and I'll put in the request with the hotel."
         },
         {
           "time": "7:00 PM",
@@ -278,11 +278,11 @@
       "summary": "Check out of MacArthur Place and head home.",
       "events": [
         {
-          "time": "By 11:00 AM",
+          "time": "By 12:00 PM",
           "type": "hotel",
           "title": "Check out, MacArthur Place",
           "status": "info",
-          "keith_todo": "Check-out time of 11:00 AM is assumed, confirm with the hotel. Departure flight not yet shared."
+          "details": "Check-out is noon."
         }
       ]
     }
