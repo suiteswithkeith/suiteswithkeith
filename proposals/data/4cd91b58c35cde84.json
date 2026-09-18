@@ -10,7 +10,7 @@
     "hero_image": "../images/destinations/como-castello.jpg",
     "hero_alt": "COMO Castello del Nero in the Chianti hills",
     "intro_eyebrow": "The plan, one page",
-    "hello": "Twenty four nights, eight regions, one rental car. Every stay, ask, fallback and site visit in trip order, with a live count of what is confirmed and what is still open.",
+    "hello": "Twenty four nights, eight regions, one rental car, flights at both ends. Every stay, ask, fallback and site visit in trip order, with a live count of what is confirmed and what is still open.",
     "how_to_read": "Tap a region to jump to it. Each night shows the stay and who the ask is with. The Outstanding list at the bottom is ordered by urgency.",
     "trip_start": "2026-09-22",
     "trip_end": "2026-10-16",
@@ -45,6 +45,10 @@
   ],
   "essentials": [
     {
+      "title": "Flights",
+      "text": "Out: land Florence (FLR) Tuesday September 22 at 10:20 PM on BA0522. Arno Travel's transfer meets you outside baggage claim with an ECCELLENZE sign and takes you to Borgo Pignano Florence. Home: Friday October 16, United KYMT99. UA967 Naples (NAP) 2:00 PM to Newark (EWR) 6:20 PM, then UA1409 Newark 8:40 PM to Austin (AUS) 11:43 PM. Economy, seats 36F and 15D, $2,260.23, fully refundable. Watching for award space; cancel KYMT99 if an award opens."
+    },
+    {
       "title": "Rental car",
       "text": "Avis #26405920US2. Fiat 600, automatic, unlimited km. Pick up Florence Vespucci (FLR) Friday September 25 at 9:00 AM. Drop Rome Fiumicino (FCO) Saturday October 10 at 12:00 PM. $1,358.61 prepaid. No car from October 10 onward; Arno Travel asked to help with transfers for the Amalfi leg."
     },
@@ -67,7 +71,7 @@
       "days": [
         {
           "date": "2026-09-22",
-          "label": "Arrive Florence",
+          "label": "Land Florence, late",
           "stay": {
             "name": "Borgo Pignano Florence",
             "status": "confirmed",
@@ -77,8 +81,14 @@
             {
               "time": "8:00 PM",
               "title": "Optional informal dinner with Arno Travel",
-              "detail": "Florence city centre. Casual.",
+              "detail": "Florence city centre. Casual. You land at 10:20 PM, so this one is out.",
               "status": "info"
+            },
+            {
+              "time": "10:20 PM",
+              "title": "Land Florence (FLR) on BA0522",
+              "detail": "Arno Travel's assistant waits outside baggage claim with an ECCELLENZE sign and your name, then drives you to Borgo Pignano Florence. Arno 24/7 line, call or WhatsApp: +39 344 344 3549.",
+              "status": "confirmed"
             }
           ]
         },
@@ -105,7 +115,8 @@
             {
               "time": "12:45 PM",
               "title": "Welcome lunch, Four Seasons Hotel Firenze",
-              "status": "info"
+              "status": "info",
+              "detail": "Bring your luggage. Arno stores it during the event and it rides in the minivan to Portrait Firenze with you."
             },
             {
               "time": "2:00 to 4:00 PM",
@@ -963,10 +974,23 @@
           "departure": true,
           "items": [
             {
-              "time": "Departure",
-              "title": "Depart Naples",
-              "detail": "Transfer needed.",
+              "time": "Morning",
+              "title": "Transfer to Naples airport (NAP)",
+              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Arno asked to help. Aim to leave by 10:30 AM for the 2:00 PM flight.",
               "status": "todo"
+            },
+            {
+              "time": "2:00 PM",
+              "title": "UA967 Naples (NAP) to Newark (EWR), lands 6:20 PM",
+              "detail": "United confirmation KYMT99, eTicket 0162141031743. United Economy, seat 36F.",
+              "status": "confirmed"
+            },
+            {
+              "time": "8:40 PM",
+              "title": "UA1409 Newark (EWR) to Austin (AUS), lands 11:43 PM",
+              "detail": "Seat 15D. Whole ticket is $2,260.23 and fully refundable. Watching for award space; if an award opens, cancel KYMT99 before departure.",
+              "status": "confirmed",
+              "todo": "Monitor award space on the return. Cancel KYMT99 if an award pops, it is fully refundable."
             }
           ]
         }
@@ -993,7 +1017,8 @@
         "COMO Alpina: ask Deborah for a second night (October 6)",
         "Resolve the October 10 car drop versus Porto Ercole conflict. Worst case, extend the car",
         "Rome site visits: nothing arranged",
-        "Amalfi: 2 of 3 nights uncovered"
+        "Amalfi: 2 of 3 nights uncovered",
+        "Return flight: keep watching award space for October 16, cancel United KYMT99 if an award opens (fully refundable)"
       ]
     }
   ],
