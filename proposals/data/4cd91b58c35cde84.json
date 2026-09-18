@@ -514,7 +514,7 @@
       "name": "Lake Como",
       "dates": "October 1 to 4",
       "strip_label": "Villa d'Este, Serbelloni, EDITION",
-      "summary": "Villa d'Este pending, then two confirmed nights at Villa Serbelloni and the EDITION with a boat day for site visits in between.",
+      "summary": "Villa d'Este pending for the 1st, Il Sereno nudged for the 1st or 3rd, then Villa Serbelloni and the EDITION confirmed. Site visits sort by shore: Il Sereno and Passalacqua from the Cernobbio end, Tremezzo from Cadenabbia.",
       "days": [
         {
           "date": "2026-10-01",
@@ -523,7 +523,14 @@
             "name": "Villa d'Este, Cernobbio",
             "status": "pending",
             "detail": "Natalia Mackowiak (Assistant DOS), Tina Gassert (DOS Americas). Warm ask, the Meckleys stayed here. Natalia replied September 16, needs reading. Ask about the tennis courts.",
-            "todo": "Read Natalia's reply from September 16."
+            "todo": "Read Natalia's reply from September 16.",
+            "options": [
+              {
+                "name": "Il Sereno, Torno",
+                "status": "pending",
+                "detail": "Nudged Gaia Rosetti (DOSM) September 18: asked for a hosted stay October 1 or 3, otherwise a site visit. Torno is 20 minutes east of Como, an easy stop on the drive in from Portofino."
+              }
+            ]
           },
           "items": [
             {
@@ -531,6 +538,12 @@
               "title": "Drive Portofino to Cernobbio",
               "detail": "About 2 hours 45.",
               "status": "info"
+            },
+            {
+              "time": "On the way in",
+              "title": "Il Sereno, Torno: hosted night or site visit",
+              "detail": "Depends on Gaia's reply. If it is a visit, do it before checking in at Villa d'Este, Torno is just across the bottom of the lake from Cernobbio.",
+              "status": "pending"
             }
           ]
         },
@@ -564,7 +577,7 @@
             {
               "time": "By water",
               "title": "Il Sereno, site visit",
-              "detail": "Asked Gaia Rosetti (DOSM), no reply.",
+              "detail": "Nudged Gaia Rosetti September 18 for a hosted night on the 1st or 3rd, or a site visit. Better done from the Villa d'Este side on October 1 than by boat from Bellagio.",
               "status": "pending"
             }
           ]
@@ -575,7 +588,7 @@
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
             "status": "paid",
-            "detail": "400 euros plus breakfast, paid. Michael Spada. Asked to see additional rooms beyond my own."
+            "detail": "400 euros plus breakfast, paid. Michael Spada. Asked to see additional rooms beyond my own. Il Sereno was also asked for this night; if Gaia offers October 3, decide against the paid EDITION night."
           },
           "items": [
             {
@@ -583,6 +596,12 @@
               "title": "Car ferry Bellagio to Cadenabbia",
               "detail": "About 15 to 20 minutes, drive on and off.",
               "status": "info"
+            },
+            {
+              "time": "Afternoon",
+              "title": "Grand Hotel Tremezzo, site visit",
+              "detail": "Five minutes on foot from the EDITION. The natural day for it if the Gala group can move the visit off the boat day.",
+              "status": "suggested"
             }
           ]
         }
@@ -1053,7 +1072,7 @@
         "Rosewood / Claudia: back Monday",
         "Banfi, Monteverdi, Lupaia: Val d'Orcia",
         "Le Sirenuse, Santa Caterina: Amalfi",
-        "Gardena Grödnerhof, Mandarin Oriental, Il Sereno"
+        "Il Sereno / Gaia Rosetti: nudged September 18, hosted night October 1 or 3, or a site visit"
       ]
     },
     {
