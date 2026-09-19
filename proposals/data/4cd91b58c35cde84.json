@@ -968,9 +968,21 @@
           "date": "2026-10-13",
           "label": "Positano",
           "stay": {
-            "name": "Le Sirenuse, Positano",
+            "name": "Positano: Le Sirenuse or Villa Treville",
             "status": "pending",
-            "detail": "Leeann Pisacane (DOS, US based), Giulia Sersale (Sales Director), Francesco Sersale copied."
+            "detail": "Two asks for the same night.",
+            "options": [
+              {
+                "name": "Le Sirenuse, Positano",
+                "status": "pending",
+                "detail": "Leeann Pisacane (DOS, US based), Giulia Sersale (Sales Director), Francesco Sersale copied."
+              },
+              {
+                "name": "Villa Treville, Positano",
+                "status": "todo",
+                "detail": "Hosting ask for October 13 drafted September 19, in Gmail drafts, recipient to add from the Fora partner page. Five minutes east of town, beside Il San Pietro."
+              }
+            ]
           },
           "items": [
             {
@@ -1105,7 +1117,8 @@
         "Resolve the October 10 car drop versus Porto Ercole conflict. Worst case, extend the car",
         "Rome site visits: nothing arranged",
         "Amalfi: 2 of 3 nights uncovered",
-        "Return flight: keep watching award space for October 16, cancel United KYMT99 if an award opens (fully refundable)"
+        "Return flight: keep watching award space for October 16, cancel United KYMT99 if an award opens (fully refundable)",
+        "Villa Treville: add the sales contact and send the October 13 ask (draft ready)"
       ]
     }
   ],
