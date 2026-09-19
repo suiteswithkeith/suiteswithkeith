@@ -751,22 +751,43 @@
       "name": "Val d'Orcia",
       "dates": "October 8 to 10",
       "strip_label": "Rosewood, Banfi or Monteverdi",
-      "summary": "The longest drive of the trip lands in Montalcino with nothing confirmed. Rosewood for the 8th, Banfi or Monteverdi for the 9th, Poggio alla Sala held as the backup.",
+      "summary": "Rosewood is sold out but has offered a day visit. Both nights are open. Banfi is the one ask that can cover both, Monteverdi the 9th only, Poggio alla Sala the paid fallback.",
       "drive": "Alpe di Siusi to Montalcino about 4 hours 30. Possible stop in Modena (Casa Maria Luigia) or Bologna, both on the A1.",
       "days": [
         {
           "date": "2026-10-08",
           "label": "Long drive south",
           "stay": {
-            "name": "Open, Rosewood asked",
+            "name": "Open, Rosewood sold out",
             "status": "open",
             "options": [
               {
-                "name": "Rosewood Castiglion del Bosco",
-                "status": "pending",
-                "detail": "Narrowed to 1 night, October 8 to 9. Claudia Chimenti (out of office until Monday September 21), Mitja Dobaja copied. Ashton Kelly made the intro."
+                "name": "Castello Banfi Il Borgo, Montalcino",
+                "status": "todo",
+                "detail": "Asked for October 9 only. Follow-up drafted asking for the 8th as well, either or both nights. 20 minutes from Rosewood. Best single answer for the block."
+              },
+              {
+                "name": "Adler Spa Resort Thermae, Bagno Vignoni",
+                "status": "suggested",
+                "detail": "Not contacted. 25 minutes from Rosewood, same group as ADLER Lodge Alpe on the Dolomites list, so one ask could cover both. Thermal spa, good for a night either side of the visit day."
+              },
+              {
+                "name": "Conti di San Bonifacio, Montalcino",
+                "status": "suggested",
+                "detail": "Not contacted. Small wine resort 20 minutes from Rosewood. Easy hosting ask."
+              },
+              {
+                "name": "La Bandita Townhouse, Pienza",
+                "status": "suggested",
+                "detail": "Not contacted. Boutique, in the middle of everything, 30 minutes from Rosewood, 25 from Monteverdi."
+              },
+              {
+                "name": "Precise Tale Poggio alla Sala, Montepulciano",
+                "status": "fallback",
+                "detail": "About $740 per night, 10 to 17 percent commission, good availability. 45 minutes from Rosewood. Book it if nothing lands by Wednesday."
               }
-            ]
+            ],
+            "detail": "Claudia at Rosewood replied September 19: completely sold out, would you still come for the day. Visit accepted for the morning of the 9th, draft ready. Night still needs a home."
           },
           "items": [
             {
@@ -780,6 +801,12 @@
               "title": "Suggested visit: Casa Maria Luigia, Modena, three Michelin Keys",
               "detail": "Bottura's country house, about 20 minutes off the A1. Lunch needs a reservation. Not contacted.",
               "status": "suggested"
+            },
+            {
+              "time": "Evening",
+              "title": "Arrive Montalcino area",
+              "detail": "After the Modena stop expect to land around 6:00 PM. Nothing needed tonight beyond a bed.",
+              "status": "info"
             }
           ]
         },
@@ -787,13 +814,13 @@
           "date": "2026-10-09",
           "label": "Montalcino, Montepulciano",
           "stay": {
-            "name": "Open, two asks out",
+            "name": "Open, Banfi or Monteverdi asked",
             "status": "open",
             "options": [
               {
                 "name": "Castello Banfi Il Borgo",
                 "status": "pending",
-                "detail": "Maddalena Vedele (Sales Manager). Asked for October 9. Only availability in the valley for that night. Wine estate, led with the wine and spirits background."
+                "detail": "Maddalena Vedele (Sales Manager). Asked for October 9, follow-up drafted extending to the 8th. Wine estate, led with the wine and spirits background."
               },
               {
                 "name": "Monteverdi Tuscany",
@@ -803,6 +830,12 @@
             ]
           },
           "items": [
+            {
+              "time": "Late morning",
+              "title": "Rosewood Castiglion del Bosco, day visit",
+              "detail": "Claudia Chimenti offered a day visit after the stay sold out. Reply drafted proposing late morning on the 9th with rooms, estate, and lunch. Sold out means full rooms to shoot are unlikely, ask for whatever turns over that morning.",
+              "status": "todo"
+            },
             {
               "time": "Day",
               "title": "Lupaia, Montepulciano, site visit",
@@ -824,7 +857,7 @@
             {
               "name": "Precise Tale Poggio alla Sala, Montepulciano",
               "status": "fallback",
-              "detail": "About $740 per night, 10 to 17 percent commission, good availability. 45 minutes from Rosewood, 20 from Monteverdi, 15 from Lupaia. Not contacted, holding as backup."
+              "detail": "About $740 per night, 10 to 17 percent commission, good availability. 45 minutes from Rosewood, 20 from Monteverdi, 15 from Lupaia. Not contacted, holding as backup. Decision point Wednesday September 23 if Banfi has not answered."
             },
             {
               "name": "Grand Hotel Continental Siena",
@@ -1118,7 +1151,10 @@
         "Rome site visits: nothing arranged",
         "Amalfi: 2 of 3 nights uncovered",
         "Return flight: keep watching award space for October 16, cancel United KYMT99 if an award opens (fully refundable)",
-        "Villa Treville: add the sales contact and send the October 13 ask (draft ready)"
+        "Villa Treville: add the sales contact and send the October 13 ask (draft ready)",
+        "Rosewood: reply to Claudia taking the day visit, propose late morning October 9 (draft ready)",
+        "Banfi: send the follow-up asking for October 8 as well (draft ready)",
+        "Val d'Orcia: if Banfi is silent by Wednesday, ask Adler Thermae or book Poggio alla Sala for the 8th and 9th"
       ]
     }
   ],
@@ -1153,7 +1189,10 @@
         "Bulgari Roma",
         "Hotel Vilòn",
         "J.K. Place Roma",
-        "Castel Monastero"
+        "Castel Monastero",
+        "Adler Spa Resort Thermae, Bagno Vignoni",
+        "Conti di San Bonifacio",
+        "La Bandita Townhouse"
       ]
     }
   ],
