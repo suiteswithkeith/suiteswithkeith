@@ -67,7 +67,7 @@
       "name": "Florence",
       "dates": "September 22 to 27",
       "strip_label": "Eccellenze, Collegio, Volterra",
-      "summary": "Two Eccellenze days at Portrait Firenze, a night at Collegio alla Querce, then out to Borgo Pignano Volterra.",
+      "summary": "Two Eccellenze days at Portrait, a Florence visit day on the 25th ending at Collegio alla Querce, then Fiesole and a Chianti lunch on the way to Borgo Pignano Volterra.",
       "days": [
         {
           "date": "2026-09-22",
@@ -241,7 +241,7 @@
         },
         {
           "date": "2026-09-25",
-          "label": "Car day, Chianti",
+          "label": "Car day, Florence visits",
           "stay": {
             "name": "Collegio alla Querce",
             "status": "paid",
@@ -265,27 +265,33 @@
               "status": "confirmed"
             },
             {
-              "time": "Midday",
-              "title": "Lunch at COMO Castello del Nero, Chianti",
-              "detail": "Ilaria Socci hosting, GM joining if available. About 45 minutes from FLR. Ask to see a room or two.",
-              "status": "confirmed"
+              "time": "10:30 AM",
+              "title": "Villa La Massa, Candeli, site visit",
+              "detail": "Asked September 20 through the general inbox for 10:30, afternoon as fallback, lunch if easy. Candeli is 25 minutes east of the airport along the Arno. No reply yet.",
+              "status": "pending"
             },
             {
-              "time": "Afternoon",
-              "title": "Suggested visit: Villa La Massa",
-              "detail": "Candeli, on the road back into Florence. Not contacted. Palazzo Vecchietti and Hotel Number Nine were asked for the 22nd on September 11 and never replied, both now moot.",
-              "status": "suggested"
+              "time": "1:30 PM",
+              "title": "Palazzo Portinari Salviati, site visit",
+              "detail": "Asked September 20 through the LDC inbox for 1:30, morning as fallback. Via del Corso, centre. Two Michelin Keys. No reply yet.",
+              "status": "pending"
             },
             {
-              "time": "Evening",
-              "title": "Check in at Collegio alla Querce",
+              "time": "Late afternoon",
+              "title": "Il Salviatino, Fiesole, site visit, or Saturday morning",
+              "detail": "Asked September 20 through the general inbox, addressed to Nicolas Zimmermann, offering the afternoon of the 25th or the morning of the 26th. Next door to Collegio. No reply yet.",
+              "status": "pending"
+            },
+            {
+              "time": "4:00 PM",
+              "title": "Check in at Collegio alla Querce, shoot at golden hour",
               "status": "info"
             }
           ]
         },
         {
           "date": "2026-09-26",
-          "label": "Fiesole, then Volterra",
+          "label": "Fiesole, Chianti lunch, Volterra",
           "stay": {
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
@@ -301,19 +307,25 @@
             },
             {
               "time": "Morning",
-              "title": "Suggested visit: Il Salviatino, Fiesole",
-              "detail": "Not contacted. Nicolas Zimmermann (Sales & Marketing), Angelo Cianci.",
-              "status": "open"
+              "title": "Il Salviatino, if not done on the 25th",
+              "detail": "Same ask, either day.",
+              "status": "pending"
             },
             {
-              "time": "2:00 to 3:00 PM",
+              "time": "12:30 PM",
+              "title": "Lunch at COMO Castello del Nero, Chianti",
+              "detail": "Asked Ilaria September 20 to move lunch from the 25th to the 26th, on the way south. Tavarnelle is 35 minutes from Collegio. If the 26th does not work for them, it stays on the 25th and the day reshuffles. Ask to see a room or two.",
+              "status": "pending"
+            },
+            {
+              "time": "About 2:30 PM",
               "title": "Drive to Volterra",
-              "detail": "About 75 minutes.",
+              "detail": "About 1 hour 10 from Tavarnelle via Castelfiorentino.",
               "status": "info"
             },
             {
-              "time": "Late afternoon",
-              "title": "Site inspection and shoot at sunset",
+              "time": "4:00 PM",
+              "title": "Arrive Borgo Pignano Volterra, site inspection at 5:00, shoot at sunset",
               "status": "info"
             }
           ]
@@ -1132,7 +1144,7 @@
       "title": "Before you fly, Monday",
       "items": [
         "Borgo Pignano Florence: reply to Andrea with ETA about 11:00 PM on the 22nd, mobile, tour on the morning of the 23rd",
-        "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:00 PM on the 26th and the site inspection time",
+        "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:00 PM on the 26th, site inspection at 5:00",
         "Castelfalfi: confirm the morning of the 27th with Sara, tour then lunch at Olivina",
         "Il Borro: confirm or decline the 28th lunch with Federico",
         "The Place Firenze: send the reply to Marina moving the visit to the 23rd or the 29th (draft ready)",
@@ -1172,7 +1184,9 @@
         "Lupaia: asked the 18th",
         "Il Pellicano and La Posta Vecchia / Gianluca: nudged the 18th, back Monday",
         "Rocco Forte / Cristina Frazzingaro: Carlton Milan the 16th, Rome the 17th",
-        "Le Sirenuse, Santa Caterina, Borgo Santandrea"
+        "Le Sirenuse, Santa Caterina, Borgo Santandrea",
+        "Villa La Massa, Palazzo Portinari Salviati, Il Salviatino: visit asks sent the 20th",
+        "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th"
       ]
     },
     {
@@ -1193,9 +1207,6 @@
     {
       "title": "Not contacted, worth considering",
       "items": [
-        "Il Salviatino",
-        "Villa La Massa",
-        "Palazzo Portinari Salviati",
         "La Monastica",
         "ADLER Lodge Alpe",
         "Badia Hill",
