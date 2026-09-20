@@ -252,28 +252,22 @@
               "status": "info"
             },
             {
-              "time": "12:30 PM",
+              "time": "12:00 PM",
               "title": "Taxi to FLR, pick up the rental car",
-              "detail": "Avis #26405920US2 is booked for 9:00. Move the pickup to 12:30 in the Avis app. 20 to 25 minutes from Portrait.",
+              "detail": "Avis #26405920US2 is booked for 9:00. Move the pickup to 12:00 in the Avis app. 20 to 25 minutes from Portrait, then 25 minutes from the airport up to Fiesole.",
               "status": "todo",
-              "todo": "Change the Avis pickup time to 12:30 on the 25th."
+              "todo": "Change the Avis pickup time to 12:00 on the 25th."
             },
             {
-              "time": "Lunch",
-              "title": "Somewhere easy, or straight up to Collegio",
-              "detail": "Nothing booked on purpose.",
-              "status": "info"
-            },
-            {
-              "time": "3:30 PM",
+              "time": "1:00 PM",
               "title": "Il Salviatino, Fiesole, site visit",
-              "detail": "Angelo Cianci (Revenue & Reservations Manager) said yes to Friday afternoon on September 20 and asked for a time. Reply drafted proposing 3:30, flexible by half an hour. Rooms subject to occupancy. Ten minutes from Collegio.",
+              "detail": "Angelo Cianci (Revenue & Reservations Manager) said yes to Friday afternoon on September 20 and asked for a time. Reply drafted proposing 1:00, flexible by half an hour. Rooms subject to occupancy. Ten minutes from Collegio.",
               "status": "todo"
             },
             {
-              "time": "4:30 PM",
+              "time": "From 2:30 PM",
               "title": "Check in at Collegio alla Querce, and stop",
-              "detail": "Shoot it at golden hour if you feel like it, otherwise the pool and dinner.",
+              "detail": "Lunch there or nearby, the pool, a golden-hour shoot if you feel like it, dinner. The afternoon is yours.",
               "status": "info"
             },
             {
@@ -1143,8 +1137,8 @@
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:30 PM on the 26th, site inspection at 5:00",
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
-        "Avis: move the September 25 pickup from 9:00 to 12:30 in the app",
-        "Il Salviatino: reply to Angelo with 3:30 on the 25th (draft ready)"
+        "Avis: move the September 25 pickup from 9:00 to 12:00 in the app",
+        "Il Salviatino: reply to Angelo with 1:00 on the 25th (draft ready)"
       ]
     },
     {
