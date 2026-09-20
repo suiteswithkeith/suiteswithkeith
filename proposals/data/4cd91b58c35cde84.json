@@ -15,7 +15,7 @@
     "trip_start": "2026-09-22",
     "trip_end": "2026-10-16",
     "timezone": "Europe/Rome",
-    "updated": "2026-09-18"
+    "updated": "2026-09-20"
   },
   "key": [
     {
@@ -75,7 +75,8 @@
           "stay": {
             "name": "Borgo Pignano Florence",
             "status": "confirmed",
-            "detail": "Complimentary. Sister property to Borgo Pignano Volterra, opened September 2026. Andrea Buzzacchino (Reservations Manager) is sending the confirmation. Shoot and room tour here on the morning of the 23rd, so no separate site visit needed on the 26th."
+            "detail": "Confirmed September 19 by Andrea Buzzacchino, confirmation letter in the inbox. They want your ETA (about 11:00 PM after the 10:20 landing), mobile number, dietary notes, and a time for the property tour. Shoot here on the morning of the 23rd.",
+            "todo": "Reply to Andrea with ETA about 11:00 PM, mobile, no dietary needs, tour on the morning of the 23rd before the Four Seasons lunch."
           },
           "items": [
             {
@@ -266,7 +267,7 @@
             {
               "time": "Afternoon",
               "title": "Suggested visit: Villa La Massa",
-              "detail": "Candeli, on the road back into Florence. Not yet contacted.",
+              "detail": "Candeli, on the road back into Florence. Not contacted. Palazzo Vecchietti and Hotel Number Nine were asked for the 22nd on September 11 and never replied, both now moot.",
               "status": "suggested"
             },
             {
@@ -282,14 +283,14 @@
           "stay": {
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
-            "detail": "Complimentary B&B. Must depart by noon on the 27th, the property goes to exclusive use.",
-            "todo": "Send arrival time and preferred site inspection slot. They asked."
+            "detail": "Confirmed September 18 by Giuliana Braschi, complimentary B&B. Must depart by noon on the 27th, the property goes to exclusive use. They want your ETA and a time for the site inspection on the 26th.",
+            "todo": "Reply to Giuliana with arrival about 4:00 PM and the tour at 5:00 PM before the sunset shoot."
           },
           "items": [
             {
               "time": "Morning",
               "title": "Suggested visit: Villa San Michele (Belmond), Fiesole",
-              "detail": "Minutes from Collegio. In the Federico Battistella email.",
+              "detail": "Minutes from Collegio. Asked as a site visit on the 26th in the September 18 email to Federico at Belmond. Ludovica Rossi is back Monday the 21st. No reply yet.",
               "status": "pending"
             },
             {
@@ -318,7 +319,7 @@
       "name": "Western Tuscany",
       "dates": "September 27 to 29",
       "strip_label": "Casole or San Felice, else Castelfalfi",
-      "summary": "Two nights, nothing confirmed. This is the biggest gap in the trip. Belmond and Borgo San Felice are both out, Castelfalfi is the fallback with a Monday deadline.",
+      "summary": "Two nights, nothing confirmed, no paid fallback left: you declined Castelfalfi's 550 euro rate on the 16th. Three hosting asks are out, Casole, San Felice and Santo Pietro. Castelfalfi and Il Borro have both offered visits with lunch, and The Place has offered a visit in Florence on the 28th.",
       "days": [
         {
           "date": "2026-09-27",
@@ -326,12 +327,12 @@
           "stay": {
             "name": "Open, nothing live",
             "status": "open",
-            "detail": "See the live asks and fallback below. Availability is better on the 28th at both Casole and San Felice, so a one night ask may land here first.",
+            "detail": "Three asks, no answers. Casole and San Felice both said the 28th is their better night, so this night is the harder one.",
             "options": [
               {
                 "name": "Castello di Casole (Belmond)",
                 "status": "pending",
-                "detail": "Federico Battistella, Ludovica Rossi. Asked for 2 nights, flexible to 1. Availability better on the 28th."
+                "detail": "Federico Battistella, Ludovica Rossi. First ask September 16, full follow-up September 18 bundling Casole, Splendido, Villa San Michele and Splendido Mare. Ludovica back Monday the 21st. No reply."
               },
               {
                 "name": "Borgo San Felice",
@@ -342,25 +343,22 @@
                 "name": "Borgo Santo Pietro, Chiusdino",
                 "status": "pending",
                 "detail": "Arianna Cirigliano (Director of Sales). Asked September 18 to host September 27 to 29, or a visit and lunch. No reply yet. About 45 minutes from Volterra and Casole."
-              },
-              {
-                "name": "Castelfalfi",
-                "status": "fallback",
-                "detail": "550 euros per night offered by Sara Bonechi and Alberto Liparoti, site inspection included. 1,100 euros for 2 nights. Decision deadline Monday September 21."
               }
             ]
           },
           "items": [
             {
               "time": "Sunrise",
-              "title": "Shoot at Borgo Pignano Volterra before the noon checkout",
+              "title": "Shoot at Borgo Pignano Volterra, then check out early",
+              "detail": "Castelfalfi wants you in the morning, so plan to be on the road by 9:30.",
               "status": "info"
             },
             {
-              "time": "By 12:00 PM",
-              "title": "Check out of Borgo Pignano Volterra",
-              "detail": "Property goes to exclusive use.",
-              "status": "info"
+              "time": "Morning",
+              "title": "Castelfalfi, site inspection and lunch at Olivina",
+              "detail": "Sara Bonechi offered the morning of the 27th on September 17: dedicated tour of the estate and rooms, then lunch. You have not confirmed. About 45 minutes from Volterra.",
+              "status": "todo",
+              "todo": "Reply to Sara confirming the 27th, propose 10:30 arrival, lunch after."
             }
           ]
         },
@@ -370,21 +368,22 @@
           "stay": {
             "name": "Open, nothing live",
             "status": "open",
-            "detail": "Same asks as the 27th. Both Casole and San Felice said the 28th is the better night."
+            "detail": "Casole and San Felice both prefer this night. If neither answers by Wednesday there is no fallback booked."
           },
           "items": [
             {
-              "time": "Late morning",
-              "title": "Castelfalfi site inspection",
-              "detail": "Offered by Sara Bonechi. Suggest September 28 late morning. Reply drafted, unsent.",
-              "status": "todo"
+              "time": "12:30 PM",
+              "title": "Il Borro, wine tasting, cellar visit and lunch",
+              "detail": "Federico Caligaris Papa offered September 28 on the 14th. You asked on the 18th to come back to him. Il Borro is in the Valdarno, about 1 hour 15 from Casole, 1 hour from Florence. He is on paternity leave, auto-reply on the 18th.",
+              "status": "todo",
+              "todo": "Confirm or decline the 28th with Federico. If confirmed, The Place needs to move."
             },
             {
               "time": "2:00 to 4:00 PM",
-              "title": "The Place Firenze, offered by Marina Tunjic",
-              "detail": "Conflicts with being out west.",
+              "title": "The Place Firenze, visit and lunch or a drink",
+              "detail": "Marina Tunjic offered Monday the 28th between 2:00 and 4:00 on September 15. The 24th and 25th are full. You have not replied. Conflicts with an Il Borro lunch unless you skip Il Borro or arrive at The Place at 3:30.",
               "status": "todo",
-              "todo": "Counter with September 29 morning or decline gracefully."
+              "todo": "Reply to Marina: accept 3:30 on the 28th, or counter with the morning of the 29th on the way north."
             }
           ]
         }
@@ -397,27 +396,32 @@
             {
               "name": "Castelfalfi",
               "status": "todo",
-              "detail": "Site inspection offered. Suggest September 28 late morning. Reply drafted, unsent."
+              "detail": "Site inspection and lunch offered for the morning of the 27th. Confirm with Sara."
             },
             {
-              "name": "Castello di Casole",
-              "status": "suggested",
-              "detail": "If not staying."
-            },
-            {
-              "name": "Borgo Santo Pietro",
-              "status": "pending",
-              "detail": "Arianna Cirigliano (Director of Sales). Asked September 18, hosting or a visit and lunch. About 45 minutes."
+              "name": "Il Borro",
+              "status": "todo",
+              "detail": "Tasting, cellar and lunch offered for the 28th. Confirm or decline with Federico."
             },
             {
               "name": "The Place Firenze",
               "status": "todo",
-              "detail": "Marina Tunjic offered September 28, 2 to 4 PM. Conflicts with being out west. Counter with September 29 morning or decline gracefully."
+              "detail": "Visit offered the 28th, 2:00 to 4:00 PM. Reply to Marina."
+            },
+            {
+              "name": "Castello di Casole",
+              "status": "suggested",
+              "detail": "If not staying, in the Belmond ask."
+            },
+            {
+              "name": "Borgo Santo Pietro",
+              "status": "pending",
+              "detail": "Asked September 18 to host or visit. No reply."
             },
             {
               "name": "Castel Monastero",
               "status": "suggested",
-              "detail": "Michelin Key, level unverified. Next door to Borgo San Felice, only worth it if the 28th lands there. Not contacted."
+              "detail": "Michelin Key, level unverified. Next door to San Felice. Not contacted."
             }
           ]
         },
@@ -427,17 +431,22 @@
             {
               "name": "Castello del Nero",
               "status": "ruled_out",
-              "detail": "No."
+              "detail": "No hosting, lunch on the 25th instead."
             },
             {
-              "name": "Il Borro",
+              "name": "Castelfalfi as a stay",
               "status": "ruled_out",
-              "detail": "No."
+              "detail": "You declined the 550 euro industry rate on September 16. Visit only now."
+            },
+            {
+              "name": "Il Borro as a stay",
+              "status": "ruled_out",
+              "detail": "Almost fully booked. Visit and lunch offered instead."
             },
             {
               "name": "Borgo Pignano",
               "status": "ruled_out",
-              "detail": "Exclusive use."
+              "detail": "Exclusive use from the 27th."
             }
           ]
         }
@@ -448,7 +457,7 @@
       "name": "Portofino",
       "dates": "September 29 to October 1",
       "strip_label": "Splendido asked, 2 nights",
-      "summary": "Two nights riding on the Belmond email. If Splendido says no, three ways to go: extend Lake Como to five nights, two nights in Milan instead, or stay in Tuscany and go straight to Villa d'Este on the 1st.",
+      "summary": "Two nights riding on the Belmond email, which now also carries Villa San Michele and Splendido Mare. If Splendido says no: extend Como, or two nights in Milan where Portrait Milano and Mandarin Oriental have both offered visits, or stay in Tuscany and ask La Monastica.",
       "drive": "Tuscany to Portofino about 3 hours. Portofino to Cernobbio about 2 hours 45.",
       "days": [
         {
@@ -461,7 +470,7 @@
               {
                 "name": "Splendido (Belmond)",
                 "status": "pending",
-                "detail": "In the Federico Battistella email. 2 nights."
+                "detail": "In the September 18 email to Federico, two nights September 29 to October 1. Ludovica back Monday the 21st. No reply."
               },
               {
                 "name": "Splendido Mare",
@@ -501,19 +510,19 @@
           "title": "If Splendido says no",
           "items": [
             {
+              "name": "Milan, 2 nights",
+              "status": "fallback",
+              "detail": "The Carlton (Rocco Forte) asked September 16, no reply. Portrait Milano declined hosting on the 16th, offered 2,080 euros plus VAT non-commissionable or a site inspection. Mandarin Oriental Milan is blacked out but Valeria Arba, DOS, has offered lunch and a tour. Neither visit is confirmed."
+            },
+            {
               "name": "Extend Lake Como to 5 nights",
               "status": "fallback",
               "detail": "September 29 to October 4."
             },
             {
-              "name": "Milan, 2 nights",
+              "name": "Stay in Tuscany, La Monastica",
               "status": "fallback",
-              "detail": "September 29 to October 1, then down to Como on the 1st as planned. Nothing asked yet. Dropped earlier in favour of Tuscany and Portofino, back on the table as an alternative to five nights on the lake."
-            },
-            {
-              "name": "Stay in Tuscany",
-              "status": "fallback",
-              "detail": "Go straight to Villa d'Este on October 1."
+              "detail": "Buggiano Castello, on the A11. Not contacted. Ask only if Belmond says no."
             }
           ]
         }
@@ -533,7 +542,7 @@
             "name": "Il Sereno first, Villa d'Este if free",
             "status": "pending",
             "detail": "Priority for this night: Il Sereno if Gaia hosts. Villa d'Este only if it comes back complimentary, even if Natalia replies first. If both host, take Sereno here and see whether Este can move to the 3rd.",
-            "todo": "Read Natalia's reply from September 16. If it is a paid offer, pass.",
+            "todo": "Nudge Natalia Monday if nothing lands over the weekend. If it is a paid offer, pass.",
             "options": [
               {
                 "name": "Il Sereno, Torno",
@@ -543,7 +552,7 @@
               {
                 "name": "Villa d'Este, Cernobbio",
                 "status": "pending",
-                "detail": "Only if complimentary. Natalia Mackowiak (Assistant DOS), Tina Gassert (DOS Americas). Warm ask, the Meckleys stayed here. Natalia replied September 16, needs reading. Ask about the tennis courts."
+                "detail": "Only if complimentary. Natalia Mackowiak replied September 16: delighted to explore it, checking availability, will come back shortly. Nothing since. Tina Gassert, Laura Buzzi and Charlotte Rancilio copied."
               }
             ]
           },
@@ -580,13 +589,13 @@
             {
               "time": "By water",
               "title": "Grand Hotel Tremezzo, site visit",
-              "detail": "Gaia Bartoletti and Sabrina Ahmed, Gala group. They declined the stay.",
+              "detail": "Gaia Bartoletti (Gala group) declined the stay on September 15, almost fully booked. You asked the same day for visits to Tremezzo and Passalacqua. No reply on the visits.",
               "status": "pending"
             },
             {
               "time": "By water",
               "title": "Passalacqua, site visit",
-              "detail": "Same Gala group. You booked the Sherwanis here in August.",
+              "detail": "Same Gala thread. Visit asked September 15, no reply. You placed the Sherwanis here in August.",
               "status": "pending"
             },
             {
@@ -629,12 +638,12 @@
       ],
       "groups": [
         {
-          "title": "Also pending on the lake",
+          "title": "Declined on the lake",
           "items": [
             {
               "name": "Mandarin Oriental Lago di Como",
-              "status": "pending",
-              "detail": "Anna Fejzo, Tom Puleio. Nudged September 18."
+              "status": "ruled_out",
+              "detail": "Anna Fejzo, September 15: near capacity, no special rate, best available only. No visit asked. Drop it."
             }
           ]
         }
@@ -659,7 +668,7 @@
               {
                 "name": "Miramonti Boutique Hotel, Avelengo",
                 "status": "pending",
-                "detail": "General inbox, asked them to route to sales. Asked for the night of October 4 or a site visit that afternoon."
+                "detail": "Asked September 18 through the general inbox for the night of the 4th or an afternoon visit. No reply."
               }
             ]
           },
@@ -704,7 +713,7 @@
               {
                 "name": "Gardena Grödnerhof, Ortisei",
                 "status": "pending",
-                "detail": "Alex Demetz (DOSM), Silvia Bernardi. Sent September 15, no reply."
+                "detail": "Alex Demetz asked September 15. No reply."
               },
               {
                 "name": "Badia Hill, Alta Badia",
@@ -844,6 +853,11 @@
               "name": "Badia di Pomaio, Arezzo",
               "status": "fallback",
               "detail": "About $725."
+            },
+            {
+              "name": "Reschio, site visit and lunch",
+              "status": "todo",
+              "detail": "Florian offered a visit and lunch on September 18. Reschio is about 1 hour from Poggio alla Sala via Cortona, and 15 minutes off the A1. Fits the morning of the 10th on the way to Rome if Pellicano is a no. You have not replied to Florian."
             }
           ],
           "note": "Poggio alla Sala can stretch to a second night. Siena and Arezzo are the far fallbacks."
@@ -852,9 +866,9 @@
           "title": "Ruled out",
           "items": [
             {
-              "name": "Reschio",
+              "name": "Reschio as a stay",
               "status": "ruled_out",
-              "detail": "No to hosting, and 1 hour 45 east, too far."
+              "detail": "Florian Schaible: near full, no room to host. Reservations offered Suite Castello Twin October 8 to 10 at 2,295 euros a night. No."
             },
             {
               "name": "Castello di Velona",
@@ -882,12 +896,12 @@
               {
                 "name": "Il Pellicano, Porto Ercole",
                 "status": "pending",
-                "detail": "Night of October 10. Gianluca Tammaro (DOS), Francesca Schiraldi. Follow-up drafted, unsent. Mezzatorre released."
+                "detail": "Asked September 14, followed up September 18 with the narrowed ask: Pellicano the night of the 10th, La Posta Vecchia visit and lunch on the 11th, Mezzatorre dropped. Gianluca out of office until Monday the 21st."
               },
               {
                 "name": "Hotel de Russie or Hotel de la Ville (Rocco Forte)",
                 "status": "pending",
-                "detail": "For October 10 if Pellicano falls through. Cristina Frazzingaro. Draft ready, unsent, hold until Gianluca replies."
+                "detail": "Asked Cristina Frazzingaro at Rocco Forte on September 17 for October 10. No reply. Her Carlton Milan ask from the 16th is also unanswered."
               }
             ]
           },
@@ -924,13 +938,13 @@
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "confirmed",
-            "detail": "Egle Antanaityte (Commercial Director, Italy). 1 night complimentary plus 1 at 670 euros including VAT and breakfast. Confirmation received."
+            "detail": "Confirmed. Egle Antanaityte: 1 night complimentary plus 1 at 670 euros including VAT and breakfast. Reservations confirmed the extension to October 11 to 13 on September 18."
           },
           "items": [
             {
               "time": "En route",
               "title": "La Posta Vecchia, site visit and lunch",
-              "detail": "On the way into Rome, in the same email as Pellicano.",
+              "detail": "Asked as a visit and lunch on the 11th in the September 18 Pellicano follow-up. Gianluca back Monday.",
               "status": "pending"
             }
           ]
@@ -991,7 +1005,7 @@
               {
                 "name": "Le Sirenuse, Positano",
                 "status": "pending",
-                "detail": "Leeann Pisacane (DOS, US based), Giulia Sersale (Sales Director), Francesco Sersale copied."
+                "detail": "Leeann Pisacane and Giulia Sersale asked September 17. No reply."
               },
               {
                 "name": "Villa Treville, Positano",
@@ -1020,12 +1034,12 @@
               {
                 "name": "Santa Caterina",
                 "status": "pending",
-                "detail": "Crescenzo Gargano (DOSM), Valeria D'Amato. Warm ask, the Meckleys just stayed. Asked for both nights, flexible to 1."
+                "detail": "Crescenzo Gargano and Valeria D'Amato asked September 17 for both nights, flexible to one. No reply."
               },
               {
                 "name": "Borgo Santandrea",
                 "status": "pending",
-                "detail": "Pending since September 15, no reply. Antonella Gatto (PR & Sales)."
+                "detail": "Antonella Gatto asked September 14. No reply."
               },
               {
                 "name": "Hotel Miramalfi",
@@ -1038,8 +1052,9 @@
             {
               "time": "11:00 AM",
               "title": "Il San Pietro di Positano, site visit",
-              "detail": "Agostino Piccolo (DOSM). He has since said he is flexible on dates, so this could move. Asked about the tennis court.",
-              "status": "confirmed"
+              "detail": "Agostino Piccolo, September 16: a pleasure, let him know the date and time once fixed. Flexible on dates. You have not sent the time.",
+              "status": "todo",
+              "todo": "Confirm 11:00 AM on the 14th with Agostino."
             },
             {
               "time": "Afternoon",
@@ -1114,43 +1129,66 @@
   ],
   "outstanding": [
     {
-      "title": "Before Monday September 21",
+      "title": "Before you fly, Monday",
       "items": [
-        "Borgo Pignano Volterra: send arrival time and site inspection slot (they asked)",
-        "Castelfalfi: reply to Sara taking the site inspection (draft ready)",
-        "The Place Firenze: counter Marina's September 28 offer",
-        "Decide on Castelfalfi at 1,100 euros if Belmond is silent",
-        "Read Natalia's Villa d'Este reply (came in September 16, unread)"
+        "Borgo Pignano Florence: reply to Andrea with ETA about 11:00 PM on the 22nd, mobile, tour on the morning of the 23rd",
+        "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:00 PM on the 26th and the site inspection time",
+        "Castelfalfi: confirm the morning of the 27th with Sara, tour then lunch at Olivina",
+        "Il Borro: confirm or decline the 28th lunch with Federico",
+        "The Place Firenze: reply to Marina, 3:30 on the 28th or the morning of the 29th",
+        "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
+        "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
+        "Villa Treville: add the sales contact and send (draft ready, no recipient)",
+        "Ashton Kelly: send the congratulations note, she is now global sales at Belmond and Casole, Splendido and Villa San Michele all sit with Federico (draft from the 17th, unsent)"
       ]
     },
     {
       "title": "This week",
-      "start": 7,
+      "start": 10,
       "items": [
-        "Il Pellicano follow-up (draft ready), unlocks the October 10 decision",
-        "COMO Alpina: ask Deborah for a second night (October 6)",
-        "Resolve the October 10 car drop versus Porto Ercole conflict. Worst case, extend the car",
-        "Rome site visits: nothing arranged",
-        "Amalfi: 2 of 3 nights uncovered",
+        "Villa d'Este: nudge Natalia if no offer by Monday, pass if it is paid",
+        "Reschio: reply to Florian, decline the rate, take the visit and lunch on the 10th if Pellicano is a no",
+        "Portrait Milano and Mandarin Oriental Milan: reply only if Belmond says no to Splendido, then confirm both visits for the 30th",
         "Return flight: keep watching award space for October 16, cancel United KYMT99 if an award opens (fully refundable)",
-        "Villa Treville: add the sales contact and send the October 13 ask (draft ready)",
-        "Rosewood: reply to Claudia taking the day visit, propose 12:30 on October 8, morning of the 9th as fallback (draft ready)",
-        "Poggio alla Sala: asked Cinzia September 20, book through Fora by Wednesday if silent"
+        "Six Senses Rome: touch base with Stefano about October 5 for the visit and spa day on the 12th",
+        "Poggio alla Sala: book through Fora by Wednesday if Cinzia is silent",
+        "Val d'Orcia: no fallback for the 9th if Banfi and Monteverdi both decline, Poggio can stretch"
       ]
     }
   ],
   "lists": [
     {
-      "title": "Waiting on",
+      "title": "Waiting on, no reply at all",
       "items": [
-        "Belmond / Federico Battistella: 4 nights ride on this (Casole and Splendido)",
-        "Miramonti: decides the Dolomites shape",
-        "Rosewood / Claudia: back Monday",
-        "Banfi, Monteverdi, Lupaia: Val d'Orcia",
-        "Le Sirenuse, Santa Caterina: Amalfi",
-        "Il Sereno / Gaia Rosetti: nudged September 18, hosted night October 1 or 3, or a site visit",
-        "Poggio alla Sala / Cinzia Malgrande: October 8, hosting or media rate",
-        "Borgo Santo Pietro / Arianna Cirigliano: September 27 to 29, asked September 18"
+        "Belmond / Federico Battistella: Casole, Splendido, Villa San Michele, Splendido Mare. Ludovica back Monday",
+        "Borgo San Felice / Zaira: asked the 16th, nudged the 18th",
+        "Borgo Santo Pietro / Arianna: asked the 18th",
+        "Villa d'Este / Natalia: holding reply the 16th, no offer yet",
+        "Il Sereno / Gaia Rosetti: asked the 14th, nudged the 18th",
+        "Tremezzo and Passalacqua visits / Gala group: asked the 15th",
+        "Miramonti: asked the 18th",
+        "Gardena Grödnerhof / Alex Demetz: asked the 15th",
+        "Poggio alla Sala / Cinzia: asked the 20th",
+        "Banfi / Maddalena and Monteverdi / Peggy and Niqui: asked the 18th",
+        "Lupaia: asked the 18th",
+        "Il Pellicano and La Posta Vecchia / Gianluca: nudged the 18th, back Monday",
+        "Rocco Forte / Cristina Frazzingaro: Carlton Milan the 16th, Rome the 17th",
+        "Le Sirenuse, Santa Caterina, Borgo Santandrea"
+      ]
+    },
+    {
+      "title": "Answered, action on your side",
+      "items": [
+        "Castelfalfi: visit and lunch offered, morning of the 27th",
+        "Il Borro: tasting and lunch offered, the 28th",
+        "The Place Firenze: visit offered, the 28th 2:00 to 4:00",
+        "Rosewood: day visit offered",
+        "Reschio: visit and lunch offered, paid rate declined by you",
+        "Portrait Milano: visit offered, rate declined",
+        "Mandarin Oriental Milan: lunch and tour with Valeria Arba offered",
+        "Il San Pietro: visit agreed, needs a time",
+        "Six Senses Rome: visit and spa day, touch base a week out",
+        "Borgo Pignano Florence and Volterra: confirmed, both want ETAs"
       ]
     },
     {
@@ -1158,14 +1196,15 @@
       "items": [
         "Il Salviatino",
         "Villa La Massa",
+        "Palazzo Portinari Salviati",
         "La Monastica",
         "ADLER Lodge Alpe",
         "Badia Hill",
         "La Roqqa",
         "Palazzo Avino",
         "Casa Angelina",
+        "Caruso",
         "Miramalfi",
-        "Palazzo Portinari Salviati",
         "Grand Hotel Victoria, Menaggio",
         "Casa Maria Luigia",
         "Bulgari Roma",
