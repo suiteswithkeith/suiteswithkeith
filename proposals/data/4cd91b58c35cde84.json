@@ -127,6 +127,12 @@
               "status": "info"
             },
             {
+              "time": "10:00 AM",
+              "title": "The Place Firenze, walk-through",
+              "detail": "Proposed to Marina as first choice, with the morning of the 29th as the alternative. Draft ready. Piazza Santa Maria Novella, ten minutes from Borgo Pignano Florence. Not yet confirmed.",
+              "status": "todo"
+            },
+            {
               "time": "Midday",
               "title": "Check in, private transfer to Portrait Firenze",
               "status": "info"
@@ -319,7 +325,7 @@
       "name": "Western Tuscany",
       "dates": "September 27 to 29",
       "strip_label": "Casole or San Felice, else Castelfalfi",
-      "summary": "Two nights, nothing confirmed, no paid fallback left: you declined Castelfalfi's 550 euro rate on the 16th. Three hosting asks are out, Casole, San Felice and Santo Pietro. Castelfalfi and Il Borro have both offered visits with lunch, and The Place has offered a visit in Florence on the 28th.",
+      "summary": "Two nights, nothing confirmed. Three hosting asks are out, Casole, San Felice and Santo Pietro. Castelfalfi and Il Borro have both offered visits with lunch. Castelfalfi's 550 euro rate is the paid fallback if you go back to Sara.",
       "days": [
         {
           "date": "2026-09-27",
@@ -343,6 +349,11 @@
                 "name": "Borgo Santo Pietro, Chiusdino",
                 "status": "pending",
                 "detail": "Arianna Cirigliano (Director of Sales). Asked September 18 to host September 27 to 29, or a visit and lunch. No reply yet. About 45 minutes from Volterra and Casole."
+              },
+              {
+                "name": "Castelfalfi, paid",
+                "status": "fallback",
+                "detail": "You declined the 550 euro industry rate on the 16th, but Sara's offer can be re-accepted if nothing else lands. Two nights would be 1,100 euros. The morning site visit on the 27th stands either way."
               }
             ]
           },
@@ -377,13 +388,6 @@
               "detail": "Federico Caligaris Papa offered September 28 on the 14th. You asked on the 18th to come back to him. Il Borro is in the Valdarno, about 1 hour 15 from Casole, 1 hour from Florence. He is on paternity leave, auto-reply on the 18th.",
               "status": "todo",
               "todo": "Confirm or decline the 28th with Federico. If confirmed, The Place needs to move."
-            },
-            {
-              "time": "2:00 to 4:00 PM",
-              "title": "The Place Firenze, visit and lunch or a drink",
-              "detail": "Marina Tunjic offered Monday the 28th between 2:00 and 4:00 on September 15. The 24th and 25th are full. You have not replied. Conflicts with an Il Borro lunch unless you skip Il Borro or arrive at The Place at 3:30.",
-              "status": "todo",
-              "todo": "Reply to Marina: accept 3:30 on the 28th, or counter with the morning of the 29th on the way north."
             }
           ]
         }
@@ -402,11 +406,6 @@
               "name": "Il Borro",
               "status": "todo",
               "detail": "Tasting, cellar and lunch offered for the 28th. Confirm or decline with Federico."
-            },
-            {
-              "name": "The Place Firenze",
-              "status": "todo",
-              "detail": "Visit offered the 28th, 2:00 to 4:00 PM. Reply to Marina."
             },
             {
               "name": "Castello di Casole",
@@ -432,11 +431,6 @@
               "name": "Castello del Nero",
               "status": "ruled_out",
               "detail": "No hosting, lunch on the 25th instead."
-            },
-            {
-              "name": "Castelfalfi as a stay",
-              "status": "ruled_out",
-              "detail": "You declined the 550 euro industry rate on September 16. Visit only now."
             },
             {
               "name": "Il Borro as a stay",
@@ -480,6 +474,12 @@
             ]
           },
           "items": [
+            {
+              "time": "Morning, if not the 23rd",
+              "title": "The Place Firenze, walk-through on the way north",
+              "detail": "Second option offered to Marina. Florence is on the route to the A11.",
+              "status": "suggested"
+            },
             {
               "time": "On the way",
               "title": "La Monastica, Buggiano Castello",
@@ -1010,7 +1010,7 @@
               {
                 "name": "Villa Treville, Positano",
                 "status": "todo",
-                "detail": "Hosting ask for October 13 drafted September 19, in Gmail drafts, recipient to add from the Fora partner page. Five minutes east of town, beside Il San Pietro."
+                "detail": "Daniela Barba (Sales & Marketing Manager). Hosting ask for October 13 drafted, ready to send. Five minutes east of town, beside Il San Pietro."
               }
             ]
           },
@@ -1135,11 +1135,10 @@
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:00 PM on the 26th and the site inspection time",
         "Castelfalfi: confirm the morning of the 27th with Sara, tour then lunch at Olivina",
         "Il Borro: confirm or decline the 28th lunch with Federico",
-        "The Place Firenze: reply to Marina, 3:30 on the 28th or the morning of the 29th",
+        "The Place Firenze: send the reply to Marina moving the visit to the 23rd or the 29th (draft ready)",
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
-        "Villa Treville: add the sales contact and send (draft ready, no recipient)",
-        "Ashton Kelly: send the congratulations note, she is now global sales at Belmond and Casole, Splendido and Villa San Michele all sit with Federico (draft from the 17th, unsent)"
+        "Villa Treville: send the ask to Daniela Barba (draft ready)"
       ]
     },
     {
