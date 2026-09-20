@@ -23,7 +23,7 @@
 
   --display: 'Bodoni Moda Variable', 'Bodoni Moda', Didot, 'Times New Roman', serif;
   --body:    'Jost', 'Helvetica Neue', Arial, sans-serif;
-  --stamp:   'Courier Prime', ui-monospace, 'Courier New', monospace;
+  --stamp:   'Bodoni Moda Variable', 'Bodoni Moda', Didot, 'Bodoni MT', Georgia, serif;
 
   --dur-1: 180ms;
   --dur-2: 280ms;
@@ -77,17 +77,17 @@ a { color: inherit; }
 .body-2 { color: var(--ash); }
 .small { font-size: .92rem; }
 
-/* ── the stamp: the evidence voice. Courier only ever means "verified". ── */
+/* ── the stamp: the evidence voice. Bodoni Moda, 600 at label sizes, only ever means "verified". ── */
 .stamp {
   display: inline-flex; align-items: center; gap: .6em;
-  font-family: var(--stamp); font-size: .7rem; font-weight: 700;
+  font-family: var(--stamp); font-size: .7rem; font-weight: 600;
   letter-spacing: .1em; text-transform: uppercase; color: var(--brass);
   border: 1px solid currentColor; padding: .42em .9em; white-space: nowrap;
 }
 @media (max-width: 560px) {
   .stamp { white-space: normal; line-height: 1.6; }
 }
-.stamp.plain { border: none; padding: 0; font-weight: 400; color: var(--ash); white-space: normal; line-height: 1.7; }
+.stamp.plain { border: none; padding: 0; font-weight: 600; color: var(--ash); white-space: normal; line-height: 1.7; }
 .on-shadow .stamp { color: var(--brass-lit); }
 
 /* ── buttons: olive, sharp, quiet. Brass is an ink, never a fill. ── */
@@ -130,7 +130,7 @@ a { color: inherit; }
   font-family: var(--body); font-size: .74rem; font-weight: 500;
   letter-spacing: .14em; text-transform: uppercase; color: var(--ink); padding: 10px 0;
 }
-.preview-chip { font-family: var(--stamp); font-size: .6rem; letter-spacing: .08em; color: var(--ash-3); text-transform: uppercase; }
+.preview-chip { font-family: var(--stamp); font-weight: 600; font-size: .6rem; letter-spacing: .08em; color: var(--ash-3); text-transform: uppercase; }
 @media (max-width: 860px) {
   .nav-links {
     display: none; position: absolute; left: 0; right: 0; top: 64px;
@@ -249,7 +249,7 @@ a { color: inherit; }
 /* santorini-hero is a portrait whose subject (the terrace chairs) sits at the bottom edge */
 img[src*="santorini-hero"] { object-position: center bottom; }
 .card .pad { padding: 20px 20px 24px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
-.card .kicker { font-family: var(--stamp); font-size: .64rem; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
+.card .kicker { font-family: var(--stamp); font-weight: 600; font-size: .64rem; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
 .card h3 { font-family: var(--display); font-weight: 500; font-size: 1.25rem; }
 .card p { font-size: .9rem; color: var(--ash); line-height: 1.55; }
 .card .go { margin-top: auto; padding-top: 14px; font-size: .72rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); }
@@ -259,7 +259,7 @@ img[src*="santorini-hero"] { object-position: center bottom; }
 .verdict p { font-family: var(--display); font-style: italic; font-size: clamp(1.25rem, 2.6vw, 1.65rem); line-height: 1.4; }
 .kv { display: grid; grid-template-columns: 1fr; gap: 0; border-top: 1px solid var(--hairline); }
 .kv-row { display: grid; grid-template-columns: 150px 1fr; gap: 20px; padding: 14px 0; border-bottom: 1px solid var(--hairline); align-items: baseline; }
-.kv-row dt { font-family: var(--stamp); font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ash-3); }
+.kv-row dt { font-family: var(--stamp); font-weight: 600; font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ash-3); }
 .kv-row dd { margin: 0; font-size: .97rem; }
 .kv-row dd b { font-weight: 500; }
 @media (max-width: 560px) { .kv-row { grid-template-columns: 1fr; gap: 4px; } }
@@ -269,7 +269,7 @@ img[src*="santorini-hero"] { object-position: center bottom; }
 @media (min-width: 700px) { .photos { grid-template-columns: 1fr 1fr; } }
 .photos figure { margin: 0; }
 .photos img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
-.photos figcaption { font-family: var(--stamp); font-size: .68rem; color: var(--ash); margin-top: 10px; letter-spacing: .04em; }
+.photos figcaption { font-family: var(--stamp); font-weight: 600; font-size: .68rem; color: var(--ash); margin-top: 10px; letter-spacing: .04em; }
 
 /* ── compare ── */
 .choose { display: grid; gap: 22px; grid-template-columns: 1fr; }
@@ -283,12 +283,12 @@ table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .95
 th, td { text-align: left; padding: 14px 18px; border-bottom: 1px solid var(--hairline); vertical-align: top; }
 thead th { background: var(--plaster-deep); font-family: var(--body); font-weight: 500; font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ash); }
 tbody tr:last-child td { border-bottom: none; }
-td.rowlabel { font-family: var(--stamp); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ash-3); white-space: nowrap; }
+td.rowlabel { font-family: var(--stamp); font-weight: 600; font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ash-3); white-space: nowrap; }
 
 /* ── advocacy story ── */
 .story-quote { font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(1.35rem, 3vw, 1.9rem); line-height: 1.42; max-width: 30ch; }
 .story-quote b { font-style: normal; font-weight: 500; }
-.attr { margin-top: 22px; font-family: var(--stamp); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--band-ash); }
+.attr { margin-top: 22px; font-family: var(--stamp); font-weight: 600; font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--band-ash); }
 
 /* ── inquiry ── */
 .inquire { text-align: center; }
@@ -323,7 +323,7 @@ footer.site { border-top: 1px solid var(--hairline); padding: clamp(44px, 6vw, 7
 @media (min-width: 760px) { .foot-grid { grid-template-columns: 1.4fr 1fr 1fr; } }
 footer.site .wordmark { font-size: 1.3rem; }
 footer.site p, footer.site a { font-size: .9rem; color: var(--ash); text-decoration: none; }
-footer.site .col-h { font-family: var(--stamp); font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash-3); margin-bottom: 12px; }
+footer.site .col-h { font-family: var(--stamp); font-weight: 600; font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash-3); margin-bottom: 12px; }
 footer.site .links { display: flex; flex-direction: column; gap: 8px; }
 
 /* ── reveal on enter: containers only, once ── */
