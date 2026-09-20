@@ -71,7 +71,7 @@
       "name": "Florence",
       "dates": "September 22 to 27",
       "strip_label": "Eccellenze, Collegio, Volterra",
-      "summary": "Two Eccellenze days at Portrait, a Florence visit day on the 25th ending at Collegio alla Querce, then Fiesole and a Chianti lunch on the way to Borgo Pignano Volterra.",
+      "summary": "Two Eccellenze days at Portrait, then an easy 25th: one visit at Salviatino and an evening at Collegio alla Querce. The 26th is Fiesole, a Chianti lunch and Borgo Pignano Volterra.",
       "days": [
         {
           "date": "2026-09-22",
@@ -239,7 +239,7 @@
         },
         {
           "date": "2026-09-25",
-          "label": "Car day, Florence visits",
+          "label": "Easy day, Salviatino, Collegio",
           "stay": {
             "name": "Collegio alla Querce",
             "status": "paid",
@@ -252,23 +252,17 @@
               "status": "info"
             },
             {
-              "time": "11:15 AM",
-              "title": "Palazzo Portinari Salviati, site visit, on foot from Portrait",
-              "detail": "Five minutes' walk, leave the bags with Portrait. Asked for 1:30 with the morning as fallback, so when they reply, steer to 11:15. Two Michelin Keys. No reply yet.",
-              "status": "pending"
-            },
-            {
               "time": "12:30 PM",
               "title": "Taxi to FLR, pick up the rental car",
-              "detail": "Avis #26405920US2 is booked for 9:00. Move the pickup to 12:30 in the Avis app so the reservation is not released. No fee.",
+              "detail": "Avis #26405920US2 is booked for 9:00. Move the pickup to 12:30 in the Avis app. 20 to 25 minutes from Portrait.",
               "status": "todo",
               "todo": "Change the Avis pickup time to 12:30 on the 25th."
             },
             {
-              "time": "1:45 PM",
-              "title": "Villa La Massa, Candeli, site visit",
-              "detail": "Asked for 10:30 with the afternoon as fallback, so when they reply, steer to 1:45. Candeli is 25 minutes from the airport along the Arno. Lunch there if they offer. No reply yet.",
-              "status": "pending"
+              "time": "Lunch",
+              "title": "Somewhere easy, or straight up to Collegio",
+              "detail": "Nothing booked on purpose.",
+              "status": "info"
             },
             {
               "time": "3:30 PM",
@@ -278,8 +272,15 @@
             },
             {
               "time": "4:30 PM",
-              "title": "Check in at Collegio alla Querce, shoot at golden hour",
+              "title": "Check in at Collegio alla Querce, and stop",
+              "detail": "Shoot it at golden hour if you feel like it, otherwise the pool and dinner.",
               "status": "info"
+            },
+            {
+              "time": "Parked",
+              "title": "Villa La Massa and Portinari Salviati",
+              "detail": "Both asked on the 20th for the 25th, neither has replied. Off this day now. If La Massa answers, it could be a late-morning stop on the 26th on the way to Chianti, Candeli to Tavarnelle is 40 minutes, but only if Villa San Michele does not come through. Portinari gets a thank-you and a next-trip note.",
+              "status": "suggested"
             }
           ]
         },
@@ -301,7 +302,7 @@
             {
               "time": "11:15 AM",
               "title": "Villa San Michele, Fiesole, if Belmond comes back",
-              "detail": "Minutes from Collegio. In the Belmond ask. Salviatino is now on the 25th, so this is the only Fiesole stop.",
+              "detail": "Minutes from Collegio. In the Belmond ask. If Belmond is silent and La Massa replies, La Massa takes this slot instead, 40 minutes from Tavarnelle.",
               "status": "pending"
             },
             {
