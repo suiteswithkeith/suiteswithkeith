@@ -340,8 +340,8 @@
               },
               {
                 "name": "Borgo Santo Pietro, Chiusdino",
-                "status": "todo",
-                "detail": "Arianna Cirigliano (Director of Sales). Hosting ask for September 27 to 29 drafted September 18, in Gmail drafts, unsent. About 45 minutes from Volterra and Casole."
+                "status": "pending",
+                "detail": "Arianna Cirigliano (Director of Sales). Asked September 18 to host September 27 to 29, or a visit and lunch. No reply yet. About 45 minutes from Volterra and Casole."
               },
               {
                 "name": "Castelfalfi",
@@ -406,8 +406,8 @@
             },
             {
               "name": "Borgo Santo Pietro",
-              "status": "todo",
-              "detail": "Arianna Cirigliano (Director of Sales). Draft ready in Gmail asking to host September 27 to 29, or a visit and lunch. About 45 minutes."
+              "status": "pending",
+              "detail": "Arianna Cirigliano (Director of Sales). Asked September 18, hosting or a visit and lunch. About 45 minutes."
             },
             {
               "name": "The Place Firenze",
@@ -1120,8 +1120,7 @@
         "Castelfalfi: reply to Sara taking the site inspection (draft ready)",
         "The Place Firenze: counter Marina's September 28 offer",
         "Decide on Castelfalfi at 1,100 euros if Belmond is silent",
-        "Read Natalia's Villa d'Este reply (came in September 16, unread)",
-        "Borgo Santo Pietro: send the hosting ask to Arianna (draft ready)"
+        "Read Natalia's Villa d'Este reply (came in September 16, unread)"
       ]
     },
     {
@@ -1150,7 +1149,8 @@
         "Banfi, Monteverdi, Lupaia: Val d'Orcia",
         "Le Sirenuse, Santa Caterina: Amalfi",
         "Il Sereno / Gaia Rosetti: nudged September 18, hosted night October 1 or 3, or a site visit",
-        "Poggio alla Sala / Cinzia Malgrande: October 8, hosting or media rate"
+        "Poggio alla Sala / Cinzia Malgrande: October 8, hosting or media rate",
+        "Borgo Santo Pietro / Arianna Cirigliano: September 27 to 29, asked September 18"
       ]
     },
     {
