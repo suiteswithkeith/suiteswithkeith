@@ -827,8 +827,8 @@
             {
               "time": "12:00 PM",
               "title": "Lupaia, site inspection and lunch",
-              "detail": "Christopher at Lupaia invited you for lunch and a site inspection on the 9th, September 20. Reply drafted proposing 12:00 and asking what time suits them. 15 minutes from Poggio. Sold out for stays, so a walk-through of what is open.",
-              "status": "todo"
+              "detail": "Christopher at Lupaia invited you for lunch and a site inspection on the 9th. You replied September 20 proposing 12:00 for the walk-through then lunch and asked what time suits them. Waiting on the time. 15 minutes from Poggio.",
+              "status": "pending"
             },
             {
               "time": "From 4:00 PM",
@@ -1143,8 +1143,7 @@
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
         "Avis: move the September 25 pickup from 9:00 to 12:00 in the app",
-        "Il Salviatino: reply to Angelo with 1:00 on the 25th (draft ready)",
-        "Lupaia: reply to Christopher with 12:00 on the 9th (draft ready)"
+        "Il Salviatino: reply to Angelo with 1:00 on the 25th (draft ready)"
       ]
     },
     {
@@ -1196,7 +1195,7 @@
         "Six Senses Rome: visit and spa day, touch base a week out",
         "Borgo Pignano Florence and Volterra: confirmed, both want ETAs",
         "Il Salviatino: visit agreed for the 25th afternoon, needs a time",
-        "Lupaia: lunch and site inspection on the 9th, needs a time"
+        "Lupaia: lunch and site inspection on the 9th, proposed 12:00, waiting on their time"
       ]
     },
     {
