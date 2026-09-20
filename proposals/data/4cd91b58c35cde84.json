@@ -272,9 +272,9 @@
             },
             {
               "time": "3:30 PM",
-              "title": "Il Salviatino, Fiesole, site visit, or Saturday",
-              "detail": "Asked for the afternoon of the 25th or the morning of the 26th. Next door to Collegio. No reply yet.",
-              "status": "pending"
+              "title": "Il Salviatino, Fiesole, site visit",
+              "detail": "Angelo Cianci (Revenue & Reservations Manager) said yes to Friday afternoon on September 20 and asked for a time. Reply drafted proposing 3:30, flexible by half an hour. Rooms subject to occupancy. Ten minutes from Collegio.",
+              "status": "todo"
             },
             {
               "time": "4:30 PM",
@@ -300,8 +300,8 @@
             },
             {
               "time": "11:15 AM",
-              "title": "Villa San Michele or Il Salviatino, Fiesole, one visit",
-              "detail": "Both minutes from Collegio. Villa San Michele is in the Belmond ask, Salviatino asked for either day. Whichever comes back, 45 minutes.",
+              "title": "Villa San Michele, Fiesole, if Belmond comes back",
+              "detail": "Minutes from Collegio. In the Belmond ask. Salviatino is now on the 25th, so this is the only Fiesole stop.",
               "status": "pending"
             },
             {
@@ -1142,7 +1142,8 @@
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:30 PM on the 26th, site inspection at 5:00",
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
-        "Avis: move the September 25 pickup from 9:00 to 12:30 in the app"
+        "Avis: move the September 25 pickup from 9:00 to 12:30 in the app",
+        "Il Salviatino: reply to Angelo with 3:30 on the 25th (draft ready)"
       ]
     },
     {
@@ -1178,7 +1179,7 @@
         "Il Pellicano and La Posta Vecchia / Gianluca: nudged the 18th, back Monday",
         "Rocco Forte / Cristina Frazzingaro: Carlton Milan the 16th, Rome the 17th",
         "Le Sirenuse, Villa Treville, Santa Caterina, Borgo Santandrea",
-        "Villa La Massa, Palazzo Portinari Salviati, Il Salviatino: visit asks sent the 20th",
+        "Villa La Massa, Palazzo Portinari Salviati: visit asks sent the 20th",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th"
       ]
     },
@@ -1193,7 +1194,8 @@
         "Mandarin Oriental Milan: lunch and tour with Valeria Arba offered",
         "Il San Pietro: visit agreed, needs a time",
         "Six Senses Rome: visit and spa day, touch base a week out",
-        "Borgo Pignano Florence and Volterra: confirmed, both want ETAs"
+        "Borgo Pignano Florence and Volterra: confirmed, both want ETAs",
+        "Il Salviatino: visit agreed for the 25th afternoon, needs a time"
       ]
     },
     {
