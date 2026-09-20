@@ -765,7 +765,7 @@
       "name": "Val d'Orcia",
       "dates": "October 8 to 10",
       "strip_label": "Rosewood visit, Poggio, Banfi or Monteverdi",
-      "summary": "Rosewood is sold out but visiting on the way in. Poggio alla Sala is the base on the 8th. The 9th is Lupaia, the non-hosting estate as a visit, and check-in at Banfi or Monteverdi. The 10th is clean for the drive south.",
+      "summary": "Rosewood visiting on the way in, Poggio alla Sala the base on the 8th, Lupaia lunch on the 9th, then Banfi or Monteverdi for the night. The 10th is clean for the drive south.",
       "drive": "Alpe di Siusi to Rosewood about 4 hours 30 leaving at 11:00, straight down the A1. Rosewood to Poggio alla Sala about 45 minutes.",
       "days": [
         {
@@ -787,7 +787,7 @@
             {
               "time": "3:30 PM",
               "title": "Rosewood Castiglion del Bosco, day visit",
-              "detail": "Claudia offered a day visit. Reply drafted proposing 3:30 on the 8th for the late light, or 1:00 on the 9th with lunch. Sold out means ask for whatever rooms turn over.",
+              "detail": "Claudia offered a day visit. Reply drafted proposing 3:30 on the 8th for the late light, or from 4:00 on the 9th after Lupaia. Sold out means ask for whatever rooms turn over.",
               "status": "todo"
             },
             {
@@ -800,7 +800,7 @@
         },
         {
           "date": "2026-10-09",
-          "label": "Lupaia, the other estate, check in",
+          "label": "Lupaia lunch, then the host estate",
           "stay": {
             "name": "Banfi or Monteverdi, whichever hosts",
             "status": "open",
@@ -820,21 +820,26 @@
           },
           "items": [
             {
-              "time": "11:30 AM",
-              "title": "Lupaia, Montepulciano, walk-through",
-              "detail": "15 minutes from Poggio. Sold out, so a 45-minute walk-through, not a shoot.",
-              "status": "pending"
+              "time": "Morning",
+              "title": "Gym and breakfast at Poggio, out by 11:30",
+              "status": "info"
             },
             {
-              "time": "1:00 PM",
-              "title": "Rosewood if it did not happen on the 8th, otherwise visit the non-hosting estate",
-              "detail": "Rosewood at 1:00 with lunch is the fallback in the Claudia draft. If Rosewood was done on the 8th, this slot is Banfi or Monteverdi, whichever is not hosting.",
+              "time": "12:00 PM",
+              "title": "Lupaia, site inspection and lunch",
+              "detail": "Christopher at Lupaia invited you for lunch and a site inspection on the 9th, September 20. Reply drafted proposing 12:00 and asking what time suits them. 15 minutes from Poggio. Sold out for stays, so a walk-through of what is open.",
+              "status": "todo"
+            },
+            {
+              "time": "From 4:00 PM",
+              "title": "Rosewood, only if it did not happen on the 8th",
+              "detail": "The Claudia draft offers 3:30 on the 8th first and late afternoon on the 9th as the fallback, so it never collides with Lupaia.",
               "status": "suggested"
             },
             {
               "time": "Late afternoon",
               "title": "Check in at the host estate, shoot at golden hour",
-              "detail": "Third property of the day, but you are sleeping there.",
+              "detail": "Banfi or Monteverdi, whichever hosts. You are sleeping there, so it costs no visit time.",
               "status": "info"
             }
           ]
@@ -1138,7 +1143,8 @@
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
         "Avis: move the September 25 pickup from 9:00 to 12:00 in the app",
-        "Il Salviatino: reply to Angelo with 1:00 on the 25th (draft ready)"
+        "Il Salviatino: reply to Angelo with 1:00 on the 25th (draft ready)",
+        "Lupaia: reply to Christopher with 12:00 on the 9th (draft ready)"
       ]
     },
     {
@@ -1170,7 +1176,6 @@
         "Gardena Grödnerhof / Alex Demetz: asked the 15th",
         "Poggio alla Sala / Cinzia: asked the 20th",
         "Banfi / Maddalena and Monteverdi / Peggy and Niqui: asked the 18th",
-        "Lupaia: asked the 18th",
         "Il Pellicano and La Posta Vecchia / Gianluca: nudged the 18th, back Monday",
         "Rocco Forte / Cristina Frazzingaro: Carlton Milan the 16th, Rome the 17th",
         "Le Sirenuse, Villa Treville, Santa Caterina, Borgo Santandrea",
@@ -1190,7 +1195,8 @@
         "Il San Pietro: visit agreed, needs a time",
         "Six Senses Rome: visit and spa day, touch base a week out",
         "Borgo Pignano Florence and Volterra: confirmed, both want ETAs",
-        "Il Salviatino: visit agreed for the 25th afternoon, needs a time"
+        "Il Salviatino: visit agreed for the 25th afternoon, needs a time",
+        "Lupaia: lunch and site inspection on the 9th, needs a time"
       ]
     },
     {
