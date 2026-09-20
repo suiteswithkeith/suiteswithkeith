@@ -127,12 +127,6 @@
               "status": "info"
             },
             {
-              "time": "10:00 AM",
-              "title": "The Place Firenze, walk-through",
-              "detail": "Proposed to Marina as first choice, with the morning of the 29th as the alternative. Draft ready. Piazza Santa Maria Novella, ten minutes from Borgo Pignano Florence. Not yet confirmed.",
-              "status": "todo"
-            },
-            {
               "time": "Midday",
               "title": "Check in, private transfer to Portrait Firenze",
               "status": "info"
@@ -336,12 +330,12 @@
       "id": "western-tuscany",
       "name": "Western Tuscany",
       "dates": "September 27 to 29",
-      "strip_label": "Castelfalfi base, Casole and Santo Pietro visits",
-      "summary": "Castelfalfi as the base, two nights at the 550 euro industry rate, with site visits at Casole and Santo Pietro on the 27th and Il Borro on the 28th. San Felice still pending, a visit if it comes back as a no.",
+      "strip_label": "Castelfalfi base, Casole, Santo Pietro",
+      "summary": "Castelfalfi as the base, two nights at the 550 euro industry rate. One visit a day after a proper morning: Casole on the 27th, Santo Pietro and San Felice on the 28th, with Il Borro held as the alternative for the 28th.",
       "days": [
         {
           "date": "2026-09-27",
-          "label": "Castelfalfi, Casole, Santo Pietro",
+          "label": "Castelfalfi, then Casole",
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "todo",
@@ -351,7 +345,7 @@
           "items": [
             {
               "time": "Sunrise",
-              "title": "Shoot at Borgo Pignano Volterra, check out by 9:30",
+              "title": "Shoot at Borgo Pignano Volterra, breakfast, check out by 9:45",
               "status": "info"
             },
             {
@@ -363,20 +357,14 @@
             {
               "time": "3:00 PM",
               "title": "Castello di Casole, site visit",
-              "detail": "40 minutes east. Visit at 3:00 asked in a reply to Federico at Belmond, Italy sales team copied since Ludovica is out until Monday. Draft ready. Not yet confirmed.",
-              "status": "todo"
-            },
-            {
-              "time": "4:45 PM",
-              "title": "Borgo Santo Pietro, site visit and golden hour",
-              "detail": "45 minutes south of Casole. Visit at 4:45 asked in a reply to Arianna, Monday as the alternative. Draft ready. Not yet confirmed. Back to Castelfalfi in about an hour.",
+              "detail": "40 minutes east. Visit at 3:00 asked in a reply to Federico at Belmond, Italy sales team copied since Ludovica is out until Monday. Draft ready. Not yet confirmed. Back at Castelfalfi for the evening.",
               "status": "todo"
             }
           ]
         },
         {
           "date": "2026-09-28",
-          "label": "Il Borro, maybe San Felice",
+          "label": "Santo Pietro, then San Felice or Il Borro",
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "todo",
@@ -385,17 +373,27 @@
           },
           "items": [
             {
-              "time": "12:30 PM",
-              "title": "Il Borro, wine tasting, cellar visit and lunch",
-              "detail": "Federico Caligaris Papa offered the 28th. You asked on the 18th to come back to him. 1 hour 30 from Castelfalfi. He is on paternity leave, so reply to the thread and the auto-reply contact.",
-              "status": "todo",
-              "todo": "Confirm the 28th with Il Borro."
+              "time": "Morning",
+              "title": "Gym and breakfast at Castelfalfi, leave about 10:30",
+              "status": "info"
+            },
+            {
+              "time": "11:30 AM",
+              "title": "Borgo Santo Pietro, site visit and lunch",
+              "detail": "1 hour south. Visit at 11:30 asked in a reply to Arianna, Sunday late afternoon as the alternative. Draft ready. Not yet confirmed.",
+              "status": "todo"
             },
             {
               "time": "Afternoon",
-              "title": "Borgo San Felice, visit if they say no to hosting",
-              "detail": "An hour from Il Borro on the way home, then 1 hour 15 back to Castelfalfi. Zaira has not replied to the ask or the nudge.",
+              "title": "Borgo San Felice, visit if they come back",
+              "detail": "About an hour east of Santo Pietro via Siena, then 1 hour 15 back to Castelfalfi. Zaira has not replied to the ask or the nudge. Preferred over Il Borro.",
               "status": "pending"
+            },
+            {
+              "time": "Alternative",
+              "title": "Il Borro, tasting, cellar and lunch, offered for the 28th",
+              "detail": "Federico Caligaris Papa's offer from the 14th stands, you have not confirmed. 1 hour 30 from Castelfalfi and in the wrong direction from Santo Pietro, so it only works instead of San Felice, not alongside it. Decide once Zaira answers.",
+              "status": "suggested"
             }
           ]
         }
@@ -418,17 +416,22 @@
             {
               "name": "Borgo Santo Pietro",
               "status": "todo",
-              "detail": "Visit asked for 4:45 on the 27th. Draft ready."
-            },
-            {
-              "name": "Il Borro",
-              "status": "todo",
-              "detail": "Tasting, cellar and lunch offered for the 28th. Confirm."
+              "detail": "Visit asked for 11:30 on the 28th. Draft ready."
             },
             {
               "name": "Borgo San Felice",
               "status": "pending",
-              "detail": "Hosting ask out since the 16th. Becomes a visit on the 28th afternoon if no."
+              "detail": "Hosting ask out since the 16th. Becomes the 28th afternoon visit if no."
+            },
+            {
+              "name": "Il Borro",
+              "status": "suggested",
+              "detail": "Lunch offered for the 28th. Held as the alternative to San Felice."
+            },
+            {
+              "name": "The Place Firenze",
+              "status": "ruled_out",
+              "detail": "Dropped, the 28th offer does not fit and the Florence days are full."
             },
             {
               "name": "Castel Monastero",
@@ -487,12 +490,6 @@
             ]
           },
           "items": [
-            {
-              "time": "Morning, if not the 23rd",
-              "title": "The Place Firenze, walk-through on the way north",
-              "detail": "Second option offered to Marina. Florence is on the route to the A11.",
-              "status": "suggested"
-            },
             {
               "time": "On the way",
               "title": "La Monastica, Buggiano Castello",
@@ -1146,11 +1143,9 @@
       "items": [
         "Castelfalfi: send the Sara reply taking two nights at 550 and confirming 10:30 on the 27th (draft ready)",
         "Casole: send the Belmond reply asking for a 3:00 visit on the 27th (draft ready)",
-        "Santo Pietro: send the Arianna reply switching to a 4:45 visit on the 27th (draft ready)",
+        "Santo Pietro: send the Arianna reply asking for an 11:30 visit and lunch on the 28th (draft ready)",
         "Borgo Pignano Florence: reply to Andrea with ETA about 11:00 PM on the 22nd, mobile, tour on the morning of the 23rd",
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:00 PM on the 26th, site inspection at 5:00",
-        "Il Borro: confirm or decline the 28th lunch with Federico",
-        "The Place Firenze: send the reply to Marina moving the visit to the 23rd or the 29th (draft ready)",
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino"
       ]
@@ -1159,6 +1154,7 @@
       "title": "This week",
       "start": 10,
       "items": [
+        "Il Borro: reply to Federico once San Felice answers, confirm the 28th lunch or decline",
         "Villa d'Este: nudge Natalia if no offer by Monday, pass if it is paid",
         "Reschio: reply to Florian, decline the rate, take the visit and lunch on the 10th if Pellicano is a no",
         "Portrait Milano and Mandarin Oriental Milan: reply only if Belmond says no to Splendido, then confirm both visits for the 30th",
@@ -1196,7 +1192,6 @@
       "items": [
         "Castelfalfi: visit and lunch offered, morning of the 27th",
         "Il Borro: tasting and lunch offered, the 28th",
-        "The Place Firenze: visit offered, the 28th 2:00 to 4:00",
         "Rosewood: day visit offered",
         "Reschio: visit and lunch offered, paid rate declined by you",
         "Portrait Milano: visit offered, rate declined",
