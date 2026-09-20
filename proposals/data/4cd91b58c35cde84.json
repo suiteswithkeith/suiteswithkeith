@@ -336,70 +336,66 @@
       "id": "western-tuscany",
       "name": "Western Tuscany",
       "dates": "September 27 to 29",
-      "strip_label": "Casole or San Felice, else Castelfalfi",
-      "summary": "Two nights, nothing confirmed. Three hosting asks are out, Casole, San Felice and Santo Pietro. Castelfalfi and Il Borro have both offered visits with lunch. Castelfalfi's 550 euro rate is the paid fallback if you go back to Sara.",
+      "strip_label": "Castelfalfi base, Casole and Santo Pietro visits",
+      "summary": "Castelfalfi as the base, two nights at the 550 euro industry rate, with site visits at Casole and Santo Pietro on the 27th and Il Borro on the 28th. San Felice still pending, a visit if it comes back as a no.",
       "days": [
         {
           "date": "2026-09-27",
-          "label": "Volterra sunrise, then open",
+          "label": "Castelfalfi, Casole, Santo Pietro",
           "stay": {
-            "name": "Open, nothing live",
-            "status": "open",
-            "detail": "Three asks, no answers. Casole and San Felice both said the 28th is their better night, so this night is the harder one.",
-            "options": [
-              {
-                "name": "Castello di Casole (Belmond)",
-                "status": "pending",
-                "detail": "Federico Battistella, Ludovica Rossi. First ask September 16, full follow-up September 18 bundling Casole, Splendido, Villa San Michele and Splendido Mare. Ludovica back Monday the 21st. No reply."
-              },
-              {
-                "name": "Borgo San Felice",
-                "status": "pending",
-                "detail": "Zaira De Biasio (DOS). Availability better on the 28th. Nudged September 18, mentioned the 28th works. Waiting on her reply."
-              },
-              {
-                "name": "Borgo Santo Pietro, Chiusdino",
-                "status": "pending",
-                "detail": "Arianna Cirigliano (Director of Sales). Asked September 18 to host September 27 to 29, or a visit and lunch. No reply yet. About 45 minutes from Volterra and Casole."
-              },
-              {
-                "name": "Castelfalfi, paid",
-                "status": "fallback",
-                "detail": "You declined the 550 euro industry rate on the 16th, but Sara's offer can be re-accepted if nothing else lands. Two nights would be 1,100 euros. The morning site visit on the 27th stands either way."
-              }
-            ]
+            "name": "Castelfalfi, Montaione",
+            "status": "todo",
+            "detail": "Two nights at Sara Bonechi's industry rate, 550 euros a night with breakfast, parking, pools, spa and gym. Reply drafted re-accepting the rate for September 27 to 29 and confirming the 10:30 tour on the 27th. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes.",
+            "todo": "Send the Sara draft. If Casole or San Felice surprises with a hosted night, you can still trim to one night with her."
           },
           "items": [
             {
               "time": "Sunrise",
-              "title": "Shoot at Borgo Pignano Volterra, then check out early",
-              "detail": "Castelfalfi wants you in the morning, so plan to be on the road by 9:30.",
+              "title": "Shoot at Borgo Pignano Volterra, check out by 9:30",
               "status": "info"
             },
             {
-              "time": "Morning",
-              "title": "Castelfalfi, site inspection and lunch at Olivina",
-              "detail": "Sara Bonechi offered the morning of the 27th on September 17: dedicated tour of the estate and rooms, then lunch. You have not confirmed. About 45 minutes from Volterra.",
-              "status": "todo",
-              "todo": "Reply to Sara confirming the 27th, propose 10:30 arrival, lunch after."
+              "time": "10:30 AM",
+              "title": "Castelfalfi, tour of the estate and rooms, lunch at Olivina, check in",
+              "detail": "Sara offered the morning of the 27th. Confirming in the same reply as the stay.",
+              "status": "todo"
+            },
+            {
+              "time": "3:00 PM",
+              "title": "Castello di Casole, site visit",
+              "detail": "40 minutes east. Visit at 3:00 asked in a reply to Federico at Belmond, Italy sales team copied since Ludovica is out until Monday. Draft ready. Not yet confirmed.",
+              "status": "todo"
+            },
+            {
+              "time": "4:45 PM",
+              "title": "Borgo Santo Pietro, site visit and golden hour",
+              "detail": "45 minutes south of Casole. Visit at 4:45 asked in a reply to Arianna, Monday as the alternative. Draft ready. Not yet confirmed. Back to Castelfalfi in about an hour.",
+              "status": "todo"
             }
           ]
         },
         {
           "date": "2026-09-28",
-          "label": "Site visits out west",
+          "label": "Il Borro, maybe San Felice",
           "stay": {
-            "name": "Open, nothing live",
-            "status": "open",
-            "detail": "Casole and San Felice both prefer this night. If neither answers by Wednesday there is no fallback booked."
+            "name": "Castelfalfi, Montaione",
+            "status": "todo",
+            "detail": "Two nights at Sara Bonechi's industry rate, 550 euros a night with breakfast, parking, pools, spa and gym. Reply drafted re-accepting the rate for September 27 to 29 and confirming the 10:30 tour on the 27th. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes.",
+            "todo": "Send the Sara draft. If Casole or San Felice surprises with a hosted night, you can still trim to one night with her."
           },
           "items": [
             {
               "time": "12:30 PM",
               "title": "Il Borro, wine tasting, cellar visit and lunch",
-              "detail": "Federico Caligaris Papa offered September 28 on the 14th. You asked on the 18th to come back to him. Il Borro is in the Valdarno, about 1 hour 15 from Casole, 1 hour from Florence. He is on paternity leave, auto-reply on the 18th.",
+              "detail": "Federico Caligaris Papa offered the 28th. You asked on the 18th to come back to him. 1 hour 30 from Castelfalfi. He is on paternity leave, so reply to the thread and the auto-reply contact.",
               "status": "todo",
-              "todo": "Confirm or decline the 28th with Federico. If confirmed, The Place needs to move."
+              "todo": "Confirm the 28th with Il Borro."
+            },
+            {
+              "time": "Afternoon",
+              "title": "Borgo San Felice, visit if they say no to hosting",
+              "detail": "An hour from Il Borro on the way home, then 1 hour 15 back to Castelfalfi. Zaira has not replied to the ask or the nudge.",
+              "status": "pending"
             }
           ]
         }
@@ -412,27 +408,32 @@
             {
               "name": "Castelfalfi",
               "status": "todo",
-              "detail": "Site inspection and lunch offered for the morning of the 27th. Confirm with Sara."
+              "detail": "Tour and lunch the morning of the 27th, now also the base."
+            },
+            {
+              "name": "Castello di Casole",
+              "status": "todo",
+              "detail": "Visit asked for 3:00 on the 27th. Draft ready."
+            },
+            {
+              "name": "Borgo Santo Pietro",
+              "status": "todo",
+              "detail": "Visit asked for 4:45 on the 27th. Draft ready."
             },
             {
               "name": "Il Borro",
               "status": "todo",
-              "detail": "Tasting, cellar and lunch offered for the 28th. Confirm or decline with Federico."
+              "detail": "Tasting, cellar and lunch offered for the 28th. Confirm."
             },
             {
-              "name": "Castello di Casole",
-              "status": "suggested",
-              "detail": "If not staying, in the Belmond ask."
-            },
-            {
-              "name": "Borgo Santo Pietro",
+              "name": "Borgo San Felice",
               "status": "pending",
-              "detail": "Asked September 18 to host or visit. No reply."
+              "detail": "Hosting ask out since the 16th. Becomes a visit on the 28th afternoon if no."
             },
             {
               "name": "Castel Monastero",
               "status": "suggested",
-              "detail": "Michelin Key, level unverified. Next door to San Felice. Not contacted."
+              "detail": "Next door to San Felice. Only if you are there anyway."
             }
           ]
         },
@@ -1143,9 +1144,11 @@
     {
       "title": "Before you fly, Monday",
       "items": [
+        "Castelfalfi: send the Sara reply taking two nights at 550 and confirming 10:30 on the 27th (draft ready)",
+        "Casole: send the Belmond reply asking for a 3:00 visit on the 27th (draft ready)",
+        "Santo Pietro: send the Arianna reply switching to a 4:45 visit on the 27th (draft ready)",
         "Borgo Pignano Florence: reply to Andrea with ETA about 11:00 PM on the 22nd, mobile, tour on the morning of the 23rd",
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:00 PM on the 26th, site inspection at 5:00",
-        "Castelfalfi: confirm the morning of the 27th with Sara, tour then lunch at Olivina",
         "Il Borro: confirm or decline the 28th lunch with Federico",
         "The Place Firenze: send the reply to Marina moving the visit to the 23rd or the 29th (draft ready)",
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
