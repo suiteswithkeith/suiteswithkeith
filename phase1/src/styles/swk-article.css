@@ -13,7 +13,7 @@
   .swk-post h1 { font-family: var(--display); font-weight: 400; font-size: clamp(2.2rem, 5.4vw, 3.4rem); line-height: 1.06; letter-spacing: -.012em; color: var(--band-ink); margin: 18px 0 0; text-wrap: balance; }
   .swk-deck { font-family: var(--display); font-style: italic; font-size: clamp(1.1rem, 2.1vw, 1.35rem); color: rgba(242,239,230,.9); margin-top: 16px; line-height: 1.45; max-width: 640px; }
 
-  .swk-byline { font-family: var(--stamp); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ash-3); margin-top: 34px; padding-bottom: 26px; border-bottom: 1px solid var(--hairline); }
+  .swk-byline { font-family: var(--stamp); font-weight: 600; font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ash-3); margin-top: 34px; padding-bottom: 26px; border-bottom: 1px solid var(--hairline); }
   .swk-post p { font-weight: 300; font-size: 1.08rem; line-height: 1.72; margin: 22px 0 0; text-wrap: pretty; }
   .swk-post h2 { font-family: var(--display); font-weight: 500; font-size: clamp(1.5rem, 2.6vw, 1.9rem); color: var(--ink); margin: 70px 0 0; }
   .swk-post h3 { font-family: var(--display); font-weight: 500; font-size: 1.35rem; color: var(--ink); margin: 38px 0 0; }
@@ -29,7 +29,7 @@
   .swk-guide-link a:hover { color: var(--ink); }
 
   .swk-panel { background: var(--lime); border: 1px solid var(--hairline); padding: 34px; margin: 44px 0 0; }
-  .swk-label { font-family: var(--stamp); font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); font-weight: 700; }
+  .swk-label { font-family: var(--stamp); font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); font-weight: 600; }
 
   .swk-legend { display: flex; flex-direction: column; gap: 16px; margin-top: 24px; }
   .swk-legend > div { display: flex; align-items: flex-start; gap: 14px; font-weight: 300; font-size: .98rem; line-height: 1.6; }
@@ -37,7 +37,7 @@
   .swk-ring { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--brass); background: transparent; flex: none; margin-top: 7px; }
 
   .swk-for { font-size: .9rem; color: var(--ash); margin-top: 14px !important; }
-  .swk-for span { font-family: var(--stamp); font-size: .64rem; letter-spacing: .1em; color: var(--brass); margin-right: 8px; font-weight: 700; }
+  .swk-for span { font-family: var(--stamp); font-size: .64rem; letter-spacing: .1em; color: var(--brass); margin-right: 8px; font-weight: 600; }
 
   .swk-hcard { display: grid; grid-template-columns: 250px 1fr; background: var(--lime); border: 1px solid var(--hairline); margin-top: 28px; }
   .swk-hcard-media { background-size: cover; background-position: center; min-height: 100%; }
@@ -45,8 +45,8 @@
   .swk-hcard-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .swk-hotel-name { font-family: var(--display); font-weight: 500; font-size: 1.3rem; color: var(--ink); }
   .swk-hotel-name a { border-bottom: 1px solid var(--brass); }
-  .swk-rate { font-family: var(--stamp); font-size: .68rem; letter-spacing: .06em; color: var(--brass); white-space: nowrap; font-weight: 700; }
-  .swk-hcard-meta { font-family: var(--stamp); font-size: .64rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ash-3); margin-top: 8px; }
+  .swk-rate { font-family: var(--stamp); font-size: .68rem; letter-spacing: .06em; color: var(--brass); white-space: nowrap; font-weight: 600; }
+  .swk-hcard-meta { font-family: var(--stamp); font-weight: 600; font-size: .64rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ash-3); margin-top: 8px; }
   .swk-hcard-body p { font-size: .96rem; line-height: 1.66; margin-top: 14px; color: var(--ash); }
   .swk-hcard-link { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; margin-top: 16px !important; font-weight: 500; }
   .swk-hcard-link a { border-bottom: none; color: var(--brass); }
@@ -63,7 +63,7 @@
   .swk-toc li { margin: 0 0 12px; break-inside: avoid; }
   .swk-toc a { font-weight: 300; font-size: .95rem; border-bottom: none; }
   .swk-toc a:hover { color: var(--brass); }
-  .swk-toc-num { font-family: var(--stamp); font-size: .64rem; letter-spacing: .1em; color: var(--brass); margin-right: 10px; font-weight: 700; }
+  .swk-toc-num { font-family: var(--stamp); font-size: .64rem; letter-spacing: .1em; color: var(--brass); margin-right: 10px; font-weight: 600; }
   @media (max-width: 640px) { .swk-toc ol { columns: 1; } .swk-toc { padding: 24px 22px; } }
 
   .swk-map { background: var(--shadow); border: 1px solid var(--shadow-2); margin: 44px 0 0; padding: 0; }
@@ -72,7 +72,7 @@
 
   .swk-match { border-top: 1px solid var(--hairline); padding-top: 26px; margin-top: 30px; }
   .swk-match h3 { margin-top: 0; }
-  .swk-match-tag { display: inline-block; font-family: var(--stamp); font-size: .64rem; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); border: 1px solid var(--hairline-firm); padding: 6px 12px; margin: 14px 8px 0 0; font-weight: 700; }
+  .swk-match-tag { display: inline-block; font-family: var(--stamp); font-size: .64rem; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); border: 1px solid var(--hairline-firm); padding: 6px 12px; margin: 14px 8px 0 0; font-weight: 600; }
   .swk-match p { font-size: .98rem; }
 
   .swk-cost { background: var(--shadow); color: var(--band-ink); padding: 38px 34px; margin: 56px 0 0; }
@@ -108,7 +108,7 @@
 
 /* ── tables (honeymoon route) ── */
 .swk-post table { width: 100%; min-width: 0; border-collapse: collapse; margin-top: 22px; font-size: .95rem; }
-.swk-post th { font-family: var(--stamp); font-size: .64rem; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); font-weight: 700; text-align: left; padding: 0 22px 12px 0; border-bottom: 1px solid var(--hairline); }
+.swk-post th { font-family: var(--stamp); font-size: .64rem; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); font-weight: 600; text-align: left; padding: 0 22px 12px 0; border-bottom: 1px solid var(--hairline); }
 .swk-post td { font-weight: 300; line-height: 1.5; padding: 15px 22px 15px 0; border-bottom: 1px solid var(--hairline); }
 .swk-post tr:last-child td { border-bottom: none; padding-bottom: 0; }
 .swk-post td:first-child { font-family: var(--display); font-weight: 500; font-size: 1.05rem; color: var(--ink); }
@@ -127,18 +127,18 @@
 .swk-route { border: 1px solid var(--hairline); background: var(--lime); margin-top: 34px; }
 .swk-route-media { height: 235px; background-size: cover; background-position: center; }
 .swk-route-head { display: flex; align-items: baseline; gap: 16px; padding: 26px 30px 0; flex-wrap: wrap; }
-.swk-route-letter { font-family: var(--stamp); font-weight: 700; font-size: .72rem; letter-spacing: .14em; color: var(--brass); border: 1px solid var(--hairline); padding: 7px 12px; }
+.swk-route-letter { font-family: var(--stamp); font-weight: 600; font-size: .72rem; letter-spacing: .14em; color: var(--brass); border: 1px solid var(--hairline); padding: 7px 12px; }
 .swk-route-head h3 { margin: 0; font-size: 1.4rem; }
 .swk-route-body { padding: 0 30px 28px; }
 .swk-route-body p { font-size: 1rem; }
 .swk-route-for { font-family: var(--display); font-style: italic; font-size: 1.15rem; color: var(--ash); margin-top: 10px !important; }
 .swk-route-body .swk-guide-link { display: flex; flex-wrap: wrap; gap: 8px 26px; }
 .swk-legs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
-.swk-leg { font-family: var(--stamp); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash); border: 1px solid var(--hairline); background: var(--plaster); padding: 7px 12px; }
-.swk-nights { font-family: var(--stamp); font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ash-3); margin-top: 14px; }
+.swk-leg { font-family: var(--stamp); font-weight: 600; font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash); border: 1px solid var(--hairline); background: var(--plaster); padding: 7px 12px; }
+.swk-nights { font-family: var(--stamp); font-weight: 600; font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ash-3); margin-top: 14px; }
 .swk-skip { display: flex; flex-direction: column; gap: 0; margin-top: 30px; border-top: 1px solid var(--hairline); }
 .swk-skip > div { display: grid; grid-template-columns: 34px 1fr; gap: 20px; align-items: start; padding: 26px 0; border-bottom: 1px solid var(--hairline); }
-.swk-skip-mark { font-family: var(--stamp); font-size: .72rem; font-weight: 700; color: var(--brass); border: 1px solid var(--hairline-firm); border-radius: 50%; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; margin-top: 2px; }
+.swk-skip-mark { font-family: var(--stamp); font-size: .72rem; font-weight: 600; color: var(--brass); border: 1px solid var(--hairline-firm); border-radius: 50%; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; margin-top: 2px; }
 .swk-skip-pair { font-family: var(--display); font-weight: 500; font-size: 1.25rem; color: var(--ink); }
 .swk-skip-verdict { font-family: var(--display); font-style: italic; font-size: 1.1rem; color: var(--ash); margin-top: 4px !important; }
 .swk-skip p { font-size: .98rem; margin-top: 12px; }
@@ -157,14 +157,14 @@
 
 /* ── stages, rate lines & pull quote (planning-with-swk) ── */
 .swk-stage { border-top: 1px solid var(--hairline); padding-top: 30px; margin-top: 52px; }
-.swk-stage-num { font-family: var(--stamp); font-weight: 700; font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; color: var(--brass); }
+.swk-stage-num { font-family: var(--stamp); font-weight: 600; font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; color: var(--brass); }
 .swk-stage h2 { margin-top: 10px; }
 .swk-rates { margin-top: 26px; border-top: 1px solid var(--hairline); }
 .swk-rateline { display: grid; grid-template-columns: 1fr auto; gap: 8px 20px; align-items: baseline; border-bottom: 1px solid var(--hairline); padding: 18px 0; }
 .swk-rate-name { font-family: var(--display); font-weight: 500; font-size: 1.2rem; color: var(--ink); }
-.swk-rate-figure { font-family: var(--stamp); font-weight: 700; font-size: .72rem; letter-spacing: .08em; color: var(--brass); white-space: nowrap; }
+.swk-rate-figure { font-family: var(--stamp); font-weight: 600; font-size: .72rem; letter-spacing: .08em; color: var(--brass); white-space: nowrap; }
 .swk-rateline .swk-rate-note { grid-column: 1 / -1; font-weight: 300; font-size: .95rem !important; line-height: 1.65; color: var(--ash) !important; margin: 0 !important; font-style: normal; font-family: var(--body); }
-.swk-rate-meta { font-family: var(--stamp); font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash-3); }
+.swk-rate-meta { font-family: var(--stamp); font-weight: 600; font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash-3); }
 .swk-quote { font-family: var(--display); font-style: italic; font-size: clamp(1.2rem, 2.2vw, 1.4rem); line-height: 1.5; color: var(--ink); border-left: 2px solid var(--brass); padding-left: 24px; margin: 40px 0 0; }
 .swk-cost a { color: var(--brass-lit); border-bottom-color: rgba(190,151,90,.45); }
 .swk-cost a:hover { color: var(--band-ink); }
