@@ -759,9 +759,9 @@
           "label": "Long drive, Rosewood, Poggio",
           "stay": {
             "name": "Precise Tale Poggio alla Sala, Montepulciano",
-            "status": "todo",
-            "detail": "The base for the 8th. Hosting ask to Cinzia Malgrande (Sales Manager) drafted September 20, straight hosting ask, visit as the fallback. If she cannot host, book it through Fora, about $740 with 10 to 17 percent commission, by Wednesday. 15 minutes from Lupaia, 45 from Rosewood. Property line +39 0578 820050.",
-            "todo": "Send the Cinzia draft. Book through Fora by Wednesday September 23 if no reply."
+            "status": "pending",
+            "detail": "The base for the 8th. Asked Cinzia Malgrande (Sales Manager) September 20 to host or offer a media rate, with a Fora booking as the fallback. If she cannot host, book through Fora, about $740 with 10 to 17 percent commission, by Wednesday. 15 minutes from Lupaia, 45 from Rosewood. Property line +39 0578 820050.",
+            "todo": "Book through Fora by Wednesday September 23 if Cinzia has not replied."
           },
           "items": [
             {
@@ -1136,7 +1136,7 @@
         "Return flight: keep watching award space for October 16, cancel United KYMT99 if an award opens (fully refundable)",
         "Villa Treville: add the sales contact and send the October 13 ask (draft ready)",
         "Rosewood: reply to Claudia taking the day visit, propose 12:30 on October 8, morning of the 9th as fallback (draft ready)",
-        "Poggio alla Sala: send the ask to Cinzia (draft ready), book through Fora by Wednesday if silent"
+        "Poggio alla Sala: asked Cinzia September 20, book through Fora by Wednesday if silent"
       ]
     }
   ],
@@ -1149,7 +1149,8 @@
         "Rosewood / Claudia: back Monday",
         "Banfi, Monteverdi, Lupaia: Val d'Orcia",
         "Le Sirenuse, Santa Caterina: Amalfi",
-        "Il Sereno / Gaia Rosetti: nudged September 18, hosted night October 1 or 3, or a site visit"
+        "Il Sereno / Gaia Rosetti: nudged September 18, hosted night October 1 or 3, or a site visit",
+        "Poggio alla Sala / Cinzia Malgrande: October 8, hosting or media rate"
       ]
     },
     {
