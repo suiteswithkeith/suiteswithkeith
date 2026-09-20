@@ -61,8 +61,8 @@
       "text": "Tuscany to Portofino about 3 hours. Portofino to Cernobbio about 2 hours 45. Como to the Dolomites about 3 hours. Alpe di Siusi to Montalcino about 4 hours 30, the longest day. Val d'Orcia to Rome about 2 hours 30. Rome to Positano about 3 hours."
     },
     {
-      "title": "House rule",
-      "text": "No hotel departures before 11:00 AM. Gym and breakfast first. Every day below is built on that. The only exceptions are the ones you choose: the Eccellenze walk on the 24th at 9:00, the Aman visit on the 6th if it stays at 11:00, and the flight home on the 16th."
+      "title": "Pace",
+      "text": "This is a sketch, not a schedule. Slow mornings, gym and breakfast, no hotel departures before 11:00. One property visit a day is the target, two is the ceiling, and where you are staying counts as seen. Times on the page are suggestions to steer replies toward, not commitments. If a day feels full, drop the second stop."
     }
   ],
   "blocks": [
@@ -349,15 +349,15 @@
               "status": "info"
             },
             {
-              "time": "11:45 AM",
-              "title": "Castelfalfi, tour of the estate and rooms into lunch at Olivina, check in",
-              "detail": "Sara offered the morning. Draft asks for 11:45 with the tour running into lunch.",
+              "time": "Midday",
+              "title": "Arrive Castelfalfi, check in, settle",
+              "detail": "Sara's tour can happen whenever suits across the two days. Lunch is wherever you like. Draft to Sara reflects that.",
               "status": "todo"
             },
             {
               "time": "3:30 PM",
               "title": "Castello di Casole, site visit",
-              "detail": "40 minutes east. Visit at 3:30 asked in a reply to Federico at Belmond, Italy sales team copied. Draft ready. Not yet confirmed. Back at Castelfalfi for the evening.",
+              "detail": "40 minutes east. Visit at 3:30 asked in a reply to Federico at Belmond, Italy sales team copied. Draft ready. Not yet confirmed. Skip it if the day feels full and fold it into the 28th instead of San Felice.",
               "status": "todo"
             }
           ]
@@ -1135,7 +1135,7 @@
     {
       "title": "Before you fly, Monday",
       "items": [
-        "Castelfalfi: send the Sara reply taking two nights at 550 and confirming 11:45 on the 27th (draft ready)",
+        "Castelfalfi: send the Sara reply taking two nights at 550, tour whenever suits (draft ready)",
         "Casole: send the Belmond reply asking for a 3:30 visit on the 27th (draft ready)",
         "Santo Pietro: send the Arianna reply asking for a 12:00 visit and lunch on the 28th (draft ready)",
         "Borgo Pignano Florence: reply to Andrea with ETA about 11:00 PM on the 22nd, mobile, tour on the morning of the 23rd",
