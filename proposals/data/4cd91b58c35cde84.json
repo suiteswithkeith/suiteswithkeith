@@ -59,6 +59,10 @@
     {
       "title": "Drive times",
       "text": "Tuscany to Portofino about 3 hours. Portofino to Cernobbio about 2 hours 45. Como to the Dolomites about 3 hours. Alpe di Siusi to Montalcino about 4 hours 30, the longest day. Val d'Orcia to Rome about 2 hours 30. Rome to Positano about 3 hours."
+    },
+    {
+      "title": "House rule",
+      "text": "No hotel departures before 11:00 AM. Gym and breakfast first. Every day below is built on that. The only exceptions are the ones you choose: the Eccellenze walk on the 24th at 9:00, the Aman visit on the 6th if it stays at 11:00, and the flight home on the 16th."
     }
   ],
   "blocks": [
@@ -244,40 +248,36 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Breakfast at leisure, Eccellenze checkout from Portrait",
+              "title": "Gym, breakfast, Eccellenze checkout from Portrait by 11:00",
               "status": "info"
             },
             {
-              "time": "About 8:15 AM",
-              "title": "Depart for FLR",
-              "status": "info"
+              "time": "11:15 AM",
+              "title": "Palazzo Portinari Salviati, site visit, on foot from Portrait",
+              "detail": "Five minutes' walk, leave the bags with Portrait. Asked for 1:30 with the morning as fallback, so when they reply, steer to 11:15. Two Michelin Keys. No reply yet.",
+              "status": "pending"
             },
             {
-              "time": "9:00 AM",
-              "title": "Pick up the rental car, Florence Vespucci Airport",
-              "detail": "Avis #26405920US2.",
-              "status": "confirmed"
+              "time": "12:30 PM",
+              "title": "Taxi to FLR, pick up the rental car",
+              "detail": "Avis #26405920US2 is booked for 9:00. Move the pickup to 12:30 in the Avis app so the reservation is not released. No fee.",
+              "status": "todo",
+              "todo": "Change the Avis pickup time to 12:30 on the 25th."
             },
             {
-              "time": "10:30 AM",
+              "time": "1:45 PM",
               "title": "Villa La Massa, Candeli, site visit",
-              "detail": "Asked September 20 through the general inbox for 10:30, afternoon as fallback, lunch if easy. Candeli is 25 minutes east of the airport along the Arno. No reply yet.",
+              "detail": "Asked for 10:30 with the afternoon as fallback, so when they reply, steer to 1:45. Candeli is 25 minutes from the airport along the Arno. Lunch there if they offer. No reply yet.",
               "status": "pending"
             },
             {
-              "time": "1:30 PM",
-              "title": "Palazzo Portinari Salviati, site visit",
-              "detail": "Asked September 20 through the LDC inbox for 1:30, morning as fallback. Via del Corso, centre. Two Michelin Keys. No reply yet.",
+              "time": "3:30 PM",
+              "title": "Il Salviatino, Fiesole, site visit, or Saturday",
+              "detail": "Asked for the afternoon of the 25th or the morning of the 26th. Next door to Collegio. No reply yet.",
               "status": "pending"
             },
             {
-              "time": "Late afternoon",
-              "title": "Il Salviatino, Fiesole, site visit, or Saturday morning",
-              "detail": "Asked September 20 through the general inbox, addressed to Nicolas Zimmermann, offering the afternoon of the 25th or the morning of the 26th. Next door to Collegio. No reply yet.",
-              "status": "pending"
-            },
-            {
-              "time": "4:00 PM",
+              "time": "4:30 PM",
               "title": "Check in at Collegio alla Querce, shoot at golden hour",
               "status": "info"
             }
@@ -290,35 +290,34 @@
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
             "detail": "Confirmed September 18 by Giuliana Braschi, complimentary B&B. Must depart by noon on the 27th, the property goes to exclusive use. They want your ETA and a time for the site inspection on the 26th.",
-            "todo": "Reply to Giuliana with arrival about 4:00 PM and the tour at 5:00 PM before the sunset shoot."
+            "todo": "Reply to Giuliana with arrival about 4:30 PM and the site inspection at 5:00."
           },
           "items": [
             {
               "time": "Morning",
-              "title": "Suggested visit: Villa San Michele (Belmond), Fiesole",
-              "detail": "Minutes from Collegio. Asked as a site visit on the 26th in the September 18 email to Federico at Belmond. Ludovica Rossi is back Monday the 21st. No reply yet.",
-              "status": "pending"
-            },
-            {
-              "time": "Morning",
-              "title": "Il Salviatino, if not done on the 25th",
-              "detail": "Same ask, either day.",
-              "status": "pending"
-            },
-            {
-              "time": "12:30 PM",
-              "title": "Lunch at COMO Castello del Nero, Chianti",
-              "detail": "Asked Ilaria September 20 to move lunch from the 25th to the 26th, on the way south. Tavarnelle is 35 minutes from Collegio. If the 26th does not work for them, it stays on the 25th and the day reshuffles. Ask to see a room or two.",
-              "status": "pending"
-            },
-            {
-              "time": "About 2:30 PM",
-              "title": "Drive to Volterra",
-              "detail": "About 1 hour 10 from Tavarnelle via Castelfiorentino.",
+              "title": "Gym and breakfast at Collegio, out by 11:00",
               "status": "info"
             },
             {
-              "time": "4:00 PM",
+              "time": "11:15 AM",
+              "title": "Villa San Michele or Il Salviatino, Fiesole, one visit",
+              "detail": "Both minutes from Collegio. Villa San Michele is in the Belmond ask, Salviatino asked for either day. Whichever comes back, 45 minutes.",
+              "status": "pending"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "Lunch at COMO Castello del Nero, Chianti",
+              "detail": "Asked Ilaria to move lunch from the 25th to the 26th at 12:30. When she replies, make it 1:00. Tavarnelle is 35 minutes from Fiesole. Ask to see a room or two.",
+              "status": "pending"
+            },
+            {
+              "time": "About 3:00 PM",
+              "title": "Drive to Volterra",
+              "detail": "About 1 hour 10 from Tavarnelle.",
+              "status": "info"
+            },
+            {
+              "time": "4:30 PM",
               "title": "Arrive Borgo Pignano Volterra, site inspection at 5:00, shoot at sunset",
               "status": "info"
             }
@@ -345,19 +344,20 @@
           "items": [
             {
               "time": "Sunrise",
-              "title": "Shoot at Borgo Pignano Volterra, breakfast, check out by 9:45",
+              "title": "Shoot at Borgo Pignano Volterra, then gym, breakfast, out at 11:00",
+              "detail": "Checkout deadline is noon, exclusive use from the 27th.",
               "status": "info"
             },
             {
-              "time": "10:30 AM",
-              "title": "Castelfalfi, tour of the estate and rooms, lunch at Olivina, check in",
-              "detail": "Sara offered the morning of the 27th. Confirming in the same reply as the stay.",
+              "time": "11:45 AM",
+              "title": "Castelfalfi, tour of the estate and rooms into lunch at Olivina, check in",
+              "detail": "Sara offered the morning. Draft asks for 11:45 with the tour running into lunch.",
               "status": "todo"
             },
             {
-              "time": "3:00 PM",
+              "time": "3:30 PM",
               "title": "Castello di Casole, site visit",
-              "detail": "40 minutes east. Visit at 3:00 asked in a reply to Federico at Belmond, Italy sales team copied since Ludovica is out until Monday. Draft ready. Not yet confirmed. Back at Castelfalfi for the evening.",
+              "detail": "40 minutes east. Visit at 3:30 asked in a reply to Federico at Belmond, Italy sales team copied. Draft ready. Not yet confirmed. Back at Castelfalfi for the evening.",
               "status": "todo"
             }
           ]
@@ -374,13 +374,13 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Gym and breakfast at Castelfalfi, leave about 10:30",
+              "title": "Gym and breakfast at Castelfalfi, out at 11:00",
               "status": "info"
             },
             {
-              "time": "11:30 AM",
+              "time": "12:00 PM",
               "title": "Borgo Santo Pietro, site visit and lunch",
-              "detail": "1 hour south. Visit at 11:30 asked in a reply to Arianna, Sunday late afternoon as the alternative. Draft ready. Not yet confirmed.",
+              "detail": "1 hour south. Visit at 12:00 asked in a reply to Arianna, Sunday late afternoon as the alternative. Draft ready. Not yet confirmed.",
               "status": "todo"
             },
             {
@@ -497,9 +497,9 @@
               "status": "suggested"
             },
             {
-              "time": "Afternoon",
+              "time": "From 11:00",
               "title": "Drive Tuscany to Portofino",
-              "detail": "About 3 hours.",
+              "detail": "About 3 hours from Castelfalfi. Arrive Portofino mid afternoon.",
               "status": "info"
             }
           ]
@@ -568,9 +568,9 @@
           },
           "items": [
             {
-              "time": "Morning",
+              "time": "From 11:00",
               "title": "Drive Portofino to Cernobbio",
-              "detail": "About 2 hours 45.",
+              "detail": "About 2 hours 45. Il Sereno in Torno around 2:00 PM on the way in, Cernobbio by 3:30.",
               "status": "info"
             },
             {
@@ -684,9 +684,9 @@
           },
           "items": [
             {
-              "time": "Morning",
+              "time": "From 11:00",
               "title": "Drive Como to the Dolomites",
-              "detail": "About 3 hours.",
+              "detail": "About 3 hours. Miramonti mid afternoon if they offer the visit, Forestis by early evening.",
               "status": "info"
             },
             {
@@ -736,7 +736,7 @@
             {
               "time": "Late morning",
               "title": "Aman Rosa Alpina, San Cassiano, site visit",
-              "detail": "Confirmed by Elisa De Nicolo (Sales Manager) September 18 for October 6, around 11:00 AM. She will be in touch closer to the day. About 1 hour from Forestis. Met Kaya Onaran and the Aman team in Montenegro, June 2026.",
+              "detail": "Confirmed by Elisa De Nicolo for October 6 around 11:00 AM. It is an hour from Forestis, so this one means leaving at 10:00, or asking Elisa to shift to 12:00 when she gets in touch closer to the day. Met Kaya Onaran and the Aman team in Montenegro, June 2026.",
               "status": "confirmed"
             },
             {
@@ -771,11 +771,11 @@
       "dates": "October 8 to 10",
       "strip_label": "Rosewood visit, Poggio, Banfi or Monteverdi",
       "summary": "Rosewood is sold out but visiting on the way in. Poggio alla Sala is the base on the 8th. The 9th is Lupaia, the non-hosting estate as a visit, and check-in at Banfi or Monteverdi. The 10th is clean for the drive south.",
-      "drive": "Alpe di Siusi to Rosewood about 4 hours 30, straight down the A1 with no Modena stop. Rosewood to Poggio alla Sala about 45 minutes.",
+      "drive": "Alpe di Siusi to Rosewood about 4 hours 30 leaving at 11:00, straight down the A1. Rosewood to Poggio alla Sala about 45 minutes.",
       "days": [
         {
           "date": "2026-10-08",
-          "label": "Long drive, Rosewood, Poggio",
+          "label": "Long drive, Rosewood late, Poggio",
           "stay": {
             "name": "Precise Tale Poggio alla Sala, Montepulciano",
             "status": "pending",
@@ -784,19 +784,19 @@
           },
           "items": [
             {
-              "time": "7:30 AM",
-              "title": "Leave Alpe di Siusi, straight down the A1",
-              "detail": "About 4 hours 30 to Rosewood. No Modena lunch on this version, a coffee stop at most. Casa Maria Luigia stays on the list for another trip.",
+              "time": "11:00 AM",
+              "title": "Leave Alpe di Siusi after gym and breakfast, straight down the A1",
+              "detail": "About 4 hours 30 to Rosewood. No Modena stop.",
               "status": "info"
             },
             {
-              "time": "12:30 PM",
+              "time": "3:30 PM",
               "title": "Rosewood Castiglion del Bosco, day visit",
-              "detail": "Claudia Chimenti offered a day visit after the stay sold out. Reply drafted proposing 12:30 on the 8th first, morning of the 9th as the fallback. Lunch, rooms, the estate, done by about 3:30. Sold out means ask for whatever rooms turn over.",
+              "detail": "Claudia offered a day visit. Reply drafted proposing 3:30 on the 8th for the late light, or 1:00 on the 9th with lunch. Sold out means ask for whatever rooms turn over.",
               "status": "todo"
             },
             {
-              "time": "4:30 PM",
+              "time": "6:00 PM",
               "title": "Check in at Poggio alla Sala",
               "detail": "45 minutes east across the valley.",
               "status": "info"
@@ -825,21 +825,21 @@
           },
           "items": [
             {
-              "time": "9:00 AM",
+              "time": "11:30 AM",
               "title": "Lupaia, Montepulciano, walk-through",
               "detail": "15 minutes from Poggio. Sold out, so a 45-minute walk-through, not a shoot.",
               "status": "pending"
             },
             {
-              "time": "Midday",
-              "title": "Visit whichever of Banfi or Monteverdi is not hosting",
-              "detail": "Banfi is 20 minutes from Rosewood on the west side. Monteverdi is 50 minutes southeast at Sarteano. Lunch at whichever you visit.",
+              "time": "1:00 PM",
+              "title": "Rosewood if it did not happen on the 8th, otherwise visit the non-hosting estate",
+              "detail": "Rosewood at 1:00 with lunch is the fallback in the Claudia draft. If Rosewood was done on the 8th, this slot is Banfi or Monteverdi, whichever is not hosting.",
               "status": "suggested"
             },
             {
-              "time": "Afternoon",
+              "time": "Late afternoon",
               "title": "Check in at the host estate, shoot at golden hour",
-              "detail": "Third property of the day, but you are sleeping there, so it costs no visit time. Shoot again in the morning.",
+              "detail": "Third property of the day, but you are sleeping there.",
               "status": "info"
             }
           ]
@@ -917,13 +917,7 @@
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Banfi visit only if Monteverdi hosted the 9th",
-              "detail": "Otherwise the morning is free. From Monteverdi the Chiusi exit is 15 minutes, then about 2 hours to Rome or 2 hours 15 to Porto Ercole. Needs the car past noon.",
-              "status": "suggested"
-            },
-            {
-              "time": "Morning",
+              "time": "From 11:00",
               "title": "Drive Val d'Orcia to Rome",
               "status": "info"
             },
@@ -1116,7 +1110,7 @@
             {
               "time": "Morning",
               "title": "Transfer to Naples airport (NAP)",
-              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Arno asked to help. Aim to leave by 10:30 AM for the 2:00 PM flight.",
+              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. For a 2:00 PM international departure with a checked bag, leaving at 11:00 lands you at the airport at 12:30. That is the one morning worth leaving at 10:30. Arno asked to help.",
               "status": "todo"
             },
             {
@@ -1141,13 +1135,14 @@
     {
       "title": "Before you fly, Monday",
       "items": [
-        "Castelfalfi: send the Sara reply taking two nights at 550 and confirming 10:30 on the 27th (draft ready)",
-        "Casole: send the Belmond reply asking for a 3:00 visit on the 27th (draft ready)",
-        "Santo Pietro: send the Arianna reply asking for an 11:30 visit and lunch on the 28th (draft ready)",
+        "Castelfalfi: send the Sara reply taking two nights at 550 and confirming 11:45 on the 27th (draft ready)",
+        "Casole: send the Belmond reply asking for a 3:30 visit on the 27th (draft ready)",
+        "Santo Pietro: send the Arianna reply asking for a 12:00 visit and lunch on the 28th (draft ready)",
         "Borgo Pignano Florence: reply to Andrea with ETA about 11:00 PM on the 22nd, mobile, tour on the morning of the 23rd",
-        "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:00 PM on the 26th, site inspection at 5:00",
+        "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:30 PM on the 26th, site inspection at 5:00",
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
-        "Il San Pietro: confirm 11:00 AM on the 14th with Agostino"
+        "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
+        "Avis: move the September 25 pickup from 9:00 to 12:30 in the app"
       ]
     },
     {
