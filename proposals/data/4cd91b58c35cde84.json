@@ -832,11 +832,6 @@
           "title": "Ruled out or dropped",
           "items": [
             {
-              "name": "Monteverdi Tuscany",
-              "status": "ruled_out",
-              "detail": "Asked for the 9th on the 18th, never answered. No longer needed, the 9th is Pellicano."
-            },
-            {
               "name": "Reschio as a stay",
               "status": "ruled_out",
               "detail": "Florian Schaible: near full, no room to host. Reservations offered Suite Castello Twin October 8 to 10 at 2,295 euros a night. No. The visit and lunch he offered on the 10th no longer fits, Reschio is 2 hours 45 from Porto Ercole. Send Florian a warm next-trip note."
@@ -866,9 +861,14 @@
           "date": "2026-10-09",
           "label": "Rosewood lunch, then the coast",
           "stay": {
-            "name": "Porto Ercole, La Roqqa asked",
+            "name": "Porto Ercole, or Monteverdi if they host",
             "status": "open",
             "options": [
+              {
+                "name": "Monteverdi Tuscany, Castiglioncello del Trinoro",
+                "status": "pending",
+                "detail": "Peggy Picano-Nacci (DOS EMEA & APAC) answered September 21: reviewing, will revert shortly, no offer yet. If she hosts the 9th it takes first place: Banfi to Monteverdi about 1 hour 15, there by 5:45, and the coast becomes the 10th only. A visit-only offer is a polite no, it sits an hour east of Rosewood."
+              },
               {
                 "name": "Hotel La Roqqa, Porto Ercole",
                 "status": "pending",
@@ -880,7 +880,7 @@
                 "detail": "If La Roqqa cannot host. Rosewood lunch, 45 minutes back east, then to the coast on the 10th."
               }
             ],
-            "detail": "Gianluca priced two Pellicano nights at 1,200 euros a night on the 21st, which is the 10th at 830 plus the 9th at 1,570. Declined for the 9th, holding reply sent, decision on the 10th by Wednesday."
+            "detail": "Order of preference for this night: Monteverdi hosted, La Roqqa hosted, Poggio again. Gianluca priced two Pellicano nights at 1,200 euros a night, declined for the 9th, holding reply sent, decision on the 10th by Wednesday."
           },
           "items": [
             {
@@ -1160,7 +1160,7 @@
       "title": "This week",
       "start": 10,
       "items": [
-        "Banfi: confirm 3:00 on the 9th with Maddalena around October 4, held on purpose",
+        "Porto Ercole, Wednesday: Monteverdi hosted takes the 9th if offered, then La Roqqa, then Poggio. If the coast is one night, ask Gianluca for a Pellicano visit or take the 10th at 830",
         "Castelfalfi ETA, Volterra ETA to Giuliana, Il San Pietro time to Agostino: all low stakes, send from the road",
         "Porto Ercole, Wednesday: if La Roqqa hosts, ask Gianluca for a Pellicano visit and lunch on the 10th. If not, take Pellicano on the 10th at 830 and Poggio on the 9th",
         "Le Sirenuse: rate proposal coming for the 13th, decide when it lands, visit on the 13th or 14th as the fallback",
@@ -1187,6 +1187,7 @@
       "items": [
         "La Roqqa / Roberta Davanzo: two hosted nights October 9 to 11, asked the 21st",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
+        "Monteverdi / Peggy: reviewing the 9th, will revert, replied the 21st",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
         "Borgo San Felice / Zaira: asked the 16th, nudged the 18th",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
