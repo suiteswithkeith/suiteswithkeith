@@ -671,7 +671,7 @@
       "name": "Dolomites",
       "dates": "October 4 to 8",
       "strip_label": "Forestis, Aman visit, COMO Alpina",
-      "summary": "Forestis is confirmed for two nights and COMO Alpina for one. Miramonti decides the shape: if they host October 4, everything shifts a day and the open night on the 6th disappears.",
+      "summary": "Forestis is confirmed for two nights and COMO Alpina for one. The ask out now is a paid night at Aman Rosa Alpina on the 7th, the cheapest night of the month there. If Elisa offers a rate, COMO Alpina moves to the 6th and the block is full. If not, the 6th stays open and the Aman visit stands.",
       "drive": "Como to the Dolomites about 3 hours.",
       "days": [
         {
@@ -723,6 +723,11 @@
             "detail": "Unless Miramonti hosts the 4th, which pushes Forestis to cover this night.",
             "options": [
               {
+                "name": "COMO Alpina Dolomites, moved here",
+                "status": "pending",
+                "detail": "The plan if Aman offers a rate for the 7th: ask Deborah Carlin to move the hosted night from the 7th to the 6th. She said availability opens from the 5th. Ask her only once Elisa answers."
+              },
+              {
                 "name": "COMO Alpina Dolomites, second night",
                 "status": "todo",
                 "detail": "Ask Deborah Carlin for a second night. She said availability opens from the 5th. Not yet asked."
@@ -755,17 +760,28 @@
         },
         {
           "date": "2026-10-07",
-          "label": "Alpe di Siusi",
+          "label": "Aman, or Alpe di Siusi",
           "stay": {
-            "name": "COMO Alpina Dolomites, Alpe di Siusi",
-            "status": "confirmed",
-            "detail": "1 night complimentary B&B, October 7 to 8. Deborah Carlin (Sales Manager). Reception sending the confirmation."
+            "name": "Aman Rosa Alpina, or COMO Alpina as booked",
+            "status": "open",
+            "options": [
+              {
+                "name": "Aman Rosa Alpina, San Cassiano, paid",
+                "status": "pending",
+                "detail": "Asked Elisa De Nicolo September 21 for a rate on the night of the 7th, the cheapest night of the month on their site at about 1,300 euros against 2,600 elsewhere. If yes, the stay replaces the visit on the 6th. Alpe di Siusi to San Cassiano about 1 hour 15 over Passo Gardena. San Cassiano to Montepulciano on the 8th about 5 hours, 20 minutes more than from Alpe di Siusi."
+              },
+              {
+                "name": "COMO Alpina Dolomites, as confirmed",
+                "status": "confirmed",
+                "detail": "1 night complimentary B&B, October 7 to 8, if Aman does not come through. Deborah Carlin (Sales Manager). Reception sending the confirmation."
+              }
+            ]
           },
           "items": [
             {
               "time": "Free day",
               "title": "Suggested visit: ADLER Lodge Alpe",
-              "detail": "Next door on Alpe di Siusi. Not contacted.",
+              "detail": "Next door on Alpe di Siusi. Not contacted. Only if the 7th stays at COMO Alpina.",
               "status": "suggested"
             }
           ]
@@ -1134,6 +1150,7 @@
       "items": [
         "Il Pellicano: send the holding reply to Gianluca, understood on the 9th, answer on the 10th by Wednesday (draft ready)",
         "La Roqqa: send the hosting ask to Roberta Davanzo for October 9 to 11 (draft ready)",
+        "Aman: send the rate ask to Elisa for the night of the 7th (draft ready)",
         "Rosewood: confirm 1 PM on the 9th with Francesca Liguori (draft ready)",
         "Lupaia: move to the evening of the 8th, inspection at 5:30 and dinner (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
@@ -1149,6 +1166,8 @@
       "start": 10,
       "items": [
         "Porto Ercole, Wednesday: if La Roqqa hosts, ask Gianluca for a Pellicano visit and lunch on the 10th. If not, take Pellicano on the 10th at 830 and Poggio on the 9th",
+        "COMO Alpina: once Aman answers, ask Deborah to move the hosted night from the 7th to the 6th",
+        "Forestis and COMO Alpina: tell them a friend may join, second guest in the room",
         "Villa La Massa: paused. Send Laura a short note by Wednesday, thanks and a next-trip line, or accept 10:30 if you change your mind",
         "Belmond: waiting on Andrea for the Portofino hosted night and the San Michele 11:30 time, asked the 21st",
         "Banfi: waiting on Maddalena for the visit and tasting on the 9th, asked the 21st",
@@ -1169,6 +1188,7 @@
       "title": "Waiting on, no reply at all",
       "items": [
         "La Roqqa / Roberta Davanzo: two hosted nights October 9 to 11, asked the 21st",
+        "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
         "Borgo San Felice / Zaira: asked the 16th, nudged the 18th",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
