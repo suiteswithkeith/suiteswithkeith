@@ -14,7 +14,7 @@
     "intro_eyebrow": "Prepared for Craig and Claudine",
     "hello": "Craig and Claudine, here's the whole trip in one place. Four nights at MacArthur Place, a private wine day, four good dinners, and plenty of room to wander. Keep this open on your phones, everything runs in order.",
     "how_to_read": "Tap any day below to jump straight to it. Every address opens in Google Maps and every phone number is tap to call. Anything marked To be confirmed is in hand on my side and gets filled in here as it lands.",
-    "updated": "2026-09-18"
+    "updated": "2026-09-21"
   },
   "hotel": {
     "name": "MacArthur Place Hotel & Spa",
@@ -38,10 +38,10 @@
       "summary": "Fly into San Francisco, pick up the rental car and drive up to Sonoma, check in at MacArthur Place, then walk to dinner on the Plaza.",
       "events": [
         {
-          "time": "Afternoon",
+          "time": "3:10 PM landing",
           "type": "arrival",
           "title": "Arrive San Francisco, pick up the rental car, up to Sonoma",
-          "details": "Rental car confirmed by you. Roughly 1 hour 15 minutes from SFO to MacArthur Place via 101 North and Highway 37 / 121, longer with traffic. Send me your landing time when you have it and I'll let the hotel know when to expect you.",
+          "details": "You land at SFO at 3:10 PM. Rental car confirmed by you. It's roughly 1 hour 15 minutes from SFO to MacArthur Place via 101 North and Highway 37 / 121, longer with traffic, so with bags and the car figure on reaching the hotel around 5:00 to 5:30 PM. I'll let the hotel know to expect you then.",
           "status": "confirmed"
         },
         {
@@ -116,7 +116,7 @@
           "phone_label": "Jason, your host",
           "confirmation": "Bohemian Highway booking 374640421",
           "paid_note": "Paid in full",
-          "details": "Private host and driver in a Land Rover Defender 110, with two tastings chosen around Craig's Pinot and Cab and Claudine's Sauvignon Blanc, plus a chef-prepared picnic lunch. Your host is Jason. Expect to be back at the hotel around 5:00 to 5:30 PM. Gratuities for the host and the wineries are not included and are at your discretion.",
+          "details": "Private host and driver in a Land Rover Defender 110, with two tastings chosen around Craig's Pinot and Cab and Claudine's Sauvignon Blanc, plus a chef-prepared picnic lunch. Your host is Jason. Expect to be back at the hotel around 5:00 to 5:30 PM. Gratuities for Jason and the winery hosts are not included. See the tipping note under Good to know.",
           "link": "https://www.bohohwy.com/faqs",
           "link_label": "Tour FAQ",
           "stops": [
@@ -302,7 +302,7 @@
     },
     {
       "title": "Tipping on the wine tour",
-      "text": "Gratuities for your Bohemian Highway driver and the winery hosts are not included. They are at your discretion."
+      "text": "Gratuities for Jason, your host and driver, and for the winery hosts are not included. Anywhere from 10 to 20 percent is seen as a normal amount. As a rough guide: if a tasting works out to about $100 a person, I'd leave around $40 for the two of you at that winery. For Jason I'd tip $75 to $100, since the driver and vehicle are roughly half the cost of the day and the wineries are the other half. Cash is easiest at the wineries."
     },
     {
       "title": "After tastings",
