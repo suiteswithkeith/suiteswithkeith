@@ -239,7 +239,7 @@
         },
         {
           "date": "2026-09-25",
-          "label": "Salviatino, Collegio, La Massa your call",
+          "label": "Easy day, Salviatino, Collegio",
           "stay": {
             "name": "Collegio alla Querce",
             "status": "paid",
@@ -252,11 +252,10 @@
               "status": "info"
             },
             {
-              "time": "10:30 AM",
-              "title": "Villa La Massa, Candeli, site visit offered",
-              "detail": "Laura Buzzi (Sales Supervisor, Villa d'Este La Collezione) answered September 21: Anastasia Xenou will meet you at 10:30 AM. This came from the same Villa d'Este sales office that is holding your Villa d'Este hosting ask, so it is worth the goodwill. It does mean two visits on the 25th and a 10:00 taxi from Portrait (20 minutes to Candeli). An hour there, taxi to FLR at 11:45 (about 35 minutes), car by 12:30, Salviatino at 1:00 still works. Your call: accept, or thank Laura and take it next trip.",
-              "status": "pending",
-              "todo": "Decide on Villa La Massa at 10:30 on the 25th and reply to Laura and Anastasia either way."
+              "time": "Paused",
+              "title": "Villa La Massa, 10:30 offered, on hold",
+              "detail": "Laura Buzzi (Villa d'Este La Collezione sales) offered 10:30 with Anastasia Xenou on September 21. Paused: a second visit before the car makes the day heavy and the property is not a priority. No reply sent yet. Worth a short note to Laura by midweek either way, since her office is also holding the Villa d'Este ask.",
+              "status": "suggested"
             },
             {
               "time": "12:00 PM",
@@ -1114,7 +1113,6 @@
         "Il Pellicano: send the Gianluca reply, yes to the Junior Suite on the 10th, same rate for the 9th (draft ready)",
         "Rosewood: confirm 1 PM on the 9th with Francesca Liguori (draft ready)",
         "Lupaia: move to the evening of the 8th, inspection at 5:30 and dinner (draft ready)",
-        "Villa La Massa: decide on the 10:30 visit on the 25th and reply to Laura Buzzi and Anastasia Xenou either way",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Villa Serbelloni: send the ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
         "Castelfalfi: reply to reservations with your ETA on the 27th (about midday) and dietary notes",
@@ -1127,6 +1125,7 @@
       "title": "This week",
       "start": 10,
       "items": [
+        "Villa La Massa: paused. Send Laura a short note by Wednesday, thanks and a next-trip line, or accept 10:30 if you change your mind",
         "Belmond: waiting on Andrea for the Portofino hosted night and the San Michele 11:30 time, asked the 21st",
         "Banfi: waiting on Maddalena for the visit and tasting on the 9th, asked the 21st",
         "Reschio: warm next-trip note to Florian, the routing pulled you to the coast",
@@ -1167,7 +1166,7 @@
         "Il Pellicano: Junior Suite at 830 euros on the 10th offered, ask for the 9th too",
         "Rosewood: 1 PM on the 9th with lunch confirmed, reply owed",
         "Lupaia: lunch and inspection offered on the 9th, moving to the evening of the 8th",
-        "Villa La Massa: 10:30 on the 25th with Anastasia Xenou, decide and reply",
+        "Villa La Massa: 10:30 on the 25th offered, paused on your side",
         "Villa Serbelloni: join the 3:00 PM site inspection on the 2nd, send your ETA",
         "Castelfalfi: booking confirmed, they want ETA and dietary notes",
         "Il Borro: tasting and lunch offered, the 28th",
