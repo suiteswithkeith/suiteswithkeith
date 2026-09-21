@@ -71,7 +71,7 @@
       "name": "Florence",
       "dates": "September 22 to 27",
       "strip_label": "Eccellenze, Collegio, Volterra",
-      "summary": "Two Eccellenze days at Portrait, then an easy 25th: one visit at Salviatino and an evening at Collegio alla Querce. The 26th is Fiesole, a Chianti lunch and Borgo Pignano Volterra.",
+      "summary": "Two Eccellenze days at Portrait, then a Fiesole afternoon on the 25th: Salviatino at 1:00, Villa San Michele at 2:30 if Sofia agrees, Collegio alla Querce after. The 26th is a Chianti lunch and Borgo Pignano Volterra.",
       "days": [
         {
           "date": "2026-09-22",
@@ -239,7 +239,7 @@
         },
         {
           "date": "2026-09-25",
-          "label": "Easy day, Salviatino, Collegio",
+          "label": "Fiesole afternoon, Collegio",
           "stay": {
             "name": "Collegio alla Querce",
             "status": "paid",
@@ -271,9 +271,15 @@
               "status": "confirmed"
             },
             {
-              "time": "From 2:30 PM",
+              "time": "2:30 PM",
+              "title": "Villa San Michele, Fiesole, site inspection",
+              "detail": "Sofia Francini said no to a late morning on the 26th, mornings are check-out time for the front office, and held 3:00 PM that day. You countered September 21 with 2:30 PM on the 25th, since you are already in Fiesole at Salviatino, five minutes away, and leave Florence at noon on the 26th. Waiting on Sofia. If she cannot do the 25th, it is 3:00 on the 26th and the Chianti lunch moves earlier or drops.",
+              "status": "pending"
+            },
+            {
+              "time": "From 4:00 PM",
               "title": "Check in at Collegio alla Querce, and stop",
-              "detail": "Lunch there or nearby, the pool, a golden-hour shoot if you feel like it, dinner. The afternoon is yours.",
+              "detail": "Five minutes from San Michele. The pool, a golden-hour shoot if you feel like it, dinner. The evening is yours.",
               "status": "info"
             },
             {
@@ -286,7 +292,7 @@
         },
         {
           "date": "2026-09-26",
-          "label": "Fiesole, Chianti lunch, Volterra",
+          "label": "Chianti lunch, Volterra",
           "stay": {
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
@@ -296,19 +302,13 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Gym and breakfast at Collegio, out by 11:00",
+              "title": "Gym and breakfast at Collegio, out by 12:00",
               "status": "info"
-            },
-            {
-              "time": "11:15 AM",
-              "title": "Villa San Michele, Fiesole, site inspection",
-              "detail": "Belmond confirmed a site inspection on the 26th on September 21 and proposed 3:30 PM. You countered with 11:30 in your reply to Andrea Gervasoni the same day, since you wake up next door at Collegio. Waiting on Sofia Francini and Eleonora Gelli at the hotel to confirm the time. Belmond contacts: Andrea Gervasoni (Area Senior Sales Manager, Italy & Spain) and Thomas Alderink (Fora relationship, New York).",
-              "status": "pending"
             },
             {
               "time": "1:00 PM",
               "title": "Lunch at COMO Castello del Nero, Chianti",
-              "detail": "Asked Ilaria to move lunch from the 25th to the 26th at 12:30. When she replies, make it 1:00. Tavarnelle is 35 minutes from Fiesole. Ask to see a room or two.",
+              "detail": "Asked Ilaria to move lunch from the 25th to the 26th at 12:30. When she replies, make it 1:00. Tavarnelle is about 45 minutes from Fiesole. Ask to see a room or two after lunch.",
               "status": "pending"
             },
             {
@@ -1170,7 +1170,7 @@
     {
       "title": "Waiting on, no reply at all",
       "items": [
-        "La Roqqa / Roberta Davanzo: two hosted nights October 9 to 11, asked the 21st",
+        "Belmond: Andrea on the Portofino hosted night, Sofia on San Michele at 2:30 on the 25th, Allegra and Adriana on Casole at 3:30 on the 27th",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Monteverdi / Peggy: reviewing the 9th, will revert, replied the 21st",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
@@ -1206,7 +1206,7 @@
         "Il San Pietro: visit agreed, needs a time",
         "Six Senses Rome: visit and spa day, touch base a week out",
         "Borgo Pignano Volterra: confirmed, wants your ETA (Florence is done)",
-        "Belmond: Casole 3:30 on the 27th confirmed, San Michele 11:30 countered, Portofino hosted night asked",
+        "Belmond: Casole 3:30 on the 27th agreed, San Michele countered to 2:30 on the 25th, Portofino hosted night asked",
         "Reschio: visit and lunch offered, paid rate declined, no longer fits the routing",
         "La Posta Vecchia: visit offered, parked"
       ]
