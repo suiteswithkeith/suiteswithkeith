@@ -80,7 +80,7 @@
             "name": "Borgo Pignano Florence",
             "status": "confirmed",
             "detail": "Confirmed September 19 by Andrea Buzzacchino, confirmation letter in the inbox. They want your ETA (about 11:00 PM after the 10:20 landing), mobile number, dietary notes, and a time for the property tour. Shoot here on the morning of the 23rd.",
-            "todo": "Reply to Andrea with ETA about 11:00 PM, mobile, no dietary needs, tour on the morning of the 23rd before the Four Seasons lunch."
+            "todo": "Send the reply to Andrea: ETA 11:00 PM, tour at 10:30 on the 23rd, taxi at 12:15, mobile, no dietary needs (draft ready)."
           },
           "items": [
             {
@@ -125,14 +125,15 @@
           },
           "items": [
             {
-              "time": "9:00 AM",
-              "title": "Optional: Discovering Florence with Arno Travel",
-              "detail": "Art, history, craftsmanship. Transfer from the hotel arranged. Casual.",
-              "status": "info"
+              "time": "10:30 AM",
+              "title": "Tour and shoot at Borgo Pignano Florence",
+              "detail": "Proposed to Andrea in the drafted reply. Slow morning first.",
+              "status": "todo"
             },
             {
-              "time": "Midday",
-              "title": "Check in, private transfer to Portrait Firenze",
+              "time": "12:15 PM",
+              "title": "Taxi to the Four Seasons with luggage",
+              "detail": "Arno stores the bags during the event and they ride to Portrait with you. Asked the hotel to book the taxi.",
               "status": "info"
             },
             {
@@ -1145,7 +1146,7 @@
       "items": [
         "Belmond: send the reply to Andrea, Casole 3:30 confirmed, San Michele countered to 11:30, one direct question on a Portofino hosted night (draft ready)",
         "Santo Pietro: send the Arianna reply asking for a 12:00 visit and lunch on the 28th (draft ready)",
-        "Borgo Pignano Florence: reply to Andrea with ETA about 11:00 PM on the 22nd, mobile, tour on the morning of the 23rd",
+        "Borgo Pignano Florence: send the reply to Andrea, ETA 11:00 PM, tour 10:30, taxi 12:15 (draft ready)",
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:30 PM on the 26th, site inspection at 5:00",
         "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
