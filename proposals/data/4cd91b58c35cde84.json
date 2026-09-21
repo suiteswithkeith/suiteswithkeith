@@ -46,7 +46,7 @@
   "essentials": [
     {
       "title": "Flights",
-      "text": "Out, British Airways: BA0186 Austin (AUS) Monday September 21 at 10:30 PM to Heathrow (LHR) Terminal 5, lands 1:55 PM September 22, Club World. Connect at Terminal 5, about 5 hours. BA0522 Heathrow 7:05 PM to Florence Peretola (FLR), lands 10:20 PM, Club Europe. Two checked bags at 32 kg each on both legs. Arno Travel's transfer meets you outside baggage claim with an ECCELLENZE sign and takes you to Borgo Pignano Florence. Home: open. United KYMT99 (Naples to Newark to Austin, October 16) was cancelled September 19 and refunded in full, $2,260.23, on September 21. Nothing is booked in its place yet."
+      "text": "Out, British Airways: BA0186 Austin (AUS) Monday September 21 at 10:30 PM to Heathrow (LHR) Terminal 5, lands 1:55 PM September 22, Club World. Connect at Terminal 5, about 5 hours. BA0522 Heathrow 7:05 PM to Florence Peretola (FLR), lands 10:20 PM, Club Europe. Two checked bags at 32 kg each on both legs. Arno Travel's transfer meets you outside baggage claim with an ECCELLENZE sign and takes you to Borgo Pignano Florence. Home: United KYMT99 was cancelled September 19 and refunded in full. The return on October 16 is rebooked on points, details to follow."
     },
     {
       "title": "Rental car",
@@ -381,8 +381,8 @@
             {
               "time": "12:00 PM",
               "title": "Borgo Santo Pietro, site visit and lunch",
-              "detail": "1 hour south. Visit at 12:00 asked in a reply to Arianna, Sunday late afternoon as the alternative. Draft ready. Not yet confirmed.",
-              "status": "todo"
+              "detail": "1 hour south. Visit and lunch on the 28th asked in your reply to Arianna on September 20, Sunday late afternoon as the alternative. Waiting on her.",
+              "status": "pending"
             },
             {
               "time": "Afternoon",
@@ -800,8 +800,8 @@
             {
               "time": "3:30 PM",
               "title": "Rosewood Castiglion del Bosco, day visit",
-              "detail": "Claudia offered a day visit. Reply drafted proposing 3:30 on the 8th for the late light, or from 4:00 on the 9th after Lupaia. Sold out means ask for whatever rooms turn over.",
-              "status": "todo"
+              "detail": "Claudia offered a day visit on the 19th (sold out for the stay). You replied September 20 proposing from about 3:30 on the 8th for the late light. Waiting on her to confirm the time. Ask for whatever rooms turn over.",
+              "status": "pending"
             },
             {
               "time": "6:00 PM",
@@ -852,7 +852,7 @@
             {
               "time": "From 4:00 PM",
               "title": "Rosewood, only if it did not happen on the 8th",
-              "detail": "The plan for Claudia is 3:30 on the 8th first and late afternoon on the 9th as the fallback. The draft is no longer in Gmail, so it needs rewriting before it goes. If she picks the 9th, Banfi moves to the 10th morning or drops.",
+              "detail": "If Claudia cannot do 3:30 on the 8th, offer late afternoon on the 9th after Lupaia. If she picks the 9th, Banfi moves to the 10th morning or drops.",
               "status": "suggested"
             },
             {
@@ -1127,21 +1127,21 @@
         },
         {
           "date": "2026-10-16",
-          "label": "Depart Naples, return flight open",
+          "label": "Depart Naples, return on points",
           "departure": true,
           "items": [
             {
               "time": "Morning",
               "title": "Transfer to Naples airport (NAP)",
-              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Timing depends on whatever return you book. Arno asked to help.",
+              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Timing follows the award flight once the confirmation is in. Arno asked to help.",
               "status": "todo"
             },
             {
-              "time": "Open",
-              "title": "Return flight, not booked",
-              "detail": "United KYMT99 (UA967 Naples to Newark 2:00 PM, UA1409 Newark to Austin) was cancelled on September 19 and United refunded the full $2,260.23 on ticket 0162141031743 on September 21. No replacement booking is in the inbox, so the home leg is open. If an award was booked elsewhere, send the confirmation and it goes here.",
-              "status": "open",
-              "todo": "Book the return from Naples on October 16, or confirm the award booking so the page can reflect it."
+              "time": "TBC",
+              "title": "Return flight, booked on points, details to come",
+              "detail": "United KYMT99 was cancelled September 19 and refunded in full, $2,260.23, on September 21. The replacement is booked on points. Send the confirmation and the times go here.",
+              "status": "pending",
+              "todo": "Send the award booking confirmation for the return on the 16th."
             }
           ]
         }
@@ -1155,13 +1155,10 @@
         "Villa La Massa: decide on the 10:30 visit on the 25th and reply to Laura Buzzi and Anastasia Xenou either way",
         "Villa Serbelloni: send the ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
         "Castelfalfi: reply to reservations with your ETA on the 27th (about midday) and dietary notes",
-        "Il Pellicano and La Posta Vecchia: send the follow-up to Gianluca, Pellicano the 10th, Posta Vecchia visit the 11th, Mezzatorre dropped (draft ready)",
-        "Return flight: nothing is booked home from Naples on the 16th since KYMT99 was cancelled and refunded. Book it, or send the award confirmation",
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:30 PM on the 26th, site inspection at 5:00",
-        "Rosewood: the Claudia reply (3:30 on the 8th first, 9th as fallback) is no longer in drafts, rewrite and send",
-        "Santo Pietro: the Arianna reply (12:00 visit and lunch on the 28th) is no longer in drafts, rewrite and send",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
-        "Avis: move the September 25 pickup from 9:00 to 12:00 in the app (12:30 if you take La Massa)"
+        "Avis: move the September 25 pickup from 9:00 to 12:00 in the app (12:30 if you take La Massa)",
+        "Return flight: send the award confirmation for October 16 so the page can carry the times"
       ]
     },
     {
@@ -1170,6 +1167,9 @@
       "items": [
         "Belmond: waiting on Andrea for the Portofino hosted night and the San Michele 11:30 time, asked the 21st",
         "Banfi: waiting on Maddalena for the visit and tasting on the 9th, asked the 21st",
+        "Il Pellicano and La Posta Vecchia: Gianluca was back today, follow-up sent the 18th, nudge Wednesday if silent",
+        "Rosewood: waiting on Claudia to confirm 3:30 on the 8th, replied the 20th",
+        "Santo Pietro: waiting on Arianna for the 12:00 visit and lunch on the 28th, asked the 20th",
         "Il Borro: reply to Federico once San Felice answers, confirm the 28th lunch or decline",
         "Villa d'Este: nudge Natalia if no offer by Monday, pass if it is paid. Laura Buzzi in the same office just handled La Massa, so the door is open",
         "Reschio: reply to Florian, decline the rate, take the visit and lunch on the 10th if Pellicano is a no",
@@ -1186,7 +1186,7 @@
       "items": [
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
         "Borgo San Felice / Zaira: asked the 16th, nudged the 18th",
-        "Borgo Santo Pietro / Arianna: asked the 18th",
+        "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
         "Villa d'Este / Natalia: holding reply the 16th, no offer yet",
         "Il Sereno / Gaia Rosetti: asked the 14th, nudged the 18th",
         "Tremezzo and Passalacqua visits / Gala group: asked the 15th",
@@ -1194,12 +1194,13 @@
         "Gardena Grödnerhof / Alex Demetz: asked the 15th",
         "Poggio alla Sala / Cinzia: asked the 20th",
         "Monteverdi / Peggy and Niqui: asked the 18th",
-        "Il Pellicano and La Posta Vecchia / Gianluca: nudged the 18th, back Monday",
+        "Il Pellicano and La Posta Vecchia / Gianluca: narrowed ask sent the 18th, he was back today",
         "Rocco Forte / Cristina Frazzingaro: Carlton Milan the 16th, Rome the 17th",
         "Le Sirenuse, Villa Treville, Santa Caterina, Borgo Santandrea",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
         "Palazzo Portinari Salviati: visit ask sent the 20th",
-        "Banfi / Maddalena: visit and tasting on the 9th, asked the 21st"
+        "Banfi / Maddalena: visit and tasting on the 9th, asked the 21st",
+        "Rosewood / Claudia: 3:30 on the 8th proposed the 20th, waiting on the time"
       ]
     },
     {
@@ -1209,7 +1210,6 @@
         "Villa Serbelloni: join the 3:00 PM site inspection on the 2nd, send your ETA",
         "Castelfalfi: booking confirmed, they want ETA and dietary notes",
         "Il Borro: tasting and lunch offered, the 28th",
-        "Rosewood: day visit offered",
         "Reschio: visit and lunch offered, paid rate declined by you",
         "Portrait Milano: visit offered, rate declined",
         "Mandarin Oriental Milan: lunch and tour with Valeria Arba offered",
