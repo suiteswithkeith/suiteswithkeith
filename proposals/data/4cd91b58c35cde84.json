@@ -46,7 +46,7 @@
   "essentials": [
     {
       "title": "Flights",
-      "text": "Out, British Airways: BA0186 Austin (AUS) Monday September 21 at 10:30 PM to Heathrow (LHR) Terminal 5, lands 1:55 PM September 22, Club World. Connect at Terminal 5, about 5 hours. BA0522 Heathrow 7:05 PM to Florence Peretola (FLR), lands 10:20 PM, Club Europe. Two checked bags at 32 kg each on both legs. Arno Travel's transfer meets you outside baggage claim with an ECCELLENZE sign and takes you to Borgo Pignano Florence. Home, United KYMT99: UA967 Naples (NAP) Friday October 16 at 2:00 PM to Newark (EWR) 6:20 PM, then UA1409 Newark 8:40 PM to Austin (AUS) 11:43 PM. Economy, seats 36F and 15D, $2,260.23, fully refundable. Watching for award space; cancel KYMT99 if an award opens."
+      "text": "Out, British Airways: BA0186 Austin (AUS) Monday September 21 at 10:30 PM to Heathrow (LHR) Terminal 5, lands 1:55 PM September 22, Club World. Connect at Terminal 5, about 5 hours. BA0522 Heathrow 7:05 PM to Florence Peretola (FLR), lands 10:20 PM, Club Europe. Two checked bags at 32 kg each on both legs. Arno Travel's transfer meets you outside baggage claim with an ECCELLENZE sign and takes you to Borgo Pignano Florence. Home: open. United KYMT99 (Naples to Newark to Austin, October 16) was cancelled September 19 and refunded in full, $2,260.23, on September 21. Nothing is booked in its place yet."
     },
     {
       "title": "Rental car",
@@ -79,8 +79,7 @@
           "stay": {
             "name": "Borgo Pignano Florence",
             "status": "confirmed",
-            "detail": "Confirmed September 19 by Andrea Buzzacchino, confirmation letter in the inbox. They want your ETA (about 11:00 PM after the 10:20 landing), mobile number, dietary notes, and a time for the property tour. Shoot here on the morning of the 23rd.",
-            "todo": "Send the reply to Andrea: ETA 11:00 PM, tour at 10:30 on the 23rd, taxi at 12:15, mobile, no dietary needs (draft ready)."
+            "detail": "Confirmed September 19 by Andrea Buzzacchino, confirmation letter in the inbox. You replied September 21 with your ETA (about 11:00 PM after the 10:20 landing), mobile, dietary notes, and a 10:30 tour on the 23rd. Shoot here on the morning of the 23rd."
           },
           "items": [
             {
@@ -127,8 +126,8 @@
             {
               "time": "10:30 AM",
               "title": "Tour and shoot at Borgo Pignano Florence",
-              "detail": "Proposed to Andrea in the drafted reply. Slow morning first.",
-              "status": "todo"
+              "detail": "Proposed to Andrea in your reply of the 21st. Slow morning first.",
+              "status": "pending"
             },
             {
               "time": "12:15 PM",
@@ -240,7 +239,7 @@
         },
         {
           "date": "2026-09-25",
-          "label": "Easy day, Salviatino, Collegio",
+          "label": "Salviatino, Collegio, La Massa your call",
           "stay": {
             "name": "Collegio alla Querce",
             "status": "paid",
@@ -251,6 +250,13 @@
               "time": "Morning",
               "title": "Gym, breakfast, Eccellenze checkout from Portrait by 11:00",
               "status": "info"
+            },
+            {
+              "time": "10:30 AM",
+              "title": "Villa La Massa, Candeli, site visit offered",
+              "detail": "Laura Buzzi (Sales Supervisor, Villa d'Este La Collezione) answered September 21: Anastasia Xenou will meet you at 10:30 AM. This came from the same Villa d'Este sales office that is holding your Villa d'Este hosting ask, so it is worth the goodwill. It does mean two visits on the 25th and a 10:00 taxi from Portrait (20 minutes to Candeli). An hour there, taxi to FLR at 11:45 (about 35 minutes), car by 12:30, Salviatino at 1:00 still works. Your call: accept, or thank Laura and take it next trip.",
+              "status": "pending",
+              "todo": "Decide on Villa La Massa at 10:30 on the 25th and reply to Laura and Anastasia either way."
             },
             {
               "time": "12:00 PM",
@@ -273,8 +279,8 @@
             },
             {
               "time": "Parked",
-              "title": "Villa La Massa and Portinari Salviati",
-              "detail": "Both asked on the 20th for the 25th, neither has replied. Off this day now. If La Massa answers, it could be a late-morning stop on the 26th on the way to Chianti, Candeli to Tavarnelle is 40 minutes, but only if Villa San Michele does not come through. Portinari gets a thank-you and a next-trip note.",
+              "title": "Palazzo Portinari Salviati",
+              "detail": "Asked on the 20th for the 25th, no reply. Off this day. Thank-you and a next-trip note if they answer.",
               "status": "suggested"
             }
           ]
@@ -297,8 +303,8 @@
             {
               "time": "11:15 AM",
               "title": "Villa San Michele, Fiesole, site inspection",
-              "detail": "Belmond confirmed a site inspection on the 26th on September 21, but proposed 3:30 PM. Reply drafted countering with 11:30 since you wake up next door at Collegio. Sofia Francini and Eleonora Gelli at the hotel to confirm. New Belmond contacts: Andrea Gervasoni (Area Senior Sales Manager, Italy & Spain) and Thomas Alderink (Fora relationship, New York).",
-              "status": "todo"
+              "detail": "Belmond confirmed a site inspection on the 26th on September 21 and proposed 3:30 PM. You countered with 11:30 in your reply to Andrea Gervasoni the same day, since you wake up next door at Collegio. Waiting on Sofia Francini and Eleonora Gelli at the hotel to confirm the time. Belmond contacts: Andrea Gervasoni (Area Senior Sales Manager, Italy & Spain) and Thomas Alderink (Fora relationship, New York).",
+              "status": "pending"
             },
             {
               "time": "1:00 PM",
@@ -334,7 +340,8 @@
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
-            "detail": "Confirmed with Sara Bonechi September 21: one night complimentary, one at the 550 euro industry rate with breakfast, parking, pools, spa and gym. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes. Tour whenever suits across the two days."
+            "detail": "Confirmed with Sara Bonechi September 21: one night complimentary, one at the 550 euro industry rate with breakfast, parking, pools, spa and gym. Reservations (Lisa Mainardi) sent the booking confirmation PDF and the Experience Book the same day, two nights from the 27th. They want your ETA and any dietary notes. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes. Tour whenever suits across the two days.",
+            "todo": "Reply to Castelfalfi reservations: arriving about midday on the 27th, dietary notes (nut allergy)."
           },
           "items": [
             {
@@ -461,7 +468,7 @@
       "name": "Portofino",
       "dates": "September 29 to October 1",
       "strip_label": "Splendido asked, 2 nights",
-      "summary": "Belmond answered on the 21st with site visits only, no hosted night. Splendido and Splendido Mare want to know your Portofino dates. Reply drafted asking once, directly, whether a hosted night at either is possible. If not, decide: Portofino paid, Milan, more Como, or Tuscany with La Monastica.",
+      "summary": "Belmond answered on the 21st with site visits only, no hosted night. You replied the same day asking once, directly, whether a hosted night at Splendido or Splendido Mare is possible on the 29th or 30th. Waiting on Andrea. If not, decide: Portofino paid, Milan, more Como, or Tuscany with La Monastica.",
       "drive": "Tuscany to Portofino about 3 hours. Portofino to Cernobbio about 2 hours 45.",
       "days": [
         {
@@ -474,7 +481,7 @@
               {
                 "name": "Splendido (Belmond)",
                 "status": "pending",
-                "detail": "Two-night hosting ask not answered in Andrea Gervasoni's reply of the 21st, which offered site visits only. Reply drafted asking directly about a hosted night on the 29th or 30th."
+                "detail": "Two-night hosting ask not answered in Andrea Gervasoni's reply of the 21st, which offered site visits only. You asked him directly the same day about a hosted night on the 29th or 30th. Waiting."
               },
               {
                 "name": "Splendido Mare",
@@ -581,14 +588,21 @@
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
-            "detail": "Complimentary B&B. Cristina Fusari (Sales & Revenue), Francesca Barba (DOSM)."
+            "detail": "Complimentary B&B, confirmed. Cristina Fusari (Sales & Revenue Coordinator), Francesca Barba (DOSM). Nut allergy noted with them on the 17th. They still want your ETA.",
+            "todo": "Reply to Cristina: arriving about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)."
           },
           "items": [
             {
               "time": "All day",
-              "title": "Boat day, site visits by water from Bellagio",
+              "title": "Boat day, site visits by water from Bellagio, morning and early afternoon",
               "detail": "Asked the Serbelloni concierge to help arrange the boat.",
               "status": "info"
+            },
+            {
+              "time": "3:00 PM",
+              "title": "Villa Serbelloni site inspection, join the 3:00 group",
+              "detail": "Cristina Fusari, September 21: she already has a site inspection with other travel agents at 3:00 PM on the 2nd, and you can join the hotel tour if you are on property by then. So the boat day runs in the morning and early afternoon, back in Bellagio by 2:30.",
+              "status": "confirmed"
             },
             {
               "time": "By water",
@@ -838,7 +852,7 @@
             {
               "time": "From 4:00 PM",
               "title": "Rosewood, only if it did not happen on the 8th",
-              "detail": "The Claudia draft offers 3:30 on the 8th first and late afternoon on the 9th as the fallback. If she picks the 9th, Banfi moves to the 10th morning or drops.",
+              "detail": "The plan for Claudia is 3:30 on the 8th first and late afternoon on the 9th as the fallback. The draft is no longer in Gmail, so it needs rewriting before it goes. If she picks the 9th, Banfi moves to the 10th morning or drops.",
               "status": "suggested"
             },
             {
@@ -1113,27 +1127,21 @@
         },
         {
           "date": "2026-10-16",
-          "label": "Depart Naples",
+          "label": "Depart Naples, return flight open",
           "departure": true,
           "items": [
             {
               "time": "Morning",
               "title": "Transfer to Naples airport (NAP)",
-              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. For a 2:00 PM international departure with a checked bag, leaving at 11:00 lands you at the airport at 12:30. That is the one morning worth leaving at 10:30. Arno asked to help.",
+              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Timing depends on whatever return you book. Arno asked to help.",
               "status": "todo"
             },
             {
-              "time": "2:00 PM",
-              "title": "UA967 Naples (NAP) to Newark (EWR), lands 6:20 PM",
-              "detail": "United confirmation KYMT99, eTicket 0162141031743. United Economy, seat 36F.",
-              "status": "confirmed"
-            },
-            {
-              "time": "8:40 PM",
-              "title": "UA1409 Newark (EWR) to Austin (AUS), lands 11:43 PM",
-              "detail": "Seat 15D. Whole ticket is $2,260.23 and fully refundable. Watching for award space; if an award opens, cancel KYMT99 before departure.",
-              "status": "confirmed",
-              "todo": "Monitor award space on the return. Cancel KYMT99 if an award pops, it is fully refundable."
+              "time": "Open",
+              "title": "Return flight, not booked",
+              "detail": "United KYMT99 (UA967 Naples to Newark 2:00 PM, UA1409 Newark to Austin) was cancelled on September 19 and United refunded the full $2,260.23 on ticket 0162141031743 on September 21. No replacement booking is in the inbox, so the home leg is open. If an award was booked elsewhere, send the confirmation and it goes here.",
+              "status": "open",
+              "todo": "Book the return from Naples on October 16, or confirm the award booking so the page can reflect it."
             }
           ]
         }
@@ -1144,25 +1152,28 @@
     {
       "title": "Before you fly, Monday",
       "items": [
-        "Belmond: send the reply to Andrea, Casole 3:30 confirmed, San Michele countered to 11:30, one direct question on a Portofino hosted night (draft ready)",
-        "Santo Pietro: send the Arianna reply asking for a 12:00 visit and lunch on the 28th (draft ready)",
-        "Borgo Pignano Florence: send the reply to Andrea, ETA 11:00 PM, tour 10:30, taxi 12:15 (draft ready)",
+        "Villa La Massa: decide on the 10:30 visit on the 25th and reply to Laura Buzzi and Anastasia Xenou either way",
+        "Villa Serbelloni: send the ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
+        "Castelfalfi: reply to reservations with your ETA on the 27th (about midday) and dietary notes",
+        "Il Pellicano and La Posta Vecchia: send the follow-up to Gianluca, Pellicano the 10th, Posta Vecchia visit the 11th, Mezzatorre dropped (draft ready)",
+        "Return flight: nothing is booked home from Naples on the 16th since KYMT99 was cancelled and refunded. Book it, or send the award confirmation",
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:30 PM on the 26th, site inspection at 5:00",
-        "Rosewood: send the Claudia reply, 12:30 on the 8th first, 9th as fallback (draft ready)",
+        "Rosewood: the Claudia reply (3:30 on the 8th first, 9th as fallback) is no longer in drafts, rewrite and send",
+        "Santo Pietro: the Arianna reply (12:00 visit and lunch on the 28th) is no longer in drafts, rewrite and send",
         "Il San Pietro: confirm 11:00 AM on the 14th with Agostino",
-        "Avis: move the September 25 pickup from 9:00 to 12:00 in the app",
-        "Banfi: send the reply to Maddalena asking for a 3:00 visit and tasting on the 9th (draft ready)"
+        "Avis: move the September 25 pickup from 9:00 to 12:00 in the app (12:30 if you take La Massa)"
       ]
     },
     {
       "title": "This week",
       "start": 10,
       "items": [
+        "Belmond: waiting on Andrea for the Portofino hosted night and the San Michele 11:30 time, asked the 21st",
+        "Banfi: waiting on Maddalena for the visit and tasting on the 9th, asked the 21st",
         "Il Borro: reply to Federico once San Felice answers, confirm the 28th lunch or decline",
-        "Villa d'Este: nudge Natalia if no offer by Monday, pass if it is paid",
+        "Villa d'Este: nudge Natalia if no offer by Monday, pass if it is paid. Laura Buzzi in the same office just handled La Massa, so the door is open",
         "Reschio: reply to Florian, decline the rate, take the visit and lunch on the 10th if Pellicano is a no",
         "Portrait Milano and Mandarin Oriental Milan: reply only if Belmond says no to Splendido, then confirm both visits for the 30th",
-        "Return flight: keep watching award space for October 16, cancel United KYMT99 if an award opens (fully refundable)",
         "Six Senses Rome: touch base with Stefano about October 5 for the visit and spa day on the 12th",
         "Poggio alla Sala: book through Fora by Wednesday if Cinzia is silent",
         "Val d'Orcia: no fallback for the 9th if Banfi and Monteverdi both decline, Poggio can stretch"
@@ -1173,7 +1184,7 @@
     {
       "title": "Waiting on, no reply at all",
       "items": [
-        "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the two visit times",
+        "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
         "Borgo San Felice / Zaira: asked the 16th, nudged the 18th",
         "Borgo Santo Pietro / Arianna: asked the 18th",
         "Villa d'Este / Natalia: holding reply the 16th, no offer yet",
@@ -1186,13 +1197,17 @@
         "Il Pellicano and La Posta Vecchia / Gianluca: nudged the 18th, back Monday",
         "Rocco Forte / Cristina Frazzingaro: Carlton Milan the 16th, Rome the 17th",
         "Le Sirenuse, Villa Treville, Santa Caterina, Borgo Santandrea",
-        "Villa La Massa, Palazzo Portinari Salviati: visit asks sent the 20th",
-        "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th"
+        "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
+        "Palazzo Portinari Salviati: visit ask sent the 20th",
+        "Banfi / Maddalena: visit and tasting on the 9th, asked the 21st"
       ]
     },
     {
       "title": "Answered, action on your side",
       "items": [
+        "Villa La Massa: 10:30 on the 25th with Anastasia Xenou, decide and reply",
+        "Villa Serbelloni: join the 3:00 PM site inspection on the 2nd, send your ETA",
+        "Castelfalfi: booking confirmed, they want ETA and dietary notes",
         "Il Borro: tasting and lunch offered, the 28th",
         "Rosewood: day visit offered",
         "Reschio: visit and lunch offered, paid rate declined by you",
@@ -1200,10 +1215,9 @@
         "Mandarin Oriental Milan: lunch and tour with Valeria Arba offered",
         "Il San Pietro: visit agreed, needs a time",
         "Six Senses Rome: visit and spa day, touch base a week out",
-        "Borgo Pignano Florence and Volterra: confirmed, both want ETAs",
         "Lupaia: lunch and site inspection on the 9th, proposed 12:00, waiting on their time",
-        "Belmond: Casole visit 27th 3:30 offered, Villa San Michele visit 26th offered, Portofino visits offered, no hosting",
-        "Banfi: stay declined the 21st, visit and tasting asked"
+        "Borgo Pignano Volterra: confirmed, wants your ETA (Florence is done)",
+        "Belmond: Casole 3:30 on the 27th confirmed, San Michele 11:30 countered, Portofino hosted night asked"
       ]
     },
     {
