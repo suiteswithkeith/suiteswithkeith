@@ -1009,8 +1009,8 @@
       "id": "amalfi",
       "name": "Amalfi Coast",
       "dates": "October 13 to 16",
-      "strip_label": "Sirenuse, then two open nights",
-      "summary": "Le Sirenuse for one night, Il San Pietro to see, then two nights east in Amalfi that are still uncovered. Depart Naples on the 16th.",
+      "strip_label": "Positano, then Santa Caterina",
+      "summary": "Positano for one night, Sirenuse proposal or Treville, Il San Pietro to see. Then two hosted nights at Santa Caterina in Amalfi, confirmed on the 21st. Depart Naples on the 16th.",
       "drive": "Rome to Positano about 3 hours. No car from October 10, Arno Travel asked to help with transfers for this leg.",
       "days": [
         {
@@ -1049,28 +1049,12 @@
         },
         {
           "date": "2026-10-14",
-          "label": "San Pietro, then Amalfi",
+          "label": "San Pietro, then Santa Caterina",
           "stay": {
-            "name": "Open, Amalfi asks out",
-            "status": "open",
-            "detail": "First of two Amalfi nights, October 14 to 16.",
-            "options": [
-              {
-                "name": "Santa Caterina",
-                "status": "pending",
-                "detail": "Crescenzo Gargano and Valeria D'Amato asked September 17 for both nights, flexible to one. No reply."
-              },
-              {
-                "name": "Borgo Santandrea",
-                "status": "pending",
-                "detail": "Antonella Gatto asked September 14. No reply."
-              },
-              {
-                "name": "Hotel Miramalfi",
-                "status": "suggested",
-                "detail": "Idea, not contacted. Autentico Hotels, same group as La Monastica."
-              }
-            ]
+            "name": "Hotel Santa Caterina, Amalfi",
+            "status": "confirmed",
+            "detail": "First of two nights, October 14 to 16, double room, complimentary B&B. Offered September 21 by Valeria D'Amato on behalf of Andrew Camera (Hotel Manager), Crescenzo Gargano copied. They asked you to confirm before they enter the booking, reply drafted. Site inspection of the hotel and Casa Marchesa on the spot. You placed the Meckleys and Goffs here.",
+            "todo": "Send the confirmation reply to Valeria so the booking is entered (draft ready)."
           },
           "items": [
             {
@@ -1082,7 +1066,8 @@
             },
             {
               "time": "Afternoon",
-              "title": "Move east to Amalfi",
+              "title": "Move east to Amalfi, check in at Santa Caterina",
+              "detail": "Positano to Amalfi about 40 minutes on the coast road.",
               "status": "info"
             }
           ]
@@ -1091,32 +1076,31 @@
           "date": "2026-10-15",
           "label": "Amalfi, Ravello",
           "stay": {
-            "name": "Open, Amalfi asks out",
-            "status": "open",
-            "detail": "Second Amalfi night, same asks as the 14th."
+            "name": "Hotel Santa Caterina, Amalfi",
+            "status": "confirmed",
+            "detail": "Second of two nights, October 14 to 16, double room, complimentary B&B. Offered September 21 by Valeria D'Amato on behalf of Andrew Camera (Hotel Manager), Crescenzo Gargano copied. They asked you to confirm before they enter the booking, reply drafted. Site inspection of the hotel and Casa Marchesa on the spot. You placed the Meckleys and Goffs here."
           },
           "items": [
             {
               "time": "Day",
-              "title": "Santa Caterina, Borgo Santandrea or Miramalfi, whichever is not the stay",
-              "detail": "All within about 25 minutes.",
+              "title": "Santa Caterina and Casa Marchesa, site inspection on the spot",
+              "status": "confirmed"
+            },
+            {
+              "time": "Day",
+              "title": "Borgo Santandrea, site visit",
+              "detail": "Antonella Gatto asked September 14 to host, no reply. Now a visit ask, 15 minutes west in Conca dei Marini.",
               "status": "suggested"
             },
             {
               "time": "Day",
               "title": "Caruso (Belmond), Ravello",
-              "detail": "Could add to the Federico email.",
+              "detail": "Could go to Andrea Gervasoni once the Tuscany visits are settled.",
               "status": "suggested"
             },
             {
               "time": "Day",
               "title": "Palazzo Avino, Ravello",
-              "detail": "Not contacted.",
-              "status": "suggested"
-            },
-            {
-              "time": "Day",
-              "title": "Casa Angelina, Praiano",
               "detail": "Not contacted.",
               "status": "suggested"
             }
@@ -1150,6 +1134,7 @@
       "title": "Before you fly, Monday",
       "items": [
         "Villa Serbelloni: still unsent. ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
+        "Santa Caterina: send the confirmation so they enter the booking, October 14 to 16 hosted (draft ready)",
         "Rosewood: one line to Francesca, self-driving, no transfer (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Villa Serbelloni: send the ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
@@ -1200,13 +1185,14 @@
         "Rocco Forte / Cristina Frazzingaro: Carlton Milan the 16th, Rome the 17th",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
         "Palazzo Portinari Salviati: visit ask sent the 20th",
-        "Villa Treville, Santa Caterina, Borgo Santandrea",
+        "Villa Treville, Borgo Santandrea",
         "Lupaia: move to the evening of the 8th, asked the 21st"
       ]
     },
     {
       "title": "Answered, action on your side",
       "items": [
+        "Santa Caterina: two hosted nights October 14 to 16 offered, confirm to lock",
         "Rosewood: lunch 12:30 and tour on the 9th confirmed, self-driving reply owed",
         "Banfi: inspection and tasting 3:00 on the 9th confirmed, reply owed",
         "Le Sirenuse: paid proposal coming for the 13th, visit as the fallback",
@@ -1234,7 +1220,6 @@
         "Palazzo Avino",
         "Casa Angelina",
         "Caruso",
-        "Miramalfi",
         "Grand Hotel Victoria, Menaggio",
         "Casa Maria Luigia",
         "Bulgari Roma",
