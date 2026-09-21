@@ -79,7 +79,7 @@
           "stay": {
             "name": "Borgo Pignano Florence",
             "status": "confirmed",
-            "detail": "Confirmed September 19 by Andrea Buzzacchino, confirmation letter in the inbox. You replied September 21 with your ETA (about 11:00 PM after the 10:20 landing), mobile, dietary notes, and a 10:30 tour on the 23rd. Shoot here on the morning of the 23rd."
+            "detail": "Confirmed. Andrea Buzzacchino (Reservations) has your 11:00 PM ETA, mobile +39 338 176 5810 if anything goes sideways on the night. Tour at 10:30 on the 23rd, taxi to Eccellenze arranged by the hotel, the GM is heading there too so you may share it."
           },
           "items": [
             {
@@ -126,14 +126,14 @@
             {
               "time": "10:30 AM",
               "title": "Tour and shoot at Borgo Pignano Florence",
-              "detail": "Proposed to Andrea in your reply of the 21st. Slow morning first.",
-              "status": "pending"
+              "detail": "Confirmed by Andrea September 21. Slow morning first.",
+              "status": "confirmed"
             },
             {
               "time": "12:15 PM",
               "title": "Taxi to the Four Seasons with luggage",
-              "detail": "Arno stores the bags during the event and they ride to Portrait with you. Asked the hotel to book the taxi.",
-              "status": "info"
+              "detail": "Arno stores the bags during the event and they ride to Portrait with you. Asked the hotel to book the taxi. Hotel is calling the taxi, possibly shared with the GM.",
+              "status": "confirmed"
             },
             {
               "time": "12:45 PM",
@@ -889,26 +889,27 @@
               "status": "info"
             },
             {
-              "time": "1:00 PM",
+              "time": "12:30 PM",
               "title": "Rosewood Castiglion del Bosco, lunch and the estate tour",
-              "detail": "Confirmed by Francesca Liguori (Sales & Marketing Coordinator) September 21: site inspection Friday the 9th at 1 PM, lunch first, then the sales team walks you through the estate and a selection of rooms. They did not take the 8th, so this is the slot. Reply to confirm (draft ready).",
+              "detail": "Confirmed by Francesca Liguori September 21: lunch at 12:30, site inspection straight after, rooms and villas availability permitting, sales team hosting. Self-driving, one-line reply owed (draft ready). Poggio to Castiglion del Bosco about 45 minutes, out by 11:30.",
               "status": "confirmed",
-              "todo": "Confirm 1 PM on the 9th with Francesca (draft ready)."
+              "todo": "Tell Francesca you are self-driving (draft ready)."
             },
             {
-              "time": "3:30 PM",
+              "time": "4:30 PM",
               "title": "Leave for Porto Ercole",
-              "detail": "About 1 hour 45 via Grosseto. On the terrace by 5:15.",
+              "detail": "From Banfi, about 1 hour 30 via Grosseto. On the coast by 6:15.",
               "status": "info"
             },
             {
-              "time": "Dropped",
-              "title": "Castello Banfi visit and tasting",
-              "detail": "Asked Maddalena on the 21st for 3:00 on the 9th, before Rosewood landed at 1:00. The only slot left is 11 AM, which means leaving Poggio at 10. If she answers, decide then; otherwise let it go.",
-              "status": "suggested"
+              "time": "3:00 PM",
+              "title": "Castello Banfi Il Borgo, site inspection and tasting",
+              "detail": "Maddalena confirmed September 21: site inspection and wine tasting at 3:00 PM, no cellar tour that afternoon. About 25 minutes south of Rosewood. Tight after a 12:30 lunch and tour, so the reply confirms 3:00 and offers 3:30 if easier. Banfi to Porto Ercole about 1 hour 30, on the coast by 6:15.",
+              "status": "confirmed",
+              "todo": "Confirm 3:00 with Maddalena, 3:30 if easier (draft ready)."
             },
             {
-              "time": "5:15 PM",
+              "time": "6:15 PM",
               "title": "Check in on the coast, the terrace, dinner",
               "detail": "Nothing scheduled after. Shoot the arrival light.",
               "status": "info"
@@ -1023,7 +1024,7 @@
               {
                 "name": "Le Sirenuse, Positano",
                 "status": "pending",
-                "detail": "Leeann Pisacane and Giulia Sersale asked September 17. No reply."
+                "detail": "Leeann Pisacane (DOS North America) September 21: peak season runs through mid October, the team on property will send a proposal for the night of the 13th. If the rate does not suit, they will arrange a site tour on the 13th or 14th. You replied the same day. Waiting on the proposal."
               },
               {
                 "name": "Villa Treville, Positano",
@@ -1148,10 +1149,9 @@
     {
       "title": "Before you fly, Monday",
       "items": [
-        "Il Pellicano: send the holding reply to Gianluca, understood on the 9th, answer on the 10th by Wednesday (draft ready)",
-        "La Roqqa: send the hosting ask to Roberta Davanzo for October 9 to 11 (draft ready)",
-        "Rosewood: confirm 1 PM on the 9th with Francesca Liguori (draft ready)",
-        "Lupaia: move to the evening of the 8th, inspection at 5:30 and dinner (draft ready)",
+        "Villa Serbelloni: still unsent. ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
+        "Rosewood: one line to Francesca, self-driving, no transfer (draft ready)",
+        "Banfi: confirm 3:00 on the 9th with Maddalena, 3:30 if easier (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Villa Serbelloni: send the ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
         "Castelfalfi: reply to reservations with your ETA on the 27th (about midday) and dietary notes",
@@ -1165,6 +1165,7 @@
       "start": 10,
       "items": [
         "Porto Ercole, Wednesday: if La Roqqa hosts, ask Gianluca for a Pellicano visit and lunch on the 10th. If not, take Pellicano on the 10th at 830 and Poggio on the 9th",
+        "Le Sirenuse: rate proposal coming for the 13th, decide when it lands, visit on the 13th or 14th as the fallback",
         "COMO Alpina: once Aman answers, ask Deborah to move the hosted night from the 7th to the 6th",
         "Forestis and COMO Alpina: tell them a friend may join, second guest in the room",
         "Villa La Massa: paused. Send Laura a short note by Wednesday, thanks and a next-trip line, or accept 10:30 if you change your mind",
@@ -1198,18 +1199,19 @@
         "Gardena Grödnerhof / Alex Demetz: asked the 15th",
         "Poggio alla Sala / Cinzia: asked the 20th",
         "Rocco Forte / Cristina Frazzingaro: Carlton Milan the 16th, Rome the 17th",
-        "Le Sirenuse, Villa Treville, Santa Caterina, Borgo Santandrea",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
         "Palazzo Portinari Salviati: visit ask sent the 20th",
-        "Banfi / Maddalena: visit asked the 21st for the 9th, now only fits at 11 AM, decide if she answers"
+        "Villa Treville, Santa Caterina, Borgo Santandrea",
+        "Lupaia: move to the evening of the 8th, asked the 21st"
       ]
     },
     {
       "title": "Answered, action on your side",
       "items": [
+        "Rosewood: lunch 12:30 and tour on the 9th confirmed, self-driving reply owed",
+        "Banfi: inspection and tasting 3:00 on the 9th confirmed, reply owed",
+        "Le Sirenuse: paid proposal coming for the 13th, visit as the fallback",
         "Il Pellicano: the 10th at 830 euros stands, two nights priced at 1,200 a night, answer by Wednesday",
-        "Rosewood: 1 PM on the 9th with lunch confirmed, reply owed",
-        "Lupaia: lunch and inspection offered on the 9th, moving to the evening of the 8th",
         "Villa La Massa: 10:30 on the 25th offered, paused on your side",
         "Villa Serbelloni: join the 3:00 PM site inspection on the 2nd, send your ETA",
         "Castelfalfi: booking confirmed, they want ETA and dietary notes",
