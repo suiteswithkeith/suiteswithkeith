@@ -324,17 +324,16 @@
       "id": "western-tuscany",
       "name": "Western Tuscany",
       "dates": "September 27 to 29",
-      "strip_label": "Castelfalfi base, Casole, Santo Pietro",
-      "summary": "Castelfalfi as the base, two nights at the 550 euro industry rate. One visit a day after a proper morning: Casole on the 27th, Santo Pietro and San Felice on the 28th, with Il Borro held as the alternative for the 28th.",
+      "strip_label": "Castelfalfi, Casole, Santo Pietro",
+      "summary": "Castelfalfi is the base, one night hosted and one at 550 euros. Casole visit on the 27th, Santo Pietro and San Felice on the 28th, Il Borro held as the alternative.",
       "days": [
         {
           "date": "2026-09-27",
           "label": "Castelfalfi, then Casole",
           "stay": {
             "name": "Castelfalfi, Montaione",
-            "status": "todo",
-            "detail": "Two nights at Sara Bonechi's industry rate, 550 euros a night with breakfast, parking, pools, spa and gym. Reply drafted re-accepting the rate for September 27 to 29 and confirming the 10:30 tour on the 27th. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes.",
-            "todo": "Send the Sara draft. If Casole or San Felice surprises with a hosted night, you can still trim to one night with her."
+            "status": "confirmed",
+            "detail": "Confirmed with Sara Bonechi September 21: one night complimentary, one at the 550 euro industry rate with breakfast, parking, pools, spa and gym. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes. Tour whenever suits across the two days."
           },
           "items": [
             {
@@ -362,9 +361,8 @@
           "label": "Santo Pietro, then San Felice or Il Borro",
           "stay": {
             "name": "Castelfalfi, Montaione",
-            "status": "todo",
-            "detail": "Two nights at Sara Bonechi's industry rate, 550 euros a night with breakfast, parking, pools, spa and gym. Reply drafted re-accepting the rate for September 27 to 29 and confirming the 10:30 tour on the 27th. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes.",
-            "todo": "Send the Sara draft. If Casole or San Felice surprises with a hosted night, you can still trim to one night with her."
+            "status": "confirmed",
+            "detail": "Confirmed with Sara Bonechi September 21: one night complimentary, one at the 550 euro industry rate with breakfast, parking, pools, spa and gym. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes. Tour whenever suits across the two days."
           },
           "items": [
             {
@@ -400,8 +398,8 @@
           "items": [
             {
               "name": "Castelfalfi",
-              "status": "todo",
-              "detail": "Tour and lunch the morning of the 27th, now also the base."
+              "status": "confirmed",
+              "detail": "Staying two nights, hosted plus paid. Tour whenever suits."
             },
             {
               "name": "Castello di Casole",
@@ -1136,7 +1134,6 @@
       "title": "Before you fly, Monday",
       "items": [
         "Belmond: send the reply to Andrea, Casole 3:30 confirmed, San Michele countered to 11:30, one direct question on a Portofino hosted night (draft ready)",
-        "Castelfalfi: send the Sara reply taking two nights at 550, tour whenever suits (draft ready)",
         "Santo Pietro: send the Arianna reply asking for a 12:00 visit and lunch on the 28th (draft ready)",
         "Borgo Pignano Florence: reply to Andrea with ETA about 11:00 PM on the 22nd, mobile, tour on the morning of the 23rd",
         "Borgo Pignano Volterra: reply to Giuliana with arrival about 4:30 PM on the 26th, site inspection at 5:00",
@@ -1185,7 +1182,6 @@
     {
       "title": "Answered, action on your side",
       "items": [
-        "Castelfalfi: visit and lunch offered, morning of the 27th",
         "Il Borro: tasting and lunch offered, the 28th",
         "Rosewood: day visit offered",
         "Reschio: visit and lunch offered, paid rate declined by you",
@@ -1234,6 +1230,11 @@
       "name": "Orient Express La Minerva",
       "amount": 670,
       "note": "one paid night, the other comped"
+    },
+    {
+      "name": "Castelfalfi",
+      "amount": 550,
+      "note": "one paid night, the other hosted"
     }
   ]
 }
