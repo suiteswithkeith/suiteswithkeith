@@ -843,17 +843,28 @@
       "id": "rome",
       "name": "Porto Ercole & Rome",
       "dates": "October 9 to 13",
-      "strip_label": "Rosewood lunch, Pellicano, La Minerva",
-      "summary": "Two nights at Il Pellicano, the vacation stretch. Then the car goes back at Fiumicino on the 11th and two confirmed nights at La Minerva. Posta Vecchia parked: the 11th is a car drop and a check-in, not a site visit day.",
+      "strip_label": "Rosewood lunch, Porto Ercole, La Minerva",
+      "summary": "Two nights in Porto Ercole, the vacation stretch. La Roqqa asked to host both, Pellicano becomes a site visit and lunch if they do. If La Roqqa is a no, Pellicano on the 10th at 830 euros and Poggio again on the 9th. Then the car goes back at Fiumicino on the 11th and two confirmed nights at La Minerva.",
       "days": [
         {
           "date": "2026-10-09",
           "label": "Rosewood lunch, then the coast",
           "stay": {
-            "name": "Il Pellicano, Porto Ercole",
-            "status": "pending",
-            "detail": "Gianluca Tammaro (Director of Sales), September 21: the 10th is at about 80 percent and entry rooms are gone, but a Junior Suite Garden View at 830 euros a night instead of 1,780, breakfast and VAT included, city tax extra. The reply takes the 10th and asks for the same room at the same rate on the 9th. If the 9th is only public rate, take the 10th alone and the 9th goes back to Poggio.",
-            "todo": "Send the Gianluca reply: yes to the Junior Suite on the 10th, same rate for the 9th (draft ready)."
+            "name": "Porto Ercole, La Roqqa asked",
+            "status": "open",
+            "options": [
+              {
+                "name": "Hotel La Roqqa, Porto Ercole",
+                "status": "pending",
+                "detail": "Asked Roberta Davanzo (Area General Manager) September 21 to host October 9 to 11, one hosted plus one paid as the fallback, visit as the last resort. Fora rate is about $1,200 for the two nights with 15 percent, so even paid it is the cheaper base. Five minutes from Pellicano."
+              },
+              {
+                "name": "Poggio alla Sala, second night",
+                "status": "fallback",
+                "detail": "If La Roqqa cannot host. Rosewood lunch, 45 minutes back east, then to the coast on the 10th."
+              }
+            ],
+            "detail": "Gianluca priced two Pellicano nights at 1,200 euros a night on the 21st, which is the 10th at 830 plus the 9th at 1,570. Declined for the 9th, holding reply sent, decision on the 10th by Wednesday."
           },
           "items": [
             {
@@ -882,7 +893,7 @@
             },
             {
               "time": "5:15 PM",
-              "title": "Check in at Il Pellicano, the terrace, dinner",
+              "title": "Check in on the coast, the terrace, dinner",
               "detail": "Nothing scheduled after. Shoot the arrival light.",
               "status": "info"
             }
@@ -890,24 +901,35 @@
         },
         {
           "date": "2026-10-10",
-          "label": "Pellicano, the day off",
+          "label": "Porto Ercole, the day off",
           "stay": {
-            "name": "Il Pellicano, Porto Ercole",
-            "status": "pending",
-            "detail": "Second night, the one Gianluca offered outright at 830 euros."
+            "name": "La Roqqa, or Il Pellicano at 830 euros",
+            "status": "open",
+            "options": [
+              {
+                "name": "Hotel La Roqqa, second night",
+                "status": "pending",
+                "detail": "Same ask as the 9th."
+              },
+              {
+                "name": "Il Pellicano, Junior Suite Garden View",
+                "status": "fallback",
+                "detail": "Gianluca's offer of the 10th alone at 830 euros, breakfast and VAT included, still stands. Take it by Wednesday if La Roqqa is a no."
+              }
+            ]
           },
           "items": [
             {
-              "time": "All day",
-              "title": "Pool, sea, rooms, nothing booked",
-              "detail": "This is the vacation day of the trip. Shoot the property properly, then stop.",
-              "status": "info"
+              "time": "Midday",
+              "title": "Il Pellicano, site visit and lunch, if La Roqqa hosts",
+              "detail": "Five minutes from La Roqqa. Ask Gianluca once La Roqqa answers: a visit and lunch on the 10th instead of the stay.",
+              "status": "suggested"
             },
             {
-              "time": "Optional",
-              "title": "Hotel La Roqqa, Porto Ercole",
-              "detail": "30 minutes away. Newer, design-led. Only if you get restless.",
-              "status": "suggested"
+              "time": "Rest of the day",
+              "title": "Pool, sea, nothing booked",
+              "detail": "This is the vacation day of the trip.",
+              "status": "info"
             }
           ]
         },
@@ -1110,7 +1132,8 @@
     {
       "title": "Before you fly, Monday",
       "items": [
-        "Il Pellicano: send the Gianluca reply, yes to the Junior Suite on the 10th, same rate for the 9th (draft ready)",
+        "Il Pellicano: send the holding reply to Gianluca, understood on the 9th, answer on the 10th by Wednesday (draft ready)",
+        "La Roqqa: send the hosting ask to Roberta Davanzo for October 9 to 11 (draft ready)",
         "Rosewood: confirm 1 PM on the 9th with Francesca Liguori (draft ready)",
         "Lupaia: move to the evening of the 8th, inspection at 5:30 and dinner (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
@@ -1125,6 +1148,7 @@
       "title": "This week",
       "start": 10,
       "items": [
+        "Porto Ercole, Wednesday: if La Roqqa hosts, ask Gianluca for a Pellicano visit and lunch on the 10th. If not, take Pellicano on the 10th at 830 and Poggio on the 9th",
         "Villa La Massa: paused. Send Laura a short note by Wednesday, thanks and a next-trip line, or accept 10:30 if you change your mind",
         "Belmond: waiting on Andrea for the Portofino hosted night and the San Michele 11:30 time, asked the 21st",
         "Banfi: waiting on Maddalena for the visit and tasting on the 9th, asked the 21st",
@@ -1144,6 +1168,7 @@
     {
       "title": "Waiting on, no reply at all",
       "items": [
+        "La Roqqa / Roberta Davanzo: two hosted nights October 9 to 11, asked the 21st",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
         "Borgo San Felice / Zaira: asked the 16th, nudged the 18th",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
@@ -1163,7 +1188,7 @@
     {
       "title": "Answered, action on your side",
       "items": [
-        "Il Pellicano: Junior Suite at 830 euros on the 10th offered, ask for the 9th too",
+        "Il Pellicano: the 10th at 830 euros stands, two nights priced at 1,200 a night, answer by Wednesday",
         "Rosewood: 1 PM on the 9th with lunch confirmed, reply owed",
         "Lupaia: lunch and inspection offered on the 9th, moving to the evening of the 8th",
         "Villa La Massa: 10:30 on the 25th offered, paused on your side",
@@ -1186,7 +1211,6 @@
         "La Monastica",
         "ADLER Lodge Alpe",
         "Badia Hill",
-        "La Roqqa",
         "Palazzo Avino",
         "Casa Angelina",
         "Caruso",
@@ -1222,9 +1246,9 @@
       "note": "one paid night, the other hosted"
     },
     {
-      "name": "Il Pellicano",
-      "amount": 1660,
-      "note": "two nights at 830 euros if the 9th is extended, 830 if not"
+      "name": "Porto Ercole",
+      "amount": 830,
+      "note": "Pellicano on the 10th if La Roqqa does not host, otherwise nothing"
     }
   ]
 }
