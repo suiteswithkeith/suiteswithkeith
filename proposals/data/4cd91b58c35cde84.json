@@ -1070,7 +1070,7 @@
           "stay": {
             "name": "Le Sirenuse, Positano",
             "status": "paid",
-            "detail": "Confirmed September 22 at 600 euros, the property team's proposal after Leeann Pisacane's note that peak season runs to mid October. Sersale family, Franco's Bar, La Sponda. Villa Treville drops to a visit ask next door."
+            "detail": "Confirmed September 22 at 600 euros, an industry rate extended personally by Antonio Sersale after Leeann Pisacane's note. Kept over a hosted night at Treville: iconic, and you wanted to sleep there. Sersale family, Franco's Bar, La Sponda."
           },
           "items": [
             {
@@ -1104,10 +1104,10 @@
               "todo": "Confirm 11:00 AM on the 14th with Agostino."
             },
             {
-              "time": "After San Pietro",
-              "title": "Villa Treville, site visit if Daniela answers",
-              "detail": "Asked September 20 to host the 13th, now a visit ask. Beside Il San Pietro.",
-              "status": "suggested"
+              "time": "12:30 PM",
+              "title": "Villa Treville, site visit",
+              "detail": "Daniela Barba offered to host the 13th on September 22, but Sirenuse was already accepted and you are keeping it. Reply drafted: apologies, a site visit at 12:30 on the 14th after San Pietro, or late afternoon on the 13th, and a proper stay next trip.",
+              "status": "pending"
             },
             {
               "time": "Afternoon",
@@ -1179,6 +1179,7 @@
       "title": "Before you fly, Monday",
       "items": [
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
+        "Villa Treville: send Daniela the decline and the 12:30 visit on the 14th (draft ready)",
         "Portovenere: send Rachele the hosting ask, add your signature (draft ready)",
         "Grand Hotel Victoria: send Arianna the hosting ask for the 1st, add your signature (draft ready)",
         "Il Borro: hold the Kaoutar draft a day, send only if Portovenere is a no",
@@ -1238,13 +1239,14 @@
         "Poggio alla Sala / Cinzia: asked the 20th",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
         "Palazzo Portinari Salviati: visit ask sent the 20th",
-        "Villa Treville, Borgo Santandrea: now visit asks",
+        "Borgo Santandrea: visit ask pending",
         "Lupaia: move to the evening of the 8th, asked the 21st"
       ]
     },
     {
       "title": "Answered, action on your side",
       "items": [
+        "Villa Treville: hosted night offered for the 13th, declining for Sirenuse, visit asked",
         "Borgo San Felice: hosted night on the 28th, accepting",
         "Villa d'Este: paid rate offered for the 1st, 1,190 euros, passing, visit asked",
         "Rocco Forte Rome: no stay, site visit offered, 13th at 11:00 proposed",
