@@ -906,32 +906,32 @@
       "name": "Porto Ercole & Rome",
       "dates": "October 9 to 13",
       "strip_label": "Rosewood lunch, La Roqqa, Rome three nights",
-      "summary": "Rosewood lunch and Banfi on the 9th, then one night on the coast at La Roqqa, or Monteverdi if Peggy hosts. Pellicano becomes a morning site visit on the 10th, five minutes from La Roqqa, then the car goes back at Fiumicino as booked and Rome gets three nights, the 10th asked at La Minerva.",
+      "summary": "Rosewood lunch and Banfi on the 9th, then one night on the coast at La Roqqa, paid through Fora if Roberta does not host. Pellicano is a morning site visit on the 10th, five minutes away, then the car goes back at Fiumicino as booked and Rome gets three nights, the 10th asked at La Minerva. Monteverdi is now a polite no if Peggy offers, the coast wins.",
       "days": [
         {
           "date": "2026-10-09",
           "label": "Rosewood lunch, then the coast",
           "stay": {
-            "name": "La Roqqa, or Monteverdi if they host",
-            "status": "open",
+            "name": "La Roqqa, Porto Ercole",
+            "status": "pending",
             "options": [
               {
-                "name": "Hotel La Roqqa, Porto Ercole",
+                "name": "Hotel La Roqqa, hosted",
                 "status": "pending",
-                "detail": "Asked Roberta Davanzo September 21 for two nights, now one. Five minutes from Pellicano. Fora rate about $600 if paid."
+                "detail": "Asked Roberta Davanzo September 21 for two nights, now one. Five minutes from Pellicano."
+              },
+              {
+                "name": "Hotel La Roqqa, paid through Fora",
+                "status": "fallback",
+                "detail": "About $600 with 15 percent if Roberta does not host. Book Wednesday either way, the coast is the choice."
               },
               {
                 "name": "Monteverdi Tuscany",
-                "status": "pending",
-                "detail": "Peggy reviewing, will revert midweek. If she hosts, the 9th is here and Pellicano drops to next trip."
-              },
-              {
-                "name": "Poggio alla Sala, second night",
-                "status": "fallback",
-                "detail": "If neither hosts and La Roqqa's rate is silly."
+                "status": "ruled_out",
+                "detail": "Peggy is still reviewing the 9th. Your call on the 22nd: the coast and the Pellicano visit over Monteverdi. If she offers, thank her and ask for a visit next trip."
               }
             ],
-            "detail": "Gianluca's Pellicano offer of the 10th at 830 euros is no longer needed. Answer him by Wednesday with a visit ask for the morning of the 10th instead."
+            "detail": "Gianluca's Pellicano offer of the 10th at 830 euros is no longer needed. Answer him by Wednesday with a visit ask for the morning of the 10th."
           },
           "items": [
             {
@@ -980,7 +980,7 @@
             {
               "time": "10:30 AM",
               "title": "Il Pellicano, site visit",
-              "detail": "Ask Gianluca for a visit instead of the stay, five minutes from La Roqqa. Skip if the 9th is Monteverdi.",
+              "detail": "Ask Gianluca for a visit instead of the stay, five minutes from La Roqqa.",
               "status": "suggested"
             },
             {
@@ -1184,7 +1184,7 @@
       "title": "This week",
       "start": 10,
       "items": [
-        "Coast, Wednesday: La Roqqa or Monteverdi for the 9th, then tell Gianluca no on the stay and ask for a Pellicano visit on the morning of the 10th",
+        "Coast, Wednesday: book La Roqqa through Fora if Roberta has not hosted by then, tell Gianluca no on the stay and ask for a Pellicano visit on the morning of the 10th, and decline Monteverdi warmly if Peggy offers",
         "Castelfalfi ETA, Volterra ETA to Giuliana, Il San Pietro time to Agostino: all low stakes, send from the road",
         "Porto Ercole, Wednesday: if La Roqqa hosts, ask Gianluca for a Pellicano visit and lunch on the 10th. If not, take Pellicano on the 10th at 830 and Poggio on the 9th",
         "COMO Alpina: once Aman answers, ask Deborah to move the hosted night from the 7th to the 6th",
@@ -1215,7 +1215,7 @@
         "Grand Hotel Victoria / Arianna Giordano: hosted night on the 1st, asked the 22nd",
         "Serbelloni / Cristina: paid second night on the 1st, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
-        "Monteverdi / Peggy: reviewing the 9th, will revert, replied the 21st",
+        "Monteverdi / Peggy: reviewing the 9th, now a decline if offered, visit next trip",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
         "Il Sereno / Gaia Rosetti: asked the 14th, nudged the 18th and 22nd, the 1st or a 3:00 visit",
