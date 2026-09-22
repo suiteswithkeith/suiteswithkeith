@@ -570,7 +570,7 @@
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
-            "detail": "First of two hosted nights. Cristina Fusari answered the second-night ask on September 22 by comping the 1st as well, so October 1 to 3 complimentary. Nut allergy on file. Arriving from Modena via Cernobbio and Torno."
+            "detail": "First of two hosted nights, confirmation 576789251, October 1 to 3 complimentary. Cristina Fusari extended the stay on September 22 after the second-night ask, thanked the same day. Nut allergy on file. Arriving from Modena via Cernobbio and Torno."
           },
           "items": [
             {
@@ -610,7 +610,7 @@
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
-            "detail": "Second hosted night, October 1 to 3 complimentary. Cristina Fusari (Sales & Revenue Coordinator), Francesca Barba (DOSM). 2:30 on property, 3:00 group tour confirmed both ways."
+            "detail": "Second hosted night, confirmation 576789251. Cristina Fusari (Sales & Revenue Coordinator), Francesca Barba (DOSM). 2:30 on property, 3:00 group tour confirmed both ways."
           },
           "items": [
             {
@@ -1138,7 +1138,6 @@
     {
       "title": "Before you fly, Monday",
       "items": [
-        "Serbelloni: thank Cristina for the second night, one line",
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
         "La Minerva: send Egle the third-night ask for the 10th (draft ready)",
         "Villa Treville: send Daniela the decline and the 12:30 visit on the 14th (draft ready)",
