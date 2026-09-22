@@ -561,43 +561,16 @@
       "id": "lake-como",
       "name": "Lake Como",
       "dates": "October 1 to 4",
-      "strip_label": "Serbelloni, EDITION, Villa d'Este visit",
-      "summary": "Three nights on the lake. The 1st is asked as a paid second night at Serbelloni, then the hosted 2nd, then the EDITION on the 3rd. Il Sereno is still out for the 1st. Villa d'Este is a visit on the way in.",
+      "strip_label": "Serbelloni two nights, EDITION",
+      "summary": "Three nights on the lake, all set. Villa Serbelloni comped both the 1st and the 2nd, then the EDITION on the 3rd. Villa d'Este and Il Sereno are visits on the way in on the 1st, Tremezzo and Passalacqua are the asks still out with Gaia.",
       "days": [
         {
           "date": "2026-10-01",
           "label": "Modena to the lake, Villa d'Este visit, Bellagio",
           "stay": {
-            "name": "Open, three asks out",
-            "status": "open",
-            "options": [
-              {
-                "name": "Villa Serbelloni, October 1 at a discounted rate",
-                "status": "pending",
-                "detail": "Asked Cristina September 22 for a second night ahead of the hosted 2nd, same room. If yes, two nights in Bellagio and no move on the 2nd."
-              },
-              {
-                "name": "Grand Hotel Victoria, Menaggio",
-                "status": "pending",
-                "detail": "Asked Arianna Giordano (R Collection reservations) September 22, Lorena Speziale copied, for a hosted night on the 1st, visit as the fallback. West shore, spa, 15 minutes by ferry to Bellagio for the Serbelloni tour on the 2nd."
-              },
-              {
-                "name": "Il Sereno, Torno",
-                "status": "pending",
-                "detail": "Hosted ask from the 14th, nudged the 18th and again the 22nd with the 1st named and a 3:00 site visit as the fallback. Torno is on the way up the lake from Cernobbio. Would beat a paid Serbelloni night."
-              },
-              {
-                "name": "EDITION, October 1 to 3, with Serbelloni moved to the 3rd",
-                "status": "fallback",
-                "detail": "Plan B if Serbelloni cannot do the 1st. Two paid EDITION nights at the 400 euro rate, and a re-ask to move the hosted Serbelloni night from the 2nd to the 3rd."
-              },
-              {
-                "name": "Villa d'Este",
-                "status": "ruled_out",
-                "detail": "Paid only, 1,190 euros. Declined, visit asked instead."
-              }
-            ],
-            "detail": "Order of preference: Il Sereno or Grand Hotel Victoria hosted, then Serbelloni at a rate, then the EDITION plan B. Villa d'Este is a visit on the way in."
+            "name": "Grand Hotel Villa Serbelloni, Bellagio",
+            "status": "confirmed",
+            "detail": "First of two hosted nights. Cristina Fusari answered the second-night ask on September 22 by comping the 1st as well, so October 1 to 3 complimentary. Nut allergy on file. Arriving from Modena via Cernobbio and Torno."
           },
           "items": [
             {
@@ -609,18 +582,24 @@
             {
               "time": "1:30 PM",
               "title": "Villa d'Este, site visit",
-              "detail": "Asked Laura Buzzi September 22 for midday on the 1st on the way to Bellagio, the 2nd as the alternative. From Modena it is closer to 1:30, tell her when she confirms. Rooms, gardens, Sporting Club.",
+              "detail": "Asked Laura Buzzi September 22 for midday on the 1st, the 2nd as the alternative. From Modena it is closer to 1:30. Rooms, gardens, Sporting Club.",
               "status": "pending"
             },
             {
               "time": "3:00 PM",
-              "title": "Cernobbio to Bellagio",
-              "detail": "About 1 hour 15 by car around via Como and the east shore, or the west shore and the Cadenabbia car ferry.",
+              "title": "Il Sereno, Torno, site visit",
+              "detail": "Nudged Gaia Rosetti September 22 with the 1st and a 3:00 visit. Now a visit only, the night is Serbelloni. Torno is 20 minutes up the east shore from Cernobbio.",
+              "status": "pending"
+            },
+            {
+              "time": "4:00 PM",
+              "title": "Torno to Bellagio",
+              "detail": "About 50 minutes up the east shore via Lezzeno.",
               "status": "info"
             },
             {
-              "time": "4:30 PM",
-              "title": "Check in, Bellagio",
+              "time": "5:00 PM",
+              "title": "Check in at Villa Serbelloni",
               "status": "info"
             }
           ]
@@ -631,7 +610,7 @@
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
-            "detail": "Complimentary B&B, confirmed. Cristina Fusari (Sales & Revenue Coordinator), Francesca Barba (DOSM). You confirmed a 2:30 arrival and the 3:00 group tour on the 21st, Cristina replied the same day. Nut allergy on file."
+            "detail": "Second hosted night, October 1 to 3 complimentary. Cristina Fusari (Sales & Revenue Coordinator), Francesca Barba (DOSM). 2:30 on property, 3:00 group tour confirmed both ways."
           },
           "items": [
             {
@@ -1159,15 +1138,14 @@
     {
       "title": "Before you fly, Monday",
       "items": [
+        "Serbelloni: thank Cristina for the second night, one line",
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
         "La Minerva: send Egle the third-night ask for the 10th (draft ready)",
         "Villa Treville: send Daniela the decline and the 12:30 visit on the 14th (draft ready)",
         "Portovenere: send Rachele the hosting ask, add your signature (draft ready)",
-        "Grand Hotel Victoria: send Arianna the hosting ask for the 1st, add your signature (draft ready)",
         "Il Borro: hold the Kaoutar draft a day, send only if Portovenere is a no",
         "Rocco Forte: send Andrea Ercoli the de Russie visit reply; the Carlton paragraph can stay as a next-trip line or come out (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
-        "Serbelloni: send Cristina the paid second night ask for the 1st (draft ready)",
         "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
         "Belmond: tell Andrea in a separate email that Portofino is off this trip, Casole and San Michele stand",
         "Gala group: send Gaia the two visit times, Tremezzo 3:00 on the 3rd, Passalacqua 11:30 on the 4th (draft ready)",
@@ -1208,13 +1186,11 @@
         "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
         "Grand Hotel Portovenere / Rachele Belladelli: hosted night on the 29th, asked the 22nd",
         "La Minerva / Egle: third night on the 10th, asked the 22nd",
-        "Grand Hotel Victoria / Arianna Giordano: hosted night on the 1st, asked the 22nd",
-        "Serbelloni / Cristina: paid second night on the 1st, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Monteverdi / Peggy: reviewing the 9th, now a decline if offered, visit next trip",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
-        "Il Sereno / Gaia Rosetti: asked the 14th, nudged the 18th and 22nd, the 1st or a 3:00 visit",
+        "Il Sereno / Gaia Rosetti: 3:00 site visit on the 1st, nudged the 22nd",
         "Tremezzo and Passalacqua visits / Gala group: asked the 15th, times proposed the 22nd",
         "Miramonti: asked the 18th",
         "Gardena Grödnerhof / Alex Demetz: asked the 15th",
@@ -1227,6 +1203,7 @@
     {
       "title": "Answered, action on your side",
       "items": [
+        "Villa Serbelloni: second night comped, October 1 to 3 hosted",
         "Villa Treville: hosted night offered for the 13th, declining for Sirenuse, visit asked",
         "Villa d'Este: paid rate offered for the 1st, 1,190 euros, passing, visit asked",
         "Rocco Forte Rome: no stay, site visit offered, 13th at 11:00 proposed",
@@ -1258,7 +1235,8 @@
         "Hotel Vilòn",
         "J.K. Place Roma",
         "Castel Monastero",
-        "La Monastica, Il Bottaccio, fallbacks for the 29th"
+        "La Monastica, Il Bottaccio, fallbacks for the 29th",
+        "Grand Hotel Victoria, Menaggio, ask withdrawn, not needed"
       ]
     }
   ],
