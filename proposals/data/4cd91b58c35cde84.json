@@ -659,7 +659,7 @@
       "name": "Lake Como",
       "dates": "October 1 to 4",
       "strip_label": "Il Sereno, Serbelloni, EDITION",
-      "summary": "Three nights on the lake, three hotels, all set. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Villa d'Este on the way in on the 1st, Passalacqua by boat from Sereno's dock on the morning of the 2nd, Serbelloni's tour at 3:00, Tremezzo from the EDITION on the afternoon of the 3rd. The 4th is clear.",
+      "summary": "Three nights on the lake, three hotels, all set. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Villa d'Este on the way in on the 1st, Passalacqua by boat from Sereno's dock on the morning of the 2nd, Serbelloni's tour at 3:00, Tremezzo and tennis from the EDITION on the 3rd. Mandarin Oriental in Blevio on the morning of the 4th on the way out.",
       "days": [
         {
           "date": "2026-10-01",
@@ -776,12 +776,12 @@
       ],
       "groups": [
         {
-          "title": "Declined on the lake",
+          "title": "On the way out",
           "items": [
             {
               "name": "Mandarin Oriental Lago di Como",
-              "status": "ruled_out",
-              "detail": "Anna Fejzo, September 15: near capacity, no special rate, best available only. No visit asked. Drop it."
+              "status": "todo",
+              "detail": "Anna Fejzo, September 15: near capacity, no special rate. Visit to ask for via the Global DOS on Instagram, the morning of the 4th."
             }
           ]
         }
@@ -797,7 +797,7 @@
       "days": [
         {
           "date": "2026-10-04",
-          "label": "Up to the Dolomites",
+          "label": "Mandarin Oriental in Blevio, then up to the Dolomites",
           "stay": {
             "name": "Forestis, above Bressanone",
             "status": "confirmed",
@@ -812,9 +812,22 @@
           },
           "items": [
             {
-              "time": "From 11:00",
-              "title": "Drive Como to the Dolomites",
-              "detail": "About 3 hours. Miramonti mid afternoon if they offer the visit, Forestis by early evening.",
+              "time": "11:00 AM",
+              "title": "Leave the EDITION, round to Blevio",
+              "detail": "About 45 minutes by road via Como, or the car ferry to Bellagio and down the east shore. Blevio is ten minutes off the motorway route anyway.",
+              "status": "info"
+            },
+            {
+              "time": "11:45 AM",
+              "title": "Mandarin Oriental Lago di Como, Blevio, site visit",
+              "detail": "Five minutes south of Il Sereno. Anna Fejzo declined a rate on September 15, but the Global DOS has been messaging you on Instagram, so ask there: a visit on the morning of the 4th on your way out, a few rooms and the pool. No extra night needed.",
+              "status": "todo",
+              "todo": "DM the MO Global DOS for a visit at 11:45 on the 4th."
+            },
+            {
+              "time": "12:45 PM",
+              "title": "Drive to the Dolomites",
+              "detail": "About 3 hours 15 from Blevio. Miramonti mid afternoon if they offer the visit, Forestis by about 4:30.",
               "status": "info"
             },
             {
@@ -1254,6 +1267,7 @@
         "Villa d'Este: send Laura the 2:00 counter for the 1st, alone, courts on the tour (draft ready)",
         "Gala group: send Gaia the visit times, Passalacqua 11:00 on the 2nd by boat, Tremezzo 3:00 on the 3rd on foot, courts on both tours, tennis at 4:00 at Tremezzo (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
+        "Mandarin Oriental Lake Como: DM the Global DOS for a visit at 11:45 on the 4th, on the way to the Dolomites",
         "Belmond: when Andrea answers, add the Splendido court and pro at 2:00 on the 30th",
         "Il San Pietro: confirm 11:00 on the 14th with Agostino and ask for the court",
         "Monteverdi: fill the pre-arrival questionnaire from the confirmation email",
