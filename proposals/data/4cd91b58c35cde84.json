@@ -331,7 +331,7 @@
       "name": "Western Tuscany",
       "dates": "September 27 to 29",
       "strip_label": "Castelfalfi, Casole, Santo Pietro, San Felice",
-      "summary": "Castelfalfi for one hosted night on the 27th with the Casole visit that afternoon. The 28th moves to Borgo San Felice, hosted, after Santo Pietro. Castelfalfi's paid second night is being released.",
+      "summary": "Castelfalfi for one hosted night on the 27th with the Casole visit that afternoon. The 28th is Borgo San Felice, hosted, accepted with Zaira, after a Santo Pietro visit if Arianna ever answers. Then the coast on the 29th.",
       "days": [
         {
           "date": "2026-09-27",
@@ -367,8 +367,8 @@
           "label": "Santo Pietro, then San Felice",
           "stay": {
             "name": "Borgo San Felice, Castelnuovo Berardenga",
-            "status": "pending",
-            "detail": "One complimentary night with breakfast, offered by Zaira De Biasio (DOS) September 22 and accepted the same day: arriving about 4:30 from the Siena side, tour of the borgo, nut allergy noted. Waiting on reservations to confirm. Chianti Classico estate, Relais & Chateaux. Leaving for the coast on the 29th."
+            "status": "confirmed",
+            "detail": "Hosted night with breakfast, accepted. Zaira De Biasio (DOS) offered the 28th on September 22 and you confirmed the same day: arriving about 4:30 from the Siena side, tour of the borgo, nut allergy noted. Reservations has not yet sent the written confirmation. Chianti Classico estate, Relais & Chateaux. The coast on the 29th."
           },
           "items": [
             {
@@ -405,37 +405,32 @@
             {
               "name": "Castelfalfi",
               "status": "confirmed",
-              "detail": "Staying two nights, hosted plus paid. Tour whenever suits."
+              "detail": "One hosted night, the 27th. Sara walks you round on arrival."
             },
             {
               "name": "Castello di Casole",
-              "status": "todo",
-              "detail": "Visit asked for 3:00 on the 27th. Draft ready."
+              "status": "pending",
+              "detail": "3:30 on the 27th agreed by Andrea, the on-site team to give the final word."
             },
             {
               "name": "Borgo Santo Pietro",
-              "status": "todo",
-              "detail": "Visit asked for 11:30 on the 28th. Draft ready."
+              "status": "pending",
+              "detail": "Visit and lunch asked for noon on the 28th. Arianna has not replied."
             },
             {
               "name": "Borgo San Felice",
-              "status": "pending",
-              "detail": "Hosting ask out since the 16th. Becomes the 28th afternoon visit if no."
+              "status": "confirmed",
+              "detail": "Hosted night on the 28th, accepted. Reservations still to send the written confirmation."
             },
             {
               "name": "Il Borro",
-              "status": "suggested",
-              "detail": "Lunch offered for the 28th. Held as the alternative to San Felice."
-            },
-            {
-              "name": "The Place Firenze",
               "status": "ruled_out",
-              "detail": "Dropped, the 28th offer does not fit and the Florence days are full."
+              "detail": "Lunch offered for the 28th, no longer fits. Decline warmly, draft on hold."
             },
             {
               "name": "Castel Monastero",
               "status": "suggested",
-              "detail": "Next door to San Felice. Only if you are there anyway."
+              "detail": "Next door to San Felice. Only if you feel like it."
             }
           ]
         },
@@ -445,17 +440,22 @@
             {
               "name": "Castello del Nero",
               "status": "ruled_out",
-              "detail": "No hosting, lunch on the 25th instead."
+              "detail": "No hosting, lunch on the 26th instead."
             },
             {
               "name": "Il Borro as a stay",
               "status": "ruled_out",
-              "detail": "Almost fully booked. Visit and lunch offered instead."
+              "detail": "Almost fully booked."
             },
             {
               "name": "Borgo Pignano",
               "status": "ruled_out",
               "detail": "Exclusive use from the 27th."
+            },
+            {
+              "name": "The Place Firenze",
+              "status": "ruled_out",
+              "detail": "The 28th offer does not fit."
             }
           ]
         }
@@ -465,9 +465,9 @@
       "id": "portofino",
       "name": "Liguria",
       "dates": "September 29 to October 1",
-      "strip_label": "Portofino coast, Splendido to see",
-      "summary": "Splendido is the fixed point: the collection needs it, so the 30th morning is Splendido and Splendido Mare whatever else happens. Sleep near Portofino on the 29th if Miramare or Excelsior host, or at Portovenere if Rachele does. The 30th is either Casa Maria Luigia in Modena or a second coast night, whichever shakes out. Cernobbio on the 1st is 2 hours 15 from Portofino or 2 hours 30 from Modena.",
-      "drive": "San Felice to Santa Margherita about 3 hours 15, to Portovenere 2 hours 30. Portovenere to Portofino 1 hour 45. Portofino to Modena 3 hours, to Cernobbio 2 hours 15.",
+      "strip_label": "Splendido on the 29th, then the coast or Modena",
+      "summary": "Splendido is the fixed point: the 30th morning is Splendido and Splendido Mare whatever else happens. The 29th is a Splendido or Splendido Mare night if Andrea gives a rate, otherwise Portovenere, Miramare or Excelsior. The 30th is Casa Maria Luigia in Modena if they host, otherwise a second coast night at Miramare or Excelsior. Cernobbio on the 1st is about 2 hours 30 either way.",
+      "drive": "San Felice to Portofino about 3 hours 15, to Portovenere 2 hours 30. Portovenere to Portofino 1 hour 45. Portofino to Modena 3 hours, to Cernobbio 2 hours 30. Modena to Cernobbio 2 hours 45.",
       "days": [
         {
           "date": "2026-09-29",
@@ -533,11 +533,6 @@
                 "name": "Miramare or Excelsior Palace",
                 "status": "todo",
                 "detail": "Ten to fifteen minutes from Portofino, asks pending your Fora contacts. The easy second coast night."
-              },
-              {
-                "name": "Second Splendido night",
-                "status": "suggested",
-                "detail": "If Andrea's rate stretches to two nights, stay put."
               }
             ]
           },
@@ -565,22 +560,22 @@
       ],
       "groups": [
         {
-          "title": "If Splendido says no",
+          "title": "If the coast falls through",
           "items": [
             {
-              "name": "Milan, 2 nights",
+              "name": "Il Borro or La Monastica",
               "status": "fallback",
-              "detail": "The Carlton (Rocco Forte) asked September 16, no reply. Portrait Milano declined hosting on the 16th, offered 2,080 euros plus VAT non-commissionable or a site inspection. Mandarin Oriental Milan is blacked out but Valeria Arba, DOS, has offered lunch and a tour. Neither visit is confirmed."
-            },
+              "detail": "The Tuscan fallbacks for the 29th only. Il Borro draft on hold, La Monastica not contacted."
+            }
+          ]
+        },
+        {
+          "title": "Off this trip",
+          "items": [
             {
-              "name": "Extend Lake Como to 5 nights",
-              "status": "fallback",
-              "detail": "September 29 to October 4."
-            },
-            {
-              "name": "Stay in Tuscany, La Monastica",
-              "status": "fallback",
-              "detail": "Buggiano Castello, on the A11. Not contacted. Ask only if Belmond says no."
+              "name": "Milan",
+              "status": "ruled_out",
+              "detail": "Dropped. Portrait Milano's visit is being withdrawn, Mandarin Oriental and The Carlton never confirmed anything."
             }
           ]
         }
@@ -590,8 +585,8 @@
       "id": "lake-como",
       "name": "Lake Como",
       "dates": "October 1 to 4",
-      "strip_label": "Serbelloni two nights, EDITION",
-      "summary": "Three nights on the lake, all set. Villa Serbelloni comped both the 1st and the 2nd, then the EDITION on the 3rd. Villa d'Este and Il Sereno are visits on the way in on the 1st, Passalacqua and Tremezzo by boat on the morning of the 2nd, Serbelloni's tour at 3:00. The 3rd and 4th are clear.",
+      "strip_label": "Sereno or Serbelloni, Serbelloni, EDITION",
+      "summary": "Three nights on the lake. The 1st is your call today: Il Sereno's hosted night, or Serbelloni's first of two. The 2nd is Serbelloni, the 3rd the EDITION. Villa d'Este at 2:00 on the way in, Passalacqua and Tremezzo by boat on the morning of the 2nd, Serbelloni's tour at 3:00. The 3rd and 4th are clear.",
       "days": [
         {
           "date": "2026-10-01",
@@ -851,9 +846,9 @@
       "id": "val-dorcia",
       "name": "Val d'Orcia",
       "dates": "October 8",
-      "strip_label": "Poggio one night, Lupaia at dusk",
-      "summary": "One night, on purpose. Poggio alla Sala is the bed, Lupaia is the evening of the 8th, Rosewood is lunch and the tour on the 9th, then straight to the coast. Monteverdi and the second valley night are gone.",
-      "drive": "Alpe di Siusi to Poggio alla Sala about 4 hours 45 leaving at 11:00, straight down the A1. Poggio to Lupaia 15 minutes. Poggio to Rosewood 45 minutes. Rosewood to Porto Ercole about 1 hour 45.",
+      "strip_label": "Base open, Lupaia at dusk",
+      "summary": "One night, on purpose. The bed is still to choose, Poggio alla Sala is off. Lupaia is the evening of the 8th, Rosewood the morning of the 9th, then Banfi and Monteverdi.",
+      "drive": "Alpe di Siusi to Montepulciano about 4 hours 45 leaving at 11:00, straight down the A1. Montepulciano to Lupaia 15 minutes, to Rosewood 45 minutes.",
       "days": [
         {
           "date": "2026-10-08",
