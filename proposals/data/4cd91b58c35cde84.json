@@ -549,6 +549,11 @@
                 "detail": "Nicolò Grillo, Hotel Manager, is at Eccellenze. Versilia coast, about 2 hours 15 from San Felice, 1 hour 40 to Splendido. Ask him for two nights and say you may only need one: the 29th is the one you want, the 30th flexes with Mandarin Oriental. Plaza e de Russie in Viareggio (Salvatore Madonna, also in the room) is ten minutes away."
               },
               {
+                "name": "Augustus Hotel & Resort, Forte dei Marmi",
+                "status": "todo",
+                "detail": "The Agnelli villa and its park, private beach club through the tunnel, Bambaissa on the sand. The Forte hotel for the feature. Same drives as Principe. End of their season, they close in early October, so a hosted night on the 29th is a soft ask. No contact yet, email the general inbox. Take whichever of Augustus and Principe hosts, Augustus if both."
+              },
+              {
                 "name": "Grand Hotel Miramare, Santa Margherita Ligure",
                 "status": "todo",
                 "detail": "Ten minutes from Portofino, the classic. Ask pending your Fora contact."
@@ -567,11 +572,6 @@
                 "name": "Il Borro, La Monastica",
                 "status": "fallback",
                 "detail": "The Tuscan fallbacks if the coast falls through entirely. Il Borro draft on hold."
-              },
-              {
-                "name": "Cenobio dei Dogi, Camogli",
-                "status": "fallback",
-                "detail": "Four-star villa on the water in Camogli, the fishing-village side of the promontory, saltwater pool, a few hundred euros. About 30 to 35 minutes round the headland to Portofino, so not a walk-out base for the visits. A hosted night is a realistic DM ask. A value entry for the Riviera if you want one, not a replacement for Splendido."
               }
             ]
           },
@@ -1279,6 +1279,7 @@
         "Gala group: send Gaia the visit times, Passalacqua 11:00 on the 2nd by boat, Tremezzo 3:00 on the 3rd on foot, courts on both tours, tennis at 4:00 at Tremezzo (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
         "Mandarin Oriental Lake Como: DM the Global DOS, a visit at 11:45 on the 4th on the way out, hosted 30th only as a long shot",
+        "Augustus Forte dei Marmi: hosted night on the 29th, rate as fallback, ask by email, check their closing date",
         "Belmond: when Andrea answers, add the Splendido court and pro at 2:00 on the 30th",
         "Il San Pietro: confirm 11:00 on the 14th with Agostino and ask for the court",
         "Monteverdi: fill the pre-arrival questionnaire from the confirmation email",
