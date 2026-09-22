@@ -1389,13 +1389,18 @@
     },
     {
       "name": "Le Sirenuse",
-      "amount": 600,
-      "note": "one night, the 13th, card authorised"
+      "amount": 650,
+      "note": "one night, the 13th, 650 charged on Amex September 22"
     },
     {
       "name": "The 10th",
       "amount": 0,
       "note": "Pellicano at 830 if chosen, otherwise a Rome night or La Roqqa hosted"
+    },
+    {
+      "name": "The 29th",
+      "amount": 0,
+      "note": "Splendido or Splendido Mare if Andrea's rate lands, take it up to about 1,000. Otherwise Forte dei Marmi, Portovenere or the coast, hosted or paid"
     }
   ]
 }
