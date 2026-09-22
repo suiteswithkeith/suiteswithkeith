@@ -851,10 +851,9 @@
           "date": "2026-10-08",
           "label": "Drive down, Lupaia at golden hour",
           "stay": {
-            "name": "Precise Tale Poggio alla Sala, Montepulciano",
-            "status": "pending",
-            "detail": "The one Val d'Orcia night. Asked Cinzia Malgrande (Sales Manager) September 20 to host or offer a media rate, with a Fora booking as the fallback. If she cannot host, book through Fora, about $740 with 10 to 17 percent commission, by Wednesday. 15 minutes from Lupaia, 45 from Rosewood. Property line +39 0578 820050.",
-            "todo": "Book through Fora by Wednesday September 23 if Cinzia has not replied."
+            "name": "Open, base to be chosen",
+            "status": "open",
+            "detail": "Poggio alla Sala is off, you want somewhere else. Needs to be within reach of Lupaia for the evening of the 8th and Rosewood for lunch on the 9th. Cinzia never answered. Yours to pick, the page updates when you do."
           },
           "items": [
             {
@@ -865,7 +864,7 @@
             },
             {
               "time": "4:00 PM",
-              "title": "Check in at Poggio alla Sala, drop the bags",
+              "title": "Check in at the Val d'Orcia base, drop the bags",
               "status": "info"
             },
             {
@@ -936,7 +935,7 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Gym, breakfast and the pool at Poggio, out by 12:00",
+              "title": "Gym, breakfast, out by 12:00",
               "status": "info"
             },
             {
@@ -1198,9 +1197,8 @@
         "Villa d'Este: nudge Natalia if no offer by Monday, pass if it is paid. Laura Buzzi in the same office just handled La Massa, so the door is open",
         "Portrait Milano and Mandarin Oriental Milan: reply only if Belmond says no to Splendido, then confirm both visits for the 30th",
         "Six Senses Rome: touch base with Stefano about October 5 for the visit and spa day on the 12th",
-        "Poggio alla Sala: book through Fora by Wednesday if Cinzia is silent",
-        "Poggio alla Sala: one night only now, the 8th. Book through Fora by Wednesday if Cinzia is silent",
-        "Monteverdi: let it go, the 9th is Pellicano"
+        "Monteverdi: let it go, the 9th is Pellicano",
+        "Val d'Orcia base for the 8th: Poggio is off, choose another hotel near Montepulciano or Montalcino"
       ]
     }
   ],
@@ -1222,7 +1220,6 @@
         "Tremezzo and Passalacqua visits / Gala group: asked the 15th, times proposed the 22nd",
         "Miramonti: asked the 18th",
         "Gardena Grödnerhof / Alex Demetz: asked the 15th",
-        "Poggio alla Sala / Cinzia: asked the 20th",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
         "Palazzo Portinari Salviati: visit ask sent the 20th",
         "Borgo Santandrea: visit ask pending",
