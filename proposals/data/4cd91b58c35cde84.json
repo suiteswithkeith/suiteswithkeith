@@ -549,6 +549,11 @@
                 "detail": "Nicolò Grillo, Hotel Manager, is at Eccellenze. Versilia coast, about 2 hours 15 from San Felice, 1 hour 40 to Splendido. Ask him for two nights and say you may only need one: the 29th is the one you want, the 30th flexes with Mandarin Oriental. Plaza e de Russie in Viareggio (Salvatore Madonna, also in the room) is ten minutes away."
               },
               {
+                "name": "Pensione America, Forte dei Marmi",
+                "status": "todo",
+                "detail": "The 1950s pensione a block from the beach, reopened in 2024 by the Bertelli family: thirty rooms, green shutters, loggia, garden, pool. The most photographed new hotel on that coast, so a hosting ask lands well. About 700 to 800 a night otherwise. Same drives as Principe and Augustus. Ask all three, take the first yes."
+              },
+              {
                 "name": "Augustus Hotel & Resort, Forte dei Marmi",
                 "status": "todo",
                 "detail": "The Agnelli villa and its park, private beach club through the tunnel, Bambaissa on the sand. The Forte hotel for the feature. Same drives as Principe. End of their season, they close in early October, so a hosted night on the 29th is a soft ask. No contact yet, email the general inbox. Take whichever of Augustus and Principe hosts, Augustus if both."
@@ -597,9 +602,9 @@
             "detail": "Nothing confirmed for this night yet. Milan is out, Mandarin Oriental is a long shot.",
             "options": [
               {
-                "name": "Principe Forte dei Marmi, second night",
+                "name": "Second Forte dei Marmi night, whichever hosts",
                 "status": "suggested",
-                "detail": "If Nicolò hosts two nights and MO does not answer. The 30th becomes a round trip: out at 10:45, Splendido moved to 12:30 and Mare to 2:00, back by 5:30, tennis drops. The 1st is then 3 hours 15 to Cernobbio, Villa d'Este at 3:00, Sereno by 4:45. Ask Nicolò for two, tell him you may only need one."
+                "detail": "If Pensione America, Augustus or Principe hosts two nights and Modena does not answer. The 30th becomes a round trip: out at 10:45, Splendido moved to 12:30 and Mare to 2:00, back by 5:30, tennis drops. The 1st is then 3 hours 15 to Cernobbio, Villa d'Este at 3:00, Sereno by 4:45."
               },
               {
                 "name": "Casa Maria Luigia, Modena",
@@ -1298,6 +1303,7 @@
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
         "Mandarin Oriental Lake Como: DM the Global DOS, a visit at 11:45 on the 4th on the way out, hosted 30th only as a long shot",
         "Augustus Forte dei Marmi: hosted night on the 29th, rate as fallback, ask by email, check their closing date",
+        "Pensione America: hosted night on the 29th, second night as a maybe, ask by email",
         "San Luis: send the hosting ask for the 6th to the general inbox, add your signature (draft ready)",
         "Belmond: when Andrea answers, add the Splendido court and pro at 2:00 on the 30th",
         "Il San Pietro: confirm 11:00 on the 14th with Agostino and ask for the court",
