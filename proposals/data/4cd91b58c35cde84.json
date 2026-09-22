@@ -528,7 +528,7 @@
       "name": "Liguria",
       "dates": "September 29 to October 1",
       "strip_label": "Splendido to see, the beds after Eccellenze",
-      "summary": "Splendido and Splendido Mare on the morning of the 30th are fixed. Where you sleep on the 29th and 30th is a decision for after Eccellenze, once you have talked to the room. Asks out: Belmond for a rate on the 29th, Portovenere hosted, Casa Maria Luigia for the 30th. New option from the Eccellenze list: Principe Forte dei Marmi on the 29th, Nicolò Grillo is there in person.",
+      "summary": "Splendido and Splendido Mare on the morning of the 30th are fixed. The 29th and 30th beds are the decision for after Eccellenze. Asks out: Belmond for a rate on the 29th, Portovenere hosted, Casa Maria Luigia for the 30th, and Mandarin Oriental Lake Como for the 30th via Instagram, which would put you on the lake a day early. New option from the Eccellenze list: Principe Forte dei Marmi on the 29th, Nicolò Grillo is there in person.",
       "drive": "San Felice to Portofino about 3 hours 15, to Portovenere 2 hours 30. Portovenere to Portofino 1 hour 45. Portofino to Modena 3 hours, to Cernobbio 2 hours 30. Modena to Cernobbio 2 hours 45.",
       "days": [
         {
@@ -585,12 +585,17 @@
         },
         {
           "date": "2026-09-30",
-          "label": "Splendido and Splendido Mare, then sleep on the coast or Modena",
+          "label": "Splendido and Splendido Mare, then the lake a day early or Modena",
           "stay": {
-            "name": "Open, Modena or a second coast night",
+            "name": "Open: Mandarin Oriental if they host, else Modena or the coast",
             "status": "open",
-            "detail": "Milan is out. Modena and the coast are both about 2 hours 30 to Cernobbio, so the choice is the hotel, not the drive.",
+            "detail": "Nothing confirmed for this night yet. Milan is out.",
             "options": [
+              {
+                "name": "Mandarin Oriental Lago di Como, Blevio, hosted",
+                "status": "todo",
+                "detail": "The ask to make via the Global DOS on Instagram. Portofino to Blevio about 2 hours 15, arriving around 4:00. Completes the lake set and makes the 1st a short day: Villa d'Este is 15 minutes away, Sereno 5. Splendido tennis drops if this lands."
+              },
               {
                 "name": "Casa Maria Luigia, Modena",
                 "status": "pending",
@@ -619,13 +624,13 @@
             {
               "time": "2:00 PM",
               "title": "Splendido tennis, court and pro, if Belmond agrees",
-              "detail": "The afternoon is free. Ask Andrea when he answers on the rate: an hour on the famous court with a pro after the visits, shot for the collection. Bring kit.",
+              "detail": "The afternoon is free unless Mandarin Oriental hosts the 30th, in which case you leave Portofino by 1:30. Ask Andrea when he answers on the rate: an hour on the famous court with a pro, shot for the collection. Bring kit.",
               "status": "suggested"
             },
             {
               "time": "Afternoon",
-              "title": "Lunch in the piazzetta, then nothing",
-              "detail": "Portrait Milano's 3:00 visit is being withdrawn, draft ready. Mandarin Oriental Milan was never confirmed.",
+              "title": "To the lake, Modena, or stay on the coast",
+              "detail": "Blevio 2 hours 15, Modena 3 hours, Miramare 10 minutes.",
               "status": "info"
             }
           ]
@@ -659,7 +664,7 @@
       "name": "Lake Como",
       "dates": "October 1 to 4",
       "strip_label": "Il Sereno, Serbelloni, EDITION",
-      "summary": "Three nights on the lake, three hotels, all set. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Villa d'Este on the way in on the 1st, Passalacqua by boat from Sereno's dock on the morning of the 2nd, Serbelloni's tour at 3:00, Tremezzo and tennis from the EDITION on the 3rd. Mandarin Oriental in Blevio on the morning of the 4th on the way out.",
+      "summary": "Three nights on the lake, three hotels, all set, and a possible fourth. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Mandarin Oriental in Blevio is the ask for the 30th, which would put you on the lake a day early. Villa d'Este at 2:00 on the 1st, Passalacqua by boat on the morning of the 2nd, Serbelloni's tour at 3:00, Tremezzo and tennis from the EDITION on the 3rd.",
       "days": [
         {
           "date": "2026-10-01",
@@ -776,12 +781,12 @@
       ],
       "groups": [
         {
-          "title": "On the way out",
+          "title": "The fourth lake hotel",
           "items": [
             {
               "name": "Mandarin Oriental Lago di Como",
               "status": "todo",
-              "detail": "Anna Fejzo, September 15: near capacity, no special rate. Visit to ask for via the Global DOS on Instagram, the morning of the 4th."
+              "detail": "Anna Fejzo declined a rate September 15. The Global DOS is in your Instagram DMs: ask for a hosted night on the 30th, visit on the 4th as the fallback."
             }
           ]
         }
@@ -797,7 +802,7 @@
       "days": [
         {
           "date": "2026-10-04",
-          "label": "Mandarin Oriental in Blevio, then up to the Dolomites",
+          "label": "Up to the Dolomites, Mandarin Oriental on the way if not a stay",
           "stay": {
             "name": "Forestis, above Bressanone",
             "status": "confirmed",
@@ -819,10 +824,9 @@
             },
             {
               "time": "11:45 AM",
-              "title": "Mandarin Oriental Lago di Como, Blevio, site visit",
-              "detail": "Five minutes south of Il Sereno. Anna Fejzo declined a rate on September 15, but the Global DOS has been messaging you on Instagram, so ask there: a visit on the morning of the 4th on your way out, a few rooms and the pool. No extra night needed.",
-              "status": "todo",
-              "todo": "DM the MO Global DOS for a visit at 11:45 on the 4th."
+              "title": "Mandarin Oriental Lago di Como, Blevio, site visit, only if they do not host the 30th",
+              "detail": "Five minutes south of Il Sereno. The fallback ask in the same Instagram message. If they host the 30th, leave the EDITION at 11 and drive straight to the Dolomites.",
+              "status": "todo"
             },
             {
               "time": "12:45 PM",
@@ -1267,7 +1271,7 @@
         "Villa d'Este: send Laura the 2:00 counter for the 1st, alone, courts on the tour (draft ready)",
         "Gala group: send Gaia the visit times, Passalacqua 11:00 on the 2nd by boat, Tremezzo 3:00 on the 3rd on foot, courts on both tours, tennis at 4:00 at Tremezzo (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
-        "Mandarin Oriental Lake Como: DM the Global DOS for a visit at 11:45 on the 4th, on the way to the Dolomites",
+        "Mandarin Oriental Lake Como: DM the Global DOS for a hosted night on the 30th, arriving from Portofino about 4:00, visit on the morning of the 4th as the fallback",
         "Belmond: when Andrea answers, add the Splendido court and pro at 2:00 on the 30th",
         "Il San Pietro: confirm 11:00 on the 14th with Agostino and ask for the court",
         "Monteverdi: fill the pre-arrival questionnaire from the confirmation email",
@@ -1301,7 +1305,7 @@
     {
       "title": "Waiting on",
       "items": [
-        "The four beds still open: La Roqqa for the 10th (Roberta Davanzo, asked the 21st), Belmond for a Splendido or Splendido Mare rate on the 29th (Andrea, asked the 22nd), Casa Maria Luigia for the 30th (asked the 22nd), Aman Rosa Alpina rate for the 7th (Elisa De Nicolo, asked the 21st)",
+        "The beds still open: Mandarin Oriental for the 30th (Global DOS on Instagram, to ask), La Roqqa for the 10th (Roberta Davanzo, asked the 21st), Belmond for a Splendido or Splendido Mare rate on the 29th (Andrea, asked the 22nd), Casa Maria Luigia for the 30th (asked the 22nd), Aman Rosa Alpina rate for the 7th (Elisa De Nicolo, asked the 21st)",
         "Como Transfers: boat for the morning of the 2nd, Torno to Passalacqua and back, requested the 22nd",
         "Visits and timing, none of them beds:",
         "Belmond: Sofia on San Michele at 2:30 on the 25th, Casole team to confirm 3:30 on the 27th",
