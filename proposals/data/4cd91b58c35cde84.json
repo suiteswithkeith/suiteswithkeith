@@ -324,6 +324,68 @@
             }
           ]
         }
+      ],
+      "groups": [
+        {
+          "title": "Eccellenze: people in the room who touch this trip",
+          "items": [
+            {
+              "name": "Nicolò Grillo, Principe Forte dei Marmi",
+              "status": "suggested",
+              "detail": "A coast night on the 29th."
+            },
+            {
+              "name": "Silvio Vettorello, GM Grand Hotel Tremezzo",
+              "status": "suggested",
+              "detail": "The visit on the 3rd."
+            },
+            {
+              "name": "Maria Gasparella, DOSM Villa d'Este Hotels",
+              "status": "suggested",
+              "detail": "Laura's boss. The 2:00 on the 1st."
+            },
+            {
+              "name": "Egle Antanaityte, Orient Express",
+              "status": "suggested",
+              "detail": "Your La Minerva host. Thank her, and the 10th if Rome."
+            },
+            {
+              "name": "Andrea Zana, GM Il San Pietro di Positano",
+              "status": "suggested",
+              "detail": "The 14th at 11:00 and the tennis court."
+            },
+            {
+              "name": "Achille Di Carlo, CEO Borgo San Felice",
+              "status": "suggested",
+              "detail": "The 28th confirmation."
+            },
+            {
+              "name": "Roberto Protezione, GM Castelfalfi",
+              "status": "suggested",
+              "detail": "Thank him for the 27th."
+            },
+            {
+              "name": "Piero Magrino, GM Borgo Pignano",
+              "status": "suggested",
+              "detail": "Both Pignano stays."
+            },
+            {
+              "name": "Elisa Peroli, GM Villa La Massa",
+              "status": "suggested",
+              "detail": "The paused visit."
+            },
+            {
+              "name": "Simone Giorgi, Shedir Collection",
+              "status": "suggested",
+              "detail": "Hotel Vilòn, on the Rome list for the 10th."
+            },
+            {
+              "name": "Salvatore Madonna, Plaza e de Russie Viareggio",
+              "status": "suggested",
+              "detail": "Versilia alternative for the 29th."
+            }
+          ]
+        }
       ]
     },
     {
@@ -465,21 +527,26 @@
       "id": "portofino",
       "name": "Liguria",
       "dates": "September 29 to October 1",
-      "strip_label": "Splendido on the 29th, then the coast or Modena",
-      "summary": "Splendido is the fixed point: the 30th morning is Splendido and Splendido Mare whatever else happens. The 29th is a Splendido or Splendido Mare night if Andrea gives a rate, otherwise Portovenere, Miramare or Excelsior. The 30th is Casa Maria Luigia in Modena if they host, otherwise a second coast night at Miramare or Excelsior. Cernobbio on the 1st is about 2 hours 30 either way.",
+      "strip_label": "Splendido to see, the beds after Eccellenze",
+      "summary": "Splendido and Splendido Mare on the morning of the 30th are fixed. Where you sleep on the 29th and 30th is a decision for after Eccellenze, once you have talked to the room. Asks out: Belmond for a rate on the 29th, Portovenere hosted, Casa Maria Luigia for the 30th. New option from the Eccellenze list: Principe Forte dei Marmi on the 29th, Nicolò Grillo is there in person.",
       "drive": "San Felice to Portofino about 3 hours 15, to Portovenere 2 hours 30. Portovenere to Portofino 1 hour 45. Portofino to Modena 3 hours, to Cernobbio 2 hours 30. Modena to Cernobbio 2 hours 45.",
       "days": [
         {
           "date": "2026-09-29",
           "label": "Chianti to the Ligurian coast",
           "stay": {
-            "name": "Portofino coast, asks going out",
+            "name": "Coast, deciding after Eccellenze",
             "status": "open",
             "options": [
               {
                 "name": "Splendido or Splendido Mare, trade rate",
                 "status": "pending",
                 "detail": "Asked Andrea Gervasoni September 22, Thomas Alderink copied for a Fora advisor rate, for one night at either property, whichever the hotels would rather fill. Splendido shows more space. Sleeping here on the 29th puts the 30th's visits downstairs, no morning drive."
+              },
+              {
+                "name": "Principe Forte dei Marmi",
+                "status": "suggested",
+                "detail": "Nicolò Grillo, Hotel Manager, is at Eccellenze. Versilia coast, about 2 hours 15 from San Felice, 1 hour 30 to Portofino the next morning. Plaza e de Russie in Viareggio (Salvatore Madonna, also in the room) is ten minutes away. Ask in person."
               },
               {
                 "name": "Grand Hotel Miramare, Santa Margherita Ligure",
