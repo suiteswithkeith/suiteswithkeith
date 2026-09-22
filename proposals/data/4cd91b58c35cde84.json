@@ -463,38 +463,43 @@
     },
     {
       "id": "portofino",
-      "name": "Liguria & Emilia",
+      "name": "Liguria",
       "dates": "September 29 to October 1",
-      "strip_label": "Portovenere asked, then Modena",
-      "summary": "Milan is out. Two new regions on the way north instead: Grand Hotel Portovenere on the 29th for the Cinque Terre page, Casa Maria Luigia in Modena on the 30th, then Villa d'Este on the way to Bellagio on the 1st. Il Borro and La Monastica are the fallbacks for the 29th if Portovenere says no.",
-      "drive": "San Felice to Portovenere about 2 hours 30. Portovenere to Modena about 2 hours 15 over the Cisa pass. Modena to Cernobbio about 2 hours 30.",
+      "strip_label": "Portofino coast, Splendido to see",
+      "summary": "Splendido is the fixed point: the collection needs it, so the 30th morning is Splendido and Splendido Mare whatever else happens. Sleep near Portofino on the 29th if Miramare or Excelsior host, or at Portovenere if Rachele does. The 30th is either Casa Maria Luigia in Modena or a second coast night, whichever shakes out. Cernobbio on the 1st is 2 hours 15 from Portofino or 2 hours 30 from Modena.",
+      "drive": "San Felice to Santa Margherita about 3 hours 15, to Portovenere 2 hours 30. Portovenere to Portofino 1 hour 45. Portofino to Modena 3 hours, to Cernobbio 2 hours 15.",
       "days": [
         {
           "date": "2026-09-29",
-          "label": "Chianti to the Gulf of Poets",
+          "label": "Chianti to the Ligurian coast",
           "stay": {
-            "name": "Open, Portovenere asked",
+            "name": "Portofino coast, asks going out",
             "status": "open",
             "options": [
               {
+                "name": "Grand Hotel Miramare, Santa Margherita Ligure",
+                "status": "todo",
+                "detail": "Ten minutes from Portofino, the classic. Ask pending your Fora contact."
+              },
+              {
+                "name": "Excelsior Palace, Rapallo",
+                "status": "todo",
+                "detail": "Fifteen minutes from Portofino, Portofino Coast group. Ask pending your Fora contact."
+              },
+              {
                 "name": "Grand Hotel Portovenere",
                 "status": "pending",
-                "detail": "Asked Rachele Belladelli (MD) September 22, Antonio Polesel (GM) and reservations copied, for a hosted night, visit and lunch as the fallback. Restores Liguria after Belmond said no to Portofino."
+                "detail": "Asked Rachele Belladelli September 22. If she hosts, the 30th starts with a 1 hour 45 drive to Portofino for the visits."
               },
               {
-                "name": "Il Borro, San Giustino Valdarno",
+                "name": "Splendido Mare, paid",
                 "status": "fallback",
-                "detail": "Draft ready to Kaoutar Lazrak for a hosted night on the 29th. Only if Portovenere is a no, it is on the other road. 45 minutes from San Felice, 2 hours to Modena."
+                "detail": "One night in the village at Belmond's rate if nobody hosts. Sleeping at the property you most need to see."
               },
               {
-                "name": "La Monastica, Buggiano Castello",
+                "name": "Il Borro, La Monastica",
                 "status": "fallback",
-                "detail": "You placed clients here. 1 hour 45 from San Felice, 2 hours to Modena. Ask only if Portovenere is a no."
-              },
-              {
-                "name": "Il Bottaccio, Montignoso",
-                "status": "suggested",
-                "detail": "Relais & Chateaux in Versilia, Irina Manolea (DOS). 45 minutes from Portovenere, competes for the same night. Back pocket."
+                "detail": "The Tuscan fallbacks if the coast falls through entirely. Il Borro draft on hold."
               }
             ]
           },
@@ -505,37 +510,49 @@
               "status": "info"
             },
             {
-              "time": "2:30 PM",
-              "title": "Arrive Portovenere, rooms, the terrace, the village at golden hour",
-              "status": "pending"
+              "time": "Afternoon",
+              "title": "Arrive on the coast, settle, the harbour at golden hour",
+              "status": "info"
             }
           ]
         },
         {
           "date": "2026-09-30",
-          "label": "Modena, Casa Maria Luigia",
+          "label": "Splendido, then Modena or the coast",
           "stay": {
-            "name": "Casa Maria Luigia, Modena",
-            "status": "pending",
-            "detail": "Bottura's twelve-room guesthouse. Their calendar shows the 30th open and the 29th closed. Asked September 22 through the general inbox for a hosted night with a paid night as the fallback, and you said you will take the room either way. Al Gatto Verde for dinner, the acetaia in the morning.",
-            "todo": "Send the Casa Maria Luigia ask, add your signature (draft ready)."
+            "name": "Open, Modena or a second coast night",
+            "status": "open",
+            "options": [
+              {
+                "name": "Casa Maria Luigia, Modena",
+                "status": "pending",
+                "detail": "The 30th is open on their calendar. Ask drafted to the general inbox for a hosted night with a paid night as the fallback. Portofino to Modena about 3 hours. Only if it makes sense on the day."
+              },
+              {
+                "name": "Second night on the coast",
+                "status": "suggested",
+                "detail": "Stay where you slept on the 29th, or the other of Miramare and Excelsior. Cernobbio is 2 hours 15 on the 1st."
+              }
+            ]
           },
           "items": [
             {
-              "time": "Optional",
-              "title": "Splendido and Splendido Mare, Portofino, on the way north",
-              "detail": "Portovenere to Portofino about 1 hour 45, then Portofino to Modena about 3 hours. Belmond will still do both visits if you go. A long day, your call, and it needs a separate email to Andrea either way.",
-              "status": "suggested"
+              "time": "11:00 AM",
+              "title": "Splendido, site visit",
+              "detail": "Belmond will do the visit if you go. Tell Andrea in a separate email that you are coming on the 30th and ask for late morning.",
+              "status": "todo",
+              "todo": "Email Andrea Gervasoni: Portofino on the 30th, Splendido and Splendido Mare, late morning."
+            },
+            {
+              "time": "12:30 PM",
+              "title": "Splendido Mare, site visit",
+              "detail": "In the village below, same Belmond team.",
+              "status": "todo"
             },
             {
               "time": "Afternoon",
-              "title": "Arrive Modena, shoot the house",
+              "title": "Modena, or stay on the coast",
               "status": "info"
-            },
-            {
-              "time": "Evening",
-              "title": "Dinner at Al Gatto Verde, if they can seat you",
-              "status": "suggested"
             }
           ]
         }
@@ -581,8 +598,8 @@
           "items": [
             {
               "time": "10:30 AM",
-              "title": "Acetaia visit, then leave Modena for Cernobbio",
-              "detail": "About 2 hours 30.",
+              "title": "Leave for Cernobbio",
+              "detail": "About 2 hours 30 from Modena, 2 hours 15 from Portofino.",
               "status": "info"
             },
             {
@@ -1143,15 +1160,15 @@
     {
       "title": "Before you fly, Monday",
       "items": [
+        "Belmond: separate email to Andrea, coming to Portofino on the 30th for Splendido and Splendido Mare, late morning",
+        "Miramare and Excelsior Palace: send me the Fora contacts, asks for the 29th",
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
         "La Minerva: third-night ask to Egle drafted, on hold while you decide the Rome night of the 10th",
         "Villa Treville: send Daniela the decline and the 12:30 visit on the 14th (draft ready)",
         "Portovenere: send Rachele the hosting ask, add your signature (draft ready)",
-        "Il Borro: hold the Kaoutar draft a day, send only if Portovenere is a no",
         "Rocco Forte: send Andrea Ercoli the de Russie visit reply; the Carlton paragraph can stay as a next-trip line or come out (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
         "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
-        "Belmond: tell Andrea in a separate email that Portofino is off this trip, Casole and San Michele stand",
         "Gala group: send Gaia the two visit times, Tremezzo 3:00 on the 3rd, Passalacqua 11:30 on the 4th (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Avis: pickup to 12:00 on the 25th, drop to 2:00 on the 10th"
@@ -1229,6 +1246,7 @@
     {
       "title": "Not contacted, worth considering",
       "items": [
+        "Grand Hotel Miramare, Excelsior Palace Rapallo, asks for the 29th pending contacts",
         "ADLER Lodge Alpe",
         "Badia Hill",
         "Palazzo Avino",
