@@ -679,20 +679,14 @@
             {
               "time": "2:00 PM",
               "title": "Villa d'Este, site visit",
-              "detail": "Laura Buzzi offered noon on September 22 and asked whether you are alone. Reply drafted asking for 2:00 instead, anything from 1:30, alone, plus a court and an hour with a Sporting Club pro at 3:15 after the tour.",
+              "detail": "Laura Buzzi offered noon on September 22 and asked whether you are alone. Reply drafted asking for 2:00 instead, anything from 1:30, alone, and to include the Sporting Club and the courts on the tour. No playing here, Sereno is the afternoon.",
               "status": "pending",
               "todo": "Send Laura the 2:00 counter (draft ready)."
             },
             {
-              "time": "3:15 PM",
-              "title": "Villa d'Este Sporting Club, tennis with a pro",
-              "detail": "Asked in the Laura draft. You arrive at Sereno sweaty, which is fine: pool, shower, then the room tour in the last light.",
-              "status": "pending"
-            },
-            {
-              "time": "5:00 PM",
-              "title": "Il Sereno: check in, a few rooms and the pool with the camera",
-              "detail": "Torno is 20 minutes up the east shore from Cernobbio. Gaetano knows you want to shoot beyond your own room.",
+              "time": "3:45 PM",
+              "title": "Il Sereno: check in, a few rooms and the pool with the camera, then nothing",
+              "detail": "Torno is 20 minutes up the east shore from Cernobbio. Gaetano knows you want to shoot beyond your own room. The rest of the day is the hotel: pool, spa, dinner.",
               "status": "confirmed"
             }
           ]
@@ -1257,13 +1251,12 @@
     {
       "title": "Today, from Florence",
       "items": [
-        "Villa d'Este: send Laura the 2:00 counter for the 1st, alone, plus the court and pro at 3:15 (draft ready)",
+        "Villa d'Este: send Laura the 2:00 counter for the 1st, alone, courts on the tour (draft ready)",
         "Gala group: send Gaia the visit times, Passalacqua 11:00 on the 2nd by boat, Tremezzo 3:00 on the 3rd on foot, courts on both tours, tennis at 4:00 at Tremezzo (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
         "Belmond: when Andrea answers, add the Splendido court and pro at 2:00 on the 30th",
         "Il San Pietro: confirm 11:00 on the 14th with Agostino and ask for the court",
         "Monteverdi: fill the pre-arrival questionnaire from the confirmation email",
-        "Il Sereno: tell Gaetano or Guest Relations closer to the day that arrival is nearer 5:00 than 3:00 if Este tennis happens",
         "Miramare and Excelsior Palace: send me the Fora contacts, asks for the 29th",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Avis: pickup to 12:00 on the 25th now; the drop waits on the 10th decision",
