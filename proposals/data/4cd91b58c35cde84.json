@@ -1000,7 +1000,7 @@
             {
               "time": "Day",
               "title": "Rome, open day",
-              "detail": "Bulgari Roma, Hotel Vilòn or J.K. Place visit if arranged. Otherwise the city.",
+              "detail": "Bulgari Roma, Hotel Vilòn or J.K. Place visit if arranged. De Russie falls here at 4:30 if the 12th does not suit Andrea.",
               "status": "open"
             }
           ]
@@ -1015,16 +1015,16 @@
           },
           "items": [
             {
-              "time": "Day",
-              "title": "Six Senses Rome, site visit and spa day",
-              "detail": "Stefano offered a site visit and spa day. On the 22nd he said to let him know at your earliest and they will manage. Touch base around October 5.",
+              "time": "11:00 AM",
+              "title": "Hotel de Russie, site visit proposed",
+              "detail": "Andrea Ercoli (Senior Sales Manager, Rocco Forte) offered a Rome visit. Reply drafted proposing the 12th at 11:00, de Russie first, de la Ville if easier, the 11th at 4:30 as the alternative.",
               "status": "pending"
             },
             {
-              "time": "Open",
-              "title": "One more Rome visit, here or on the morning of the 13th",
-              "detail": "Michelin Key picks first: Bulgari Roma (three Keys), Hotel Vilòn and J.K. Place Roma (two Keys). Then Hassler, Hotel de Russie, Hotel de la Ville. None contacted. Rome gets a fuller look on a later trip.",
-              "status": "open"
+              "time": "Afternoon",
+              "title": "Six Senses Rome, site visit and spa day",
+              "detail": "Stefano offered a site visit and spa day. On the 22nd he said to let him know at your earliest and they will manage. Touch base around October 5 and set it for the afternoon.",
+              "status": "pending"
             }
           ]
         }
@@ -1048,15 +1048,14 @@
           },
           "items": [
             {
-              "time": "11:00 AM",
-              "title": "Hotel de Russie, site visit proposed",
-              "detail": "Andrea Ercoli offered a Rome visit, reply drafted for the 13th at 11:00.",
-              "status": "pending"
+              "time": "Morning",
+              "title": "Slow morning in Rome, checkout, Termini",
+              "status": "info"
             },
             {
               "time": "12:30 PM",
               "title": "Frecciarossa Rome Termini to Napoli Centrale",
-              "detail": "About 1 hour 10. Book a seat once the de Russie time is fixed.",
+              "detail": "About 1 hour 10. Book a seat.",
               "status": "todo",
               "todo": "Book the Rome to Naples train for about 12:30 on the 13th."
             },
@@ -1179,7 +1178,7 @@
         "La Minerva: third-night ask to Egle drafted, on hold while you decide the Rome night of the 10th",
         "Villa Treville: send Daniela the decline and the 12:30 visit on the 14th (draft ready)",
         "Portovenere: send Rachele the hosting ask, add your signature (draft ready)",
-        "Rocco Forte: send Andrea Ercoli the de Russie visit reply; the Carlton paragraph can stay as a next-trip line or come out (draft ready)",
+        "Rocco Forte: send Andrea Ercoli the de Russie visit reply, the 12th at 11:00 (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
         "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
