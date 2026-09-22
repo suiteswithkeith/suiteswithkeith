@@ -465,33 +465,38 @@
     },
     {
       "id": "portofino",
-      "name": "Emilia",
+      "name": "Liguria & Emilia",
       "dates": "September 29 to October 1",
-      "strip_label": "Il Borro asked, then Modena",
-      "summary": "Milan is out, the rates that week are silly. The straight line from Chianti to Como runs through the Valdarno and Emilia instead: Il Borro asked for the 29th, Casa Maria Luigia in Modena on the 30th, which has the night open, then Villa d'Este on the way to Bellagio on the 1st. Reschio is sold out and Varignana did not appeal.",
-      "drive": "San Felice to Il Borro about 45 minutes. Il Borro to Modena about 2 hours. Modena to Cernobbio about 2 hours 30.",
+      "strip_label": "Portovenere asked, then Modena",
+      "summary": "Milan is out. Two new regions on the way north instead: Grand Hotel Portovenere on the 29th for the Cinque Terre page, Casa Maria Luigia in Modena on the 30th, then Villa d'Este on the way to Bellagio on the 1st. Il Borro and La Monastica are the fallbacks for the 29th if Portovenere says no.",
+      "drive": "San Felice to Portovenere about 2 hours 30. Portovenere to Modena about 2 hours 15 over the Cisa pass. Modena to Cernobbio about 2 hours 30.",
       "days": [
         {
           "date": "2026-09-29",
-          "label": "Chianti to the Valdarno",
+          "label": "Chianti to the Gulf of Poets",
           "stay": {
-            "name": "Open, Il Borro asked",
+            "name": "Open, Portovenere asked",
             "status": "open",
             "options": [
               {
-                "name": "Il Borro, San Giustino Valdarno",
+                "name": "Grand Hotel Portovenere",
                 "status": "pending",
-                "detail": "Federico Caligaris Papa is on paternity leave until the 27th. Asked Kaoutar Lazrak (Sales Manager) September 22 for a hosted night on the 29th, with Federico's tasting, cellar and lunch on the 29th as the fallback. Ferragamo estate, Relais & Chateaux, 45 minutes from San Felice and on the A1 north."
+                "detail": "Asked Rachele Belladelli (MD) September 22, Antonio Polesel (GM) and reservations copied, for a hosted night, visit and lunch as the fallback. Restores Liguria after Belmond said no to Portofino."
               },
               {
-                "name": "COMO Castello del Nero, Tavarnelle",
-                "status": "suggested",
-                "detail": "You are there for lunch on the 26th. If Il Borro is a no, ask Ilaria for a hosted night on the 29th. About 2 hours 30 to Modena."
-              },
-              {
-                "name": "Bologna, paid",
+                "name": "Il Borro, San Giustino Valdarno",
                 "status": "fallback",
-                "detail": "Grand Hotel Majestic or similar through Fora. A fraction of a Milan night, 45 minutes from Modena."
+                "detail": "Draft ready to Kaoutar Lazrak for a hosted night on the 29th. Only if Portovenere is a no, it is on the other road. 45 minutes from San Felice, 2 hours to Modena."
+              },
+              {
+                "name": "La Monastica, Buggiano Castello",
+                "status": "fallback",
+                "detail": "You placed clients here. 1 hour 45 from San Felice, 2 hours to Modena. Ask only if Portovenere is a no."
+              },
+              {
+                "name": "Il Bottaccio, Montignoso",
+                "status": "suggested",
+                "detail": "Relais & Chateaux in Versilia, Irina Manolea (DOS). 45 minutes from Portovenere, competes for the same night. Back pocket."
               }
             ]
           },
@@ -502,8 +507,8 @@
               "status": "info"
             },
             {
-              "time": "12:30 PM",
-              "title": "Il Borro: check in, or the cellar, a tasting and lunch if it is a visit",
+              "time": "2:30 PM",
+              "title": "Arrive Portovenere, rooms, the terrace, the village at golden hour",
               "status": "pending"
             }
           ]
@@ -1174,7 +1179,8 @@
       "title": "Before you fly, Monday",
       "items": [
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
-        "Il Borro: send Kaoutar the hosted night ask for the 29th, add your signature (draft ready)",
+        "Portovenere: send Rachele the hosting ask, add your signature (draft ready)",
+        "Il Borro: hold the Kaoutar draft a day, send only if Portovenere is a no",
         "Rocco Forte: send Andrea Ercoli the de Russie visit reply; the Carlton paragraph can stay as a next-trip line or come out (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
         "San Felice: send Zaira the acceptance for the 28th (draft ready)",
@@ -1218,7 +1224,7 @@
       "items": [
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
         "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
-        "Il Borro / Kaoutar Lazrak: hosted night on the 29th, asked the 22nd",
+        "Grand Hotel Portovenere / Rachele Belladelli: hosted night on the 29th, asked the 22nd",
         "Serbelloni / Cristina: paid second night on the 1st, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Monteverdi / Peggy: reviewing the 9th, will revert, replied the 21st",
@@ -1261,7 +1267,6 @@
     {
       "title": "Not contacted, worth considering",
       "items": [
-        "La Monastica",
         "ADLER Lodge Alpe",
         "Badia Hill",
         "Palazzo Avino",
@@ -1271,7 +1276,8 @@
         "Bulgari Roma",
         "Hotel Vilòn",
         "J.K. Place Roma",
-        "Castel Monastero"
+        "Castel Monastero",
+        "La Monastica, Il Bottaccio, fallbacks for the 29th"
       ]
     }
   ],
