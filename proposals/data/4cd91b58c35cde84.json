@@ -15,7 +15,7 @@
     "trip_start": "2026-09-22",
     "trip_end": "2026-10-16",
     "timezone": "Europe/Rome",
-    "updated": "2026-09-21"
+    "updated": "2026-09-22"
   },
   "key": [
     {
@@ -597,22 +597,16 @@
               "status": "info"
             },
             {
+              "time": "Alternative",
+              "title": "Grand Hotel Tremezzo by boat, if the 3rd does not suit them",
+              "detail": "Ten minutes across from Bellagio. Second choice in the nudge to Gaia.",
+              "status": "suggested"
+            },
+            {
               "time": "3:00 PM",
               "title": "Villa Serbelloni site inspection, join the 3:00 group",
               "detail": "Cristina Fusari, September 21: she already has a site inspection with other travel agents at 3:00 PM on the 2nd, and you can join the hotel tour if you are on property by then. So the boat day runs in the morning and early afternoon, back in Bellagio by 2:30.",
               "status": "confirmed"
-            },
-            {
-              "time": "By water",
-              "title": "Grand Hotel Tremezzo, site visit",
-              "detail": "Gaia Bartoletti (Gala group) declined the stay on September 15, almost fully booked. You asked the same day for visits to Tremezzo and Passalacqua. No reply on the visits.",
-              "status": "pending"
-            },
-            {
-              "time": "By water",
-              "title": "Passalacqua, site visit",
-              "detail": "Same Gala thread. Visit asked September 15, no reply. You placed the Sherwanis here in August.",
-              "status": "pending"
             },
             {
               "time": "By water",
@@ -631,6 +625,12 @@
             "detail": "400 euros plus breakfast, paid. Michael Spada. Asked to see additional rooms beyond my own. This is the night that drops if the lake comes together as Este, Sereno and Serbelloni, all hosted."
           },
           "items": [
+            {
+              "time": "3:00 PM",
+              "title": "Grand Hotel Tremezzo, site visit",
+              "detail": "Proposed to Gaia Bartoletti (Gala group) on the 22nd, first choice, a few minutes on foot from the EDITION. Gaia declined the stay on the 15th and never answered the visit ask, so this is the nudge with times. Waiting.",
+              "status": "pending"
+            },
             {
               "time": "Morning",
               "title": "Car ferry Bellagio to Cadenabbia",
@@ -694,6 +694,12 @@
               "title": "Drive Como to the Dolomites",
               "detail": "About 3 hours. Miramonti mid afternoon if they offer the visit, Forestis by early evening.",
               "status": "info"
+            },
+            {
+              "time": "11:30 AM",
+              "title": "Passalacqua, Moltrasio, site visit on the way out",
+              "detail": "Proposed to Gaia on the 22nd, first choice, Moltrasio is on the road south from Cadenabbia to Como. October 1 afternoon offered as the alternative. Adds about 45 minutes to the Dolomites day. Waiting.",
+              "status": "pending"
             },
             {
               "time": "Afternoon",
@@ -1131,6 +1137,7 @@
     {
       "title": "Before you fly, Monday",
       "items": [
+        "Gala group: send Gaia the two visit times, Tremezzo 3:00 on the 3rd, Passalacqua 11:30 on the 4th (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Avis: pickup to 12:00 on the 25th, drop extended to October 11"
       ]
@@ -1172,7 +1179,7 @@
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
         "Villa d'Este / Natalia: holding reply the 16th, no offer yet",
         "Il Sereno / Gaia Rosetti: asked the 14th, nudged the 18th",
-        "Tremezzo and Passalacqua visits / Gala group: asked the 15th",
+        "Tremezzo and Passalacqua visits / Gala group: asked the 15th, times proposed the 22nd",
         "Miramonti: asked the 18th",
         "Gardena Grödnerhof / Alex Demetz: asked the 15th",
         "Poggio alla Sala / Cinzia: asked the 20th",
