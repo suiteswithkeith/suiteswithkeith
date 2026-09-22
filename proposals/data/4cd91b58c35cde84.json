@@ -1004,7 +1004,7 @@
       "name": "Val d'Orcia, Porto Ercole & Rome",
       "dates": "October 9 to 13",
       "strip_label": "Monteverdi, then the 10th open",
-      "summary": "Rosewood lunch and Banfi on the 9th, then Monteverdi, fully hosted. The 10th is open until the replies land: Pellicano at 830 euros, La Roqqa if Roberta hosts, or an early Rome night. Then La Minerva as booked and the car back at Fiumicino on the 10th or 11th.",
+      "summary": "Rosewood, Banfi and Monteverdi on the 9th, fully hosted. The 10th is open until the replies land: Hotel Eden hosted if the Dorchester story lands, La Roqqa if Roberta hosts, Pellicano at 830, or an early Rome night. Then La Minerva as booked and the car back at Fiumicino on the 10th or 11th.",
       "days": [
         {
           "date": "2026-10-09",
@@ -1049,11 +1049,16 @@
         },
         {
           "date": "2026-10-10",
-          "label": "Monteverdi, then the 10th to decide",
+          "label": "Monteverdi morning, then Rome or Porto Ercole",
           "stay": {
             "name": "Open, decide once replies land",
             "status": "open",
             "options": [
+              {
+                "name": "Hotel Eden, Rome, hosted",
+                "status": "todo",
+                "detail": "Dorchester Collection, and you just placed the Sherwanis at Le Meurice and The Beverly Hills Hotel. Two drafts ready: an intro ask to Pascal Billard at Le Meurice, and the direct ask to the Eden for the night of the 10th, visit as the fallback. If Eden hosts, the 10th is Rome, the car drops at Fiumicino on the 10th as booked, and Pellicano is not needed. Three Rome nights in three hotels."
+              },
               {
                 "name": "Il Pellicano, 830 euros",
                 "status": "pending",
@@ -1070,7 +1075,7 @@
                 "detail": "La Minerva third night, Egle draft on hold, or Bulgari, J.K. Place, Hassler. Monteverdi to Fiumicino about 2 hours, car back on the 10th as booked."
               }
             ],
-            "detail": "Your call once La Roqqa and anything else answers. The Avis drop stays on the 10th at noon until it is decided, then moves or extends."
+            "detail": "Your call once La Roqqa and Eden answer. A hosted Eden beats a paid Pellicano. The Avis drop stays on the 10th at noon until it is decided, then moves or extends."
           },
           "items": [
             {
@@ -1281,6 +1286,7 @@
       "title": "Today, from Florence",
       "items": [
         "Villa d'Este: send Laura the 2:00 counter for the 1st, alone, courts on the tour (draft ready)",
+        "Hotel Eden: send Pascal Billard the intro ask and the Eden the hosting ask for the 10th, add your signature (both drafts ready). Check the Eden address before sending",
         "Gala group: send Gaia the visit times, Passalacqua 11:00 on the 2nd by boat, Tremezzo 3:00 on the 3rd on foot, courts on both tours, tennis at 4:00 at Tremezzo (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
         "Mandarin Oriental Lake Como: DM the Global DOS, a visit at 11:45 on the 4th on the way out, hosted 30th only as a long shot",
