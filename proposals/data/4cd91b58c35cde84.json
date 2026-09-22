@@ -339,7 +339,7 @@
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
-            "detail": "One hosted night. Sara Bonechi confirmed the 27th complimentary on September 21. You released the paid 28th on the 22nd now that San Felice hosts that night, with a line leaving her room to say the comp needed two nights. Waiting on her answer. Tour whenever suits. Casole 40 minutes, Santo Pietro 1 hour, Volterra 45 minutes."
+            "detail": "One hosted night, confirmed. Sara Bonechi answered the release on September 22: no problem at all, the complimentary 27th stands, and she will personally show you around the estate when you arrive that afternoon. Reservations will send an updated confirmation. Nut allergy passed to the kitchen. Casole 40 minutes, Santo Pietro 1 hour, Volterra 45 minutes."
           },
           "items": [
             {
@@ -351,8 +351,8 @@
             {
               "time": "Midday",
               "title": "Arrive Castelfalfi, check in, settle",
-              "detail": "Sara's tour can happen whenever suits across the two days. Lunch is wherever you like. Draft to Sara reflects that.",
-              "status": "todo"
+              "detail": "Sara's tour can happen whenever suits across the two days. Lunch is wherever you like. Draft to Sara reflects that. Sara walks you round the estate on arrival, before Casole at 3:30.",
+              "status": "confirmed"
             },
             {
               "time": "3:30 PM",
@@ -1180,7 +1180,6 @@
     {
       "title": "Waiting on, no reply at all",
       "items": [
-        "Castelfalfi / Sara: release of the paid 28th, asked the 22nd",
         "Borgo San Felice / Zaira: confirmation of the hosted 28th, accepted the 22nd",
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
         "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
@@ -1203,6 +1202,7 @@
     {
       "title": "Answered, action on your side",
       "items": [
+        "Castelfalfi: paid night released, the comp 27th stands, Sara gives the tour on arrival",
         "Villa Serbelloni: second night comped, October 1 to 3 hosted",
         "Villa Treville: hosted night offered for the 13th, declining for Sirenuse, visit asked",
         "Villa d'Este: paid rate offered for the 1st, 1,190 euros, passing, visit asked",
