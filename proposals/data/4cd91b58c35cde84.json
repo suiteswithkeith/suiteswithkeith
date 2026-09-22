@@ -584,7 +584,7 @@
       "name": "Lake Como",
       "dates": "October 1 to 4",
       "strip_label": "Serbelloni two nights, EDITION",
-      "summary": "Three nights on the lake, all set. Villa Serbelloni comped both the 1st and the 2nd, then the EDITION on the 3rd. Villa d'Este and Il Sereno are visits on the way in on the 1st, Tremezzo and Passalacqua are the asks still out with Gaia.",
+      "summary": "Three nights on the lake, all set. Villa Serbelloni comped both the 1st and the 2nd, then the EDITION on the 3rd. Villa d'Este and Il Sereno are visits on the way in on the 1st, Passalacqua and Tremezzo by boat on the morning of the 2nd, Serbelloni's tour at 3:00. The 3rd and 4th are clear.",
       "days": [
         {
           "date": "2026-10-01",
@@ -628,7 +628,7 @@
         },
         {
           "date": "2026-10-02",
-          "label": "Bellagio, boat day",
+          "label": "Boat day: Passalacqua, Tremezzo, Serbelloni tour",
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
@@ -636,28 +636,33 @@
           },
           "items": [
             {
-              "time": "All day",
-              "title": "Boat day, site visits by water from Bellagio, morning and early afternoon",
-              "detail": "Your own boat partners on the lake, no need for the hotel to arrange it. Back in Bellagio by 2:30 for the Serbelloni tour.",
+              "time": "10:30 AM",
+              "title": "Private boat from Bellagio, your own partners",
+              "detail": "Down the lake to Moltrasio, about 35 to 45 minutes.",
               "status": "info"
             },
             {
-              "time": "Alternative",
-              "title": "Grand Hotel Tremezzo by boat, if the 3rd does not suit them",
-              "detail": "Ten minutes across from Bellagio. Second choice in the nudge to Gaia.",
-              "status": "suggested"
+              "time": "11:00 AM",
+              "title": "Passalacqua, Moltrasio, site visit",
+              "detail": "Proposed to Gaia Bartoletti September 22 for 11:00 by boat. You placed the Sherwanis here in August. Waiting.",
+              "status": "pending"
+            },
+            {
+              "time": "12:45 PM",
+              "title": "Grand Hotel Tremezzo, site visit",
+              "detail": "Proposed to Gaia for 12:45 on the way back up, the 3rd afternoon as the alternative. Ten minutes from Bellagio by boat.",
+              "status": "pending"
+            },
+            {
+              "time": "2:15 PM",
+              "title": "Back to Bellagio, lunch",
+              "status": "info"
             },
             {
               "time": "3:00 PM",
               "title": "Villa Serbelloni site inspection, join the 3:00 group",
-              "detail": "Cristina Fusari, September 21: she already has a site inspection with other travel agents at 3:00 PM on the 2nd, and you can join the hotel tour if you are on property by then. So the boat day runs in the morning and early afternoon, back in Bellagio by 2:30.",
+              "detail": "Confirmed both ways. On property by 2:30.",
               "status": "confirmed"
-            },
-            {
-              "time": "By water",
-              "title": "Il Sereno, site visit",
-              "detail": "Nudged Gaia Rosetti September 18 for a hosted night on the 1st or 3rd, or a site visit. Better done from the Villa d'Este side on October 1 than by boat from Bellagio.",
-              "status": "pending"
             }
           ]
         },
@@ -671,22 +676,16 @@
           },
           "items": [
             {
-              "time": "3:00 PM",
-              "title": "Grand Hotel Tremezzo, site visit",
-              "detail": "Proposed to Gaia Bartoletti (Gala group) on the 22nd, first choice, a few minutes on foot from the EDITION. Gaia declined the stay on the 15th and never answered the visit ask, so this is the nudge with times. Waiting.",
-              "status": "pending"
+              "time": "Afternoon",
+              "title": "The EDITION, shoot it properly, nothing else scheduled",
+              "detail": "Tremezzo moves here at 3:00 only if the 2nd does not suit Gala.",
+              "status": "info"
             },
             {
               "time": "Morning",
               "title": "Car ferry Bellagio to Cadenabbia",
               "detail": "About 15 to 20 minutes, drive on and off.",
               "status": "info"
-            },
-            {
-              "time": "Afternoon",
-              "title": "Grand Hotel Tremezzo, site visit",
-              "detail": "Five minutes on foot from the EDITION. The natural day for it if the Gala group can move the visit off the boat day.",
-              "status": "suggested"
             },
             {
               "time": "Afternoon",
@@ -739,12 +738,6 @@
               "title": "Drive Como to the Dolomites",
               "detail": "About 3 hours. Miramonti mid afternoon if they offer the visit, Forestis by early evening.",
               "status": "info"
-            },
-            {
-              "time": "11:30 AM",
-              "title": "Passalacqua, Moltrasio, site visit on the way out",
-              "detail": "Proposed to Gaia on the 22nd, first choice, Moltrasio is on the road south from Cadenabbia to Como. October 1 afternoon offered as the alternative. Adds about 45 minutes to the Dolomites day. Waiting.",
-              "status": "pending"
             },
             {
               "time": "Afternoon",
@@ -1042,12 +1035,12 @@
       "name": "Amalfi Coast",
       "dates": "October 13 to 16",
       "strip_label": "Sirenuse, then Santa Caterina",
-      "summary": "Le Sirenuse for one paid night on the 13th at 600 euros, Il San Pietro to see on the 14th, then two hosted nights at Santa Caterina in Amalfi. Depart Naples on the 16th. Every night on the coast is now booked.",
+      "summary": "Arrive by train and private boat, not the coast road: Rome to Naples by Frecciarossa, Sunrise Sorrento from the port to Le Sirenuse on the 13th. On the 14th a hotel hop by water, San Pietro's dock, Treville, then Santa Caterina for two hosted nights. Depart Naples on the 16th.",
       "drive": "Rome to Positano about 3 hours. No car from October 10, Arno Travel asked to help with transfers for this leg.",
       "days": [
         {
           "date": "2026-10-13",
-          "label": "Rome to Positano, Le Sirenuse",
+          "label": "Rome to Positano by train and boat",
           "stay": {
             "name": "Le Sirenuse, Positano",
             "status": "paid",
@@ -1056,21 +1049,34 @@
           "items": [
             {
               "time": "11:00 AM",
-              "title": "Hotel de Russie, site visit proposed for 11:00",
-              "status": "pending",
-              "detail": "Andrea Ercoli (Senior Sales Manager, Rocco Forte) answered September 22: no hosted stay on the 10th, October is full, but a site visit at de Russie or de la Ville while you are in Rome. Reply drafted proposing the 13th at 11:00, de Russie first, the 12th morning as the alternative."
+              "title": "Hotel de Russie, site visit proposed",
+              "detail": "Andrea Ercoli offered a Rome visit, reply drafted for the 13th at 11:00.",
+              "status": "pending"
             },
             {
               "time": "12:30 PM",
-              "title": "Transfer Rome to Positano",
-              "detail": "About 3 hours. Arno asked to help. Positano by mid afternoon, check in at Le Sirenuse.",
-              "status": "todo"
+              "title": "Frecciarossa Rome Termini to Napoli Centrale",
+              "detail": "About 1 hour 10. Book a seat once the de Russie time is fixed.",
+              "status": "todo",
+              "todo": "Book the Rome to Naples train for about 12:30 on the 13th."
+            },
+            {
+              "time": "2:00 PM",
+              "title": "Car to the port, private boat to Positano",
+              "detail": "Asked Sunrise Sorrento September 22 for a private boat from Naples to Positano, arriving about 3:30 at Le Sirenuse, a swing past Capri if realistic. This is the content angle: the private boat transfer is what turned Greece posts into clients. Waiting on Teresa's pricing.",
+              "status": "pending"
+            },
+            {
+              "time": "3:30 PM",
+              "title": "Arrive Le Sirenuse by sea",
+              "detail": "Porters from the pier. Check in, the terrace, Franco's Bar.",
+              "status": "info"
             }
           ]
         },
         {
           "date": "2026-10-14",
-          "label": "San Pietro, then Santa Caterina",
+          "label": "Hotel hop by boat, then Santa Caterina",
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
@@ -1078,22 +1084,28 @@
           },
           "items": [
             {
+              "time": "10:45 AM",
+              "title": "Boat from the Positano pier",
+              "detail": "Second Sunrise day asked: Positano, San Pietro's dock, Treville, then Amalfi. Bags by road or on board.",
+              "status": "pending"
+            },
+            {
               "time": "11:00 AM",
               "title": "Il San Pietro di Positano, site visit",
-              "detail": "Agostino Piccolo, September 16: a pleasure, let him know the date and time once fixed. Flexible on dates. You have not sent the time.",
+              "detail": "Agostino Piccolo, September 16: a pleasure, let him know the date and time. You have not sent the time. Arrive at their dock.",
               "status": "todo",
-              "todo": "Confirm 11:00 AM on the 14th with Agostino."
+              "todo": "Confirm 11:00 AM on the 14th with Agostino, arriving by boat."
             },
             {
               "time": "12:30 PM",
               "title": "Villa Treville, site visit",
-              "detail": "Daniela Barba offered to host the 13th on September 22, but Sirenuse was already accepted and you are keeping it. Reply drafted: apologies, a site visit at 12:30 on the 14th after San Pietro, or late afternoon on the 13th, and a proper stay next trip.",
+              "detail": "Daniela offered to host the 13th, you kept Sirenuse. Visit at 12:30 proposed in the drafted reply.",
               "status": "pending"
             },
             {
               "time": "Afternoon",
-              "title": "Move east to Amalfi, check in at Santa Caterina",
-              "detail": "Positano to Amalfi about 40 minutes on the coast road.",
+              "title": "By boat east to Amalfi, check in at Santa Caterina",
+              "detail": "The hotel has a lift down to its sea platform.",
               "status": "info"
             }
           ]
@@ -1159,6 +1171,8 @@
     {
       "title": "Before you fly, Monday",
       "items": [
+        "Gala group: send Gaia the boat-day times, Passalacqua 11:00 and Tremezzo 12:45 on the 2nd (draft ready)",
+        "Sunrise Sorrento: send Teresa the two boat days, Naples to Positano on the 13th, the hotel hop on the 14th (draft ready)",
         "Belmond: send Andrea the Portofino email, both visits on the 30th and a trade rate for the night of the 29th at Splendido or Splendido Mare (draft ready)",
         "Miramare and Excelsior Palace: send me the Fora contacts, asks for the 29th",
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
@@ -1168,7 +1182,6 @@
         "Rocco Forte: send Andrea Ercoli the de Russie visit reply; the Carlton paragraph can stay as a next-trip line or come out (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
         "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
-        "Gala group: send Gaia the two visit times, Tremezzo 3:00 on the 3rd, Passalacqua 11:30 on the 4th (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Avis: pickup to 12:00 on the 25th, drop to 2:00 on the 10th"
       ]
@@ -1209,13 +1222,14 @@
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
         "Il Sereno / Gaia Rosetti: 3:00 site visit on the 1st, nudged the 22nd",
-        "Tremezzo and Passalacqua visits / Gala group: asked the 15th, times proposed the 22nd",
+        "Tremezzo and Passalacqua visits / Gala group: asked the 15th, boat-day times for the 2nd proposed the 22nd",
         "Miramonti: asked the 18th",
         "Gardena Grödnerhof / Alex Demetz: asked the 15th",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
         "Palazzo Portinari Salviati: visit ask sent the 20th",
         "Borgo Santandrea: visit ask pending",
-        "Lupaia: move to the evening of the 8th, asked the 21st"
+        "Lupaia: move to the evening of the 8th, asked the 21st",
+        "Sunrise Sorrento / Teresa: two boat days, the 13th and 14th, asked the 22nd"
       ]
     },
     {
