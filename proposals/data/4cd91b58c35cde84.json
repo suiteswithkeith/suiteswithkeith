@@ -585,35 +585,22 @@
       "id": "lake-como",
       "name": "Lake Como",
       "dates": "October 1 to 4",
-      "strip_label": "Sereno or Serbelloni, Serbelloni, EDITION",
-      "summary": "Three nights on the lake. The 1st is your call today: Il Sereno's hosted night, or Serbelloni's first of two. The 2nd is Serbelloni, the 3rd the EDITION. Villa d'Este at 2:00 on the way in, Passalacqua and Tremezzo by boat on the morning of the 2nd, Serbelloni's tour at 3:00. The 3rd and 4th are clear.",
+      "strip_label": "Il Sereno, Serbelloni, EDITION",
+      "summary": "Three nights on the lake, three hotels, all set. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Villa d'Este on the way in on the 1st, Passalacqua and Tremezzo by boat on the morning of the 2nd, Serbelloni's tour at 3:00. The 3rd and 4th are clear.",
       "days": [
         {
           "date": "2026-10-01",
-          "label": "Coast to the lake, Villa d'Este at 2:00, Il Sereno or Serbelloni",
+          "label": "Coast to the lake, Villa d'Este, Il Sereno",
           "stay": {
-            "name": "Il Sereno, Torno, or Villa Serbelloni night one",
-            "status": "pending",
-            "detail": "Your call today. Gaetano Rapisardi (Senior Director of Sales, Gaia has left) came back September 22 offering a hosted night on October 1. The 3rd is very limited on his side. Serbelloni already holds the 1st too, confirmation 576789251, extended by Cristina the same morning. Recommendation: take Il Sereno on the 1st and go back to the original single Serbelloni night on the 2nd, the tour at 3:00 unchanged. That gives the lake three hotels in three nights. Both notes are drafted, send them together.",
-            "options": [
-              {
-                "name": "Il Sereno, hosted",
-                "status": "pending",
-                "detail": "Offered for the 1st, single occupancy. Acceptance drafted: arriving about 4:00 after Villa d'Este, a few rooms and the pool with the camera, nut allergy, Reservations to send the confirmation."
-              },
-              {
-                "name": "Villa Serbelloni, night one of two",
-                "status": "confirmed",
-                "detail": "Held as confirmed until you decide. Release note to Cristina drafted: a property written to well before the second-night ask has come back with a hosted night on the 1st, back to one night on the 2nd, arrival and tour unchanged. Same move you made with Castelfalfi this morning, and Sara said no problem."
-              }
-            ],
-            "todo": "Decide Il Sereno versus Serbelloni for the 1st, then send Gaetano and Cristina (both drafts ready)."
+            "name": "Il Sereno, Torno",
+            "status": "confirmed",
+            "detail": "Hosted night, confirmed. Gaetano Rapisardi (Senior Director of Sales, Gaia has left) offered the 1st on September 22, accepted the same hour, Reservations sent confirmation letter 15164 for October 1 to 2, Guest Relations copied. Nut allergy noted. You told Gaetano about 3:00; if Villa d'Este moves to 2:00 it is closer to 4:00, which is fine. Serbelloni's first night was released the same afternoon and Cristina's reservations desk re-issued the booking for the 2nd only."
           },
           "items": [
             {
               "time": "11:15 AM",
               "title": "Leave the coast for Cernobbio",
-              "detail": "About 2 hours 30 from Portofino, 2 hours 45 from Modena. Noon at Villa d'Este would have meant leaving at 9:15, so the visit is being pushed.",
+              "detail": "About 2 hours 30 from Portofino, 2 hours 45 from Modena.",
               "status": "info"
             },
             {
@@ -625,31 +612,25 @@
             },
             {
               "time": "4:00 PM",
-              "title": "Il Sereno, Torno: check in, or the site visit if the night is Serbelloni",
-              "detail": "Torno is 20 minutes up the east shore from Cernobbio. Gaetano's acceptance draft now says about 4:00. If you keep Serbelloni instead, ask him for the visit at 4:00.",
-              "status": "pending"
-            },
-            {
-              "time": "5:30 PM",
-              "title": "If Serbelloni: Torno to Bellagio, check in",
-              "detail": "About 50 minutes up the east shore via Lezzeno.",
-              "status": "info"
+              "title": "Il Sereno: check in, a few rooms and the pool with the camera",
+              "detail": "Torno is 20 minutes up the east shore from Cernobbio. Gaetano knows you want to shoot beyond your own room.",
+              "status": "confirmed"
             }
           ]
         },
         {
           "date": "2026-10-02",
-          "label": "Boat day: Passalacqua, Tremezzo, Serbelloni tour",
+          "label": "Boat day from Torno, then Bellagio",
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
-            "detail": "Hosted night, confirmation 576789251. Cristina Fusari (Sales & Revenue Coordinator), Francesca Barba (DOSM). Cristina confirmed 2:30 on property and the 3:00 tour on September 22: sound perfect, will meet you then. If the 1st becomes Il Sereno this is the only Serbelloni night. Nut allergy on file."
+            "detail": "Hosted night, confirmation 576789251, re-issued September 22 for October 2 to 3 only after the 1st went to Il Sereno. Cristina Fusari (Sales & Revenue Coordinator), Francesca Barba (DOSM). 2:30 on property, 3:00 tour confirmed both ways. Check-in from 2:00. Nut allergy on file."
           },
           "items": [
             {
               "time": "10:30 AM",
-              "title": "Private boat from Bellagio, your own partners",
-              "detail": "Down the lake to Moltrasio, about 35 to 45 minutes. If you slept at Il Sereno, the boat can collect you at Torno instead.",
+              "title": "Private boat collects you at Il Sereno's dock, your own partners",
+              "detail": "Torno to Moltrasio is about 15 minutes across the lake. The car and bags stay at Il Sereno.",
               "status": "info"
             },
             {
@@ -659,20 +640,27 @@
               "status": "pending"
             },
             {
-              "time": "12:45 PM",
+              "time": "12:30 PM",
               "title": "Grand Hotel Tremezzo, site visit",
-              "detail": "Proposed to Gaia for 12:45 on the way back up, the 3rd afternoon as the alternative. Ten minutes from Bellagio by boat.",
+              "detail": "Proposed to Gaia for 12:45 on the way back, the 3rd afternoon as the alternative. Keep it to 45 minutes.",
               "status": "pending"
             },
             {
-              "time": "2:15 PM",
-              "title": "Back to Bellagio, lunch",
+              "time": "1:30 PM",
+              "title": "Boat back to Torno, collect the car",
+              "detail": "About 25 minutes from Tremezzo.",
+              "status": "info"
+            },
+            {
+              "time": "2:40 PM",
+              "title": "Arrive Villa Serbelloni by car",
+              "detail": "Torno to Bellagio about 50 minutes via Lezzeno. Alternatively drive to Bellagio first, leave the car and bags, and take the boat from there, which means leaving Torno by 9:45.",
               "status": "info"
             },
             {
               "time": "3:00 PM",
-              "title": "Villa Serbelloni site inspection, join the 3:00 group",
-              "detail": "Confirmed both ways. On property by 2:30.",
+              "title": "Villa Serbelloni group site inspection with Cristina",
+              "detail": "Confirmed. Then the rest of the day is yours: the pool, the lakefront, dinner.",
               "status": "confirmed"
             }
           ]
@@ -916,8 +904,7 @@
           "stay": {
             "name": "Monteverdi Tuscany, Castiglioncello del Trinoro",
             "status": "confirmed",
-            "detail": "Confirmed. Booking 64755, Tuscan View Suite, Agent Stay, total 0 euros, arriving the 9th, out the 10th. Includes breakfast, the Chef's Table, the spa circuit and a welcome aperitivo, city tax about 3 euros at checkout. Peggy Picano-Nacci offered it September 22, Lucia Testa in Reservations sent the confirmation the same day. Pre-arrival questionnaire in the confirmation email. Acceptance drafted with a 4:15 arrival and the nut allergy.",
-            "todo": "Send Peggy the acceptance and fill the pre-arrival questionnaire (draft ready)."
+            "detail": "Confirmed. Booking 64755, Tuscan View Suite, Agent Stay, total 0 euros, arriving the 9th, out the 10th. Lucia Testa (Reservations & Guest Experiences Manager) has booked the spa circuit at 5:00, the aperitivo at the Lounge Bar at 6:15 and the Chef's Table at Zita at 7:00, nut allergy noted. She offers a garden walk and a few rooms on the morning of the 10th before you leave. Peggy Picano-Nacci offered the stay September 22. Pre-arrival questionnaire in the confirmation email."
           },
           "items": [
             {
@@ -928,16 +915,15 @@
             },
             {
               "time": "11:00 AM",
-              "title": "Rosewood Castiglion del Bosco, tour first, then lunch",
-              "detail": "Francesca confirmed lunch at 12:30 then the tour on the 21st and repeated it on the 22nd. Your reorder went to her at 4:41 PM on the 22nd, after her note: tour at 11:00, lunch about 12:15, away by 1:30. Waiting on her answer. Self-driving.",
-              "status": "pending"
+              "title": "Rosewood Castiglion del Bosco, site inspection, then lunch at 12:30",
+              "detail": "Francesca confirmed the reorder September 22: inspection at 11:00, Osteria La Canonica opens at 12:30, the team knows you leave by 1:30. Self-driving.",
+              "status": "confirmed"
             },
             {
               "time": "2:00 PM",
               "title": "Castello Banfi Il Borgo, site inspection and tasting",
-              "detail": "Maddalena confirmed 3:00 on the 21st, no cellar tour. Asked September 22 for 2:00 instead. About 25 minutes south of Rosewood. Draft ready.",
-              "status": "pending",
-              "todo": "Send Maddalena the 2:00 confirmation (draft ready)."
+              "detail": "Maddalena Vedele confirmed 2:00 on September 22, no cellar tour. About 25 minutes south of Rosewood.",
+              "status": "confirmed"
             },
             {
               "time": "3:00 PM",
@@ -946,9 +932,10 @@
               "status": "info"
             },
             {
-              "time": "4:15 PM",
-              "title": "Monteverdi: spa circuit, the light over the valley, aperitivo, Chef's Table",
-              "status": "info"
+              "time": "5:00 PM",
+              "title": "Monteverdi: spa circuit at 5:00, aperitivo at 6:15, Chef's Table at Zita at 7:00",
+              "detail": "Arrive about 4:15 to drop bags and settle. The gallery, Caragh Thuring, whenever you have a gap.",
+              "status": "confirmed"
             }
           ]
         },
@@ -978,6 +965,12 @@
             "detail": "Your call once La Roqqa and anything else answers. The Avis drop stays on the 10th at noon until it is decided, then moves or extends."
           },
           "items": [
+            {
+              "time": "Morning",
+              "title": "Monteverdi garden walk and a few rooms with Lucia, then the light over the valley",
+              "detail": "Offered for the morning of the 10th, weather permitting. Shoot the hamlet before you leave.",
+              "status": "suggested"
+            },
             {
               "time": "Morning",
               "title": "Spa circuit, the gallery, breakfast at Monteverdi, out by 11:00",
@@ -1053,7 +1046,7 @@
           "stay": {
             "name": "Le Sirenuse, Positano",
             "status": "paid",
-            "detail": "Confirmed September 22 at 600 euros, an industry rate extended personally by Antonio Sersale after Leeann Pisacane's note. Card authorised the same day (Nexi order 272286315). Kept over a hosted night at Treville: iconic, and you wanted to sleep there. Sersale family, Franco's Bar, La Sponda."
+            "detail": "Confirmed, paid. Lisa Fazzi in Reservations sent the confirmation letter September 22 after the card cleared: October 13 to 14, one night, an industry rate extended personally by Antonio Sersale after Leeann Pisacane's note. Kept over a hosted night at Treville: iconic, and you wanted to sleep there. Sersale family, Franco's Bar, La Sponda. Told them you will most likely arrive by boat."
           },
           "items": [
             {
@@ -1071,7 +1064,7 @@
             {
               "time": "2:00 PM",
               "title": "Car to the port, private boat to Positano",
-              "detail": "Asked Sunrise Sorrento September 22 for a private boat from Naples to Positano, arriving about 3:30 at Le Sirenuse, a swing past Capri if realistic. This is the content angle: the private boat transfer is what turned Greece posts into clients. Waiting on Teresa's pricing.",
+              "detail": "Sent Teresa the full ask September 22: Naples or Sorrento pickup, Le Sirenuse by about 3:30, a swing past Capri, one passenger, two bags, a reduced solo rate. The 14th hotel hop as the second day, the 13th the priority. Waiting on her.",
               "status": "pending"
             },
             {
@@ -1179,13 +1172,11 @@
     {
       "title": "Today, from Florence",
       "items": [
-        "Lake Como, the 1st: decide Il Sereno versus Serbelloni. If Sereno, send Gaetano the acceptance and Cristina the release together (both drafts ready)",
         "Villa d'Este: send Laura the 2:00 counter for the 1st, alone (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
-        "Monteverdi: send Peggy the acceptance, 4:15 arrival, nut allergy, and fill the pre-arrival questionnaire (draft ready)",
-        "Banfi: send Maddalena 2:00 on the 9th (draft ready)",
-        "Gala group: send Gaia the boat-day times, Passalacqua 11:00 and Tremezzo 12:45 on the 2nd (draft ready)",
-        "Sunrise Sorrento: send Teresa the two boat days, Naples to Positano on the 13th, the hotel hop on the 14th (draft ready)",
+        "Gala group: send Gaia the boat-day times, Passalacqua 11:00 and Tremezzo 12:30 on the 2nd, pickup at Torno (draft ready, adjust the Tremezzo time)",
+        "Monteverdi: fill the pre-arrival questionnaire from the confirmation email",
+        "Il Sereno: tell Gaetano or Guest Relations closer to the day that arrival is nearer 4:00 than 3:00",
         "Miramare and Excelsior Palace: send me the Fora contacts, asks for the 29th",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Avis: pickup to 12:00 on the 25th now; the drop waits on the 10th decision"
@@ -1203,7 +1194,6 @@
         "COMO Alpina: once Aman answers, ask Deborah to move the hosted night from the 7th to the 6th",
         "Forestis and COMO Alpina: tell them a friend may join, second guest in the room",
         "Villa La Massa: paused. Send Laura a short note by Wednesday, thanks and a next-trip line, or accept 10:30 if you change your mind",
-        "Rosewood: waiting on Francesca for the 11:00 reorder, asked the 22nd after her 12:30 note",
         "Reschio: warm next-trip note to Florian, the routing pulled you to the coast",
         "Santo Pietro: waiting on Arianna for the 12:00 visit and lunch on the 28th, asked the 20th",
         "Il Borro: reply to Federico, confirm the 28th lunch or decline (draft on hold)",
@@ -1221,7 +1211,6 @@
         "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
         "Grand Hotel Portovenere / Rachele Belladelli: hosted night on the 29th, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
-        "Rosewood / Francesca Liguori: the 11:00 reorder on the 9th, asked the 22nd",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
         "Tremezzo and Passalacqua visits / Gala group: asked the 15th, boat-day times for the 2nd proposed the 22nd",
         "Miramonti: asked the 18th",
@@ -1238,17 +1227,19 @@
     {
       "title": "Answered, action on your side",
       "items": [
-        "Il Sereno / Gaetano Rapisardi: hosted night offered for the 1st, the 3rd very limited. Deciding against Serbelloni's first night",
-        "Villa Serbelloni: second night comped, October 1 to 3 hosted, 3:00 tour on the 2nd confirmed. Release note for the 1st drafted if Sereno wins",
+        "Il Sereno: hosted night on the 1st confirmed, letter 15164",
+        "Villa Serbelloni: back to one hosted night, the 2nd, re-issued confirmation 576789251, 3:00 tour confirmed",
         "Villa d'Este: noon visit on the 1st offered by Laura, countering with 2:00, reply drafted",
         "Portrait Milano: visit at 3:00 on the 30th confirmed by Federico, withdrawing, Milan is off, draft ready",
-        "Monteverdi: the 9th fully hosted, booking 64755 received, acceptance to Peggy still to send",
+        "Monteverdi: the 9th fully hosted, booking 64755, Lucia has the evening timed, questionnaire to fill",
+        "Rosewood: 11:00 inspection then 12:30 lunch on the 9th, confirmed",
+        "Banfi: 2:00 on the 9th confirmed",
+        "Le Sirenuse: the 13th paid and confirmed, boat arrival to give them",
         "Castelfalfi: paid night released, the comp 27th stands, revised confirmation received, Sara gives the tour on arrival",
+        "Borgo San Felice: the 28th accepted, written confirmation still owed",
         "Villa Treville: hosted night offered for the 13th, declined for Sirenuse, visit asked",
         "Rocco Forte Rome: no stay, site visit offered, the 12th at 11:00 proposed, both contacts out of office until the 23rd",
         "Belmond Portofino: no hosted night, visits on the 30th and a trade rate asked",
-        "Rosewood: lunch and tour on the 9th confirmed, reorder to 11:00 asked",
-        "Banfi: inspection and tasting on the 9th confirmed, 2:00 asked",
         "Il Pellicano: the 10th at 830 euros offered, deciding",
         "Villa La Massa: 10:30 on the 25th offered, paused on your side",
         "Il San Pietro: visit agreed, needs a time",
@@ -1256,8 +1247,7 @@
         "Borgo Pignano Volterra: confirmed, wants your ETA (Florence is done, pressing arranged with Marta)",
         "Belmond: Casole 3:30 on the 27th agreed, San Michele countered to 2:30 on the 25th",
         "Reschio: visit and lunch offered, paid rate declined, no longer fits the routing",
-        "La Posta Vecchia: visit offered, parked",
-        "Mandarin Oriental Milan: blackout for hosting, lunch and tour with Valeria Arba on the 30th, not confirmed"
+        "La Posta Vecchia: visit offered, parked"
       ]
     },
     {
