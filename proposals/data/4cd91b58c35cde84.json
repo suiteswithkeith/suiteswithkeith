@@ -629,9 +629,9 @@
           "items": [
             {
               "time": "10:40 AM",
-              "title": "Private boat collects you at Il Sereno's dock, your own partners",
-              "detail": "Torno to Moltrasio is about 10 to 15 minutes straight across the lake. The car and bags stay at Il Sereno.",
-              "status": "info"
+              "title": "Como Transfers boat collects you at Il Sereno's dock",
+              "detail": "Requested September 22. Torno to Moltrasio is about 10 to 15 minutes straight across the lake. The car and bags stay at Il Sereno.",
+              "status": "pending"
             },
             {
               "time": "11:00 AM",
@@ -1204,13 +1204,13 @@
   ],
   "lists": [
     {
-      "title": "Waiting on, no reply at all",
+      "title": "Waiting on",
       "items": [
-        "Belmond / Andrea Gervasoni: Portofino visits on the 30th and a trade rate for the 29th, asked the 22nd. Hosted night declined the 22nd",
+        "The four beds still open: La Roqqa for the 10th (Roberta Davanzo, asked the 21st), Belmond for a Splendido or Splendido Mare rate on the 29th (Andrea, asked the 22nd), Casa Maria Luigia for the 30th (asked the 22nd), Aman Rosa Alpina rate for the 7th (Elisa De Nicolo, asked the 21st)",
+        "Como Transfers: boat for the morning of the 2nd, Torno to Passalacqua and back, requested the 22nd",
+        "Visits and timing, none of them beds:",
         "Belmond: Sofia on San Michele at 2:30 on the 25th, Casole team to confirm 3:30 on the 27th",
-        "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
         "Grand Hotel Portovenere / Rachele Belladelli: hosted night on the 29th, asked the 22nd",
-        "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
         "Tremezzo and Passalacqua visits / Gala group: asked the 15th, Passalacqua 11:00 on the 2nd and Tremezzo 3:00 on the 3rd proposed the 22nd",
         "Miramonti: asked the 18th",
@@ -1220,7 +1220,6 @@
         "Borgo Santandrea: visit ask pending",
         "Lupaia: move to the evening of the 8th, asked the 21st",
         "Sunrise Sorrento / Teresa: two boat days, the 13th and 14th, asked the 22nd",
-        "La Roqqa / Roberta Davanzo: hosted night on the 9th or 10th, asked the 21st",
         "Villa Treville / Daniela: site visit on the 14th, timing to follow, told the 22nd"
       ]
     },
