@@ -339,8 +339,7 @@
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
-            "detail": "One hosted night. Sara Bonechi confirmed the 27th complimentary on September 21; the paid 550 euro night on the 28th is being released now that San Felice hosts that night, reply drafted to Sara. Risk: the comp was offered as part of two nights, so watch her answer. Tour whenever suits. Reservations (Lisa Mainardi) holds the booking. Casole 40 minutes, Santo Pietro 1 hour, Volterra 45 minutes.",
-            "todo": "Send Sara the release of the 28th and your ETA (draft ready)."
+            "detail": "One hosted night. Sara Bonechi confirmed the 27th complimentary on September 21. You released the paid 28th on the 22nd now that San Felice hosts that night, with a line leaving her room to say the comp needed two nights. Waiting on her answer. Tour whenever suits. Casole 40 minutes, Santo Pietro 1 hour, Volterra 45 minutes."
           },
           "items": [
             {
@@ -369,8 +368,7 @@
           "stay": {
             "name": "Borgo San Felice, Castelnuovo Berardenga",
             "status": "pending",
-            "detail": "One complimentary night with breakfast on the 28th, offered by Zaira De Biasio (DOS) on September 22. Accept drafted: arriving about 4:30 from the Siena side, tour of the borgo, nut allergy noted. Chianti Classico estate, Relais & Chateaux. Leaving for Milan on the 29th, about 3 hours 45.",
-            "todo": "Send Zaira the acceptance (draft ready)."
+            "detail": "One complimentary night with breakfast, offered by Zaira De Biasio (DOS) September 22 and accepted the same day: arriving about 4:30 from the Siena side, tour of the borgo, nut allergy noted. Waiting on reservations to confirm. Chianti Classico estate, Relais & Chateaux. Leaving for the coast on the 29th."
           },
           "items": [
             {
@@ -1169,8 +1167,6 @@
         "Il Borro: hold the Kaoutar draft a day, send only if Portovenere is a no",
         "Rocco Forte: send Andrea Ercoli the de Russie visit reply; the Carlton paragraph can stay as a next-trip line or come out (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
-        "San Felice: send Zaira the acceptance for the 28th (draft ready)",
-        "Castelfalfi: send Sara the release of the 28th, keep the 27th (draft ready)",
         "Serbelloni: send Cristina the paid second night ask for the 1st (draft ready)",
         "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
         "Belmond: tell Andrea in a separate email that Portofino is off this trip, Casole and San Michele stand",
@@ -1206,6 +1202,8 @@
     {
       "title": "Waiting on, no reply at all",
       "items": [
+        "Castelfalfi / Sara: release of the paid 28th, asked the 22nd",
+        "Borgo San Felice / Zaira: confirmation of the hosted 28th, accepted the 22nd",
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
         "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
         "Grand Hotel Portovenere / Rachele Belladelli: hosted night on the 29th, asked the 22nd",
@@ -1230,7 +1228,6 @@
       "title": "Answered, action on your side",
       "items": [
         "Villa Treville: hosted night offered for the 13th, declining for Sirenuse, visit asked",
-        "Borgo San Felice: hosted night on the 28th, accepting",
         "Villa d'Este: paid rate offered for the 1st, 1,190 euros, passing, visit asked",
         "Rocco Forte Rome: no stay, site visit offered, 13th at 11:00 proposed",
         "Belmond Portofino: no hosted night, visits still offered if you go",
