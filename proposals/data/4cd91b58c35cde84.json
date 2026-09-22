@@ -330,8 +330,8 @@
       "id": "western-tuscany",
       "name": "Western Tuscany",
       "dates": "September 27 to 29",
-      "strip_label": "Castelfalfi, Casole, Santo Pietro",
-      "summary": "Castelfalfi is the base, one night hosted and one at 550 euros. Casole visit on the 27th, Santo Pietro and San Felice on the 28th, Il Borro held as the alternative.",
+      "strip_label": "Castelfalfi, Casole, Santo Pietro, San Felice",
+      "summary": "Castelfalfi for one hosted night on the 27th with the Casole visit that afternoon. The 28th moves to Borgo San Felice, hosted, after Santo Pietro. Castelfalfi's paid second night is being released.",
       "days": [
         {
           "date": "2026-09-27",
@@ -339,8 +339,8 @@
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
-            "detail": "Confirmed with Sara Bonechi September 21: one night complimentary, one at the 550 euro industry rate with breakfast, parking, pools, spa and gym. Reservations (Lisa Mainardi) sent the booking confirmation PDF and the Experience Book the same day, two nights from the 27th. They want your ETA and any dietary notes. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes. Tour whenever suits across the two days.",
-            "todo": "Reply to Castelfalfi reservations: arriving about midday on the 27th, dietary notes (nut allergy)."
+            "detail": "One hosted night. Sara Bonechi confirmed the 27th complimentary on September 21; the paid 550 euro night on the 28th is being released now that San Felice hosts that night, reply drafted to Sara. Risk: the comp was offered as part of two nights, so watch her answer. Tour whenever suits. Reservations (Lisa Mainardi) holds the booking. Casole 40 minutes, Santo Pietro 1 hour, Volterra 45 minutes.",
+            "todo": "Send Sara the release of the 28th and your ETA (draft ready)."
           },
           "items": [
             {
@@ -365,16 +365,17 @@
         },
         {
           "date": "2026-09-28",
-          "label": "Santo Pietro, then San Felice or Il Borro",
+          "label": "Santo Pietro, then San Felice",
           "stay": {
-            "name": "Castelfalfi, Montaione",
-            "status": "confirmed",
-            "detail": "Confirmed with Sara Bonechi September 21: one night complimentary, one at the 550 euro industry rate with breakfast, parking, pools, spa and gym. Two Michelin Keys. Central to everything: Casole 40 minutes, Santo Pietro 1 hour, Il Borro 1 hour 30, San Felice 1 hour 15, Volterra 45 minutes. Tour whenever suits across the two days."
+            "name": "Borgo San Felice, Castelnuovo Berardenga",
+            "status": "pending",
+            "detail": "One complimentary night with breakfast on the 28th, offered by Zaira De Biasio (DOS) on September 22. Accept drafted: arriving about 4:30 from the Siena side, tour of the borgo, nut allergy noted. Chianti Classico estate, Relais & Chateaux. Leaving for Milan on the 29th, about 3 hours 45.",
+            "todo": "Send Zaira the acceptance (draft ready)."
           },
           "items": [
             {
               "time": "Morning",
-              "title": "Gym and breakfast at Castelfalfi, out at 11:00",
+              "title": "Breakfast at Castelfalfi, estate tour if not done on the 27th, out by 11:30",
               "status": "info"
             },
             {
@@ -384,17 +385,16 @@
               "status": "pending"
             },
             {
-              "time": "Afternoon",
-              "title": "Borgo San Felice, hosted night offered for the 28th",
-              "detail": "Zaira De Biasio (DOS) answered September 22: full for the dates, but one complimentary night on the 28th with breakfast. That collides with the paid 550 euro night at Castelfalfi you just confirmed. Options: ask Zaira for the 29th instead, which keeps Castelfalfi whole and fills one of the three open nights; or take the 28th and ask Sara to release the paid night; or decline the stay and visit. Your call.",
-              "status": "pending",
-              "todo": "Decide on San Felice: ask for the 29th, take the 28th, or visit only."
-            },
-            {
               "time": "Alternative",
               "title": "Il Borro, tasting, cellar and lunch, offered for the 28th",
-              "detail": "Federico Caligaris Papa's offer from the 14th stands, you have not confirmed. 1 hour 30 from Castelfalfi and in the wrong direction from Santo Pietro, so it only works instead of San Felice, not alongside it. Decide once Zaira answers.",
-              "status": "suggested"
+              "detail": "Federico's tasting and lunch offer from the 14th stands. With San Felice hosting the 28th, Il Borro no longer fits, decline warmly with a next-trip line.",
+              "status": "ruled_out"
+            },
+            {
+              "time": "4:30 PM",
+              "title": "Arrive Borgo San Felice, tour the borgo, dinner",
+              "detail": "About 1 hour 15 from Santo Pietro via Siena.",
+              "status": "info"
             }
           ]
         }
@@ -465,66 +465,83 @@
     },
     {
       "id": "portofino",
-      "name": "Portofino",
+      "name": "Milan",
       "dates": "September 29 to October 1",
-      "strip_label": "Three open nights, Belmond said no",
-      "summary": "Belmond answered on the 22nd: no hosted night at Splendido or Splendido Mare, visits still on offer if you go to Portofino. Villa d'Este came back the same morning with a paid rate for the 1st, which you said you would pass on. So September 29, 30 and October 1 are all open. Milan for two or three nights is the clean answer, with San Felice on the 29th if Zaira agrees, and Il Sereno still out for the 1st.",
-      "drive": "Tuscany to Portofino about 3 hours. Portofino to Cernobbio about 2 hours 45.",
+      "strip_label": "Milan, two nights, asks out",
+      "summary": "Two nights in Milan instead of Portofino. Mandarin Oriental Milan said the dates are blackout for hosting, Valeria Arba will do lunch and a tour. Portrait Milano never answered. The Carlton is asked today through Andrea Ercoli. Paid through Fora if nothing lands, book by Friday.",
+      "drive": "Chianti to Milan about 3 hours 45 on the A1. Milan to Cernobbio about 1 hour, then around to Bellagio about 1 hour 15.",
       "days": [
         {
           "date": "2026-09-29",
-          "label": "Drive north via Lucca",
+          "label": "Chianti to Milan",
           "stay": {
-            "name": "Open",
+            "name": "Milan, open",
             "status": "open",
             "options": [
               {
-                "name": "Borgo San Felice, if Zaira can do the 29th",
+                "name": "The Carlton (Rocco Forte)",
                 "status": "pending",
-                "detail": "She offered the 28th. Asking for the 29th instead keeps Castelfalfi as booked. Chianti to Milan the next day is about 3 hours 45."
+                "detail": "Asked Andrea Ercoli September 22 for one or both nights, in the same reply as the Rome visit. Cristina Frazzingaro never answered the September 16 ask."
               },
               {
-                "name": "Milan, first of two or three nights",
-                "status": "suggested",
-                "detail": "Portrait Milano visit and Mandarin Oriental Milan lunch and tour are already offered for the 30th. Fashion week is over by the 29th so rates ease. Paid unless a Milan hosting ask lands."
+                "name": "Portrait Milano (Lungarno)",
+                "status": "pending",
+                "detail": "Asked Federica Martini September 15 for one or both nights, no reply. Nudge drafted, you are a Lungarno guest in Florence this week."
               },
               {
-                "name": "Portofino, paid",
+                "name": "Mandarin Oriental Milan",
+                "status": "ruled_out",
+                "detail": "Carmela Piazza, September 18: blackout dates, events in town. Valeria Arba (DOS) offered lunch and a tour instead."
+              },
+              {
+                "name": "Paid through Fora",
                 "status": "fallback",
-                "detail": "Belmond will still do the Splendido and Splendido Mare visits if you go. Andrea asked for a separate email if you are going ahead."
-              },
-              {
-                "name": "La Monastica",
-                "status": "fallback",
-                "detail": "Buggiano Castello, on the A11. Not contacted. You placed a client here."
+                "detail": "Four Seasons Milano, Bulgari, Park Hyatt, Grand Hotel et de Milan, Casa Cipriani. Book by Friday if no host answers. Milan is busy that week, do not wait."
               }
-            ],
-            "detail": "Andrea Gervasoni, September 22: a stay in Portofino over the requested dates is not possible."
+            ]
           },
           "items": [
             {
-              "time": "On the way",
-              "title": "La Monastica, Buggiano Castello",
-              "detail": "About 1 hour northwest of Florence toward Lucca, roughly on the A11 route. Placed clients here before. Never contacted. Good lunch or visit stop.",
-              "status": "suggested"
+              "time": "11:30 AM",
+              "title": "Leave San Felice for Milan",
+              "detail": "About 3 hours 45.",
+              "status": "info"
             },
             {
-              "time": "From 11:00",
-              "title": "Drive Tuscany to Portofino",
-              "detail": "About 3 hours from Castelfalfi. Arrive Portofino mid afternoon.",
+              "time": "Afternoon",
+              "title": "Check in, walk the Quadrilatero, shoot the city",
               "status": "info"
             }
           ]
         },
         {
           "date": "2026-09-30",
-          "label": "Portofino",
+          "label": "Milan visits",
           "stay": {
-            "name": "Open, Milan suggested",
+            "name": "Milan, second night",
             "status": "open",
-            "detail": "Portrait Milano and Mandarin Oriental Milan visits are offered for this day. A Milan night makes both easy."
+            "detail": "Same asks as the 29th."
           },
-          "items": []
+          "items": [
+            {
+              "time": "12:30 PM",
+              "title": "Mandarin Oriental Milan, lunch and tour with Valeria Arba",
+              "detail": "Offered September 18. Confirm the time with Valeria.",
+              "status": "pending",
+              "todo": "Confirm lunch and tour with Valeria Arba for the 30th."
+            },
+            {
+              "time": "Afternoon",
+              "title": "Portrait Milano, site visit",
+              "detail": "Ask in the nudge to Federica, visit if not a stay.",
+              "status": "suggested"
+            },
+            {
+              "time": "Late afternoon",
+              "title": "The Carlton, site visit if not the stay",
+              "status": "suggested"
+            }
+          ]
         }
       ],
       "groups": [
@@ -554,42 +571,61 @@
       "id": "lake-como",
       "name": "Lake Como",
       "dates": "October 1 to 4",
-      "strip_label": "Villa d'Este, Serbelloni, EDITION",
-      "summary": "Ideal lake: three hosted nights at Villa d'Este, Il Sereno and Villa Serbelloni. Il Sereno gets first call on the 1st if they host. Villa d'Este only if complimentary. Serbelloni is confirmed, the EDITION is the paid night that would drop if the ideal lands.",
+      "strip_label": "Serbelloni, EDITION, Villa d'Este visit",
+      "summary": "Three nights on the lake. The 1st is asked as a paid second night at Serbelloni, then the hosted 2nd, then the EDITION on the 3rd. Il Sereno is still out for the 1st. Villa d'Este is a visit on the way in.",
       "days": [
         {
           "date": "2026-10-01",
-          "label": "Cernobbio",
+          "label": "Milan to the lake, Villa d'Este visit, Bellagio",
           "stay": {
-            "name": "Il Sereno first, Villa d'Este if free",
-            "status": "pending",
-            "detail": "Priority for this night: Il Sereno if Gaia hosts. Villa d'Este only if it comes back complimentary, even if Natalia replies first. If both host, take Sereno here and see whether Este can move to the 3rd. Villa d'Este is now paid-only, so the 1st rides on Il Sereno or becomes a third Milan night.",
-            "todo": "Nudge Natalia Monday if nothing lands over the weekend. If it is a paid offer, pass.",
+            "name": "Villa Serbelloni, paid second night asked",
+            "status": "open",
             "options": [
+              {
+                "name": "Villa Serbelloni, October 1 at a discounted rate",
+                "status": "pending",
+                "detail": "Asked Cristina September 22 for a second night ahead of the hosted 2nd, same room. If yes, two nights in Bellagio and no move on the 2nd."
+              },
               {
                 "name": "Il Sereno, Torno",
                 "status": "pending",
-                "detail": "First choice. Nudged Gaia Rosetti (DOSM) September 18: hosted night October 1 or 3, otherwise a site visit. Torno is 20 minutes east of Como, on the way in from Portofino."
+                "detail": "Hosted ask from the 14th, nudged the 18th, no reply. Would beat a paid Serbelloni night."
               },
               {
-                "name": "Villa d'Este, Cernobbio",
+                "name": "EDITION, October 1 to 3, with Serbelloni moved to the 3rd",
+                "status": "fallback",
+                "detail": "Plan B if Serbelloni cannot do the 1st. Two paid EDITION nights at the 400 euro rate, and a re-ask to move the hosted Serbelloni night from the 2nd to the 3rd."
+              },
+              {
+                "name": "Villa d'Este",
                 "status": "ruled_out",
-                "detail": "Laura Buzzi, September 22: Classic Double courtyard view at 1,190 euros net for the 1st, or Palazzo Venezia in Como at 910. Passing per your rule, only if hosted. Reply drafted declining the rate and asking for a site visit on the 1st or 2nd instead."
+                "detail": "Paid only, 1,190 euros. Declined, visit asked instead."
               }
             ]
           },
           "items": [
             {
-              "time": "From 11:00",
-              "title": "Drive Portofino to Cernobbio",
-              "detail": "About 2 hours 45. Il Sereno in Torno around 2:00 PM on the way in, Cernobbio by 3:30.",
+              "time": "11:00 AM",
+              "title": "Leave Milan for Cernobbio",
+              "detail": "About 1 hour.",
               "status": "info"
             },
             {
-              "time": "On the way in",
-              "title": "Il Sereno, Torno: hosted night or site visit",
-              "detail": "Depends on Gaia's reply. If it is a visit, do it before checking in at Villa d'Este, Torno is just across the bottom of the lake from Cernobbio.",
+              "time": "12:00 PM",
+              "title": "Villa d'Este, site visit",
+              "detail": "Asked Laura Buzzi September 22 for midday on the 1st on the way to Bellagio, the 2nd as the alternative. Rooms, gardens, Sporting Club.",
               "status": "pending"
+            },
+            {
+              "time": "2:00 PM",
+              "title": "Cernobbio to Bellagio",
+              "detail": "About 1 hour 15 by car around via Como and the east shore, or the west shore and the Cadenabbia car ferry.",
+              "status": "info"
+            },
+            {
+              "time": "3:30 PM",
+              "title": "Check in, Bellagio",
+              "status": "info"
             }
           ]
         },
@@ -1150,10 +1186,14 @@
     {
       "title": "Before you fly, Monday",
       "items": [
-        "Belmond: decide the 29th and 30th, Milan or Portofino paid, and tell Andrea in a separate email whether the Portofino visits happen",
-        "San Felice: answer Zaira, the 29th instead of the 28th is the ask that keeps Castelfalfi whole",
-        "Villa d'Este: send the decline and visit ask to Laura (draft ready)",
-        "Rocco Forte: send the de Russie visit proposal to Andrea Ercoli, the 13th at 11:00 (draft ready)",
+        "San Felice: send Zaira the acceptance for the 28th (draft ready)",
+        "Castelfalfi: send Sara the release of the 28th, keep the 27th (draft ready)",
+        "Serbelloni: send Cristina the paid second night ask for the 1st (draft ready)",
+        "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
+        "Rocco Forte: send Andrea Ercoli the de Russie visit and The Carlton ask for Milan (draft ready)",
+        "Portrait Milano: send Federica the nudge (draft ready)",
+        "Belmond: tell Andrea in a separate email that Portofino is off this trip, Casole and San Michele stand",
+        "Milan: if no host by Friday, book two nights through Fora",
         "Gala group: send Gaia the two visit times, Tremezzo 3:00 on the 3rd, Passalacqua 11:30 on the 4th (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Avis: pickup to 12:00 on the 25th, drop extended to October 11"
@@ -1189,6 +1229,8 @@
       "title": "Waiting on, no reply at all",
       "items": [
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
+        "Serbelloni / Cristina: paid second night on the 1st, asked the 22nd",
+        "The Carlton / Andrea Ercoli and Portrait Milano / Federica: Milan September 29 to October 1",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Monteverdi / Peggy: reviewing the 9th, will revert, replied the 21st",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
@@ -1207,7 +1249,7 @@
     {
       "title": "Answered, action on your side",
       "items": [
-        "Borgo San Felice: one hosted night offered, the 28th, decide",
+        "Borgo San Felice: hosted night on the 28th, accepting",
         "Villa d'Este: paid rate offered for the 1st, 1,190 euros, passing, visit asked",
         "Rocco Forte Rome: no stay, site visit offered, 13th at 11:00 proposed",
         "Belmond Portofino: no hosted night, visits still offered if you go",
@@ -1217,15 +1259,13 @@
         "Il Pellicano: the 10th at 830 euros stands, two nights priced at 1,200 a night, answer by Wednesday",
         "Villa La Massa: 10:30 on the 25th offered, paused on your side",
         "Castelfalfi: booking confirmed, they want ETA and dietary notes",
-        "Il Borro: tasting and lunch offered, the 28th",
-        "Portrait Milano: visit offered, rate declined",
-        "Mandarin Oriental Milan: lunch and tour with Valeria Arba offered",
         "Il San Pietro: visit agreed, needs a time",
         "Six Senses Rome: visit and spa day, touch base a week out",
         "Borgo Pignano Volterra: confirmed, wants your ETA (Florence is done)",
         "Belmond: Casole 3:30 on the 27th agreed, San Michele countered to 2:30 on the 25th, Portofino hosted night asked",
         "Reschio: visit and lunch offered, paid rate declined, no longer fits the routing",
-        "La Posta Vecchia: visit offered, parked"
+        "La Posta Vecchia: visit offered, parked",
+        "Mandarin Oriental Milan: blackout for hosting, lunch and tour with Valeria Arba on the 30th"
       ]
     },
     {
@@ -1261,11 +1301,6 @@
       "name": "Orient Express La Minerva",
       "amount": 670,
       "note": "one paid night, the other comped"
-    },
-    {
-      "name": "Castelfalfi",
-      "amount": 550,
-      "note": "one paid night, the other hosted"
     },
     {
       "name": "Porto Ercole",
