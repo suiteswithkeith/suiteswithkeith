@@ -522,6 +522,12 @@
           },
           "items": [
             {
+              "time": "Optional",
+              "title": "Splendido and Splendido Mare, Portofino, on the way north",
+              "detail": "Portovenere to Portofino about 1 hour 45, then Portofino to Modena about 3 hours. Belmond will still do both visits if you go. A long day, your call, and it needs a separate email to Andrea either way.",
+              "status": "suggested"
+            },
+            {
               "time": "Afternoon",
               "title": "Arrive Modena, shoot the house",
               "status": "info"
@@ -947,10 +953,9 @@
           "date": "2026-10-10",
           "label": "Pellicano visit, coast to Rome",
           "stay": {
-            "name": "Orient Express La Minerva, third night asked",
-            "status": "pending",
-            "detail": "Asked Egle September 22 to add the 10th to the 11 to 13 booking, same room, paid night rate or better. If no, Bulgari or J.K. Place get a hosting ask, Hassler as the paid fallback.",
-            "todo": "Send Egle the extension ask (draft ready)."
+            "name": "Rome, third night, undecided",
+            "status": "open",
+            "detail": "La Minerva extension drafted to Egle but not sent, you want to think about it. Alternatives: Bulgari or J.K. Place hosting ask, Hassler paid. The car still goes back at Fiumicino on the 10th either way."
           },
           "items": [
             {
@@ -1139,7 +1144,7 @@
       "title": "Before you fly, Monday",
       "items": [
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
-        "La Minerva: send Egle the third-night ask for the 10th (draft ready)",
+        "La Minerva: third-night ask to Egle drafted, on hold while you decide the Rome night of the 10th",
         "Villa Treville: send Daniela the decline and the 12:30 visit on the 14th (draft ready)",
         "Portovenere: send Rachele the hosting ask, add your signature (draft ready)",
         "Il Borro: hold the Kaoutar draft a day, send only if Portovenere is a no",
@@ -1183,7 +1188,6 @@
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
         "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
         "Grand Hotel Portovenere / Rachele Belladelli: hosted night on the 29th, asked the 22nd",
-        "La Minerva / Egle: third night on the 10th, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Monteverdi / Peggy: reviewing the 9th, now a decline if offered, visit next trip",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
