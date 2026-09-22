@@ -465,80 +465,67 @@
     },
     {
       "id": "portofino",
-      "name": "Milan",
+      "name": "Emilia",
       "dates": "September 29 to October 1",
-      "strip_label": "Milan, two nights, asks out",
-      "summary": "Two nights in Milan instead of Portofino. Mandarin Oriental said the dates are blackout for hosting, lunch and a tour with Valeria Arba instead. Portrait Milano offered only a 2,080 euro rate, visit instead. The Carlton is asked today through Andrea Ercoli. Paid through Fora if nothing lands, book by Friday, the city is busy that week.",
-      "drive": "Chianti to Milan about 3 hours 45 on the A1. Milan to Cernobbio about 1 hour, then around to Bellagio about 1 hour 15.",
+      "strip_label": "Bologna hills, then Modena",
+      "summary": "Milan is out, the rates that week are silly. The straight line from Chianti to Como runs through Emilia instead: the Bologna hills or Reschio on the 29th, Casa Maria Luigia in Modena on the 30th, which has the night open, then Villa d'Este on the way to Bellagio on the 1st.",
+      "drive": "San Felice to Varignana about 1 hour 45, to Reschio 1 hour 15. Varignana to Modena 45 minutes, Reschio to Modena 2 hours 45. Modena to Cernobbio about 2 hours 30.",
       "days": [
         {
           "date": "2026-09-29",
-          "label": "Chianti to Milan",
+          "label": "Chianti north, Bologna hills",
           "stay": {
-            "name": "Milan, open",
+            "name": "Open, two asks out",
             "status": "open",
             "options": [
               {
-                "name": "The Carlton (Rocco Forte)",
+                "name": "Palazzo di Varignana, Bologna hills",
                 "status": "pending",
-                "detail": "Asked Andrea Ercoli September 22 for one or both nights, in the same reply as the Rome visit. Cristina Frazzingaro never answered the September 16 ask."
+                "detail": "Asked September 22 through the booking inbox for a hosted night, visit and lunch as the fallback. Estate, spa, wine and oil. 45 minutes to Modena the next morning."
               },
               {
-                "name": "Portrait Milano (Lungarno)",
-                "status": "ruled_out",
-                "detail": "Sofia Ligresti for Federica, September 16: no hosted stay, industry rate of 2,080 euros plus VAT for the 30th, non-commissionable. Passing. Site inspection offered instead, reply drafted for 3:00 on the 30th."
+                "name": "Reschio, if Florian hosts",
+                "status": "pending",
+                "detail": "Hosted-only ask sent September 22 for the 29th, the lunch on the 10th dropped. 1 hour 15 from San Felice, 2 hours 45 to Modena on the 30th. Paid at their rate is a no."
               },
               {
-                "name": "Mandarin Oriental Milan",
-                "status": "ruled_out",
-                "detail": "Carmela Piazza, September 18: blackout dates, events in town. Valeria Arba (DOS) offered lunch and a tour instead."
-              },
-              {
-                "name": "Paid through Fora",
+                "name": "Bologna, paid",
                 "status": "fallback",
-                "detail": "Four Seasons Milano, Bulgari, Park Hyatt, Grand Hotel et de Milan, Casa Cipriani. Book by Friday if no host answers. Milan is busy that week, do not wait."
+                "detail": "Grand Hotel Majestic or similar through Fora if neither hosts. A fraction of a Milan night."
               }
             ]
           },
           "items": [
             {
               "time": "11:30 AM",
-              "title": "Leave San Felice for Milan",
-              "detail": "About 3 hours 45.",
+              "title": "Leave San Felice",
               "status": "info"
             },
             {
               "time": "Afternoon",
-              "title": "Check in, walk the Quadrilatero, shoot the city",
+              "title": "Arrive, tour, settle",
               "status": "info"
             }
           ]
         },
         {
           "date": "2026-09-30",
-          "label": "Milan visits",
+          "label": "Modena, Casa Maria Luigia",
           "stay": {
-            "name": "Milan, second night",
-            "status": "open",
-            "detail": "Same asks as the 29th."
+            "name": "Casa Maria Luigia, Modena",
+            "status": "pending",
+            "detail": "Bottura's twelve-room guesthouse. Their calendar shows the 30th open and the 29th closed. Asked September 22 through the general inbox for a hosted night with a paid night as the fallback, and you said you will take the room either way. Al Gatto Verde for dinner, the acetaia in the morning.",
+            "todo": "Send the Casa Maria Luigia ask, add your signature (draft ready)."
           },
           "items": [
             {
-              "time": "12:30 PM",
-              "title": "Mandarin Oriental Milan, lunch and tour with Valeria Arba",
-              "detail": "Offered September 18. Confirm the time with Valeria.",
-              "status": "pending",
-              "todo": "Confirm lunch and tour with Valeria Arba for the 30th."
+              "time": "Afternoon",
+              "title": "Arrive Modena, shoot the house",
+              "status": "info"
             },
             {
-              "time": "3:00 PM",
-              "title": "Portrait Milano, site visit",
-              "detail": "Proposed to Sofia Ligresti September 22, rooms, garden, Longevity Spa.",
-              "status": "pending"
-            },
-            {
-              "time": "Late afternoon",
-              "title": "The Carlton, site visit if not the stay",
+              "time": "Evening",
+              "title": "Dinner at Al Gatto Verde, if they can seat you",
               "status": "suggested"
             }
           ]
@@ -576,7 +563,7 @@
       "days": [
         {
           "date": "2026-10-01",
-          "label": "Milan to the lake, Villa d'Este visit, Bellagio",
+          "label": "Modena to the lake, Villa d'Este visit, Bellagio",
           "stay": {
             "name": "Villa Serbelloni, paid second night asked",
             "status": "open",
@@ -605,25 +592,25 @@
           },
           "items": [
             {
-              "time": "11:00 AM",
-              "title": "Leave Milan for Cernobbio",
-              "detail": "About 1 hour.",
+              "time": "10:30 AM",
+              "title": "Acetaia visit, then leave Modena for Cernobbio",
+              "detail": "About 2 hours 30.",
               "status": "info"
             },
             {
-              "time": "12:00 PM",
+              "time": "1:30 PM",
               "title": "Villa d'Este, site visit",
-              "detail": "Asked Laura Buzzi September 22 for midday on the 1st on the way to Bellagio, the 2nd as the alternative. Rooms, gardens, Sporting Club.",
+              "detail": "Asked Laura Buzzi September 22 for midday on the 1st on the way to Bellagio, the 2nd as the alternative. From Modena it is closer to 1:30, tell her when she confirms. Rooms, gardens, Sporting Club.",
               "status": "pending"
             },
             {
-              "time": "2:00 PM",
+              "time": "3:00 PM",
               "title": "Cernobbio to Bellagio",
               "detail": "About 1 hour 15 by car around via Como and the east shore, or the west shore and the Cadenabbia car ferry.",
               "status": "info"
             },
             {
-              "time": "3:30 PM",
+              "time": "4:30 PM",
               "title": "Check in, Bellagio",
               "status": "info"
             }
@@ -1186,14 +1173,16 @@
     {
       "title": "Before you fly, Monday",
       "items": [
+        "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
+        "Palazzo di Varignana: send the ask to the booking inbox (draft ready)",
+        "Reschio: send Florian the hosted-only note for the 29th (draft ready)",
+        "Rocco Forte: send Andrea Ercoli the de Russie visit reply; the Carlton paragraph can stay as a next-trip line or come out (draft ready)",
+        "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
         "San Felice: send Zaira the acceptance for the 28th (draft ready)",
         "Castelfalfi: send Sara the release of the 28th, keep the 27th (draft ready)",
         "Serbelloni: send Cristina the paid second night ask for the 1st (draft ready)",
         "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
-        "Rocco Forte: send Andrea Ercoli the de Russie visit and The Carlton ask for Milan (draft ready)",
-        "Portrait Milano: send Sofia the decline and the 3:00 visit on the 30th (draft ready)",
         "Belmond: tell Andrea in a separate email that Portofino is off this trip, Casole and San Michele stand",
-        "Milan: if no host by Friday, book two nights through Fora",
         "Gala group: send Gaia the two visit times, Tremezzo 3:00 on the 3rd, Passalacqua 11:30 on the 4th (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Avis: pickup to 12:00 on the 25th, drop extended to October 11"
@@ -1229,8 +1218,10 @@
       "title": "Waiting on, no reply at all",
       "items": [
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
+        "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
+        "Palazzo di Varignana: hosted night on the 29th, asked the 22nd",
+        "Reschio / Florian: hosted night on the 29th, asked the 22nd",
         "Serbelloni / Cristina: paid second night on the 1st, asked the 22nd",
-        "The Carlton / Andrea Ercoli: Milan September 29 to October 1, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Monteverdi / Peggy: reviewing the 9th, will revert, replied the 21st",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
@@ -1279,7 +1270,6 @@
         "Casa Angelina",
         "Caruso",
         "Grand Hotel Victoria, Menaggio",
-        "Casa Maria Luigia",
         "Bulgari Roma",
         "Hotel Vilòn",
         "J.K. Place Roma",
