@@ -901,37 +901,43 @@
       "days": [
         {
           "date": "2026-10-09",
-          "label": "Rosewood lunch, Banfi, Monteverdi",
+          "label": "Rosewood, Banfi, Monteverdi by 4:15",
           "stay": {
             "name": "Monteverdi Tuscany, Castiglioncello del Trinoro",
             "status": "confirmed",
-            "detail": "Confirmed by Peggy Picano-Nacci September 22: one night on the 9th, complimentary B&B, plus the Chef's Table dinner, a welcome aperitivo and the spa circuit. Lucia Testa in Reservations looks after the stay, concierge copied. Acceptance drafted with a 5:45 arrival and the nut allergy. Booking confirmation to follow.",
+            "detail": "Confirmed by Peggy Picano-Nacci September 22: one night on the 9th, complimentary B&B, plus the Chef's Table dinner, a welcome aperitivo and the spa circuit. Lucia Testa in Reservations looks after the stay, concierge copied. Acceptance drafted with a 4:15 arrival so the spa comes before the aperitivo, and the nut allergy. Booking confirmation to follow.",
             "todo": "Send Peggy the acceptance (draft ready)."
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Gym, breakfast, out by 12:00",
+              "time": "10:00 AM",
+              "title": "Leave the base, 45 minutes to Castiglion del Bosco",
+              "detail": "The one morning you leave before 11, by your own choice, to get the spa in at Monteverdi.",
               "status": "info"
             },
             {
-              "time": "12:30 PM",
-              "title": "Rosewood Castiglion del Bosco, lunch and the estate tour",
-              "detail": "Confirmed by Francesca Liguori September 21: lunch at 12:30, site inspection straight after, rooms and villas availability permitting, sales team hosting. Self-driving, one-line reply owed (draft ready). Poggio to Castiglion del Bosco about 45 minutes, out by 11:30.",
-              "status": "confirmed",
-              "todo": "Tell Francesca you are self-driving (draft ready)."
+              "time": "11:00 AM",
+              "title": "Rosewood Castiglion del Bosco, tour first, then lunch",
+              "detail": "Francesca confirmed lunch at 12:30 then the tour. Asked September 22 to flip it: tour at 11:00, lunch about 12:15, away by 1:30. Self-driving. Draft ready.",
+              "status": "pending",
+              "todo": "Send Francesca the reorder, tour at 11:00 then lunch (draft ready)."
+            },
+            {
+              "time": "2:00 PM",
+              "title": "Castello Banfi Il Borgo, site inspection and tasting",
+              "detail": "Maddalena confirmed 3:00 on the 21st, no cellar tour. Asked September 22 for 2:00 instead. About 25 minutes south of Rosewood. Draft ready.",
+              "status": "pending",
+              "todo": "Send Maddalena the 2:00 confirmation (draft ready)."
             },
             {
               "time": "3:00 PM",
-              "title": "Castello Banfi Il Borgo, site inspection and tasting",
-              "detail": "Maddalena confirmed September 21: site inspection and wine tasting at 3:00 PM, no cellar tour that afternoon. About 25 minutes south of Rosewood. Reply held on purpose: send her a short confirmation around October 4 once the trip has settled. Banfi to Porto Ercole about 1 hour 30, on the coast by 6:15.",
-              "status": "pending",
-              "todo": "Confirm 3:00 with Maddalena around October 4."
+              "title": "Banfi to Monteverdi",
+              "detail": "About 1 hour 15 east.",
+              "status": "info"
             },
             {
-              "time": "4:30 PM",
-              "title": "Banfi to Monteverdi",
-              "detail": "About 1 hour 15 east. Arrive for the light over the valley, aperitivo, Chef's Table.",
+              "time": "4:15 PM",
+              "title": "Monteverdi: spa circuit, the light over the valley, aperitivo, Chef's Table",
               "status": "info"
             }
           ]
@@ -1163,6 +1169,8 @@
     {
       "title": "Before you fly, Monday",
       "items": [
+        "Rosewood: send Francesca the reorder for the 9th, tour at 11:00 then lunch (draft ready)",
+        "Banfi: send Maddalena 2:00 on the 9th (draft ready)",
         "Monteverdi: send Peggy the acceptance, 5:45 arrival, nut allergy (draft ready)",
         "Gala group: send Gaia the boat-day times, Passalacqua 11:00 and Tremezzo 12:45 on the 2nd (draft ready)",
         "Sunrise Sorrento: send Teresa the two boat days, Naples to Positano on the 13th, the hotel hop on the 14th (draft ready)",
@@ -1191,7 +1199,6 @@
         "Forestis and COMO Alpina: tell them a friend may join, second guest in the room",
         "Villa La Massa: paused. Send Laura a short note by Wednesday, thanks and a next-trip line, or accept 10:30 if you change your mind",
         "Belmond: waiting on Andrea for the Portofino hosted night and the San Michele 11:30 time, asked the 21st",
-        "Banfi: waiting on Maddalena for the visit and tasting on the 9th, asked the 21st",
         "Reschio: warm next-trip note to Florian, the routing pulled you to the coast",
         "Santo Pietro: waiting on Arianna for the 12:00 visit and lunch on the 28th, asked the 20th",
         "Il Borro: reply to Federico once San Felice answers, confirm the 28th lunch or decline",
@@ -1236,8 +1243,8 @@
         "Villa d'Este: paid rate offered for the 1st, 1,190 euros, passing, visit asked",
         "Rocco Forte Rome: no stay, site visit offered, 13th at 11:00 proposed",
         "Belmond Portofino: no hosted night, visits still offered if you go",
-        "Rosewood: lunch 12:30 and tour on the 9th confirmed both ways",
-        "Banfi: inspection and tasting 3:00 on the 9th confirmed, reply owed",
+        "Rosewood: lunch and tour on the 9th confirmed, reorder to 11:00 asked",
+        "Banfi: inspection and tasting on the 9th confirmed, 2:00 asked",
         "Il Pellicano: the 10th at 830 euros offered, deciding",
         "Villa La Massa: 10:30 on the 25th offered, paused on your side",
         "Castelfalfi: booking confirmed, they want ETA and dietary notes",
