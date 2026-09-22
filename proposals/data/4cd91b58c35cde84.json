@@ -477,6 +477,11 @@
             "status": "open",
             "options": [
               {
+                "name": "Splendido or Splendido Mare, trade rate",
+                "status": "pending",
+                "detail": "Asked Andrea Gervasoni September 22, Thomas Alderink copied for a Fora advisor rate, for one night at either property, whichever the hotels would rather fill. Splendido shows more space. Draft ready."
+              },
+              {
                 "name": "Grand Hotel Miramare, Santa Margherita Ligure",
                 "status": "todo",
                 "detail": "Ten minutes from Portofino, the classic. Ask pending your Fora contact."
@@ -490,11 +495,6 @@
                 "name": "Grand Hotel Portovenere",
                 "status": "pending",
                 "detail": "Asked Rachele Belladelli September 22. If she hosts, the 30th starts with a 1 hour 45 drive to Portofino for the visits."
-              },
-              {
-                "name": "Splendido Mare, paid",
-                "status": "fallback",
-                "detail": "One night in the village at Belmond's rate if nobody hosts. Sleeping at the property you most need to see."
               },
               {
                 "name": "Il Borro, La Monastica",
@@ -539,9 +539,8 @@
             {
               "time": "11:00 AM",
               "title": "Splendido, site visit",
-              "detail": "Belmond will do the visit if you go. Tell Andrea in a separate email that you are coming on the 30th and ask for late morning.",
-              "status": "todo",
-              "todo": "Email Andrea Gervasoni: Portofino on the 30th, Splendido and Splendido Mare, late morning."
+              "detail": "Told Andrea you are coming on the 30th, both visits from about 11:00, in the same email as the rate ask. Draft ready.",
+              "status": "pending"
             },
             {
               "time": "12:30 PM",
@@ -1160,7 +1159,7 @@
     {
       "title": "Before you fly, Monday",
       "items": [
-        "Belmond: separate email to Andrea, coming to Portofino on the 30th for Splendido and Splendido Mare, late morning",
+        "Belmond: send Andrea the Portofino email, both visits on the 30th and a trade rate for the night of the 29th at Splendido or Splendido Mare (draft ready)",
         "Miramare and Excelsior Palace: send me the Fora contacts, asks for the 29th",
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
         "La Minerva: third-night ask to Egle drafted, on hold while you decide the Rome night of the 10th",
@@ -1201,7 +1200,7 @@
     {
       "title": "Waiting on, no reply at all",
       "items": [
-        "Borgo San Felice / Zaira: confirmation of the hosted 28th, accepted the 22nd",
+        "Belmond: Portofino visits on the 30th and a trade rate for the 29th, asked the 22nd. Sofia on San Michele at 2:30 on the 25th, Casole team on the 27th",
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
         "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
         "Grand Hotel Portovenere / Rachele Belladelli: hosted night on the 29th, asked the 22nd",
