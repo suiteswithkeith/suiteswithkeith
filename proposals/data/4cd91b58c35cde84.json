@@ -863,7 +863,7 @@
           "stay": {
             "name": "Open",
             "status": "open",
-            "detail": "Unless Miramonti hosts the 4th, which pushes Forestis to cover this night.",
+            "detail": "The one open night in the Dolomites. Unless Miramonti hosts the 4th, which pushes Forestis to cover this night.",
             "options": [
               {
                 "name": "COMO Alpina Dolomites, moved here",
@@ -903,20 +903,16 @@
         },
         {
           "date": "2026-10-07",
-          "label": "Aman, or Alpe di Siusi",
+          "label": "Alpe di Siusi, COMO Alpina",
           "stay": {
-            "name": "Aman Rosa Alpina, or COMO Alpina as booked",
-            "status": "open",
+            "name": "COMO Alpina Dolomites, Alpe di Siusi",
+            "status": "confirmed",
+            "detail": "One night complimentary B&B, October 7 to 8, confirmed with Deborah Carlin (Sales Manager), reception sending the written confirmation. The only thing that changes this is Aman.",
             "options": [
               {
-                "name": "Aman Rosa Alpina, San Cassiano, paid",
+                "name": "Aman Rosa Alpina, San Cassiano, paid, if Elisa offers a rate",
                 "status": "pending",
-                "detail": "Asked Elisa De Nicolo September 21 for a rate on the night of the 7th, the cheapest night of the month on their site at about 1,300 euros against 2,600 elsewhere. If yes, the stay replaces the visit on the 6th. Alpe di Siusi to San Cassiano about 1 hour 15 over Passo Gardena. San Cassiano to Montepulciano on the 8th about 5 hours, 20 minutes more than from Alpe di Siusi."
-              },
-              {
-                "name": "COMO Alpina Dolomites, as confirmed",
-                "status": "confirmed",
-                "detail": "1 night complimentary B&B, October 7 to 8, if Aman does not come through. Deborah Carlin (Sales Manager). Reception sending the confirmation."
+                "detail": "Asked Elisa De Nicolo September 21 for the night of the 7th, the cheapest night of the month on their site at about 1,300 euros. If yes, Alpina moves to the 6th and Aman takes the 7th. Alpe di Siusi to San Cassiano about 1 hour 15 over Passo Gardena. San Cassiano to Montepulciano on the 8th about 5 hours."
               }
             ]
           },
