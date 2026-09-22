@@ -467,31 +467,31 @@
       "id": "portofino",
       "name": "Emilia",
       "dates": "September 29 to October 1",
-      "strip_label": "Bologna hills, then Modena",
-      "summary": "Milan is out, the rates that week are silly. The straight line from Chianti to Como runs through Emilia instead: the Bologna hills or Reschio on the 29th, Casa Maria Luigia in Modena on the 30th, which has the night open, then Villa d'Este on the way to Bellagio on the 1st.",
-      "drive": "San Felice to Varignana about 1 hour 45, to Reschio 1 hour 15. Varignana to Modena 45 minutes, Reschio to Modena 2 hours 45. Modena to Cernobbio about 2 hours 30.",
+      "strip_label": "Il Borro asked, then Modena",
+      "summary": "Milan is out, the rates that week are silly. The straight line from Chianti to Como runs through the Valdarno and Emilia instead: Il Borro asked for the 29th, Casa Maria Luigia in Modena on the 30th, which has the night open, then Villa d'Este on the way to Bellagio on the 1st. Reschio is sold out and Varignana did not appeal.",
+      "drive": "San Felice to Il Borro about 45 minutes. Il Borro to Modena about 2 hours. Modena to Cernobbio about 2 hours 30.",
       "days": [
         {
           "date": "2026-09-29",
-          "label": "Chianti north, Bologna hills",
+          "label": "Chianti to the Valdarno",
           "stay": {
-            "name": "Open, two asks out",
+            "name": "Open, Il Borro asked",
             "status": "open",
             "options": [
               {
-                "name": "Palazzo di Varignana, Bologna hills",
+                "name": "Il Borro, San Giustino Valdarno",
                 "status": "pending",
-                "detail": "Asked September 22 through the booking inbox for a hosted night, visit and lunch as the fallback. Estate, spa, wine and oil. 45 minutes to Modena the next morning."
+                "detail": "Federico Caligaris Papa is on paternity leave until the 27th. Asked Kaoutar Lazrak (Sales Manager) September 22 for a hosted night on the 29th, with Federico's tasting, cellar and lunch on the 29th as the fallback. Ferragamo estate, Relais & Chateaux, 45 minutes from San Felice and on the A1 north."
               },
               {
-                "name": "Reschio, if Florian hosts",
-                "status": "pending",
-                "detail": "Hosted-only ask sent September 22 for the 29th, the lunch on the 10th dropped. 1 hour 15 from San Felice, 2 hours 45 to Modena on the 30th. Paid at their rate is a no."
+                "name": "COMO Castello del Nero, Tavarnelle",
+                "status": "suggested",
+                "detail": "You are there for lunch on the 26th. If Il Borro is a no, ask Ilaria for a hosted night on the 29th. About 2 hours 30 to Modena."
               },
               {
                 "name": "Bologna, paid",
                 "status": "fallback",
-                "detail": "Grand Hotel Majestic or similar through Fora if neither hosts. A fraction of a Milan night."
+                "detail": "Grand Hotel Majestic or similar through Fora. A fraction of a Milan night, 45 minutes from Modena."
               }
             ]
           },
@@ -502,9 +502,9 @@
               "status": "info"
             },
             {
-              "time": "Afternoon",
-              "title": "Arrive, tour, settle",
-              "status": "info"
+              "time": "12:30 PM",
+              "title": "Il Borro: check in, or the cellar, a tasting and lunch if it is a visit",
+              "status": "pending"
             }
           ]
         },
@@ -874,7 +874,7 @@
             {
               "name": "Reschio as a stay",
               "status": "ruled_out",
-              "detail": "Florian Schaible: near full, no room to host. Reservations offered Suite Castello Twin October 8 to 10 at 2,295 euros a night. No. The visit and lunch he offered on the 10th no longer fits, Reschio is 2 hours 45 from Porto Ercole. Send Florian a warm next-trip note."
+              "detail": "Sold out for the 29th too, checked September 22. Florian's visit and lunch on the 10th no longer fits the routing. Next trip."
             },
             {
               "name": "Castello di Velona",
@@ -1174,8 +1174,7 @@
       "title": "Before you fly, Monday",
       "items": [
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
-        "Palazzo di Varignana: send the ask to the booking inbox (draft ready)",
-        "Reschio: send Florian the hosted-only note for the 29th (draft ready)",
+        "Il Borro: send Kaoutar the hosted night ask for the 29th, add your signature (draft ready)",
         "Rocco Forte: send Andrea Ercoli the de Russie visit reply; the Carlton paragraph can stay as a next-trip line or come out (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
         "San Felice: send Zaira the acceptance for the 28th (draft ready)",
@@ -1219,8 +1218,7 @@
       "items": [
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
         "Casa Maria Luigia: hosted or paid night on the 30th, asked the 22nd",
-        "Palazzo di Varignana: hosted night on the 29th, asked the 22nd",
-        "Reschio / Florian: hosted night on the 29th, asked the 22nd",
+        "Il Borro / Kaoutar Lazrak: hosted night on the 29th, asked the 22nd",
         "Serbelloni / Cristina: paid second night on the 1st, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Monteverdi / Peggy: reviewing the 9th, will revert, replied the 21st",
