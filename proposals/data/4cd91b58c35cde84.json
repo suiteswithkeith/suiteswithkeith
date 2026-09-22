@@ -1053,8 +1053,7 @@
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
-            "detail": "First of two nights, October 14 to 16, double room, complimentary B&B. Offered September 21 by Valeria D'Amato on behalf of Andrew Camera (Hotel Manager), Crescenzo Gargano copied. They asked you to confirm before they enter the booking, reply drafted. Site inspection of the hotel and Casa Marchesa on the spot. You placed the Meckleys and Goffs here.",
-            "todo": "Send the confirmation reply to Valeria so the booking is entered (draft ready)."
+            "detail": "First of two nights, October 14 to 16, booking #578698902, double room single occupancy, complimentary B&B. Confirmed September 21 by Chiara at the hotel after Valeria D'Amato's offer on behalf of Andrew Camera (Hotel Manager). Nut allergy noted with the kitchen. Site inspection of the hotel and Casa Marchesa during the stay, time to be set on property. You placed the Meckleys and Goffs here."
           },
           "items": [
             {
@@ -1078,7 +1077,7 @@
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
-            "detail": "Second of two nights, October 14 to 16, double room, complimentary B&B. Offered September 21 by Valeria D'Amato on behalf of Andrew Camera (Hotel Manager), Crescenzo Gargano copied. They asked you to confirm before they enter the booking, reply drafted. Site inspection of the hotel and Casa Marchesa on the spot. You placed the Meckleys and Goffs here."
+            "detail": "Second of two nights, October 14 to 16, booking #578698902, double room single occupancy, complimentary B&B. Confirmed September 21 by Chiara at the hotel after Valeria D'Amato's offer on behalf of Andrew Camera (Hotel Manager). Nut allergy noted with the kitchen. Site inspection of the hotel and Casa Marchesa during the stay, time to be set on property. You placed the Meckleys and Goffs here."
           },
           "items": [
             {
@@ -1134,8 +1133,6 @@
       "title": "Before you fly, Monday",
       "items": [
         "Villa Serbelloni: still unsent. ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
-        "Santa Caterina: send the confirmation so they enter the booking, October 14 to 16 hosted (draft ready)",
-        "Rosewood: one line to Francesca, self-driving, no transfer (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
         "Villa Serbelloni: send the ETA reply to Cristina, about 2:30 PM on the 2nd, joining the 3:00 tour (draft ready)",
         "Avis: pickup to 12:00 on the 25th, drop extended to October 11"
@@ -1192,8 +1189,7 @@
     {
       "title": "Answered, action on your side",
       "items": [
-        "Santa Caterina: two hosted nights October 14 to 16 offered, confirm to lock",
-        "Rosewood: lunch 12:30 and tour on the 9th confirmed, self-driving reply owed",
+        "Rosewood: lunch 12:30 and tour on the 9th confirmed both ways",
         "Banfi: inspection and tasting 3:00 on the 9th confirmed, reply owed",
         "Le Sirenuse: paid proposal coming for the 13th, visit as the fallback",
         "Il Pellicano: the 10th at 830 euros stands, two nights priced at 1,200 a night, answer by Wednesday",
