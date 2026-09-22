@@ -479,7 +479,7 @@
               {
                 "name": "Splendido or Splendido Mare, trade rate",
                 "status": "pending",
-                "detail": "Asked Andrea Gervasoni September 22, Thomas Alderink copied for a Fora advisor rate, for one night at either property, whichever the hotels would rather fill. Splendido shows more space. Draft ready."
+                "detail": "Asked Andrea Gervasoni September 22, Thomas Alderink copied for a Fora advisor rate, for one night at either property, whichever the hotels would rather fill. Splendido shows more space. Sleeping here on the 29th puts the 30th's visits downstairs, no morning drive."
               },
               {
                 "name": "Grand Hotel Miramare, Santa Margherita Ligure",
@@ -520,24 +520,24 @@
           "date": "2026-09-30",
           "label": "Splendido and Splendido Mare, then sleep on the coast or Modena",
           "stay": {
-            "name": "Open, the coast or Modena",
+            "name": "Open, Modena or a second coast night",
             "status": "open",
-            "detail": "Milan is out. Both roads to Cernobbio are about 2 hours 30, so the choice is about the hotel, not the drive.",
+            "detail": "Milan is out. Modena and the coast are both about 2 hours 30 to Cernobbio, so the choice is the hotel, not the drive.",
             "options": [
-              {
-                "name": "Splendido or Splendido Mare, trade rate",
-                "status": "pending",
-                "detail": "Asked Andrea for the 29th. If a rate comes, take it for the 30th instead: you shoot the property in the evening light, sleep there, and Cernobbio is 2 hours 30 the next day. Ask him to move it when he answers."
-              },
               {
                 "name": "Casa Maria Luigia, Modena",
                 "status": "pending",
                 "detail": "Asked the general inbox September 22, hosted with a paid night as the fallback. Portofino to Modena about 3 hours, Modena to Cernobbio 2 hours 45. Only if they host."
               },
               {
-                "name": "Second night where you slept on the 29th",
-                "status": "fallback",
-                "detail": "Portovenere, or Miramare or Excelsior if those asks go out."
+                "name": "Miramare or Excelsior Palace",
+                "status": "todo",
+                "detail": "Ten to fifteen minutes from Portofino, asks pending your Fora contacts. The easy second coast night."
+              },
+              {
+                "name": "Second Splendido night",
+                "status": "suggested",
+                "detail": "If Andrea's rate stretches to two nights, stay put."
               }
             ]
           },
@@ -1187,7 +1187,6 @@
         "Lake Como, the 1st: decide Il Sereno versus Serbelloni. If Sereno, send Gaetano the acceptance and Cristina the release together (both drafts ready)",
         "Villa d'Este: send Laura the 2:00 counter for the 1st, alone (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
-        "Belmond: when Andrea answers on the rate, ask for the 30th rather than the 29th so you sleep at Splendido after the visits",
         "Monteverdi: send Peggy the acceptance, 4:15 arrival, nut allergy, and fill the pre-arrival questionnaire (draft ready)",
         "Banfi: send Maddalena 2:00 on the 9th (draft ready)",
         "Gala group: send Gaia the boat-day times, Passalacqua 11:00 and Tremezzo 12:45 on the 2nd (draft ready)",
