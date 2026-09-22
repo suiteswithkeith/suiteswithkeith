@@ -806,8 +806,8 @@
       "id": "dolomites",
       "name": "Dolomites",
       "dates": "October 4 to 8",
-      "strip_label": "Forestis, Aman visit, COMO Alpina",
-      "summary": "Forestis is confirmed for two nights and COMO Alpina for one. The ask out now is a paid night at Aman Rosa Alpina on the 7th, the cheapest night of the month there. If Elisa offers a rate, COMO Alpina moves to the 6th and the block is full. If not, the 6th stays open and the Aman visit stands.",
+      "strip_label": "Forestis, San Luis or Aman, COMO Alpina",
+      "summary": "Forestis is confirmed for two nights and COMO Alpina for the 7th. The 6th is the open night: San Luis in Avelengo is the new ask, hosted, and the Aman rate for the 7th is the other route, which would move Alpina to the 6th. Whichever comes first fills it. If neither, the Aman visit on the 6th stands and the 6th needs a paid bed.",
       "drive": "Como to the Dolomites about 3 hours.",
       "days": [
         {
@@ -865,12 +865,17 @@
         },
         {
           "date": "2026-10-06",
-          "label": "Aman, then Alpe di Siusi",
+          "label": "Aman visit, then San Luis or Alpe di Siusi",
           "stay": {
             "name": "Open",
             "status": "open",
-            "detail": "The one open night in the Dolomites. Unless Miramonti hosts the 4th, which pushes Forestis to cover this night.",
+            "detail": "The one open night in the Dolomites. San Luis is the ask, the Aman rate for the 7th is the other route, since that moves Alpina here. Unless Miramonti hosts the 4th, which pushes Forestis to cover this night.",
             "options": [
+              {
+                "name": "San Luis Retreat Hotel & Lodges, Avelengo",
+                "status": "todo",
+                "detail": "Chalets and treehouses around a private lake in the forest above Merano, same village as Miramonti. The forest Dolomites, photographs in rain. Ask drafted to the general inbox for a hosted night on the 6th, add your signature. From Aman about 2 hours west, from Forestis 1 hour 15 if you skip Aman. To Alpina on the 7th 1 hour 15. Alternative to the Aman rate for the same night, whichever comes."
+              },
               {
                 "name": "COMO Alpina Dolomites, moved here",
                 "status": "pending",
@@ -1280,6 +1285,7 @@
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
         "Mandarin Oriental Lake Como: DM the Global DOS, a visit at 11:45 on the 4th on the way out, hosted 30th only as a long shot",
         "Augustus Forte dei Marmi: hosted night on the 29th, rate as fallback, ask by email, check their closing date",
+        "San Luis: send the hosting ask for the 6th to the general inbox, add your signature (draft ready)",
         "Belmond: when Andrea answers, add the Splendido court and pro at 2:00 on the 30th",
         "Il San Pietro: confirm 11:00 on the 14th with Agostino and ask for the court",
         "Monteverdi: fill the pre-arrival questionnaire from the confirmation email",
