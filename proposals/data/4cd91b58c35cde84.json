@@ -50,7 +50,7 @@
     },
     {
       "title": "Rental car",
-      "text": "Avis #26405920US2. Fiat 600, automatic, unlimited km. Pick up Florence Vespucci (FLR) Friday September 25, booked for 9:00 AM, move to 12:00. Drop Rome Fiumicino (FCO), booked for Saturday October 10 at 12:00 PM, extend to Sunday October 11 around 1:00 PM. $1,358.61 prepaid plus the extra day. No car from October 11 onward; Arno Travel asked to help with transfers for the Amalfi leg."
+      "text": "Avis #26405920US2. Fiat 600, automatic, unlimited km. Pick up Florence Vespucci (FLR) Friday September 25, booked for 9:00 AM, move to 12:00. Drop Rome Fiumicino (FCO), booked for Saturday October 10 at 12:00 PM; stays as booked if the 10th is Rome, extends to the 11th if the 10th is the coast. $1,358.61 prepaid. Arno Travel asked to help with transfers for the Amalfi leg."
     },
     {
       "title": "Why this trip",
@@ -896,8 +896,8 @@
       "id": "rome",
       "name": "Val d'Orcia, Porto Ercole & Rome",
       "dates": "October 9 to 13",
-      "strip_label": "Monteverdi, Pellicano, La Minerva",
-      "summary": "Rosewood lunch and Banfi on the 9th, then Monteverdi, fully hosted. Il Pellicano on the 10th at the 830 euro rate Gianluca offered, the vacation night. Car back at Fiumicino on the 11th and two nights at La Minerva as booked. La Roqqa drops.",
+      "strip_label": "Monteverdi, then the 10th open",
+      "summary": "Rosewood lunch and Banfi on the 9th, then Monteverdi, fully hosted. The 10th is open until the replies land: Pellicano at 830 euros, La Roqqa if Roberta hosts, or an early Rome night. Then La Minerva as booked and the car back at Fiumicino on the 10th or 11th.",
       "days": [
         {
           "date": "2026-10-09",
@@ -938,12 +938,28 @@
         },
         {
           "date": "2026-10-10",
-          "label": "Monteverdi to Porto Ercole",
+          "label": "Monteverdi, then the 10th to decide",
           "stay": {
-            "name": "Il Pellicano, Porto Ercole",
-            "status": "pending",
-            "detail": "Junior Suite Garden View at 830 euros, breakfast and VAT included, city tax extra, the rate Gianluca offered on the 21st for the 10th alone. Acceptance drafted, arriving about 1:30, leaving for Rome on the 11th. Nothing is held until he confirms.",
-            "todo": "Send Gianluca the acceptance for the 10th (draft ready)."
+            "name": "Open, decide once replies land",
+            "status": "open",
+            "options": [
+              {
+                "name": "Il Pellicano, 830 euros",
+                "status": "pending",
+                "detail": "Gianluca's offer for the 10th alone. Acceptance drafted, not sent. Monteverdi to Porto Ercole about 2 hours, Pellicano to Fiumicino 1 hour 45 on the 11th."
+              },
+              {
+                "name": "La Roqqa, if Roberta hosts",
+                "status": "pending",
+                "detail": "Asked the 21st, no reply. Five minutes from Pellicano, which could then be a visit."
+              },
+              {
+                "name": "Rome a night early",
+                "status": "fallback",
+                "detail": "La Minerva third night, Egle draft on hold, or Bulgari, J.K. Place, Hassler. Monteverdi to Fiumicino about 2 hours, car back on the 10th as booked."
+              }
+            ],
+            "detail": "Your call once La Roqqa and anything else answers. The Avis drop stays on the 10th at noon until it is decided, then moves or extends."
           },
           "items": [
             {
@@ -952,16 +968,15 @@
               "status": "info"
             },
             {
-              "time": "1:30 PM",
-              "title": "Arrive Il Pellicano, the whole afternoon",
-              "detail": "About 2 hours via Grosseto. Pool, the rocks, rooms, the terrace at sunset. Nothing else scheduled.",
+              "time": "Afternoon",
+              "title": "Coast or Rome, depending on the 10th",
               "status": "info"
             }
           ]
         },
         {
           "date": "2026-10-11",
-          "label": "Coast to Rome",
+          "label": "Into Rome",
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "confirmed",
@@ -969,22 +984,15 @@
           },
           "items": [
             {
-              "time": "11:00 AM",
-              "title": "Leave Pellicano",
-              "detail": "About 1 hour 45 to Fiumicino down the coast.",
+              "time": "Day",
+              "title": "Arrive La Minerva from the coast or already in Rome",
+              "detail": "If the 10th is the coast, the car drops at Fiumicino on the 11th and Avis extends a day. If Rome, you are already there.",
               "status": "info"
-            },
-            {
-              "time": "1:00 PM",
-              "title": "Drop the car at Fiumicino, into La Minerva",
-              "detail": "Avis is booked to drop on the 10th at noon. Extend one day in the app, drop on the 11th around 1:00. Taxi or train into the centre.",
-              "status": "todo",
-              "todo": "Extend the Avis rental to October 11 and set the drop for about 1:00."
             },
             {
               "time": "Parked",
               "title": "La Posta Vecchia",
-              "detail": "Gianluca offered a visit. Passed in the acceptance, next trip.",
+              "detail": "Gianluca offered a visit. Parked.",
               "status": "suggested"
             }
           ]
@@ -1156,26 +1164,25 @@
       "title": "Before you fly, Monday",
       "items": [
         "Monteverdi: send Peggy the acceptance, 5:45 arrival, nut allergy (draft ready)",
-        "Pellicano: send Gianluca the acceptance for the 10th at 830 euros (draft ready)",
         "Gala group: send Gaia the boat-day times, Passalacqua 11:00 and Tremezzo 12:45 on the 2nd (draft ready)",
         "Sunrise Sorrento: send Teresa the two boat days, Naples to Positano on the 13th, the hotel hop on the 14th (draft ready)",
         "Belmond: send Andrea the Portofino email, both visits on the 30th and a trade rate for the night of the 29th at Splendido or Splendido Mare (draft ready)",
         "Miramare and Excelsior Palace: send me the Fora contacts, asks for the 29th",
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
-        "La Minerva: third night dropped, Rome stays two nights",
         "Villa Treville: send Daniela the thanks and the site visit ask, timing to follow (draft ready)",
         "Portovenere: send Rachele the hosting ask, add your signature (draft ready)",
         "Rocco Forte: send Andrea Ercoli the de Russie visit reply, the 12th at 11:00 (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
         "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
         "Return flight: send the award confirmation for October 16 so the page can carry the times",
-        "Avis: pickup to 12:00 on the 25th, drop extended to October 11 around 1:00"
+        "Avis: pickup to 12:00 on the 25th now; the drop waits on the 10th decision"
       ]
     },
     {
       "title": "This week",
       "start": 10,
       "items": [
+        "The 10th: decide once La Roqqa and the rest answer. Pellicano acceptance and La Minerva extension both sit in drafts, send one",
         "Il San Pietro tennis on the 14th: ask Agostino for the court when you confirm 11:00, then give Treville a time or a next-trip note",
         "Sirenuse tennis on the morning of the 14th: book it if you can, then give Treville a time or a next-trip note",
         "Castelfalfi ETA, Volterra ETA to Giuliana, Il San Pietro time to Agostino: all low stakes, send from the road",
@@ -1216,7 +1223,7 @@
         "Borgo Santandrea: visit ask pending",
         "Lupaia: move to the evening of the 8th, asked the 21st",
         "Sunrise Sorrento / Teresa: two boat days, the 13th and 14th, asked the 22nd",
-        "La Roqqa / Roberta Davanzo: asked the 21st, no longer needed, close when she answers"
+        "La Roqqa / Roberta Davanzo: hosted night on the 9th or 10th, asked the 21st"
       ]
     },
     {
@@ -1231,7 +1238,7 @@
         "Belmond Portofino: no hosted night, visits still offered if you go",
         "Rosewood: lunch 12:30 and tour on the 9th confirmed both ways",
         "Banfi: inspection and tasting 3:00 on the 9th confirmed, reply owed",
-        "Il Pellicano: the 10th at 830 euros, accepting",
+        "Il Pellicano: the 10th at 830 euros offered, deciding",
         "Villa La Massa: 10:30 on the 25th offered, paused on your side",
         "Castelfalfi: booking confirmed, they want ETA and dietary notes",
         "Il San Pietro: visit agreed, needs a time",
@@ -1284,9 +1291,9 @@
       "note": "one night, the 13th"
     },
     {
-      "name": "Il Pellicano",
-      "amount": 830,
-      "note": "the 10th, Junior Suite Garden View"
+      "name": "The 10th",
+      "amount": 0,
+      "note": "Pellicano at 830 if chosen, otherwise a Rome night or La Roqqa hosted"
     }
   ]
 }
