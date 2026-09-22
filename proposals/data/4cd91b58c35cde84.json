@@ -1003,7 +1003,7 @@
       "name": "Val d'Orcia, Porto Ercole & Rome",
       "dates": "October 9 to 13",
       "strip_label": "Monteverdi, then the 10th open",
-      "summary": "Rosewood, Banfi and Monteverdi on the 9th, fully hosted. The 10th is open until the replies land: Hotel Eden hosted if the Dorchester story lands, La Roqqa if Roberta hosts, Pellicano at 830, or an early Rome night. Then La Minerva as booked and the car back at Fiumicino on the 10th or 11th.",
+      "summary": "Rosewood, Banfi and Monteverdi on the 9th, fully hosted. The 10th is open until the replies land: Hotel Eden for two hosted nights if the Dorchester story lands, which would make La Minerva the comped 12th only, or La Roqqa, Pellicano at 830, or an early Rome night. Then La Minerva as booked and the car back at Fiumicino on the 10th or 11th.",
       "days": [
         {
           "date": "2026-10-09",
@@ -1054,9 +1054,9 @@
             "status": "open",
             "options": [
               {
-                "name": "Hotel Eden, Rome, hosted",
+                "name": "Hotel Eden, Rome, hosted, two nights",
                 "status": "todo",
-                "detail": "Dorchester Collection, and you just placed the Sherwanis at Le Meurice and The Beverly Hills Hotel. Two drafts ready: an intro ask to Pascal Billard at Le Meurice, and the direct ask to the Eden for the night of the 10th, visit as the fallback. If Eden hosts, the 10th is Rome, the car drops at Fiumicino on the 10th as booked, and Pellicano is not needed. Three Rome nights in three hotels."
+                "detail": "Dorchester Collection, and you just placed the Sherwanis at Le Meurice and The Beverly Hills Hotel. Two drafts ready: an intro ask to Pascal Billard at Le Meurice, and the direct ask to the Eden for October 10 to 12, one night as the fallback, visit after that. If Eden hosts two nights, La Minerva becomes the comped 12th only and the 670 paid night goes, which is a word with Egle at Eccellenze once Eden answers. Three Rome nights, all hosted."
               },
               {
                 "name": "Il Pellicano, 830 euros",
@@ -1101,7 +1101,14 @@
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "confirmed",
-            "detail": "Confirmed, the hosted night. Egle Antanaityte: 1 night complimentary plus 1 at 670 euros including VAT and breakfast, October 11 to 13. Two Rome nights, the third-night idea is dropped."
+            "detail": "Confirmed as booked, the hosted night. Egle Antanaityte: 1 night complimentary plus 1 at 670 euros, October 11 to 13. If Eden hosts October 10 to 12, ask Egle in person at Eccellenze to move the comped night to the 12th and drop the paid one. Until Eden answers this stays as it is.",
+            "options": [
+              {
+                "name": "Hotel Eden, night two, if they host",
+                "status": "todo",
+                "detail": "Then La Minerva moves to the 12th only."
+              }
+            ]
           },
           "items": [
             {
@@ -1124,7 +1131,7 @@
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "paid",
-            "detail": "The paid night, 670 euros including VAT and breakfast."
+            "detail": "The paid night, 670 euros including VAT and breakfast, as booked. Becomes the comped night if Eden takes the 10th and 11th and Egle agrees to the move."
           },
           "items": [
             {
@@ -1285,7 +1292,7 @@
       "title": "Today, from Florence",
       "items": [
         "Villa d'Este: send Laura the 2:00 counter for the 1st, alone, courts on the tour (draft ready)",
-        "Hotel Eden: send Pascal Billard the intro ask and the Eden the hosting ask for the 10th, add your signature (both drafts ready). Check the Eden address before sending",
+        "Hotel Eden: send Pascal Billard the intro ask and the Eden the hosting ask for October 10 to 12, add your signature (both drafts ready). Check the Eden address before sending",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
         "Mandarin Oriental Lake Como: DM the Global DOS, a visit at 11:45 on the 4th on the way out, hosted 30th only as a long shot",
         "Augustus Forte dei Marmi: hosted night on the 29th, rate as fallback, ask by email, check their closing date",
@@ -1304,6 +1311,7 @@
       "start": 10,
       "items": [
         "The 10th: decide once La Roqqa and the rest answer. Pellicano acceptance and La Minerva extension both sit in drafts, send one",
+        "Egle at Eccellenze: if Eden hosts two nights, ask her to move La Minerva to the comped 12th only",
         "EDITION on the 3rd: free cancellation ends September 26. Keep it unless the lake changes again",
         "Il San Pietro tennis on the 14th: ask Agostino for the court when you confirm 11:00, then give Treville a time or a next-trip note",
         "Castelfalfi ETA, Volterra ETA to Giuliana, Il San Pietro time to Agostino: all low stakes, send from the road",
@@ -1398,7 +1406,7 @@
     {
       "name": "Orient Express La Minerva",
       "amount": 670,
-      "note": "one paid night, the other comped"
+      "note": "one paid night, the other comped. Goes to zero if Eden hosts the 10th and 11th and Egle moves the comp to the 12th"
     },
     {
       "name": "Le Sirenuse",
