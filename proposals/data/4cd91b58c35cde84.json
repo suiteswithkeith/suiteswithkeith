@@ -1054,29 +1054,17 @@
       "id": "amalfi",
       "name": "Amalfi Coast",
       "dates": "October 13 to 16",
-      "strip_label": "Positano, then Santa Caterina",
-      "summary": "Positano for one night, Sirenuse proposal or Treville, Il San Pietro to see. Then two hosted nights at Santa Caterina in Amalfi, confirmed on the 21st. Depart Naples on the 16th.",
+      "strip_label": "Sirenuse, then Santa Caterina",
+      "summary": "Le Sirenuse for one paid night on the 13th at 600 euros, Il San Pietro to see on the 14th, then two hosted nights at Santa Caterina in Amalfi. Depart Naples on the 16th. Every night on the coast is now booked.",
       "drive": "Rome to Positano about 3 hours. No car from October 10, Arno Travel asked to help with transfers for this leg.",
       "days": [
         {
           "date": "2026-10-13",
-          "label": "Positano",
+          "label": "Rome to Positano, Le Sirenuse",
           "stay": {
-            "name": "Positano: Le Sirenuse or Villa Treville",
-            "status": "pending",
-            "detail": "Two asks for the same night.",
-            "options": [
-              {
-                "name": "Le Sirenuse, Positano",
-                "status": "pending",
-                "detail": "Leeann Pisacane (DOS North America) September 21: peak season runs through mid October, the team on property will send a proposal for the night of the 13th. If the rate does not suit, they will arrange a site tour on the 13th or 14th. You replied the same day. Waiting on the proposal."
-              },
-              {
-                "name": "Villa Treville, Positano",
-                "status": "pending",
-                "detail": "Daniela Barba (Sales & Marketing Manager). Asked September 20 to host the 13th, or a visit. No reply yet. Five minutes east of town, beside Il San Pietro."
-              }
-            ]
+            "name": "Le Sirenuse, Positano",
+            "status": "paid",
+            "detail": "Confirmed September 22 at 600 euros, the property team's proposal after Leeann Pisacane's note that peak season runs to mid October. Sersale family, Franco's Bar, La Sponda. Villa Treville drops to a visit ask next door."
           },
           "items": [
             {
@@ -1088,7 +1076,7 @@
             {
               "time": "12:30 PM",
               "title": "Transfer Rome to Positano",
-              "detail": "About 3 hours. Arno asked to help. Positano by mid afternoon.",
+              "detail": "About 3 hours. Arno asked to help. Positano by mid afternoon, check in at Le Sirenuse.",
               "status": "todo"
             }
           ]
@@ -1108,6 +1096,12 @@
               "detail": "Agostino Piccolo, September 16: a pleasure, let him know the date and time once fixed. Flexible on dates. You have not sent the time.",
               "status": "todo",
               "todo": "Confirm 11:00 AM on the 14th with Agostino."
+            },
+            {
+              "time": "After San Pietro",
+              "title": "Villa Treville, site visit if Daniela answers",
+              "detail": "Asked September 20 to host the 13th, now a visit ask. Beside Il San Pietro.",
+              "status": "suggested"
             },
             {
               "time": "Afternoon",
@@ -1200,7 +1194,6 @@
         "Porto Ercole, Wednesday: Monteverdi hosted takes the 9th if offered, then La Roqqa, then Poggio. If the coast is one night, ask Gianluca for a Pellicano visit or take the 10th at 830",
         "Castelfalfi ETA, Volterra ETA to Giuliana, Il San Pietro time to Agostino: all low stakes, send from the road",
         "Porto Ercole, Wednesday: if La Roqqa hosts, ask Gianluca for a Pellicano visit and lunch on the 10th. If not, take Pellicano on the 10th at 830 and Poggio on the 9th",
-        "Le Sirenuse: rate proposal coming for the 13th, decide when it lands, visit on the 13th or 14th as the fallback",
         "COMO Alpina: once Aman answers, ask Deborah to move the hosted night from the 7th to the 6th",
         "Forestis and COMO Alpina: tell them a friend may join, second guest in the room",
         "Villa La Massa: paused. Send Laura a short note by Wednesday, thanks and a next-trip line, or accept 10:30 if you change your mind",
@@ -1237,7 +1230,7 @@
         "Poggio alla Sala / Cinzia: asked the 20th",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
         "Palazzo Portinari Salviati: visit ask sent the 20th",
-        "Villa Treville, Borgo Santandrea",
+        "Villa Treville, Borgo Santandrea: now visit asks",
         "Lupaia: move to the evening of the 8th, asked the 21st"
       ]
     },
@@ -1250,7 +1243,6 @@
         "Belmond Portofino: no hosted night, visits still offered if you go",
         "Rosewood: lunch 12:30 and tour on the 9th confirmed both ways",
         "Banfi: inspection and tasting 3:00 on the 9th confirmed, reply owed",
-        "Le Sirenuse: paid proposal coming for the 13th, visit as the fallback",
         "Il Pellicano: the 10th at 830 euros stands, two nights priced at 1,200 a night, answer by Wednesday",
         "Villa La Massa: 10:30 on the 25th offered, paused on your side",
         "Castelfalfi: booking confirmed, they want ETA and dietary notes",
@@ -1301,6 +1293,11 @@
       "name": "Porto Ercole",
       "amount": 830,
       "note": "Pellicano on the 10th if La Roqqa does not host, otherwise nothing"
+    },
+    {
+      "name": "Le Sirenuse",
+      "amount": 600,
+      "note": "one night, the 13th"
     }
   ]
 }
