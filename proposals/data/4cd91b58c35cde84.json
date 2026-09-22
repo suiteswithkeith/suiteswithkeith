@@ -468,7 +468,7 @@
       "name": "Milan",
       "dates": "September 29 to October 1",
       "strip_label": "Milan, two nights, asks out",
-      "summary": "Two nights in Milan instead of Portofino. Mandarin Oriental Milan said the dates are blackout for hosting, Valeria Arba will do lunch and a tour. Portrait Milano never answered. The Carlton is asked today through Andrea Ercoli. Paid through Fora if nothing lands, book by Friday.",
+      "summary": "Two nights in Milan instead of Portofino. Mandarin Oriental said the dates are blackout for hosting, lunch and a tour with Valeria Arba instead. Portrait Milano offered only a 2,080 euro rate, visit instead. The Carlton is asked today through Andrea Ercoli. Paid through Fora if nothing lands, book by Friday, the city is busy that week.",
       "drive": "Chianti to Milan about 3 hours 45 on the A1. Milan to Cernobbio about 1 hour, then around to Bellagio about 1 hour 15.",
       "days": [
         {
@@ -485,8 +485,8 @@
               },
               {
                 "name": "Portrait Milano (Lungarno)",
-                "status": "pending",
-                "detail": "Asked Federica Martini September 15 for one or both nights, no reply. Nudge drafted, you are a Lungarno guest in Florence this week."
+                "status": "ruled_out",
+                "detail": "Sofia Ligresti for Federica, September 16: no hosted stay, industry rate of 2,080 euros plus VAT for the 30th, non-commissionable. Passing. Site inspection offered instead, reply drafted for 3:00 on the 30th."
               },
               {
                 "name": "Mandarin Oriental Milan",
@@ -531,10 +531,10 @@
               "todo": "Confirm lunch and tour with Valeria Arba for the 30th."
             },
             {
-              "time": "Afternoon",
+              "time": "3:00 PM",
               "title": "Portrait Milano, site visit",
-              "detail": "Ask in the nudge to Federica, visit if not a stay.",
-              "status": "suggested"
+              "detail": "Proposed to Sofia Ligresti September 22, rooms, garden, Longevity Spa.",
+              "status": "pending"
             },
             {
               "time": "Late afternoon",
@@ -1191,7 +1191,7 @@
         "Serbelloni: send Cristina the paid second night ask for the 1st (draft ready)",
         "Villa d'Este: send Laura the decline and the visit ask for midday on the 1st (draft ready)",
         "Rocco Forte: send Andrea Ercoli the de Russie visit and The Carlton ask for Milan (draft ready)",
-        "Portrait Milano: send Federica the nudge (draft ready)",
+        "Portrait Milano: send Sofia the decline and the 3:00 visit on the 30th (draft ready)",
         "Belmond: tell Andrea in a separate email that Portofino is off this trip, Casole and San Michele stand",
         "Milan: if no host by Friday, book two nights through Fora",
         "Gala group: send Gaia the two visit times, Tremezzo 3:00 on the 3rd, Passalacqua 11:30 on the 4th (draft ready)",
@@ -1230,7 +1230,7 @@
       "items": [
         "Belmond: Casole team to confirm 3:30 on the 27th, Sofia on San Michele at 2:30 on the 25th. Portofino hosted night declined the 22nd",
         "Serbelloni / Cristina: paid second night on the 1st, asked the 22nd",
-        "The Carlton / Andrea Ercoli and Portrait Milano / Federica: Milan September 29 to October 1",
+        "The Carlton / Andrea Ercoli: Milan September 29 to October 1, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Monteverdi / Peggy: reviewing the 9th, will revert, replied the 21st",
         "Belmond / Andrea Gervasoni: hosted night at Splendido or Splendido Mare, and the San Michele time, replied the 21st",
@@ -1265,7 +1265,8 @@
         "Belmond: Casole 3:30 on the 27th agreed, San Michele countered to 2:30 on the 25th, Portofino hosted night asked",
         "Reschio: visit and lunch offered, paid rate declined, no longer fits the routing",
         "La Posta Vecchia: visit offered, parked",
-        "Mandarin Oriental Milan: blackout for hosting, lunch and tour with Valeria Arba on the 30th"
+        "Mandarin Oriental Milan: blackout for hosting, lunch and tour with Valeria Arba on the 30th",
+        "Portrait Milano: 2,080 euro rate declined, visit at 3:00 on the 30th proposed"
       ]
     },
     {
