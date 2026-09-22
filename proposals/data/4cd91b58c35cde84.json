@@ -585,17 +585,12 @@
         },
         {
           "date": "2026-09-30",
-          "label": "Splendido and Splendido Mare, then the lake a day early or Modena",
+          "label": "Splendido and Splendido Mare, then Forte, Modena or the coast",
           "stay": {
-            "name": "Open: Mandarin Oriental if they host, else Modena or the coast",
+            "name": "Open: Forte second night, Modena, or the coast",
             "status": "open",
-            "detail": "Nothing confirmed for this night yet. Milan is out.",
+            "detail": "Nothing confirmed for this night yet. Milan is out, Mandarin Oriental is a long shot.",
             "options": [
-              {
-                "name": "Mandarin Oriental Lago di Como, Blevio, hosted",
-                "status": "todo",
-                "detail": "The ask to make via the Global DOS on Instagram. Portofino to Blevio about 2 hours 15, arriving around 4:00. Completes the lake set and makes the 1st a short day: Villa d'Este is 15 minutes away, Sereno 5. Splendido tennis drops if this lands."
-              },
               {
                 "name": "Principe Forte dei Marmi, second night",
                 "status": "suggested",
@@ -610,6 +605,11 @@
                 "name": "Miramare or Excelsior Palace",
                 "status": "fallback",
                 "detail": "Ten to fifteen minutes from Portofino, asks pending your Fora contacts. The easy second coast night."
+              },
+              {
+                "name": "Mandarin Oriental Lago di Como, hosted, long shot",
+                "status": "fallback",
+                "detail": "Rack is about 3,000 dollars a night, so a comp is unlikely and a rate is out. The DM to the Global DOS still goes, hosted or nothing, with the visit on the 4th as the real ask. If it lands, leave Portofino by 1:30 and Blevio is 2 hours 15."
               }
             ]
           },
@@ -629,7 +629,7 @@
             {
               "time": "2:00 PM",
               "title": "Splendido tennis, court and pro, if Belmond agrees",
-              "detail": "The afternoon is free unless Mandarin Oriental hosts the 30th, in which case you leave Portofino by 1:30. Ask Andrea when he answers on the rate: an hour on the famous court with a pro, shot for the collection. Bring kit.",
+              "detail": "The afternoon is free. Ask Andrea when he answers on the rate: an hour on the famous court with a pro, shot for the collection. Bring kit.",
               "status": "suggested"
             },
             {
@@ -669,7 +669,7 @@
       "name": "Lake Como",
       "dates": "October 1 to 4",
       "strip_label": "Il Sereno, Serbelloni, EDITION",
-      "summary": "Three nights on the lake, three hotels, all set, and a possible fourth. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Mandarin Oriental in Blevio is the ask for the 30th, which would put you on the lake a day early. Villa d'Este at 2:00 on the 1st, Passalacqua by boat on the morning of the 2nd, Serbelloni's tour at 3:00, Tremezzo and tennis from the EDITION on the 3rd.",
+      "summary": "Three nights on the lake, three hotels, all set. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Villa d'Este at 2:00 on the 1st, Passalacqua by boat on the morning of the 2nd, Serbelloni's tour at 3:00, Tremezzo and tennis from the EDITION on the 3rd, Mandarin Oriental in Blevio on the morning of the 4th on the way out.",
       "days": [
         {
           "date": "2026-10-01",
@@ -786,12 +786,12 @@
       ],
       "groups": [
         {
-          "title": "The fourth lake hotel",
+          "title": "On the way out",
           "items": [
             {
               "name": "Mandarin Oriental Lago di Como",
               "status": "todo",
-              "detail": "Anna Fejzo declined a rate September 15. The Global DOS is in your Instagram DMs: ask for a hosted night on the 30th, visit on the 4th as the fallback."
+              "detail": "Anna Fejzo declined a rate September 15, rack is about 3,000 dollars. Global DOS on Instagram: a hosted 30th as a long shot, the visit on the morning of the 4th as the ask."
             }
           ]
         }
@@ -807,7 +807,7 @@
       "days": [
         {
           "date": "2026-10-04",
-          "label": "Up to the Dolomites, Mandarin Oriental on the way if not a stay",
+          "label": "Mandarin Oriental in Blevio, then up to the Dolomites",
           "stay": {
             "name": "Forestis, above Bressanone",
             "status": "confirmed",
@@ -829,9 +829,10 @@
             },
             {
               "time": "11:45 AM",
-              "title": "Mandarin Oriental Lago di Como, Blevio, site visit, only if they do not host the 30th",
-              "detail": "Five minutes south of Il Sereno. The fallback ask in the same Instagram message. If they host the 30th, leave the EDITION at 11 and drive straight to the Dolomites.",
-              "status": "todo"
+              "title": "Mandarin Oriental Lago di Como, Blevio, site visit",
+              "detail": "Five minutes south of Il Sereno, ten minutes off the motorway route. The realistic MO outcome: ask the Global DOS on Instagram for the visit, a few rooms and the pool, on your way out.",
+              "status": "todo",
+              "todo": "DM the MO Global DOS: hosted 30th as a long shot, visit at 11:45 on the 4th as the real ask."
             },
             {
               "time": "12:45 PM",
@@ -1272,7 +1273,7 @@
         "Villa d'Este: send Laura the 2:00 counter for the 1st, alone, courts on the tour (draft ready)",
         "Gala group: send Gaia the visit times, Passalacqua 11:00 on the 2nd by boat, Tremezzo 3:00 on the 3rd on foot, courts on both tours, tennis at 4:00 at Tremezzo (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
-        "Mandarin Oriental Lake Como: DM the Global DOS for a hosted night on the 30th, arriving from Portofino about 4:00, visit on the morning of the 4th as the fallback",
+        "Mandarin Oriental Lake Como: DM the Global DOS, a visit at 11:45 on the 4th on the way out, hosted 30th only as a long shot",
         "Belmond: when Andrea answers, add the Splendido court and pro at 2:00 on the 30th",
         "Il San Pietro: confirm 11:00 on the 14th with Agostino and ask for the court",
         "Monteverdi: fill the pre-arrival questionnaire from the confirmation email",
@@ -1306,7 +1307,7 @@
     {
       "title": "Waiting on",
       "items": [
-        "The beds still open: Mandarin Oriental for the 30th (Global DOS on Instagram, to ask), La Roqqa for the 10th (Roberta Davanzo, asked the 21st), Belmond for a Splendido or Splendido Mare rate on the 29th (Andrea, asked the 22nd), Casa Maria Luigia for the 30th (asked the 22nd), Aman Rosa Alpina rate for the 7th (Elisa De Nicolo, asked the 21st)",
+        "The beds still open: the 29th and 30th (Belmond rate asked the 22nd, Forte dei Marmi to ask Nicolò in person, Casa Maria Luigia asked the 22nd, Portovenere asked the 22nd), La Roqqa for the 10th (Roberta Davanzo, asked the 21st), Aman Rosa Alpina rate for the 7th (Elisa De Nicolo, asked the 21st)",
         "Como Transfers: boat for the morning of the 2nd, Torno to Passalacqua and back, requested the 22nd",
         "Visits and timing, none of them beds:",
         "Belmond: Sofia on San Michele at 2:30 on the 25th, Casole team to confirm 3:30 on the 27th",
