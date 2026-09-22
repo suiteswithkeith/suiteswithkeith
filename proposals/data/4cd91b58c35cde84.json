@@ -546,7 +546,7 @@
               {
                 "name": "Principe Forte dei Marmi",
                 "status": "suggested",
-                "detail": "Nicolò Grillo, Hotel Manager, is at Eccellenze. Versilia coast, about 2 hours 15 from San Felice, 1 hour 30 to Portofino the next morning. Plaza e de Russie in Viareggio (Salvatore Madonna, also in the room) is ten minutes away. Ask in person."
+                "detail": "Nicolò Grillo, Hotel Manager, is at Eccellenze. Versilia coast, about 2 hours 15 from San Felice, 1 hour 40 to Splendido. Ask him for two nights and say you may only need one: the 29th is the one you want, the 30th flexes with Mandarin Oriental. Plaza e de Russie in Viareggio (Salvatore Madonna, also in the room) is ten minutes away."
               },
               {
                 "name": "Grand Hotel Miramare, Santa Margherita Ligure",
@@ -597,13 +597,18 @@
                 "detail": "The ask to make via the Global DOS on Instagram. Portofino to Blevio about 2 hours 15, arriving around 4:00. Completes the lake set and makes the 1st a short day: Villa d'Este is 15 minutes away, Sereno 5. Splendido tennis drops if this lands."
               },
               {
+                "name": "Principe Forte dei Marmi, second night",
+                "status": "suggested",
+                "detail": "If Nicolò hosts two nights and MO does not answer. The 30th becomes a round trip: out at 10:45, Splendido moved to 12:30 and Mare to 2:00, back by 5:30, tennis drops. The 1st is then 3 hours 15 to Cernobbio, Villa d'Este at 3:00, Sereno by 4:45. Ask Nicolò for two, tell him you may only need one."
+              },
+              {
                 "name": "Casa Maria Luigia, Modena",
                 "status": "pending",
                 "detail": "Asked the general inbox September 22, hosted with a paid night as the fallback. Portofino to Modena about 3 hours, Modena to Cernobbio 2 hours 45. Only if they host."
               },
               {
                 "name": "Miramare or Excelsior Palace",
-                "status": "todo",
+                "status": "fallback",
                 "detail": "Ten to fifteen minutes from Portofino, asks pending your Fora contacts. The easy second coast night."
               }
             ]
