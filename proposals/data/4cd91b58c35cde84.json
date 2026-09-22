@@ -586,7 +586,7 @@
       "name": "Lake Como",
       "dates": "October 1 to 4",
       "strip_label": "Il Sereno, Serbelloni, EDITION",
-      "summary": "Three nights on the lake, three hotels, all set. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Villa d'Este on the way in on the 1st, Passalacqua and Tremezzo by boat on the morning of the 2nd, Serbelloni's tour at 3:00. The 3rd and 4th are clear.",
+      "summary": "Three nights on the lake, three hotels, all set. Il Sereno hosted on the 1st, Villa Serbelloni hosted on the 2nd, the EDITION paid on the 3rd. Villa d'Este on the way in on the 1st, Passalacqua by boat from Sereno's dock on the morning of the 2nd, Serbelloni's tour at 3:00, Tremezzo from the EDITION on the afternoon of the 3rd. The 4th is clear.",
       "days": [
         {
           "date": "2026-10-01",
@@ -620,7 +620,7 @@
         },
         {
           "date": "2026-10-02",
-          "label": "Boat day from Torno, then Bellagio",
+          "label": "Passalacqua by boat, then Bellagio",
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
@@ -628,33 +628,33 @@
           },
           "items": [
             {
-              "time": "10:30 AM",
+              "time": "10:40 AM",
               "title": "Private boat collects you at Il Sereno's dock, your own partners",
-              "detail": "Torno to Moltrasio is about 15 minutes across the lake. The car and bags stay at Il Sereno.",
+              "detail": "Torno to Moltrasio is about 10 to 15 minutes straight across the lake. The car and bags stay at Il Sereno.",
               "status": "info"
             },
             {
               "time": "11:00 AM",
               "title": "Passalacqua, Moltrasio, site visit",
-              "detail": "Proposed to Gaia Bartoletti September 22 for 11:00 by boat. You placed the Sherwanis here in August. Waiting.",
-              "status": "pending"
+              "detail": "Proposed to Gaia Bartoletti for 11:00 by boat from Sereno's dock, draft ready. You placed the Sherwanis here in August.",
+              "status": "pending",
+              "todo": "Send Gaia the two visit times (draft ready)."
             },
             {
-              "time": "12:30 PM",
-              "title": "Grand Hotel Tremezzo, site visit",
-              "detail": "Proposed to Gaia for 12:45 on the way back, the 3rd afternoon as the alternative. Keep it to 45 minutes.",
-              "status": "pending"
-            },
-            {
-              "time": "1:30 PM",
-              "title": "Boat back to Torno, collect the car",
-              "detail": "About 25 minutes from Tremezzo.",
+              "time": "12:15 PM",
+              "title": "Boat back to Torno, checkout, collect the car",
               "status": "info"
             },
             {
-              "time": "2:40 PM",
-              "title": "Arrive Villa Serbelloni by car",
-              "detail": "Torno to Bellagio about 50 minutes via Lezzeno. Alternatively drive to Bellagio first, leave the car and bags, and take the boat from there, which means leaving Torno by 9:45.",
+              "time": "1:00 PM",
+              "title": "Torno to Bellagio",
+              "detail": "About 50 minutes via Lezzeno. Lunch in Bellagio if you want it.",
+              "status": "info"
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Arrive Villa Serbelloni",
+              "detail": "Check-in from 2:00.",
               "status": "info"
             },
             {
@@ -667,7 +667,7 @@
         },
         {
           "date": "2026-10-03",
-          "label": "Cadenabbia",
+          "label": "Cadenabbia, Tremezzo next door",
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
             "status": "paid",
@@ -675,22 +675,22 @@
           },
           "items": [
             {
-              "time": "Afternoon",
-              "title": "The EDITION, shoot it properly, nothing else scheduled",
-              "detail": "Tremezzo moves here at 3:00 only if the 2nd does not suit Gala.",
-              "status": "info"
-            },
-            {
               "time": "Morning",
               "title": "Car ferry Bellagio to Cadenabbia",
-              "detail": "About 15 to 20 minutes, drive on and off.",
+              "detail": "About 15 to 20 minutes, drive on and off. Checkout by noon.",
               "status": "info"
             },
             {
-              "time": "Afternoon",
-              "title": "Suggested visit: Grand Hotel Victoria, Menaggio, two Michelin Keys",
-              "detail": "A few minutes north of Cadenabbia, same shore as the EDITION and Tremezzo. Not contacted.",
-              "status": "suggested"
+              "time": "Early afternoon",
+              "title": "The EDITION, check in, shoot it properly",
+              "detail": "Asked to see rooms beyond your own.",
+              "status": "info"
+            },
+            {
+              "time": "3:00 PM",
+              "title": "Grand Hotel Tremezzo, site visit",
+              "detail": "Proposed to Gaia for mid afternoon on the 3rd, five minutes from the EDITION by road, walkable. Draft ready.",
+              "status": "pending"
             }
           ]
         }
@@ -1174,7 +1174,7 @@
       "items": [
         "Villa d'Este: send Laura the 2:00 counter for the 1st, alone (draft ready)",
         "Portrait Milano: send Federico the withdrawal, Milan is off, next trip (draft ready)",
-        "Gala group: send Gaia the boat-day times, Passalacqua 11:00 and Tremezzo 12:30 on the 2nd, pickup at Torno (draft ready, adjust the Tremezzo time)",
+        "Gala group: send Gaia the visit times, Passalacqua 11:00 on the 2nd from Sereno's dock, Tremezzo 3:00 on the 3rd from the EDITION (draft ready)",
         "Monteverdi: fill the pre-arrival questionnaire from the confirmation email",
         "Il Sereno: tell Gaetano or Guest Relations closer to the day that arrival is nearer 4:00 than 3:00",
         "Miramare and Excelsior Palace: send me the Fora contacts, asks for the 29th",
@@ -1212,7 +1212,7 @@
         "Grand Hotel Portovenere / Rachele Belladelli: hosted night on the 29th, asked the 22nd",
         "Aman / Elisa De Nicolo: rate for the night of the 7th, asked the 21st",
         "Borgo Santo Pietro / Arianna: hosting asked the 18th, visit and lunch on the 28th asked the 20th",
-        "Tremezzo and Passalacqua visits / Gala group: asked the 15th, boat-day times for the 2nd proposed the 22nd",
+        "Tremezzo and Passalacqua visits / Gala group: asked the 15th, Passalacqua 11:00 on the 2nd and Tremezzo 3:00 on the 3rd proposed the 22nd",
         "Miramonti: asked the 18th",
         "Gardena Grödnerhof / Alex Demetz: asked the 15th",
         "COMO Castello del Nero / Ilaria: lunch move to the 26th asked the 20th",
