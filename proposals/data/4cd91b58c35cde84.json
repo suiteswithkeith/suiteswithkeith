@@ -1089,6 +1089,12 @@
               "status": "pending"
             },
             {
+              "time": "Morning",
+              "title": "Tennis at Le Sirenuse, if you can book it",
+              "detail": "If tennis is on, San Pietro at 11 by boat still works, Treville moves to the afternoon or drops.",
+              "status": "suggested"
+            },
+            {
               "time": "11:00 AM",
               "title": "Il San Pietro di Positano, site visit",
               "detail": "Agostino Piccolo, September 16: a pleasure, let him know the date and time. You have not sent the time. Arrive at their dock.",
@@ -1096,10 +1102,10 @@
               "todo": "Confirm 11:00 AM on the 14th with Agostino, arriving by boat."
             },
             {
-              "time": "12:30 PM",
+              "time": "TBC",
               "title": "Villa Treville, site visit",
-              "detail": "Daniela offered to host the 13th, you kept Sirenuse. Visit at 12:30 proposed in the drafted reply.",
-              "status": "pending"
+              "detail": "Daniela offered to host the 13th, you kept Sirenuse. Reply drafted: thanks, a site visit instead, time to follow within the week. Held open because you may play tennis at Sirenuse that morning, in which case Treville slides or waits for next trip.",
+              "status": "suggested"
             },
             {
               "time": "Afternoon",
@@ -1176,7 +1182,7 @@
         "Miramare and Excelsior Palace: send me the Fora contacts, asks for the 29th",
         "Casa Maria Luigia: send the ask to the general inbox, add your signature (draft ready)",
         "La Minerva: third-night ask to Egle drafted, on hold while you decide the Rome night of the 10th",
-        "Villa Treville: send Daniela the decline and the 12:30 visit on the 14th (draft ready)",
+        "Villa Treville: send Daniela the thanks and the site visit ask, timing to follow (draft ready)",
         "Portovenere: send Rachele the hosting ask, add your signature (draft ready)",
         "Rocco Forte: send Andrea Ercoli the de Russie visit reply, the 12th at 11:00 (draft ready)",
         "Portrait Milano and Mandarin Oriental Milan: park, Milan is off this trip",
@@ -1189,6 +1195,7 @@
       "title": "This week",
       "start": 10,
       "items": [
+        "Sirenuse tennis on the morning of the 14th: book it if you can, then give Treville a time or a next-trip note",
         "Coast, Wednesday: book La Roqqa through Fora if Roberta has not hosted by then, tell Gianluca no on the stay and ask for a Pellicano visit on the morning of the 10th, and decline Monteverdi warmly if Peggy offers",
         "Castelfalfi ETA, Volterra ETA to Giuliana, Il San Pietro time to Agostino: all low stakes, send from the road",
         "Porto Ercole, Wednesday: if La Roqqa hosts, ask Gianluca for a Pellicano visit and lunch on the 10th. If not, take Pellicano on the 10th at 830 and Poggio on the 9th",
