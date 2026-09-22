@@ -1062,22 +1062,16 @@
               "status": "pending"
             },
             {
-              "time": "Morning",
-              "title": "Tennis at Le Sirenuse, if you can book it",
-              "detail": "If tennis is on, San Pietro at 11 by boat still works, Treville moves to the afternoon or drops.",
-              "status": "suggested"
-            },
-            {
               "time": "11:00 AM",
-              "title": "Il San Pietro di Positano, site visit",
-              "detail": "Agostino Piccolo, September 16: a pleasure, let him know the date and time. You have not sent the time. Arrive at their dock.",
+              "title": "Il San Pietro di Positano, site visit and tennis",
+              "detail": "Agostino Piccolo, September 16: a pleasure, let him know the date and time. You have not sent the time. Arrive at their dock by boat. You want to play on their court by the sea, so ask Agostino for the court when you confirm 11:00, and allow the late morning for it.",
               "status": "todo",
-              "todo": "Confirm 11:00 AM on the 14th with Agostino, arriving by boat."
+              "todo": "Confirm 11:00 AM on the 14th with Agostino, arriving by boat, and ask for the tennis court."
             },
             {
               "time": "TBC",
               "title": "Villa Treville, site visit",
-              "detail": "Daniela offered to host the 13th, you kept Sirenuse. Reply drafted: thanks, a site visit instead, time to follow within the week. Held open because you may play tennis at Sirenuse that morning, in which case Treville slides or waits for next trip.",
+              "detail": "Daniela offered to host the 13th, you kept Sirenuse. Reply drafted: thanks, a site visit instead, time to follow within the week. Timing depends on tennis at San Pietro, so Treville is early afternoon on the 14th or drops to next trip. It is next door.",
               "status": "suggested"
             },
             {
@@ -1170,7 +1164,7 @@
       "title": "This week",
       "start": 10,
       "items": [
-        "La Roqqa: when Roberta answers, thank her and let it go, the 9th is Monteverdi",
+        "Il San Pietro tennis on the 14th: ask Agostino for the court when you confirm 11:00, then give Treville a time or a next-trip note",
         "Sirenuse tennis on the morning of the 14th: book it if you can, then give Treville a time or a next-trip note",
         "Castelfalfi ETA, Volterra ETA to Giuliana, Il San Pietro time to Agostino: all low stakes, send from the road",
         "Porto Ercole, Wednesday: if La Roqqa hosts, ask Gianluca for a Pellicano visit and lunch on the 10th. If not, take Pellicano on the 10th at 830 and Poggio on the 9th",
