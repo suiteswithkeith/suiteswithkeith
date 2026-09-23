@@ -535,7 +535,7 @@
       "name": "Lake Como",
       "dates": "October 1 to 4",
       "strip_label": "Il Sereno, Serbelloni, EDITION",
-      "summary": "Il Sereno, Serbelloni, EDITION. Villa d'Este on the way in, Passalacqua by boat, Tremezzo and tennis on the 3rd, Mandarin Oriental on the way out.",
+      "summary": "Il Sereno, Serbelloni, EDITION. Villa d'Este on the way in, Passalacqua and Tremezzo by boat on Friday morning, Mandarin Oriental on the way out.",
       "days": [
         {
           "date": "2026-10-01",
@@ -569,7 +569,7 @@
         },
         {
           "date": "2026-10-02",
-          "label": "Passalacqua by boat, Bellagio",
+          "label": "Passalacqua and Tremezzo by boat, then Bellagio",
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
@@ -585,36 +585,37 @@
             {
               "time": "11:00 AM",
               "title": "Passalacqua, site visit",
+              "status": "confirmed",
+              "detail": "Gaia Bartoletti, +39 337 162 2892. Common areas, rooms if free."
+            },
+            {
+              "time": "12:30 PM",
+              "title": "Grand Hotel Tremezzo, site visit",
               "status": "pending",
-              "detail": "Gaia Bartoletti, Gala. Courts on the tour."
+              "detail": "Same day, Gaia. Asked, draft ready. Away by 1:15."
             },
             {
-              "time": "12:15 PM",
-              "title": "Boat back, checkout, collect the car",
-              "status": "info"
-            },
-            {
-              "time": "1:00 PM",
-              "title": "Drive to Bellagio",
+              "time": "1:45 PM",
+              "title": "Boat back to Torno, checkout, collect the car",
               "status": "info",
-              "detail": "50 minutes."
+              "detail": "Late checkout asked."
             },
             {
-              "time": "2:30 PM",
+              "time": "2:40 PM",
               "title": "Arrive Serbelloni",
-              "status": "info"
+              "status": "info",
+              "detail": "50 minutes by road. Check-in from 2:00."
             },
             {
               "time": "3:00 PM",
               "title": "Serbelloni group tour with Cristina",
-              "status": "confirmed",
-              "detail": "Courts on the tour."
+              "status": "confirmed"
             }
           ]
         },
         {
           "date": "2026-10-03",
-          "label": "Cadenabbia, Tremezzo",
+          "label": "Cadenabbia",
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
             "status": "paid",
@@ -628,21 +629,10 @@
               "detail": "20 minutes. Checkout by noon."
             },
             {
-              "time": "Early afternoon",
-              "title": "EDITION, check in, shoot",
-              "status": "info"
-            },
-            {
-              "time": "3:00 PM",
-              "title": "Grand Hotel Tremezzo, site visit",
-              "status": "pending",
-              "detail": "Gaia Bartoletti. Five minutes on foot."
-            },
-            {
-              "time": "4:00 PM",
-              "title": "Tremezzo tennis, court and pro",
-              "status": "pending",
-              "detail": "Asked with the visit."
+              "time": "Afternoon",
+              "title": "EDITION, check in, shoot, nothing scheduled",
+              "status": "info",
+              "detail": "Tremezzo moved to Friday. No weekend visits at Gala."
             }
           ]
         }
@@ -823,8 +813,8 @@
       "id": "rome",
       "name": "Val d'Orcia, Porto Ercole & Rome",
       "dates": "October 9 to 13",
-      "strip_label": "Monteverdi, Porto Ercole, Eden, La Minerva",
-      "summary": "Rosewood, Banfi and Monteverdi on the 9th. Porto Ercole the 10th. Eden asked for the 11th, La Minerva the 12th.",
+      "strip_label": "Monteverdi, Pellicano, Eden, La Minerva",
+      "summary": "Rosewood, Banfi and Monteverdi on the 9th. Pellicano the 10th, La Roqqa a visit. Eden hosted on the 11th. La Minerva the 12th once Egle moves the comp.",
       "days": [
         {
           "date": "2026-10-09",
@@ -871,21 +861,17 @@
           "date": "2026-10-10",
           "label": "Monteverdi morning, Porto Ercole",
           "stay": {
-            "name": "Porto Ercole",
+            "name": "Il Pellicano, Porto Ercole",
             "status": "pending",
-            "detail": "La Roqqa if hosted, otherwise Il Pellicano.",
+            "detail": "830 euros, Gianluca's rate. La Roqqa offered 455 with breakfast but no comp. Your call, page assumes Pellicano.",
             "options": [
               {
-                "name": "La Roqqa",
-                "status": "pending",
-                "detail": "Roberta Davanzo."
-              },
-              {
-                "name": "Il Pellicano, 830 euros",
+                "name": "La Roqqa, 455 euros",
                 "status": "fallback",
-                "detail": "Gianluca. Acceptance drafted."
+                "detail": "Roberta Davanzo. If you would rather save the 375. Visit asked instead."
               }
-            ]
+            ],
+            "todo": "Send Gianluca the Pellicano acceptance (draft ready)."
           },
           "items": [
             {
@@ -903,6 +889,12 @@
               "time": "2:30 PM",
               "title": "Arrive Porto Ercole",
               "status": "info"
+            },
+            {
+              "time": "Afternoon",
+              "title": "La Roqqa, site visit",
+              "status": "pending",
+              "detail": "Roberta Davanzo, +39 337 151 6619. Asked, draft ready. Five minutes from Pellicano."
             }
           ]
         },
@@ -911,15 +903,8 @@
           "label": "Coast to Rome",
           "stay": {
             "name": "Hotel Eden, Rome",
-            "status": "todo",
-            "detail": "Hosting ask drafted, via Pascal Billard at Le Meurice and direct.",
-            "options": [
-              {
-                "name": "La Minerva as booked",
-                "status": "fallback",
-                "detail": "If Eden says no."
-              }
-            ]
+            "status": "confirmed",
+            "detail": "Hosted. Via Ludovisi 49. Tristan Delaittre, incoming GM. Elena Sgro, DOSM. Team to send details."
           },
           "items": [
             {
@@ -932,7 +917,7 @@
               "time": "2:00 PM",
               "title": "Check in at the Eden",
               "status": "info",
-              "detail": "Via Ludovisi 49."
+              "detail": "The terrace at sunset."
             }
           ]
         },
@@ -942,7 +927,8 @@
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "pending",
-            "detail": "Piazza della Minerva 69. Egle Antanaityte. Booked 11 to 13, comped 11th, paid 12th. Ask Egle to make it the comped 12th only if Eden hosts the 11th."
+            "detail": "Piazza della Minerva 69. Egle Antanaityte. Booked 11 to 13, comped 11th, paid 12th. Ask Egle at Eccellenze to make it the comped 12th only.",
+            "todo": "Egle, in person: move the comped night to the 12th, drop the paid 11th."
           },
           "items": [
             {
@@ -1089,8 +1075,12 @@
     {
       "title": "Send",
       "items": [
+        "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
+        "Gala: Gaia, both visits Friday the 2nd, Tremezzo at 12:30 (draft ready)",
+        "La Roqqa: Roberta, pass on the rate, visit on the 10th (draft ready). Flip it if you want the 455 instead of Pellicano",
+        "Il Pellicano: Gianluca, accept 830 for the 10th (draft ready)",
+        "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
         "Villa d'Este: Laura, 2:00 on the 1st (draft ready)",
-        "Hotel Eden: Pascal Billard intro, and the Eden ask for the 11th (drafts ready, check the Eden address)",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
         "Pensione America and Augustus: hosting asks for the 29th",
@@ -1102,8 +1092,7 @@
     {
       "title": "Decide and fix",
       "items": [
-        "The 29th and 30th: after Eccellenze. Nicolò Grillo is in the room",
-        "The 10th: Pellicano acceptance if La Roqqa does not host (draft ready)",
+        "Egle at Eccellenze: La Minerva to the comped 12th only, Eden has the 11th",
         "Egle at Eccellenze: La Minerva to the comped 12th only, if Eden hosts",
         "Avis: pickup to 12:00 on the 25th, drop to the 11th",
         "Monteverdi: pre-arrival questionnaire",
@@ -1123,10 +1112,10 @@
         "Belmond: Sofia on San Michele 2:30 on the 25th, Casole team on the 27th",
         "Casa Maria Luigia: the 30th",
         "Portovenere, Rachele Belladelli: the 29th",
+        "Gala, Gaia Bartoletti: Tremezzo on Friday at 12:30, once sent",
+        "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
-        "La Roqqa, Roberta Davanzo: the 10th",
         "Como Transfers: boat on the 2nd",
-        "Gala, Gaia Bartoletti: Passalacqua the 2nd, Tremezzo and tennis the 3rd",
         "Villa d'Este, Laura Buzzi: 2:00 on the 1st, once sent",
         "Borgo San Felice: written confirmation",
         "Santo Pietro, Arianna: visit and lunch on the 28th",
@@ -1136,7 +1125,8 @@
         "Miramonti: the 4th",
         "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Rocco Forte, Andrea Ercoli: de Russie on the 12th",
-        "Villa Treville, Daniela Barba: visit time on the 14th"
+        "Villa Treville, Daniela Barba: visit time on the 14th",
+        "Hotel Eden team: stay details for the 11th"
       ]
     },
     {
@@ -1166,7 +1156,7 @@
     {
       "name": "Orient Express La Minerva",
       "amount": 670,
-      "note": "one paid night, the other comped. Goes to zero if Eden hosts the 11th and Egle moves the comp to the 12th"
+      "note": "goes to zero once Egle moves the comp to the 12th"
     },
     {
       "name": "Le Sirenuse",
@@ -1174,9 +1164,9 @@
       "note": "one night, the 13th, 650 charged on Amex September 22"
     },
     {
-      "name": "The 10th",
-      "amount": 0,
-      "note": "Pellicano at 830 unless La Roqqa hosts"
+      "name": "Il Pellicano",
+      "amount": 830,
+      "note": "the 10th, if you take it over La Roqqa at 455"
     },
     {
       "name": "The 29th",
