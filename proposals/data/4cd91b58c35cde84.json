@@ -383,25 +383,25 @@
           },
           "items": [
             {
-              "time": "10:15 AM",
+              "time": "11:15 AM",
               "title": "Checkout Castelfalfi",
               "status": "info",
               "detail": "45 minutes to Castello del Nero."
             },
             {
-              "time": "11:00 AM",
-              "title": "COMO Castello del Nero, tour, lunch at the Pavilion at 12:00",
+              "time": "12:00 PM",
+              "title": "COMO Castello del Nero, tour, lunch at the Pavilion at 1:00",
               "status": "pending",
-              "detail": "Ilaria Socci, +39 335 6153302. Her Monday offer, draft ready."
+              "detail": "Ilaria Socci, +39 335 6153302. Asked for noon, draft ready."
             },
             {
-              "time": "1:30 PM",
+              "time": "2:30 PM",
               "title": "Drive to Borgo San Felice",
               "status": "info",
               "detail": "About 1 hour 15."
             },
             {
-              "time": "4:30 PM",
+              "time": "3:45 PM",
               "title": "Arrive Borgo San Felice, tour of the borgo, dinner",
               "status": "info"
             },
@@ -1088,7 +1088,7 @@
       "items": [
         "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
         "Gala: Gaia, both visits Friday October 2, shuttle to Tremezzo (draft ready)",
-        "Castello del Nero: Ilaria, Monday the 28th, tour at 11:00 and lunch at 12:00 (draft ready)",
+        "Castello del Nero: Ilaria, Monday the 28th, tour at 12:00 and lunch at 1:00 (draft ready)",
         "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
         "Sunrise Sorrento: Teresa, accept 600 for the 13th, ask the pier and time (draft ready)",
         "La Roqqa: Roberta, pass on the rate, visit on the 10th (draft ready). Flip it if you want the 455 instead of Pellicano",
