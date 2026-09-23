@@ -67,7 +67,7 @@
       "name": "Florence",
       "dates": "September 22 to 27",
       "strip_label": "Eccellenze, Collegio, Volterra",
-      "summary": "Two Eccellenze days at Portrait, Fiesole visits on the 25th, Chianti lunch and Volterra on the 26th.",
+      "summary": "Two Eccellenze days at Portrait, Fiesole visits on the 25th, Volterra on the 26th.",
       "days": [
         {
           "date": "2026-09-22",
@@ -247,7 +247,7 @@
         },
         {
           "date": "2026-09-26",
-          "label": "September 26: Chianti lunch, Volterra",
+          "label": "September 26: Collegio to Borgo Pignano Volterra",
           "stay": {
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
@@ -261,20 +261,14 @@
               "status": "info"
             },
             {
-              "time": "1:00 PM",
-              "title": "Lunch, COMO Castello del Nero, Tavarnelle",
-              "status": "pending",
-              "detail": "Ilaria. 45 minutes from Fiesole."
-            },
-            {
-              "time": "3:00 PM",
-              "title": "Drive to Volterra",
+              "time": "Afternoon",
+              "title": "Drive to Volterra, lunch on the way if you like",
               "status": "info",
-              "detail": "1 hour 10."
+              "detail": "About 1 hour 30. Castello del Nero moved to the 28th."
             },
             {
               "time": "4:30 PM",
-              "title": "Arrive Pignano Volterra, tour at 5:00, sunset shoot",
+              "title": "Arrive Borgo Pignano Volterra, tour at 5:00, sunset shoot",
               "status": "info"
             }
           ]
@@ -347,8 +341,8 @@
       "id": "western-tuscany",
       "name": "Western Tuscany",
       "dates": "September 27 to 29",
-      "strip_label": "Castelfalfi, Casole, San Felice",
-      "summary": "Castelfalfi on the 27th with Casole that afternoon, San Felice on the 28th.",
+      "strip_label": "Castelfalfi, Casole, Castello del Nero, San Felice",
+      "summary": "Castelfalfi on the 27th with Casole that afternoon. Castello del Nero tour and lunch on the 28th, then San Felice.",
       "days": [
         {
           "date": "2026-09-27",
@@ -381,29 +375,41 @@
         },
         {
           "date": "2026-09-28",
-          "label": "September 28: Santo Pietro, San Felice",
+          "label": "September 28: Castello del Nero, Borgo San Felice",
           "stay": {
             "name": "Borgo San Felice, Castelnuovo Berardenga",
             "status": "confirmed",
-            "detail": "Hosted. Zaira De Biasio, DOS. Written confirmation to come. Arrive about 4:30."
+            "detail": "Hosted. Confirmed by reservations. Zaira De Biasio, DOS. Arrive about 4:30."
           },
           "items": [
             {
-              "time": "11:30 AM",
+              "time": "10:15 AM",
               "title": "Checkout Castelfalfi",
-              "status": "info"
+              "status": "info",
+              "detail": "45 minutes to Castello del Nero."
             },
             {
-              "time": "12:00 PM",
-              "title": "Borgo Santo Pietro, visit and lunch",
+              "time": "11:00 AM",
+              "title": "COMO Castello del Nero, tour, lunch at the Pavilion at 12:00",
               "status": "pending",
-              "detail": "Arianna. 1 hour south. No reply yet."
+              "detail": "Ilaria Socci, +39 335 6153302. Her Monday offer, draft ready."
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Drive to Borgo San Felice",
+              "status": "info",
+              "detail": "About 1 hour 15."
             },
             {
               "time": "4:30 PM",
-              "title": "Arrive San Felice, tour of the borgo, dinner",
-              "status": "info",
-              "detail": "1 hour 15 from Santo Pietro via Siena."
+              "title": "Arrive Borgo San Felice, tour of the borgo, dinner",
+              "status": "info"
+            },
+            {
+              "time": "Dropped",
+              "title": "Borgo Santo Pietro",
+              "status": "ruled_out",
+              "detail": "Arianna never answered. Next trip."
             }
           ]
         }
@@ -615,7 +621,7 @@
         },
         {
           "date": "2026-10-03",
-          "label": "October 3: The Lake Como EDITION",
+          "label": "October 3: The Lake Como EDITION, Grand Hotel Victoria",
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
             "status": "paid",
@@ -629,9 +635,15 @@
               "detail": "20 minutes. Checkout by noon."
             },
             {
-              "time": "Afternoon",
-              "title": "EDITION, check in, shoot, nothing scheduled",
+              "time": "Early afternoon",
+              "title": "EDITION, check in, shoot",
               "status": "info"
+            },
+            {
+              "time": "3:00 PM",
+              "title": "Grand Hotel Victoria, Menaggio, site visit",
+              "status": "pending",
+              "detail": "Arianna Giordano, +39 329 3303974. Five minutes from the EDITION. Asked, draft ready."
             }
           ]
         }
@@ -965,17 +977,17 @@
           },
           "items": [
             {
-              "time": "12:30 PM",
-              "title": "Frecciarossa Rome to Naples",
+              "time": "Morning",
+              "title": "Train Rome to Naples, then on to Sorrento",
               "status": "todo",
-              "detail": "1 hour 10.",
-              "todo": "Book the train."
+              "detail": "Time depends on Teresa's pickup. Naples to Sorrento about 1 hour by car or Campania Express.",
+              "todo": "Book the trains once the pickup time is set."
             },
             {
-              "time": "2:00 PM",
-              "title": "Sunrise Sorrento boat to Positano",
+              "time": "Afternoon",
+              "title": "Sunrise Sorrento boat, Sorrento to Le Sirenuse",
               "status": "pending",
-              "detail": "Teresa. Pickup point and rate to come."
+              "detail": "Teresa. 600 euros on the 28ft boat, offered. Acceptance drafted, pier and time asked."
             },
             {
               "time": "3:30 PM",
@@ -995,9 +1007,9 @@
           "items": [
             {
               "time": "10:45 AM",
-              "title": "Boat from the Positano pier",
+              "title": "Boat from Positano to Il San Pietro's dock, then Amalfi",
               "status": "pending",
-              "detail": "Sunrise, second day asked."
+              "detail": "Sunrise did not offer the 14th. Asked for a price, otherwise arrange locally or go by road."
             },
             {
               "time": "11:00 AM",
@@ -1075,7 +1087,10 @@
       "title": "Send",
       "items": [
         "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
-        "Gala: Gaia, both visits Friday the 2nd, Tremezzo at 12:30 (draft ready)",
+        "Gala: Gaia, both visits Friday October 2, shuttle to Tremezzo (draft ready)",
+        "Castello del Nero: Ilaria, Monday the 28th, tour at 11:00 and lunch at 12:00 (draft ready)",
+        "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
+        "Sunrise Sorrento: Teresa, accept 600 for the 13th, ask the pier and time (draft ready)",
         "La Roqqa: Roberta, pass on the rate, visit on the 10th (draft ready). Flip it if you want the 455 instead of Pellicano",
         "Il Pellicano: Gianluca, accept 830 for the 10th (draft ready)",
         "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
@@ -1115,16 +1130,13 @@
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Como Transfers: boat on the 2nd",
         "Villa d'Este, Laura Buzzi: 2:00 on the 1st, once sent",
-        "Borgo San Felice: written confirmation",
-        "Santo Pietro, Arianna: visit and lunch on the 28th",
-        "Castello del Nero, Ilaria: lunch on the 26th",
         "Lupaia, Christopher: the evening of the 8th",
-        "Sunrise Sorrento, Teresa: boats on the 13th and 14th",
         "Miramonti: the 4th",
         "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Rocco Forte, Andrea Ercoli: de Russie on the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
-        "Hotel Eden team: stay details for the 11th"
+        "Hotel Eden team: stay details for the 11th",
+        "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent"
       ]
     },
     {
@@ -1170,6 +1182,11 @@
       "name": "The 29th",
       "amount": 0,
       "note": "Splendido or Splendido Mare if Andrea's rate lands, take it up to about 1,000. Otherwise Forte dei Marmi, Portovenere or the coast, hosted or paid"
+    },
+    {
+      "name": "Sunrise Sorrento boat",
+      "amount": 600,
+      "note": "Sorrento to Le Sirenuse on the 13th, if you accept"
     }
   ]
 }
