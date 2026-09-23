@@ -71,7 +71,7 @@
       "days": [
         {
           "date": "2026-09-22",
-          "label": "Austin to Florence via Heathrow",
+          "label": "September 22: Austin to Florence via Heathrow",
           "stay": {
             "name": "Borgo Pignano Florence",
             "status": "confirmed",
@@ -100,7 +100,7 @@
         },
         {
           "date": "2026-09-23",
-          "label": "Eccellenze, day one",
+          "label": "September 23: Eccellenze, day one",
           "stay": {
             "name": "Portrait Firenze",
             "status": "confirmed",
@@ -146,7 +146,7 @@
         },
         {
           "date": "2026-09-24",
-          "label": "Eccellenze, day two",
+          "label": "September 24: Eccellenze, day two",
           "stay": {
             "name": "Portrait Firenze",
             "status": "confirmed",
@@ -200,7 +200,7 @@
         },
         {
           "date": "2026-09-25",
-          "label": "Fiesole, Collegio",
+          "label": "September 25: Fiesole, Collegio",
           "stay": {
             "name": "Collegio alla Querce",
             "status": "paid",
@@ -247,7 +247,7 @@
         },
         {
           "date": "2026-09-26",
-          "label": "Chianti lunch, Volterra",
+          "label": "September 26: Chianti lunch, Volterra",
           "stay": {
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
@@ -352,7 +352,7 @@
       "days": [
         {
           "date": "2026-09-27",
-          "label": "Castelfalfi, Casole",
+          "label": "September 27: Castelfalfi, Casole",
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
@@ -381,7 +381,7 @@
         },
         {
           "date": "2026-09-28",
-          "label": "Santo Pietro, San Felice",
+          "label": "September 28: Santo Pietro, San Felice",
           "stay": {
             "name": "Borgo San Felice, Castelnuovo Berardenga",
             "status": "confirmed",
@@ -420,7 +420,7 @@
       "days": [
         {
           "date": "2026-09-29",
-          "label": "Chianti to the coast",
+          "label": "September 29: Chianti to the coast",
           "stay": {
             "name": "Coast, to decide after Eccellenze",
             "status": "open",
@@ -473,7 +473,7 @@
         },
         {
           "date": "2026-09-30",
-          "label": "Splendido and Splendido Mare",
+          "label": "September 30: Splendido and Splendido Mare",
           "stay": {
             "name": "Open: second Forte night, Modena, or the coast",
             "status": "open",
@@ -539,7 +539,7 @@
       "days": [
         {
           "date": "2026-10-01",
-          "label": "Villa d'Este, Il Sereno",
+          "label": "October 1: Villa d'Este, Il Sereno",
           "stay": {
             "name": "Il Sereno, Torno",
             "status": "confirmed",
@@ -548,9 +548,9 @@
           "items": [
             {
               "time": "11:15 AM",
-              "title": "Leave the coast",
+              "title": "Leave the coast hotel",
               "status": "info",
-              "detail": "About 2 hours 30 to Cernobbio."
+              "detail": "About 2 hours 30 to Villa d'Este."
             },
             {
               "time": "2:00 PM",
@@ -560,16 +560,16 @@
               "todo": "Send Laura the 2:00 counter (draft ready)."
             },
             {
-              "time": "3:45 PM",
+              "time": "4:00 PM",
               "title": "Il Sereno, check in, shoot rooms and pool",
               "status": "confirmed",
-              "detail": "20 minutes up the east shore. Nothing after."
+              "detail": "20 minutes from Villa d'Este. Al Lago dinner asked."
             }
           ]
         },
         {
           "date": "2026-10-02",
-          "label": "Passalacqua and Tremezzo by boat, then Bellagio",
+          "label": "October 2: Passalacqua, Grand Hotel Tremezzo, Villa Serbelloni",
           "stay": {
             "name": "Grand Hotel Villa Serbelloni, Bellagio",
             "status": "confirmed",
@@ -578,44 +578,44 @@
           "items": [
             {
               "time": "10:40 AM",
-              "title": "Como Transfers boat at Sereno's dock",
+              "title": "Como Transfers boat collects you at Il Sereno's dock",
               "status": "pending",
-              "detail": "Requested. Car and bags stay at Sereno."
+              "detail": "Requested. Car and bags stay at Il Sereno."
             },
             {
               "time": "11:00 AM",
               "title": "Passalacqua, site visit",
               "status": "confirmed",
-              "detail": "Gaia Bartoletti, +39 337 162 2892. Common areas, rooms if free."
+              "detail": "Gaia Bartoletti, +39 337 162 2892."
             },
             {
               "time": "12:30 PM",
               "title": "Grand Hotel Tremezzo, site visit",
               "status": "pending",
-              "detail": "Same day, Gaia. Asked, draft ready. Away by 1:15."
+              "detail": "Gala's boat from Passalacqua. Asked, draft ready. Away by 1:15."
             },
             {
               "time": "1:45 PM",
-              "title": "Boat back to Torno, checkout, collect the car",
+              "title": "Back at Il Sereno by boat, collect the car",
               "status": "info",
               "detail": "Late checkout asked."
             },
             {
               "time": "2:40 PM",
-              "title": "Arrive Serbelloni",
+              "title": "Arrive Villa Serbelloni",
               "status": "info",
-              "detail": "50 minutes by road. Check-in from 2:00."
+              "detail": "50 minutes by road from Il Sereno."
             },
             {
               "time": "3:00 PM",
-              "title": "Serbelloni group tour with Cristina",
+              "title": "Villa Serbelloni group tour with Cristina",
               "status": "confirmed"
             }
           ]
         },
         {
           "date": "2026-10-03",
-          "label": "Cadenabbia",
+          "label": "October 3: The Lake Como EDITION",
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
             "status": "paid",
@@ -624,15 +624,14 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Car ferry Bellagio to Cadenabbia",
+              "title": "Car ferry from Villa Serbelloni's side to the EDITION's",
               "status": "info",
               "detail": "20 minutes. Checkout by noon."
             },
             {
               "time": "Afternoon",
               "title": "EDITION, check in, shoot, nothing scheduled",
-              "status": "info",
-              "detail": "Tremezzo moved to Friday. No weekend visits at Gala."
+              "status": "info"
             }
           ]
         }
@@ -649,7 +648,7 @@
       "days": [
         {
           "date": "2026-10-04",
-          "label": "Mandarin Oriental, then the Dolomites",
+          "label": "October 4: Mandarin Oriental, then Forestis",
           "stay": {
             "name": "Forestis, above Bressanone",
             "status": "confirmed",
@@ -665,22 +664,22 @@
           "items": [
             {
               "time": "11:00 AM",
-              "title": "Leave the EDITION for Blevio",
+              "title": "Leave the EDITION",
               "status": "info",
-              "detail": "45 minutes."
+              "detail": "45 minutes to Mandarin Oriental."
             },
             {
               "time": "11:45 AM",
               "title": "Mandarin Oriental Lake Como, site visit",
               "status": "todo",
-              "detail": "Blevio, five minutes from Sereno.",
+              "detail": "Five minutes from Il Sereno.",
               "todo": "DM the MO Global DOS for the visit."
             },
             {
               "time": "12:45 PM",
-              "title": "Drive to the Dolomites",
+              "title": "Drive to Forestis",
               "status": "info",
-              "detail": "3 hours 15. Forestis by about 4:30."
+              "detail": "3 hours 15. Arrive about 4:30."
             },
             {
               "time": "Afternoon",
@@ -692,7 +691,7 @@
         },
         {
           "date": "2026-10-05",
-          "label": "Forestis",
+          "label": "October 5: Forestis",
           "stay": {
             "name": "Forestis, above Bressanone",
             "status": "confirmed",
@@ -702,7 +701,7 @@
         },
         {
           "date": "2026-10-06",
-          "label": "Aman visit, then the open night",
+          "label": "October 6: Aman visit, then the open night",
           "stay": {
             "name": "Open",
             "status": "open",
@@ -746,7 +745,7 @@
         },
         {
           "date": "2026-10-07",
-          "label": "Alpe di Siusi",
+          "label": "October 7: Alpe di Siusi",
           "stay": {
             "name": "COMO Alpina Dolomites, Alpe di Siusi",
             "status": "confirmed",
@@ -780,7 +779,7 @@
       "days": [
         {
           "date": "2026-10-08",
-          "label": "Drive down, Lupaia at dusk",
+          "label": "October 8: Drive down, Lupaia at dusk",
           "stay": {
             "name": "Open, base to choose",
             "status": "open",
@@ -818,7 +817,7 @@
       "days": [
         {
           "date": "2026-10-09",
-          "label": "Rosewood, Banfi, Monteverdi",
+          "label": "October 9: Rosewood, Banfi, Monteverdi",
           "stay": {
             "name": "Monteverdi Tuscany, Castiglioncello del Trinoro",
             "status": "confirmed",
@@ -859,7 +858,7 @@
         },
         {
           "date": "2026-10-10",
-          "label": "Monteverdi morning, Porto Ercole",
+          "label": "October 10: Monteverdi morning, Porto Ercole",
           "stay": {
             "name": "Il Pellicano, Porto Ercole",
             "status": "pending",
@@ -900,7 +899,7 @@
         },
         {
           "date": "2026-10-11",
-          "label": "Coast to Rome",
+          "label": "October 11: Coast to Rome",
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
@@ -923,7 +922,7 @@
         },
         {
           "date": "2026-10-12",
-          "label": "Rome",
+          "label": "October 12: Rome",
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "pending",
@@ -958,7 +957,7 @@
       "days": [
         {
           "date": "2026-10-13",
-          "label": "Rome to Positano by train and boat",
+          "label": "October 13: Rome to Positano by train and boat",
           "stay": {
             "name": "Le Sirenuse, Positano",
             "status": "paid",
@@ -987,7 +986,7 @@
         },
         {
           "date": "2026-10-14",
-          "label": "Hotel hop by boat, Santa Caterina",
+          "label": "October 14: Hotel hop by boat, Santa Caterina",
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
@@ -1022,7 +1021,7 @@
         },
         {
           "date": "2026-10-15",
-          "label": "Amalfi, Ravello",
+          "label": "October 15: Amalfi, Ravello",
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
@@ -1050,7 +1049,7 @@
         },
         {
           "date": "2026-10-16",
-          "label": "Depart Naples, return on points",
+          "label": "October 16: Depart Naples, return on points",
           "departure": true,
           "items": [
             {
