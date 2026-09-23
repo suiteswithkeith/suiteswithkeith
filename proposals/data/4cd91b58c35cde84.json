@@ -228,8 +228,8 @@
             {
               "time": "2:30 PM",
               "title": "Villa San Michele, site visit",
-              "status": "pending",
-              "detail": "Sofia Francini. She holds 3:00 on the 26th if the 25th does not work."
+              "status": "confirmed",
+              "detail": "Sofia Francini. Confirmed 2:30 PM."
             },
             {
               "time": "4:00 PM",
@@ -374,8 +374,8 @@
             {
               "time": "3:30 PM",
               "title": "Castello di Casole, site visit",
-              "status": "pending",
-              "detail": "Allegra Berardi, Adriana Iacolare. 40 minutes east. Final word from the hotel to come."
+              "status": "confirmed",
+              "detail": "Confirmed 3:30 PM. Ask for Romina, Head Concierge, or Antonio, Shift Leader. Adriana Iacolare +39 335 19 11 957, hotel +39 0577 961507. 40 minutes east."
             }
           ]
         },
@@ -1108,7 +1108,6 @@
       "title": "Waiting on",
       "items": [
         "Belmond, Andrea Gervasoni: Splendido rate for the 29th, visits on the 30th",
-        "Belmond: Sofia on San Michele 2:30 on the 25th, Casole team on the 27th",
         "Casa Maria Luigia: the 30th",
         "Portovenere, Rachele Belladelli: the 29th",
         "Gala, Gaia Bartoletti: Tremezzo on Friday at 12:30, once sent",
