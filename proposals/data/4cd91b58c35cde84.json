@@ -987,7 +987,7 @@
               "time": "Afternoon",
               "title": "Boat to Le Sirenuse, supplier being re-quoted",
               "status": "open",
-              "detail": "Sunrise (Teresa) offered 600 on the 28ft from Sorrento, not accepted. Pitching Lucibello, Blue Star, Positano Jet, Magia and Bassa Marea for a better number.",
+              "detail": "Sunrise (Teresa) offered 600 on the Ieranto 28, not accepted. Asking Lucibello, Blue Star, Luxury Boats Positano, Charter System and Plaghia for a classic Aprea gozzo or a Riva.",
               "todo": "Pick the supplier, then set the pier and pickup time."
             },
             {
@@ -1091,7 +1091,7 @@
         "Gala: Gaia, both visits Friday October 2, shuttle to Tremezzo (draft ready)",
         "Castello del Nero: Ilaria, Monday the 28th, tour at 12:00 and lunch at 1:00 (draft ready)",
         "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
-        "Boat for the 13th: pitch Lucibello, Blue Star, Positano Jet, Magia, Bassa Marea. Sunrise 600 on hold",
+        "Boat for the 13th: pitch Lucibello, Blue Star, Luxury Boats Positano, Charter System, Plaghia for an Aprea gozzo or Riva. Sunrise 600 on hold",
         "La Roqqa: Roberta, pass on the rate, visit on the 10th (draft ready). Flip it if you want the 455 instead of Pellicano",
         "Il Pellicano: Gianluca, accept 830 for the 10th (draft ready)",
         "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
@@ -1187,7 +1187,7 @@
     {
       "name": "Boat to Le Sirenuse on the 13th",
       "amount": 0,
-      "note": "Sunrise quoted 600, re-quoting. Budget 350 to 450 private, or about 25 on the public boat"
+      "note": "Sunrise quoted 600 on a small gozzo, re-quoting for a better boat. Expect 500 to 800 for an Aprea 32 to 35 or a Riva"
     }
   ]
 }
