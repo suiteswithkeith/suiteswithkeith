@@ -350,7 +350,7 @@
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
-            "detail": "Hosted. Sara Bonechi tours you on arrival. Nut allergy on file."
+            "detail": "Hosted. Sara Bonechi, Senior Sales Manager. Cecilia Ferrari, Sales Coordinator, +39 335 5932087. Nut allergy on file."
           },
           "items": [
             {
@@ -360,10 +360,10 @@
               "detail": "Must leave by noon."
             },
             {
-              "time": "Midday",
-              "title": "Arrive Castelfalfi, tour with Sara",
-              "status": "confirmed",
-              "detail": "45 minutes from Volterra."
+              "time": "12:00 PM",
+              "title": "Castelfalfi, site visit with Sara Bonechi",
+              "status": "pending",
+              "detail": "Cecilia proposed 10:30. Asked for noon, 11:30 as a fallback (draft ready). Leave by 2:30 for Casole."
             },
             {
               "time": "3:30 PM",
@@ -391,8 +391,8 @@
             {
               "time": "12:00 PM",
               "title": "COMO Castello del Nero, tour, lunch at the Pavilion at 1:00",
-              "status": "pending",
-              "detail": "Ilaria Socci, +39 335 6153302. Asked for noon, draft ready."
+              "status": "confirmed",
+              "detail": "Ilaria Socci, +39 335 6153302. Confirmed. She joins you for lunch (reply drafted)."
             },
             {
               "time": "2:30 PM",
@@ -420,46 +420,33 @@
       "id": "portofino",
       "name": "Liguria",
       "dates": "September 29 to October 1",
-      "strip_label": "Splendido to see, beds to decide",
-      "summary": "Splendido and Splendido Mare on the morning of the 30th. The 29th and 30th beds are decided after Eccellenze.",
+      "strip_label": "Portovenere offered, 30th open",
+      "summary": "Grand Hotel Portovenere offered the 29th. Splendido will not host; visits on the 30th only if you go. The 30th bed is open.",
       "drive": "San Felice to Portofino about 3 hours 15, to Portovenere 2 hours 30. Portovenere to Portofino 1 hour 45. Portofino to Modena 3 hours, to Cernobbio 2 hours 30. Modena to Cernobbio 2 hours 45.",
       "days": [
         {
           "date": "2026-09-29",
           "label": "September 29: Chianti to the coast",
           "stay": {
-            "name": "Coast, to decide after Eccellenze",
-            "status": "open",
+            "name": "Grand Hotel Portovenere, offered",
+            "status": "pending",
+            "detail": "One night hosted on the 29th, offered by Marta Lupi, Reservations Manager, +39 0187 777 751. Via Garibaldi 5. She needs a yes to send the confirmation.",
+            "todo": "Tell Marta yes or no.",
             "options": [
               {
-                "name": "Splendido or Splendido Mare, trade rate",
-                "status": "pending",
-                "detail": "Andrea Gervasoni, Belmond. Take it up to about 1,000."
+                "name": "Splendido or Splendido Mare",
+                "status": "ruled_out",
+                "detail": "Andrea Gervasoni by phone: cannot host."
               },
               {
                 "name": "Principe Forte dei Marmi",
                 "status": "suggested",
-                "detail": "Nicolò Grillo, at Eccellenze. Ask in person."
+                "detail": "Nicolò Grillo, at Eccellenze. Ask in person if you pass on Portovenere."
               },
               {
-                "name": "Pensione America, Forte dei Marmi",
-                "status": "todo",
-                "detail": "Ask by email."
-              },
-              {
-                "name": "Augustus, Forte dei Marmi",
-                "status": "todo",
-                "detail": "Ask by email. Check their closing date."
-              },
-              {
-                "name": "Grand Hotel Portovenere",
-                "status": "pending",
-                "detail": "Rachele Belladelli."
-              },
-              {
-                "name": "Miramare or Excelsior Palace",
-                "status": "todo",
-                "detail": "Fora contacts needed."
+                "name": "Pensione America or Augustus, Forte dei Marmi",
+                "status": "suggested",
+                "detail": "Not asked. Only if you pass on Portovenere."
               },
               {
                 "name": "Il Borro or La Monastica",
@@ -473,36 +460,31 @@
               "time": "11:30 AM",
               "title": "Leave San Felice",
               "status": "info",
-              "detail": "Portofino 3 hours 15, Forte dei Marmi 2 hours 15, Portovenere 2 hours 30."
+              "detail": "Portovenere 3 hours, Forte dei Marmi 2 hours 15, Portofino 3 hours 15."
             }
           ]
         },
         {
           "date": "2026-09-30",
-          "label": "September 30: Splendido and Splendido Mare",
+          "label": "September 30: Portofino visits if you go, bed open",
           "stay": {
-            "name": "Open: second Forte night, Modena, or the coast",
+            "name": "Open",
             "status": "open",
             "options": [
               {
-                "name": "Second Forte dei Marmi night",
+                "name": "Second night at Grand Hotel Portovenere",
                 "status": "suggested",
-                "detail": "Then Splendido moves to 12:30 and Mare to 2:00, round trip."
+                "detail": "Ask Marta when you say yes. Portofino is 1 hour 15 away for the visits, Como 3 hours on the 1st."
               },
               {
                 "name": "Casa Maria Luigia, Modena",
                 "status": "pending",
-                "detail": "Asked. 3 hours from Portofino."
+                "detail": "Asked, no answer. Portofino to Modena 2 hours 30, Modena to Como 2 hours 15."
               },
               {
                 "name": "Miramare or Excelsior Palace",
                 "status": "fallback",
-                "detail": "Ten minutes from Portofino."
-              },
-              {
-                "name": "Mandarin Oriental Lake Como",
-                "status": "fallback",
-                "detail": "Long shot, hosted or nothing."
+                "detail": "Ten minutes from Portofino. Fora contacts needed."
               }
             ]
           },
@@ -511,7 +493,7 @@
               "time": "11:00 AM",
               "title": "Splendido, site visit",
               "status": "pending",
-              "detail": "Andrea Gervasoni, Belmond."
+              "detail": "Andrea Gervasoni, Belmond. Not yet confirmed. Your call whether to go."
             },
             {
               "time": "12:30 PM",
@@ -520,16 +502,10 @@
               "detail": "Same team."
             },
             {
-              "time": "2:00 PM",
-              "title": "Splendido tennis, court and pro",
-              "status": "suggested",
-              "detail": "Ask Andrea when he answers. Bring kit."
-            },
-            {
               "time": "Afternoon",
-              "title": "To the lake, Modena, or stay",
+              "title": "To the 30th bed",
               "status": "info",
-              "detail": "Cernobbio 2 hours 30, Modena 3 hours."
+              "detail": "Portovenere 1 hour 15, Modena 2 hours 30, Como 2 hours 30."
             }
           ]
         }
@@ -554,16 +530,15 @@
           "items": [
             {
               "time": "11:15 AM",
-              "title": "Leave the coast hotel",
+              "title": "Leave the 30th hotel",
               "status": "info",
-              "detail": "About 2 hours 30 to Villa d'Este."
+              "detail": "Portovenere to Villa d'Este 3 hours, Modena 2 hours 15."
             },
             {
               "time": "2:00 PM",
               "title": "Villa d'Este, site visit",
-              "status": "pending",
-              "detail": "Laura Buzzi. 2:00 asked, noon offered.",
-              "todo": "Send Laura the 2:00 counter (draft ready)."
+              "status": "confirmed",
+              "detail": "Laura Buzzi. 2:00 confirmed."
             },
             {
               "time": "4:00 PM",
@@ -597,14 +572,15 @@
             {
               "time": "12:30 PM",
               "title": "Grand Hotel Tremezzo, site visit",
-              "status": "pending",
-              "detail": "Gala's boat from Passalacqua. Asked, draft ready. Away by 1:15."
+              "status": "confirmed",
+              "detail": "Gala's shuttle leaves Passalacqua at 11:45, 40 minutes. Away by 1:15. Reply drafted."
             },
             {
-              "time": "1:45 PM",
-              "title": "Back at Il Sereno by boat, collect the car",
-              "status": "info",
-              "detail": "Late checkout asked."
+              "time": "1:15 PM",
+              "title": "Water taxi Tremezzo to Il Sereno, collect the car",
+              "status": "todo",
+              "detail": "Gala's boats cannot run as taxis. Gaia is checking the rate for you, otherwise book one.",
+              "todo": "Book the water taxi once Gaia sends the rate."
             },
             {
               "time": "2:40 PM",
@@ -624,8 +600,9 @@
           "label": "October 3: The Lake Como EDITION, Grand Hotel Victoria",
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
-            "status": "paid",
-            "detail": "400 euros plus breakfast. Via Regina 41. Reservations +39 034 449 0790. Free cancellation until September 26."
+            "status": "pending",
+            "detail": "400 euros plus breakfast. Via Regina 41. Juliana Rodriguez, Reservations, +39 034 449 0790. CRS 82933248. Payment link received, confirmation letter follows payment. Cancellable to September 26.",
+            "todo": "Pay the EDITION link."
           },
           "items": [
             {
@@ -812,8 +789,8 @@
             {
               "time": "5:30 PM",
               "title": "Lupaia, site inspection and dinner",
-              "status": "pending",
-              "detail": "Christopher. Sunset about 6:40."
+              "status": "confirmed",
+              "detail": "Giulia. Fully booked for the night, dinner offered. Reply drafted. Sunset about 6:40."
             }
           ]
         }
@@ -915,7 +892,7 @@
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
-            "detail": "Hosted. Via Ludovisi 49. Tristan Delaittre, incoming GM. Elena Sgro, DOSM. Team to send details."
+            "detail": "Hosted. Via Ludovisi 49. Tristan Delaittre, incoming GM. Elena Sgro, DOSM. Giulio Pannunzi, Guest Experience, +39 06 47812730, told arrival 3:00 (draft ready)."
           },
           "items": [
             {
@@ -925,7 +902,7 @@
               "detail": "1 hour 45. Avis extended to the 11th."
             },
             {
-              "time": "2:00 PM",
+              "time": "3:00 PM",
               "title": "Check in at the Eden",
               "status": "info",
               "detail": "The terrace at sunset."
@@ -938,7 +915,7 @@
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "pending",
-            "detail": "Piazza della Minerva 69. Egle Antanaityte. Booked 11 to 13, comped 11th, paid 12th. Ask Egle at Eccellenze to make it the comped 12th only.",
+            "detail": "Piazza della Minerva 69. Egle Antanaityte. Booked 11 to 13, comped 11th, paid 12th. Accor wants a card guarantee for the 670 by September 30, request LAKAZEXE_B914_1716455. Hold it until Egle answers.",
             "todo": "Egle, in person: move the comped night to the 12th, drop the paid 11th."
           },
           "items": [
@@ -987,8 +964,8 @@
               "time": "Afternoon",
               "title": "Boat to Le Sirenuse, supplier being re-quoted",
               "status": "open",
-              "detail": "Sunrise (Teresa) offered 600 on the Ieranto 28, not accepted. Asking Lucibello, Blue Star, Luxury Boats Positano, Charter System and Plaghia for a classic Aprea gozzo or a Riva.",
-              "todo": "Pick the supplier, then set the pier and pickup time."
+              "detail": "Luxury Boats Positano: Lucia Lucibello replied, fleet and price list attached, wants your boat choice. Lucibello draft ready. Sunrise 600 on hold.",
+              "todo": "Pick a boat from Lucia's fleet PDF and reply."
             },
             {
               "time": "3:30 PM",
@@ -1087,18 +1064,22 @@
     {
       "title": "Send",
       "items": [
+        "Grand Hotel Portovenere: Marta, yes or no to the 29th",
+        "The Lake Como EDITION: pay the link for the 3rd",
+        "Castelfalfi: Cecilia, noon instead of 10:30 on the 27th (draft ready)",
+        "Castello del Nero: Ilaria, alone, join for lunch (draft ready)",
+        "Gala: Gaia, 11:45 shuttle yes, water taxi rate (draft ready)",
+        "Lupaia: Giulia, 5:30 and dinner on the 8th (draft ready)",
+        "Hotel Eden: Giulio, arrival 3:00, nut allergy (draft ready)",
         "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
-        "Gala: Gaia, both visits Friday October 2, shuttle to Tremezzo (draft ready)",
-        "Castello del Nero: Ilaria, Monday the 28th, tour at 12:00 and lunch at 1:00 (draft ready)",
+        "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
+        "Luxury Boats Positano: Lucia, pick the boat from her PDF",
+        "Lucibello: boat quote for the 13th (draft ready)",
         "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
-        "Boat for the 13th: pitch Lucibello, Blue Star, Luxury Boats Positano, Charter System, Plaghia for an Aprea gozzo or Riva. Sunrise 600 on hold",
         "La Roqqa: Roberta, pass on the rate, visit on the 10th (draft ready). Flip it if you want the 455 instead of Pellicano",
         "Il Pellicano: Gianluca, accept 830 for the 10th (draft ready)",
-        "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
-        "Villa d'Este: Laura, 2:00 on the 1st (draft ready)",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
-        "Pensione America and Augustus: hosting asks for the 29th",
         "Mandarin Oriental: DM the Global DOS for the visit on the 4th",
         "Borgo Pignano Volterra: Giuliana, ETA 4:30 and tour at 5:00 on the 26th",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court"
@@ -1107,13 +1088,14 @@
     {
       "title": "Decide and fix",
       "items": [
+        "The 29th: Portovenere or somewhere else. The 30th bed follows",
+        "Splendido and Mare visits on the 30th: go or skip",
+        "La Minerva: Accor card guarantee due September 30, hold until Egle answers",
         "Egle at Eccellenze: La Minerva to the comped 12th only, Eden has the 11th",
-        "Egle at Eccellenze: La Minerva to the comped 12th only, if Eden hosts",
         "Avis: pickup to 12:00 on the 25th, drop to the 11th",
         "Monteverdi: pre-arrival questionnaire",
         "Rome to Naples train for the 13th",
         "Return flight on the 16th: send the confirmation",
-        "Miramare and Excelsior: Fora contacts",
         "Alpina and Forestis: a friend may join",
         "Tennis kit"
       ]
@@ -1123,21 +1105,19 @@
     {
       "title": "Waiting on",
       "items": [
-        "Belmond, Andrea Gervasoni: Splendido rate for the 29th, visits on the 30th",
+        "Belmond, Andrea Gervasoni: Splendido visits on the 30th, if you go",
         "Casa Maria Luigia: the 30th",
-        "Portovenere, Rachele Belladelli: the 29th",
-        "Gala, Gaia Bartoletti: Tremezzo on Friday at 12:30, once sent",
+        "Gala, Gaia Bartoletti: water taxi rate for the 2nd",
         "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Como Transfers: boat on the 2nd",
-        "Villa d'Este, Laura Buzzi: 2:00 on the 1st, once sent",
-        "Lupaia, Christopher: the evening of the 8th",
+        "Castelfalfi, Cecilia Ferrari: noon on the 27th, once sent",
         "Miramonti: the 4th",
         "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Rocco Forte, Andrea Ercoli: de Russie on the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
-        "Hotel Eden team: stay details for the 11th",
-        "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent"
+        "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
+        "Lucibello: boat quote for the 13th, once sent"
       ]
     },
     {
