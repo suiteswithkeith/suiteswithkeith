@@ -232,12 +232,6 @@
               "detail": "Sofia Francini, Front Office Manager, +39 055 5678 200. Via Doccia 4, ten minutes from Collegio. Mornings not possible for them."
             },
             {
-              "time": "Moved",
-              "title": "Il Salviatino, asked to move to the 26th at 11:00",
-              "status": "pending",
-              "detail": "Angelo Cianci, +39 342 7633979. Draft ready. If Saturday fails, it stays at 1:00 today."
-            },
-            {
               "time": "Paused",
               "title": "Villa La Massa, 10:30 offered",
               "status": "suggested",
@@ -252,7 +246,7 @@
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
             "detail": "Hosted. Giuliana Braschi, Reservations, +39 0588 35032. Out by noon on the 27th.",
-            "todo": "Tell Giuliana: arriving about 4:30, tour at 5:00."
+            "todo": "Tell Giuliana: arriving about 2:30, tour at 5:00."
           },
           "items": [
             {
@@ -264,19 +258,20 @@
             {
               "time": "11:00 AM",
               "title": "Il Salviatino, site visit",
-              "status": "pending",
-              "detail": "Angelo Cianci. Via del Salviatino 21, five minutes from Collegio. Asked, draft ready."
+              "status": "confirmed",
+              "detail": "Oksana hosts, Angelo is away. Via del Salviatino 21, five minutes from Collegio."
             },
             {
               "time": "12:15 PM",
-              "title": "Drive to Volterra, lunch on the way",
+              "title": "Drive to Volterra, 1 hour 30, lunch on the way",
               "status": "info",
-              "detail": "About 1 hour 30."
+              "detail": "San Gimignano is on the route if you want a stop."
             },
             {
-              "time": "4:30 PM",
-              "title": "Arrive Borgo Pignano Volterra, tour at 5:00, sunset shoot",
-              "status": "info"
+              "time": "2:30 PM",
+              "title": "Arrive Borgo Pignano Volterra",
+              "status": "info",
+              "detail": "Giuliana Braschi. Tour at 5:00, sunset shoot after."
             }
           ]
         }
@@ -1071,7 +1066,6 @@
     {
       "title": "Send",
       "items": [
-        "Il Salviatino: Angelo, move to the 26th at 11:00 (draft ready)",
         "Grand Hotel Portovenere: Marta, yes or no to the 29th",
         "Castelfalfi: Cecilia, noon instead of 10:30 on the 27th (draft ready)",
         "Lupaia: Giulia, 5:30 and dinner on the 8th (draft ready)",
@@ -1086,7 +1080,7 @@
         "San Luis: hosting ask for the 6th (draft ready)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
         "Mandarin Oriental: DM the Global DOS for the visit on the 4th",
-        "Borgo Pignano Volterra: Giuliana, ETA 4:30 and tour at 5:00 on the 26th",
+        "Borgo Pignano Volterra: Giuliana, ETA 2:30 and tour at 5:00 on the 26th",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court"
       ]
     },
@@ -1110,7 +1104,6 @@
     {
       "title": "Waiting on",
       "items": [
-        "Il Salviatino, Angelo Cianci: the 26th at 11:00, once sent",
         "Belmond, Andrea Gervasoni: Splendido visits on the 30th, if you go",
         "Casa Maria Luigia: the 30th",
         "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
