@@ -985,9 +985,10 @@
             },
             {
               "time": "Afternoon",
-              "title": "Sunrise Sorrento boat, Sorrento to Le Sirenuse",
-              "status": "pending",
-              "detail": "Teresa. 600 euros on the 28ft boat, offered. Acceptance drafted, pier and time asked."
+              "title": "Boat to Le Sirenuse, supplier being re-quoted",
+              "status": "open",
+              "detail": "Sunrise (Teresa) offered 600 on the 28ft from Sorrento, not accepted. Pitching Lucibello, Blue Star, Positano Jet, Magia and Bassa Marea for a better number.",
+              "todo": "Pick the supplier, then set the pier and pickup time."
             },
             {
               "time": "3:30 PM",
@@ -1009,7 +1010,7 @@
               "time": "10:45 AM",
               "title": "Boat from Positano to Il San Pietro's dock, then Amalfi",
               "status": "pending",
-              "detail": "Sunrise did not offer the 14th. Asked for a price, otherwise arrange locally or go by road."
+              "detail": "Ask the same suppliers to quote the hop with the 13th, otherwise a Positano water taxi on the day."
             },
             {
               "time": "11:00 AM",
@@ -1090,7 +1091,7 @@
         "Gala: Gaia, both visits Friday October 2, shuttle to Tremezzo (draft ready)",
         "Castello del Nero: Ilaria, Monday the 28th, tour at 12:00 and lunch at 1:00 (draft ready)",
         "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
-        "Sunrise Sorrento: Teresa, accept 600 for the 13th, ask the pier and time (draft ready)",
+        "Boat for the 13th: pitch Lucibello, Blue Star, Positano Jet, Magia, Bassa Marea. Sunrise 600 on hold",
         "La Roqqa: Roberta, pass on the rate, visit on the 10th (draft ready). Flip it if you want the 455 instead of Pellicano",
         "Il Pellicano: Gianluca, accept 830 for the 10th (draft ready)",
         "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
@@ -1184,9 +1185,9 @@
       "note": "Splendido or Splendido Mare if Andrea's rate lands, take it up to about 1,000. Otherwise Forte dei Marmi, Portovenere or the coast, hosted or paid"
     },
     {
-      "name": "Sunrise Sorrento boat",
-      "amount": 600,
-      "note": "Sorrento to Le Sirenuse on the 13th, if you accept"
+      "name": "Boat to Le Sirenuse on the 13th",
+      "amount": 0,
+      "note": "Sunrise quoted 600, re-quoting. Budget 350 to 450 private, or about 25 on the public boat"
     }
   ]
 }
