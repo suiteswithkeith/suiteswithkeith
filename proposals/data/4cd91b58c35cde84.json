@@ -200,7 +200,7 @@
         },
         {
           "date": "2026-09-25",
-          "label": "September 25: Fiesole, Collegio",
+          "label": "September 25: Avis, Collegio, Villa San Michele",
           "stay": {
             "name": "Collegio alla Querce",
             "status": "paid",
@@ -220,22 +220,22 @@
               "todo": "Move the Avis pickup to 12:00."
             },
             {
-              "time": "1:00 PM",
-              "title": "Il Salviatino, site visit",
-              "status": "confirmed",
-              "detail": "Angelo Cianci. Via del Salviatino 21, +39 055 9041 111."
+              "time": "1:15 PM",
+              "title": "Check in at Collegio, drop bags",
+              "status": "info",
+              "detail": "25 minutes from the airport."
             },
             {
               "time": "2:30 PM",
               "title": "Villa San Michele, site visit",
               "status": "confirmed",
-              "detail": "Sofia Francini. Confirmed 2:30 PM."
+              "detail": "Sofia Francini, Front Office Manager, +39 055 5678 200. Via Doccia 4, ten minutes from Collegio. Mornings not possible for them."
             },
             {
-              "time": "4:00 PM",
-              "title": "Check in at Collegio",
-              "status": "info",
-              "detail": "Five minutes from San Michele."
+              "time": "Moved",
+              "title": "Il Salviatino, asked to move to the 26th at 11:00",
+              "status": "pending",
+              "detail": "Angelo Cianci, +39 342 7633979. Draft ready. If Saturday fails, it stays at 1:00 today."
             },
             {
               "time": "Paused",
@@ -247,7 +247,7 @@
         },
         {
           "date": "2026-09-26",
-          "label": "September 26: Collegio to Borgo Pignano Volterra",
+          "label": "September 26: Il Salviatino, then Borgo Pignano Volterra",
           "stay": {
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
@@ -256,15 +256,22 @@
           },
           "items": [
             {
-              "time": "12:00 PM",
+              "time": "10:45 AM",
               "title": "Checkout Collegio",
-              "status": "info"
+              "status": "info",
+              "detail": "Or ask for late checkout and come back for the bags."
             },
             {
-              "time": "Afternoon",
-              "title": "Drive to Volterra, lunch on the way if you like",
+              "time": "11:00 AM",
+              "title": "Il Salviatino, site visit",
+              "status": "pending",
+              "detail": "Angelo Cianci. Via del Salviatino 21, five minutes from Collegio. Asked, draft ready."
+            },
+            {
+              "time": "12:15 PM",
+              "title": "Drive to Volterra, lunch on the way",
               "status": "info",
-              "detail": "About 1 hour 30. Castello del Nero moved to the 28th."
+              "detail": "About 1 hour 30."
             },
             {
               "time": "4:30 PM",
@@ -1064,11 +1071,9 @@
     {
       "title": "Send",
       "items": [
+        "Il Salviatino: Angelo, move to the 26th at 11:00 (draft ready)",
         "Grand Hotel Portovenere: Marta, yes or no to the 29th",
-        "The Lake Como EDITION: pay the link for the 3rd",
         "Castelfalfi: Cecilia, noon instead of 10:30 on the 27th (draft ready)",
-        "Castello del Nero: Ilaria, alone, join for lunch (draft ready)",
-        "Gala: Gaia, 11:45 shuttle yes, water taxi rate (draft ready)",
         "Lupaia: Giulia, 5:30 and dinner on the 8th (draft ready)",
         "Hotel Eden: Giulio, arrival 3:00, nut allergy (draft ready)",
         "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
@@ -1105,9 +1110,9 @@
     {
       "title": "Waiting on",
       "items": [
+        "Il Salviatino, Angelo Cianci: the 26th at 11:00, once sent",
         "Belmond, Andrea Gervasoni: Splendido visits on the 30th, if you go",
         "Casa Maria Luigia: the 30th",
-        "Gala, Gaia Bartoletti: water taxi rate for the 2nd",
         "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Como Transfers: boat on the 2nd",
