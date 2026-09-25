@@ -223,12 +223,6 @@
               "title": "Villa San Michele, site visit",
               "status": "confirmed",
               "detail": "Sofia Francini, Front Office Manager, +39 055 5678 200. Via Doccia 4, ten minutes by taxi. Have Collegio book it both ways."
-            },
-            {
-              "time": "Paused",
-              "title": "Villa La Massa, 10:30 offered",
-              "status": "suggested",
-              "detail": "Laura Buzzi. Not taken."
             }
           ]
         },
@@ -1030,32 +1024,32 @@
       "title": "Send",
       "items": [
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
-        "Grand Hotel Portovenere: Marta, decline with thanks (draft ready)",
-        "Castelfalfi: Cecilia, noon instead of 10:30 on the 27th (draft ready)",
-        "Lupaia: Giulia, 5:30 and dinner on the 8th (draft ready)",
-        "Hotel Eden: Giulio, arrival 3:00, nut allergy (draft ready)",
-        "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
-        "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
-        "Luxury Boats Positano: Lucia, pick the boat from her PDF",
-        "Lucibello: boat quote for the 13th (draft ready)",
-        "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
-        "La Roqqa: Roberta, pass on the rate, visit on the 10th (draft ready). Flip it if you want the 455 instead of Pellicano",
-        "Il Pellicano: Gianluca, accept 830 for the 10th (draft ready)",
+        "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
+        "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
+        "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
+        "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
+        "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
+        "Luxury Boats Positano: Lucia, pick the boat from her PDF",
+        "Sunrise Sorrento: Teresa, one line passing on the 600",
+        "La Roqqa: Roberta, and Il Pellicano: Gianluca, once the 10th is decided (drafts need rewriting)",
         "Mandarin Oriental: DM the Global DOS for the visit on the 4th",
-        "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 on the 26th",
-        "Il San Pietro: Agostino, 11:00 on the 14th and the court"
+        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
       ]
     },
     {
       "title": "Decide and fix",
       "items": [
-        "La Minerva: Accor card guarantee due September 30, hold until Egle answers",
-        "Egle at Eccellenze: La Minerva to the comped 12th only, Eden has the 11th",
-        "Avis: drop to the 11th in Rome, pickup now Saturday the 26th",
+        "The 10th: La Roqqa night, Pellicano night, or drive through both to Rome with Eden 10 and 11",
+        "The 6th: San Luis, Gardena Grödnerhof or Badia Hill. Aman visit at 11:00 is set",
+        "The 8th: a bed near Montepulciano. Lupaia dinner is set",
+        "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
+        "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
+        "Como Transfers: boat at 10:40 on the 2nd, not yet confirmed",
+        "Avis: drop to the 11th in Rome, or the 10th if you drive through",
         "Monteverdi: pre-arrival questionnaire",
-        "Rome to Naples train for the 13th",
+        "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
         "Alpina and Forestis: a friend may join",
         "Tennis kit"
@@ -1066,17 +1060,18 @@
     {
       "title": "Waiting on",
       "items": [
-        "Belmond, Andrea Gervasoni: Splendido 11:00 and Mare 12:30 on the 30th, once sent",
+        "Belmond, Andrea Gervasoni: the 30th, once sent",
+        "Castelfalfi, Cecilia Ferrari: noon on the 27th",
+        "Lucibello: boat quote for the 13th",
         "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Como Transfers: boat on the 2nd",
-        "Castelfalfi, Cecilia Ferrari: noon on the 27th, once sent",
         "Miramonti: the 4th",
         "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Rocco Forte, Andrea Ercoli: de Russie on the 12th",
+        "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
-        "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
-        "Lucibello: boat quote for the 13th, once sent"
+        "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent"
       ]
     },
     {
