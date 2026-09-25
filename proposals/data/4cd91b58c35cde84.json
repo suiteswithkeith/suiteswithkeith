@@ -200,7 +200,7 @@
         },
         {
           "date": "2026-09-25",
-          "label": "September 25: Avis, Collegio, Villa San Michele",
+          "label": "September 25: Collegio, Villa San Michele",
           "stay": {
             "name": "Collegio alla Querce",
             "status": "paid",
@@ -209,27 +209,20 @@
           "items": [
             {
               "time": "11:00 AM",
-              "title": "Checkout Portrait",
-              "status": "info"
-            },
-            {
-              "time": "12:00 PM",
-              "title": "Taxi to the airport, collect the Avis car",
-              "status": "todo",
-              "detail": "Avis #26405920US2, booked for 9:00.",
-              "todo": "Move the Avis pickup to 12:00."
-            },
-            {
-              "time": "1:15 PM",
-              "title": "Check in at Collegio, drop bags",
+              "title": "Checkout Portrait, taxi to Collegio",
               "status": "info",
-              "detail": "25 minutes from the airport."
+              "detail": "20 minutes. Have the desk book it."
+            },
+            {
+              "time": "11:45 AM",
+              "title": "Collegio alla Querce, drop bags, check in",
+              "status": "info"
             },
             {
               "time": "2:30 PM",
               "title": "Villa San Michele, site visit",
               "status": "confirmed",
-              "detail": "Sofia Francini, Front Office Manager, +39 055 5678 200. Via Doccia 4, ten minutes from Collegio. Mornings not possible for them."
+              "detail": "Sofia Francini, Front Office Manager, +39 055 5678 200. Via Doccia 4, ten minutes by taxi. Have Collegio book it both ways."
             },
             {
               "time": "Paused",
@@ -246,29 +239,34 @@
             "name": "Borgo Pignano Volterra",
             "status": "confirmed",
             "detail": "Hosted. Giuliana Braschi, Reservations, +39 0588 35032. Out by noon on the 27th.",
-            "todo": "Tell Giuliana: arriving about 2:30, tour at 5:00."
+            "todo": "Tell Giuliana: arriving about 2:45, tour at 5:00."
           },
           "items": [
             {
               "time": "10:45 AM",
-              "title": "Checkout Collegio",
+              "title": "Checkout Collegio, taxi to Salviatino with bags",
               "status": "info",
-              "detail": "Or ask for late checkout and come back for the bags."
+              "detail": "Five minutes."
             },
             {
               "time": "11:00 AM",
               "title": "Il Salviatino, site visit",
               "status": "confirmed",
-              "detail": "Oksana hosts, Angelo is away. Via del Salviatino 21, five minutes from Collegio."
+              "detail": "Oksana hosts, Angelo is away. Via del Salviatino 21."
             },
             {
               "time": "12:15 PM",
-              "title": "Drive to Volterra, 1 hour 30, lunch on the way",
-              "status": "info",
-              "detail": "San Gimignano is on the route if you want a stop."
+              "title": "Taxi to the airport, collect the Avis car",
+              "status": "confirmed",
+              "detail": "30 minutes. Avis #26405920US2, moved to Saturday."
             },
             {
-              "time": "2:30 PM",
+              "time": "1:00 PM",
+              "title": "Drive to Volterra, 1 hour 30, lunch on the way",
+              "status": "info"
+            },
+            {
+              "time": "2:45 PM",
               "title": "Arrive Borgo Pignano Volterra",
               "status": "info",
               "detail": "Giuliana Braschi. Tour at 5:00, sunset shoot after."
@@ -1080,7 +1078,7 @@
         "San Luis: hosting ask for the 6th (draft ready)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
         "Mandarin Oriental: DM the Global DOS for the visit on the 4th",
-        "Borgo Pignano Volterra: Giuliana, ETA 2:30 and tour at 5:00 on the 26th",
+        "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 on the 26th",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court"
       ]
     },
@@ -1091,7 +1089,7 @@
         "Splendido and Mare visits on the 30th: go or skip",
         "La Minerva: Accor card guarantee due September 30, hold until Egle answers",
         "Egle at Eccellenze: La Minerva to the comped 12th only, Eden has the 11th",
-        "Avis: pickup to 12:00 on the 25th, drop to the 11th",
+        "Avis: drop to the 11th in Rome, pickup now Saturday the 26th",
         "Monteverdi: pre-arrival questionnaire",
         "Rome to Naples train for the 13th",
         "Return flight on the 16th: send the confirmation",
