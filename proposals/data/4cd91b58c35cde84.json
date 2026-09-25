@@ -418,94 +418,59 @@
     },
     {
       "id": "portofino",
-      "name": "Liguria",
+      "name": "Portofino",
       "dates": "September 29 to October 1",
-      "strip_label": "Portovenere offered, 30th open",
-      "summary": "Grand Hotel Portovenere offered the 29th. Splendido will not host; visits on the 30th only if you go. The 30th bed is open.",
-      "drive": "San Felice to Portofino about 3 hours 15, to Portovenere 2 hours 30. Portovenere to Portofino 1 hour 45. Portofino to Modena 3 hours, to Cernobbio 2 hours 30. Modena to Cernobbio 2 hours 45.",
+      "strip_label": "Grand Hotel Miramare, Splendido to see",
+      "summary": "Grand Hotel Miramare in Santa Margherita hosts both nights. Splendido and Splendido Mare on the morning of the 30th, once Andrea confirms.",
+      "drive": "Borgo San Felice to Santa Margherita about 3 hours. Santa Margherita to Villa d'Este about 2 hours 15.",
       "days": [
         {
           "date": "2026-09-29",
-          "label": "September 29: Chianti to the coast",
+          "label": "September 29: Chianti to Grand Hotel Miramare",
           "stay": {
-            "name": "Grand Hotel Portovenere, offered",
-            "status": "pending",
-            "detail": "One night hosted on the 29th, offered by Marta Lupi, Reservations Manager, +39 0187 777 751. Via Garibaldi 5. She needs a yes to send the confirmation.",
-            "todo": "Tell Marta yes or no.",
-            "options": [
-              {
-                "name": "Splendido or Splendido Mare",
-                "status": "ruled_out",
-                "detail": "Andrea Gervasoni by phone: cannot host."
-              },
-              {
-                "name": "Principe Forte dei Marmi",
-                "status": "suggested",
-                "detail": "Nicolò Grillo, at Eccellenze. Ask in person if you pass on Portovenere."
-              },
-              {
-                "name": "Pensione America or Augustus, Forte dei Marmi",
-                "status": "suggested",
-                "detail": "Not asked. Only if you pass on Portovenere."
-              },
-              {
-                "name": "Il Borro or La Monastica",
-                "status": "fallback",
-                "detail": "Tuscan fallbacks."
-              }
-            ]
+            "name": "Grand Hotel Miramare, Santa Margherita Ligure",
+            "status": "confirmed",
+            "detail": "Hosted, two nights. Salvatore, General Manager, generalmanager@grandhotelmiramare.it. Annalisa Viglietta copied. Ten minutes from Portofino."
           },
           "items": [
             {
               "time": "11:30 AM",
-              "title": "Leave San Felice",
+              "title": "Leave Borgo San Felice",
               "status": "info",
-              "detail": "Portovenere 3 hours, Forte dei Marmi 2 hours 15, Portofino 3 hours 15."
+              "detail": "About 3 hours to Santa Margherita."
+            },
+            {
+              "time": "3:00 PM",
+              "title": "Arrive Grand Hotel Miramare, check in, shoot",
+              "status": "info"
             }
           ]
         },
         {
           "date": "2026-09-30",
-          "label": "September 30: Portofino visits if you go, bed open",
+          "label": "September 30: Splendido, Splendido Mare, Miramare",
           "stay": {
-            "name": "Open",
-            "status": "open",
-            "options": [
-              {
-                "name": "Second night at Grand Hotel Portovenere",
-                "status": "suggested",
-                "detail": "Ask Marta when you say yes. Portofino is 1 hour 15 away for the visits, Como 3 hours on the 1st."
-              },
-              {
-                "name": "Casa Maria Luigia, Modena",
-                "status": "pending",
-                "detail": "Asked, no answer. Portofino to Modena 2 hours 30, Modena to Como 2 hours 15."
-              },
-              {
-                "name": "Miramare or Excelsior Palace",
-                "status": "fallback",
-                "detail": "Ten minutes from Portofino. Fora contacts needed."
-              }
-            ]
+            "name": "Grand Hotel Miramare, Santa Margherita Ligure",
+            "status": "confirmed",
+            "detail": "Hosted, night two."
           },
           "items": [
             {
               "time": "11:00 AM",
               "title": "Splendido, site visit",
               "status": "pending",
-              "detail": "Andrea Gervasoni, Belmond. Not yet confirmed. Your call whether to go."
+              "detail": "Andrea Gervasoni, Belmond, +39 347 4669316. Asked to confirm, draft ready. Ten minutes from Miramare."
             },
             {
               "time": "12:30 PM",
               "title": "Splendido Mare, site visit",
               "status": "pending",
-              "detail": "Same team."
+              "detail": "Same ask. Lunch in the piazzetta after."
             },
             {
               "time": "Afternoon",
-              "title": "To the 30th bed",
-              "status": "info",
-              "detail": "Portovenere 1 hour 15, Modena 2 hours 30, Como 2 hours 30."
+              "title": "Back to Miramare, shoot the hotel and Santa Margherita",
+              "status": "info"
             }
           ]
         }
@@ -530,9 +495,9 @@
           "items": [
             {
               "time": "11:15 AM",
-              "title": "Leave the 30th hotel",
+              "title": "Leave Grand Hotel Miramare",
               "status": "info",
-              "detail": "Portovenere to Villa d'Este 3 hours, Modena 2 hours 15."
+              "detail": "About 2 hours 15 to Villa d'Este."
             },
             {
               "time": "2:00 PM",
@@ -1064,7 +1029,8 @@
     {
       "title": "Send",
       "items": [
-        "Grand Hotel Portovenere: Marta, yes or no to the 29th",
+        "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
+        "Grand Hotel Portovenere: Marta, decline with thanks (draft ready)",
         "Castelfalfi: Cecilia, noon instead of 10:30 on the 27th (draft ready)",
         "Lupaia: Giulia, 5:30 and dinner on the 8th (draft ready)",
         "Hotel Eden: Giulio, arrival 3:00, nut allergy (draft ready)",
@@ -1085,8 +1051,6 @@
     {
       "title": "Decide and fix",
       "items": [
-        "The 29th: Portovenere or somewhere else. The 30th bed follows",
-        "Splendido and Mare visits on the 30th: go or skip",
         "La Minerva: Accor card guarantee due September 30, hold until Egle answers",
         "Egle at Eccellenze: La Minerva to the comped 12th only, Eden has the 11th",
         "Avis: drop to the 11th in Rome, pickup now Saturday the 26th",
@@ -1102,8 +1066,7 @@
     {
       "title": "Waiting on",
       "items": [
-        "Belmond, Andrea Gervasoni: Splendido visits on the 30th, if you go",
-        "Casa Maria Luigia: the 30th",
+        "Belmond, Andrea Gervasoni: Splendido 11:00 and Mare 12:30 on the 30th, once sent",
         "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Como Transfers: boat on the 2nd",
@@ -1154,11 +1117,6 @@
       "name": "Il Pellicano",
       "amount": 830,
       "note": "the 10th, if you take it over La Roqqa at 455"
-    },
-    {
-      "name": "The 29th",
-      "amount": 0,
-      "note": "Splendido or Splendido Mare if Andrea's rate lands, take it up to about 1,000. Otherwise Forte dei Marmi, Portovenere or the coast, hosted or paid"
     },
     {
       "name": "Boat to Le Sirenuse on the 13th",
