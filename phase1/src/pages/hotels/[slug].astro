@@ -18,6 +18,7 @@ const statLine = [h.stat1_num ? `${h.stat1_num} ${h.stat1_label}` : '', `${h.sta
   title={`${h.plain_name} Review — ${h.locale} | Suites With Keith`}
   description={h.meta_desc}
   preload={heroSrc}
+  ctaLabel={`Book ${h.short_name}`}
 >
 
 <header class="hero" style="min-height:min(72svh,680px);">
@@ -61,6 +62,9 @@ const statLine = [h.stat1_num ? `${h.stat1_num} ${h.stat1_label}` : '', `${h.sta
       {h.img2 !== h.hero_img && (
         <figure><img src={img2Src} alt={`${h.plain_name}, ${h.island}`} width="1600" height="1067" loading="lazy" decoding="async" /></figure>
       )}
+      {(h.gallery ?? []).map((g) => (
+        <figure><img src={g.src} alt={g.alt} width={g.w} height={g.h} loading="lazy" decoding="async" />{g.caption && <figcaption set:html={g.caption} />}</figure>
+      ))}
     </div>
   </div>
 </section>
