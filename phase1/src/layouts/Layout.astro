@@ -5,7 +5,7 @@ import '@fontsource-variable/bodoni-moda/opsz-italic.css';
 import '@fontsource/jost/300.css';
 import '@fontsource/jost/400.css';
 import '@fontsource/jost/500.css';
-const { title, description = '', current = '', preload = '', canonical = '', navOverlay = false, footerSubscribe = true } = Astro.props;
+const { title, description = '', current = '', preload = '', canonical = '', navOverlay = false, footerSubscribe = true, ctaLabel = 'Tell me where you&rsquo;re going' } = Astro.props;
 const canonicalPath = canonical === 'index.html' ? '' : canonical;
 ---
 <!doctype html>
@@ -84,7 +84,7 @@ const canonicalPath = canonical === 'index.html' ? '' : canonical;
   </div>
 </footer>
 
-<a href="#inquire" class="btn sticky-cta" data-gtag-label="start_planning" data-gtag-location="sticky_mobile">Tell me where you&rsquo;re going</a>
+<a href="#inquire" class="btn sticky-cta" data-gtag-label="start_planning" data-gtag-location="sticky_mobile"><Fragment set:html={ctaLabel} /></a>
 
 <script>
   // Nav disclosure
