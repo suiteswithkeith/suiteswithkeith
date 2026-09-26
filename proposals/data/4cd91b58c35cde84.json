@@ -746,9 +746,9 @@
           "date": "2026-10-08",
           "label": "October 8: Drive down, Lupaia at dusk",
           "stay": {
-            "name": "Open, base to choose",
-            "status": "open",
-            "detail": "Near Montepulciano or Montalcino."
+            "name": "Monteverdi Tuscany, second night asked",
+            "status": "pending",
+            "detail": "Asked Peggy for the 8th at an industry rate on top of the hosted 9th (draft ready). Lupaia is 15 minutes away."
           },
           "items": [
             {
@@ -758,9 +758,10 @@
               "detail": "4 hours 45 to Montepulciano."
             },
             {
-              "time": "4:00 PM",
-              "title": "Check in, drop bags",
-              "status": "info"
+              "time": "3:30 PM",
+              "title": "Arrive Monteverdi, drop bags",
+              "status": "info",
+              "detail": "If they say no, book something simple near Montepulciano."
             },
             {
               "time": "5:30 PM",
@@ -1043,6 +1044,7 @@
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
         "Castelfalfi: Cecilia, 5:30 on the 27th instead of 11:30 (draft ready)",
         "Lake Como Experiences: Riva and a rate for the 2nd (draft ready)",
+        "Monteverdi: Peggy, the 8th as a second night at an industry rate (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
@@ -1062,7 +1064,7 @@
       "items": [
         "The 10th: La Roqqa night, Pellicano night, or drive through both to Rome with Eden 10 and 11",
         "The 6th: San Luis, Gardena Grödnerhof or Badia Hill. Aman visit at 11:00 is set",
-        "The 8th: a bed near Montepulciano. Lupaia dinner is set",
+        "The 8th: Monteverdi second night if Peggy says yes, otherwise something simple near Montepulciano",
         "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "The boat on the 2nd: Como Classic Boats Vaporina at 720, or Lake Como Experiences if they come back with a Riva",
@@ -1090,7 +1092,8 @@
         "Rocco Forte, Andrea Ercoli: de Russie on the 12th",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
-        "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent"
+        "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
+        "Monteverdi, Peggy: the 8th, once sent"
       ]
     },
     {
@@ -1100,9 +1103,7 @@
         "Badia Hill",
         "ADLER Lodge Alpe",
         "Palazzo Avino, Caruso",
-        "Bulgari Roma, Vilòn, J.K. Place Roma",
-        "Castel Monastero",
-        "La Monastica"
+        "Bulgari Roma, Vilòn, J.K. Place Roma"
       ]
     }
   ],
