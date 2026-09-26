@@ -26,6 +26,7 @@ const schema = JSON.stringify({
   description={g.description}
   preload={g.hero_img}
   current="rankings"
+  ctaLabel={`Book ${g.hotel_name}`}
 >
 
 <Fragment slot="head" set:html={`<script type="application/ld+json">${schema}</script>`} />

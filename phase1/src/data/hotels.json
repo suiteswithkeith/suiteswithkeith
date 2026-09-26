@@ -3747,7 +3747,7 @@
   "hero_img": "villa-san-michele.jpg",
   "img2": "villa-san-michele.jpg",
   "tagline": "A former 15th-century monastery in the Fiesole hills above the city &mdash; recently renovated, with the best views in Florence.",
-  "meta_desc": "Why Belmond Villa San Michele is Keith's featured Florence pick — a former 15th-century monastery in the Fiesole hills, recently renovated, with the best views in Florence.",
+  "meta_desc": "Keith toured Belmond Villa San Michele — a former 15th-century monastery built into the Fiesole hillside, with the best views in Florence. Which rooms are most private, and what to know before you book.",
   "style_label": "Historic hillside retreat (Belmond)",
   "perfect_for": "Couples, view seekers, second-time Florence visitors",
   "region_label": "Region",
@@ -3763,6 +3763,8 @@
   "intro": [
    "On my featured Italy page, Villa San Michele leads the Florence section, and my one-line case for it hasn't changed: a former 15th-century monastery in the Fiesole hills above the city, recently renovated, with the best views in Florence — and a private shuttle into town.",
    "That's the whole proposition. Florence's city-center hotels give you the streets; Villa San Michele gives you the city itself, laid out below your terrace, with the Duomo catching the evening light. The recent renovation brought the rooms fully current without disturbing the monastery bones — the facade is attributed to Michelangelo's school, and it reads that way.",
+   "I toured the property in person and walked through a Garden Junior Suite. It's a genuinely unique place — built right into the hillside, with the villa, gardens, and terraces stepping down the slope. The one surprise: there isn't as much privacy as you'd expect at this level. Room choice really matters here, and when you book through me, I'll make sure you're in a private room.",
+   "How the rooms break down: rooms in the main building are smaller, but the views are incredible. The garden suites are tucked into the grounds — and one of them, which overlooks the parking lot, is the most private room on the entire property other than the chapel room. Tell me what matters most to you (view, space, or seclusion) and I'll match you to the right one.",
    "I'm a preferred partner of Belmond, so the upgrades, breakfast, and credits follow my clients up the hill — and the shuttle solves the only objection anyone ever raises about staying above the city."
   ],
   "stood_out": [
@@ -3777,12 +3779,24 @@
    {
     "b": "The private shuttle.",
     "t": "Into the city center on a loop — hilltop serenity without hilltop logistics."
+   },
+   {
+    "b": "Built into the hillside.",
+    "t": "A genuinely unique layout — the villa, gardens, and terraces step down the Fiesole slope above the city."
    }
   ],
   "know": [
    {
     "b": "You're above the city, not in it.",
     "t": "The shuttle makes it easy, but if you want to walk out into the streets, look at <a href=\"hotel-lungarno-florence.html\">Hotel Lungarno</a> — my riverside pick steps from everything."
+   },
+   {
+    "b": "Privacy varies by room.",
+    "t": "There's less privacy than you'd expect at this level. I'll make sure you're in a private room — the most secluded garden suite overlooks the parking lot, but only the chapel room is more private."
+   },
+   {
+    "b": "Lots of stairs up to the pool.",
+    "t": "The pool is a real climb from the rooms — worth knowing if anyone in your group has mobility concerns."
    },
    {
     "b": "Seasonal by nature.",
