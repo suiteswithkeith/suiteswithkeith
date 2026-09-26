@@ -340,7 +340,7 @@
       "days": [
         {
           "date": "2026-09-27",
-          "label": "September 27: Castelfalfi, Casole",
+          "label": "September 27: Slow morning at Pignano, Castelfalfi, Casole",
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
@@ -348,22 +348,39 @@
           },
           "items": [
             {
-              "time": "Sunrise",
-              "title": "Shoot Pignano, out by 11:00",
+              "time": "Morning",
+              "title": "Sleep in, breakfast, shoot Pignano if you feel like it",
               "status": "info",
-              "detail": "Must leave by noon."
+              "detail": "Out by noon."
             },
             {
               "time": "12:00 PM",
-              "title": "Castelfalfi, site visit with Sara Bonechi",
-              "status": "pending",
-              "detail": "Cecilia proposed 10:30. Asked for noon, 11:30 as a fallback (draft ready). Leave by 2:30 for Casole."
+              "title": "Drive to Castelfalfi, 45 minutes",
+              "status": "info"
+            },
+            {
+              "time": "1:00 PM",
+              "title": "Arrive Castelfalfi, drop bags, lunch",
+              "status": "info",
+              "detail": "No tour at midday. Cecilia asked for 11:30, you asked for 5:30 instead (draft ready)."
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Leave for Castello di Casole",
+              "status": "info",
+              "detail": "About 50 minutes."
             },
             {
               "time": "3:30 PM",
               "title": "Castello di Casole, site visit",
               "status": "confirmed",
-              "detail": "Confirmed 3:30 PM. Ask for Romina, Head Concierge, or Antonio, Shift Leader. Adriana Iacolare +39 335 19 11 957, hotel +39 0577 961507. 40 minutes east."
+              "detail": "Confirmed 3:30 PM. Ask for Romina, Head Concierge, or Antonio, Shift Leader. Adriana Iacolare +39 335 19 11 957."
+            },
+            {
+              "time": "5:30 PM",
+              "title": "Castelfalfi, walk-through with Sara Bonechi",
+              "status": "pending",
+              "detail": "Asked for 5:30, or 10:30 Monday before checkout as the fallback."
             }
           ]
         },
@@ -1024,6 +1041,7 @@
       "title": "Send",
       "items": [
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
+        "Castelfalfi: Cecilia, 5:30 on the 27th instead of 11:30 (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
@@ -1061,7 +1079,7 @@
       "title": "Waiting on",
       "items": [
         "Belmond, Andrea Gervasoni: the 30th, once sent",
-        "Castelfalfi, Cecilia Ferrari: noon on the 27th",
+        "Castelfalfi, Cecilia Ferrari: 5:30 on the 27th, once sent",
         "Lucibello: boat quote for the 13th",
         "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
