@@ -3821,17 +3821,10 @@
   "island": "Florence",
   "island_page": "featured-destinations.html",
   "locale": "Florence, Italy",
-  "img_dir": "destinations",
-  "hero_img": "fs-florence.jpg",
-  "img2": "fs-florence.jpg",
+  "img_dir": "hotels",
+  "hero_img": "fs-firenze-courtyard.jpg",
+  "img2": "fs-firenze-courtyard.jpg",
   "gallery": [
-   {
-    "src": "/images/hotels/fs-firenze-courtyard.jpg",
-    "alt": "The covered courtyard lounge at Four Seasons Hotel Firenze",
-    "caption": "The Gherardesca courtyard",
-    "w": 1112,
-    "h": 626
-   },
    {
     "src": "/images/hotels/fs-firenze-garden.jpg",
     "alt": "The Giardino della Gherardesca from above",
