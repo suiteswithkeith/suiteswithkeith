@@ -535,9 +535,10 @@
           "items": [
             {
               "time": "10:40 AM",
-              "title": "Como Transfers boat collects you at Il Sereno's dock",
+              "title": "Boat from Il Sereno's dock to Passalacqua",
               "status": "pending",
-              "detail": "Requested. Car and bags stay at Il Sereno."
+              "detail": "Como Classic Boats (Nicolò Brambilla) quoted 800 for two hours on the Vaporina, less 10 percent. Lake Como Experiences asked for a Riva and a partner rate (draft ready). Car and bags stay at Il Sereno.",
+              "todo": "Pick the boat once Lake Como Experiences answers."
             },
             {
               "time": "11:00 AM",
@@ -553,10 +554,9 @@
             },
             {
               "time": "1:15 PM",
-              "title": "Water taxi Tremezzo to Il Sereno, collect the car",
-              "status": "todo",
-              "detail": "Gala's boats cannot run as taxis. Gaia is checking the rate for you, otherwise book one.",
-              "todo": "Book the water taxi once Gaia sends the rate."
+              "title": "Boat Tremezzo to Il Sereno, collect the car",
+              "status": "pending",
+              "detail": "Asked of Lake Como Experiences as the second leg. Otherwise a water taxi."
             },
             {
               "time": "2:40 PM",
@@ -1042,6 +1042,7 @@
       "items": [
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
         "Castelfalfi: Cecilia, 5:30 on the 27th instead of 11:30 (draft ready)",
+        "Lake Como Experiences: Riva and a rate for the 2nd (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
@@ -1064,7 +1065,7 @@
         "The 8th: a bed near Montepulciano. Lupaia dinner is set",
         "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
-        "Como Transfers: boat at 10:40 on the 2nd, not yet confirmed",
+        "The boat on the 2nd: Como Classic Boats Vaporina at 720, or Lake Como Experiences if they come back with a Riva",
         "Avis: drop to the 11th in Rome, or the 10th if you drive through",
         "Monteverdi: pre-arrival questionnaire",
         "Rome to Naples train for the 13th, once the boat pickup is set",
@@ -1083,7 +1084,7 @@
         "Lucibello: boat quote for the 13th",
         "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
-        "Como Transfers: boat on the 2nd",
+        "Lake Como Experiences: Riva for the 2nd, once sent",
         "Miramonti: the 4th",
         "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Rocco Forte, Andrea Ercoli: de Russie on the 12th",
