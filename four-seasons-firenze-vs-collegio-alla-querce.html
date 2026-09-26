@@ -84,7 +84,6 @@
 
   /* hotel sections */
   .hotel { padding-top: clamp(56px,8vw,96px); display: flex; flex-wrap: wrap; gap: clamp(28px,4vw,56px); align-items: flex-start; }
-  .hotel.flip { flex-wrap: wrap-reverse; }
   .hotel-text { flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 18px; }
   .hotel-text h2 { font-size: clamp(30px,3.6vw,42px); line-height: 1.1; }
   .pic { overflow: hidden; background: var(--photo); }
@@ -96,7 +95,8 @@
   .gal-co { flex: 1 1 520px; min-width: 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
   .gal-co .big { grid-column: 1 / span 2; grid-row: 1 / span 2; aspect-ratio: 3/4; }
   .gal-co .big img { object-position: 50% 30%; }
-  .gal-co .small { min-height: 0; }
+  .gal-co .small { min-height: 0; position: relative; }
+  .gal-co .small img { position: absolute; inset: 0; }
   .facts { display: flex; flex-direction: column; border-top: 1px solid var(--line); margin: 0; }
   .facts > div { display: grid; grid-template-columns: 110px minmax(0,1fr); gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); }
   .facts dt { font-family: var(--serif); font-weight: 500; font-size: 9.5px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
@@ -173,7 +173,7 @@
 <section class="hero" aria-labelledby="hero-h">
   <div class="hero-pics">
     <div><img src="/images/hotels/fs-firenze-garden.jpg" alt="Formal gardens at Four Seasons Hotel Firenze" style="object-position:50% 50%" fetchpriority="high"></div>
-    <div><img src="/images/florence/collegio-gardens.jpg" alt="Gardens and villa at Collegio alla Querce, Florence" style="object-position:50% 60%" onerror="this.remove()"></div>
+    <div><img src="/images/florence/collegio-gardens.jpg" alt="Gardens and villa at Collegio alla Querce, Florence" style="object-position:50% 60%"></div>
   </div>
   <div class="hero-scrim"></div>
   <div class="hero-copy">
@@ -225,7 +225,7 @@
   </div>
 </section>
 
-<section class="wrap hotel flip" aria-labelledby="co-h">
+<section class="wrap hotel" aria-labelledby="co-h">
   <div class="hotel-text">
     <div class="eyebrow">Above the city</div>
     <h2 id="co-h">Collegio alla <em>Querce</em></h2>
@@ -238,9 +238,9 @@
     </dl>
   </div>
   <div class="gal-co">
-    <div class="pic big"><img src="/images/florence/collegio-bath-view.jpg" alt="Soaking tub with a view over Florence at Collegio alla Querce" loading="lazy" decoding="async" onerror="this.remove()"></div>
-    <div class="pic small"><img src="/images/florence/collegio-room.jpg" alt="Guest room at Collegio alla Querce" loading="lazy" decoding="async" onerror="this.remove()"></div>
-    <div class="pic small"><img src="/images/florence/collegio-dining.jpg" alt="Light-filled dining room at Collegio alla Querce" loading="lazy" decoding="async" onerror="this.remove()"></div>
+    <div class="pic big"><img src="/images/florence/collegio-bath-view.jpg" alt="Soaking tub with a view over Florence at Collegio alla Querce" loading="lazy" decoding="async"></div>
+    <div class="pic small"><img src="/images/florence/collegio-room.jpg" alt="Guest room at Collegio alla Querce" loading="lazy" decoding="async"></div>
+    <div class="pic small"><img src="/images/florence/collegio-dining.jpg" alt="Light-filled dining room at Collegio alla Querce" loading="lazy" decoding="async"></div>
   </div>
 </section>
 
