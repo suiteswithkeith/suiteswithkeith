@@ -340,7 +340,7 @@
       "days": [
         {
           "date": "2026-09-27",
-          "label": "September 27: Slow morning at Pignano, Casole, Castelfalfi",
+          "label": "September 27: Slow morning at Pignano, Castelfalfi, Casole",
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
@@ -355,31 +355,36 @@
             },
             {
               "time": "12:00 PM",
-              "title": "Drive to Castello di Casole, 35 minutes",
+              "title": "Drive to Castelfalfi, 45 minutes",
               "status": "info"
             },
             {
-              "time": "12:30 PM",
-              "title": "Castello di Casole, site visit",
-              "status": "pending",
-              "detail": "Asked to move from 3:30 to 12:30, email sent. Ask for Romina, Head Concierge, or Antonio, Shift Leader. Front desk +39 0577 961507. If they say no, 3:30 stands."
+              "time": "12:45 PM",
+              "title": "Arrive Castelfalfi, lunch, drop bags",
+              "status": "info",
+              "detail": "Room may not be ready until 3."
             },
             {
               "time": "2:30 PM",
-              "title": "Drive to Castelfalfi, 50 minutes",
+              "title": "Leave for Castello di Casole, 50 minutes",
               "status": "info"
             },
             {
               "time": "3:30 PM",
-              "title": "Arrive Castelfalfi, check in",
-              "status": "info",
-              "detail": "Cecilia asked for 11:30, you asked for 5:30 instead. No answer yet."
+              "title": "Castello di Casole, site visit",
+              "status": "confirmed",
+              "detail": "3:30 is the earliest they will do. Ask for Romina, Head Concierge, or Antonio, Shift Leader. Front desk +39 0577 961507."
+            },
+            {
+              "time": "4:30 PM",
+              "title": "Back to Castelfalfi, 50 minutes",
+              "status": "info"
             },
             {
               "time": "5:30 PM",
               "title": "Castelfalfi, walk-through with Sara Bonechi",
               "status": "pending",
-              "detail": "Asked for 5:30, or 10:30 Monday before checkout as the fallback."
+              "detail": "Asked for 5:30, or 10:30 Monday before checkout. No answer yet. Otherwise shoot the estate yourself."
             }
           ]
         },
