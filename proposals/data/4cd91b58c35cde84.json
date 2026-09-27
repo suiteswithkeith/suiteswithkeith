@@ -340,7 +340,7 @@
       "days": [
         {
           "date": "2026-09-27",
-          "label": "September 27: Slow morning at Pignano, Castelfalfi, Casole",
+          "label": "September 27: Slow morning at Pignano, winery, Casole, Castelfalfi",
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
@@ -354,37 +354,28 @@
               "detail": "Out by noon."
             },
             {
-              "time": "12:00 PM",
-              "title": "Drive to Castelfalfi, 45 minutes",
-              "status": "info"
+              "time": "12:30 PM",
+              "title": "Podere Marcampo, tasting and lunch",
+              "status": "suggested",
+              "detail": "10 minutes from Pignano. +39 0588 85393, call first. Otherwise lunch in Volterra."
             },
             {
-              "time": "12:45 PM",
-              "title": "Arrive Castelfalfi, lunch, drop bags",
-              "status": "info",
-              "detail": "Room may not be ready until 3."
-            },
-            {
-              "time": "2:30 PM",
-              "title": "Leave for Castello di Casole, 50 minutes",
-              "status": "info"
+              "time": "2:35 PM",
+              "title": "San Gimignano, 30 minutes",
+              "status": "suggested",
+              "detail": "Park at P2, Piazza della Cisterna, Dondoli. Leave by 3:05."
             },
             {
               "time": "3:30 PM",
               "title": "Castello di Casole, site visit",
               "status": "confirmed",
-              "detail": "3:30 is the earliest they will do. Ask for Romina, Head Concierge, or Antonio, Shift Leader. Front desk +39 0577 961507."
+              "detail": "Ask for Romina, Head Concierge, or Antonio, Shift Leader. Front desk +39 0577 961507."
             },
             {
               "time": "4:30 PM",
-              "title": "Back to Castelfalfi, 50 minutes",
-              "status": "info"
-            },
-            {
-              "time": "5:30 PM",
-              "title": "Castelfalfi, walk-through with Sara Bonechi",
-              "status": "pending",
-              "detail": "Asked for 5:30, or 10:30 Monday before checkout. No answer yet. Otherwise shoot the estate yourself."
+              "title": "Drive to Castelfalfi, 50 minutes, check in",
+              "status": "info",
+              "detail": "Shoot the estate in the evening light. Sara tours you tomorrow at 10:30."
             }
           ]
         },
@@ -398,10 +389,10 @@
           },
           "items": [
             {
-              "time": "11:15 AM",
-              "title": "Checkout Castelfalfi",
-              "status": "info",
-              "detail": "45 minutes to Castello del Nero."
+              "time": "10:30 AM",
+              "title": "Castelfalfi, walk-through with Sara Bonechi, then checkout",
+              "status": "confirmed",
+              "detail": "Leave by 11:15. 45 minutes to Castello del Nero."
             },
             {
               "time": "12:00 PM",
@@ -1046,7 +1037,6 @@
       "title": "Send",
       "items": [
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
-        "Castelfalfi: Cecilia, 5:30 on the 27th instead of 11:30 (draft ready)",
         "Lake Como Experiences: Riva and a rate for the 2nd (draft ready)",
         "Monteverdi: Peggy, the 8th as a second night at an industry rate (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
@@ -1086,7 +1076,6 @@
       "title": "Waiting on",
       "items": [
         "Belmond, Andrea Gervasoni: the 30th, once sent",
-        "Castelfalfi, Cecilia Ferrari: 5:30 on the 27th, once sent",
         "Lucibello: boat quote for the 13th",
         "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
