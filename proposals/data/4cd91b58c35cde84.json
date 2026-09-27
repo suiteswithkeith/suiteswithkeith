@@ -431,7 +431,7 @@
       "days": [
         {
           "date": "2026-09-29",
-          "label": "September 29: Chianti to Grand Hotel Miramare",
+          "label": "September 29: Il Borro on the way, Grand Hotel Miramare",
           "stay": {
             "name": "Grand Hotel Miramare, Santa Margherita Ligure",
             "status": "confirmed",
@@ -439,15 +439,22 @@
           },
           "items": [
             {
-              "time": "11:30 AM",
+              "time": "10:15 AM",
               "title": "Leave Borgo San Felice",
               "status": "info",
-              "detail": "About 3 hours to Santa Margherita."
+              "detail": "Il Borro is 1 hour. Straight to Santa Margherita is 3 hours."
             },
             {
-              "time": "3:00 PM",
+              "time": "11:30 AM",
+              "title": "Il Borro, cellar, tasting and lunch",
+              "status": "pending",
+              "detail": "Federico Caligaris Papa, Head of Sales, +39 345 917 7582. Offered for the 28th, asked to move to the 29th (draft ready). Leave by 2:00."
+            },
+            {
+              "time": "5:15 PM",
               "title": "Arrive Grand Hotel Miramare, check in, shoot",
-              "status": "info"
+              "status": "info",
+              "detail": "About 3 hours 15 from Il Borro. Salvatore and Annalisa are there on the day."
             }
           ]
         },
@@ -1037,6 +1044,7 @@
       "items": [
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
         "Lake Como Experiences: Riva and a rate for the 2nd (draft ready)",
+        "Il Borro: Federico, move the tasting and lunch to the 29th at 11:30 (draft ready)",
         "Monteverdi: Peggy, the 8th as a second night at an industry rate (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
@@ -1085,7 +1093,8 @@
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
-        "Monteverdi, Peggy: the 8th, once sent"
+        "Monteverdi, Peggy: the 8th, once sent",
+        "Il Borro, Federico Caligaris Papa: the 29th, once sent"
       ]
     },
     {
