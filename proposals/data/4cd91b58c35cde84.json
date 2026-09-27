@@ -340,7 +340,7 @@
       "days": [
         {
           "date": "2026-09-27",
-          "label": "September 27: Slow morning at Pignano, Castelfalfi, Casole",
+          "label": "September 27: Slow morning at Pignano, Casole, Castelfalfi",
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
@@ -355,26 +355,25 @@
             },
             {
               "time": "12:00 PM",
-              "title": "Drive to Castelfalfi, 45 minutes",
+              "title": "Drive to Castello di Casole, 35 minutes",
               "status": "info"
             },
             {
-              "time": "1:00 PM",
-              "title": "Arrive Castelfalfi, drop bags, lunch",
-              "status": "info",
-              "detail": "No tour at midday. Cecilia asked for 11:30, you asked for 5:30 instead (draft ready)."
+              "time": "12:30 PM",
+              "title": "Castello di Casole, site visit",
+              "status": "pending",
+              "detail": "Asked to move from 3:30 to 12:30, email sent. Ask for Romina, Head Concierge, or Antonio, Shift Leader. Front desk +39 0577 961507. If they say no, 3:30 stands."
             },
             {
               "time": "2:30 PM",
-              "title": "Leave for Castello di Casole",
-              "status": "info",
-              "detail": "About 50 minutes."
+              "title": "Drive to Castelfalfi, 50 minutes",
+              "status": "info"
             },
             {
               "time": "3:30 PM",
-              "title": "Castello di Casole, site visit",
-              "status": "confirmed",
-              "detail": "Confirmed 3:30 PM. Ask for Romina, Head Concierge, or Antonio, Shift Leader. Adriana Iacolare +39 335 19 11 957."
+              "title": "Arrive Castelfalfi, check in",
+              "status": "info",
+              "detail": "Cecilia asked for 11:30, you asked for 5:30 instead. No answer yet."
             },
             {
               "time": "5:30 PM",
