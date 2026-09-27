@@ -340,7 +340,7 @@
       "days": [
         {
           "date": "2026-09-27",
-          "label": "September 27: Slow morning at Pignano, winery, Casole, Castelfalfi",
+          "label": "September 27: Slow morning at Pignano, Castelfalfi, Casole in the middle",
           "stay": {
             "name": "Castelfalfi, Montaione",
             "status": "confirmed",
@@ -354,28 +354,27 @@
               "detail": "Out by noon."
             },
             {
-              "time": "12:30 PM",
-              "title": "Podere Marcampo, tasting and lunch",
-              "status": "suggested",
-              "detail": "10 minutes from Pignano. +39 0588 85393, call first. Otherwise lunch in Volterra."
+              "time": "12:45 PM",
+              "title": "Arrive Castelfalfi, lunch at Olivina, pool, shoot the borgo",
+              "status": "info",
+              "detail": "45 minutes from Pignano. Room may not be ready until 3."
             },
             {
               "time": "2:35 PM",
-              "title": "San Gimignano, 30 minutes",
-              "status": "suggested",
-              "detail": "Park at P2, Piazza della Cisterna, Dondoli. Leave by 3:05."
+              "title": "Leave for Castello di Casole, 50 minutes",
+              "status": "info"
             },
             {
               "time": "3:30 PM",
-              "title": "Castello di Casole, site visit",
+              "title": "Castello di Casole, site visit, 45 minutes",
               "status": "confirmed",
-              "detail": "Ask for Romina, Head Concierge, or Antonio, Shift Leader. Front desk +39 0577 961507."
+              "detail": "Ask for Romina, Head Concierge, or Antonio, Shift Leader. Front desk +39 0577 961507. Out by 4:15."
             },
             {
-              "time": "4:30 PM",
-              "title": "Drive to Castelfalfi, 50 minutes, check in",
+              "time": "5:05 PM",
+              "title": "Back at Castelfalfi, golden hour, dinner",
               "status": "info",
-              "detail": "Shoot the estate in the evening light. Sara tours you tomorrow at 10:30."
+              "detail": "Sara tours you tomorrow at 10:30."
             }
           ]
         },
