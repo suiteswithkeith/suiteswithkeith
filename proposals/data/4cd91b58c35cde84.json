@@ -900,14 +900,20 @@
             {
               "time": "11:00 AM",
               "title": "Hotel de Russie, site visit",
-              "status": "pending",
-              "detail": "Andrea Ercoli, Rocco Forte. Proposed."
+              "status": "confirmed",
+              "detail": "Elena Carnevale, Regional Sales Coordinator, +39 342 1250435. Ask for her at reception. Renovated rooms and the Secret Garden."
             },
             {
               "time": "Afternoon",
               "title": "Six Senses Rome, site visit and spa",
               "status": "pending",
               "detail": "Stefano Vazzola. Set it around October 5."
+            },
+            {
+              "time": "TBC",
+              "title": "La Dolce Vita Orient Express, visit on board",
+              "status": "pending",
+              "detail": "Federico Talucci, F&B Manager, +39 349 1997497. Offered a visit during your Rome days, asked which day the train is in Rome (draft ready). Roma Ostiense."
             }
           ]
         }
@@ -1042,6 +1048,8 @@
     {
       "title": "Send",
       "items": [
+        "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
+        "La Dolce Vita: Federico, which day the train is in Rome (draft ready)",
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
         "Lake Como Experiences: Riva and a rate for the 2nd (draft ready)",
         "Il Borro: Federico, move the tasting and lunch to the 29th at 11:30 (draft ready)",
@@ -1089,12 +1097,12 @@
         "Lake Como Experiences: Riva for the 2nd, once sent",
         "Miramonti: the 4th",
         "Gardena Grödnerhof, Alex Demetz: the 6th",
-        "Rocco Forte, Andrea Ercoli: de Russie on the 12th",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
         "Monteverdi, Peggy: the 8th, once sent",
-        "Il Borro, Federico Caligaris Papa: the 29th, once sent"
+        "Il Borro, Federico Caligaris Papa: the 29th, once sent",
+        "La Dolce Vita Orient Express, Federico Talucci: which day, once sent"
       ]
     },
     {
