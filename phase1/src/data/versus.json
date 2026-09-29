@@ -2778,5 +2778,305 @@
    }
   ],
   "ld_image": "/images/hotels/one-and-only-kea-1.jpg"
+ },
+ "borgo-san-felice-vs-borgo-pignano": {
+  "title": "Borgo San Felice or Borgo Pignano | Suites With Keith",
+  "description": "Two Tuscan borghi Keith has slept at, compared: Borgo San Felice near Siena, the most well-rounded, against Borgo Pignano outside Volterra, the quiet hilltop with private villas. Which one suits your trip.",
+  "eyebrow": "Head-to-head &middot; Tuscany",
+  "h1_a": "Borgo San Felice",
+  "h1_b": "Borgo Pignano?",
+  "deck": "Two restored Tuscan borghi I&rsquo;ve slept at, and both are fantastic. They just suit different travelers: one is the all-rounder near Siena that feels like home, the other is a quiet hilltop estate with private villas for families and groups.",
+  "stamp": "Stayed at both &middot; part of my Tuscany borghi trio with Il Borro",
+  "preload": "/images/tuscany/borgo-san-felice-aerial.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Borgo San Felice",
+    "h3": "If you want everything done well",
+    "lead": "A perfectly restored medieval borgo in the Chianti hills just outside Siena. The most well-rounded of the three: fantastic service, fantastic food, tennis, a gym and a spa &mdash; and a real feeling of home.",
+    "img": "/images/tuscany/borgo-san-felice-aerial.jpg",
+    "alt": "Borgo San Felice from above, surrounded by Chianti vineyards",
+    "w": 588,
+    "h": 441
+   },
+   {
+    "eyebrow": "Choose Borgo Pignano",
+    "h3": "If you&rsquo;re bringing family or friends",
+    "lead": "A villa and stone hamlet on a hilltop outside Volterra, with around nine private villas of two to five bedrooms, two pools and a kids&rsquo; pool, tennis, a fantastic gym and a spa &mdash; and dinner under a pergola facing the valley.",
+    "img": "/images/tuscany/borgo-pignano-aerial.jpg",
+    "alt": "Aerial view of the Borgo Pignano villa and pool terrace at sunset",
+    "w": 464,
+    "h": 660
+   }
+  ],
+  "rows": [
+   [
+    "Where",
+    "Chianti, just outside Siena",
+    "The hills outside Volterra, about 1.5 hours from Florence"
+   ],
+   [
+    "My visit",
+    "Stayed &mdash; one of my favorite stays so far",
+    "Stayed"
+   ],
+   [
+    "The feel",
+    "Quaint and warm &mdash; a perfectly restored village that feels like home",
+    "Quiet and private &mdash; a hilltop estate with the valley to yourself"
+   ],
+   [
+    "Best for",
+    "Anyone who wants everything done well; first-timers; Siena close by",
+    "Families and groups taking a villa; couples who want quiet"
+   ],
+   [
+    "Where to sleep",
+    "In the borgo &mdash; I&rsquo;ll pick the room",
+    "A private villa for groups; the main villa or borgo for couples"
+   ],
+   [
+    "On property",
+    "Tennis, gym, spa",
+    "Two pools plus a kids&rsquo; pool, tennis, gym, spa"
+   ],
+   [
+    "Booking perks",
+    "Amenities through my hotel relationships",
+    "Relais &amp; Ch&acirc;teaux, Fora Reserve"
+   ]
+  ],
+  "footnote": "Both are about location as much as the hotel: San Felice puts Siena and Chianti on your doorstep, Pignano puts Volterra and San Gimignano within reach. I arrange drivers who know the back roads for either.",
+  "verdict": {
+   "h2": "Who&rsquo;s coming decides it.",
+   "paras": [
+    "If it&rsquo;s the two of you, or your first time in Tuscany, I lean Borgo San Felice. It&rsquo;s the most well-rounded borgo I&rsquo;ve stayed at &mdash; close to Siena, fantastic service and food, tennis, a gym and a spa, and a real feeling of home. It&rsquo;s one of my favorite stays so far.",
+    "If you&rsquo;re traveling as a family or a group, Borgo Pignano is the answer. Its private villas give everyone their own house with the full hotel behind it, and the kids&rsquo; pool, tennis and spa keep every age busy. Couples who want real quiet and that pergola view at sunset will love it too."
+   ]
+  },
+  "subject": "Borgo San Felice vs Borgo Pignano Inquiry",
+  "hotel": "Borgo San Felice / Borgo Pignano",
+  "placeholder": "June, 4 nights",
+  "related": [
+   {
+    "href": "/hotels/borgo-san-felice-tuscany.html",
+    "label": "Borgo San Felice review"
+   },
+   {
+    "href": "/hotels/borgo-pignano-volterra-tuscany.html",
+    "label": "Borgo Pignano review"
+   },
+   {
+    "href": "/borgo-san-felice-vs-il-borro.html",
+    "label": "Borgo San Felice or Il Borro"
+   },
+   {
+    "href": "/borgo-pignano-vs-il-borro.html",
+    "label": "Borgo Pignano or Il Borro"
+   },
+   {
+    "href": "/featured-destinations.html",
+    "label": "My Featured Destinations"
+   }
+  ]
+ },
+ "borgo-san-felice-vs-il-borro": {
+  "title": "Borgo San Felice or Il Borro | Suites With Keith",
+  "description": "Two medieval Tuscan borghi compared by Keith: Borgo San Felice near Siena, the most well-rounded, against Il Borro, the Ferragamo family's village and the honeymoon pick. Which one suits your trip.",
+  "eyebrow": "Head-to-head &middot; Tuscany",
+  "h1_a": "Borgo San Felice",
+  "h1_b": "Il Borro?",
+  "deck": "Two restored medieval villages, each run as one hotel, and both fantastic. One is the well-rounded borgo near Siena that feels like home; the other is the most authentic, a whole village turned hotel, and the one I send honeymooners to.",
+  "stamp": "Stayed at San Felice &middot; toured Il Borro &middot; part of my Tuscany borghi trio with Borgo Pignano",
+  "preload": "/images/tuscany/borgo-san-felice-chapel-lane.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Borgo San Felice",
+    "h3": "If you want the all-rounder",
+    "lead": "A perfectly restored medieval borgo in the Chianti hills just outside Siena. The most well-rounded of the three: fantastic service, fantastic food, tennis, a gym and a spa &mdash; and a real feeling of home.",
+    "img": "/images/tuscany/borgo-san-felice-chapel-lane.jpg",
+    "alt": "The chapel and main lane at Borgo San Felice",
+    "w": 588,
+    "h": 303
+   },
+   {
+    "eyebrow": "Choose Il Borro",
+    "h3": "If it&rsquo;s your honeymoon",
+    "lead": "The Ferragamo family&rsquo;s medieval village in the Valdarno hills, where the whole borgo is the hotel &mdash; it reminded me of Aman Sveti Stefan. Honeymooners sleep in the original borgo; newer, more modern rooms are a two-minute drive away.",
+    "img": "/images/tuscany/il-borro-borgo-aerial.jpg",
+    "alt": "The medieval borgo at Il Borro from above",
+    "w": 588,
+    "h": 393
+   }
+  ],
+  "rows": [
+   [
+    "Where",
+    "Chianti, just outside Siena",
+    "The Valdarno hills, between Florence and Arezzo"
+   ],
+   [
+    "My visit",
+    "Stayed &mdash; one of my favorite stays so far",
+    "Toured"
+   ],
+   [
+    "The feel",
+    "Quaint and warm &mdash; a perfectly restored village that feels like home",
+    "The most authentic &mdash; an entire medieval village turned hotel"
+   ],
+   [
+    "Best for",
+    "Anyone who wants everything done well; first-timers; Siena close by",
+    "Honeymooners in the borgo; travelers who want a modern room nearby"
+   ],
+   [
+    "Where to sleep",
+    "In the borgo &mdash; I&rsquo;ll pick the room",
+    "The original borgo for a honeymoon; the newer rooms two minutes away for modern comfort"
+   ],
+   [
+    "On property",
+    "Tennis, gym, spa",
+    "The village itself, and the newer accommodations close by"
+   ],
+   [
+    "Booking perks",
+    "Amenities through my hotel relationships",
+    "Relais &amp; Ch&acirc;teaux, Fora Reserve &mdash; and competitive rates"
+   ]
+  ],
+  "footnote": "Il Borro sits between Florence and Arezzo; San Felice sits just outside Siena. Both pair easily with a few nights in Florence, and I can split a trip between them.",
+  "verdict": {
+   "h2": "Well-rounded, or once-in-a-lifetime?",
+   "paras": [
+    "Borgo San Felice is the one I&rsquo;d book for almost anyone. It gets everything right &mdash; the service, the food, the restoration, tennis, gym and spa &mdash; and it&rsquo;s close to Siena. It&rsquo;s one of my favorite stays so far because it just feels like home.",
+    "Il Borro is the one for a honeymoon. Sleeping inside the original medieval borgo is something special, and the way the whole village is the hotel reminded me of Aman Sveti Stefan. If you&rsquo;d rather have a more modern room, the estate&rsquo;s newer accommodations are a two-minute drive away. Rates are competitive, and Fora Reserve perks apply."
+   ]
+  },
+  "subject": "Borgo San Felice vs Il Borro Inquiry",
+  "hotel": "Borgo San Felice / Il Borro",
+  "placeholder": "September, honeymoon, 4 nights",
+  "related": [
+   {
+    "href": "/hotels/borgo-san-felice-tuscany.html",
+    "label": "Borgo San Felice review"
+   },
+   {
+    "href": "/hotels/il-borro-tuscany.html",
+    "label": "Il Borro review"
+   },
+   {
+    "href": "/borgo-san-felice-vs-borgo-pignano.html",
+    "label": "Borgo San Felice or Borgo Pignano"
+   },
+   {
+    "href": "/borgo-pignano-vs-il-borro.html",
+    "label": "Borgo Pignano or Il Borro"
+   },
+   {
+    "href": "/featured-destinations.html",
+    "label": "My Featured Destinations"
+   }
+  ]
+ },
+ "borgo-pignano-vs-il-borro": {
+  "title": "Borgo Pignano or Il Borro | Suites With Keith",
+  "description": "Two Tuscan borghi compared by Keith: Borgo Pignano outside Volterra, with private villas for families and groups, against Il Borro, the Ferragamo family's medieval village and the honeymoon pick. Which one suits your trip.",
+  "eyebrow": "Head-to-head &middot; Tuscany",
+  "h1_a": "Borgo Pignano",
+  "h1_b": "Il Borro?",
+  "deck": "Both are Relais &amp; Ch&acirc;teaux and Fora Reserve, and both are fantastic &mdash; for different people. One is a quiet hilltop estate with private villas for families and groups; the other is an entire medieval village turned hotel, and the one I send honeymooners to.",
+  "stamp": "Stayed at Pignano &middot; toured Il Borro &middot; part of my Tuscany borghi trio with Borgo San Felice",
+  "preload": "/images/tuscany/borgo-pignano-terrace.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Borgo Pignano",
+    "h3": "If you want a villa and quiet",
+    "lead": "A villa and stone hamlet on a hilltop outside Volterra, with around nine private villas of two to five bedrooms, two pools and a kids&rsquo; pool, tennis, a fantastic gym and a spa &mdash; and dinner under a pergola facing the valley.",
+    "img": "/images/tuscany/borgo-pignano-terrace.jpg",
+    "alt": "Pergola dining terrace over the valley at Borgo Pignano",
+    "w": 1280,
+    "h": 1707
+   },
+   {
+    "eyebrow": "Choose Il Borro",
+    "h3": "If it&rsquo;s your honeymoon",
+    "lead": "The Ferragamo family&rsquo;s medieval village in the Valdarno hills, where the whole borgo is the hotel &mdash; it reminded me of Aman Sveti Stefan. Honeymooners sleep in the original borgo; newer, more modern rooms are a two-minute drive away.",
+    "img": "/images/tuscany/il-borro-borgo-golden-hour.jpg",
+    "alt": "The stone houses of Il Borro at golden hour",
+    "w": 588,
+    "h": 330
+   }
+  ],
+  "rows": [
+   [
+    "Where",
+    "The hills outside Volterra, about 1.5 hours from Florence",
+    "The Valdarno hills, between Florence and Arezzo"
+   ],
+   [
+    "My visit",
+    "Stayed",
+    "Toured"
+   ],
+   [
+    "The feel",
+    "Quiet and private &mdash; a hilltop estate with the valley to yourself",
+    "The most authentic &mdash; an entire medieval village turned hotel"
+   ],
+   [
+    "Best for",
+    "Families and groups taking a villa; couples who want quiet",
+    "Honeymooners in the borgo; travelers who want a modern room nearby"
+   ],
+   [
+    "Where to sleep",
+    "A private villa for groups; the main villa or borgo for couples",
+    "The original borgo for a honeymoon; the newer rooms two minutes away for modern comfort"
+   ],
+   [
+    "On property",
+    "Two pools plus a kids&rsquo; pool, tennis, gym, spa",
+    "The village itself, and the newer accommodations close by"
+   ],
+   [
+    "Booking perks",
+    "Relais &amp; Ch&acirc;teaux, Fora Reserve",
+    "Relais &amp; Ch&acirc;teaux, Fora Reserve &mdash; and competitive rates"
+   ]
+  ],
+  "footnote": "Both are Fora Reserve, so the same perks apply either way: a space-available upgrade, daily breakfast and a hotel credit when you book through me.",
+  "verdict": {
+   "h2": "A house of your own, or a village of your own?",
+   "paras": [
+    "Borgo Pignano is the pick for families and groups. Around nine private villas of two to five bedrooms mean everyone gets their own house, with two pools, a kids&rsquo; pool, tennis, a fantastic gym and a spa behind them. It&rsquo;s also wonderful for couples who want real quiet and a sunset dinner under the pergola.",
+    "Il Borro is the pick for honeymooners. Stay in the original borgo &mdash; it&rsquo;s very authentic Tuscany, and the layout reminded me of Aman Sveti Stefan. Travelers who prefer a more modern room can stay in the newer accommodations a two-minute drive away and still have the whole village on the doorstep."
+   ]
+  },
+  "subject": "Borgo Pignano vs Il Borro Inquiry",
+  "hotel": "Borgo Pignano / Il Borro",
+  "placeholder": "July, family of five, 5 nights",
+  "related": [
+   {
+    "href": "/hotels/borgo-pignano-volterra-tuscany.html",
+    "label": "Borgo Pignano review"
+   },
+   {
+    "href": "/hotels/il-borro-tuscany.html",
+    "label": "Il Borro review"
+   },
+   {
+    "href": "/borgo-san-felice-vs-borgo-pignano.html",
+    "label": "Borgo San Felice or Borgo Pignano"
+   },
+   {
+    "href": "/borgo-san-felice-vs-il-borro.html",
+    "label": "Borgo San Felice or Il Borro"
+   },
+   {
+    "href": "/featured-destinations.html",
+    "label": "My Featured Destinations"
+   }
+  ]
  }
 }
