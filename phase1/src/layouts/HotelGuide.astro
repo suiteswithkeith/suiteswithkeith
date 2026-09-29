@@ -1,0 +1,190 @@
+---
+// A hotel-by-hotel destination guide (Florence, Tuscany). Hotel names,
+// verdicts and photos come from hotels.json so the guide stays in step
+// with the reviews; each page supplies the status line and its own copy.
+import Layout from './Layout.astro';
+import Ask from '../components/Ask.astro';
+import hotels from '../data/hotels.json';
+
+const { g } = Astro.props;
+const bySlug = Object.fromEntries(hotels.map((h) => [h.slug, h]));
+const list = g.hotels.map((x) => {
+  const h = bySlug[x.slug];
+  return {
+    ...x,
+    name: h.name,
+    verdict: h.verdict,
+    perfect: h.perfect_for,
+    style: h.style_label,
+    img: x.img ?? `/images/${h.img_dir}/${h.hero_img}`,
+    href: `/hotels/${h.slug}.html`,
+  };
+});
+---
+<Layout
+  canonical={g.canonical}
+  title={g.title}
+  description={g.description}
+  preload={g.hero.img}
+  current="guides"
+>
+
+<!-- hero -->
+<header class="hero" style="min-height:min(78svh,720px);">
+  <img class="hero-img" src={g.hero.img} alt={g.hero.alt} width={g.hero.w} height={g.hero.h} fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow" set:html={g.eyebrow} />
+    <h1 class="display-xl" style="margin-top:18px;" set:html={g.h1} />
+    <p class="sub" set:html={g.sub} />
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="guide_hero" set:html={g.cta} />
+    </div>
+  </div>
+</header>
+
+<!-- intro -->
+<section class="section">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <p class="deck" style="max-width:44ch;" set:html={g.deck} />
+      {g.intro.map((p) => <p class="body-2" style="margin-top:18px; max-width:56ch;" set:html={p} />)}
+    </div>
+    <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
+      <p class="stamp plain" style="font-weight:700; color:var(--brass);">On this page</p>
+      <a class="toc-link" href="#picks">Pick by trip</a>
+      <a class="toc-link" href="#hotels">The hotels</a>
+      {g.versus.length > 0 && <a class="toc-link" href="#head-to-heads">The head-to-heads</a>}
+      <a class="toc-link" href="#know">Know before you go</a>
+      <a class="toc-link" href={g.pairing.href} set:html={`${g.pairing.label} &rarr;`} />
+    </div>
+  </div>
+</section>
+
+<!-- picks -->
+<section class="section band on-shadow" id="picks" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The short answer</span>
+      <h2 class="display-l">Pick by trip</h2>
+    </div>
+    <dl class="kv picks reveal">
+      {g.picks.map((p) => (
+        <div class="kv-row"><dt set:html={p.trip} /><dd><a href={`#${p.slug}`} set:html={p.pick} /> <span class="body-2" set:html={p.why} /></dd></div>
+      ))}
+    </dl>
+  </div>
+</section>
+
+<!-- hotels -->
+<section class="section" id="hotels" style="scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Hotel by hotel</span>
+      <h2 class="display-l" set:html={g.hotels_h2} />
+      {g.hotels_deck && <p class="deck" style="margin-top:16px; max-width:50ch;" set:html={g.hotels_deck} />}
+    </div>
+    <div class="hg-list">
+      {list.map((h) => (<>
+        {h.group && <h3 class="hg-group reveal" set:html={h.group} />}
+        <article class="hg-row reveal" id={h.slug} style="scroll-margin-top:70px;">
+          <a href={h.href} class="hg-img"><img src={h.img} alt={h.alt ?? ''} loading="lazy" decoding="async" /></a>
+          <div>
+            <span class="eyebrow" set:html={h.status} />
+            <h3 class="hg-name"><a href={h.href} set:html={h.name} /></h3>
+            <p class="hg-style" set:html={h.style} />
+            <p class="hg-verdict" set:html={h.verdict} />
+            <p class="body-2" style="margin-top:12px;" set:html={h.note} />
+            <p class="hg-for"><b>Perfect for</b> <span set:html={h.perfect} /></p>
+            <a class="go" href={h.href}>Read my review &rarr;</a>
+          </div>
+        </article>
+      </>))}
+    </div>
+  </div>
+</section>
+
+{g.versus.length > 0 && (
+  <section class="section" id="head-to-heads" style="padding-top:0; scroll-margin-top:70px;">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Torn between two?</span>
+        <h2 class="display-l">The head-to-heads</h2>
+      </div>
+      <div class="vsi-grid reveal">
+        {g.versus.map((v) => (
+          <a class="vsi-tile" href={v.href}>
+            <span class="vsi-names" set:html={v.label} />
+            <span class="vsi-q" set:html={v.q} />
+            <span class="vsi-go">Settle it &rarr;</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+<!-- know before you go -->
+<section class="section" id="know" style="padding-top:0; scroll-margin-top:70px;">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Know before you go</span>
+      <h2 class="display-l">The Fine Print, From Your Advisor</h2>
+    </div>
+    <dl class="kv reveal">
+      {g.know.map((n, i) => (
+        <div class="kv-row"><dt>{String(i + 1).padStart(2, '0')}</dt><dd><b set:html={n.b} /> <span class="body-2" set:html={n.t} /></dd></div>
+      ))}
+    </dl>
+  </div>
+</section>
+
+<!-- pairing -->
+<section class="section band on-shadow">
+  <div class="container" style="max-width:860px;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Make it one trip</span>
+    <h2 class="display-l reveal" set:html={g.pairing.h2} />
+    {g.pairing.paras.map((p) => <p class="body-2 reveal" style="margin-top:22px; max-width:56ch;" set:html={p} />)}
+    <p class="reveal" style="margin-top:26px;"><a class="btn btn-ghost on-shadow" href={g.pairing.href} set:html={g.pairing.label} /></p>
+  </div>
+</section>
+
+<Ask subject={g.ask.subject} page={g.ask.page} placeholder={g.ask.placeholder} deck={g.ask.deck} />
+
+</Layout>
+
+<style is:global>
+  .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.6fr 1fr; gap: 80px; } }
+  .toc-link { font-size: .74rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .toc-link:hover { text-decoration: underline; }
+
+  .picks dd a { font-weight: 500; color: var(--band-ink); text-decoration: underline; text-decoration-color: var(--brass); text-underline-offset: 3px; }
+  .band .picks .kv-row { border-bottom-color: var(--band-hairline); }
+  .band .picks { border-top-color: var(--band-hairline); }
+  .band .picks dt { color: var(--brass); }
+  .band .picks .body-2 { color: var(--band-ash); }
+
+  .hg-list { display: flex; flex-direction: column; gap: clamp(44px, 6vw, 72px); }
+  .hg-row { display: grid; gap: 22px; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 860px) { .hg-row { grid-template-columns: 1fr 1.15fr; gap: 56px; } }
+  .hg-row > * { min-width: 0; }
+  .hg-img img { width: 100%; aspect-ratio: 3/2; object-fit: cover; display: block; }
+  .hg-name { font-family: var(--display); font-weight: 500; font-size: clamp(1.5rem, 2.8vw, 2rem); line-height: 1.2; margin: 12px 0 0; }
+  .hg-name a { color: var(--ink); text-decoration: none; }
+  .hg-style { font-size: .7rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--ash); margin-top: 10px; }
+  .hg-verdict { font-family: var(--display); font-style: italic; font-size: 1.12rem; line-height: 1.5; margin-top: 16px; }
+  .hg-for { font-size: .9rem; color: var(--ash); margin-top: 14px; }
+  .hg-for b { font-weight: 500; color: var(--ink); margin-right: 6px; }
+  .hg-group { font-family: var(--display); font-weight: 500; font-size: clamp(1.6rem, 3.2vw, 2.3rem); margin: 12px 0 -12px; padding-top: 36px; border-top: 1px solid var(--hairline); }
+  .hg-row .go { display: inline-block; margin-top: 18px; font-size: .72rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+
+  .vsi-grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
+  @media (min-width: 720px) { .vsi-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .vsi-grid { grid-template-columns: repeat(3, 1fr); } }
+  .vsi-tile { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(22px, 3vw, 30px); display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: var(--ink); transition: transform .25s ease, box-shadow .25s ease; }
+  @media (hover:hover) { .vsi-tile:hover { transform: translateY(-2px); box-shadow: 0 2px 4px rgba(22,23,18,.07), 0 18px 40px rgba(22,23,18,.10); } }
+  .vsi-names { font-family: var(--display); font-weight: 500; font-size: 1.25rem; line-height: 1.3; }
+  .vsi-names em { font-style: italic; color: var(--brass); font-weight: 400; }
+  .vsi-q { font-size: .9rem; color: var(--ash); line-height: 1.6; flex: 1; }
+  .vsi-go { font-size: .68rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); padding-top: 6px; }
+</style>

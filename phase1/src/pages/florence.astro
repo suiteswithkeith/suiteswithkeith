@@ -1,0 +1,63 @@
+---
+import HotelGuide from '../layouts/HotelGuide.astro';
+
+const g = {
+  canonical: 'florence.html',
+  title: 'Where to Stay in Florence — Hotel Guide | Suites With Keith',
+  description: 'Keith’s Florence hotel guide: Hotel Lungarno, Four Seasons Firenze, Collegio alla Querce and Belmond Villa San Michele — in the city or in the hills, who each one suits, and partner perks when you book through him.',
+  hero: { img: '/images/destinations/fs-florence.jpg', alt: 'Florence from above, with the Duomo rising over the rooftops and the Four Seasons gardens in the foreground', w: 1838, h: 1030 },
+  eyebrow: 'Destination guide &middot; Italy',
+  h1: 'Florence,<br><em>hotel by hotel</em>',
+  sub: 'In the city or in the hills above it &mdash; the four Florence hotels I recommend, who each one is for, and how to pair the city with the Tuscan countryside.',
+  cta: 'Plan my Florence stay',
+  deck: 'The first Florence decision isn&rsquo;t which hotel. It&rsquo;s whether you want to sleep in the city or above it.',
+  intro: [
+    'Stay in the center and you walk out the door into Florence &mdash; the Duomo, the Uffizi and the Oltrarno all on foot. Stay in the hills and you trade that for quiet, gardens and a view of the whole city, with a walk or a shuttle into town.',
+    'I&rsquo;ve stayed at Collegio alla Querce and toured Four Seasons Firenze and Villa San Michele in person, and I&rsquo;m a preferred partner of Four Seasons, Auberge and Belmond &mdash; so my clients get an upgrade when available, daily breakfast and a hotel credit, at the same rate as booking direct.',
+  ],
+  picks: [
+    { trip: 'First time in Florence', slug: 'hotel-lungarno-florence', pick: 'Hotel Lungarno', why: '&mdash; on the Arno by the Ponte Vecchio, with the whole city on foot.' },
+    { trip: 'Families &amp; longer stays', slug: 'four-seasons-hotel-firenze', pick: 'Four Seasons Firenze', why: '&mdash; private gardens in the center, and a hotel you can live in, not just sleep in.' },
+    { trip: 'Return visitors &amp; couples', slug: 'collegio-alla-querce-florence', pick: 'Collegio alla Querce', why: '&mdash; quiet, light and a view, with Florence a scenic 30-minute walk away.' },
+    { trip: 'The view &amp; the romance', slug: 'belmond-villa-san-michele-florence', pick: 'Villa San Michele', why: '&mdash; a 15th-century monastery in Fiesole with the best views in Florence.' },
+  ],
+  hotels_h2: 'Where I&rsquo;d stay in Florence',
+  hotels_deck: 'Two in the city, two in the hills &mdash; all four are hotels I&rsquo;d book for my own family.',
+  hotels: [
+    { slug: 'hotel-lungarno-florence', status: 'In the city &middot; On my Italy collection', alt: 'Hotel Lungarno lounge overlooking the Arno and the Ponte Vecchio',
+      note: 'The Florence hotel for travelers who came to be in Florence. Cross the bridge and you&rsquo;re at the Uffizi in minutes, while the Oltrarno side keeps you among the artisans and wine bars where Florentines actually live.' },
+    { slug: 'four-seasons-hotel-firenze', status: 'In the city &middot; Toured in person',
+      note: 'A Renaissance palazzo set in sprawling private gardens that feel impossible this close to the Duomo, with Michelin-starred dining on site and refined, formal service. My pick for families and for anyone staying long enough to want a resort in the city.' },
+    { slug: 'collegio-alla-querce-florence', status: 'In the hills &middot; Stayed',
+      note: 'A brighter, more modern take on Florence, about a 30-minute walk from the center, with an impressive art collection and sweeping views from almost every room. I&rsquo;ve slept here, so I can tell you which rooms and views to ask for.' },
+    { slug: 'belmond-villa-san-michele-florence', status: 'In the hills &middot; Toured in person',
+      note: 'A renovated 15th-century former monastery built into the Fiesole hillside, with terraces stepping down the slope and a private shuttle into town. Spring through fall, when the terraces and pool are the point, is when it sings.' },
+  ],
+  versus: [
+    { href: '/four-seasons-firenze-vs-collegio-alla-querce.html', label: 'Four Seasons <em>or</em> Collegio', q: 'A historic palazzo in the city, or a bright retreat in the hills above it?' },
+    { href: '/collegio-alla-querce-vs-villa-san-michele.html', label: 'Collegio <em>or</em> Villa San Michele', q: 'Two hillside retreats: modern and a walk from town, or a Fiesole monastery with the best views in Florence?' },
+  ],
+  know: [
+    { b: 'Don&rsquo;t drive into the center.', t: 'The historic center is a restricted traffic zone, and cameras fine unregistered cars. Arrive by private transfer or train, and pick up a car (or a driver) only when you leave for the countryside &mdash; I arrange both.' },
+    { b: 'Decide city or hills first.', t: 'In the center you walk everywhere; in the hills you trade that for quiet and a view, with a walk (Collegio) or a hotel shuttle (Villa San Michele) into town.' },
+    { b: 'Two or three nights is the sweet spot.', t: 'Enough for the Duomo, the Uffizi and a long lunch in the Oltrarno without rushing &mdash; then head into Tuscany, where the trip slows down.' },
+    { b: 'Book the big museums ahead.', t: 'The Uffizi and the Accademia sell out in high season. Tell me your dates and I&rsquo;ll line up timed entries or a private guide with the rest of the trip.' },
+  ],
+  pairing: {
+    h2: 'Florence, then the countryside.',
+    paras: [
+      'Most of my Italy clients do two or three nights in Florence, then move out into Tuscany &mdash; a restored borgo, a castle or a wine estate &mdash; for the slow part of the trip.',
+      'Borgo Pignano even runs a sister house in Florence, and I&rsquo;ve stayed at both, so the city and the countryside can come from the same family. My Tuscany guide covers the estates hotel by hotel.',
+    ],
+    href: '/tuscany.html',
+    label: 'Read my Tuscany guide',
+  },
+  ask: {
+    subject: 'Inquiry — Florence',
+    page: 'florence',
+    placeholder: 'Florence in May, 3 nights',
+    deck: '&ldquo;Florence in May, then Tuscany&rdquo; is a complete answer. I&rsquo;ll take it from there.',
+  },
+};
+---
+<HotelGuide g={g} />

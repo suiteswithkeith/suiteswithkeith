@@ -296,6 +296,16 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://suiteswithkeith.com/florence.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/tuscany.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://suiteswithkeith.com/napa-sonoma.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -600,7 +610,27 @@
   </url>
   <url>
     <loc>https://suiteswithkeith.com/hotels/borgo-pignano-volterra-tuscany.html</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/il-borro-tuscany.html</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/borgo-san-felice-tuscany.html</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/borgo-san-felice-vs-borgo-pignano.html</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/borgo-san-felice-vs-il-borro.html</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/borgo-pignano-vs-il-borro.html</loc>
+    <lastmod>2026-09-29</lastmod>
   </url>
   <url>
     <loc>https://suiteswithkeith.com/hotels/erema-milos.html</loc>

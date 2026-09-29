@@ -1,0 +1,71 @@
+---
+import HotelGuide from '../layouts/HotelGuide.astro';
+
+const g = {
+  canonical: 'tuscany.html',
+  title: 'Where to Stay in Tuscany — Hotel Guide | Suites With Keith',
+  description: 'Keith’s Tuscany hotel guide: Borgo San Felice, Borgo Pignano and Il Borro, plus Castiglion del Bosco, Castello di Casole and Castello del Nero — which estate suits which traveler, and Fora Reserve and partner perks when you book through him.',
+  hero: { img: '/images/destinations/como-castello.jpg', alt: 'Castello del Nero among cypresses and olive groves in the Tuscan hills', w: 2068, h: 1390 },
+  eyebrow: 'Destination guide &middot; Italy',
+  h1: 'Tuscany,<br><em>hotel by hotel</em>',
+  sub: 'Restored medieval borghi, hilltop castles and a 5,000-acre wine estate &mdash; the Tuscany hotels I recommend, and which one is right for your trip.',
+  cta: 'Plan my Tuscany stay',
+  deck: 'In Tuscany the hotel is the trip. Pick the right one and you&rsquo;ll barely want to leave it.',
+  intro: [
+    'The countryside stays here fall into two families. The borghi are whole medieval villages restored and run as one hotel &mdash; you sleep inside the village. The castles and estates are grander, with the vineyards, golf and Michelin dining to fill a week.',
+    'I&rsquo;ve stayed at Borgo San Felice and Borgo Pignano and toured Il Borro. All three are Fora Reserve, and all three are fantastic &mdash; for three different travelers. That&rsquo;s the heart of this guide.',
+  ],
+  picks: [
+    { trip: 'Honeymoon', slug: 'il-borro-tuscany', pick: 'Il Borro', why: '&mdash; sleep inside the original medieval borgo. The most authentic stay in Tuscany.' },
+    { trip: 'The all-rounder', slug: 'borgo-san-felice-tuscany', pick: 'Borgo San Felice', why: '&mdash; close to Siena, fantastic service and food, and a real feeling of home.' },
+    { trip: 'Families &amp; groups', slug: 'borgo-pignano-volterra-tuscany', pick: 'Borgo Pignano', why: '&mdash; private villas of two to five bedrooms, a kids&rsquo; pool, tennis and a spa.' },
+    { trip: 'Country quiet &amp; the best pool', slug: 'borgo-pignano-volterra-tuscany', pick: 'Borgo Pignano', why: '&mdash; a remote, farm-stay kind of Tuscany, great for couples, with the best pool of the three borghi.' },
+    { trip: 'A week on one estate', slug: 'rosewood-castiglion-del-bosco-tuscany', pick: 'Castiglion del Bosco', why: '&mdash; 5,000 acres, a Brunello winery and golf in the Val d&rsquo;Orcia.' },
+    { trip: 'Day trips &amp; wellness', slug: 'como-castello-del-nero-tuscany', pick: 'Castello del Nero', why: '&mdash; a 12th-century castle in Chianti with Florence and Siena both within reach.' },
+    { trip: 'Traditional &amp; Siena-side', slug: 'belmond-castello-di-casole-tuscany', pick: 'Castello di Casole', why: '&mdash; a hilltop castle estate with sweeping views near Siena.' },
+  ],
+  hotels_h2: 'Where I&rsquo;d stay in Tuscany',
+  hotels_deck: 'Three restored borghi for three different travelers, then the castles and estates.',
+  hotels: [
+    { slug: 'borgo-san-felice-tuscany', group: 'The borghi', status: 'Near Siena &middot; Stayed &middot; Fora Reserve', alt: 'Borgo San Felice from above, surrounded by Chianti vineyards',
+      note: 'One of my favorite stays so far, and the most well-rounded of the borghi: a perfectly restored hamlet in the Chianti hills with fantastic service and food, tennis, a gym and a spa. It just feels like home.' },
+    { slug: 'borgo-pignano-volterra-tuscany', status: 'Outside Volterra &middot; Stayed &middot; Fora Reserve', img: '/images/tuscany/borgo-pignano-aerial.jpg', alt: 'Aerial view of the Borgo Pignano villa and pool terrace at sunset',
+      note: 'The country stay &mdash; close to a farm stay, and a bit remote. Great for couples who want quiet, with the best pool of the three borghi and dinner under a pergola facing the valley; around nine private villas make it the pick for families and groups.' },
+    { slug: 'il-borro-tuscany', status: 'Valdarno &middot; Toured &middot; Fora Reserve', img: '/images/tuscany/il-borro-borgo-aerial.jpg', alt: 'The medieval borgo at Il Borro from above',
+      note: 'The Ferragamo family&rsquo;s medieval village, where the whole borgo is the hotel &mdash; it reminded me of Aman Sveti Stefan. Honeymooners sleep in the original borgo; more modern rooms are a two-minute drive away. Stunning pools, and competitive rates.' },
+    { slug: 'rosewood-castiglion-del-bosco-tuscany', group: 'The castles &amp; estates', status: 'Val d&rsquo;Orcia &middot; On my Italy collection', alt: 'Rosewood Castiglion del Bosco, Val d’Orcia',
+      note: 'The big estate: 5,000 acres, a Brunello winery and golf, built for four-plus nights where you never need to leave. I&rsquo;m a preferred partner of Rosewood, so the upgrade and credits compound across a longer stay.' },
+    { slug: 'como-castello-del-nero-tuscany', status: 'Chianti &middot; On my Italy collection', alt: 'COMO Castello del Nero in the Chianti hills',
+      note: 'The smartest base on my list: a converted 12th-century castle between Florence and Siena, with a COMO spa to come home to after a day on the road.' },
+    { slug: 'belmond-castello-di-casole-tuscany', status: 'Near Siena &middot; On my Italy collection', alt: 'Belmond Castello di Casole, a hilltop castle estate near Siena',
+      note: 'The traditional castle, on a hilltop with sweeping views near Siena. As a Belmond preferred partner, I often book it as the countryside chapter of a Belmond Italy trip.' },
+  ],
+  versus: [
+    { href: '/borgo-san-felice-vs-borgo-pignano.html', label: 'Borgo San Felice <em>or</em> Borgo Pignano', q: 'Village life near Siena, or the countryside with the best pool of the three?' },
+    { href: '/borgo-san-felice-vs-il-borro.html', label: 'Borgo San Felice <em>or</em> Il Borro', q: 'The well-rounded borgo that feels like home, or the once-in-a-lifetime honeymoon village?' },
+    { href: '/borgo-pignano-vs-il-borro.html', label: 'Borgo Pignano <em>or</em> Il Borro', q: 'A country stay with private villas, or an entire medieval village of your own?' },
+  ],
+  know: [
+    { b: 'You&rsquo;ll want a car (or a driver).', t: 'Every hotel here is in the countryside. Pick up a car as you leave Florence, or let me arrange drivers who know the back roads &mdash; especially for wine-tasting days.' },
+    { b: 'Match the estate to the traveler, not the photo.', t: 'Honeymooners belong in Il Borro&rsquo;s original borgo; families and groups in Pignano&rsquo;s villas; almost anyone at San Felice. Tell me who&rsquo;s coming and I&rsquo;ll match you.' },
+    { b: 'Three nights minimum.', t: 'These are places to settle into. With fewer nights, the pool, the long dinners and the drives out all compete.' },
+    { b: 'Think about where you&rsquo;ll explore.', t: 'San Felice and Casole put Siena close by; Castello del Nero sits between Florence and Siena; Pignano is near Volterra and San Gimignano; Castiglion del Bosco is deep in the Val d&rsquo;Orcia.' },
+    { b: 'Fora Reserve perks apply.', t: 'Booking San Felice, Pignano or Il Borro through me adds a space-available upgrade, daily breakfast and a hotel credit, at the same rate as booking direct.' },
+  ],
+  pairing: {
+    h2: 'Start in Florence.',
+    paras: [
+      'Most Tuscany trips begin with two or three nights in Florence, then a drive out to the countryside. My Florence guide covers where to stay in the city or the hills above it.',
+    ],
+    href: '/florence.html',
+    label: 'Read my Florence guide',
+  },
+  ask: {
+    subject: 'Inquiry — Tuscany',
+    page: 'tuscany',
+    placeholder: 'Tuscany in June, 5 nights',
+    deck: '&ldquo;Tuscany in June, honeymoon&rdquo; is a complete answer. I&rsquo;ll take it from there.',
+  },
+};
+---
+<HotelGuide g={g} />
