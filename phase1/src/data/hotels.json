@@ -4543,7 +4543,7 @@
    },
    {
     "b": "Comparing Tuscany estates?",
-    "t": "<a href=\"rosewood-castiglion-del-bosco-tuscany.html\">Castiglion del Bosco</a> is the big wine-and-golf estate; <a href=\"belmond-castello-di-casole-tuscany.html\">Castello di Casole</a> is the traditional castle. Borgo Pignano is the quieter, more intimate choice."
+    "t": "<a href=\"rosewood-castiglion-del-bosco-tuscany.html\">Castiglion del Bosco</a> is the big wine-and-golf estate; <a href=\"belmond-castello-di-casole-tuscany.html\">Castello di Casole</a> is the traditional castle. Borgo Pignano is the quieter, more intimate choice. For a medieval borgo, <a href=\"borgo-san-felice-tuscany.html\">Borgo San Felice</a> near Siena is the most well-rounded, and <a href=\"il-borro-tuscany.html\">Il Borro</a> is the honeymoon pick."
    }
   ],
   "verdict": "A quiet stone borgo on a Tuscan hilltop &mdash; the dinner view alone is worth the drive.",
@@ -4587,8 +4587,8 @@
    }
   ],
   "tagline": "A whole medieval borgo in the Valdarno hills &mdash; the most authentic stay I&rsquo;ve found in Tuscany.",
-  "meta_desc": "Keith toured Il Borro, a medieval Tuscan borgo in the Valdarno hills with newer accommodations a short drive away. Which part to stay in, who it suits, and Fora Reserve perks when you book through him.",
-  "style_label": "Restored medieval borgo and estate (Fora Reserve)",
+  "meta_desc": "Keith toured Il Borro, the Ferragamo family&rsquo;s medieval Tuscan borgo in the Valdarno hills, a Relais &amp; Ch&acirc;teaux property with newer accommodations a short drive away. Which part to stay in, who it suits, and Fora Reserve perks when you book through him.",
+  "style_label": "Restored medieval borgo and estate (Relais &amp; Ch&acirc;teaux, Fora Reserve)",
   "perfect_for": "Honeymooners in the original borgo, travelers who want a more modern room nearby, anyone after an authentic Tuscany",
   "region_label": "Region",
   "region_html": "The Valdarno hills between Florence and Arezzo, Tuscany, Italy",
@@ -4601,10 +4601,10 @@
   "know_heading": "The Fine Print, From Your Advisor",
   "cta_line": "Tell me who&rsquo;s traveling and when. I&rsquo;ll tell you whether it&rsquo;s the borgo or the newer rooms, time it to the right season, and build the rest of Tuscany around it.",
   "intro": [
-   "Il Borro is a medieval village on a wooded ridge in the Valdarno hills, restored stone by stone and run as one estate. The lanes, the terracotta roofs and the little church are the real thing &mdash; it&rsquo;s the most authentic Tuscan stay I&rsquo;ve walked through.",
+   "Il Borro is a medieval village on a wooded ridge in the Valdarno hills, restored stone by stone by the Ferragamo family and run as one estate. The lanes, the terracotta roofs and the little church are the real thing &mdash; it&rsquo;s the most authentic Tuscan stay I&rsquo;ve walked through.",
    "It reminded me of <a href=\"aman-sveti-stefan-montenegro.html\">Aman Sveti Stefan</a> in its layout: an entire historic village turned into the hotel, so you&rsquo;re sleeping inside the borgo rather than looking at it from a resort across the road. That&rsquo;s rare, and it&rsquo;s what makes Il Borro so unique.",
    "There are really two ways to stay. If you&rsquo;re on your honeymoon, stay in the original borgo &mdash; that&rsquo;s the magic. If you&rsquo;d rather have a more modern room, the estate&rsquo;s newer accommodations are a two-minute drive away, with the village still right there for dinner and an evening walk.",
-   "I toured it today, and it goes straight onto my Tuscany shortlist. Prices are competitive for the level, and it&rsquo;s part of Fora Reserve, so the perks apply when you book through me."
+   "I toured it today, and it goes straight onto my Tuscany shortlist. Prices are competitive for the level, and it&rsquo;s a Relais &amp; Ch&acirc;teaux property and part of Fora Reserve, so the perks apply when you book through me."
   ],
   "stood_out": [
    {
@@ -4639,7 +4639,7 @@
    },
    {
     "b": "Three borghi, three different travelers.",
-    "t": "<a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, Borgo San Felice and Il Borro all offer a different stay for a different traveler, and all three are fantastic. Tell me who&rsquo;s coming and what you want from Tuscany, and I&rsquo;ll tell you which one is yours."
+    "t": "<a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, <a href=\"borgo-san-felice-tuscany.html\">Borgo San Felice</a> and Il Borro all offer a different stay for a different traveler, and all three are fantastic. Tell me who&rsquo;s coming and what you want from Tuscany, and I&rsquo;ll tell you which one is yours."
    },
    {
     "b": "Stay longer than one night.",
@@ -4648,6 +4648,113 @@
   ],
   "verdict": "A whole medieval borgo turned hotel &mdash; very authentic Tuscany, and for honeymooners, the original village is the place to sleep.",
   "perks_html": "Rates through me are identical to booking direct &mdash; the perks are not. Il Borro is part of Fora Reserve, so as a Fora advisor my clients receive a space-available upgrade, daily breakfast, and a hotel credit &mdash; plus my direct line to the team on property before and during your stay.",
+  "cta_island_text": "My Featured Destinations",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html"
+ },
+ {
+  "slug": "borgo-san-felice-tuscany",
+  "name": "Borgo San Felice",
+  "plain_name": "Borgo San Felice",
+  "short_name": "Borgo San Felice",
+  "island": "Tuscany",
+  "island_page": "featured-destinations.html",
+  "locale": "Near Siena, Tuscany, Italy",
+  "img_dir": "tuscany",
+  "hero_img": "borgo-san-felice-aerial.jpg",
+  "img2": "borgo-san-felice-aerial.jpg",
+  "gallery": [
+   {
+    "src": "/images/tuscany/borgo-san-felice-chapel-lane.jpg",
+    "alt": "The chapel and stone houses along the main lane of Borgo San Felice",
+    "caption": "The chapel and the main lane",
+    "w": 588,
+    "h": 303
+   },
+   {
+    "src": "/images/tuscany/borgo-san-felice-piazza-dinner.jpg",
+    "alt": "Dinner tables in the piazza at Borgo San Felice with live music outside the chapel at dusk",
+    "caption": "Summer dinner in the piazza",
+    "w": 399,
+    "h": 501
+   },
+   {
+    "src": "/images/tuscany/borgo-san-felice-lane-view.jpg",
+    "alt": "A lane of stone houses at Borgo San Felice leading to cypresses and the Tuscan hills",
+    "caption": "The view down the lane",
+    "w": 452,
+    "h": 678
+   },
+   {
+    "src": "/images/tuscany/borgo-san-felice-villa.jpg",
+    "alt": "The ivy-covered villa and courtyard at Borgo San Felice under a blue sky",
+    "caption": "The villa courtyard",
+    "w": 588,
+    "h": 303
+   }
+  ],
+  "tagline": "A perfectly restored Chianti borgo outside Siena &mdash; the most well-rounded of the Tuscan borghi, and one of my favorite stays so far.",
+  "meta_desc": "Keith has stayed at Borgo San Felice, a perfectly restored medieval borgo near Siena with fantastic service and food, tennis, a gym and a spa. Who it suits, what to know, and partner perks when you book through him.",
+  "style_label": "Restored medieval borgo among the vineyards",
+  "perfect_for": "Couples, first-timers to Tuscany, anyone who wants Siena close by and everything done well",
+  "region_label": "Region",
+  "region_html": "Chianti Classico, just outside Siena, Tuscany, Italy",
+  "rank_text": "",
+  "rank_href": "",
+  "stat1_num": "Near",
+  "stat1_label": "Siena",
+  "stat2_num": "Tennis, Gym",
+  "stat2_label": "&amp; Spa On Property",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Tell me who&rsquo;s traveling and when. I&rsquo;ll match you to the right room, time it to the right season, and build the rest of Tuscany around it.",
+  "intro": [
+   "Borgo San Felice is a medieval hamlet in the Chianti hills just outside Siena, perfectly restored and run as one hotel. Stone houses, a little chapel and a piazza, all surrounded by the estate&rsquo;s vineyards &mdash; quaint in the best sense of the word.",
+   "Of all the borghi I&rsquo;ve stayed at and visited in Tuscany, it&rsquo;s the most well-rounded. The service is fantastic, the food is fantastic, and the village has been restored so carefully that it never feels like a set. More than anything, it just feels like home.",
+   "It also has everything you&rsquo;d want for a longer stay: tennis, a gym and a spa on property, with Siena close enough for an afternoon in town and dinner back at the borgo.",
+   "I&rsquo;ve slept here, not just toured it, and it&rsquo;s one of my favorite stays so far. It&rsquo;s a truly perfect gem, and my pick for anyone who wants Tuscany done well from start to finish."
+  ],
+  "stood_out": [
+   {
+    "b": "A real feeling of home.",
+    "t": "The staff remember you, the piazza fills up in the evening, and within a day the borgo feels like your village."
+   },
+   {
+    "b": "Fantastic service and food.",
+    "t": "Warm, polished and never stiff &mdash; and the cooking is a reason to eat in, especially dinner out in the piazza on a summer night."
+   },
+   {
+    "b": "The borgo itself.",
+    "t": "A medieval hamlet perfectly restored: stone lanes lined with flowers, a chapel, cypresses and the vineyards running right up to the edge."
+   },
+   {
+    "b": "Tennis, gym and spa.",
+    "t": "All on property, so the days you don&rsquo;t leave the borgo are just as full as the days you do."
+   },
+   {
+    "b": "Close to Siena.",
+    "t": "Near enough for an easy afternoon in the city, far enough that the nights are quiet."
+   }
+  ],
+  "know": [
+   {
+    "b": "You&rsquo;ll want a car (or a driver).",
+    "t": "The borgo sits in the Chianti hills a short drive from Siena, and Florence is an easy day trip. I arrange drivers who know the back roads, and can link it with <a href=\"/featured-destinations.html\">my other Tuscany estates</a>."
+   },
+   {
+    "b": "Book dinner in the piazza.",
+    "t": "In summer, tables go out in front of the chapel with live music as the sun goes down. Tell me your dates and I&rsquo;ll make sure you have one of those nights."
+   },
+   {
+    "b": "Stay longer than one night.",
+    "t": "This is a place to settle into. Plan for at least three nights so Siena, the vineyards and a slow day at the spa don&rsquo;t compete."
+   },
+   {
+    "b": "Three borghi, three different travelers.",
+    "t": "<a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, Borgo San Felice and <a href=\"il-borro-tuscany.html\">Il Borro</a> each suit a different traveler, and all three are fantastic. Borgo San Felice is the most well-rounded; tell me who&rsquo;s coming and I&rsquo;ll tell you which one is yours."
+   }
+  ],
+  "verdict": "A truly perfect gem near Siena &mdash; the most well-rounded borgo in Tuscany, and one of my favorite stays so far.",
+  "perks_html": "Rates through me are identical to booking direct &mdash; the perks are not. My clients receive amenities through my hotel relationships, such as daily breakfast, a property credit and upgrade priority when available &mdash; plus my direct line to the team on property before and during your stay.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All My Rankings",
   "cta2_href": "rankings.html"
