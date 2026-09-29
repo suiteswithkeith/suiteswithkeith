@@ -435,26 +435,19 @@
           "stay": {
             "name": "Grand Hotel Miramare, Santa Margherita Ligure",
             "status": "confirmed",
-            "detail": "Hosted, two nights. Salvatore Longo, General Manager, +39 333 2451568. Annalisa Viglietta, Director of Sales and Marketing. Both there on the day. Via Milite Ignoto 30, ten minutes from Portofino."
+            "detail": "Hosted, two nights, confirmed by Annalisa Viglietta. Deluxe sea view with balcony. Salvatore Longo, GM, +39 333 2451568. City tax 5 a day. Via Milite Ignoto 30."
           },
           "items": [
             {
-              "time": "10:15 AM",
-              "title": "Leave Borgo San Felice",
-              "status": "info",
-              "detail": "Il Borro is 1 hour. Straight to Santa Margherita is 3 hours."
-            },
-            {
               "time": "11:30 AM",
-              "title": "Il Borro, cellar, tasting and lunch",
-              "status": "pending",
-              "detail": "Federico Caligaris Papa, Head of Sales, +39 345 917 7582. Offered for the 28th, asked to move to the 29th (draft ready). Leave by 2:00."
+              "title": "Il Borro, tour with Federico Caligaris Papa",
+              "status": "confirmed",
+              "detail": "Done."
             },
             {
-              "time": "5:15 PM",
+              "time": "4:30 PM",
               "title": "Arrive Grand Hotel Miramare, check in, shoot",
-              "status": "info",
-              "detail": "About 3 hours 15 from Il Borro. Salvatore and Annalisa are there on the day."
+              "status": "info"
             }
           ]
         },
@@ -538,8 +531,8 @@
               "time": "10:40 AM",
               "title": "Boat from Il Sereno's dock to Passalacqua",
               "status": "pending",
-              "detail": "Como Classic Boats (Nicolò Brambilla) quoted 800 for two hours on the Vaporina, less 10 percent. Lake Como Experiences asked for a Riva and a partner rate (draft ready). Car and bags stay at Il Sereno.",
-              "todo": "Pick the boat once Lake Como Experiences answers."
+              "detail": "Como Classic Boats: Vaporina, 800 for two hours less 10 percent. Lake Como Experiences: round trips only, Cranchi E26 from 10:00 to 2:00 at a B2B rate if paid direct, no Riva, no price yet. Pick one today.",
+              "todo": "Choose the boat for Friday."
             },
             {
               "time": "11:00 AM",
@@ -799,9 +792,9 @@
             },
             {
               "time": "11:00 AM",
-              "title": "Rosewood Castiglion del Bosco, inspection, lunch at 12:30",
+              "title": "Rosewood Castiglion del Bosco, site visit and lunch",
               "status": "confirmed",
-              "detail": "Francesca Liguori, +39 0577 1913218. Away by 1:30."
+              "detail": "Francesca Liguori. 11:00 confirmed, then lunch at Osteria La Canonica. No hosted night on the 8th."
             },
             {
               "time": "2:00 PM",
@@ -951,8 +944,8 @@
               "time": "Afternoon",
               "title": "Boat to Le Sirenuse, supplier being re-quoted",
               "status": "open",
-              "detail": "Luxury Boats Positano: Lucia Lucibello replied, fleet and price list attached, wants your boat choice. Lucibello draft ready. Sunrise 600 on hold.",
-              "todo": "Pick a boat from Lucia's fleet PDF and reply."
+              "detail": "Luxury Boats Positano: Lucia wants you to pick Don Paulo or Elisa. No price yet. Lucibello never answered. Sunrise 600 on hold.",
+              "todo": "Pick the boat and ask Lucia for the price."
             },
             {
               "time": "3:30 PM",
@@ -1051,13 +1044,12 @@
     {
       "title": "Send",
       "items": [
+        "Boat for the 2nd: answer Lake Como Experiences or take the Vaporina, and tell the other",
+        "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
         "La Dolce Vita: Federico, which day the train is in Rome (draft ready)",
         "Casa Newton: hosting or rate for the 8th (draft ready)",
         "Corte della Maestà: hosting or rate for the 10th (draft ready)",
-        "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
-        "Lake Como Experiences: Riva and a rate for the 2nd (draft ready)",
-        "Il Borro: Federico, move the tasting and lunch to the 29th at 11:30 (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
@@ -1065,7 +1057,6 @@
         "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
         "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
-        "Luxury Boats Positano: Lucia, pick the boat from her PDF",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "Mandarin Oriental: DM the Global DOS for the visit on the 4th",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients",
@@ -1080,7 +1071,7 @@
         "The 8th: Casa Newton if they say yes, otherwise book it or Villa Le Prata",
         "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
-        "The boat on the 2nd: Como Classic Boats Vaporina at 720, or Lake Como Experiences if they come back with a Riva",
+        "The boat on the 2nd: Vaporina at 720, or Lake Como Experiences Cranchi 10:00 to 2:00 at their B2B rate",
         "Avis: drop to the 11th in Rome, or the 10th if you drive through",
         "Monteverdi: pre-arrival questionnaire",
         "Rome to Naples train for the 13th, once the boat pickup is set",
@@ -1094,16 +1085,13 @@
     {
       "title": "Waiting on",
       "items": [
-        "Belmond, Andrea Gervasoni: the 30th, once sent",
-        "Lucibello: boat quote for the 13th",
+        "Belmond, Andrea Gervasoni: Splendido and Mare tomorrow, who to ask for",
         "Aman, Elisa De Nicolò: rate for the 7th",
-        "Lake Como Experiences: Riva for the 2nd, once sent",
         "Miramonti: the 4th",
         "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
-        "Il Borro, Federico Caligaris Papa: the 29th, once sent",
         "La Dolce Vita Orient Express, Federico Talucci: which day, once sent",
         "Casa Newton: the 8th, once sent",
         "Corte della Maestà: the 10th, once sent"
