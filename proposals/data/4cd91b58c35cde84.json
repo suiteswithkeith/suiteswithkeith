@@ -747,9 +747,9 @@
           "date": "2026-10-08",
           "label": "October 8: Drive down, Lupaia at dusk",
           "stay": {
-            "name": "Monteverdi Tuscany, second night asked",
+            "name": "Casa Newton, Pienza, asked",
             "status": "pending",
-            "detail": "Asked Peggy for the 8th at an industry rate on top of the hosted 9th (draft ready). Lupaia is 15 minutes away."
+            "detail": "Hosting or industry rate asked for the 8th (draft ready). Fabbrica Pienza estate, tennis court, about 510 if paid. Lupaia is 25 minutes. Monteverdi could not do the 8th."
           },
           "items": [
             {
@@ -760,9 +760,9 @@
             },
             {
               "time": "3:30 PM",
-              "title": "Arrive Monteverdi, drop bags",
+              "title": "Arrive Casa Newton, drop bags",
               "status": "info",
-              "detail": "If they say no, book something simple near Montepulciano."
+              "detail": "Villa Le Prata in Montalcino is the fallback, 40 minutes from Lupaia."
             },
             {
               "time": "5:30 PM",
@@ -1050,10 +1050,10 @@
       "items": [
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
         "La Dolce Vita: Federico, which day the train is in Rome (draft ready)",
+        "Casa Newton: hosting or rate for the 8th (draft ready)",
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
         "Lake Como Experiences: Riva and a rate for the 2nd (draft ready)",
         "Il Borro: Federico, move the tasting and lunch to the 29th at 11:30 (draft ready)",
-        "Monteverdi: Peggy, the 8th as a second night at an industry rate (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
@@ -1073,7 +1073,7 @@
       "items": [
         "The 10th: La Roqqa night, Pellicano night, or drive through both to Rome with Eden 10 and 11",
         "The 6th: San Luis, Gardena Grödnerhof or Badia Hill. Aman visit at 11:00 is set",
-        "The 8th: Monteverdi second night if Peggy says yes, otherwise something simple near Montepulciano",
+        "The 8th: Casa Newton if they say yes, otherwise book it or Villa Le Prata",
         "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "The boat on the 2nd: Como Classic Boats Vaporina at 720, or Lake Como Experiences if they come back with a Riva",
@@ -1100,9 +1100,9 @@
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
-        "Monteverdi, Peggy: the 8th, once sent",
         "Il Borro, Federico Caligaris Papa: the 29th, once sent",
-        "La Dolce Vita Orient Express, Federico Talucci: which day, once sent"
+        "La Dolce Vita Orient Express, Federico Talucci: which day, once sent",
+        "Casa Newton: the 8th, once sent"
       ]
     },
     {
