@@ -825,19 +825,28 @@
         },
         {
           "date": "2026-10-10",
-          "label": "October 10: Monteverdi morning, Porto Ercole",
+          "label": "October 10: Monteverdi morning, Civita di Bagnoregio",
           "stay": {
-            "name": "Il Pellicano, Porto Ercole",
+            "name": "Corte della Maestà, Civita di Bagnoregio, asked",
             "status": "pending",
-            "detail": "830 euros, Gianluca's rate. La Roqqa offered 455 with breakfast but no comp. Your call, page assumes Pellicano.",
+            "detail": "Hosting or industry rate asked for the 10th (draft ready). Five rooms. Park in Bagnoregio and walk the footbridge, ask them about bags.",
             "options": [
               {
-                "name": "La Roqqa, 455 euros",
+                "name": "Il Pellicano, 830",
                 "status": "fallback",
-                "detail": "Roberta Davanzo. If you would rather save the 375. Visit asked instead."
+                "detail": "Gianluca. Only if Civita says no and you still want the coast."
+              },
+              {
+                "name": "La Roqqa, 455",
+                "status": "fallback",
+                "detail": "Roberta Davanzo. Same."
+              },
+              {
+                "name": "Rome a night early",
+                "status": "fallback",
+                "detail": "Eden 10 and 11 if Elena will add the 10th."
               }
-            ],
-            "todo": "Send Gianluca the Pellicano acceptance (draft ready)."
+            ]
           },
           "items": [
             {
@@ -847,26 +856,20 @@
             },
             {
               "time": "12:00 PM",
-              "title": "Leave for the coast",
+              "title": "Leave for Civita, about 1 hour 15",
               "status": "info",
-              "detail": "2 hours."
+              "detail": "Via Orvieto."
             },
             {
-              "time": "2:30 PM",
-              "title": "Arrive Porto Ercole",
+              "time": "3:00 PM",
+              "title": "Arrive Civita, shoot the town in the evening light",
               "status": "info"
-            },
-            {
-              "time": "Afternoon",
-              "title": "La Roqqa, site visit",
-              "status": "pending",
-              "detail": "Roberta Davanzo, +39 337 151 6619. Asked, draft ready. Five minutes from Pellicano."
             }
           ]
         },
         {
           "date": "2026-10-11",
-          "label": "October 11: Coast to Rome",
+          "label": "October 11: Civita to Rome",
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
@@ -875,9 +878,9 @@
           "items": [
             {
               "time": "11:30 AM",
-              "title": "Leave Porto Ercole, drop the car at Fiumicino",
+              "title": "Leave Civita, drop the car at Fiumicino",
               "status": "info",
-              "detail": "1 hour 45. Avis extended to the 11th."
+              "detail": "About 1 hour 45. Avis drop on the 11th."
             },
             {
               "time": "3:00 PM",
@@ -1051,6 +1054,7 @@
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
         "La Dolce Vita: Federico, which day the train is in Rome (draft ready)",
         "Casa Newton: hosting or rate for the 8th (draft ready)",
+        "Corte della Maestà: hosting or rate for the 10th (draft ready)",
         "Belmond: Andrea, confirm Splendido 11:00 and Mare 12:30 on the 30th (draft ready)",
         "Lake Como Experiences: Riva and a rate for the 2nd (draft ready)",
         "Il Borro: Federico, move the tasting and lunch to the 29th at 11:30 (draft ready)",
@@ -1063,15 +1067,15 @@
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
         "Luxury Boats Positano: Lucia, pick the boat from her PDF",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
-        "La Roqqa: Roberta, and Il Pellicano: Gianluca, once the 10th is decided (drafts need rewriting)",
         "Mandarin Oriental: DM the Global DOS for the visit on the 4th",
-        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
+        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients",
+        "La Roqqa and Il Pellicano: tell Roberta and Gianluca once Civita answers"
       ]
     },
     {
       "title": "Decide and fix",
       "items": [
-        "The 10th: La Roqqa night, Pellicano night, or drive through both to Rome with Eden 10 and 11",
+        "The 10th: Corte della Maestà if they say yes, otherwise Porto Ercole or Rome early",
         "The 6th: San Luis, Gardena Grödnerhof or Badia Hill. Aman visit at 11:00 is set",
         "The 8th: Casa Newton if they say yes, otherwise book it or Villa Le Prata",
         "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
@@ -1092,7 +1096,6 @@
       "items": [
         "Belmond, Andrea Gervasoni: the 30th, once sent",
         "Lucibello: boat quote for the 13th",
-        "La Roqqa, Roberta Davanzo: visit on the 10th, once sent",
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Lake Como Experiences: Riva for the 2nd, once sent",
         "Miramonti: the 4th",
@@ -1102,7 +1105,8 @@
         "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
         "Il Borro, Federico Caligaris Papa: the 29th, once sent",
         "La Dolce Vita Orient Express, Federico Talucci: which day, once sent",
-        "Casa Newton: the 8th, once sent"
+        "Casa Newton: the 8th, once sent",
+        "Corte della Maestà: the 10th, once sent"
       ]
     },
     {
@@ -1136,11 +1140,6 @@
       "name": "Le Sirenuse",
       "amount": 650,
       "note": "one night, the 13th, 650 charged on Amex September 22"
-    },
-    {
-      "name": "Il Pellicano",
-      "amount": 830,
-      "note": "the 10th, if you take it over La Roqqa at 455"
     },
     {
       "name": "Boat to Le Sirenuse on the 13th",
