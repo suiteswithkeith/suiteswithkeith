@@ -4553,6 +4553,106 @@
   "cta2_href": "rankings.html"
  },
  {
+  "slug": "il-borro-tuscany",
+  "name": "Il Borro",
+  "plain_name": "Il Borro",
+  "short_name": "Il Borro",
+  "island": "Tuscany",
+  "island_page": "featured-destinations.html",
+  "locale": "Valdarno, Tuscany, Italy",
+  "img_dir": "tuscany",
+  "hero_img": "il-borro-estate-sunset.jpg",
+  "img2": "il-borro-estate-sunset.jpg",
+  "gallery": [
+   {
+    "src": "/images/tuscany/il-borro-borgo-aerial.jpg",
+    "alt": "Aerial view of the medieval borgo at Il Borro, terracotta roofs on a wooded ridge",
+    "caption": "The original borgo from above",
+    "w": 588,
+    "h": 393
+   },
+   {
+    "src": "/images/tuscany/il-borro-borgo-golden-hour.jpg",
+    "alt": "The stone houses of the Il Borro borgo at golden hour above the Tuscan woods",
+    "caption": "The borgo at golden hour",
+    "w": 588,
+    "h": 330
+   },
+   {
+    "src": "/images/tuscany/il-borro-villa-pool.jpg",
+    "alt": "The villa, gardens and long pool at Il Borro at sunset",
+    "caption": "The villa, the gardens and the pool",
+    "w": 588,
+    "h": 330
+   }
+  ],
+  "tagline": "A whole medieval borgo in the Valdarno hills &mdash; the most authentic stay I&rsquo;ve found in Tuscany.",
+  "meta_desc": "Keith toured Il Borro, a medieval Tuscan borgo in the Valdarno hills with newer accommodations a short drive away. Which part to stay in, who it suits, and Fora Reserve perks when you book through him.",
+  "style_label": "Restored medieval borgo and estate (Fora Reserve)",
+  "perfect_for": "Honeymooners in the original borgo, travelers who want a more modern room nearby, anyone after an authentic Tuscany",
+  "region_label": "Region",
+  "region_html": "The Valdarno hills between Florence and Arezzo, Tuscany, Italy",
+  "rank_text": "",
+  "rank_href": "",
+  "stat1_num": "Medieval",
+  "stat1_label": "Borgo",
+  "stat2_num": "Honeymooners",
+  "stat2_label": "Stay In The Original Village",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Tell me who&rsquo;s traveling and when. I&rsquo;ll tell you whether it&rsquo;s the borgo or the newer rooms, time it to the right season, and build the rest of Tuscany around it.",
+  "intro": [
+   "Il Borro is a medieval village on a wooded ridge in the Valdarno hills, restored stone by stone and run as one estate. The lanes, the terracotta roofs and the little church are the real thing &mdash; it&rsquo;s the most authentic Tuscan stay I&rsquo;ve walked through.",
+   "It reminded me of <a href=\"aman-sveti-stefan-montenegro.html\">Aman Sveti Stefan</a> in its layout: an entire historic village turned into the hotel, so you&rsquo;re sleeping inside the borgo rather than looking at it from a resort across the road. That&rsquo;s rare, and it&rsquo;s what makes Il Borro so unique.",
+   "There are really two ways to stay. If you&rsquo;re on your honeymoon, stay in the original borgo &mdash; that&rsquo;s the magic. If you&rsquo;d rather have a more modern room, the estate&rsquo;s newer accommodations are a two-minute drive away, with the village still right there for dinner and an evening walk.",
+   "I toured it today, and it goes straight onto my Tuscany shortlist. Prices are competitive for the level, and it&rsquo;s part of Fora Reserve, so the perks apply when you book through me."
+  ],
+  "stood_out": [
+   {
+    "b": "A real medieval village.",
+    "t": "Stone houses, narrow lanes and a church on a wooded ridge &mdash; the original borgo, not a reconstruction or a resort built to look like one."
+   },
+   {
+    "b": "The Sveti Stefan layout.",
+    "t": "Like <a href=\"aman-sveti-stefan-montenegro.html\">Aman Sveti Stefan</a>, the whole village is the hotel. You walk out of your room and into the borgo."
+   },
+   {
+    "b": "The honeymoon stay.",
+    "t": "Rooms inside the original borgo are the ones to book for a honeymoon &mdash; atmospheric, private and steps from dinner."
+   },
+   {
+    "b": "A modern option two minutes away.",
+    "t": "Travelers who prefer a newer, more contemporary room can stay in the estate&rsquo;s accommodations a two-minute drive from the village and still have all of it on the doorstep."
+   },
+   {
+    "b": "Competitive pricing.",
+    "t": "For a stay this distinctive, rates are competitive with the other top Tuscan estates &mdash; and Fora Reserve perks apply on top."
+   }
+  ],
+  "know": [
+   {
+    "b": "Pick your stay before you pick your dates.",
+    "t": "Honeymooners and couples chasing atmosphere should be in the original borgo; if you want a more modern room, the newer accommodations are a two-minute drive away. Tell me which sounds like you and I&rsquo;ll match the room."
+   },
+   {
+    "b": "You&rsquo;ll want a car (or a driver).",
+    "t": "Il Borro sits in the countryside between Florence and Arezzo, so it pairs easily with a few nights in the city. I arrange drivers who know the back roads, and can link it with <a href=\"/featured-destinations.html\">my other Tuscany estates</a>."
+   },
+   {
+    "b": "Three borghi, three different travelers.",
+    "t": "<a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, Borgo San Felice and Il Borro all offer a different stay for a different traveler, and all three are fantastic. Tell me who&rsquo;s coming and what you want from Tuscany, and I&rsquo;ll tell you which one is yours."
+   },
+   {
+    "b": "Stay longer than one night.",
+    "t": "The borgo rewards slowing down. Plan for at least two or three nights so you actually live in the village rather than pass through it."
+   }
+  ],
+  "verdict": "A whole medieval borgo turned hotel &mdash; very authentic Tuscany, and for honeymooners, the original village is the place to sleep.",
+  "perks_html": "Rates through me are identical to booking direct &mdash; the perks are not. Il Borro is part of Fora Reserve, so as a Fora advisor my clients receive a space-available upgrade, daily breakfast, and a hotel credit &mdash; plus my direct line to the team on property before and during your stay.",
+  "cta_island_text": "My Featured Destinations",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html"
+ },
+ {
   "slug": "il-sereno-lake-como",
   "name": "Il Sereno",
   "plain_name": "Il Sereno",
