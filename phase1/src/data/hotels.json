@@ -4561,9 +4561,16 @@
   "island_page": "tuscany.html",
   "locale": "Valdarno, Tuscany, Italy",
   "img_dir": "tuscany",
-  "hero_img": "il-borro-estate-sunset.jpg",
+  "hero_img": "il-borro-garden-view.jpg",
   "img2": "il-borro-estate-sunset.jpg",
   "gallery": [
+   {
+    "src": "/images/tuscany/il-borro-fountain-garden.jpg",
+    "alt": "The formal garden and fountain at Il Borro looking out to the medieval borgo and the Valdarno hills",
+    "caption": "The villa garden, looking out to the borgo",
+    "w": 700,
+    "h": 1233
+   },
    {
     "src": "/images/tuscany/il-borro-borgo-aerial.jpg",
     "alt": "Aerial view of the medieval borgo at Il Borro, terracotta roofs on a wooded ridge",
