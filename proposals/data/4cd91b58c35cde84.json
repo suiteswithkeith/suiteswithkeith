@@ -453,7 +453,7 @@
         },
         {
           "date": "2026-09-30",
-          "label": "September 30: Splendido, Splendido Mare, Miramare",
+          "label": "September 30: Miramare, Portofino",
           "stay": {
             "name": "Grand Hotel Miramare, Santa Margherita Ligure",
             "status": "confirmed",
@@ -461,20 +461,26 @@
           },
           "items": [
             {
-              "time": "11:00 AM",
-              "title": "Splendido, site visit",
-              "status": "pending",
-              "detail": "Andrea Gervasoni, Belmond, +39 347 4669316. Asked to confirm, draft ready. Ten minutes from Miramare."
+              "time": "Morning",
+              "title": "Miramare: shoot the hotel, the pool and the seafront",
+              "status": "info",
+              "detail": "Hosted night two. Slow start, breakfast on the terrace."
             },
             {
-              "time": "12:30 PM",
-              "title": "Splendido Mare, site visit",
-              "status": "pending",
-              "detail": "Same ask. Lunch in the piazzetta after."
+              "time": "Midday",
+              "title": "Portofino: piazzetta, harbor, lunch",
+              "status": "suggested",
+              "detail": "Ten minutes by car or the boat from Santa Margherita. Content only, no Belmond."
+            },
+            {
+              "time": "11:00 AM",
+              "title": "Splendido and Splendido Mare, site visits",
+              "status": "ruled_out",
+              "detail": "Released. Andrea never confirmed after two follow-ups. One line to Andrea in the morning, Thomas copied."
             },
             {
               "time": "Afternoon",
-              "title": "Back to Miramare, shoot the hotel and Santa Margherita",
+              "title": "Santa Margherita: waterfront walk, aperitivo at Miramare",
               "status": "info"
             }
           ]
@@ -1044,6 +1050,7 @@
     {
       "title": "Send",
       "items": [
+        "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
         "Boat for the 2nd: answer Lake Como Experiences or take the Vaporina, and tell the other",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
