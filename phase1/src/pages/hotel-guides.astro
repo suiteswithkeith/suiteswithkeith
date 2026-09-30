@@ -35,9 +35,9 @@ const anchor = (h2) => h2.toLowerCase().replace(/&amp;/g, 'and').replace(/&middo
         <h2 class="display-l" style="font-size:clamp(1.5rem,2.8vw,2.1rem);" set:html={g.h2} />
         {g.blurb && <p class="body-2 hg-blurb" style="margin-top:10px;" set:html={g.blurb} />}
       </div>
-      <div class="cards reveal" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr));">
+      <div class="cards" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr));">
         {g.cards.map((c) => (
-          <a class="card" href={c.href}>
+          <a class="card reveal" href={c.href}>
             <img src={c.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
             <div class="pad"><h3 set:html={c.name} /><p set:html={c.p} /><span class="go">Read the guide &rarr;</span></div>
           </a>
