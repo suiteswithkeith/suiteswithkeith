@@ -4679,15 +4679,15 @@
   "island_page": "tuscany.html",
   "locale": "Near Siena, Tuscany, Italy",
   "img_dir": "tuscany",
-  "hero_img": "borgo-san-felice-aerial.jpg",
-  "img2": "borgo-san-felice-aerial.jpg",
+  "hero_img": "borgo-san-felice-chapel-pines.jpg",
+  "img2": "borgo-san-felice-chapel-pines.jpg",
   "gallery": [
    {
-    "src": "/images/tuscany/borgo-san-felice-chapel-lane.jpg",
-    "alt": "The chapel and stone houses along the main lane of Borgo San Felice",
-    "caption": "The chapel and the main lane",
-    "w": 588,
-    "h": 303
+    "src": "/images/tuscany/borgo-san-felice-vineyard-aerial.jpg",
+    "alt": "Borgo San Felice from above at golden hour, ringed by cypresses and Chianti vineyards",
+    "caption": "The borgo among its vineyards",
+    "w": 1280,
+    "h": 960
    },
    {
     "src": "/images/tuscany/borgo-san-felice-piazza-dinner.jpg",
@@ -4704,11 +4704,11 @@
     "h": 678
    },
    {
-    "src": "/images/tuscany/borgo-san-felice-villa.jpg",
-    "alt": "The ivy-covered villa and courtyard at Borgo San Felice under a blue sky",
+    "src": "/images/tuscany/borgo-san-felice-courtyard.jpg",
+    "alt": "Stone villas with green shutters and flower boxes around the lawn at Borgo San Felice",
     "caption": "The villa courtyard",
-    "w": 588,
-    "h": 303
+    "w": 1229,
+    "h": 768
    }
   ],
   "tagline": "A perfectly restored Chianti borgo outside Siena &mdash; the most well-rounded of the Tuscan borghi, and one of my favorite stays so far.",
