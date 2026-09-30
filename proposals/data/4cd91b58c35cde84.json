@@ -505,22 +505,28 @@
           },
           "items": [
             {
-              "time": "11:15 AM",
+              "time": "9:00 AM",
               "title": "Leave Grand Hotel Miramare",
               "status": "info",
-              "detail": "About 2 hours 15 to Villa d'Este."
+              "detail": "About 2 hours 15 to Cernobbio via Genoa and Milan. Coffee stop is fine."
             },
             {
-              "time": "2:00 PM",
+              "time": "12:30 PM",
               "title": "Villa d'Este, site visit",
-              "status": "confirmed",
-              "detail": "Laura Buzzi. 2:00 confirmed."
+              "status": "pending",
+              "detail": "Laura Buzzi. Confirmed for 2:00. Asked to move to 12:30, draft ready. If not, 2:00 stands."
             },
             {
-              "time": "4:00 PM",
+              "time": "3:00 PM",
               "title": "Il Sereno, check in, shoot rooms and pool",
-              "status": "confirmed",
-              "detail": "20 minutes from Villa d'Este. Al Lago dinner asked."
+              "status": "pending",
+              "detail": "30 minutes by road from Cernobbio through Como, or leave the car and take the hotel boat later. Asked Guest Relations for 3:00, Al Lago and a late checkout Friday, draft ready."
+            },
+            {
+              "time": "Evening",
+              "title": "Drink at Mandarin Oriental's bar",
+              "status": "suggested",
+              "detail": "Five minutes up the road in Blevio. A look at the property if the stay on the 3rd doesn't come through."
             }
           ]
         },
@@ -556,13 +562,13 @@
               "time": "1:15 PM",
               "title": "Boat Tremezzo to Il Sereno, collect the car",
               "status": "pending",
-              "detail": "Asked of Lake Como Experiences as the second leg. Otherwise a water taxi."
+              "detail": "Water taxi or the Riva if the DMC or Boat2Go delivers. 20 minutes. Car and bags at Il Sereno."
             },
             {
               "time": "2:40 PM",
               "title": "Arrive Villa Serbelloni",
               "status": "info",
-              "detail": "50 minutes by road from Il Sereno."
+              "detail": "50 minutes by road, Torno to Bellagio on the lake road. No ferry needed."
             },
             {
               "time": "3:00 PM",
@@ -573,12 +579,12 @@
         },
         {
           "date": "2026-10-03",
-          "label": "October 3: Mandarin Oriental or the EDITION, Grand Hotel Victoria",
+          "label": "October 3: Mandarin Oriental or the EDITION",
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
             "status": "pending",
             "detail": "400 euros plus breakfast. Via Regina 41. Juliana Rodriguez, Reservations, +39 034 449 0790. CRS 82933248. Payment link received, confirmation letter follows payment. Cancellable to September 26.",
-            "todo": "Hold the EDITION payment until Anna at Mandarin Oriental answers.",
+            "todo": "Hold the EDITION payment until Anna or Tom at Mandarin Oriental answers.",
             "options": [
               {
                 "name": "Mandarin Oriental Lago di Como, Blevio",
@@ -590,20 +596,26 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Car ferry from Villa Serbelloni's side to the EDITION's",
-              "status": "info",
-              "detail": "20 minutes. Checkout by noon."
-            },
-            {
-              "time": "Early afternoon",
-              "title": "EDITION, check in, shoot",
+              "title": "Villa Serbelloni: shoot, breakfast, checkout by noon",
               "status": "info"
             },
             {
-              "time": "3:00 PM",
-              "title": "Grand Hotel Victoria, Menaggio, site visit",
+              "time": "12:15 PM",
+              "title": "Car ferry Bellagio to Cadenabbia",
+              "status": "info",
+              "detail": "10 minutes, sails about every 30. The EDITION is a 5 minute drive from the landing."
+            },
+            {
+              "time": "12:45 PM",
+              "title": "The EDITION: check in, or site visit and lunch if Mandarin Oriental hosts",
               "status": "pending",
-              "detail": "Arianna Giordano, +39 329 3303974. Five minutes from the EDITION. Asked, draft ready."
+              "detail": "Ask Juliana for a tour if it becomes a visit."
+            },
+            {
+              "time": "3:00 PM",
+              "title": "If Mandarin Oriental: drive Cadenabbia to Blevio",
+              "status": "pending",
+              "detail": "About 1 hour 15 down the west shore through Como. Check in by 4:30."
             }
           ]
         }
@@ -635,22 +647,15 @@
           },
           "items": [
             {
+              "time": "Morning",
+              "title": "Shoot the hotel, checkout by 11:00",
+              "status": "info"
+            },
+            {
               "time": "11:00 AM",
-              "title": "Leave the EDITION",
-              "status": "info",
-              "detail": "45 minutes to Mandarin Oriental."
-            },
-            {
-              "time": "11:45 AM",
-              "title": "Mandarin Oriental Lake Como, site visit",
-              "status": "pending",
-              "detail": "Only if the 3rd doesn't come through. Asked Anna in the same email."
-            },
-            {
-              "time": "12:45 PM",
               "title": "Drive to Forestis",
               "status": "info",
-              "detail": "3 hours 15. Arrive about 4:30."
+              "detail": "3 hours 15 from Blevio, 3 hours 45 from the EDITION. Arrive mid-afternoon."
             },
             {
               "time": "Afternoon",
@@ -1057,7 +1062,8 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
-        "Mandarin Oriental: reply all to Sofia's intro, ask Anna to host the 3rd (draft ready)",
+        "Villa d'Este: Laura, move tomorrow to 12:30 (draft ready)",
+        "Il Sereno: Guest Relations, arrival 3:00, Al Lago, late checkout Friday (draft ready)",
         "Boat for the 2nd: answer Lake Como Experiences or take the Vaporina, and tell the other",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
@@ -1067,8 +1073,6 @@
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
-        "Il Sereno: Guest Relations, arrival 4:00, Al Lago, late checkout (draft ready)",
-        "Grand Hotel Victoria: Arianna, pass on the rate, visit at 3:00 on the 3rd (draft ready)",
         "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
