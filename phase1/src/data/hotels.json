@@ -4561,9 +4561,16 @@
   "island_page": "tuscany.html",
   "locale": "Valdarno, Tuscany, Italy",
   "img_dir": "tuscany",
-  "hero_img": "il-borro-garden-view.jpg",
+  "hero_img": "il-borro-village-lane-wide.jpg",
   "img2": "il-borro-estate-sunset.jpg",
   "gallery": [
+   {
+    "src": "/images/tuscany/il-borro-infinity-pool.jpg",
+    "alt": "A guest in the infinity pool at Il Borro, looking over the woods to the medieval borgo and the hills",
+    "caption": "The infinity pool, looking out to the borgo",
+    "w": 1024,
+    "h": 768
+   },
    {
     "src": "/images/tuscany/il-borro-fountain-garden.jpg",
     "alt": "The formal garden and fountain at Il Borro looking out to the medieval borgo and the Valdarno hills",
@@ -4632,7 +4639,7 @@
    },
    {
     "b": "Stunning pools.",
-    "t": "The pools are gorgeous &mdash; long, set into the gardens and looking out over the valley. (If the pool is the deciding factor, <a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a> has the best of the three borghi.)"
+    "t": "The pools are gorgeous &mdash; including an infinity pool that looks out over the woods to the borgo and the hills. (If the pool is the deciding factor, <a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a> has the best of the three borghi.)"
    },
    {
     "b": "Competitive pricing.",
