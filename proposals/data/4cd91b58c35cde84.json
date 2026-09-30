@@ -508,25 +508,31 @@
               "time": "9:00 AM",
               "title": "Leave Grand Hotel Miramare",
               "status": "info",
-              "detail": "About 2 hours 15 to Cernobbio via Genoa and Milan. Coffee stop is fine."
+              "detail": "About 2 hours 15 to Cernobbio via Genoa and Milan."
             },
             {
               "time": "12:30 PM",
               "title": "Villa d'Este, site visit",
-              "status": "pending",
-              "detail": "Laura Buzzi. Confirmed for 2:00. Asked to move to 12:30, draft ready. If not, 2:00 stands."
+              "status": "confirmed",
+              "detail": "Laura Buzzi, +39 348 099 0070. Sporting Club and courts included. Quick lunch offered after, reply drafted. On the road by 2:30."
             },
             {
               "time": "3:00 PM",
               "title": "Il Sereno, check in, shoot rooms and pool",
-              "status": "pending",
-              "detail": "30 minutes by road from Cernobbio through Como, or leave the car and take the hotel boat later. Asked Guest Relations for 3:00, Al Lago and a late checkout Friday, draft ready."
+              "status": "confirmed",
+              "detail": "30 minutes from Cernobbio through Como. Bar and pool if the room isn't ready. Luigi Ferraloro, Guest Relations, +39 031 5477800."
             },
             {
-              "time": "Evening",
-              "title": "Drink at Mandarin Oriental's bar",
-              "status": "suggested",
-              "detail": "Five minutes up the road in Blevio. A look at the property if the stay on the 3rd doesn't come through."
+              "time": "5:00 PM",
+              "title": "Sunset boat ride, Il Sereno's Vaporina with the house captain",
+              "status": "confirmed",
+              "detail": "One hour. Film the lake and the hotel from the water."
+            },
+            {
+              "time": "7:30 PM",
+              "title": "Dinner at Al Lago",
+              "status": "confirmed",
+              "detail": "Table for one."
             }
           ]
         },
@@ -1062,8 +1068,8 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
-        "Villa d'Este: Laura, move tomorrow to 12:30 (draft ready)",
-        "Il Sereno: Guest Relations, arrival 3:00, Al Lago, late checkout Friday (draft ready)",
+        "Villa d'Este: Laura, yes to lunch after the 12:30 tour (draft ready, send today)",
+        "Boat2Go: pass on the 450 water taxi once Antonio answers",
         "Boat for the 2nd: answer Lake Como Experiences or take the Vaporina, and tell the other",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
