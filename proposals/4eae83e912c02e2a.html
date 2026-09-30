@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#161712">
+<title>Private Yacht Proposal · Meron Yemane</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Jost:wght@300;400&display=swap">
+<link rel="preload" as="image" href="images/meron/68-12.webp" imagesrcset="images/meron/68-12-800.webp 800w, images/meron/68-12.webp 1600w" imagesizes="100vw">
+<style>
+  :root{
+    --plaster:#F2EFE6; --plaster-deep:#E9E5DA; --lime:#FBFAF6;
+    --shadow:#161712; --shadow-2:#22231C; --on-dark:#F2EFE6; --on-dark-muted:#9A9B90;
+    --ink:#1F201A; --muted:#65665C; --brass:#836229; --brass-dark:#BE975A; --olive:#4A5040;
+    --hair:rgba(22,23,18,.15); --hair-dark:rgba(242,239,230,.18);
+    --display:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;
+    --body:'Jost','Helvetica Neue',Arial,sans-serif;
+    --ease:cubic-bezier(.2,.6,.2,1);
+    --gutter:24px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--plaster);color:var(--ink);font-family:var(--body);font-weight:300;font-size:1.0625rem;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:var(--brass);text-decoration:none}
+  a:hover{color:var(--ink)}
+  img{display:block;max-width:100%}
+  p{margin:0}
+  em,.it{font-style:italic}
+
+  .wrap{max-width:1180px;margin:0 auto}
+  .sec{padding:96px var(--gutter)}
+  .stamp{font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+  .eyebrow{font-family:var(--display);font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brass)}
+  .chip{border:1px solid currentColor;padding:9px 14px;white-space:nowrap}
+  .h2{font-family:var(--display);font-weight:500;font-size:clamp(1.8rem,3vw,2.4rem);line-height:1.15;margin:0}
+  .auto2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:16px 30px;font-family:var(--display);font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;line-height:1.2;background:var(--olive);color:var(--plaster);border:1px solid var(--olive);border-radius:0;transition:filter 240ms var(--ease);white-space:nowrap}
+  .btn:hover{color:var(--plaster);filter:brightness(1.12)}
+  .btn.ghost{background:transparent;color:var(--on-dark);border-color:var(--on-dark)}
+  .btn.ghost:hover{color:var(--on-dark)}
+
+  /* Cover */
+  .cover{position:relative;min-height:88vh;min-height:88svh;display:flex;flex-direction:column;justify-content:space-between;background:var(--shadow);color:var(--on-dark);overflow:hidden}
+  .cover>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+  .cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,23,18,.5) 0%,rgba(22,23,18,.25) 35%,rgba(22,23,18,.8) 100%)}
+  .cover-top,.cover-body{position:relative;z-index:1;width:100%;max-width:1180px;margin:0 auto}
+  .cover-top{padding:32px var(--gutter);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  .wordmark{font-family:var(--display);font-size:22px;letter-spacing:.02em}
+  .cover-top .chip{border-color:rgba(242,239,230,.5);padding:8px 14px}
+  .cover-body{padding:0 var(--gutter) 72px}
+  .cover-body .eyebrow{color:var(--on-dark);margin-bottom:20px}
+  .cover h1{font-family:var(--display);font-weight:500;font-size:clamp(2.8rem,7vw,5.6rem);line-height:1.02;margin:0;max-width:900px;text-wrap:balance}
+  .lede{max-width:560px;margin-top:28px;font-size:1.15rem}
+
+  /* Letter */
+  .letter{gap:56px;align-items:start}
+  .letter-body{display:flex;flex-direction:column;gap:18px;text-wrap:pretty}
+  .signoff{font-family:var(--display);font-style:italic;font-size:1.3rem}
+
+  /* Comparison */
+  .cmp-sec{padding:0 var(--gutter) 96px}
+  .cmp-head{display:flex;justify-content:space-between;align-items:end;gap:12px 24px;flex-wrap:wrap;border-bottom:1px solid var(--hair);padding-bottom:20px}
+  .cmp-head .stamp{color:var(--muted)}
+  .cmp-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+  .cmp{min-width:680px;display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr}
+  .cmp>*{padding:16px;border-top:1px solid var(--hair)}
+  .cmp .lbl{padding-left:0;display:flex;align-items:center;color:var(--muted)}
+  .cmp .col{padding:22px 16px;border-top:0;display:flex;flex-direction:column;gap:4px;color:var(--ink)}
+  .cmp .col:first-child{padding-left:0}
+  .cmp .col b{font-family:var(--display);font-weight:400;font-size:1.5rem;line-height:1.2}
+  .cmp .col .stamp{color:var(--brass)}
+  .cmp .rec{background:var(--plaster-deep)}
+  .cmp .tot{border-top:1px solid var(--ink);padding-top:20px;padding-bottom:20px;font-family:var(--display);font-size:1.6rem;line-height:1.2}
+  .cmp .lbl.tot{font-size:11px;color:var(--ink)}
+  .swipe{display:none}
+
+  /* Yacht sections */
+  .yacht{padding:96px var(--gutter)}
+  .yacht.alt{background:var(--plaster-deep)}
+  .yacht.dark{background:var(--shadow);color:var(--on-dark)}
+  .yacht .wrap{display:flex;flex-direction:column;gap:40px}
+  .y-head{display:flex;justify-content:space-between;align-items:end;gap:20px 24px;flex-wrap:wrap}
+  .y-head .eyebrow{margin-bottom:12px}
+  .y-head h2{font-family:var(--display);font-weight:500;font-size:clamp(2.4rem,5vw,4rem);line-height:1;margin:0}
+  .tagline{font-family:var(--display);font-style:italic;font-size:1.35rem;margin-top:10px;color:var(--muted)}
+  .dark .eyebrow{color:var(--brass-dark)}
+  .dark .tagline{color:var(--on-dark-muted)}
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .gallery .main{grid-column:span 2;width:100%;height:100%;min-height:340px;object-fit:cover}
+  .gallery .stack{display:grid;gap:8px}
+  .gallery .stack img{width:100%;height:100%;aspect-ratio:3/2;object-fit:cover}
+  .y-body{gap:48px}
+  .y-copy{display:flex;flex-direction:column;gap:20px;text-wrap:pretty}
+  .verdict{border-left:2px solid var(--brass);padding:4px 0 4px 20px;font-family:var(--display);font-style:italic;font-size:1.2rem;line-height:1.45}
+  .hl{border-top:1px solid var(--hair);padding-top:20px}
+  .hl .stamp{color:var(--brass);margin-bottom:10px}
+  .hl ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+  .dark .hl{border-color:var(--hair-dark)}
+  .dark .hl .stamp{color:var(--brass-dark)}
+  .card{background:var(--lime);border:1px solid var(--hair);padding:32px;display:flex;flex-direction:column;gap:22px}
+  .dark .card{background:var(--shadow-2);border-color:var(--hair-dark)}
+  .specs{display:grid;grid-template-columns:1fr 1fr;gap:14px 24px;font-size:.98rem;margin:0}
+  .specs dt{font-family:var(--display);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+  .specs dd{margin:0}
+  .dark .specs dt{color:var(--on-dark-muted)}
+  .price{border-top:1px solid var(--hair);padding-top:20px;display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}
+  .dark .price{border-color:var(--hair-dark)}
+  .price .stamp{font-size:10px;color:var(--brass)}
+  .dark .price .stamp{color:var(--brass-dark)}
+  .price .amt{font-family:var(--display);font-size:2.6rem;line-height:1.1}
+
+  /* Included */
+  .incl .wrap{display:flex;flex-direction:column;gap:40px}
+  .incl-head{max-width:640px}
+  .incl-head .eyebrow{margin-bottom:14px}
+  .incl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
+  .incl-card{background:var(--lime);border:1px solid var(--hair);padding:28px;display:flex;flex-direction:column;gap:10px}
+  .incl-card .stamp{color:var(--brass)}
+  .incl-card h3{font-family:var(--display);font-weight:400;font-size:1.35rem;line-height:1.25;margin:0}
+  .incl-card .note{color:var(--muted);font-size:.98rem;text-wrap:pretty}
+  .incl-card ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+
+  /* Reserve */
+  .reserve{position:relative;padding:112px var(--gutter);background:var(--shadow);color:var(--on-dark);overflow:hidden}
+  .reserve>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .reserve::after{content:"";position:absolute;inset:0;background:rgba(22,23,18,.72)}
+  .reserve .wrap{position:relative;z-index:1;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:56px;align-items:end}
+  .reserve .eyebrow{color:var(--brass-dark);margin-bottom:18px}
+  .reserve h2{font-family:var(--display);font-weight:500;font-size:clamp(2.2rem,4.6vw,3.6rem);line-height:1.05;margin:0;text-wrap:balance}
+  .reserve p{max-width:480px;text-wrap:pretty}
+  .contact{display:flex;flex-direction:column;gap:22px}
+  .who{border-top:1px solid var(--hair-dark);padding-top:20px;display:flex;flex-direction:column;gap:4px}
+  .who .name{font-family:var(--display);font-size:1.6rem}
+  .who .stamp{color:var(--on-dark-muted)}
+  .lines{display:flex;flex-direction:column;gap:6px;font-size:1.1rem}
+  .lines a{color:var(--on-dark);border-bottom:1px solid var(--hair-dark);padding:8px 0;overflow-wrap:anywhere}
+  .lines a:hover{color:var(--brass-dark)}
+  .btns{display:flex;gap:12px;flex-wrap:wrap}
+
+  footer{padding:32px var(--gutter) calc(32px + env(safe-area-inset-bottom))}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}
+  footer .fine{max-width:720px;text-wrap:pretty}
+
+  /* Reveal (only when JS runs) */
+  .js .rv{opacity:0;transform:translateY(14px);transition:opacity 520ms var(--ease),transform 520ms var(--ease)}
+  .js .rv.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .rv{opacity:1;transform:none;transition:none}}
+
+  /* Tablet */
+  @media (max-width:860px){
+    .gallery{grid-template-columns:1fr 1fr}
+    .gallery .main{grid-column:1 / -1;height:auto;min-height:0;aspect-ratio:16/10}
+    .gallery .stack{grid-column:1 / -1;grid-template-columns:1fr 1fr}
+  }
+
+  /* Phone */
+  @media (max-width:640px){
+    :root{--gutter:20px}
+    body{font-size:1rem}
+    .sec,.yacht{padding-top:64px;padding-bottom:64px}
+    .cmp-sec{padding-bottom:64px}
+    .reserve{padding-top:80px;padding-bottom:80px}
+    .cover{min-height:82vh;min-height:82svh}
+    .cover-top{padding-top:20px;padding-bottom:20px}
+    .wordmark{font-size:19px}
+    .cover-top .chip{font-size:9.5px;padding:6px 10px}
+    .cover-body{padding-bottom:48px}
+    .cover h1{font-size:clamp(2.35rem,11vw,2.8rem);line-height:1.05}
+    .lede{font-size:1.05rem;margin-top:20px}
+    .letter{gap:4px}
+    .yacht .wrap,.incl .wrap{gap:28px}
+    .y-body{gap:32px}
+    .gallery{gap:6px}
+    .gallery .main{aspect-ratio:4/3}
+    .gallery .stack{gap:6px}
+    .card{padding:24px 20px}
+    .price .amt{font-size:2.2rem}
+    .price .btn,.btns .btn{width:100%}
+    .btns{flex-direction:column}
+    .incl-card{padding:24px 20px}
+    /* comparison: sticky label column, edge-to-edge scroll */
+    .cmp-scroll{margin:0 calc(-1 * var(--gutter));padding:0 var(--gutter)}
+    .cmp{min-width:600px;grid-template-columns:104px 1fr 1fr 1fr;font-size:.92rem;line-height:1.45}
+    .cmp>*{padding:14px 12px}
+    .cmp .lbl,.cmp .col:first-child{position:sticky;left:0;z-index:1;background:var(--plaster);box-shadow:calc(-1 * var(--gutter)) 0 0 var(--plaster);padding-left:0;padding-right:10px;font-size:9.5px;letter-spacing:.16em}
+    .cmp .col{padding:18px 12px}
+    .cmp .col b{font-size:1.2rem}
+    .cmp .col .stamp{font-size:9.5px;letter-spacing:.14em}
+    .cmp .tot{font-size:1.25rem;padding-top:16px;padding-bottom:16px}
+    .swipe{display:block;margin-top:12px;color:var(--muted);font-size:9.5px}
+    .swipe::after{content:" \2192"}
+  }
+</style>
+</head>
+<body>
+<script>document.documentElement.className+=' js'</script>
+
+<header class="cover">
+  <img src="images/meron/68-12.webp" srcset="images/meron/68-12-800.webp 800w, images/meron/68-12.webp 1600w" sizes="100vw" alt="" fetchpriority="high">
+  <div class="cover-top">
+    <div class="wordmark">Suites <span class="it">with</span> Keith</div>
+    <div class="stamp chip">Private proposal · Greece 2026</div>
+  </div>
+  <div class="cover-body">
+    <div class="eyebrow">Prepared for Meron Yemane</div>
+    <h1>Three yachts. One <span class="it">perfect</span> day on the Aegean.</h1>
+    <p class="lede">A private Ferretti charter between Santorini and Paros, hand-selected for your stay at Canaves Epitome and Avant Mar.</p>
+  </div>
+</header>
+
+<main>
+<section class="sec">
+  <div class="wrap auto2 letter rv">
+    <div><div class="eyebrow">A note from Keith</div></div>
+    <div class="letter-body">
+      <p>I've shortlisted three Ferretti motor yachts, each recently refitted and crewed by a team I trust. They differ in size, space and pace, but every one gives you the same thing: the Aegean entirely to yourselves, a crew looking after every detail, and the freedom to anchor wherever the water looks best.</p>
+      <p>Below you'll find each yacht, a side-by-side comparison, and exactly what's included. When one feels right, reply and I'll lock it in for you.</p>
+      <p class="signoff">Keith</p>
+    </div>
+  </div>
+</section>
+
+<section class="cmp-sec" aria-label="Comparison">
+  <div class="wrap rv">
+    <div class="cmp-head">
+      <h2 class="h2">Your options <span class="it">at a glance</span></h2>
+      <div class="stamp">All prices in euros, total per charter</div>
+    </div>
+    <div class="cmp-scroll">
+      <div class="cmp">
+        <div class="col"></div>
+        <a class="col" href="#ferretti-53"><b>Ferretti 53</b><span class="stamp">A private escape</span></a>
+        <a class="col rec" href="#ferretti-630"><b>Ferretti 630</b><span class="stamp">Elegance at sea</span></a>
+        <a class="col" href="#ferretti-68"><b>Ferretti 68</b><span class="stamp">A nautical dream</span></a>
+
+        <div class="lbl stamp">Length</div><div>16.30 m</div><div class="rec">19.65 m</div><div>21.20 m</div>
+        <div class="lbl stamp">Top speed</div><div>30 knots</div><div class="rec">30 knots</div><div>34 knots</div>
+        <div class="lbl stamp">Cabins</div><div>Master, VIP, twin</div><div class="rec">Master with lounge, VIP, twin</div><div>Master with walk-in, VIP, twin</div>
+        <div class="lbl stamp">Bathrooms</div><div>Ensuite &amp; shared</div><div class="rec">All ensuite</div><div>All ensuite</div>
+        <div class="lbl stamp">Refit</div><div>2024</div><div class="rec">Full refit 2024</div><div>Full refit 2024</div>
+        <div class="lbl stamp">Crew</div><div>Professional crew</div><div class="rec">Dedicated crew of 3</div><div>Dedicated crew of 3</div>
+        <div class="lbl stamp">Standouts</div><div>Flybridge &amp; bow sun pads</div><div class="rec">Underwater lights, elite sound</div><div>Largest &amp; fastest, walk-in closet</div>
+        <div class="lbl stamp">Tender</div><div>3.40 m · 40 HP</div><div class="rec">3.80 m · 50 HP</div><div>3.60 m · 60 HP</div>
+        <div class="lbl stamp tot">Charter total</div><div class="tot">€8,360</div><div class="tot rec">€12,705</div><div class="tot">€13,585</div>
+      </div>
+    </div>
+    <div class="stamp swipe">Swipe to compare</div>
+  </div>
+</section>
+
+<section id="ferretti-53" class="yacht alt">
+  <div class="wrap">
+    <div class="y-head rv">
+      <div>
+        <div class="eyebrow">Option one · 16.3 m</div>
+        <h2>Ferretti 53</h2>
+        <p class="tagline">A private escape</p>
+      </div>
+    </div>
+    <div class="gallery rv">
+      <img class="main" src="images/meron/53-1.webp" srcset="images/meron/53-1-800.webp 800w, images/meron/53-1.webp 1570w" sizes="(max-width:860px) 100vw, 780px" style="object-position:40% 55%" alt="Ferretti 53 at anchor" loading="lazy" decoding="async">
+      <div class="stack">
+        <img src="images/meron/53-3.webp" srcset="images/meron/53-3-800.webp 800w, images/meron/53-3.webp 1280w" sizes="(max-width:860px) 50vw, 390px" alt="Aft deck dining" loading="lazy" decoding="async">
+        <img src="images/meron/53-7.webp" srcset="images/meron/53-7-800.webp 800w, images/meron/53-7.webp 1280w" sizes="(max-width:860px) 50vw, 390px" alt="Master cabin" loading="lazy" decoding="async">
+      </div>
+    </div>
+    <div class="auto2 y-body">
+      <div class="y-copy rv">
+        <p>The most intimate of the three. Sleek lines, bright lounges and sun pads on both the bow and flybridge make the 53 ideal for a couple or small group who want to cruise, swim and simply switch off. Refitted in 2024 with new teak and fresh upholstery throughout.</p>
+        <div class="hl">
+          <div class="stamp">Highlights</div>
+          <ul>
+            <li>Refit 2024: new teak, re-upholstered cabins and salon</li>
+            <li>Sun pads on the bow and flybridge</li>
+            <li>A diverse selection of water toys</li>
+            <li>Master, VIP and twin cabin</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card rv">
+        <dl class="specs">
+          <div><dt>Length</dt><dd>16.30 m</dd></div>
+          <div><dt>Beam</dt><dd>4.70 m</dd></div>
+          <div><dt>Cruising</dt><dd>22–24 knots</dd></div>
+          <div><dt>Top speed</dt><dd>30 knots</dd></div>
+          <div><dt>Engines</dt><dd>2 × 660 HP CAT</dd></div>
+          <div><dt>Tender</dt><dd>3.40 m · 40 HP</dd></div>
+        </dl>
+        <div class="price">
+          <div>
+            <div class="stamp">Charter total</div>
+            <div class="amt">€8,360</div>
+          </div>
+          <a class="btn" href="mailto:Keith.pence@fora.travel?subject=Reserve%20the%20Ferretti%2053&amp;body=Hi%20Keith%2C%20I'd%20like%20to%20go%20ahead%20with%20the%20Ferretti%2053.">Choose the 53</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ferretti-630" class="yacht">
+  <div class="wrap">
+    <div class="y-head rv">
+      <div>
+        <div class="eyebrow">Option two · 19.65 m</div>
+        <h2>Ferretti 630</h2>
+        <p class="tagline">Elegance at sea</p>
+      </div>
+      <div class="stamp chip">Keith's recommendation</div>
+    </div>
+    <div class="gallery rv">
+      <img class="main" src="images/meron/630-1.webp" srcset="images/meron/630-1-800.webp 800w, images/meron/630-1.webp 1200w" sizes="(max-width:860px) 100vw, 780px" alt="Ferretti 630 under way" loading="lazy" decoding="async">
+      <div class="stack">
+        <img src="images/meron/630-10.webp" alt="Lunch on the aft deck" loading="lazy" decoding="async">
+        <img src="images/meron/630-4.webp" srcset="images/meron/630-4-800.webp 800w, images/meron/630-4.webp 1600w" sizes="(max-width:860px) 50vw, 390px" alt="Main lounge" loading="lazy" decoding="async">
+      </div>
+    </div>
+    <div class="auto2 y-body">
+      <div class="y-copy rv">
+        <p>A real step up in space and polish. Fully refitted in 2024, the 630 has a sweeping aft deck, a light-filled salon, and three cabins that are all ensuite. A dedicated crew of three looks after you, with lunch served on deck or in the salon, whichever the day calls for.</p>
+        <div class="verdict">If I were booking for myself, this is the one: nearly the space and finish of the 68, every cabin ensuite, for noticeably less.</div>
+        <div class="hl">
+          <div class="stamp">Highlights</div>
+          <ul>
+            <li>Extensive full refit 2024</li>
+            <li>Dedicated crew of three</li>
+            <li>Underwater lights, electric shades, elite sound system</li>
+            <li>Master with lounge, VIP and twin, all ensuite</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card rv">
+        <dl class="specs">
+          <div><dt>Length</dt><dd>19.65 m</dd></div>
+          <div><dt>Beam</dt><dd>5.30 m</dd></div>
+          <div><dt>Cruising</dt><dd>22–24 knots</dd></div>
+          <div><dt>Top speed</dt><dd>30 knots</dd></div>
+          <div><dt>Engines</dt><dd>2 × 1,226 HP MAN</dd></div>
+          <div><dt>Tender</dt><dd>3.80 m · 50 HP</dd></div>
+        </dl>
+        <div class="price">
+          <div>
+            <div class="stamp">Charter total</div>
+            <div class="amt">€12,705</div>
+          </div>
+          <a class="btn" href="mailto:Keith.pence@fora.travel?subject=Reserve%20the%20Ferretti%20630&amp;body=Hi%20Keith%2C%20I'd%20like%20to%20go%20ahead%20with%20the%20Ferretti%20630.">Choose the 630</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ferretti-68" class="yacht dark">
+  <div class="wrap">
+    <div class="y-head rv">
+      <div>
+        <div class="eyebrow">Option three · 21.2 m · The flagship</div>
+        <h2>Ferretti 68</h2>
+        <p class="tagline">A nautical dream</p>
+      </div>
+    </div>
+    <div class="gallery rv">
+      <img class="main" src="images/meron/68-2.webp" srcset="images/meron/68-2-800.webp 800w, images/meron/68-2.webp 1600w" sizes="(max-width:860px) 100vw, 780px" alt="Ferretti 68 under way" loading="lazy" decoding="async">
+      <div class="stack">
+        <img src="images/meron/68-5.webp" srcset="images/meron/68-5-800.webp 800w, images/meron/68-5.webp 1229w" sizes="(max-width:860px) 50vw, 390px" alt="Aft deck dining" loading="lazy" decoding="async">
+        <img src="images/meron/68-7.webp" srcset="images/meron/68-7-800.webp 800w, images/meron/68-7.webp 1554w" sizes="(max-width:860px) 50vw, 390px" alt="Main salon" loading="lazy" decoding="async">
+      </div>
+    </div>
+    <div class="auto2 y-body">
+      <div class="y-copy rv">
+        <p>The largest and fastest of the three, with a top speed of 34 knots. Panoramic windows flood the salon with light, the master has its own walk-in closet, and every cabin is ensuite. It's the yacht for making an entrance in a hidden cove, with the most space to spread out.</p>
+        <div class="hl">
+          <div class="stamp">Highlights</div>
+          <ul>
+            <li>Extensive full refit 2024</li>
+            <li>Dedicated crew of three</li>
+            <li>Master with walk-in closet; all cabins ensuite</li>
+            <li>Swimming platform, water toys, 60 HP tender</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card rv">
+        <dl class="specs">
+          <div><dt>Length</dt><dd>21.20 m</dd></div>
+          <div><dt>Beam</dt><dd>5.63 m</dd></div>
+          <div><dt>Cruising</dt><dd>22–24 knots</dd></div>
+          <div><dt>Top speed</dt><dd>34 knots</dd></div>
+          <div><dt>Engines</dt><dd>2 × 1,200 HP MAN</dd></div>
+          <div><dt>Tender</dt><dd>3.60 m · 60 HP</dd></div>
+        </dl>
+        <div class="price">
+          <div>
+            <div class="stamp">Charter total</div>
+            <div class="amt">€13,585</div>
+          </div>
+          <a class="btn ghost" href="mailto:Keith.pence@fora.travel?subject=Reserve%20the%20Ferretti%2068&amp;body=Hi%20Keith%2C%20I'd%20like%20to%20go%20ahead%20with%20the%20Ferretti%2068.">Choose the 68</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec incl">
+  <div class="wrap">
+    <div class="incl-head rv">
+      <div class="eyebrow">Whichever you choose</div>
+      <h2 class="h2">Included on board, <span class="it">and</span> taken care of on land.</h2>
+    </div>
+    <div class="incl-grid">
+      <div class="incl-card rv">
+        <div class="stamp">On board</div>
+        <h3>Food, drinks &amp; gear, all complimentary</h3>
+        <ul class="note">
+          <li>Snacks, sandwiches, fresh fruit platters, cold cuts, chips and nuts</li>
+          <li>Local wines, beers, soft drinks and bottled water</li>
+          <li>Beach towels, snorkeling gear and Wi-Fi</li>
+        </ul>
+      </div>
+      <div class="incl-card rv">
+        <div class="stamp">Transfers</div>
+        <h3>Door to deck, island to island</h3>
+        <p class="note">I can arrange all of your transfers between the islands, to and from Canaves Epitome and Avant Mar, the marina and the airports, so every hand-off is seamless.</p>
+      </div>
+      <div class="incl-card rv">
+        <div class="stamp">Planning fee</div>
+        <h3>Waived, <span class="it">with my compliments</span></h3>
+        <p class="note">As a welcome to a new client, there's no planning fee for your charter or transfers. The price you see is the price you pay.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reserve">
+  <img src="images/meron/68-14.webp" srcset="images/meron/68-14-800.webp 800w, images/meron/68-14.webp 1600w" sizes="100vw" alt="" loading="lazy" decoding="async">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Next step</div>
+      <h2>Let's reserve <span class="it">your</span> yacht.</h2>
+      <p style="margin-top:22px">Summer dates in the Cyclades go quickly. Tell me which yacht you'd like and I'll confirm availability and hold it for you the same day.</p>
+      <p style="margin-top:18px">Should you want something less extravagant, like a catamaran, or something even larger, I can source those for you as well. Note that for anything larger, we'd have to source it from Mykonos, which would drive the price north of €20,000.</p>
+    </div>
+    <div class="contact rv">
+      <div class="who">
+        <div class="name">Keith Pence</div>
+        <div class="stamp">Luxury Travel Advisor · Fora Travel</div>
+      </div>
+      <div class="lines">
+        <a href="mailto:Keith.pence@fora.travel">Keith.pence@fora.travel</a>
+        <a href="tel:+14152724316">+1 (415) 272-4316</a>
+      </div>
+      <div class="btns">
+        <a class="btn" href="mailto:Keith.pence@fora.travel?subject=Yacht%20charter%20for%20Meron%20Yemane">Email Keith</a>
+        <a class="btn ghost" href="https://wa.me/14152724316" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="fine">Prices are totals per charter in euros and subject to availability at the time of booking. Timings may shift with the forecast; in very high winds the captain will not sail, for your safety. Operator terms and conditions apply.</p>
+    <div class="stamp">Suites with Keith</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(e){io.observe(e)});
+  setTimeout(function(){els.forEach(function(e){e.classList.add('in')})},4000);
+})();
+</script>
+</body>
+</html>
