@@ -4464,15 +4464,22 @@
   "island_page": "tuscany.html",
   "locale": "Volterra, Tuscany, Italy",
   "img_dir": "tuscany",
-  "hero_img": "borgo-pignano-terrace.jpg",
+  "hero_img": "borgo-pignano-pool-wide.jpg",
   "img2": "borgo-pignano-terrace.jpg",
   "gallery": [
    {
-    "src": "/images/tuscany/borgo-pignano-aerial.jpg",
-    "alt": "Aerial view of the Borgo Pignano villa and pool terrace at sunset",
-    "caption": "The villa, the pool and the valley",
-    "w": 464,
-    "h": 660
+    "src": "/images/tuscany/borgo-pignano-aperitivo.jpg",
+    "alt": "Aperitivo on a stone terrace at Borgo Pignano, looking out over the hazy valley",
+    "caption": "Aperitivo on the terrace",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/images/tuscany/borgo-pignano-library.jpg",
+    "alt": "The library at Borgo Pignano, with bookshelves, striped sofas and a globe by the window",
+    "caption": "The library",
+    "w": 1600,
+    "h": 1063
    },
    {
     "src": "/images/tuscany/borgo-pignano-courtyard.jpg",
