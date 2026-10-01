@@ -3653,6 +3653,14 @@
     "t": "One of the largest beach clubs in Liguria, being restored for next summer. You can swim right off the beach or off the platforms. It&rsquo;s open to the public, but in practice that means local Milanese families who have kept the same cabanas for generations. I think that&rsquo;s a plus: you&rsquo;re at the beach with real Italians."
    },
    {
+    "b": "A building that still follows its original plan.",
+    "t": "In the early 20th century, the noble families lived on the lower floors and the servants lived on the upper ones. The structure can&rsquo;t be changed, so it still works that way: the lower floors have the larger rooms with real outdoor terraces, and rooms get smaller as you go up."
+   },
+   {
+    "b": "The top-floor suite.",
+    "t": "I stayed in a suite on the top floor with a wraparound balcony and stunning views of the sea. It&rsquo;s one of the most beautiful, relaxing hotel rooms I&rsquo;ve ever stayed in."
+   },
+   {
     "b": "Even the entry-level rooms are spacious.",
     "t": "Rooms in the base category are genuinely big. Above them sit around six beautiful signature suites."
    },
@@ -3708,8 +3716,8 @@
   },
   "know": [
    {
-    "b": "Ask for floors one to four if you want a balcony.",
-    "t": "The original building only had four stories. When the fifth floor was added after a fire, the hotel wasn&rsquo;t allowed to add balconies, so fifth-floor rooms don&rsquo;t have them. The exception is a couple of the signature suites. I&rsquo;ll place you on the right floor."
+    "b": "The floor you&rsquo;re on matters more than the room name. Ask me before you book.",
+    "t": "The hotel&rsquo;s ground floor sits a full level above the street, and its &ldquo;first floor&rdquo; is higher again. So even the lowest rooms have a true sea view, and the floor numbers don&rsquo;t mean what an American would expect. If you want space and a large outdoor terrace, the lower floors are the smart choice, because that&rsquo;s where the noble families once lived. The upper floors are smaller, and the newest top floor, added after a fire, wasn&rsquo;t allowed balconies at all. The exception is a couple of signature suites, including the one with a wraparound balcony I stayed in. Reach out and I&rsquo;ll walk you through it and put you in the right room."
    },
    {
     "b": "Book the sea view if you can.",
