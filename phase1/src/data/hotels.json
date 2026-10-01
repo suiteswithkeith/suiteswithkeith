@@ -3841,6 +3841,20 @@
   "cta2_href": "rankings.html",
   "gallery": [
    {
+    "src": "/images/liguria/miramare-facade.jpg",
+    "alt": "The white Belle Époque facade of Grand Hotel Miramare with green shutters, painted details and wrought-iron balconies",
+    "caption": "The Belle &Eacute;poque facade",
+    "w": 518,
+    "h": 690
+   },
+   {
+    "src": "/images/liguria/miramare-sea-view-room.jpg",
+    "alt": "A restored sea-view room at Grand Hotel Miramare with a chandelier, an iron bedframe and French doors open to a balcony over the bay",
+    "caption": "A restored sea-view room",
+    "w": 518,
+    "h": 388
+   },
+   {
     "src": "/images/liguria/miramare-balcony-sea-view.jpg",
     "alt": "View through sheer curtains from a balustraded balcony at Grand Hotel Miramare to a sailboat anchored in the bay",
     "caption": "The view from a sea-view balcony",
@@ -3853,6 +3867,13 @@
     "caption": "The pool",
     "w": 518,
     "h": 647
+   },
+   {
+    "src": "/images/liguria/miramare-bar.jpg",
+    "alt": "The bar at Grand Hotel Miramare, a painted wooden counter with velvet stools in front of a lit wall of bottles",
+    "caption": "The bar",
+    "w": 518,
+    "h": 690
    },
    {
     "src": "/images/liguria/miramare-beach-club.jpg",
