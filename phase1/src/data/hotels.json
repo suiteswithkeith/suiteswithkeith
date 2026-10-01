@@ -3617,8 +3617,8 @@
   "island_page": "featured-destinations.html",
   "locale": "Santa Margherita Ligure, Italy",
   "img_dir": "liguria",
-  "hero_img": "",
-  "img2": "",
+  "hero_img": "miramare-terrace-restaurant.jpg",
+  "img2": "miramare-terrace-restaurant.jpg",
   "tagline": "The real Italian Riviera &mdash; a restored grand hotel in a town where the Milanese still summer, at about half the price of Portofino.",
   "meta_desc": "Keith stayed at Grand Hotel Miramare in Santa Margherita Ligure, the authentic Italian Riviera alternative to Belmond Splendido in Portofino at about half the price. Which rooms to book, families, the beach club, and how to build it into an Italy honeymoon with Lake Como and Tuscany.",
   "style_label": "Restored Belle &Eacute;poque grand hotel on the Riviera",
@@ -3838,7 +3838,37 @@
   "perks_html": "Rates through me match booking direct. On top of that you get my direct line to the team on property before and during your stay, and I&rsquo;ll place you in the right room on the right floor. If you&rsquo;re building a longer trip, I handle every hotel and every transfer around it.",
   "cta_island_text": "Featured Destinations",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "gallery": [
+   {
+    "src": "/images/liguria/miramare-balcony-sea-view.jpg",
+    "alt": "View through sheer curtains from a balustraded balcony at Grand Hotel Miramare to a sailboat anchored in the bay",
+    "caption": "The view from a sea-view balcony",
+    "w": 518,
+    "h": 690
+   },
+   {
+    "src": "/images/liguria/miramare-pool.jpg",
+    "alt": "The curved pool at Grand Hotel Miramare, ringed by loungers and white umbrellas on a lawn",
+    "caption": "The pool",
+    "w": 518,
+    "h": 647
+   },
+   {
+    "src": "/images/liguria/miramare-beach-club.jpg",
+    "alt": "Blue and white umbrellas and loungers on the pebble beach at the Grand Hotel Miramare beach club",
+    "caption": "The beach club",
+    "w": 518,
+    "h": 690
+   },
+   {
+    "src": "/images/liguria/miramare-entrance.jpg",
+    "alt": "The ivy-covered entrance wall of Grand Hotel Miramare on the Santa Margherita seafront",
+    "caption": "The entrance on the seafront",
+    "w": 518,
+    "h": 604
+   }
+  ]
  },
  {
   "slug": "borgo-egnazia-puglia",
