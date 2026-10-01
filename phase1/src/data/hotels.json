@@ -3589,6 +3589,10 @@
   ],
   "know": [
    {
+    "b": "Want the real Riviera at about half the price?",
+    "t": "Look at <a href=\"grand-hotel-miramare-santa-margherita.html\">Grand Hotel Miramare</a> in Santa Margherita Ligure, 15 minutes away. It&rsquo;s a restored 1904 grand hotel in a town where the Milanese still summer, with a big pool and one of the largest beach clubs in Liguria. For most of my clients, it&rsquo;s the better stay."
+   },
+   {
     "b": "Splendido versus Splendido Mare.",
     "t": "The hillside hotel and its little sister on the harborfront are different products — I'll place you based on how you want to live for the week."
    },
@@ -3609,7 +3613,6 @@
  },
  {
   "slug": "grand-hotel-miramare-santa-margherita",
-  "draft": true,
   "name": "Grand Hotel Miramare",
   "plain_name": "Grand Hotel Miramare",
   "short_name": "the Miramare",
