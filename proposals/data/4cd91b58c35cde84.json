@@ -546,40 +546,34 @@
           },
           "items": [
             {
-              "time": "10:40 AM",
-              "title": "Boat from Il Sereno's dock to Passalacqua",
-              "status": "pending",
-              "detail": "Como Classic Boats: Vaporina, 800 for two hours less 10 percent. Lake Como Experiences: round trips only, Cranchi E26 from 10:00 to 2:00 at a B2B rate if paid direct, no Riva, no price yet. Pick one today.",
-              "todo": "Choose the boat for Friday."
+              "time": "10:30 AM",
+              "title": "Check out of Il Sereno, car loaded",
+              "status": "info",
+              "detail": "25 minutes to Passalacqua through Como. Leave by 10:45 for 11:00, or 11:30 if Gaia agrees to noon."
             },
             {
               "time": "11:00 AM",
               "title": "Passalacqua, site visit",
               "status": "confirmed",
-              "detail": "Gaia Bartoletti, +39 337 162 2892."
+              "detail": "Gaia Bartoletti, +39 337 162 2892. Asked to move to 12:00, draft ready."
             },
             {
               "time": "12:30 PM",
               "title": "Grand Hotel Tremezzo, site visit",
               "status": "confirmed",
-              "detail": "Gala's shuttle leaves Passalacqua at 11:45, 40 minutes. Away by 1:15. Reply drafted."
+              "detail": "Drive yourself up the west shore, 30 minutes. Skip the shuttle. 1:30 if the day moves."
             },
             {
-              "time": "1:15 PM",
-              "title": "Boat Tremezzo to Il Sereno, collect the car",
-              "status": "pending",
-              "detail": "Water taxi or the Riva if the DMC or Boat2Go delivers. 20 minutes. Car and bags at Il Sereno."
-            },
-            {
-              "time": "2:40 PM",
-              "title": "Arrive Villa Serbelloni",
+              "time": "After the tour",
+              "title": "Car ferry Cadenabbia to Bellagio",
               "status": "info",
-              "detail": "50 minutes by road, Torno to Bellagio on the lake road. No ferry needed."
+              "detail": "Two minutes from Tremezzo's door. 10 minutes across, about every half hour."
             },
             {
               "time": "3:00 PM",
               "title": "Villa Serbelloni group tour with Cristina",
-              "status": "confirmed"
+              "status": "confirmed",
+              "detail": "Check in from 2:00. Via Olivelli 1."
             }
           ]
         },
@@ -1068,9 +1062,9 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
+        "Passalacqua: Gaia, start at 12:00 and Tremezzo at 1:30 (draft ready)",
+        "Boats: one line each to Antonio, Boat2Go, Lake Como Experiences and Como Classic Boats, Friday is by car",
         "Villa d'Este: Laura, yes to lunch after the 12:30 tour (draft ready, send today)",
-        "Boat2Go: pass on the 450 water taxi once Antonio answers",
-        "Boat for the 2nd: answer Lake Como Experiences or take the Vaporina, and tell the other",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
         "La Dolce Vita: Federico, which day the train is in Rome (draft ready)",
