@@ -3589,6 +3589,10 @@
   ],
   "know": [
    {
+    "b": "Want the real Riviera at about half the price?",
+    "t": "Look at <a href=\"grand-hotel-miramare-santa-margherita.html\">Grand Hotel Miramare</a> in Santa Margherita Ligure, 15 minutes away. It&rsquo;s a restored 1904 grand hotel in a town where the Milanese still summer, with a big pool and one of the largest beach clubs in Liguria. For most of my clients, it&rsquo;s the better stay."
+   },
+   {
     "b": "Splendido versus Splendido Mare.",
     "t": "The hillside hotel and its little sister on the harborfront are different products — I'll place you based on how you want to live for the week."
    },
@@ -3606,6 +3610,289 @@
   "cta_island_text": "My Tennis Court Ranking",
   "cta2_text": "All My Rankings",
   "cta2_href": "rankings.html"
+ },
+ {
+  "slug": "grand-hotel-miramare-santa-margherita",
+  "name": "Grand Hotel Miramare",
+  "plain_name": "Grand Hotel Miramare",
+  "short_name": "the Miramare",
+  "island": "Santa Margherita Ligure",
+  "island_page": "featured-destinations.html",
+  "locale": "Santa Margherita Ligure, Italy",
+  "img_dir": "liguria",
+  "hero_img": "miramare-terrace-restaurant.jpg",
+  "img2": "miramare-terrace-restaurant.jpg",
+  "tagline": "The real Italian Riviera &mdash; a restored grand hotel in a town where the Milanese still summer, at about half the price of Portofino.",
+  "meta_desc": "Keith stayed at Grand Hotel Miramare in Santa Margherita Ligure, the authentic Italian Riviera alternative to Belmond Splendido in Portofino at about half the price, and a Virtuoso partner. Which rooms to book, families, the beach club, and how to build it into an Italy honeymoon with Lake Como and Tuscany.",
+  "style_label": "Restored Belle &Eacute;poque grand hotel, since 1904 (Virtuoso)",
+  "perfect_for": "Honeymooners, couples who want a real Italian beach town, families, anyone weighing the Splendido",
+  "region_label": "Region",
+  "region_html": "Santa Margherita Ligure, on the Portofino coast of Liguria, Italy",
+  "rank_text": "",
+  "rank_href": "",
+  "stat1_num": "About Half",
+  "stat1_label": "The Price Of Portofino",
+  "stat2_num": "Sea-View Rooms",
+  "stat2_label": "From Around $1,000&ndash;$1,500 A Night",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Tell me who&rsquo;s traveling and when. I&rsquo;ll match you to the right room at the Miramare, build Lake Como, Tuscany or the Dolomites around it, and handle every transfer in between.",
+  "intro": [
+   "Grand Hotel Miramare sits on the seafront of Santa Margherita Ligure, one of the most authentic coastal towns left in Italy. This is where Milanese families have spent their summers for generations. In the restaurants, the bars and the little tavernas, the language you hear is Italian. You&rsquo;re not surrounded by other Americans, and that is exactly what most people are hoping for when they come to Italy.",
+   "The town is a real one. Fishmongers sell the morning catch to people who live there, the restaurants are fantastic and the bars stay lively late into the evening. That&rsquo;s the difference from Amalfi, and from <a href=\"splendido-portofino.html\">Portofino</a> right next door, where the harbor is lined with Loro Piana and Dior and not much feels local anymore.",
+   "That&rsquo;s why I now point a lot of clients here instead of the Belmond Splendido. The Miramare is the better version of the same idea: a better location, a far more authentic town, and about half the price, while still a very elevated hotel. There&rsquo;s a big pool, a gym, a spa, a fantastic restaurant out on the terrace and a great bar with great service. Housekeeping was outstanding. Portofino is still a short ride away for lunch, but you&rsquo;ll be glad to come home to Santa Margherita at night.",
+   "The hotel dates back to 1904, and the renovation is beautiful. Most of the rooms are already restored, and the rest should be done by next summer. They kept the Italian character, so it feels like what it is: a historic grand hotel, not a new build. I&rsquo;ve stayed here, so I can tell you which rooms to ask for."
+  ],
+  "stood_out": [
+   {
+    "b": "You&rsquo;re vacationing with Italians.",
+    "t": "Santa Margherita is where Milan goes to the sea. Restaurants, bars and the beach are full of Italian families, not tour groups &mdash; the authentic coastal Italy people are looking for and rarely find."
+   },
+   {
+    "b": "A renovation that kept the soul.",
+    "t": "The restored rooms are beautiful, and they still feel Italian and historic rather than generically modern. The remaining rooms are set to be finished by next summer."
+   },
+   {
+    "b": "The beach club.",
+    "t": "One of the largest beach clubs in Liguria, being restored for next summer. You can swim right off the beach or off the platforms. It&rsquo;s open to the public, but in practice that means local Milanese families who have kept the same cabanas for generations. I think that&rsquo;s a plus: you&rsquo;re at the beach with real Italians."
+   },
+   {
+    "b": "A building that still follows its original plan.",
+    "t": "In the early 20th century, the noble families lived on the lower floors and the servants lived on the upper ones. The structure can&rsquo;t be changed, so it still works that way: the lower floors have the larger rooms with real outdoor terraces, and rooms get smaller as you go up."
+   },
+   {
+    "b": "The top-floor suite.",
+    "t": "I stayed in one of the signature suites, on the top floor, with a wraparound balcony and stunning views of the sea. It&rsquo;s one of the most beautiful, relaxing hotel rooms I&rsquo;ve ever stayed in."
+   },
+   {
+    "b": "Even the entry-level rooms are spacious.",
+    "t": "Rooms in the base category are genuinely big. Above them sit six beautiful signature suites."
+   },
+   {
+    "b": "Garden-view rooms that are actually good.",
+    "t": "These aren&rsquo;t rooms looking at another building. They face a real garden, so they&rsquo;re private, quiet and relaxing, with massive, tall ceilings. I&rsquo;d still recommend a sea view, but if you don&rsquo;t need one, the garden rooms are a great alternative."
+   },
+   {
+    "b": "Everything you need on property.",
+    "t": "A large pool, a gym, a spa, a fantastic terrace restaurant and a bar with great service. Housekeeping was outstanding all stay."
+   }
+  ],
+  "compare": {
+   "eyebrow": "Miramare or Splendido",
+   "heading": "The better version of the Splendido",
+   "intro": "If you&rsquo;re looking at the <a href=\"splendido-portofino.html\">Belmond Splendido</a>, look here first. Portofino is about 15 minutes away by car or boat, so you can still have lunch in the harbor and then sleep somewhere that feels like Italy.",
+   "cols": [
+    "Grand Hotel Miramare",
+    "Belmond Splendido"
+   ],
+   "rows": [
+    [
+     "The town",
+     "Santa Margherita Ligure: a real town with local fishmongers, restaurants and bars",
+     "Portofino: a tiny harbor of luxury boutiques and day-trippers"
+    ],
+    [
+     "Who&rsquo;s around you",
+     "Milanese families on their summer holidays; you hear Italian everywhere",
+     "Mostly international visitors"
+    ],
+    [
+     "The sea",
+     "One of the largest beach clubs in Liguria, swimming off the beach and the platforms",
+     "A hillside pool above the harbor"
+    ],
+    [
+     "The hotel",
+     "A restored grand hotel with a big pool, gym, spa, terrace restaurant and bar",
+     "A former monastery on the hillside, Belmond&rsquo;s Riviera icon"
+    ],
+    [
+     "Families",
+     "Connecting suites and rooms with sofa beds",
+     "Better suited to couples"
+    ],
+    [
+     "Price",
+     "Sea-view rooms from around $1,000&ndash;$1,500 a night",
+     "Roughly double"
+    ]
+   ]
+  },
+  "know": [
+   {
+    "b": "The floor you&rsquo;re on matters more than the room name. Ask me before you book.",
+    "t": "The hotel&rsquo;s ground floor sits a full level above the street, and its &ldquo;first floor&rdquo; is higher again. So even the lowest rooms have a true sea view, and the floor numbers don&rsquo;t mean what an American would expect. If you want space and a large outdoor terrace, the lower floors are the smart choice, because that&rsquo;s where the noble families once lived. The upper floors are smaller, and the newest top floor, added after a fire, wasn&rsquo;t allowed balconies at all. The exception is a couple of signature suites, including the one with a wraparound balcony I stayed in. Reach out and I&rsquo;ll walk you through it and put you in the right room."
+   },
+   {
+    "b": "Book the sea view if you can.",
+    "t": "It&rsquo;s the one I&rsquo;d always recommend. If the sea view doesn&rsquo;t fit the budget or the dates, the garden-view rooms are quiet, private and still a lovely stay."
+   },
+   {
+    "b": "It works very well for families.",
+    "t": "Certain suites can be combined behind one closed door, so you get two proper suites as one private unit. Some rooms with a sofa bed take up to three adults, or two adults and two children under 10."
+   },
+   {
+    "b": "The beach club is open to the public.",
+    "t": "Don&rsquo;t let that put you off. In practice it means Italian families who have had their cabanas for generations. It&rsquo;s part of what makes a stay here feel real."
+   },
+   {
+    "b": "Portofino is a day trip, not a base.",
+    "t": "Go for lunch, a walk around the harbor or a boat along the coast to San Fruttuoso and Camogli, then come back to Santa Margherita for dinner. I arrange boats and drivers."
+   }
+  ],
+  "routes": {
+   "eyebrow": "Build the trip",
+   "heading": "The Italy honeymoon I&rsquo;d plan for myself",
+   "intro": "The Miramare is the coastal leg that ties northern Italy together. It&rsquo;s more affordable than Amalfi and it sits right between Lake Como and Tuscany. These are the routes I&rsquo;d build around it. I handle every piece: the hotels, the rooms and every private transfer in between, timed to your check-outs and check-ins. You never touch a train timetable or a rental car.",
+   "trips": [
+    {
+     "who": "For honeymooners",
+     "title": "Lake Como, the Riviera, Tuscany and Florence",
+     "legs": [
+      {
+       "nights": "Arrive",
+       "place": "Fly into Milan.",
+       "t": "A private driver meets you and takes you straight to the lake."
+      },
+      {
+       "nights": "3 nights",
+       "place": "Lake Como.",
+       "t": "The romantic start: <a href=\"passalacqua-lake-como.html\">Passalacqua</a>, <a href=\"villa-d-este-lake-como.html\">Villa d&rsquo;Este</a> or <a href=\"il-sereno-lake-como.html\">Il Sereno</a>."
+      },
+      {
+       "nights": "3&ndash;4 nights",
+       "place": "Santa Margherita Ligure.",
+       "t": "Grand Hotel Miramare, the beach club, and Portofino by boat for lunch."
+      },
+      {
+       "nights": "4&ndash;5 nights",
+       "place": "Tuscany.",
+       "t": "A countryside borgo: <a href=\"il-borro-tuscany.html\">Il Borro</a> is my honeymoon pick, or see <a href=\"/tuscany-borghi.html\">all three borghi side by side</a>."
+      },
+      {
+       "nights": "3 nights",
+       "place": "Florence.",
+       "t": "End in the city at <a href=\"four-seasons-hotel-firenze.html\">Four Seasons Firenze</a> or <a href=\"belmond-villa-san-michele-florence.html\">Villa San Michele</a>, then fly home."
+      }
+     ],
+     "note": "Two weeks, four completely different Italys, and no logistics on your plate."
+    },
+    {
+     "who": "For families",
+     "title": "The Riviera, Tuscany and Florence",
+     "legs": [
+      {
+       "nights": "Arrive",
+       "place": "Fly into Milan.",
+       "t": "Straight down to the coast by private car."
+      },
+      {
+       "nights": "4&ndash;5 nights",
+       "place": "Santa Margherita Ligure.",
+       "t": "Combined suites at the Miramare, the pool and the beach club."
+      },
+      {
+       "nights": "4&ndash;5 nights",
+       "place": "Tuscany.",
+       "t": "A villa with space to spread out, like <a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>."
+      },
+      {
+       "nights": "3 nights",
+       "place": "Florence.",
+       "t": "Finish in the city, then fly home."
+      }
+     ],
+     "note": "I&rsquo;d skip Lake Como with kids. It&rsquo;s at its best as a romantic stop, and the coast and the countryside give children far more to do."
+    },
+    {
+     "who": "Mountains, lakes and the sea",
+     "title": "Venice, the Dolomites, Lake Como and the Riviera",
+     "legs": [
+      {
+       "nights": "Arrive",
+       "place": "Fly into Venice.",
+       "t": "Or into Munich or Innsbruck and start in the mountains."
+      },
+      {
+       "nights": "2&ndash;3 nights",
+       "place": "Venice.",
+       "t": "<a href=\"hotel-cipriani-venice.html\">Hotel Cipriani</a> across the lagoon."
+      },
+      {
+       "nights": "4 nights",
+       "place": "The Dolomites.",
+       "t": "Forestis above Bressanone, Gardena Gr&ouml;dnerhof in Val Gardena or COMO Alpina Dolomites on the Alpe di Siusi."
+      },
+      {
+       "nights": "3 nights",
+       "place": "Lake Como.",
+       "t": "Down from the mountains to the lake."
+      },
+      {
+       "nights": "3&ndash;4 nights",
+       "place": "Santa Margherita Ligure.",
+       "t": "End on the sea at the Miramare, then fly home from Milan."
+      }
+     ],
+     "note": "Some of these drives are long. I plan where to break them up so they feel like part of the trip, not a day lost to transit."
+    }
+   ]
+  },
+  "verdict": "The real Italian Riviera: a beautifully restored grand hotel among Italian families, at about half the price of the Splendido.",
+  "perks_html": "Rates through me match booking direct &mdash; the perks don&rsquo;t. Grand Hotel Miramare is a Virtuoso preferred partner, so booking through me includes preferred partner amenities like daily breakfast, a hotel credit and upgrade priority where available &mdash; plus my direct line to the team on property, and I&rsquo;ll place you in the right room on the right floor.",
+  "cta_island_text": "Featured Destinations",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "gallery": [
+   {
+    "src": "/images/liguria/miramare-facade.jpg",
+    "alt": "The white Belle Époque facade of Grand Hotel Miramare with green shutters, painted details and wrought-iron balconies",
+    "caption": "The Belle &Eacute;poque facade",
+    "w": 518,
+    "h": 690
+   },
+   {
+    "src": "/images/liguria/miramare-sea-view-room.jpg",
+    "alt": "A restored sea-view room at Grand Hotel Miramare with a chandelier, an iron bedframe and French doors open to a balcony over the bay",
+    "caption": "A restored sea-view room",
+    "w": 518,
+    "h": 388
+   },
+   {
+    "src": "/images/liguria/miramare-balcony-sea-view.jpg",
+    "alt": "View through sheer curtains from a balustraded balcony at Grand Hotel Miramare to a sailboat anchored in the bay",
+    "caption": "The view from a sea-view balcony",
+    "w": 518,
+    "h": 690
+   },
+   {
+    "src": "/images/liguria/miramare-pool.jpg",
+    "alt": "The curved pool at Grand Hotel Miramare, ringed by loungers and white umbrellas on a lawn",
+    "caption": "The pool",
+    "w": 518,
+    "h": 647
+   },
+   {
+    "src": "/images/liguria/miramare-bar.jpg",
+    "alt": "The bar at Grand Hotel Miramare, a painted wooden counter with velvet stools in front of a lit wall of bottles",
+    "caption": "The bar",
+    "w": 518,
+    "h": 690
+   },
+   {
+    "src": "/images/liguria/miramare-beach-club.jpg",
+    "alt": "Blue and white umbrellas and loungers on the pebble beach at the Grand Hotel Miramare beach club",
+    "caption": "The beach club",
+    "w": 518,
+    "h": 690
+   },
+   {
+    "src": "/images/liguria/miramare-entrance.jpg",
+    "alt": "The ivy-covered entrance wall of Grand Hotel Miramare on the Santa Margherita seafront",
+    "caption": "The entrance on the seafront",
+    "w": 518,
+    "h": 604
+   }
+  ]
  },
  {
   "slug": "borgo-egnazia-puglia",
@@ -3809,6 +4096,10 @@
    {
     "b": "Weighing it against Collegio alla Querce?",
     "t": "Both sit in the hills above the city. I&rsquo;ve toured San Michele and stayed at Collegio &mdash; here&rsquo;s my <a href=\"/collegio-alla-querce-vs-villa-san-michele.html\">side-by-side</a>."
+   },
+   {
+    "b": "Weighing it against Four Seasons Firenze?",
+    "t": "The view above the city, or a palazzo in private gardens in the middle of it. I&rsquo;ve toured both &mdash; here&rsquo;s my <a href=\"/four-seasons-firenze-vs-villa-san-michele.html\">side-by-side</a>."
    }
   ],
   "verdict": "The best views in Florence, from a renovated 15th-century monastery — the city's most romantic address isn't in the city at all.",
@@ -3904,6 +4195,10 @@
    {
     "b": "Weighing it against Collegio alla Querce?",
     "t": "I&rsquo;ve toured Four Seasons and stayed at Collegio. Here&rsquo;s my <a href=\"/four-seasons-firenze-vs-collegio-alla-querce.html\">side-by-side</a>, and my <a href=\"collegio-alla-querce-florence.html\">Collegio review</a>."
+   },
+   {
+    "b": "Weighing it against Villa San Michele?",
+    "t": "The city&rsquo;s two grandest addresses: a palazzo in private gardens here, or a Fiesole monastery with the best views in Florence. I&rsquo;ve toured both &mdash; here&rsquo;s my <a href=\"/four-seasons-firenze-vs-villa-san-michele.html\">side-by-side</a>."
    }
   ],
   "verdict": "Resort-like calm inside the city center — the only Florence hotel where the garden competes with the art.",
@@ -4464,15 +4759,22 @@
   "island_page": "tuscany.html",
   "locale": "Volterra, Tuscany, Italy",
   "img_dir": "tuscany",
-  "hero_img": "borgo-pignano-terrace.jpg",
+  "hero_img": "borgo-pignano-pool-wide.jpg",
   "img2": "borgo-pignano-terrace.jpg",
   "gallery": [
    {
-    "src": "/images/tuscany/borgo-pignano-aerial.jpg",
-    "alt": "Aerial view of the Borgo Pignano villa and pool terrace at sunset",
-    "caption": "The villa, the pool and the valley",
-    "w": 464,
-    "h": 660
+    "src": "/images/tuscany/borgo-pignano-aperitivo.jpg",
+    "alt": "Aperitivo on a stone terrace at Borgo Pignano, looking out over the hazy valley",
+    "caption": "Aperitivo on the terrace",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/images/tuscany/borgo-pignano-library.jpg",
+    "alt": "The library at Borgo Pignano, with bookshelves, striped sofas and a globe by the window",
+    "caption": "The library",
+    "w": 1600,
+    "h": 1063
    },
    {
     "src": "/images/tuscany/borgo-pignano-courtyard.jpg",
@@ -4543,7 +4845,7 @@
    },
    {
     "b": "Comparing Tuscany estates?",
-    "t": "<a href=\"rosewood-castiglion-del-bosco-tuscany.html\">Castiglion del Bosco</a> is the big wine-and-golf estate; <a href=\"belmond-castello-di-casole-tuscany.html\">Castello di Casole</a> is the traditional castle. Borgo Pignano is the quieter, more intimate choice. For a medieval borgo, <a href=\"borgo-san-felice-tuscany.html\">Borgo San Felice</a> near Siena is the most well-rounded, and <a href=\"il-borro-tuscany.html\">Il Borro</a> is the honeymoon pick. Here are my side-by-sides: <a href=\"/borgo-san-felice-vs-borgo-pignano.html\">Borgo San Felice or Borgo Pignano</a> and <a href=\"/borgo-pignano-vs-il-borro.html\">Borgo Pignano or Il Borro</a>."
+    "t": "<a href=\"rosewood-castiglion-del-bosco-tuscany.html\">Castiglion del Bosco</a> is the big wine-and-golf estate; <a href=\"belmond-castello-di-casole-tuscany.html\">Castello di Casole</a> is the traditional castle. Borgo Pignano is the quieter, more intimate choice. For a medieval borgo, <a href=\"borgo-san-felice-tuscany.html\">Borgo San Felice</a> near Siena is the most well-rounded, and <a href=\"il-borro-tuscany.html\">Il Borro</a> is the honeymoon pick. Here are my side-by-sides: <a href=\"/borgo-san-felice-vs-borgo-pignano.html\">Borgo San Felice or Borgo Pignano</a> and <a href=\"/borgo-pignano-vs-il-borro.html\">Borgo Pignano or Il Borro</a>. Or see <a href=\"/tuscany-borghi.html\">all three side by side</a>."
    }
   ],
   "verdict": "A quiet stone borgo on a Tuscan hilltop &mdash; the dinner view alone is worth the drive.",
@@ -4561,9 +4863,16 @@
   "island_page": "tuscany.html",
   "locale": "Valdarno, Tuscany, Italy",
   "img_dir": "tuscany",
-  "hero_img": "il-borro-garden-view.jpg",
+  "hero_img": "il-borro-village-lane-wide.jpg",
   "img2": "il-borro-estate-sunset.jpg",
   "gallery": [
+   {
+    "src": "/images/tuscany/il-borro-infinity-pool.jpg",
+    "alt": "A guest in the infinity pool at Il Borro, looking over the woods to the medieval borgo and the hills",
+    "caption": "The infinity pool, looking out to the borgo",
+    "w": 1024,
+    "h": 768
+   },
    {
     "src": "/images/tuscany/il-borro-fountain-garden.jpg",
     "alt": "The formal garden and fountain at Il Borro looking out to the medieval borgo and the Valdarno hills",
@@ -4632,7 +4941,7 @@
    },
    {
     "b": "Stunning pools.",
-    "t": "The pools are gorgeous &mdash; long, set into the gardens and looking out over the valley. (If the pool is the deciding factor, <a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a> has the best of the three borghi.)"
+    "t": "The pools are gorgeous &mdash; including an infinity pool that looks out over the woods to the borgo and the hills. (If the pool is the deciding factor, <a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a> has the best of the three borghi.)"
    },
    {
     "b": "Competitive pricing.",
@@ -4650,7 +4959,7 @@
    },
    {
     "b": "Three borghi, three different travelers.",
-    "t": "<a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, <a href=\"borgo-san-felice-tuscany.html\">Borgo San Felice</a> and Il Borro all offer a different stay for a different traveler, and all three are fantastic. Tell me who&rsquo;s coming and what you want from Tuscany, and I&rsquo;ll tell you which one is yours. Here are my side-by-sides: <a href=\"/borgo-san-felice-vs-il-borro.html\">Borgo San Felice or Il Borro</a> and <a href=\"/borgo-pignano-vs-il-borro.html\">Borgo Pignano or Il Borro</a>."
+    "t": "<a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, <a href=\"borgo-san-felice-tuscany.html\">Borgo San Felice</a> and Il Borro all offer a different stay for a different traveler, and all three are fantastic. Tell me who&rsquo;s coming and what you want from Tuscany, and I&rsquo;ll tell you which one is yours. Here are my side-by-sides: <a href=\"/borgo-san-felice-vs-il-borro.html\">Borgo San Felice or Il Borro</a> and <a href=\"/borgo-pignano-vs-il-borro.html\">Borgo Pignano or Il Borro</a>. Or see <a href=\"/tuscany-borghi.html\">all three side by side</a>."
    },
    {
     "b": "Stay longer than one night.",
@@ -4672,15 +4981,15 @@
   "island_page": "tuscany.html",
   "locale": "Near Siena, Tuscany, Italy",
   "img_dir": "tuscany",
-  "hero_img": "borgo-san-felice-aerial.jpg",
-  "img2": "borgo-san-felice-aerial.jpg",
+  "hero_img": "borgo-san-felice-chapel-pines.jpg",
+  "img2": "borgo-san-felice-chapel-pines.jpg",
   "gallery": [
    {
-    "src": "/images/tuscany/borgo-san-felice-chapel-lane.jpg",
-    "alt": "The chapel and stone houses along the main lane of Borgo San Felice",
-    "caption": "The chapel and the main lane",
-    "w": 588,
-    "h": 303
+    "src": "/images/tuscany/borgo-san-felice-vineyard-aerial.jpg",
+    "alt": "Borgo San Felice from above at golden hour, ringed by cypresses and Chianti vineyards",
+    "caption": "The borgo among its vineyards",
+    "w": 1280,
+    "h": 960
    },
    {
     "src": "/images/tuscany/borgo-san-felice-piazza-dinner.jpg",
@@ -4697,11 +5006,11 @@
     "h": 678
    },
    {
-    "src": "/images/tuscany/borgo-san-felice-villa.jpg",
-    "alt": "The ivy-covered villa and courtyard at Borgo San Felice under a blue sky",
+    "src": "/images/tuscany/borgo-san-felice-courtyard.jpg",
+    "alt": "Stone villas with green shutters and flower boxes around the lawn at Borgo San Felice",
     "caption": "The villa courtyard",
-    "w": 588,
-    "h": 303
+    "w": 1229,
+    "h": 768
    }
   ],
   "tagline": "A perfectly restored Chianti borgo outside Siena &mdash; the most well-rounded of the Tuscan borghi, and one of my favorite stays so far.",
@@ -4761,7 +5070,7 @@
    },
    {
     "b": "Three borghi, three different travelers.",
-    "t": "<a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, Borgo San Felice and <a href=\"il-borro-tuscany.html\">Il Borro</a> each suit a different traveler, and all three are fantastic. Borgo San Felice is the most well-rounded; tell me who&rsquo;s coming and I&rsquo;ll tell you which one is yours. Here are my side-by-sides: <a href=\"/borgo-san-felice-vs-borgo-pignano.html\">Borgo San Felice or Borgo Pignano</a> and <a href=\"/borgo-san-felice-vs-il-borro.html\">Borgo San Felice or Il Borro</a>."
+    "t": "<a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, Borgo San Felice and <a href=\"il-borro-tuscany.html\">Il Borro</a> each suit a different traveler, and all three are fantastic. Borgo San Felice is the most well-rounded; tell me who&rsquo;s coming and I&rsquo;ll tell you which one is yours. Here are my side-by-sides: <a href=\"/borgo-san-felice-vs-borgo-pignano.html\">Borgo San Felice or Borgo Pignano</a> and <a href=\"/borgo-san-felice-vs-il-borro.html\">Borgo San Felice or Il Borro</a>. Or see <a href=\"/tuscany-borghi.html\">all three side by side</a>."
    }
   ],
   "verdict": "A truly perfect gem near Siena &mdash; the most well-rounded borgo in Tuscany, and one of my favorite stays so far.",

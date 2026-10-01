@@ -2787,25 +2787,25 @@
   "h1_b": "Borgo Pignano?",
   "deck": "Two restored Tuscan borghi I&rsquo;ve slept at, and both are fantastic &mdash; including for couples. They just suit different trips: one is the all-rounder near Siena that feels like home, the other is a remote country stay with the best pool of the three and private villas for families and groups.",
   "stamp": "Stayed at both &middot; part of my Tuscany borghi trio with Il Borro",
-  "preload": "/images/tuscany/borgo-san-felice-aerial.jpg",
+  "preload": "/images/tuscany/borgo-san-felice-vineyard-aerial.jpg",
   "choose": [
    {
     "eyebrow": "Choose Borgo San Felice",
     "h3": "If you want everything done well",
     "lead": "A perfectly restored medieval borgo in the Chianti hills just outside Siena. The most well-rounded of the three: fantastic service, fantastic food, tennis, a gym and a spa &mdash; and a real feeling of home.",
-    "img": "/images/tuscany/borgo-san-felice-aerial.jpg",
-    "alt": "Borgo San Felice from above, surrounded by Chianti vineyards",
-    "w": 588,
-    "h": 441
+    "img": "/images/tuscany/borgo-san-felice-vineyard-aerial.jpg",
+    "alt": "Borgo San Felice from above, ringed by cypresses and Chianti vineyards",
+    "w": 1280,
+    "h": 960
    },
    {
     "eyebrow": "Choose Borgo Pignano",
     "h3": "If you want the countryside",
     "lead": "A country, almost farm-stay borgo on a remote hilltop outside Volterra &mdash; the best pool of the three, dinner under a pergola facing the valley, plus around nine private villas, tennis, a fantastic gym and a spa.",
-    "img": "/images/tuscany/borgo-pignano-aerial.jpg",
-    "alt": "Aerial view of the Borgo Pignano villa and pool terrace at sunset",
-    "w": 464,
-    "h": 660
+    "img": "/images/tuscany/borgo-pignano-pool.jpg",
+    "alt": "The infinity pool at Borgo Pignano, cut into the hillside above the woods and the valley",
+    "w": 1600,
+    "h": 1067
    }
   ],
   "rows": [
@@ -2887,16 +2887,16 @@
   "h1_b": "Il Borro?",
   "deck": "Two restored medieval villages, each run as one hotel, and both fantastic. One is the well-rounded borgo near Siena that feels like home; the other is the most authentic, a whole village turned hotel, and the one I send honeymooners to.",
   "stamp": "Stayed at San Felice &middot; toured Il Borro &middot; part of my Tuscany borghi trio with Borgo Pignano",
-  "preload": "/images/tuscany/borgo-san-felice-chapel-lane.jpg",
+  "preload": "/images/tuscany/borgo-san-felice-chapel-pines.jpg",
   "choose": [
    {
     "eyebrow": "Choose Borgo San Felice",
     "h3": "If you want the all-rounder",
     "lead": "A perfectly restored medieval borgo in the Chianti hills just outside Siena. The most well-rounded of the three: fantastic service, fantastic food, tennis, a gym and a spa &mdash; and a real feeling of home.",
-    "img": "/images/tuscany/borgo-san-felice-chapel-lane.jpg",
-    "alt": "The chapel and main lane at Borgo San Felice",
-    "w": 588,
-    "h": 303
+    "img": "/images/tuscany/borgo-san-felice-chapel-pines.jpg",
+    "alt": "The chapel and umbrella pines at Borgo San Felice at sunset",
+    "w": 1600,
+    "h": 783
    },
    {
     "eyebrow": "Choose Il Borro",
