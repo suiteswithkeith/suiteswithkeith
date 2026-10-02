@@ -139,11 +139,17 @@ const days2 = [
         <text class="lake" x="320" y="226" text-anchor="middle">Lake Como</text>
       </svg>
     </figure>
+    <div class="arrive-grid">
+    <figure class="arrive-photo reveal">
+      <img src="/images/lake-como-pairing/il-sereno-boat-arrival.jpg" alt="The varnished wooden bow of a Lake Como boat pulling up to Il Sereno&rsquo;s stone seawall and planted facade" width="1100" height="1928" loading="lazy" decoding="async" />
+      <figcaption>Pulling up to Il Sereno, from the boat</figcaption>
+    </figure>
     <div class="steps reveal">
       <div class="step"><span class="step-n">01</span><b>Slow morning.</b> <span>Breakfast in the villa, one more swim. There&rsquo;s no ferry to catch.</span></div>
       <div class="step"><span class="step-n">02</span><b>Down to the water.</b> <span>Your boat and captain are waiting, and your bags come with you.</span></div>
       <div class="step"><span class="step-n">03</span><b>Across the lake.</b> <span>About ten minutes, straight across, with the whole lake opening up around you.</span></div>
       <div class="step"><span class="step-n">04</span><b>Step off at Il Sereno.</b> <span>The hotel is on the water, so the dock is the front door.</span></div>
+    </div>
     </div>
     <div class="verdict reveal" style="margin-top:40px;">
       <p>My favorite trick: don&rsquo;t take the short way. Have the boat go north first, past Villa del Balbianello and Bellagio, then drop you at Il Sereno. Your transfer becomes your boat day, and the check-out day turns into the best afternoon of the trip.</p>
@@ -155,8 +161,8 @@ const days2 = [
 <section class="section band on-shadow" id="il-sereno" style="scroll-margin-top:70px;">
   <div class="container">
     <div class="hc-grid flip">
-      <figure class="reveal hc-media">
-        <img src="/images/proposals/lake-como/il-sereno/room.jpg" alt="An Il Sereno suite with glass walls opening to the lake" width="1600" height="1067" loading="lazy" decoding="async" />
+      <figure class="reveal hc-media hc-tall">
+        <img src="/images/lake-como-pairing/il-sereno-from-the-water.jpg" alt="Il Sereno from the lake: timber-slatted balconies, a living green wall and a wooden boat moored below the stone seawall" width="1200" height="1600" loading="lazy" decoding="async" />
       </figure>
       <div class="reveal">
         <span class="stamp plain" style="font-weight:700; color:var(--brass-lit);">Stay two &middot; Torno</span>
@@ -347,6 +353,8 @@ const days2 = [
   .hc-grid > * { min-width: 0; }
   .hc-media { margin: 0; }
   .hc-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .hc-tall img { aspect-ratio: 4/5; object-position: 50% 60%; }
+  @media (min-width: 900px) { .hc-tall { max-width: 460px; justify-self: end; } }
   .hc-note { font-size: .96rem; line-height: 1.65; margin-bottom: 13px; padding-left: 16px; position: relative; color: var(--ash); }
   .band .hc-note { color: var(--band-ash); }
   .hc-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
@@ -372,8 +380,12 @@ const days2 = [
   .crossing .mins { font-family: var(--stamp); font-weight: 600; font-size: 24px; fill: var(--brass); letter-spacing: .04em; }
   .crossing .lake { font-family: var(--display); font-style: italic; font-size: 22px; fill: var(--ash-3); }
 
-  .steps { display: grid; gap: 22px; grid-template-columns: 1fr; margin-top: 36px; }
-  @media (min-width: 760px) { .steps { grid-template-columns: repeat(4, 1fr); } }
+  .arrive-grid { display: grid; gap: 32px; grid-template-columns: 1fr; margin-top: 40px; align-items: center; }
+  @media (min-width: 760px) { .arrive-grid { grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr); gap: 56px; } }
+  .arrive-photo { margin: 0; }
+  .arrive-photo img { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: 50% 62%; display: block; }
+  .arrive-photo figcaption { font-family: var(--stamp); font-weight: 600; font-size: .68rem; color: var(--ash); margin-top: 10px; letter-spacing: .04em; }
+  .steps { display: grid; gap: 22px; grid-template-columns: 1fr; }
   .step { border-top: 1px solid var(--hairline-firm); padding-top: 14px; font-size: .94rem; line-height: 1.6; color: var(--ash); }
   .step b { display: block; color: var(--ink); font-weight: 500; margin: 6px 0 4px; }
   .step-n { font-family: var(--stamp); font-weight: 600; font-size: .7rem; color: var(--brass); letter-spacing: .08em; }
