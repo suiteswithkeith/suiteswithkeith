@@ -673,49 +673,41 @@
             "status": "confirmed",
             "detail": "Hosted, night two."
           },
-          "items": []
+          "items": [
+            {
+              "time": "Day",
+              "title": "Dolomites hike with a guide",
+              "status": "pending",
+              "detail": "Lisa at Imago Artis sent options, Lake Braies and Messner among them. Pick one."
+            }
+          ]
         },
         {
           "date": "2026-10-06",
-          "label": "October 6: Aman visit, then the open night",
+          "label": "October 6: Aman visit, Gardena Grödnerhof",
           "stay": {
-            "name": "Open",
-            "status": "open",
-            "options": [
-              {
-                "name": "San Luis, Avelengo",
-                "status": "todo",
-                "detail": "Hosting ask drafted, add your signature."
-              },
-              {
-                "name": "COMO Alpina, moved to the 6th",
-                "status": "pending",
-                "detail": "Only if Aman gives a rate for the 7th. Deborah Carlin."
-              },
-              {
-                "name": "Gardena Grödnerhof, Ortisei",
-                "status": "pending",
-                "detail": "Alex Demetz."
-              },
-              {
-                "name": "Badia Hill",
-                "status": "suggested",
-                "detail": "Not contacted."
-              }
-            ]
+            "name": "Gardena Grödnerhof, Ortisei",
+            "status": "confirmed",
+            "detail": "Hosted, one night, two guests. Alex Demetz, cc Silvia. Site inspection on arrival, time to send Alex once set.",
+            "todo": "Send Alex an arrival time for the tour."
           },
           "items": [
             {
               "time": "11:00 AM",
               "title": "Aman Rosa Alpina, San Cassiano, site visit and lunch",
-              "status": "confirmed",
-              "detail": "Elisa De Nicolò, +39 0471 849500. 1 hour from Forestis."
+              "status": "confirmed"
             },
             {
-              "time": "Afternoon",
-              "title": "On to the night's hotel",
+              "time": "2:30 PM",
+              "title": "Drive to Ortisei over Passo Gardena",
               "status": "info",
-              "detail": "Alpe di Siusi 1 hour 15, San Luis 2 hours."
+              "detail": "About 1 hour. Alpe di Siusi and COMO Alpina are 30 minutes from the hotel for the 7th."
+            },
+            {
+              "time": "3:30 PM",
+              "title": "Gardena Grödnerhof, check in, tour with Alex, spa",
+              "status": "pending",
+              "detail": "Time to confirm with Alex."
             }
           ]
         },
@@ -1057,11 +1049,12 @@
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
-        "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
-        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
+        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients",
+        "Gardena Grödnerhof: Alex, arrival time on the 6th for the inspection",
+        "San Luis: delete the old draft, the 6th is set"
       ]
     },
     {
@@ -1069,13 +1062,13 @@
       "items": [
         "Avis: call, move the drop to Venice Marco Polo on the 8th",
         "Train: Venice to Rome on the 10th, book once the Rome bed is set",
-        "The 6th: San Luis, Gardena Grödnerhof or Badia Hill. Aman visit at 11:00 is set",
         "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
-        "Alpina and Forestis: a friend may join",
-        "Tennis kit"
+        "Tennis kit",
+        "Alpina and Forestis: a friend joins from the 6th, tell both hotels the second guest",
+        "Oct 5 hike: choose from Lisa's options at Imago Artis"
       ]
     }
   ],
@@ -1085,7 +1078,6 @@
       "items": [
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Miramonti: the 4th",
-        "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "La Dolce Vita Orient Express, Federico Talucci: which day, once sent"
