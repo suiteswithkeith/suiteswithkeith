@@ -10,7 +10,7 @@
     "hero_image": "../images/destinations/como-castello.jpg",
     "hero_alt": "COMO Castello del Nero in the Chianti hills",
     "intro_eyebrow": "The plan, one page",
-    "hello": "Twenty four nights, eight regions, one rental car. Who, where, when, and what is still open.",
+    "hello": "Twenty four nights, eight regions, one rental car until Venice. Who, where, when, and what is still open.",
     "how_to_read": "Tap a region to jump to it. Each night shows the stay and the contact. The list at the bottom is what still needs doing.",
     "trip_start": "2026-09-22",
     "trip_end": "2026-10-16",
@@ -746,140 +746,117 @@
       ]
     },
     {
-      "id": "val-dorcia",
-      "name": "Val d'Orcia",
-      "dates": "October 8",
-      "strip_label": "Base open, Lupaia at dusk",
-      "summary": "One night, base to choose. Lupaia in the evening.",
-      "drive": "Alpe di Siusi to Montepulciano about 4 hours 45 leaving at 11:00, straight down the A1. Montepulciano to Lupaia 15 minutes, to Rosewood 45 minutes.",
+      "id": "venice",
+      "name": "Venice",
+      "dates": "October 8 to 9",
+      "strip_label": "Orient Express, the Danieli",
+      "summary": "Two nights, two openings. Car dropped at Marco Polo on the way in, train to Rome on the 10th.",
+      "drive": "Alpe di Siusi to Venice Marco Polo about 3 hours 15 via Bolzano and the A22. Drop the car there. Water taxi to Cannaregio 30 minutes, or Alilaguna to Fondamente Nove.",
+      "groups": [],
       "days": [
         {
           "date": "2026-10-08",
-          "label": "October 8: Drive down, Lupaia at dusk",
+          "label": "October 8: Down to Venice, Orient Express",
           "stay": {
-            "name": "Casa Newton, Pienza, asked",
-            "status": "pending",
-            "detail": "Hosting or industry rate asked for the 8th (draft ready). Fabbrica Pienza estate, tennis court, about 510 if paid. Lupaia is 25 minutes. Monteverdi could not do the 8th."
-          },
-          "items": [
-            {
-              "time": "11:00 AM",
-              "title": "Leave Alpe di Siusi",
-              "status": "info",
-              "detail": "4 hours 45 to Montepulciano."
-            },
-            {
-              "time": "3:30 PM",
-              "title": "Arrive Casa Newton, drop bags",
-              "status": "info",
-              "detail": "Villa Le Prata in Montalcino is the fallback, 40 minutes from Lupaia."
-            },
-            {
-              "time": "5:30 PM",
-              "title": "Lupaia, site inspection and dinner",
-              "status": "confirmed",
-              "detail": "Giulia. Fully booked for the night, dinner offered. Reply drafted. Sunset about 6:40."
-            }
-          ]
-        }
-      ],
-      "groups": []
-    },
-    {
-      "id": "rome",
-      "name": "Val d'Orcia, Porto Ercole & Rome",
-      "dates": "October 9 to 13",
-      "strip_label": "Monteverdi, Pellicano, Eden, La Minerva",
-      "summary": "Rosewood, Banfi and Monteverdi on the 9th. Pellicano the 10th, La Roqqa a visit. Eden hosted on the 11th. La Minerva the 12th once Egle moves the comp.",
-      "days": [
-        {
-          "date": "2026-10-09",
-          "label": "October 9: Rosewood, Banfi, Monteverdi",
-          "stay": {
-            "name": "Monteverdi Tuscany, Castiglioncello del Trinoro",
-            "status": "confirmed",
-            "detail": "Hosted. Booking 64755, Tuscan View Suite. Lucia Testa, Reservations. Spa 5:00, aperitivo 6:15, Chef's Table 7:00."
+            "name": "Orient Express Palazzo Donà Giovannelli, Cannaregio",
+            "status": "open",
+            "detail": "Opened April 2026, 47 keys on Rio di Noale. Hosting or advisor rate to ask for the 8th, through Egle at La Minerva or direct.",
+            "todo": "Ask Orient Express for the 8th."
           },
           "items": [
             {
               "time": "10:00 AM",
-              "title": "Leave the base",
+              "title": "Leave Alpe di Siusi",
               "status": "info",
-              "detail": "45 minutes to Castiglion del Bosco."
+              "detail": "3 hours 15 to Marco Polo."
             },
             {
-              "time": "11:00 AM",
-              "title": "Rosewood Castiglion del Bosco, site visit and lunch",
-              "status": "confirmed",
-              "detail": "Francesca Liguori. 11:00 confirmed, then lunch at Osteria La Canonica. No hosted night on the 8th."
+              "time": "1:15 PM",
+              "title": "Drop the car at Avis, Venice Marco Polo",
+              "status": "todo",
+              "detail": "Change the Avis drop from Fiumicino on the 11th to Marco Polo on the 8th.",
+              "todo": "Call Avis."
             },
             {
-              "time": "2:00 PM",
-              "title": "Castello Banfi Il Borgo, inspection and tasting",
-              "status": "confirmed",
-              "detail": "Maddalena Vedele, +39 342 7347074. 25 minutes south."
+              "time": "2:30 PM",
+              "title": "Water taxi to the hotel, check in, shoot",
+              "status": "info"
             },
             {
-              "time": "3:00 PM",
-              "title": "Drive to Monteverdi",
-              "status": "info",
-              "detail": "1 hour 15."
-            },
-            {
-              "time": "4:15 PM",
-              "title": "Arrive Monteverdi",
-              "status": "confirmed",
-              "detail": "Spa at 5:00."
+              "time": "Evening",
+              "title": "Drink at the Danieli, look at the terrace",
+              "status": "suggested"
             }
           ]
         },
         {
-          "date": "2026-10-10",
-          "label": "October 10: Monteverdi morning, Civita di Bagnoregio",
+          "date": "2026-10-09",
+          "label": "October 9: Venice, the Danieli",
           "stay": {
-            "name": "Corte della Maestà, Civita di Bagnoregio, asked",
-            "status": "pending",
-            "detail": "Hosting or industry rate asked for the 10th (draft ready). Five rooms. Park in Bagnoregio and walk the footbridge, ask them about bags.",
-            "options": [
-              {
-                "name": "Il Pellicano, 830",
-                "status": "fallback",
-                "detail": "Gianluca. Only if Civita says no and you still want the coast."
-              },
-              {
-                "name": "La Roqqa, 455",
-                "status": "fallback",
-                "detail": "Roberta Davanzo. Same."
-              },
-              {
-                "name": "Rome a night early",
-                "status": "fallback",
-                "detail": "Eden 10 and 11 if Elena will add the 10th."
-              }
-            ]
+            "name": "The Danieli, A Four Seasons Hotel",
+            "status": "open",
+            "detail": "Reopened August 26 after the restoration. Ask through the Fora Four Seasons partnership for a hosted or advisor night on the 9th.",
+            "todo": "Ask the Danieli for the 9th."
           },
           "items": [
             {
               "time": "Morning",
-              "title": "Monteverdi garden and rooms with Lucia",
-              "status": "suggested"
+              "title": "Shoot Orient Express, tour with the team",
+              "status": "info"
             },
             {
-              "time": "12:00 PM",
-              "title": "Leave for Civita, about 1 hour 15",
-              "status": "info",
-              "detail": "Via Orvieto."
+              "time": "Afternoon",
+              "title": "Danieli check in, shoot the rooms and the terrace",
+              "status": "info"
             },
             {
-              "time": "3:00 PM",
-              "title": "Arrive Civita, shoot the town in the evening light",
+              "time": "Evening",
+              "title": "Free. Dinner in Venice.",
+              "status": "info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "dates": "October 10 to 13",
+      "strip_label": "Train in, Eden, La Minerva",
+      "summary": "Frecciarossa from Venice on the 10th. Bed for the 10th to ask, Eden hosted on the 11th. La Minerva the 12th once Egle moves the comp.",
+      "days": [
+        {
+          "date": "2026-10-10",
+          "label": "October 10: Train to Rome",
+          "stay": {
+            "name": "Rome, bed to ask",
+            "status": "open",
+            "detail": "Ask the Eden for the 10th as well. Otherwise de Russie, Six Senses or Bulgari for the night.",
+            "todo": "Ask Tristan at the Eden for the 10th."
+          },
+          "items": [
+            {
+              "time": "9:25 AM",
+              "title": "Frecciarossa, Venezia Santa Lucia to Roma Termini",
+              "status": "todo",
+              "detail": "About 3 hours 50. Book once the Rome bed is set.",
+              "todo": "Book the train."
+            },
+            {
+              "time": "1:30 PM",
+              "title": "Arrive Rome, check in",
+              "status": "info"
+            },
+            {
+              "time": "Afternoon",
+              "title": "Free. First Rome content.",
               "status": "info"
             }
           ]
         },
         {
           "date": "2026-10-11",
-          "label": "October 11: Civita to Rome",
+          "label": "October 11: Rome, the Eden",
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
@@ -887,16 +864,15 @@
           },
           "items": [
             {
-              "time": "11:30 AM",
-              "title": "Leave Civita, drop the car at Fiumicino",
-              "status": "info",
-              "detail": "About 1 hour 45. Avis drop on the 11th."
+              "time": "Morning",
+              "title": "Rome, free",
+              "status": "info"
             },
             {
               "time": "3:00 PM",
               "title": "Check in at the Eden",
-              "status": "info",
-              "detail": "The terrace at sunset."
+              "status": "confirmed",
+              "detail": "Giulio Pannunzi told 3:00. Nut allergy noted."
             }
           ]
         },
@@ -931,7 +907,7 @@
           ]
         }
       ],
-      "drive": "Banfi to Monteverdi about 1 hour 15. Monteverdi to Porto Ercole about 2 hours. Pellicano to Fiumicino about 1 hour 45."
+      "drive": "No car from here. Venezia Santa Lucia to Roma Termini about 3 hours 50 on the Frecciarossa. Termini to the Eden 15 minutes by taxi."
     },
     {
       "id": "amalfi",
@@ -1062,35 +1038,38 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
+        "Monteverdi: Lucia, cancel the hosted night on the 9th with thanks (draft ready)",
+        "Rosewood: Francesca, cancel the 9th (draft ready)",
+        "Lupaia: Giulia, cancel the 8th (draft ready)",
+        "Banfi: Maddalena, cancel the 9th (draft ready)",
+        "Casa Newton and Corte della Maestà: withdraw if sent",
+        "Il Pellicano and La Roqqa: one line each, not coming this trip",
+        "Orient Express Venice: hosting or advisor rate for the 8th (draft ready)",
+        "The Danieli: hosted or advisor night on the 9th (draft ready)",
+        "Hotel Eden: Tristan, add the 10th (draft ready)",
         "Passalacqua: Gaia, start at 12:00 and Tremezzo at 1:30 (draft ready)",
         "Boats: one line each to Antonio, Boat2Go, Lake Como Experiences and Como Classic Boats, Friday is by car",
         "Villa d'Este: Laura, yes to lunch after the 12:30 tour (draft ready, send today)",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
         "La Dolce Vita: Federico, which day the train is in Rome (draft ready)",
-        "Casa Newton: hosting or rate for the 8th (draft ready)",
-        "Corte della Maestà: hosting or rate for the 10th (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
         "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
         "Hotel Eden: thank Tristan, accept the 11th (draft ready)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
-        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients",
-        "La Roqqa and Il Pellicano: tell Roberta and Gianluca once Civita answers"
+        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
       ]
     },
     {
       "title": "Decide and fix",
       "items": [
-        "The 10th: Corte della Maestà if they say yes, otherwise Porto Ercole or Rome early",
+        "Avis: call, move the drop to Venice Marco Polo on the 8th",
+        "Train: Venice to Rome on the 10th, book once the Rome bed is set",
         "The 6th: San Luis, Gardena Grödnerhof or Badia Hill. Aman visit at 11:00 is set",
-        "The 8th: Casa Newton if they say yes, otherwise book it or Villa Le Prata",
         "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
-        "The boat on the 2nd: Vaporina at 720, or Lake Como Experiences Cranchi 10:00 to 2:00 at their B2B rate",
-        "Avis: drop to the 11th in Rome, or the 10th if you drive through",
-        "Monteverdi: pre-arrival questionnaire",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
         "Alpina and Forestis: a friend may join",
@@ -1102,16 +1081,12 @@
     {
       "title": "Waiting on",
       "items": [
-        "Belmond, Andrea Gervasoni: Splendido and Mare tomorrow, who to ask for",
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Miramonti: the 4th",
         "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
-        "Grand Hotel Victoria, Arianna Giordano: visit at 3:00 on the 3rd, once sent",
-        "La Dolce Vita Orient Express, Federico Talucci: which day, once sent",
-        "Casa Newton: the 8th, once sent",
-        "Corte della Maestà: the 10th, once sent"
+        "La Dolce Vita Orient Express, Federico Talucci: which day, once sent"
       ]
     },
     {
