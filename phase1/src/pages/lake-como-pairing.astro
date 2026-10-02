@@ -6,6 +6,8 @@ const faq = [
   ['How many nights should we do at each?', 'Two and two is the minimum that still feels like two separate stays. Three and three is the version I&rsquo;d book for a honeymoon, because it gives each hotel a full day where you don&rsquo;t go anywhere at all.'],
   ['Which hotel should come first?', 'I usually start at Passalacqua. It is the harder confirmation, so we lock those dates first and build Il Sereno around them, and the villa is the better place to land and slow down after a long flight. The reverse works too if the dates fall that way.'],
   ['We&rsquo;re staying in Bellagio or Tremezzo. Can we arrive by boat?', 'Yes, and I&rsquo;d book it that way. A car brings you from Milan to the town of Como, and a private boat takes you up the lake from there. It&rsquo;s about 30 minutes on the water, compared with 45 minutes to an hour on the lake road, and it works for Grand Hotel Tremezzo, Villa Serbelloni and the EDITION.'],
+  ['Is Il Sereno good for families?', 'Not really. It&rsquo;s built for couples who want privacy, lake views and design. Parents with older teenagers could make it work if the kids are happy by the pool, but for a family trip I&rsquo;d point you somewhere else on the lake.'],
+  ['Is Torno too quiet?', 'Torno is a tiny village, and that&rsquo;s the point: nobody wanders into the hotel. If you want an evening out, Bellagio, Como and the restaurants across the lake are a short boat ride away, and I can line those boats up for you.'],
   ['When can we do this?', 'Both hotels are seasonal and close for winter. Roughly April through October is the window, and May, June and September are the months I push hardest.'],
   ['Does booking through you cost more?', 'No. The rate is the same as booking direct, and my clients typically get preferred-partner extras on top, like a space-available upgrade, daily breakfast and a hotel credit. The boat and the timing between the two hotels are part of what I handle.'],
 ];
@@ -20,15 +22,15 @@ const rows = [
   ['Shore', 'Moltrasio, west shore', 'Torno, east shore'],
   ['Size', '24 rooms', '30 suites'],
   ['The look', 'Silk walls, gilded headboards, frescoes, antiques', 'Glass, walnut and stone by Patricia Urquiola'],
-  ['The pool', 'Set in terraced gardens above the lake', 'Floating at the water&rsquo;s edge'],
-  ['The feeling', 'A guest at a private Italian estate', 'The lake at eye level, all day'],
+  ['The pool', 'Set in terraced gardens above the lake', 'Heated, just above the water, with a boathouse hot tub'],
+  ['The feeling', 'A guest at a private Italian estate', 'Private and quiet, with almost no day visitors'],
 ];
 
 const days2 = [
   ['Day 1', 'Land in Milan. A car takes you to Moltrasio, about an hour. Gardens, an aperitivo on the terrace, dinner at the villa.'],
   ['Day 2', 'Passalacqua, all day. The pool, the clay court, nowhere to be.'],
   ['Day 3', 'Late breakfast, then down to the water. Ten minutes across the lake and you&rsquo;re checking in at Il Sereno.'],
-  ['Day 4', 'Il Sereno, all day. The floating pool, then a boat up to Bellagio for the evening if you want it.'],
+  ['Day 4', 'Il Sereno, all day. The pool and the boathouse hot tub, then one of the hotel&rsquo;s Rivas to dinner across the lake if you want it.'],
   ['Day 5', 'Car to Milan for your flight home.'],
 ];
 ---
@@ -77,7 +79,7 @@ const days2 = [
   <div class="container intro-grid">
     <div class="reveal">
       <p class="deck" style="max-width:44ch;">Most people pick one Lake Como hotel and spend the whole trip there. The better move is to pick two that have nothing in common.</p>
-      <p class="body-2" style="margin-top:20px; max-width:58ch;">Passalacqua is the villa you&rsquo;ve seen everywhere: an 18th-century estate in Moltrasio, restored room by room, with silk on the walls, gilded headboards and gardens stepping down to the water. Il Sereno sits almost directly across the lake in Torno, and it&rsquo;s the opposite in every way: glass, walnut and stone, every suite facing the water head-on, a pool floating at the lake&rsquo;s edge. It&rsquo;s quiet, grown-up and built for couples.</p>
+      <p class="body-2" style="margin-top:20px; max-width:58ch;">Passalacqua is the villa you&rsquo;ve seen everywhere: an 18th-century estate in Moltrasio, restored room by room, with silk on the walls, gilded headboards and gardens stepping down to the water. Il Sereno sits almost directly across the lake in Torno, and it&rsquo;s the opposite in every way: glass, walnut and stone, every room facing the lake, and a heated pool just above the water. It&rsquo;s quiet, private and built for couples.</p>
       <p class="body-2" style="margin-top:14px; max-width:58ch;">Two hotels that look nothing alike, but the same kind of person loves both. If you&rsquo;re planning a honeymoon or a milestone trip, that&rsquo;s probably you. The part that ties it together is the ten-minute private boat between them, which is also the best part of the trip.</p>
     </div>
     <div class="reveal">
@@ -167,13 +169,16 @@ const days2 = [
       <div class="reveal">
         <span class="stamp plain" style="font-weight:700; color:var(--brass-lit);">Stay two &middot; Torno</span>
         <h2 class="display-l" style="margin-top:12px;">Il Sereno</h2>
-        <p class="deck" style="margin-top:10px; font-size:1.05rem;">The modern one. Thirty suites, all glass and walnut, all facing the water.</p>
-        <p class="body-2" style="margin-top:18px;">Patricia Urquiola designed it from the furniture to the facade. It&rsquo;s calm, adult and very private, and after two nights of gilt and frescoes, waking up to a wall of glass and the lake is a completely different trip.</p>
+        <p class="deck" style="margin-top:10px; font-size:1.05rem;">The modern one. Private, quiet and built for couples, with every room looking at the lake.</p>
+        <p class="body-2" style="margin-top:18px;">I&rsquo;ve stayed here, and I couldn&rsquo;t find a single fault. Patricia Urquiola&rsquo;s design has a Japanese-minimalist, warm-industrial feel, all glass, walnut and stone. There&rsquo;s a listening suite that feels like a great hi-fi bar, and a Michelin-starred restaurant on the water. Torno is a tiny village, and you can only get into the hotel if you&rsquo;re staying or you come by boat, so there are almost no day visitors. After two nights of gilt and frescoes, it feels like a completely different trip.</p>
         <div style="margin-top:22px;">
-          <p class="hc-note"><b>The floating pool.</b> <span>It sits right at the water&rsquo;s edge, so you&rsquo;re swimming level with the lake.</span></p>
-          <p class="hc-note"><b>Every suite faces the lake.</b> <span>The Grand Suite Lago adds a private terrace and the head-on view, and it&rsquo;s the one I&rsquo;d book for a honeymoon.</span></p>
-          <p class="hc-note"><b>The dock is the front door.</b> <span>Bellagio, Como and the villas are all a boat ride away.</span></p>
+          <p class="hc-note"><b>The pool is on land, and heated.</b> <span>A lot of Como pools float on docks and rock with every passing boat. This one doesn&rsquo;t, and the poolside service is excellent.</span></p>
+          <p class="hc-note"><b>The hot tub in the old boathouse.</b> <span>Book it just for the two of you, by the hour.</span></p>
+          <p class="hc-note"><b>Every room sees the lake.</b> <span>Entry rooms get a partial view, some through the trees. The Grand Suite is where it gets special, and it starts at about what an entry room costs at Passalacqua.</span></p>
+          <p class="hc-note"><b>Their own fleet of Rivas.</b> <span>The dock is the front door, and a boat to dinner across the lake is easy to arrange.</span></p>
+          <p class="hc-note"><b>The sheets.</b> <span>The softest I&rsquo;ve ever slept on. I&rsquo;m still thinking about them.</span></p>
         </div>
+        <div class="verdict" style="margin-top:26px;"><p>Next time I&rsquo;m going back for at least two nights and pairing it with Passalacqua. That&rsquo;s this whole page.</p></div>
         <p style="margin-top:22px;"><a class="pb-link" href="/hotels/il-sereno-lake-como.html">My full Il Sereno review &rarr;</a></p>
       </div>
     </div>
