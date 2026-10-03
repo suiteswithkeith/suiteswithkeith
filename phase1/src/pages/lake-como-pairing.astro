@@ -8,7 +8,7 @@ const faq = [
   ['We&rsquo;re staying in Bellagio or Tremezzo. Can we arrive by boat?', 'Yes, and I&rsquo;d book it that way. A car brings you from Milan to the town of Como, and a private boat takes you up the lake from there. It&rsquo;s about 30 minutes on the water, compared with 45 minutes to an hour on the lake road, and it works for Grand Hotel Tremezzo, Villa Serbelloni and the EDITION.'],
   ['Is Il Sereno good for families?', 'Not really. It&rsquo;s built for couples who want privacy, lake views and design. Parents with older teenagers could make it work if the kids are happy by the pool, but for a family trip I&rsquo;d point you somewhere else on the lake.'],
   ['Is Torno too quiet?', 'Torno is a tiny village, and that&rsquo;s the point: nobody wanders into the hotel. If you want an evening out, Bellagio, Como and the restaurants across the lake are a short boat ride away, and I can line those boats up for you.'],
-  ['When can we do this?', 'Both hotels are seasonal and close for winter. Roughly April through October is the window, and May, June and September are the months I push hardest.'],
+  ['When can we do this?', 'Il Sereno sets the window: it&rsquo;s open from mid-March until October 26, then closes for winter. Passalacqua stays open later, through New Year&rsquo;s, so it also works on its own for a holiday trip. For the pairing, May, June and September are the months I push hardest.'],
   ['Does booking through you cost more?', 'No. The rate is the same as booking direct, and my clients typically get preferred-partner extras on top, like a space-available upgrade, daily breakfast and a hotel credit. The boat and the timing between the two hotels are part of what I handle.'],
 ];
 
@@ -45,7 +45,7 @@ const days2 = [
 <script type="application/ld+json" slot="head" set:html={JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a.replace(/&rsquo;/g, '’') } })),
+  mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q.replace(/&rsquo;/g, '’'), acceptedAnswer: { '@type': 'Answer', text: a.replace(/&rsquo;/g, '’') } })),
 })} />
 
 <!-- hero: two hotels, one crossing -->
@@ -87,7 +87,7 @@ const days2 = [
         <div class="kv-row"><dt>The split</dt><dd><b>2 + 2 nights</b> &middot; or 3 + 3 for a honeymoon</dd></div>
         <div class="kv-row"><dt>The crossing</dt><dd><b>About 10 minutes</b> by private boat, bags on board</dd></div>
         <div class="kv-row"><dt>Built for</dt><dd>Honeymoons, anniversaries, milestone birthdays</dd></div>
-        <div class="kv-row"><dt>When</dt><dd>Roughly April to October, both hotels close for winter</dd></div>
+        <div class="kv-row"><dt>When</dt><dd>Mid-March to October 26, when Il Sereno closes for winter. Passalacqua stays open through New Year&rsquo;s</dd></div>
       </dl>
     </div>
   </div>
@@ -278,7 +278,7 @@ const days2 = [
     <div class="faq reveal">
       {faq.map(([q, a]) => (
         <details>
-          <summary>{q}</summary>
+          <summary set:html={q} />
           <p class="body-2" set:html={a} />
         </details>
       ))}
