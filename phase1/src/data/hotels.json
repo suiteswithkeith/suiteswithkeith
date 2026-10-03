@@ -3380,7 +3380,7 @@
   "stood_out": [
    {
     "b": "A villa run like a private home.",
-    "t": "24 rooms, staff who remember your name, and the feeling of being a guest at an 18th-century estate rather than a hotel."
+    "t": "24 rooms, staff who remember your name, and the feeling of being a guest at an 18th-century estate rather than a hotel. It&rsquo;s whimsical: antiques the family collected over time, and lots of wicker throughout."
    },
    {
     "b": "The sunken clay court.",
@@ -3392,7 +3392,7 @@
    },
    {
     "b": "The spa and the tunnel.",
-    "t": "The spa is modeled on a hammam, and an underground tunnel leads down to the lower gardens. It&rsquo;s one of my favorite details on the lake."
+    "t": "The spa is Moroccan-inspired, with vaulted ceilings, old stone columns, pierced brass lanterns and peacock wicker chairs, and an underground tunnel leads down to the lower gardens. It&rsquo;s one of my favorite details on the lake."
    },
    {
     "b": "The recognition is real.",
@@ -3444,6 +3444,13 @@
     "w": 1920,
     "h": 1035,
     "caption": "The formal gardens above the lake"
+   },
+   {
+    "src": "/images/proposals/lake-como/passalacqua/spa-lounge.jpg",
+    "alt": "Passalacqua’s Moroccan-inspired spa lounge, with vaulted ceilings, stone columns, brass lanterns and peacock wicker chairs",
+    "w": 1000,
+    "h": 1778,
+    "caption": "The Moroccan-inspired spa"
    },
    {
     "src": "/images/proposals/lake-como/passalacqua/suite.jpg",
