@@ -28,6 +28,13 @@ const schema = JSON.stringify({
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': `https://suiteswithkeith.com/${slug}.html` },
 });
+// Optional long-form sections and FAQ (with FAQPage schema), used by the richer comparison pages.
+const faqSchema = g.faq && g.faq.length > 0 && JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: g.faq.map(([q, a]) => ({ '@type': 'Question', name: plain(q), acceptedAnswer: { '@type': 'Answer', text: plain(a) } })),
+});
+const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@media(min-width:900px){.vs-guide{grid-template-columns:1fr 1fr;gap:56px 72px}}.vs-guide>*{min-width:0}.vs-guide h3{font-family:var(--display);font-weight:500;font-size:clamp(1.35rem,2.6vw,1.7rem);line-height:1.25;margin-bottom:12px}.vs-guide p{margin-top:12px;max-width:60ch}.vs-guide-img{margin:0 0 20px}.vs-guide-img img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}.vs-faq details{border-top:1px solid var(--hairline);padding:18px 0}.vs-faq details:last-child{border-bottom:1px solid var(--hairline)}.vs-faq summary{cursor:pointer;font-family:var(--display);font-size:1.2rem;list-style:none;position:relative;padding-right:28px}.vs-faq summary::-webkit-details-marker{display:none}.vs-faq summary::after{content:"+";position:absolute;right:0;top:0;color:var(--brass);font-family:var(--body)}.vs-faq details[open] summary::after{content:"\\2013"}.vs-faq details p{margin-top:12px;max-width:62ch}`;
 ---
 <Layout
   canonical={`${slug}.html`}
@@ -38,6 +45,8 @@ const schema = JSON.stringify({
 >
 
 <Fragment slot="head" set:html={`<script type="application/ld+json">${schema}</script>`} />
+{faqSchema && <Fragment slot="head" set:html={`<script type="application/ld+json">${faqSchema}</script>`} />}
+{(faqSchema || g.guide) && <Fragment slot="head" set:html={`<style>${richCss}</style>`} />}
 
 <header class="section" style="padding-bottom:0;">
   <div class="container">
@@ -95,6 +104,45 @@ const schema = JSON.stringify({
     ))}
   </div>
 </section>
+
+{g.guide && g.guide.length > 0 && (
+  <section class="section">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow" set:html={g.guide_eyebrow || 'The detail'} />
+        <h2 class="display-l" set:html={g.guide_h2 || 'What to know before you choose'} />
+      </div>
+      <div class="vs-guide">
+        {g.guide.map((sec) => (
+          <div class="reveal">
+            {sec.img && <figure class="vs-guide-img"><img src={sec.img} alt={sec.alt} width={sec.w} height={sec.h} loading="lazy" decoding="async" /></figure>}
+            <h3 set:html={sec.h3} />
+            {sec.paras.map((p) => <p class="body-2" set:html={p} />)}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+{g.faq && g.faq.length > 0 && (
+  <section class="section" style="padding-top:0;">
+    <div class="container" style="max-width:820px;">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Before you ask</span>
+        <h2 class="display-l">The questions I get</h2>
+      </div>
+      <div class="vs-faq reveal">
+        {g.faq.map(([q, a]) => (
+          <details>
+            <summary set:html={q} />
+            <p class="body-2" set:html={a} />
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
 
 {g.inside && g.inside.length > 0 && (
   <section class="section">
