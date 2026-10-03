@@ -54,7 +54,7 @@
     },
     {
       "title": "Drive times",
-      "text": "Chianti to the coast about 3 hours. Coast to Cernobbio 2 hours 30. Como to the Dolomites 3 hours 15. Alpe di Siusi to Montepulciano 4 hours 45. Monteverdi to Porto Ercole 2 hours. Porto Ercole to Fiumicino 1 hour 45."
+      "text": "Chianti to the coast about 3 hours. Coast to Cernobbio 2 hours 15. Como to the Dolomites 5 hours 30 by motorway, 6 hours 15 over the Engadin. Alpe di Siusi to Venice Marco Polo 3 hours 30. Venice to Rome 3 hours 50 by Frecciarossa, no car after Venice."
     },
     {
       "title": "Pace",
@@ -759,7 +759,7 @@
       "dates": "October 8 to 9",
       "strip_label": "Orient Express, the Danieli",
       "summary": "Two nights, two openings. Car dropped at Marco Polo on the way in, train to Rome on the 10th.",
-      "drive": "Alpe di Siusi to Venice Marco Polo about 3 hours 15 via Bolzano and the A22. Drop the car there. Water taxi to Cannaregio 30 minutes, or Alilaguna to Fondamente Nove.",
+      "drive": "Alpe di Siusi to Venice Marco Polo about 3 hours 30 via Bolzano, Verona and the A4. Drop the car there. Water taxi to Cannaregio 30 minutes, or Alilaguna to Fondamente Nove.",
       "groups": [],
       "days": [
         {
@@ -776,7 +776,7 @@
               "time": "10:00 AM",
               "title": "Leave Alpe di Siusi",
               "status": "info",
-              "detail": "3 hours 15 to Marco Polo."
+              "detail": "3 hours 30 to Marco Polo."
             },
             {
               "time": "1:15 PM",
