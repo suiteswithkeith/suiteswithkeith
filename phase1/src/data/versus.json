@@ -3614,7 +3614,11 @@
    {
     "eyebrow": "Choose Villa Serbelloni",
     "h3": "If you love old Italian grand hotels",
-    "lead": "Very historic and beautifully maintained, with a stunning modern spa, a little speakeasy bar I loved, and the best setup on the lake for actually swimming: a pool, a beach and a floating pier to jump in from. It&rsquo;s in Bellagio, which is the catch."
+    "lead": "Very historic and beautifully maintained, with a stunning modern spa, a little speakeasy bar I loved, and the best setup on the lake for actually swimming: a pool, a beach and a floating pier to jump in from. It&rsquo;s in Bellagio, which is the catch.",
+    "img": "/images/lake-como/villa-serbelloni/balcony.jpg",
+    "alt": "A balcony at Grand Hotel Villa Serbelloni looking up Lake Como from Bellagio",
+    "w": 1600,
+    "h": 1067
    }
   ],
   "rows": [
@@ -3688,14 +3692,32 @@
     "h3": "Should you stay in Bellagio?",
     "paras": [
      "Honestly, I&rsquo;d steer most clients away from it. Bellagio is the lake&rsquo;s most famous village, and it&rsquo;s packed with day-trippers. It was crowded when I stayed in October; July and August would be a nightmare. You can visit Bellagio easily by boat from almost anywhere on the lake and come home somewhere calmer."
-    ]
+    ],
+    "img": "/images/lake-como/villa-serbelloni/aerial.jpg",
+    "alt": "Aerial view of Bellagio&rsquo;s point, with Grand Hotel Villa Serbelloni on the water beside the village",
+    "w": 1600,
+    "h": 1200
    },
    {
     "h3": "For swimming and the spa, Serbelloni wins",
     "paras": [
      "If being in the lake matters to you, Villa Serbelloni has the best setup I&rsquo;ve seen on Como: a pool, a beach and a floating pier you can jump into the water from. In summer that&rsquo;s a real selling point.",
      "Its spa is the other surprise. In a hotel this historic, I didn&rsquo;t expect something so modern and beautiful. It&rsquo;s a genuine reason to book."
-    ]
+    ],
+    "img": "/images/lake-como/villa-serbelloni/beach.jpg",
+    "alt": "Villa Serbelloni&rsquo;s sand beach with loungers and umbrellas, and a floating pier on the lake",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "h3": "The rooms at Villa Serbelloni",
+    "paras": [
+     "Very historic and beautifully maintained: frescoed ceilings, chandeliers, damask walls and antique furniture. If you love old Italian grand hotels, this is the real thing. For my taste the decor is a bit too old, which is a big part of why I lean toward Villa d&rsquo;Este. Ask for a lake-view room with a balcony."
+    ],
+    "img": "/images/lake-como/villa-serbelloni/suite.jpg",
+    "alt": "A suite at Villa Serbelloni with a crystal chandelier, frescoed ceiling, marble columns and red velvet furniture",
+    "w": 1600,
+    "h": 1067
    },
    {
     "h3": "For tennis, Villa d&rsquo;Este wins",
