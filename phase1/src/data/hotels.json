@@ -3429,7 +3429,37 @@
   "perks_html": "Rates through me are identical to booking direct &mdash; the perks are not. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit &mdash; plus my direct line to the team on property before and during your stay.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "The Tennis Court Ranking",
-  "cta2_href": "top-hotel-tennis-courts.html"
+  "cta2_href": "top-hotel-tennis-courts.html",
+  "gallery": [
+   {
+    "src": "/images/proposals/lake-como/passalacqua/pool-aerial.jpg",
+    "alt": "Passalacqua’s pool and terraced gardens above Lake Como",
+    "w": 1920,
+    "h": 962,
+    "caption": "The pool in the terraced gardens"
+   },
+   {
+    "src": "/images/proposals/lake-como/passalacqua/garden.jpg",
+    "alt": "Passalacqua’s formal gardens with a fountain, a cypress and the lake beyond",
+    "w": 1920,
+    "h": 1035,
+    "caption": "The formal gardens above the lake"
+   },
+   {
+    "src": "/images/proposals/lake-como/passalacqua/suite.jpg",
+    "alt": "A Passalacqua suite with a gilded headboard and rose damask walls",
+    "w": 1878,
+    "h": 1214,
+    "caption": "Antiques the family collected over time"
+   },
+   {
+    "src": "/images/proposals/lake-como/passalacqua/bath.jpg",
+    "alt": "A Passalacqua bathroom with a gilt mirror, glass sconces and dark marble",
+    "w": 1866,
+    "h": 1208,
+    "caption": "Gilt, glass and dark marble"
+   }
+  ]
  },
  {
   "slug": "villa-d-este-lake-como",
@@ -5192,21 +5222,21 @@
    },
    {
     "src": "/images/lake-como/grand-hotel-tremezzo/clay-court.jpg",
-    "alt": "Grand Hotel Tremezzo&rsquo;s clay tennis court in the gardens",
+    "alt": "Grand Hotel Tremezzo’s clay tennis court in the gardens",
     "w": 898,
     "h": 1196,
     "caption": "The clay court"
    },
    {
     "src": "/images/lake-como/grand-hotel-tremezzo/boat-dock.jpg",
-    "alt": "A wooden boat at Grand Hotel Tremezzo&rsquo;s dock",
+    "alt": "A wooden boat at Grand Hotel Tremezzo’s dock",
     "w": 898,
     "h": 1196,
     "caption": "Arrive by boat"
    },
    {
     "src": "/images/lake-como/grand-hotel-tremezzo/facade-night.jpg",
-    "alt": "Grand Hotel Tremezzo&rsquo;s facade lit up at dusk",
+    "alt": "Grand Hotel Tremezzo’s facade lit up at dusk",
     "w": 898,
     "h": 1196,
     "caption": "The Art Nouveau facade at dusk"
@@ -5295,7 +5325,7 @@
   "gallery": [
    {
     "src": "/images/lake-como/villa-serbelloni/beach.jpg",
-    "alt": "Villa Serbelloni&rsquo;s beach with loungers, umbrellas and a floating pier on the lake",
+    "alt": "Villa Serbelloni’s beach with loungers, umbrellas and a floating pier on the lake",
     "w": 1066,
     "h": 1600,
     "caption": "The beach and floating pier"
