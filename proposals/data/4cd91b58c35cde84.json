@@ -626,11 +626,11 @@
       "dates": "October 4 to 8",
       "strip_label": "Forestis, San Luis or Aman, Alpina",
       "summary": "Forestis two nights, Aman visit on the 6th, the 6th night open, Alpina on the 7th.",
-      "drive": "Como to the Dolomites about 3 hours.",
+      "drive": "Cadenabbia to Forestis about 5 hours 30 by motorway via Milan, Brescia and the Brenner, or 6 hours 15 over the Maloja, St. Moritz, the Ofenpass and Merano. Forestis to Aman Rosa Alpina about 1 hour 15. San Cassiano to Ortisei about 1 hour over Passo Gardena. Ortisei to Alpe di Siusi 30 minutes.",
       "days": [
         {
           "date": "2026-10-04",
-          "label": "October 4: Mandarin Oriental, then Forestis",
+          "label": "October 4: Over the Engadin to the Dolomites",
           "stay": {
             "name": "Forestis, above Bressanone",
             "status": "confirmed",
@@ -645,15 +645,33 @@
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Shoot the hotel, checkout by 11:00",
-              "status": "info"
+              "time": "7:00 AM",
+              "title": "Leave the EDITION, north up the west shore",
+              "status": "info",
+              "detail": "6 hours 15 to Forestis over the passes, 5 hours 30 by motorway if the weather turns."
             },
             {
-              "time": "11:00 AM",
-              "title": "Drive to Forestis",
+              "time": "9:30 AM",
+              "title": "Lake Sils, just past Maloja Pass",
+              "status": "suggested",
+              "detail": "Photos, 20 minutes. Near freezing, jacket in the front seat."
+            },
+            {
+              "time": "10:00 AM",
+              "title": "St. Moritz, coffee at Badrutt's Palace",
+              "status": "pending",
+              "detail": "30 minutes. Thomas Citterio told, draft ready. Then Zernez, Ofenpass, Val Müstair, Merano, Bolzano."
+            },
+            {
+              "time": "2:55 PM",
+              "title": "Collect Matt at Bressanone station",
               "status": "info",
-              "detail": "3 hours 45 from Cadenabbia. Arrive mid-afternoon."
+              "detail": "Or send a Forestis car, 25 minutes."
+            },
+            {
+              "time": "3:30 PM",
+              "title": "Arrive Forestis",
+              "status": "info"
             },
             {
               "time": "Afternoon",
