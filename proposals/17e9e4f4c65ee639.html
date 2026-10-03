@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#161712">
+<title>Honeymoon Proposal · Jessica &amp; Zach</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Jost:wght@300;400&display=swap">
+<style>
+  :root{
+    --plaster:#F2EFE6; --plaster-deep:#E9E5DA; --lime:#FBFAF6; --shadow:#161712;
+    --on-dark:#F2EFE6; --on-dark-muted:#9A9B90; --eyebrow-dark:#BE975A;
+    --ink:#1F201A; --muted:#65665C; --ash:#8C8D82; --brass:#836229; --olive:#4A5040;
+    --hair:rgba(22,23,18,.15); --rule:rgba(22,23,18,.1);
+    --display:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;
+    --body:'Jost','Helvetica Neue',Arial,sans-serif;
+    --pad:40px; --cpad:28px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--plaster);color:var(--ink);font-family:var(--body);font-weight:300;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:var(--brass)}
+  a:hover{color:var(--olive)}
+  p{margin:0}
+  .stamp{font-family:var(--display);font-weight:600;text-transform:uppercase}
+  .num{font-family:var(--display);font-weight:600;font-variant-numeric:lining-nums}
+
+  header{background:var(--shadow);color:var(--on-dark);padding:64px var(--pad) 56px}
+  header .in{max-width:900px;margin:0 auto}
+  header .eb{font-size:.74rem;letter-spacing:.2em;color:var(--eyebrow-dark);margin-bottom:16px}
+  h1{font-family:var(--display);font-weight:500;font-size:3rem;line-height:1.1;margin:0 0 14px}
+  header p{font-size:1.05rem;color:var(--on-dark-muted);line-height:1.6}
+
+  section{max-width:980px;margin:0 auto;padding:56px var(--pad) 0}
+  section.last{padding-bottom:80px}
+  h2{font-family:var(--display);font-weight:500;font-size:1.8rem;line-height:1.2;margin:0 0 6px}
+  .intro{font-size:.94rem;color:var(--muted);line-height:1.6;margin:0 0 18px}
+  .kicker{font-size:.72rem;letter-spacing:.18em;color:var(--brass);margin-bottom:6px}
+  .h3{font-family:var(--display);font-weight:500;font-size:1.35rem;margin-bottom:6px}
+  .sub{font-size:.9rem;color:var(--muted);line-height:1.55;margin:0 0 14px}
+
+  .card{border:1px solid var(--hair);background:var(--lime)}
+  .list{padding:8px var(--cpad)}
+  .list > div{border-bottom:1px solid var(--rule)}
+  .list > div:last-child{border-bottom:0}
+  .lrow{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:14px 0}
+  .lbl{font-size:.72rem;letter-spacing:.08em;color:var(--brass);padding-top:3px}
+  .txt{font-size:.95rem;line-height:1.55}
+  .what{font-weight:400;font-size:1rem}
+  .note{font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:2px}
+
+  .stack{display:flex;flex-direction:column;gap:32px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:20px}
+  .grid.acts{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+  .box{padding:22px 26px}
+  .box .h3{font-size:1.3rem;margin-bottom:12px}
+  .pm{display:grid;grid-template-columns:52px 1fr;gap:10px;border-top:1px solid var(--rule);padding:9px 0}
+  .pm .k{font-size:.66rem;letter-spacing:.1em;padding-top:4px}
+  .pm .k.plus{color:var(--brass)} .pm .k.minus{color:var(--ash)}
+  .pm .t{font-size:.9rem;line-height:1.5}
+
+  .tag{font-family:var(--display);font-weight:600;text-transform:uppercase;font-size:.64rem;letter-spacing:.12em;border:1px solid currentColor;padding:2px 7px;white-space:nowrap;align-self:start}
+  .tag.brass{color:var(--brass)} .tag.ash{color:var(--ash)}
+
+  .stops{display:flex;flex-direction:column;gap:44px}
+  .hotels{display:flex;flex-wrap:wrap;gap:20px}
+  .hotel{flex:1 1 300px;max-width:max(300px,calc(50% - 10px));min-width:0;display:flex;flex-direction:column}
+  .hotel .ph{width:100%;aspect-ratio:3/2;background:var(--plaster-deep);overflow:hidden}
+  .hotel .ph img{width:100%;height:100%;object-fit:cover;display:block}
+  .hotel .bd{padding:22px 26px 24px;display:flex;flex-direction:column;flex:1}
+  .hotel .top{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-bottom:8px}
+  .hotel .nm{font-family:var(--display);font-weight:500;font-size:1.2rem;line-height:1.25}
+  .hotel .nm a{color:var(--ink);text-decoration:none;border-bottom:1px solid rgba(22,23,18,.25)}
+  .hotel .nm a:hover{border-bottom-color:var(--brass)}
+  .hotel .room{font-size:.9rem;color:var(--muted);line-height:1.5;margin-bottom:12px}
+  .hotel .why{font-size:.9rem;line-height:1.55;margin:0 0 14px}
+  .hotel .rate{margin-top:auto;border-top:1px solid var(--rule);padding-top:10px;font-size:.8rem;letter-spacing:.03em;color:var(--brass)}
+
+  .trow{display:grid;grid-template-columns:110px 1fr auto;gap:18px;padding:14px 0}
+
+  .grp{font-size:.72rem;letter-spacing:.18em;color:var(--brass);border-bottom:1px solid var(--hair);padding-bottom:8px;margin-bottom:4px}
+  .act{border-bottom:1px solid var(--rule);padding:10px 0}
+  .act:last-child{border-bottom:0}
+  .act a{font-weight:400;font-size:.95rem;color:var(--ink);text-decoration:none}
+  .act a:hover{color:var(--brass)}
+  .act .est{font-size:.76rem;letter-spacing:.03em;color:var(--brass);margin-top:3px}
+
+  .tot{display:flex;flex-direction:column}
+  .tot .big{font-family:var(--display);font-weight:500;font-size:1.9rem;line-height:1.1;margin-bottom:12px}
+  .li{display:grid;grid-template-columns:1fr auto;gap:12px;border-top:1px solid var(--rule);padding:9px 0}
+  .li .w{font-size:.88rem;line-height:1.45}
+  .li .p{font-size:.8rem;letter-spacing:.03em;color:var(--brass);white-space:nowrap;padding-top:2px}
+  .tot .tn{font-size:.86rem;color:var(--muted);line-height:1.5;margin-top:10px}
+  .foot{font-size:.9rem;color:var(--muted);line-height:1.6;margin-top:16px}
+
+  .q{padding:16px 0}
+  .q .qq{font-weight:400;font-size:1rem;margin-bottom:4px}
+  .q .qa{font-size:.9rem;color:var(--muted);line-height:1.55}
+  .srow{display:grid;grid-template-columns:40px 1fr;gap:14px;padding:14px 0}
+  .srow .n{font-size:.82rem;letter-spacing:.06em;color:var(--brass);padding-top:2px}
+
+  @media (max-width:640px){
+    :root{--pad:20px;--cpad:18px}
+    header{padding:48px var(--pad) 40px}
+    h1{font-size:2.3rem}
+    section{padding-top:44px}
+    section.last{padding-bottom:64px}
+    h2{font-size:1.55rem}
+    .lrow{grid-template-columns:92px 1fr;gap:14px}
+    .trow{grid-template-columns:72px 1fr;gap:14px}
+    .trow .tag{grid-column:2;justify-self:start;margin-top:-4px}
+    .box{padding:20px 18px}
+    .hotel{max-width:none;flex-basis:100%}
+    .hotel .bd{padding:20px 18px 22px}
+  }
+</style>
+</head>
+<body>
+
+<header><div class="in">
+<div class="eb stamp">Suites With Keith · Honeymoon Proposal</div>
+<h1>Jessica &amp; Zach, the <em>islands</em></h1>
+<p>6 nights, June 14–20, 2027 · one island (4) + Santorini (2), Folegandros (4) + Santorini (2), or Crete (6) · Rome and Athens to follow.</p>
+</div></header>
+<main>
+<section><h2>How I&rsquo;m thinking about it</h2>
+<p class="intro">Rome and Athens for the history, then six slow nights by the sea. Here are three ways to spend them, and where I&rsquo;d put the money in each.</p>
+<div class="card list">
+<div class="lrow"><div class="lbl stamp">Six nights</div><div class="txt">Six nights covers one island properly plus a short Santorini finale, or one big island done slowly. Three islands in six nights would mean packing every other morning, so I&rsquo;ve left that out.</div></div>
+<div class="lrow"><div class="lbl stamp">Santorini</div><div class="txt">Two nights is the right dose. You get one sunset from your own terrace and one out on the water. It&rsquo;s also where a splurge costs least overall, because you&rsquo;re only paying for two nights.</div></div>
+<div class="lrow"><div class="lbl stamp">Crete</div><div class="txt">Crete is huge, so splitting three or four nights there with Santorini means a lot of time in the car. Give it all six nights and it becomes one of the best options here: one hotel, no ferries, a 50-minute flight from Athens on your miles.</div></div>
+<div class="lrow"><div class="lbl stamp">June</div><div class="txt">Mid-June is peak season. The water is warm and the days are long, but the best rooms go early, so the sooner we choose, the better the options.</div></div>
+</div></section>
+<section><h2>Three ways to spend <em>six</em> nights</h2>
+<p class="intro" style="margin-bottom:24px">Each one picks up the morning you leave Athens and ends with your flight home on June 20.</p><div class="stack">
+<div><div class="kicker stamp">Route A · 4 + 2</div><div class="h3">Sifnos, Milos or Paros, then Santorini</div><p class="sub">The classic shape: a quieter island first, then the caldera to finish. Choose the first island by mood. Sifnos for food and walking, Milos for beaches and a boat day, Paros for villages and a bit more going on.</p><div class="card list">
+<div class="lrow"><div class="lbl stamp">Jun 14–18</div><div><div class="what">Sifnos, Milos or Paros · 4 nights</div><div class="note">Ferry from Piraeus (Milos and Paros also have short flights). Car for all four days.</div></div></div>
+<div class="lrow"><div class="lbl stamp">Jun 18–20</div><div><div class="what">Santorini · 2 nights</div><div class="note">Ferry south, one to two hours depending on the island. Driver from the port; no car needed.</div></div></div>
+<div class="lrow"><div class="lbl stamp">Jun 20</div><div><div class="what">Fly home</div><div class="note">Santorini → Athens → home, or a European connection straight out of Santorini.</div></div></div>
+</div></div>
+<div><div class="kicker stamp">Route B · 4 + 2</div><div class="h3">Folegandros, then Santorini</div><p class="sub">The most romantic version. Folegandros is quiet and dramatic, with one of the prettiest villages in the Cyclades, and Gundari is a honeymoon hotel in the true sense. It&rsquo;s also the shortest hop to Santorini of any island here.</p><div class="card list">
+<div class="lrow"><div class="lbl stamp">Jun 14–18</div><div><div class="what">Folegandros · Gundari, 4 nights</div><div class="note">Ferry from Piraeus. There&rsquo;s no airport, which is part of why it stays this quiet.</div></div></div>
+<div class="lrow"><div class="lbl stamp">Jun 18–20</div><div><div class="what">Santorini · 2 nights</div><div class="note">About an hour by ferry.</div></div></div>
+<div class="lrow"><div class="lbl stamp">Jun 20</div><div><div class="what">Fly home</div><div class="note">Via Athens or a European connection.</div></div></div>
+</div></div>
+<div><div class="kicker stamp">Route C · 6 nights</div><div class="h3">Crete, all six nights</div><p class="sub">Your original idea, with more time to do it justice. One beach hotel on the northeast coast, a car for the days you want to explore, and no packing until you fly home.</p><div class="card list">
+<div class="lrow"><div class="lbl stamp">Jun 14–20</div><div><div class="what">Crete · 6 nights</div><div class="note">Fly Athens → Heraklion on your miles (50 minutes). The hotels below are 30–60 minutes from the airport.</div></div></div>
+<div class="lrow"><div class="lbl stamp">Jun 20</div><div><div class="what">Fly home</div><div class="note">Heraklion → Athens → home, or direct to a European hub.</div></div></div>
+</div></div>
+</div><div class="grid" style="margin-top:28px">
+<div class="card box"><div class="kicker stamp">Route A</div><div class="h3">One island + Santorini</div>
+<div class="pm"><span class="k stamp plus">Plus</span><span class="t">Two very different islands, with the most hotels to choose from.</span></div>
+<div class="pm"><span class="k stamp plus">Plus</span><span class="t">Sifnos is the best-value island here, which frees up money for Santorini.</span></div>
+<div class="pm"><span class="k stamp minus">Minus</span><span class="t">One ferry day in the middle of the stay.</span></div>
+</div>
+<div class="card box"><div class="kicker stamp">Route B</div><div class="h3">Folegandros + Santorini</div>
+<div class="pm"><span class="k stamp plus">Plus</span><span class="t">The most honeymoon-shaped of the three, and the shortest transfer.</span></div>
+<div class="pm"><span class="k stamp plus">Plus</span><span class="t">Gundari&rsquo;s private-pool villas are the most special stay in this document.</span></div>
+<div class="pm"><span class="k stamp minus">Minus</span><span class="t">The priciest route, and very quiet in the evenings.</span></div>
+</div>
+<div class="card box"><div class="kicker stamp">Route C</div><div class="h3">Crete</div>
+<div class="pm"><span class="k stamp plus">Plus</span><span class="t">No ferries, one hotel, and the best value per night for a true five-star.</span></div>
+<div class="pm"><span class="k stamp plus">Plus</span><span class="t">Knossos, gorges, wine country and long beaches. Six nights won&rsquo;t exhaust it.</span></div>
+<div class="pm"><span class="k stamp minus">Minus</span><span class="t">No caldera, and you&rsquo;ll drive to see the best of it.</span></div>
+</div>
+</div></section>
+<section><h2>The stays I&rsquo;d book</h2>
+<p class="intro" style="margin-bottom:28px">I know every one of these properties personally, and they look after my clients. Rates shown are rough mid-June starting prices for two with breakfast included. Once you shortlist, I&rsquo;ll quote exact rates with Fora perks.</p><div class="stops">
+<div><div class="kicker stamp">Route A · Sifnos · 4 nights</div><div class="h3">Sifnos</div><p class="sub">The food island of Greece, with village dinners, marked trails and very little nightlife.</p><div class="hotels">
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/verina.webp" alt="Verina Astra" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Verina%20Astra%20Sifnos" target="_blank" rel="noopener">Verina Astra</a></div><div class="tag brass">My pick</div></div><div class="room">Suite with private pool · Poulati, on the cliff above Kastro</div><p class="why">The most romantic stay on Sifnos: sixteen rooms and suites on a cliff over the Aegean, with Kastro on foot and Bostani, the hotel&rsquo;s farm-to-table restaurant, for your dress-up dinner.</p><div class="rate num">From ~$650/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/nos.webp" alt="Nos, Sifnos" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=NOS%20Hotel%20Sifnos" target="_blank" rel="noopener">Nos, Sifnos</a></div><div class="tag ash">Boutique</div></div><div class="room">Faros Superior · above the fishing village of Faros</div><p class="why">Small, polished and east-facing for sunrise coffee, a short walk from Faros tavernas.</p><div class="rate num">From ~$500/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/stamna.webp" alt="Stamna, Sifnos" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Stamna%20Hotel%20Sifnos" target="_blank" rel="noopener">Stamna, Sifnos</a></div><div class="tag ash">Best value</div></div><div class="room">Suite with private pool</div><p class="why">The best base for cooking classes, village dinners and trails, and the best value on this list.</p><div class="rate num">From ~$450/night</div></div></div>
+</div></div>
+<div><div class="kicker stamp">Route A · Milos · 4 nights</div><div class="h3">Milos</div><p class="sub">The best beaches in the Cyclades, and so much of the coast is only reachable by sea that a boat day is essential.</p><div class="hotels">
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/erema.webp" alt="Erēma, Milos" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Erema%20Milos" target="_blank" rel="noopener">Erēma, Milos</a></div><div class="tag brass">My pick</div></div><div class="room">Suite with private pool · above Pollonia</div><p class="why">The most comfortable base for Kleftiko, Sarakiniko and Papafragas. It&rsquo;s new, calm and a walk from Pollonia&rsquo;s waterfront.</p><div class="rate num">From ~$850/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/skinopi.webp" alt="Skinopi Lodge" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Skinopi%20Lodge%20Milos" target="_blank" rel="noopener">Skinopi Lodge</a></div><div class="tag ash">Most private</div></div><div class="room">Cycladic house · cliffside above the sea</div><p class="why">Just a handful of stone houses on a quiet stretch of coast, with complete privacy and the most character on the island.</p><div class="rate num">From ~$900/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/onero.webp" alt="Onero, Milos" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Onero%20Milos" target="_blank" rel="noopener">Onero, Milos</a></div><div class="tag ash">Newest</div></div><div class="room">Sea-view suite with private pool · Parasporos</div><p class="why">Brand new, with every suite facing the water, ten minutes from Adamas.</p><div class="rate num">From ~$750/night</div></div></div>
+</div></div>
+<div><div class="kicker stamp">Route A · Paros or Antiparos · 4 nights</div><div class="h3">Paros &amp; Antiparos</div><p class="sub">A bit more energy, with lovely villages, great food and easy beach days.</p><div class="hotels">
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/parilio.webp" alt="Parilio, Paros" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Parilio%20Hotel%20Paros" target="_blank" rel="noopener">Parilio, Paros</a></div><div class="tag brass">My pick</div></div><div class="room">Sun Suite (private pool)</div><p class="why">The design one: a sculptural pool, inland calm, and Naoussa ten minutes away for dinner.</p><div class="rate num">From ~$700/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/cosme.webp" alt="Cosme, Paros" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Cosme%20Paros" target="_blank" rel="noopener">Cosme, Paros</a></div><div class="tag ash">Beachfront</div></div><div class="room">Room with private pool · beachfront</div><p class="why">A beach club out front and Naoussa on foot, so you won&rsquo;t need a car.</p><div class="rate num">From ~$700/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/vione.webp" alt="Vione, Paros" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Vione%20Paros" target="_blank" rel="noopener">Vione, Paros</a></div><div class="tag ash">Sunsets</div></div><div class="room">Room with private pool · sea view</div><p class="why">Newer and quieter, with the best sunset of the Paros options.</p><div class="rate num">From ~$600/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/rooster.webp" alt="The Rooster, Antiparos" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=The%20Rooster%20Antiparos" target="_blank" rel="noopener">The Rooster, Antiparos</a></div><div class="tag ash">Splurge</div></div><div class="room">Villa with private pool · above Livadia beach</div><p class="why">The most private stay of all, with a farm-to-table kitchen and a tiny island around you.</p><div class="rate num">From ~$1,400/night</div></div></div>
+</div></div>
+<div><div class="kicker stamp">Route B · Folegandros · 4 nights</div><div class="h3">Folegandros</div><p class="sub">Quiet, dramatic and romantic. Explore by day, slow down in the evening.</p><div class="hotels">
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/gundari.webp" alt="Gundari, Folegandros" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Gundari%20Folegandros" target="_blank" rel="noopener">Gundari, Folegandros</a></div><div class="tag brass">My pick</div></div><div class="room">Suite with private pool · cliff-edge</div><p class="why">A really special honeymoon stay, with the most dramatic setting of any hotel here, very few other guests and a kitchen worth the trip on its own. Chora is a short drive away for dinner in the square.</p><div class="rate num">From ~$950/night</div></div></div>
+</div></div>
+<div><div class="kicker stamp">Routes A &amp; B · Santorini · 2 nights · Jun 18–20</div><div class="h3">Santorini</div><p class="sub">Two nights, so this is the place to go big. All four are in Oia or just outside it, with the caldera in front of you.</p><div class="hotels">
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/canavesoia.webp" alt="Canaves Oia Suites" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Canaves%20Oia%20Suites%20Santorini" target="_blank" rel="noopener">Canaves Oia Suites</a></div><div class="tag brass">My pick</div></div><div class="room">Suite with private plunge pool · caldera view</div><p class="why">Classic Oia, carved into the cliff with impeccable service. It&rsquo;s the one I send honeymooners to most.</p><div class="rate num">From ~$1,300/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/ena.webp" alt="Canaves Ena" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Canaves%20Ena%20Oia%20Santorini" target="_blank" rel="noopener">Canaves Ena</a></div><div class="tag ash">Quietest</div></div><div class="room">Suite with plunge pool · caldera-facing</div><p class="why">At the entrance to Oia&rsquo;s pedestrian lane rather than in the middle of it, so it&rsquo;s noticeably quieter. Small, with the same Canaves care.</p><div class="rate num">From ~$1,100/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/andronisB.webp" alt="Andronis Boutique Hotel" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Andronis%20Boutique%20Hotel%20Oia" target="_blank" rel="noopener">Andronis Boutique Hotel</a></div><div class="tag ash">Sunsets</div></div><div class="room">Suite with outdoor hot tub · caldera view</div><p class="why">Small and right on the cliff edge in Oia, with sunset straight off your terrace and the town on foot.</p><div class="rate num">From ~$1,000/night</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/andronis.webp" alt="Andronis Luxury Suites" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Andronis%20Luxury%20Suites%20Oia" target="_blank" rel="noopener">Andronis Luxury Suites</a></div><div class="tag ash">Private pools</div></div><div class="room">Suite with private pool · caldera view</div><p class="why">The bigger sister: more space, private pools, and a strong restaurant for the night you don&rsquo;t want to go anywhere.</p><div class="rate num">From ~$1,200/night</div></div></div>
+</div></div>
+<div><div class="kicker stamp">Route C · Crete · 6 nights · Jun 14–20</div><div class="h3">Crete</div><p class="sub">All four are on the northeast coast, 30–60 minutes from Heraklion airport and close to Elounda and Agios Nikolaos for dinners. Prices come from my booking platform for your dates.</p><div class="hotels">
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/acro.webp" alt="Acro Wellness Suites" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Acro%20Wellness%20Suites%20Agia%20Pelagia%20Crete" target="_blank" rel="noopener">Acro Wellness Suites</a></div><div class="tag brass">Splurge</div></div><div class="room">Suite with private pool · Agia Pelagia · adults only</div><p class="why">Rooms carved into the rock above the sea, with a Michelin Key and adults only. It&rsquo;s the most dramatic and the closest to the airport.</p><div class="rate num">From $748/night · ~$5,200 for 6</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/daios.webp" alt="Daios Cove" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Daios%20Cove%20Crete" target="_blank" rel="noopener">Daios Cove</a></div><div class="tag brass">Fora Reserve</div></div><div class="room">Sea-view suite with private pool · Vathi</div><p class="why">A private cove of its own, with terraced suites dropping to a sheltered beach. Fora Reserve perks apply.</p><div class="rate num">From $578/night · ~$4,000 for 6</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/minos.webp" alt="Minos Beach Art Hotel" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Minos%20Beach%20Art%20Hotel%20Agios%20Nikolaos" target="_blank" rel="noopener">Minos Beach Art Hotel</a></div><div class="tag ash">Fora Reserve</div></div><div class="room">Seafront bungalow · Agios Nikolaos</div><p class="why">Design Hotels member, with art in the gardens and bungalows right on the water. You can walk into Agios Nikolaos for dinner. Fora Reserve.</p><div class="rate num">From $609/night · ~$4,250 for 6</div></div></div>
+<div class="card hotel"><div class="ph"><img src="images/jessica-zach/phaea.webp" alt="Phāea Blue" loading="lazy" decoding="async"></div><div class="bd"><div class="top"><div class="nm"><a href="https://www.google.com/maps/search/?api=1&amp;query=Phaea%20Blue%20Elounda%20Crete" target="_blank" rel="noopener">Phāea Blue</a></div><div class="tag ash">Best value</div></div><div class="room">Beachfront room · Schisma Elountas</div><p class="why">Elounda&rsquo;s beachfront at the best price, with an easy walk to the village. Fora Reserve, so you&rsquo;d get the same perks for less.</p><div class="rate num">From $492/night · ~$3,350 for 6</div></div></div>
+</div></div>
+</div></section>
+<section><h2>Getting around</h2>
+<p class="intro">Fly on your miles where there&rsquo;s an airport, take the ferry everywhere else. I&rsquo;ll book the ferries early, in the good seats, and have a car or driver waiting at every port.</p><div class="card list">
+<div class="trow"><div class="lbl stamp">Jun 14</div><div><div class="what">Athens → your first island</div><div class="note">Ferry from Piraeus to Sifnos (about 3 hours), Milos (3–4), Paros (3) or Folegandros (4–5). For Paros and Milos you can also fly in about 40 minutes on your miles.</div></div><div class="tag ash">Proposed</div></div>
+<div class="trow"><div class="lbl stamp">Jun 14</div><div><div class="what">Athens → Heraklion (Route C)</div><div class="note">A 50-minute flight with several departures a day. Your rental car or driver meets you on arrival.</div></div><div class="tag ash">Proposed</div></div>
+<div class="trow"><div class="lbl stamp">Jun 18</div><div><div class="what">Island → Santorini (Routes A &amp; B)</div><div class="note">Folegandros is about an hour away, Sifnos and Paros around two, Milos two to three. June schedules are published in early spring, and I&rsquo;ll book as soon as they&rsquo;re out.</div></div><div class="tag ash">Time TBC</div></div>
+<div class="trow"><div class="lbl stamp">Jun 20</div><div><div class="what">Santorini or Crete → home</div></div><div class="tag ash">Proposed</div></div>
+</div></section>
+<section><h2>Activities to pick from</h2>
+<p class="intro">Choose one or two per island and I&rsquo;ll hold them. Leave the rest of each day open.</p><div class="grid acts">
+<div class="card box"><div class="grp stamp">Sifnos</div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Clay-pot%20cooking%20class%20in%20Artemonas%20Sifnos" target="_blank" rel="noopener">Clay-pot cooking class in Artemonas</a><div class="est num">$120–180 pp</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Kastro%20%E2%86%92%20Chrysopigi%20coastal%20walk%20Sifnos" target="_blank" rel="noopener">Kastro → Chrysopigi coastal walk</a><div class="est num">Free · guided $80 pp</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Pottery%20afternoon%20in%20Vathi%20Sifnos" target="_blank" rel="noopener">Pottery afternoon in Vathi</a><div class="est num">$60–90 pp</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Dinner%20at%20Cantina%20Sifnos" target="_blank" rel="noopener">Dinner at Cantina, Seralia</a><div class="est num">~$150 for two</div></div>
+</div>
+<div class="card box"><div class="grp stamp">Milos</div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Private%20boat%20day%3A%20Kleftiko%20Milos" target="_blank" rel="noopener">Private boat day: Kleftiko, Sykia, Poliegos</a><div class="est num">From $1,250 for two</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Sarakiniko%20at%20sunrise%20Milos" target="_blank" rel="noopener">Sarakiniko at sunrise</a><div class="est num">Free</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Lunch%20at%20Medusa%20Milos" target="_blank" rel="noopener">Lunch at Medusa, Mandrakia</a><div class="est num">~$120 for two</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Sunset%20sail%20out%20of%20Adamas%20Milos" target="_blank" rel="noopener">Sunset sail out of Adamas</a><div class="est num">$110 pp · private $900</div></div>
+</div>
+<div class="card box"><div class="grp stamp">Paros &amp; Antiparos</div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Private%20boat%20day%3A%20Despotiko%20and%20Antiparos%20Paros" target="_blank" rel="noopener">Private boat day: Despotiko and Antiparos</a><div class="est num">From $1,250 for two</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Lefkes%20%E2%86%92%20Prodromos%20Byzantine%20path%20Paros" target="_blank" rel="noopener">Lefkes → Prodromos Byzantine path</a><div class="est num">Free</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Cooking%20class%20in%20Lefkes%20Paros" target="_blank" rel="noopener">Cooking class in Lefkes</a><div class="est num">$130–170 pp</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Naoussa%20old%20port%20after%20dark%20Paros" target="_blank" rel="noopener">Naoussa old port after dark</a><div class="est num">Dinner ~$180 for two</div></div>
+</div>
+<div class="card box"><div class="grp stamp">Folegandros</div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Round-the-island%20boat%20with%20swim%20stops%20Folegandros" target="_blank" rel="noopener">Round-the-island boat with swim stops</a><div class="est num">$90 pp · private $800–1,100</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Walk%20up%20to%20Panagia%20at%20sunset%20Folegandros" target="_blank" rel="noopener">Walk up to Panagia at sunset</a><div class="est num">Free</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Katergo%20beach%20by%20water%20taxi%20Folegandros" target="_blank" rel="noopener">Katergo beach by water taxi</a><div class="est num">~$20 pp</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Dinner%20in%20Chora%27s%20squares%20Folegandros" target="_blank" rel="noopener">Dinner in Chora&rsquo;s squares</a><div class="est num">~$130 for two</div></div>
+</div>
+<div class="card box"><div class="grp stamp">Santorini</div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Private%20boat%20day%20around%20the%20caldera%20Santorini" target="_blank" rel="noopener">Private boat day around the caldera</a><div class="est num">From $1,250 for two</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Sunset%20catamaran%20with%20dinner%20aboard%20Santorini" target="_blank" rel="noopener">Sunset catamaran with dinner aboard</a><div class="est num">$200 pp shared</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Assyrtiko%20tasting%20at%20Venetsanos%20Santorini" target="_blank" rel="noopener">Assyrtiko tasting at Venetsanos</a><div class="est num">$60–100 pp</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Fira%20%E2%86%92%20Oia%20caldera%20walk%20Santorini" target="_blank" rel="noopener">Fira → Oia caldera walk, early</a><div class="est num">Free</div></div>
+</div>
+<div class="card box"><div class="grp stamp">Crete</div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Knossos%20and%20Heraklion%20museum%20Crete" target="_blank" rel="noopener">Knossos and Heraklion museum, private guide</a><div class="est num">$350–450 for two</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Private%20boat%20day%3A%20Spinalonga%20and%20the%20Elounda%20coast%20Crete" target="_blank" rel="noopener">Private boat day: Spinalonga and the Elounda coast</a><div class="est num">From $1,250 for two</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Wine%20country%20lunch%20near%20Archanes%20Crete" target="_blank" rel="noopener">Wine country lunch near Archanes</a><div class="est num">$90–140 pp</div></div>
+<div class="act"><a href="https://www.google.com/maps/search/?api=1&amp;query=Richtis%20Gorge%20walk%20to%20the%20sea%20Crete" target="_blank" rel="noopener">Richtis Gorge walk to the sea</a><div class="est num">Free · guided $90 pp</div></div>
+</div>
+</div></section>
+<section><h2>Where to splurge, where to <em>save</em></h2>
+<p class="intro">Your $15,000 covers both weeks, and your miles bring flights down to about $700, which leaves roughly $14,300 on the ground. If Rome and Athens stay sensible at around $4,500 for seven nights, the islands get about $9,500. That goes a long way over six nights.</p><div class="grid">
+<div class="card box tot"><div class="kicker stamp">Route A · Sifnos + Santorini</div><div class="big">~$7,500</div>
+<div class="li"><span class="w">Sifnos, Verina Astra · 4 nights</span><span class="p num">$2,600</span></div>
+<div class="li"><span class="w">Santorini, Canaves Oia Suites · 2 nights</span><span class="p num">$2,600</span></div>
+<div class="li"><span class="w">Ferries, both legs</span><span class="p num">$350</span></div>
+<div class="li"><span class="w">Car on Sifnos, 4 days</span><span class="p num">$400</span></div>
+<div class="li"><span class="w">Transfers and Santorini driver</span><span class="p num">$250</span></div>
+<div class="li"><span class="w">Dinners, boat day, a class</span><span class="p num">$1,300</span></div>
+<p class="tn">With Milos instead of Sifnos it&rsquo;s about $8,500. With Paros, about $7,900.</p></div>
+<div class="card box tot"><div class="kicker stamp">Route B · Folegandros + Santorini</div><div class="big">~$8,900</div>
+<div class="li"><span class="w">Folegandros, Gundari · 4 nights</span><span class="p num">$3,800</span></div>
+<div class="li"><span class="w">Santorini, Canaves Oia Suites · 2 nights</span><span class="p num">$2,600</span></div>
+<div class="li"><span class="w">Ferries, both legs</span><span class="p num">$300</span></div>
+<div class="li"><span class="w">Car or ATV, 4 days</span><span class="p num">$350</span></div>
+<div class="li"><span class="w">Transfers and Santorini driver</span><span class="p num">$250</span></div>
+<div class="li"><span class="w">Dinners, boat day, a tasting</span><span class="p num">$1,600</span></div>
+<p class="tn">The splurge route, and still under $9,500. Choosing Ena instead of Oia Suites saves about $400.</p></div>
+<div class="card box tot"><div class="kicker stamp">Route C · Crete</div><div class="big">~$7,500</div>
+<div class="li"><span class="w">Daios Cove · 6 nights</span><span class="p num">$4,000</span></div>
+<div class="li"><span class="w">Flight Athens → Heraklion</span><span class="p num">Miles</span></div>
+<div class="li"><span class="w">Car, 6 days</span><span class="p num">$550</span></div>
+<div class="li"><span class="w">Airport transfers</span><span class="p num">$150</span></div>
+<div class="li"><span class="w">Dinners out</span><span class="p num">$900</span></div>
+<div class="li"><span class="w">Private boat day, Knossos guide, wine lunch</span><span class="p num">$1,900</span></div>
+<p class="tn">At Acro it&rsquo;s about $8,700; at Phāea Blue, about $6,850. This is the route that leaves room for Rome and Athens.</p></div>
+</div><div class="card list" style="margin-top:24px">
+<div class="lrow"><div class="lbl stamp">Splurge</div><div class="txt">On Santorini. Two nights in a plunge-pool suite at Canaves costs less overall than four nights anywhere else here, and it&rsquo;s where the view is the whole point.</div></div>
+<div class="lrow"><div class="lbl stamp">Splurge</div><div class="txt">On one private boat day. On Milos, Folegandros or Santorini, it&rsquo;s the day you&rsquo;ll remember most.</div></div>
+<div class="lrow"><div class="lbl stamp">Save</div><div class="txt">On the first island. Sifnos at Stamna or Nos gives you the same Greece for about half the price of Milos.</div></div>
+<div class="lrow"><div class="lbl stamp">Save</div><div class="txt">On Athens and Rome, as you planned. You&rsquo;ll be out all day there, so the room matters less than the location.</div></div>
+</div>
+<p class="foot">All figures are for the two of you and cover everything on the ground for the six island nights. They&rsquo;re honest ranges from bookings I&rsquo;ve done, not quotes.</p></section>
+<section><h2 style="margin-bottom:18px">The questions you&rsquo;ll have</h2><div class="card list">
+<div class="q"><div class="qq">Why not Crete and Santorini together?</div><div class="qa">It works, and the ferry is only about two hours. But with three or four nights on Crete, you&rsquo;d spend much of that time in the car. If Crete is the draw, give it all six nights. If Santorini is, pair it with a smaller island.</div></div>
+<div class="q"><div class="qq">Is two nights enough in Santorini?</div><div class="qa">For a finale, yes. You arrive by early afternoon, have a full day and two sunsets, and leave before the crowds wear on you. Most people who stay longer spend the extra days at the pool.</div></div>
+<div class="q"><div class="qq">Which island would you choose?</div><div class="qa">For a honeymoon, Folegandros with Gundari. If the budget matters more, Sifnos at Verina Astra, then Canaves to finish.</div></div>
+<div class="q"><div class="qq">What about Rome and Athens?</div><div class="qa">They&rsquo;re next. Once you&rsquo;ve picked an island route, I&rsquo;ll send a short list of well-located, sensibly priced hotels in both cities so the whole trip flows.</div></div>
+</div></section>
+<section class="last"><h2 style="margin-bottom:18px">Next steps</h2><div class="card list">
+<div class="srow"><div class="n num">01</div><div class="txt"><span style="font-weight:400">Pick a route.</span> <span style="color:var(--muted)">A, B or C. If you&rsquo;re torn between two, tell me and I&rsquo;ll price both side by side.</span></div></div>
+<div class="srow"><div class="n num">02</div><div class="txt"><span style="font-weight:400">Shortlist two hotels per stop.</span> <span style="color:var(--muted)">I&rsquo;ll quote exact June rates with Fora perks, which usually means breakfast, a credit and an upgrade where available.</span></div></div>
+<div class="srow"><div class="n num">03</div><div class="txt"><span style="font-weight:400">Lock it in early.</span> <span style="color:var(--muted)">Mid-June is peak season. I&rsquo;ll hold rooms as soon as you&rsquo;ve decided and book the ferries when the 2027 schedules open.</span></div></div>
+<div class="srow"><div class="n num">04</div><div class="txt"><span style="font-weight:400">Then Rome and Athens.</span> <span style="color:var(--muted)">Send me your dates for each city and I&rsquo;ll put together hotel ideas for both.</span></div></div>
+</div></section>
+</main>
+</body>
+</html>
