@@ -3358,7 +3358,11 @@
     "h3": "Location is the real decision",
     "paras": [
      "Tremezzo is in the central section of the lake, facing Bellagio, so Varenna and Villa del Balbianello are short hops by boat. Cernobbio is at the southern tip, ten minutes from the town of Como and about an hour from Milan, but further from the mid-lake villages."
-    ]
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/facade-night.jpg",
+    "alt": "Grand Hotel Tremezzo&rsquo;s Art Nouveau facade lit up at dusk",
+    "w": 898,
+    "h": 1196
    },
    {
     "h3": "Arriving at Grand Hotel Tremezzo",
@@ -3383,6 +3387,27 @@
     ],
     "img": "/images/lake-como/grand-hotel-tremezzo/garden-pool.jpg",
     "alt": "The garden pool at Grand Hotel Tremezzo, with fringed orange and white umbrellas and the mountains behind",
+    "w": 898,
+    "h": 1196
+   },
+   {
+    "h3": "The room to book at Grand Hotel Tremezzo",
+    "paras": [
+     "Garden-view rooms look out on pretty gardens and cost less. The real stars are the junior suites and above with lake views and balconies: spacious, beautifully restored, with gorgeous bathrooms, and you feel like you&rsquo;re sitting right on top of the lake. The hotel recently reworked its rooms to add more suites and junior suites, which was a smart move."
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/lake-view-suite.jpg",
+    "alt": "A lake-view suite at Grand Hotel Tremezzo opening onto a balustraded terrace above Lake Como",
+    "w": 898,
+    "h": 674
+   },
+   {
+    "h3": "For tennis: eight courts, or one beautiful one",
+    "paras": [
+     "Villa d&rsquo;Este has eight clay courts, which makes it the best hotel on the lake for a tennis trip with friends, especially paired with one of the estate&rsquo;s private villas.",
+     "Grand Hotel Tremezzo has a single, beautiful clay court tucked into its gardens. It&rsquo;s perfect for a game or two between swims."
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/clay-court.jpg",
+    "alt": "Grand Hotel Tremezzo&rsquo;s clay tennis court in the gardens above Lake Como",
     "w": 898,
     "h": 1196
    }
@@ -3539,13 +3564,21 @@
     "h3": "Why the same family runs both",
     "paras": [
      "The De Santis family runs Grand Hotel Tremezzo and opened Passalacqua in 2022. You&rsquo;ll recognize the style in the rooms, but Passalacqua was built as the opposite of a grand hotel: small, private and run like a home."
-    ]
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/facade-night.jpg",
+    "alt": "Grand Hotel Tremezzo&rsquo;s Art Nouveau facade lit up at dusk",
+    "w": 898,
+    "h": 1196
    },
    {
     "h3": "Which has the better lake view?",
     "paras": [
      "Grand Hotel Tremezzo, if you book a junior suite or above. Those rooms have balconies and feel like they sit on top of the lake. Passalacqua is a terraced garden property: it has some lakeside rooms, but most rooms, even in the Palazzo, see the lake in the distance. For the truest lakefront stay on Como, look at Il Sereno."
-    ]
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/lake-view-suite.jpg",
+    "alt": "A lake-view suite at Grand Hotel Tremezzo opening onto a balustraded terrace above Lake Como",
+    "w": 898,
+    "h": 674
    },
    {
     "h3": "Crowds and privacy",
