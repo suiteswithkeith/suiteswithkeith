@@ -3443,6 +3443,10 @@
   "placeholder": "July 2027 · family of four · 5 nights",
   "related": [
    {
+    "href": "/hotels/grand-hotel-tremezzo-lake-como.html",
+    "label": "Grand Hotel Tremezzo review"
+   },
+   {
     "href": "/hotels/villa-d-este-lake-como.html",
     "label": "Villa d&rsquo;Este review"
    },
@@ -3627,6 +3631,10 @@
   "hotel": "Grand Hotel Tremezzo / Passalacqua",
   "placeholder": "September 2027 · anniversary · 4 nights",
   "related": [
+   {
+    "href": "/hotels/grand-hotel-tremezzo-lake-como.html",
+    "label": "Grand Hotel Tremezzo review"
+   },
    {
     "href": "/hotels/passalacqua-lake-como.html",
     "label": "Passalacqua review"
@@ -3822,6 +3830,10 @@
    {
     "href": "/hotels/villa-d-este-lake-como.html",
     "label": "Villa d&rsquo;Este review"
+   },
+   {
+    "href": "/hotels/villa-serbelloni-bellagio.html",
+    "label": "Villa Serbelloni review"
    },
    {
     "href": "/grand-hotel-tremezzo-vs-villa-d-este.html",
