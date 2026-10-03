@@ -579,43 +579,41 @@
         },
         {
           "date": "2026-10-03",
-          "label": "October 3: Mandarin Oriental or the EDITION",
+          "label": "October 3: The EDITION",
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
-            "status": "pending",
-            "detail": "400 euros plus breakfast. Via Regina 41. Juliana Rodriguez, Reservations, +39 034 449 0790. CRS 82933248. Payment link received, confirmation letter follows payment. Cancellable to September 26.",
-            "todo": "Hold the EDITION payment until Anna or Tom at Mandarin Oriental answers.",
-            "options": [
-              {
-                "name": "Mandarin Oriental Lago di Como, Blevio",
-                "status": "pending",
-                "detail": "Hosting asked for the 3rd via Sofia Tsioni's intro to Anna Fejzo. Draft ready. If yes, cancel the EDITION and drop the visit on the 4th."
-              }
-            ]
+            "status": "confirmed",
+            "detail": "Confirmed for the 3rd, Erica Dileo. CRS 82933248, special rate, card on file. India Chevalier for the site inspection. Via Regina 41."
           },
           "items": [
             {
               "time": "Morning",
-              "title": "Villa Serbelloni: shoot, breakfast, checkout by noon",
+              "title": "Villa Serbelloni: shoot, tennis if the concierge found a pro, checkout by noon",
               "status": "info"
             },
             {
               "time": "12:15 PM",
               "title": "Car ferry Bellagio to Cadenabbia",
               "status": "info",
-              "detail": "10 minutes, sails about every 30. The EDITION is a 5 minute drive from the landing."
+              "detail": "10 minutes, about every half hour. Five minutes to the EDITION."
             },
             {
-              "time": "12:45 PM",
-              "title": "The EDITION: check in, or site visit and lunch if Mandarin Oriental hosts",
-              "status": "pending",
-              "detail": "Ask Juliana for a tour if it becomes a visit."
+              "time": "1:00 PM",
+              "title": "EDITION: check in, site inspection with India",
+              "status": "confirmed",
+              "detail": "Time to set with India."
             },
             {
               "time": "3:00 PM",
-              "title": "If Mandarin Oriental: drive Cadenabbia to Blevio",
+              "title": "Barber, Idee Per La Testa, one minute from the hotel",
               "status": "pending",
-              "detail": "About 1 hour 15 down the west shore through Como. Check in by 4:30."
+              "detail": "Asked the concierge to book, draft ready."
+            },
+            {
+              "time": "Late afternoon",
+              "title": "Boat arrival shoot on the hotel launch",
+              "status": "pending",
+              "detail": "Concierge quoted 220 for 30 minutes. Asked for 15 minutes as marketing, draft ready."
             }
           ]
         }
@@ -655,7 +653,7 @@
               "time": "11:00 AM",
               "title": "Drive to Forestis",
               "status": "info",
-              "detail": "3 hours 15 from Blevio, 3 hours 45 from the EDITION. Arrive mid-afternoon."
+              "detail": "3 hours 45 from Cadenabbia. Arrive mid-afternoon."
             },
             {
               "time": "Afternoon",
@@ -1031,6 +1029,8 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
+        "EDITION: boat for the arrival shoot as marketing, not a 220 excursion (draft ready)",
+        "EDITION: Edwin, barber at Idee Per La Testa at 3:00 today (draft ready, send now)",
         "Monteverdi: Lucia, cancel the hosted night on the 9th with thanks (draft ready)",
         "Rosewood: Francesca, cancel the 9th (draft ready)",
         "Lupaia: Giulia, cancel the 8th (draft ready)",
@@ -1062,7 +1062,6 @@
       "items": [
         "Avis: call, move the drop to Venice Marco Polo on the 8th",
         "Train: Venice to Rome on the 10th, book once the Rome bed is set",
-        "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
