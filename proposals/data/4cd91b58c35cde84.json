@@ -579,43 +579,41 @@
         },
         {
           "date": "2026-10-03",
-          "label": "October 3: Mandarin Oriental or the EDITION",
+          "label": "October 3: The EDITION",
           "stay": {
             "name": "The Lake Como EDITION, Cadenabbia",
-            "status": "pending",
-            "detail": "400 euros plus breakfast. Via Regina 41. Juliana Rodriguez, Reservations, +39 034 449 0790. CRS 82933248. Payment link received, confirmation letter follows payment. Cancellable to September 26.",
-            "todo": "Hold the EDITION payment until Anna or Tom at Mandarin Oriental answers.",
-            "options": [
-              {
-                "name": "Mandarin Oriental Lago di Como, Blevio",
-                "status": "pending",
-                "detail": "Hosting asked for the 3rd via Sofia Tsioni's intro to Anna Fejzo. Draft ready. If yes, cancel the EDITION and drop the visit on the 4th."
-              }
-            ]
+            "status": "confirmed",
+            "detail": "Confirmed for the 3rd, Erica Dileo. CRS 82933248, special rate, card on file. India Chevalier for the site inspection. Via Regina 41."
           },
           "items": [
             {
               "time": "Morning",
-              "title": "Villa Serbelloni: shoot, breakfast, checkout by noon",
+              "title": "Villa Serbelloni: shoot, tennis if the concierge found a pro, checkout by noon",
               "status": "info"
             },
             {
               "time": "12:15 PM",
               "title": "Car ferry Bellagio to Cadenabbia",
               "status": "info",
-              "detail": "10 minutes, sails about every 30. The EDITION is a 5 minute drive from the landing."
+              "detail": "10 minutes, about every half hour. Five minutes to the EDITION."
             },
             {
-              "time": "12:45 PM",
-              "title": "The EDITION: check in, or site visit and lunch if Mandarin Oriental hosts",
-              "status": "pending",
-              "detail": "Ask Juliana for a tour if it becomes a visit."
+              "time": "1:00 PM",
+              "title": "EDITION: check in, site inspection with India",
+              "status": "confirmed",
+              "detail": "Time to set with India."
             },
             {
               "time": "3:00 PM",
-              "title": "If Mandarin Oriental: drive Cadenabbia to Blevio",
+              "title": "Barber, Idee Per La Testa, one minute from the hotel",
               "status": "pending",
-              "detail": "About 1 hour 15 down the west shore through Como. Check in by 4:30."
+              "detail": "Asked the concierge to book, draft ready."
+            },
+            {
+              "time": "Late afternoon",
+              "title": "Boat arrival shoot on the hotel launch",
+              "status": "pending",
+              "detail": "Concierge quoted 220 for 30 minutes. Asked for 15 minutes as marketing, draft ready."
             }
           ]
         }
@@ -655,7 +653,7 @@
               "time": "11:00 AM",
               "title": "Drive to Forestis",
               "status": "info",
-              "detail": "3 hours 15 from Blevio, 3 hours 45 from the EDITION. Arrive mid-afternoon."
+              "detail": "3 hours 45 from Cadenabbia. Arrive mid-afternoon."
             },
             {
               "time": "Afternoon",
@@ -673,49 +671,41 @@
             "status": "confirmed",
             "detail": "Hosted, night two."
           },
-          "items": []
+          "items": [
+            {
+              "time": "Day",
+              "title": "Dolomites hike with a guide",
+              "status": "pending",
+              "detail": "Lisa at Imago Artis sent options, Lake Braies and Messner among them. Pick one."
+            }
+          ]
         },
         {
           "date": "2026-10-06",
-          "label": "October 6: Aman visit, then the open night",
+          "label": "October 6: Aman visit, Gardena Grödnerhof",
           "stay": {
-            "name": "Open",
-            "status": "open",
-            "options": [
-              {
-                "name": "San Luis, Avelengo",
-                "status": "todo",
-                "detail": "Hosting ask drafted, add your signature."
-              },
-              {
-                "name": "COMO Alpina, moved to the 6th",
-                "status": "pending",
-                "detail": "Only if Aman gives a rate for the 7th. Deborah Carlin."
-              },
-              {
-                "name": "Gardena Grödnerhof, Ortisei",
-                "status": "pending",
-                "detail": "Alex Demetz."
-              },
-              {
-                "name": "Badia Hill",
-                "status": "suggested",
-                "detail": "Not contacted."
-              }
-            ]
+            "name": "Gardena Grödnerhof, Ortisei",
+            "status": "confirmed",
+            "detail": "Hosted, one night, two guests. Alex Demetz, cc Silvia. Site inspection on arrival, time to send Alex once set.",
+            "todo": "Send Alex an arrival time for the tour."
           },
           "items": [
             {
               "time": "11:00 AM",
               "title": "Aman Rosa Alpina, San Cassiano, site visit and lunch",
-              "status": "confirmed",
-              "detail": "Elisa De Nicolò, +39 0471 849500. 1 hour from Forestis."
+              "status": "confirmed"
             },
             {
-              "time": "Afternoon",
-              "title": "On to the night's hotel",
+              "time": "2:30 PM",
+              "title": "Drive to Ortisei over Passo Gardena",
               "status": "info",
-              "detail": "Alpe di Siusi 1 hour 15, San Luis 2 hours."
+              "detail": "About 1 hour. Alpe di Siusi and COMO Alpina are 30 minutes from the hotel for the 7th."
+            },
+            {
+              "time": "3:30 PM",
+              "title": "Gardena Grödnerhof, check in, tour with Alex, spa",
+              "status": "pending",
+              "detail": "Time to confirm with Alex."
             }
           ]
         },
@@ -795,8 +785,8 @@
           "stay": {
             "name": "The Danieli, A Four Seasons Hotel",
             "status": "open",
-            "detail": "Reopened August 26 after the restoration. Ask through the Fora Four Seasons partnership for a hosted or advisor night on the 9th.",
-            "todo": "Ask the Danieli for the 9th."
+            "detail": "Reopened August 26 after the restoration. Pasquale Priore, Director of Travel Industry Sales, +39 348 256 0158, via Hanna at Four Seasons Florence. Hosted night asked for the 8th or 9th, draft ready.",
+            "todo": "Send Pasquale."
           },
           "items": [
             {
@@ -1039,6 +1029,8 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
+        "EDITION: boat for the arrival shoot as marketing, not a 220 excursion (draft ready)",
+        "EDITION: Edwin, barber at Idee Per La Testa at 3:00 today (draft ready, send now)",
         "Monteverdi: Lucia, cancel the hosted night on the 9th with thanks (draft ready)",
         "Rosewood: Francesca, cancel the 9th (draft ready)",
         "Lupaia: Giulia, cancel the 8th (draft ready)",
@@ -1048,7 +1040,7 @@
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
         "Orient Express: Egle, hosted night or advisor rate for Venice on the 8th (draft ready)",
-        "The Danieli: Sofia, intro to Venice sales for the 9th (draft ready)",
+        "The Danieli: Pasquale Priore, hosted night on the 8th or 9th (draft ready)",
         "Hotel Eden: Elena and Tristan, Sunday tour, add the 10th (draft ready)",
         "La Dolce Vita: Fede, yes to 8:30 on the 12th (draft ready)",
         "Passalacqua: Gaia, start at 12:00 and Tremezzo at 1:30 (draft ready)",
@@ -1057,11 +1049,12 @@
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Hotel de Russie: Elena, confirm the 12th at 11:00 (draft ready)",
         "Borgo Pignano Volterra: Giuliana, ETA 2:45 and tour at 5:00 tomorrow",
-        "San Luis: hosting ask for the 6th (draft ready)",
         "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
         "Portrait Milano: Federico, withdraw the visit (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
-        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
+        "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients",
+        "Gardena Grödnerhof: Alex, arrival time on the 6th for the inspection",
+        "San Luis: delete the old draft, the 6th is set"
       ]
     },
     {
@@ -1069,13 +1062,12 @@
       "items": [
         "Avis: call, move the drop to Venice Marco Polo on the 8th",
         "Train: Venice to Rome on the 10th, book once the Rome bed is set",
-        "The 6th: San Luis, Gardena Grödnerhof or Badia Hill. Aman visit at 11:00 is set",
-        "The Lake Como EDITION: pay the link before the 26th cancellation deadline",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
-        "Alpina and Forestis: a friend may join",
-        "Tennis kit"
+        "Tennis kit",
+        "Alpina and Forestis: a friend joins from the 6th, tell both hotels the second guest",
+        "Oct 5 hike: choose from Lisa's options at Imago Artis"
       ]
     }
   ],
@@ -1085,7 +1077,6 @@
       "items": [
         "Aman, Elisa De Nicolò: rate for the 7th",
         "Miramonti: the 4th",
-        "Gardena Grödnerhof, Alex Demetz: the 6th",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "La Dolce Vita Orient Express, Federico Talucci: which day, once sent"
