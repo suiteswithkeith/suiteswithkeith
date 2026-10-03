@@ -3271,7 +3271,11 @@
    {
     "eyebrow": "Choose Grand Hotel Tremezzo",
     "h3": "If you want the middle of the lake",
-    "lead": "Like stepping into a Wes Anderson film. Tiered gardens behind the hotel with my favorite pool, five restaurants, a clay court, and lake-view junior suites with balconies. It&rsquo;s fun, it suits families, and it&rsquo;s busy."
+    "lead": "Like stepping into a Wes Anderson film. Tiered gardens behind the hotel with my favorite pool, five restaurants, a clay court, and lake-view junior suites with balconies. It&rsquo;s fun, it suits families, and it&rsquo;s busy.",
+    "img": "/images/lake-como/grand-hotel-tremezzo/floating-pool.jpg",
+    "alt": "Grand Hotel Tremezzo&rsquo;s pool floating on Lake Como, above a busy lakefront terrace with orange-and-white umbrellas",
+    "w": 898,
+    "h": 1196
    },
    {
     "eyebrow": "Choose Villa d&rsquo;Este",
@@ -3360,7 +3364,11 @@
     "h3": "Arriving at Grand Hotel Tremezzo",
     "paras": [
      "I usually split the journey: a private car from Milan to the water in the town of Como, then about 30 minutes by private boat to the hotel&rsquo;s own dock. The road takes 45 minutes to an hour and it&rsquo;s narrow and winding. Arriving by boat is faster and far more memorable, especially on a honeymoon."
-    ]
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/boat-dock.jpg",
+    "alt": "A wooden boat pulling up to Grand Hotel Tremezzo&rsquo;s dock, with orange-and-white umbrellas on the lakefront",
+    "w": 898,
+    "h": 1196
    },
    {
     "h3": "Which is better with children?",
@@ -3372,7 +3380,11 @@
     "h3": "The pools, honestly",
     "paras": [
      "Both hotels have a pool floating on the lake. Personally, I&rsquo;m not a fan of floating pools: they rock with the water and can make you queasy. At Grand Hotel Tremezzo, my favorite is the pool up in the tiered gardens. If a calm, heated pool matters to you, Il Sereno&rsquo;s is built on land."
-    ]
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/garden-pool.jpg",
+    "alt": "The garden pool at Grand Hotel Tremezzo, with fringed orange and white umbrellas and the mountains behind",
+    "w": 898,
+    "h": 1196
    }
   ],
   "faq": [
@@ -3440,7 +3452,11 @@
    {
     "eyebrow": "Choose Grand Hotel Tremezzo",
     "h3": "If you want fun, and the lake view",
-    "lead": "Like stepping into a Wes Anderson film. Five restaurants, tiered gardens with a beautiful pool, a clay court, and lake-view junior suites with balconies that feel like they sit on top of the water. Great for families."
+    "lead": "Like stepping into a Wes Anderson film. Five restaurants, tiered gardens with a beautiful pool, a clay court, and lake-view junior suites with balconies that feel like they sit on top of the water. Great for families.",
+    "img": "/images/lake-como/grand-hotel-tremezzo/garden-pool.jpg",
+    "alt": "The garden pool at Grand Hotel Tremezzo, with fringed orange and white umbrellas and the mountains behind",
+    "w": 898,
+    "h": 1196
    },
    {
     "eyebrow": "Choose Passalacqua",
@@ -3535,13 +3551,21 @@
     "h3": "Crowds and privacy",
     "paras": [
      "This is the biggest difference. Grand Hotel Tremezzo welcomes outside guests and it&rsquo;s a magnet for photos, so it&rsquo;s busy. Passalacqua doesn&rsquo;t allow outside guests in its restaurants or spa at all. If you&rsquo;re staying nearby and want to see it, I can sometimes arrange a lunch or a tour for my clients."
-    ]
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/floating-pool.jpg",
+    "alt": "Grand Hotel Tremezzo&rsquo;s pool floating on Lake Como, above a busy lakefront terrace with orange-and-white umbrellas",
+    "w": 898,
+    "h": 1196
    },
    {
     "h3": "Getting there",
     "paras": [
      "I usually split the journey: a private car from Milan to the water in the town of Como, then about 30 minutes by private boat to the hotel&rsquo;s own dock. The road takes 45 minutes to an hour and it&rsquo;s narrow and winding. Arriving by boat is faster and far more memorable, especially on a honeymoon. Passalacqua is closer to Como, about an hour by car from Milan."
-    ]
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/boat-dock.jpg",
+    "alt": "A wooden boat pulling up to Grand Hotel Tremezzo&rsquo;s dock, with orange-and-white umbrellas on the lakefront",
+    "w": 898,
+    "h": 1196
    }
   ],
   "faq": [
