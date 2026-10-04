@@ -4,8 +4,8 @@
   "title": "Best Luxury Hotels in Napa Valley, Ranked | Suites With Keith",
   "description": "Keith's firsthand ranking of the best luxury hotels in Napa Valley and Sonoma, from personal stays over several years — honeymoons, wine weekends, and family escapes.",
   "hero_img": "/images/napa/four-seasons-1.jpg",
-    "hero_video": "/video/napa-hero.mp4",
-    "hero_poster": "/video/napa-hero-poster.jpg",
+  "hero_video": "/video/napa-hero.mp4",
+  "hero_poster": "/video/napa-hero-poster.jpg",
   "eyebrow": "Keith's Rankings",
   "h1": "Best Luxury Hotels in Napa Valley &amp; Sonoma, Ranked",
   "tagline": "After personally staying at nearly every luxury hotel in wine country, here's exactly where I'd spend my own money.",
@@ -391,8 +391,8 @@
   "title": "The 10 Best Luxury Hotels in Greece & the Greek Islands | Suites With Keith",
   "description": "After four weeks in Greece and 38 hotel visits across seven islands, here are Keith's 10 favorite luxury hotels — plus smart island pairings and how to move between them.",
   "hero_img": "/images/personal/gundari-sunset.jpg",
-    "hero_video": "/video/gundari-hero.mp4",
-    "hero_poster": "/video/gundari-hero-poster.jpg",
+  "hero_video": "/video/gundari-hero.mp4",
+  "hero_poster": "/video/gundari-hero-poster.jpg",
   "eyebrow": "Keith's Rankings",
   "h1": "The 10 Best Luxury Hotels in Greece &amp; the Greek Islands",
   "tagline": "After four weeks traveling through Greece and visiting 38 hotels across seven islands, these are the ten I'd send my clients to first.",
@@ -1115,5 +1115,214 @@
   "kit": false,
   "cta_eyebrow": "Planning A Santorini Honeymoon?",
   "cta_h2": "I've toured every luxury hotel on this island. Tell me a little about your trip and I'll match you to the right hotel and the right room &mdash; with preferred partner perks included."
+ },
+ "lake-como-hotels-ranked": {
+  "slug": "lake-como-hotels-ranked",
+  "title": "Best Lake Como Hotels, Ranked (2026) | Suites With Keith",
+  "description": "Keith's firsthand ranking of the best luxury hotels on Lake Como after stays and site visits in October 2026: Grand Hotel Tremezzo, Il Sereno, Passalacqua, Villa d'Este and the Lake Como EDITION, and who each one is right for.",
+  "hero_img": "/images/proposals/lake-como/il-sereno/exterior.jpg",
+  "eyebrow": "Keith's Rankings",
+  "h1": "The Best Lake Como Hotels, Ranked",
+  "tagline": "I stayed at or toured every hotel on this list in October 2026. Here&rsquo;s my ranking, and who I&rsquo;d send to each one.",
+  "stats": [
+   {
+    "num": "5",
+    "label": "Luxury Hotels, Ranked"
+   },
+   {
+    "num": "October 2026",
+    "label": "Stays &amp; Site Visits"
+   }
+  ],
+  "intro_paras": [
+   "Most &ldquo;best Lake Como hotels&rdquo; lists are compiled from press materials and online reviews. This one comes from staying at and touring each of these hotels myself in October 2026.",
+   "<a href=\"/lake-como-pairing.html\" class=\"read-link\">Planning a honeymoon? See my Passalacqua + Il Sereno pairing&nbsp;&rarr;</a>",
+   "The ranking runs from my personal favorite down, and the gaps are small: every hotel here is excellent for the right traveler. Passalacqua sits third not because it falls short, but because it isn&rsquo;t my personal style. For a honeymoon, it&rsquo;s the best hotel on the lake.",
+   "Booking through me costs the same as booking direct, and my clients typically receive preferred-partner perks on top: a space-available upgrade, daily breakfast and a hotel credit. I also handle the logistics that make Como work: a private car from Milan for the hotels near the town of Como, and a private boat from Como for the hotels farther up the lake."
+  ],
+  "toc": [
+   {
+    "href": "#rankings",
+    "label": "The Rankings"
+   },
+   {
+    "href": "#winners",
+    "label": "Category Winners"
+   },
+   {
+    "href": "#head-to-head",
+    "label": "The Head-To-Heads"
+   },
+   {
+    "href": "#inquire",
+    "label": "Planning A Trip"
+   }
+  ],
+  "cards": [
+   {
+    "img": "/images/lake-como/grand-hotel-tremezzo/garden-pool.jpg",
+    "img_alt": "The garden pool at Grand Hotel Tremezzo, with fringed orange and white umbrellas",
+    "img2": "/images/lake-como/grand-hotel-tremezzo/lake-view-suite.jpg",
+    "num": "01",
+    "name": "Grand Hotel Tremezzo",
+    "tag": "My Favorite Hotel On Lake Como",
+    "bestfor": "Perfect For &middot; Families, First Trips, Couples Who Like Energy",
+    "desc": "Walking into Grand Hotel Tremezzo is like stepping into a Wes Anderson film. The 1910 landmark sits in the middle of the lake, looking straight across at Bellagio, with tiered gardens behind it, five restaurants, a clay tennis court and some of the best rooms on Como: lake-view junior suites with balconies that feel as though they sit on top of the water. It&rsquo;s the most fun hotel on the lake, and the best located.",
+    "notes": [
+     {
+      "b": "Book a junior suite or above.",
+      "t": "The lake-view rooms with balconies are spacious and beautifully restored. Garden-view rooms look onto genuinely pretty gardens and cost less."
+     },
+     {
+      "b": "It&rsquo;s lively.",
+      "t": "Outside guests are welcome and the lower floating pool draws a crowd, but the garden pool and the indoor-outdoor pool stay calm and private."
+     },
+     {
+      "b": "Arrive by boat.",
+      "t": "A private car from Milan to the town of Como, then a private boat to the hotel&rsquo;s dock. I arrange both."
+     }
+    ],
+    "take": "The most fun hotel on Lake Como, in the best spot on the lake. Book a lake-view junior suite and spend your afternoons at the garden pool.",
+    "href": "/hotels/grand-hotel-tremezzo-lake-como.html"
+   },
+   {
+    "img": "/images/lake-como-pairing/il-sereno-from-the-water.jpg",
+    "img_alt": "Il Sereno seen from the lake, with a wooden Riva moored below",
+    "img2": "/images/proposals/lake-como/il-sereno/room.jpg",
+    "num": "02",
+    "name": "Il Sereno",
+    "tag": "The Best True Lakefront Hotel On Como",
+    "bestfor": "Perfect For &middot; Couples, Honeymoons, Design Lovers",
+    "desc": "I stayed at Il Sereno and couldn&rsquo;t find a single fault. Patricia Urquiola&rsquo;s glass, walnut and stone sit right on the water in Torno, and every room looks at the lake. The pool is heated and built on land, the old boathouse holds a hot tub you can book privately by the hour, and the hotel&rsquo;s own Rivas make dinners across the lake effortless. Because Torno is tiny and the hotel can only be reached by its guests or by boat, it never feels busy.",
+    "notes": [
+     {
+      "b": "The Grand Suite is the one.",
+      "t": "Entry rooms have a partial lake view, some through the trees. The Grand Suite adds the head-on view and a private terrace, at about the price of an entry room at Passalacqua."
+     },
+     {
+      "b": "Built for couples.",
+      "t": "It&rsquo;s private and quiet, and not a family hotel."
+     },
+     {
+      "b": "About an hour from Milan.",
+      "t": "A private car is the easiest way in. I arrange it, along with boats for anything beyond the hotel&rsquo;s own Rivas."
+     }
+    ],
+    "take": "The best true lakefront hotel on Lake Como, and the one I&rsquo;d choose for privacy, design and the water right outside your room.",
+    "href": "/hotels/il-sereno-lake-como.html"
+   },
+   {
+    "img": "/images/proposals/lake-como/passalacqua/garden-lake.jpg",
+    "img_alt": "Passalacqua&rsquo;s terraced gardens above Lake Como",
+    "img2": "/images/proposals/lake-como/passalacqua/suite.jpg",
+    "num": "03",
+    "name": "Passalacqua",
+    "tag": "The Best Honeymoon Hotel On Lake Como",
+    "bestfor": "Perfect For &middot; Honeymoons, Milestones, Two Couples Traveling Together",
+    "desc": "Passalacqua is whimsical and unlike anywhere else in the world: a 1787 villa in Moltrasio that&rsquo;s meant to feel like your own home, filled with antiques the family collected over time. Only hotel guests can use the restaurants and Moroccan-inspired spa, so with just 24 rooms it feels genuinely exclusive. I loved it, but it isn&rsquo;t my personal style; with two restaurants and a quiet village, I&rsquo;d want a livelier base after a couple of nights. For a honeymoon, nothing on the lake compares.",
+    "notes": [
+     {
+      "b": "Book a lakeside room or the Palazzo.",
+      "t": "Those rooms are generously sized. It&rsquo;s a terraced garden property, so most rooms see the lake in the distance rather than up close."
+     },
+     {
+      "b": "Plan a few dinners out.",
+      "t": "With two restaurants, dinner across the lake by boat is the best way to round out a stay. I arrange it."
+     },
+     {
+      "b": "Pair it with Il Sereno.",
+      "t": "Two nights at each, ten minutes apart by private boat, is the honeymoon I&rsquo;d book. <a href=\"/lake-como-pairing.html\">See the pairing</a>."
+     }
+    ],
+    "take": "The best honeymoon hotel on Lake Como. If this is the trip that calls for it, book it.",
+    "href": "/hotels/passalacqua-lake-como.html"
+   },
+   {
+    "img": "/images/tennis/villa-d-este.jpg",
+    "img_alt": "Villa d&rsquo;Este&rsquo;s clay tennis courts and gardens above Lake Como",
+    "num": "04",
+    "name": "Villa d&rsquo;Este",
+    "tag": "The Grand Classic, Getting Better",
+    "bestfor": "Perfect For &middot; Classicists, Tennis Trips With Friends, Multigenerational Groups",
+    "desc": "Villa d&rsquo;Este won me over with its gardens, the villa on the lakefront and a fantastic lunch. Service is polished and warm, it&rsquo;s livelier than its reputation, and recent client stays have been very positive. In Cernobbio, it puts a town at your door and sits about an hour from Milan. I&rsquo;m told a refresh with fewer rooms is planned, which should bring it up to the level of the three hotels above it.",
+    "notes": [
+     {
+      "b": "Eight clay courts.",
+      "t": "The best hotel on the lake for a tennis trip with friends, especially paired with one of the estate&rsquo;s private villas."
+     },
+     {
+      "b": "A town at the door.",
+      "t": "If you want restaurants and shops within walking distance, Cernobbio is the best base of any hotel on this list."
+     },
+     {
+      "b": "My pick over Villa Serbelloni.",
+      "t": "If you&rsquo;re weighing the two grand classics, <a href=\"/villa-d-este-vs-villa-serbelloni.html\">here&rsquo;s why</a>."
+     }
+    ],
+    "take": "The lake&rsquo;s original grand hotel, polished and warm, and the best choice for tennis and for having a town on your doorstep.",
+    "href": "/hotels/villa-d-este-lake-como.html"
+   },
+   {
+    "img": "/images/proposals/lake-como/edition/pool.jpg",
+    "img_alt": "The pool at the Lake Como EDITION",
+    "img2": "/images/proposals/lake-como/edition/room.jpg",
+    "num": "05",
+    "name": "The Lake Como EDITION",
+    "tag": "Modern, Lively and Not for Everyone",
+    "bestfor": "Perfect For &middot; Younger Travelers, LGBTQ+ Travelers, Families In The Two-Bedroom Suite",
+    "desc": "The EDITION turned a former hotel in Cadenabbia, next door to Grand Hotel Tremezzo, into a 148-room modern hotel: white, neutrals, green marble and arches, with the brand&rsquo;s lively, social energy. The spa and gym are outstanding, and the two-bedroom suite is good value for a family. Dining is limited, there&rsquo;s no town at the door, and I noticed some early wear in my room.",
+    "notes": [
+     {
+      "b": "Book a lake view, third floor or above.",
+      "t": "Lower floors sit above the loud casual restaurant, and non-lake-view rooms face the spa or an interior courtyard."
+     },
+     {
+      "b": "Compare it with its neighbor.",
+      "t": "Lake-view rooms cost about the same as at Grand Hotel Tremezzo next door. <a href=\"/grand-hotel-tremezzo-vs-lake-como-edition.html\">Here&rsquo;s how they compare</a>."
+     },
+     {
+      "b": "Arrive by boat.",
+      "t": "A private car to Como, then a private boat. I arrange both."
+     }
+    ],
+    "take": "A neat, modern hotel that&rsquo;s right for a lot of travelers. If you want classic Como at a similar price, walk next door.",
+    "href": "/hotels/lake-como-edition.html"
+   }
+  ],
+  "winners": [
+   {
+    "cat": "Best overall",
+    "w": "Grand Hotel Tremezzo"
+   },
+   {
+    "cat": "Best honeymoon",
+    "w": "Passalacqua"
+   },
+   {
+    "cat": "Best lakefront &amp; privacy",
+    "w": "Il Sereno"
+   },
+   {
+    "cat": "Best for families",
+    "w": "Grand Hotel Tremezzo"
+   },
+   {
+    "cat": "Best for tennis",
+    "w": "Villa d&rsquo;Este"
+   },
+   {
+    "cat": "Best spa &amp; gym",
+    "w": "The Lake Como EDITION"
+   },
+   {
+    "cat": "Best two-hotel trip",
+    "w": "Passalacqua + Il Sereno"
+   }
+  ],
+  "pairings": [],
+  "transfers": [],
+  "kit": false,
+  "cta_eyebrow": "Planning Lake Como?",
+  "cta_h2": "I&rsquo;ve stayed at or toured every hotel on this list. Tell me about your trip and I&rsquo;ll match you to the right hotel and room, and arrange the cars and boats."
  }
 }
