@@ -645,36 +645,36 @@
           },
           "items": [
             {
-              "time": "6:30 AM",
+              "time": "7:00 AM",
               "title": "Leave the EDITION, north up the west shore",
               "status": "info",
               "detail": "6 hours 15 to Forestis over the passes, 5 hours 30 by motorway if the weather turns."
             },
             {
-              "time": "9:00 AM",
+              "time": "9:30 AM",
               "title": "Lake Sils, just past Maloja Pass",
               "status": "suggested",
               "detail": "Photos, 15 minutes. Near freezing, jacket in the front seat."
             },
             {
-              "time": "9:30 AM",
+              "time": "10:00 AM",
               "title": "St. Moritz, coffee at Badrutt's Palace",
               "status": "pending",
               "detail": "15 minutes. Thomas Citterio told, draft ready. Then Zernez, Ofenpass, Val Müstair."
             },
             {
-              "time": "12:35 PM",
+              "time": "1:05 PM",
               "title": "Miramonti, Avelengo above Merano, look and lunch",
               "status": "pending",
-              "detail": "Told them 12:30, sent. 20 minutes up from Merano, an hour to Bressanone after. Away by 1:30."
+              "detail": "Told them 12:30, sent. Quick look and a coffee, away by 1:45. Skip it if Merano is later than 12:45."
             },
             {
-              "time": "2:35 PM",
+              "time": "2:50 PM",
               "title": "Collect Matt at Bressanone station, 2:55",
               "status": "info"
             },
             {
-              "time": "3:15 PM",
+              "time": "3:30 PM",
               "title": "Arrive Forestis",
               "status": "info"
             }
