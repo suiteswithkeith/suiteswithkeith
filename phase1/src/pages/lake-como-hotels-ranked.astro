@@ -1,0 +1,18 @@
+---
+import RankingList from '../layouts/RankingList.astro';
+
+const versus = [
+  { href: '/grand-hotel-tremezzo-vs-lake-como-edition.html', a: 'Grand Hotel Tremezzo', b: 'the EDITION', q: 'Next-door neighbors at the same price &mdash; classic Como or a modern scene.' },
+  { href: '/il-sereno-vs-passalacqua.html', a: 'Il Sereno', b: 'Passalacqua', q: 'My #02 and #03 &mdash; the lakefront hideaway or the honeymoon villa.' },
+  { href: '/grand-hotel-tremezzo-vs-passalacqua.html', a: 'Grand Hotel Tremezzo', b: 'Passalacqua', q: 'Same family, two scales &mdash; the fun grand hotel or the private villa.' },
+  { href: '/grand-hotel-tremezzo-vs-villa-d-este.html', a: 'Grand Hotel Tremezzo', b: 'Villa d&rsquo;Este', q: 'The lake&rsquo;s two grand classics &mdash; mid-lake, or close to Milan.' },
+  { href: '/lake-como-edition-vs-il-sereno.html', a: 'The EDITION', b: 'Il Sereno', q: 'The lake&rsquo;s two modern hotels &mdash; a scene, or a hideaway.' },
+  { href: '/villa-d-este-vs-villa-serbelloni.html', a: 'Villa d&rsquo;Este', b: 'Villa Serbelloni', q: 'Cernobbio&rsquo;s estate or the heart of Bellagio.' },
+];
+---
+<RankingList
+  slug="lake-como-hotels-ranked"
+  askPlaceholder="Lake Como in June"
+  askDeck="&ldquo;Lake Como in June&rdquo; is a complete answer. I&rsquo;ll take it from there."
+  versus={versus}
+/>
