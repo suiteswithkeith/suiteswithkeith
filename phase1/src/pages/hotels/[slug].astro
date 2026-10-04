@@ -12,21 +12,37 @@ const heroSrc = h.hero_img ? `/images/${h.img_dir}/${h.hero_img}` : '';
 const img2Src = `/images/${h.img_dir}/${h.img2}`;
 const statLine = [h.stat1_num ? `${h.stat1_num} ${h.stat1_label}` : '', `${h.stat2_num} ${h.stat2_label}`]
   .filter(Boolean).join(' · ');
+// Optional review fields (seo_title, review: {stamp, date, city, country}) for firsthand reviews.
+const plainText = (t) => t.replace(/<[^>]+>/g, '').replace(/&rsquo;/g, '’').replace(/&mdash;/g, '—').replace(/&middot;/g, '·').replace(/&amp;/g, '&');
+const reviewSchema = h.review && JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Review',
+  name: h.seo_title || `${h.plain_name} review`,
+  itemReviewed: { '@type': 'Hotel', name: h.plain_name, address: { '@type': 'PostalAddress', addressLocality: h.review.city, addressCountry: h.review.country }, ...(heroSrc ? { image: 'https://suiteswithkeith.com' + heroSrc } : {}) },
+  author: { '@type': 'Person', name: 'Keith Pence', url: 'https://suiteswithkeith.com/about.html' },
+  publisher: { '@type': 'Organization', name: 'Suites With Keith', url: 'https://suiteswithkeith.com/' },
+  datePublished: h.review.date,
+  reviewBody: plainText(h.verdict),
+  url: `https://suiteswithkeith.com/hotels/${h.slug}.html`,
+});
 ---
 <Layout
   canonical={`hotels/${h.slug}.html`}
-  title={`${h.plain_name} Review — ${h.locale} | Suites With Keith`}
+  title={h.seo_title ? `${h.seo_title} | Suites With Keith` : `${h.plain_name} Review — ${h.locale} | Suites With Keith`}
   description={h.meta_desc}
   preload={heroSrc}
   ctaLabel={`Book ${h.short_name}`}
 >
 {h.draft && <meta slot="head" name="robots" content="noindex" />}
+{reviewSchema && <Fragment slot="head" set:html={`<script type="application/ld+json">${reviewSchema}</script>`} />}
 
 <header class="hero" style="min-height:min(72svh,680px);">
   {heroSrc && <img class="hero-img" src={heroSrc} alt={`${h.plain_name}, ${h.island}`} fetchpriority="high" />}
   <div class="container">
-    <p class="eyebrow">Hotel record &middot; <Fragment set:html={h.locale} /></p>
-    <h1 class="display-xl" set:html={h.name} />
+    {h.review
+      ? <p class="eyebrow">Hotel review &middot; <Fragment set:html={h.review.stamp} /> &middot; <Fragment set:html={h.locale} /></p>
+      : <p class="eyebrow">Hotel record &middot; <Fragment set:html={h.locale} /></p>}
+    <h1 class="display-xl" set:html={h.review ? `${h.name} <em style="color:inherit">review</em>` : h.name} />
     <p class="stamp" style="margin-top:20px;" set:html={statLine} />
   </div>
 </header>
