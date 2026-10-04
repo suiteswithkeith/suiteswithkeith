@@ -1119,14 +1119,14 @@
  "lake-como-hotels-ranked": {
   "slug": "lake-como-hotels-ranked",
   "title": "Best Lake Como Hotels, Ranked (2026) | Suites With Keith",
-  "description": "Keith's firsthand ranking of the best luxury hotels on Lake Como after stays and site visits in October 2026: Grand Hotel Tremezzo, Il Sereno, Passalacqua, Villa d'Este and the Lake Como EDITION, and who each one is right for.",
+  "description": "Keith's firsthand ranking of the best luxury hotels on Lake Como after stays and site visits in October 2026: Grand Hotel Tremezzo, Il Sereno, Passalacqua, Villa d'Este, the Lake Como EDITION and Villa Serbelloni, and who each one is right for.",
   "hero_img": "/images/proposals/lake-como/il-sereno/exterior.jpg",
   "eyebrow": "Keith's Rankings",
   "h1": "The Best Lake Como Hotels, Ranked",
   "tagline": "I stayed at or toured every hotel on this list in October 2026. Here&rsquo;s my ranking, and who I&rsquo;d send to each one.",
   "stats": [
    {
-    "num": "5",
+    "num": "6",
     "label": "Luxury Hotels, Ranked"
    },
    {
@@ -1287,6 +1287,32 @@
     ],
     "take": "A neat, modern hotel that&rsquo;s right for a lot of travelers. If you want classic Como at a similar price, walk next door.",
     "href": "/hotels/lake-como-edition.html"
+   },
+   {
+    "img": "/images/lake-como/villa-serbelloni/beach.jpg",
+    "img_alt": "Villa Serbelloni&rsquo;s beach and floating pier on Lake Como",
+    "img2": "/images/lake-como/villa-serbelloni/suite.jpg",
+    "num": "06",
+    "name": "Grand Hotel Villa Serbelloni",
+    "tag": "Historic, With The Lake&rsquo;s Best Swimming",
+    "bestfor": "Perfect For &middot; Lovers Of Historic Italian Hotels And Art, Swimmers, Travelers Set On Bellagio",
+    "desc": "Villa Serbelloni is very historic and beautifully maintained, at the water&rsquo;s edge in Bellagio. Its stunning modern spa was a surprise in a hotel this traditional, the little speakeasy bar is a gem, and with a pool, a beach and a floating pier into the lake, it&rsquo;s the best hotel on the lake for actually swimming. Service is formal but warm. The decor is a bit too old for my taste, and Bellagio is very crowded, even in October.",
+    "notes": [
+     {
+      "b": "Ask for a lake-view room with a balcony.",
+      "t": "The rooms are classic: frescoes, chandeliers, damask and antiques."
+     },
+     {
+      "b": "Bellagio is the trade-off.",
+      "t": "The village is packed with day-trippers in high season. You can visit it easily by boat from anywhere on the lake."
+     },
+     {
+      "b": "Arrive by boat.",
+      "t": "A private car to Como, then a private boat to Bellagio. I arrange both."
+     }
+    ],
+    "take": "A beautiful, very historic hotel with a stunning spa and the lake&rsquo;s best swimming. If you&rsquo;re weighing it against Villa d&rsquo;Este, <a href=\"/villa-d-este-vs-villa-serbelloni.html\">I&rsquo;d choose Villa d&rsquo;Este</a>.",
+    "href": "/hotels/villa-serbelloni-bellagio.html"
    }
   ],
   "winners": [
@@ -1313,6 +1339,10 @@
    {
     "cat": "Best spa &amp; gym",
     "w": "The Lake Como EDITION"
+   },
+   {
+    "cat": "Best for swimming",
+    "w": "Villa Serbelloni"
    },
    {
     "cat": "Best two-hotel trip",
