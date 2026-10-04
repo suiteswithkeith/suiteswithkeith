@@ -645,39 +645,38 @@
           },
           "items": [
             {
-              "time": "7:00 AM",
+              "time": "6:30 AM",
               "title": "Leave the EDITION, north up the west shore",
               "status": "info",
               "detail": "6 hours 15 to Forestis over the passes, 5 hours 30 by motorway if the weather turns."
             },
             {
-              "time": "9:30 AM",
+              "time": "9:00 AM",
               "title": "Lake Sils, just past Maloja Pass",
               "status": "suggested",
-              "detail": "Photos, 20 minutes. Near freezing, jacket in the front seat."
+              "detail": "Photos, 15 minutes. Near freezing, jacket in the front seat."
             },
             {
-              "time": "10:00 AM",
+              "time": "9:30 AM",
               "title": "St. Moritz, coffee at Badrutt's Palace",
               "status": "pending",
-              "detail": "30 minutes. Thomas Citterio told, draft ready. Then Zernez, Ofenpass, Val Müstair, Merano, Bolzano."
+              "detail": "15 minutes. Thomas Citterio told, draft ready. Then Zernez, Ofenpass, Val Müstair."
             },
             {
-              "time": "2:55 PM",
-              "title": "Collect Matt at Bressanone station",
-              "status": "info",
-              "detail": "Or send a Forestis car, 25 minutes."
+              "time": "12:35 PM",
+              "title": "Miramonti, Avelengo above Merano, look and lunch",
+              "status": "pending",
+              "detail": "Told them 12:30, sent. 20 minutes up from Merano, an hour to Bressanone after. Away by 1:30."
             },
             {
-              "time": "3:30 PM",
-              "title": "Arrive Forestis",
+              "time": "2:35 PM",
+              "title": "Collect Matt at Bressanone station, 2:55",
               "status": "info"
             },
             {
-              "time": "Afternoon",
-              "title": "Miramonti, stay or visit",
-              "status": "pending",
-              "detail": "If they answer."
+              "time": "3:15 PM",
+              "title": "Arrive Forestis",
+              "status": "info"
             }
           ]
         },
@@ -1094,7 +1093,7 @@
       "title": "Waiting on",
       "items": [
         "Aman, Elisa De Nicolò: rate for the 7th",
-        "Miramonti: the 4th",
+        "Miramonti: 12:30 tomorrow, sent",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "La Dolce Vita Orient Express, Federico Talucci: which day, once sent"
