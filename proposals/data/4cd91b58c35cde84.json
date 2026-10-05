@@ -690,10 +690,16 @@
           },
           "items": [
             {
-              "time": "Day",
-              "title": "Dolomites hike with a guide",
+              "time": "Morning",
+              "title": "Rossalm walk from the hotel, lunch at the hut",
+              "status": "suggested",
+              "detail": "An hour and a half each way along the Plose with the Odle in front. Easy. No guide."
+            },
+            {
+              "time": "Late afternoon",
+              "title": "Massages, two",
               "status": "pending",
-              "detail": "Lisa at Imago Artis sent options, Lake Braies and Messner among them. Pick one."
+              "detail": "Asked Daniela to connect with the spa, sent."
             }
           ]
         },
@@ -743,6 +749,12 @@
           },
           "items": [
             {
+              "time": "8:30 AM",
+              "title": "Seceda from Ortisei: first cable car, ridge walk to Pieralongia, down to the Troier hut",
+              "status": "suggested",
+              "detail": "Two and a half to three hours. The hike of the trip. Check the lift is running, it closes around the 20th. Alpina is 30 minutes after."
+            },
+            {
               "time": "Afternoon",
               "title": "Sporthotel Floralpina, Saltria: site visit and an hour on the meadow court",
               "status": "pending",
@@ -778,7 +790,13 @@
           },
           "items": [
             {
-              "time": "10:00 AM",
+              "time": "7:30 AM",
+              "title": "Puflatsch loop at first light",
+              "status": "suggested",
+              "detail": "Lift from Compatsch, two and a half hours, the witches' benches. Back by 10:00 for the Venice drive."
+            },
+            {
+              "time": "10:30 AM",
               "title": "Leave Alpe di Siusi",
               "status": "info",
               "detail": "3 hours 30 to Marco Polo."
@@ -1090,7 +1108,7 @@
         "Return flight on the 16th: send the confirmation",
         "Tennis kit",
         "Alpina and Forestis: a friend joins from the 6th, tell both hotels the second guest",
-        "Oct 5 hike: choose from Lisa's options at Imago Artis"
+        "Hikes: self-guided. Rossalm today, Seceda on the 7th, Puflatsch at dawn on the 8th. Tell Lisa thanks, no guide"
       ]
     }
   ],
