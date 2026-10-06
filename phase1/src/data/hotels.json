@@ -5688,7 +5688,7 @@
   "island_page": "worlds-50-best-51-100.html",
   "locale": "Above Bressanone, Dolomites, Italy",
   "img_dir": "dolomites/forestis",
-  "hero_img": "pool-dusk.jpg",
+  "hero_img": "tower-suite-view.jpg",
   "img2": "restaurant.jpg",
   "tagline": "A wellness retreat high above Bressanone, with the best view of the Odle of any luxury hotel in the Dolomites &mdash; built for peace, great food and complete disconnection.",
   "meta_desc": "Honest Forestis review from a travel advisor who stayed in October 2026: the view of the Odle, which tower suites to request, the spa and its saunas, half-board dining, service, getting there from Venice or Munich, and who it suits.",
@@ -5778,6 +5778,13 @@
    "country": "IT"
   },
   "gallery": [
+   {
+    "src": "/images/dolomites/forestis/pool-dusk.jpg",
+    "alt": "The Forestis outdoor pool at dusk, with loungers on the lawn and the peaks beyond",
+    "w": 1001,
+    "h": 1600,
+    "caption": "The outdoor pool at dusk"
+   },
    {
     "src": "/images/dolomites/forestis/spa-corridor.jpg",
     "alt": "A softly lit corridor leading into the Forestis spa",
