@@ -1,0 +1,72 @@
+---
+import HotelGuide from '../layouts/HotelGuide.astro';
+
+const g = {
+  canonical: 'lake-como.html',
+  title: 'Where to Stay on Lake Como — Hotel Guide (2026) | Suites With Keith',
+  description: 'Keith’s Lake Como hotel guide from October 2026 stays and site visits: Grand Hotel Tremezzo, Il Sereno, Passalacqua, Villa d’Este, the Lake Como EDITION and Villa Serbelloni — who each one suits, where on the lake to stay, and how to arrive by boat.',
+  hero: { img: '/images/lake-como-pairing/il-sereno-from-the-water.jpg', alt: 'Il Sereno seen from Lake Como, with a wooden Riva moored below the stone seawall', w: 1200, h: 1600 },
+  eyebrow: 'Destination guide &middot; Italy',
+  h1: 'Lake Como,<br><em>hotel by hotel</em>',
+  sub: 'Six hotels I stayed at or toured in October 2026, who each one is for, where on the lake to base yourself, and how to arrive by boat.',
+  cta: 'Plan my Lake Como stay',
+  deck: 'The first Lake Como decision isn&rsquo;t which hotel. It&rsquo;s which part of the lake.',
+  intro: [
+    'Near the town of Como &mdash; Cernobbio, Moltrasio and Torno &mdash; you&rsquo;re about an hour from Milan, with quieter villages and easy arrivals. In the middle of the lake &mdash; Tremezzo, Cadenabbia and Bellagio &mdash; you&rsquo;re where the lake is at its most beautiful, with the villages and villas a short boat ride away, but the road in is slow.',
+    'I stayed at Il Sereno, Villa Serbelloni and the EDITION, and toured Grand Hotel Tremezzo, Passalacqua and Villa d&rsquo;Este. Booking through me costs the same as booking direct, and my clients typically get a space-available upgrade, daily breakfast and a hotel credit on top &mdash; plus the cars and private boats that make Como easy.',
+  ],
+  picks: [
+    { trip: 'My favorite overall', slug: 'grand-hotel-tremezzo-lake-como', pick: 'Grand Hotel Tremezzo', why: '&mdash; fun, beautifully located facing Bellagio, and great for families.' },
+    { trip: 'The honeymoon', slug: 'passalacqua-lake-como', pick: 'Passalacqua', why: '&mdash; a 24-room villa only guests can enter, and the best honeymoon hotel on the lake.' },
+    { trip: 'Privacy &amp; the water', slug: 'il-sereno-lake-como', pick: 'Il Sereno', why: '&mdash; the best true lakefront hotel on Como, with every room facing the lake.' },
+    { trip: 'Tennis &amp; a town at the door', slug: 'villa-d-este-lake-como', pick: 'Villa d&rsquo;Este', why: '&mdash; eight clay courts, beautiful gardens and Cernobbio outside the gate.' },
+  ],
+  hotels_h2: 'Where I&rsquo;d stay on Lake Como',
+  hotels_deck: 'In the order I ranked them &mdash; and every one is right for someone.',
+  hotels: [
+    { slug: 'grand-hotel-tremezzo-lake-como', status: 'Mid-lake &middot; Toured, #01 in my ranking', img: '/images/lake-como/grand-hotel-tremezzo/garden-pool.jpg', alt: 'The garden pool at Grand Hotel Tremezzo',
+      note: 'Like stepping into a Wes Anderson film: tiered gardens with my favorite pool on the property, five restaurants, a clay court and lake-view junior suites facing Bellagio. It&rsquo;s lively, and outside guests come in numbers.' },
+    { slug: 'il-sereno-lake-como', status: 'Near Como &middot; Stayed, #02 in my ranking', img: '/images/lake-como-pairing/il-sereno-from-the-water.jpg', alt: 'Il Sereno from the lake',
+      note: 'I couldn&rsquo;t find a single fault. Patricia Urquiola&rsquo;s design right on the water in Torno, a heated pool, a hot tub in the old boathouse and its own Rivas. Private, quiet and built for couples.' },
+    { slug: 'passalacqua-lake-como', status: 'Near Como &middot; Toured, #03 in my ranking', img: '/images/proposals/lake-como/passalacqua/garden-lake.jpg', alt: 'Passalacqua’s terraced gardens above the lake',
+      note: 'A whimsical 18th-century villa that feels like your own home, with only 24 rooms and no outside guests. Not my personal style, but the best honeymoon hotel on the lake.' },
+    { slug: 'villa-d-este-lake-como', status: 'Near Como &middot; Toured, #04 in my ranking', img: '/images/tennis/villa-d-este.jpg', alt: 'Villa d’Este’s gardens and clay courts',
+      note: 'The lake&rsquo;s original grand hotel: polished, warm, livelier than its reputation, with eight clay courts and Cernobbio at the gate. A planned refresh should lift it further.' },
+    { slug: 'lake-como-edition', status: 'Mid-lake &middot; Stayed, #05 in my ranking', img: '/images/proposals/lake-como/edition/pool.jpg', alt: 'The pool at the Lake Como EDITION',
+      note: 'A lively 148-room EDITION next door to Grand Hotel Tremezzo, with an outstanding spa and gym. Book a lake view on the third floor or above.' },
+    { slug: 'villa-serbelloni-bellagio', status: 'Bellagio &middot; Stayed, #06 in my ranking', img: '/images/lake-como/villa-serbelloni/beach.jpg', alt: 'Villa Serbelloni’s beach and floating pier',
+      note: 'Very historic, with a stunning modern spa and the best lake swimming on Como. The decor is dated, and Bellagio is very crowded.' },
+  ],
+  versus: [
+    { href: '/il-sereno-vs-passalacqua.html', label: 'Il Sereno <em>or</em> Passalacqua', q: 'The lakefront hideaway or the honeymoon villa, ten minutes apart by boat.' },
+    { href: '/grand-hotel-tremezzo-vs-lake-como-edition.html', label: 'Grand Hotel Tremezzo <em>or</em> the EDITION', q: 'Next-door neighbors at the same price: classic Como or a modern scene.' },
+    { href: '/grand-hotel-tremezzo-vs-passalacqua.html', label: 'Grand Hotel Tremezzo <em>or</em> Passalacqua', q: 'Same family, two scales: the fun grand hotel or the private villa.' },
+    { href: '/grand-hotel-tremezzo-vs-villa-d-este.html', label: 'Grand Hotel Tremezzo <em>or</em> Villa d&rsquo;Este', q: 'The two grand classics: mid-lake, or close to Milan.' },
+    { href: '/lake-como-edition-vs-il-sereno.html', label: 'The EDITION <em>or</em> Il Sereno', q: 'The lake&rsquo;s two modern hotels: a scene, or a hideaway.' },
+    { href: '/villa-d-este-vs-villa-serbelloni.html', label: 'Villa d&rsquo;Este <em>or</em> Villa Serbelloni', q: 'Cernobbio&rsquo;s estate or the heart of Bellagio.' },
+  ],
+  know: [
+    { b: 'Arrive by boat for the middle of the lake.', t: 'The road from the town of Como to Tremezzo, Cadenabbia or Bellagio is narrow and takes 45 minutes to an hour. I arrange a private car from Milan to the water in Como, then about 30 minutes by private boat to your hotel&rsquo;s dock. For Passalacqua, Villa d&rsquo;Este, the Mandarin Oriental and Il Sereno, a car from Milan, about an hour, is simpler.' },
+    { b: 'See Bellagio, but think twice about sleeping there.', t: 'It&rsquo;s the lake&rsquo;s most famous village and very crowded, even in October. Visit by boat and come home somewhere calmer.' },
+    { b: 'Book boats through me.', t: 'Private boats for dinners across the lake, a day on the water or the move between hotels are the best part of Como. I work with the lake&rsquo;s best captains, at fair prices.' },
+    { b: 'Mind the season.', t: 'Most of the lake&rsquo;s luxury hotels close for winter. Il Sereno is open mid-March to October 26; Passalacqua stays open through New Year&rsquo;s. May, June and September are the sweet spot.' },
+    { b: 'Floating pools rock.', t: 'Several hotels have pools floating on the lake, which move with the water. If that bothers you, Il Sereno&rsquo;s heated pool is on land, and Grand Hotel Tremezzo&rsquo;s garden pool sits above the lake.' },
+  ],
+  pairing: {
+    h2: 'Two hotels, one lake.',
+    paras: [
+      'For a honeymoon, I&rsquo;d split the stay: two or three nights at Passalacqua, then a ten-minute private boat across the lake to Il Sereno. Two completely different stays, and only one travel day.',
+      'Or see all six hotels ranked, with category winners for honeymoons, families, tennis and more.',
+    ],
+    href: '/lake-como-pairing.html',
+    label: 'See the Passalacqua + Il Sereno pairing',
+  },
+  ask: {
+    subject: 'Inquiry — Lake Como',
+    page: 'lake-como',
+    placeholder: 'Lake Como in June, 5 nights',
+    deck: '&ldquo;Lake Como in June, honeymoon&rdquo; is a complete answer. I&rsquo;ll take it from there.',
+  },
+};
+---
+<HotelGuide g={g} />
