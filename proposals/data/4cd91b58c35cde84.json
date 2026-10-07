@@ -833,8 +833,8 @@
           "stay": {
             "name": "Venice, bed to confirm",
             "status": "pending",
-            "detail": "Nights of the 9th and 10th, single occupancy. Ca' di Dio agent rate asked for the new dates, St. Regis and Violino d'Oro told. Amex Fine Hotels as the backstop. Orient Express and the Danieli declined.",
-            "todo": "Book once the Ca' di Dio rate lands."
+            "detail": "Nights of the 9th and 10th, single occupancy. Ca' di Dio agent rate asked for the new dates. Violino d'Oro has one room for the 9th only, on option until 8 PM tonight, dedicated rate if it frees; nothing on the 10th. St. Regis told. Amex Fine Hotels as the backstop. Orient Express and the Danieli declined.",
+            "todo": "If Violino frees after 8 PM, take the 9th there and pair with Gabrielli or Ca' di Dio for the 10th. Otherwise book Ca' di Dio once the rate lands."
           },
           "items": [
             {
@@ -863,7 +863,7 @@
           "stay": {
             "name": "Venice, bed to confirm",
             "status": "pending",
-            "detail": "Second night. Gabrielli asked through Efy at Starhotels for the 10th, draft ready. Otherwise the same hotel as the 9th."
+            "detail": "Second night. Gabrielli asked through Efy at Starhotels for the 10th. Violino d'Oro is full this night. Otherwise the same hotel as the 9th."
           },
           "items": [
             {
@@ -1140,8 +1140,8 @@
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "La Dolce Vita Orient Express, Federico Talucci: which day, once sent",
         "Sporthotel Floralpina: visit and court on the 7th, sent",
-        "St. Regis Venice, Gabriela Jurubita: the 8th and 9th",
-        "Violino d'Oro, Andrea Bargigli: the 8th and 9th",
+        "St. Regis Venice, Gabriela Jurubita: the 9th and 10th",
+        "Violino d'Oro, Daniela: the 9th only, word after 8 PM tonight",
         "Ca' di Dio booking desk: agent rate",
         "Orient Express Venice: visit on the 9th at 10:30",
         "Airelles Palladio, Audrey: visit and lunch on the 9th",
