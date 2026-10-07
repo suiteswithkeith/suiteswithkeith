@@ -10,7 +10,7 @@
     "hero_image": "../images/destinations/como-castello.jpg",
     "hero_alt": "COMO Castello del Nero in the Chianti hills",
     "intro_eyebrow": "The plan, one page",
-    "hello": "Twenty four nights, eight regions, one rental car until Venice. Who, where, when, and what is still open.",
+    "hello": "Twenty four nights, eight regions, one rental car until Bolzano. Who, where, when, and what is still open.",
     "how_to_read": "Tap a region to jump to it. Each night shows the stay and the contact. The list at the bottom is what still needs doing.",
     "trip_start": "2026-09-22",
     "trip_end": "2026-10-16",
@@ -54,7 +54,7 @@
     },
     {
       "title": "Drive times",
-      "text": "Chianti to the coast about 3 hours. Coast to Cernobbio 2 hours 15. Como to the Dolomites 5 hours 30 by motorway, 6 hours 15 over the Engadin. Alpe di Siusi to Venice Marco Polo 3 hours 30. Venice to Rome 3 hours 50 by Frecciarossa, no car after Venice."
+      "text": "Chianti to the coast about 3 hours. Coast to Cernobbio 2 hours 15. Como to the Dolomites 5 hours 30 by motorway, 6 hours 15 over the Engadin. Alpina to Bolzano station 50 minutes, then trains: Verona, Venice, Rome."
     },
     {
       "title": "Pace",
@@ -772,63 +772,70 @@
     },
     {
       "id": "venice",
-      "name": "Venice",
-      "dates": "October 8 to 9",
-      "strip_label": "Ca' di Dio, Airelles, Orient Express",
-      "summary": "Two nights, bed to confirm. Car dropped at Marco Polo on the way in, train to Rome on the 10th. Orient Express and Airelles are visits on the 9th.",
-      "drive": "Alpe di Siusi to Venice Marco Polo about 3 hours 30 via Bolzano, Verona and the A4. Drop the car there. Water taxi to Cannaregio 30 minutes, or Alilaguna to Fondamente Nove.",
+      "name": "Verona & Venice",
+      "dates": "October 8 to 10",
+      "strip_label": "Verona, then two nights in Venice",
+      "summary": "Car back at Avis Bolzano station on the 8th, trains from there. Verona one night, Venice two. Train to Rome on the 11th.",
+      "drive": "Alpina to Avis at Bolzano station about 50 minutes. Bolzano to Verona by train about 1 hour 30, hourly. Verona to Venezia Santa Lucia 1 hour 10. Venice to Roma Termini 3 hours 50.",
       "groups": [],
       "days": [
         {
           "date": "2026-10-08",
-          "label": "October 8: Down to Venice",
+          "label": "October 8: Car back, train to Verona",
           "stay": {
-            "name": "Venice, bed to confirm",
-            "status": "pending",
-            "detail": "Ca' di Dio agent rate coming from the booking desk, or Amex Fine Hotels at about 1,000 a night. St. Regis and Violino d'Oro asked, no answer. Orient Express and the Danieli declined.",
-            "todo": "Book Ca' di Dio once the rate lands."
+            "name": "Verona, bed to ask",
+            "status": "open",
+            "detail": "Vista Palazzo Verona is the pick for the collection. Byblos Art Hotel Villa Amistà the alternative.",
+            "todo": "Pick the hotel and ask."
           },
           "items": [
             {
               "time": "7:30 AM",
               "title": "Puflatsch loop at first light",
               "status": "suggested",
-              "detail": "Lift from Compatsch, two and a half hours, the witches' benches. Back by 10:00 for the Venice drive."
+              "detail": "Lift from Compatsch, two and a half hours, the witches' benches. Back by 9:30."
+            },
+            {
+              "time": "9:30 AM",
+              "title": "Leave Alpina for Bolzano",
+              "status": "info",
+              "detail": "50 minutes."
             },
             {
               "time": "10:30 AM",
-              "title": "Leave Alpe di Siusi",
-              "status": "info",
-              "detail": "3 hours 30 to Marco Polo."
-            },
-            {
-              "time": "1:15 PM",
-              "title": "Drop the car at Avis, Venice Marco Polo",
+              "title": "Return the car, Avis at Bolzano station",
               "status": "todo",
-              "detail": "Change the Avis drop from Fiumicino on the 11th to Marco Polo on the 8th.",
-              "todo": "Call Avis."
+              "detail": "Change the Avis return from Fiumicino on the 11th to Bolzano on the 8th in the app.",
+              "todo": "Change the Avis return."
             },
             {
-              "time": "2:30 PM",
-              "title": "Water taxi to the hotel, check in, shoot",
+              "time": "11:00 AM",
+              "title": "Train to Verona Porta Nuova",
+              "status": "info",
+              "detail": "About 1 hour 30. Verona by 12:30."
+            },
+            {
+              "time": "Afternoon",
+              "title": "Verona: Piazza delle Erbe, the Arena, the old town",
               "status": "info"
             }
           ]
         },
         {
           "date": "2026-10-09",
-          "label": "October 9: Orient Express and Airelles visits",
+          "label": "October 9: Train to Venice, Airelles and Orient Express",
           "stay": {
-            "name": "Venice, same hotel as the 8th",
+            "name": "Venice, bed to confirm",
             "status": "pending",
-            "detail": "Two nights in one place."
+            "detail": "Nights of the 9th and 10th. Ca' di Dio agent rate asked for the new dates, St. Regis and Violino d'Oro told. Amex Fine Hotels as the backstop. Orient Express and the Danieli declined.",
+            "todo": "Book once the Ca' di Dio rate lands."
           },
           "items": [
             {
-              "time": "10:30 AM",
-              "title": "Orient Express Palazzo Donà Giovannelli, site visit",
-              "status": "pending",
-              "detail": "Asked Egle for 10:30 and a Venice contact, sent. Cannaregio."
+              "time": "9:00 AM",
+              "title": "Train Verona to Venezia Santa Lucia",
+              "status": "info",
+              "detail": "1 hour 10. In by 10:15, drop bags at the hotel."
             },
             {
               "time": "12:30 PM",
@@ -837,8 +844,30 @@
               "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. Friday proposed, sent. Giudecca, water taxi."
             },
             {
+              "time": "3:30 PM",
+              "title": "Orient Express Palazzo Donà Giovannelli, site visit",
+              "status": "pending",
+              "detail": "Asked Egle to move from 10:30 to 3:30, draft ready. Cannaregio, near Santa Lucia."
+            }
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "label": "October 10: Venice",
+          "stay": {
+            "name": "Venice, same hotel as the 9th",
+            "status": "pending",
+            "detail": "Second night."
+          },
+          "items": [
+            {
+              "time": "Day",
+              "title": "Venice: shoot the hotel, the Danieli for a drink, Giudecca at sunset",
+              "status": "info"
+            },
+            {
               "time": "Evening",
-              "title": "Free. Dinner in Venice.",
+              "title": "Dinner in Venice",
               "status": "info"
             }
           ]
@@ -848,42 +877,13 @@
     {
       "id": "rome",
       "name": "Rome",
-      "dates": "October 10 to 13",
+      "dates": "October 11 to 13",
       "strip_label": "Train in, Eden, La Minerva",
-      "summary": "Frecciarossa from Venice on the 10th. Bed for the 10th to ask, Eden hosted on the 11th. La Minerva the 12th once Egle moves the comp.",
+      "summary": "Frecciarossa from Venice on the 11th. Eden hosted on the 11th, La Minerva the 12th.",
       "days": [
         {
-          "date": "2026-10-10",
-          "label": "October 10: Train to Rome",
-          "stay": {
-            "name": "Rome, bed to ask",
-            "status": "open",
-            "detail": "Ask the Eden for the 10th as well. Otherwise de Russie, Six Senses or Bulgari for the night.",
-            "todo": "Ask Tristan at the Eden for the 10th."
-          },
-          "items": [
-            {
-              "time": "9:25 AM",
-              "title": "Frecciarossa, Venezia Santa Lucia to Roma Termini",
-              "status": "todo",
-              "detail": "About 3 hours 50. Book once the Rome bed is set.",
-              "todo": "Book the train."
-            },
-            {
-              "time": "1:30 PM",
-              "title": "Arrive Rome, check in",
-              "status": "info"
-            },
-            {
-              "time": "Afternoon",
-              "title": "Free. First Rome content.",
-              "status": "info"
-            }
-          ]
-        },
-        {
           "date": "2026-10-11",
-          "label": "October 11: Rome, the Eden",
+          "label": "October 11: Train to Rome, the Eden",
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
@@ -891,16 +891,22 @@
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Eden tour with the team",
-              "status": "pending",
-              "detail": "Elena Sgro asked Sunday or Monday. Sunday offered, reply drafted."
+              "time": "10:25 AM",
+              "title": "Frecciarossa, Venezia Santa Lucia to Roma Termini",
+              "status": "todo",
+              "detail": "About 3 hours 50. Book it.",
+              "todo": "Book the train."
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Arrive Rome, taxi to the Eden",
+              "status": "info"
             },
             {
               "time": "3:00 PM",
               "title": "Check in at the Eden",
               "status": "confirmed",
-              "detail": "Giulio Pannunzi told 3:00. Nut allergy noted."
+              "detail": "Giulio Pannunzi told 3:00. Nut allergy noted. Tour with the team Sunday or Monday morning, Elena asked."
             }
           ]
         },
@@ -1066,7 +1072,10 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
-        "Venice bed: book Ca' di Dio when the agent rate arrives, Amex if it's higher",
+        "Verona: hosting ask for the 8th once the hotel is picked",
+        "Venice: Ca' di Dio rate, St. Regis and Violino d'Oro, dates now the 9th and 10th (three drafts ready)",
+        "Orient Express: Egle, move Friday's visit to 3:30 (draft ready)",
+        "Banfi: Maddalena, cancel the 9th (draft ready)",
         "EDITION: boat for the arrival shoot as marketing, not a 220 excursion (draft ready)",
         "EDITION: Edwin, barber at Idee Per La Testa at 3:00 today (draft ready, send now)",
         "Monteverdi: Lucia, cancel the hosted night on the 9th with thanks (draft ready)",
@@ -1077,7 +1086,6 @@
         "Corte della Maestà: withdraw the 10th (draft ready)",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
-        "Hotel Eden: Elena and Tristan, Sunday tour, add the 10th (draft ready)",
         "La Dolce Vita: Fede, yes to 8:30 on the 12th (draft ready)",
         "Passalacqua: Gaia, start at 12:00 and Tremezzo at 1:30 (draft ready)",
         "Boats: one line each to Antonio, Boat2Go, Lake Como Experiences and Como Classic Boats, Friday is by car",
@@ -1096,8 +1104,8 @@
     {
       "title": "Decide and fix",
       "items": [
-        "Avis: call, move the drop to Venice Marco Polo on the 8th",
-        "Train: Venice to Rome on the 10th, book once the Rome bed is set",
+        "Avis: change the return to Bolzano station on the 8th",
+        "Trains: Bolzano to Verona on the 8th, Verona to Venice on the 9th, Venice to Rome on the 11th",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
