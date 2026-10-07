@@ -831,10 +831,10 @@
           "date": "2026-10-09",
           "label": "October 9: Train to Venice, Airelles and Orient Express",
           "stay": {
-            "name": "Venice, bed to confirm",
+            "name": "Violino d'Oro, Venice",
             "status": "pending",
-            "detail": "Nights of the 9th and 10th, single occupancy. Ca' di Dio agent rate asked for the new dates. Violino d'Oro has one room for the 9th only, on option until 8 PM tonight, dedicated rate if it frees; nothing on the 10th. St. Regis told. Amex Fine Hotels as the backstop. Orient Express and the Danieli declined.",
-            "todo": "If Violino frees after 8 PM, take the 9th there and pair with Gabrielli or Ca' di Dio for the 10th. Otherwise book Ca' di Dio once the rate lands."
+            "detail": "Executive Supreme, single occupancy, 890 euros with breakfast against 1,636 online. Room released at 5:49 PM on the 7th, Daniela Iacovlev holding it for a yes. No room inspection, public areas and history tour offered. San Marco, five minutes on foot from the Danieli.",
+            "todo": "Send the yes to Daniela, draft ready. Reply fast, the room goes back on sale otherwise."
           },
           "items": [
             {
@@ -861,9 +861,10 @@
           "date": "2026-10-10",
           "label": "October 10: The Danieli and Aman visits",
           "stay": {
-            "name": "Venice, bed to confirm",
+            "name": "Venice, second night to confirm",
             "status": "pending",
-            "detail": "Second night. Gabrielli asked through Efy at Starhotels for the 10th. Violino d'Oro is full this night. Otherwise the same hotel as the 9th."
+            "detail": "Violino d'Oro is full this night. Gabrielli asked through Efy at Starhotels, Ca' di Dio agent rate asked, St. Regis told. Amex Fine Hotels as the backstop at about 1,000 dollars. Check out of Violino in the morning, leave the bag, move after the Danieli.",
+            "todo": "Book once Gabrielli or Ca' di Dio answers."
           },
           "items": [
             {
@@ -1141,7 +1142,6 @@
         "La Dolce Vita Orient Express, Federico Talucci: which day, once sent",
         "Sporthotel Floralpina: visit and court on the 7th, sent",
         "St. Regis Venice, Gabriela Jurubita: the 9th and 10th",
-        "Violino d'Oro, Daniela: the 9th only, word after 8 PM tonight",
         "Ca' di Dio booking desk: agent rate",
         "Orient Express Venice: visit on the 9th at 10:30",
         "Airelles Palladio, Audrey: visit and lunch on the 9th",
