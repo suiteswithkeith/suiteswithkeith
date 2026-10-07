@@ -783,10 +783,10 @@
           "date": "2026-10-08",
           "label": "October 8: Car back, train to Verona",
           "stay": {
-            "name": "Verona, bed to ask",
-            "status": "open",
-            "detail": "Vista Palazzo Verona is the pick for the collection. Byblos Art Hotel Villa Amistà the alternative.",
-            "todo": "Pick the hotel and ask."
+            "name": "Vista Palazzo Verona, asked",
+            "status": "pending",
+            "detail": "Hosted night or advisor rate asked through the general inbox, draft ready. +39 045 1117 0880. Fora rate from about 1,800 for a Prestige Suite as the backstop.",
+            "todo": "Send, then call to make sure it reached sales."
           },
           "items": [
             {
@@ -1072,7 +1072,7 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
-        "Verona: hosting ask for the 8th once the hotel is picked",
+        "Vista Palazzo Verona: hosting or advisor rate for the 8th (draft ready, send and call)",
         "Venice: Ca' di Dio rate, St. Regis and Violino d'Oro, dates now the 9th and 10th (three drafts ready)",
         "Orient Express: Egle, move Friday's visit to 3:30 (draft ready)",
         "Banfi: Maddalena, cancel the 9th (draft ready)",
