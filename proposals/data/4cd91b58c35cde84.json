@@ -785,7 +785,7 @@
           "stay": {
             "name": "Vista Palazzo Verona, asked",
             "status": "pending",
-            "detail": "Hosted night or advisor rate asked through the general inbox, draft ready. +39 045 1117 0880. Fora rate from about 1,800 for a Prestige Suite as the backstop.",
+            "detail": "Hosted night or advisor rate asked through the general inbox, single occupancy, draft ready. +39 045 1117 0880. Fora rate from about 1,800 for a Prestige Suite as the backstop.",
             "todo": "Send, then call to make sure it reached sales."
           },
           "items": [
@@ -800,6 +800,12 @@
               "title": "Leave Alpina for Bolzano",
               "status": "info",
               "detail": "50 minutes."
+            },
+            {
+              "time": "10:30 AM",
+              "title": "Matt leaves from Bolzano",
+              "status": "info",
+              "detail": "Solo from here."
             },
             {
               "time": "10:30 AM",
@@ -827,7 +833,7 @@
           "stay": {
             "name": "Venice, bed to confirm",
             "status": "pending",
-            "detail": "Nights of the 9th and 10th. Ca' di Dio agent rate asked for the new dates, St. Regis and Violino d'Oro told. Amex Fine Hotels as the backstop. Orient Express and the Danieli declined.",
+            "detail": "Nights of the 9th and 10th, single occupancy. Ca' di Dio agent rate asked for the new dates, St. Regis and Violino d'Oro told. Amex Fine Hotels as the backstop. Orient Express and the Danieli declined.",
             "todo": "Book once the Ca' di Dio rate lands."
           },
           "items": [
@@ -841,13 +847,13 @@
               "time": "12:30 PM",
               "title": "Airelles Palladio, visit and lunch with Audrey Di Fruscia",
               "status": "pending",
-              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. Friday proposed, sent. Giudecca, water taxi."
+              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. Friday proposed, sent. Solo, correction drafted. Giudecca, water taxi."
             },
             {
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "pending",
-              "detail": "Asked Egle to move from 10:30 to 3:30, draft ready. Cannaregio, near Santa Lucia."
+              "detail": "Asked Egle to move from 10:30 to 3:30, solo, draft ready. Cannaregio, near Santa Lucia."
             }
           ]
         },
@@ -1110,7 +1116,6 @@
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
         "Tennis kit",
-        "Alpina and Forestis: a friend joins from the 6th, tell both hotels the second guest",
         "Hikes: self-guided. Rossalm today, Seceda on the 7th, Puflatsch at dawn on the 8th. Tell Lisa thanks, no guide"
       ]
     }
