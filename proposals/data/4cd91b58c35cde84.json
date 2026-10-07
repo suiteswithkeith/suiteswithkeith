@@ -774,19 +774,19 @@
       "id": "venice",
       "name": "Venice",
       "dates": "October 8 to 9",
-      "strip_label": "Orient Express, the Danieli",
-      "summary": "Two nights, two openings. Car dropped at Marco Polo on the way in, train to Rome on the 10th.",
+      "strip_label": "Ca' di Dio, Airelles, Orient Express",
+      "summary": "Two nights, bed to confirm. Car dropped at Marco Polo on the way in, train to Rome on the 10th. Orient Express and Airelles are visits on the 9th.",
       "drive": "Alpe di Siusi to Venice Marco Polo about 3 hours 30 via Bolzano, Verona and the A4. Drop the car there. Water taxi to Cannaregio 30 minutes, or Alilaguna to Fondamente Nove.",
       "groups": [],
       "days": [
         {
           "date": "2026-10-08",
-          "label": "October 8: Down to Venice, Orient Express",
+          "label": "October 8: Down to Venice",
           "stay": {
-            "name": "Orient Express Palazzo Donà Giovannelli, Cannaregio",
-            "status": "open",
-            "detail": "Opened April 2026, 47 keys on Rio di Noale. Hosting or advisor rate to ask for the 8th, through Egle at La Minerva or direct.",
-            "todo": "Ask Orient Express for the 8th."
+            "name": "Venice, bed to confirm",
+            "status": "pending",
+            "detail": "Ca' di Dio agent rate coming from the booking desk, or Amex Fine Hotels at about 1,000 a night. St. Regis and Violino d'Oro asked, no answer. Orient Express and the Danieli declined.",
+            "todo": "Book Ca' di Dio once the rate lands."
           },
           "items": [
             {
@@ -812,33 +812,29 @@
               "time": "2:30 PM",
               "title": "Water taxi to the hotel, check in, shoot",
               "status": "info"
-            },
-            {
-              "time": "Evening",
-              "title": "Drink at the Danieli, look at the terrace",
-              "status": "suggested"
             }
           ]
         },
         {
           "date": "2026-10-09",
-          "label": "October 9: Venice, the Danieli",
+          "label": "October 9: Orient Express and Airelles visits",
           "stay": {
-            "name": "The Danieli, A Four Seasons Hotel",
-            "status": "open",
-            "detail": "Reopened August 26 after the restoration. Pasquale Priore, Director of Travel Industry Sales, +39 348 256 0158, via Hanna at Four Seasons Florence. Hosted night asked for the 8th or 9th, draft ready.",
-            "todo": "Send Pasquale."
+            "name": "Venice, same hotel as the 8th",
+            "status": "pending",
+            "detail": "Two nights in one place."
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Shoot Orient Express, tour with the team",
-              "status": "info"
+              "time": "10:30 AM",
+              "title": "Orient Express Palazzo Donà Giovannelli, site visit",
+              "status": "pending",
+              "detail": "Asked Egle for 10:30 and a Venice contact, sent. Cannaregio."
             },
             {
-              "time": "Afternoon",
-              "title": "Danieli check in, shoot the rooms and the terrace",
-              "status": "info"
+              "time": "12:30 PM",
+              "title": "Airelles Palladio, visit and lunch with Audrey Di Fruscia",
+              "status": "pending",
+              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. Friday proposed, sent. Giudecca, water taxi."
             },
             {
               "time": "Evening",
@@ -1070,6 +1066,7 @@
       "title": "Send",
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
+        "Venice bed: book Ca' di Dio when the agent rate arrives, Amex if it's higher",
         "EDITION: boat for the arrival shoot as marketing, not a 220 excursion (draft ready)",
         "EDITION: Edwin, barber at Idee Per La Testa at 3:00 today (draft ready, send now)",
         "Monteverdi: Lucia, cancel the hosted night on the 9th with thanks (draft ready)",
@@ -1080,8 +1077,6 @@
         "Corte della Maestà: withdraw the 10th (draft ready)",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
-        "Orient Express: Egle, hosted night or advisor rate for Venice on the 8th (draft ready)",
-        "The Danieli: Pasquale Priore, hosted night on the 8th or 9th (draft ready)",
         "Hotel Eden: Elena and Tristan, Sunday tour, add the 10th (draft ready)",
         "La Dolce Vita: Fede, yes to 8:30 on the 12th (draft ready)",
         "Passalacqua: Gaia, start at 12:00 and Tremezzo at 1:30 (draft ready)",
@@ -1121,7 +1116,12 @@
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "La Dolce Vita Orient Express, Federico Talucci: which day, once sent",
-        "Sporthotel Floralpina: visit and court on the 7th, sent"
+        "Sporthotel Floralpina: visit and court on the 7th, sent",
+        "St. Regis Venice, Gabriela Jurubita: the 8th and 9th",
+        "Violino d'Oro, Andrea Bargigli: the 8th and 9th",
+        "Ca' di Dio booking desk: agent rate",
+        "Orient Express Venice: visit on the 9th at 10:30",
+        "Airelles Palladio, Audrey: visit and lunch on the 9th"
       ]
     },
     {
