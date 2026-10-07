@@ -1,0 +1,154 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faq = [
+  ['How many people does the Forestis Villa sleep?', 'Up to ten guests, across five bedrooms.'],
+  ['How much does the Forestis Villa cost?', 'It starts at about &euro;25,000 a night. Rates vary by season, so ask me for your dates.'],
+  ['Are children allowed at the Forestis Villa?', 'Yes. The Forestis hotel itself is for guests aged 14 and over, but children are welcome in the villa, which makes it the way to bring a family with younger kids.'],
+  ['What&rsquo;s included at the villa?', 'A dedicated team of 14 staff, a private pool, a private spa with a sauna, steam room and cold plunge, and a fully equipped gym. Guests can also enjoy the hotel&rsquo;s restaurants and spa.'],
+  ['How do you get to Forestis?', 'From Venice, about three and a half hours by train via Verona to Bressanone, then 25 minutes by car. There&rsquo;s also a direct train from Munich, Innsbruck is the closest major airport, and a helicopter is an option. I arrange all of it for the whole group.'],
+];
+
+const kv = [
+  ['Bedrooms', '<b>5</b>, sleeping up to 10'],
+  ['Staff', '<b>14</b>, dedicated to the villa'],
+  ['Wellness', 'Private pool, private spa with sauna, steam and cold plunge, and a fully equipped gym'],
+  ['Children', 'Welcome in the villa (the hotel is 14+)'],
+  ['From', 'About &euro;25,000 a night'],
+];
+---
+<Layout
+  canonical="forestis-villa-dolomites.html"
+  title="Forestis Villa: The Ultimate Private Villa in the Dolomites | Suites With Keith"
+  description="Keith's firsthand look at the Forestis Villa above Bressanone: five bedrooms for up to ten guests, 14 dedicated staff, a private pool and spa, a gym, and children welcome. The ultimate private villa in the Dolomites, from about EUR 25,000 a night."
+  preload="/images/dolomites/forestis/tower-suite-view.jpg"
+  ctaLabel="Ask about the villa"
+>
+
+<script type="application/ld+json" slot="head" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q.replace(/&rsquo;/g, '’'), acceptedAnswer: { '@type': 'Answer', text: a.replace(/&rsquo;/g, '’').replace(/&euro;/g, '€') } })),
+})} />
+
+<header class="hero" style="min-height:min(78svh,720px);">
+  <img class="hero-img" src="/images/dolomites/forestis/tower-suite-view.jpg" alt="Looking out from Forestis at the Odle peaks at golden hour" width="1800" height="1350" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">The Dolomites &middot; Toured October 2026</p>
+    <h1 class="display-xl" style="margin-top:18px;">The Forestis Villa</h1>
+    <p class="sub">The ultimate private villa in the Dolomites: five bedrooms, a team of 14, a private pool and spa, and the Odle on the horizon. Children welcome.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Ask about the villa</a>
+      <a class="btn btn-ghost on-shadow" href="/hotels/forestis-dolomites.html" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">Read my Forestis review</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <p class="deck" style="max-width:44ch;">I toured the villa during my stay at Forestis, and it was truly stunning.</p>
+      <p class="body-2" style="margin-top:20px; max-width:58ch;">Set at the entrance to Forestis, high above Bressanone, the villa is a private world within one of the finest wellness retreats in the Alps. It sleeps ten across five bedrooms, with a team of 14 staff dedicated just to the villa, so it feels like having your own hotel within the hotel.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">You have your own pool, your own spa with a sauna, steam room and cold plunge, and a fully equipped gym, and it&rsquo;s incredibly private all around. When you want more, the hotel&rsquo;s restaurants, its spa and the best view of the Odle in the Dolomites are steps away.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">One detail matters a lot for families: the Forestis hotel is for guests aged 14 and over, but children are welcome in the villa. For a milestone birthday, a family celebration or a group of friends, there&rsquo;s nothing like it in the Dolomites.</p>
+    </div>
+    <div class="reveal">
+      <dl class="kv">
+        {kv.map(([k, v]) => <div class="kv-row"><dt set:html={k} /><dd set:html={v} /></div>)}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="photos reveal">
+      <figure><img src="/images/dolomites/forestis/pool-dusk.jpg" alt="The Forestis outdoor pool at dusk with the peaks beyond" width="1001" height="1600" loading="lazy" decoding="async" /><figcaption>The Forestis grounds at dusk</figcaption></figure>
+      <figure><img src="/images/dolomites/forestis/spa-corridor.jpg" alt="A warmly lit corridor into the Forestis spa" width="919" height="1600" loading="lazy" decoding="async" /><figcaption>Wellness is the point here</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section band on-shadow">
+  <div class="container" style="max-width:860px;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Who it&rsquo;s for</span>
+    <h2 class="display-l reveal">A family celebration, a group of friends, or a reunion</h2>
+    <p class="body-2 reveal" style="margin-top:22px; max-width:58ch;">Split between ten guests, the villa is a remarkable way to experience Forestis: complete privacy, a dedicated team, and the hotel&rsquo;s spa and dining whenever you want them. It&rsquo;s the only way to bring younger children to Forestis, and the way I&rsquo;d plan a milestone trip to the Dolomites for a group.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:860px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Getting the group there</span>
+      <h2 class="display-l">Logistics, handled</h2>
+    </div>
+    <dl class="kv reveal">
+      <div class="kv-row"><dt>From Venice</dt><dd>About three and a half hours by train via Verona to Bressanone, then 25 minutes by car</dd></div>
+      <div class="kv-row"><dt>From Munich</dt><dd>A direct train to Bressanone (Brixen)</dd></div>
+      <div class="kv-row"><dt>By air</dt><dd>Innsbruck is the closest major airport, or arrive by helicopter</dd></div>
+      <div class="kv-row"><dt>I arrange</dt><dd>Trains, private transfers for the whole group, guided hikes and the rest of your Italy trip</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:820px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Before you ask</span>
+      <h2 class="display-l">The questions I get</h2>
+    </div>
+    <div class="faq reveal">
+      {faq.map(([q, a]) => (
+        <details>
+          <summary set:html={q} />
+          <p class="body-2" set:html={a} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">The Forestis Villa</span>
+    <h2 class="display-l reveal">When are you thinking?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;">Tell me your dates, the size of your group and the occasion. I&rsquo;ll check the villa and plan how everyone gets there.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Forestis Villa inquiry" />
+      <input type="hidden" name="hotel" value="Forestis Villa, Dolomites" />
+      <input type="hidden" name="page" value="forestis-villa-dolomites" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">When are you thinking?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="July 2027 · 4 nights · 8 guests" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the plan?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Occasion, kids&rsquo; ages, the rest of the trip &mdash; optional</label>
+        <input id="q-details" type="text" name="details" placeholder="60th birthday · two kids, 9 and 12 · then Venice" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn" data-gtag-label="villa_inquiry_send" data-gtag-location="villa_cta">Send</button>
+      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.4fr 1fr; gap: 80px; } }
+  .intro-grid > * { min-width: 0; }
+  .photos img { aspect-ratio: 4/5; }
+  .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }
+  .faq details:last-child { border-bottom: 1px solid var(--hairline); }
+  .faq summary { cursor: pointer; font-family: var(--display); font-size: 1.2rem; list-style: none; position: relative; padding-right: 28px; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; position: absolute; right: 0; top: 0; color: var(--brass); font-family: var(--body); }
+  .faq details[open] summary::after { content: "\2013"; }
+  .faq details p { margin-top: 12px; max-width: 62ch; }
+</style>
