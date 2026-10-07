@@ -859,17 +859,24 @@
         },
         {
           "date": "2026-10-10",
-          "label": "October 10: Venice",
+          "label": "October 10: The Danieli and Aman visits",
           "stay": {
-            "name": "Venice, same hotel as the 9th",
+            "name": "Venice, bed to confirm",
             "status": "pending",
-            "detail": "Second night."
+            "detail": "Second night. Gabrielli asked through Efy at Starhotels for the 10th, draft ready. Otherwise the same hotel as the 9th."
           },
           "items": [
             {
-              "time": "Day",
-              "title": "Venice: shoot the hotel, the Danieli for a drink, Giudecca at sunset",
-              "status": "info"
+              "time": "10:30 AM",
+              "title": "The Danieli, A Four Seasons Hotel, site visit",
+              "status": "pending",
+              "detail": "Pasquale declined the stay and is away until the 12th. Eva Reidt covers. Saturday 10:30 proposed, Friday 5:00 as the alternative, draft ready."
+            },
+            {
+              "time": "3:00 PM",
+              "title": "Aman Venice, site visit",
+              "status": "pending",
+              "detail": "Asked Elisa at Rosa Alpina for an intro to Venice sales, draft ready. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "Evening",
@@ -1079,6 +1086,9 @@
       "items": [
         "Belmond: one line to Andrea releasing tomorrow's visits, Thomas copied, if nothing by 9:00",
         "Vista Palazzo Verona: hosting or advisor rate for the 8th (draft ready, send and call)",
+        "The Danieli: Pasquale and Eva, site visit Saturday 10:30 (draft ready)",
+        "Aman Venice: Elisa, intro for a Saturday 3:00 visit (draft ready)",
+        "Gabrielli: Efy at Starhotels, the 10th (draft ready)",
         "Venice: Ca' di Dio rate, St. Regis and Violino d'Oro, dates now the 9th and 10th (three drafts ready)",
         "Orient Express: Egle, move Friday's visit to 3:30 (draft ready)",
         "Banfi: Maddalena, cancel the 9th (draft ready)",
@@ -1134,7 +1144,11 @@
         "Violino d'Oro, Andrea Bargigli: the 8th and 9th",
         "Ca' di Dio booking desk: agent rate",
         "Orient Express Venice: visit on the 9th at 10:30",
-        "Airelles Palladio, Audrey: visit and lunch on the 9th"
+        "Airelles Palladio, Audrey: visit and lunch on the 9th",
+        "The Danieli, Eva Reidt: visit on the 10th",
+        "Aman Venice via Elisa: visit on the 10th",
+        "Vista Palazzo Verona: the 8th",
+        "Hotel Gabrielli, Efy Ioannides: the 10th"
       ]
     },
     {
