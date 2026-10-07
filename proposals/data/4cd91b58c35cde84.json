@@ -10,7 +10,7 @@
     "hero_image": "../images/destinations/como-castello.jpg",
     "hero_alt": "COMO Castello del Nero in the Chianti hills",
     "intro_eyebrow": "The plan, one page",
-    "hello": "Twenty four nights, eight regions, one rental car until Bolzano. Who, where, when, and what is still open.",
+    "hello": "Twenty four nights, eight regions, one rental car until Verona. Who, where, when, and what is still open.",
     "how_to_read": "Tap a region to jump to it. Each night shows the stay and the contact. The list at the bottom is what still needs doing.",
     "trip_start": "2026-09-22",
     "trip_end": "2026-10-16",
@@ -54,7 +54,7 @@
     },
     {
       "title": "Drive times",
-      "text": "Chianti to the coast about 3 hours. Coast to Cernobbio 2 hours 15. Como to the Dolomites 5 hours 30 by motorway, 6 hours 15 over the Engadin. Alpina to Bolzano station 50 minutes, then trains: Verona, Venice, Rome."
+      "text": "Chianti to the coast about 3 hours. Coast to Cernobbio 2 hours 15. Como to the Dolomites 5 hours 30 by motorway, 6 hours 15 over the Engadin. Alpina to Verona 2 hours 15, car back there, then trains to Venice and Rome."
     },
     {
       "title": "Pace",
@@ -775,13 +775,13 @@
       "name": "Verona & Venice",
       "dates": "October 8 to 10",
       "strip_label": "Verona, then two nights in Venice",
-      "summary": "Car back at Avis Bolzano station on the 8th, trains from there. Verona one night, Venice two. Train to Rome on the 11th.",
-      "drive": "Alpina to Avis at Bolzano station about 50 minutes. Bolzano to Verona by train about 1 hour 30, hourly. Verona to Venezia Santa Lucia 1 hour 10. Venice to Roma Termini 3 hours 50.",
+      "summary": "Drive to Verona on the 8th, car back at Avis Verona Porta Nuova. Verona one night, Venice two by train. Train to Rome on the 11th.",
+      "drive": "Alpina to Verona Porta Nuova about 2 hours 15 on the A22, Bolzano station on the way for Matt. Verona to Venezia Santa Lucia 1 hour 10 by train. Venice to Roma Termini 3 hours 50.",
       "groups": [],
       "days": [
         {
           "date": "2026-10-08",
-          "label": "October 8: Car back, train to Verona",
+          "label": "October 8: Drive to Verona, car back",
           "stay": {
             "name": "Vista Palazzo Verona, asked",
             "status": "pending",
@@ -791,34 +791,34 @@
           "items": [
             {
               "time": "7:30 AM",
-              "title": "Puflatsch loop at first light",
+              "title": "Puflatsch loop at first light, if the rain holds off",
               "status": "suggested",
-              "detail": "Lift from Compatsch, two and a half hours, the witches' benches. Back by 9:30."
+              "detail": "Lift from Compatsch, two and a half hours. Skip it if it's pouring."
             },
             {
               "time": "9:30 AM",
-              "title": "Leave Alpina for Bolzano",
+              "title": "Leave Alpina",
               "status": "info",
-              "detail": "50 minutes."
+              "detail": "30 minutes down to the valley, then the A22."
             },
             {
-              "time": "10:30 AM",
-              "title": "Matt leaves from Bolzano",
+              "time": "10:15 AM",
+              "title": "Drop Matt at Bolzano station",
               "status": "info",
-              "detail": "Solo from here."
+              "detail": "Right off the A22. Solo from here."
             },
             {
-              "time": "10:30 AM",
-              "title": "Return the car, Avis at Bolzano station",
+              "time": "12:15 PM",
+              "title": "Return the car, Avis at Verona Porta Nuova station",
               "status": "todo",
-              "detail": "Change the Avis return from Fiumicino on the 11th to Bolzano on the 8th in the app.",
+              "detail": "Change the Avis return from Fiumicino on the 11th to Verona Porta Nuova on the 8th in the app. Check Thursday hours.",
               "todo": "Change the Avis return."
             },
             {
-              "time": "11:00 AM",
-              "title": "Train to Verona Porta Nuova",
+              "time": "12:30 PM",
+              "title": "Taxi to Vista Palazzo, 10 minutes",
               "status": "info",
-              "detail": "About 1 hour 30. Verona by 12:30."
+              "detail": "No car in the ZTL."
             },
             {
               "time": "Afternoon",
@@ -1110,8 +1110,8 @@
     {
       "title": "Decide and fix",
       "items": [
-        "Avis: change the return to Bolzano station on the 8th",
-        "Trains: Bolzano to Verona on the 8th, Verona to Venice on the 9th, Venice to Rome on the 11th",
+        "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
+        "Trains: Verona to Venice on the 9th, Venice to Rome on the 11th",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
