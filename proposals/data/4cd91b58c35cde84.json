@@ -781,12 +781,12 @@
       "days": [
         {
           "date": "2026-10-08",
-          "label": "October 8: Drive to Verona, car back",
+          "label": "October 8: Alpina inspection, drive to Verona, car back",
           "stay": {
-            "name": "Vista Palazzo Verona, asked",
-            "status": "pending",
-            "detail": "Hosted night or advisor rate asked through the general inbox, single occupancy, draft ready. +39 045 1117 0880. Fora rate from about 1,800 for a Prestige Suite as the backstop.",
-            "todo": "Send, then call to make sure it reached sales."
+            "name": "Vista Palazzo Verona",
+            "status": "confirmed",
+            "detail": "Hosted night confirmed by Ilma Savu, breakfast included, confirmation attached to her email of the 7th. Tour plus time to shoot the suites and the rooftop. Corticella Leoni 3, inside the ZTL.",
+            "todo": "Send the ETA reply, draft ready: 12:45 by taxi, one guest."
           },
           "items": [
             {
@@ -794,6 +794,12 @@
               "title": "Puflatsch loop at first light, if the rain holds off",
               "status": "suggested",
               "detail": "Lift from Compatsch, two and a half hours. Skip it if it's pouring."
+            },
+            {
+              "time": "8:30 AM",
+              "title": "COMO Alpina site inspection with Deborah Carlin",
+              "status": "pending",
+              "detail": "Deborah offered Thursday morning. Not answered yet. Fits before the 9:30 departure."
             },
             {
               "time": "9:30 AM",
@@ -829,7 +835,7 @@
         },
         {
           "date": "2026-10-09",
-          "label": "October 9: Train to Venice, Airelles and Orient Express",
+          "label": "October 9: Train to Venice, Airelles, Orient Express, Danieli",
           "stay": {
             "name": "Violino d'Oro, Venice",
             "status": "pending",
@@ -847,19 +853,25 @@
               "time": "12:30 PM",
               "title": "Airelles Palladio, visit and lunch with Audrey Di Fruscia",
               "status": "pending",
-              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. Friday proposed, sent. Solo, correction drafted. Giudecca, water taxi."
+              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. Friday 12:30 proposed and solo correction sent, waiting on Audrey to confirm the time. Giudecca, water taxi."
             },
             {
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
-              "status": "pending",
-              "detail": "Asked Egle to move from 10:30 to 3:30, solo, draft ready. Cannaregio, near Santa Lucia."
+              "status": "confirmed",
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio, near Santa Lucia."
+            },
+            {
+              "time": "5:00 PM",
+              "title": "The Danieli, A Four Seasons Hotel, site visit",
+              "status": "confirmed",
+              "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. Water taxi from Cannaregio about 15 minutes, leave Orient Express by 4:40."
             }
           ]
         },
         {
           "date": "2026-10-10",
-          "label": "October 10: The Danieli and Aman visits",
+          "label": "October 10: Aman visit, move hotels",
           "stay": {
             "name": "Venice, second night to confirm",
             "status": "pending",
@@ -868,21 +880,22 @@
           },
           "items": [
             {
-              "time": "10:30 AM",
-              "title": "The Danieli, A Four Seasons Hotel, site visit",
-              "status": "pending",
-              "detail": "Pasquale declined the stay and is away until the 12th. Eva Reidt covers. Saturday 10:30 proposed, Friday 5:00 as the alternative, draft ready."
+              "time": "Morning",
+              "title": "Check out of Violino d'Oro, leave the bag",
+              "status": "info",
+              "detail": "Move to the second hotel after the Aman visit or whenever the room is ready."
             },
             {
               "time": "3:00 PM",
               "title": "Aman Venice, site visit",
               "status": "pending",
-              "detail": "Asked Elisa at Rosa Alpina for an intro to Venice sales, draft ready. Palazzo Papadopoli on the Grand Canal."
+              "detail": "Marianna Toth has left Aman. Elisa introduced Giacomo Maida and Vittoria Comin, Venice sales. Ask drafted to both, Saturday 3:00 or the morning. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "Evening",
               "title": "Dinner in Venice",
-              "status": "info"
+              "status": "info",
+              "detail": ""
             }
           ]
         }
@@ -1086,13 +1099,10 @@
       "title": "Send",
       "items": [
         "Violino d'Oro: Daniela, yes to the 9th at 890 euros (draft ready, send now)",
-        "Vista Palazzo Verona: hosting or advisor rate for the 8th (draft ready, send and call)",
-        "Ca' di Dio and St. Regis: dates now the 9th and 10th, single (two drafts ready)",
-        "Gabrielli: Efy at Starhotels, the 10th (draft ready)",
-        "Airelles: Audrey, solo correction for Friday (draft ready)",
-        "Orient Express: Egle, move Friday's visit to 3:30 (draft ready)",
-        "The Danieli: Pasquale and Eva, site visit Saturday 10:30 (draft ready)",
-        "Aman Venice: Marianna Toth, Saturday 3:00 (draft ready), plus the Elisa thank-you",
+        "Vista Palazzo Verona: Ilma, ETA 12:45 and one guest (draft ready)",
+        "Aman Venice: Giacomo and Vittoria, Saturday 3:00, Elisa copied (draft ready)",
+        "Ca' di Dio: Caterina, revised quote for the 10th only (draft ready)",
+        "COMO Alpina: Deborah, yes to Thursday morning, give her a time",
         "Thank-yous: Serbelloni, Miramare, Il Sereno (three drafts ready)",
         "Badrutt's Palace: Thomas Citterio (draft ready)",
         "Banfi: Maddalena, cancel the 9th (draft ready)",
@@ -1121,20 +1131,15 @@
     {
       "title": "Waiting on",
       "items": [
-        "Aman, Elisa De Nicolò: rate for the 7th",
-        "Miramonti: 12:30 tomorrow, sent",
+        "Aman Venice, Giacomo Maida and Vittoria Comin: Saturday visit, once sent",
+        "Airelles Palladio, Audrey: confirm Friday 12:30",
+        "Ca' di Dio, Caterina Vianello: one-night quote for the 10th, once sent",
+        "Hotel Gabrielli, Efy Ioannides: the 10th, sent 4:18 PM",
+        "St. Regis Venice, Gabriela Jurubita: the 9th and 10th, no reply yet",
+        "COMO Alpina, Deborah Carlin: Thursday morning inspection, answer her",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
-        "La Dolce Vita Orient Express, Federico Talucci: which day, once sent",
-        "Sporthotel Floralpina: visit and court on the 7th, sent",
-        "St. Regis Venice, Gabriela Jurubita: the 9th and 10th",
-        "Ca' di Dio booking desk: agent rate",
-        "Orient Express Venice: visit on the 9th at 10:30",
-        "Airelles Palladio, Audrey: visit and lunch on the 9th",
-        "The Danieli, Eva Reidt: visit on the 10th",
-        "Aman Venice via Elisa: visit on the 10th",
-        "Vista Palazzo Verona: the 8th",
-        "Hotel Gabrielli, Efy Ioannides: the 10th"
+        "Sporthotel Floralpina: visit and court on the 7th, sent, no reply"
       ]
     },
     {
