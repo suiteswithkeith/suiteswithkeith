@@ -842,7 +842,7 @@
         },
         {
           "date": "2026-10-09",
-          "label": "October 9: Train to Venice, Orient Express, Danieli, aperitivo at Airelles",
+          "label": "October 9: Slow Verona morning, train to Venice, Orient Express, Danieli, Airelles",
           "stay": {
             "name": "Palazzina Grassi, Venice",
             "status": "pending",
@@ -851,28 +851,34 @@
           },
           "items": [
             {
-              "time": "8:15 AM",
-              "title": "Car from Vista Palazzo to Verona Porta Nuova",
-              "status": "confirmed",
-              "detail": "Arno Travel, Mercedes sedan. Paid, tickets from Eleonora on the 8th."
-            },
-            {
-              "time": "8:49 AM",
-              "title": "Italo Verona Porta Nuova to Venezia Santa Lucia",
-              "status": "confirmed",
-              "detail": "Executive class, in at 10:03. Booked by Arno. Paid, tickets from Eleonora on the 8th."
-            },
-            {
-              "time": "10:03 AM",
-              "title": "Water taxi Santa Lucia to Palazzina Grassi, drop the bag",
-              "status": "confirmed",
-              "detail": "Arno, private boat at the station. Paid, tickets from Eleonora on the 8th."
-            },
-            {
-              "time": "Midday",
-              "title": "Free: shoot Palazzina Grassi, lunch",
+              "time": "Morning",
+              "title": "Breakfast on the Vista Palazzo rooftop, shoot the suites in morning light",
               "status": "info",
-              "detail": "Ca' di Dio walk-through at 12:30 if Caterina says yes, otherwise the hotel and the Grand Canal side."
+              "detail": "The hotel is hosting you, this is the Verona page."
+            },
+            {
+              "time": "10:15 AM",
+              "title": "Car from Vista Palazzo to Verona Porta Nuova",
+              "status": "pending",
+              "detail": "Arno booked 8:15, asked to move to 10:15 so you can shoot Vista Palazzo in the morning. Draft ready."
+            },
+            {
+              "time": "10:50 AM",
+              "title": "Italo Verona Porta Nuova to Venezia Santa Lucia",
+              "status": "pending",
+              "detail": "Arno booked the 8:49 Executive, asked to move to the next one around 10:50, in about 12:05. Change fee possible."
+            },
+            {
+              "time": "12:05 PM",
+              "title": "Water taxi Santa Lucia to Palazzina Grassi, drop the bag",
+              "status": "pending",
+              "detail": "Arno, on arrival, re-timed with the train."
+            },
+            {
+              "time": "12:30 PM",
+              "title": "Lunch, settle in at Palazzina Grassi",
+              "status": "info",
+              "detail": "Ca' di Dio walk-through at 1:00 if Caterina says yes. Shoot Palazzina Saturday morning before the 10:10 boat."
             },
             {
               "time": "3:00 PM",
@@ -1159,7 +1165,7 @@
       "title": "Send",
       "items": [
         "Airelles: Audrey, yes to the aperitivo at 6:15, boat from the Danieli pier at 6:00 (draft ready, send now)",
-        "Arno Travel: Ilaria and Eleonora, move the paid 11:45 boat to 3:00 Palazzina to Orient Express (draft ready, send now)",
+        "Arno Travel: Ilaria and Eleonora, later Friday morning (car 10:15, Italo 10:50) and the 11:45 boat to 3:00 Palazzina to Orient Express (draft ready, send now)",
         "Arno Travel: Ilaria, Friday boat now 3:00 Palazzina to Orient Express, no Airelles runs, Saturday train and car only (draft ready, send now)",
         "Orient Express: Domiziana, no boat needed, arriving on my own at 3:30 on the 9th (draft ready, send now)",
         "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
