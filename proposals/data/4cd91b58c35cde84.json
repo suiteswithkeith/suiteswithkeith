@@ -828,8 +828,15 @@
             },
             {
               "time": "Afternoon",
-              "title": "Verona: Piazza delle Erbe, the Arena, the old town",
-              "status": "info"
+              "title": "Verona on foot",
+              "status": "info",
+              "detail": "Torre dei Lamberti on Piazza delle Erbe, then Ponte Pietra and the funicular up to Castel San Pietro an hour before sunset, back for the rooftop at Vista Palazzo at golden hour. Giardino Giusti if there's time."
+            },
+            {
+              "time": "7:00 PM",
+              "title": "Osteria del Bugiardo, then Antica Bottega del Vino",
+              "status": "suggested",
+              "detail": "A glass on Corso Porta Borsari, two minutes from the hotel, then the Amarone classic at 8:00. Casa Perbellini 12 Apostoli is the two-star alternative, Locanda 4 Cuochi the relaxed one."
             }
           ]
         },
