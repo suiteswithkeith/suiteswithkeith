@@ -1015,16 +1015,16 @@
               "detail": "Elena Carnevale confirmed 12:00 on the 8th, +39 342 1250435. Ask for her at reception. Car from Ostiense 20 to 25 minutes. Renovated rooms and the Secret Garden."
             },
             {
-              "time": "3:00 PM",
+              "time": "4:15 PM",
               "title": "Six Senses Rome, site visit and spa",
-              "status": "pending",
-              "detail": "Stefano Vazzola offered a visit and spa day. Monday 3:00 asked, sent, waiting. Hassler follows at 4:30, so the spa would have to be short or move earlier. Piazza San Marcello."
+              "status": "confirmed",
+              "detail": "Stefano Vazzola offered 4:15 or 4:30 on the 8th, he's in Rome and will host it himself. Yes to 4:15 drafted. Piazza San Marcello. Spa day no longer fits, Hassler follows."
             },
             {
-              "time": "4:30 PM",
+              "time": "5:30 PM",
               "title": "Hassler Roma, site visit",
-              "status": "confirmed",
-              "detail": "Sophie Clarke confirmed Monday 4:30 with Francesca Martinelli, Sales Executive. Imàgo fully booked, no dinner. Fifteen minutes on foot from Six Senses, top of the Spanish Steps."
+              "status": "pending",
+              "detail": "Sophie Clarke confirmed 4:30 with Francesca Martinelli. Asked to move to 5:30 because Six Senses landed at 4:15, draft ready. Fifteen minutes on foot from Six Senses. Imàgo fully booked, no dinner."
             },
             {
               "time": "Evening",
@@ -1164,6 +1164,8 @@
     {
       "title": "Send",
       "items": [
+        "Six Senses: Stefano, yes to Monday 4:15 (draft ready)",
+        "Hassler: Sophie, move Monday to 5:30 (draft ready)",
         "Airelles: Audrey, yes to the aperitivo at 6:15, boat from the Danieli pier at 6:00 (draft ready, send now)",
         "Arno Travel: Ilaria and Eleonora, later Friday morning (car 10:15, Italo 10:50) and the 11:45 boat to 3:00 Palazzina to Orient Express (draft ready, send now)",
         "Arno Travel: Ilaria, Friday boat now 3:00 Palazzina to Orient Express, no Airelles runs, Saturday train and car only (draft ready, send now)",
@@ -1171,7 +1173,6 @@
         "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
         "Aman Venice: Vittoria, thanks for 10:30 and the two Saturday boats (draft ready, send now)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
-        "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
@@ -1199,7 +1200,6 @@
         "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
         "Orient Express, Federica and Ginevra: boat from the Palladio at 3:00 Friday, sent",
-        "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
         "Airelles Palladio, Audrey: aperitivo Friday 6:15 and the boat from the Danieli, once sent",
         "Violino d'Oro, Daniela: release of the 9th, asked",
         "Villa Treville, Daniela Barba: visit time on the 14th",
