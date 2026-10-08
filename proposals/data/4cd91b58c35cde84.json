@@ -664,8 +664,8 @@
             },
             {
               "time": "1:05 PM",
-              "title": "Miramonti, Avelengo above Merano, look and lunch",
-              "status": "pending",
+              "title": "Miramonti, Avelengo above Merano, visited",
+              "status": "confirmed",
               "detail": "Told them 12:30, sent. Quick look and a coffee, away by 1:45. Skip it if Merano is later than 12:45."
             },
             {
@@ -1093,8 +1093,8 @@
               "time": "11:00 AM",
               "title": "Il San Pietro di Positano, site visit and tennis",
               "status": "todo",
-              "detail": "Agostino Piccolo.",
-              "todo": "Confirm 11:00 and ask for the court."
+              "detail": "Agostino Piccolo. Never contacted, no email sent.",
+              "todo": "Write to Agostino: 11:00 on the 14th, tour and the court."
             },
             {
               "time": "TBC",
@@ -1130,10 +1130,22 @@
               "detail": "Antonella Gatto, no reply."
             },
             {
+              "time": "Evening",
+              "title": "Borgo Santandrea, Conca dei Marini, visit and dinner at Alici",
+              "status": "suggested",
+              "detail": "Antonella Gatto never answered the Sept 14 note. Alici knows you from the Meckley birthday dinner."
+            },
+            {
+              "time": "Day",
+              "title": "Miramalfi, Amalfi",
+              "status": "suggested",
+              "detail": "Not contacted. Five minutes from Santa Caterina."
+            },
+            {
               "time": "Day",
               "title": "Caruso or Palazzo Avino, Ravello",
               "status": "suggested",
-              "detail": "Not contacted."
+              "detail": "Not contacted. Pick one, 30 minutes up the hill."
             }
           ]
         },
@@ -1169,7 +1181,7 @@
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
-        "Il San Pietro: Agostino, 11:00 on the 14th and the court (old draft, refresh it)",
+        "Il San Pietro: Agostino, 11:00 on the 14th and the court (nothing sent yet, write it)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
       ]
@@ -1207,7 +1219,7 @@
         "Miramare, Excelsior Palace",
         "Badia Hill",
         "ADLER Lodge Alpe",
-        "Palazzo Avino, Caruso",
+        "Il San Pietro, Miramalfi, Palazzo Avino, Caruso",
         "Bulgari Roma, Vilòn, J.K. Place Roma",
         "St. Regis Venice: Gabriela Jurubita's address bounced, nothing ever arrived. Dropped."
       ]
