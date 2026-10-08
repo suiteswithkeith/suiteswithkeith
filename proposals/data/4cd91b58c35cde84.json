@@ -936,10 +936,16 @@
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Two Rome site visits, to set",
-              "status": "suggested",
-              "detail": "Pick two from de la Ville, Hassler, Portrait Roma, Bulgari, JK Place, Vilòn. Ask today."
+              "time": "10:00 AM",
+              "title": "Casa Monti, site visit",
+              "status": "pending",
+              "detail": "Asked through the hotel's general address, draft ready. Via Panisperna in Monti, 15 minutes on foot from the Hassler."
+            },
+            {
+              "time": "12:00 PM",
+              "title": "Hassler Roma, site visit",
+              "status": "todo",
+              "detail": "Not contacted. Pull the sales contact from the Fora card, or call the hotel and ask for sales. Top of the Spanish Steps, five minutes from the Eden."
             },
             {
               "time": "3:00 PM",
@@ -972,10 +978,10 @@
               "detail": "Elena Carnevale, Regional Sales Coordinator, +39 342 1250435. Ask for her at reception. Renovated rooms and the Secret Garden."
             },
             {
-              "time": "Afternoon",
+              "time": "3:00 PM",
               "title": "Six Senses Rome, site visit and spa",
               "status": "pending",
-              "detail": "Stefano Vazzola. Set it around October 5."
+              "detail": "Stefano Vazzola offered a visit and spa day. Monday 3:00 asked, Tuesday morning as backup, draft ready. Piazza San Marcello."
             }
           ]
         }
@@ -999,6 +1005,12 @@
             "detail": "650 euros, paid. Via Colombo 30, +39 089 875066."
           },
           "items": [
+            {
+              "time": "9:30 AM",
+              "title": "JK Place Roma, site visit, optional",
+              "status": "suggested",
+              "detail": "Not contacted. Only if you want an eighth. Via di Monte d'Oro near Via Condotti, before the train to Naples."
+            },
             {
               "time": "Morning",
               "title": "Train Rome to Naples, then on to Sorrento",
@@ -1112,11 +1124,13 @@
       "items": [
         "Violino d'Oro: Daniela, yes to the 9th at 890 euros (draft ready, send by 10:00 tomorrow unless Palazzina answers)",
         "Palazzina Grassi: hosted or advisor rate for the 9th (draft ready, send tonight)",
+        "Six Senses Rome: Stefano, Monday 3:00 (draft ready)",
+        "Casa Monti: Sunday 10:00 visit (draft ready)",
+        "Hassler: find the sales contact on the Fora card, then I'll draft",
         "The Eden: Tristan, add Saturday the 10th (draft ready)",
         "Aman Venice: Giacomo and Vittoria, Saturday 10:00 (draft ready)",
         "Nolinski Venezia: Caroline, site visit Saturday midday (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass, ask for a walk-through (draft ready)",
-        "Rome: pick two Sunday morning visits and ask today",
         "Vista Palazzo Verona: Ilma, ETA 12:45 and one guest (draft ready)",
         "COMO Alpina: Deborah, yes to Thursday morning, give her a time",
         "Thank-yous: Serbelloni, Miramare, Il Sereno (three drafts ready)",
@@ -1147,6 +1161,8 @@
     {
       "title": "Waiting on",
       "items": [
+        "Six Senses Rome, Stefano Vazzola: Monday 3:00, once sent",
+        "Casa Monti: Sunday 10:00, once sent",
         "Violino d'Oro, Daniela: the 9th, once the yes is sent",
         "Palazzina Grassi, reservations and marketing: the 9th, once sent",
         "Aman Venice, Giacomo and Vittoria: Saturday 10:00, once sent",
@@ -1155,7 +1171,6 @@
         "Aman Venice, Giacomo Maida and Vittoria Comin: Saturday visit, once sent",
         "Airelles Palladio, Audrey: confirm Friday 12:30",
         "COMO Alpina, Deborah Carlin: Thursday morning inspection, answer her",
-        "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Sporthotel Floralpina: visit and court on the 7th, sent, no reply"
       ]
@@ -1163,6 +1178,8 @@
     {
       "title": "Not contacted",
       "items": [
+        "Hassler Roma: Sunday midday visit, need the sales contact",
+        "JK Place Roma: optional Tuesday morning",
         "Miramare, Excelsior Palace",
         "Badia Hill",
         "ADLER Lodge Alpe",
