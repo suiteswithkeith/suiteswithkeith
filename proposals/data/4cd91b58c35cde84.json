@@ -844,10 +844,28 @@
           },
           "items": [
             {
-              "time": "9:00 AM",
-              "title": "Train Verona to Venezia Santa Lucia",
-              "status": "info",
-              "detail": "1 hour 10. In by 10:15, water taxi 15 minutes to Palazzina Grassi, drop the bag."
+              "time": "8:15 AM",
+              "title": "Car from Vista Palazzo to Verona Porta Nuova",
+              "status": "confirmed",
+              "detail": "Arno Travel, Mercedes sedan."
+            },
+            {
+              "time": "8:49 AM",
+              "title": "Italo Verona Porta Nuova to Venezia Santa Lucia",
+              "status": "confirmed",
+              "detail": "Executive class, in at 10:03. Booked by Arno."
+            },
+            {
+              "time": "10:03 AM",
+              "title": "Water taxi Santa Lucia to Palazzina Grassi, drop the bag",
+              "status": "confirmed",
+              "detail": "Arno, private boat at the station."
+            },
+            {
+              "time": "11:45 AM",
+              "title": "Water taxi Palazzina Grassi to the Airelles Palladio dock",
+              "status": "confirmed",
+              "detail": "Arno. Ten minutes to Giudecca."
             },
             {
               "time": "12:30 PM",
@@ -856,16 +874,22 @@
               "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. 12:30 proposed, then 12:00 with visit first and a 2:45 departure, all sent. Nothing back from Audrey yet, call her if silent by this evening. Giudecca, 10 minutes by water taxi, the Palladio has its own dock."
             },
             {
+              "time": "3:00 PM",
+              "title": "Water taxi Airelles Palladio to Orient Express",
+              "status": "confirmed",
+              "detail": "Arno. Be on the dock at 3:00."
+            },
+            {
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. From Airelles 20 to 25 minutes by water taxi, be on the boat by 3:00, have the Palladio concierge call it."
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Arno water taxi from the Palladio dock at 3:00."
             },
             {
               "time": "5:00 PM",
               "title": "The Danieli, A Four Seasons Hotel, site visit",
               "status": "confirmed",
-              "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. From Orient Express 15 to 20 minutes by water taxi, leave by 4:35, or a 30 minute walk via Rialto if done by 4:20."
+              "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. From Orient Express 15 to 20 minutes by water taxi, have Ginevra's team call one for 4:35, or a 30 minute walk via Rialto if done by 4:20."
             },
             {
               "time": "6:30 PM",
@@ -887,15 +911,21 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Check out of Palazzina Grassi, leave the bag",
+              "title": "Check out of Palazzina Grassi",
               "status": "info",
-              "detail": ""
+              "detail": "Bag comes with you on the boats."
             },
             {
               "time": "8:45 AM",
               "title": "Hotel Gabrielli, site inspection",
               "status": "pending",
-              "detail": "Full on the 10th. Davide Ballardini at Starhotels offered a site inspection. Saturday 8:45 asked, draft ready, not sent. Riva degli Schiavoni, then water taxi to Aman for 10:00."
+              "detail": "Full on the 10th. Davide Ballardini at Starhotels offered a site inspection. Saturday 8:45 asked, draft ready, not sent. Riva degli Schiavoni. If it confirms, the 9:40 Arno boat needs to collect you there instead of Palazzina, tell Ilaria."
+            },
+            {
+              "time": "9:40 AM",
+              "title": "Water taxi Palazzina Grassi to Aman Venice",
+              "status": "confirmed",
+              "detail": "Arno."
             },
             {
               "time": "10:00 AM",
@@ -904,22 +934,22 @@
               "detail": "Vittoria Comin confirmed 3:00 on the 8th. Asked to move to 10:00 because of the 1:25 train, sent, Friday 6:00 offered as backup. Waiting on her. No content on the Second Noble Floor, private event. Palazzo Papadopoli on the Grand Canal."
             },
             {
-              "time": "12:30 PM",
-              "title": "Collect the bag, water taxi to Santa Lucia",
-              "status": "info",
-              "detail": "15 minutes from San Samuele."
+              "time": "11:50 AM",
+              "title": "Water taxi Aman to Venezia Santa Lucia",
+              "status": "confirmed",
+              "detail": "Arno."
             },
             {
-              "time": "1:25 PM",
+              "time": "1:26 PM",
               "title": "Frecciarossa Venezia Santa Lucia to Roma Termini",
-              "status": "todo",
-              "detail": "About 3 hours 50, into Termini around 5:15. Book it, check the exact departure."
+              "status": "confirmed",
+              "detail": "Premium class, booked by Arno. Into Termini around 5:15."
             },
             {
-              "time": "5:45 PM",
-              "title": "Taxi to the Eden, drop the bag",
-              "status": "info",
-              "detail": ""
+              "time": "5:15 PM",
+              "title": "Car from Termini to the Eden",
+              "status": "confirmed",
+              "detail": "Arno, Mercedes."
             },
             {
               "time": "Evening",
@@ -1140,6 +1170,7 @@
     {
       "title": "Send",
       "items": [
+        "Arno Travel: Ilaria, confirm the quote, 11:45 Friday pickup, 1:26 firm (draft ready, send now)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
         "Nolinski: Caroline, pass on the room, Friday 6:30 walk-through (draft ready)",
@@ -1155,8 +1186,8 @@
     {
       "title": "Decide and fix",
       "items": [
+        "Arno Travel: pay the 1,675 euro link before 2:30 PM today, Friday and Saturday transfers and both trains",
         "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
-        "Trains: Verona to Venice on the 9th, Venice to Rome Saturday the 10th around 1:25",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
