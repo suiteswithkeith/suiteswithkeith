@@ -948,10 +948,10 @@
           },
           "items": [
             {
-              "time": "10:00 AM",
+              "time": "12:00 PM",
               "title": "Casa Monti, site visit",
               "status": "pending",
-              "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Sunday 10:00 asked, sent on the 8th. Via Panisperna in Monti."
+              "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Lidia offered Sunday 12:00 (or 11:30) on the 8th; yes to 12:00 drafted, not sent. Via Panisperna 210/212 in Monti, +39 348 891 5342."
             },
             {
               "time": "3:00 PM",
@@ -1140,6 +1140,7 @@
     {
       "title": "Send",
       "items": [
+        "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
         "Nolinski: Caroline, pass on the room, Friday 6:30 walk-through (draft ready)",
@@ -1172,7 +1173,6 @@
         "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
         "Aman Venice, Vittoria Comin: move Saturday to 10:00, sent",
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
-        "Casa Monti, Lidia Mastellone: Sunday 10:00, sent",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
         "Airelles Palladio, Audrey: confirm Friday, 12:00 asked, no reply to anything yet",
         "Hotel Gabrielli, Davide Ballardini: Saturday 8:45, once sent",
