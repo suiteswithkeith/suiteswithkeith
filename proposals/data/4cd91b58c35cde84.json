@@ -880,16 +880,10 @@
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Check out of Palazzina Grassi, leave the bag",
+              "time": "9:40 AM",
+              "title": "Check out of Palazzina Grassi, leave the bag, water taxi to Aman",
               "status": "info",
-              "detail": ""
-            },
-            {
-              "time": "8:45 AM",
-              "title": "Hotel Gabrielli, site inspection",
-              "status": "pending",
-              "detail": "Full on the 10th. Davide Ballardini at Starhotels offered a site inspection. Saturday 8:45 asked, draft ready, not sent. Riva degli Schiavoni, then water taxi to Aman for 10:00."
+              "detail": "Palazzo Papadopoli on the Grand Canal, a few minutes by water taxi."
             },
             {
               "time": "10:00 AM",
@@ -1135,7 +1129,6 @@
       "items": [
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
-        "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
@@ -1166,7 +1159,6 @@
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
         "Airelles Palladio, Audrey: confirm Friday, 12:00 asked, no reply to anything yet",
-        "Hotel Gabrielli, Davide Ballardini: Saturday 8:45, once sent",
         "Violino d'Oro, Daniela: release of the 9th, asked",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Sporthotel Floralpina: no reply"
