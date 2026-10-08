@@ -885,7 +885,7 @@
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Boat from the Palladio dock at 3:00 asked of Federica and Ginevra, sent."
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Water taxi from the Palladio dock arranged by Domiziana Quaia, curator, 90 euros to the driver, number by WhatsApp. Their confirmation said the 11th at 3:30, correction to the 9th at 3:00 drafted."
             },
             {
               "time": "5:00 PM",
@@ -1153,6 +1153,7 @@
     {
       "title": "Send",
       "items": [
+        "Orient Express: Domiziana, boat is Friday the 9th at 3:00, not the 11th at 3:30 (draft ready, send now)",
         "Arno Travel: Ilaria, yes for Friday car, train and two boats, Saturday train and car only (draft ready, send now)",
         "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
         "Aman Venice: Vittoria, the two Saturday boats (draft ready, hold until she confirms 10:00)",
