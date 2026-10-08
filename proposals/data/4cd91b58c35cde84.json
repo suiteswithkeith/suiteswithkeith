@@ -837,10 +837,10 @@
           "date": "2026-10-09",
           "label": "October 9: Train to Venice, Airelles, Orient Express, Danieli",
           "stay": {
-            "name": "Venice, Violino d'Oro or Palazzina Grassi",
-            "status": "pending",
-            "detail": "Violino d'Oro: Executive Supreme at 890 euros with breakfast, Daniela holding it for a yes, San Marco. Palazzina Grassi: hosted or advisor rate asked through reservations and marketing, draft ready, Grand Canal at San Samuele. One night, pick one.",
-            "todo": "Hosted wins. Send the Palazzina ask tonight. If they host, take it and tell Daniela no with thanks. If they offer a rate or nothing by 10:00 tomorrow, send the Violino yes at 890."
+            "name": "Violino d'Oro, Venice",
+            "status": "confirmed",
+            "detail": "Executive Supreme, single occupancy, 890 euros with breakfast, confirmed by Daniela Iacovlev on the 8th, confirmation attached to her email. Settle at the hotel. Public areas and history tour offered. San Marco, five minutes on foot from the Danieli. Palazzina Grassi was asked before this landed, if they come back it's a visit, not a stay.",
+            "todo": ""
           },
           "items": [
             {
@@ -871,7 +871,7 @@
               "time": "6:30 PM",
               "title": "Nolinski Venezia, site visit",
               "status": "pending",
-              "detail": "Caroline Krancenblum at Evok, Madeleine Sadin copied. Friday 6:30 asked, draft ready, ten minutes on foot from the Danieli. Skip it if the day runs long."
+              "detail": "Caroline Krancenblum: no discount, Classic 1,275, Junior Suite 1,800, two rooms left. Passing on the room, reply drafted asking for a 6:30 walk-through Friday, Saturday first thing as backup. Ten minutes on foot from the Danieli."
             }
           ]
         },
@@ -881,8 +881,8 @@
           "stay": {
             "name": "Rome, bed to confirm",
             "status": "pending",
-            "detail": "Asked Tristan at the Eden to add the 10th to the stay, hosted or at an advisor rate, draft ready. Otherwise a hosted ask to one of the Sunday candidates: de la Ville, Hassler, Portrait Roma, Bulgari, JK Place, Vilòn.",
-            "todo": "Send the Eden ask first."
+            "detail": "Asked Tristan at the Eden to add the 10th, sent. Tristan replied on the 8th: Elena will come back today. Otherwise a hosted ask to one of the Rome candidates.",
+            "todo": "Wait for Elena."
           },
           "items": [
             {
@@ -890,6 +890,12 @@
               "title": "Check out of Violino d'Oro, leave the bag",
               "status": "info",
               "detail": ""
+            },
+            {
+              "time": "8:45 AM",
+              "title": "Hotel Gabrielli, site inspection",
+              "status": "pending",
+              "detail": "Full on the 10th. Davide Ballardini at Starhotels offered a site inspection, commercial team copied. Saturday 8:45 asked, draft ready. Riva degli Schiavoni, by the Danieli, then water taxi to Aman for 10:00."
             },
             {
               "time": "10:00 AM",
@@ -919,7 +925,7 @@
               "time": "7:00 PM",
               "title": "Hassler Roma: look at the rooms, then dinner at Imàgo at 7:30",
               "status": "pending",
-              "detail": "Sophie Clarke, Director of Sales and Marketing, Francesca Martinelli copied. Draft ready, Sunday noon offered as the backup. Top of the Spanish Steps, five minutes from the Eden."
+              "detail": "Sophie Clarke, Director of Sales and Marketing, Francesca Martinelli copied. Sent on the 8th, Sunday noon offered as the backup. Top of the Spanish Steps, five minutes from the Eden."
             }
           ]
         }
@@ -945,7 +951,7 @@
               "time": "10:00 AM",
               "title": "Casa Monti, site visit",
               "status": "pending",
-              "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Sunday 10:00 asked, draft ready. Via Panisperna in Monti, 15 minutes on foot from the Hassler."
+              "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Sunday 10:00 asked, sent on the 8th. Via Panisperna in Monti."
             },
             {
               "time": "3:00 PM",
@@ -987,7 +993,7 @@
               "time": "3:00 PM",
               "title": "Six Senses Rome, site visit and spa",
               "status": "pending",
-              "detail": "Stefano Vazzola offered a visit and spa day. Monday 3:00 asked, Tuesday morning as backup, draft ready. Piazza San Marcello."
+              "detail": "Stefano Vazzola offered a visit and spa day. Monday 3:00 asked, Tuesday morning as backup, sent on the 8th. Piazza San Marcello."
             },
             {
               "time": "Evening",
@@ -1128,16 +1134,12 @@
     {
       "title": "Send",
       "items": [
-        "Violino d'Oro: Daniela, yes to the 9th at 890 euros (draft ready, send by 10:00 tomorrow unless Palazzina answers)",
-        "Palazzina Grassi: hosted or advisor rate for the 9th (draft ready, send tonight)",
-        "Six Senses Rome: Stefano, Monday 3:00 (draft ready)",
-        "Casa Monti: Lidia, Sunday 10:00 visit (draft ready)",
-        "Hassler: Sophie Clarke, Saturday 7:30 dinner at Imàgo plus rooms (draft ready)",
-        "The Eden: Tristan, add Saturday the 10th (draft ready)",
+        "Vista Palazzo Verona: Ilma, ETA 12:45 and one guest (draft ready, send now)",
         "Aman Venice: Giacomo and Vittoria, Saturday 10:00 (draft ready)",
-        "Nolinski Venezia: Caroline, site visit Friday 6:30 (draft ready)",
-        "Ca' di Dio: Caterina, thanks and pass, ask for a walk-through (draft ready)",
-        "Vista Palazzo Verona: Ilma, ETA 12:45 and one guest (draft ready)",
+        "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
+        "Nolinski: Caroline, pass on the room, Friday 6:30 walk-through (draft ready)",
+        "Airelles: Audrey, 12:00 instead of 12:30 (draft ready, optional)",
+        "Ca' di Dio: Caterina, thanks and pass (draft ready)",
         "COMO Alpina: Deborah, yes to Thursday morning, give her a time",
         "Thank-yous: Serbelloni, Miramare, Il Sereno (three drafts ready)",
         "Badrutt's Palace: Thomas Citterio (draft ready)",
@@ -1167,19 +1169,18 @@
     {
       "title": "Waiting on",
       "items": [
-        "Six Senses Rome, Stefano Vazzola: Monday 3:00, once sent",
-        "Casa Monti, Lidia Mastellone: Sunday 10:00, once sent",
-        "Hassler Roma, Sophie Clarke: Saturday dinner, once sent",
-        "Violino d'Oro, Daniela: the 9th, once the yes is sent",
-        "Palazzina Grassi, reservations and marketing: the 9th, once sent",
-        "Aman Venice, Giacomo and Vittoria: Saturday 10:00, once sent",
-        "Nolinski Venezia, Caroline: Friday 6:30, once sent",
-        "The Eden, Tristan: add the 10th, once sent",
-        "Aman Venice, Giacomo Maida and Vittoria Comin: Saturday visit, once sent",
+        "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
+        "Hassler Roma, Sophie Clarke: Saturday dinner and rooms, sent",
+        "Casa Monti, Lidia Mastellone: Sunday 10:00, sent",
+        "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
+        "Palazzina Grassi: asked for the 9th before Violino confirmed, now a visit at most",
         "Airelles Palladio, Audrey: confirm Friday 12:30",
-        "COMO Alpina, Deborah Carlin: Thursday morning inspection, answer her",
+        "Aman Venice, Giacomo and Vittoria: Saturday 10:00, once sent",
+        "Hotel Gabrielli, Davide Ballardini: Saturday 8:45 inspection, once sent",
+        "Nolinski Venezia, Caroline: Friday 6:30 walk-through, once sent",
+        "COMO Alpina, Deborah Carlin: Thursday morning inspection",
         "Villa Treville, Daniela Barba: visit time on the 14th",
-        "Sporthotel Floralpina: visit and court on the 7th, sent, no reply"
+        "Sporthotel Floralpina: no reply"
       ]
     },
     {
