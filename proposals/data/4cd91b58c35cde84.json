@@ -878,7 +878,7 @@
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Ask Ginevra's team to send a water taxi to the Palladio dock for 3:00, 20 to 25 minutes."
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Boat from the Palladio dock at 3:00 asked of Federica and Ginevra, sent."
             },
             {
               "time": "5:00 PM",
@@ -902,7 +902,7 @@
               "time": "9:40 AM",
               "title": "Check out of Palazzina Grassi, water taxi to Aman with the luggage",
               "status": "todo",
-              "detail": "Arno boat dropped. Ask Vittoria to have Aman send a boat to Palazzina Grassi at 9:40, bags come along. Palazzo Papadopoli on the Grand Canal."
+              "detail": "Arno boat dropped. Boat ask to Vittoria drafted, hold it until she confirms 10:00. Bags come along. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "10:00 AM",
@@ -988,13 +988,13 @@
               "time": "10:00 AM",
               "title": "La Dolce Vita Orient Express, visit on board",
               "status": "confirmed",
-              "detail": "Federico Talucci, +39 349 199 7497, WhatsApp for day-of updates. Meet at the La Dolce Vita Lounge, Rome Ostiense, Piazzale dei Partigiani 33A. Train departs 10:40. Answered on WhatsApp."
+              "detail": "Federico Talucci, +39 349 199 7497, WhatsApp for day-of updates. Meet at the La Dolce Vita Lounge, Rome Ostiense, Piazzale dei Partigiani 33A. Train departs 10:40, see it before it goes. Have a car waiting at 10:40."
             },
             {
-              "time": "11:00 AM",
+              "time": "12:00 PM",
               "title": "Hotel de Russie, site visit",
-              "status": "confirmed",
-              "detail": "Elena Carnevale, Regional Sales Coordinator, +39 342 1250435. Ask for her at reception. Renovated rooms and the Secret Garden. Ostiense to de Russie is 20 to 25 minutes by car, so have a car waiting at 10:40, or ask Elena for 11:15."
+              "status": "pending",
+              "detail": "Elena Carnevale, Regional Sales Coordinator, +39 342 1250435. Was 11:00, asked to move to 12:00 because La Dolce Vita runs to 10:40, 12:30 offered. Draft ready. Car from Ostiense 20 to 25 minutes. Renovated rooms and the Secret Garden."
             },
             {
               "time": "3:00 PM",
@@ -1147,8 +1147,8 @@
       "title": "Send",
       "items": [
         "Arno Travel: Ilaria, yes for Friday car, train and two boats, Saturday train and car only (draft ready, send now)",
-        "Orient Express: Federica and Ginevra, boat from the Palladio dock at 3:00 Friday (draft ready)",
-        "Aman Venice: Vittoria, boats at 9:40 from Palazzina and 11:50 to the station (draft ready)",
+        "Hotel de Russie: Elena, move Monday to 12:00 (draft ready)",
+        "Aman Venice: Vittoria, the two Saturday boats (draft ready, hold until she confirms 10:00)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
@@ -1179,6 +1179,7 @@
         "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
         "Aman Venice, Vittoria Comin: move Saturday to 10:00, sent",
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
+        "Orient Express, Federica and Ginevra: boat from the Palladio at 3:00 Friday, sent",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
         "Airelles Palladio, Audrey: confirm Friday, 12:00 asked, no reply to anything yet",
         "Violino d'Oro, Daniela: release of the 9th, asked",
