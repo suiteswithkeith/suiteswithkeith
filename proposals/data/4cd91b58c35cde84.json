@@ -837,17 +837,17 @@
           "date": "2026-10-09",
           "label": "October 9: Train to Venice, Airelles, Orient Express, Danieli",
           "stay": {
-            "name": "Violino d'Oro, Venice",
-            "status": "confirmed",
-            "detail": "Executive Supreme, single occupancy, 890 euros with breakfast, confirmed by Daniela Iacovlev on the 8th, confirmation attached to her email. Settle at the hotel. Public areas and history tour offered. San Marco, five minutes on foot from the Danieli. Palazzina Grassi was asked before this landed, if they come back it's a visit, not a stay.",
-            "todo": ""
+            "name": "Palazzina Grassi, Venice",
+            "status": "pending",
+            "detail": "Hosted night, yes sent to Silvia Speronello at Relegance on the 8th, waiting on her confirmation. Superior room, in exchange for a social mention, a place in the guide and repost rights with credit. No formal visit, connect with the team in the evening if someone is around. Grand Canal at San Samuele. Violino d'Oro release asked on the 8th, waiting on Daniela.",
+            "todo": "Watch for Silvia's confirmation and Daniela's release."
           },
           "items": [
             {
               "time": "9:00 AM",
               "title": "Train Verona to Venezia Santa Lucia",
               "status": "info",
-              "detail": "1 hour 10. In by 10:15, drop bags at the hotel."
+              "detail": "1 hour 10. In by 10:15, water taxi 15 minutes to Palazzina Grassi, drop the bag."
             },
             {
               "time": "12:30 PM",
@@ -877,7 +877,7 @@
         },
         {
           "date": "2026-10-10",
-          "label": "October 10: Aman, train to Rome, the Hassler",
+          "label": "October 10: Aman, train to Rome",
           "stay": {
             "name": "Rome, bed to confirm",
             "status": "pending",
@@ -887,7 +887,7 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Check out of Violino d'Oro, leave the bag",
+              "title": "Check out of Palazzina Grassi, leave the bag",
               "status": "info",
               "detail": ""
             },
@@ -895,19 +895,19 @@
               "time": "8:45 AM",
               "title": "Hotel Gabrielli, site inspection",
               "status": "pending",
-              "detail": "Full on the 10th. Davide Ballardini at Starhotels offered a site inspection, commercial team copied. Saturday 8:45 asked, draft ready. Riva degli Schiavoni, by the Danieli, then water taxi to Aman for 10:00."
+              "detail": "Full on the 10th. Davide Ballardini at Starhotels offered a site inspection. Saturday 8:45 asked, draft ready, not sent. Riva degli Schiavoni, then water taxi to Aman for 10:00."
             },
             {
               "time": "10:00 AM",
               "title": "Aman Venice, site visit",
               "status": "pending",
-              "detail": "Giacomo Maida and Vittoria Comin, Venice sales, introduced by Elisa. Saturday 10:00 asked, draft ready. Palazzo Papadopoli on the Grand Canal."
+              "detail": "Vittoria Comin confirmed 3:00 on the 8th. Asked to move to 10:00 because of the 1:25 train, sent, Friday 6:00 offered as backup. Waiting on her. No content on the Second Noble Floor, private event. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "12:30 PM",
               "title": "Collect the bag, water taxi to Santa Lucia",
               "status": "info",
-              "detail": "20 minutes from San Marco."
+              "detail": "15 minutes from San Samuele."
             },
             {
               "time": "1:25 PM",
@@ -922,10 +922,10 @@
               "detail": ""
             },
             {
-              "time": "7:00 PM",
-              "title": "Hassler Roma: look at the rooms, then dinner at Imàgo at 7:30",
-              "status": "pending",
-              "detail": "Sophie Clarke, Director of Sales and Marketing, Francesca Martinelli copied. Sent on the 8th, Sunday noon offered as the backup. Top of the Spanish Steps, five minutes from the Eden."
+              "time": "Evening",
+              "title": "Dinner in Rome, free",
+              "status": "info",
+              "detail": "Nobody has a claim on this one."
             }
           ]
         }
@@ -969,7 +969,7 @@
         },
         {
           "date": "2026-10-12",
-          "label": "October 12: Rome",
+          "label": "October 12: Rome, four visits",
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "pending",
@@ -980,7 +980,7 @@
             {
               "time": "8:30 AM",
               "title": "La Dolce Vita Orient Express, visit on board",
-              "status": "pending",
+              "status": "confirmed",
               "detail": "Federico offered 8:30 before the train leaves at 9:00. Acceptance drafted. Before de Russie at 11:00."
             },
             {
@@ -993,7 +993,13 @@
               "time": "3:00 PM",
               "title": "Six Senses Rome, site visit and spa",
               "status": "pending",
-              "detail": "Stefano Vazzola offered a visit and spa day. Monday 3:00 asked, Tuesday morning as backup, sent on the 8th. Piazza San Marcello."
+              "detail": "Stefano Vazzola offered a visit and spa day. Monday 3:00 asked, sent, waiting. Hassler follows at 4:30, so the spa would have to be short or move earlier. Piazza San Marcello."
+            },
+            {
+              "time": "4:30 PM",
+              "title": "Hassler Roma, site visit",
+              "status": "confirmed",
+              "detail": "Sophie Clarke confirmed Monday 4:30 with Francesca Martinelli, Sales Executive. Imàgo fully booked, no dinner. Fifteen minutes on foot from Six Senses, top of the Spanish Steps."
             },
             {
               "time": "Evening",
@@ -1134,12 +1140,10 @@
     {
       "title": "Send",
       "items": [
-        "COMO Alpina: Deborah asked about a Thursday morning inspection on the 6th, never answered. One line before you leave.",
-        "Aman Venice: Giacomo and Vittoria, Saturday 10:00 (draft ready)",
+        "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
         "Nolinski: Caroline, pass on the room, Friday 6:30 walk-through (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
-        "COMO Alpina: Deborah, yes to Thursday morning, give her a time",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
@@ -1165,16 +1169,15 @@
     {
       "title": "Waiting on",
       "items": [
+        "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
+        "Aman Venice, Vittoria Comin: move Saturday to 10:00, sent",
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
-        "Hassler Roma, Sophie Clarke: Saturday dinner and rooms, sent",
         "Casa Monti, Lidia Mastellone: Sunday 10:00, sent",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
-        "Palazzina Grassi: asked for the 9th before Violino confirmed, now a visit at most",
         "Airelles Palladio, Audrey: confirm Friday, 12:00 asked, no reply to anything yet",
-        "Aman Venice, Giacomo and Vittoria: Saturday 10:00, once sent",
-        "Hotel Gabrielli, Davide Ballardini: Saturday 8:45 inspection, once sent",
+        "Hotel Gabrielli, Davide Ballardini: Saturday 8:45, once sent",
         "Nolinski Venezia, Caroline: Friday 6:30 walk-through, once sent",
-        "COMO Alpina, Deborah Carlin: Thursday morning inspection",
+        "Violino d'Oro, Daniela: release of the 9th, asked",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Sporthotel Floralpina: no reply"
       ]
@@ -1186,7 +1189,8 @@
         "Badia Hill",
         "ADLER Lodge Alpe",
         "Palazzo Avino, Caruso",
-        "Bulgari Roma, Vilòn, J.K. Place Roma"
+        "Bulgari Roma, Vilòn, J.K. Place Roma",
+        "St. Regis Venice: Gabriela Jurubita's address bounced, nothing ever arrived. Dropped."
       ]
     }
   ],
