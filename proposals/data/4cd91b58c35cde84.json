@@ -878,7 +878,7 @@
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Ask the Palladio concierge to call a water taxi to their dock for 3:00, about 90 euros at the meter, 20 to 25 minutes."
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Ask Ginevra's team to send a water taxi to the Palladio dock for 3:00, 20 to 25 minutes."
             },
             {
               "time": "5:00 PM",
@@ -901,8 +901,8 @@
             {
               "time": "9:40 AM",
               "title": "Check out of Palazzina Grassi, water taxi to Aman with the luggage",
-              "status": "confirmed",
-              "detail": "Arno boat, kept for the bags. Palazzo Papadopoli on the Grand Canal."
+              "status": "todo",
+              "detail": "Arno boat dropped. Ask Vittoria to have Aman send a boat to Palazzina Grassi at 9:40, bags come along. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "10:00 AM",
@@ -914,7 +914,7 @@
               "time": "11:50 AM",
               "title": "Water taxi from Aman to Santa Lucia",
               "status": "todo",
-              "detail": "Arno boat dropped. Ask Vittoria or the Aman concierge to call a water taxi to their dock for 11:50, about 80 euros, 15 minutes to Santa Lucia."
+              "detail": "Arno boat dropped. Ask Aman to call a water taxi to their dock for 11:50, 15 minutes to Santa Lucia."
             },
             {
               "time": "1:26 PM",
@@ -1146,7 +1146,7 @@
     {
       "title": "Send",
       "items": [
-        "Arno Travel: Ilaria, yes minus the Friday 3:00 and Saturday 11:50 boats, terms if Airelles cancels (draft ready, send now)",
+        "Arno Travel: Ilaria, yes for Friday car, train and two boats, Saturday train and car only, terms if Airelles cancels (draft ready, send now)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
@@ -1162,6 +1162,7 @@
       "title": "Decide and fix",
       "items": [
         "Airelles: call Audrey, +39 375 7700195, before paying Arno",
+        "Orient Express and Aman: ask each to arrange the boats, Friday 3:00 from the Palladio, Saturday 9:40 from Palazzina and 11:50 to the station",
         "Arno Travel: pay the revised link before 2:30 PM today",
         "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
