@@ -842,7 +842,7 @@
         },
         {
           "date": "2026-10-09",
-          "label": "October 9: Train to Venice, Orient Express, Danieli, Airelles",
+          "label": "October 9: Slow Verona morning, train to Venice, Orient Express, Danieli, Airelles",
           "stay": {
             "name": "Palazzina Grassi, Venice",
             "status": "pending",
@@ -852,45 +852,45 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Early breakfast, shoot Vista Palazzo in morning light",
+              "title": "Breakfast on the rooftop, shoot Vista Palazzo in morning light",
               "status": "info",
-              "detail": "Car at 8:15, so 7:00 start. Changing the morning through Arno costs a 200 euro revision fee, not worth it."
+              "detail": "Car at 10:15, so no rush. Arno moved everything with no fee, Matteo on WhatsApp at 8:27 PM."
             },
             {
-              "time": "8:15 AM",
+              "time": "10:15 AM",
               "title": "Car from Vista Palazzo to Verona Porta Nuova",
               "status": "confirmed",
-              "detail": "Arno, Mercedes sedan, booking 6816. Paid."
+              "detail": "Arno, Mercedes sedan, moved from 8:15 with no fee."
             },
             {
-              "time": "8:49 AM",
+              "time": "10:49 AM",
               "title": "Italo Verona Porta Nuova to Venezia Santa Lucia",
               "status": "confirmed",
-              "detail": "Italo 8973, Club Executive, coach 1 seat 16, PNR ACY8SC, Flex fare. In at 10:03. Paid."
+              "detail": "Italo 8977, Club Executive, coach 1 seat 11, PNR ACY8SC. In at 12:03. New ticket issued."
             },
             {
-              "time": "10:03 AM",
+              "time": "12:03 PM",
               "title": "Water taxi Santa Lucia to Palazzina Grassi, drop the bag",
               "status": "confirmed",
-              "detail": "Arno, assistant on the platform with a sign, private boat to Palazzina Grassi. Paid."
+              "detail": "Arno, assistant on the platform with a sign, private boat to Palazzina Grassi."
             },
             {
-              "time": "Midday",
-              "title": "Free: settle in at Palazzina Grassi, lunch",
+              "time": "12:30 PM",
+              "title": "Settle in at Palazzina Grassi, lunch",
               "status": "info",
-              "detail": "Ask the Palazzina concierge for three boats: today at 3:00 to Orient Express, Saturday 10:10 from here to Aman with luggage, Saturday 11:40 from Aman's dock to Santa Lucia. Ca' di Dio walk-through at 12:30 if Caterina says yes."
+              "detail": "Ask the concierge for Saturday's two boats: 10:10 from here to Aman with luggage, 11:40 from Aman's dock to Santa Lucia."
             },
             {
               "time": "3:00 PM",
               "title": "Water taxi Palazzina Grassi to Orient Express",
-              "status": "todo",
-              "detail": "Ask the Palazzina concierge to call a water taxi for 3:00, about 90 euros, 20 minutes to Cannaregio. Cheaper than Arno's 200 euro change fee."
+              "status": "confirmed",
+              "detail": "Arno, the 11:45 boat re-timed to 3:00 with no fee, details to follow tomorrow. 20 minutes to Cannaregio."
             },
             {
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed. Cannaregio on the Strada Nova. Their boat from Airelles cancelled, Domiziana confirmed on the 8th. Palazzina calls a taxi for 3:00, about 90 euros, 20 minutes."
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed. Cannaregio on the Strada Nova. Arno boat drops you at 3:20."
             },
             {
               "time": "5:00 PM",
@@ -1178,7 +1178,7 @@
     {
       "title": "Decide and fix",
       "items": [
-        "Palazzina concierge on arrival: boats for 3:00 today, 10:10 and 11:40 Saturday",
+        "Palazzina concierge on arrival: Saturday boats at 10:10 and 11:40",
         "Arno emergency line, standard calls only: +39 344 3443549",
         "Avis: return at Verona Porta Nuova today, don't accept the 400 in the app, dispute through President's Club if billed",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
