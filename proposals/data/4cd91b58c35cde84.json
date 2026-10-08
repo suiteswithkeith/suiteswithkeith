@@ -890,7 +890,7 @@
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Arno boat drops you at 3:20. Orient Express boat cancelled, note to Domiziana drafted."
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed. Cannaregio on the Strada Nova. Their boat from Airelles cancelled, Domiziana confirmed on the 8th. Palazzina calls a taxi for 3:00, about 90 euros, 20 minutes."
             },
             {
               "time": "5:00 PM",
@@ -902,7 +902,7 @@
               "time": "6:15 PM",
               "title": "Airelles Palladio, aperitivo with Audrey Di Fruscia",
               "status": "pending",
-              "detail": "Audrey is in Paris until lunch Friday and in a meeting until 3:00, proposed an aperitivo after. Yes drafted for 6:15, asked for the Palladio boat at the Danieli pier at 6:00, otherwise a water taxi, ten minutes. Giudecca. Resident Manager, +39 375 7700195, Marie Joly copied."
+              "detail": "Audrey Di Fruscia, Resident Manager, +39 375 7700195, Marie Joly copied. She's in Paris until lunch and in a meeting until 3:00, proposed an aperitivo after. Yes sent for 6:15, asked for the Palladio boat at the Danieli pier at 6:00, otherwise a water taxi. Giudecca."
             }
           ]
         },
@@ -920,13 +920,13 @@
               "time": "10:10 AM",
               "title": "Check out of Palazzina Grassi, water taxi to Aman with the luggage",
               "status": "todo",
-              "detail": "Ask Vittoria to have Aman send a boat to Palazzina Grassi at 10:10, bags come along, draft ready. Palazzo Papadopoli on the Grand Canal."
+              "detail": "Boat ask to Vittoria, Licinio and Giacomo drafted: pickup at Palazzina Grassi 10:10, bags come along."
             },
             {
               "time": "10:30 AM",
               "title": "Aman Venice, site visit",
               "status": "confirmed",
-              "detail": "Vittoria Comin confirmed Saturday 10:30 on the 8th. No content on the Second Noble Floor, private event. Palazzo Papadopoli on the Grand Canal."
+              "detail": "Saturday 10:30 reconfirmed on the 8th. Vittoria Comin is off that day, General Manager Licinio Garavaglia hosts the visit himself. No content on the Second Noble Floor, private event. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "11:40 AM",
@@ -1164,12 +1164,8 @@
     {
       "title": "Send",
       "items": [
-        "Six Senses: Stefano, yes to Monday 4:15 (draft ready)",
-        "Hassler: Sophie, Sunday 2:30 or 3:00 instead, Monday 5:30 as fallback (draft ready)",
-        "Airelles: Audrey, yes to the aperitivo at 6:15, boat from the Danieli pier at 6:00 (draft ready, send now)",
-        "Orient Express: Domiziana, no boat needed, arriving on my own at 3:30 on the 9th (draft ready, send now)",
+        "Aman Venice: Vittoria, Licinio and Giacomo, the two Saturday boats (draft ready, the one thing left tonight)",
         "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
-        "Aman Venice: Vittoria, thanks for 10:30, boats at 10:10 and 11:40 for the 12:26 (draft ready, send now)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
@@ -1196,9 +1192,11 @@
     {
       "title": "Waiting on",
       "items": [
+        "Hassler Roma, Sophie Clarke: Sunday 2:30 or 3:00, sent",
+        "Airelles Palladio, Audrey: 6:15 aperitivo and the Danieli boat, sent",
+        "Six Senses Rome, Stefano: Monday 4:15, yes sent",
         "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
-        "Orient Express, Federica and Ginevra: boat from the Palladio at 3:00 Friday, sent",
         "Airelles Palladio, Audrey: aperitivo Friday 6:15 and the boat from the Danieli, once sent",
         "Violino d'Oro, Daniela: release of the 9th, asked",
         "Villa Treville, Daniela Barba: visit time on the 14th",
