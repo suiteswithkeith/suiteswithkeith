@@ -910,10 +910,10 @@
               "detail": "About 3 hours 55, into Termini around 7:20. Book it, check the exact departure."
             },
             {
-              "time": "7:45 PM",
-              "title": "Hassler Roma: look at the rooms, then dinner at Imàgo",
-              "status": "todo",
-              "detail": "The Hassler visit as a dinner. Rooftop, five minutes from the Eden. Need the sales contact from the Fora card, then ask for a table for one at 8:30 and a quick look at two rooms before."
+              "time": "Evening",
+              "title": "Dinner in Rome, free",
+              "status": "info",
+              "detail": "Nobody has a claim on this one."
             }
           ]
         }
@@ -939,7 +939,13 @@
               "time": "10:00 AM",
               "title": "Casa Monti, site visit",
               "status": "pending",
-              "detail": "Asked through the hotel's general address, draft ready. Via Panisperna in Monti, 15 minutes on foot from the Hassler."
+              "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Sunday 10:00 asked, draft ready. Via Panisperna in Monti, 15 minutes on foot from the Hassler."
+            },
+            {
+              "time": "12:00 PM",
+              "title": "Hassler Roma, site visit",
+              "status": "todo",
+              "detail": "Not contacted. Pull the sales contact from the Fora card. Top of the Spanish Steps, five minutes from the Eden."
             },
             {
               "time": "3:00 PM",
@@ -1125,8 +1131,8 @@
         "Violino d'Oro: Daniela, yes to the 9th at 890 euros (draft ready, send by 10:00 tomorrow unless Palazzina answers)",
         "Palazzina Grassi: hosted or advisor rate for the 9th (draft ready, send tonight)",
         "Six Senses Rome: Stefano, Monday 3:00 (draft ready)",
-        "Casa Monti: Sunday 10:00 visit (draft ready)",
-        "Hassler: find the sales contact on the Fora card, then the Saturday dinner ask",
+        "Casa Monti: Lidia, Sunday 10:00 visit (draft ready)",
+        "Hassler: find the sales contact on the Fora card, then the Sunday noon ask",
         "The Eden: Tristan, add Saturday the 10th (draft ready)",
         "Aman Venice: Giacomo and Vittoria, Saturday 10:00 (draft ready)",
         "Nolinski Venezia: Caroline, site visit Saturday midday (draft ready)",
@@ -1162,7 +1168,7 @@
       "title": "Waiting on",
       "items": [
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, once sent",
-        "Casa Monti: Sunday 10:00, once sent",
+        "Casa Monti, Lidia Mastellone: Sunday 10:00, once sent",
         "Violino d'Oro, Daniela: the 9th, once the yes is sent",
         "Palazzina Grassi, reservations and marketing: the 9th, once sent",
         "Aman Venice, Giacomo and Vittoria: Saturday 10:00, once sent",
@@ -1178,7 +1184,7 @@
     {
       "title": "Not contacted",
       "items": [
-        "Hassler Roma: Saturday dinner at Imàgo plus a look at the rooms, need the sales contact",
+        "Hassler Roma: Sunday noon visit, need the sales contact",
         "Miramare, Excelsior Palace",
         "Badia Hill",
         "ADLER Lodge Alpe",
