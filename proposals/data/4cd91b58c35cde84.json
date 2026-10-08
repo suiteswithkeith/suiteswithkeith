@@ -906,22 +906,22 @@
           },
           "items": [
             {
-              "time": "9:40 AM",
+              "time": "10:10 AM",
               "title": "Check out of Palazzina Grassi, water taxi to Aman with the luggage",
               "status": "todo",
-              "detail": "Arno boat dropped. Boat ask to Vittoria drafted, hold it until she confirms 10:00. Bags come along. Palazzo Papadopoli on the Grand Canal."
+              "detail": "Ask Vittoria to have Aman send a boat to Palazzina Grassi at 10:10, bags come along, draft ready. Palazzo Papadopoli on the Grand Canal."
             },
             {
-              "time": "10:00 AM",
+              "time": "10:30 AM",
               "title": "Aman Venice, site visit",
-              "status": "pending",
-              "detail": "Vittoria Comin confirmed 3:00 on the 8th. Asked to move to 10:00 because of the 1:25 train, sent, Friday 6:00 offered as backup. Waiting on her. No content on the Second Noble Floor, private event. Palazzo Papadopoli on the Grand Canal."
+              "status": "confirmed",
+              "detail": "Vittoria Comin confirmed Saturday 10:30 on the 8th. No content on the Second Noble Floor, private event. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "11:50 AM",
               "title": "Water taxi from Aman to Santa Lucia",
               "status": "todo",
-              "detail": "Arno boat dropped. Ask Aman to call a water taxi to their dock for 11:50, 15 minutes to Santa Lucia."
+              "detail": "Ask Aman to call a water taxi to their dock for 11:50, 15 minutes to Santa Lucia, in the same note to Vittoria."
             },
             {
               "time": "1:26 PM",
@@ -1156,7 +1156,7 @@
         "Orient Express: Domiziana, boat is Friday the 9th at 3:00, not the 11th at 3:30 (draft ready, send now)",
         "Arno Travel: Ilaria, yes for Friday car, train and two boats, Saturday train and car only (draft ready, send now)",
         "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
-        "Aman Venice: Vittoria, the two Saturday boats (draft ready, hold until she confirms 10:00)",
+        "Aman Venice: Vittoria, thanks for 10:30 and the two Saturday boats (draft ready, send now)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
@@ -1185,7 +1185,6 @@
       "title": "Waiting on",
       "items": [
         "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
-        "Aman Venice, Vittoria Comin: move Saturday to 10:00, sent",
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
         "Orient Express, Federica and Ginevra: boat from the Palladio at 3:00 Friday, sent",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
