@@ -854,19 +854,19 @@
               "time": "8:15 AM",
               "title": "Car from Vista Palazzo to Verona Porta Nuova",
               "status": "confirmed",
-              "detail": "Arno Travel, Mercedes sedan."
+              "detail": "Arno Travel, Mercedes sedan. Paid, tickets from Eleonora on the 8th."
             },
             {
               "time": "8:49 AM",
               "title": "Italo Verona Porta Nuova to Venezia Santa Lucia",
               "status": "confirmed",
-              "detail": "Executive class, in at 10:03. Booked by Arno."
+              "detail": "Executive class, in at 10:03. Booked by Arno. Paid, tickets from Eleonora on the 8th."
             },
             {
               "time": "10:03 AM",
               "title": "Water taxi Santa Lucia to Palazzina Grassi, drop the bag",
               "status": "confirmed",
-              "detail": "Arno, private boat at the station."
+              "detail": "Arno, private boat at the station. Paid, tickets from Eleonora on the 8th."
             },
             {
               "time": "Midday",
@@ -877,8 +877,8 @@
             {
               "time": "3:00 PM",
               "title": "Water taxi Palazzina Grassi to Orient Express",
-              "status": "confirmed",
-              "detail": "Arno, moved from the 11:45 Airelles run. 20 minutes to Cannaregio."
+              "status": "pending",
+              "detail": "Arno booked and paid an 11:45 boat to Airelles. Asked Ilaria and Eleonora to move it to 3:00, Palazzina to Orient Express, draft ready. If they can't, the hotel calls one, 20 minutes to Cannaregio."
             },
             {
               "time": "3:30 PM",
@@ -932,13 +932,13 @@
               "time": "1:26 PM",
               "title": "Frecciarossa Venezia Santa Lucia to Roma Termini",
               "status": "confirmed",
-              "detail": "Premium class, booked by Arno. Into Termini around 5:15."
+              "detail": "Premium class, booked by Arno. Into Termini around 5:15. Paid, tickets from Eleonora on the 8th."
             },
             {
               "time": "5:15 PM",
               "title": "Car from Termini to the Eden",
               "status": "confirmed",
-              "detail": "Arno, Mercedes."
+              "detail": "Arno, Mercedes. Paid, tickets from Eleonora on the 8th."
             },
             {
               "time": "Evening",
@@ -1159,6 +1159,7 @@
       "title": "Send",
       "items": [
         "Airelles: Audrey, yes to the aperitivo at 6:15, boat from the Danieli pier at 6:00 (draft ready, send now)",
+        "Arno Travel: Ilaria and Eleonora, move the paid 11:45 boat to 3:00 Palazzina to Orient Express (draft ready, send now)",
         "Arno Travel: Ilaria, Friday boat now 3:00 Palazzina to Orient Express, no Airelles runs, Saturday train and car only (draft ready, send now)",
         "Orient Express: Domiziana, no boat needed, arriving on my own at 3:30 on the 9th (draft ready, send now)",
         "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
@@ -1177,7 +1178,6 @@
     {
       "title": "Decide and fix",
       "items": [
-        "Arno Travel: pay the revised link before 2:30 PM today",
         "Avis: return at Verona Porta Nuova today, don't accept the 400 in the app, dispute through President's Club if billed",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
