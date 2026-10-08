@@ -1003,9 +1003,8 @@
           "label": "October 12: Rome, then La Minerva",
           "stay": {
             "name": "Orient Express La Minerva",
-            "status": "pending",
-            "detail": "Piazza della Minerva 69. Egle Antanaityte. Booked 11 to 13, comped 11th, paid 12th. Accor wants a card guarantee for the 670 by September 30, request LAKAZEXE_B914_1716455. Hold it until Egle answers.",
-            "todo": "Egle, in person: move the comped night to the 12th, drop the paid 11th."
+            "status": "confirmed",
+            "detail": "Piazza della Minerva 69. One hosted night on the 12th, updated confirmation letter from reservations on Sept 29 after Egle Antanaityte dropped the 11th. Ignore the 670 card request, that was the old booking."
           },
           "items": [
             {
@@ -1181,7 +1180,6 @@
         "Palazzina concierge on arrival: Saturday boats at 10:10 and 11:40",
         "Arno emergency line, standard calls only: +39 344 3443549",
         "Avis: return at Verona Porta Nuova today, don't accept the 400 in the app, dispute through President's Club if billed",
-        "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Tennis kit",
         "Puflatsch at dawn on the 8th if dry, then leave Alpina by 9:30"
