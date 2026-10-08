@@ -842,7 +842,7 @@
         },
         {
           "date": "2026-10-09",
-          "label": "October 9: Train to Venice, Airelles, Orient Express, Danieli",
+          "label": "October 9: Train to Venice, Orient Express, Danieli, aperitivo at Airelles",
           "stay": {
             "name": "Palazzina Grassi, Venice",
             "status": "pending",
@@ -869,29 +869,34 @@
               "detail": "Arno, private boat at the station."
             },
             {
-              "time": "11:45 AM",
-              "title": "Water taxi Palazzina Grassi to the Airelles Palladio dock",
-              "status": "confirmed",
-              "detail": "Arno. Ten minutes to Giudecca."
+              "time": "Midday",
+              "title": "Free: shoot Palazzina Grassi, lunch",
+              "status": "info",
+              "detail": "Ca' di Dio walk-through at 12:30 if Caterina says yes, otherwise the hotel and the Grand Canal side."
             },
             {
-              "time": "12:30 PM",
-              "title": "Airelles Palladio, visit and lunch with Audrey Di Fruscia",
-              "status": "pending",
-              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. 12:30 proposed, then 12:00 with visit first, all sent, no reply from Audrey yet. Going regardless, arriving by boat at the Palladio dock just before noon. Giudecca.",
-              "todo": ""
+              "time": "3:00 PM",
+              "title": "Water taxi Palazzina Grassi to Orient Express",
+              "status": "confirmed",
+              "detail": "Arno, moved from the 11:45 Airelles run. 20 minutes to Cannaregio."
             },
             {
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Water taxi from the Palladio dock arranged by Domiziana Quaia, curator, 90 euros to the driver, number by WhatsApp. Their confirmation said the 11th at 3:30, correction to the 9th at 3:00 drafted."
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Arno boat drops you at 3:20. Orient Express boat cancelled, note to Domiziana drafted."
             },
             {
               "time": "5:00 PM",
               "title": "The Danieli, A Four Seasons Hotel, site visit",
               "status": "confirmed",
-              "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. From Orient Express 15 to 20 minutes by water taxi, leave by 4:35, or a 30 minute walk via Rialto if done by 4:20."
+              "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. Orient Express to the Danieli is 15 to 20 minutes by water taxi, have Ginevra's team call one for 4:35, or a 30 minute walk via Rialto if done by 4:20."
+            },
+            {
+              "time": "6:15 PM",
+              "title": "Airelles Palladio, aperitivo with Audrey Di Fruscia",
+              "status": "pending",
+              "detail": "Audrey is in Paris until lunch Friday and in a meeting until 3:00, proposed an aperitivo after. Yes drafted for 6:15, asked for the Palladio boat at the Danieli pier at 6:00, otherwise a water taxi, ten minutes. Giudecca. Resident Manager, +39 375 7700195, Marie Joly copied."
             }
           ]
         },
@@ -1153,8 +1158,9 @@
     {
       "title": "Send",
       "items": [
-        "Orient Express: Domiziana, boat is Friday the 9th at 3:00, not the 11th at 3:30 (draft ready, send now)",
-        "Arno Travel: Ilaria, yes for Friday car, train and two boats, Saturday train and car only (draft ready, send now)",
+        "Airelles: Audrey, yes to the aperitivo at 6:15, boat from the Danieli pier at 6:00 (draft ready, send now)",
+        "Arno Travel: Ilaria, Friday boat now 3:00 Palazzina to Orient Express, no Airelles runs, Saturday train and car only (draft ready, send now)",
+        "Orient Express: Domiziana, no boat needed, arriving on my own at 3:30 on the 9th (draft ready, send now)",
         "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
         "Aman Venice: Vittoria, thanks for 10:30 and the two Saturday boats (draft ready, send now)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
@@ -1188,7 +1194,7 @@
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
         "Orient Express, Federica and Ginevra: boat from the Palladio at 3:00 Friday, sent",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
-        "Airelles Palladio, Audrey: confirm Friday, 12:00 asked, no reply to anything yet",
+        "Airelles Palladio, Audrey: aperitivo Friday 6:15 and the boat from the Danieli, once sent",
         "Violino d'Oro, Daniela: release of the 9th, asked",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Sporthotel Floralpina: no reply"
