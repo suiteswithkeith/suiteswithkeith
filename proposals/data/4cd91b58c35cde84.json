@@ -837,10 +837,10 @@
           "date": "2026-10-09",
           "label": "October 9: Train to Venice, Airelles, Orient Express, Danieli",
           "stay": {
-            "name": "Violino d'Oro, Venice",
+            "name": "Venice, Violino d'Oro or Palazzina Grassi",
             "status": "pending",
-            "detail": "Executive Supreme, single occupancy, 890 euros with breakfast against 1,636 online. Room released at 5:49 PM on the 7th, Daniela Iacovlev holding it for a yes. No room inspection, public areas and history tour offered. San Marco, five minutes on foot from the Danieli.",
-            "todo": "Send the yes to Daniela, draft ready."
+            "detail": "Violino d'Oro: Executive Supreme at 890 euros with breakfast, Daniela holding it for a yes, San Marco. Palazzina Grassi: hosted or advisor rate asked through reservations and marketing, draft ready, Grand Canal at San Samuele. One night, pick one.",
+            "todo": "Send the Palazzina ask tonight. If nothing back by 10:00 tomorrow, send the Violino yes."
           },
           "items": [
             {
@@ -1110,7 +1110,8 @@
     {
       "title": "Send",
       "items": [
-        "Violino d'Oro: Daniela, yes to the 9th at 890 euros (draft ready, send now)",
+        "Violino d'Oro: Daniela, yes to the 9th at 890 euros (draft ready, send by 10:00 tomorrow unless Palazzina answers)",
+        "Palazzina Grassi: hosted or advisor rate for the 9th (draft ready, send tonight)",
         "The Eden: Tristan, add Saturday the 10th (draft ready)",
         "Aman Venice: Giacomo and Vittoria, Saturday 10:00 (draft ready)",
         "Nolinski Venezia: Caroline, site visit Saturday midday (draft ready)",
@@ -1147,6 +1148,7 @@
       "title": "Waiting on",
       "items": [
         "Violino d'Oro, Daniela: the 9th, once the yes is sent",
+        "Palazzina Grassi, reservations and marketing: the 9th, once sent",
         "Aman Venice, Giacomo and Vittoria: Saturday 10:00, once sent",
         "Nolinski Venezia, Caroline: Saturday midday, once sent",
         "The Eden, Tristan: add the 10th, once sent",
