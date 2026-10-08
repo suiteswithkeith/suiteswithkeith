@@ -864,15 +864,15 @@
             {
               "time": "11:45 AM",
               "title": "Water taxi Palazzina Grassi to the Airelles Palladio dock",
-              "status": "pending",
-              "detail": "Arno. Ten minutes to Giudecca. Only needed if Audrey confirms, asked Ilaria about cancelling or redirecting if Airelles falls through."
+              "status": "confirmed",
+              "detail": "Arno. Ten minutes to Giudecca."
             },
             {
               "time": "12:30 PM",
               "title": "Airelles Palladio, visit and lunch with Audrey Di Fruscia",
               "status": "pending",
-              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. 12:30 proposed, then 12:00 with visit first and a 2:45 departure, all sent. Nothing back from Audrey yet, call her if silent by this evening. Giudecca, 10 minutes by water taxi, the Palladio has its own dock.",
-              "todo": "Call Audrey on her mobile before 2:30 today, the two Friday boats hang on her answer."
+              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. 12:30 proposed, then 12:00 with visit first, all sent, no reply from Audrey yet. Going regardless, arriving by boat at the Palladio dock just before noon. Giudecca.",
+              "todo": ""
             },
             {
               "time": "3:30 PM",
@@ -1146,7 +1146,7 @@
     {
       "title": "Send",
       "items": [
-        "Arno Travel: Ilaria, yes for Friday car, train and two boats, Saturday train and car only, terms if Airelles cancels (draft ready, send now)",
+        "Arno Travel: Ilaria, yes for Friday car, train and two boats, Saturday train and car only (draft ready, send now)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
@@ -1161,7 +1161,6 @@
     {
       "title": "Decide and fix",
       "items": [
-        "Airelles: call Audrey, +39 375 7700195, before paying Arno",
         "Orient Express and Aman: ask each to arrange the boats, Friday 3:00 from the Palladio, Saturday 9:40 from Palazzina and 11:50 to the station",
         "Arno Travel: pay the revised link before 2:30 PM today",
         "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
