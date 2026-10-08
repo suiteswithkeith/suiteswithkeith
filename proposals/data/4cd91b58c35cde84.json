@@ -817,7 +817,7 @@
               "time": "12:15 PM",
               "title": "Return the car, Avis at Verona Porta Nuova station",
               "status": "todo",
-              "detail": "Change the Avis return from Fiumicino on the 11th to Verona Porta Nuova on the 8th in the app. Check Thursday hours.",
+              "detail": "App wants 400 euros to change the drop to Verona, don't accept it in the app. Call the branch first, cite President's Club and the Florence agent, return the car regardless, take the return receipt, dispute any relocation fee with President's Club after.",
               "todo": "Change the Avis return."
             },
             {
@@ -1164,7 +1164,7 @@
       "title": "Decide and fix",
       "items": [
         "Arno Travel: pay the revised link before 2:30 PM today",
-        "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
+        "Avis: return at Verona Porta Nuova today, don't accept the 400 in the app, dispute through President's Club if billed",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Tennis kit",
