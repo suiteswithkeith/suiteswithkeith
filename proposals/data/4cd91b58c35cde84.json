@@ -881,9 +881,9 @@
           "items": [
             {
               "time": "9:40 AM",
-              "title": "Check out of Palazzina Grassi, leave the bag, water taxi to Aman",
+              "title": "Check out of Palazzina Grassi, water taxi to Aman with the luggage",
               "status": "info",
-              "detail": "Palazzo Papadopoli on the Grand Canal, a few minutes by water taxi."
+              "detail": "Bags come along to Aman. Palazzo Papadopoli on the Grand Canal, a few minutes by water taxi."
             },
             {
               "time": "10:00 AM",
@@ -893,9 +893,9 @@
             },
             {
               "time": "12:30 PM",
-              "title": "Collect the bag, water taxi to Santa Lucia",
+              "title": "Water taxi from Aman to Santa Lucia",
               "status": "info",
-              "detail": "15 minutes from San Samuele."
+              "detail": "Straight from Aman with the bags, 10 to 15 minutes."
             },
             {
               "time": "1:25 PM",
