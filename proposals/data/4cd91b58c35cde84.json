@@ -877,7 +877,7 @@
         },
         {
           "date": "2026-10-10",
-          "label": "October 10: Aman, train to Rome, the Hassler",
+          "label": "October 10: Aman, train to Rome",
           "stay": {
             "name": "Rome, bed to confirm",
             "status": "pending",
@@ -922,10 +922,10 @@
               "detail": ""
             },
             {
-              "time": "7:00 PM",
-              "title": "Hassler Roma: look at the rooms, then dinner at Imàgo at 7:30",
-              "status": "pending",
-              "detail": "Sophie Clarke offered Saturday 10:45 or 12:30 with Francesca Martinelli, which clash with the train. Replied asking for 7:00 Saturday before Imàgo, or Sunday noon, or Monday after 4:30. Waiting on her."
+              "time": "Evening",
+              "title": "Dinner in Rome, free",
+              "status": "info",
+              "detail": "Nobody has a claim on this one."
             }
           ]
         }
@@ -969,7 +969,7 @@
         },
         {
           "date": "2026-10-12",
-          "label": "October 12: Rome",
+          "label": "October 12: Rome, four visits",
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "pending",
@@ -993,7 +993,13 @@
               "time": "3:00 PM",
               "title": "Six Senses Rome, site visit and spa",
               "status": "pending",
-              "detail": "Stefano Vazzola offered a visit and spa day. Monday 3:00 asked, Tuesday morning as backup, sent on the 8th. Piazza San Marcello."
+              "detail": "Stefano Vazzola offered a visit and spa day. Monday 3:00 asked, sent, waiting. Hassler follows at 4:30, so the spa would have to be short or move earlier. Piazza San Marcello."
+            },
+            {
+              "time": "4:30 PM",
+              "title": "Hassler Roma, site visit",
+              "status": "confirmed",
+              "detail": "Sophie Clarke confirmed Monday 4:30 with Francesca Martinelli, Sales Executive. Imàgo fully booked, no dinner. Fifteen minutes on foot from Six Senses, top of the Spanish Steps."
             },
             {
               "time": "Evening",
@@ -1134,6 +1140,7 @@
     {
       "title": "Send",
       "items": [
+        "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Violino d'Oro: Daniela, release the 9th with apologies (draft ready, send now)",
         "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
         "Nolinski: Caroline, pass on the room, Friday 6:30 walk-through (draft ready)",
@@ -1165,7 +1172,6 @@
       "items": [
         "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
         "Aman Venice, Vittoria Comin: move Saturday to 10:00, sent",
-        "Hassler Roma, Sophie Clarke: Saturday 7:00, Sunday noon or Monday late, sent",
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
         "Casa Monti, Lidia Mastellone: Sunday 10:00, sent",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
