@@ -889,13 +889,7 @@
               "time": "5:00 PM",
               "title": "The Danieli, A Four Seasons Hotel, site visit",
               "status": "confirmed",
-              "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. From Orient Express 15 to 20 minutes by water taxi, have Ginevra's team call one for 4:35, or a 30 minute walk via Rialto if done by 4:20."
-            },
-            {
-              "time": "6:30 PM",
-              "title": "Nolinski Venezia, site visit",
-              "status": "pending",
-              "detail": "Caroline Krancenblum: no discount, Classic 1,275, Junior Suite 1,800, two rooms left. Passing on the room, reply drafted asking for a 6:30 walk-through Friday, Saturday first thing as backup. Ten minutes on foot from the Danieli."
+              "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. From Orient Express 15 to 20 minutes by water taxi, leave by 4:35, or a 30 minute walk via Rialto if done by 4:20."
             }
           ]
         },
@@ -910,22 +904,10 @@
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Check out of Palazzina Grassi",
-              "status": "info",
-              "detail": "Bag comes with you on the boats."
-            },
-            {
-              "time": "8:45 AM",
-              "title": "Hotel Gabrielli, site inspection",
-              "status": "pending",
-              "detail": "Full on the 10th. Davide Ballardini at Starhotels offered a site inspection. Saturday 8:45 asked, draft ready, not sent. Riva degli Schiavoni. If it confirms, the 9:40 Arno boat needs to collect you there instead of Palazzina, tell Ilaria."
-            },
-            {
               "time": "9:40 AM",
-              "title": "Water taxi Palazzina Grassi to Aman Venice",
+              "title": "Check out of Palazzina Grassi, water taxi to Aman with the luggage",
               "status": "confirmed",
-              "detail": "Arno."
+              "detail": "Arno water taxi, bags come along. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "10:00 AM",
@@ -935,9 +917,9 @@
             },
             {
               "time": "11:50 AM",
-              "title": "Water taxi Aman to Venezia Santa Lucia",
+              "title": "Water taxi from Aman to Santa Lucia",
               "status": "confirmed",
-              "detail": "Arno."
+              "detail": "Arno, straight from Aman with the bags."
             },
             {
               "time": "1:26 PM",
@@ -978,10 +960,10 @@
           },
           "items": [
             {
-              "time": "10:00 AM",
+              "time": "12:00 PM",
               "title": "Casa Monti, site visit",
               "status": "pending",
-              "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Sunday 10:00 asked, sent on the 8th. Via Panisperna in Monti."
+              "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Lidia offered Sunday 12:00 (or 11:30) on the 8th; yes to 12:00 drafted, not sent. Via Panisperna 210/212 in Monti, +39 348 891 5342."
             },
             {
               "time": "3:00 PM",
@@ -1008,16 +990,16 @@
           },
           "items": [
             {
-              "time": "8:30 AM",
+              "time": "10:00 AM",
               "title": "La Dolce Vita Orient Express, visit on board",
               "status": "confirmed",
-              "detail": "Federico offered 8:30 before the train leaves at 9:00. Acceptance drafted. Before de Russie at 11:00."
+              "detail": "Federico Talucci, +39 349 199 7497, WhatsApp for day-of updates. Meet at the La Dolce Vita Lounge, Rome Ostiense, Piazzale dei Partigiani 33A. Train departs 10:40. Answered on WhatsApp."
             },
             {
               "time": "11:00 AM",
               "title": "Hotel de Russie, site visit",
               "status": "confirmed",
-              "detail": "Elena Carnevale, Regional Sales Coordinator, +39 342 1250435. Ask for her at reception. Renovated rooms and the Secret Garden."
+              "detail": "Elena Carnevale, Regional Sales Coordinator, +39 342 1250435. Ask for her at reception. Renovated rooms and the Secret Garden. Ostiense to de Russie is 20 to 25 minutes by car, so have a car waiting at 10:40, or ask Elena for 11:15."
             },
             {
               "time": "3:00 PM",
@@ -1151,15 +1133,14 @@
             {
               "time": "Morning",
               "title": "Transfer to Naples airport (NAP)",
-              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Timing follows the award flight once the confirmation is in. Arno asked to help.",
+              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Flight confirmed; Arno to book the car once the departure time is in.",
               "status": "todo"
             },
             {
               "time": "TBC",
-              "title": "Return flight, booked on points, details to come",
-              "detail": "United KYMT99 was cancelled September 19 and refunded in full, $2,260.23, on September 21. The replacement is booked on points. Send the confirmation and the times go here.",
-              "status": "pending",
-              "todo": "Send the award booking confirmation for the return on the 16th."
+              "title": "Return flight from Naples, booked on points",
+              "detail": "Confirmed. United KYMT99 was cancelled September 19 and refunded in full; this award booking replaces it. Add the flight time here.",
+              "status": "confirmed"
             }
           ]
         }
@@ -1171,9 +1152,8 @@
       "title": "Send",
       "items": [
         "Arno Travel: Ilaria, confirm the quote, 11:45 Friday pickup, 1:26 firm (draft ready, send now)",
+        "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
-        "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
-        "Nolinski: Caroline, pass on the room, Friday 6:30 walk-through (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
@@ -1190,7 +1170,6 @@
         "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
-        "Return flight on the 16th: send the confirmation",
         "Tennis kit",
         "Puflatsch at dawn on the 8th if dry, then leave Alpina by 9:30"
       ]
@@ -1203,11 +1182,8 @@
         "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
         "Aman Venice, Vittoria Comin: move Saturday to 10:00, sent",
         "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
-        "Casa Monti, Lidia Mastellone: Sunday 10:00, sent",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
         "Airelles Palladio, Audrey: confirm Friday, 12:00 asked, no reply to anything yet",
-        "Hotel Gabrielli, Davide Ballardini: Saturday 8:45, once sent",
-        "Nolinski Venezia, Caroline: Friday 6:30 walk-through, once sent",
         "Violino d'Oro, Daniela: release of the 9th, asked",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Sporthotel Floralpina: no reply"
