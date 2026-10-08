@@ -878,7 +878,7 @@
               "time": "Midday",
               "title": "Free: settle in at Palazzina Grassi, lunch",
               "status": "info",
-              "detail": "The paid 11:45 Arno boat to Giudecca is no longer needed, re-timing it costs 200, so let it go. Ca' di Dio walk-through at 12:30 if Caterina says yes."
+              "detail": "Ask the Palazzina concierge for three boats: today at 3:00 to Orient Express, Saturday 10:10 from here to Aman with luggage, Saturday 11:40 from Aman's dock to Santa Lucia. Ca' di Dio walk-through at 12:30 if Caterina says yes."
             },
             {
               "time": "3:00 PM",
@@ -920,7 +920,7 @@
               "time": "10:10 AM",
               "title": "Check out of Palazzina Grassi, water taxi to Aman with the luggage",
               "status": "todo",
-              "detail": "Boat ask to Vittoria, Licinio and Giacomo drafted: pickup at Palazzina Grassi 10:10, bags come along."
+              "detail": "Booked through the Palazzina concierge on Friday, bags come along."
             },
             {
               "time": "10:30 AM",
@@ -932,7 +932,7 @@
               "time": "11:40 AM",
               "title": "Water taxi from Aman to Santa Lucia",
               "status": "todo",
-              "detail": "Ask Aman to call a water taxi to their dock for 11:40, 15 minutes to Santa Lucia for the 12:26. In the note to Vittoria."
+              "detail": "Booked through the Palazzina concierge on Friday, 15 minutes to Santa Lucia for the 12:26."
             },
             {
               "time": "12:26 PM",
@@ -1164,7 +1164,6 @@
     {
       "title": "Send",
       "items": [
-        "Aman Venice: Vittoria, Licinio and Giacomo, the two Saturday boats (draft ready, the one thing left tonight)",
         "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
@@ -1179,6 +1178,7 @@
     {
       "title": "Decide and fix",
       "items": [
+        "Palazzina concierge on arrival: boats for 3:00 today, 10:10 and 11:40 Saturday",
         "Arno emergency line, standard calls only: +39 344 3443549",
         "Avis: return at Verona Porta Nuova today, don't accept the 400 in the app, dispute through President's Club if billed",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
