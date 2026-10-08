@@ -835,25 +835,19 @@
         },
         {
           "date": "2026-10-09",
-          "label": "October 9: Early train to Venice, Palazzina shoot, Airelles, Orient Express, Danieli",
+          "label": "October 9: Train to Venice, Airelles, Orient Express, Danieli",
           "stay": {
             "name": "Palazzina Grassi, Venice",
             "status": "pending",
-            "detail": "Hosted night offered by Silvia Speronello at Relegance on the 8th: a Superior room, in exchange for a social mention, a place in the guide and repost rights with credit. Canal View Suites can be shot Friday morning before check-in. Grand Canal at San Samuele. Violino d'Oro at 890 is confirmed and has to be released once this is accepted.",
+            "detail": "Hosted night offered by Silvia Speronello at Relegance on the 8th: a Superior room, in exchange for a social mention, a place in the guide and repost rights with credit. No formal visit needed, connect with the team in the evening if someone is around, shoot what you need while staying. Grand Canal at San Samuele. Violino d'Oro at 890 is confirmed and has to be released once this is accepted.",
             "todo": "Send the yes to Silvia, then the release ask to Daniela at Violino. Both drafts ready."
           },
           "items": [
             {
-              "time": "8:00 AM",
+              "time": "9:00 AM",
               "title": "Train Verona to Venezia Santa Lucia",
               "status": "info",
-              "detail": "Take an early one, about 1 hour 10. In by 9:15, water taxi 15 minutes to Palazzina Grassi."
-            },
-            {
-              "time": "9:45 AM",
-              "title": "Palazzina Grassi: shoot the Canal View Suites, leave the bag",
-              "status": "pending",
-              "detail": "Silvia's preferred slot, before guests check in. Time to confirm with the hotel."
+              "detail": "1 hour 10. In by 10:15, water taxi 15 minutes to Palazzina Grassi, drop the bag."
             },
             {
               "time": "12:30 PM",
@@ -1140,7 +1134,7 @@
     {
       "title": "Send",
       "items": [
-        "Palazzina Grassi: Silvia, yes to the hosted night and the Friday morning shoot (draft ready, send now)",
+        "Palazzina Grassi: Silvia, yes to the hosted night, no formal visit needed (draft ready, send now)",
         "Violino d'Oro: Daniela, release the 9th with apologies (draft ready, send right after)",
         "Aman Venice: Vittoria, move Saturday to 10:00 (draft ready)",
         "Hassler: Sophie, Saturday 7:00 or Sunday noon (draft ready)",
@@ -1159,7 +1153,7 @@
       "title": "Decide and fix",
       "items": [
         "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
-        "Trains: Verona to Venice early on the 9th, about 8:00, Venice to Rome Saturday the 10th around 1:25",
+        "Trains: Verona to Venice on the 9th, Venice to Rome Saturday the 10th around 1:25",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
