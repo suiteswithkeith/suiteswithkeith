@@ -866,12 +866,6 @@
               "title": "The Danieli, A Four Seasons Hotel, site visit",
               "status": "confirmed",
               "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. From Orient Express 15 to 20 minutes by water taxi, leave by 4:35, or a 30 minute walk via Rialto if done by 4:20."
-            },
-            {
-              "time": "6:30 PM",
-              "title": "Nolinski Venezia, site visit",
-              "status": "pending",
-              "detail": "Caroline Krancenblum: no discount, Classic 1,275, Junior Suite 1,800, two rooms left. Passing on the room, reply drafted asking for a 6:30 walk-through Friday, Saturday first thing as backup. Ten minutes on foot from the Danieli."
             }
           ]
         },
@@ -1121,15 +1115,14 @@
             {
               "time": "Morning",
               "title": "Transfer to Naples airport (NAP)",
-              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Timing follows the award flight once the confirmation is in. Arno asked to help.",
+              "detail": "Amalfi to Naples airport is about 1 hour 30 without traffic. Flight confirmed; Arno to book the car once the departure time is in.",
               "status": "todo"
             },
             {
               "time": "TBC",
-              "title": "Return flight, booked on points, details to come",
-              "detail": "United KYMT99 was cancelled September 19 and refunded in full, $2,260.23, on September 21. The replacement is booked on points. Send the confirmation and the times go here.",
-              "status": "pending",
-              "todo": "Send the award booking confirmation for the return on the 16th."
+              "title": "Return flight from Naples, booked on points",
+              "detail": "Confirmed. United KYMT99 was cancelled September 19 and refunded in full; this award booking replaces it. Add the flight time here.",
+              "status": "confirmed"
             }
           ]
         }
@@ -1143,7 +1136,6 @@
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
-        "Nolinski: Caroline, pass on the room, Friday 6:30 walk-through (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
@@ -1160,7 +1152,6 @@
         "Trains: Verona to Venice on the 9th, Venice to Rome Saturday the 10th around 1:25",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
-        "Return flight on the 16th: send the confirmation",
         "Tennis kit",
         "Puflatsch at dawn on the 8th if dry, then leave Alpina by 9:30"
       ]
@@ -1176,7 +1167,6 @@
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
         "Airelles Palladio, Audrey: confirm Friday, 12:00 asked, no reply to anything yet",
         "Hotel Gabrielli, Davide Ballardini: Saturday 8:45, once sent",
-        "Nolinski Venezia, Caroline: Friday 6:30 walk-through, once sent",
         "Violino d'Oro, Daniela: release of the 9th, asked",
         "Villa Treville, Daniela Barba: visit time on the 14th",
         "Sporthotel Floralpina: no reply"
