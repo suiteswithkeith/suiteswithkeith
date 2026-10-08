@@ -785,8 +785,8 @@
           "stay": {
             "name": "Vista Palazzo Verona",
             "status": "confirmed",
-            "detail": "Hosted night confirmed by Ilma Savu, breakfast included, confirmation attached to her email of the 7th. Tour plus time to shoot the suites and the rooftop. Corticella Leoni 3, inside the ZTL.",
-            "todo": "Send the ETA reply, draft ready: 12:45 by taxi, one guest."
+            "detail": "Hosted night confirmed by Ilma Savu, breakfast included, confirmation attached to her email of the 7th. ETA 12:45 by taxi and one guest sent, acknowledged by Lorenzo Dalla Valle. Tour plus suites and rooftop in the afternoon, sunset on the rooftop asked. Corticella Leoni 3, inside the ZTL.",
+            "todo": ""
           },
           "items": [
             {
@@ -853,7 +853,7 @@
               "time": "12:30 PM",
               "title": "Airelles Palladio, visit and lunch with Audrey Di Fruscia",
               "status": "pending",
-              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. 12:30 proposed and solo correction sent, not yet confirmed. Draft ready asking for 12:00, visit then lunch, boat by 2:45. Giudecca, 10 minutes by water taxi, the Palladio has its own dock."
+              "detail": "Resident Manager, +39 375 7700195. Marie Joly copied. 12:30 proposed, then 12:00 with visit first and a 2:45 departure, all sent. Nothing back from Audrey yet, call her if silent by this evening. Giudecca, 10 minutes by water taxi, the Palladio has its own dock."
             },
             {
               "time": "3:30 PM",
@@ -1134,16 +1134,12 @@
     {
       "title": "Send",
       "items": [
-        "Vista Palazzo Verona: Ilma, ETA 12:45 and one guest (draft ready, send now)",
+        "COMO Alpina: Deborah asked about a Thursday morning inspection on the 6th, never answered. One line before you leave.",
         "Aman Venice: Giacomo and Vittoria, Saturday 10:00 (draft ready)",
         "Gabrielli: Davide, Saturday 8:45 inspection (draft ready)",
         "Nolinski: Caroline, pass on the room, Friday 6:30 walk-through (draft ready)",
-        "Airelles: Audrey, 12:00 instead of 12:30 (draft ready, optional)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
         "COMO Alpina: Deborah, yes to Thursday morning, give her a time",
-        "Thank-yous: Serbelloni, Miramare, Il Sereno (three drafts ready)",
-        "Badrutt's Palace: Thomas Citterio (draft ready)",
-        "Banfi: Maddalena, cancel the 9th (draft ready)",
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
@@ -1174,7 +1170,7 @@
         "Casa Monti, Lidia Mastellone: Sunday 10:00, sent",
         "Six Senses Rome, Stefano Vazzola: Monday 3:00, sent",
         "Palazzina Grassi: asked for the 9th before Violino confirmed, now a visit at most",
-        "Airelles Palladio, Audrey: confirm Friday 12:30",
+        "Airelles Palladio, Audrey: confirm Friday, 12:00 asked, no reply to anything yet",
         "Aman Venice, Giacomo and Vittoria: Saturday 10:00, once sent",
         "Hotel Gabrielli, Davide Ballardini: Saturday 8:45 inspection, once sent",
         "Nolinski Venezia, Caroline: Friday 6:30 walk-through, once sent",
