@@ -965,7 +965,7 @@
       "days": [
         {
           "date": "2026-10-11",
-          "label": "October 11: Rome visits, the Eden",
+          "label": "October 11: Casa Monti, Hassler, the Eden",
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
@@ -977,6 +977,12 @@
               "title": "Casa Monti, site visit",
               "status": "pending",
               "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Lidia offered Sunday 12:00 (or 11:30) on the 8th; yes to 12:00 drafted, not sent. Via Panisperna 210/212 in Monti, +39 348 891 5342."
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Hassler Roma, site visit",
+              "status": "pending",
+              "detail": "Asked Sophie Clarke for Sunday 2:30 or 3:00 with Francesca Martinelli so Monday evening at La Minerva stays free, Monday 5:30 as the fallback. Draft ready. Top of the Spanish Steps, five minutes from the Eden."
             },
             {
               "time": "3:00 PM",
@@ -994,7 +1000,7 @@
         },
         {
           "date": "2026-10-12",
-          "label": "October 12: Rome, four visits",
+          "label": "October 12: Rome, then La Minerva",
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "pending",
@@ -1022,15 +1028,9 @@
             },
             {
               "time": "5:30 PM",
-              "title": "Hassler Roma, site visit",
-              "status": "pending",
-              "detail": "Sophie Clarke confirmed 4:30 with Francesca Martinelli. Asked to move to 5:30 because Six Senses landed at 4:15, draft ready. Fifteen minutes on foot from Six Senses. Imàgo fully booked, no dinner."
-            },
-            {
-              "time": "Evening",
-              "title": "Dinner at La Minerva",
+              "title": "Check in at La Minerva, evening free",
               "status": "info",
-              "detail": ""
+              "detail": "Hassler moved to Sunday if Sophie agrees, otherwise 5:30 Monday."
             }
           ]
         }
@@ -1165,7 +1165,7 @@
       "title": "Send",
       "items": [
         "Six Senses: Stefano, yes to Monday 4:15 (draft ready)",
-        "Hassler: Sophie, move Monday to 5:30 (draft ready)",
+        "Hassler: Sophie, Sunday 2:30 or 3:00 instead, Monday 5:30 as fallback (draft ready)",
         "Airelles: Audrey, yes to the aperitivo at 6:15, boat from the Danieli pier at 6:00 (draft ready, send now)",
         "Arno Travel: Ilaria and Eleonora, later Friday morning (car 10:15, Italo 10:50) and the 11:45 boat to 3:00 Palazzina to Orient Express (draft ready, send now)",
         "Arno Travel: Ilaria, Friday boat now 3:00 Palazzina to Orient Express, no Airelles runs, Saturday train and car only (draft ready, send now)",
