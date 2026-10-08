@@ -840,7 +840,7 @@
             "name": "Violino d'Oro, Venice",
             "status": "pending",
             "detail": "Executive Supreme, single occupancy, 890 euros with breakfast against 1,636 online. Room released at 5:49 PM on the 7th, Daniela Iacovlev holding it for a yes. No room inspection, public areas and history tour offered. San Marco, five minutes on foot from the Danieli.",
-            "todo": "Ask Daniela to hold the room until midday on the 8th, draft ready. Say yes once the 10th is settled."
+            "todo": "Send the yes to Daniela, draft ready."
           },
           "items": [
             {
@@ -871,29 +871,47 @@
         },
         {
           "date": "2026-10-10",
-          "label": "October 10: Aman visit, move hotels",
+          "label": "October 10: Aman and Nolinski, train to Rome",
           "stay": {
-            "name": "Venice, second night to confirm",
+            "name": "Rome, bed to confirm",
             "status": "pending",
-            "detail": "Violino d'Oro is full this night. Nolinski Venezia asked for both nights through Caroline Krancenblum at Evok, draft ready. Ca' di Dio quoted an Executive Suite at 2,500 euros for both nights, 1,250 a night. Gabrielli asked through Efy at Starhotels. St. Regis quiet. Amex Fine Hotels as the backstop at about 1,000 dollars.",
-            "todo": "Take Ca' di Dio if the one-night figure is near 1,250, otherwise wait for Gabrielli."
+            "detail": "Asked Tristan at the Eden to add the 10th to the stay, hosted or at an advisor rate, draft ready. Otherwise a hosted ask to one of the Sunday candidates: de la Ville, Hassler, Portrait Roma, Bulgari, JK Place, Vilòn.",
+            "todo": "Send the Eden ask first."
           },
           "items": [
             {
               "time": "Morning",
               "title": "Check out of Violino d'Oro, leave the bag",
               "status": "info",
-              "detail": "Move to the second hotel after the Aman visit or whenever the room is ready."
+              "detail": ""
             },
             {
-              "time": "3:00 PM",
+              "time": "10:00 AM",
               "title": "Aman Venice, site visit",
               "status": "pending",
-              "detail": "Marianna Toth has left Aman. Elisa introduced Giacomo Maida and Vittoria Comin, Venice sales. Ask drafted to both, Saturday 3:00 or the morning. Palazzo Papadopoli on the Grand Canal."
+              "detail": "Giacomo Maida and Vittoria Comin, Venice sales, introduced by Elisa. Saturday 10:00 asked, draft ready. Palazzo Papadopoli on the Grand Canal."
+            },
+            {
+              "time": "12:00 PM",
+              "title": "Nolinski Venezia, site visit",
+              "status": "pending",
+              "detail": "Caroline Krancenblum at Evok, Madeleine Sadin copied. Midday asked, draft ready. Calle Larga XXII Marzo, a few minutes from Violino."
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Collect the bag, water taxi to Santa Lucia",
+              "status": "info",
+              "detail": "20 minutes from San Marco."
+            },
+            {
+              "time": "3:25 PM",
+              "title": "Frecciarossa Venezia Santa Lucia to Roma Termini",
+              "status": "todo",
+              "detail": "About 3 hours 55, into Termini around 7:20. Book it, check the exact departure."
             },
             {
               "time": "Evening",
-              "title": "Dinner in Venice",
+              "title": "Taxi to the Rome hotel, dinner",
               "status": "info",
               "detail": ""
             }
@@ -910,7 +928,7 @@
       "days": [
         {
           "date": "2026-10-11",
-          "label": "October 11: Train to Rome, the Eden",
+          "label": "October 11: Rome visits, the Eden",
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
@@ -918,11 +936,10 @@
           },
           "items": [
             {
-              "time": "10:25 AM",
-              "title": "Frecciarossa, Venezia Santa Lucia to Roma Termini",
-              "status": "todo",
-              "detail": "About 3 hours 50. Book it.",
-              "todo": "Book the train."
+              "time": "Morning",
+              "title": "Two Rome site visits, to set",
+              "status": "suggested",
+              "detail": "Pick two from de la Ville, Hassler, Portrait Roma, Bulgari, JK Place, Vilòn. Ask today."
             },
             {
               "time": "2:30 PM",
@@ -1098,11 +1115,13 @@
     {
       "title": "Send",
       "items": [
-        "Violino d'Oro: Daniela, hold the 9th until midday tomorrow (draft ready, send tonight)",
-        "Nolinski Venezia: Caroline at Evok, hosted or advisor rate for the 9th and 10th, Madeleine Sadin copied (draft ready)",
+        "Violino d'Oro: Daniela, yes to the 9th at 890 euros (draft ready, send now)",
+        "The Eden: Tristan, add Saturday the 10th (draft ready)",
+        "Aman Venice: Giacomo and Vittoria, Saturday 10:00 (draft ready)",
+        "Nolinski Venezia: Caroline, site visit Saturday midday (draft ready)",
+        "Ca' di Dio: Caterina, thanks and pass, ask for a walk-through (draft ready)",
+        "Rome: pick two Sunday morning visits and ask today",
         "Vista Palazzo Verona: Ilma, ETA 12:45 and one guest (draft ready)",
-        "Aman Venice: Giacomo and Vittoria, Saturday 3:00, Elisa copied (draft ready)",
-        "Ca' di Dio: Caterina, revised quote for the 10th only (draft ready)",
         "COMO Alpina: Deborah, yes to Thursday morning, give her a time",
         "Thank-yous: Serbelloni, Miramare, Il Sereno (three drafts ready)",
         "Badrutt's Palace: Thomas Citterio (draft ready)",
@@ -1119,7 +1138,7 @@
       "title": "Decide and fix",
       "items": [
         "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
-        "Trains: Verona to Venice on the 9th, Venice to Rome on the 11th",
+        "Trains: Verona to Venice on the 9th, Venice to Rome Saturday the 10th around 3:25",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
         "Return flight on the 16th: send the confirmation",
@@ -1132,12 +1151,12 @@
     {
       "title": "Waiting on",
       "items": [
-        "Nolinski Venezia, Caroline Krancenblum: the 9th and 10th, once sent",
+        "Violino d'Oro, Daniela: the 9th, once the yes is sent",
+        "Aman Venice, Giacomo and Vittoria: Saturday 10:00, once sent",
+        "Nolinski Venezia, Caroline: Saturday midday, once sent",
+        "The Eden, Tristan: add the 10th, once sent",
         "Aman Venice, Giacomo Maida and Vittoria Comin: Saturday visit, once sent",
         "Airelles Palladio, Audrey: confirm Friday 12:30",
-        "Ca' di Dio, Caterina Vianello: one-night quote for the 10th, once sent",
-        "Hotel Gabrielli, Efy Ioannides: the 10th, sent 4:18 PM",
-        "St. Regis Venice, Gabriela Jurubita: the 9th and 10th, no reply yet",
         "COMO Alpina, Deborah Carlin: Thursday morning inspection, answer her",
         "Six Senses Rome, Stefano Vazzola: the 12th",
         "Villa Treville, Daniela Barba: visit time on the 14th",
