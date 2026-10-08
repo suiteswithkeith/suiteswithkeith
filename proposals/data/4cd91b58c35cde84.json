@@ -875,16 +875,10 @@
               "todo": "Call Audrey on her mobile before 2:30 today, the two Friday boats hang on her answer."
             },
             {
-              "time": "3:00 PM",
-              "title": "Water taxi Airelles Palladio to Orient Express",
-              "status": "pending",
-              "detail": "Arno. Be on the dock at 3:00. Same caveat, depends on Airelles."
-            },
-            {
               "time": "3:30 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
               "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Arno water taxi from the Palladio dock at 3:00."
+              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed by Federica Carboni. Cannaregio on the Strada Nova. Ask the Palladio concierge to call a water taxi to their dock for 3:00, about 90 euros at the meter, 20 to 25 minutes."
             },
             {
               "time": "5:00 PM",
@@ -905,10 +899,10 @@
           },
           "items": [
             {
-              "time": "9:30 AM",
-              "title": "Check out of Palazzina Grassi, cross to Aman",
-              "status": "info",
-              "detail": "Arno boat dropped. Vaporetto line 1 from San Samuele to San Silvestro, one or two stops, fine with luggage, or the Sant'Angelo traghetto to San Tomà with a backpack. Palazzo Papadopoli is by San Silvestro."
+              "time": "9:40 AM",
+              "title": "Check out of Palazzina Grassi, water taxi to Aman with the luggage",
+              "status": "confirmed",
+              "detail": "Arno boat, kept for the bags. Palazzo Papadopoli on the Grand Canal."
             },
             {
               "time": "10:00 AM",
@@ -919,8 +913,8 @@
             {
               "time": "11:50 AM",
               "title": "Water taxi from Aman to Santa Lucia",
-              "status": "confirmed",
-              "detail": "Arno, straight from Aman with the bags."
+              "status": "todo",
+              "detail": "Arno boat dropped. Ask Vittoria or the Aman concierge to call a water taxi to their dock for 11:50, about 80 euros, 15 minutes to Santa Lucia."
             },
             {
               "time": "1:26 PM",
@@ -1152,7 +1146,7 @@
     {
       "title": "Send",
       "items": [
-        "Arno Travel: Ilaria, yes minus the Saturday 9:40 boat, 11:45 Friday pickup, terms if Airelles cancels (draft ready, send now)",
+        "Arno Travel: Ilaria, yes minus the Friday 3:00 and Saturday 11:50 boats, terms if Airelles cancels (draft ready, send now)",
         "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
         "Hassler: Sophie, yes to Monday 4:30 (draft ready)",
         "Ca' di Dio: Caterina, thanks and pass (draft ready)",
@@ -1168,7 +1162,7 @@
       "title": "Decide and fix",
       "items": [
         "Airelles: call Audrey, +39 375 7700195, before paying Arno",
-        "Arno Travel: pay the revised link before 2:30 PM today, about 1,430 without the Saturday boat",
+        "Arno Travel: pay the revised link before 2:30 PM today",
         "Avis: change the return to Verona Porta Nuova on the 8th, check Thursday hours",
         "La Minerva: Egle told, one night on the 12th. Watch for the new confirmation, ignore the 670 card request",
         "Rome to Naples train for the 13th, once the boat pickup is set",
