@@ -989,12 +989,6 @@
               "detail": "Lidia Mastellone, 12:00. Via Panisperna 210."
             },
             {
-              "time": "2:30 PM",
-              "title": "Hassler Roma, site visit",
-              "status": "pending",
-              "detail": "Sophie Clarke and Francesca Martinelli. Monday 4:30 is confirmed; asked for Sunday 2:30 or 3:00, or Monday 5:30. No answer yet."
-            },
-            {
               "time": "3:00 PM",
               "title": "Check in at the Eden",
               "status": "confirmed",
@@ -1010,7 +1004,7 @@
         },
         {
           "date": "2026-10-12",
-          "label": "October 12: Rome, then La Minerva",
+          "label": "October 12: La Dolce Vita, de Russie, Hassler, Six Senses, La Minerva",
           "stay": {
             "name": "Orient Express La Minerva",
             "status": "confirmed",
@@ -1028,6 +1022,12 @@
               "title": "Hotel de Russie, site visit",
               "status": "confirmed",
               "detail": "Elena Carnevale confirmed 12:00 on the 8th, +39 342 1250435. Ask for her at reception. Car from Ostiense 20 to 25 minutes. Renovated rooms and the Secret Garden."
+            },
+            {
+              "time": "2:30 PM",
+              "title": "Hassler Roma, site visit",
+              "status": "pending",
+              "detail": "Francesca Martinelli, Sophie Clarke. Francesca can't do Sunday, free Monday until 5. Asked for 2:30, draft ready. Piazza Trinità dei Monti 6, 10 minutes on foot from de Russie and from Six Senses."
             },
             {
               "time": "4:15 PM",
@@ -1211,7 +1211,7 @@
       "items": [
         "Orient Express, Ginevra: 3:00 instead of 3:30 today, sent",
         "Danieli, Bjorn: 4:30 instead of 5:00 today, sent",
-        "Hassler, Sophie: Sunday 2:30 or 3:00, or Monday 5:30, asked last night",
+        "Hassler, Francesca: Monday 2:30, draft ready",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
         "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
         "Borgo Santandrea, Antonella Gatto: no reply since Sept 14",
