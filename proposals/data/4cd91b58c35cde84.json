@@ -845,9 +845,8 @@
           "label": "October 9: Slow Verona morning, train to Venice, Orient Express, Danieli, Airelles",
           "stay": {
             "name": "Palazzina Grassi, Venice",
-            "status": "pending",
-            "detail": "Hosted night, yes sent to Silvia Speronello at Relegance on the 8th, waiting on her confirmation. Superior room, in exchange for a social mention, a place in the guide and repost rights with credit. No formal visit, connect with the team in the evening if someone is around. Grand Canal at San Samuele. Violino d'Oro release asked on the 8th, waiting on Daniela.",
-            "todo": "Watch for Silvia's confirmation and Daniela's release."
+            "status": "confirmed",
+            "detail": "Hosted, one night. Silvia Speronello at Relegance confirmed, pre-arrival note from the concierge in. San Marco 3247. Ask for a look at the Signature Suite if it is free."
           },
           "items": [
             {
@@ -910,10 +909,9 @@
           "date": "2026-10-10",
           "label": "October 10: Aman, train to Rome",
           "stay": {
-            "name": "Rome, bed to confirm",
-            "status": "pending",
-            "detail": "Asked Tristan at the Eden to add the 10th, sent. Tristan replied on the 8th: Elena will come back today. Otherwise a hosted ask to one of the Rome candidates.",
-            "todo": "Wait for Elena."
+            "name": "Hotel Eden, Rome",
+            "status": "confirmed",
+            "detail": "Advisor rate 365 euros for the 10th, Elena Sgro updating the reservation. Via Ludovisi 49."
           },
           "items": [
             {
@@ -969,20 +967,26 @@
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
-            "detail": "Hosted. Via Ludovisi 49. Tristan Delaittre, incoming GM. Elena Sgro, DOSM. Giulio Pannunzi, Guest Experience, +39 06 47812730, told arrival 3:00 (draft ready)."
+            "detail": "Hosted night. Tristan Delaittre, GM. Second night at the Eden after the paid 10th."
           },
           "items": [
             {
+              "time": "10:30 AM",
+              "title": "Eden, site inspection of the suites",
+              "status": "pending",
+              "detail": "Elena won't be in Rome. Draft ready asking for Sunday 10:30 and who to ask for."
+            },
+            {
               "time": "12:00 PM",
               "title": "Casa Monti, site visit",
-              "status": "pending",
-              "detail": "Lidia Mastellone, Sales Manager, Natacha Shalyminova at Leitmotiv copied. Lidia offered Sunday 12:00 (or 11:30) on the 8th; yes to 12:00 drafted, not sent. Via Panisperna 210/212 in Monti, +39 348 891 5342."
+              "status": "confirmed",
+              "detail": "Lidia Mastellone, 12:00. Via Panisperna 210."
             },
             {
               "time": "2:30 PM",
               "title": "Hassler Roma, site visit",
               "status": "pending",
-              "detail": "Asked Sophie Clarke for Sunday 2:30 or 3:00 with Francesca Martinelli so Monday evening at La Minerva stays free, Monday 5:30 as the fallback. Draft ready. Top of the Spanish Steps, five minutes from the Eden."
+              "detail": "Sophie Clarke and Francesca Martinelli. Monday 4:30 is confirmed; asked for Sunday 2:30 or 3:00, or Monday 5:30. No answer yet."
             },
             {
               "time": "3:00 PM",
@@ -1174,13 +1178,11 @@
     {
       "title": "Send",
       "items": [
-        "La Dolce Vita: Fede, yes to 10:00 Monday at the Ostiense lounge (draft ready)",
-        "Casa Monti: Lidia, yes to Sunday 12:00 (draft ready)",
-        "Ca' di Dio: Caterina, thanks and pass (draft ready)",
-        "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
-        "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
+        "Eden: Elena, inspection Sunday 10:30 (draft ready)",
+        "Orient Express Venice: Ginevra, 3:00 instead of 3:30 today (draft ready)",
+        "Danieli: Bjorn, 4:30 instead of 5:00 today (draft ready)",
+        "Arno, WhatsApp: boat 2:30 instead of 3:00",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
-        "Il San Pietro: Agostino, yes to 11:00 tour by road (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
       ]
@@ -1201,17 +1203,10 @@
     {
       "title": "Waiting on",
       "items": [
-        "Orient Express, Ginevra: 3:00 instead of 3:30 today, draft ready",
-        "Danieli, Bjorn: 4:30 instead of 5:00 today, draft ready",
-        "Arno, WhatsApp: boat at 2:30 instead of 3:00",
-        "Hassler Roma, Sophie Clarke: Sunday 2:30 or 3:00, sent",
-        "Airelles Palladio, Audrey: 6:15 aperitivo and the Danieli boat, sent",
-        "Six Senses Rome, Stefano: Monday 4:15, yes sent",
-        "Palazzina Grassi, Silvia Speronello: confirmation of the hosted night, yes sent",
-        "The Eden, Elena Sgro: adding Saturday the 10th, answer due today",
-        "Airelles Palladio, Audrey: aperitivo Friday 6:15 and the boat from the Danieli, once sent",
-        "Violino d'Oro, Daniela: release of the 9th, asked",
-        "Villa Treville, Daniela Barba: visit time on the 14th",
+        "Hassler, Sophie: Sunday 2:30 or 3:00, or Monday 5:30, asked last night",
+        "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
+        "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
+        "Borgo Santandrea, Antonella Gatto: no reply since Sept 14",
         "Sporthotel Floralpina: no reply"
       ]
     },
