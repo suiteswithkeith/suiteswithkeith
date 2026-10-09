@@ -1,0 +1,14 @@
+---
+// Instagram destination guides (/guides/florence, /guides/tuscany …).
+// One JSON file per guide in src/data/guides/; adding a destination is a
+// new data file, not new code.
+import DestinationGuide from '../../layouts/DestinationGuide.astro';
+
+export function getStaticPaths() {
+  const files = import.meta.glob('../../data/guides/*.json', { eager: true, import: 'default' });
+  return Object.values(files).map((g) => ({ params: { slug: g.slug }, props: { g } }));
+}
+
+const { g } = Astro.props;
+---
+<DestinationGuide g={g} />
