@@ -1076,7 +1076,7 @@
         },
         {
           "date": "2026-10-14",
-          "label": "October 14: Hotel hop by boat, Santa Caterina",
+          "label": "October 14: Il San Pietro by road, then Amalfi",
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
@@ -1084,16 +1084,16 @@
           },
           "items": [
             {
-              "time": "10:45 AM",
-              "title": "Boat from Positano to Il San Pietro's dock, then Amalfi",
-              "status": "pending",
-              "detail": "Ask the same suppliers to quote the hop with the 13th, otherwise a Positano water taxi on the day."
+              "time": "10:40 AM",
+              "title": "Car from Le Sirenuse to Il San Pietro, 10 minutes",
+              "status": "todo",
+              "detail": "Agostino asked for arrival by road. Bags with you or left at Sirenuse for the boat later."
             },
             {
               "time": "11:00 AM",
-              "title": "Il San Pietro di Positano, site visit and tennis",
-              "status": "pending",
-              "detail": "Agostino Piccolo said yes on Sept 16, date and time to give him. Draft ready: 11:00 on the 14th, by boat to the dock, lunch, court if free."
+              "title": "Il San Pietro di Positano, tour",
+              "status": "confirmed",
+              "detail": "Agostino Piccolo, 11:00. Tour only, he is booked after and over lunch. Come by road, not by boat. No court."
             },
             {
               "time": "TBC",
@@ -1180,7 +1180,7 @@
         "Il Pellicano: Gianluca, pass on the 10th (draft ready)",
         "La Roqqa: Roberta, pass on the 455, take the 2027 hosting (draft ready)",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
-        "Il San Pietro: Agostino, 11:00 on the 14th, lunch and the court (draft ready)",
+        "Il San Pietro: Agostino, yes to 11:00 tour by road (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
       ]
