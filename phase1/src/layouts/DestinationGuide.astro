@@ -1,0 +1,380 @@
+---
+// The Instagram destination guide: the landing page a "comment FLORENCE" DM
+// links to. Same headlines, same order as the reel, then the inquiry form.
+// All copy comes from src/data/guides/<slug>.json; see pages/guides/[slug].astro.
+//
+// The form here is email-first and posts to the same Formspree endpoint as
+// Ask.astro. It deliberately does not use the .inquire-form class, so the
+// travel-dates-first behavior in Layout.astro leaves it alone.
+import Layout from './Layout.astro';
+
+const { g } = Astro.props;
+const SITE = 'https://suiteswithkeith.com';
+const canonical = `guides/${g.slug}.html`;
+const ogImage = g.meta.og_image || g.hero.img.src;
+const ogAlt = g.meta.og_image_alt || g.hero.img.alt;
+const pad = (n) => String(n).padStart(2, '0');
+const travelers = ['1', '2', '3', '4', '5', '6', '7', '8+'];
+---
+<Layout
+  canonical={canonical}
+  title={g.meta.title}
+  description={g.meta.description}
+  preload={g.hero.img.src}
+  ctaLabel={g.hero.cta}
+>
+<Fragment slot="head">
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content={SITE + ogImage} />
+  <meta property="og:image:alt" content={ogAlt} />
+  <meta name="twitter:card" content="summary_large_image" />
+</Fragment>
+
+<div data-guide={g.slug}>
+
+<!-- 1 · hero -->
+<header class="hero gd-hero">
+  <img class="hero-img" src={g.hero.img.src} alt={g.hero.img.alt} width={g.hero.img.w} height={g.hero.img.h} fetchpriority="high" decoding="async" />
+  <div class="container">
+    <p class="eyebrow">{g.hero.eyebrow}</p>
+    <h1 class="display-xl">{g.hero.h1}</h1>
+    <p class="sub">{g.hero.sub}</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="plan_trip" data-gtag-location="guide_hero">{g.hero.cta}</a>
+    </div>
+  </div>
+</header>
+
+<!-- 2 · where I'd stay -->
+<section class="section" id="stay">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">{g.stay.eyebrow}</span>
+      <h2 class="display-l" set:html={g.stay.h2} />
+      {g.stay.deck && <p class="deck" style="margin-top:16px; max-width:46ch;">{g.stay.deck}</p>}
+    </div>
+
+    <div class="gd-hotels">
+      {g.stay.hotels.map((h) => (
+        <article class="gd-hotel reveal" id={h.id}>
+          <div class="gd-media">
+            {h.img
+              ? <img src={h.img.src} alt={h.alt} width={h.img.w} height={h.img.h} loading="lazy" decoding="async" />
+              : <div class="gd-ph" role="img" aria-label={h.alt}><span>Photo to come</span></div>}
+          </div>
+          <p class="gd-award">{h.award}</p>
+          <h3 class="gd-name">{h.name}</h3>
+          <p class="gd-take">{h.take}</p>
+          <a class="gd-ask" href="#inquire" data-hotel={h.name}>{g.stay.ask_label} &rarr;</a>
+        </article>
+      ))}
+    </div>
+
+    {g.stay.perks && (
+      <p class:list={['gd-perks reveal', { 'is-placeholder': g.stay.perks.placeholder }]}>
+        {g.stay.perks.placeholder && <span class="gd-flag">Placeholder</span>}
+        {g.stay.perks.text}
+      </p>
+    )}
+  </div>
+</section>
+
+<!-- 3 · after hours -->
+<section class="section band on-shadow" id="after-hours">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">{g.after_hours.eyebrow}</span>
+      <h2 class="display-l" set:html={g.after_hours.h2} />
+      <p class="deck" style="margin-top:16px;">{g.after_hours.sub}</p>
+    </div>
+    <div class="ledger reveal">
+      {g.after_hours.items.map((x, i) => (
+        <div class="ledger-row" id={x.id}>
+          <span class="n">{pad(i + 1)}</span>
+          <p class="d"><b>{x.title}</b><br />{x.line}</p>
+        </div>
+      ))}
+    </div>
+    <div class="gd-ctas reveal">
+      <a class="btn" href={g.after_hours.dm_href} rel="noopener" data-dm="after_hours">{g.after_hours.dm_label}</a>
+      <a class="btn btn-ghost" href="#inquire">{g.after_hours.form_label}</a>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · things I'd tell a friend -->
+<section class="section" id="tips">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">{g.tips.eyebrow}</span>
+      <h2 class="display-l" set:html={g.tips.h2} />
+    </div>
+    <ul class="gd-tips reveal">
+      {g.tips.items.map((t) => (
+        <li><b>{t.b}</b> {t.t && <span set:html={t.t} />}</li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<!-- 5 · inquiry -->
+<section class="section band on-shadow gd-inquire" id="inquire">
+  <div class="container">
+    <span class="eyebrow reveal">{g.inquiry.eyebrow}</span>
+    <h2 class="display-l reveal" set:html={g.inquiry.h2} />
+    <p class="deck reveal">{g.inquiry.deck}</p>
+
+    <form class="gd-form reveal" action="https://formspree.io/f/mjgnadov" method="POST"
+      data-success={g.inquiry.success} data-error={g.inquiry.error}>
+      <input type="hidden" name="_subject" value={g.inquiry.subject} />
+      <input type="hidden" name="page" value={canonical} />
+      <input type="hidden" name="source" value="instagram" />
+      <input type="hidden" name="guide" value={g.slug} />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+      <div class="gd-step1">
+        <label for="gd-email">{g.inquiry.email_label}</label>
+        <input id="gd-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email" inputmode="email" />
+      </div>
+
+      <div class="gd-step2">
+        <label for="gd-name">Your name</label>
+        <input id="gd-name" type="text" name="name" required autocomplete="name" />
+
+        <label for="gd-dates">Travel dates</label>
+        <input id="gd-dates" type="text" name="travel_dates" placeholder="May 2027, 4 nights" autocomplete="off" />
+        <label class="gd-chip gd-chip--solo">
+          <input type="checkbox" name="dates_flexible" value="yes" /><span>My dates are flexible</span>
+        </label>
+
+        <label for="gd-travelers">Number of travelers</label>
+        <select id="gd-travelers" name="travelers">
+          <option value="">Choose</option>
+          {travelers.map((n) => <option value={n}>{n}</option>)}
+        </select>
+
+        <fieldset>
+          <legend>Hotels you’re curious about</legend>
+          <div class="gd-chips">
+            {g.stay.hotels.map((h) => (
+              <label class="gd-chip"><input type="checkbox" name="hotels" value={h.name} /><span>{h.name}</span></label>
+            ))}
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Experiences you’d like</legend>
+          <div class="gd-chips">
+            {g.after_hours.items.map((x) => (
+              <label class="gd-chip"><input type="checkbox" name="experiences" value={x.title} /><span>{x.title}</span></label>
+            ))}
+          </div>
+        </fieldset>
+
+        <label for="gd-details">Anything else? <span class="gd-opt">Optional</span></label>
+        <textarea id="gd-details" name="details" rows="3" placeholder="Occasion, budget, who’s coming"></textarea>
+      </div>
+
+      <button type="submit" class="btn">{g.inquiry.submit}</button>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- 6 · teaser -->
+<section class="section gd-next" id="next">
+  <div class="container reveal">
+    <span class="eyebrow">{g.teaser.eyebrow}</span>
+    <h2 class="display-l" set:html={g.teaser.h2} />
+    <p class="body-2">{g.teaser.body}</p>
+    <div class="gd-ctas">
+      <a class="btn btn-ghost" href={g.teaser.follow_href} rel="noopener" data-gtag-label="instagram_follow" data-gtag-location="guide_teaser">{g.teaser.follow_label}</a>
+      <a class="gd-ask" href="#subscribe">{g.teaser.email_label} &darr;</a>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<style is:global>
+  /* Destination guide. Plaster & Shadow tokens only: hairlines, sharp corners, no shadows. */
+  .gd-hero { min-height: min(86svh, 760px); }
+  .gd-hero h1 { margin: 18px 0 14px; }
+  .gd-hero .sub { font-family: var(--display); font-style: italic; font-size: clamp(1.15rem, 2.4vw, 1.45rem); line-height: 1.4; }
+
+  .gd-hotels { display: grid; gap: clamp(48px, 6vw, 64px) 32px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .gd-hotels { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .gd-hotels { grid-template-columns: repeat(3, 1fr); } }
+  .gd-hotel { display: flex; flex-direction: column; min-width: 0; }
+  .gd-media img, .gd-ph { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  .gd-ph { background: var(--plaster-deep); border: 1px solid var(--hairline); display: flex; align-items: center; justify-content: center; }
+  .gd-ph span { font-family: var(--stamp); font-weight: 600; font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash-3); }
+  /* photos run edge to edge on phones */
+  @media (max-width: 759px) { .gd-media { margin-inline: calc(-1 * clamp(20px, 4vw, 40px)); } .gd-ph { border-inline: none; } }
+  .gd-award { margin-top: 18px; font-family: var(--stamp); font-weight: 600; font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--brass); }
+  .gd-name { font-family: var(--display); font-weight: 500; font-size: clamp(1.45rem, 2.6vw, 1.75rem); line-height: 1.2; margin-top: 6px; }
+  .gd-take { color: var(--ash); margin-top: 12px; }
+  .gd-ask {
+    align-self: flex-start; margin-top: 16px; padding: 6px 0;
+    font-size: .72rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--brass); text-decoration: none; border-bottom: 1px solid currentColor;
+  }
+  .on-shadow .gd-ask { color: var(--brass-lit); }
+
+  .gd-perks { margin-top: clamp(48px, 6vw, 64px); padding: 18px 0; border-block: 1px solid var(--hairline); font-family: var(--display); font-style: italic; font-size: 1.1rem; line-height: 1.5; max-width: 60ch; }
+  .gd-perks.is-placeholder { border: 1px dashed var(--brass); padding: 18px; color: var(--brass); }
+  .gd-flag { display: block; font-family: var(--stamp); font-style: normal; font-weight: 600; font-size: .64rem; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 6px; }
+
+  #after-hours .ledger-row .d { font-size: 1rem; }
+  #after-hours .ledger-row .d b { font-family: var(--display); font-weight: 500; font-size: 1.2rem; }
+  .gd-ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin-top: clamp(32px, 4vw, 44px); }
+  @media (max-width: 559px) { #after-hours .gd-ctas .btn { width: 100%; text-align: center; } }
+
+  .gd-tips { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--hairline); max-width: 760px; }
+  .gd-tips li { position: relative; padding: 16px 0 16px 38px; border-bottom: 1px solid var(--hairline); color: var(--ash); }
+  .gd-tips li b { font-weight: 500; color: var(--ink); }
+  .gd-tips li::before { content: ""; position: absolute; left: 0; top: 21px; width: 18px; height: 18px; border: 1px solid var(--hairline-firm); }
+  .gd-tips li::after { content: ""; position: absolute; left: 6px; top: 24px; width: 5px; height: 9px; border: solid var(--brass); border-width: 0 1.5px 1.5px 0; transform: rotate(45deg); }
+  .gd-tips a { color: var(--brass); text-underline-offset: 3px; }
+
+  .gd-inquire { text-align: center; }
+  .gd-inquire .eyebrow { display: block; margin-bottom: 16px; }
+  .gd-inquire h2 { max-width: 20ch; margin-inline: auto; }
+  .gd-inquire .deck { margin: 18px auto 0; max-width: 40ch; }
+  .gd-form { max-width: 480px; margin: 34px auto 0; text-align: left; }
+  .gd-form label, .gd-form legend { display: block; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 500; color: var(--band-ash); margin: 0 0 8px; padding: 0; }
+  .gd-opt { letter-spacing: .08em; color: var(--ash-3); margin-left: 6px; }
+  .gd-form fieldset { border: none; margin: 0 0 20px; padding: 0; }
+  /* 16px+ inputs: smaller text makes iOS zoom the page on focus */
+  .gd-form input[type="text"], .gd-form input[type="email"], .gd-form select, .gd-form textarea {
+    width: 100%; font-family: var(--body); font-weight: 300; font-size: 1rem; color: var(--ink);
+    background: var(--lime); border: 1px solid var(--hairline); border-radius: 0;
+    padding: 14px; margin-bottom: 20px; -webkit-appearance: none; appearance: none;
+  }
+  .gd-form select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%2365665C' stroke-width='1.2'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 16px center; padding-right: 40px;
+  }
+  .gd-form textarea { resize: vertical; min-height: 96px; line-height: 1.5; }
+  .gd-form input:focus, .gd-form select:focus, .gd-form textarea:focus { outline: 2px solid var(--band-ink); outline-offset: 2px; }
+  .gd-step2[hidden] { display: none; }
+  .gd-step2 { padding-top: 4px; }
+  .gd-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .gd-chip { position: relative; margin: 0; text-transform: none; letter-spacing: normal; font-size: inherit; }
+  .gd-chip--solo { margin: -8px 0 20px; display: inline-block; }
+  .gd-chip input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .gd-chip span {
+    display: inline-block; padding: 11px 14px; min-height: 44px;
+    border: 1px solid var(--band-hairline); color: var(--band-ink);
+    font-size: .9rem; font-weight: 300; line-height: 1.4; cursor: pointer;
+    transition: background var(--dur-1) var(--ease), border-color var(--dur-1) var(--ease);
+  }
+  .gd-chip input:checked + span { background: var(--olive); border-color: var(--band-ink); }
+  .gd-chip input:focus-visible + span { outline: 2px solid var(--band-ink); outline-offset: 2px; }
+  .gd-form .btn { width: 100%; margin-top: 4px; }
+  .gd-form .status { margin-top: 14px; text-align: center; color: var(--band-ink); }
+  .gd-form.done .gd-step1, .gd-form.done .gd-step2, .gd-form.done .btn { display: none; }
+  .gd-form.done .status { font-family: var(--display); font-style: italic; font-size: clamp(1.3rem, 3vw, 1.6rem); line-height: 1.4; }
+
+  .gd-next .body-2 { margin-top: 16px; max-width: 46ch; }
+
+  /* the sticky CTA steps aside while another call to action (hero, DM, form) is on screen */
+  .sticky-cta { transition: opacity var(--dur-2) var(--ease), transform var(--dur-2) var(--ease); }
+  .sticky-cta.gd-away { opacity: 0; transform: translateY(12px); pointer-events: none; }
+</style>
+
+<script>
+  const root = document.querySelector('[data-guide]');
+  const guide = root?.getAttribute('data-guide') || '';
+  const track = (name, params = {}) => {
+    if (typeof window.gtag === 'function') window.gtag('event', name, { guide, page_path: location.pathname, ...params });
+  };
+  track('guide_view');
+
+  const form = document.querySelector('.gd-form');
+  const step2 = form?.querySelector('.gd-step2');
+  const email = form?.querySelector('input[name="email"]');
+  const reveal = () => { if (step2?.hidden) step2.hidden = false; };
+
+  // Hidden UTM fields from the URL, if any.
+  if (form) {
+    const qs = new URLSearchParams(location.search);
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'].forEach((k) => {
+      const v = qs.get(k);
+      if (!v) return;
+      const input = document.createElement('input');
+      input.type = 'hidden'; input.name = k; input.value = v.slice(0, 200);
+      form.appendChild(input);
+    });
+  }
+
+  // Email first; the rest opens once they start.
+  let started = false;
+  let prefilling = false; // a hotel "Ask me" click focuses the email field; that alone isn't a start
+  const start = () => {
+    reveal();
+    if (!started && !prefilling) { started = true; track('guide_form_start'); }
+  };
+  if (form && step2 && email) {
+    step2.hidden = true;
+    email.addEventListener('focus', start);
+    email.addEventListener('input', start);
+    form.addEventListener('invalid', reveal, true);
+  }
+
+  // "Ask me about this hotel" ticks that hotel in the form.
+  document.querySelectorAll('[data-hotel]').forEach((a) => {
+    a.addEventListener('click', () => {
+      const name = a.getAttribute('data-hotel');
+      track('guide_hotel_ask', { hotel: name });
+      const box = Array.from(form?.querySelectorAll('input[name="hotels"]') || []).find((b) => b.value === name);
+      if (box) box.checked = true;
+      reveal();
+      setTimeout(() => { prefilling = true; email?.focus({ preventScroll: true }); prefilling = false; }, 400);
+    });
+  });
+
+  document.querySelectorAll('[data-dm]').forEach((a) => {
+    a.addEventListener('click', () => track('guide_dm_click', { cta_location: a.getAttribute('data-dm') }));
+  });
+
+  if (form) {
+    const status = form.querySelector('.status');
+    const btn = form.querySelector('button[type="submit"]');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      btn.disabled = true;
+      status.textContent = '';
+      const data = new FormData(form);
+      // Multi-selects arrive as one readable line each.
+      ['hotels', 'experiences'].forEach((k) => {
+        const v = data.getAll(k);
+        data.delete(k);
+        if (v.length) data.set(k, v.join(', '));
+      });
+      fetch(form.action, { method: 'POST', body: data, headers: { Accept: 'application/json' } })
+        .then((r) => {
+          if (!r.ok) throw new Error();
+          track('guide_form_submit', { hotels: data.get('hotels') || '', experiences: data.get('experiences') || '' });
+          form.reset();
+          form.classList.add('done');
+          status.textContent = form.dataset.success;
+        })
+        .catch(() => { status.textContent = form.dataset.error; })
+        .then(() => { btn.disabled = false; });
+    });
+  }
+
+  // Keep the sticky CTA out of the way of the page's own calls to action.
+  const sticky = document.querySelector('.sticky-cta');
+  const watch = [document.querySelector('.gd-hero'), document.querySelector('#after-hours .gd-ctas'), document.getElementById('inquire')].filter(Boolean);
+  if (sticky && watch.length && 'IntersectionObserver' in window) {
+    const onScreen = new Set();
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => (e.isIntersecting ? onScreen.add(e.target) : onScreen.delete(e.target)));
+      sticky.classList.toggle('gd-away', onScreen.size > 0);
+    });
+    watch.forEach((el) => io.observe(el));
+  }
+</script>
+</Layout>
