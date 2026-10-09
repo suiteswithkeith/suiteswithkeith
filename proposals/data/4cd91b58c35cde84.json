@@ -1026,8 +1026,8 @@
             {
               "time": "2:30 PM",
               "title": "Hassler Roma, site visit",
-              "status": "pending",
-              "detail": "Francesca Martinelli, Sophie Clarke. Francesca can't do Sunday, free Monday until 5. Asked for 2:30, draft ready. Piazza Trinità dei Monti 6, 10 minutes on foot from de Russie and from Six Senses."
+              "status": "confirmed",
+              "detail": "Francesca Martinelli confirmed 2:30. Piazza Trinità dei Monti 6, 10 minutes on foot from de Russie and from Six Senses."
             },
             {
               "time": "4:15 PM",
@@ -1208,7 +1208,6 @@
     {
       "title": "Waiting on",
       "items": [
-        "Hassler, Francesca: Monday 2:30, draft ready",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
         "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
         "Borgo Santandrea, Antonella Gatto: no reply since Sept 14",
