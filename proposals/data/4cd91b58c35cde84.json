@@ -881,21 +881,21 @@
             },
             {
               "time": "2:30 PM",
-              "title": "Water taxi Palazzina Grassi to Orient Express",
-              "status": "pending",
-              "detail": "Arno, the 11:45 boat re-timed to 3:00 with no fee, details to follow tomorrow. 20 minutes to Cannaregio. Asked Arno on WhatsApp to move from 3:00 to 2:30."
+              "title": "Walk to Orient Express, 25 minutes",
+              "status": "info",
+              "detail": "Arno boat not used."
             },
             {
               "time": "3:00 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
-              "status": "pending",
-              "detail": "Ginevra Bollettini. Asked to move from 3:30 to 3:00, draft ready. 3:30 if she can't."
+              "status": "confirmed",
+              "detail": "Ginevra Bollettini. Walk from Palazzina, 25 minutes over the Rialto. Taxi to the Danieli at 4:40."
             },
             {
-              "time": "4:30 PM",
+              "time": "5:00 PM",
               "title": "The Danieli, A Four Seasons Hotel, site visit",
-              "status": "pending",
-              "detail": "Bjorn Labee. Asked to move from 5:00 to 4:30 so there is 90 minutes before the 6:00 boat, draft ready."
+              "status": "confirmed",
+              "detail": "Bjorn Labee. 5:00 stands, one hour before the 6:00 boat."
             },
             {
               "time": "6:15 PM",
@@ -1186,7 +1186,6 @@
       "items": [
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Eden guest experience: Giulio, Saturday arrival, La Terrazza 7:00, haircut, laundry (draft ready)",
-        "Arno, WhatsApp: boat 2:30 instead of 3:00",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
@@ -1209,8 +1208,6 @@
     {
       "title": "Waiting on",
       "items": [
-        "Orient Express, Ginevra: 3:00 instead of 3:30 today, sent",
-        "Danieli, Bjorn: 4:30 instead of 5:00 today, sent",
         "Hassler, Francesca: Monday 2:30, draft ready",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
         "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
