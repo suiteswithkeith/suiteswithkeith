@@ -947,14 +947,14 @@
             {
               "time": "5:30 PM",
               "title": "Haircut, Eden concierge to book",
-              "status": "todo",
-              "detail": "Saturday is the only day it works, most Rome barbers close Sunday and Monday morning. Drop laundry at the desk on check in, back Sunday."
+              "status": "pending",
+              "detail": "Asked Giulio to book a barber near the hotel for 5:30 or 6:00, and laundry back by Sunday evening."
             },
             {
-              "time": "8:00 PM",
+              "time": "7:00 PM",
               "title": "Dinner at La Terrazza, the Eden",
-              "status": "todo",
-              "detail": "Open Tuesday to Saturday only, closed Sunday. Book it for tonight, not tomorrow."
+              "status": "pending",
+              "detail": "Open Tuesday to Saturday, closed Sunday. Asked Giulio at guest experience for 7:00, draft ready."
             }
           ]
         }
@@ -1185,6 +1185,7 @@
       "title": "Send",
       "items": [
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
+        "Eden guest experience: Giulio, Saturday arrival, La Terrazza 7:00, haircut, laundry (draft ready)",
         "Arno, WhatsApp: boat 2:30 instead of 3:00",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
