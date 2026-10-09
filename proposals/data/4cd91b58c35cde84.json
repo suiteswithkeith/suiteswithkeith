@@ -945,10 +945,16 @@
               "detail": "Arno, Mercedes. Exit the platform through the glass doors, turn right, driver at the platform 1 exit by McDonald's and the pharmacy with a sign. Paid."
             },
             {
-              "time": "Evening",
-              "title": "Dinner in Rome, free",
-              "status": "info",
-              "detail": "Nobody has a claim on this one."
+              "time": "5:30 PM",
+              "title": "Haircut, Eden concierge to book",
+              "status": "todo",
+              "detail": "Saturday is the only day it works, most Rome barbers close Sunday and Monday morning. Drop laundry at the desk on check in, back Sunday."
+            },
+            {
+              "time": "8:00 PM",
+              "title": "Dinner at La Terrazza, the Eden",
+              "status": "todo",
+              "detail": "Open Tuesday to Saturday only, closed Sunday. Book it for tonight, not tomorrow."
             }
           ]
         }
@@ -996,9 +1002,9 @@
             },
             {
               "time": "Evening",
-              "title": "Dinner at La Terrazza, the Eden",
+              "title": "Dinner at Il Giardino, the Eden rooftop",
               "status": "info",
-              "detail": "The Eden's night."
+              "detail": "La Terrazza is closed Sundays. Il Giardino serves until 10:30, casual."
             }
           ]
         },
@@ -1188,6 +1194,7 @@
     {
       "title": "Decide and fix",
       "items": [
+        "Rome: laundry to the Eden on check in Saturday, haircut Saturday 5:30, La Terrazza Saturday night",
         "Palazzina concierge on arrival: Saturday boats at 10:10 and 11:40",
         "Arno emergency line, standard calls only: +39 344 3443549",
         "Avis: return at Verona Porta Nuova today, don't accept the 400 in the app, dispute through President's Club if billed",
