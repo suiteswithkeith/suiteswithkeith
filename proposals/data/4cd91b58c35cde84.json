@@ -881,22 +881,22 @@
               "detail": "Ask the concierge for Saturday's two boats: 10:10 from here to Aman with luggage, 11:40 from Aman's dock to Santa Lucia."
             },
             {
-              "time": "3:00 PM",
+              "time": "2:30 PM",
               "title": "Water taxi Palazzina Grassi to Orient Express",
-              "status": "confirmed",
-              "detail": "Arno, the 11:45 boat re-timed to 3:00 with no fee, details to follow tomorrow. 20 minutes to Cannaregio."
+              "status": "pending",
+              "detail": "Arno, the 11:45 boat re-timed to 3:00 with no fee, details to follow tomorrow. 20 minutes to Cannaregio. Asked Arno on WhatsApp to move from 3:00 to 2:30."
             },
             {
-              "time": "3:30 PM",
+              "time": "3:00 PM",
               "title": "Orient Express Palazzo Donà Giovannelli, site visit",
-              "status": "confirmed",
-              "detail": "Ginevra Bollettini meets you at the hotel at 3:30, confirmed. Cannaregio on the Strada Nova. Arno boat drops you at 3:20."
+              "status": "pending",
+              "detail": "Ginevra Bollettini. Asked to move from 3:30 to 3:00, draft ready. 3:30 if she can't."
             },
             {
-              "time": "5:00 PM",
+              "time": "4:30 PM",
               "title": "The Danieli, A Four Seasons Hotel, site visit",
-              "status": "confirmed",
-              "detail": "Bjorn Labee, Senior Sales Manager, confirmed by Eva Reidt. Riva degli Schiavoni. Orient Express to the Danieli is 15 to 20 minutes by water taxi, have Ginevra's team call one for 4:35, or a 30 minute walk via Rialto if done by 4:20."
+              "status": "pending",
+              "detail": "Bjorn Labee. Asked to move from 5:00 to 4:30 so there is 90 minutes before the 6:00 boat, draft ready."
             },
             {
               "time": "6:15 PM",
@@ -1201,6 +1201,9 @@
     {
       "title": "Waiting on",
       "items": [
+        "Orient Express, Ginevra: 3:00 instead of 3:30 today, draft ready",
+        "Danieli, Bjorn: 4:30 instead of 5:00 today, draft ready",
+        "Arno, WhatsApp: boat at 2:30 instead of 3:00",
         "Hassler Roma, Sophie Clarke: Sunday 2:30 or 3:00, sent",
         "Airelles Palladio, Audrey: 6:15 aperitivo and the Danieli boat, sent",
         "Six Senses Rome, Stefano: Monday 4:15, yes sent",
