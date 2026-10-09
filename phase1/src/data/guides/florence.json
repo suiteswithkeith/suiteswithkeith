@@ -1,7 +1,5 @@
 {
   "_todo": [
-    "Keith to supply: the Fora perks line (stay.perks, still a placeholder)",
-    "Keith to supply: hero photo of the Ponte Vecchio (hero.img is a stand-in Florence photo for now)",
     "Keith to supply: OG image (the reel cover); meta.og_image falls back to the hero until set"
   ],
   "slug": "florence",
@@ -29,8 +27,8 @@
     "h2": "Where I’d <em>stay</em>",
     "deck": "One for every kind of Florence trip. These are the hotels I send friends to.",
     "perks": {
-      "placeholder": true,
-      "text": "Fora perks line goes here — e.g. an upgrade when available, daily breakfast and a hotel credit when you book through me. Keith to supply exact wording."
+      "placeholder": false,
+      "text": "All six are Fora Reserve hotels. Book through me and you get an upgrade when available, daily breakfast and a hotel credit, at the same rate as booking direct."
     },
     "ask_label": "Ask me about this hotel",
     "hotels": [
@@ -63,11 +61,11 @@
         "name": "The Place",
         "award": "Best location",
         "img": {
-          "src": "/images/florence/the-place-firenze.jpg",
-          "w": 502,
-          "h": 747
+          "src": "/images/florence/the-place-firenze-room.jpg",
+          "w": 1600,
+          "h": 1067
         },
-        "alt": "The Place Firenze, an arcaded villa facade above a formal garden",
+        "alt": "A room at The Place Firenze with a crystal chandelier and a balcony onto the loggia of Piazza Santa Maria Novella",
         "take": "A small townhouse on Piazza Santa Maria Novella, with nearly everything that matters on foot. It feels less like a hotel and more like staying with a friend who has excellent taste. Plan one evening around the rooftop at aperitivo hour."
       },
       {
@@ -87,11 +85,11 @@
         "name": "Borgo Pignano Florence",
         "award": "Best newcomer",
         "img": {
-          "src": "/images/florence/borgo-pignano-florence-room.jpg",
-          "w": 1600,
-          "h": 1067
+          "src": "/images/florence/borgo-pignano-florence.jpg",
+          "w": 502,
+          "h": 747
         },
-        "alt": "A room at Borgo Pignano Florence with a crystal chandelier and a balcony onto a Renaissance loggia",
+        "alt": "Borgo Pignano Florence, an arcaded villa facade above a formal garden",
         "take": "The city house from the family behind Borgo Pignano, one of my favorite estates in Tuscany. Same calm, same eye for detail, on a smaller and more personal scale. It pairs beautifully with a few nights at the estate afterward."
       },
       {
