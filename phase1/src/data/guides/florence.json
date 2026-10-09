@@ -1,26 +1,17 @@
 {
   "_todo": [
-    "Keith to confirm or replace: all six hotel takes (drafted from my existing reviews, need your own words)",
     "Keith to supply: the Fora perks line (stay.perks, still a placeholder)",
     "Keith to supply: hero photo of the Ponte Vecchio (hero.img is a stand-in Florence photo for now)",
-    "Keith to supply: photos for Portrait Firenze, The Place and Borgo Pignano Florence (null = 'photo to come' frame)",
-    "Keith to supply: OG image (the reel cover); meta.og_image falls back to the hero until set",
-    "Confirm: Borgo Pignano Florence is open and named correctly",
-    "Confirm: each after-hours experience is still bookable",
-    "Confirm: Monday closures and Duomo climb tips are still accurate",
-    "Confirm: reply timing in inquiry.success, and where submissions go (currently the site's Formspree form)"
+    "Keith to supply: OG image (the reel cover); meta.og_image falls back to the hero until set"
   ],
-
   "slug": "florence",
   "name": "Florence",
-
   "meta": {
     "title": "Florence Guide — Where I'd Stay | Suites With Keith",
     "description": "My Florence guide: the six hotels I'd stay at and why, the after-hours experiences most visitors never see, and what I'd tell a friend before they go.",
     "og_image": null,
     "og_image_alt": null
   },
-
   "hero": {
     "eyebrow": "The Florence guide",
     "h1": "Florence",
@@ -33,7 +24,6 @@
       "h": 1030
     }
   },
-
   "stay": {
     "eyebrow": "Six hotels",
     "h2": "Where I’d <em>stay</em>",
@@ -48,7 +38,11 @@
         "id": "four-seasons-firenze",
         "name": "Four Seasons Firenze",
         "award": "Best overall",
-        "img": { "src": "/images/hotels/fs-firenze-courtyard.jpg", "w": 1112, "h": 626 },
+        "img": {
+          "src": "/images/hotels/fs-firenze-courtyard.jpg",
+          "w": 1112,
+          "h": 626
+        },
         "alt": "The frescoed courtyard of the Renaissance palazzo at Four Seasons Hotel Firenze",
         "take": "A Renaissance palazzo inside a private garden that feels impossible this close to the Duomo. It’s the only hotel in Florence that gives you a resort and the city in the same stay, and the service is the most polished in town."
       },
@@ -56,23 +50,35 @@
         "id": "portrait-firenze",
         "name": "Portrait Firenze",
         "award": "Best Ponte Vecchio views",
-        "img": null,
-        "alt": "A river-view suite at Portrait Firenze looking onto the Ponte Vecchio",
+        "img": {
+          "src": "/images/florence/portrait-firenze-terrace.jpg",
+          "w": 1080,
+          "h": 607
+        },
+        "alt": "A suite terrace at Portrait Firenze overlooking the Arno and the Oltrarno rooftops",
         "take": "Suites right on the Arno, so the Ponte Vecchio is out your window rather than down the street. The rooms are apartment-sized, which matters more than you’d think after a long museum day. Ask for a river view; that’s the whole point."
       },
       {
         "id": "the-place",
         "name": "The Place",
         "award": "Best location",
-        "img": null,
-        "alt": "The Place Firenze on Piazza Santa Maria Novella",
+        "img": {
+          "src": "/images/florence/the-place-firenze.jpg",
+          "w": 502,
+          "h": 747
+        },
+        "alt": "The Place Firenze, an arcaded villa facade above a formal garden",
         "take": "A small townhouse on Piazza Santa Maria Novella, with nearly everything that matters on foot. It feels less like a hotel and more like staying with a friend who has excellent taste. Plan one evening around the rooftop at aperitivo hour."
       },
       {
         "id": "collegio-alla-querce",
         "name": "Collegio alla Querce",
         "award": "Best city views",
-        "img": { "src": "/images/florence/collegio-gardens.jpg", "w": 683, "h": 1024 },
+        "img": {
+          "src": "/images/florence/collegio-gardens.jpg",
+          "w": 683,
+          "h": 1024
+        },
         "alt": "The gardens at Collegio alla Querce in the hills above Florence",
         "take": "A former school in the hills, about a 30-minute walk from the center, with the whole city laid out below almost every room. I’ve stayed here, so I can tell you exactly which rooms face the Duomo."
       },
@@ -80,50 +86,94 @@
         "id": "borgo-pignano-florence",
         "name": "Borgo Pignano Florence",
         "award": "Best newcomer",
-        "img": null,
-        "alt": "Borgo Pignano’s city house in Florence",
+        "img": {
+          "src": "/images/florence/borgo-pignano-florence-room.jpg",
+          "w": 1600,
+          "h": 1067
+        },
+        "alt": "A room at Borgo Pignano Florence with a crystal chandelier and a balcony onto a Renaissance loggia",
         "take": "The city house from the family behind Borgo Pignano, one of my favorite estates in Tuscany. Same calm, same eye for detail, on a smaller and more personal scale. It pairs beautifully with a few nights at the estate afterward."
       },
       {
         "id": "villa-san-michele",
         "name": "Villa San Michele",
         "award": "Best splurge",
-        "img": { "src": "/images/destinations/villa-san-michele.jpg", "w": 1072, "h": 738 },
+        "img": {
+          "src": "/images/destinations/villa-san-michele.jpg",
+          "w": 1072,
+          "h": 738
+        },
         "alt": "Belmond Villa San Michele, a former monastery on the Fiesole hillside above Florence",
         "take": "A 15th-century former monastery on the Fiesole hillside, recently renovated, with the best views in Florence. Terraces step down the slope and a shuttle takes you into town. Go spring through fall, when the terraces are the point."
       }
     ]
   },
-
   "after_hours": {
     "eyebrow": "The doors I can open",
     "h2": "After <em>hours</em>",
     "sub": "The Florence most visitors never see",
     "items": [
-      { "id": "david-after-close", "title": "David, after close", "line": "The Accademia to yourself, with a violinist and soprano" },
-      { "id": "duomo-terraces", "title": "The Duomo terraces", "line": "A private walk along the cathedral’s rooftop" },
-      { "id": "arno-by-boat", "title": "The Arno by boat", "line": "A private sunset cruise under the Ponte Vecchio" },
-      { "id": "opificio", "title": "Opificio delle Pietre Dure", "line": "The Medici stone workshop, opened just for you" },
-      { "id": "ferragamo", "title": "Ferragamo, made for you", "line": "A custom experience not open to the public" },
-      { "id": "fresco", "title": "Paint a fresco", "line": "A half-day in a working Florentine bottega" }
+      {
+        "id": "david-after-close",
+        "title": "David, after close",
+        "line": "The Accademia to yourself, with a violinist and soprano"
+      },
+      {
+        "id": "duomo-terraces",
+        "title": "The Duomo terraces",
+        "line": "A private walk along the cathedral’s rooftop"
+      },
+      {
+        "id": "arno-by-boat",
+        "title": "The Arno by boat",
+        "line": "A private sunset cruise under the Ponte Vecchio"
+      },
+      {
+        "id": "opificio",
+        "title": "Opificio delle Pietre Dure",
+        "line": "The Medici stone workshop, opened just for you"
+      },
+      {
+        "id": "ferragamo",
+        "title": "Ferragamo, made for you",
+        "line": "A custom experience not open to the public"
+      },
+      {
+        "id": "fresco",
+        "title": "Paint a fresco",
+        "line": "A half-day in a working Florentine bottega"
+      }
     ],
     "dm_label": "DM me for access",
     "dm_href": "https://ig.me/m/suiteswithkeith",
     "form_label": "Or send an inquiry"
   },
-
   "tips": {
     "eyebrow": "Before you go",
     "h2": "Things I’d tell a <em>friend</em>",
     "items": [
-      { "b": "Skip the museums on Monday.", "t": "The Uffizi and the Accademia are closed." },
-      { "b": "Book the Duomo climb early.", "t": "Timed slots sell out." },
-      { "b": "Stay at least three nights.", "t": "" },
-      { "b": "See David after hours.", "t": "<a href=\"#inquire\">I can arrange it.</a>" },
-      { "b": "Heading to Tuscany next?", "t": "<a href=\"#inquire\">Ask me about a private driver to Chianti.</a>" }
+      {
+        "b": "Skip the museums on Monday.",
+        "t": "The Uffizi and the Accademia are closed."
+      },
+      {
+        "b": "Book the Duomo climb early.",
+        "t": "Timed slots sell out."
+      },
+      {
+        "b": "Stay at least three nights.",
+        "t": ""
+      },
+      {
+        "b": "See David after hours.",
+        "t": "<a href=\"#inquire\">I can arrange it.</a>"
+      },
+      {
+        "b": "Heading to Tuscany next?",
+        "t": "<a href=\"#inquire\">Ask me about a private driver to Chianti.</a>"
+      }
     ]
   },
-
   "inquiry": {
     "eyebrow": "Plan it with me",
     "h2": "Thinking about <em>Florence</em>?",
@@ -134,7 +184,6 @@
     "success": "Got it. I’ll be in touch within a day.",
     "error": "That didn’t send. Email me directly at keith.pence@fora.travel."
   },
-
   "teaser": {
     "eyebrow": "Coming soon",
     "h2": "The Tuscany <em>guide</em>",
