@@ -1077,7 +1077,7 @@
           "stay": {
             "name": "Le Sirenuse, Positano",
             "status": "paid",
-            "detail": "650 euros, paid. Via Colombo 30, +39 089 875066."
+            "detail": "650 euros, industry rate from the GM Antonio Sersale, paid. Via Colombo 30, +39 089 875066. Keep it."
           },
           "items": [
             {
@@ -1091,7 +1091,7 @@
               "time": "Afternoon",
               "title": "Boat Salerno to Le Sirenuse, the whole coast",
               "status": "open",
-              "detail": "Lucia at Luxury Boats Positano: you asked for a price on Elisa or Don Paulo on Sept 30 and she never answered. Nudge drafted with the Salerno pickup at 12:30. WhatsApp her too, +39 089 811139. Fallback: Sunrise Sorrento 600 from Sorrento, or ask the Sirenuse concierge.",
+              "detail": "Two asks out: Lucia at Luxury Boats Positano for Elisa or Don Paulo from Salerno 12:30 (silent since Sept 30, nudge and WhatsApp +39 089 811139), and Le Sirenuse to send their own boat from Salerno (draft ready). Fallback: Sunrise Sorrento 600.",
               "todo": "Send the nudge and WhatsApp. If nothing by Sunday night, take Sunrise."
             },
             {
@@ -1126,12 +1126,18 @@
               "time": "TBC",
               "title": "Villa Treville, site visit",
               "status": "suggested",
-              "detail": "Daniela Barba. Time to give her."
+              "detail": "Daniela Barba offered the 13th hosted, you passed. A visit on the 14th was never pinned down. Decide."
             },
             {
               "time": "Afternoon",
               "title": "Boat to Amalfi, check in",
               "status": "info"
+            },
+            {
+              "time": "5:00 PM",
+              "title": "Miramalfi, site visit",
+              "status": "pending",
+              "detail": "Alessandro Mansi, Sales Manager. Asked for the 14th at 5:00 or the 15th afternoon, draft ready."
             }
           ]
         },
@@ -1150,6 +1156,12 @@
               "status": "confirmed"
             },
             {
+              "time": "2:00 PM",
+              "title": "Palazzo Avino, Ravello, site visit",
+              "status": "pending",
+              "detail": "Carlos Quereda, Director of Sales Americas, Emanuela Apicella copied. Asked for the 15th at 2:00, lunch if it suits, draft ready. 30 minutes up from Amalfi."
+            },
+            {
               "time": "Day",
               "title": "Borgo Santandrea, Conca dei Marini",
               "status": "suggested",
@@ -1160,18 +1172,6 @@
               "title": "Borgo Santandrea, Conca dei Marini, visit and dinner at Alici",
               "status": "suggested",
               "detail": "Antonella Gatto never answered the Sept 14 note. Alici knows you from the Meckley birthday dinner."
-            },
-            {
-              "time": "Day",
-              "title": "Miramalfi, Amalfi",
-              "status": "suggested",
-              "detail": "Not contacted. Five minutes from Santa Caterina."
-            },
-            {
-              "time": "Day",
-              "title": "Caruso or Palazzo Avino, Ravello",
-              "status": "suggested",
-              "detail": "Not contacted. Pick one, 30 minutes up the hill."
             }
           ]
         },
@@ -1202,6 +1202,9 @@
       "title": "Send",
       "items": [
         "Access Italy: Isabella and Verdiana, hosted Sunday afternoon experience (draft ready)",
+        "Le Sirenuse: their boat from Salerno on the 13th, price (draft ready)",
+        "Miramalfi: Alessandro Mansi, 14th at 5:00 or 15th (draft ready)",
+        "Palazzo Avino: Carlos Quereda, 15th at 2:00 (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Eden guest experience: Giulio, Saturday arrival, La Terrazza 7:00, haircut, laundry (draft ready)",
         "Luxury Boats Positano: Lucia, nudge for the price and the Salerno pickup (draft ready), WhatsApp too",
@@ -1240,7 +1243,6 @@
         "Miramare, Excelsior Palace",
         "Badia Hill",
         "ADLER Lodge Alpe",
-        "Miramalfi, Palazzo Avino, Caruso",
         "Bulgari Roma, Vilòn, J.K. Place Roma",
         "St. Regis Venice: Gabriela Jurubita's address bounced, nothing ever arrived. Dropped."
       ]
