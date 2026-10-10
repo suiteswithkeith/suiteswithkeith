@@ -1033,7 +1033,7 @@
               "time": "12:00 PM",
               "title": "Hotel de Russie, site visit",
               "status": "confirmed",
-              "detail": "Elena Carnevale confirmed 12:00 on the 8th, +39 342 1250435. Ask for her at reception. Car from Ostiense 20 to 25 minutes. Renovated rooms and the Secret Garden."
+              "detail": "Elena Carnevale confirmed 12:00. Asked if she can do Sunday afternoon instead, draft ready. Monday stays if not."
             },
             {
               "time": "2:30 PM",
@@ -1202,6 +1202,7 @@
       "title": "Send",
       "items": [
         "Sirenuse concierge: Ilaria, yes to booking the Salerno boat, send rates (draft ready)",
+        "De Russie: Elena, any chance of Sunday afternoon instead of Monday (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Eden guest experience: Giulio, Saturday arrival, La Terrazza 7:00, haircut, laundry (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
