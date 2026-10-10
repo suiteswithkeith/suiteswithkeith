@@ -991,8 +991,8 @@
             {
               "time": "1:30 to 6:00 PM",
               "title": "Access Italy experience, if they can host it",
-              "status": "open",
-              "detail": "Asked Isabella and Verdiana for a hosted signature on a Sunday afternoon, cooking class, Fiat 500, artisan access. Draft ready. Fallback: free afternoon."
+              "status": "pending",
+              "detail": "Ilenia at Access Italy reservations is checking Sunday availability, answer due today. Fallback: free afternoon, or the cars."
             },
             {
               "time": "3:00 PM",
@@ -1090,9 +1090,9 @@
             {
               "time": "Afternoon",
               "title": "Boat Salerno to Le Sirenuse, the whole coast",
-              "status": "open",
-              "detail": "Two asks out: Lucia at Luxury Boats Positano for Elisa or Don Paulo from Salerno 12:30 (silent since Sept 30, nudge and WhatsApp +39 089 811139), and Le Sirenuse to send their own boat from Salerno (draft ready). Fallback: Sunrise Sorrento 600.",
-              "todo": "Send the nudge and WhatsApp. If nothing by Sunday night, take Sunrise."
+              "status": "pending",
+              "detail": "Sirenuse concierge, Ilaria De Filippis: hotel boat is beach club only, but they will book a private boat from Salerno through their operator. Yes sent back, asked for rates and a classic boat (draft ready). Lucia at Luxury Boats still silent since Sept 30, nudged this morning. Whichever quotes first.",
+              "todo": "Pick the boat once Sirenuse or Lucia quotes, then book the Rome to Salerno train."
             },
             {
               "time": "1:30 PM",
@@ -1137,7 +1137,7 @@
               "time": "5:00 PM",
               "title": "Miramalfi, site visit",
               "status": "pending",
-              "detail": "Alessandro Mansi, Sales Manager. Asked for the 14th at 5:00 or the 15th afternoon, draft ready."
+              "detail": "Alessandro Mansi, Sales Manager. Asked for the 14th at 5:00 or the 15th afternoon. Auto reply came back, he is away, watch for a real answer."
             }
           ]
         },
@@ -1201,14 +1201,9 @@
     {
       "title": "Send",
       "items": [
-        "Access Italy: Isabella and Verdiana, hosted Sunday afternoon experience (draft ready)",
-        "Borgo Santandrea: Antonella, tour and Alici dinner on the 15th (draft ready)",
-        "Le Sirenuse: their boat from Salerno on the 13th, price (draft ready)",
-        "Miramalfi: Alessandro Mansi, 14th at 5:00 or 15th (draft ready)",
-        "Palazzo Avino: Emanuela, yes to 2:00 and lunch on the 15th (draft ready)",
+        "Sirenuse concierge: Ilaria, yes to booking the Salerno boat, send rates (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Eden guest experience: Giulio, Saturday arrival, La Terrazza 7:00, haircut, laundry (draft ready)",
-        "Luxury Boats Positano: Lucia, nudge for the price and the Salerno pickup (draft ready), WhatsApp too",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
       ]
@@ -1231,10 +1226,14 @@
     {
       "title": "Waiting on",
       "items": [
-        "Luxury Boats Positano, Lucia: price on Elisa or Don Paulo, asked Sept 30, no answer",
+        "Sirenuse concierge, Ilaria: boat rates from Salerno, once sent",
+        "Luxury Boats Positano, Lucia: price on Elisa or Don Paulo, nudged Oct 10",
+        "Borgo Santandrea, Antonella: tour and Alici on the 15th, sent Oct 10",
+        "Miramalfi, Alessandro Mansi: auto reply, away",
+        "Access Italy, Ilenia: checking Sunday afternoon, due today",
+        "Eden, Elena: Sunday 10:30 inspection and who to ask for",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
         "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
-        "Borgo Santandrea, Antonella Gatto: no reply since Sept 14",
         "Sporthotel Floralpina: no reply"
       ]
     },
