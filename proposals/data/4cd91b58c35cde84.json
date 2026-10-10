@@ -1018,6 +1018,12 @@
           },
           "items": [
             {
+              "time": "9:15 AM",
+              "title": "Check out of the Eden, bags sent by car to La Minerva",
+              "status": "todo",
+              "detail": "Ask the Eden bell desk tonight. 10 minutes, they hold the bags at La Minerva."
+            },
+            {
               "time": "10:00 AM",
               "title": "La Dolce Vita Orient Express, visit on board",
               "status": "confirmed",
@@ -1036,6 +1042,12 @@
               "detail": "Francesca Martinelli confirmed 2:30. Piazza Trinità dei Monti 6, 10 minutes on foot from de Russie and from Six Senses."
             },
             {
+              "time": "3:30 PM",
+              "title": "Check in at La Minerva after Hassler, see the room in daylight",
+              "status": "todo",
+              "detail": "10 minute walk down from the Hassler. Ask for early check in so the room is ready. Then 8 minutes to Six Senses for 4:15."
+            },
+            {
               "time": "4:15 PM",
               "title": "Six Senses Rome, site visit and spa",
               "status": "confirmed",
@@ -1043,9 +1055,8 @@
             },
             {
               "time": "5:30 PM",
-              "title": "Check in at La Minerva, evening free",
-              "status": "info",
-              "detail": "Hassler moved to Sunday if Sophie agrees, otherwise 5:30 Monday."
+              "title": "Back at La Minerva, rooftop at sunset, evening free",
+              "status": "info"
             }
           ]
         }
@@ -1062,7 +1073,7 @@
       "days": [
         {
           "date": "2026-10-13",
-          "label": "October 13: Rome to Positano by train and boat",
+          "label": "October 13: Rome to Positano by train and boat, via Salerno",
           "stay": {
             "name": "Le Sirenuse, Positano",
             "status": "paid",
@@ -1071,20 +1082,20 @@
           "items": [
             {
               "time": "Morning",
-              "title": "Train Rome to Naples, then on to Sorrento",
+              "title": "Frecciarossa Rome to Salerno, about 2 hours",
               "status": "todo",
-              "detail": "Time depends on Teresa's pickup. Naples to Sorrento about 1 hour by car or Campania Express.",
-              "todo": "Book the trains once the pickup time is set."
+              "detail": "Port is a 5 minute walk from Salerno station. Around 10:00 if the boat is 12:30.",
+              "todo": "Book once Lucia confirms the Salerno pickup."
             },
             {
               "time": "Afternoon",
-              "title": "Boat to Le Sirenuse, supplier being re-quoted",
+              "title": "Boat Salerno to Le Sirenuse, the whole coast",
               "status": "open",
-              "detail": "Luxury Boats Positano: Lucia wants you to pick Don Paulo or Elisa. No price yet. Lucibello never answered. Sunrise 600 on hold.",
+              "detail": "Ask Lucia to quote pickup at Salerno port instead of Sorrento, 50 to 60 minutes past Amalfi and Praiano. Pick Don Paulo or Elisa.",
               "todo": "Pick the boat and ask Lucia for the price."
             },
             {
-              "time": "3:30 PM",
+              "time": "1:30 PM",
               "title": "Arrive Le Sirenuse by sea",
               "status": "info"
             }
