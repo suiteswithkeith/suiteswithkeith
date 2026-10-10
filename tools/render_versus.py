@@ -59,7 +59,7 @@ def build(v, slug):
 
     related = ''.join(
         f'<a href="{r["href"]}" style="font-size:.72rem; font-weight:500; letter-spacing:.14em; '
-        f'text-transform:uppercase; color:var(--brass); text-decoration:none;"><span>{r["label"]}</span> &rarr;</a>'
+        f'text-transform:uppercase; color:var(--brass); text-decoration:none;"><span>{r["label"]}</span>&nbsp;&rarr;</a>'
         for r in v['related'])
 
     return dict(url=url, ld=ld, choose=choose, thead=thead, rows=rows,
