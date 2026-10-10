@@ -945,16 +945,10 @@
               "detail": "Arno, Mercedes. Exit the platform through the glass doors, turn right, driver at the platform 1 exit by McDonald's and the pharmacy with a sign. Paid."
             },
             {
-              "time": "5:30 PM",
-              "title": "Haircut, Eden concierge to book",
-              "status": "pending",
-              "detail": "Asked Giulio to book a barber near the hotel for 5:30 or 6:00, and laundry back by Sunday evening."
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Dinner at La Terrazza, the Eden",
-              "status": "pending",
-              "detail": "Open Tuesday to Saturday, closed Sunday. Asked Giulio at guest experience for 7:00, draft ready."
+              "time": "6:30 PM",
+              "title": "Dinner at Il Giardino, the Eden rooftop",
+              "status": "confirmed",
+              "detail": "La Terrazza was full. Il Giardino confirmed 6:30, table for one. Haircut done in Venice, Peppino cancelled."
             }
           ]
         }
@@ -969,7 +963,7 @@
       "days": [
         {
           "date": "2026-10-11",
-          "label": "October 11: Casa Monti, Hassler, the Eden",
+          "label": "October 11: Eden, the cars, Casa Monti, free afternoon",
           "stay": {
             "name": "Hotel Eden, Rome",
             "status": "confirmed",
@@ -980,19 +974,19 @@
               "time": "10:30 AM",
               "title": "Eden, site inspection of the suites",
               "status": "pending",
-              "detail": "Elena won't be in Rome. Draft ready asking for Sunday 10:30 and who to ask for."
+              "detail": "Elena has not answered on who shows you around. Check the cars pickup time doesn't collide."
             },
             {
-              "time": "12:00 PM",
+              "time": "Morning, time TBC",
+              "title": "100 all'Ora, vintage car drive with Andrea",
+              "status": "pending",
+              "detail": "Andrea picks you up, drops you at Casa Monti at 12:30. Pickup time to add. Access Italy passed, fully booked."
+            },
+            {
+              "time": "12:30 PM",
               "title": "Casa Monti, site visit",
               "status": "confirmed",
-              "detail": "Lidia Mastellone, 12:00. Via Panisperna 210."
-            },
-            {
-              "time": "1:30 to 6:00 PM",
-              "title": "Access Italy experience, if they can host it",
-              "status": "pending",
-              "detail": "Ilenia at Access Italy reservations is checking Sunday availability, answer due today. Fallback: free afternoon, or the cars."
+              "detail": "Lidia Mastellone. Andrea drops you here at 12:30, Lidia told (draft ready). Via Panisperna 210."
             },
             {
               "time": "3:00 PM",
@@ -1136,8 +1130,8 @@
             {
               "time": "5:00 PM",
               "title": "Miramalfi, site visit",
-              "status": "pending",
-              "detail": "Alessandro Mansi, Sales Manager. Asked for the 14th at 5:00 or the 15th afternoon. Auto reply came back, he is away, watch for a real answer."
+              "status": "confirmed",
+              "detail": "Alessandro Mansi confirmed, 5:00 on the 14th, beach club if there is light. Yes drafted."
             }
           ]
         },
@@ -1201,10 +1195,10 @@
     {
       "title": "Send",
       "items": [
-        "Sirenuse concierge: Ilaria, yes to booking the Salerno boat, send rates (draft ready)",
+        "Casa Monti: Lidia, 12:30 instead of 12:00 tomorrow (draft ready)",
+        "Miramalfi: Alessandro, yes to the 14th at 5:00 (draft ready)",
         "De Russie: Elena, any chance of Sunday afternoon instead of Monday (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
-        "Eden guest experience: Giulio, Saturday arrival, La Terrazza 7:00, haircut, laundry (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
       ]
@@ -1212,8 +1206,8 @@
     {
       "title": "Decide and fix",
       "items": [
+        "Sunday: what time does Andrea from 100 all'Ora pick you up, and does it clear the Eden inspection at 10:30",
         "Amalfi decisions: boat supplier and time for the 13th, then the Rome to Naples train; Alici dinner night; Treville yes or no; Miramalfi and Caruso yes or no; Santa Caterina inspection day; flight time on the 16th for the airport car",
-        "Rome: laundry to the Eden on check in Saturday, haircut Saturday 5:30, La Terrazza Saturday night",
         "Palazzina concierge on arrival: Saturday boats at 10:10 and 11:40",
         "Arno emergency line, standard calls only: +39 344 3443549",
         "Avis: return at Verona Porta Nuova today, don't accept the 400 in the app, dispute through President's Club if billed",
@@ -1230,12 +1224,11 @@
         "Sirenuse concierge, Ilaria: boat rates from Salerno, once sent",
         "Luxury Boats Positano, Lucia: price on Elisa or Don Paulo, nudged Oct 10",
         "Borgo Santandrea, Antonella: tour and Alici on the 15th, sent Oct 10",
-        "Miramalfi, Alessandro Mansi: auto reply, away",
-        "Access Italy, Ilenia: checking Sunday afternoon, due today",
         "Eden, Elena: Sunday 10:30 inspection and who to ask for",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
         "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
-        "Sporthotel Floralpina: no reply"
+        "Sporthotel Floralpina: no reply",
+        "De Russie, Elena Carnevale: Sunday afternoon instead of Monday, once sent"
       ]
     },
     {
