@@ -989,6 +989,12 @@
               "detail": "Lidia Mastellone, 12:00. Via Panisperna 210."
             },
             {
+              "time": "1:30 to 6:00 PM",
+              "title": "Access Italy experience, if they can host it",
+              "status": "open",
+              "detail": "Asked Isabella and Verdiana for a hosted signature on a Sunday afternoon, cooking class, Fiat 500, artisan access. Draft ready. Fallback: free afternoon."
+            },
+            {
               "time": "3:00 PM",
               "title": "Check in at the Eden",
               "status": "confirmed",
@@ -1184,6 +1190,7 @@
     {
       "title": "Send",
       "items": [
+        "Access Italy: Isabella and Verdiana, hosted Sunday afternoon experience (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Eden guest experience: Giulio, Saturday arrival, La Terrazza 7:00, haircut, laundry (draft ready)",
         "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
@@ -1194,6 +1201,7 @@
     {
       "title": "Decide and fix",
       "items": [
+        "Amalfi decisions: boat supplier and time for the 13th, then the Rome to Naples train; Alici dinner night; Treville yes or no; Miramalfi and Caruso yes or no; Santa Caterina inspection day; flight time on the 16th for the airport car",
         "Rome: laundry to the Eden on check in Saturday, haircut Saturday 5:30, La Terrazza Saturday night",
         "Palazzina concierge on arrival: Saturday boats at 10:10 and 11:40",
         "Arno emergency line, standard calls only: +39 344 3443549",
