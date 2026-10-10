@@ -1091,8 +1091,8 @@
               "time": "Afternoon",
               "title": "Boat Salerno to Le Sirenuse, the whole coast",
               "status": "open",
-              "detail": "Ask Lucia to quote pickup at Salerno port instead of Sorrento, 50 to 60 minutes past Amalfi and Praiano. Pick Don Paulo or Elisa.",
-              "todo": "Pick the boat and ask Lucia for the price."
+              "detail": "Lucia at Luxury Boats Positano: you asked for a price on Elisa or Don Paulo on Sept 30 and she never answered. Nudge drafted with the Salerno pickup at 12:30. WhatsApp her too, +39 089 811139. Fallback: Sunrise Sorrento 600 from Sorrento, or ask the Sirenuse concierge.",
+              "todo": "Send the nudge and WhatsApp. If nothing by Sunday night, take Sunrise."
             },
             {
               "time": "1:30 PM",
@@ -1204,7 +1204,7 @@
         "Access Italy: Isabella and Verdiana, hosted Sunday afternoon experience (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Eden guest experience: Giulio, Saturday arrival, La Terrazza 7:00, haircut, laundry (draft ready)",
-        "Luxury Boats Positano: Lucia, pick Don Paulo or Elisa and ask the price",
+        "Luxury Boats Positano: Lucia, nudge for the price and the Salerno pickup (draft ready), WhatsApp too",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
       ]
@@ -1227,6 +1227,7 @@
     {
       "title": "Waiting on",
       "items": [
+        "Luxury Boats Positano, Lucia: price on Elisa or Don Paulo, asked Sept 30, no answer",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
         "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
         "Borgo Santandrea, Antonella Gatto: no reply since Sept 14",
