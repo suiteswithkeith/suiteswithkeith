@@ -52,7 +52,7 @@ def build_variable_parts(b):
 
     related = ''.join(
         f'<a href="{r["href"]}" style="font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; '
-        f'color:var(--brass); text-decoration:none;"><span>{r["label"]}</span> &rarr;</a>'
+        f'color:var(--brass); text-decoration:none;"><span>{r["label"]}</span>&nbsp;&rarr;</a>'
         for r in b['related'])
 
     return dict(url=url, ld=ld, stats=stats, deck=deck, body=body, kv=kv,
