@@ -178,7 +178,7 @@ $know_notes
   <div class="container footer-signup">
     <p class="tagline">Subscribe to stay in the loop on all things luxury travel.</p>
     <div class="beehiiv-wrap">
-      <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="02920925-682b-4b12-a526-e4fe0939610c"></script>
+      <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="f7386044-3940-49ca-ab13-051728385b6d"></script>
       <p class="signup-continue"><a href="../subscriber-welcome.html">Just subscribed? Continue to your welcome page &rarr;</a></p>
     </div>
   </div>
