@@ -1137,7 +1137,7 @@
         },
         {
           "date": "2026-10-15",
-          "label": "October 15: Amalfi, Ravello",
+          "label": "October 15: Santa Caterina, Palazzo Avino, Borgo Santandrea",
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
@@ -1158,14 +1158,14 @@
             {
               "time": "5:30 PM",
               "title": "Borgo Santandrea, tour then dinner at Alici 7:00",
-              "status": "pending",
-              "detail": "Antonella Gatto, restaurants team copied. Asked for Thursday late afternoon and a table for one at 7:00, Wednesday as backup. Draft ready."
+              "status": "confirmed",
+              "detail": "Antonella Gatto confirmed: tour on the 15th, then dinner at Alici at 7:00. Conca dei Marini, 10 minutes from Amalfi, ask Santa Caterina for a car."
             },
             {
               "time": "5:30 PM",
               "title": "Borgo Santandrea, tour then dinner at Alici 7:00",
-              "status": "pending",
-              "detail": "Antonella Gatto, restaurants team copied. Asked for Thursday late afternoon and a table for one at 7:00, Wednesday as backup. Draft ready."
+              "status": "confirmed",
+              "detail": "Antonella Gatto confirmed: tour on the 15th, then dinner at Alici at 7:00. Conca dei Marini, 10 minutes from Amalfi, ask Santa Caterina for a car."
             }
           ]
         },
@@ -1225,7 +1225,6 @@
       "items": [
         "Sirenuse concierge, Ilaria: boat rates from Salerno, once sent",
         "Luxury Boats Positano, Lucia: price on Elisa or Don Paulo, nudged Oct 10",
-        "Borgo Santandrea, Antonella: tour and Alici on the 15th, sent Oct 10",
         "Eden, Elena: Sunday 10:30 inspection and who to ask for",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
         "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
