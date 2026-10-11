@@ -995,10 +995,10 @@
               "detail": "Hosted night, Tristan Delaittre and Elena Sgro. Room ready by 2:00. If the Eden adds the 10th, this is just a second night."
             },
             {
-              "time": "Evening",
-              "title": "Dinner at Il Giardino, the Eden rooftop",
-              "status": "info",
-              "detail": "La Terrazza is closed Sundays. Il Giardino serves until 10:30, casual."
+              "time": "5:30 PM",
+              "title": "Bulgari Roma or Vilòn, quick visit, drink and dinner",
+              "status": "pending",
+              "detail": "Asked both for 5:30 tonight, no sales team needed. Bulgari: Almudena Rodriguezserrano and Fabio Peloia, concierge Benedetta copied. Vilòn: info address. Take whichever says yes. Backup: ask Lidia at Casa Monti in person for dinner."
             }
           ]
         },
@@ -1195,6 +1195,8 @@
     {
       "title": "Send",
       "items": [
+        "Bulgari Roma: Almudena and Fabio, 5:30 tonight (draft ready)",
+        "Vilòn: 5:30 tonight (draft ready)",
         "Casa Monti: Lidia, 12:30 instead of 12:00 tomorrow (draft ready)",
         "Miramalfi: Alessandro, yes to the 14th at 5:00 (draft ready)",
         "De Russie: Elena, any chance of Sunday afternoon instead of Monday (draft ready)",
@@ -1237,7 +1239,7 @@
         "Miramare, Excelsior Palace",
         "Badia Hill",
         "ADLER Lodge Alpe",
-        "Bulgari Roma, Vilòn, J.K. Place Roma",
+        "J.K. Place Roma",
         "St. Regis Venice: Gabriela Jurubita's address bounced, nothing ever arrived. Dropped."
       ]
     }
