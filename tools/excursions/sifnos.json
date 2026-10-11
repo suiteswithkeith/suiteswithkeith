@@ -9,16 +9,40 @@
   "sub": "The island Greeks go to eat. Here is everything I would actually book, from the kitchen and the potter's wheel to the beaches and the tables.",
   "form_placeholder": "Sifnos in June",
   "rules": [
-    {"h": "Three or four nights", "p": "Sifnos is small and slow on purpose. Three nights covers the beaches and the best tables; four leaves room for a hike and a class without a single early alarm."},
-    {"h": "Base in Apollonia or Artemonas", "p": "The two hill villages sit in the middle of everything. Platis Gialos, Vathi, Faros and Kastro are all fifteen to twenty minutes away, and the evening stroll through Apollonia is half the reason to come."},
-    {"h": "Book the tables before the boat", "p": "There are fewer than a dozen tables on Sifnos I plan around, and in July and August the good ones are gone a week out. Send me those first and the rest can stay loose."}
+    {
+      "h": "Three or four nights",
+      "p": "Sifnos is small and slow on purpose. Three nights covers the beaches and the best tables; four leaves room for a hike and a class without a single early alarm."
+    },
+    {
+      "h": "Base in Apollonia or Artemonas",
+      "p": "The two hill villages sit in the middle of everything. Platis Gialos, Vathi, Faros and Kastro are all fifteen to twenty minutes away, and the evening stroll through Apollonia is half the reason to come."
+    },
+    {
+      "h": "Book the tables before the boat",
+      "p": "There are fewer than a dozen tables on Sifnos I plan around, and in July and August the good ones are gone a week out. Send me those first and the rest can stay loose."
+    }
   ],
   "map_intro": "No airport, one port, and a mountain spine with the villages strung along the top. Ferries dock at Kamares in the west; Apollonia, Artemonas and Kastro sit in the middle and the east; the beaches fan out to the south. Tap any pin for what it is.",
-  "map": {"center": [36.965, 24.715], "zoom": 12},
+  "map": {
+    "center": [
+      36.965,
+      24.715
+    ],
+    "zoom": 12
+  },
   "logistics": [
-    {"h": "Arriving by ferry", "p": "Everything comes in at Kamares. Roughly two and a half hours on the fast boat from Piraeus, or under an hour from Milos and Serifos. There is no airport, which is a big part of why it stays the way it is."},
-    {"h": "A car, for most days", "p": "Roads are good and short. A small car or a driver for the stay makes the beaches and the dinners easy; taxis exist but there are only a handful on the island."},
-    {"h": "When to come", "p": "Late May through June, and September into early October. Warm water, open tavernas, and none of the August crush on the Kastro lanes."}
+    {
+      "h": "Arriving by ferry",
+      "p": "Everything comes in at Kamares. Roughly two and a half hours on the fast boat from Piraeus, or under an hour from Milos and Serifos. There is no airport, which is a big part of why it stays the way it is."
+    },
+    {
+      "h": "A car, for most days",
+      "p": "Roads are good and short. A small car or a driver for the stay makes the beaches and the dinners easy; taxis exist but there are only a handful on the island."
+    },
+    {
+      "h": "When to come",
+      "p": "Late May through June, and September into early October. Warm water, open tavernas, and none of the August crush on the Kastro lanes."
+    }
   ],
   "sections": [
     {
@@ -26,10 +50,27 @@
       "h": "Private experiences",
       "intro": "These are the days I arrange myself, privately for the two of you or your group. Sifnos is the island of Tselementes, the father of the modern Greek cookbook, and it has been turning clay since antiquity, so the classes here are the real thing rather than a show put on for visitors.",
       "cards": [
-        {"chip": "Half day · Private", "h": "Cooking class in a village kitchen", "p": "A morning in a Sifnian home kitchen with a local cook, making the dishes the island is known for: revithada slow-baked in a clay pot, mastelo, and the little pastries for after. Lunch is what you made, with local wine at the table.", "verdict": "The one I would protect if you only do one thing here."},
-        {"chip": "Half day · Private", "h": "Pottery with a master potter", "p": "Sifnos has been making pottery for three thousand years and a handful of family workshops still fire in wood kilns by the sea. Time at the wheel with the potter, then your piece glazed, fired and shipped home."},
-        {"chip": "Half day · Private", "h": "A farm morning", "p": "Out to a working farm in the hills for the cheese, honey, capers and thyme Sifnos cooks with. Walk the terraces with the family that runs it, then a long table under the trees with what they make."},
-        {"chip": "Half or full day · Private", "h": "A guided hike", "p": "The island has some of the best waymarked footpaths in the Cyclades, past dovecotes, chapels and ancient watchtowers. I match the route to how hard you want to work, from the easy coastal walk to Chrysopigi to the climb up to the monastery on Profitis Ilias, and end it at a taverna."}
+        {
+          "chip": "Half day · Private",
+          "h": "Cooking class in a village kitchen",
+          "p": "A morning in a Sifnian home kitchen with a local cook, making the dishes the island is known for: revithada slow-baked in a clay pot, mastelo, and the little pastries for after. Lunch is what you made, with local wine at the table.",
+          "verdict": "If you only book one thing on Sifnos, make it this."
+        },
+        {
+          "chip": "Half day · Private",
+          "h": "Pottery with a master potter",
+          "p": "Sifnos has been making pottery for three thousand years and a handful of family workshops still fire in wood kilns by the sea. Time at the wheel with the potter, then your piece glazed, fired and shipped home."
+        },
+        {
+          "chip": "Half day · Private",
+          "h": "A farm morning",
+          "p": "Out to a working farm in the hills for the cheese, honey, capers and thyme Sifnos cooks with. Walk the terraces with the family that runs it, then a long table under the trees with what they make."
+        },
+        {
+          "chip": "Half or full day · Private",
+          "h": "A guided hike",
+          "p": "The island has some of the best waymarked footpaths in the Cyclades, past dovecotes, chapels and ancient watchtowers. I match the route to how hard you want to work, from the easy coastal walk to Chrysopigi to the climb up to the monastery on Profitis Ilias, and end it at a taverna."
+        }
       ]
     },
     {
@@ -37,54 +78,303 @@
       "h": "The beaches",
       "intro": "Sifnos beaches are small, sheltered and mostly sandy, with a taverna on almost every one. Choose by mood: a long lazy day on the sand, or a swim off the rocks below a village.",
       "cards": [
-        {"chip": "South · Sandy · Tavernas", "h": "Platis Gialos", "p": "The long, easy one. A wide sweep of sand with Omega3, Maiòlica and To Steki along it, so lunch is a few steps from the towel."},
-        {"chip": "Southwest · Calm bay", "h": "Vathi", "p": "A near-enclosed bay with water like a lake and the little Taxiarchis chapel at the water's edge. Tables in the sand at Tsikali for lunch, and the best place on the island to do nothing."},
-        {"chip": "Southeast · Iconic", "h": "Chrysopigi and Apokofto", "p": "The whitewashed monastery out on its rock, and the small sandy cove right beside it. Swim at Apokofto, walk out to the monastery, and lunch at the taverna above the beach."},
-        {"chip": "Southeast · Small", "h": "Faros and Fasolou", "p": "A tiny fishing harbor with two little beaches a short walk apart. Fasolou is the quieter one. Pelicanos sits right on the sand at Faros."},
-        {"chip": "East · Off the rocks", "h": "Seralia and Poulati", "p": "No sand, just deep blue water. Seralia is the old harbor below Kastro; Poulati is a ladder into the sea under a cliff-top monastery. Go late afternoon, then walk up to Loggia for sunset."},
-        {"chip": "North · End of the road", "h": "Cheronissos and Vroulidia", "p": "Cheronissos is a fishing hamlet at the very top of the island, with pottery workshops and a taverna on the bay. Vroulidia, on the way, is a pebble cove with the clearest water on Sifnos."}
+        {
+          "chip": "South · Sandy · Tavernas",
+          "h": "Platis Gialos",
+          "p": "The long, easy one. A wide sweep of sand with Omega3, Maiòlica and To Steki along it, so lunch is a few steps from the towel."
+        },
+        {
+          "chip": "Southwest · Calm bay",
+          "h": "Vathi",
+          "p": "A near-enclosed bay with water like a lake and the little Taxiarchis chapel at the water's edge. Tables in the sand at Tsikali for lunch, and the best place on the island to do nothing."
+        },
+        {
+          "chip": "Southeast · Iconic",
+          "h": "Chrysopigi and Apokofto",
+          "p": "The whitewashed monastery out on its rock, and the small sandy cove right beside it. Swim at Apokofto, walk out to the monastery, and lunch at the taverna above the beach."
+        },
+        {
+          "chip": "Southeast · Small",
+          "h": "Faros and Fasolou",
+          "p": "A tiny fishing harbor with two little beaches a short walk apart. Fasolou is the quieter one. Pelicanos sits right on the sand at Faros."
+        },
+        {
+          "chip": "East · Off the rocks",
+          "h": "Seralia and Poulati",
+          "p": "No sand, just deep blue water. Seralia is the old harbor below Kastro; Poulati is a ladder into the sea under a cliff-top monastery. Go late afternoon, then walk up to Loggia for sunset."
+        },
+        {
+          "chip": "North · End of the road",
+          "h": "Cheronissos and Vroulidia",
+          "p": "Cheronissos is a fishing hamlet at the very top of the island, with pottery workshops and a taverna on the bay. Vroulidia, on the way, is a pebble cove with the clearest water on Sifnos."
+        }
       ]
     }
   ],
   "eat_intro": "Sifnos has a better table-to-acre ratio than anywhere in the Cyclades. These are the ones I send everyone to.",
   "eat": [
-    {"group": "The two I book first", "items": [
-      {"chip": "Platis Gialos · Best fish", "h": "Omega3", "url": "https://www.tripadvisor.com/Restaurant_Review-g12116658-d4842624-Reviews-Omega3-Platis_Gialos_Sifnos_Cyclades_South_Aegean.html", "link": "TripAdvisor", "p": "A tiny beachside fish bar with an outsized reputation: ceviche, sashimi and inventive seafood small plates with a Greek-only wine list. Best fish on the island. Reserve ahead; lunch is lovely."},
-      {"chip": "Kastro · Best sunset", "h": "Loggia Wine Bar", "url": "https://www.instagram.com/loggia_sifnos/", "link": "Instagram", "p": "A clifftop natural wine bar above the Church of the Seven Martyrs, with 100+ small-producer Greek wines, cheese boards and vinyl playing. The golden-hour tables are the most coveted seats on Sifnos, so arrive before 7pm."}
-    ]},
-    {"group": "Beachside & stylish", "items": [
-      {"chip": "Faros Beach", "h": "Pelicanos", "url": "https://pelicanossifnos.gr/", "link": "Website", "p": "Cantina's laid-back sister restaurant: tables in the sand, great cocktails and the same seasonal ethos. The perfect swim, then lunch, then linger day. Also books via WhatsApp."},
-      {"chip": "Platis Gialos", "h": "Maiòlica", "url": "https://maiolicarestaurant.com/", "link": "Website", "p": "Design-led Mediterranean a few steps from the water. Think raw sea bass with lemon verbena and cured mackerel, all built on local ingredients."},
-      {"chip": "Verina Astra, Poulati · Dress-up night", "h": "Bostani", "url": "https://verinahotelsifnos.com/bostani-bar-restaurant/", "link": "Website", "p": "Farm-to-table fine dining in the hotel's own kitchen garden, perched on a cliff over the Aegean. Tasting menu, à la carte, or a tapas-and-cocktails bar menu. This is your dress-up dinner night."}
-    ]},
-    {"group": "Classic tavernas", "items": [
-      {"chip": "Vathi Beach · Since 1983", "h": "Tsikali", "url": "https://tsikali.com/", "link": "Website", "p": "A family-run taverna with tables in the sand under tamarisk trees. They raise their own meat and make their own Sifnian goat cheese. Order the mastelo, the wine-braised goat."},
-      {"chip": "Platis Gialos · No reservation", "h": "To Steki", "url": "https://www.tripadvisor.com/Restaurant_Review-g12116658-d1073252-Reviews-To_Steki-Platis_Gialos_Sifnos_Cyclades_South_Aegean.html", "link": "TripAdvisor", "p": "The classic beachfront taverna: grilled octopus, fried calamari and revithada, Sifnos' famous chickpea soup, right on the sand. Easy, and no reservation needed."},
-      {"chip": "Apollonia · Since 1950", "h": "Drakakis", "url": "https://www.tripadvisor.com/Restaurant_Review-g2721146-d4700484-Reviews-Drakakis-Apollonia_Sifnos_Cyclades_South_Aegean.html", "link": "TripAdvisor", "p": "A historic kafeneio on Apollonia's main lane: Greek coffee, homemade sweets and meze at an old-world pace. Great for an evening stroll through town when the alleys are buzzing."}
-    ]}
+    {
+      "group": "The two I book first",
+      "items": [
+        {
+          "chip": "Platis Gialos · Best fish",
+          "h": "Omega3",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g12116658-d4842624-Reviews-Omega3-Platis_Gialos_Sifnos_Cyclades_South_Aegean.html",
+          "link": "TripAdvisor",
+          "p": "A tiny beachside fish bar with an outsized reputation: ceviche, sashimi and inventive seafood small plates with a Greek-only wine list. Best fish on the island. Reserve ahead; lunch is lovely."
+        },
+        {
+          "chip": "Kastro · Best sunset",
+          "h": "Loggia Wine Bar",
+          "url": "https://www.instagram.com/loggia_sifnos/",
+          "link": "Instagram",
+          "p": "A clifftop natural wine bar above the Church of the Seven Martyrs, with 100+ small-producer Greek wines, cheese boards and vinyl playing. The golden-hour tables are the most coveted seats on Sifnos, so arrive before 7pm."
+        }
+      ]
+    },
+    {
+      "group": "Beachside & stylish",
+      "items": [
+        {
+          "chip": "Faros Beach",
+          "h": "Pelicanos",
+          "url": "https://pelicanossifnos.gr/",
+          "link": "Website",
+          "p": "Cantina's laid-back sister restaurant: tables in the sand, great cocktails and the same seasonal ethos. The perfect swim, then lunch, then linger day. Also books via WhatsApp."
+        },
+        {
+          "chip": "Platis Gialos",
+          "h": "Maiòlica",
+          "url": "https://maiolicarestaurant.com/",
+          "link": "Website",
+          "p": "Design-led Mediterranean a few steps from the water. Think raw sea bass with lemon verbena and cured mackerel, all built on local ingredients."
+        },
+        {
+          "chip": "Verina Astra, Poulati · Dress-up night",
+          "h": "Bostani",
+          "url": "https://verinahotelsifnos.com/bostani-bar-restaurant/",
+          "link": "Website",
+          "p": "Farm-to-table fine dining in the hotel's own kitchen garden, perched on a cliff over the Aegean. Tasting menu, à la carte, or a tapas-and-cocktails bar menu. This is your dress-up dinner night."
+        }
+      ]
+    },
+    {
+      "group": "Classic tavernas",
+      "items": [
+        {
+          "chip": "Vathi Beach · Since 1983",
+          "h": "Tsikali",
+          "url": "https://tsikali.com/",
+          "link": "Website",
+          "p": "A family-run taverna with tables in the sand under tamarisk trees. They raise their own meat and make their own Sifnian goat cheese. Order the mastelo, the wine-braised goat."
+        },
+        {
+          "chip": "Platis Gialos · No reservation",
+          "h": "To Steki",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g12116658-d1073252-Reviews-To_Steki-Platis_Gialos_Sifnos_Cyclades_South_Aegean.html",
+          "link": "TripAdvisor",
+          "p": "The classic beachfront taverna: grilled octopus, fried calamari and revithada, Sifnos' famous chickpea soup, right on the sand. Easy, and no reservation needed."
+        },
+        {
+          "chip": "Apollonia · Since 1950",
+          "h": "Drakakis",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g2721146-d4700484-Reviews-Drakakis-Apollonia_Sifnos_Cyclades_South_Aegean.html",
+          "link": "TripAdvisor",
+          "p": "A historic kafeneio on Apollonia's main lane: Greek coffee, homemade sweets and meze at an old-world pace. Great for an evening stroll through town when the alleys are buzzing."
+        }
+      ]
+    }
   ],
   "eat_outro": "Omega3, Loggia's sunset tables and Bostani are the three to lock in before you land. Send me the ones you want and I will hold them.",
   "pins": [
-    {"n": "Kamares", "c": "town", "ll": [36.9937, 24.6772], "d": "The port. Every ferry docks here, with a shallow sandy beach in the bay."},
-    {"n": "Apollonia", "c": "town", "ll": [36.9727, 24.7213], "d": "The hill-village capital and the evening stroll."},
-    {"n": "Artemonas", "c": "town", "ll": [36.9811, 24.7156], "d": "Apollonia's quieter neighbor, with the grand old captains' houses."},
-    {"n": "Kastro", "c": "town", "ll": [36.9787, 24.7465], "d": "The medieval clifftop village on the east coast."},
-    {"n": "Platis Gialos", "c": "beach", "ll": [36.9311, 24.7366], "d": "The long sandy beach, lined with tables."},
-    {"n": "Vathi", "c": "beach", "ll": [36.9302, 24.6826], "d": "The calm, near-enclosed bay. Tsikali is here."},
-    {"n": "Chrysopigi & Apokofto", "c": "beach", "ll": [36.9336, 24.7487], "d": "The monastery on its rock and the sandy cove beside it."},
-    {"n": "Faros & Fasolou", "c": "beach", "ll": [36.9405, 24.7552], "d": "Little fishing harbor and two small beaches."},
-    {"n": "Seralia", "c": "beach", "ll": [36.9771, 24.7495], "d": "Swim off the rocks below Kastro."},
-    {"n": "Poulati", "c": "beach", "ll": [36.9873, 24.7414], "d": "Deep water under a cliff-top monastery."},
-    {"n": "Vroulidia", "c": "beach", "ll": [37.0336, 24.7092], "d": "Pebble cove, the clearest water on the island."},
-    {"n": "Cheronissos", "c": "beach", "ll": [37.0436, 24.6914], "d": "Fishing hamlet at the end of the road, with pottery workshops."},
-    {"n": "Profitis Ilias", "c": "do", "ll": [36.9622, 24.7006], "d": "The summit monastery, the big hike."},
-    {"n": "Omega3", "c": "eat", "ll": [36.9316, 24.7380], "d": "Best fish on the island."},
-    {"n": "Maiòlica", "c": "eat", "ll": [36.9305, 24.7357], "d": "Design-led Mediterranean by the water."},
-    {"n": "To Steki", "c": "eat", "ll": [36.9322, 24.7389], "d": "The classic beachfront taverna."},
-    {"n": "Loggia Wine Bar", "c": "eat", "ll": [36.9780, 24.7480], "d": "Clifftop natural wine at sunset."},
-    {"n": "Pelicanos", "c": "eat", "ll": [36.9399, 24.7540], "d": "Tables in the sand at Faros."},
-    {"n": "Bostani at Verina Astra", "c": "eat", "ll": [36.9850, 24.7380], "d": "The dress-up dinner, in a cliff-top kitchen garden."},
-    {"n": "Tsikali", "c": "eat", "ll": [36.9310, 24.6840], "d": "Family taverna in the sand at Vathi."},
-    {"n": "Drakakis", "c": "eat", "ll": [36.9732, 24.7205], "d": "The 1950 kafeneio on Apollonia's main lane."}
+    {
+      "n": "Kamares",
+      "c": "town",
+      "ll": [
+        36.9895,
+        24.6765
+      ],
+      "d": "The port. Every ferry docks here, with a shallow sandy beach in the bay."
+    },
+    {
+      "n": "Apollonia",
+      "c": "town",
+      "ll": [
+        36.9739,
+        24.7233
+      ],
+      "d": "The hill-village capital and the evening stroll."
+    },
+    {
+      "n": "Artemonas",
+      "c": "town",
+      "ll": [
+        36.9827,
+        24.723
+      ],
+      "d": "Apollonia's quieter neighbor, with the grand old captains' houses."
+    },
+    {
+      "n": "Kastro",
+      "c": "town",
+      "ll": [
+        36.9745,
+        24.7451
+      ],
+      "d": "The medieval clifftop village on the east coast."
+    },
+    {
+      "n": "Platis Gialos",
+      "c": "beach",
+      "ll": [
+        36.9318,
+        24.729
+      ],
+      "d": "The long sandy beach, lined with tables."
+    },
+    {
+      "n": "Vathi",
+      "c": "beach",
+      "ll": [
+        36.9334,
+        24.6905
+      ],
+      "d": "The calm, near-enclosed bay. Tsikali is here."
+    },
+    {
+      "n": "Chrysopigi & Apokofto",
+      "c": "beach",
+      "ll": [
+        36.9375,
+        24.7458
+      ],
+      "d": "The monastery on its rock and the sandy cove beside it."
+    },
+    {
+      "n": "Faros & Fasolou",
+      "c": "beach",
+      "ll": [
+        36.943,
+        24.752
+      ],
+      "d": "Little fishing harbor and two small beaches."
+    },
+    {
+      "n": "Seralia",
+      "c": "beach",
+      "ll": [
+        36.9737,
+        24.747
+      ],
+      "d": "Swim off the rocks below Kastro."
+    },
+    {
+      "n": "Poulati",
+      "c": "beach",
+      "ll": [
+        36.9845,
+        24.7405
+      ],
+      "d": "Deep water under a cliff-top monastery."
+    },
+    {
+      "n": "Vroulidia",
+      "c": "beach",
+      "ll": [
+        37.0236,
+        24.6553
+      ],
+      "d": "Pebble cove, the clearest water on the island."
+    },
+    {
+      "n": "Cheronissos",
+      "c": "beach",
+      "ll": [
+        37.0347,
+        24.6517
+      ],
+      "d": "Fishing hamlet at the end of the road, with pottery workshops."
+    },
+    {
+      "n": "Profitis Ilias",
+      "c": "do",
+      "ll": [
+        36.9671,
+        24.701
+      ],
+      "d": "The summit monastery, the big hike."
+    },
+    {
+      "n": "Omega3",
+      "c": "eat",
+      "ll": [
+        36.932,
+        24.73
+      ],
+      "d": "Best fish on the island."
+    },
+    {
+      "n": "Maiòlica",
+      "c": "eat",
+      "ll": [
+        36.9316,
+        24.728
+      ],
+      "d": "Design-led Mediterranean by the water."
+    },
+    {
+      "n": "To Steki",
+      "c": "eat",
+      "ll": [
+        36.9321,
+        24.7322
+      ],
+      "d": "The classic beachfront taverna."
+    },
+    {
+      "n": "Loggia Wine Bar",
+      "c": "eat",
+      "ll": [
+        36.9751,
+        24.7475
+      ],
+      "d": "Clifftop natural wine at sunset."
+    },
+    {
+      "n": "Pelicanos",
+      "c": "eat",
+      "ll": [
+        36.9438,
+        24.7517
+      ],
+      "d": "Tables in the sand at Faros."
+    },
+    {
+      "n": "Bostani at Verina Astra",
+      "c": "eat",
+      "ll": [
+        36.984,
+        24.7345
+      ],
+      "d": "The dress-up dinner, in a cliff-top kitchen garden."
+    },
+    {
+      "n": "Tsikali",
+      "c": "eat",
+      "ll": [
+        36.9329,
+        24.6878
+      ],
+      "d": "Family taverna in the sand at Vathi."
+    },
+    {
+      "n": "Drakakis",
+      "c": "eat",
+      "ll": [
+        36.9741,
+        24.7228
+      ],
+      "d": "The 1950 kafeneio on Apollonia's main lane."
+    }
   ]
 }
