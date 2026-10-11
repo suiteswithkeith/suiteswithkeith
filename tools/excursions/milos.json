@@ -1,0 +1,413 @@
+{
+  "slug": "milos",
+  "island": "Milos",
+  "title": "Milos Excursions | Boats, Beaches & Villages | Suites With Keith",
+  "description": "What I would actually book on Milos: the Kleftiko boat day, the private cooking and hiking days, and the beaches matched to the wind, on one map.",
+  "hero": "/images/islands/milos-hero.jpg",
+  "divider": "/images/islands/milos-days.jpg",
+  "guide": "/milos.html",
+  "sub": "The swimming island. Here is everything I would actually book, from the boat to Kleftiko to the beach that suits that day's wind.",
+  "form_placeholder": "Milos in September",
+  "rules": [
+    {
+      "h": "Four nights, at least",
+      "p": "Milos has more coastline than almost any island its size and the best of it takes a boat day to reach. Four nights covers the boat, the beaches and the villages; five lets you add Kimolos or Polyaigos."
+    },
+    {
+      "h": "Let the wind pick the beach",
+      "p": "When the north wind blows, which is most of July and August, swim on the south coast at Firiplaka, Tsigrado and Paleochori. On a south wind or a still day, go north to Sarakiniko and Papafragas. I check the forecast for you each morning."
+    },
+    {
+      "h": "Book the boat first",
+      "p": "Kleftiko is only reachable by sea and the good private boats go weeks ahead in summer. Tell me that first and plan the rest around the calmest day."
+    }
+  ],
+  "map_intro": "Milos is shaped like a horseshoe around a huge sheltered bay. Ferries and flights land around Adamas in the middle; Plaka and the fishing villages sit on the hills to the north; Pollonia is out on the northeast tip; and the wild western half is mostly roadless and best seen from a boat. Tap any pin for what it is.",
+  "map": {
+    "center": [
+      36.715,
+      24.44
+    ],
+    "zoom": 11
+  },
+  "logistics": [
+    {
+      "h": "Arriving by air",
+      "p": "About forty minutes from Athens into a tiny airport ten minutes from Adamas. Seats sell out before the ferries do in summer, so this is the first thing I lock in."
+    },
+    {
+      "h": "Arriving by ferry",
+      "p": "Everything docks at Adamas. Roughly three hours on the fast boat from Piraeus, or under an hour from Sifnos."
+    },
+    {
+      "h": "A car, for the whole stay",
+      "p": "The beaches are spread around the bay and several sit at the end of dirt tracks. A small car or a driver for the stay is how Milos works."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Bookable · One",
+      "h": "On the water",
+      "intro": "The best of Milos faces away from the road. Sea caves, white cliffs and coves you cannot drive to, on the island's wild southwest and over on uninhabited Polyaigos.",
+      "cards": [
+        {
+          "chip": "Full day · Book ahead",
+          "h": "Kleftiko by private boat",
+          "p": "Out of Adamas around the southwest coast to Kleftiko, the old pirate hideout of white rock arches and sea caves you swim straight through. Stops at Sykia cave and Gerakas on the way, lunch on board, and back as the light turns gold.",
+          "verdict": "The one I would protect on Milos. Go private if you can, and early, before the day boats arrive."
+        },
+        {
+          "chip": "Full day · Book ahead",
+          "h": "Polyaigos and Kimolos",
+          "p": "The other direction: northeast to Polyaigos, an uninhabited island with the most turquoise water in the Cyclades, then lunch in a taverna on Kimolos before the run home."
+        },
+        {
+          "chip": "Evening",
+          "h": "A sunset sail",
+          "p": "The shorter version for a night you want to keep simple. Drinks on deck, a swim, and the sun going down behind the western cliffs."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Bookable · Two",
+      "h": "Private experiences",
+      "intro": "The days I arrange myself, privately for the two of you or your group, for the hours you are off the boat.",
+      "cards": [
+        {
+          "chip": "Half day · Private",
+          "h": "Cooking class",
+          "p": "A morning in a Milian kitchen making the island's own dishes, pitarakia cheese pies and ladenia flatbread among them, then lunch at the table with local wine."
+        },
+        {
+          "chip": "Half day · Private",
+          "h": "A farm morning",
+          "p": "Out to a family farm inland for the cheese, honey and produce the island cooks with, then a long, slow table with what they make."
+        },
+        {
+          "chip": "Half day · Private",
+          "h": "A guided hike to the sulfur mines",
+          "p": "Down the east coast to Thiorichia, an abandoned sulfur mine on a cove where the cliffs run yellow and rust, then a swim. Other routes on request, from the Plaka trails to the coast below Firopotamos."
+        },
+        {
+          "chip": "Late afternoon",
+          "h": "Plaka, Klima and the catacombs",
+          "p": "The early Christian catacombs at Tripiti, the spot where the Venus de Milo was found, the fishing village of Klima with its painted boathouses, then up to the Kastro above Plaka for sunset."
+        }
+      ]
+    },
+    {
+      "eyebrow": "The Beaches",
+      "h": "Where to swim",
+      "intro": "Milos has more than seventy beaches and no two look alike. These are the ones worth the drive, sorted by which wind suits them.",
+      "cards": [
+        {
+          "chip": "North · Go at sunrise",
+          "h": "Sarakiniko",
+          "p": "The white, wave-carved rock that looks like the moon. Go first thing or late afternoon, swim off the rocks, and skip it entirely in a strong north wind."
+        },
+        {
+          "chip": "North · Swim in a fjord",
+          "h": "Papafragas",
+          "p": "A narrow sea channel between cliffs, with a tiny beach at the bottom. More for the swim and the scramble than for a full day."
+        },
+        {
+          "chip": "South · Colored cliffs",
+          "h": "Firiplaka",
+          "p": "A long sandy beach under red, white and ochre cliffs, with an easy beach bar. My pick for a full day when the north wind is up."
+        },
+        {
+          "chip": "South · Small and hidden",
+          "h": "Tsigrado",
+          "p": "A tiny cove reached by a rope and a ladder down a cleft in the rock. Go early, before the boats arrive."
+        },
+        {
+          "chip": "South · Volcanic",
+          "h": "Paleochori",
+          "p": "Hot springs bubble up in the sand at the water's edge. A long beach with good lunch spots, sheltered on a north wind."
+        },
+        {
+          "chip": "In the bay · Calm",
+          "h": "Achivadolimni and Plathiena",
+          "p": "Achivadolimni is the long, calm beach inside the bay; Plathiena is a sheltered sandy cove below Plaka. Both work on most days."
+        }
+      ]
+    }
+  ],
+  "eat_intro": "Milos eats simply and very well: fish straight off the boats, goat and cheese from the inland farms, and tables right at the water's edge.",
+  "eat": [
+    {
+      "group": "The two I book first",
+      "items": [
+        {
+          "chip": "Paleochori · Best lunch",
+          "h": "O! Hamos",
+          "p": "A farm taverna in the fields above Paleochori, where almost everything comes from the family's own land. Slow-cooked goat, their own cheeses, and a garden full of tables. Go hungry and don't plan much for the afternoon."
+        },
+        {
+          "chip": "Mandrakia · Best setting",
+          "h": "Medusa",
+          "p": "A small seafood taverna on the rocks above the boathouses at Mandrakia, with the fish of the day grilled simply and the sea right below you. The lunch I would build a north-coast day around."
+        }
+      ]
+    },
+    {
+      "group": "On the water",
+      "items": [
+        {
+          "chip": "Paleochori · Only on Milos",
+          "h": "Sirocco",
+          "p": "Right on Paleochori beach, cooking dishes buried in the hot volcanic sand. A good lunch after a swim, and a story to take home."
+        },
+        {
+          "chip": "Pollonia · Seafood",
+          "h": "Enalion",
+          "p": "On the little harbor at Pollonia, with excellent seafood and tables close to the water. A relaxed dinner after the Polyaigos boat day."
+        },
+        {
+          "chip": "Pollonia · Easy dinner",
+          "h": "Gialos",
+          "p": "Another Pollonia waterfront favorite, simple and reliable, with a long menu of fish and Greek classics."
+        },
+        {
+          "chip": "Klima · Sunset",
+          "h": "Astakas",
+          "p": "Tables beside the painted boathouses at Klima, facing west. Order the lobster pasta, and time it for sunset."
+        }
+      ]
+    },
+    {
+      "group": "In the villages",
+      "items": [
+        {
+          "chip": "Plaka · Classic taverna",
+          "h": "Archontoula",
+          "p": "A traditional taverna in the lanes of Plaka for home-style Milian cooking. Dinner here after sunset at the Kastro is the easy, perfect evening."
+        },
+        {
+          "chip": "Adamas · Cozy",
+          "h": "Barriello",
+          "p": "A warm little spot in an old stone warehouse by the port in Adamas. Good for the first night, or the night before an early boat."
+        }
+      ]
+    }
+  ],
+  "eat_outro": "O! Hamos and Medusa fill up first in summer, as do the sunset tables at Astakas. Send me the ones you want and I will hold them.",
+  "pins": [
+    {
+      "n": "Adamas",
+      "c": "town",
+      "ll": [
+        36.7268,
+        24.4461
+      ],
+      "d": "The port, and where the boat days start."
+    },
+    {
+      "n": "Plaka",
+      "c": "town",
+      "ll": [
+        36.7432,
+        24.4238
+      ],
+      "d": "The hilltop capital, with the Kastro above it for sunset."
+    },
+    {
+      "n": "Klima",
+      "c": "town",
+      "ll": [
+        36.7363,
+        24.4176
+      ],
+      "d": "Painted fishing boathouses at the water's edge."
+    },
+    {
+      "n": "Pollonia",
+      "c": "town",
+      "ll": [
+        36.763,
+        24.5262
+      ],
+      "d": "Fishing village on the northeast tip, boats to Kimolos."
+    },
+    {
+      "n": "Mandrakia",
+      "c": "town",
+      "ll": [
+        36.7532,
+        24.4497
+      ],
+      "d": "Tiny boathouse cove on the north coast."
+    },
+    {
+      "n": "Kleftiko",
+      "c": "do",
+      "ll": [
+        36.6518,
+        24.3437
+      ],
+      "d": "Sea caves and arches, by boat only."
+    },
+    {
+      "n": "Catacombs of Tripiti",
+      "c": "do",
+      "ll": [
+        36.7372,
+        24.4237
+      ],
+      "d": "Early Christian catacombs, and where the Venus de Milo was found."
+    },
+    {
+      "n": "Thiorichia sulfur mines",
+      "c": "do",
+      "ll": [
+        36.719,
+        24.541
+      ],
+      "d": "Abandoned mine on a cove, the guided hike."
+    },
+    {
+      "n": "Polyaigos",
+      "c": "do",
+      "ll": [
+        36.77,
+        24.63
+      ],
+      "d": "Uninhabited island, the most turquoise water around."
+    },
+    {
+      "n": "Sarakiniko",
+      "c": "beach",
+      "ll": [
+        36.7598,
+        24.446
+      ],
+      "d": "White lunar rock. North coast."
+    },
+    {
+      "n": "Papafragas",
+      "c": "beach",
+      "ll": [
+        36.7609,
+        24.4951
+      ],
+      "d": "Swim through a narrow sea channel. North coast."
+    },
+    {
+      "n": "Firiplaka",
+      "c": "beach",
+      "ll": [
+        36.6711,
+        24.4665
+      ],
+      "d": "Colored cliffs and sand. South coast."
+    },
+    {
+      "n": "Tsigrado",
+      "c": "beach",
+      "ll": [
+        36.6726,
+        24.4596
+      ],
+      "d": "Rope and ladder down to a tiny cove. South coast."
+    },
+    {
+      "n": "Paleochori",
+      "c": "beach",
+      "ll": [
+        36.6747,
+        24.5084
+      ],
+      "d": "Hot springs in the sand. South coast."
+    },
+    {
+      "n": "Achivadolimni",
+      "c": "beach",
+      "ll": [
+        36.705,
+        24.474
+      ],
+      "d": "The long, calm beach inside the bay."
+    },
+    {
+      "n": "Plathiena",
+      "c": "beach",
+      "ll": [
+        36.7556,
+        24.4103
+      ],
+      "d": "Sheltered sandy cove below Plaka."
+    },
+    {
+      "n": "O! Hamos",
+      "c": "eat",
+      "ll": [
+        36.68,
+        24.504
+      ],
+      "d": "Farm taverna above Paleochori."
+    },
+    {
+      "n": "Medusa",
+      "c": "eat",
+      "ll": [
+        36.7536,
+        24.4498
+      ],
+      "d": "Seafood on the rocks at Mandrakia."
+    },
+    {
+      "n": "Sirocco",
+      "c": "eat",
+      "ll": [
+        36.6746,
+        24.51
+      ],
+      "d": "Food cooked in the volcanic sand."
+    },
+    {
+      "n": "Enalion",
+      "c": "eat",
+      "ll": [
+        36.7627,
+        24.5272
+      ],
+      "d": "Seafood on Pollonia's harbor."
+    },
+    {
+      "n": "Gialos",
+      "c": "eat",
+      "ll": [
+        36.7634,
+        24.5257
+      ],
+      "d": "Pollonia waterfront taverna."
+    },
+    {
+      "n": "Astakas",
+      "c": "eat",
+      "ll": [
+        36.7358,
+        24.4183
+      ],
+      "d": "Sunset tables at Klima."
+    },
+    {
+      "n": "Archontoula",
+      "c": "eat",
+      "ll": [
+        36.7428,
+        24.4245
+      ],
+      "d": "Classic taverna in Plaka."
+    },
+    {
+      "n": "Barriello",
+      "c": "eat",
+      "ll": [
+        36.7262,
+        24.4503
+      ],
+      "d": "Stone warehouse by the port in Adamas."
+    }
+  ]
+}
