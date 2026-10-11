@@ -1013,9 +1013,9 @@
           "items": [
             {
               "time": "9:15 AM",
-              "title": "Check out of the Eden, bags sent by car to La Minerva",
+              "title": "Leave the Eden, bags packed and left with the desk",
               "status": "todo",
-              "detail": "Ask the Eden bell desk tonight. 10 minutes, they hold the bags at La Minerva."
+              "detail": "Check out, bags stay at the Eden for now."
             },
             {
               "time": "10:00 AM",
@@ -1033,13 +1033,13 @@
               "time": "2:30 PM",
               "title": "Hassler Roma, site visit",
               "status": "confirmed",
-              "detail": "Francesca Martinelli confirmed 2:30. Piazza Trinità dei Monti 6, 10 minutes on foot from de Russie and from Six Senses."
+              "detail": "Francesca Martinelli confirmed 2:30. Piazza Trinità dei Monti 6. On arrival, call the Eden bell desk and have the bags sent to La Minerva by car, 20 to 30 euros on the room."
             },
             {
               "time": "3:30 PM",
               "title": "Check in at La Minerva after Hassler, see the room in daylight",
               "status": "todo",
-              "detail": "10 minute walk down from the Hassler. Ask for early check in so the room is ready. Then 8 minutes to Six Senses for 4:15."
+              "detail": "10 minute walk down from the Hassler. Bags arrive from the Eden by car. Then 8 minutes to Six Senses for 4:15."
             },
             {
               "time": "4:15 PM",
