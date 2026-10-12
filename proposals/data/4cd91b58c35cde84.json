@@ -1067,7 +1067,7 @@
       "days": [
         {
           "date": "2026-10-13",
-          "label": "October 13: Rome to Positano by train and car, Treville",
+          "label": "October 13: Rome to Positano by train and car, Le Sirenuse",
           "stay": {
             "name": "Le Sirenuse, Positano",
             "status": "paid",
@@ -1095,16 +1095,16 @@
               "detail": "Hotel boat to the beach club later for the arrival by sea footage, if it is still running. Ask Ilaria."
             },
             {
-              "time": "4:00 PM",
-              "title": "Villa Treville, site visit",
-              "status": "pending",
-              "detail": "Daniela Barba. Asked for Tuesday 4:00, Wednesday 12:30 as backup, draft ready. Far end of Positano, 5 minutes from Sirenuse."
+              "time": "Evening",
+              "title": "La Sponda at Le Sirenuse, candlelit dinner",
+              "status": "suggested",
+              "detail": "Your one night here. Book it at check in, ask for 7:00."
             }
           ]
         },
         {
           "date": "2026-10-14",
-          "label": "October 14: Il San Pietro by road, then Amalfi",
+          "label": "October 14: Il San Pietro, Treville, Amalfi, Miramalfi",
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
@@ -1113,9 +1113,9 @@
           "items": [
             {
               "time": "10:40 AM",
-              "title": "Car from Le Sirenuse to Il San Pietro, 10 minutes",
+              "title": "Check out of Sirenuse, car with the bags to Il San Pietro",
               "status": "todo",
-              "detail": "Agostino asked for arrival by road. Bags with you or left at Sirenuse for the boat later."
+              "detail": "Ask Sirenuse for a car for the day, Il San Pietro, then Treville, then Amalfi."
             },
             {
               "time": "11:00 AM",
@@ -1124,8 +1124,14 @@
               "detail": "Agostino Piccolo, 11:00. Tour only, he is booked after and over lunch. Come by road, not by boat. No court."
             },
             {
-              "time": "Afternoon",
-              "title": "Boat to Amalfi, check in",
+              "time": "12:30 PM",
+              "title": "Villa Treville, tour and lunch",
+              "status": "pending",
+              "detail": "Daniela Barba, Cristina copied. Asked for Wednesday 12:30 with lunch, draft ready. East end of Positano, on the road to Amalfi."
+            },
+            {
+              "time": "2:30 PM",
+              "title": "On to Amalfi, check in at Santa Caterina",
               "status": "info"
             },
             {
@@ -1196,7 +1202,7 @@
     {
       "title": "Send",
       "items": [
-        "Villa Treville: Daniela, Tuesday 4:00 (draft ready)",
+        "Villa Treville: Daniela, Wednesday 12:30 and lunch (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
@@ -1220,7 +1226,7 @@
     {
       "title": "Waiting on",
       "items": [
-        "Villa Treville, Daniela: Tuesday 4:00, once sent",
+        "Villa Treville, Daniela: Wednesday 12:30 and lunch, once sent",
         "Eden, Elena: Sunday 10:30 inspection and who to ask for",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
         "Sporthotel Floralpina: no reply"
