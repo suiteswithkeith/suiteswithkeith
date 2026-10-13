@@ -1067,7 +1067,7 @@
       "days": [
         {
           "date": "2026-10-13",
-          "label": "October 13: Rome to Positano by train and boat, via Salerno",
+          "label": "October 13: Rome to Positano by train and car, Le Sirenuse",
           "stay": {
             "name": "Le Sirenuse, Positano",
             "status": "paid",
@@ -1075,29 +1075,36 @@
           },
           "items": [
             {
-              "time": "Morning",
-              "title": "Frecciarossa Rome to Salerno, about 2 hours",
-              "status": "todo",
-              "detail": "Port is a 5 minute walk from Salerno station. Around 10:00 if the boat is 12:30.",
-              "todo": "Book once Lucia confirms the Salerno pickup."
+              "time": "10:30 AM",
+              "title": "Italo 8111 Roma Termini to Napoli Centrale, arrives 11:48",
+              "status": "confirmed",
+              "detail": "Club Executive, Flex fare, wagon 1 seat 14. Ticket code AFD1UW, booked through Omio, 69.90 euros. Show the code below at the gate.",
+              "image": "images/italy/italo-8111-qr.png",
+              "image_alt": "Italo ticket AFD1UW"
             },
             {
-              "time": "Afternoon",
-              "title": "Boat Salerno to Le Sirenuse, the whole coast",
-              "status": "pending",
-              "detail": "Sirenuse concierge, Ilaria De Filippis: hotel boat is beach club only, but they will book a private boat from Salerno through their operator. Yes sent back, asked for rates and a classic boat (draft ready). Lucia at Luxury Boats still silent since Sept 30, nudged this morning. Whichever quotes first.",
-              "todo": "Pick the boat once Sirenuse or Lucia quotes, then book the Rome to Salerno train."
+              "time": "11:48 AM",
+              "title": "Car from Napoli Centrale to Le Sirenuse",
+              "status": "confirmed",
+              "detail": "Andrea Benedetti confirmed. Meeting point platform 24, next to the Chalet Ciro bar. About 1 hour 30 to Positano."
             },
             {
-              "time": "1:30 PM",
-              "title": "Arrive Le Sirenuse by sea",
-              "status": "info"
+              "time": "1:00 PM",
+              "title": "Arrive Le Sirenuse, check in",
+              "status": "info",
+              "detail": "Hotel boat to the beach club later for the arrival by sea footage, if it is still running. Ask Ilaria."
+            },
+            {
+              "time": "Evening",
+              "title": "La Sponda at Le Sirenuse, candlelit dinner",
+              "status": "suggested",
+              "detail": "Your one night here. Book it at check in, ask for 7:00."
             }
           ]
         },
         {
           "date": "2026-10-14",
-          "label": "October 14: Il San Pietro by road, then Amalfi",
+          "label": "October 14: Il San Pietro, Treville, Amalfi, Miramalfi",
           "stay": {
             "name": "Hotel Santa Caterina, Amalfi",
             "status": "confirmed",
@@ -1106,9 +1113,9 @@
           "items": [
             {
               "time": "10:40 AM",
-              "title": "Car from Le Sirenuse to Il San Pietro, 10 minutes",
+              "title": "Check out of Sirenuse, car with the bags to Il San Pietro",
               "status": "todo",
-              "detail": "Agostino asked for arrival by road. Bags with you or left at Sirenuse for the boat later."
+              "detail": "Ask Sirenuse for a car for the day, Il San Pietro, then Treville, then Amalfi."
             },
             {
               "time": "11:00 AM",
@@ -1117,14 +1124,14 @@
               "detail": "Agostino Piccolo, 11:00. Tour only, he is booked after and over lunch. Come by road, not by boat. No court."
             },
             {
-              "time": "TBC",
-              "title": "Villa Treville, site visit",
-              "status": "suggested",
-              "detail": "Daniela Barba offered the 13th hosted, you passed. A visit on the 14th was never pinned down. Decide."
+              "time": "12:30 PM",
+              "title": "Villa Treville, tour and lunch",
+              "status": "pending",
+              "detail": "Daniela Barba, Cristina copied. Asked for Wednesday 12:30 with lunch, draft ready. East end of Positano, on the road to Amalfi."
             },
             {
-              "time": "Afternoon",
-              "title": "Boat to Amalfi, check in",
+              "time": "2:30 PM",
+              "title": "On to Amalfi, check in at Santa Caterina",
               "status": "info"
             },
             {
@@ -1195,11 +1202,7 @@
     {
       "title": "Send",
       "items": [
-        "Bulgari Roma: Almudena and Fabio, 5:30 tonight (draft ready)",
-        "Vilòn: 5:30 tonight (draft ready)",
-        "Casa Monti: Lidia, 12:30 instead of 12:00 tomorrow (draft ready)",
-        "Miramalfi: Alessandro, yes to the 14th at 5:00 (draft ready)",
-        "De Russie: Elena, any chance of Sunday afternoon instead of Monday (draft ready)",
+        "Villa Treville: Daniela, Wednesday 12:30 and lunch (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
         "My Mountains, Andrea Caspani: answer on the Lucerne and Wengen clients"
@@ -1208,12 +1211,11 @@
     {
       "title": "Decide and fix",
       "items": [
-        "Sunday: what time does Andrea from 100 all'Ora pick you up, and does it clear the Eden inspection at 10:30",
-        "Amalfi decisions: boat supplier and time for the 13th, then the Rome to Naples train; Alici dinner night; Treville yes or no; Miramalfi and Caruso yes or no; Santa Caterina inspection day; flight time on the 16th for the airport car",
+        "Ask Sirenuse whether the beach club boat is running, for the arrival by sea footage",
+        "Flight time on the 16th for the airport car",
         "Palazzina concierge on arrival: Saturday boats at 10:10 and 11:40",
         "Arno emergency line, standard calls only: +39 344 3443549",
         "Avis: return at Verona Porta Nuova today, don't accept the 400 in the app, dispute through President's Club if billed",
-        "Rome to Naples train for the 13th, once the boat pickup is set",
         "Tennis kit",
         "Puflatsch at dawn on the 8th if dry, then leave Alpina by 9:30"
       ]
@@ -1223,13 +1225,10 @@
     {
       "title": "Waiting on",
       "items": [
-        "Sirenuse concierge, Ilaria: boat rates from Salerno, once sent",
-        "Luxury Boats Positano, Lucia: price on Elisa or Don Paulo, nudged Oct 10",
+        "Villa Treville, Daniela: Wednesday 12:30 and lunch, once sent",
         "Eden, Elena: Sunday 10:30 inspection and who to ask for",
         "Airelles, Audrey: boat from the Danieli pier at 6:00, asked last night",
-        "Villa Treville, Daniela Barba: visit time on the 14th, never pinned down",
-        "Sporthotel Floralpina: no reply",
-        "De Russie, Elena Carnevale: Sunday afternoon instead of Monday, once sent"
+        "Sporthotel Floralpina: no reply"
       ]
     },
     {
