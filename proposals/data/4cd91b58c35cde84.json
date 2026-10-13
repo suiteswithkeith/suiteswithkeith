@@ -1244,29 +1244,59 @@
   ],
   "out_of_pocket": [
     {
-      "name": "Collegio alla Querce",
+      "name": "Collegio alla Querce, Sept 25",
       "amount": 495,
-      "note": "450 euros plus VAT"
+      "note": "450 euros plus VAT, one night"
     },
     {
-      "name": "The Lake Como EDITION",
+      "name": "The Lake Como EDITION, Oct 3",
       "amount": 400,
-      "note": "plus breakfast, free cancellation until September 26"
+      "note": "one night plus breakfast"
     },
     {
-      "name": "Orient Express La Minerva",
-      "amount": 670,
-      "note": "goes to zero once Egle moves the comp to the 12th"
-    },
-    {
-      "name": "Le Sirenuse",
-      "amount": 650,
-      "note": "one night, the 13th, 650 charged on Amex September 22"
-    },
-    {
-      "name": "Boat to Le Sirenuse on the 13th",
+      "name": "Orient Express La Minerva, Oct 12",
       "amount": 0,
-      "note": "Sunrise quoted 600 on a small gozzo, re-quoting for a better boat. Expect 500 to 800 for an Aprea 32 to 35 or a Riva"
+      "note": "comped, the 670 card request was the old booking"
+    },
+    {
+      "name": "Hotel Eden, Oct 10",
+      "amount": 365,
+      "note": "advisor rate for the added night, the 11th is hosted"
+    },
+    {
+      "name": "Le Sirenuse, Oct 13",
+      "amount": 650,
+      "note": "industry rate, charged on Amex Sept 22"
+    },
+    {
+      "name": "Arno Travel, Verona to Venice to Rome, Oct 9 and 10",
+      "amount": 885,
+      "note": "car, Italo, two Venice boats, Frecciarossa, car to the Eden. Booking 6816, paid Oct 8"
+    },
+    {
+      "name": "Italo Rome to Naples, Oct 13",
+      "amount": 70,
+      "note": "69.90 via Omio, code AFD1UW, moved to the 10:40"
+    },
+    {
+      "name": "Car Naples to Positano, Oct 13",
+      "amount": 0,
+      "note": "Andrea Benedetti, add the amount"
+    },
+    {
+      "name": "Blue Star Positano sunset boat, Oct 13",
+      "amount": 350,
+      "note": "private, 1.5 hours, filmed for the collection"
+    },
+    {
+      "name": "Avis rental, Florence to Verona, Sept 26 to Oct 8",
+      "amount": 0,
+      "note": "add the final amount, dispute the 400 one way fee through President's Club if billed"
+    },
+    {
+      "name": "Water taxis and trains not booked through Arno",
+      "amount": 0,
+      "note": "add as they come in"
     }
   ]
 }
