@@ -1075,24 +1075,24 @@
           },
           "items": [
             {
-              "time": "10:30 AM",
-              "title": "Italo 8111 Roma Termini to Napoli Centrale, arrives 11:48",
+              "time": "10:40 AM",
+              "title": "Italo Roma Termini to Napoli Centrale, arrives 11:58",
               "status": "confirmed",
-              "detail": "Club Executive, Flex fare, wagon 1 seat 14. Ticket code AFD1UW, booked through Omio, 69.90 euros. Show the code below at the gate.",
+              "detail": "Missed the 10:30, moved to the 10:40 on the Flex fare. Original code AFD1UW, Club Executive.",
               "image": "images/italy/italo-8111-qr.png",
               "image_alt": "Italo ticket AFD1UW"
             },
             {
-              "time": "11:48 AM",
+              "time": "11:58 AM",
               "title": "Car from Napoli Centrale to Le Sirenuse",
               "status": "confirmed",
-              "detail": "Andrea Benedetti confirmed. Meeting point platform 24, next to the Chalet Ciro bar. About 1 hour 30 to Positano."
+              "detail": "Andrea Benedetti confirmed. Meeting point platform 24, next to the Chalet Ciro bar. Told him the new arrival."
             },
             {
-              "time": "1:00 PM",
+              "time": "1:30 PM",
               "title": "Arrive Le Sirenuse, check in",
               "status": "info",
-              "detail": "Hotel boat to the beach club later for the arrival by sea footage, if it is still running. Ask Ilaria."
+              "detail": "Concierge told, draft ready. Asked whether the beach club boat is running."
             },
             {
               "time": "Evening",
