@@ -57,6 +57,8 @@ def render_item(it):
         w.append('<span class="jc-line">%s</span>' % e(it['detail']))
     if it.get('todo'):
         w.append('<span class="jc-todo"><b>To do</b> %s</span>' % e(it['todo']))
+    if it.get('image'):
+        w.append('<a href="%s" target="_blank"><img src="%s" alt="%s" style="display:block;margin:.5rem 0 0;width:150px;max-width:100%%;border-radius:6px;"></a>' % (e(it['image']), e(it['image']), e(it.get('image_alt', ''))))
     cls = 'jc-item' + (' is-open' if status == 'open' else '')
     return '          <div class="%s"><span class="time">%s</span><span class="what">%s</span></div>' % (cls, e(it['time']), ''.join(w))
 

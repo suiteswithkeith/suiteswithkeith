@@ -1075,18 +1075,18 @@
           },
           "items": [
             {
-              "time": "10:00 AM",
-              "title": "Frecciarossa Rome to Naples, about 1 hour 10",
-              "status": "todo",
-              "detail": "Buy in the Trenitalia or Italo app, Business or Premium, around 10:00.",
-              "todo": "Book the train."
+              "time": "10:30 AM",
+              "title": "Italo 8111 Roma Termini to Napoli Centrale, arrives 11:48",
+              "status": "confirmed",
+              "detail": "Club Executive, Flex fare, wagon 1 seat 14. Ticket code AFD1UW, booked through Omio, 69.90 euros. Show the code below at the gate.",
+              "image": "images/italy/italo-8111-qr.png",
+              "image_alt": "Italo ticket AFD1UW"
             },
             {
-              "time": "11:15 AM",
-              "title": "Car from Napoli Centrale to Le Sirenuse, 1 hour 30",
-              "status": "todo",
-              "detail": "Ask Sirenuse to send a driver to the platform, on the room. Or Arno.",
-              "todo": "Ask Sirenuse for the car."
+              "time": "11:48 AM",
+              "title": "Car from Napoli Centrale to Le Sirenuse",
+              "status": "confirmed",
+              "detail": "Andrea Benedetti confirmed. Meeting point platform 24, next to the Chalet Ciro bar. About 1 hour 30 to Positano."
             },
             {
               "time": "1:00 PM",
@@ -1211,8 +1211,7 @@
     {
       "title": "Decide and fix",
       "items": [
-        "Book the Rome to Naples train for the 13th, around 10:00",
-        "Ask Sirenuse for the car from Napoli Centrale and whether the beach club boat is running",
+        "Ask Sirenuse whether the beach club boat is running, for the arrival by sea footage",
         "Flight time on the 16th for the airport car",
         "Palazzina concierge on arrival: Saturday boats at 10:10 and 11:40",
         "Arno emergency line, standard calls only: +39 344 3443549",
