@@ -63,6 +63,7 @@ body{padding-bottom:0}
 /* riva */
 .lc-riva-ph{position:relative;height:min(78vh,720px);overflow:hidden}
 .lc-riva-ph .lc-media{object-position:50% 62%}
+.lc-riva-body{padding-top:56px;padding-bottom:72px}
 .lc-boat{display:grid;grid-template-columns:1fr;gap:28px}
 .lc-row{display:flex;gap:16px;align-items:baseline;padding:18px 0;border-top:1px solid var(--band-hairline)}
 .lc-row:last-of-type{border-bottom:1px solid var(--band-hairline)}
@@ -121,6 +122,12 @@ textarea.lc-field{padding:14px 16px;min-height:96px;resize:vertical}
   .lc-section{padding:96px 0}
   .lc-boat{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:end}
   .lc-dests{grid-template-columns:repeat(3,minmax(0,1fr))}
+  /* the Riva clip is portrait 720px: on wide screens show it as a portrait column at near-native size, not a stretched band */
+  .lc-riva{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:64px;align-items:start;padding:96px max(40px,calc((100% - var(--container))/2 + 40px))}
+  .lc-riva-ph{height:auto;aspect-ratio:9/16;max-height:84vh;position:sticky;top:48px}
+  .lc-riva-ph .lc-media{object-position:50% 50%}
+  .lc-riva-body{padding:0;max-width:none;margin:0}
+  .lc-riva .lc-boat{grid-template-columns:1fr}
 }
 </style></head>
 <body>
@@ -168,11 +175,11 @@ textarea.lc-field{padding:14px 16px;min-height:96px;resize:vertical}
   </div>
 </section>
 
-<section class="lc-dark" aria-labelledby="riva-h">
+<section class="lc-dark lc-riva" aria-labelledby="riva-h">
   <div class="lc-riva-ph">
     <video class="lc-media" muted loop playsinline preload="none" poster="/video/riva-lake-como-poster.jpg" data-src="/video/riva-lake-como.mp4" aria-label="The wake behind a classic wooden boat on Lake Como at sunset"></video>
   </div>
-  <div class="lc-wrap" style="padding-top:56px;padding-bottom:72px">
+  <div class="lc-wrap lc-riva-body">
     <div class="lc-boat reveal">
       <div style="display:flex;flex-direction:column;gap:14px">
         <div class="lc-stamp lc-acc">02 &middot; The day everyone asks about</div>
