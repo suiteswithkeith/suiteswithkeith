@@ -1152,27 +1152,28 @@
           },
           "items": [
             {
-              "time": "Day",
+              "time": "10:30 AM",
               "title": "Santa Caterina and Casa Marchesa, inspection",
-              "status": "confirmed"
+              "status": "pending",
+              "detail": "Valeria D'Amato. Asked for 10:30, draft ready."
             },
             {
               "time": "2:00 PM",
               "title": "Palazzo Avino, Ravello, site visit and lunch at Terrazza Maraviglia",
               "status": "confirmed",
-              "detail": "Emanuela Apicella confirmed 2:00 and lunch, Mariella and Attilia Avino copied. 30 minutes up from Amalfi, ask Santa Caterina for a car."
+              "detail": "Emanuela Apicella confirmed 2:00 and lunch, Mariella and Attilia Avino copied. Taxi up at 1:30, asked Santa Caterina to book it. Taxi back down after."
             },
             {
               "time": "5:30 PM",
               "title": "Borgo Santandrea, tour then dinner at Alici 7:00",
               "status": "confirmed",
-              "detail": "Antonella Gatto confirmed: tour on the 15th, then dinner at Alici at 7:00. Conca dei Marini, 10 minutes from Amalfi, ask Santa Caterina for a car."
+              "detail": "Antonella Gatto confirmed, tour then Alici at 7:00. Santa Caterina shuttle over at 5:00 and back at 9:00, asked."
             },
             {
               "time": "5:30 PM",
               "title": "Borgo Santandrea, tour then dinner at Alici 7:00",
               "status": "confirmed",
-              "detail": "Antonella Gatto confirmed: tour on the 15th, then dinner at Alici at 7:00. Conca dei Marini, 10 minutes from Amalfi, ask Santa Caterina for a car."
+              "detail": "Antonella Gatto confirmed, tour then Alici at 7:00. Santa Caterina shuttle over at 5:00 and back at 9:00, asked."
             }
           ]
         },
@@ -1202,6 +1203,7 @@
     {
       "title": "Send",
       "items": [
+        "Santa Caterina: Valeria, 10:30 inspection, taxi to Ravello, shuttle to Santandrea (draft ready)",
         "Villa Treville: Daniela, Wednesday 12:30 and lunch (draft ready)",
         "Eden: Elena, inspection Sunday 10:30 (draft ready)",
         "Sunrise Sorrento: Teresa, one line passing on the 600",
