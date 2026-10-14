@@ -224,12 +224,12 @@ textarea.lc-field{padding:14px 16px;min-height:96px;resize:vertical}
       <h2 class="lc-disp lc-h2">Where <em>next</em></h2>
       <p class="lc-lead lc-muted">Como pairs well with three places. I'll handle the transfer: a private driver, a supercar, or a helicopter.</p>
     </div>
-    <div id="routeMap" class="lc-map" role="img" aria-label="Map of routes from Lake Como to Cortina in the Dolomites, Venice and Florence"></div>
+    <div id="routeMap" class="lc-map" role="img" aria-label="Map of routes from Lake Como to the Dolomites, Venice and Florence"></div>
     <div class="lc-dests">
       <div class="lc-dest on" data-dest="dolo" role="button" tabindex="0" aria-pressed="true" data-gtag-label="route_dolomites" data-gtag-location="como_routes">
         <span class="lc-stamp lc-acc">By supercar or helicopter</span>
         <h3>The <em>Dolomites</em></h3>
-        <span class="lc-muted">The drive through the mountains is the best part. About 4&frac12; hours to Cortina. <a href="/dolomites.html" data-gtag-label="guide_dolomites" data-gtag-location="como_routes">My Dolomites guide</a></span>
+        <span class="lc-muted">The drive through the mountains is the best part. About 4&frac12; hours into the Dolomites. <a href="/dolomites.html" data-gtag-label="guide_dolomites" data-gtag-location="como_routes">My Dolomites guide</a></span>
       </div>
       <div class="lc-dest" data-dest="venice" role="button" tabindex="0" aria-pressed="false" data-gtag-label="route_venice" data-gtag-location="como_routes">
         <span class="lc-stamp lc-acc">By driver or train</span>
@@ -299,7 +299,7 @@ const rv=document.querySelector('.lc-riva-ph video');
 if(rv&&!rm){const vo=new IntersectionObserver(e=>{e.forEach(n=>{if(n.isIntersecting){if(!rv.src){rv.src=rv.dataset.src}rv.play().catch(()=>{})}else if(rv.src){rv.pause()}})},{rootMargin:'300px 0px'});vo.observe(rv)}
 
 /* route map: Leaflet loads only when the section nears the viewport */
-const COMO=[45.98,9.25],DEST={dolo:{n:'Cortina',ll:[46.5405,12.1357]},venice:{n:'Venice',ll:[45.4408,12.3155]},tuscany:{n:'Florence',ll:[43.7696,11.2558]}};
+const COMO=[45.98,9.25],DEST={dolo:{n:'Dolomites',ll:[46.5747,11.6713]},venice:{n:'Venice',ll:[45.4408,12.3155]},tuscany:{n:'Florence',ll:[43.7696,11.2558]}};
 let lines=null,cur='dolo';
 const cards=[...document.querySelectorAll('.lc-dest')];
 function pick(k){
