@@ -62,7 +62,7 @@ body{padding-bottom:0}
 
 /* riva */
 .lc-riva-ph{position:relative;height:min(78vh,720px);overflow:hidden}
-.lc-riva-ph .lc-media{object-position:50% 78%}
+.lc-riva-ph .lc-media{object-position:50% 62%}
 .lc-boat{display:grid;grid-template-columns:1fr;gap:28px}
 .lc-row{display:flex;gap:16px;align-items:baseline;padding:18px 0;border-top:1px solid var(--band-hairline)}
 .lc-row:last-of-type{border-bottom:1px solid var(--band-hairline)}
@@ -164,16 +164,13 @@ textarea.lc-field{padding:14px 16px;min-height:96px;resize:vertical}
       </div>
     </div>
 
-    <!-- PLACEHOLDER: Fora perks wording, Keith to supply -->
-    <p class="lc-perks reveal">Book any of these through me and you get my Fora perks: breakfast daily, a hotel credit, and an upgrade when one is available.</p>
+    <p class="lc-perks reveal">Book any of these through me and you get my Fora perks: breakfast daily, a hotel credit, and an upgrade when one is available. I know these hotels personally, and they always prioritize SWK clients as a result.</p>
   </div>
 </section>
 
 <section class="lc-dark" aria-labelledby="riva-h">
   <div class="lc-riva-ph">
-    <!-- To swap in the Riva video: replace the img with
-         <video class="lc-media" autoplay muted loop playsinline preload="none" poster="/video/riva-poster.jpg"><source src="/video/riva.mp4" type="video/mp4"></video> -->
-    <img class="lc-media" src="/images/lake-como-pairing/il-sereno-boat-arrival.jpg" alt="The bow of a classic wooden boat on Lake Como, pulling up to Il Sereno" loading="lazy" decoding="async">
+    <video class="lc-media" muted loop playsinline preload="none" poster="/video/riva-lake-como-poster.jpg" data-src="/video/riva-lake-como.mp4" aria-label="The wake behind a classic wooden boat on Lake Como at sunset"></video>
   </div>
   <div class="lc-wrap" style="padding-top:56px;padding-bottom:72px">
     <div class="lc-boat reveal">
@@ -289,6 +286,10 @@ const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const i=new IntersectionObserver(e=>{e.forEach(n=>{n.isIntersecting&&(n.target.classList.add("on"),i.unobserve(n.target))})},{threshold:.15});
 document.querySelectorAll(".reveal").forEach((e,n)=>{if(rm){e.classList.add("on");return}e.style.transitionDelay=Math.min(n%5,4)*90+"ms",i.observe(e)});
 const ev=(name,p)=>window.gtag&&gtag('event',name,Object.assign({page_path:location.pathname},p||{}));
+
+/* Riva video: load and play only when it nears the viewport; poster only for reduced motion */
+const rv=document.querySelector('.lc-riva-ph video');
+if(rv&&!rm){const vo=new IntersectionObserver(e=>{e.forEach(n=>{if(n.isIntersecting){if(!rv.src){rv.src=rv.dataset.src}rv.play().catch(()=>{})}else if(rv.src){rv.pause()}})},{rootMargin:'300px 0px'});vo.observe(rv)}
 
 /* route map: Leaflet loads only when the section nears the viewport */
 const COMO=[45.98,9.25],DEST={dolo:{n:'Cortina',ll:[46.5405,12.1357]},venice:{n:'Venice',ll:[45.4408,12.3155]},tuscany:{n:'Florence',ll:[43.7696,11.2558]}};
