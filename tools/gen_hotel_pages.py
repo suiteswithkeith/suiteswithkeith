@@ -141,7 +141,7 @@ $know_notes
   <div class="container">
     <div class="print-callout">
       <span class="eyebrow-mag">Book $short_name Through Me</span>
-      <h3>Same Rate, More Perks</h3>
+      <h3>Fora Perks, and Someone Who Knows the Hotel</h3>
       <p>$perks_html</p>
       <a href="#inquire" class="btn btn-olive" data-gtag-label="check_availability" data-gtag-location="hotel_perks">Check Availability</a>
     </div>
@@ -747,7 +747,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of Meadowood Napa Valley — the benchmark of wine country after years of repeat stays. Service, cottages, spa, and who it's for.",
         tagline="The benchmark of wine country &mdash; Aman-level service, private cottages, and the property I measure every other Napa stay against.",
         style_label="Estate resort", perfect_for="Honeymoons, celebrations, wine lovers, returning visitors",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Meadowood is a Fora / Virtuoso preferred partner, and booking through me often includes an additional $500 property credit on top of standard amenities like breakfast and upgrade priority.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows Meadowood personally. Meadowood is a Fora / Virtuoso preferred partner, and booking through me often includes an additional $500 property credit on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed many times at", credit_label="", partner_clause="",
         intro=[
             "There's something so special about Meadowood, and it's sort of hard to put your finger on it. Service is at Aman quality standards, with a real sense of place, spacious and fairly private cottages, a beautiful spa, and thoughtful turndown treats each evening.",
@@ -782,7 +782,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of Four Seasons Napa Valley — four-plus stays in, the most versatile luxury resort in wine country, with a Michelin star on property.",
         tagline="Set within its own working vineyard in Calistoga &mdash; consistently excellent, and the rare wine country hotel that fits almost everyone.",
         style_label="Vineyard resort", perfect_for="Families, girls trips, couples, groups",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Four Seasons Napa Valley is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows Four Seasons Napa personally. Four Seasons Napa Valley is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed repeatedly at", credit_label="", partner_clause="",
         intro=[
             "I've stayed at Four Seasons Napa Valley four or five times now, and since they've worked out the early kinks, I think they've earned the #02 spot in my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma ranking</a>.",
@@ -817,7 +817,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of Montage Healdsburg after 20+ stays — vineyard rooms with fire pits, the best restaurant view in wine country, and what to book.",
         tagline="My home away from home &mdash; 20-plus stays in, the vineyard rooms and their fire pits still never get old.",
         style_label="Hillside vineyard resort", perfect_for="Wine lovers, couples, returning visitors",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Montage Healdsburg is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows Montage Healdsburg personally. Montage Healdsburg is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed 20+ times at", credit_label="", partner_clause="",
         intro=[
             "I love the Montage and have stayed there at least 20 times over the past few years — more than any other hotel on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a>, which tells you most of what you need to know.",
@@ -852,7 +852,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of Solage Calistoga — iconic California wine country design, private terraces, and honest notes on where it trails the top three.",
         tagline="Iconic California wine country design &mdash; private gardens, a laid-back energy, and rates that undercut the hotels above it.",
         style_label="Design resort (Auberge)", perfect_for="Younger couples, families, girls trips",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Solage is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows Solage personally. Solage is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed at", credit_label="", partner_clause="",
         intro=[
             "Solage is sort of iconic — it really defines California wine country luxury, and the design still holds up as the template half the newer properties are chasing.",
@@ -887,7 +887,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of MacArthur Place — Sonoma's hidden gem, steps from downtown, with beautiful design, reasonable rates, and a freshly remodeled pool.",
         tagline="Sonoma's hidden gem &mdash; walk to the plaza, skip the designated driver, and pay less than the marquee names.",
         style_label="Boutique garden estate", perfect_for="Returning visitors, walkability, wine tasting",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. MacArthur Place is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows MacArthur Place personally. MacArthur Place is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed at", credit_label="", partner_clause="",
         intro=[
             "I love MacArthur Place and think it's such a hidden gem in Sonoma. It's right next to downtown, so you can walk or bike into town, the design is beautiful, prices are reasonable, and the pool just finished an extensive remodel.",
@@ -922,7 +922,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of Stanly Ranch — the most architecturally striking hotel in Napa, the prettiest spa, and why the location keeps it at #06.",
         tagline="Possibly the most architecturally striking hotel in wine country &mdash; with a location that never quite feels like wine country.",
         style_label="Modern ranch resort (Auberge)", perfect_for="Younger couples, wellness travelers, design lovers",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Stanly Ranch is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows Stanly Ranch personally. Stanly Ranch is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed at", credit_label="", partner_clause="",
         intro=[
             "Stanly Ranch might be the most architecturally striking hotel on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a>. The spa is arguably the prettiest in the valley, every room has a large outdoor terrace with a fire pit, and Bear, the main restaurant, is one of the more interesting dining options in Napa.",
@@ -957,7 +957,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of Madrona Manor — a Jay Jeffers-designed Healdsburg estate that feels like a home, and one of Sonoma's most romantic stays.",
         tagline="Not a hotel so much as someone's impossibly beautiful estate &mdash; and one of the most romantic front porches in Sonoma County.",
         style_label="Historic estate (Jay Jeffers design)", perfect_for="Couples, romantic getaways",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Madrona is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows Madrona personally. Madrona is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed at", credit_label="", partner_clause="",
         intro=[
             "Madrona Manor feels completely different from every other hotel on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a> — more like staying at someone's incredibly beautiful estate than a traditional luxury hotel.",
@@ -992,7 +992,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of Carneros Resort & Spa — sprawling grounds, private cottages, real wine country feel, and why it's overdue for a refresh.",
         tagline="Sprawling grounds, private cottages, and true wine country atmosphere &mdash; a beloved classic ready for its next chapter.",
         style_label="Cottage resort", perfect_for="Families, multi-couple groups, older couples",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Carneros is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows Carneros personally. Carneros is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed multiple times at", credit_label="", partner_clause="",
         intro=[
             "Carneros has the potential to be a top-five property on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a> — it's a beloved classic that's ready for its next chapter.",
@@ -1027,7 +1027,7 @@ HOTELS = [
         meta_desc="Keith's firsthand review of Alila Napa Valley — a sleek modern hotel walkable to St. Helena, strongest for Hyatt points travelers.",
         tagline="A sleek modern hotel that happens to be in Napa &mdash; excellent location, walkable to St. Helena, strongest on points.",
         style_label="Modern boutique (Hyatt)", perfect_for="Hyatt loyalists, younger travelers",
-        perks_html="Rates through me are identical to booking direct &mdash; the perks are not. Alila is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available.",
+        perks_html="Work with me and you get two things: Fora perks, and someone who knows Alila personally. Alila is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
         visited_verb="stayed at", credit_label="", partner_clause="",
         intro=[
             "I like Alila quite a bit. Its personality is contemporary-first rather than vineyard-romantic — a genuinely lovely modern hotel whose aesthetic will click instantly for some travelers, which is exactly how to choose it against the hotels above it on my <a href=\"../napa-sonoma.html\">Napa &amp; Sonoma list</a>.",
@@ -1074,11 +1074,11 @@ for h in HOTELS:
     mailto = ("mailto:keith.pence@fora.travel?subject=" + quote(plain_name + " Inquiry") + "&body=" + body)
     rank_href_v = h.get("rank_href", "best-hotels-greece.html")
     perks_default = (
-        "Rates through me are identical to booking direct &mdash; the perks are not. As a Fora advisor"
+        "Work with me and you get two things: Fora perks, and someone who knows " + h.get("short_name", plain_name) + " personally. As a Fora advisor"
         + h.get("partner_clause", "")
         + ", my clients receive a space-available upgrade, daily breakfast, and a "
         + h.get("credit_label", "hotel credit")
-        + " &mdash; plus my direct line to the team on property before and during your stay."
+        + ". I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct."
     )
     out = PAGE.substitute(
         locale=h.get("locale", h["island"] + ", Greece"),
