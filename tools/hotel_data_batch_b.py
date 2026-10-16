@@ -183,7 +183,7 @@ HOTELS = [
         ],
         know=[
             ("It's outside Positano proper, by design.", "Seclusion is the product. If you want the town at your doorstep, that's <a href=\"le-sirenuse-positano.html\">Le Sirenuse</a> — my <a href=\"../featured-destinations.html\">Italy page</a> compares the coast's icons."),
-            ("Book the court like you book the room.", "One clay court, high demand — I arrange court time and can bring in pros through my LUX Tennis partnership."),
+            ("Book the court like you book the room.", "One court, high demand — I arrange court time before you arrive."),
             ("Peak season sells out far ahead.", "This is one of the hardest confirmations on the coast — the earlier we start, the better."),
         ],
         verdict="The classic, done properly — and the only hotel where I'd call the tennis court reason enough to stay.",

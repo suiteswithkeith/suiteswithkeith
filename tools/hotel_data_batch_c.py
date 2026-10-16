@@ -123,7 +123,7 @@ HOTELS = [
         know=[
             ("It's a top-of-market splurge.", "This sits at the very top of Maldives pricing — I position it for honeymoons and milestone trips."),
             ("Compare it against my proposal trio.", "My <a href=\"../sample-proposal.html\">sample Maldives proposal</a> shows how I pair islands — Randheli can anchor a similar two-island itinerary."),
-            ("Tennis travelers, tell me.", "Tennis programming at my listed properties comes through my LUX Tennis partnership — say the word and I'll build it in."),
+            ("Tennis travelers, tell me.", "Tell me you want to play and I'll build court time into the trip."),
         ],
         verdict="The only hotel on two of my lists at once — when service and setting both have to be perfect, this is the atoll answer.",
     ),
