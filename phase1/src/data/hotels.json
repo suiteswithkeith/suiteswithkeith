@@ -4761,6 +4761,13 @@
   },
   "gallery": [
    {
+    "src": "/images/hotels/hotel-eden/sunset-st-peters.jpg",
+    "alt": "Sunset over the dome of St. Peter&rsquo;s and the rooftops of Rome, seen from Hotel Eden",
+    "w": 800,
+    "h": 845,
+    "caption": "Sunset over St. Peter&rsquo;s"
+   },
+   {
     "src": "/images/hotels/hotel-eden/rooftop-restaurant.jpg",
     "alt": "Hotel Eden&rsquo;s glass-roofed rooftop restaurant at golden hour, with views over Rome&rsquo;s rooftops and hills",
     "w": 800,
@@ -4768,11 +4775,25 @@
     "caption": "The restaurant upstairs"
    },
    {
+    "src": "/images/hotels/hotel-eden/view-vittoriano.jpg",
+    "alt": "Daytime view from Hotel Eden over gardens and rooftops to the Vittoriano",
+    "w": 800,
+    "h": 915,
+    "caption": "Daytime views over the rooftops"
+   },
+   {
     "src": "/images/hotels/hotel-eden/lounge.jpg",
     "alt": "Hotel Eden&rsquo;s lobby lounge with a gilded coffered ceiling, velvet sofas and bookshelves",
     "w": 800,
     "h": 1418,
     "caption": "The lobby lounge"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/entrance.jpg",
+    "alt": "Hotel Eden&rsquo;s entrance hall with a black and white marble floor, gilded sconces and arched glass doors",
+    "w": 800,
+    "h": 1399,
+    "caption": "The entrance, on a quiet street"
    },
    {
     "src": "/images/hotels/hotel-eden/bedroom.jpg",
@@ -4787,9 +4808,22 @@
     "w": 800,
     "h": 868,
     "caption": "Marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/double-vanity.jpg",
+    "alt": "A Hotel Eden bathroom with a double marble vanity, brass fixtures and a robe on the wall",
+    "w": 800,
+    "h": 1413,
+    "caption": "Double vanities in marble"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/facade-night.jpg",
+    "alt": "The illuminated EDEN letters on the hotel&rsquo;s facade at night",
+    "w": 800,
+    "h": 764,
+    "caption": "The Eden at night"
    }
-  ],
-  "hide_hero_in_gallery": true
+  ]
  },
  {
   "slug": "orient-express-la-minerva-rome",
