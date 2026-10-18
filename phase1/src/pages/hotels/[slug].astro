@@ -199,8 +199,8 @@ const reviewSchema = h.review && JSON.stringify({
       <p class="status" role="status" aria-live="polite"></p>
     </form>
     <p class="reveal" style="margin-top:34px;">
-      <a href={`/${h.island_page}`} style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none; margin-right:22px;"><Fragment set:html={h.cta_island_text} /> &rarr;</a>
-      <a href={`/${h.cta2_href}`} style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;"><Fragment set:html={h.cta2_text} /> &rarr;</a>
+      <a href={`/${h.island_page}`} style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none; margin-right:22px; display:inline-block; margin-bottom:8px;"><Fragment set:html={h.cta_island_text} />&nbsp;&rarr;</a>
+      <a href={`/${h.cta2_href}`} style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none; display:inline-block; margin-bottom:8px;"><Fragment set:html={h.cta2_text} />&nbsp;&rarr;</a>
     </p>
   </div>
 </section>
