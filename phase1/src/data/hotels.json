@@ -4758,7 +4758,38 @@
    "date": "2026-10-18",
    "city": "Rome",
    "country": "IT"
-  }
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/hotel-eden/rooftop-restaurant.jpg",
+    "alt": "Hotel Eden&rsquo;s glass-roofed rooftop restaurant at golden hour, with views over Rome&rsquo;s rooftops and hills",
+    "w": 800,
+    "h": 1386,
+    "caption": "The restaurant upstairs"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/lounge.jpg",
+    "alt": "Hotel Eden&rsquo;s lobby lounge with a gilded coffered ceiling, velvet sofas and bookshelves",
+    "w": 800,
+    "h": 1418,
+    "caption": "The lobby lounge"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/bedroom.jpg",
+    "alt": "A bright Hotel Eden bedroom with a peacock relief above the bed and a balcony over the rooftops",
+    "w": 800,
+    "h": 1412,
+    "caption": "Bright rooms, modern yet traditional"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/bathroom.jpg",
+    "alt": "A white marble Hotel Eden bathroom with a deep soaking tub and brass fixtures",
+    "w": 800,
+    "h": 868,
+    "caption": "Marble bathrooms"
+   }
+  ],
+  "hide_hero_in_gallery": true
  },
  {
   "slug": "orient-express-la-minerva-rome",
