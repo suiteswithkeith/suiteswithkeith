@@ -4612,29 +4612,29 @@
   "img_dir": "destinations",
   "hero_img": "de-russie.jpg",
   "img2": "de-russie.jpg",
-  "tagline": "My top overall pick in Rome &mdash; a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.",
-  "meta_desc": "Keith's top overall pick in Rome — Hotel de Russie, a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.",
+  "tagline": "A hidden garden between Piazza del Popolo and the Spanish Steps &mdash; understated and elegant.",
+  "meta_desc": "Keith's take on Hotel de Russie in Rome — a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.",
   "style_label": "Garden retreat (Rocco Forte)",
   "perfect_for": "Rome first-timers, couples, understated luxury",
   "region_label": "Region",
   "region_html": "Piazza del Popolo, Rome, Italy",
-  "rank_text": "My top overall pick in Rome",
+  "rank_text": "Featured on my Italy collection",
   "rank_href": "featured-destinations.html",
-  "stat1_num": "#01",
-  "stat1_label": "My Top Overall Pick In Rome",
+  "stat1_num": "",
+  "stat1_label": "",
   "stat2_num": "Hidden",
   "stat2_label": "Garden Between Popolo And The Spanish Steps",
   "know_heading": "The Fine Print, From Your Advisor",
   "cta_line": "The de Russie earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
   "intro": [
-   "Of the three Rome hotels I feature, only one carries the label \"my top overall pick\" — and it's the de Russie. My one-liner for it: a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.",
+   "Each of my featured Rome hotels answers a different brief, and the de Russie&rsquo;s is the garden. My one-liner for it: a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.",
    "The secret garden is the whole magic. Terraced up the Pincio hill behind the hotel, it delivers something no other address in the centro storico can — birdsong and greenery in the exact center of Rome, with the Popolo obelisk one door away and the Spanish Steps a short stroll.",
-   "Understated is the operative word. The de Russie doesn't do Belle Époque spectacle or nightly rituals — it does quiet, confident elegance, which is exactly why it's the hotel I recommend first when someone simply asks, \"Where should I stay in Rome?\""
+   "Understated is the operative word. The de Russie doesn't do Belle Époque spectacle or nightly rituals — it does quiet, confident elegance. Just know the street out front is busy: step outside and you&rsquo;re in the crowds between Popolo and the Steps."
   ],
   "stood_out": [
    {
     "b": "The hidden garden.",
-    "t": "Terraced into the Pincio hill — the calmest square meters in central Rome, and the reason this is my top pick."
+    "t": "Terraced into the Pincio hill — the calmest square meters in central Rome, and the reason it stays on my list."
    },
    {
     "b": "The location.",
@@ -4655,15 +4655,15 @@
     "t": "Views over the terraces rather than the street — I ask for them on every booking."
    },
    {
-    "b": "Romantic couples, compare the Eden.",
-    "t": "The <a href=\"hotel-eden-rome.html\">Hotel Eden</a> is my quieter, old-world-charm alternative — my featured page frames all three."
+    "b": "Compare it with the Eden, my top pick.",
+    "t": "The <a href=\"hotel-eden-rome.html\">Hotel Eden</a> is my top overall pick in Rome, on a quieter street and usually at a slightly lower rate. My featured page frames them side by side."
    },
    {
     "b": "Transfers and drivers, arranged.",
     "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
    }
   ],
-  "verdict": "A hidden garden in the exact center of Rome — my top overall pick in the city, and the easiest recommendation I make.",
+  "verdict": "A hidden garden in the exact center of Rome — the pick for travelers who want greenery and understated elegance.",
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the de Russie personally. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All My Rankings",
@@ -4680,62 +4680,342 @@
   "img_dir": "destinations",
   "hero_img": "hotel-eden.jpg",
   "img2": "hotel-eden.jpg",
-  "tagline": "Quieter, romantic, Dorchester Collection &mdash; ideal for couples who want old-world charm without the crowds.",
-  "meta_desc": "Why Hotel Eden is Keith's romantic Rome pick — quieter, Dorchester Collection, ideal for couples who want old-world charm without the crowds.",
+  "tagline": "One of my top three stays in all of Italy, with anticipatory service, bright rooms with real views, and a quiet street when the rest of Rome is crowded.",
+  "meta_desc": "Honest Hotel Eden review from a travel advisor who stayed in October 2026: his top overall pick in Rome and one of his top three stays in Italy, the quiet location vs the Hassler, de Russie and Bulgari, the rooms and suites, and why it beats its price.",
   "style_label": "Romantic classic (Dorchester Collection)",
-  "perfect_for": "Couples, anniversaries, old-world charm seekers",
+  "perfect_for": "Couples, anniversaries, travelers who want quiet in the middle of Rome",
   "region_label": "Region",
   "region_html": "Above the Spanish Steps, Rome, Italy",
-  "rank_text": "Featured on my Italy collection",
+  "rank_text": "My top overall pick in Rome",
   "rank_href": "featured-destinations.html",
-  "stat1_num": "Quiet",
-  "stat1_label": "My Romantic Pick In Rome",
-  "stat2_num": "Old",
-  "stat2_label": "World Charm Without The Crowds",
+  "stat1_num": "#01",
+  "stat1_label": "My Top Overall Pick In Rome",
+  "stat2_num": "Top 3",
+  "stat2_label": "Of My Stays In All Of Italy",
   "know_heading": "The Fine Print, From Your Advisor",
   "cta_line": "The Eden earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
   "intro": [
-   "Each of my three featured Rome hotels answers a different brief, and the Eden's is romance. My line on it: quieter, romantic, Dorchester Collection — ideal for couples who want old-world charm without the crowds.",
-   "The Eden sits just above the Spanish Steps on a residential rise, one block removed from the flow of the Via Veneto — close to everything, in the current of nothing. Inside, it's the Dorchester Collection at its warmest: polished, intimate, and personal in a way big-palace Rome rarely manages.",
-   "The rooftop is the crown — bar and restaurant looking across the domes of the centro storico, the aperitivo view I send couples to on their first evening in Rome."
+   "The Eden was one of my top three stays in all of Italy. The service was so anticipatory and warm, the rooms were bright, the restaurant upstairs was fantastic, and the concierge was super helpful with dinner reservations. It was just an all-around fantastic stay, and I loved it there.",
+   "The location is a big part of it. At the Hassler, the Hotel de la Ville, the de Russie and even the Bulgari, you step out the door and it&rsquo;s busy and crowded. The Eden sits on a quiet residential street just above the Spanish Steps, so you&rsquo;re close to everything and you still come home to calm.",
+   "And it&rsquo;s usually priced slightly below those competitors while delivering what I think is a better product. For me that&rsquo;s a huge selling point, and it&rsquo;s why the Eden is now my top overall pick in Rome."
   ],
   "stood_out": [
    {
-    "b": "Old-world charm without the crowds.",
-    "t": "A quieter address above the Spanish Steps — romance is the entire design brief."
+    "b": "The fastest coffee I&rsquo;ve ever had delivered.",
+    "t": "Out of all my stays in Italy, and maybe all my stays ever. It sounds small, but it tells you everything about how this team runs."
    },
    {
-    "b": "The rooftop over the domes.",
-    "t": "Bar and dining with one of Rome's great skyline views — first-night aperitivo, booked before you land."
+    "b": "Service that anticipates.",
+    "t": "Warm, personal and a step ahead the whole time. The concierge sorted my dinner reservations without any back and forth."
    },
    {
-    "b": "Dorchester Collection service.",
-    "t": "The same culture behind Le Meurice in Paris — polished, warm, and personal."
+    "b": "Rooms that are modern and traditional at once.",
+    "t": "Beautifully decorated, bright, with incredible views over the rooftops."
+   },
+   {
+    "b": "The restaurant upstairs.",
+    "t": "Fantastic service, and the view across the domes is the one I send couples to on their first evening in Rome."
+   },
+   {
+    "b": "Quiet, in the middle of everything.",
+    "t": "A calm street above the Spanish Steps, where its big-name competitors open onto the crowds."
    }
   ],
   "know": [
    {
-    "b": "It's a boutique-scale grande dame.",
-    "t": "Intimate rather than sprawling — couples love it; big groups fit better elsewhere on my list."
+    "b": "The top suites can be connected.",
+    "t": "They&rsquo;re spacious on their own, and they can be combined into larger configurations for families or two couples traveling together. Ask me and I&rsquo;ll map out what&rsquo;s possible."
    },
    {
-    "b": "Compare the Rome trio deliberately.",
-    "t": "The <a href=\"hotel-de-russie-rome.html\">de Russie</a> for the garden, the <a href=\"the-st-regis-rome.html\">St. Regis</a> for spectacle, the Eden for romance — my featured page puts them side by side."
+    "b": "It costs slightly less than its rivals.",
+    "t": "Usually a little below the Hassler, the de Russie and the Bulgari, for a stay I&rsquo;d rank above them. I&rsquo;ll quote them side by side if you want to see it."
+   },
+   {
+    "b": "Who it suits best.",
+    "t": "Almost everyone, and couples especially. If you&rsquo;re younger and want the energy of a real Roman neighborhood, look at <a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> by the Pantheon."
+   },
+   {
+    "b": "Compare the rest of Rome.",
+    "t": "The <a href=\"hotel-de-russie-rome.html\">de Russie</a> for the garden, the <a href=\"the-st-regis-rome.html\">St. Regis</a> for spectacle, and the new <a href=\"corinthia-rome.html\">Corinthia</a>, which blew me away. My featured page puts them side by side."
    },
    {
     "b": "Uphill from the Steps.",
-    "t": "A gentle rise from the centro — nothing serious, just wear the right shoes home from dinner."
+    "t": "A gentle rise from the centro, so wear the right shoes home from dinner."
    },
    {
     "b": "Transfers and drivers, arranged.",
     "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
    }
   ],
-  "verdict": "Quieter, romantic, and genuinely charming — the Rome hotel I book for couples, full stop.",
+  "verdict": "My top overall pick in Rome, and one of my top three stays in all of Italy. Warmer service, quieter streets and a slightly lower rate than its rivals.",
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Eden personally. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "seo_title": "Hotel Eden Review, Rome: My Honest Stay (2026)",
+  "review": {
+   "stamp": "Stayed October 2026",
+   "date": "2026-10-18",
+   "city": "Rome",
+   "country": "IT"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/hotel-eden/sunset-st-peters.jpg",
+    "alt": "Sunset over the dome of St. Peter&rsquo;s and the rooftops of Rome, seen from Hotel Eden",
+    "w": 800,
+    "h": 845,
+    "caption": "Sunset over St. Peter&rsquo;s"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/rooftop-restaurant.jpg",
+    "alt": "Hotel Eden&rsquo;s glass-roofed rooftop restaurant at golden hour, with views over Rome&rsquo;s rooftops and hills",
+    "w": 800,
+    "h": 1386,
+    "caption": "The restaurant upstairs"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/view-vittoriano.jpg",
+    "alt": "Daytime view from Hotel Eden over gardens and rooftops to the Vittoriano",
+    "w": 800,
+    "h": 915,
+    "caption": "Daytime views over the rooftops"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/lounge.jpg",
+    "alt": "Hotel Eden&rsquo;s lobby lounge with a gilded coffered ceiling, velvet sofas and bookshelves",
+    "w": 800,
+    "h": 1418,
+    "caption": "The lobby lounge"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/entrance.jpg",
+    "alt": "Hotel Eden&rsquo;s entrance hall with a black and white marble floor, gilded sconces and arched glass doors",
+    "w": 800,
+    "h": 1399,
+    "caption": "The entrance, on a quiet street"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/bedroom.jpg",
+    "alt": "A bright Hotel Eden bedroom with a peacock relief above the bed and a balcony over the rooftops",
+    "w": 800,
+    "h": 1412,
+    "caption": "Bright rooms, modern yet traditional"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/bathroom.jpg",
+    "alt": "A white marble Hotel Eden bathroom with a deep soaking tub and brass fixtures",
+    "w": 800,
+    "h": 868,
+    "caption": "Marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/double-vanity.jpg",
+    "alt": "A Hotel Eden bathroom with a double marble vanity, brass fixtures and a robe on the wall",
+    "w": 800,
+    "h": 1413,
+    "caption": "Double vanities in marble"
+   },
+   {
+    "src": "/images/hotels/hotel-eden/facade-night.jpg",
+    "alt": "The illuminated EDEN letters on the hotel&rsquo;s facade at night",
+    "w": 800,
+    "h": 764,
+    "caption": "The Eden at night"
+   }
+  ]
+ },
+ {
+  "slug": "orient-express-la-minerva-rome",
+  "name": "Orient Express La Minerva",
+  "plain_name": "Orient Express La Minerva",
+  "short_name": "La Minerva",
+  "island": "Rome",
+  "island_page": "featured-destinations.html",
+  "locale": "Rome, Italy",
+  "img_dir": "hotels/la-minerva",
+  "hero_img": "press-suite-living.jpg",
+  "img2": "press-bedroom.jpg",
+  "seo_title": "Orient Express La Minerva Review, Rome: My Honest Stay (2026)",
+  "tagline": "The warmest shared spaces in Rome, in a hotel in a real Roman neighborhood, where I felt like I could be myself.",
+  "meta_desc": "Honest Orient Express La Minerva review from a travel advisor who stayed in October 2026: the rooftop restaurant, the bar and lobby, the staff, the views by the Pantheon, and who it suits vs Hotel Eden.",
+  "style_label": "Palazzo by the Pantheon (Orient Express)",
+  "perfect_for": "Younger travelers, social couples, anyone who wants a real Roman neighborhood",
+  "region_label": "Region",
+  "region_html": "Piazza della Minerva, by the Pantheon, Rome, Italy",
+  "rank_text": "Where I start my La Dolce Vita journeys",
+  "rank_href": "la-dolce-vita-orient-express.html",
+  "stat1_num": "Real",
+  "stat1_label": "Rome, Steps From The Pantheon",
+  "stat2_num": "The",
+  "stat2_label": "Warmest Team I Met In Rome",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "La Minerva earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
+  "intro": [
+   "For me, La Minerva&rsquo;s shared spaces were the highlight. The restaurant upstairs, the bar downstairs, the lobby, and above all the service and warmth of the people who work there. I felt like I could be myself here, and I actually shared a great laugh with the woman who checked me in.",
+   "The views around the hotel are more authentic Rome than beautiful, pristine Rome. I think that&rsquo;s part of its charm: it&rsquo;s a hotel in a real part of the city, by the Pantheon, and I really appreciated that compared with a lot of its competitors.",
+   "If you&rsquo;re younger, it&rsquo;s a great hotel. If you&rsquo;re older or want more polish and calm, I&rsquo;d gravitate toward the <a href=\"/hotels/hotel-eden-rome.html\">Hotel Eden</a>."
+  ],
+  "stood_out": [
+   {
+    "b": "The people.",
+    "t": "Warm, funny and relaxed. The check-in set the tone for the whole stay."
+   },
+   {
+    "b": "The restaurant upstairs.",
+    "t": "The rooftop is where I&rsquo;d spend the evening, looking over the domes and rooftops of the centro storico."
+   },
+   {
+    "b": "The bar and lobby downstairs.",
+    "t": "Shared spaces you actually want to sit in, with a real buzz to them."
+   },
+   {
+    "b": "A real Roman neighborhood.",
+    "t": "Step out by the Pantheon into the city as Romans actually live it."
+   },
+   {
+    "b": "The best slippers of the whole trip.",
+    "t": "I actually kept them."
+   }
+  ],
+  "know": [
+   {
+    "b": "The views are lived-in Rome.",
+    "t": "Expect neighborhood rooftops and lived-in Rome around you. I love that, but if the postcard view matters most, ask me about the Eden."
+   },
+   {
+    "b": "Who it suits best.",
+    "t": "Younger travelers and couples who want energy and a bit of personality. Older travelers usually feel more at home at the <a href=\"hotel-eden-rome.html\">Hotel Eden</a>."
+   },
+   {
+    "b": "Riding La Dolce Vita?",
+    "t": "Journeys start in Rome, so I put clients at La Minerva first. <a href=\"../la-dolce-vita-orient-express.html\">Here&rsquo;s how I put the train and the two Orient Express hotels together</a>."
+   },
+   {
+    "b": "Compare the rest of Rome.",
+    "t": "The <a href=\"hotel-de-russie-rome.html\">de Russie</a> for the garden, the <a href=\"the-st-regis-rome.html\">St. Regis</a> for spectacle, and the new <a href=\"corinthia-rome.html\">Corinthia</a> for the showstopper renovation."
+   },
+   {
+    "b": "Transfers and drivers, arranged.",
+    "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
+   }
+  ],
+  "verdict": "The warmest shared spaces and the friendliest team I found in Rome, in a real Roman neighborhood by the Pantheon. A great hotel for younger travelers.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who knows La Minerva personally. My clients typically get daily breakfast for two, a $100 USD hotel credit, an upgrade on arrival and early check-in or late check-out when available, plus a VIP welcome. Signature Suite bookings can also include a 50-minute massage for two. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My Featured Destinations",
+  "cta2_text": "La Dolce Vita Journey",
+  "cta2_href": "la-dolce-vita-orient-express.html",
+  "gallery": [
+   {
+    "src": "/images/hotels/la-minerva/press-rooftop.jpg",
+    "alt": "La Minerva&rsquo;s rooftop terrace over the rooftops of Rome",
+    "w": 1087,
+    "h": 1600,
+    "caption": "The restaurant upstairs"
+   },
+   {
+    "src": "/images/hotels/la-minerva/press-bar.jpg",
+    "alt": "The bar at Orient Express La Minerva",
+    "w": 1087,
+    "h": 1600,
+    "caption": "The bar downstairs"
+   },
+   {
+    "src": "/images/hotels/la-minerva/press-lounge.jpg",
+    "alt": "The lobby lounge at Orient Express La Minerva",
+    "w": 1087,
+    "h": 1600,
+    "caption": "The lobby"
+   },
+   {
+    "src": "/images/hotels/la-minerva/press-fresco-bedroom.jpg",
+    "alt": "A La Minerva bedroom with a frescoed ceiling",
+    "w": 1066,
+    "h": 1600,
+    "caption": "A frescoed bedroom"
+   }
+  ],
+  "review": {
+   "stamp": "Stayed October 2026",
+   "date": "2026-10-18",
+   "city": "Rome",
+   "country": "IT"
+  }
+ },
+ {
+  "slug": "corinthia-rome",
+  "name": "Corinthia Rome",
+  "plain_name": "Corinthia Rome",
+  "short_name": "the Corinthia",
+  "island": "Rome",
+  "island_page": "featured-destinations.html",
+  "locale": "Rome, Italy",
+  "img_dir": "destinations",
+  "hero_img": "",
+  "img2": "",
+  "seo_title": "Corinthia Rome Review: A Game Changer For Rome (2026)",
+  "tagline": "A game changer for Rome, with a showstopper renovation across the street from parliament, quiet and in the middle of everything.",
+  "meta_desc": "Honest Corinthia Rome review from a travel advisor who visited in October 2026: the showstopper renovation, the spa and public spaces, large rooms, and a safe, quiet location across from parliament.",
+  "style_label": "Grand new opening (Corinthia)",
+  "perfect_for": "Travelers who want space, a real spa and a central, quiet base",
+  "region_label": "Region",
+  "region_html": "Piazza del Parlamento, Rome, Italy",
+  "rank_text": "A game changer for Rome",
+  "rank_href": "featured-destinations.html",
+  "stat1_num": "",
+  "stat1_label": "",
+  "stat2_num": "A",
+  "stat2_label": "Game Changer For Rome, Across From Parliament",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "The Corinthia earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
+  "intro": [
+   "Wow. I was blown away by this hotel, and I think it&rsquo;s truly a game changer for Rome.",
+   "It&rsquo;s across the street from parliament, so the area is incredibly safe, and it&rsquo;s quiet while still being in the middle of everything. The renovation is a showstopper.",
+   "The spa and the public spaces are beautiful, and the rooms are large and tastefully appointed. Space is hard to come by in central Rome, so that alone puts it in the conversation with the city&rsquo;s classics."
+  ],
+  "stood_out": [
+   {
+    "b": "The renovation.",
+    "t": "A showstopper from the moment you walk in."
+   },
+   {
+    "b": "The location.",
+    "t": "Across the street from parliament, so it&rsquo;s incredibly safe, quiet, and walkable to everything."
+   },
+   {
+    "b": "The spa and public spaces.",
+    "t": "Beautiful, and big enough that the hotel never feels crowded."
+   },
+   {
+    "b": "Large rooms.",
+    "t": "Spacious and tastefully appointed, which is rare in the centro storico."
+   }
+  ],
+  "know": [
+   {
+    "b": "It&rsquo;s new, so book with someone who knows it.",
+    "t": "Room categories and views vary, and I&rsquo;ll steer you to the right one."
+   },
+   {
+    "b": "Compare the rest of Rome.",
+    "t": "The <a href=\"hotel-eden-rome.html\">Eden</a> for warm, quiet romance, <a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> for a real Roman neighborhood, the <a href=\"hotel-de-russie-rome.html\">de Russie</a> for the garden and the <a href=\"the-st-regis-rome.html\">St. Regis</a> for spectacle."
+   },
+   {
+    "b": "Transfers and drivers, arranged.",
+    "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
+   }
+  ],
+  "verdict": "Wow. A showstopper renovation, a beautiful spa and large rooms, quiet and safe across from parliament. Truly a game changer for Rome.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Corinthia personally. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My Featured Destinations",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-10-18",
+   "city": "Rome",
+   "country": "IT"
+  }
  },
  {
   "slug": "the-st-regis-rome",
