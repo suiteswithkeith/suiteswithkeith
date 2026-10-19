@@ -4707,6 +4707,13 @@
     "caption": "Painted walls in the restaurant"
    },
    {
+    "src": "/images/hotels/de-russie/bedroom.jpg",
+    "alt": "A renovated Hotel de Russie bedroom in soft green, with a striped headboard, floral cushions and a green-banded throw",
+    "w": 800,
+    "h": 1410,
+    "caption": "Renovated rooms"
+   },
+   {
     "src": "/images/hotels/de-russie/lemon-ceiling.jpg",
     "alt": "A Hotel de Russie room ceiling papered with lemons, pears and blossoms on a pale blue background",
     "w": 800,
@@ -4719,6 +4726,27 @@
     "w": 800,
     "h": 1408,
     "caption": "And an orange one"
+   },
+   {
+    "src": "/images/hotels/de-russie/marble-bathroom.jpg",
+    "alt": "A Hotel de Russie bathroom in white and gray veined marble, with a sconce, magnifying mirror and glass shower",
+    "w": 800,
+    "h": 1416,
+    "caption": "Marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/de-russie/shower-mosaic.jpg",
+    "alt": "A stone mosaic of birds in a leafy tree set into the marble tiles of a Hotel de Russie shower",
+    "w": 800,
+    "h": 1414,
+    "caption": "A mosaic in the shower"
+   },
+   {
+    "src": "/images/hotels/de-russie/spa-pool.jpg",
+    "alt": "The indoor pool in the Hotel de Russie spa, tiled in blue mosaic under a starry ceiling",
+    "w": 800,
+    "h": 1390,
+    "caption": "The spa&rsquo;s indoor pool"
    }
   ]
  },
