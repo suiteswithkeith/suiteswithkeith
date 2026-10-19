@@ -5066,9 +5066,9 @@
   "island": "Rome",
   "island_page": "featured-destinations.html",
   "locale": "Rome, Italy",
-  "img_dir": "destinations",
-  "hero_img": "",
-  "img2": "",
+  "img_dir": "hotels/corinthia-rome",
+  "hero_img": "press-onyx-bathroom.jpg",
+  "img2": "press-onyx-bathroom.jpg",
   "seo_title": "Corinthia Rome Review: A Game Changer For Rome (2026)",
   "tagline": "A game changer for Rome, with a showstopper renovation across the street from parliament, quiet and in the middle of everything.",
   "meta_desc": "Honest Corinthia Rome review from a travel advisor who visited in October 2026: the showstopper renovation, the spa and public spaces, large rooms, and a safe, quiet location across from parliament.",
@@ -5131,7 +5131,38 @@
    "date": "2026-10-18",
    "city": "Rome",
    "country": "IT"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/corinthia-rome/press-suite-living.jpg",
+    "alt": "A Corinthia Rome suite living room with a white sofa, cognac leather accents, marble floors and a walnut bar",
+    "w": 1200,
+    "h": 600,
+    "caption": "Large, tastefully appointed rooms"
+   },
+   {
+    "src": "/images/hotels/corinthia-rome/press-onyx-bathroom.jpg",
+    "alt": "A Corinthia Rome bathroom in onyx and marble, with a freestanding stone tub, double vanity and a crystal chandelier",
+    "w": 1200,
+    "h": 600,
+    "caption": "Onyx and marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/corinthia-rome/press-salon.jpg",
+    "alt": "A Corinthia Rome suite with double-height windows, a gilded mirror over the sofa and a marble table",
+    "w": 1200,
+    "h": 600,
+    "caption": "The showstopper renovation"
+   },
+   {
+    "src": "/images/hotels/corinthia-rome/press-canopy-bedroom.jpg",
+    "alt": "A Corinthia Rome bedroom with a bronze canopy bed, pink upholstered headboard and a terrace draped in bougainvillea",
+    "w": 1200,
+    "h": 600,
+    "caption": "Bedrooms opening onto terraces"
+   }
+  ]
  },
  {
   "slug": "bulgari-hotel-rome",
