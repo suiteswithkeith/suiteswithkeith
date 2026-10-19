@@ -5526,15 +5526,15 @@
   "island_page": "featured-destinations.html",
   "locale": "Rome, Italy",
   "img_dir": "hotels/casa-monti",
-  "hero_img": "",
-  "img2": "",
+  "hero_img": "press-terrace.jpg",
+  "img2": "press-terrace.jpg",
   "seo_title": "Casa Monti Review, Rome: A Hip Boutique Hotel For Younger Couples (2026)",
   "tagline": "So cute. A great boutique hotel in the heart of Rome, surrounded by authentic trattorias, for younger couples who want something hip and fun.",
   "meta_desc": "Honest Casa Monti review from a travel advisor who visited in October 2026: a cute, hip boutique hotel in Monti from the team behind Le Fantaisie in Paris, with a beautiful rooftop restaurant, a lively downstairs restaurant, a spa couples can book privately, and real Roman trattorias all around.",
   "style_label": "Hip boutique hotel",
   "perfect_for": "Younger couples and honeymooners who want something hip, young and fun",
   "region_label": "Region",
-  "region_html": "Monti, Rome, Italy",
+  "region_html": "Via Panisperna, Monti, Rome, Italy",
   "rank_text": "My pick for something other than classic luxury",
   "rank_href": "featured-destinations.html",
   "stat1_num": "",
@@ -5598,7 +5598,45 @@
    "date": "2026-10-19",
    "city": "Rome",
    "country": "IT"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/casa-monti/press-terrace.jpg",
+    "alt": "A Casa Monti terrace with patterned chairs, climbing jasmine and agapanthus over the tiled rooftops of Monti",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Terraces over the rooftops of Monti"
+   },
+   {
+    "src": "/images/hotels/casa-monti/press-suite-nook.jpg",
+    "alt": "A Casa Monti room with an orange banquette under a scalloped arch of bird-print fabric, a green zigzag armchair and a marble-topped table",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Super cool patterns"
+   },
+   {
+    "src": "/images/hotels/casa-monti/press-spa-pool.jpg",
+    "alt": "The Casa Monti spa pool, raised on golden marble steps between two white amphorae, with yellow tiles and a painted frieze",
+    "w": 1201,
+    "h": 1600,
+    "caption": "The spa, which couples can privatize"
+   },
+   {
+    "src": "/images/hotels/casa-monti/press-spa-lounge.jpg",
+    "alt": "The Casa Monti spa lounge with wicker loungers in a lemon-print fabric, yellow walls and a mosaic floor",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The spa lounge"
+   },
+   {
+    "src": "/images/hotels/casa-monti/press-fiat.jpg",
+    "alt": "A yellow vintage Fiat 500 with the Casa Monti logo parked outside the hotel&rsquo;s arched entrance on Via Panisperna",
+    "w": 987,
+    "h": 1480,
+    "caption": "Out front on Via Panisperna"
+   }
+  ]
  },
  {
   "slug": "the-st-regis-rome",
