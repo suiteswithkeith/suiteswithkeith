@@ -4656,7 +4656,7 @@
   "know": [
    {
     "b": "I prefer it to its sister, the de la Ville.",
-    "t": "Both are Rocco Forte hotels near the Spanish Steps. For me the de Russie is the stronger stay, and the courtyard is a big part of why."
+    "t": "Both <a href=\"hotel-de-la-ville-rome.html\">the de la Ville</a> and the de Russie are Rocco Forte hotels near the Spanish Steps. For me the de Russie is the stronger stay, and the courtyard is a big part of why."
    },
    {
     "b": "The street out front is busy.",
@@ -5399,6 +5399,206 @@
     "caption": "Bathrooms opening to the trees"
    }
   ]
+ },
+ {
+  "slug": "hotel-de-la-ville-rome",
+  "name": "Hotel de la Ville",
+  "plain_name": "Hotel de la Ville",
+  "short_name": "the de la Ville",
+  "island": "Rome",
+  "island_page": "featured-destinations.html",
+  "locale": "Rome, Italy",
+  "img_dir": "hotels/de-la-ville",
+  "hero_img": "press-courtyard.jpg",
+  "img2": "press-courtyard.jpg",
+  "hide_hero_in_gallery": true,
+  "seo_title": "Hotel de la Ville Review, Rome: Rocco Forte At The Top Of The Spanish Steps (2026)",
+  "tagline": "A nice Rocco Forte hotel at the top of the Spanish Steps, with a rooftop bar and restaurant, a courtyard and a spa, though I preferred its sister, the de Russie.",
+  "meta_desc": "Honest Hotel de la Ville review from a travel advisor who visited in October 2026: a nice Rocco Forte hotel on Via Sistina at the top of the Spanish Steps, the Cielo rooftop, the courtyard, the spa, and why he prefers its sister, the Hotel de Russie.",
+  "style_label": "Colorful Roman palazzo (Rocco Forte)",
+  "perfect_for": "Travelers who want the Spanish Steps on the doorstep and a rooftop for sunset drinks",
+  "region_label": "Region",
+  "region_html": "Via Sistina, top of the Spanish Steps, Rome, Italy",
+  "rank_text": "Nice, but I prefer its sister, the de Russie",
+  "rank_href": "featured-destinations.html",
+  "stat1_num": "",
+  "stat1_label": "",
+  "stat2_num": "Cielo",
+  "stat2_label": "Rooftop Bar And Restaurant Over Rome",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Thinking about the de la Ville? Let me match you to the right room, compare it with its sister the de Russie, and build the rest of the trip around it.",
+  "intro": [
+   "The Hotel de la Ville was nice. Honestly, I don&rsquo;t have a ton to say about it, and I preferred its sister property, the <a href=\"hotel-de-russie-rome.html\">Hotel de Russie</a>.",
+   "It&rsquo;s a Rocco Forte hotel on Via Sistina, right at the top of the Spanish Steps, in an 18th-century palazzo with colorful, very Roman interiors by Tommaso Ziffer. There are 104 rooms and suites, some with terraces and city views.",
+   "The highlights are Cielo, the rooftop bar and restaurant across the top two floors with views all over the city, Mosaico on the courtyard, the Julep cocktail bar, and a Sicilian-inspired spa."
+  ],
+  "stood_out": [
+   {
+    "b": "Cielo on the roof.",
+    "t": "A rooftop bar and restaurant across the top two floors, with views across Rome&rsquo;s skyline."
+   },
+   {
+    "b": "The courtyard.",
+    "t": "Mosaico, the main restaurant, opens onto it."
+   },
+   {
+    "b": "Colorful, very Roman interiors.",
+    "t": "Designed by Tommaso Ziffer, with yellow walls, engravings, plaster reliefs and black and white floors."
+   },
+   {
+    "b": "A Sicilian-inspired spa.",
+    "t": "Plus the Julep cocktail bar for an evening drink."
+   }
+  ],
+  "know": [
+   {
+    "b": "I prefer the de Russie.",
+    "t": "Same family, a few minutes away. The <a href=\"hotel-de-russie-rome.html\">de Russie</a>&rsquo;s large courtyard, renovated rooms and spa with an indoor pool made it the stronger stay for me."
+   },
+   {
+    "b": "It&rsquo;s a busy area.",
+    "t": "The top of the Spanish Steps is crowded from morning to night. For quiet, the <a href=\"hotel-eden-rome.html\">Eden</a> is a short walk away on a calm residential street."
+   },
+   {
+    "b": "Compare the rest of Rome.",
+    "t": "The <a href=\"hassler-roma.html\">Hassler</a> next door for tradition, the <a href=\"bulgari-hotel-rome.html\">Bulgari</a> for big rooms and energy, and <a href=\"casa-monti-rome.html\">Casa Monti</a> for something younger and more fun."
+   },
+   {
+    "b": "Transfers and drivers, arranged.",
+    "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
+   }
+  ],
+  "verdict": "Nice, with a great rooftop and a spot at the top of the Spanish Steps. But if you&rsquo;re choosing between the Rocco Forte hotels in Rome, I prefer its sister, the de Russie.",
+  "perks_html": "Work with me and you get two things: Fora perks, and an advisor who personalizes your stay, from the room I request to what&rsquo;s arranged before you arrive. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My Featured Destinations",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-10-19",
+   "city": "Rome",
+   "country": "IT"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/de-la-ville/press-courtyard.jpg",
+    "alt": "Hotel de la Ville&rsquo;s courtyard, with red and white striped umbrellas over tables and salmon-pink walls with green shutters",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The courtyard"
+   },
+   {
+    "src": "/images/hotels/de-la-ville/press-salon.jpg",
+    "alt": "A Hotel de la Ville salon with yellow walls hung with engravings, teal damask curtains and a black and white marble floor",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Colorful, very Roman interiors"
+   },
+   {
+    "src": "/images/hotels/de-la-ville/press-lobby.jpg",
+    "alt": "Hotel de la Ville&rsquo;s reception, with a marble desk, plaster reliefs on sage walls and a black and white zigzag floor",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The reception"
+   },
+   {
+    "src": "/images/hotels/de-la-ville/press-bedroom.jpg",
+    "alt": "A Hotel de la Ville bedroom with green velvet curtains, a yellow loveseat and a balcony looking out to umbrella pines",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Rooms with views of the pines"
+   },
+   {
+    "src": "/images/hotels/de-la-ville/press-bathroom.jpg",
+    "alt": "A Hotel de la Ville bathroom with a freestanding tub, marble walls, a hexagon tile floor and a double vanity",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Marble bathrooms"
+   }
+  ]
+ },
+ {
+  "slug": "casa-monti-rome",
+  "name": "Casa Monti",
+  "plain_name": "Casa Monti",
+  "short_name": "Casa Monti",
+  "island": "Rome",
+  "island_page": "featured-destinations.html",
+  "locale": "Rome, Italy",
+  "img_dir": "hotels/casa-monti",
+  "hero_img": "",
+  "img2": "",
+  "seo_title": "Casa Monti Review, Rome: A Hip Boutique Hotel For Younger Couples (2026)",
+  "tagline": "So cute. A great boutique hotel in the heart of Rome, surrounded by authentic trattorias, for younger couples who want something hip and fun.",
+  "meta_desc": "Honest Casa Monti review from a travel advisor who visited in October 2026: a cute, hip boutique hotel in Monti from the team behind Le Fantaisie in Paris, with a beautiful rooftop restaurant, a lively downstairs restaurant, a spa couples can book privately, and real Roman trattorias all around.",
+  "style_label": "Hip boutique hotel",
+  "perfect_for": "Younger couples and honeymooners who want something hip, young and fun",
+  "region_label": "Region",
+  "region_html": "Monti, Rome, Italy",
+  "rank_text": "My pick for something other than classic luxury",
+  "rank_href": "featured-destinations.html",
+  "stat1_num": "",
+  "stat1_label": "",
+  "stat2_num": "Real",
+  "stat2_label": "Roman Trattorias All Around",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Casa Monti earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
+  "intro": [
+   "Casa Monti was so cute. It&rsquo;s a really great boutique hotel right in the heart of Rome.",
+   "The neighborhood is the real thing. There are authentic Roman trattorias all around, and when I visited on a Sunday, real Romans were having lunch at them.",
+   "It&rsquo;s from the same company as Le Fantaisie in Paris, and it shows: super cool patterns, curtains that hide the TV, a beautiful rooftop restaurant and a lively restaurant downstairs. The staff were super kind and welcoming."
+  ],
+  "stood_out": [
+   {
+    "b": "The neighborhood.",
+    "t": "Authentic Roman trattorias all around, full of Romans having Sunday lunch."
+   },
+   {
+    "b": "The design.",
+    "t": "Super cool patterns, and curtains that hide the TV. You can tell it&rsquo;s from the team behind Le Fantaisie in Paris."
+   },
+   {
+    "b": "Two restaurants.",
+    "t": "A beautiful rooftop restaurant and a lively one downstairs."
+   },
+   {
+    "b": "A spa you can privatize.",
+    "t": "Book it just for the two of you, which makes it great for couples."
+   },
+   {
+    "b": "The staff.",
+    "t": "Super kind and welcoming."
+   }
+  ],
+  "know": [
+   {
+    "b": "Who it suits best.",
+    "t": "Younger couples, especially on their honeymoon, who want something more hip, young and fun than a grand hotel."
+   },
+   {
+    "b": "An alternative to classic luxury.",
+    "t": "If the <a href=\"hassler-roma.html\">Hassler</a> or the <a href=\"hotel-de-russie-rome.html\">de Russie</a> feel too traditional, this is the one I&rsquo;d send you to. For a palazzo by the Pantheon with the same real-Rome energy, look at <a href=\"orient-express-la-minerva-rome.html\">La Minerva</a>."
+   },
+   {
+    "b": "Ask me about the private spa.",
+    "t": "I&rsquo;ll arrange it before you arrive so it&rsquo;s set for your stay."
+   },
+   {
+    "b": "Transfers and drivers, arranged.",
+    "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
+   }
+  ],
+  "verdict": "So cute. A great boutique hotel in the heart of Rome, with real trattorias all around, a beautiful rooftop, a spa couples can have to themselves and a kind, welcoming team. A great option for anyone who wants something other than the classic luxury hotels.",
+  "perks_html": "Work with me and you get two things: Fora perks, and an advisor who personalizes your stay, from the room I request to what&rsquo;s arranged before you arrive. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My Featured Destinations",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-10-19",
+   "city": "Rome",
+   "country": "IT"
+  }
  },
  {
   "slug": "the-st-regis-rome",
