@@ -5168,6 +5168,123 @@
   ]
  },
  {
+  "slug": "hassler-roma",
+  "name": "Hotel Hassler Roma",
+  "plain_name": "Hotel Hassler Roma",
+  "short_name": "the Hassler",
+  "island": "Rome",
+  "island_page": "featured-destinations.html",
+  "locale": "Rome, Italy",
+  "img_dir": "hotels/hassler-rome",
+  "hero_img": "press-spanish-steps.jpg",
+  "img2": "press-spanish-steps.jpg",
+  "hide_hero_in_gallery": true,
+  "seo_title": "Hotel Hassler Roma Review: Traditional Luxury Above The Spanish Steps (2026)",
+  "tagline": "A very nice, very traditional luxury hotel right at the top of the Spanish Steps, with Michelin-starred dining on the roof and a beautiful courtyard restaurant.",
+  "meta_desc": "Honest Hotel Hassler Roma review from a travel advisor who visited in October 2026: traditional luxury at the top of the Spanish Steps, Michelin-starred rooftop dining, the courtyard restaurant, the busy location, and the new wellness and gym area opening in 2027.",
+  "style_label": "Traditional grand hotel",
+  "perfect_for": "Travelers who love classic, traditional luxury and want to be at the heart of the action",
+  "region_label": "Region",
+  "region_html": "Top of the Spanish Steps, Rome, Italy",
+  "rank_text": "Traditional luxury above the Spanish Steps",
+  "rank_href": "featured-destinations.html",
+  "stat1_num": "",
+  "stat1_label": "",
+  "stat2_num": "Michelin",
+  "stat2_label": "Starred Dining On The Roof",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "The Hassler earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
+  "intro": [
+   "The Hassler is a very nice luxury hotel, right at the top of the Spanish Steps.",
+   "It&rsquo;s a very traditional hotel, and that&rsquo;s the appeal. The dining is a highlight, with a Michelin-starred restaurant on the roof and a beautiful restaurant in the courtyard.",
+   "The location is about as central as Rome gets, which also means it&rsquo;s a busy area. You step out the door and you&rsquo;re in the crowds at the Steps."
+  ],
+  "stood_out": [
+   {
+    "b": "Right above the Spanish Steps.",
+    "t": "You can&rsquo;t get much more iconic, or more central."
+   },
+   {
+    "b": "Michelin-starred dining on the roof.",
+    "t": "With the rooftops of Rome laid out below you."
+   },
+   {
+    "b": "The courtyard restaurant.",
+    "t": "Beautiful, and a calmer place to eat than the streets outside."
+   },
+   {
+    "b": "A very traditional hotel.",
+    "t": "Classic luxury, for travelers who want Rome&rsquo;s grand-hotel style."
+   }
+  ],
+  "know": [
+   {
+    "b": "It&rsquo;s a busy area.",
+    "t": "The Steps draw crowds from morning to night. If you want quiet, the <a href=\"hotel-eden-rome.html\">Eden</a> is a few minutes away on a calm residential street."
+   },
+   {
+    "b": "Wellness is coming in 2027.",
+    "t": "The Hassler is building a large new wellness and gym area that opens in 2027. Until then, if a spa and gym matter, look at the <a href=\"bulgari-hotel-rome.html\">Bulgari</a> or the <a href=\"corinthia-rome.html\">Corinthia</a>."
+   },
+   {
+    "b": "Compare the rest of Rome.",
+    "t": "The <a href=\"hotel-de-russie-rome.html\">de Russie</a> for the garden, <a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> for a real Roman neighborhood and the <a href=\"the-st-regis-rome.html\">St. Regis</a> for spectacle."
+   },
+   {
+    "b": "Transfers and drivers, arranged.",
+    "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
+   }
+  ],
+  "verdict": "A very nice, very traditional luxury hotel right above the Spanish Steps, with Michelin-starred dining on the roof and a beautiful courtyard restaurant. Just know the area is busy, and the new wellness and gym area won&rsquo;t open until 2027.",
+  "perks_html": "Work with me and you get two things: Fora perks, and an advisor who personalizes your stay, from the room I request to what&rsquo;s arranged before you arrive. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My Featured Destinations",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-10-19",
+   "city": "Rome",
+   "country": "IT"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/hassler-rome/press-spanish-steps.jpg",
+    "alt": "The Spanish Steps and Trinit&agrave; dei Monti at sunrise, with Hotel Hassler Roma at the top of the Steps",
+    "w": 1223,
+    "h": 1600,
+    "caption": "Right at the top of the Spanish Steps"
+   },
+   {
+    "src": "/images/hotels/hassler-rome/press-bath-view.jpg",
+    "alt": "A freestanding tub in a black marble Hotel Hassler Roma bathroom, with windows over the rooftops to St. Peter&rsquo;s",
+    "w": 1024,
+    "h": 683,
+    "caption": "Views over the rooftops to St. Peter&rsquo;s"
+   },
+   {
+    "src": "/images/hotels/hassler-rome/press-canopy-bedroom.jpg",
+    "alt": "A Hotel Hassler Roma bedroom with a fabric-covered canopy bed, damask walls and a gilded frame",
+    "w": 1280,
+    "h": 1600,
+    "caption": "Very traditional rooms"
+   },
+   {
+    "src": "/images/hotels/hassler-rome/press-bedroom.jpg",
+    "alt": "A Hotel Hassler Roma bedroom framed by an arched doorway, with a studded headboard and crystal lamps",
+    "w": 1600,
+    "h": 1154,
+    "caption": "Classic luxury"
+   },
+   {
+    "src": "/images/hotels/hassler-rome/press-bathroom-garden.jpg",
+    "alt": "A bright Hotel Hassler Roma bathroom with a double vanity and a balcony door open to the trees",
+    "w": 1600,
+    "h": 1065,
+    "caption": "Bathrooms opening to the trees"
+   }
+  ]
+ },
+ {
   "slug": "the-st-regis-rome",
   "name": "The St. Regis Rome",
   "plain_name": "The St. Regis Rome",
