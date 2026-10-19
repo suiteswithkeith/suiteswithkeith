@@ -5018,6 +5018,131 @@
   }
  },
  {
+  "slug": "bulgari-hotel-rome",
+  "name": "Bulgari Hotel Roma",
+  "plain_name": "Bulgari Hotel Roma",
+  "short_name": "the Bulgari",
+  "island": "Rome",
+  "island_page": "featured-destinations.html",
+  "locale": "Rome, Italy",
+  "img_dir": "hotels/bulgari-rome",
+  "hero_img": "hero.jpg",
+  "img2": "hero.jpg",
+  "hide_hero_in_gallery": true,
+  "seo_title": "Bulgari Hotel Roma Review: Spectacular, And Big Rooms (2026)",
+  "tagline": "Spectacular, with base rooms the size of other hotels&rsquo; junior suites, marble and mosaics everywhere, and more places to eat and drink than I could count.",
+  "meta_desc": "Honest Bulgari Hotel Roma review from a travel advisor who visited in October 2026: very large base rooms, marble and mosaic bathrooms, a lively, sophisticated scene, the rooftop bar and pizza restaurant, an affordable trattoria, and the biggest gym in Rome.",
+  "style_label": "Modern and lively (Bulgari Hotels &amp; Resorts)",
+  "perfect_for": "Travelers who want space, energy and great dining without leaving the hotel",
+  "region_label": "Region",
+  "region_html": "Piazza Augusto Imperatore, Rome, Italy",
+  "rank_text": "Spectacular, with the biggest base rooms in Rome",
+  "rank_href": "featured-destinations.html",
+  "stat1_num": "",
+  "stat1_label": "",
+  "stat2_num": "The",
+  "stat2_label": "Biggest Gym I Saw In Rome",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "The Bulgari earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
+  "intro": [
+   "For me, the Bulgari is spectacular.",
+   "The base rooms are very large. At a lot of hotels they&rsquo;d be called deluxe rooms or even junior suites, so you know you&rsquo;re getting a solid room size at these rates. In central Rome, that matters.",
+   "It&rsquo;s very modern, with lots of marble and incredible mosaics in the bathrooms. And it&rsquo;s a lively hotel, almost like an EDITION, but much more sophisticated."
+  ],
+  "stood_out": [
+   {
+    "b": "Very large base rooms.",
+    "t": "What other hotels would sell as a deluxe room or a junior suite, so the entry rate already buys real space."
+   },
+   {
+    "b": "Marble and mosaics.",
+    "t": "Very modern design, lots of marble, and incredible mosaics in the bathrooms."
+   },
+   {
+    "b": "A lively, sophisticated scene.",
+    "t": "Almost like an EDITION, but much more polished."
+   },
+   {
+    "b": "So many places to eat and drink.",
+    "t": "A beautiful rooftop bar and pizza restaurant, another bar on the floor below it, and more. Honestly, I&rsquo;m not even sure how many there are."
+   },
+   {
+    "b": "A trattoria with fair prices.",
+    "t": "Downstairs there&rsquo;s a classic Roman trattoria with dishes that are actually affordable, like &euro;18 pastas. I loved that."
+   },
+   {
+    "b": "The biggest gym I saw in Rome.",
+    "t": "Massive, with serious equipment, plus a spa."
+   }
+  ],
+  "know": [
+   {
+    "b": "The entry rooms are the value.",
+    "t": "Because the base category is so generous, you often don&rsquo;t need to upgrade to get space. I&rsquo;ll tell you when a higher category is worth it."
+   },
+   {
+    "b": "It&rsquo;s lively, not hushed.",
+    "t": "If you want quiet and calm, the <a href=\"hotel-eden-rome.html\">Eden</a> above the Spanish Steps is the one I&rsquo;d pick."
+   },
+   {
+    "b": "Compare the rest of Rome.",
+    "t": "The <a href=\"hotel-de-russie-rome.html\">de Russie</a> for the garden, <a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> for a real Roman neighborhood, the <a href=\"the-st-regis-rome.html\">St. Regis</a> for spectacle and the new <a href=\"corinthia-rome.html\">Corinthia</a> for space and a spa."
+   },
+   {
+    "b": "Transfers and drivers, arranged.",
+    "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
+   }
+  ],
+  "verdict": "Spectacular. Base rooms the size of junior suites elsewhere, marble and mosaics, a lively and sophisticated scene, more restaurants and bars than I could count, and the biggest gym in Rome.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Bulgari personally. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My Featured Destinations",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-10-19",
+   "city": "Rome",
+   "country": "IT"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/bulgari-rome/rooftop-arches.jpg",
+    "alt": "The Bulgari Hotel Roma rooftop at sunset, a herringbone brick walkway under green arches lined with lounge seating",
+    "w": 800,
+    "h": 1414,
+    "caption": "The rooftop bar at sunset"
+   },
+   {
+    "src": "/images/hotels/bulgari-rome/terrace-sunset.jpg",
+    "alt": "A Bulgari Hotel Roma terrace table under a white umbrella at sunset, looking over trees and rooftops",
+    "w": 800,
+    "h": 1413,
+    "caption": "Terrace dining over the rooftops"
+   },
+   {
+    "src": "/images/hotels/bulgari-rome/dome-view.jpg",
+    "alt": "A church dome and cypress trees framed by a travertine window at the Bulgari Hotel Roma at dusk",
+    "w": 800,
+    "h": 1403,
+    "caption": "Domes and cypresses at dusk"
+   },
+   {
+    "src": "/images/hotels/bulgari-rome/room-hallway.jpg",
+    "alt": "The entry hall of a Bulgari Hotel Roma room, with wood-paneled wardrobes, an oak floor and patterned curtains",
+    "w": 800,
+    "h": 1401,
+    "caption": "Even the base rooms are large"
+   },
+   {
+    "src": "/images/hotels/bulgari-rome/gym.jpg",
+    "alt": "The Bulgari Hotel Roma gym, with Technogym racks, benches and plates against warm wood paneling",
+    "w": 800,
+    "h": 1406,
+    "caption": "The biggest gym I saw in Rome"
+   }
+  ]
+ },
+ {
   "slug": "the-st-regis-rome",
   "name": "The St. Regis Rome",
   "plain_name": "The St. Regis Rome",
