@@ -4612,62 +4612,115 @@
   "img_dir": "destinations",
   "hero_img": "de-russie.jpg",
   "img2": "de-russie.jpg",
-  "tagline": "A hidden garden between Piazza del Popolo and the Spanish Steps &mdash; understated and elegant.",
-  "meta_desc": "Keith's take on Hotel de Russie in Rome — a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.",
+  "tagline": "I loved this hotel. A beautiful, large courtyard that&rsquo;s the star of the property, renovated rooms with the cutest lemon and orange ceilings, and a real spa with an indoor pool.",
+  "meta_desc": "Honest Hotel de Russie review from a travel advisor who visited in October 2026: the large courtyard that&rsquo;s the star of the property, renovated rooms with lemon and orange ceilings, the spa and indoor pool, a stunning suite with fantastic views, and why he prefers it to its sister, the Hotel de la Ville.",
   "style_label": "Garden retreat (Rocco Forte)",
-  "perfect_for": "Rome first-timers, couples, understated luxury",
+  "perfect_for": "Couples, Rome first-timers, travelers who want a spa and a beautiful courtyard in the center of Rome",
   "region_label": "Region",
   "region_html": "Piazza del Popolo, Rome, Italy",
   "rank_text": "Featured on my Italy collection",
   "rank_href": "featured-destinations.html",
   "stat1_num": "",
   "stat1_label": "",
-  "stat2_num": "Hidden",
-  "stat2_label": "Garden Between Popolo And The Spanish Steps",
+  "stat2_num": "The",
+  "stat2_label": "Courtyard, The Star Of The Property",
   "know_heading": "The Fine Print, From Your Advisor",
   "cta_line": "The de Russie earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
   "intro": [
-   "Each of my featured Rome hotels answers a different brief, and the de Russie&rsquo;s is the garden. My one-liner for it: a hidden garden between Piazza del Popolo and the Spanish Steps, understated and elegant.",
-   "The secret garden is the whole magic. Terraced up the Pincio hill behind the hotel, it delivers something no other address in the centro storico can — birdsong and greenery in the exact center of Rome, with the Popolo obelisk one door away and the Spanish Steps a short stroll.",
-   "Understated is the operative word. The de Russie doesn't do Belle Époque spectacle or nightly rituals — it does quiet, confident elegance. Just know the street out front is busy: step outside and you&rsquo;re in the crowds between Popolo and the Steps."
+   "I loved this hotel, and I preferred it to its sister property, the Hotel de la Ville.",
+   "The beautiful, large courtyard is really the star of the property. It&rsquo;s where everyone gathers, between Piazza del Popolo and the Spanish Steps, and it feels like an escape from the city around it.",
+   "The rooms have been renovated, and they have the cutest ceilings, each one either lemon or orange themed. There&rsquo;s a nice spa with an indoor pool, and I saw a stunning suite with fantastic views."
   ],
   "stood_out": [
    {
-    "b": "The hidden garden.",
-    "t": "Terraced into the Pincio hill — the calmest square meters in central Rome, and the reason it stays on my list."
+    "b": "The courtyard.",
+    "t": "Beautiful and large, and really the star of the property."
+   },
+   {
+    "b": "Renovated rooms with the cutest ceilings.",
+    "t": "Each one is either lemon or orange themed."
+   },
+   {
+    "b": "A nice spa with an indoor pool.",
+    "t": "Rare in the centro storico, and a real draw after a day on foot."
+   },
+   {
+    "b": "A stunning suite.",
+    "t": "With fantastic views. Ask me and I&rsquo;ll tell you which one."
    },
    {
     "b": "The location.",
-    "t": "Between Piazza del Popolo and the Spanish Steps — the golden triangle of Rome on foot."
-   },
-   {
-    "b": "The understatement.",
-    "t": "Elegant without performing — for travelers who find grandeur tiring, this is the antidote."
+    "t": "Between Piazza del Popolo and the Spanish Steps, the golden triangle of Rome on foot."
    }
   ],
   "know": [
    {
-    "b": "If you want spectacle, look next door on my list.",
-    "t": "The <a href=\"the-st-regis-rome.html\">St. Regis</a> does Belle Époque grandeur and a nightly champagne sabrage — a completely different Rome."
+    "b": "I prefer it to its sister, the de la Ville.",
+    "t": "Both are Rocco Forte hotels near the Spanish Steps. For me the de Russie is the stronger stay, and the courtyard is a big part of why."
    },
    {
-    "b": "Garden-side rooms are the request.",
-    "t": "Views over the terraces rather than the street — I ask for them on every booking."
+    "b": "The street out front is busy.",
+    "t": "Step outside and you&rsquo;re in the crowds between Popolo and the Steps. For a quiet street, the <a href=\"hotel-eden-rome.html\">Eden</a>, my top overall pick in Rome, is the one."
    },
    {
-    "b": "Compare it with the Eden, my top pick.",
-    "t": "The <a href=\"hotel-eden-rome.html\">Hotel Eden</a> is my top overall pick in Rome, on a quieter street and usually at a slightly lower rate. My featured page frames them side by side."
+    "b": "Compare the rest of Rome.",
+    "t": "The <a href=\"bulgari-hotel-rome.html\">Bulgari</a> for big rooms and energy, the <a href=\"hassler-roma.html\">Hassler</a> for tradition above the Steps, <a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> for a real Roman neighborhood and the <a href=\"the-st-regis-rome.html\">St. Regis</a> for spectacle."
    },
    {
     "b": "Transfers and drivers, arranged.",
     "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
    }
   ],
-  "verdict": "A hidden garden in the exact center of Rome — the pick for travelers who want greenery and understated elegance.",
+  "verdict": "I loved it. A beautiful, large courtyard that&rsquo;s the star of the property, renovated rooms with lemon and orange ceilings, a spa with an indoor pool, and a stunning suite with fantastic views. I prefer it to its sister, the de la Ville.",
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the de Russie personally. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "hide_hero_in_gallery": true,
+  "seo_title": "Hotel de Russie Review, Rome: The Courtyard Is The Star (2026)",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-10-19",
+   "city": "Rome",
+   "country": "IT"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/de-russie/courtyard.jpg",
+    "alt": "Hotel de Russie&rsquo;s large courtyard, with white umbrellas over tables and salmon-pink walls with blue-gray shutters and flowering balconies",
+    "w": 800,
+    "h": 1408,
+    "caption": "The courtyard, the star of the property"
+   },
+   {
+    "src": "/images/hotels/de-russie/courtyard-bar.jpg",
+    "alt": "The bar in Hotel de Russie&rsquo;s courtyard, with arched blue shelves of bottles and a mosaic-fronted marble counter",
+    "w": 800,
+    "h": 1399,
+    "caption": "The bar in the courtyard"
+   },
+   {
+    "src": "/images/hotels/de-russie/restaurant-mural.jpg",
+    "alt": "A hand-painted mural of palms, a lemon tree and a bird in a Hotel de Russie dining room",
+    "w": 800,
+    "h": 1397,
+    "caption": "Painted walls in the restaurant"
+   },
+   {
+    "src": "/images/hotels/de-russie/lemon-ceiling.jpg",
+    "alt": "A Hotel de Russie room ceiling papered with lemons, pears and blossoms on a pale blue background",
+    "w": 800,
+    "h": 1403,
+    "caption": "A lemon ceiling"
+   },
+   {
+    "src": "/images/hotels/de-russie/orange-ceiling.jpg",
+    "alt": "A Hotel de Russie room ceiling papered with oranges, pears and blossoms above olive curtains",
+    "w": 800,
+    "h": 1408,
+    "caption": "And an orange one"
+   }
+  ]
  },
  {
   "slug": "hotel-eden-rome",
@@ -5236,7 +5289,7 @@
    }
   ],
   "verdict": "A very nice, very traditional luxury hotel right above the Spanish Steps, with Michelin-starred dining on the roof and a beautiful courtyard restaurant. Just know the area is busy, and the new wellness and gym area won&rsquo;t open until 2027.",
-  "perks_html": "Work with me and you get two things: Fora perks, and an advisor who personalizes your stay, from the room I request to what&rsquo;s arranged before you arrive. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Hassler personally. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All My Rankings",
   "cta2_href": "rankings.html",
