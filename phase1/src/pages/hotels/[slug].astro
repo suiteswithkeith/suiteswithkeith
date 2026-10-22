@@ -28,7 +28,7 @@ const reviewSchema = h.review && JSON.stringify({
 ---
 <Layout
   canonical={`hotels/${h.slug}.html`}
-  title={h.seo_title ? `${h.seo_title} | Suites With Keith` : `${h.plain_name} Review — ${h.locale} | Suites With Keith`}
+  title={h.seo_title ? `${h.seo_title} | Suites With Keith` : `${h.plain_name} Review: ${h.locale} | Suites With Keith`}
   description={h.meta_desc}
   preload={heroSrc}
   ctaLabel={`Book ${h.short_name}`}
@@ -191,7 +191,7 @@ const reviewSchema = h.review && JSON.stringify({
         <label for="q-name">And where do I send the recommendation?</label>
         <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
         <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
-        <label for="q-details" style="margin-top:2px;">Anything else? Nights, budget, occasion &mdash; optional</label>
+        <label for="q-details" style="margin-top:2px;">Anything else? Nights, budget, occasion (optional)</label>
         <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
       </div>
       <button type="submit" class="btn" data-gtag-label="hotel_inquiry_send" data-gtag-location="hotel_cta">Send</button>
