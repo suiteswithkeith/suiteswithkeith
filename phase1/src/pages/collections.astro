@@ -9,7 +9,7 @@ const issues = [
     badge: 'Available now',
     meta: 'Issue No. 02 &middot; Fall 2026',
     h2: 'The Napa &amp; Sonoma Collection',
-    p: 'Ten hotels across four bases &mdash; Calistoga, St. Helena, Carneros and Sonoma County &mdash; with where to eat and taste town by town, and the ones I&rsquo;d recommend without hesitation.',
+    p: 'Ten hotels across four bases (Calistoga, St. Helena, Carneros and Sonoma County), with where to eat and taste town by town, and the ones I&rsquo;d recommend without hesitation.',
     cta: 'Read the issue',
     external: false,
   },
@@ -29,14 +29,14 @@ const upcoming = [
   {
     meta: 'Issue No. 03 &middot; Early 2027',
     h3: 'The Italy Collection',
-    p: 'Lake Como to the Amalfi Coast, worked the same way &mdash; weeks on the ground, every hotel toured or slept in, and an honest read on who each one is for.',
+    p: 'Lake Como to the Amalfi Coast, worked the same way: weeks on the ground, every hotel toured or slept in, and an honest read on who each one is for.',
   },
 ];
 ---
 <Layout
   canonical="collections.html"
   title="The Collections | Suites With Keith"
-  description="Firsthand travel journals from Keith — one region at a time, every hotel seen in person. Issue No. 02, The Napa & Sonoma Collection, is out now. Next: Italy, early 2027."
+  description="Firsthand travel journals from Keith, one region at a time, every hotel seen in person. Issue No. 02, The Napa & Sonoma Collection, is out now. Next: Italy, early 2027."
   current="collections"
   footerSubscribe={false}
 >
@@ -57,8 +57,7 @@ const upcoming = [
       <article class={`issue reveal${n % 2 ? ' flip' : ''}`}>
         <figure class="issue-cover">
           {i.external
-            ? <a href={i.href} target="_blank" rel="noopener"><img src={i.img} alt="" width="1600" height="1100" loading={n === 0 ? 'eager' : 'lazy'} decoding="async" /><span class="issue-badge" set:html={i.badge} /></a>
-            : <a href={i.href}><img src={i.img} alt="" width="1600" height="1100" loading={n === 0 ? 'eager' : 'lazy'} decoding="async" /><span class="issue-badge" set:html={i.badge} /></a>}
+            ? <a href={i.href} target="_blank" rel="noopener"><img src={i.img} alt="" width="1600" height="1100" loading={n === 0 ? 'eager' : 'lazy'} decoding="async" /><span class="issue-badge" set:html={i.badge} /></a>: <a href={i.href}><img src={i.img} alt="" width="1600" height="1100" loading={n === 0 ? 'eager' : 'lazy'} decoding="async" /><span class="issue-badge" set:html={i.badge} /></a>}
         </figure>
         <div class="issue-body">
           <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:10px;" set:html={i.meta} />
@@ -66,8 +65,7 @@ const upcoming = [
           <p class="body-2" style="margin-top:16px; max-width:52ch;" set:html={i.p} />
           <p style="margin-top:24px;">
             {i.external
-              ? <a class="btn btn-ghost" href={i.href} target="_blank" rel="noopener" data-gtag-label="issue_waitlist" data-gtag-location="collections"><span set:html={i.cta} /> &rarr;</a>
-              : <a class="btn" href={i.href} data-gtag-label="issue_read" data-gtag-location="collections"><span set:html={i.cta} /> &rarr;</a>}
+              ? <a class="btn btn-ghost" href={i.href} target="_blank" rel="noopener" data-gtag-label="issue_waitlist" data-gtag-location="collections"><span set:html={i.cta} /> &rarr;</a>: <a class="btn" href={i.href} data-gtag-label="issue_read" data-gtag-location="collections"><span set:html={i.cta} /> &rarr;</a>}
           </p>
         </div>
       </article>
@@ -110,7 +108,7 @@ const upcoming = [
   <div class="container" style="max-width:860px; text-align:center;">
     <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">What a Collection is</span>
     <h2 class="display-l reveal">Everything in here, I saw myself.</h2>
-    <p class="body-2 reveal" style="margin:22px auto 0; max-width:54ch;">Each Collection is one region, worked properly &mdash; weeks on the ground, every hotel toured or slept in, and an honest read on who each one is actually for.</p>
+    <p class="body-2 reveal" style="margin:22px auto 0; max-width:54ch;">Each Collection is one region, worked properly. That means weeks on the ground, every hotel toured or slept in, and an honest read on who each one is actually for.</p>
     <p class="body-2 reveal" style="margin:16px auto 0; max-width:54ch;">No press trips. No sponsored placements. Nothing recommended I haven&rsquo;t stood in.</p>
   </div>
 </section>

@@ -5,12 +5,12 @@ import Ask from '../components/Ask.astro';
 // Four bases, as the issue orders them (p.4 of Issue No. 02). Each card lists
 // its hotels as links, so the card itself is a <div>, not an <a>.
 const toc = [
-  { num: '01', img: '/images/napa/four-seasons-1.jpg', w: 1600, h: 1100, name: 'Calistoga', p: 'Springs and cabernet &mdash; the top of the valley, where nobody is in a hurry.', hotels: [['Four Seasons Napa Valley', '/hotels/four-seasons-napa-valley.html'], ['Solage', '/hotels/solage-calistoga.html']] },
-  { num: '02', img: '/images/napa/meadowood-1.jpg', w: 1600, h: 1100, name: 'St. Helena &amp; Rutherford', p: 'The valley&rsquo;s main street &mdash; its quiet center, and its highest standard.', hotels: [['Meadowood', '/hotels/meadowood-napa-valley.html'], ['Auberge du Soleil', '/hotels/auberge-du-soleil-napa.html'], ['Alila Napa Valley', '/hotels/alila-napa-valley.html']] },
-  { num: '03', img: '/images/napa/stanly-ranch.jpg', w: 1600, h: 1100, name: 'Napa &amp; Carneros', p: 'Sparkling and cool mornings &mdash; where the valley opens up toward the bay.', hotels: [['Stanly Ranch', '/hotels/stanly-ranch-napa.html'], ['Carneros Resort &amp; Spa', '/hotels/carneros-resort-napa.html']] },
-  { num: '04', img: '/images/napa/montage-1.jpg', w: 1600, h: 1100, name: 'Sonoma County', p: 'Slower, greener, less booked &mdash; and in no hurry to impress you.', hotels: [['Montage Healdsburg', '/hotels/montage-healdsburg.html'], ['MacArthur Place', '/hotels/macarthur-place-sonoma.html'], ['Madrona Manor', '/hotels/madrona-manor-healdsburg.html']] },
+  { num: '01', img: '/images/napa/four-seasons-1.jpg', w: 1600, h: 1100, name: 'Calistoga', p: 'Springs and cabernet at the top of the valley, where nobody is in a hurry.', hotels: [['Four Seasons Napa Valley', '/hotels/four-seasons-napa-valley.html'], ['Solage', '/hotels/solage-calistoga.html']] },
+  { num: '02', img: '/images/napa/meadowood-1.jpg', w: 1600, h: 1100, name: 'St. Helena &amp; Rutherford', p: 'The valley&rsquo;s main street: its quiet center, and its highest standard.', hotels: [['Meadowood', '/hotels/meadowood-napa-valley.html'], ['Auberge du Soleil', '/hotels/auberge-du-soleil-napa.html'], ['Alila Napa Valley', '/hotels/alila-napa-valley.html']] },
+  { num: '03', img: '/images/napa/stanly-ranch.jpg', w: 1600, h: 1100, name: 'Napa &amp; Carneros', p: 'Sparkling and cool mornings, where the valley opens up toward the bay.', hotels: [['Stanly Ranch', '/hotels/stanly-ranch-napa.html'], ['Carneros Resort &amp; Spa', '/hotels/carneros-resort-napa.html']] },
+  { num: '04', img: '/images/napa/montage-1.jpg', w: 1600, h: 1100, name: 'Sonoma County', p: 'Slower, greener, less booked, and in no hurry to impress you.', hotels: [['Montage Healdsburg', '/hotels/montage-healdsburg.html'], ['MacArthur Place', '/hotels/macarthur-place-sonoma.html'], ['Madrona Manor', '/hotels/madrona-manor-healdsburg.html']] },
 ];
-const more = { href: '/napa-sonoma.html', img: '/images/napa/madrona.jpg', w: 1800, h: 1200, name: 'The Rankings', p: 'All ten, ranked from personal stays &mdash; with the offers live right now.', cta: 'See the Rankings' };
+const more = { href: '/napa-sonoma.html', img: '/images/napa/madrona.jpg', w: 1800, h: 1200, name: 'The Rankings', p: 'All ten, ranked from personal stays, with the offers live right now.', cta: 'See the Rankings' };
 
 // The Edit (p.52), with "My Favorite Hotel" leading as it does on the Greece page.
 const edit = [
@@ -35,14 +35,14 @@ const edit = [
 const perks = [
   ['Upgrades, prioritized', 'Preferred-partner guests sit at the top of the upgrade list, sometimes confirmed before arrival.'],
   ['Breakfast, daily', 'Breakfast for two at nearly every house in this collection, every morning of the stay.'],
-  ['A credit on the folio', 'Property credit for spa, dining, or wine at most of these hotels &mdash; at a few it is among the strongest in the valley.'],
-  ['A person to call', 'You arrive as my guest, not a confirmation number, and if anything wobbles you call me, not a help line.'],
+  ['A credit on the folio', 'Property credit for spa, dining, or wine at most of these hotels. At a few it is among the strongest in the valley.'],
+  ['A person to call', 'You arrive as my guest, and if anything wobbles you call me directly.'],
 ];
 ---
 <Layout
   canonical="napa-sonoma-collection.html"
   title="The Napa & Sonoma Collection | Luxury Wine Country Hotel Guide"
-  description="Issue No. 02 of The Collections — a firsthand luxury guide to Napa Valley and Sonoma County: ten hotels across four bases, plus where to eat and taste, town by town."
+  description="Issue No. 02 of The Collections: a firsthand luxury guide to Napa Valley and Sonoma County, with ten hotels across four bases, plus where to eat and taste, town by town."
   current="collections"
   preload="/video/napa-hero-poster.jpg"
 >
@@ -62,7 +62,7 @@ const perks = [
   <div class="container">
     <p class="eyebrow">The Collections &middot; Issue No. 02 &middot; Fall 2026</p>
     <h1 class="display-xl" style="margin-top:18px;">The Napa &amp; Sonoma <em>Collection</em></h1>
-    <p class="sub">A Suites With Keith Collection &mdash; ten hotels across four bases, several years of returning, and the ones I&rsquo;d recommend without hesitation.</p>
+    <p class="sub">A Suites With Keith Collection: ten hotels across four bases, several years of returning, and the ones I&rsquo;d recommend without hesitation.</p>
     <div class="hero-ctas">
       <a class="btn" href="#issue" data-gtag-label="read_issue" data-gtag-location="hero">Read the issue</a>
       <a class="btn btn-ghost on-shadow" href="#inquire" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);" data-gtag-label="start_planning" data-gtag-location="hero">Plan the trip</a>
@@ -74,8 +74,8 @@ const perks = [
 <section class="section">
   <div class="container" style="max-width:820px; text-align:center;">
     <span class="eyebrow reveal" style="display:block; margin-bottom:26px;">A note from Keith</span>
-    <blockquote class="story-quote reveal" style="margin:0 auto; max-width:36ch;">Napa and Sonoma are personal to me &mdash; for many reasons, they&rsquo;re probably why I started Suites With Keith to begin with. I grew up twenty-five minutes south, in Marin County, and for years my work brought me back to these valleys almost monthly. <b>Over time, the people who run these hotels became personal friends.</b></blockquote>
-    <p class="stamp plain reveal" style="margin-top:30px;">Ten hotels across four bases &mdash; where I&rsquo;d stay, eat, and taste. Every house here is a Fora or Virtuoso preferred partner.</p>
+    <blockquote class="story-quote reveal" style="margin:0 auto; max-width:36ch;">Napa and Sonoma are personal to me. For many reasons, they&rsquo;re probably why I started Suites With Keith to begin with. I grew up twenty-five minutes south, in Marin County, and for years my work brought me back to these valleys almost monthly. <b>Over time, the people who run these hotels became personal friends.</b></blockquote>
+    <p class="stamp plain reveal" style="margin-top:30px;">Ten hotels across four bases, and where I&rsquo;d stay, eat, and taste. Every house here is a Fora or Virtuoso preferred partner.</p>
     <p class="gc-signature reveal">Keith</p>
   </div>
 </section>
@@ -90,7 +90,7 @@ const perks = [
     <div class="gc-frame reveal">
       <div style="position:relative;padding-top:max(60%,326px);height:0;width:100%"><iframe title="The Napa & Sonoma Collection | Issue No. 02 | Luxury Wine Country Travel Guide by Suites With Keith" allow="clipboard-write; autoplay; encrypted-media; fullscreen; picture-in-picture" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?backgroundColor=%23f5f1e9&backgroundColorFullscreen=%23f5f1e9&d=the_napa_sonoma_collection&themeMainColor=%231F1F1F&themeSecondaryColor=%23C8A46B&u=suiteswithkeith"></iframe></div>
     </div>
-    <p class="stamp plain reveal" style="text-align:center; margin-top:18px;">Prefer a printed copy? The Collection is also available as a physical keepsake edition &mdash; <a href="mailto:keith.pence@fora.travel?subject=The%20Napa%20%26%20Sonoma%20Collection%20%E2%80%94%20Physical%20Copy" style="color:var(--brass);">request one here</a>.</p>
+    <p class="stamp plain reveal" style="text-align:center; margin-top:18px;">Prefer a printed copy? The Collection is also available as a physical keepsake edition, and you can <a href="mailto:keith.pence@fora.travel?subject=The%20Napa%20%26%20Sonoma%20Collection%20%E2%80%94%20Physical%20Copy" style="color:var(--brass);">request one here</a>.</p>
   </div>
 </section>
 
