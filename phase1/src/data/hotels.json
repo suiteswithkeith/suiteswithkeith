@@ -3835,8 +3835,8 @@
   "island_page": "featured-destinations.html",
   "locale": "Santa Margherita Ligure, Italy",
   "img_dir": "liguria",
-  "hero_img": "miramare-terrace-restaurant.jpg",
-  "img2": "miramare-terrace-restaurant.jpg",
+  "hero_img": "miramare-pool-bay-view.jpg",
+  "img2": "miramare-pool-and-tower.jpg",
   "tagline": "The real Italian Riviera: a restored grand hotel in a town where the Milanese still summer, at about half the price of Portofino.",
   "meta_desc": "Keith stayed at Grand Hotel Miramare in Santa Margherita Ligure, the authentic Italian Riviera alternative to Belmond Splendido in Portofino at about half the price, and a Virtuoso partner. Which rooms to book, families, the beach club, and how to build it into an Italy honeymoon with Lake Como and Tuscany.",
   "style_label": "Restored Belle &Eacute;poque grand hotel, since 1904 (Virtuoso)",
@@ -4062,6 +4062,20 @@
   "cta2_text": "All My Rankings",
   "cta2_href": "rankings.html",
   "gallery": [
+   {
+    "src": "/images/liguria/miramare-pool-bay-view.jpg",
+    "alt": "Red loungers around the pool at Grand Hotel Miramare, with a stone pine, a palm and the hills of the Tigullio Gulf behind",
+    "caption": "Poolside, looking across the bay",
+    "w": 1800,
+    "h": 1365
+   },
+   {
+    "src": "/images/liguria/miramare-coastline-portofino.jpg",
+    "alt": "A sailboat anchored off the rocky, pine-covered coast between Santa Margherita and Portofino",
+    "caption": "The coast toward Portofino",
+    "w": 1492,
+    "h": 1967
+   },
    {
     "src": "/images/liguria/miramare-facade.jpg",
     "alt": "The white Belle Époque facade of Grand Hotel Miramare with green shutters, painted details and wrought-iron balconies",
