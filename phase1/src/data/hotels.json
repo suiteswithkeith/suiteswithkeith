@@ -4548,6 +4548,79 @@
   "cta2_href": "rankings.html"
  },
  {
+  "slug": "borgo-pignano-florence",
+  "name": "Borgo Pignano Florence",
+  "plain_name": "Borgo Pignano Florence",
+  "short_name": "Borgo Pignano Florence",
+  "island": "Florence",
+  "island_page": "florence.html",
+  "locale": "Florence, Italy",
+  "img_dir": "florence",
+  "hero_img": "borgo-pignano-florence.jpg",
+  "img2": "borgo-pignano-florence.jpg",
+  "gallery": [],
+  "tagline": "The new city house from the family behind Borgo Pignano: a contemporary borgo on the largest hotel grounds in Florence, five minutes from the center.",
+  "meta_desc": "Keith has slept at Borgo Pignano Florence, the new sister house to Borgo Pignano in Volterra, set in the hills just outside the center. Who it suits, which room to ask for, and Fora perks when you book through him.",
+  "style_label": "Contemporary city borgo (Borgo Pignano)",
+  "perfect_for": "Return visitors, couples, anyone who wants space and quiet with Florence close by",
+  "region_label": "Region",
+  "region_html": "The hills just outside Florence, Italy",
+  "rank_text": "",
+  "rank_href": "",
+  "stat1_num": "5 Minutes",
+  "stat1_label": "From Central Florence",
+  "stat2_num": "Hourly",
+  "stat2_label": "Complimentary Shuttle",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Tell me who&rsquo;s traveling and when. I&rsquo;ll request the right room, set up the shuttle and the spa before you land, and build the rest of the trip around it.",
+  "intro": [
+   "Borgo Pignano Florence is the new city house from the family behind <a href=\"borgo-pignano-volterra-tuscany.html\">Borgo Pignano</a>, one of my favorite estates in Tuscany. It sits just outside the center, in much the same setting as <a href=\"collegio-alla-querce-florence.html\">Collegio alla Querce</a>, and it stands on the largest piece of land of any hotel in Florence. A complimentary shuttle runs into town every hour, and the drive is about five minutes.",
+   "The original building holds most of the 33 rooms, and four to six new buildings around it are designed to blend in, which is where the borgo feel comes from. The design is contemporary, with beautiful marble throughout, and the rooms are all quite different from one another. The hardware and finishes are very high quality, the kind that will hold up over time.",
+   "I stayed shortly after opening. The team got me into my room within minutes of a very late arrival, with a plate of charcuterie, wine and water waiting, and pressing I sent down overnight came back first thing in the morning. They stay in touch over WhatsApp and answer fast. This is my pick for return visitors and anyone who values peace, quiet and space over stepping straight out into the streets."
+  ],
+  "stood_out": [
+   {
+    "b": "Space, close to the city.",
+    "t": "The largest hotel grounds in Florence, with the center five minutes away on the hourly shuttle."
+   },
+   {
+    "b": "Design and finishes.",
+    "t": "Contemporary rooms with a lot of beautiful marble, every one a little different, and very high quality hardware throughout."
+   },
+   {
+    "b": "Warm, attentive service.",
+    "t": "A generous team, quick on WhatsApp, and thoughtful touches like food waiting in the room after a late arrival."
+   },
+   {
+    "b": "The gym and the spa.",
+    "t": "A well-equipped gym with a squat rack, dumbbells to 34kg and cardio machines. The spa sits in the basement, with a shared steam room and sauna and a unique tunnel connected to it."
+   }
+  ],
+  "know": [
+   {
+    "b": "Ask for Vite.",
+    "t": "If you&rsquo;re booking the entry category, Vite is the room I&rsquo;d request. It&rsquo;s a standalone building in its own private corner, and a good size for the category."
+   },
+   {
+    "b": "Main building over the villa.",
+    "t": "Five rooms sit in a separate villa by the entrance, which can be booked whole as a five-bedroom villa or used room by room when the main building is full. The rooms match the main building, but the villa is close to Via Bolognese and you&rsquo;ll hear the road. I&rsquo;d request the main building."
+   },
+   {
+    "b": "Book spa treatments early.",
+    "t": "There are only two treatment rooms. Tell me what you&rsquo;d like and I&rsquo;ll reserve it before you arrive."
+   },
+   {
+    "b": "Choosing between the hills hotels?",
+    "t": "It sits in the same price tier as <a href=\"collegio-alla-querce-florence.html\">Collegio alla Querce</a>, which I&rsquo;ve also stayed at. <a href=\"belmond-villa-san-michele-florence.html\">Villa San Michele</a> is a category of its own. If you&rsquo;d rather be in the center, look at <a href=\"four-seasons-hotel-firenze.html\">Four Seasons Firenze</a>."
+   }
+  ],
+  "verdict": "Space, calm and contemporary design at the edge of Florence, with the city five minutes away and the countryside estate one drive further.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Borgo Pignano Florence personally. As a Fora advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My Florence Guide",
+  "cta2_text": "Borgo Pignano, Volterra",
+  "cta2_href": "hotels/borgo-pignano-volterra-tuscany.html"
+ },
+ {
   "slug": "hotel-lungarno-florence",
   "name": "Hotel Lungarno",
   "plain_name": "Hotel Lungarno",
@@ -6074,7 +6147,7 @@
    },
    {
     "b": "There&rsquo;s a sister house in Florence.",
-    "t": "Borgo Pignano also runs a Florence address. I&rsquo;ve stayed at both and can pair the city with the countryside in one trip."
+    "t": "Borgo Pignano also runs a <a href=\"borgo-pignano-florence.html\">Florence address</a>. I&rsquo;ve stayed at both and can pair the city with the countryside in one trip."
    },
    {
     "b": "Comparing Tuscany estates?",
