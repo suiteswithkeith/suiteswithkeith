@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>The Gullifers &amp; Lynne in Greece | Suites With Keith</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  :root { --container-max: 1160px; --grid-gap: 32px; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  .jc-eyebrow { font-family: var(--font-body); font-size: 0.72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.22em; color: var(--olive-deep); display: block; }
+  .jc-container { max-width: var(--container-max); margin: 0 auto; padding-left: 40px; padding-right: 40px; }
+
+  /* Hero */
+  .jc-hero { position: relative; width: 100%; height: 86vh; min-height: 560px; }
+  .jc-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; }
+  .jc-hero .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(28,28,26,0.15) 0%, rgba(28,28,26,0.60) 100%); }
+  .jc-hero .inner { position: absolute; left: 0; right: 0; bottom: 0; max-width: var(--container-max); margin: 0 auto; padding: 0 40px 64px; }
+  .jc-hero .jc-eyebrow { color: var(--cream); }
+  .jc-hero h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2.4rem, 5.5vw, 4rem); color: var(--cream); margin: 14px 0 10px; max-width: 820px; line-height: 1.1; }
+  .jc-hero p { font-family: var(--font-body); font-weight: 300; font-size: 1.05rem; color: var(--cream); margin: 0; }
+
+  /* Intro */
+  .jc-intro { padding: 90px 0 70px; }
+  .jc-intro .grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--grid-gap); align-items: start; }
+  .jc-intro p { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.25rem, 2.2vw, 1.6rem); color: var(--charcoal); margin: 0; line-height: 1.45; }
+  .jc-intro .small { font-family: var(--font-body); font-weight: 300; font-size: 1rem; color: var(--ink-soft); margin-top: 22px; line-height: 1.65; }
+  .jc-intro .small strong { font-weight: 500; color: var(--charcoal); }
+  .jc-numbers { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 26px; }
+  .jc-numbers > div { background: var(--white); border: 1px solid var(--hairline); border-left: 3px solid var(--olive); padding: 16px 18px; }
+  .jc-numbers .lbl { display: block; font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); }
+  .jc-numbers a { display: block; font-family: var(--font-display); font-weight: 500; font-size: 1.5rem; color: var(--charcoal); text-decoration: none; margin-top: 6px; letter-spacing: 0.01em; }
+  .jc-numbers .note strong { font-weight: 600; color: var(--charcoal); }
+  .jc-numbers .note { display: block; font-family: var(--font-body); font-weight: 300; font-size: 0.95rem; color: var(--ink-soft); margin-top: 4px; }
+  @media (max-width: 600px) { .jc-numbers { grid-template-columns: 1fr; } }
+
+
+  /* Date grid: the clickable days */
+  .jc-strip { padding-bottom: 80px; }
+  .jc-strip .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  .jc-strip .cell { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--hairline); border-top: 3px solid var(--olive); padding: 18px 18px 16px; text-decoration: none; color: inherit; transition: background 180ms, transform 180ms; }
+  .jc-strip .cell:hover { background: var(--cream-deep); transform: translateY(-2px); }
+  .jc-strip .num { font-family: var(--font-body); font-size: 0.74rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.18em; color: var(--olive-deep); }
+  .jc-strip .dates { font-family: var(--font-display); font-weight: 500; font-size: 1.75rem; line-height: 1.1; color: var(--charcoal); margin-top: 8px; }
+  .jc-strip .place { font-family: var(--font-body); font-weight: 400; font-size: 1.02rem; color: var(--charcoal); margin-top: 6px; line-height: 1.3; }
+
+  /* One section per day */
+  .jc-daysec { padding: 64px 0; border-top: 1px solid var(--hairline); scroll-margin-top: 16px; }
+  .jc-daysec .grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: var(--grid-gap); align-items: start; }
+  .jc-daysec .grid.solo { grid-template-columns: 1fr; max-width: 820px; }
+  .jc-daysec .media { position: sticky; top: 24px; }
+  .jc-daysec .media img { width: 100%; aspect-ratio: 3/2; object-fit: cover; display: block; }
+  .jc-daysec .media img + img { margin-top: 20px; }
+  .jc-daysec h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2rem, 3.4vw, 2.7rem); color: var(--charcoal); margin: 10px 0 4px; line-height: 1.1; }
+  .jc-daysec .sub { font-family: var(--font-body); font-weight: 300; font-size: 1.25rem; color: var(--ink-soft); margin: 0 0 22px; }
+  .jc-daysec .sub em { font-style: italic; color: var(--olive-deep); }
+  .jc-daysec .jc-item { grid-template-columns: 124px 1fr; gap: 16px; padding: 12px 0; border-top: 1px solid var(--hairline); }
+  .jc-daysec .jc-item:first-of-type { border-top: 0; }
+  .jc-daysec .jc-item .time { font-size: 1rem; padding-top: 2px; }
+  .jc-daysec .jc-item .what { font-size: 1.1rem; }
+  .jc-hotel { background: var(--cream-deep); padding: 22px 24px; margin: 18px 0 6px; }
+  .jc-hotel .jc-label { margin-bottom: 8px; }
+  .jc-hotel .hotel { font-family: var(--font-display); font-weight: 500; font-size: 1.4rem; color: var(--charcoal); }
+  .jc-hotel .hotel a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--hairline); }
+  .jc-hotel .hotel-note { font-family: var(--font-body); font-weight: 300; font-size: 1.05rem; color: var(--charcoal); margin-top: 6px; line-height: 1.55; }
+  .jc-hotel .hotel-note strong { font-weight: 500; }
+  .jc-hotel ul { margin: 8px 0 0; padding-left: 18px; }
+  .jc-hotel li { margin-bottom: 6px; }
+  .jc-hotel li::marker { color: var(--olive); }
+  .jc-hotel .jc-ref { margin-top: 10px; }
+  .jc-hotel .jc-note { margin-top: 14px; }
+  .jc-back { display: inline-block; margin-top: 22px; font-family: var(--font-body); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); }
+
+  .jc-section { padding-bottom: 90px; }
+  .jc-section h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 24px; }
+  .jc-section .lede { font-family: var(--font-body); font-weight: 300; font-size: 1rem; color: var(--charcoal); max-width: 760px; line-height: 1.65; margin: 0 0 36px; }
+
+  /* Transfer cards */
+  .jc-transfers { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--grid-gap); }
+  .jc-card { background: var(--white); border: 1px solid var(--hairline); padding: 26px 28px; }
+  .jc-tag { display: inline-block; font-family: var(--font-body); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--olive-deep); border: 1px solid var(--olive); padding: 4px 10px; }
+  .jc-card .route { font-family: var(--font-display); font-weight: 500; font-size: 1.2rem; color: var(--charcoal); margin: 12px 0 10px; }
+  .jc-card .detail { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); line-height: 1.55; margin: 0; }
+  .jc-card .detail strong { font-weight: 500; color: var(--charcoal); }
+  .jc-footnote { font-family: var(--font-body); font-weight: 300; font-size: 0.92rem; color: var(--ink-soft); max-width: 760px; line-height: 1.6; margin: 28px 0 0; }
+
+  /* Stops */
+  .jc-stop { padding-bottom: 90px; scroll-margin-top: 24px; }
+  .jc-stop .grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--grid-gap); align-items: start; }
+  .jc-stop .grid.solo { grid-template-columns: 1fr; max-width: 760px; }
+  .jc-stop .media img { width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block; }
+  .jc-stop .media img.wide { aspect-ratio: 3/2; }
+  .jc-stop .media img + img { margin-top: 32px; }
+  .jc-stop .media { position: sticky; top: 24px; }
+  .jc-stop h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin: 12px 0 20px; }
+  .jc-label { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); margin-bottom: 6px; }
+  .jc-stop .hotel { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; color: var(--charcoal); }
+  .jc-stop .hotel a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--hairline); }
+  .jc-stop .hotel-note { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); margin-top: 2px; line-height: 1.55; }
+  .jc-stop .hotel-note strong { font-weight: 500; color: var(--charcoal); }
+  .jc-ref { font-family: var(--font-body); font-weight: 500; font-size: 0.95rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 6px; }
+  .jc-divider { border-top: 1px solid var(--hairline); margin: 22px 0; }
+  .jc-highlights { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 1.05rem; color: var(--charcoal); line-height: 1.6; }
+  .jc-highlights li { padding-left: 18px; position: relative; margin-bottom: 10px; }
+  .jc-highlights li::before { content: ""; position: absolute; left: 0; top: 10px; width: 5px; height: 5px; border-radius: 50%; background: var(--olive); }
+  .jc-note { border-left: 2px solid var(--olive); padding: 6px 0 6px 14px; margin-top: 18px; font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--charcoal); line-height: 1.55; }
+
+  /* Day by day */
+  .jc-days { margin-top: 26px; background: var(--cream-deep); padding: 24px; }
+  .jc-days .head { font-family: var(--font-body); font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-soft); margin-bottom: 8px; }
+  .jc-day { border-top: 1px solid var(--hairline); padding: 18px 0 10px; }
+  .jc-day .date { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; color: var(--charcoal); margin-bottom: 8px; }
+  .jc-day .date em { font-style: italic; color: var(--olive-deep); }
+  .jc-item { display: grid; grid-template-columns: 112px 1fr; gap: 14px; padding: 8px 0; }
+  .jc-item .time { font-family: var(--font-body); font-size: 0.95rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--olive-deep); }
+  .jc-item .what { font-family: var(--font-body); font-weight: 300; font-size: 1.06rem; color: var(--charcoal); line-height: 1.55; }
+  .jc-item .what strong { font-weight: 500; }
+  .jc-item .what a { display: inline-block; margin-left: 6px; font-size: 0.8rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); }
+
+  .jc-item .what ul, .jc-item .what ol, .hotel-note ul { margin: 6px 0 0; padding-left: 18px; }
+  .jc-item .what li, .hotel-note li { margin-bottom: 6px; padding-left: 2px; }
+  .jc-item .what li::marker, .hotel-note li::marker { color: var(--olive); font-weight: 500; }
+
+  /* Dining */
+  .jc-dining-group { margin-bottom: 44px; }
+  .jc-dining-group:last-child { margin-bottom: 0; }
+  .jc-dining-group .place { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 22px; }
+  .jc-dining-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+  .jc-dining-card .name { font-family: var(--font-display); font-weight: 500; font-size: 1.1rem; margin-bottom: 10px; }
+  .jc-dining-card .name a { color: var(--charcoal); text-decoration: none; border-bottom: 1px solid var(--hairline); }
+  .jc-dining-card .meta { font-family: var(--font-body); font-weight: 300; font-size: 0.98rem; color: var(--ink-soft); }
+  .jc-badge { display: inline-block; margin-top: 14px; font-family: var(--font-body); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--cream); background: var(--olive); padding: 5px 12px; }
+  .jc-badge.soft { color: var(--olive-deep); background: transparent; border: 1px solid var(--olive); }
+
+  /* Confirmations */
+  .jc-confirm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+  .jc-confirm-col .title { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 4px; }
+  .jc-confirm { padding: 12px 0; border-bottom: 1px solid var(--hairline); }
+  .jc-confirm .name { font-family: var(--font-display); font-weight: 500; font-size: 1rem; color: var(--charcoal); }
+  .jc-confirm .when { font-family: var(--font-body); font-weight: 300; font-size: 0.95rem; color: var(--ink-soft); margin-top: 2px; }
+  .jc-confirm .ref { font-family: var(--font-body); font-weight: 500; font-size: 1rem; color: var(--olive-deep); letter-spacing: 0.04em; margin-top: 4px; }
+
+  /* Fine print */
+  .jc-fine { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+  .jc-fine .title { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 14px; }
+  .jc-fine ul { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--charcoal); line-height: 1.55; }
+  .jc-fine li { padding-left: 18px; position: relative; margin-bottom: 10px; }
+  .jc-fine li::before { content: ""; position: absolute; left: 0; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: var(--olive); }
+  .jc-fine p { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; color: var(--ink-soft); line-height: 1.55; margin: 0 0 12px; }
+
+  /* Support */
+  .jc-support { padding-bottom: 90px; }
+  .jc-support .grid { border-top: 1px solid var(--hairline); padding-top: 36px; display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--grid-gap); align-items: start; }
+  .jc-support .big { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--charcoal); margin-top: 12px; line-height: 1.15; }
+  .jc-support p { font-family: var(--font-body); font-weight: 300; font-size: 1.02rem; line-height: 1.7; color: var(--charcoal); margin: 0 0 18px; }
+  .jc-phone-row { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; border-top: 1px solid var(--hairline); padding-top: 20px; }
+  .jc-phone-row .label { font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); }
+  .jc-phone-row a { font-family: var(--font-display); font-weight: 500; font-size: 1.6rem; letter-spacing: 0.02em; color: var(--charcoal); text-decoration: none; }
+  .jc-sig { font-family: var(--font-body); font-weight: 300; font-size: 0.9rem; color: var(--ink-soft); margin-top: 14px; }
+
+  .jc-footer { border-top: 1px solid var(--hairline); padding: 32px 40px; text-align: center; font-family: var(--font-body); font-size: 0.78rem; color: var(--ink-soft); line-height: 1.8; }
+
+  @media (max-width: 900px) {
+    .jc-container { padding-left: 24px; padding-right: 24px; }
+    .jc-hero { height: 72vh; min-height: 480px; }
+    .jc-hero .inner { padding: 0 24px 44px; }
+    .jc-intro { padding: 64px 0 48px; }
+    .jc-intro .grid, .jc-stop .grid, .jc-support .grid { grid-template-columns: 1fr; }
+    .jc-strip .grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .jc-strip .cell { padding: 14px 14px 12px; }
+    .jc-strip .dates { font-size: 1.45rem; }
+    .jc-daysec { padding: 44px 0; }
+    .jc-daysec .grid { grid-template-columns: 1fr; }
+    .jc-daysec .media { position: static; }
+    .jc-daysec .jc-item { grid-template-columns: 96px 1fr; }
+    .jc-transfers, .jc-dining-grid, .jc-confirm-grid, .jc-fine { grid-template-columns: 1fr; }
+    .jc-stop .media { position: static; order: 0 !important; }
+    .jc-stop .copy { order: 1 !important; }
+    .jc-stop .media img { aspect-ratio: 3/2; }
+    .jc-stop, .jc-section, .jc-strip, .jc-support { padding-bottom: 64px; }
+    .jc-item { grid-template-columns: 84px 1fr; }
+    .jc-days { padding: 18px; }
+    .jc-card { padding: 22px 22px; }
+    .jc-footer { padding: 28px 24px; }
+  }
+
+  /* ===== Cinematic layer ===== */
+  /* Hero: taller, slow drift, deeper shade, scroll cue */
+  .jc-hero { height: 94vh; min-height: 600px; overflow: hidden; }
+  .jc-hero img { transform: scale(1.02); transform-origin: 50% 40%; }
+  .js .jc-hero img { animation: heroDrift 26s ease-out forwards; }
+  @keyframes heroDrift { from { transform: scale(1.02); } to { transform: scale(1.10); } }
+  .jc-hero .shade { background: linear-gradient(180deg, rgba(20,20,18,0.10) 0%, rgba(20,20,18,0.25) 45%, rgba(20,20,18,0.72) 100%); }
+  .jc-hero .inner { padding-bottom: 76px; }
+  .jc-hero h1 { text-shadow: 0 2px 24px rgba(0,0,0,0.25); }
+  .jc-hero h1 em { font-style: italic; font-weight: 400; }
+  .jc-hero .cue { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); width: 1px; height: 36px; background: linear-gradient(180deg, rgba(245,241,233,0) 0%, rgba(245,241,233,0.9) 100%); }
+  .js .jc-hero .cue { animation: cue 2.2s ease-in-out infinite; }
+  @keyframes cue { 0%,100% { opacity: .35; transform: translate(-50%, 0); } 50% { opacity: 1; transform: translate(-50%, 8px); } }
+  .js .jc-hero .inner > * { opacity: 0; transform: translateY(14px); animation: rise 900ms cubic-bezier(.2,.6,.2,1) forwards; }
+  .js .jc-hero .inner > *:nth-child(1) { animation-delay: 200ms; }
+  .js .jc-hero .inner > *:nth-child(2) { animation-delay: 380ms; }
+  .js .jc-hero .inner > *:nth-child(3) { animation-delay: 560ms; }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+
+  /* Chapter bands: full-bleed photo when the location changes */
+  .jc-chapter { position: relative; height: 64vh; min-height: 400px; overflow: hidden; margin-top: 8px; }
+  .jc-chapter img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform: scale(1.06); transition: transform 1.6s cubic-bezier(.2,.6,.2,1); }
+  .jc-chapter.in img { transform: scale(1.0); }
+  .jc-chapter .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,20,18,0.05) 0%, rgba(20,20,18,0.15) 50%, rgba(20,20,18,0.68) 100%); }
+  .jc-chapter .inner { position: absolute; left: 0; right: 0; bottom: 0; max-width: var(--container-max); margin: 0 auto; padding: 0 40px 52px; }
+  .jc-chapter .jc-eyebrow { color: rgba(245,241,233,0.85); }
+  .jc-chapter h2 { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: clamp(2.6rem, 6.5vw, 5rem); line-height: 1; color: var(--cream); margin: 10px 0 8px; text-shadow: 0 2px 24px rgba(0,0,0,0.25); }
+  .jc-chapter p { font-family: var(--font-body); font-weight: 300; font-size: 1.1rem; color: var(--cream); margin: 0; }
+  .js .jc-chapter .inner > * { opacity: 0; transform: translateY(12px); transition: opacity 700ms cubic-bezier(.2,.6,.2,1), transform 700ms cubic-bezier(.2,.6,.2,1); }
+  .js .jc-chapter.in .inner > * { opacity: 1; transform: none; }
+  .js .jc-chapter.in .inner > *:nth-child(2) { transition-delay: 120ms; }
+  .js .jc-chapter.in .inner > *:nth-child(3) { transition-delay: 240ms; }
+
+  /* Days: soft reveal as they scroll in */
+  .js .jc-daysec { opacity: 0; transform: translateY(16px); transition: opacity 600ms cubic-bezier(.2,.6,.2,1), transform 600ms cubic-bezier(.2,.6,.2,1); }
+  .js .jc-daysec.in { opacity: 1; transform: none; }
+  .jc-daysec .sub::after { content: ""; display: block; width: 44px; height: 2px; background: var(--olive); margin-top: 16px; }
+  .jc-daysec .media img { box-shadow: 0 18px 40px -22px rgba(20,20,18,0.45); }
+  .jc-daysec .cap { font-family: var(--font-body); font-size: 0.78rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); margin: 10px 0 0; }
+  .jc-daysec .cap + img { margin-top: 20px; }
+
+  /* Sticky date bar, appears once the date grid scrolls away */
+  .jc-datebar { position: sticky; top: 0; z-index: 50; background: rgba(245,241,233,0.92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--hairline); transform: translateY(-100%); opacity: 0; transition: transform 320ms cubic-bezier(.2,.6,.2,1), opacity 320ms; }
+  .jc-datebar.on { transform: none; opacity: 1; }
+  .jc-datebar .row { max-width: var(--container-max); margin: 0 auto; padding: 0 40px; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .jc-datebar .row::-webkit-scrollbar { display: none; }
+  .jc-datebar a { flex: 0 0 auto; padding: 12px 12px; font-family: var(--font-body); font-size: 0.86rem; font-weight: 500; color: var(--ink-soft); text-decoration: none; border-bottom: 2px solid transparent; white-space: nowrap; }
+  .jc-datebar a:hover { color: var(--charcoal); }
+  .jc-datebar a.cur { color: var(--charcoal); border-bottom-color: var(--olive); }
+  .jc-datebar a b { font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; margin-right: 4px; }
+  .jc-datebar a.x { margin-left: 10px; padding-left: 16px; border-left: 1px solid var(--hairline); border-bottom-width: 2px; }
+  #transfers { scroll-margin-top: 58px; }
+  .jc-daysec { scroll-margin-top: 58px; }
+  .jc-chapter { scroll-margin-top: 48px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .js .jc-hero img, .js .jc-hero .cue, .js .jc-hero .inner > * { animation: none; opacity: 1; transform: none; }
+    .js .jc-daysec, .js .jc-chapter .inner > * { opacity: 1; transform: none; transition: none; }
+    .jc-chapter img { transform: none; transition: none; }
+  }
+  @media (max-width: 900px) {
+    .jc-hero { height: 82vh; min-height: 520px; }
+    .jc-chapter { height: 52vh; min-height: 340px; }
+    .jc-chapter .inner { padding: 0 24px 36px; }
+    .jc-datebar .row { padding: 0 12px; }
+    .jc-datebar a { padding: 12px 10px; font-size: 0.82rem; }
+  }
+
+  /* ===== Print ===== */
+  @media print {
+    @page { size: Letter; margin: 0.5in; }
+    html { scroll-behavior: auto; }
+    body { background: #fff; }
+    .js .jc-hero img, .js .jc-hero .inner > *, .js .jc-daysec, .js .jc-chapter .inner > * { animation: none !important; opacity: 1 !important; transform: none !important; transition: none !important; }
+    .jc-chapter img { transform: none !important; }
+    .jc-hero { height: 4.6in; min-height: 0; break-after: avoid; }
+    .jc-hero .inner { padding-bottom: 36px; }
+    .jc-hero .cue, .jc-datebar, .jc-back, .jc-strip .go { display: none !important; }
+    .jc-intro { padding: 36px 0 24px; }
+    .jc-strip { padding-bottom: 28px; }
+    .jc-strip .grid { grid-template-columns: repeat(5, 1fr); gap: 8px; }
+    .jc-strip .cell { padding: 10px 12px; border-top-width: 2px; }
+    .jc-strip .dates { font-size: 1.15rem; }
+    .jc-strip .place { font-size: 0.85rem; }
+    .jc-chapter { height: 3.2in; min-height: 0; break-before: page; break-inside: avoid; margin-top: 0; }
+    .jc-chapter .inner { padding-bottom: 26px; }
+    .jc-chapter h2 { font-size: 2.4rem; }
+    .jc-daysec { padding: 24px 0; break-inside: auto; }
+    .jc-daysec .grid { grid-template-columns: 1.4fr 1fr; gap: 20px; }
+    .jc-daysec .media { position: static; }
+    .jc-daysec .media img { box-shadow: none; aspect-ratio: 3/2; }
+    .jc-daysec h2 { font-size: 1.7rem; }
+    .jc-daysec .sub { font-size: 1rem; margin-bottom: 12px; }
+    .jc-daysec .jc-item { padding: 8px 0; break-inside: avoid; }
+    .jc-daysec .jc-item .what { font-size: 0.95rem; }
+    .jc-daysec .jc-item .time { font-size: 0.85rem; }
+    .jc-hotel { break-inside: avoid; padding: 14px 16px; }
+    .jc-card, .jc-confirm, .jc-dining-card { break-inside: avoid; }
+    .jc-section, .jc-support { padding-bottom: 32px; }
+    .jc-section h2 { font-size: 1.6rem; margin: 8px 0 14px; }
+    .jc-transfers { gap: 14px; }
+    .jc-card { padding: 16px 18px; }
+    .jc-numbers { gap: 10px; grid-template-columns: repeat(3, 1fr); }
+    .jc-numbers .note { font-size: 0.82rem; }
+    .jc-numbers > div { padding: 10px 14px; }
+    .jc-numbers a { font-size: 1.15rem; }
+    a { color: inherit; text-decoration: none; }
+    .jc-item .what a { border-bottom: 0; }
+    .jc-footer { padding: 18px 0 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="jc-hero">
+  <img src="../images/islands/athens-hero.jpg" alt="The Parthenon, Athens" style="object-position: 50% 45%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Private Itinerary &middot; Prepared by Suites With Keith</span>
+    <h1>Tim, Kathryn &amp; Lynne <em>in Greece</em></h1>
+    <p>Athens &middot; Nafplio &middot; Arcadia &middot; Mani &middot; Olympia &middot; Folegandros &middot; Sifnos &nbsp;&middot;&nbsp; May 17 to June 15, 2027</p>
+  </div>
+  <span class="cue" aria-hidden="true"></span>
+</header>
+
+<section class="jc-intro">
+  <div class="jc-container">
+    <div class="grid">
+      <div><span class="jc-eyebrow">Your Trip, Day by Day</span></div>
+      <div>
+        <p>Twenty-seven nights in Greece: a road trip through the Peloponnese, then three islands by ferry. Everything below runs in order, with confirmation numbers under each item.</p>
+        <p class="small"><strong>Who travels when:</strong> Tim and Kathryn drive the Peloponnese from May 19 to 30, from Nafplio through Arcadia and the Mani to Olympia. Lynne spends May 18 to 20 in Athens and then joins the Golftique Costa Navarino golf tour from May 20 to 30. All three of you meet in Piraeus on May 30 and travel the islands together from there.</p>
+        <p class="small"><strong>Kathryn:</strong> your passport reads <strong>Katherine</strong>, so that is the name to give at check-ins and ferry ports.</p>
+        <p class="small">Ferry times are based on the 2026 schedule and may shift slightly for 2027; I will confirm the final times. Tap any date below to jump straight to that day.</p>
+        <div class="jc-numbers">
+          <div><span class="lbl">Keith, anytime</span><a href="tel:+14152724316">+1 415-272-4316</a><span class="note">Call or text</span></div>
+          <div><span class="lbl">Emergency in Greece</span><a href="tel:112">112</a><span class="note"><strong>Police, ambulance and fire.</strong> Free from any phone, operators speak English</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-strip" id="days">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Tap a Date</span>
+    <div class="grid" style="margin-top:18px;">
+      <a class="cell" href="#may-17"><span class="num">Mon</span><div class="dates">May 17</div><div class="place">Leave Melbourne</div></a>
+      <a class="cell" href="#may-18"><span class="num">Tue</span><div class="dates">May 18</div><div class="place">Arrive Athens</div></a>
+      <a class="cell" href="#may-19"><span class="num">Wed</span><div class="dates">May 19</div><div class="place">To Nafplio</div></a>
+      <a class="cell" href="#may-20"><span class="num">Thu</span><div class="dates">May 20</div><div class="place">Nafplio</div></a>
+      <a class="cell" href="#may-21"><span class="num">Fri</span><div class="dates">May 21</div><div class="place">To Arcadia</div></a>
+      <a class="cell" href="#may-22"><span class="num">Sat</span><div class="dates">May 22</div><div class="place">Arcadia</div></a>
+      <a class="cell" href="#may-23"><span class="num">Sun</span><div class="dates">May 23</div><div class="place">Arcadia</div></a>
+      <a class="cell" href="#may-24"><span class="num">Mon</span><div class="dates">May 24</div><div class="place">To the Mani</div></a>
+      <a class="cell" href="#may-25"><span class="num">Tue</span><div class="dates">May 25</div><div class="place">Mani</div></a>
+      <a class="cell" href="#may-26"><span class="num">Wed</span><div class="dates">May 26</div><div class="place">Mani</div></a>
+      <a class="cell" href="#may-27"><span class="num">Thu</span><div class="dates">May 27</div><div class="place">To Olympia</div></a>
+      <a class="cell" href="#may-28"><span class="num">Fri</span><div class="dates">May 28</div><div class="place">Olympia</div></a>
+      <a class="cell" href="#may-29"><span class="num">Sat</span><div class="dates">May 29</div><div class="place">Olympia</div></a>
+      <a class="cell" href="#may-30"><span class="num">Sun</span><div class="dates">May 30</div><div class="place">To Piraeus</div></a>
+      <a class="cell" href="#may-31"><span class="num">Mon</span><div class="dates">May 31</div><div class="place">Ferry to Folegandros</div></a>
+      <a class="cell" href="#jun-1"><span class="num">Tue</span><div class="dates">Jun 1</div><div class="place">To AVATON</div></a>
+      <a class="cell" href="#jun-2"><span class="num">Wed</span><div class="dates">Jun 2</div><div class="place">Folegandros</div></a>
+      <a class="cell" href="#jun-3"><span class="num">Thu</span><div class="dates">Jun 3</div><div class="place">Folegandros</div></a>
+      <a class="cell" href="#jun-4"><span class="num">Fri</span><div class="dates">Jun 4</div><div class="place">Folegandros</div></a>
+      <a class="cell" href="#jun-5"><span class="num">Sat</span><div class="dates">Jun 5</div><div class="place">Ferry to Sifnos</div></a>
+      <a class="cell" href="#jun-6"><span class="num">Sun</span><div class="dates">Jun 6</div><div class="place">Sifnos</div></a>
+      <a class="cell" href="#jun-7"><span class="num">Mon</span><div class="dates">Jun 7</div><div class="place">Sifnos</div></a>
+      <a class="cell" href="#jun-8"><span class="num">Tue</span><div class="dates">Jun 8</div><div class="place">Sifnos</div></a>
+      <a class="cell" href="#jun-9"><span class="num">Wed</span><div class="dates">Jun 9</div><div class="place">To Vathi</div></a>
+      <a class="cell" href="#jun-10"><span class="num">Thu</span><div class="dates">Jun 10</div><div class="place">Vathi</div></a>
+      <a class="cell" href="#jun-11"><span class="num">Fri</span><div class="dates">Jun 11</div><div class="place">Vathi</div></a>
+      <a class="cell" href="#jun-12"><span class="num">Sat</span><div class="dates">Jun 12</div><div class="place">Vathi</div></a>
+      <a class="cell" href="#jun-13"><span class="num">Sun</span><div class="dates">Jun 13</div><div class="place">Ferry to Athens</div></a>
+      <a class="cell" href="#jun-14"><span class="num">Mon</span><div class="dates">Jun 14</div><div class="place">Fly home</div></a>
+      <a class="cell" href="#jun-15"><span class="num">Tue</span><div class="dates">Jun 15</div><div class="place">Melbourne</div></a>
+    </div>
+  </div>
+</section>
+
+<nav class="jc-datebar" id="datebar" aria-label="Jump to a day"><div class="row"><a href="#may-17"><b>17</b>May</a><a href="#may-18"><b>18</b>May</a><a href="#may-19"><b>19</b>May</a><a href="#may-20"><b>20</b>May</a><a href="#may-21"><b>21</b>May</a><a href="#may-22"><b>22</b>May</a><a href="#may-23"><b>23</b>May</a><a href="#may-24"><b>24</b>May</a><a href="#may-25"><b>25</b>May</a><a href="#may-26"><b>26</b>May</a><a href="#may-27"><b>27</b>May</a><a href="#may-28"><b>28</b>May</a><a href="#may-29"><b>29</b>May</a><a href="#may-30"><b>30</b>May</a><a href="#may-31"><b>31</b>May</a><a href="#jun-1"><b>1</b>Jun</a><a href="#jun-2"><b>2</b>Jun</a><a href="#jun-3"><b>3</b>Jun</a><a href="#jun-4"><b>4</b>Jun</a><a href="#jun-5"><b>5</b>Jun</a><a href="#jun-6"><b>6</b>Jun</a><a href="#jun-7"><b>7</b>Jun</a><a href="#jun-8"><b>8</b>Jun</a><a href="#jun-9"><b>9</b>Jun</a><a href="#jun-10"><b>10</b>Jun</a><a href="#jun-11"><b>11</b>Jun</a><a href="#jun-12"><b>12</b>Jun</a><a href="#jun-13"><b>13</b>Jun</a><a href="#jun-14"><b>14</b>Jun</a><a href="#jun-15"><b>15</b>Jun</a><a href="#transfers" class="x">Flights, ferries &amp; cars</a></div></nav>
+
+<section class="jc-daysec" id="may-17">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 01 &middot; Monday</span>
+        <h2>May 17</h2>
+        <p class="sub">Melbourne to Doha, overnight</p>
+          <div class="jc-item"><span class="time">10:40 PM</span><span class="what">Qatar Airways <strong>QR8402</strong>, Melbourne to Doha, overnight. Arrives Doha <strong>5:45 AM</strong> Tuesday.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-18">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 02 &middot; Tuesday</span>
+        <h2>May 18</h2>
+        <p class="sub">Doha to Athens</p>
+          <div class="jc-item"><span class="time">7:45 AM</span><span class="what">Qatar Airways <strong>QR203</strong>, Doha to Athens. Arrives Athens <strong>12:25 PM</strong>.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Tonight &middot; Tim &amp; Kathryn</div>
+            <div class="hotel">Sofitel Athens Airport</div>
+            <div class="hotel-note">At the airport, steps from arrivals &middot; 1 night. Booked by Tim.</div>
+          </div>
+          <div class="jc-hotel">
+            <div class="jc-label">Lynne, 2 nights</div>
+            <div class="hotel">Electra Metropolis Athens</div>
+            <div class="hotel-note">Central Athens &middot; May 18 to 20. Refundable until <strong>May 11, 2027</strong>. From May 20, Lynne is with the Golftique Costa Navarino golf group.</div>
+            <div class="jc-ref">Confirmation 9105690825274</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-chapter">
+  <img src="../images/proposals/greece-sample/img-12.jpg" alt="The Greek coast" style="object-position: 50% 55%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Two &middot; May 19&ndash;30</span>
+    <h2>The Peloponnese</h2>
+    <p>A road trip for Tim &amp; Kathryn &middot; Nafplio, Arcadia, the Mani and Olympia</p>
+  </div>
+</section>
+
+<section class="jc-daysec" id="may-19">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 03 &middot; Wednesday</span>
+        <h2>May 19</h2>
+        <p class="sub">Athens to Nafplio</p>
+          <div class="jc-item"><span class="time">Morning</span><span class="what">Tim collects the rental car at the <strong>Sofitel Athens Airport</strong>. It stays with you all the way to Piraeus, where you drop it on May 30.</span></div>
+          <div class="jc-item"><span class="time">Drive</span><span class="what">Drive to Nafplio.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 2 nights &middot; Tim &amp; Kathryn</div>
+            <div class="hotel">Opal Executive Suites</div>
+            <div class="hotel-note">Nafplio &middot; May 19 to 21. Modern suites, a 10 to 15 minute walk to the Old Town, with easy parking. Refundable until <strong>April 28, 2027</strong>.</div>
+            <div class="jc-ref">Confirmation 9104195485506</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-20">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 04 &middot; Thursday</span>
+        <h2>May 20</h2>
+        <p class="sub">Nafplio, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day in Nafplio.</span></div>
+          <div class="jc-item"><span class="time">Lynne</span><span class="what">Lynne checks out of the Electra Metropolis and joins the <strong>Golftique Costa Navarino</strong> golf group, May 20 to 30.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-21">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 05 &middot; Friday</span>
+        <h2>May 21</h2>
+        <p class="sub">Nafplio to Arcadia</p>
+          <div class="jc-item"><span class="time">Drive</span><span class="what">Check out of Opal Executive Suites and drive into the mountains of Arcadia.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 3 nights &middot; Tim &amp; Kathryn</div>
+            <div class="hotel">Manna Hotel</div>
+            <div class="hotel-note">Arcadia &middot; May 21 to 24 &middot; In the Forest Superior Room. Free cancellation until <strong>6:00 PM, May 6, 2027</strong>.</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-22">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 06 &middot; Saturday</span>
+        <h2>May 22</h2>
+        <p class="sub">Arcadia, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Manna.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-23">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 07 &middot; Sunday</span>
+        <h2>May 23</h2>
+        <p class="sub">Arcadia, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Manna.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-24">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 08 &middot; Monday</span>
+        <h2>May 24</h2>
+        <p class="sub">Arcadia to the Mani</p>
+          <div class="jc-item"><span class="time">Drive</span><span class="what">Check out of Manna and drive south to the Mani.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 3 nights &middot; Tim &amp; Kathryn</div>
+            <div class="hotel">Aria Estate Suites &amp; Spa</div>
+            <div class="hotel-note">Mani &middot; May 24 to 27 &middot; Romantic Sea View Double Room with Fireplace. Free cancellation until <strong>11:00 AM, May 10, 2027</strong>.</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-25">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 09 &middot; Tuesday</span>
+        <h2>May 25</h2>
+        <p class="sub">Mani, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Aria Estate.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-26">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 10 &middot; Wednesday</span>
+        <h2>May 26</h2>
+        <p class="sub">Mani, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Aria Estate.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-27">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 11 &middot; Thursday</span>
+        <h2>May 27</h2>
+        <p class="sub">The Mani to Olympia</p>
+          <div class="jc-item"><span class="time">Drive</span><span class="what">Check out of Aria Estate and drive up the west coast to Kourouta, near Olympia.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 3 nights &middot; Tim &amp; Kathryn</div>
+            <div class="hotel">Dexamenes Seaside Hotel</div>
+            <div class="hotel-note">Kourouta, Olympia &middot; May 27 to 30 &middot; Beachfront WineTank Suite.
+  <ul>
+    <li>Free cancellation until <strong>12:00 PM, March 28, 2027</strong></li>
+    <li>After that, 100 percent is charged for cancellations within 60 days of arrival</li>
+  </ul></div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-28">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 12 &middot; Friday</span>
+        <h2>May 28</h2>
+        <p class="sub">Olympia, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Dexamenes.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-29">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 13 &middot; Saturday</span>
+        <h2>May 29</h2>
+        <p class="sub">Olympia, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Dexamenes.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="may-30">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 14 &middot; Sunday</span>
+        <h2>May 30</h2>
+        <p class="sub">Olympia to Piraeus &middot; <em>Lynne joins you</em></p>
+          <div class="jc-item"><span class="time">Drive</span><span class="what">Check out of Dexamenes and drive to Piraeus, about <strong>3.5 to 4 hours</strong>. Return the rental car in Piraeus.</span></div>
+          <div class="jc-item"><span class="time">Lynne</span><span class="what">Lynne arrives from the golf tour and meets you at the hotel.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Tonight &middot; all three of you</div>
+            <div class="hotel">Mitsis N&rsquo;U Piraeus Port</div>
+            <div class="hotel-note">Piraeus, by the ferry port &middot; 1 night. Booked by Tim.</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-chapter">
+  <img src="../images/islands/folegandros-hero.jpg" alt="Folegandros" style="object-position: 50% 60%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Three &middot; May 31 &ndash; June 5</span>
+    <h2>Folegandros</h2>
+    <p>One night at Gundari, then four at AVATON in Chora</p>
+  </div>
+</section>
+
+<section class="jc-daysec" id="may-31">
+  <div class="jc-container">
+    <div class="grid">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 15 &middot; Monday</span>
+        <h2>May 31</h2>
+        <p class="sub">Piraeus to Folegandros</p>
+          <div class="jc-item"><span class="time">7:40 AM</span><span class="what">Ferry, Piraeus to Folegandros, <strong>business seats</strong>. Arrives <strong>12:15 PM</strong>. Times are based on the 2026 schedule and may shift slightly.</span></div>
+          <div class="jc-item"><span class="time">Car</span><span class="what">Your Folegandros rental car begins today: a <strong>Suzuki Vitara 4x4</strong>, automatic, unlimited mileage, delivered to the hotel. Port transfer details to come.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Tonight &middot; 2 rooms</div>
+            <div class="hotel">Gundari Resort</div>
+            <div class="hotel-note">Folegandros &middot; 1 night. Refundable until <strong>May 11, 2027</strong>.</div>
+            <div class="jc-ref">Tim &amp; Kathryn GAL410578875 &middot; Lynne GAL202503597</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+      <div class="media">
+        <img src="../images/hotels/gundari-1.jpg" alt="A sea-view room at Gundari">
+        <div class="cap">Gundari, Folegandros</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-1">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 16 &middot; Tuesday</span>
+        <h2>June 1</h2>
+        <p class="sub">Gundari to Chora</p>
+          <div class="jc-item"><span class="time">Drive</span><span class="what">Check out of Gundari and drive up to Chora in your Vitara.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 4 nights &middot; 2 suites</div>
+            <div class="hotel">AVATON Folegandros</div>
+            <div class="hotel-note">Chora &middot; June 1 to 5, breakfast included.
+  <ul>
+    <li>Tim &amp; Kathryn: Luxury Studio Suite (Diamond)</li>
+    <li>Lynne: Luxury Studio Suite (Earth)</li>
+    <li>A boat day during your stay: details to come</li>
+  </ul></div>
+            <div class="jc-ref">Itineraries 73561189542403 &middot; 73561187601689</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-2">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 17 &middot; Wednesday</span>
+        <h2>June 2</h2>
+        <p class="sub">Folegandros, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day on Folegandros.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-3">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 18 &middot; Thursday</span>
+        <h2>June 3</h2>
+        <p class="sub">Folegandros, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day on Folegandros.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-4">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 19 &middot; Friday</span>
+        <h2>June 4</h2>
+        <p class="sub">Folegandros, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day on Folegandros.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-chapter">
+  <img src="../images/islands/sifnos-hero.jpg" alt="Sifnos" style="object-position: 50% 55%;">
+  <div class="shade"></div>
+  <div class="inner">
+    <span class="jc-eyebrow">Chapter Four &middot; June 5&ndash;15</span>
+    <h2>Sifnos</h2>
+    <p>Four nights at NOS, four at Elies in Vathi &middot; then Athens and home</p>
+  </div>
+</section>
+
+<section class="jc-daysec" id="jun-5">
+  <div class="jc-container">
+    <div class="grid">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 20 &middot; Saturday</span>
+        <h2>June 5</h2>
+        <p class="sub">Folegandros to Sifnos</p>
+          <div class="jc-item"><span class="time">Check-out</span><span class="what">Check out of AVATON. The Folegandros rental car is collected from the hotel.</span></div>
+          <div class="jc-item"><span class="time">4:05 PM</span><span class="what">Ferry, Folegandros to Sifnos, <strong>business seats</strong>. Arrives <strong>6:10 PM</strong>. Times are based on the 2026 schedule and may shift slightly.</span></div>
+          <div class="jc-item"><span class="time">Car</span><span class="what">Your Sifnos rental car begins today: a <strong>Peugeot 3008</strong>, automatic, unlimited mileage, second driver included, delivered to the hotel. Port transfer details to come.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 4 nights &middot; 2 rooms</div>
+            <div class="hotel">NOS Hotel &amp; Villas</div>
+            <div class="hotel-note">Sifnos &middot; June 5 to 9 &middot; 2 NISOS The Classic with Sea View rooms.
+  <ul>
+    <li>Breakfast included daily</li>
+    <li><strong>Virtuoso amenities</strong> on both rooms</li>
+    <li>A boat day during your stay: details to come</li>
+  </ul></div>
+            <div class="jc-ref">Confirmation numbers to come</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+      <div class="media">
+        <img src="../images/hotels/nos-2.jpg" alt="The pool terrace at NOS, Sifnos">
+        <div class="cap">NOS Hotel &amp; Villas, Sifnos</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-6">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 21 &middot; Sunday</span>
+        <h2>June 6</h2>
+        <p class="sub">Sifnos, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day on Sifnos.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-7">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 22 &middot; Monday</span>
+        <h2>June 7</h2>
+        <p class="sub">Sifnos, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day on Sifnos.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-8">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 23 &middot; Tuesday</span>
+        <h2>June 8</h2>
+        <p class="sub">Sifnos, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day on Sifnos.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-9">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 24 &middot; Wednesday</span>
+        <h2>June 9</h2>
+        <p class="sub">NOS to Vathi</p>
+          <div class="jc-item"><span class="time">Drive</span><span class="what">Check out of NOS and drive across the island to Vathi.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Your hotel, 4 nights &middot; 2 suites</div>
+            <div class="hotel">Elies Resorts</div>
+            <div class="hotel-note">Vathi, Sifnos &middot; June 9 to 13 &middot; 2 Junior Suites, one with a sea view and one with a pool view.
+  <ul>
+    <li>Breakfast included daily</li>
+    <li>Transfer to the port included on June 13</li>
+    <li>Free cancellation until 15 days before arrival</li>
+  </ul></div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-10">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 25 &middot; Thursday</span>
+        <h2>June 10</h2>
+        <p class="sub">Vathi, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Elies.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-11">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 26 &middot; Friday</span>
+        <h2>June 11</h2>
+        <p class="sub">Vathi, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Elies.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-12">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 27 &middot; Saturday</span>
+        <h2>June 12</h2>
+        <p class="sub">Vathi, free day</p>
+          <div class="jc-item"><span class="time">All day</span><span class="what">Free day at Elies.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-13">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 28 &middot; Sunday</span>
+        <h2>June 13</h2>
+        <p class="sub">Sifnos to Athens</p>
+          <div class="jc-item"><span class="time">Check-out</span><span class="what">Check out of Elies. The Sifnos rental car is collected from the hotel, and Elies takes you to the port.</span></div>
+          <div class="jc-item"><span class="time">1:35 PM</span><span class="what">Ferry, Sifnos to Piraeus, <strong>business seats</strong>. Arrives <strong>4:05 PM</strong>. Times are based on the 2026 schedule and may shift slightly.</span></div>
+          <div class="jc-item"><span class="time">On arrival</span><span class="what">Transfer from Piraeus to the Sofitel Athens Airport. Details to come.</span></div>
+          <div class="jc-hotel">
+            <div class="jc-label">Tonight</div>
+            <div class="hotel">Sofitel Athens Airport</div>
+            <div class="hotel-note">At the airport, steps from departures &middot; 1 night.</div>
+          </div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-14">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 29 &middot; Monday</span>
+        <h2>June 14</h2>
+        <p class="sub">Home</p>
+          <div class="jc-item"><span class="time">Flight</span><span class="what">Qatar Airways <strong>QR204</strong>, Athens to Doha, connecting to <strong>QR988</strong> (also sold as Virgin Australia VA8) to Melbourne.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jc-daysec" id="jun-15">
+  <div class="jc-container">
+    <div class="grid solo">
+      <div class="copy">
+        <span class="jc-eyebrow">Day 30 &middot; Tuesday</span>
+        <h2>June 15</h2>
+        <p class="sub">Arrive Melbourne</p>
+          <div class="jc-item"><span class="time">Arrive</span><span class="what">Land in Melbourne. Welcome home.</span></div>
+        <a class="jc-back" href="#days">&uarr; All dates</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-section" id="transfers" style="padding-top:80px; border-top:1px solid var(--hairline);">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Getting There &amp; Around</span>
+    <h2>All your flights, ferries &amp; cars</h2>
+    <p class="lede">The same legs as above, gathered in one place. Qatar Airways through Doha in both directions, your own car through the Peloponnese, three ferries in business seats, and a rental car waiting on each island.</p>
+    <div class="jc-transfers">
+      <div class="jc-card">
+        <span class="jc-tag">Qatar Airways &middot; QR8402</span>
+        <div class="route">Melbourne &rarr; Doha, overnight</div>
+        <p class="detail">Mon, May 17 &middot; departs <strong>10:40 PM</strong>, arrives <strong>5:45 AM</strong> Tuesday.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Qatar Airways &middot; QR203</span>
+        <div class="route">Doha &rarr; Athens</div>
+        <p class="detail">Tue, May 18 &middot; departs <strong>7:45 AM</strong>, arrives <strong>12:25 PM</strong>.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Rental car &middot; Tim</span>
+        <div class="route">Sofitel Athens Airport &rarr; Piraeus</div>
+        <p class="detail">Wed, May 19 to Sun, May 30 &middot; collect at the Sofitel, drop in Piraeus. The last drive, Dexamenes to Piraeus, is about <strong>3.5 to 4 hours</strong>.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Ferry &middot; Business seats</span>
+        <div class="route">Piraeus &rarr; Folegandros</div>
+        <p class="detail">Mon, May 31 &middot; departs <strong>7:40 AM</strong>, arrives <strong>12:15 PM</strong>. Port transfer details to come.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Ferry &middot; Business seats</span>
+        <div class="route">Folegandros &rarr; Sifnos</div>
+        <p class="detail">Sat, Jun 5 &middot; departs <strong>4:05 PM</strong>, arrives <strong>6:10 PM</strong>. Port transfer details to come.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Ferry &middot; Business seats</span>
+        <div class="route">Sifnos &rarr; Piraeus</div>
+        <p class="detail">Sun, Jun 13 &middot; departs <strong>1:35 PM</strong>, arrives <strong>4:05 PM</strong>. Elies takes you to the port.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Private Transfer</span>
+        <div class="route">Piraeus &rarr; Sofitel Athens Airport</div>
+        <p class="detail">Sun, Jun 13 &middot; on arrival from Sifnos. Details to come.</p>
+      </div>
+      <div class="jc-card">
+        <span class="jc-tag">Qatar Airways &middot; QR204 / QR988</span>
+        <div class="route">Athens &rarr; Doha &rarr; Melbourne</div>
+        <p class="detail">Mon, Jun 14 &middot; QR204 to Doha, connecting to QR988 (also sold as Virgin Australia VA8). Arrives Melbourne Tue, Jun 15.</p>
+      </div>
+    </div>
+    <p class="jc-footnote">Ferry times are based on the 2026 schedule and may shift slightly for 2027. I will confirm the final times once the 2027 schedules are published.</p>
+  </div>
+</section>
+
+<section class="jc-section">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Behind the Wheel</span>
+    <h2>Your rental cars</h2>
+
+    <div class="jc-dining-group">
+      <div class="place">The Peloponnese</div>
+      <div class="jc-dining-grid">
+        <div class="jc-card jc-dining-card">
+          <div class="name">Tim&rsquo;s rental car</div>
+          <div class="meta">Collect at the Sofitel Athens Airport &middot; drop in Piraeus</div>
+          <div class="meta">May 19 to 30</div>
+          <span class="jc-badge soft">Booked by Tim</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="jc-dining-group">
+      <div class="place">Folegandros</div>
+      <div class="jc-dining-grid">
+        <div class="jc-card jc-dining-card">
+          <div class="name">Suzuki Vitara 4x4</div>
+          <div class="meta">Automatic &middot; unlimited mileage &middot; delivered to and collected from your hotels</div>
+          <div class="meta">May 31 to June 5 &middot; CDW, damage excess capped at EUR 1,000</div>
+          <span class="jc-badge">Booked</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="jc-dining-group">
+      <div class="place">Sifnos</div>
+      <div class="jc-dining-grid">
+        <div class="jc-card jc-dining-card">
+          <div class="name">Peugeot 3008</div>
+          <div class="meta">Automatic &middot; unlimited mileage &middot; delivered to and collected from your hotels</div>
+          <div class="meta">June 5 to 13 &middot; basic insurance plus CDW &middot; second driver included</div>
+          <span class="jc-badge">Booked</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-section">
+  <div class="jc-container">
+    <span class="jc-eyebrow">Everything in One Place</span>
+    <h2>Confirmation numbers</h2>
+    <div class="jc-confirm-grid">
+      <div class="jc-confirm-col">
+        <div class="title">Flights</div>
+        <div class="jc-confirm">
+          <div class="name">QR8402 / QR203 &middot; Melbourne &rarr; Doha &rarr; Athens</div>
+          <div class="when">May 17, 10:40 PM / May 18, 7:45 AM</div>
+          <div class="ref">Qatar Airways</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">QR204 / QR988 &middot; Athens &rarr; Doha &rarr; Melbourne</div>
+          <div class="when">June 14, arriving June 15</div>
+          <div class="ref">Qatar Airways &middot; QR988 also sold as VA8</div>
+        </div>
+      </div>
+      <div class="jc-confirm-col">
+        <div class="title">Ferries &amp; cars</div>
+        <div class="jc-confirm">
+          <div class="name">Piraeus &rarr; Folegandros</div>
+          <div class="when">May 31, 7:40 AM &middot; business seats</div>
+          <div class="ref">Booked through Original Senses</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Folegandros &rarr; Sifnos</div>
+          <div class="when">June 5, 4:05 PM &middot; business seats</div>
+          <div class="ref">Booked through Original Senses</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Sifnos &rarr; Piraeus</div>
+          <div class="when">June 13, 1:35 PM &middot; business seats</div>
+          <div class="ref">Booked through Original Senses</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Island rental cars</div>
+          <div class="when">Folegandros May 31 to June 5 &middot; Sifnos June 5 to 13</div>
+          <div class="ref">Booked through Original Senses</div>
+        </div>
+      </div>
+      <div class="jc-confirm-col">
+        <div class="title">Stays</div>
+        <div class="jc-confirm">
+          <div class="name">Sofitel Athens Airport</div>
+          <div class="when">May 18&ndash;19 &middot; Tim &amp; Kathryn</div>
+          <div class="ref">Booked by Tim</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Electra Metropolis Athens</div>
+          <div class="when">May 18&ndash;20 &middot; Lynne</div>
+          <div class="ref">9105690825274</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Opal Executive Suites, Nafplio</div>
+          <div class="when">May 19&ndash;21</div>
+          <div class="ref">9104195485506</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Manna Hotel, Arcadia</div>
+          <div class="when">May 21&ndash;24</div>
+          <div class="ref">Booked through Original Senses</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Aria Estate Suites &amp; Spa, Mani</div>
+          <div class="when">May 24&ndash;27</div>
+          <div class="ref">Booked through Original Senses</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Dexamenes Seaside Hotel, Kourouta</div>
+          <div class="when">May 27&ndash;30</div>
+          <div class="ref">Booked through Original Senses</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Mitsis N&rsquo;U Piraeus Port</div>
+          <div class="when">May 30&ndash;31 &middot; all three</div>
+          <div class="ref">Booked by Tim</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Gundari Resort, Folegandros</div>
+          <div class="when">May 31 &ndash; June 1</div>
+          <div class="ref">GAL410578875 &middot; GAL202503597</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">AVATON Folegandros</div>
+          <div class="when">June 1&ndash;5</div>
+          <div class="ref">73561189542403 &middot; 73561187601689</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">NOS Hotel &amp; Villas, Sifnos</div>
+          <div class="when">June 5&ndash;9</div>
+          <div class="ref">Confirmation numbers to come</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Elies Resorts, Vathi</div>
+          <div class="when">June 9&ndash;13</div>
+          <div class="ref">Booked through Original Senses</div>
+        </div>
+        <div class="jc-confirm">
+          <div class="name">Sofitel Athens Airport</div>
+          <div class="when">June 13&ndash;14</div>
+          <div class="ref">Confirmation to come</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-section">
+  <div class="jc-container">
+    <span class="jc-eyebrow">The Fine Print</span>
+    <h2>Still being finalized, and good to know</h2>
+    <div class="jc-fine">
+      <div>
+        <div class="title">Still being finalized</div>
+        <p>Nothing here needs anything from you unless noted; it is simply what I am still confirming on my side.</p>
+        <ul>
+          <li>Boat days on Folegandros and Sifnos</li>
+          <li>Port transfers on Folegandros and Sifnos</li>
+          <li>Transfer from Piraeus to the Sofitel Athens Airport on June 13</li>
+          <li>NOS Hotel &amp; Villas confirmation numbers</li>
+          <li>Ferry times, once the 2027 schedules are published</li>
+          <li>Travel insurance</li>
+          <li>Ideas for things to do in the Peloponnese</li>
+        </ul>
+      </div>
+      <div>
+        <div class="title">Payment</div>
+        <p>Original Senses, our ground partner in Greece, holds Manna, Aria Estate, Dexamenes, Elies, the three ferries and both island cars. The total is <strong>EUR 12,454</strong>. Deposits received: Tim EUR 1,569 and Lynne EUR 1,141. The balance of <strong>EUR 9,744</strong> is due <strong>April 19, 2027</strong>.</p>
+        <div class="title" style="margin-top:22px;">Cancellation dates</div>
+        <ul>
+          <li>Dexamenes: free until 12:00 PM, March 28, 2027</li>
+          <li>Opal Executive Suites: refundable until April 28, 2027</li>
+          <li>Manna: free until 6:00 PM, May 6, 2027</li>
+          <li>Aria Estate: free until 11:00 AM, May 10, 2027</li>
+          <li>Electra Metropolis and Gundari: refundable until May 11, 2027</li>
+          <li>Elies: free until 15 days before arrival</li>
+        </ul>
+      </div>
+      <div>
+        <div class="title">Time zones</div>
+        <p>Greece is 7 hours behind Melbourne in May and June. Doha is the same time as Greece.</p>
+        <div class="title" style="margin-top:22px;">Tipping guide</div>
+        <p>Appreciated but never expected in Greece. Comfortable ranges, always in euros, cash.</p>
+        <ul>
+          <li>Restaurants: round up or leave 5 to 10 percent for a great meal</li>
+          <li>Hotel porters: 2 to 5 euros per bag &middot; Housekeeping: about 5 euros per day, left at checkout</li>
+          <li>Concierge: 10 to 20 euros when they arrange something special</li>
+          <li>Drivers and transfers: 10 to 20 euros for a port or airport run</li>
+          <li>Boat skippers: about 10 percent of the charter for a great day</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jc-support">
+  <div class="jc-container">
+    <div class="grid">
+      <div>
+        <span class="jc-eyebrow">While You&rsquo;re Away</span>
+        <div class="big">I&rsquo;m here if<br>anything comes up</div>
+      </div>
+      <div>
+        <p>Please reach out during your trip if anything comes up at all. I&rsquo;ll be in Austin, eight hours behind you in Greece, and I&rsquo;ll do my best to assist the moment something goes sideways.</p>
+        <div class="jc-phone-row">
+          <span class="label">Anytime, day or night</span>
+          <a href="tel:+14152724316">415.272.4316</a>
+        </div>
+        <div class="jc-sig">Keith</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="jc-footer">
+  Suites With Keith &middot; Curated by Keith Pence<br>
+  This page updated 26 October 2026</footer>
+
+
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Reveal days and chapters as they enter the viewport.
+  var reveal = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); reveal.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
+  var hidden = document.querySelectorAll('.jc-daysec, .jc-chapter');
+  hidden.forEach(function (el) { reveal.observe(el); });
+  // Failsafe: nothing on this page may stay hidden, whatever the browser does.
+  setTimeout(function () { hidden.forEach(function (el) { el.classList.add('in'); }); }, 2000);
+
+  // Sticky date bar: show once the date grid has scrolled past.
+  var bar = document.getElementById('datebar'), grid = document.getElementById('days');
+  if (bar && grid) {
+    var ticking = false;
+    function placeBar() {
+      ticking = false;
+      bar.classList.toggle('on', grid.getBoundingClientRect().bottom < 0);
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(placeBar); }
+    }, { passive: true });
+    placeBar();
+
+    // Highlight the section being read: the last one whose heading has passed
+    // the top third of the screen. Scroll-driven, so short days are never skipped.
+    var row = bar.querySelector('.row');
+    var targets = Array.prototype.slice.call(document.querySelectorAll('.jc-daysec, #transfers'));
+    var links = {}; bar.querySelectorAll('a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+    var current = null, marking = false, jumpingUntil = 0, settle = null;
+    function slideRow() {
+      if (!current) return;
+      var left = current.offsetLeft - (row.clientWidth - current.offsetWidth) / 2;
+      row.scrollTo({ left: Math.max(0, left), behavior: reduce ? 'auto' : 'smooth' });
+    }
+    function markCurrent() {
+      marking = false;
+      var line = window.innerHeight * 0.34, pick = null;
+      for (var i = 0; i < targets.length; i++) {
+        if (targets[i].getBoundingClientRect().top <= line) pick = targets[i]; else break;
+      }
+      var next = pick ? links[pick.id] : null;
+      if (next === current) return;
+      if (current) current.classList.remove('cur');
+      current = next;
+      if (!current) return;
+      current.classList.add('cur');
+      // While an anchor jump is animating, do not start a second smooth scroll:
+      // Safari treats it as a cancel and the page stops at the first day it
+      // passes. Slide the row once the jump has settled instead.
+      if (Date.now() < jumpingUntil) {
+        clearTimeout(settle); settle = setTimeout(slideRow, jumpingUntil - Date.now() + 50);
+      } else {
+        slideRow();
+      }
+    }
+    window.addEventListener('scroll', function () {
+      if (!marking) { marking = true; requestAnimationFrame(markCurrent); }
+    }, { passive: true });
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (a) jumpingUntil = Date.now() + 1400;
+    });
+    markCurrent();
+  }
+})();
+</script>
+</body>
+</html>
