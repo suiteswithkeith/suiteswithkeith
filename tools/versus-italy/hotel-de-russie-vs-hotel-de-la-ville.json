@@ -1,0 +1,73 @@
+{
+  "a": {"short": "Hotel de Russie", "href": "/hotels/hotel-de-russie-rome.html"},
+  "b": {"short": "Hotel de la Ville", "href": "/hotels/hotel-de-la-ville-rome.html"},
+  "title": "Hotel de Russie vs Hotel de la Ville: Rocco Forte Sisters (2026) | Suites With Keith",
+  "description": "Hotel de Russie vs Hotel de la Ville, the two Rocco Forte hotels in Rome, compared by a travel advisor who visited both in October 2026: courtyards, rooftop, rooms, spas, and which sister I prefer.",
+  "place": "Rome",
+  "hero": [
+    {"src": "/images/hotels/de-russie/courtyard.jpg", "alt": "Hotel de Russie&rsquo;s large courtyard, with white umbrellas over tables and salmon-pink walls with blue-gray shutters", "pos": "50% 50%"},
+    {"src": "/images/hotels/de-la-ville/press-courtyard.jpg", "alt": "Hotel de la Ville&rsquo;s courtyard, with red and white striped umbrellas and salmon-pink walls with green shutters", "pos": "50% 50%"}
+  ],
+  "h1_a": "Hotel de Russie or",
+  "h1_b": "Hotel de la Ville?",
+  "sub": "Rocco Forte has two hotels in Rome, a few minutes apart near the Spanish Steps. Same family, different strengths. Here is the one I would book, and when the other makes sense.",
+  "stamp": "Visited both &middot; October 2026",
+  "choose": [
+    {"h3": "My pick of the two", "lead": "I loved it. The large courtyard is the star, the renovated rooms have the cutest lemon and orange ceilings, and the spa has an indoor pool. The stronger stay of the two sisters.", "img": "/images/hotels/de-russie/orange-ceiling.jpg", "alt": "A Hotel de Russie room ceiling papered with oranges, pears and blossoms above olive curtains"},
+    {"h3": "If you want the Steps and a rooftop", "lead": "A nice hotel right at the top of the Spanish Steps, in an 18th-century palazzo with colorful, very Roman interiors and Cielo, the rooftop bar and restaurant with views all over the city.", "img": "/images/hotels/de-la-ville/press-salon.jpg", "alt": "A Hotel de la Ville salon with yellow walls hung with engravings, teal damask curtains and a black and white marble floor"}
+  ],
+  "rows": [
+    ["Where", "Piazza del Popolo, between Popolo and the Spanish Steps", "Via Sistina, right at the top of the Spanish Steps"],
+    ["The feel", "Garden retreat", "Colorful Roman palazzo, interiors by Tommaso Ziffer"],
+    ["Outside the door", "A busy street and the crowds", "The top of the Steps, crowded from morning to night"],
+    ["The courtyard", "Beautiful and large, the star of the property", "Where Mosaico, the main restaurant, opens"],
+    ["Up top", "A stunning suite terrace with fantastic views", "Cielo, a rooftop bar and restaurant across the top two floors"],
+    ["Rooms", "Renovated, with lemon or orange themed ceilings", "104 rooms and suites, some with terraces and city views"],
+    ["Spa", "A nice spa with an indoor pool", "A Sicilian-inspired spa"],
+    ["Bars", "The courtyard bar", "The Julep cocktail bar, plus Cielo"],
+    ["Best for", "Couples, Rome first-timers, a spa and a courtyard", "The Spanish Steps on the doorstep and sunset drinks on a rooftop"]
+  ],
+  "pitch": "Work with me and you get Fora perks, plus someone who knows these hotels personally and personalizes your stay: I tell you which de Russie suite has the views, match you to the right room at either sister, and arrange your transfers and drivers. Same rate as booking direct.",
+  "band": {
+    "h2": "Same family, a few minutes apart. Which sister should you book?",
+    "paras": [
+      "For me, <a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a>. Its large courtyard, renovated rooms and spa with an indoor pool made it the stronger stay, and the courtyard is a big part of why. I loved it.",
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> was nice. Honestly, I don&rsquo;t have a ton to say about it. Its best card is Cielo, the rooftop bar and restaurant with views all over the city, and its address at the top of the Steps.",
+      "If you have no strong pull either way, book the de Russie. If sunset drinks on a rooftop and the Spanish Steps at your door are the point of the trip, the de la Ville does that well."
+    ]
+  },
+  "guide": [
+    {"img": "/images/hotels/de-russie/courtyard-bar.jpg", "alt": "The bar in Hotel de Russie&rsquo;s courtyard, with arched blue shelves of bottles and a mosaic-fronted marble counter", "h3": "Two courtyards", "paras": [
+      "Both sisters have a courtyard. At <a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a>, it is beautiful, large and really the star of the property. It&rsquo;s where everyone gathers, with a bar, and it feels like an escape from the city around it.",
+      "At <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>, Mosaico, the main restaurant, opens onto the courtyard."
+    ]},
+    {"img": "/images/hotels/de-russie/bedroom.jpg", "alt": "A renovated Hotel de Russie bedroom in soft green, with a striped headboard and floral cushions", "h3": "Rooms", "paras": [
+      "<a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a>&rsquo;s rooms have been renovated, and they have the cutest ceilings, each one lemon or orange themed. I saw a stunning suite with a terrace and fantastic views; ask me which one.",
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has 104 rooms and suites in an 18th-century palazzo, some with terraces and city views. The interiors are colorful and very Roman: yellow walls, engravings, plaster reliefs and black and white floors."
+    ]},
+    {"img": "/images/hotels/de-russie/spa-pool.jpg", "alt": "The indoor pool in the Hotel de Russie spa, tiled in blue mosaic under a starry ceiling", "h3": "Spas", "paras": [
+      "<a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a> has a nice spa with an indoor pool, rare in the centro storico and a real draw after a day on foot.",
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has a Sicilian-inspired spa. If a pool matters, the de Russie is the one."
+    ]},
+    {"img": "/images/hotels/de-la-ville/press-bedroom.jpg", "alt": "A Hotel de la Ville bedroom with green velvet curtains, a yellow loveseat and a balcony looking out to umbrella pines", "h3": "The rooftop and the Steps", "paras": [
+      "The highlight at <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> is Cielo, the rooftop bar and restaurant across the top two floors, with views across Rome&rsquo;s skyline. Add the Julep cocktail bar for an evening drink.",
+      "Both are busy outside. The de la Ville is at the top of the Spanish Steps, crowded from morning to night, and <a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a> has the crowds between Popolo and the Steps. For a quiet street, the <a href=\"/hotels/hotel-eden-rome.html\">Eden</a> is the one."
+    ]}
+  ],
+  "faq": [
+    {"q": "Hotel de Russie or Hotel de la Ville?", "a": "<a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a>. They are sister Rocco Forte hotels a few minutes apart, and the de Russie&rsquo;s large courtyard, renovated rooms and spa with an indoor pool made it the stronger stay for me. Pick <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> if a rooftop bar and the top of the Spanish Steps are what you want most."},
+    {"q": "Are they the same company?", "a": "Yes. <a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a> and <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> are both Rocco Forte hotels, a few minutes apart near the Spanish Steps."},
+    {"q": "Which has a rooftop bar?", "a": "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>: Cielo, across the top two floors, with views all over the city. At <a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a>, the gathering place is the courtyard."},
+    {"q": "Which has a pool?", "a": "<a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a>, in its spa. <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has a Sicilian-inspired spa."},
+    {"q": "Is either one quiet?", "a": "Not on the street. Both put you in the crowds near the Spanish Steps. For quiet in the middle of Rome, I pick the <a href=\"/hotels/hotel-eden-rome.html\">Eden</a> or the <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>."}
+  ],
+  "inquire_deck": "Tell me your dates and who is coming, and I will tell you which sister fits and which room to ask for.",
+  "dates_placeholder": "May 2027 &middot; 4 nights",
+  "related": [
+    {"href": "/hotels/hotel-de-russie-rome.html", "label": "Hotel de Russie review"},
+    {"href": "/hotels/hotel-de-la-ville-rome.html", "label": "Hotel de la Ville review"},
+    {"href": "/hotel-de-russie-vs-hassler-roma.html", "label": "Hotel de Russie or Hassler"},
+    {"href": "/hassler-roma-vs-hotel-de-la-ville.html", "label": "Hassler or Hotel de la Ville"},
+    {"href": "/rome.html", "label": "My Rome guide"}
+  ]
+}

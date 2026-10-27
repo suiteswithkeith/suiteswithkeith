@@ -1,0 +1,72 @@
+{
+  "a": {"short": "Hassler", "href": "/hotels/hassler-roma.html"},
+  "b": {"short": "Casa Monti", "href": "/hotels/casa-monti-rome.html"},
+  "title": "Hassler Roma vs Casa Monti: Grand Hotel or Boutique Fun? (2026) | Suites With Keith",
+  "description": "Hotel Hassler Roma vs Casa Monti, compared by a travel advisor who visited both in October 2026: grand hotel or hip boutique, the Spanish Steps or Monti, rooms, dining, spa, and who each one suits.",
+  "place": "Rome",
+  "hero": [
+    {"src": "/images/hotels/hassler-rome/press-bedroom.jpg", "alt": "A Hotel Hassler Roma bedroom framed by an arched doorway, with a studded headboard and crystal lamps", "pos": "50% 50%"},
+    {"src": "/images/hotels/casa-monti/press-restaurant.jpg", "alt": "Casa Monti&rsquo;s downstairs restaurant, with striped banquettes, wicker chairs and a marble-fronted bar", "pos": "50% 50%"}
+  ],
+  "h1_a": "Hassler or",
+  "h1_b": "Casa Monti?",
+  "sub": "A very traditional grand hotel, or a hip boutique hotel that is its opposite. One is at the top of the Spanish Steps; the other is in Monti among real Roman trattorias. Here is how I would choose.",
+  "stamp": "Visited both &middot; October 2026",
+  "choose": [
+    {"h3": "If you love classic, traditional luxury", "lead": "A very nice, very traditional hotel right at the top of the Spanish Steps, with a Michelin-starred restaurant on the roof. You can&rsquo;t get much more iconic.", "img": "/images/hotels/hassler-rome/press-spanish-steps.jpg", "alt": "The Spanish Steps at sunrise, with Hotel Hassler Roma at the top"},
+    {"h3": "If you want hip, young and fun", "lead": "So cute. A boutique hotel from the team behind Le Fantaisie in Paris, with super cool patterns, a rooftop restaurant and a spa couples can have to themselves.", "img": "/images/hotels/casa-monti/press-terrace.jpg", "alt": "A Casa Monti terrace with patterned chairs and climbing jasmine over the tiled rooftops of Monti"}
+  ],
+  "rows": [
+    ["Where", "Right at the top of the Spanish Steps", "Via Panisperna, in Monti"],
+    ["The feel", "Very traditional grand hotel", "Hip boutique hotel"],
+    ["The neighborhood", "The Steps, crowded from morning to night", "Authentic Roman trattorias all around"],
+    ["Rooms", "Canopy beds, damask walls, crystal lamps", "Super cool patterns, and curtains that hide the TV"],
+    ["Dining", "Michelin-starred on the roof, plus a courtyard restaurant", "A rooftop restaurant and a lively one downstairs"],
+    ["Spa", "A new wellness and gym area opens in 2027", "A spa couples can book just for the two of them"],
+    ["Ask me about", "The right room; I&rsquo;ll request it", "Setting up the private spa before you arrive"],
+    ["Best for", "Classic, traditional luxury at the heart of the action", "Younger couples and honeymooners"]
+  ],
+  "pitch": "Work with me and you get Fora perks, plus someone who knows these hotels personally and personalizes your stay: I request the right room at the Hassler, book the Casa Monti spa just for the two of you before you arrive, and arrange your transfers and drivers. Same rate as booking direct.",
+  "band": {
+    "h2": "Do you want Rome&rsquo;s grand-hotel tradition, or the opposite?",
+    "paras": [
+      "The <a href=\"/hotels/hassler-roma.html\">Hassler</a> is a very traditional hotel, and that&rsquo;s the appeal. You get the top of the Spanish Steps and a Michelin-starred dinner on the roof.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is the hotel I send people to when the Hassler feels too traditional. It is hip, young and fun, and on a Sunday the trattorias around it are full of Romans having lunch.",
+      "If grand-hotel style is part of the dream, pick the Hassler. If you are a younger couple who wants something fun and a real neighborhood, pick Casa Monti."
+    ]
+  },
+  "guide": [
+    {"img": "/images/hotels/casa-monti/press-fiat.jpg", "alt": "A yellow vintage Fiat 500 with the Casa Monti logo outside the hotel&rsquo;s arched entrance on Via Panisperna", "h3": "The neighborhood", "paras": [
+      "The <a href=\"/hotels/hassler-roma.html\">Hassler</a> is right above the Spanish Steps, about as central as Rome gets. It also means a busy area: you step out the door and you are in the crowds at the Steps.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is in Monti, and the neighborhood is the real thing. There are authentic Roman trattorias all around, and when I visited on a Sunday, real Romans were having lunch at them."
+    ]},
+    {"img": "/images/hotels/hassler-rome/press-canopy-bedroom.jpg", "alt": "A Hotel Hassler Roma bedroom with a fabric-covered canopy bed, damask walls and a gilded frame", "h3": "Rooms and design", "paras": [
+      "The <a href=\"/hotels/hassler-roma.html\">Hassler</a>&rsquo;s rooms are very traditional, with canopy beds and damask walls, and some bathrooms look over the rooftops to St. Peter&rsquo;s.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is from the same company as Le Fantaisie in Paris, and it shows: super cool patterns, pattern on pattern, and curtains that hide the TV."
+    ]},
+    {"img": "/images/hotels/hassler-rome/press-bath-view.jpg", "alt": "A freestanding tub in a black marble Hotel Hassler Roma bathroom, with windows over the rooftops to St. Peter&rsquo;s", "h3": "Dining", "paras": [
+      "The dining is a highlight at the <a href=\"/hotels/hassler-roma.html\">Hassler</a>: a Michelin-starred restaurant on the roof with the rooftops of Rome laid out below you, and a beautiful restaurant in the courtyard.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> has a beautiful rooftop restaurant and a lively restaurant downstairs, and the trattorias outside the door."
+    ]},
+    {"img": "/images/hotels/casa-monti/press-spa-pool.jpg", "alt": "The Casa Monti spa pool, raised on golden marble steps between two white amphorae", "h3": "Spa", "paras": [
+      "At <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, couples can book the spa just for the two of them. I arrange it before you arrive.",
+      "The <a href=\"/hotels/hassler-roma.html\">Hassler</a>&rsquo;s large new wellness and gym area opens in 2027. Until then, if a spa matters, I point people to the <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> or the <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>."
+    ]}
+  ],
+  "faq": [
+    {"q": "Which is better, the Hassler or Casa Monti?", "a": "They suit opposite travelers. The <a href=\"/hotels/hassler-roma.html\">Hassler</a> is for classic, traditional luxury at the top of the Spanish Steps. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is for younger couples who want something hip, young and fun."},
+    {"q": "Which is better for a honeymoon?", "a": "For younger honeymooners, <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, and book the private spa. The <a href=\"/hotels/hassler-roma.html\">Hassler</a> suits travelers who love classic luxury; for a classic Rome stay as a couple, my top pick is the <a href=\"/hotels/hotel-eden-rome.html\">Eden</a>."},
+    {"q": "Which has a spa?", "a": "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, which couples can book privately. The <a href=\"/hotels/hassler-roma.html\">Hassler</a>&rsquo;s new wellness and gym area opens in 2027."},
+    {"q": "Which has the better food?", "a": "The <a href=\"/hotels/hassler-roma.html\">Hassler</a> has a Michelin-starred restaurant on the roof. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> has two restaurants of its own and real Roman trattorias all around."},
+    {"q": "I want something in between. What else?", "a": "For quiet, warm, classic luxury above the Steps, the <a href=\"/hotels/hotel-eden-rome.html\">Eden</a>, my top pick in Rome. For a palazzo by the Pantheon with real-Rome energy, <a href=\"/hotels/orient-express-la-minerva-rome.html\">La Minerva</a>."}
+  ],
+  "inquire_deck": "Tell me your dates and who is coming, and I will tell you which one fits and what to set up before you arrive.",
+  "dates_placeholder": "June 2027 &middot; 4 nights",
+  "related": [
+    {"href": "/hotels/hassler-roma.html", "label": "Hassler review"},
+    {"href": "/hotels/casa-monti-rome.html", "label": "Casa Monti review"},
+    {"href": "/hotel-de-russie-vs-casa-monti.html", "label": "Hotel de Russie or Casa Monti"},
+    {"href": "/hassler-roma-vs-hotel-de-la-ville.html", "label": "Hassler or Hotel de la Ville"},
+    {"href": "/rome.html", "label": "My Rome guide"}
+  ]
+}

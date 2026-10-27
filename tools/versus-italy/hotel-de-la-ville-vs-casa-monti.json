@@ -1,0 +1,73 @@
+{
+  "a": {"short": "Hotel de la Ville", "href": "/hotels/hotel-de-la-ville-rome.html"},
+  "b": {"short": "Casa Monti", "href": "/hotels/casa-monti-rome.html"},
+  "title": "Hotel de la Ville vs Casa Monti: The Steps or Monti? (2026) | Suites With Keith",
+  "description": "Hotel de la Ville vs Casa Monti, compared by a travel advisor who visited both in October 2026: two colorful Rome hotels, the Spanish Steps or Monti, rooftops, spas, design, and who each one suits.",
+  "place": "Rome",
+  "hero": [
+    {"src": "/images/hotels/de-la-ville/press-courtyard.jpg", "alt": "Hotel de la Ville&rsquo;s courtyard, with red and white striped umbrellas over tables and salmon-pink walls with green shutters", "pos": "50% 50%"},
+    {"src": "/images/hotels/casa-monti/press-bird-headboard.jpg", "alt": "A Casa Monti bed with a curved headboard and a wall covered in a bird and harlequin diamond print", "pos": "50% 50%"}
+  ],
+  "h1_a": "Hotel de la Ville or",
+  "h1_b": "Casa Monti?",
+  "sub": "Both love color, both eat on the roof, and both have a spa. One is a Rocco Forte palazzo at the top of the Spanish Steps; the other is a hip boutique hotel in Monti. Here is how I would choose.",
+  "stamp": "Visited both &middot; October 2026",
+  "choose": [
+    {"h3": "If you want the Spanish Steps", "lead": "A nice Rocco Forte in an 18th-century palazzo with colorful, very Roman interiors, right at the top of the Steps, with Cielo on the roof for sunset drinks.", "img": "/images/hotels/de-la-ville/press-bedroom.jpg", "alt": "A Hotel de la Ville bedroom with green velvet curtains, a yellow loveseat and a balcony looking out to umbrella pines"},
+    {"h3": "If you want something younger and more fun", "lead": "So cute. A boutique hotel from the team behind Le Fantaisie in Paris, with real trattorias all around, a beautiful rooftop and a spa couples can have to themselves.", "img": "/images/hotels/casa-monti/press-terrace.jpg", "alt": "A Casa Monti terrace with patterned chairs and climbing jasmine over the tiled rooftops of Monti"}
+  ],
+  "rows": [
+    ["Where", "Via Sistina, right at the top of the Spanish Steps", "Via Panisperna, in Monti"],
+    ["Outside the door", "The top of the Steps, crowded from morning to night", "Authentic Roman trattorias, full of Romans at Sunday lunch"],
+    ["The feel", "Colorful Roman palazzo (Rocco Forte)", "Hip, young and fun boutique hotel"],
+    ["Design", "Tommaso Ziffer: yellow walls, engravings, black and white floors", "Super cool patterns, from the team behind Le Fantaisie in Paris"],
+    ["Rooms", "104 rooms and suites, some with terraces and city views", "Pattern on pattern, and curtains that hide the TV"],
+    ["On the roof", "Cielo, a bar and restaurant across the top two floors", "A beautiful rooftop restaurant"],
+    ["Downstairs", "Mosaico on the courtyard, and the Julep cocktail bar", "A lively restaurant"],
+    ["Spa", "A Sicilian-inspired spa", "A spa couples can book just for the two of them"],
+    ["Best for", "The Steps on the doorstep and sunset drinks", "Younger couples and honeymooners"]
+  ],
+  "pitch": "Work with me and you get Fora perks, plus someone who knows these hotels personally and personalizes your stay: I match you to the right room at the de la Ville, book the Casa Monti spa just for the two of you, and arrange your transfers from Fiumicino or Termini. Same rate as booking direct.",
+  "band": {
+    "h2": "You like color. Do you want it at the top of the Steps, or down in Monti?",
+    "paras": [
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> is a Rocco Forte palazzo with colorful, very Roman interiors. You get the top of the Spanish Steps and Cielo, the rooftop bar and restaurant with views all over the city. You also get the crowds, from morning to night.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is the one I send people to when they want something younger and more fun. It is a really great boutique hotel in the center of Rome, with authentic trattorias all around.",
+      "If the Spanish Steps and a sunset on Cielo are the dream, pick the de la Ville. If you are a younger couple who wants a hip hotel in a real neighborhood, pick Casa Monti."
+    ]
+  },
+  "guide": [
+    {"img": "/images/hotels/de-la-ville/press-salon.jpg", "alt": "A Hotel de la Ville salon with yellow walls hung with engravings, teal damask curtains and a black and white marble floor", "h3": "Two ways with color", "paras": [
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>&rsquo;s interiors, by Tommaso Ziffer, are colorful and very Roman: yellow walls, engravings, plaster reliefs and black and white floors, in an 18th-century palazzo.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is from the same company as Le Fantaisie in Paris, and it shows: super cool patterns, pattern on pattern, and curtains that hide the TV."
+    ]},
+    {"img": "/images/hotels/casa-monti/press-fiat.jpg", "alt": "A yellow vintage Fiat 500 with the Casa Monti logo outside the hotel&rsquo;s arched entrance on Via Panisperna", "h3": "The neighborhood", "paras": [
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is in Monti, and the neighborhood is the real thing. When I visited on a Sunday, real Romans were having lunch at the trattorias all around it.",
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> is right at the top of the Spanish Steps, which is crowded from morning to night. For quiet near the Steps, the <a href=\"/hotels/hotel-eden-rome.html\">Eden</a> is a short walk away."
+    ]},
+    {"img": "/images/hotels/casa-monti/press-restaurant.jpg", "alt": "Casa Monti&rsquo;s downstairs restaurant, with striped banquettes, wicker chairs and a marble-fronted bar", "h3": "Rooftops and restaurants", "paras": [
+      "The highlight at <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> is Cielo, the rooftop bar and restaurant across the top two floors, with views across Rome&rsquo;s skyline. Mosaico, the main restaurant, opens onto the courtyard, and there is the Julep cocktail bar.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> has a beautiful rooftop restaurant and a lively restaurant downstairs."
+    ]},
+    {"img": "/images/hotels/casa-monti/press-spa-pool.jpg", "alt": "The Casa Monti spa pool, raised on golden marble steps between two white amphorae", "h3": "Spas", "paras": [
+      "At <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, couples can book the spa just for the two of them. I arrange it before you arrive, so it is set for your stay.",
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has a Sicilian-inspired spa. For an indoor pool, its sister, the <a href=\"/hotels/hotel-de-russie-rome.html\">de Russie</a>, has one."
+    ]}
+  ],
+  "faq": [
+    {"q": "Which is better, Hotel de la Ville or Casa Monti?", "a": "It depends on the trip. <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> for the top of the Spanish Steps and the Cielo rooftop. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> for younger couples who want something hip, young and fun, with real trattorias all around."},
+    {"q": "Which is better for a honeymoon?", "a": "For younger honeymooners, <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, and book the spa just for the two of you."},
+    {"q": "Which has the better rooftop?", "a": "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>&rsquo;s Cielo is its highlight, across the top two floors with views all over the city. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> has a beautiful rooftop restaurant too."},
+    {"q": "Which has a spa?", "a": "Both. <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has a Sicilian-inspired spa. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>&rsquo;s spa can be booked just for the two of you."},
+    {"q": "I like the de la Ville. Anything similar?", "a": "Its sister, <a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a>, a few minutes away. I prefer it: the large courtyard, renovated rooms and spa with an indoor pool made it the stronger stay."}
+  ],
+  "inquire_deck": "Tell me your dates and who is coming, and I will tell you which one fits and what to set up before you arrive.",
+  "dates_placeholder": "May 2027 &middot; 4 nights",
+  "related": [
+    {"href": "/hotels/hotel-de-la-ville-rome.html", "label": "Hotel de la Ville review"},
+    {"href": "/hotels/casa-monti-rome.html", "label": "Casa Monti review"},
+    {"href": "/hotel-de-russie-vs-hotel-de-la-ville.html", "label": "Hotel de Russie or Hotel de la Ville"},
+    {"href": "/hotel-de-russie-vs-casa-monti.html", "label": "Hotel de Russie or Casa Monti"},
+    {"href": "/rome.html", "label": "My Rome guide"}
+  ]
+}

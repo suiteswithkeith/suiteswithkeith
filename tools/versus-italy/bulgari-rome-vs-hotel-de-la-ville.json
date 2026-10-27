@@ -1,0 +1,73 @@
+{
+  "a": {"short": "Bulgari", "href": "/hotels/bulgari-hotel-rome.html"},
+  "b": {"short": "Hotel de la Ville", "href": "/hotels/hotel-de-la-ville-rome.html"},
+  "title": "Bulgari Rome vs Hotel de la Ville: Big Rooms or the Steps? (2026) | Suites With Keith",
+  "description": "Bulgari Hotel Roma vs Hotel de la Ville, compared by a travel advisor who visited both in October 2026: room sizes, rooftops, modern or Roman palazzo style, spa and gym, and who each one suits.",
+  "place": "Rome",
+  "hero": [
+    {"src": "/images/hotels/bulgari-rome/dome-view.jpg", "alt": "A church dome and cypress trees framed by a travertine window at the Bulgari Hotel Roma at dusk", "pos": "50% 50%"},
+    {"src": "/images/hotels/de-la-ville/press-lobby.jpg", "alt": "Hotel de la Ville&rsquo;s reception, with a marble desk, plaster reliefs on sage walls and a black and white zigzag floor", "pos": "50% 50%"}
+  ],
+  "h1_a": "Bulgari or",
+  "h1_b": "Hotel de la Ville?",
+  "sub": "Both have a rooftop bar and both put you on busy streets. One gives you a junior suite&rsquo;s worth of room at the entry rate; the other gives you the top of the Spanish Steps. Here is how I would choose.",
+  "stamp": "Visited both &middot; October 2026",
+  "choose": [
+    {"h3": "If you want space and a scene", "lead": "Spectacular. Base rooms the size of junior suites elsewhere, marble and mosaics, the biggest gym I saw in Rome, and more bars and restaurants than I could count.", "img": "/images/hotels/bulgari-rome/bedroom.jpg", "alt": "A Bulgari Hotel Roma base room with a tall upholstered headboard and round brass reading lights"},
+    {"h3": "If you want the Steps on your doorstep", "lead": "A nice Rocco Forte at the top of the Spanish Steps, in an 18th-century palazzo with colorful, very Roman interiors, and Cielo on the roof for sunset drinks.", "img": "/images/hotels/de-la-ville/press-courtyard.jpg", "alt": "Hotel de la Ville&rsquo;s courtyard, with red and white striped umbrellas and salmon-pink walls"}
+  ],
+  "rows": [
+    ["Where", "Piazza Augusto Imperatore, next to the Mausoleum of Augustus", "Via Sistina, right at the top of the Spanish Steps"],
+    ["Outside the door", "Busy streets", "The top of the Steps, crowded from morning to night"],
+    ["The feel", "Very modern and lively, almost like an EDITION but more sophisticated", "Colorful Roman palazzo by Tommaso Ziffer (Rocco Forte)"],
+    ["Rooms", "Base rooms other hotels would call deluxe rooms or junior suites", "104 rooms and suites, some with terraces and city views"],
+    ["Bathrooms", "Marble everywhere and incredible mosaics", "Marble, with freestanding tubs"],
+    ["Rooftop", "A rooftop bar and pizza restaurant, and another bar below it", "Cielo, a bar and restaurant across the top two floors"],
+    ["Downstairs", "A classic Roman trattoria with &euro;18 pastas", "Mosaico on the courtyard, and the Julep cocktail bar"],
+    ["Spa and gym", "The biggest gym I saw in Rome, plus a spa", "A Sicilian-inspired spa"],
+    ["Best for", "Space, energy and great dining without leaving the hotel", "The Spanish Steps on the doorstep and sunset drinks"]
+  ],
+  "pitch": "Work with me and you get Fora perks, plus someone who knows these hotels personally and personalizes your stay: I tell you whether the Bulgari&rsquo;s base room is already enough, match you to the right room at the de la Ville, and arrange your transfers from Fiumicino or Termini. Same rate as booking direct.",
+  "band": {
+    "h2": "Is it the room that matters most, or the address?",
+    "paras": [
+      "At the <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a>, the room is the story. The base rooms are very large, so you know you&rsquo;re getting a solid room size at these rates. In central Rome, that matters.",
+      "At <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>, the address is the story: right at the top of the Spanish Steps, with Cielo on the roof and views all over the city. It was nice, though I don&rsquo;t have a ton to say about it.",
+      "If you want space, a gym and a hotel full of places to eat and drink, pick the Bulgari. If waking up at the top of the Steps is the point, pick the de la Ville, or look at its sister, the <a href=\"/hotels/hotel-de-russie-rome.html\">de Russie</a>, which I prefer."
+    ]
+  },
+  "guide": [
+    {"img": "/images/hotels/bulgari-rome/marble-vanity.jpg", "alt": "A Bulgari Hotel Roma bathroom vanity in golden veined marble with a round mirror and a glass shower", "h3": "Rooms", "paras": [
+      "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a>&rsquo;s base rooms are what other hotels would sell as a deluxe room or a junior suite, with lots of marble and incredible mosaics in the bathrooms. You often don&rsquo;t need to upgrade to get space.",
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has 104 rooms and suites in an 18th-century palazzo, some with terraces and city views, and some looking out to the umbrella pines."
+    ]},
+    {"img": "/images/hotels/bulgari-rome/rooftop-arches.jpg", "alt": "The Bulgari Hotel Roma rooftop at sunset, a brick walkway under green arches lined with lounge seating", "h3": "Rooftops and dining", "paras": [
+      "Both have a rooftop. The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a>&rsquo;s is a beautiful bar and pizza restaurant, with another bar on the floor below it and more besides. Downstairs, a classic Roman trattoria serves &euro;18 pastas.",
+      "At <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>, Cielo spans the top two floors, with views across Rome&rsquo;s skyline. Mosaico, the main restaurant, opens onto the courtyard, and the Julep cocktail bar is there for an evening drink."
+    ]},
+    {"img": "/images/hotels/de-la-ville/press-salon.jpg", "alt": "A Hotel de la Ville salon with yellow walls hung with engravings, teal damask curtains and a black and white marble floor", "h3": "Style", "paras": [
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>&rsquo;s interiors, by Tommaso Ziffer, are colorful and very Roman: yellow walls, engravings, plaster reliefs and black and white floors.",
+      "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> is very modern and lively, almost like an EDITION, but much more sophisticated."
+    ]},
+    {"img": "/images/hotels/bulgari-rome/gym.jpg", "alt": "The Bulgari Hotel Roma gym, with racks, benches and plates against warm wood paneling", "h3": "Spa and gym", "paras": [
+      "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> has the biggest gym I saw in Rome, massive and with serious equipment, plus a spa.",
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has a Sicilian-inspired spa. For a pool, its sister, the <a href=\"/hotels/hotel-de-russie-rome.html\">de Russie</a>, has one indoors."
+    ]}
+  ],
+  "faq": [
+    {"q": "Which is better, the Bulgari or Hotel de la Ville?", "a": "It depends on what you value. The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> for very large base rooms, a lively scene and the biggest gym in Rome. <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> for the top of the Spanish Steps and the Cielo rooftop."},
+    {"q": "Which has the bigger rooms?", "a": "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a>. Its base rooms are what other hotels would call deluxe rooms or even junior suites. <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has some rooms with terraces and city views."},
+    {"q": "Which has the better rooftop?", "a": "They are different. <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>&rsquo;s Cielo is a bar and restaurant across the top two floors with views all over the city. The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a>&rsquo;s rooftop is a bar and pizza restaurant, with another bar just below."},
+    {"q": "Is either one quiet?", "a": "No. At both you step out into busy streets, and the <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> is lively inside too. For quiet, the <a href=\"/hotels/hotel-eden-rome.html\">Eden</a> is a short walk from <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> on a calm residential street."},
+    {"q": "Should I look at the de Russie instead of the de la Ville?", "a": "If you like the idea of a Rocco Forte, yes. <a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a> is the de la Ville&rsquo;s sister, a few minutes away, and its courtyard, renovated rooms and spa with an indoor pool made it the stronger stay for me."}
+  ],
+  "inquire_deck": "Tell me your dates and who is coming, and I will tell you which one fits and which room to ask for.",
+  "dates_placeholder": "May 2027 &middot; 4 nights",
+  "related": [
+    {"href": "/hotels/bulgari-hotel-rome.html", "label": "Bulgari Hotel Roma review"},
+    {"href": "/hotels/hotel-de-la-ville-rome.html", "label": "Hotel de la Ville review"},
+    {"href": "/hotel-de-russie-vs-hotel-de-la-ville.html", "label": "Hotel de Russie or Hotel de la Ville"},
+    {"href": "/bulgari-rome-vs-casa-monti.html", "label": "Bulgari or Casa Monti"},
+    {"href": "/rome.html", "label": "My Rome guide"}
+  ]
+}
