@@ -90,6 +90,7 @@ def link_hotels(versus):
         for f in files:
             p = f'hotels/{f}.html'
             rows = [(slug, v) for slug, v in versus.items() if f in v['hotels']]
+            rows.sort(key=lambda r: max(files.index(h) if h in files else 99 for h in r[1]['hotels'] if h != f))
             if not rows:
                 continue
             s = read(p)
@@ -112,6 +113,8 @@ def link_hubs(versus):
     for hub, files in REGIONS.items():
         s = read(hub)
         mine = [(slug, v) for slug, v in versus.items() if set(v['hotels']) <= set(files)]
+        # region lists run in Keith's order of preference
+        mine.sort(key=lambda r: sorted(files.index(h) for h in r[1]['hotels']))
         if 'id="head-to-heads"' not in s:
             sec = ('<section class="section" id="head-to-heads" style="padding-top:0; scroll-margin-top:70px;"><div class="container">\n'
                    '<div class="sec-head reveal"><span class="eyebrow">Torn between two?</span><h2 class="display-l">The head-to-heads</h2></div>\n'
