@@ -1,0 +1,73 @@
+{
+  "a": {"short": "Bulgari", "href": "/hotels/bulgari-hotel-rome.html"},
+  "b": {"short": "Casa Monti", "href": "/hotels/casa-monti-rome.html"},
+  "title": "Bulgari Rome vs Casa Monti: Polished Buzz or Boutique Fun? (2026) | Suites With Keith",
+  "description": "Bulgari Hotel Roma vs Casa Monti, compared by a travel advisor who visited both in October 2026: two lively Rome hotels, room sizes, design, trattorias and rooftops, spa and gym, and who each one suits.",
+  "place": "Rome",
+  "hero": [
+    {"src": "/images/hotels/bulgari-rome/terrace-sunset.jpg", "alt": "A Bulgari Hotel Roma terrace table under a white umbrella at sunset, looking over trees and rooftops", "pos": "50% 50%"},
+    {"src": "/images/hotels/casa-monti/press-suite-nook.jpg", "alt": "A Casa Monti room with an orange banquette under a scalloped arch of bird-print fabric and a green zigzag armchair", "pos": "50% 50%"}
+  ],
+  "h1_a": "Bulgari or",
+  "h1_b": "Casa Monti?",
+  "sub": "Neither is a hushed grand hotel. Both have energy, a rooftop and a Roman trattoria close at hand. One is big, polished and marble; the other is small, playful and in Monti. Here is how I would choose.",
+  "stamp": "Visited both &middot; October 2026",
+  "choose": [
+    {"h3": "If you want polish and space", "lead": "Spectacular. Base rooms the size of junior suites elsewhere, marble and mosaics, the biggest gym I saw in Rome, and a lively scene that is much more sophisticated than an EDITION.", "img": "/images/hotels/bulgari-rome/room-hallway.jpg", "alt": "The entry hall of a Bulgari Hotel Roma room, with wood-paneled wardrobes and an oak floor"},
+    {"h3": "If you want hip, young and fun", "lead": "So cute. A boutique hotel from the team behind Le Fantaisie in Paris, with super cool patterns, real trattorias all around and a spa couples can have to themselves.", "img": "/images/hotels/casa-monti/press-restaurant.jpg", "alt": "Casa Monti&rsquo;s downstairs restaurant, with striped banquettes, wicker chairs and a marble-fronted bar"}
+  ],
+  "rows": [
+    ["Where", "Piazza Augusto Imperatore, next to the Mausoleum of Augustus", "Via Panisperna, in Monti"],
+    ["The feel", "Very modern and lively, almost like an EDITION but more sophisticated", "Hip, young and fun boutique hotel"],
+    ["Rooms", "Base rooms other hotels would call deluxe rooms or junior suites", "Super cool patterns, and curtains that hide the TV"],
+    ["Design", "Lots of marble and incredible mosaics", "Pattern on pattern, from the team behind Le Fantaisie in Paris"],
+    ["Rooftop", "A rooftop bar and pizza restaurant", "A beautiful rooftop restaurant"],
+    ["The trattoria", "A classic Roman one downstairs, with &euro;18 pastas", "Authentic ones all around, full of Romans at Sunday lunch"],
+    ["Spa and gym", "The biggest gym I saw in Rome, plus a spa", "A spa couples can book just for the two of them"],
+    ["Ask me about", "Whether the entry category is already enough", "Setting up the private spa before you arrive"],
+    ["Best for", "Space, energy and great dining without leaving the hotel", "Younger couples and honeymooners"]
+  ],
+  "pitch": "Work with me and you get Fora perks, plus someone who knows these hotels personally and personalizes your stay: I tell you whether the Bulgari&rsquo;s base room is already enough, book the Casa Monti spa just for the two of you, and arrange your transfers and drivers. Same rate as booking direct.",
+  "band": {
+    "h2": "You want energy. Do you want it polished, or playful?",
+    "paras": [
+      "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> is lively, almost like an EDITION but much more sophisticated. It is big and modern, with so many places to eat and drink that I&rsquo;m not even sure how many there are.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is a boutique hotel for younger couples who want something hip, young and fun. The fun spills out the door into Monti, where real Romans eat at the trattorias.",
+      "If you want space, a big gym and everything under one roof, pick the Bulgari. If you are a younger couple who wants a small, playful hotel in a real neighborhood, pick Casa Monti."
+    ]
+  },
+  "guide": [
+    {"img": "/images/hotels/casa-monti/press-fiat.jpg", "alt": "A yellow vintage Fiat 500 with the Casa Monti logo outside the hotel&rsquo;s arched entrance on Via Panisperna", "h3": "Trattorias", "paras": [
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is surrounded by authentic Roman trattorias, and when I visited on a Sunday, real Romans were having lunch at them. Inside, there is a beautiful rooftop restaurant and a lively one downstairs.",
+      "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> brings the trattoria inside: a classic Roman one downstairs with dishes that are actually affordable, like &euro;18 pastas. I loved that."
+    ]},
+    {"img": "/images/hotels/bulgari-rome/bedroom.jpg", "alt": "A Bulgari Hotel Roma base room with a tall upholstered headboard and a Bvlgari throw on the bed", "h3": "Rooms", "paras": [
+      "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a>&rsquo;s base rooms are what other hotels would sell as a deluxe room or a junior suite. You often don&rsquo;t need to upgrade to get space.",
+      "At <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, the rooms are about personality: super cool patterns, details everywhere and curtains that hide the TV."
+    ]},
+    {"img": "/images/hotels/casa-monti/press-spa-pool.jpg", "alt": "The Casa Monti spa pool, raised on golden marble steps between two white amphorae", "h3": "Spa and gym", "paras": [
+      "At <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, couples can book the spa just for the two of them. I arrange it before you arrive.",
+      "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> has the biggest gym I saw in Rome, massive and with serious equipment, plus a spa."
+    ]},
+    {"img": "/images/hotels/bulgari-rome/rooftop-arches.jpg", "alt": "The Bulgari Hotel Roma rooftop at sunset, a brick walkway under green arches lined with lounge seating", "h3": "Rooftops", "paras": [
+      "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> has a beautiful rooftop bar and pizza restaurant, and another bar on the floor below it.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>&rsquo;s rooftop restaurant is beautiful too, with terraces over the rooftops of Monti."
+    ]}
+  ],
+  "faq": [
+    {"q": "Which is better, the Bulgari or Casa Monti?", "a": "It depends on who is traveling. The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> for space, polish and great dining without leaving the hotel. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> for younger couples who want something hip, young and fun in a real Roman neighborhood."},
+    {"q": "Which is better for a honeymoon?", "a": "For younger honeymooners, <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, and book the spa just for the two of you. The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> suits travelers who want a big room and a lively scene."},
+    {"q": "Which has the bigger rooms?", "a": "The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a>. Its base rooms are what other hotels would call deluxe rooms or even junior suites."},
+    {"q": "Which is better for food?", "a": "Both are good for eating Roman. The <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> has a classic trattoria downstairs with &euro;18 pastas, plus a rooftop bar and pizza restaurant. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> has a rooftop restaurant, a lively one downstairs, and authentic trattorias all around."},
+    {"q": "Is either one quiet?", "a": "Neither is the pick for quiet. For calm in the middle of Rome, I send people to the <a href=\"/hotels/hotel-eden-rome.html\">Eden</a> or the <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>."}
+  ],
+  "inquire_deck": "Tell me your dates and who is coming, and I will tell you which one fits and what to set up before you arrive.",
+  "dates_placeholder": "June 2027 &middot; 4 nights",
+  "related": [
+    {"href": "/hotels/bulgari-hotel-rome.html", "label": "Bulgari Hotel Roma review"},
+    {"href": "/hotels/casa-monti-rome.html", "label": "Casa Monti review"},
+    {"href": "/hotel-eden-vs-bulgari-rome.html", "label": "Hotel Eden or Bulgari"},
+    {"href": "/corinthia-rome-vs-casa-monti.html", "label": "Corinthia or Casa Monti"},
+    {"href": "/rome.html", "label": "My Rome guide"}
+  ]
+}

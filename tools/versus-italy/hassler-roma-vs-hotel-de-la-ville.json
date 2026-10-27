@@ -1,0 +1,72 @@
+{
+  "a": {"short": "Hassler", "href": "/hotels/hassler-roma.html"},
+  "b": {"short": "Hotel de la Ville", "href": "/hotels/hotel-de-la-ville-rome.html"},
+  "title": "Hassler Roma vs Hotel de la Ville: Neighbors on the Steps (2026) | Suites With Keith",
+  "description": "Hotel Hassler Roma vs Hotel de la Ville, next-door neighbors at the top of the Spanish Steps, compared by a travel advisor who visited both in October 2026: rooftops, style, rooms, spa, and who each one suits.",
+  "place": "Rome",
+  "hero": [
+    {"src": "/images/hotels/hassler-rome/press-spanish-steps.jpg", "alt": "The Spanish Steps and Trinit&agrave; dei Monti at sunrise, with Hotel Hassler Roma at the top of the Steps", "pos": "50% 50%"},
+    {"src": "/images/hotels/de-la-ville/press-courtyard.jpg", "alt": "Hotel de la Ville&rsquo;s courtyard, with red and white striped umbrellas and salmon-pink walls with green shutters", "pos": "50% 50%"}
+  ],
+  "h1_a": "Hassler or",
+  "h1_b": "Hotel de la Ville?",
+  "sub": "Next-door neighbors at the top of the Spanish Steps, with the same crowds outside. The difference is style, the rooftop, and whether you want a spa this year. Here is how I would choose.",
+  "stamp": "Visited both &middot; October 2026",
+  "choose": [
+    {"h3": "If you want traditional grandeur and a Michelin star", "lead": "A very nice, very traditional luxury hotel right at the top of the Steps, with a Michelin-starred restaurant on the roof and a beautiful one in the courtyard.", "img": "/images/hotels/hassler-rome/press-canopy-bedroom.jpg", "alt": "A Hotel Hassler Roma bedroom with a fabric-covered canopy bed, damask walls and a gilded frame"},
+    {"h3": "If you want color, a rooftop bar and a spa", "lead": "A Rocco Forte in an 18th-century palazzo with colorful, very Roman interiors, Cielo on the roof for sunset drinks, and a Sicilian-inspired spa.", "img": "/images/hotels/de-la-ville/press-salon.jpg", "alt": "A Hotel de la Ville salon with yellow walls hung with engravings and a black and white marble floor"}
+  ],
+  "rows": [
+    ["Where", "Right at the top of the Spanish Steps", "Via Sistina, at the top of the Spanish Steps, next door"],
+    ["Outside the door", "The Steps, crowded from morning to night", "The same crowds"],
+    ["The feel", "Very traditional grand hotel", "Colorful Roman palazzo by Tommaso Ziffer (Rocco Forte)"],
+    ["Rooms", "Very traditional, with canopy beds and damask walls", "104 rooms and suites, some with terraces and city views"],
+    ["On the roof", "A Michelin-starred restaurant", "Cielo, a bar and restaurant across the top two floors"],
+    ["Downstairs", "A beautiful courtyard restaurant", "Mosaico on the courtyard, and the Julep cocktail bar"],
+    ["Spa", "A new wellness and gym area opens in 2027", "A Sicilian-inspired spa"],
+    ["Best for", "Classic, traditional luxury at the heart of the action", "The Steps on the doorstep and sunset drinks on a rooftop"]
+  ],
+  "pitch": "Work with me and you get Fora perks, plus someone who knows these hotels personally and personalizes your stay: I request the right room at either one, tell you when the Hassler&rsquo;s new wellness area opens, and arrange your transfers from Fiumicino or Termini. Same rate as booking direct.",
+  "band": {
+    "h2": "Same Steps, same crowds. Do you want tradition or color?",
+    "paras": [
+      "The <a href=\"/hotels/hassler-roma.html\">Hassler</a> is very traditional, and that&rsquo;s the appeal. The dining is the highlight, with a Michelin-starred restaurant on the roof.",
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> is next door, with colorful, very Roman interiors and Cielo, a rooftop bar and restaurant with views all over the city. It also has a spa now, while the Hassler&rsquo;s opens in 2027.",
+      "If you love grand-hotel style and a serious dinner, pick the Hassler. If you want a more colorful palazzo, a rooftop bar for sunset and a spa this trip, pick the de la Ville. And if you are deciding between the Rocco Forte hotels, I prefer the de la Ville&rsquo;s sister, the <a href=\"/hotels/hotel-de-russie-rome.html\">de Russie</a>."
+    ]
+  },
+  "guide": [
+    {"img": "/images/hotels/hassler-rome/press-bath-view.jpg", "alt": "A freestanding tub in a black marble Hotel Hassler Roma bathroom, with windows over the rooftops to St. Peter&rsquo;s", "h3": "Two rooftops", "paras": [
+      "The <a href=\"/hotels/hassler-roma.html\">Hassler</a> has a Michelin-starred restaurant on the roof, with the rooftops of Rome laid out below you.",
+      "At <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>, the highlight is Cielo, the rooftop bar and restaurant across the top two floors, with views across Rome&rsquo;s skyline. Come for sunset drinks."
+    ]},
+    {"img": "/images/hotels/de-la-ville/press-lobby.jpg", "alt": "Hotel de la Ville&rsquo;s reception, with a marble desk, plaster reliefs on sage walls and a black and white zigzag floor", "h3": "Style and rooms", "paras": [
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> is an 18th-century palazzo with interiors by Tommaso Ziffer: yellow walls, engravings, plaster reliefs and black and white floors. There are 104 rooms and suites, some with terraces and city views.",
+      "The <a href=\"/hotels/hassler-roma.html\">Hassler</a> is classic luxury for travelers who want Rome&rsquo;s grand-hotel style: canopy beds, damask walls and crystal lamps, and bathrooms that open to the trees."
+    ]},
+    {"img": "/images/hotels/de-la-ville/press-bathroom.jpg", "alt": "A Hotel de la Ville bathroom with a freestanding tub, marble walls and a double vanity", "h3": "Spa", "paras": [
+      "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> has a Sicilian-inspired spa.",
+      "The <a href=\"/hotels/hassler-roma.html\">Hassler</a> is building a large new wellness and gym area that opens in 2027. Until then, if a spa and gym matter a lot, I point people to the <a href=\"/hotels/bulgari-hotel-rome.html\">Bulgari</a> or the <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>."
+    ]},
+    {"img": "/images/hotels/hassler-rome/press-bathroom-garden.jpg", "alt": "A bright Hotel Hassler Roma bathroom with a double vanity and a balcony door open to the trees", "h3": "The crowds", "paras": [
+      "At both, you step out the door into the crowds at the top of the Steps, from morning to night. That is the trade for an address you can&rsquo;t beat for being central.",
+      "If quiet matters more than the Steps, the <a href=\"/hotels/hotel-eden-rome.html\">Eden</a> is a few minutes away on a calm residential street. At the <a href=\"/hotels/hassler-roma.html\">Hassler</a>, the courtyard restaurant is a calmer place to eat than the streets outside."
+    ]}
+  ],
+  "faq": [
+    {"q": "Which is better, the Hassler or Hotel de la Ville?", "a": "It depends on your style. The <a href=\"/hotels/hassler-roma.html\">Hassler</a> for very traditional luxury and Michelin-starred dining on the roof. <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a> for colorful Roman interiors, the Cielo rooftop bar and a spa you can use now."},
+    {"q": "Are they really next to each other?", "a": "Yes. Both are at the top of the Spanish Steps, and the <a href=\"/hotels/hassler-roma.html\">Hassler</a> is right next door to <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>."},
+    {"q": "Which has the better rooftop?", "a": "For dinner, the <a href=\"/hotels/hassler-roma.html\">Hassler</a>&rsquo;s Michelin-starred restaurant. For sunset drinks, Cielo at <a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>, across the top two floors with views all over the city."},
+    {"q": "Which has a spa?", "a": "<a href=\"/hotels/hotel-de-la-ville-rome.html\">Hotel de la Ville</a>, with a Sicilian-inspired spa. The <a href=\"/hotels/hassler-roma.html\">Hassler</a>&rsquo;s new wellness and gym area opens in 2027."},
+    {"q": "Is there a better Rocco Forte option?", "a": "For me, yes: <a href=\"/hotels/hotel-de-russie-rome.html\">Hotel de Russie</a>, the de la Ville&rsquo;s sister a few minutes away. Its large courtyard, renovated rooms and spa with an indoor pool made it the stronger stay."}
+  ],
+  "inquire_deck": "Tell me your dates and who is coming, and I will tell you which one fits and which room to ask for.",
+  "dates_placeholder": "May 2027 &middot; 3 nights",
+  "related": [
+    {"href": "/hotels/hassler-roma.html", "label": "Hassler review"},
+    {"href": "/hotels/hotel-de-la-ville-rome.html", "label": "Hotel de la Ville review"},
+    {"href": "/hotel-de-russie-vs-hotel-de-la-ville.html", "label": "Hotel de Russie or Hotel de la Ville"},
+    {"href": "/hotel-eden-vs-hassler-roma.html", "label": "Hotel Eden or Hassler"},
+    {"href": "/rome.html", "label": "My Rome guide"}
+  ]
+}

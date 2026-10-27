@@ -1,0 +1,183 @@
+{
+  "a": {
+    "short": "Il San Pietro",
+    "href": "/hotels/il-san-pietro-di-positano.html"
+  },
+  "b": {
+    "short": "Borgo Santandrea",
+    "href": "/hotels/borgo-santandrea-amalfi.html"
+  },
+  "title": "Il San Pietro vs Borgo Santandrea: Sunset or a Real Beach? (2026) | Suites With Keith",
+  "description": "Il San Pietro vs Borgo Santandrea, compared by a travel advisor who toured both in October 2026: the classic in Positano or the modern statement above Conca dei Marini, beach clubs and the afternoon sun, rooms, privacy and who each one suits.",
+  "place": "Amalfi Coast",
+  "hero": [
+    {
+      "src": "/images/tennis/il-san-pietro.jpg",
+      "alt": "The Il San Pietro tennis court beneath the cliffs, with the beach club on the rocks beyond",
+      "pos": "50% 50%"
+    },
+    {
+      "src": "/images/worlds-50-best/borgo-santandrea.webp",
+      "alt": "Borgo Santandrea on the cliffs above Conca dei Marini",
+      "pos": "50% 50%"
+    }
+  ],
+  "h1_a": "Il San Pietro or",
+  "h1_b": "Borgo Santandrea?",
+  "sub": "The two honeymoon picks on my World&rsquo;s 50 Best list. One is the classic, on the cliffs just outside Positano; the other is the modern statement above Conca dei Marini. Here is how I would choose.",
+  "stamp": "Toured both &middot; October 2026",
+  "choose": [
+    {
+      "h3": "If you want Positano and the sunset",
+      "lead": "A sea view from every room, a beach club that keeps the sun when the rest of the coast is in shade, the iconic tennis court and a long list of inclusions.",
+      "img": "/images/hotels/il-san-pietro/suite-terrace-view.jpg",
+      "alt": "A suite at Il San Pietro with blue-and-yellow tiles opening onto a terrace over the sea"
+    },
+    {
+      "h3": "If you want a modern statement and a real beach",
+      "lead": "Spectacular and very modern, above Conca dei Marini, with a beautiful, massive, proper beach, fantastic dining at Alici and refined but warm service.",
+      "img": "/images/worlds-50-best/borgo-santandrea.webp",
+      "alt": "Borgo Santandrea on the cliffs above Conca dei Marini"
+    }
+  ],
+  "rows": [
+    [
+      "Where",
+      "On the cliffs just outside Positano",
+      "Above Conca dei Marini, just along the coast from Amalfi"
+    ],
+    [
+      "The feel",
+      "Nautical and bright: blues, whites and tiles",
+      "Very modern, in the rooms and in the facilities"
+    ],
+    [
+      "Service",
+      "Very private: you will only see other guests",
+      "Refined but warm"
+    ],
+    [
+      "Rooms",
+      "Every room has a sea view, facing sunrise or sunset",
+      "Very modern; the private pool rooms are not that private"
+    ],
+    [
+      "Room to ask for",
+      "The sunset side; Signature or Prestige for more space",
+      "Ask me first, and think twice about a private pool room"
+    ],
+    [
+      "Beach club",
+      "On the sunset side, with sun on the water late into the afternoon",
+      "A beautiful, massive, proper beach; the sun leaves the water early"
+    ],
+    [
+      "Don&rsquo;t miss",
+      "The iconic tennis court, and a complimentary 2-hour yacht cruise",
+      "The beach, and dinner at Alici"
+    ],
+    [
+      "Arriving",
+      "By boat from Naples or Salerno",
+      "By boat from Naples or Salerno"
+    ],
+    [
+      "Best for",
+      "Honeymoons, tennis, fall trips, privacy",
+      "A modern, spectacular statement and a real beach"
+    ]
+  ],
+  "pitch": "Work with me and you get Fora perks, plus someone who knows these hotels personally and personalizes your stay: I request the sunset side at Il San Pietro, steer you away from the overlooked pool rooms at Borgo Santandrea, and arrange the boats and transfers. Same rate as booking direct.",
+  "band": {
+    "h2": "The classic, or the statement?",
+    "paras": [
+      "<a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a> is the classic, done properly: sea views from every room, the iconic tennis court, and a beach club on the sunset side. <a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a> is spectacular and very modern, and that makes it feel different from every other hotel on the coast.",
+      "The afternoon sun decides a lot of fall trips. At most hotels on the coast, <a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a> included, the water goes dark early, and your swim time ends around 4:30 or 5pm. Not at <a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a>.",
+      "If you want sunsets, privacy and a hotel that fills your days, pick Il San Pietro. If you want something new and modern, with a proper beach, pick Borgo Santandrea."
+    ]
+  },
+  "guide": [
+    {
+      "img": "/images/hotels/il-san-pietro/bedroom-terrace.jpg",
+      "alt": "An Il San Pietro bedroom with blue-striped tiles and sliding doors to a private sea-view terrace",
+      "h3": "Rooms",
+      "paras": [
+        "At <a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a>, every room is impeccably kept and has a sea view. Some face the sunrise, others the sunset, so tell me which you want. The base rooms are fantastic; Signature and Prestige give you more space.",
+        "<a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a> is very modern, in the rooms and in the facilities. The private pool rooms are not that private, though: you can look down on your neighbors, and they can look down on you. Tell me what matters to you and I will request the right room."
+      ]
+    },
+    {
+      "img": "/images/hotels/il-san-pietro/beach-club.jpg",
+      "alt": "The Il San Pietro beach club on a rock platform at the foot of the cliff, with a boat alongside",
+      "h3": "Beach clubs and the afternoon sun",
+      "paras": [
+        "<a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a>&rsquo;s beach club is on the sunset side, which is a huge selling point. In the fall, the best time to visit, swim time ends around 4:30 or 5pm at most hotels on the coast. Not here.",
+        "<a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a> has the better beach itself: beautiful, massive and a proper beach. But it is one of the hotels where the sun leaves the water early. Come in May to June, or September."
+      ]
+    },
+    {
+      "img": "/images/hotels/il-san-pietro/boat.jpg",
+      "alt": "A white motor yacht moored off the Amalfi Coast near Il San Pietro, with the cliffs beyond",
+      "h3": "Food and the days",
+      "paras": [
+        "<a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a> fills the days for you: a complimentary 2-hour yacht cruise, cooking and pizza classes, a daily cocktail masterclass, Pilates and yoga, the iconic tennis court and Michelin-starred dining.",
+        "At <a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a>, the beach is the day, and dinner at Alici is fantastic. Service is refined but warm."
+      ]
+    },
+    {
+      "img": "/images/hotels/il-san-pietro/suite-terrace-view.jpg",
+      "alt": "A suite at Il San Pietro with blue-and-yellow tiles opening onto a terrace over the sea",
+      "h3": "Honeymoons",
+      "paras": [
+        "Both are honeymoon picks of mine. <a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a> is #06 in <a href=\"/the-fifteen.html\">The Fifteen</a>, my honeymoon shortlist, and the privacy is the point: no one can look down on you.",
+        "<a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a> is No. 84 on my <a href=\"/worlds-50-best-51-100.html#no-84\">World&rsquo;s 50 Best (51&ndash;100)</a>, and my other honeymoon pick there. Choose it for the statement and the beach, and skip the private pool rooms if privacy is the priority."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which is better, Il San Pietro or Borgo Santandrea?",
+      "a": "It depends on what you want. <a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a> is the classic, with sea views from every room, the tennis court and the sunset beach club. <a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a> is the modern, spectacular statement, with a proper beach. For a fall trip, the afternoon sun at Il San Pietro is hard to beat."
+    },
+    {
+      "q": "Which has the better beach?",
+      "a": "<a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a> has the better beach: beautiful, massive and a proper beach. <a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a>&rsquo;s beach club is on the rocks, but it is on the sunset side, so you keep the sun on the water late into the afternoon."
+    },
+    {
+      "q": "Which is better for a honeymoon?",
+      "a": "Both are on my honeymoon lists. <a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a> is #06 in <a href=\"/the-fifteen.html\">The Fifteen</a>, and the privacy is the point. At <a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a>, skip the private pool rooms if privacy matters, because they are overlooked."
+    },
+    {
+      "q": "Should I book a private pool room at Borgo Santandrea?",
+      "a": "Think twice. At <a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a>, the private pool rooms are not that private: you can look down on your neighbors, and they can look down on you. Not everyone will mind, but it is important to know."
+    },
+    {
+      "q": "Which is closer to Positano?",
+      "a": "<a href=\"/hotels/il-san-pietro-di-positano.html\">Il San Pietro</a>, on the cliffs just outside town, with free boat and car shuttles in. <a href=\"/hotels/borgo-santandrea-amalfi.html\">Borgo Santandrea</a> is above Conca dei Marini, just along the coast from Amalfi, on the quieter side of the coast."
+    },
+    {
+      "q": "Can I do both?",
+      "a": "Yes. A few nights at each splits the trip between Positano and the Amalfi side of the coast, and I arrange the boat between them."
+    }
+  ],
+  "inquire_deck": "Tell me your dates and who is coming, and I will tell you which one fits and which room to ask for.",
+  "related": [
+    {
+      "href": "/hotels/il-san-pietro-di-positano.html",
+      "label": "Il San Pietro review"
+    },
+    {
+      "href": "/hotels/borgo-santandrea-amalfi.html",
+      "label": "Borgo Santandrea review"
+    },
+    {
+      "href": "/il-san-pietro-vs-santa-caterina.html",
+      "label": "Il San Pietro or Santa Caterina"
+    },
+    {
+      "href": "/positano-hotels.html",
+      "label": "Where to stay on the Amalfi Coast"
+    }
+  ],
+  "date": "2026-10-27"
+}

@@ -1,0 +1,72 @@
+{
+  "a": {"short": "Corinthia", "href": "/hotels/corinthia-rome.html"},
+  "b": {"short": "Casa Monti", "href": "/hotels/casa-monti-rome.html"},
+  "title": "Corinthia Rome vs Casa Monti: Grand Opening or Boutique? (2026) | Suites With Keith",
+  "description": "Corinthia Rome vs Casa Monti, compared by a travel advisor who visited both in October 2026: a grand new hotel or a hip boutique, quiet or neighborhood life, rooms, spas, and who each one suits.",
+  "place": "Rome",
+  "hero": [
+    {"src": "/images/hotels/corinthia-rome/press-canopy-bedroom.jpg", "alt": "A Corinthia Rome bedroom with a bronze canopy bed, pink upholstered headboard and a terrace draped in bougainvillea", "pos": "50% 50%"},
+    {"src": "/images/hotels/casa-monti/press-living-corner.jpg", "alt": "A Casa Monti room with orange curtains, a green zigzag armchair, a tulip floor lamp and a bird-print fabric alcove", "pos": "50% 50%"}
+  ],
+  "h1_a": "Corinthia or",
+  "h1_b": "Casa Monti?",
+  "sub": "Both have a spa, and that is where the likeness ends. One is a grand hotel with large rooms on a quiet square; the other is a cute boutique hotel among the trattorias of Monti. Here is how I would choose.",
+  "stamp": "Visited both &middot; October 2026",
+  "choose": [
+    {"h3": "If you want space and calm", "lead": "Wow. A showstopper renovation, large rooms and a beautiful spa, across from parliament: incredibly safe and quiet while still in the middle of everything.", "img": "/images/hotels/corinthia-rome/press-suite-living.jpg", "alt": "A Corinthia Rome suite living room with a white sofa, cognac leather accents and marble floors"},
+    {"h3": "If you want hip, young and fun", "lead": "So cute. A boutique hotel from the team behind Le Fantaisie in Paris, with a beautiful rooftop, real trattorias all around and a spa couples can have to themselves.", "img": "/images/hotels/casa-monti/press-terrace.jpg", "alt": "A Casa Monti terrace with patterned chairs and climbing jasmine over the tiled rooftops of Monti"}
+  ],
+  "rows": [
+    ["Where", "Piazza del Parlamento, across from parliament", "Via Panisperna, in Monti"],
+    ["The feel", "Grand new opening with a showstopper renovation", "Hip boutique hotel"],
+    ["Outside the door", "Incredibly safe and quiet, still central", "Authentic Roman trattorias, full of Romans at Sunday lunch"],
+    ["Rooms", "Large and tastefully appointed, with onyx and marble bathrooms", "Super cool patterns, and curtains that hide the TV"],
+    ["Spa", "A beautiful spa", "A spa couples can book just for the two of them"],
+    ["Shared spaces", "Beautiful public spaces, big enough never to feel crowded", "A rooftop restaurant and a lively one downstairs"],
+    ["Ask me about", "Room categories and views, which vary", "Setting up the private spa before you arrive"],
+    ["Best for", "Space, a real spa and a central, quiet base", "Younger couples and honeymooners"]
+  ],
+  "pitch": "Work with me and you get Fora perks, plus someone who knows these hotels personally and personalizes your stay: I steer you through the Corinthia&rsquo;s new room categories, book the Casa Monti spa just for the two of you, and arrange your transfers and drivers. Same rate as booking direct.",
+  "band": {
+    "h2": "Do you want a grand hotel to retreat to, or a neighborhood to live in?",
+    "paras": [
+      "The <a href=\"/hotels/corinthia-rome.html\">Corinthia</a> is a retreat in the middle of the city. It is across the street from parliament, so it is quiet and incredibly safe, and the rooms are large, which is rare in central Rome.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is about the neighborhood. There are authentic trattorias all around, and the hotel itself is hip, young and fun, for anyone who wants something other than the classic luxury hotels.",
+      "If you want space, quiet and a beautiful spa, pick the Corinthia. If you are a younger couple who wants personality and a real Roman neighborhood, pick Casa Monti."
+    ]
+  },
+  "guide": [
+    {"img": "/images/hotels/casa-monti/press-restaurant.jpg", "alt": "Casa Monti&rsquo;s downstairs restaurant, with striped banquettes, wicker chairs and a marble-fronted bar", "h3": "Neighborhood", "paras": [
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is on Via Panisperna in Monti, and the neighborhood is the real thing. When I visited on a Sunday, real Romans were having lunch at the trattorias around it. Inside, there is a lively restaurant downstairs and a beautiful one on the roof.",
+      "The <a href=\"/hotels/corinthia-rome.html\">Corinthia</a> is on Piazza del Parlamento. It is quiet and walkable to everything, which is the draw."
+    ]},
+    {"img": "/images/hotels/corinthia-rome/press-onyx-bathroom.jpg", "alt": "A Corinthia Rome bathroom in onyx and marble, with a freestanding stone tub and a crystal chandelier", "h3": "Rooms", "paras": [
+      "Space is the story at the <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>: large, tastefully appointed rooms, onyx and marble bathrooms, and bedrooms that open onto terraces. It is new, so room categories and views vary. I&rsquo;ll steer you to the right one.",
+      "At <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, the rooms are all personality: super cool patterns, details everywhere and curtains that hide the TV."
+    ]},
+    {"img": "/images/hotels/casa-monti/press-spa-lounge.jpg", "alt": "The Casa Monti spa lounge with wicker loungers in a lemon-print fabric, yellow walls and a mosaic floor", "h3": "Two spas", "paras": [
+      "At <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, couples can book the spa just for the two of them, which makes it great for couples. I arrange it before you arrive.",
+      "The <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>&rsquo;s spa is beautiful, as are the public spaces, which are big enough that the hotel never feels crowded."
+    ]},
+    {"img": "/images/hotels/corinthia-rome/press-salon.jpg", "alt": "A Corinthia Rome suite with double-height windows, a gilded mirror over the sofa and a marble table", "h3": "Design", "paras": [
+      "The <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>&rsquo;s renovation is a showstopper from the moment you walk in. I was blown away.",
+      "<a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> is from the same company as Le Fantaisie in Paris, and it shows: pattern on pattern, and a yellow vintage Fiat 500 parked out front."
+    ]}
+  ],
+  "faq": [
+    {"q": "Which is better, the Corinthia or Casa Monti?", "a": "They suit different travelers. The <a href=\"/hotels/corinthia-rome.html\">Corinthia</a> for large rooms, a beautiful spa and a quiet, central base. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> for younger couples who want something hip, young and fun in a real Roman neighborhood."},
+    {"q": "Which is better for a honeymoon?", "a": "For younger honeymooners who want something fun, <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>, with the spa booked just for the two of you. For space and quiet, the <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>."},
+    {"q": "Which has the better spa?", "a": "The <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>&rsquo;s spa is beautiful. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a>&rsquo;s can be booked privately, which makes it great for couples."},
+    {"q": "Which has the bigger rooms?", "a": "The <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>. Its rooms are large, which is rare in central Rome."},
+    {"q": "Which is quieter?", "a": "The <a href=\"/hotels/corinthia-rome.html\">Corinthia</a>, across the street from parliament. <a href=\"/hotels/casa-monti-rome.html\">Casa Monti</a> has a lively restaurant downstairs and trattorias all around, which is the point."}
+  ],
+  "inquire_deck": "Tell me your dates and who is coming, and I will tell you which one fits and what to set up before you arrive.",
+  "dates_placeholder": "September 2027 &middot; 4 nights",
+  "related": [
+    {"href": "/hotels/corinthia-rome.html", "label": "Corinthia Rome review"},
+    {"href": "/hotels/casa-monti-rome.html", "label": "Casa Monti review"},
+    {"href": "/bulgari-rome-vs-corinthia-rome.html", "label": "Bulgari or Corinthia"},
+    {"href": "/hotel-de-la-ville-vs-casa-monti.html", "label": "Hotel de la Ville or Casa Monti"},
+    {"href": "/rome.html", "label": "My Rome guide"}
+  ]
+}
