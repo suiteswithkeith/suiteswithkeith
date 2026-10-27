@@ -22,8 +22,7 @@
     ["The building", "Three historic buildings, a church and nearly a hectare of walled gardens", "Palazzo Donà Giovannelli, 15th century, after an eight-year restoration"],
     ["Size", "45 rooms and suites", "About 47 rooms and suites"],
     ["The showpiece", "The arrival by water and the gardens", "The marble and the ceilings"],
-    ["Pools", "A 25-meter pool in the gardens, a kids&rsquo; pool and an indoor pool in the spa", "None: it is a palazzo hotel"],
-    ["Spa and dining", "A three-level Guerlain spa; four chefs and five bars", "The restoration is the reason to come"],
+    ["Pools and spa", "A 25-meter pool in the gardens, a kids&rsquo; pool, and an indoor pool in a three-level Guerlain spa", "No pool: it is a palazzo hotel"],
     ["Room to ask for", "The Suite del Doge, or Villa Mason for a family", "The piano nobile, for the highest ceilings"],
     ["Nights", "I could easily do four", "Three is the sweet spot"],
     ["Best for", "Families, groups, couples who want a resort, anyone who values calm", "Design lovers, couples, travelers arriving by train"]
@@ -32,7 +31,7 @@
   "band": {
     "h2": "Do you want a resort, or a palace?",
     "paras": [
-      "I toured both on the same day in October 2026, along with the Danieli and Aman Venice. Of Venice&rsquo;s three new hotels, <a href=\"/hotels/airelles-palladio-venice.html\">Airelles Palladio</a> is my number one and <a href=\"/hotels/orient-express-venice.html\">Orient Express</a> is my number two.",
+      "I toured both on the same day in October 2026, along with <a href=\"/hotels/danieli-four-seasons-venice.html\">the Danieli</a> and <a href=\"/hotels/aman-venice.html\">Aman Venice</a>. Of Venice&rsquo;s three new hotels, <a href=\"/hotels/airelles-palladio-venice.html\">Airelles Palladio</a> is my number one and <a href=\"/hotels/orient-express-venice.html\">Orient Express</a> is my number two.",
       "<a href=\"/hotels/airelles-palladio-venice.html\">Airelles</a> gives you more: pools, a real spa, gardens and four chefs, with St. Mark&rsquo;s five minutes away when you want it. It is the better choice for families, and for me it is the most beautiful hotel in Italy.",
       "<a href=\"/hotels/orient-express-venice.html\">Orient Express</a> wins on the interiors. If the marble, the ceilings and the chandeliers are what you come to Venice for, or you are arriving by train, book it and ask for the piano nobile."
     ]
@@ -48,7 +47,7 @@
     ]},
     {"img": "/images/hotels/airelles-palladio-venice/spa-pool.jpg", "alt": "The indoor pool in the spa at Airelles Palladio", "h3": "Pools, spa and dining", "paras": [
       "This is where <a href=\"/hotels/airelles-palladio-venice.html\">Airelles</a> pulls ahead. There is a 25-meter pool hidden in the gardens, an 8-meter pool just for children, and the Domus indoor pool in Spa Airelles by Guerlain, 1,700 square meters over three levels. Norbert Niederkofler, Matsuhisa, Jean-Georges and C&eacute;dric Grolet are all on the estate, so you can stay a week without repeating an evening.",
-      "<a href=\"/hotels/orient-express-venice.html\">Orient Express</a> has no pool. It is a palazzo hotel, and you come for the building itself."
+      "<a href=\"/hotels/orient-express-venice.html\">Orient Express</a> has no pool. It is a palazzo hotel. If a pool matters, Airelles is the answer in Venice."
     ]},
     {"img": "/images/hotels/orient-express-venice/gothic-salon-ceiling.jpg", "alt": "A restored Gothic ceiling at Orient Express Venice", "h3": "Rooms, families and how long to stay", "paras": [
       "At <a href=\"/hotels/orient-express-venice.html\">Orient Express</a>, ask for the piano nobile, the noble floor one level above the ground floor, where the ceilings are highest. Three nights is the sweet spot: long enough for the city, the islands and a few long lunches.",
