@@ -18,7 +18,7 @@ LASTMOD = '2026-10-27'
 
 REGIONS = {
     'positano-hotels.html': ['hotel-santa-caterina-amalfi', 'il-san-pietro-di-positano', 'le-sirenuse-positano',
-                             'villa-treville-positano'],
+                             'villa-treville-positano', 'borgo-santandrea-amalfi'],
     'rome.html': ['hotel-eden-rome', 'orient-express-la-minerva-rome', 'hotel-de-russie-rome', 'hassler-roma',
                   'bulgari-hotel-rome', 'corinthia-rome', 'hotel-de-la-ville-rome', 'casa-monti-rome'],
     'dolomites.html': ['forestis-dolomites', 'aman-rosa-alpina-dolomites', 'como-alpina-dolomites',
