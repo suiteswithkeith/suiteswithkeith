@@ -1,0 +1,15 @@
+---
+// Button: the site's one call-to-action shape. Renders <a> when given href, else <button>.
+// variant: primary (olive solid) · secondary (ink outline) · quiet (plaster-deep) · on-dark (ghost on a shadow band)
+const { variant = 'primary', size = 'md', href, type = 'button', disabled = false, class: extra = '', ...rest } = Astro.props;
+const cls = [
+  'btn',
+  variant === 'secondary' || variant === 'on-dark' ? 'btn-ghost' : '',
+  variant === 'quiet' ? 'btn-quiet' : '',
+  size === 'sm' ? 'btn-sm' : '',
+  extra,
+].filter(Boolean).join(' ');
+---
+{href
+  ? <a class={cls} href={href} aria-disabled={disabled ? 'true' : undefined} {...rest}><slot /></a>
+  : <button class={cls} type={type} disabled={disabled} {...rest}><slot /></button>}

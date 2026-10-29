@@ -1,0 +1,21 @@
+---
+// Nav: plaster bar, monogram + wordmark, tracked links, olive CTA. Collapses to Menu under 860px
+// (the mobile sticky CTA takes over the CTA's job there). overlay: transparent over a full-bleed hero.
+import LogoMark from './LogoMark.astro';
+import Button from './Button.astro';
+const { current = '', overlay = false, ctaLabel = 'Let&rsquo;s plan your trip', ctaHref = '#inquire' } = Astro.props;
+---
+<nav class={overlay ? 'nav nav--overlay' : 'nav'} id="nav">
+  <div class="container">
+    <a class="wordmark" href="/index.html"><LogoMark color={overlay ? 'var(--text-on-dark)' : 'var(--ink)'} />Suites With Keith</a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <div class="nav-links" id="nav-links">
+      <a href="/services.html">Services</a>
+      <a href="/collections.html" data-gtag-label="collections" data-gtag-location="nav" aria-current={current === 'collections' ? 'page' : undefined}>The Collections</a>
+      <a href="/destination-guides.html" data-gtag-label="destination_guides" data-gtag-location="nav">Destination Guides</a>
+      <a href="/rankings.html" data-gtag-label="keiths_rankings" data-gtag-location="nav">Keith's Rankings</a>
+      <a href="/about.html" aria-current={current === 'about' ? 'page' : undefined}>About</a>
+      <Button size="sm" href={ctaHref} class="nav-cta" data-gtag-label="start_planning" data-gtag-location="nav"><Fragment set:html={ctaLabel} /></Button>
+    </div>
+  </div>
+</nav>

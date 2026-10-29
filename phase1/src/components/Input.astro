@@ -1,0 +1,6 @@
+---
+// Input: square, hairline, olive focus. Pass label to get a stamp-voice <label> above it.
+const { id, label, type = 'text', class: extra = '', ...rest } = Astro.props;
+---
+{label && <label class="field-label" for={id}>{label}</label>}
+<input class={['input', extra].filter(Boolean).join(' ')} id={id} type={type} {...rest} />

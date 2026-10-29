@@ -1,0 +1,5 @@
+---
+// Divider: a single hairline. onDark for shadow bands (automatic inside .on-shadow).
+const { onDark = false, class: extra = '' } = Astro.props;
+---
+<hr class={['divider', onDark ? 'divider--on-dark' : '', extra].filter(Boolean).join(' ')} />

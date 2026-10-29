@@ -1,0 +1,10 @@
+---
+// Card: hairline border on the lime fill, sharp corners, no shadow.
+// With href it becomes a link card (border firms on hover). `plain` adds the default 24px padding
+// for cards that aren't the image-over-.pad layout.
+const { href, plain = false, class: extra = '', ...rest } = Astro.props;
+const cls = ['card', plain ? 'card--plain' : '', extra].filter(Boolean).join(' ');
+---
+{href
+  ? <a class={cls} href={href} {...rest}><slot /></a>
+  : <div class={cls} {...rest}><slot /></div>}

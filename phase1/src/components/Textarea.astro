@@ -1,0 +1,6 @@
+---
+// Textarea: Input's multi-line sibling; resizes vertically only.
+const { id, label, rows = 4, class: extra = '', ...rest } = Astro.props;
+---
+{label && <label class="field-label" for={id}>{label}</label>}
+<textarea class={['input', extra].filter(Boolean).join(' ')} id={id} rows={rows} {...rest}></textarea>

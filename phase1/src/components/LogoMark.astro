@@ -1,0 +1,9 @@
+---
+// SWK monogram. Inlined (not <img>) so its Cinzel <text> picks up the page's webfont.
+// Ink on plaster; pass color="var(--brass-light)" on shadow bands.
+const { color = 'var(--ink)', size = 28 } = Astro.props;
+---
+<svg class="logo-mark" viewBox="0 0 200 200" width={size} height={size} aria-hidden="true">
+  <circle cx="100" cy="100" r="94" fill="none" stroke={color} stroke-width="2.5" />
+  <text x="100" y="118" text-anchor="middle" font-size="52" letter-spacing="4" fill={color}>SWK</text>
+</svg>

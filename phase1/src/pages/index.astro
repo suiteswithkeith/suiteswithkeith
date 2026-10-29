@@ -1,5 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Button from '../components/Button.astro';
+import Card from '../components/Card.astro';
+import Tag from '../components/Tag.astro';
+import Divider from '../components/Divider.astro';
 ---
 <Layout
   canonical="index.html"
@@ -20,12 +24,12 @@ import Layout from '../layouts/Layout.astro';
     <source src="/video/gundari-hero.mp4" type="video/mp4" />
   </video>
   <div class="container">
-    <p class="eyebrow">Issue No. 02 &middot; The Napa &amp; Sonoma Collection &middot; out now</p>
+    <Tag as="p">Issue No. 02 &middot; The Napa &amp; Sonoma Collection &middot; out now</Tag>
     <h1 class="display-xl">Better rooms.<br><em>Better trips.</em></h1>
     <p class="sub">Hotel recommendations from someone who&rsquo;s stood in the rooms. There are 134 on file across four continents, 38 of them toured in a single spring. Booking is complimentary, and the advice comes with it.</p>
-    <div class="hero-ctas">
-      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Tell me where you&rsquo;re going</a>
-      <a class="btn btn-ghost on-shadow" href="/featured-destinations.html" data-gtag-label="see_destinations" data-gtag-location="hero" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">See the destinations</a>
+    <div class="hero-ctas on-shadow">
+      <Button href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Tell me where you&rsquo;re going</Button>
+      <Button variant="on-dark" href="/featured-destinations.html" data-gtag-label="see_destinations" data-gtag-location="hero">See the destinations</Button>
     </div>
   </div>
   <span class="hero-cue" aria-hidden="true"></span>
@@ -35,7 +39,7 @@ import Layout from '../layouts/Layout.astro';
 <section class="section band on-shadow">
   <div class="container">
     <div class="sec-head reveal">
-      <span class="eyebrow">The evidence</span>
+      <Tag>The evidence</Tag>
       <h2 class="display-l">Counted, and on file</h2>
     </div>
     <div class="ledger reveal">
@@ -50,23 +54,23 @@ import Layout from '../layouts/Layout.astro';
 <section class="section">
   <div class="container">
     <div class="sec-head reveal">
-      <span class="eyebrow">The judgment</span>
+      <Tag>The judgment</Tag>
       <h2 class="display-l">Santorini or Mykonos?</h2>
       <p class="deck" style="margin-top:16px; max-width:44ch;">The Cyclades&rsquo; two headliners, and the first question every Greece trip has to answer. No hotel will pick a side. I will, and it takes about thirty seconds.</p>
     </div>
     <div class="choose reveal">
       <a class="choose-col" href="/santorini-vs-mykonos.html" style="text-decoration:none;">
-        <span class="eyebrow">Choose Santorini</span>
+        <Tag>Choose Santorini</Tag>
         <h3>If the caldera is the reason you&rsquo;re coming</h3>
         <p class="lead">Two or three nights in a cave suite on the cliff. It’s the classic picture, and it earns its reputation. Save it for the end of the trip.</p>
       </a>
       <a class="choose-col" href="/santorini-vs-mykonos.html" style="text-decoration:none;">
-        <span class="eyebrow">Choose Mykonos</span>
+        <Tag>Choose Mykonos</Tag>
         <h3>If you want range: the loud island and the quiet one</h3>
         <p class="lead">The island that surprised me most, with some of the best hotels, meals and service of my entire Cyclades trip. Beach clubs by day, serious tables at night.</p>
       </a>
     </div>
-    <p class="reveal" style="margin-top:26px;"><a href="/santorini-vs-mykonos.html" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;">Read the full head-to-head &rarr;</a></p>
+    <p class="reveal" style="margin-top:26px;"><a class="link-stamp" href="/santorini-vs-mykonos.html">Read the full head-to-head &rarr;</a></p>
   </div>
 </section>
 
@@ -74,11 +78,11 @@ import Layout from '../layouts/Layout.astro';
 <section class="section band on-shadow">
   <div class="container">
     <div class="sec-head reveal">
-      <span class="eyebrow">Same rate, sometimes better</span>
+      <Tag>Same rate, sometimes better</Tag>
       <h2 class="display-l">You can book the room.<br>You can&rsquo;t make them know you.</h2>
     </div>
     <div class="reveal adv-grid">
-      <p class="story-quote">&ldquo;With less than 24 hours&rsquo; notice we needed a hotel in Saint-Tropez in peak season. Keith stepped in with the perfect recommendation &mdash; and personally contacted the hotel before our arrival. <b>When we pulled up, the staff greeted us by name</b>, welcomed us with cold towels, and surprised us with a complimentary upgrade.&rdquo;</p>
+      <p class="story-quote">&ldquo;With less than 24 hours&rsquo; notice we needed a hotel in Saint-Tropez in peak season. Keith stepped in with the perfect recommendation and personally contacted the hotel before our arrival. <b>When we pulled up, the staff greeted us by name</b>, welcomed us with cold towels, and surprised us with a complimentary upgrade.&rdquo;</p>
       <div>
         <p class="attr">Tyler &amp; Spencer C. &middot; COMO Le Beauvallon &middot; Saint-Tropez</p>
         <p class="body-2" style="margin-top:20px; max-width:52ch;">The rate through me is the one you&rsquo;d pay booking direct, and sometimes it&rsquo;s better. What changes is who calls the hotel before you arrive, and who answers while you&rsquo;re there.</p>
@@ -87,11 +91,11 @@ import Layout from '../layouts/Layout.astro';
   </div>
 </section>
 
-<!-- 4b · The clients -->
-<section class="section" id="clients">
+<!-- 4b · The clients: the panel band -->
+<section class="section section--panel" id="clients">
   <div class="container">
     <div class="sec-head reveal">
-      <span class="eyebrow">What clients say</span>
+      <Tag>What clients say</Tag>
       <h2 class="display-l">Booked through me, in their words</h2>
     </div>
     <div class="proof-grid reveal">
@@ -115,50 +119,52 @@ import Layout from '../layouts/Layout.astro';
 <section class="section" id="collection">
   <div class="container collection-grid">
     <div class="sec-head reveal" style="margin-bottom:0;">
-      <span class="eyebrow">The Napa &amp; Sonoma Collection &middot; Issue No. 02</span>
+      <Tag>The Napa &amp; Sonoma Collection &middot; Issue No. 02</Tag>
       <h2 class="display-l">The field notes, in print</h2>
       <p class="deck" style="margin-top:16px; max-width:40ch;">A firsthand journal of wine country: ten hotels across four bases, where to eat and taste town by town, and the research behind every verdict on this site.</p>
-      <p style="margin-top:26px;"><a class="btn btn-ghost" href="/greece-collection.html">Read Issue No. 01</a></p>
+      <p style="margin-top:26px;"><Button variant="secondary" href="/greece-collection.html">Read Issue No. 01</Button></p>
     </div>
     <figure class="reveal" style="margin:0; max-width:520px;">
-      <img src="/images/personal/greece-collection-cover-mockup.jpg" alt="The Greece Collection, Issue No. 01 — printed magazine" width="1200" height="900" loading="lazy" decoding="async" style="box-shadow:0 24px 60px rgba(22,23,18,.18);" />
+      <img src="/images/personal/greece-collection-cover-mockup.jpg" alt="The Greece Collection, Issue No. 01, printed magazine" width="1200" height="900" loading="lazy" decoding="async" />
     </figure>
   </div>
 </section>
+
+<div class="container"><Divider /></div>
 
 <!-- 6 · The range -->
 <section class="section" id="range">
   <div class="container">
     <div class="sec-head reveal">
-      <span class="eyebrow">The destinations</span>
+      <Tag>The destinations</Tag>
       <h2 class="display-l">Where I plan most often</h2>
     </div>
     <div class="cards four reveal">
-      <a class="card" href="/best-hotels-greece.html">
+      <Card href="/best-hotels-greece.html">
         <img src="/images/islands/santorini-hero.jpg" alt="The caldera at Santorini" width="1600" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">The Cyclades</span><h3>Greece</h3><p>Eight islands toured this spring. Here are my ten favorite hotels, ranked.</p><span class="go">Explore &rarr;</span></div>
-      </a>
-      <a class="card" href="/italy.html">
+      </Card>
+      <Card href="/italy.html">
         <img src="/images/proposals/lake-como/passalacqua/garden-lake.jpg" alt="Gardens meeting the water at Passalacqua, Lake Como" width="1600" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">The Dolomites to Tuscany</span><h3>Italy</h3><p>The Dolomites, Lake Como, the Riviera, Tuscany and Florence. <em>Still to come: Venice, Rome and the Amalfi Coast.</em></p><span class="go">Explore &rarr;</span></div>
-      </a>
-      <a class="card" href="/napa-sonoma.html">
+      </Card>
+      <Card href="/napa-sonoma.html">
         <img src="/images/napa/madrona.jpg" alt="The Madrona, Sonoma wine country" width="1800" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">Wine country</span><h3>Napa &amp; Sonoma</h3><p>Nine hotels, ranked from personal stays.</p><span class="go">Explore &rarr;</span></div>
-      </a>
-      <a class="card" href="/featured-destinations.html#mexico">
+      </Card>
+      <Card href="/featured-destinations.html#mexico">
         <img src="/images/personal/montage-cabo.jpg" alt="Montage Los Cabos on Santa Maria Bay" width="1600" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">Cabo &amp; Punta Mita</span><h3>Mexico</h3><p>The Pacific-coast resorts I send clients to first.</p><span class="go">Explore &rarr;</span></div>
-      </a>
+      </Card>
     </div>
-    <p class="reveal" style="margin-top:26px;"><a href="/destination-guides.html" style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;" data-gtag-label="all_guides" data-gtag-location="range">All destinations &amp; guides &rarr;</a></p>
+    <p class="reveal" style="margin-top:26px;"><a class="link-stamp" href="/destination-guides.html" data-gtag-label="all_guides" data-gtag-location="range">All destinations &amp; guides &rarr;</a></p>
   </div>
 </section>
 
 <!-- 7 · The ask -->
-<section class="section inquire" id="inquire">
+<section class="section section--panel inquire" id="inquire">
   <div class="container">
-    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
+    <Tag class="reveal" style="display:block; margin-bottom:16px;">One question</Tag>
     <h2 class="display-l reveal">Where and when?</h2>
     <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">&ldquo;Santorini in June&rdquo; is a complete answer. I&rsquo;ll take it from there.</p>
     <p class="proof-line reveal">&ldquo;Keith made me believe in using travel agents again.&rdquo;<span>Stephanie F. &middot; Capella Kyoto</span></p>
@@ -177,7 +183,7 @@ import Layout from '../layouts/Layout.astro';
         <label for="q-details" style="margin-top:2px;">Anything else? Nights, budget, occasion (optional)</label>
         <input id="q-details" type="text" name="details" placeholder="7 nights &middot; around $1,500/night &middot; anniversary" autocomplete="off" />
       </div>
-      <button type="submit" class="btn">Send</button>
+      <Button type="submit">Send</Button>
       <p class="note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
       <p class="status" role="status" aria-live="polite"></p>
     </form>
@@ -186,14 +192,15 @@ import Layout from '../layouts/Layout.astro';
 
 </Layout>
 
+
 <style>
   .proof-grid { display: grid; grid-template-columns: 1fr; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); }
   .proof { margin: 0; padding: clamp(26px, 3vw, 36px) 0; }
   .proof + .proof { border-top: 1px solid var(--hairline); }
-  .proof blockquote { margin: 0; font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(1.12rem, 1.7vw, 1.3rem); line-height: 1.45; color: var(--ink); }
-  .proof figcaption { margin-top: 18px; font-family: var(--stamp); font-weight: 600; font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ash); }
-  .proof-line { margin: 22px auto 0; max-width: 36ch; font-family: var(--display); font-style: italic; font-size: clamp(1rem, 1.5vw, 1.12rem); line-height: 1.45; color: var(--ash); }
-  .proof-line span { display: block; margin-top: 8px; font-family: var(--stamp); font-weight: 600; font-style: normal; font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; }
+  .proof blockquote { margin: 0; font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: clamp(1.12rem, 1.7vw, var(--text-pull-quote)); line-height: 1.45; color: var(--ink); }
+  .proof figcaption { margin-top: 18px; font-family: var(--font-stamp); font-size: .66rem; letter-spacing: var(--tracking-stamp); text-transform: uppercase; color: var(--ash); }
+  .proof-line { margin: 22px auto 0; max-width: 36ch; font-family: var(--font-display); font-style: italic; font-size: clamp(1rem, 1.5vw, 1.12rem); line-height: 1.45; color: var(--ash); }
+  .proof-line span { display: block; margin-top: 8px; font-family: var(--font-stamp); font-style: normal; font-size: .62rem; letter-spacing: var(--tracking-stamp); text-transform: uppercase; }
   @media (min-width: 900px) {
     .proof-grid { grid-template-columns: 1fr 1fr 1fr; }
     .proof { padding: clamp(26px, 3vw, 36px) clamp(20px, 2.6vw, 34px); }
@@ -201,7 +208,7 @@ import Layout from '../layouts/Layout.astro';
     .proof:first-child { padding-left: 0; }
     .proof:last-child { padding-right: 0; }
   }
-  .collection-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: center; }
+  .collection-grid { display: grid; gap: var(--grid-gap); grid-template-columns: 1fr; align-items: center; }
   .adv-grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
   @media (min-width: 900px) {
     .collection-grid { grid-template-columns: 1fr 1fr; }

@@ -1,0 +1,5 @@
+---
+// Checkbox: square hairline box, olive-deep when checked. The real input stays focusable.
+const { label, ...rest } = Astro.props;
+---
+<label class="check"><input type="checkbox" {...rest} /><span>{label}<slot /></span></label>

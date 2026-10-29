@@ -1,0 +1,5 @@
+---
+// Tag: eyebrow / kicker in the stamp voice. Brass ink, brass-light inside .on-shadow.
+const { as: El = 'span', class: extra = '', ...rest } = Astro.props;
+---
+<El class={['eyebrow', extra].filter(Boolean).join(' ')} {...rest}><slot /></El>

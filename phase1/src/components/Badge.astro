@@ -1,0 +1,6 @@
+---
+// Badge: the bordered stamp chip for credentials. tone: olive · quiet · dot
+const { tone = 'olive', class: extra = '' } = Astro.props;
+const cls = ['badge', tone === 'quiet' ? 'badge--quiet' : '', tone === 'dot' ? 'badge--dot' : '', extra].filter(Boolean).join(' ');
+---
+{tone === 'dot' ? <span class={cls} aria-hidden="true"></span> : <span class={cls}><slot /></span>}

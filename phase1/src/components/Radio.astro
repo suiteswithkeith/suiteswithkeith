@@ -1,0 +1,5 @@
+---
+// Radio: round (the one exception to 0 radius), hairline, olive-deep dot when checked.
+const { label, ...rest } = Astro.props;
+---
+<label class="check"><input type="radio" {...rest} /><span>{label}<slot /></span></label>

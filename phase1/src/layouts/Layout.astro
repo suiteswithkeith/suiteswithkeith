@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
-import '@fontsource-variable/bodoni-moda';
-import '@fontsource-variable/bodoni-moda/opsz-italic.css';
+import Nav from '../components/Nav.astro';
+import LogoMark from '../components/LogoMark.astro';
 import '@fontsource/jost/300.css';
 import '@fontsource/jost/400.css';
 import '@fontsource/jost/500.css';
@@ -22,6 +22,9 @@ const canonicalPath = canonical === 'index.html' ? '' : canonical;
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Cinzel:wght@500&display=swap">
 {preload && <link rel="preload" as="image" href={preload} fetchpriority="high" />}
 <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-0J39101CS2"></script>
 <script is:inline>
@@ -34,26 +37,14 @@ const canonicalPath = canonical === 'index.html' ? '' : canonical;
 </head>
 <body>
 
-<nav class={navOverlay ? "nav nav--overlay" : "nav"} id="nav">
-  <div class="container">
-    <a class="wordmark" href="/index.html">Suites With Keith</a>
-    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
-    <div class="nav-links" id="nav-links">
-      <a href="/services.html">Services</a>
-      <a href="/collections.html" data-gtag-label="collections" data-gtag-location="nav" aria-current={current === 'collections' ? 'page' : undefined}>The Collections</a>
-      <a href="/destination-guides.html" data-gtag-label="destination_guides" data-gtag-location="nav">Destination Guides</a>
-      <a href="/rankings.html" data-gtag-label="keiths_rankings" data-gtag-location="nav">Keith's Rankings</a>
-      <a href="/about.html" aria-current={current === 'about' ? 'page' : undefined}>About</a>
-    </div>
-  </div>
-</nav>
+<Nav current={current} overlay={navOverlay} />
 
 <slot />
 
 <footer class="site">
   <div class="container foot-grid">
     <div>
-      <a class="wordmark" href="/index.html">Suites With Keith</a>
+      <a class="wordmark" href="/index.html"><LogoMark size={32} />Suites With Keith</a>
       <p style="margin-top:14px;" class="read">Better rooms. Better trips. Hotel recommendations from someone who has stood in the rooms. Booking is complimentary, and the judgment comes with it.</p>
     </div>
     <div>

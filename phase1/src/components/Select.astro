@@ -1,0 +1,17 @@
+---
+// Select: native <select> styled as an Input, with the thin chevron.
+// options: strings or { value, label }.
+import Icon from './Icon.astro';
+const { id, label, options = [], placeholder = 'Select...', value = '', ...rest } = Astro.props;
+---
+{label && <label class="field-label" for={id}>{label}</label>}
+<div class="select">
+  <select class="input" id={id} {...rest}>
+    <option value="" disabled selected={!value}>{placeholder}</option>
+    {options.map((o) => {
+      const v = o.value ?? o;
+      return <option value={v} selected={v === value}>{o.label ?? o}</option>;
+    })}
+  </select>
+  <Icon name="chevronDown" size={16} />
+</div>
