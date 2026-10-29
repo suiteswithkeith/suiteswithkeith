@@ -1,0 +1,159 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faq = [
+  ['What is the best place to stay in Napa for a family or group?', 'For me, the villas and residences at Four Seasons Napa Valley. I&rsquo;ve toured them, and they&rsquo;re perfect for families and groups of friends: your own space, with a Four Seasons resort, a working vineyard and a Michelin-starred restaurant around you, in the heart of Calistoga.'],
+  ['Does Four Seasons Napa Valley have villas?', 'Yes. Alongside the rooms and suites, the resort has private villas and residences set among the vineyards, with more space for families and groups who want to stay together.'],
+  ['Is Four Seasons Napa Valley good for kids?', 'Yes. It&rsquo;s one of the few wine country resorts that fits families as well as it fits couples, and service is at genuine Four Seasons standard, which makes a big difference when you&rsquo;re traveling with kids.'],
+  ['How many people do the villas and residences sleep?', 'It depends on the layout. Tell me who&rsquo;s coming and I&rsquo;ll send the floorplans and match you to the right one.'],
+  ['How much do the villas and residences cost?', 'Four Seasons prices dynamically, so rates depend on your dates and availability. Ask me and I&rsquo;ll check, including any third- or fourth-night-free offers.'],
+  ['What do I get booking through you?', 'Four Seasons Napa Valley is a Fora and Virtuoso preferred partner, so booking through me can include perks like breakfast and upgrade priority, and sometimes a third or fourth night free. Rates are identical to booking direct.'],
+];
+
+const kv = [
+  ['Where', 'Calistoga, at the top of Napa Valley, on its own working vineyard'],
+  ['Best for', 'Families, groups of friends, multi-couple trips'],
+  ['On property', 'A Michelin-starred restaurant, beautiful pools and a pool bar'],
+  ['My ranking', '#02 in my Napa &amp; Sonoma ranking'],
+  ['My visits', 'Stayed four or five times, and toured the villas and residences'],
+];
+---
+<Layout
+  canonical="four-seasons-napa-valley-villas-residences.html"
+  title="Four Seasons Napa Valley Villas & Residences: Best for Families & Groups | Suites With Keith"
+  description="Keith's firsthand take on the villas and residences at Four Seasons Napa Valley in Calistoga: private space for families and groups of friends, with a working vineyard, a Michelin-starred restaurant and Four Seasons service around you."
+  preload="/images/napa/four-seasons-1.jpg"
+  ctaLabel="Ask about the villas"
+>
+
+<script type="application/ld+json" slot="head" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q.replace(/&rsquo;/g, '’'), acceptedAnswer: { '@type': 'Answer', text: a.replace(/<[^>]+>/g, '').replace(/&rsquo;/g, '’') } })),
+})} />
+
+<header class="hero" style="min-height:min(78svh,720px);">
+  <img class="hero-img" src="/images/napa/four-seasons-1.jpg" alt="Four Seasons Napa Valley among its vineyards in Calistoga at sunset" width="1800" height="1013" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Napa Valley &middot; Toured the villas and residences</p>
+    <h1 class="display-xl" style="margin-top:18px;">Four Seasons Napa Valley Villas &amp; Residences</h1>
+    <p class="sub">Private space for families and groups of friends, with a Four Seasons resort and a working vineyard around you, in the heart of Calistoga.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Ask about the villas</a>
+      <a class="btn btn-ghost on-shadow" href="/hotels/four-seasons-napa-valley.html" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">Read my Four Seasons review</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <p class="deck" style="max-width:44ch;">I&rsquo;ve toured the villas and residences, and they&rsquo;re a fantastic option for families and groups of friends in the heart of Calistoga.</p>
+      <p class="body-2" style="margin-top:20px; max-width:58ch;">I&rsquo;ve stayed at Four Seasons Napa Valley four or five times now, and it holds the #02 spot in my Napa &amp; Sonoma ranking. Architecturally it&rsquo;s beautiful, with a mix of dark, moody buildings and bright white farmhouse styles set within the vineyards. The pools are gorgeous, the Michelin-starred restaurant is fantastic, and I love the pool bar.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">What separates it is service at genuine Four Seasons standard, applied to a resort that fits families, couples, girls&rsquo; trips and multi-couple groups equally well. The villas and residences take that one step further: everyone stays together, with room to spread out, and the whole resort is still a short walk away.</p>
+    </div>
+    <div class="reveal">
+      <dl class="kv">
+        {kv.map(([k, v]) => <div class="kv-row"><dt set:html={k} /><dd set:html={v} /></div>)}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="photos reveal">
+      <figure><img src="/images/napa/four-seasons-2.jpg" alt="Loungers on a terrace above the vineyards at Four Seasons Napa Valley" width="1800" height="1013" loading="lazy" decoding="async" /><figcaption>Above the vineyards</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section band on-shadow">
+  <div class="container" style="max-width:860px;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Why it works</span>
+    <h2 class="display-l reveal">A villa in wine country, with a Four Seasons around it</h2>
+    <ul class="why reveal">
+      <li><b>Room for everyone.</b> Families and groups of friends stay together, with private space and shared living areas.</li>
+      <li><b>Four Seasons service.</b> The thing that sets it apart from the rest of Napa, and it matters most with kids or a big group.</li>
+      <li><b>Dinner sorted.</b> A Michelin-starred restaurant on property, so nobody has to drive after the tasting.</li>
+      <li><b>The heart of Calistoga.</b> Upvalley wineries, hot springs and the town of Calistoga close by.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:860px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Booking through me</span>
+      <h2 class="display-l">Perks, and someone who knows Four Seasons Napa</h2>
+    </div>
+    <p class="body-2 reveal" style="max-width:62ch;">I know the property and the sales team, so I&rsquo;ll match you to the right villa or residence, line up the tastings and dinners, and set everything up before you arrive.</p>
+    <dl class="kv reveal" style="margin-top:24px;">
+      <div class="kv-row"><dt>Planning Napa?</dt><dd>My <a href="/napa-sonoma.html">Napa &amp; Sonoma guide</a> and <a href="/napa-sonoma-collection.html">the Napa &amp; Sonoma Collection</a></dd></div>
+      <div class="kv-row"><dt>Comparing?</dt><dd><a href="/meadowood-vs-four-seasons-napa-valley.html">Meadowood vs. Four Seasons</a>, <a href="/solage-vs-four-seasons-napa-valley.html">Solage vs. Four Seasons</a> and <a href="/four-seasons-napa-valley-vs-montage-healdsburg.html">Four Seasons vs. Montage Healdsburg</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:820px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Before you ask</span>
+      <h2 class="display-l">The questions I get</h2>
+    </div>
+    <div class="faq reveal">
+      {faq.map(([q, a]) => (
+        <details>
+          <summary set:html={q} />
+          <p class="body-2" set:html={a} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Four Seasons Napa Valley</span>
+    <h2 class="display-l reveal">When are you thinking?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;">Tell me your dates, who&rsquo;s coming and the occasion. I&rsquo;ll check the villas and residences and plan the tastings around them.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Four Seasons Napa villa inquiry" />
+      <input type="hidden" name="hotel" value="Four Seasons Napa Valley Villas & Residences" />
+      <input type="hidden" name="page" value="four-seasons-napa-valley-villas-residences" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">When are you thinking?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="May 2027 · 3 nights · 8 guests" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the plan?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Occasion, kids&rsquo; ages, wineries you love (optional)</label>
+        <input id="q-details" type="text" name="details" placeholder="Four couples · 50th birthday" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn" data-gtag-label="villa_inquiry_send" data-gtag-location="villa_cta">Send</button>
+      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.4fr 1fr; gap: 80px; } }
+  .intro-grid > * { min-width: 0; }
+  .photos img { aspect-ratio: 3/2; }
+  .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
+  .why li { margin-top: 12px; line-height: 1.6; }
+  .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }
+  .faq details:last-child { border-bottom: 1px solid var(--hairline); }
+  .faq summary { cursor: pointer; font-family: var(--display); font-size: 1.2rem; list-style: none; position: relative; padding-right: 28px; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; position: absolute; right: 0; top: 0; color: var(--brass); font-family: var(--body); }
+  .faq details[open] summary::after { content: "\2013"; }
+  .faq details p { margin-top: 12px; max-width: 62ch; }
+</style>

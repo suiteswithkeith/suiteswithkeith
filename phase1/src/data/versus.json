@@ -479,6 +479,102 @@
    }
   ]
  },
+ "canaves-ena-vs-canaves-oia-suites": {
+  "title": "Canaves Ena or Canaves Oia Suites | Suites With Keith",
+  "description": "Same family, same Caldera, a few minutes apart in Oia: the original Canaves in 17th-century wine caves against Keith's #01 in Santorini.",
+  "eyebrow": "Head-to-head &middot; The Canaves question",
+  "h1_a": "Canaves Ena",
+  "h1_b": "Oia Suites?",
+  "deck": "The original Canaves against its renovated flagship. Same family, same Caldera, both set higher than most for privacy. They&rsquo;re #05 and #01 on my Santorini ranking, and the gap comes down to space, the spa, and what you want your evenings to feel like. I toured both on the same trip.",
+  "stamp": "Sister properties &middot; both on the Caldera &middot; #05 and #01 on my Santorini ranking",
+  "preload": "/images/hotels/canaves-ena-1.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Ena",
+    "h3": "If intimacy and character win",
+    "lead": "Eighteen suites carved from 17th-century wine caves, run by the same family since the 80s and brought fully up to date by a 2024 renovation. The swim-up bar adds rare social energy, and Adami does authentic Greek gastronomy by the main pool.",
+    "img": "/images/hotels/canaves-ena-1.jpg",
+    "alt": "Wine-cave suites at Canaves Ena, Oia",
+    "w": 1800,
+    "h": 1188
+   },
+   {
+    "eyebrow": "Choose Oia Suites",
+    "h3": "If you want the full caldera experience",
+    "lead": "The classic caldera-luxury experience, perfected. It&rsquo;s completely renovated, with private water features, the best spa product on the Caldera, a large gym, and the River Pool Suite, the single best suite I saw in Greece.",
+    "img": "/images/hotels/canaves-oia-2.jpg",
+    "alt": "Caldera view from Canaves Oia Suites",
+    "w": 1800,
+    "h": 1349
+   }
+  ],
+  "rows": [
+   [
+    "My ranking",
+    "#05 in Santorini",
+    "#01 in Santorini, #03 on my Greece top 10"
+   ],
+   [
+    "Scale",
+    "18 suites, genuinely intimate",
+    "46 suites &amp; villas"
+   ],
+   [
+    "The room",
+    "17th-century wine caves: minimalist, renovated 2024, slightly smaller",
+    "Completely renovated, larger, with coverings above every outdoor space"
+   ],
+   [
+    "Water feature",
+    "Not every room, so check your category",
+    "Private water features throughout"
+   ],
+   [
+    "Villas",
+    "Suites only",
+    "Two- and three-bedroom pool villas, nearly nonexistent in Oia"
+   ],
+   [
+    "Wellness &amp; extras",
+    "The swim-up pool bar, rare on an island of couples keeping to themselves",
+    "The Caldera&rsquo;s best spa, plus a large gym"
+   ],
+   [
+    "Rate",
+    "Usually lands where Andronis Boutique does (from about $900 / night)",
+    "From $1,200 / night"
+   ]
+  ],
+  "footnote": "Both sit higher on the Caldera than most, which buys real privacy, and both come with the Canaves ecosystem: shuttle access to the other properties&rsquo; restaurants and spas, including Omnia at Epitome. Ena is framed as the accessible Canaves, but the gap to Oia Suites isn&rsquo;t always as wide as you&rsquo;d expect, so price your actual dates before deciding.",
+  "verdict": {
+   "h2": "Oia Suites is the better hotel. Ena is the more personal one.",
+   "paras": [
+    "For a honeymoon or a first trip where the classic caldera image is the point, book Oia Suites. The finishes, the spa, the private water features, and the River Pool Suite put it at #01 on my Santorini ranking, and if the price difference for your dates is small, it&rsquo;s the easy call.",
+    "But Ena has the most personal story on the Caldera (one family since the 80s, suites that trace to 17th-century wine caves), and the team there, especially longtime sales director Des, is a big reason I trust sending clients to the property. Choose it if you&rsquo;d rather have eighteen suites and a swim-up bar than square footage."
+   ]
+  },
+  "subject": "Canaves Ena vs Canaves Oia Suites Inquiry",
+  "hotel": "Canaves Ena / Canaves Oia Suites",
+  "placeholder": "June, 5 nights",
+  "related": [
+   {
+    "href": "/santorini-hotels-ranked.html",
+    "label": "My full Santorini ranking"
+   },
+   {
+    "href": "/hotels/canaves-ena-santorini.html",
+    "label": "Canaves Ena review"
+   },
+   {
+    "href": "/hotels/canaves-oia-suites-santorini.html",
+    "label": "Canaves Oia Suites review"
+   },
+   {
+    "href": "/canaves-oia-suites-vs-canaves-epitome.html",
+    "label": "Oia Suites or Epitome"
+   }
+  ]
+ },
  "canaves-vs-andronis": {
   "title": "Canaves or Andronis | Suites With Keith",
   "description": "Santorini's two great family portfolios, compared property by property. Keith toured all eight. Here's which collection fits the trip you're actually taking.",

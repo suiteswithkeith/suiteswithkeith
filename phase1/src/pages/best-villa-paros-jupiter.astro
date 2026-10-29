@@ -1,0 +1,164 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faq = [
+  ['What is the best villa on Paros?', 'Jupiter. When I put together the awards edit for my Greece Collection, it took the Paros category outright and I named it Best Paros Villa. I&rsquo;ve toured it in person.'],
+  ['How many bedrooms does Jupiter have?', 'Five, which makes it the right size for a multi-family trip, a multigenerational group or a celebration with friends.'],
+  ['Is a villa better than a hotel on Paros?', 'For a family or group, often yes. A five-bedroom villa gives you privacy and a shared home base that a row of hotel suites can&rsquo;t, and Paros is built for the villa format: Naousa&rsquo;s restaurants, the beaches and boat days all work beautifully from a private house.'],
+  ['Why Paros for a villa trip?', 'Paros is my pick for the best island in Greece for return visitors, and the island I keep thinking about. It has great beaches, Naousa for dinner, villages like Lefkes for a sunset walk, and easy ferry connections to the rest of the Cyclades.'],
+  ['How far ahead should we book?', 'Villas book differently than hotels. Peak weeks go early and minimum stays apply, so talk to me before you lock flights.'],
+  ['What do you arrange for a villa stay?', 'The parts a concierge desk would normally handle: staffing, provisioning, boat days, dinner reservations, transfers and car rental, all planned around the house.'],
+  ['What if we&rsquo;d rather stay at a hotel?', 'My hotel picks on Paros are <a href="/hotels/vione-paros.html">Vione</a> and <a href="/hotels/andronis-minois-paros.html">Andronis Minois</a>, and my <a href="/cosme-vs-parilio-paros.html">Cosme vs. Par&#299;lio</a> piece covers the design-hotel route.'],
+];
+
+const kv = [
+  ['Bedrooms', '<b>5</b>'],
+  ['Award', 'Best Paros Villa, The Greece Collection'],
+  ['Best for', 'Families, multigenerational groups and celebrations'],
+  ['Island', 'Paros, my pick for return visitors to Greece'],
+  ['Booking', 'Peak weeks go early, and minimum stays apply'],
+];
+---
+<Layout
+  canonical="best-villa-paros-jupiter.html"
+  title="Jupiter: The Best Villa on Paros, Greece | Suites With Keith"
+  description="Keith's pick for the best villa on Paros: Jupiter, a five-bedroom villa he toured in person and named Best Paros Villa in his Greece Collection. A private base for families and groups, with staffing, boat days and dinners arranged around the house."
+  preload="/images/islands/paros-hero.jpg"
+  ctaLabel="Ask about Jupiter"
+>
+
+<script type="application/ld+json" slot="head" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q.replace(/&rsquo;/g, '’'), acceptedAnswer: { '@type': 'Answer', text: a.replace(/<[^>]+>/g, '').replace(/&rsquo;/g, '’').replace(/&#299;/g, 'ī') } })),
+})} />
+
+<header class="hero" style="min-height:min(78svh,720px);">
+  <img class="hero-img" src="/images/islands/paros-hero.jpg" alt="Clear water and granite rocks on the coast of Paros" width="1200" height="1800" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Paros &middot; Toured in person</p>
+    <h1 class="display-xl" style="margin-top:18px;">The Best Villa on Paros</h1>
+    <p class="sub">Jupiter, a five-bedroom villa I named Best Paros Villa in my Greece Collection, on the island I keep thinking about.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Ask about Jupiter</a>
+      <a class="btn btn-ghost on-shadow" href="/paros.html" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">Read my Paros guide</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <p class="deck" style="max-width:44ch;">I toured Jupiter in person, and when I put together the awards edit for my Greece Collection, it took the Paros category outright.</p>
+      <p class="body-2" style="margin-top:20px; max-width:58ch;">Paros is my pick for the best island in Greece for return visitors, and it&rsquo;s the island I keep thinking about. For a family or group that wants a private base rather than a hotel, a villa of this caliber changes how the whole trip works.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">Five bedrooms changes the math. For a multi-family trip or a group celebration, a full villa often beats booking a row of suites, for privacy and for the experience. Everyone has their own room, and there&rsquo;s one shared home to come back to after the beach.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">Villa trips are a different kind of booking: staffing, provisioning, boat days and dinner reservations all need to be arranged around the house rather than a concierge desk. That&rsquo;s exactly the part I handle.</p>
+    </div>
+    <div class="reveal">
+      <dl class="kv">
+        {kv.map(([k, v]) => <div class="kv-row"><dt set:html={k} /><dd set:html={v} /></div>)}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="photos reveal">
+      <figure><img src="/images/islands/paros-days.jpg" alt="Reading by the clear water on a Paros beach" width="1800" height="1012" loading="lazy" decoding="async" /><figcaption>Beach days on Paros</figcaption></figure>
+      <figure><img src="/images/excursions/paros/a3b0ba92.jpg" alt="A catamaran anchored in turquoise water off Paros" width="1336" height="1332" loading="lazy" decoding="async" /><figcaption>A boat day, the upgrade every villa group thanks me for</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section band on-shadow">
+  <div class="container" style="max-width:860px;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Why Paros works for a villa</span>
+    <h2 class="display-l reveal">A private base on the island I keep thinking about</h2>
+    <ul class="why reveal">
+      <li><b>Naousa for dinner.</b> The harbor comes alive after sunset, with the boutiques and a long dinner on the waterfront.</li>
+      <li><b>Beaches and coves.</b> Kolymbithres&rsquo; granite coves and lunch at a beach club are easy days out from the house.</li>
+      <li><b>Villages.</b> A sunset stroll through Lefkes, the island&rsquo;s hill village.</li>
+      <li><b>Boat days.</b> Seeing the Cyclades from the water is the upgrade every villa group thanks me for later.</li>
+      <li><b>Easy island-hopping.</b> Paros and Santorini is one of my favorite pairings, and Paros also connects easily to Milos and the rest of the Cyclades.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:860px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Booking through me</span>
+      <h2 class="display-l">What I arrange around the house</h2>
+    </div>
+    <dl class="kv reveal">
+      <div class="kv-row"><dt>Before you land</dt><dd>Staffing, provisioning and your dinner reservations in Naousa</dd></div>
+      <div class="kv-row"><dt>On the island</dt><dd>Car rental or drivers, <a href="/paros-excursions.html">boat days and excursions</a></dd></div>
+      <div class="kv-row"><dt>Getting there</dt><dd>Ferries or <a href="/private-boat-transfers.html">private boat transfers</a> from the other islands, and the rest of your <a href="/greek-island-pairings.html">island pairing</a></dd></div>
+      <div class="kv-row"><dt>Rather a hotel?</dt><dd><a href="/hotels/vione-paros.html">Vione</a>, <a href="/hotels/andronis-minois-paros.html">Andronis Minois</a>, or <a href="/cosme-vs-parilio-paros.html">Cosme vs. Par&#299;lio</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:820px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Before you ask</span>
+      <h2 class="display-l">The questions I get</h2>
+    </div>
+    <div class="faq reveal">
+      {faq.map(([q, a]) => (
+        <details>
+          <summary set:html={q} />
+          <p class="body-2" set:html={a} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Jupiter, Paros</span>
+    <h2 class="display-l reveal">When are you thinking?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;">Tell me your dates, who&rsquo;s coming and the occasion. I&rsquo;ll check the villa and plan the rest of the islands around it.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Jupiter villa inquiry" />
+      <input type="hidden" name="hotel" value="Jupiter Villa, Paros" />
+      <input type="hidden" name="page" value="best-villa-paros-jupiter" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">When are you thinking?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="July 2027 · 7 nights · 10 guests" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the plan?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Occasion, kids&rsquo; ages, the rest of the trip (optional)</label>
+        <input id="q-details" type="text" name="details" placeholder="50th birthday · two families · then Santorini" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn" data-gtag-label="villa_inquiry_send" data-gtag-location="villa_cta">Send</button>
+      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.4fr 1fr; gap: 80px; } }
+  .intro-grid > * { min-width: 0; }
+  .photos img { aspect-ratio: 4/5; }
+  .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
+  .why li { margin-top: 12px; line-height: 1.6; }
+  .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }
+  .faq details:last-child { border-bottom: 1px solid var(--hairline); }
+  .faq summary { cursor: pointer; font-family: var(--display); font-size: 1.2rem; list-style: none; position: relative; padding-right: 28px; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; position: absolute; right: 0; top: 0; color: var(--brass); font-family: var(--body); }
+  .faq details[open] summary::after { content: "\2013"; }
+  .faq details p { margin-top: 12px; max-width: 62ch; }
+</style>
