@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 
 const villas = [
   ['Paradiso Villa', '7 bedrooms, up to 14 guests', '12,356 sq ft', 'The largest villa, with generous indoor and outdoor spaces and panoramic Aegean views'],
-  ['Delos Villa', '7 bedrooms, up to 14 guests', '7,847 sq ft', 'The hotel&rsquo;s signature villa, across two levels joined by a private elevator. A grand terrace with a long private pool suspended over the sea, seven sea-view bedrooms each with its own bathroom and outdoor access, indoor lounges and open-air dining, a 24/7 butler, a dedicated concierge and access to ROKA Beach Club. The sales team&rsquo;s personal favorite'],
+  ['Delos Villa', '7 bedrooms, up to 14 guests', '7,847 sq ft', 'The hotel&rsquo;s signature villa, across two levels joined by a private elevator. A grand terrace with a long private pool suspended over the sea, a private gym, seven sea-view bedrooms each with its own bathroom and outdoor access, indoor lounges and open-air dining, a 24/7 butler, a dedicated concierge and access to ROKA Beach Club. The sales team&rsquo;s personal favorite'],
   ['Rock Villa', '3 bedrooms and up to 6 guests today, 5 bedrooms from 2027', '2,799 sq ft', 'The most private villa, at the far end of the estate with the sea on both sides and views over Paraga and Paradiso bays. Single-story, with a panoramic terrace over the sea, a path through the rocks down to the water, outdoor access from every bedroom, a living room and kitchenette, a private pool, a 24/7 butler, a dedicated concierge and access to ROKA Beach Club'],
   ['Cyclades Villa', '2 bedrooms', '1,603 sq ft', 'Intimate, with a private pool, sea views and plenty of privacy'],
 ];
@@ -81,7 +81,15 @@ const faq = [
     </div>
     <div class="photos reveal" style="margin-top:28px;">
       <figure><img src="/images/hotels/fouquets-delos-villa-living-room.jpg" alt="The Delos Villa living room opening onto the terrace and the sea at sunset, Fouquet's Mykonos" width="1036" height="692" loading="lazy" decoding="async" /><figcaption>Delos Villa: the living room, open to the terrace at sunset</figcaption></figure>
+      <figure><img src="/images/hotels/fouquets-delos-villa-dining.jpg" alt="The long dining table under a timber ceiling in the Delos Villa, Fouquet's Mykonos" width="1800" height="1233" loading="lazy" decoding="async" /><figcaption>Delos Villa: dining for fourteen, over the lower level</figcaption></figure>
       <figure><img src="/images/hotels/fouquets-delos-villa-bedroom.jpg" alt="A king bedroom with a timber ceiling and woven headboard wall in the Delos Villa, Fouquet's Mykonos" width="1800" height="1156" loading="lazy" decoding="async" /><figcaption>Delos Villa: one of the seven sea-view bedrooms</figcaption></figure>
+      <figure><img src="/images/hotels/fouquets-delos-villa-garden-bedroom.jpg" alt="A Delos Villa bedroom opening onto a patio and lawn by the sea, Fouquet's Mykonos" width="994" height="1558" loading="lazy" decoding="async" /><figcaption>Delos Villa: a ground-floor bedroom opening onto the sea</figcaption></figure>
+      <figure><img src="/images/hotels/fouquets-delos-villa-bathroom.jpg" alt="A travertine bathroom with a woven freestanding tub in the Delos Villa, Fouquet's Mykonos" width="1800" height="1225" loading="lazy" decoding="async" /><figcaption>Delos Villa: a travertine bathroom with a freestanding tub</figcaption></figure>
+      <figure><img src="/images/hotels/fouquets-beach.jpg" alt="Loungers and umbrellas on the beach below Fouquet's Mykonos, Fouquet's Mykonos" width="1012" height="682" loading="lazy" decoding="async" /><figcaption>The beach below the estate</figcaption></figure>
+    </div>
+    <div class="photos plans reveal" style="margin-top:28px;">
+      <figure><img src="/images/hotels/fouquets-delos-villa-floor-plan-upper.jpg" alt="Upper-level floor plan of the Delos Villa, with the pool terrace, living and dining rooms, kitchen and master suite, Fouquet's Mykonos" width="1670" height="1236" loading="lazy" decoding="async" /><figcaption>Delos Villa floor plan: the upper level, with the pool terrace, living, dining, kitchen and master suite</figcaption></figure>
+      <figure><img src="/images/hotels/fouquets-delos-villa-floor-plan-lower.jpg" alt="Lower-level floor plan of the Delos Villa, with bedrooms opening onto sea-facing patios, a gym and the elevator, Fouquet's Mykonos" width="1668" height="1240" loading="lazy" decoding="async" /><figcaption>Delos Villa floor plan: the lower level, with bedrooms opening onto patios by the sea, a gym and the elevator</figcaption></figure>
     </div>
   </div>
 </section>
@@ -164,6 +172,7 @@ const faq = [
 
 <style>
   .photos img { aspect-ratio: 4/3; }
+  .plans img { aspect-ratio: auto; object-fit: contain; background: var(--lime); }
   .villa-table { margin-top: 28px; border-top: 1px solid var(--hairline-firm); }
   .vt-row { display: grid; grid-template-columns: 1fr; gap: 4px; padding: 14px 0; border-bottom: 1px solid var(--hairline); font-size: .95rem; }
   .vt-head { display: none; }
