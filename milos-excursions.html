@@ -32,4 +32,4 @@ var t=document.createElement('div'),s=document.createElement('strong'),c=documen
 L.circleMarker(p.ll,{radius:p.c==='town'?6:8,color:'#FBFAF6',weight:2,fillColor:C[p.c],fillOpacity:1}).bindPopup(t).addTo(g[p.c]);});
 m.fitBounds(L.latLngBounds(P.map(function(p){return p.ll})),{padding:[24,24]});
 document.querySelectorAll('.exc-map-filters button').forEach(function(b){b.addEventListener('click',function(){var k=b.dataset.cat,on=b.getAttribute('aria-pressed')==='true';b.setAttribute('aria-pressed',String(!on));on?m.removeLayer(g[k]):g[k].addTo(m);});});
-})();</script> </body> </html> 
+})();</script> <script defer src="/js/swk-sticky.js"></script> </body> </html> 
