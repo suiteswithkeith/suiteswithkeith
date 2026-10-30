@@ -2608,8 +2608,8 @@
   "island_page": "mykonos.html",
   "locale": "Mykonos, Greece",
   "img_dir": "hotels",
-  "hero_img": "four-seasons-mykonos-1.jpg",
-  "img2": "four-seasons-mykonos-2.jpg",
+  "hero_img": "four-seasons-mykonos-private-beach.jpg",
+  "img2": "four-seasons-mykonos-1.jpg",
   "tagline": "Mykonos&rsquo; newest big-name resort, on a hillside above Kalo Livadi Bay with its own private beach, and a team I send clients to with total confidence.",
   "meta_desc": "Keith's take on Four Seasons Hotel Mykonos, opened in 2026 above Kalo Livadi Bay: 94 rooms, suites and villas, a private beach, two infinity pools, and spacious entry-level Deluxe Sea-View Rooms that fit a family of three.",
   "style_label": "Cliffside resort with a private beach",
@@ -2688,6 +2688,20 @@
     "caption": "Syros Villa outdoor living room",
     "w": 1800,
     "h": 988
+   },
+   {
+    "src": "/images/hotels/four-seasons-mykonos-spa-garden.jpg",
+    "alt": "The garden lounge and pool at the spa, Four Seasons Hotel Mykonos",
+    "caption": "The spa garden",
+    "w": 1800,
+    "h": 941
+   },
+   {
+    "src": "/images/hotels/four-seasons-mykonos-2.jpg",
+    "alt": "A whitewashed terrace with loungers facing the Aegean at Four Seasons Hotel Mykonos",
+    "caption": "A private terrace facing the Aegean",
+    "w": 1800,
+    "h": 1021
    }
   ]
  },
