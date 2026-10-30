@@ -1,0 +1,175 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const villas = [
+  ['Cliff Front Four-Bedroom Villa', 'Up to 10 (max. 8 adults and 2 children)', 'About 280 m&sup2; inside, plus a 200 m&sup2; terrace', 'Four king bedrooms, each en suite with indoor and outdoor showers, two living areas, a kitchen, an 80 m&sup2; lower floor with an auxiliary room, a 60 m&sup2; private pool and a jetted tub. About 70 m from the main building'],
+  ['Cliff Front Three-Bedroom Villa', 'Up to 8 (max. 6 adults and 2 children)', 'About 300 m&sup2; inside, plus a 300 m&sup2; terrace', 'Three king bedrooms, each en suite with indoor and outdoor showers, a kitchen and a large living area, a 100 m&sup2; lower floor with an auxiliary room and a private gym, a 60 m&sup2; private pool and a jetted tub. About 170 m from the main building'],
+];
+
+const faq = [
+  ['What is the best villa on Folegandros?', 'The two Cliff Front Villas at Gundari. I&rsquo;ve visited Gundari, and it&rsquo;s unlike anything I&rsquo;ve ever seen: a dark stone lodge on the cliff&rsquo;s edge. The villas give you three or four bedrooms, a 60 m&sup2; private pool and a dramatic cliff-front sea view, with the whole resort a short walk away.'],
+  ['How many people do the Gundari villas sleep?', 'The Four-Bedroom Villa sleeps up to 10 (a maximum of 8 adults and 2 children), and the Three-Bedroom Villa sleeps up to 8 (a maximum of 6 adults and 2 children).'],
+  ['Can we bring kids to Gundari?', 'Yes, the villas have no age restriction. The main hotel pool is for ages 12 and up, but younger children have the villa&rsquo;s own 60 m&sup2; private pool, which is a big part of why the villas are the way to bring a family to Gundari.'],
+  ['Is there a minimum stay?', 'Yes, three nights for the villas. That&rsquo;s what I&rsquo;d recommend for Gundari and Folegandros anyway.'],
+  ['What&rsquo;s included with the villas?', 'Villa guests can use all the hotel&rsquo;s facilities and services, including the 25-meter main pool, Orizon restaurant, the gym and the spa. Transfers between the port or heliport and the villa are complimentary, and so is the shuttle into Chora. A private chef and grocery shopping are available on request, at an extra charge.'],
+  ['Are there villa packages?', 'Yes. The Wellness Haven package (three-night minimum) adds daily breakfast and discounts on the stay, spa treatments and Orizon, plus morning yoga. The Folegandros Experience package (five-night minimum) adds daily breakfast, a private four-hour boat tour of the island&rsquo;s beaches and coastline, and a discount on the stay. Both are prepaid and non-refundable, so ask me whether a package or a flexible rate makes more sense for your trip.'],
+  ['How do we get to Folegandros?', 'There&rsquo;s no airport, so it&rsquo;s a ferry, a private boat or a helicopter. I arrange <a href="/private-boat-transfers.html">private boat transfers</a> from Santorini, about 45 minutes, or <a href="/hoper.html">a helicopter</a> to the heliport, and Gundari&rsquo;s transfer takes it from there.'],
+];
+---
+<Layout
+  canonical="gundari-villas-folegandros.html"
+  title="Gundari Villas, Folegandros: Cliff-Front Private Pool Villas | Suites With Keith"
+  description="Keith's guide to the two Cliff Front Villas at Gundari on Folegandros: a four-bedroom villa for up to 10 and a three-bedroom villa for up to 8, each with a 60 m² private pool, a jetted tub and a dramatic cliff-front sea view. The best villas on Folegandros."
+  preload="/images/personal/gundari-sunset.jpg"
+  ctaLabel="Ask about the villas"
+>
+
+<script type="application/ld+json" slot="head" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q.replace(/&rsquo;/g, '’'), acceptedAnswer: { '@type': 'Answer', text: a.replace(/<[^>]+>/g, '').replace(/&rsquo;/g, '’').replace(/&sup2;/g, '²') } })),
+})} />
+
+<header class="hero" style="min-height:min(78svh,720px);">
+  <img class="hero-img" src="/images/personal/gundari-sunset.jpg" alt="Gundari's infinity pool reaching toward the open Aegean at sunset, Folegandros" width="1800" height="1350" fetchpriority="high" />
+  <div class="container">
+    <p class="eyebrow">Folegandros &middot; Visited Gundari</p>
+    <h1 class="display-xl" style="margin-top:18px;">The Villas at Gundari</h1>
+    <p class="sub">Two cliff-front villas with three and four bedrooms, 60 m&sup2; private pools and nothing between you and the horizon, on the island that filters its own crowd.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Ask about the villas</a>
+      <a class="btn btn-ghost on-shadow" href="/hotels/gundari-folegandros.html" style="border-color:rgba(242,239,230,.4); color:var(--band-ink);">Read my Gundari review</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container" style="max-width:860px;">
+    <div class="reveal">
+      <p class="deck" style="max-width:44ch;">Gundari is a dark stone lodge on the cliff&rsquo;s edge of Folegandros, and it&rsquo;s unlike anything I&rsquo;ve ever seen. The villas are the way to bring a family or a group.</p>
+      <p class="body-2" style="margin-top:20px; max-width:62ch;">You get picked up at the port or the heliport, and after a short drive and eight to ten minutes on a dirt road toward the cliff&rsquo;s edge, the building appears, blending into the horizon. Every design detail was clearly thought through, down to the outdoor showers overlooking the Aegean, and the team responds to anything my clients flag with genuine gratitude and speed.</p>
+      <p class="body-2" style="margin-top:14px; max-width:62ch;">There are two Cliff Front Villas. Each has king bedrooms with their own bathrooms and indoor and outdoor showers, a kitchen, a lower floor, and a huge terrace with a 60 m&sup2; private pool, a jetted tub, an outdoor kitchen and a dining area, all facing the sea. They have no age restriction, which matters here: the main pool is for ages 12 and up, so the villa pool is where younger kids swim.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:960px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The two villas</span>
+      <h2 class="display-l">Cliff Front Villas</h2>
+    </div>
+    <div class="villa-table reveal" role="table" aria-label="Gundari villas">
+      <div class="vt-row vt-head" role="row"><span role="columnheader">Villa</span><span role="columnheader">Sleeps</span><span role="columnheader">Size</span><span role="columnheader">Notes</span></div>
+      {villas.map(([n, s, z, note]) => (
+        <div class="vt-row" role="row"><span role="cell" class="vt-name" set:html={n} /><span role="cell" set:html={s} /><span role="cell" set:html={z} /><span role="cell" set:html={note} /></div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="photos reveal">
+      <figure><img src="/images/personal/gundari-user-1.jpg" alt="A private pool and daybed on the cliff edge at Gundari, Folegandros" width="1201" height="1800" loading="lazy" decoding="async" /><figcaption>A private pool on the cliff&rsquo;s edge</figcaption></figure>
+      <figure><img src="/images/personal/gundari-user-2.jpg" alt="Gundari's dark stone buildings among the Folegandros hills" width="1800" height="1200" loading="lazy" decoding="async" /><figcaption>Dark stone, built into the landscape</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section band on-shadow">
+  <div class="container" style="max-width:860px;">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">How I&rsquo;d choose</span>
+    <h2 class="display-l reveal">Which villa, for which trip</h2>
+    <ul class="why reveal">
+      <li><b>Two families, or a big group of friends:</b> the Four-Bedroom Villa, with two living areas and room for ten, and the shorter walk to the main building.</li>
+      <li><b>One family, or a group that wants space:</b> the Three-Bedroom Villa, with the larger 300 m&sup2; terrace and a private gym downstairs.</li>
+      <li><b>Kids under 12:</b> either villa. The 60 m&sup2; private pool is theirs, since the main pool is 12 and up.</li>
+      <li><b>Give it three nights or more.</b> That&rsquo;s the villa minimum, and what Folegandros deserves.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:860px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Booking through me</span>
+      <h2 class="display-l">Fora perks, and someone who knows Gundari</h2>
+    </div>
+    <p class="body-2 reveal" style="max-width:62ch;">I know the property and the team, so I&rsquo;ll tell you which villa fits, whether one of their packages beats a flexible rate for your dates, and arrange the chef, groceries and boat days before you land. My clients receive Fora perks on eligible stays, and rates are identical to booking direct.</p>
+    <dl class="kv reveal" style="margin-top:24px;">
+      <div class="kv-row"><dt>Included</dt><dd>The main pool, Orizon restaurant, the gym and the spa, port or heliport transfers and a shuttle to Chora</dd></div>
+      <div class="kv-row"><dt>On request</dt><dd>A private chef and grocery shopping, at an extra charge</dd></div>
+      <div class="kv-row"><dt>Getting there</dt><dd><a href="/private-boat-transfers.html">Private boat</a> from Santorini, about 45 minutes, or <a href="/hoper.html">helicopter</a></dd></div>
+      <div class="kv-row"><dt>More Folegandros</dt><dd>My <a href="/folegandros.html">Folegandros guide</a> and <a href="/greek-island-pairings.html">island pairings</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:820px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Before you ask</span>
+      <h2 class="display-l">The questions I get</h2>
+    </div>
+    <div class="faq reveal">
+      {faq.map(([q, a]) => (
+        <details>
+          <summary set:html={q} />
+          <p class="body-2" set:html={a} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">The Gundari Villas</span>
+    <h2 class="display-l reveal">When are you thinking?</h2>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;">Tell me your dates, who&rsquo;s coming and the kids&rsquo; ages. I&rsquo;ll check both villas and plan the crossing and the rest of the islands around them.</p>
+    <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Gundari villa inquiry" />
+      <input type="hidden" name="hotel" value="Gundari Villas, Folegandros" />
+      <input type="hidden" name="page" value="gundari-villas-folegandros" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="step1">
+        <label for="q-when" style="color:var(--band-ash);">When are you thinking?</label>
+        <input id="q-when" type="text" name="travel_dates" placeholder="June 2027 · 4 nights · 8 guests" required autocomplete="off" />
+      </div>
+      <div class="step2">
+        <label for="q-name" style="color:var(--band-ash);">And where do I send the plan?</label>
+        <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
+        <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Kids&rsquo; ages, occasion, the rest of the trip (optional)</label>
+        <input id="q-details" type="text" name="details" placeholder="Two families · then Santorini" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn" data-gtag-label="villa_inquiry_send" data-gtag-location="villa_cta">Send</button>
+      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .photos img { aspect-ratio: 4/5; }
+  .villa-table { margin-top: 28px; border-top: 1px solid var(--hairline-firm); }
+  .vt-row { display: grid; grid-template-columns: 1fr; gap: 4px; padding: 14px 0; border-bottom: 1px solid var(--hairline); font-size: .95rem; }
+  .vt-head { display: none; }
+  .vt-name { font-family: var(--display); font-size: 1.1rem; }
+  @media (min-width: 760px) {
+    .vt-row { grid-template-columns: 1.2fr 1.2fr 1.2fr 2.6fr; gap: 20px; align-items: baseline; }
+    .vt-head { display: grid; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); }
+  }
+  .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
+  .why li { margin-top: 12px; line-height: 1.6; }
+  .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }
+  .faq details:last-child { border-bottom: 1px solid var(--hairline); }
+  .faq summary { cursor: pointer; font-family: var(--display); font-size: 1.2rem; list-style: none; position: relative; padding-right: 28px; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; position: absolute; right: 0; top: 0; color: var(--brass); font-family: var(--body); }
+  .faq details[open] summary::after { content: "\2013"; }
+  .faq details p { margin-top: 12px; max-width: 62ch; }
+</style>
