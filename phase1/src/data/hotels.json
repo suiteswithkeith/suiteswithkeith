@@ -2673,7 +2673,23 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Four Seasons Mykonos team personally. As a Fora advisor, my clients receive perks on eligible stays, like daily breakfast and upgrade priority. I know the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Mykonos Guide",
   "cta2_text": "Already Booked Mykonos? Start Here",
-  "cta2_href": "already-booked-mykonos.html"
+  "cta2_href": "already-booked-mykonos.html",
+  "gallery": [
+   {
+    "src": "/images/hotels/four-seasons-mykonos-syros-infinity-pool.jpg",
+    "alt": "The Syros Villa infinity pool above Kalo Livadi Bay at Four Seasons Hotel Mykonos",
+    "caption": "The Syros Villa infinity pool",
+    "w": 1800,
+    "h": 1013
+   },
+   {
+    "src": "/images/hotels/four-seasons-mykonos-syros-outdoor-living.jpg",
+    "alt": "The outdoor living room and bar at the Syros Villa, Four Seasons Hotel Mykonos",
+    "caption": "Syros Villa outdoor living room",
+    "w": 1800,
+    "h": 988
+   }
+  ]
  },
  {
   "slug": "bill-and-coo-suites-mykonos",
