@@ -2600,6 +2600,78 @@
   "cta2_href": "already-booked-mykonos.html"
  },
  {
+  "slug": "four-seasons-mykonos",
+  "name": "Four Seasons Hotel Mykonos",
+  "plain_name": "Four Seasons Hotel Mykonos",
+  "short_name": "Four Seasons",
+  "island": "Mykonos",
+  "island_page": "mykonos.html",
+  "locale": "Mykonos, Greece",
+  "img_dir": "hotels",
+  "hero_img": "four-seasons-mykonos-1.jpg",
+  "img2": "four-seasons-mykonos-2.jpg",
+  "tagline": "Mykonos&rsquo; newest big-name resort, on a hillside above Kalo Livadi Bay with its own private beach, and a team I send clients to with total confidence.",
+  "meta_desc": "Keith's take on Four Seasons Hotel Mykonos, opened in 2026 above Kalo Livadi Bay: 94 rooms, suites and villas, a private beach, two infinity pools, and spacious entry-level sea-view rooms that fit a family of three.",
+  "style_label": "Cliffside resort with a private beach",
+  "perfect_for": "Families, couples, travelers who want resort calm on Mykonos",
+  "region_label": "Island",
+  "region_html": "<a href=\"/mykonos.html\">Mykonos Destination Guide &rarr;</a>",
+  "rank_text": "New for 2026, Mykonos",
+  "rank_href": "mykonos.html",
+  "stat1_num": "94",
+  "stat1_label": "Rooms, Suites &amp; Villas",
+  "stat2_num": "~500 sq ft",
+  "stat2_label": "Entry-Level Sea-View Rooms",
+  "know_heading": "The Fine Print, From Someone Who Books It",
+  "cta_line": "I have a close relationship with the Four Seasons Mykonos team and have sent them clients. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
+  "intro": [
+   "Four Seasons Hotel Mykonos opened for its first summer in 2026, and it&rsquo;s already one of the hotels I recommend most on the island. It sits on a hillside above Kalo Livadi Bay on the south coast, built like a Mykonian village across about 15 acres, with its own private beach below and two infinity pools facing the Aegean.",
+   "I have a close relationship with the team here and have sent them clients, so I know how they look after people. The service is what you&rsquo;d expect from Four Seasons, which is still rarer on Mykonos than it should be.",
+   "The rooms are the quiet win. Even the entry-level sea-view rooms are around 500 square feet, large enough for a family of three, which is very unusual on an island where standard rooms tend to be small. For families and groups, there are two villas, a two-bedroom and the three-bedroom Syros Villa, each with its own pool. <a href=\"/four-seasons-mykonos-villas.html\">More on the villas &rarr;</a>"
+  ],
+  "stood_out": [
+   {
+    "b": "Spacious entry-level rooms.",
+    "t": "Around 500 square feet with sea views, and big enough for a family of three without jumping to a suite."
+   },
+   {
+    "b": "A private beach on Kalo Livadi Bay.",
+    "t": "Beach days without the beach-club scramble, with the south coast&rsquo;s energy close by when you want it."
+   },
+   {
+    "b": "Two infinity pools and a kids club.",
+    "t": "Both pools face the Aegean, and the Four Seasons kids club gives the kids their own program while you enjoy the beach."
+   },
+   {
+    "b": "Villas with private pools.",
+    "t": "The Two-Bedroom Sea-View Villa (up to 4) and the Syros Three-Bedroom Villa (up to 6), for families and groups who want a private house with Four Seasons service behind it."
+   }
+  ],
+  "know": [
+   {
+    "b": "It&rsquo;s about 20 minutes from Mykonos Town.",
+    "t": "That&rsquo;s the trade for a private beach and a quieter setting. I arrange drivers for dinners in Chora."
+   },
+   {
+    "b": "Families, start here.",
+    "t": "Few Mykonos hotels fit a family this well, from the room sizes and the kids club to the villas. Tell me the kids&rsquo; ages and I&rsquo;ll match you to the right room or villa."
+   },
+   {
+    "b": "Comparing the south coast?",
+    "t": "<a href=\"fouquets-mykonos.html\">Fouquet&rsquo;s</a> is the more energetic choice near Paraga and Scorpios, and <a href=\"kalesma-mykonos.html\">Kalesma</a> sits above Ornos Bay, close to everything."
+   },
+   {
+    "b": "Transfers and private boats, arranged.",
+    "t": "I arrange private transfers from the airport or port, private boat days along the south coast or to Delos, and <a href=\"/private-boat-transfers.html\">private boat transfers</a> to Paros or Naxos instead of the ferry."
+   }
+  ],
+  "verdict": "A true Four Seasons on Mykonos, with a private beach, rooms big enough for families, and a team I trust with my clients.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Four Seasons Mykonos team personally. As a Fora advisor, my clients receive perks on eligible stays, like daily breakfast and upgrade priority. I know the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My Mykonos Guide",
+  "cta2_text": "Already Booked Mykonos? Start Here",
+  "cta2_href": "already-booked-mykonos.html"
+ },
+ {
   "slug": "bill-and-coo-suites-mykonos",
   "name": "Bill &amp; Coo Suites",
   "plain_name": "Bill & Coo Suites",
