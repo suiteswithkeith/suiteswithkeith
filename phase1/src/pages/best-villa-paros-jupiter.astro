@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 
 const faq = [
   ['What is the best villa on Paros?', 'Jupiter. When I put together the awards edit for my Greece Collection, it took the Paros category outright and I named it Best Paros Villa. I&rsquo;ve toured it in person. It&rsquo;s part of Par&#299;lio, the design hotel I stayed at on Paros, so you get a private five-bedroom villa with the hotel&rsquo;s service behind it.'],
-  ['How many bedrooms does Jupiter have?', 'Five, which makes it the right size for a multi-family trip, a multigenerational group or a celebration with friends.'],
+  ['How many bedrooms does Jupiter have?', 'Five, each with a king-size bed, across 180 square meters, with a living area, a fully equipped kitchen, a dining area, bathrooms with rainfall showers and a private pool on the terrace. It&rsquo;s Par&#299;lio&rsquo;s most exclusive stay, and the right size for a multi-family trip, a multigenerational group or a celebration with friends.'],
   ['Is a villa better than a hotel on Paros?', 'For a family or group, often yes. A five-bedroom villa gives you privacy and a shared home base that a row of hotel suites can&rsquo;t, and Paros is built for the villa format: Naousa&rsquo;s restaurants, the beaches and boat days all work beautifully from a private house.'],
   ['Why Paros for a villa trip?', 'Paros is my pick for the best island in Greece for return visitors, and the island I keep thinking about. It has great beaches, Naousa for dinner, villages like Lefkes for a sunset walk, and easy ferry connections to the rest of the Cyclades.'],
   ['How far ahead should we book?', 'Villas book differently than hotels. Peak weeks go early and minimum stays apply, so talk to me before you lock flights.'],
@@ -13,10 +13,11 @@ const faq = [
 ];
 
 const kv = [
-  ['Bedrooms', '<b>5</b>'],
+  ['Bedrooms', '<b>5</b>, each with a king-size bed'],
+  ['Size', '180 m&sup2; (1,938 sq ft), Par&#299;lio&rsquo;s most exclusive stay'],
+  ['Inside', 'A spacious living area, a fully equipped kitchen, a dining area and bathrooms with rainfall showers'],
+  ['Outside', 'A private pool on an expansive terrace, with sunbeds and an open-air sitting area among the gardens'],
   ['Award', 'Best Paros Villa, The Greece Collection'],
-  ['Best for', 'Families, multigenerational groups and celebrations'],
-  ['Island', 'Paros, my pick for return visitors to Greece'],
   ['Booking', 'Peak weeks go early, and minimum stays apply'],
 ];
 ---
@@ -52,7 +53,7 @@ const kv = [
     <div class="reveal">
       <p class="deck" style="max-width:44ch;">I toured Jupiter in person, and when I put together the awards edit for my Greece Collection, it took the Paros category outright.</p>
       <p class="body-2" style="margin-top:20px; max-width:58ch;">Paros is my pick for the best island in Greece for return visitors, and it&rsquo;s the island I keep thinking about. For a family or group that wants a private base rather than a hotel, a villa of this caliber changes how the whole trip works.</p>
-      <p class="body-2" style="margin-top:14px; max-width:58ch;">Five bedrooms changes the math. For a multi-family trip or a group celebration, a full villa often beats booking a row of suites, for privacy and for the experience. Everyone has their own room, and there&rsquo;s one shared home to come back to after the beach.</p>
+      <p class="body-2" style="margin-top:14px; max-width:58ch;">Five bedrooms changes the math. For a multi-family trip or a group celebration, a full villa often beats booking a row of suites, for privacy and for the experience. Every bedroom has a king-size bed, the kitchen is fully equipped, and the private pool sits on a big terrace with sunbeds and an open-air sitting area, so there&rsquo;s one shared home to come back to after the beach.</p>
       <p class="body-2" style="margin-top:14px; max-width:58ch;">Jupiter is part of <a href="/hotels/parilio-paros.html">Par&#299;lio</a>, the design hotel I stayed at on Paros, and that&rsquo;s the point. I&rsquo;m very pro private villas at hotels versus standalone villas: you get your own house, with a team, a restaurant and real service behind it, instead of arranging staff and groceries yourself.</p>
     </div>
     <div class="reveal">
@@ -66,8 +67,12 @@ const kv = [
 <section class="section" style="padding-top:0;">
   <div class="container">
     <div class="photos reveal">
+      <figure><img src="/images/hotels/jupiter-villa-living-room.jpg" alt="The light-filled living room at Jupiter, with sea views through floor-to-ceiling doors" width="1800" height="1061" loading="lazy" decoding="async" /><figcaption>Jupiter: the living room, with the sea through the doors</figcaption></figure>
       <figure><img src="/images/hotels/jupiter-villa-dining.jpg" alt="The dining room at Jupiter, with woven chairs and a view of the Paros hills" width="1624" height="1618" loading="lazy" decoding="async" /><figcaption>Jupiter: the dining room, looking out to the hills</figcaption></figure>
-      <figure><img src="/images/excursions/paros/a3b0ba92.jpg" alt="A catamaran anchored in turquoise water off Paros" width="1336" height="1332" loading="lazy" decoding="async" /><figcaption>A boat day off Paros, the upgrade every villa group thanks me for</figcaption></figure>
+      <figure><img src="/images/hotels/jupiter-villa-outdoor-dining.jpg" alt="The shaded outdoor dining table at Jupiter beside the stone wall and pool" width="1800" height="1150" loading="lazy" decoding="async" /><figcaption>Jupiter: outdoor dining under the pergola, by the pool</figcaption></figure>
+      <figure><img src="/images/hotels/jupiter-villa-terrace.jpg" alt="A lounge terrace at Jupiter overlooking vineyards and the Paros hills" width="1800" height="1094" loading="lazy" decoding="async" /><figcaption>Jupiter: a terrace over the vineyards and hills</figcaption></figure>
+      <figure><img src="/images/hotels/jupiter-villa-bathroom.jpg" alt="A double-vanity bathroom with a walk-in shower at Jupiter" width="1800" height="1094" loading="lazy" decoding="async" /><figcaption>Jupiter: double vanities and a walk-in shower</figcaption></figure>
+      <figure><img src="/images/hotels/jupiter-villa-pool.jpg" alt="The private pool at Jupiter inside its stone walls" width="1632" height="1686" loading="lazy" decoding="async" /><figcaption>Jupiter: the pool, inside its stone walls</figcaption></figure>
     </div>
   </div>
 </section>
@@ -152,7 +157,7 @@ const kv = [
   .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.4fr 1fr; gap: 80px; } }
   .intro-grid > * { min-width: 0; }
-  .photos img { aspect-ratio: 4/5; }
+  .photos img { aspect-ratio: 4/3; }
   .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
   .why li { margin-top: 12px; line-height: 1.6; }
   .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }
