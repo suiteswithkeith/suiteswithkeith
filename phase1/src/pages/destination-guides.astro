@@ -9,6 +9,7 @@ const startHere = [
 ];
 
 const guides = [
+  { href: '/luxury-villas.html', img: '/images/hotels/fouquets-delos-villa-pool.jpg', kicker: 'Hand-selected', title: 'Luxury Villas', blurb: 'Private villas at the hotels I know best, from Santorini to Tuscany to Napa, every one personally toured or vetted.', cta: 'See the villas &rarr;' },
   { href: '/santorini.html', img: '/images/islands/santorini-hero.jpg', kicker: 'The Cyclades', title: 'Santorini', blurb: 'The island that introduced the world to Cycladic luxury.' },
   { href: '/lake-como.html', img: '/images/lake-como/grand-hotel-tremezzo/garden-pool.jpg', kicker: 'Italy', title: 'Lake Como', blurb: 'Six hotels from October 2026 stays and tours, and how to arrive by boat.' },
   { href: '/tuscany.html', img: '/images/tuscany/il-borro-garden-view.jpg', kicker: 'Italy', title: 'Tuscany', blurb: 'Three borghi and three castles and estates, matched to the traveler.' },
@@ -49,6 +50,24 @@ const practical = [
   </div>
 </section>
 
+<!-- the guides -->
+<section class="section band on-shadow">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The guides</span>
+      <h2 class="display-l">Place by place</h2>
+    </div>
+    <div class="cards four">
+      {guides.map((g) => (
+        <a class="card reveal" href={g.href}>
+          <img src={g.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+          <div class="pad"><span class="kicker">{g.kicker}</span><h3>{g.title}</h3><p>{g.blurb}</p><span class="go" set:html={g.cta || 'Read the guide &rarr;'} /></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
 <!-- start here -->
 <section class="section">
   <div class="container">
@@ -61,24 +80,6 @@ const practical = [
         <a class="card reveal" href={g.href}>
           <img src={g.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
           <div class="pad"><span class="kicker">{g.kicker}</span><h3>{g.title}</h3><p>{g.blurb}</p><span class="go">{g.cta}</span></div>
-        </a>
-      ))}
-    </div>
-  </div>
-</section>
-
-<!-- the guides -->
-<section class="section band on-shadow">
-  <div class="container">
-    <div class="sec-head reveal">
-      <span class="eyebrow">The guides</span>
-      <h2 class="display-l">Place by place</h2>
-    </div>
-    <div class="cards four">
-      {guides.map((g) => (
-        <a class="card reveal" href={g.href}>
-          <img src={g.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
-          <div class="pad"><span class="kicker">{g.kicker}</span><h3>{g.title}</h3><p>{g.blurb}</p><span class="go">Read the guide &rarr;</span></div>
         </a>
       ))}
     </div>
