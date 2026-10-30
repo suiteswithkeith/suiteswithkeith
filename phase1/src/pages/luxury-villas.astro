@@ -9,8 +9,9 @@ const villas = [
   { href: '/best-villa-paros-jupiter.html', img: '/images/hotels/jupiter-villa-pool.jpg', kicker: 'Paros · Toured', title: 'Par&#299;lio: Jupiter &amp; Aurelia', blurb: 'My Best Paros Villa, five king bedrooms and a private pool, plus the three-bedroom Aurelia next door.', size: '3 to 5 bedrooms' },
   { href: '/gundari-villas-folegandros.html', img: '/images/hotels/gundari-three-bedroom-villa-terrace-pergola.jpg', kicker: 'Folegandros · Visited', title: 'Gundari', blurb: 'Two cliff-front villas with 60 m&sup2; private pools, on the island that filters its own crowd.', size: 'Sleeps 8 to 10' },
   { href: '/borgo-pignano-villas-tuscany.html', img: '/images/tuscany/borgo-pignano-pool-wide.jpg', kicker: 'Tuscany · Stayed', title: 'Borgo Pignano', blurb: 'Around nine private villas on a hilltop estate outside Volterra, with a kids&rsquo; pool, tennis and a spa.', size: '2 to 5 bedrooms' },
+  { href: '/hotels/airelles-palladio-venice-suite-del-doge.html', img: '/images/hotels/airelles-palladio-venice/press-doge-salon-salute.jpg', kicker: 'Venice · Toured', title: 'Airelles Palladio: Suite del Doge', blurb: 'A frescoed four-bedroom penthouse on Giudecca, with the Salute framed across the water, at my number one hotel in Italy.', size: 'Sleeps 8, villa buyout to 13 bedrooms' },
   { href: '/forestis-villa-dolomites.html', img: '/images/dolomites/forestis/tower-suite-view.jpg', kicker: 'The Dolomites · Stayed', title: 'Forestis Villa', blurb: 'Five bedrooms, a team of 14, a private pool and spa, and children welcome at an adults-only hotel.', size: 'Sleeps 10' },
-  { href: '/four-seasons-napa-valley-villas-residences.html', img: '/images/napa/four-seasons-1.jpg', kicker: 'Napa Valley · Toured', title: 'Four Seasons Napa Valley', blurb: 'Villas and residences on a working vineyard in Calistoga, for families and groups of friends.', size: 'Families &amp; groups' },
+  { href: '/four-seasons-napa-valley-villas-residences.html', img: '/images/napa/four-seasons-1.jpg', kicker: 'Napa Valley · Stayed', title: 'Four Seasons Napa Valley', blurb: 'Villas and residences on a working vineyard in Calistoga, for families and groups of friends.', size: 'Families &amp; groups' },
 ];
 
 const faq = [
@@ -22,8 +23,8 @@ const faq = [
 ---
 <Layout
   canonical="luxury-villas.html"
-  title="Luxury Villas, Hand-Selected by Suites With Keith | Greece, Italy & Napa"
-  description="Private villas at the best hotels in Santorini, Mykonos, Paros, Folegandros, Tuscany, the Dolomites and Napa Valley, every one personally toured or vetted by Keith. Villas for families, groups and celebrations, with a hotel's service behind them."
+  title="Luxury Villas & Penthouses, Hand-Selected by Suites With Keith | Greece, Italy & Napa"
+  description="Private villas and penthouses at the best hotels in Santorini, Mykonos, Paros, Folegandros, Venice, Tuscany, the Dolomites and Napa Valley, every one personally toured or vetted by Keith. Villas for families, groups and celebrations, with a hotel's service behind them."
   preload="/images/hotels/fouquets-delos-villa-pool.jpg"
   current="guides"
   ctaLabel="Ask about a villa"
@@ -76,7 +77,7 @@ const faq = [
     <ul class="why reveal">
       <li><b>Young kids:</b> <a href="/canaves-epitome-villas-santorini.html">Canaves Epitome</a> on Santorini, or <a href="/four-seasons-mykonos-villas.html">Four Seasons Mykonos</a> with its kids club and private beach.</li>
       <li><b>Two or three families together:</b> <a href="/fouquets-mykonos-villas.html">Fouquet&rsquo;s Paradiso or Delos</a>, <a href="/andronis-villas-santorini.html">the Andronis Eden Villa</a>, or <a href="/best-villa-paros-jupiter.html">Jupiter</a> on Paros.</li>
-      <li><b>A milestone celebration:</b> <a href="/forestis-villa-dolomites.html">the Forestis Villa</a> in the Dolomites, or <a href="/gundari-villas-folegandros.html">Gundari</a> on the cliffs of Folegandros.</li>
+      <li><b>A milestone celebration:</b> <a href="/hotels/airelles-palladio-venice-suite-del-doge.html">the Suite del Doge</a> at Airelles Palladio in Venice, <a href="/forestis-villa-dolomites.html">the Forestis Villa</a> in the Dolomites, or <a href="/gundari-villas-folegandros.html">Gundari</a> on the cliffs of Folegandros.</li>
       <li><b>A slow Italian summer:</b> <a href="/borgo-pignano-villas-tuscany.html">Borgo Pignano</a> in Tuscany.</li>
       <li><b>Wine country with friends:</b> <a href="/four-seasons-napa-valley-villas-residences.html">Four Seasons Napa Valley</a> in Calistoga.</li>
     </ul>
@@ -131,7 +132,8 @@ const faq = [
 </Layout>
 
 <style>
-  @media (min-width: 1020px) { .cards.three { grid-template-columns: repeat(3, 1fr); } }
+  .cards.three { max-width: 1040px; margin: 0 auto; }
+  .cards.three .card img { aspect-ratio: 16/10; }
   .card .size { font-size: .85rem; color: var(--ash); }
   .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
   .why li { margin-top: 12px; line-height: 1.6; }
