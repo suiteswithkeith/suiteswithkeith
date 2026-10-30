@@ -6,6 +6,11 @@ Output is static HTML at proposals/<slug>.html in the jc-* itinerary design
 All trip content lives in the JSON. This repo is public, so keep the JSON
 client-safe: no client emails or phones, no prices, no internal notes.
 
+Multiple stays: give "hotels" (a list) instead of "hotel". A hotel can carry
+"bookings" ([{label, ref, status, check_in, check_out}]) in place of a single
+"confirmation", for a stay split across reservations. meta.timezone sets the
+Today highlight (default America/Los_Angeles).
+
 meta.build:
   draft  amber "To be confirmed" chips plus dashed "For Keith" notes (keith_todo)
   final  chips only where a status is still open, "For Keith" notes hidden
@@ -119,8 +124,25 @@ def render_event(ev, draft):
         cls, e(ev['time']), ''.join(w))
 
 
+def stay_refs(h):
+    """One entry per reservation on a stay: the single confirmation, or each of h['bookings']."""
+    out = []
+    for b in h.get('bookings') or [{'ref': h['confirmation']}]:
+        label = (e(b['label']) + ' &middot; ') if b.get('label') else ''
+        if b.get('status', 'confirmed') in QUIET:
+            ref = e(b['ref'])
+            body = label + 'Confirmation ' + ref
+        else:
+            ref = '<span class="jc-tbc">%s</span>%s' % (e(b.get('pending_label', 'To be confirmed')), e(b.get('ref', '')))
+            body = '<span class="jc-tbc">%s</span>%s%s' % (e(b.get('pending_label', 'To be confirmed')), label, e(b.get('ref', '')))
+        out.append({'html': body, 'ref_only': ref,
+                    'check_in': b.get('check_in', h['check_in']), 'check_out': b.get('check_out', h['check_out'])})
+    return out
+
+
 def render(data):
-    m, hotel, days, k = data['meta'], data['hotel'], data['days'], data['keith']
+    m, days, k = data['meta'], data['days'], data['keith']
+    hotels = data.get('hotels') or [data['hotel']]
     draft = m.get('build', 'draft') == 'draft'
     base_css = (ROOT / 'tools/itinerary/jc-base.css').read_text()
     extra_css = (ROOT / 'tools/itinerary/itinerary-extra.css').read_text()
@@ -146,8 +168,9 @@ def render(data):
 %s</style>
 <noscript><style>.jc-daysec, .jc-hero .inner > * { opacity: 1 !important; transform: none !important; } .jc-datebar { display: none; }</style></noscript>
 </head>
-<body%s>
-''' % (e(m['page_title']), m['slug'], base_css, extra_css, ' class="is-draft"' if draft else ''))
+<body%s data-tz="%s">
+''' % (e(m['page_title']), m['slug'], base_css, extra_css, ' class="is-draft"' if draft else '',
+       e(m.get('timezone', 'America/Los_Angeles'))))
 
     if draft:
         a('<div class="jc-draftbar">Draft for Keith &middot; not yet sent to the clients</div>\n')
@@ -174,7 +197,7 @@ def render(data):
         <p class="small">%s</p>
         <div class="jc-numbers">
           <div><span class="lbl">Keith, anytime</span><a href="%s">%s</a><span class="note">Call or <a class="inline" href="%s">text</a></span></div>
-          <div><span class="lbl">%s</span><a href="%s">%s</a><span class="note">Front desk &middot; or <a class="inline" href="%s">text %s</a></span></div>
+%s
         </div>
       </div>
     </div>
@@ -182,31 +205,39 @@ def render(data):
 </section>
 ''' % (e(m['intro_eyebrow']), e(m['hello']), e(m['how_to_read']),
        tel(k['phone']), e(k['phone'].replace('+1.', '').replace('.', '-')), tel(k['phone'], 'sms'),
-       e(hotel['name']), tel(hotel['phone_voice']), e(hotel['phone_voice'].replace('.', '-')),
-       tel(hotel['phone_text'], 'sms'), e(hotel['phone_text'].replace('.', '-'))))
+       '\n'.join('          <div><span class="lbl">%s</span><a href="%s">%s</a><span class="note">%s</span></div>' % (
+           e(h.get('short_name', h['name'])), tel(h['phone_voice']), e(h['phone_voice'].replace('.', '-')),
+           ('Front desk &middot; or <a class="inline" href="%s">text %s</a>' % (tel(h['phone_text'], 'sms'), e(h['phone_text'].replace('.', '-'))))
+           if h.get('phone_text') else 'Front desk')
+           for h in hotels)))
 
     # At a glance: hotel card + day strip
     a('''
 <section class="jc-strip" id="days">
   <div class="jc-container">
     <span class="jc-eyebrow">At a Glance</span>
-    <div class="jc-hotel jc-glance">
-      <div class="jc-label">Your hotel, %d nights</div>
-      <div class="hotel"><a href="%s" target="_blank" rel="noopener">%s</a></div>
-      <div class="hotel-note"><strong>%s.</strong> %s.</div>
-      <div class="hotel-note">%s <a class="jc-maplink" href="%s" target="_blank" rel="noopener">Map</a></div>
-      <div class="hotel-note">Check in <strong>%s</strong> &middot; Check out <strong>%s</strong></div>
-      <div class="hotel-note">Call <a class="jc-tel" href="%s">%s</a> &middot; Text <a class="jc-tel" href="%s">%s</a></div>
-      <div class="jc-ref">Confirmation %s</div>
-    </div>
-    <span class="jc-eyebrow">Tap a Day</span>
+''')
+    for h in hotels:
+        lines = ['      <div class="jc-label">%s</div>' % e(h.get('label', 'Your hotel, %d nights' % h['nights'])),
+                 '      <div class="hotel"><a href="%s" target="_blank" rel="noopener">%s</a></div>' % (e(h['website']), e(h['name']))]
+        room = '<strong>%s.</strong>' % e(h['room'])
+        if h.get('room_details'):
+            room += ' %s.' % e(h['room_details'])
+        lines.append('      <div class="hotel-note">%s</div>' % room)
+        lines.append('      <div class="hotel-note">%s <a class="jc-maplink" href="%s" target="_blank" rel="noopener">Map</a></div>' % (e(h['address']), maps(h['maps_query'])))
+        lines.append('      <div class="hotel-note">Check in <strong>%s</strong> &middot; Check out <strong>%s</strong></div>' % (long_date(h['check_in']), long_date(h['check_out'])))
+        call = 'Call <a class="jc-tel" href="%s">%s</a>' % (tel(h['phone_voice']), e(h['phone_voice'].replace('.', '-')))
+        if h.get('phone_text'):
+            call += ' &middot; Text <a class="jc-tel" href="%s">%s</a>' % (tel(h['phone_text'], 'sms'), e(h['phone_text'].replace('.', '-')))
+        lines.append('      <div class="hotel-note">%s</div>' % call)
+        for b in stay_refs(h):
+            lines.append('      <div class="jc-ref">%s</div>' % b['html'])
+        if draft and h.get('keith_todo'):
+            lines.append('      <span class="jc-todo"><b>For Keith</b> %s</span>' % e(h['keith_todo']))
+        a('    <div class="jc-hotel jc-glance">\n%s\n    </div>\n' % '\n'.join(lines))
+    a('''    <span class="jc-eyebrow">Tap a Day</span>
     <div class="grid" style="margin-top:18px;">
-''' % (hotel['nights'], e(hotel['website']), e(hotel['name']), e(hotel['room']), e(hotel['room_details']),
-       e(hotel['address']), maps(hotel['maps_query']),
-       long_date(hotel['check_in']), long_date(hotel['check_out']),
-       tel(hotel['phone_voice']), e(hotel['phone_voice'].replace('.', '-')),
-       tel(hotel['phone_text'], 'sms'), e(hotel['phone_text'].replace('.', '-')),
-       e(hotel['confirmation'])))
+''')
     for d in days:
         _, wd, _, n, mon = day_bits(d['date'])
         a('      <a class="cell" href="#%s" data-date="%s"><span class="num">%s</span><div class="dates">%s %d</div><div class="place">%s</div></a>\n'
@@ -262,15 +293,19 @@ def render(data):
       <div class="jc-confirm-grid">
         <div class="jc-confirm-col">
           <div class="title">Stay</div>
-          <div class="jc-confirm">
+''')
+    for h in hotels:
+        for b in stay_refs(h):
+            a('''          <div class="jc-confirm">
             <div class="name">%s</div>
             <div class="when">%s to %s &middot; %s</div>
             <div class="ref">%s</div>
           </div>
-        </div>
+''' % (e(h['name']), long_date(b['check_in']), long_date(b['check_out']), e(h['room']), b['ref_only']))
+    a('''        </div>
         <div class="jc-confirm-col">
           <div class="title">Bookings</div>
-''' % (e(hotel['name']), long_date(hotel['check_in']), long_date(hotel['check_out']), e(hotel['room']), e(hotel['confirmation'])))
+''')
     for d in days:
         for ev in d['events']:
             if ev.get('type') == 'hotel' or not (ev.get('confirmation') or ev.get('status') not in QUIET):

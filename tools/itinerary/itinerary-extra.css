@@ -4,6 +4,7 @@
   .jc-numbers a.inline, .jc-numbers .note a { display: inline; font: inherit; color: var(--charcoal); margin: 0; border-bottom: 1px solid var(--olive); }
   .jc-glance { margin: 18px 0 44px; border-left: 3px solid var(--olive); }
   .jc-glance .hotel-note { margin-top: 8px; }
+  .jc-glance + .jc-glance { margin-top: -26px; }
   .jc-maplink, .jc-tel, .jc-meta a { color: var(--olive-deep); text-decoration: none; border-bottom: 1px solid var(--olive); font-weight: 500; }
   .jc-maplink, .jc-meta a[href*="google.com/maps"] { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-left: 4px; }
   .jc-summary { font-family: var(--font-body); font-weight: 300; font-size: 1.08rem; line-height: 1.6; color: var(--charcoal); margin: 0 0 18px; max-width: 760px; }

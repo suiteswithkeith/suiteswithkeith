@@ -10,9 +10,9 @@
       if (a) fold.open = true;
     });
   }
-  // Highlight today, on wine country time.
+  // Highlight today, on the trip's local time (body data-tz).
   var today;
-  try { today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date()); } catch (err) { return; }
+  try { today = new Intl.DateTimeFormat('en-CA', { timeZone: document.body.dataset.tz || 'America/Los_Angeles' }).format(new Date()); } catch (err) { return; }
   document.querySelectorAll('[data-date="' + today + '"]').forEach(function (el) {
     el.classList.add('today');
     var tag = el.querySelector('.jc-today'); if (tag) tag.hidden = false;

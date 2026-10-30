@@ -1,0 +1,269 @@
+{
+  "_readme": "Client-safe source for proposals/73def5c3fd6ef84a.html (Lani and Steve, Amalfi Coast 2027). This repo is public: no client emails or phones, no hotel rates, no internal notes in here. Excursion prices are the quoted options the clients choose between. Edit, then run: python3 tools/render_itinerary.py 73def5c3fd6ef84a",
+  "meta": {
+    "slug": "73def5c3fd6ef84a",
+    "build": "draft",
+    "_build_help": "draft shows the amber chips plus the dashed For Keith notes. final hides the For Keith notes. A chip disappears when its event status is set to confirmed.",
+    "page_title": "Lani & Steve on the Amalfi Coast",
+    "hero_names": "Lani & Steve",
+    "hero_place": "on the Amalfi Coast",
+    "hero_eyebrow": "Private Itinerary · Prepared by Keith Pence, Suites With Keith",
+    "hero_line": "Santa Caterina, Amalfi · Il San Pietro, Positano · May 30 to June 4, 2027",
+    "hero_image": "../images/destinations/il-san-pietro.jpg",
+    "hero_alt": "Il San Pietro di Positano on the cliffs above the sea",
+    "intro_eyebrow": "Prepared for Lani and Steve",
+    "timezone": "Europe/Rome",
+    "hello": "Lani and Steve, here is the whole trip in one place. Two nights at Santa Caterina in Amalfi, a day on the water down the coast, then three nights at Il San Pietro in Positano. Both hotels are booked. The transfers and days out are laid out as options, so tell me which ones you like and I will lock them in.",
+    "how_to_read": "Tap any day below to jump straight to it. Every address opens in Google Maps and every phone number is tap to call. Anything marked Your pick is waiting on your choice, and prices are per booking in euros, not per person.",
+    "updated": "2026-10-30"
+  },
+  "hotels": [
+    {
+      "name": "Hotel Santa Caterina",
+      "short_name": "Santa Caterina",
+      "label": "Amalfi, 2 nights",
+      "address": "Via Mauro Comite 9, 84011 Amalfi",
+      "maps_query": "Hotel Santa Caterina, Via Mauro Comite 9, 84011 Amalfi, Italy",
+      "phone_voice": "+39 089 871012",
+      "website": "https://www.hotelsantacaterina.it/",
+      "check_in": "2027-05-30",
+      "check_out": "2027-06-01",
+      "nights": 2,
+      "room": "Room category to confirm",
+      "confirmation": "6801SH112060",
+      "keith_todo": "Swap in the room category (Front Sea View or Deluxe) from the booking. Lani asked which is better value, answer that in the email if not already."
+    },
+    {
+      "name": "Il San Pietro di Positano",
+      "short_name": "Il San Pietro",
+      "label": "Positano, 3 nights",
+      "address": "Via Laurito 2, 84017 Positano",
+      "maps_query": "Il San Pietro di Positano, Via Laurito 2, 84017 Positano, Italy",
+      "phone_voice": "+39 089 812080",
+      "website": "https://www.ilsanpietro.com/",
+      "check_in": "2027-06-01",
+      "check_out": "2027-06-04",
+      "nights": 3,
+      "room": "Premier Room",
+      "room_details": "Sunset view requested. Two reservations, one room: we are asking the hotel to link them so you never move",
+      "bookings": [
+        {"label": "June 1 to 2, through Keith", "ref": "22710SH059403", "check_in": "2027-06-01", "check_out": "2027-06-02"},
+        {"label": "June 2 to 4, Steve's points stay", "ref": "22710SH059391", "check_in": "2027-06-02", "check_out": "2027-06-04"}
+      ],
+      "keith_todo": "Email ISP to link 22710SH059403 and 22710SH059391 in one Premier room with a sunset view, under Steve Dildine. Points stay check in 2:00 PM, check out 11:00 AM."
+    }
+  ],
+  "days": [
+    {
+      "date": "2027-05-30",
+      "strip_label": "Arrive, Amalfi",
+      "title": "Arrival in Amalfi",
+      "summary": "Land in Naples, a private transfer down the coast to Santa Caterina, and an easy first evening at the hotel.",
+      "events": [
+        {
+          "time": "On landing",
+          "type": "transport",
+          "title": "Private transfer, Naples Airport to Santa Caterina",
+          "status": "choose",
+          "pending_label": "Your pick",
+          "details": "Your driver meets you in arrivals. Pick one:",
+          "bullets": [
+            "Mercedes E sedan with an English-speaking driver, EUR 295",
+            "Mercedes V-Class minivan with an English-speaking driver, EUR 350. More room for bags",
+            "Twin-engine helicopter with two pilots, car to and from the helipad included, EUR 7,900. Approximate, set at confirmation based on fuel and slot availability"
+          ],
+          "keith_todo": "Need their flight number and landing time into Naples."
+        },
+        {
+          "time": "Afternoon",
+          "type": "hotel",
+          "title": "Check in at Hotel Santa Caterina",
+          "location": "Via Mauro Comite 9, 84011 Amalfi",
+          "maps_query": "Hotel Santa Caterina, Via Mauro Comite 9, 84011 Amalfi, Italy",
+          "phone": "+39 089 871012",
+          "confirmation": "6801SH112060",
+          "status": "confirmed",
+          "keith_note": "I stayed here this October. Have your first drink on the terrace, the view straight down the coast to Amalfi town is the one you came for."
+        }
+      ]
+    },
+    {
+      "date": "2027-05-31",
+      "strip_label": "Ravello",
+      "title": "Up to Ravello",
+      "summary": "A private walking tour of Ravello in the hills above Amalfi, then back down for an afternoon at the hotel's seaside lido.",
+      "events": [
+        {
+          "time": "Time to come",
+          "type": "tour",
+          "title": "Ravello, a 2-hour private walking tour",
+          "status": "choose",
+          "pending_label": "Your pick",
+          "details": "An English-speaking guide through the gardens and lanes of Ravello, with a Mercedes E sedan up from the hotel and back. EUR 790.",
+          "keith_todo": "Pick a time with the supplier once they say yes. Morning is cooler and quieter in the gardens."
+        },
+        {
+          "time": "Afternoon",
+          "type": "free",
+          "title": "The rest of the day is yours",
+          "details": "Santa Caterina's lido sits right on the water at the bottom of the hotel. Lunch by the sea and a swim is the easy call.",
+          "status": "info"
+        }
+      ]
+    },
+    {
+      "date": "2027-06-01",
+      "strip_label": "By sea to Positano",
+      "title": "A day on the water, then Positano",
+      "summary": "Check out of Santa Caterina and spend the day on a private boat along the coast, ending at Il San Pietro in Positano.",
+      "events": [
+        {
+          "time": "Morning",
+          "type": "hotel",
+          "title": "Check out of Santa Caterina",
+          "status": "info"
+        },
+        {
+          "time": "Full day",
+          "type": "boat",
+          "title": "Private boat day and transfer, Amalfi to Il San Pietro",
+          "status": "choose",
+          "pending_label": "Your pick",
+          "details": "A full day on the water with a crew, ending at Il San Pietro. The price covers the boat, crew, fuel for the route, soft drinks and snacks on board. Pick a boat:",
+          "bullets": [
+            "Conam 58', EUR 5,650",
+            "Azimut Atlantis 55', EUR 7,100",
+            "Riva Dolceriva 48', EUR 8,100"
+          ],
+          "keith_todo": "Attach the boat photos when sending. Confirm luggage goes by road from Santa Caterina to ISP, and the route and pickup time."
+        },
+        {
+          "time": "On arrival",
+          "type": "hotel",
+          "title": "Check in at Il San Pietro di Positano, Premier Room",
+          "location": "Via Laurito 2, 84017 Positano",
+          "maps_query": "Il San Pietro di Positano, Via Laurito 2, 84017 Positano, Italy",
+          "phone": "+39 089 812080",
+          "confirmation": "22710SH059403",
+          "status": "confirmed",
+          "details": "Your first night here is booked through me. Steve's points stay picks up tomorrow in the same room."
+        }
+      ]
+    },
+    {
+      "date": "2027-06-02",
+      "strip_label": "Path of the Gods",
+      "title": "Path of the Gods",
+      "summary": "A guided hike along the Sentiero degli Dei, high above Positano, with a car there and back.",
+      "events": [
+        {
+          "time": "Time to come",
+          "type": "tour",
+          "title": "Path of the Gods hike with an English-speaking guide",
+          "status": "choose",
+          "pending_label": "Your pick",
+          "details": "Round-trip transportation by Mercedes E sedan included. EUR 750. Wear proper walking shoes and bring water and sun protection, much of the trail is exposed.",
+          "keith_todo": "Morning start is best before the heat. Lock the time with the supplier."
+        },
+        {
+          "time": "All day",
+          "type": "hotel",
+          "title": "Your points reservation at Il San Pietro begins",
+          "status": "confirmed",
+          "confirmation": "22710SH059391",
+          "details": "Booked by Steve, June 2 to 4. Same room, nothing to do. This booking includes daily breakfast for two, a USD 100 property credit, a welcome amenity, and an upgrade, early check-in and late check-out if available."
+        }
+      ]
+    },
+    {
+      "date": "2027-06-03",
+      "strip_label": "Day at leisure",
+      "title": "A day at leisure",
+      "summary": "Nothing scheduled. Il San Pietro is built for exactly this kind of day.",
+      "events": [
+        {
+          "time": "Open",
+          "type": "free",
+          "title": "Ideas for the day",
+          "status": "info",
+          "bullets": [
+            "The hotel's beach club at the bottom of the cliff, reached by the elevator through the rock",
+            "Into Positano village for a wander and lunch",
+            "Sunset from your terrace before dinner"
+          ],
+          "keith_todo": "Offer a dinner booking at Zass, the hotel restaurant, for this night."
+        }
+      ]
+    },
+    {
+      "date": "2027-06-04",
+      "strip_label": "Depart",
+      "title": "Departure",
+      "summary": "Check out of Il San Pietro and on to Naples Airport, by road, by air, or the long way round by sea via Capri.",
+      "events": [
+        {
+          "time": "By 11:00 AM",
+          "type": "hotel",
+          "title": "Check out of Il San Pietro",
+          "status": "info"
+        },
+        {
+          "time": "Time to come",
+          "type": "transport",
+          "title": "Private transfer, Il San Pietro to Naples Airport",
+          "status": "choose",
+          "pending_label": "Your pick",
+          "details": "Pick one:",
+          "bullets": [
+            "Mercedes E sedan with an English-speaking driver, EUR 295",
+            "Mercedes V-Class minivan with an English-speaking driver, EUR 350",
+            "Add on a 2-hour walking tour of Pompeii on the way to either car, EUR 790",
+            "Twin-engine helicopter with two pilots, car to and from the helipad included, EUR 7,900. Approximate, set at confirmation",
+            "Private speedboat with a full-day tour around Capri, then a Mercedes from Naples port to the airport. Conam 58', EUR 7,650. Azimut Atlantis 55', EUR 7,350. Riva Dolceriva 48', EUR 10,450"
+          ],
+          "keith_todo": "Need the departing flight time, which rules options in or out (Capri day needs an evening flight). Azimut is quoted below the Conam here but above it on June 1, double check with the supplier."
+        }
+      ]
+    }
+  ],
+  "good_to_know": [
+    {
+      "title": "How the options work",
+      "text": "Every transfer and tour on this page is private, with an English-speaking driver or guide. Prices are in euros for the two of you. Tell me your picks and I will confirm each one here."
+    },
+    {
+      "title": "Helicopter pricing",
+      "text": "The helicopter prices are approximate and are set at confirmation, based on fuel prices and slot availability."
+    },
+    {
+      "title": "Two bookings, one room at Il San Pietro",
+      "text": "Your first night is booked through me and the next two are Steve's points stay. Both are a Premier Room. I am asking the hotel to link them so you stay put, and to note the sunset view."
+    },
+    {
+      "title": "Check-in and check-out",
+      "text": "Il San Pietro check-in is 2:00 PM and check-out is 11:00 AM. If you would like an early check-in or a late check-out anywhere, tell me and I will ask."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Hotel Santa Caterina",
+      "note": "May 30 to June 1",
+      "lines": [{"label": "Call", "tel": "+39 089 871012"}]
+    },
+    {
+      "name": "Il San Pietro di Positano",
+      "note": "June 1 to 4",
+      "lines": [{"label": "Call", "tel": "+39 089 812080"}]
+    }
+  ],
+  "keith": {
+    "name": "Keith Pence",
+    "title": "Travel Advisor, Suites With Keith (Fora)",
+    "phone": "+1.415.272.4316",
+    "email": "keith.pence@fora.travel",
+    "website": "suiteswithkeith.com",
+    "instagram": "suiteswithkeith",
+    "headline": "I am here if anything comes up",
+    "note": "I walked both of these hotels this October, so I know exactly what you are in for. Text me any time during the trip, for anything at all."
+  }
+}
