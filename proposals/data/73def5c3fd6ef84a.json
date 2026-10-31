@@ -15,7 +15,7 @@
     "timezone": "Europe/Rome",
     "hello": "Lani and Steve, here is the whole trip in one place. Two nights at Santa Caterina in Amalfi, a day on the water down the coast, then three nights at Il San Pietro in Positano. Both hotels are booked. The transfers and days out are laid out as options, so tell me which ones you like and I will lock them in.",
     "how_to_read": "Tap any day below to jump straight to it. Every address opens in Google Maps and every phone number is tap to call. Anything marked Your pick is waiting on your choice, and prices are per booking in euros, not per person.",
-    "updated": "2026-10-30"
+    "updated": "2026-10-31"
   },
   "hotels": [
     {
@@ -29,9 +29,7 @@
       "check_in": "2027-05-30",
       "check_out": "2027-06-01",
       "nights": 2,
-      "room": "Room category to confirm",
-      "confirmation": "6801SH112060",
-      "keith_todo": "Swap in the room category (Front Sea View or Deluxe) from the booking. Lani asked which is better value, answer that in the email if not already."
+      "confirmation": "6801SH112060"
     },
     {
       "name": "Il San Pietro di Positano",
@@ -45,12 +43,21 @@
       "check_out": "2027-06-04",
       "nights": 3,
       "room": "Premier Room",
-      "room_details": "Sunset view requested. Two reservations, one room: we are asking the hotel to link them so you never move",
+      "room_details": "Sunset view requested. Your two reservations are linked, so you stay in the same room all three nights",
       "bookings": [
-        {"label": "June 1 to 2, through Keith", "ref": "22710SH059403", "check_in": "2027-06-01", "check_out": "2027-06-02"},
-        {"label": "June 2 to 4, Steve's points stay", "ref": "22710SH059391", "check_in": "2027-06-02", "check_out": "2027-06-04"}
-      ],
-      "keith_todo": "Email ISP to link 22710SH059403 and 22710SH059391 in one Premier room with a sunset view, under Steve Dildine. Points stay check in 2:00 PM, check out 11:00 AM."
+        {
+          "label": "June 1 to 2, through Keith",
+          "ref": "22710SH059403",
+          "check_in": "2027-06-01",
+          "check_out": "2027-06-02"
+        },
+        {
+          "label": "June 2 to 4, Steve's points stay",
+          "ref": "22710SH059391",
+          "check_in": "2027-06-02",
+          "check_out": "2027-06-04"
+        }
+      ]
     }
   ],
   "days": [
@@ -237,7 +244,7 @@
     },
     {
       "title": "Two bookings, one room at Il San Pietro",
-      "text": "Your first night is booked through me and the next two are Steve's points stay. Both are a Premier Room. I am asking the hotel to link them so you stay put, and to note the sunset view."
+      "text": "Your first night is booked through me and the next two are Steve's points stay. Both are a Premier Room, and the hotel has linked them so you stay in the same room the whole time."
     },
     {
       "title": "Check-in and check-out",
@@ -248,12 +255,22 @@
     {
       "name": "Hotel Santa Caterina",
       "note": "May 30 to June 1",
-      "lines": [{"label": "Call", "tel": "+39 089 871012"}]
+      "lines": [
+        {
+          "label": "Call",
+          "tel": "+39 089 871012"
+        }
+      ]
     },
     {
       "name": "Il San Pietro di Positano",
       "note": "June 1 to 4",
-      "lines": [{"label": "Call", "tel": "+39 089 812080"}]
+      "lines": [
+        {
+          "label": "Call",
+          "tel": "+39 089 812080"
+        }
+      ]
     }
   ],
   "keith": {

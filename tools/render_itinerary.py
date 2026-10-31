@@ -220,10 +220,11 @@ def render(data):
     for h in hotels:
         lines = ['      <div class="jc-label">%s</div>' % e(h.get('label', 'Your hotel, %d nights' % h['nights'])),
                  '      <div class="hotel"><a href="%s" target="_blank" rel="noopener">%s</a></div>' % (e(h['website']), e(h['name']))]
-        room = '<strong>%s.</strong>' % e(h['room'])
+        room = ('<strong>%s.</strong>' % e(h['room'])) if h.get('room') else ''
         if h.get('room_details'):
             room += ' %s.' % e(h['room_details'])
-        lines.append('      <div class="hotel-note">%s</div>' % room)
+        if room:
+            lines.append('      <div class="hotel-note">%s</div>' % room.strip())
         lines.append('      <div class="hotel-note">%s <a class="jc-maplink" href="%s" target="_blank" rel="noopener">Map</a></div>' % (e(h['address']), maps(h['maps_query'])))
         lines.append('      <div class="hotel-note">Check in <strong>%s</strong> &middot; Check out <strong>%s</strong></div>' % (long_date(h['check_in']), long_date(h['check_out'])))
         call = 'Call <a class="jc-tel" href="%s">%s</a>' % (tel(h['phone_voice']), e(h['phone_voice'].replace('.', '-')))
@@ -301,7 +302,7 @@ def render(data):
             <div class="when">%s to %s &middot; %s</div>
             <div class="ref">%s</div>
           </div>
-''' % (e(h['name']), long_date(b['check_in']), long_date(b['check_out']), e(h['room']), b['ref_only']))
+''' % (e(h['name']), long_date(b['check_in']), long_date(b['check_out']), e(h.get('room', '%d nights' % h['nights'])), b['ref_only']))
     a('''        </div>
         <div class="jc-confirm-col">
           <div class="title">Bookings</div>
