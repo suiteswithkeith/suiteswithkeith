@@ -9,22 +9,28 @@ const startHere = [
 ];
 
 const guides = [
-  { href: '/luxury-villas.html', img: '/images/hotels/fouquets-delos-villa-pool.jpg', kicker: 'Hand-selected', title: 'Luxury Villas', blurb: 'Private villas and penthouses at the hotels I know best, from Santorini to Venice to Napa, every one personally toured or vetted.', cta: 'See the villas &rarr;' },
-  { href: '/santorini.html', img: '/images/islands/santorini-hero.jpg', kicker: 'The Cyclades', title: 'Santorini', blurb: 'The island that introduced the world to Cycladic luxury.' },
-  { href: '/lake-como.html', img: '/images/lake-como/grand-hotel-tremezzo/garden-pool.jpg', kicker: 'Italy', title: 'Lake Como', blurb: 'Six hotels from October 2026 stays and tours, and how to arrive by boat.' },
-  { href: '/tuscany.html', img: '/images/tuscany/il-borro-garden-view.jpg', kicker: 'Italy', title: 'Tuscany', blurb: 'Three borghi and three castles and estates, matched to the traveler.' },
-  { href: '/mykonos.html', img: '/images/islands/mykonos-hero.jpg', kicker: 'The Cyclades', title: 'Mykonos', blurb: 'Luxury meets its playful side.' },
-  { href: '/paros.html', img: '/images/islands/paros-hero.jpg', kicker: 'The Cyclades', title: 'Paros', blurb: 'The island everyone quietly falls in love with.' },
-  { href: '/sifnos.html', img: '/images/islands/sifnos-hero.jpg', kicker: 'The Cyclades', title: 'Sifnos', blurb: 'The island where Greece slows down.' },
-  { href: '/milos.html', img: '/images/islands/milos-hero.jpg', kicker: 'The Cyclades', title: 'Milos', blurb: 'Nature’s masterpiece in the Cyclades.' },
-  { href: '/folegandros.html', img: '/images/personal/gundari-user-1.jpg', kicker: 'The Cyclades', title: 'Folegandros', blurb: 'Dramatic cliffs, unhurried luxury.' },
-  { href: '/athens.html', img: '/images/islands/athens-hero.jpg', kicker: 'Greece', title: 'Athens', blurb: 'Much more than a gateway to the islands.' },
-  { href: '/napa-sonoma.html', img: '/images/napa/four-seasons-1.jpg', kicker: 'Wine country', title: 'Napa & Sonoma', blurb: 'Nine hotels, ranked from personal stays.' },
-  { href: '/florence.html', img: '/images/destinations/fs-florence.jpg', kicker: 'Italy', title: 'Florence', blurb: 'Four hotels, in the city or the hills above it.' },
-  { href: '/rome.html', img: '/images/hotels/hotel-eden/sunset-st-peters.jpg', kicker: 'Italy', title: 'Rome', blurb: 'Nine hotels from October 2026 stays and visits, and where to start La Dolce Vita.' },
-  { href: '/montenegro.html', img: '/images/montenegro/sveti-stefan-aerial.jpg', kicker: 'The Adriatic', title: 'Montenegro', blurb: 'Hotel-by-hotel reviews, updated as I visit.' },
-  { href: '/zannier-ile-de-bendor.html', img: '/images/bendor/bendor-hero.jpg', kicker: 'France', title: 'Zannier Île de Bendor', blurb: 'Provence’s private island, ready to book.' },
-  { href: '/featured-destinations.html', img: '/images/proposals/lake-como/passalacqua/pool.jpg', kicker: 'The map', title: 'Featured Destinations', blurb: 'Italy, Paris, Greece, Japan, Africa & Mexico, and the hotels I’d send my own family to.' },
+  { href: '/luxury-villas.html', img: '/images/hotels/fouquets-delos-villa-pool.jpg', kicker: 'Hand-selected', title: 'Luxury Villas', blurb: 'Private villas and penthouses at the hotels I know best, from Santorini to Venice to Napa, every one personally toured or vetted.', cta: 'See the villas &rarr;', country: 'all' },
+  { href: '/santorini.html', img: '/images/islands/santorini-hero.jpg', kicker: 'The Cyclades', title: 'Santorini', blurb: 'The island that introduced the world to Cycladic luxury.', country: 'greece' },
+  { href: '/lake-como.html', img: '/images/lake-como/grand-hotel-tremezzo/garden-pool.jpg', kicker: 'Italy', title: 'Lake Como', blurb: 'Six hotels from October 2026 stays and tours, and how to arrive by boat.', country: 'italy' },
+  { href: '/dolomites.html', img: '/images/dolomites/como-alpina/hero.jpg', w: 1600, h: 1200, kicker: 'Italy', title: 'The Dolomites', blurb: 'Where to base yourself, five hotels from October 2026 stays and tours, and how to get there.', country: 'italy' },
+  { href: '/tuscany.html', img: '/images/tuscany/il-borro-garden-view.jpg', kicker: 'Italy', title: 'Tuscany', blurb: 'Three borghi and three castles and estates, matched to the traveler.', country: 'italy' },
+  { href: '/mykonos.html', img: '/images/islands/mykonos-hero.jpg', kicker: 'The Cyclades', title: 'Mykonos', blurb: 'Luxury meets its playful side.', country: 'greece' },
+  { href: '/paros.html', img: '/images/islands/paros-hero.jpg', kicker: 'The Cyclades', title: 'Paros', blurb: 'The island everyone quietly falls in love with.', country: 'greece' },
+  { href: '/sifnos.html', img: '/images/islands/sifnos-hero.jpg', kicker: 'The Cyclades', title: 'Sifnos', blurb: 'The island where Greece slows down.', country: 'greece' },
+  { href: '/milos.html', img: '/images/islands/milos-hero.jpg', kicker: 'The Cyclades', title: 'Milos', blurb: 'Nature’s masterpiece in the Cyclades.', country: 'greece' },
+  { href: '/folegandros.html', img: '/images/personal/gundari-user-1.jpg', kicker: 'The Cyclades', title: 'Folegandros', blurb: 'Dramatic cliffs, unhurried luxury.', country: 'greece' },
+  { href: '/athens.html', img: '/images/islands/athens-hero.jpg', kicker: 'Greece', title: 'Athens', blurb: 'Much more than a gateway to the islands.', country: 'greece' },
+  { href: '/napa-sonoma.html', img: '/images/napa/four-seasons-1.jpg', kicker: 'Wine country', title: 'Napa & Sonoma', blurb: 'Nine hotels, ranked from personal stays.', country: 'usa' },
+  { href: '/florence.html', img: '/images/destinations/fs-florence.jpg', kicker: 'Italy', title: 'Florence', blurb: 'Four hotels, in the city or the hills above it.', country: 'italy' },
+  { href: '/rome.html', img: '/images/hotels/hotel-eden/sunset-st-peters.jpg', kicker: 'Italy', title: 'Rome', blurb: 'Nine hotels from October 2026 stays and visits, and where to start La Dolce Vita.', country: 'italy' },
+  { href: '/venice.html', img: '/images/hotels/airelles-palladio-venice/press-aerial-estate.jpg', w: 1600, h: 1200, kicker: 'Italy', title: 'Venice', blurb: 'Four palaces toured in October 2026, and the gateway to the Dolomites.', country: 'italy' },
+  { href: '/positano-hotels.html', img: '/images/hotels/le-sirenuse/balcony-view.jpg', w: 1200, h: 2114, kicker: 'Italy', title: 'The Amalfi Coast', blurb: 'Stayed at Le Sirenuse and toured Il San Pietro and Villa Treville in October 2026: where to stay in Positano.', country: 'italy' },
+  { href: '/la-dolce-vita-orient-express.html', img: '/images/orient-express-train/press/dining-car.jpg', w: 1600, h: 1067, kicker: 'Italy · The train', title: 'La Dolce Vita Orient Express', blurb: 'Toured in October 2026: the lounge, the cabins, and every journey and fare.', country: 'italy' },
+  { href: '/orient-express-italy.html', img: '/images/hotels/la-minerva/press-exterior.jpg', w: 1088, h: 1600, kicker: 'Italy · The journey', title: 'Rome, the train and Venice', blurb: 'La Minerva, La Dolce Vita and Orient Express Venice in one trip.', country: 'italy' },
+  { href: '/aman-venice-rosa-alpina-journey.html', img: '/images/hotels/aman-venice/grand-canal-arrival.jpg', w: 1135, h: 2000, kicker: 'Italy · The journey', title: 'Aman Venice + Aman Rosa Alpina', blurb: 'The Grand Canal, then the Dolomites, in one trip.', country: 'italy' },
+  { href: '/montenegro.html', img: '/images/montenegro/sveti-stefan-aerial.jpg', kicker: 'The Adriatic', title: 'Montenegro', blurb: 'Hotel-by-hotel reviews, updated as I visit.', country: 'montenegro' },
+  { href: '/zannier-ile-de-bendor.html', img: '/images/bendor/bendor-hero.jpg', kicker: 'France', title: 'Zannier Île de Bendor', blurb: 'Provence’s private island, ready to book.', country: 'france' },
+  { href: '/featured-destinations.html', img: '/images/proposals/lake-como/passalacqua/pool.jpg', kicker: 'The map', title: 'Featured Destinations', blurb: 'Italy, Paris, Greece, Japan, Africa & Mexico, and the hotels I’d send my own family to.', country: 'all' },
 ];
 
 const practical = [
@@ -53,14 +59,30 @@ const practical = [
 <!-- the guides -->
 <section class="section band on-shadow">
   <div class="container">
-    <div class="sec-head reveal">
-      <span class="eyebrow">The guides</span>
-      <h2 class="display-l">Place by place</h2>
+    <div class="sec-head reveal guide-head">
+      <div>
+        <span class="eyebrow">The guides</span>
+        <h2 class="display-l">Place by place</h2>
+      </div>
+      <div class="guide-filter" id="guide-filter" hidden>
+        <label for="guide-country">Filter by country</label>
+        <div class="guide-select">
+          <select id="guide-country">
+            <option value="">All countries</option>
+            <option value="greece">Greece</option>
+            <option value="italy">Italy</option>
+            <option value="france">France</option>
+            <option value="montenegro">Montenegro</option>
+            <option value="usa">United States</option>
+          </select>
+        </div>
+        <p class="guide-count" id="guide-count" aria-live="polite"></p>
+      </div>
     </div>
-    <div class="cards four">
+    <div class="cards four" id="guide-grid">
       {guides.map((g) => (
-        <a class="card reveal" href={g.href}>
-          <img src={g.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+        <a class="card reveal" href={g.href} data-country={g.country}>
+          <img src={g.img} alt="" width={g.w || 1600} height={g.h || 1200} loading="lazy" decoding="async" />
           <div class="pad"><span class="kicker">{g.kicker}</span><h3>{g.title}</h3><p>{g.blurb}</p><span class="go" set:html={g.cta || 'Read the guide &rarr;'} /></div>
         </a>
       ))}
@@ -119,6 +141,8 @@ const practical = [
         <img src="/images/islands/athens-hero.jpg" alt="" width="1800" height="1200" loading="lazy" decoding="async" />
         <div class="pad"><span class="kicker">The Athens Riviera</span><h3>Astir Palace or Aesthesis</h3><p>Choose your Riviera flag (the peninsula or the beach scene).</p><span class="go">Settle it &rarr;</span></div>
       </a>
+      <a class="card reveal" href="/il-san-pietro-vs-le-sirenuse.html"> <img src="/images/hotels/il-san-pietro/suite-terrace-view.jpg" alt="" width="1200" height="2103" loading="lazy" decoding="async"> <div class="pad"><span class="kicker">Positano</span><h3>Il San Pietro or Le Sirenuse</h3><p>Privacy and the sunset just outside town, or the scene in the middle of it.</p><span class="go">Settle it &rarr;</span></div> </a>
+      <a class="card reveal" href="/il-san-pietro-vs-villa-treville.html"> <img src="/images/hotels/villa-treville/pergola-lounge.jpg" alt="" width="1310" height="2295" loading="lazy" decoding="async"> <div class="pad"><span class="kicker">Positano</span><h3>Il San Pietro or Villa Treville</h3><p>My two favorites in Positano: the classic, or the eclectic private estate.</p><span class="go">Settle it &rarr;</span></div> </a>
     </div>
   </div>
 </section>
@@ -168,5 +192,21 @@ const practical = [
     </form>
   </div>
 </section>
+
+<style is:inline slot="head">
+.guide-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px 40px}
+.guide-filter{display:flex;flex-direction:column;gap:10px;min-width:240px}
+.guide-filter[hidden]{display:none}
+.guide-filter label{font-family:var(--body);font-size:.7rem;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--band-ash)}
+.guide-select{position:relative}
+.guide-select::after{content:"";position:absolute;right:16px;top:50%;width:7px;height:7px;border-right:1px solid var(--brass-lit);border-bottom:1px solid var(--brass-lit);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.guide-select select{appearance:none;-webkit-appearance:none;width:100%;font-family:var(--display);font-size:1.15rem;color:var(--band-ink);background:transparent;border:1px solid var(--band-hairline);border-radius:0;padding:12px 44px 12px 16px;cursor:pointer;transition:border-color var(--dur-2) var(--ease)}
+.guide-select select:hover,.guide-select select:focus{border-color:var(--brass-lit);outline:none}
+.guide-select select option{color:var(--ink);background:var(--lime)}
+.guide-count{margin:0;font-size:.8rem;color:var(--band-ash)}
+#guide-grid .card.is-filtered{display:none}
+@media (max-width:640px){.guide-filter{width:100%}}
+</style>
+<script is:inline>(function(){var f=document.getElementById("guide-filter"),sel=document.getElementById("guide-country"),grid=document.getElementById("guide-grid"),out=document.getElementById("guide-count");if(!f||!sel||!grid)return;var cards=[].slice.call(grid.querySelectorAll(".card[data-country]"));var names={greece:"Greece",italy:"Italy",france:"France",montenegro:"Montenegro",usa:"the United States"};[].slice.call(sel.options).forEach(function(o){if(!o.value)return;var n=cards.filter(function(c){return c.dataset.country===o.value}).length;o.textContent+=" ("+n+")"});function apply(v,push){var shown=0;cards.forEach(function(c){var on=!v||c.dataset.country===v||c.dataset.country==="all";c.classList.toggle("is-filtered",!on);if(on){c.classList.add("on");if(c.dataset.country!=="all")shown++}});out.textContent=v?shown+(shown===1?" guide":" guides")+" in "+names[v]:cards.filter(function(c){return c.dataset.country!=="all"}).length+" guides across five countries";if(push){var u=new URL(location.href);v?u.searchParams.set("country",v):u.searchParams.delete("country");history.replaceState(null,"",u)}}var q=new URLSearchParams(location.search).get("country");if(q&&names[q])sel.value=q;sel.addEventListener("change",function(){apply(sel.value,true);if(typeof gtag==="function")gtag("event","guide_filter",{country:sel.value||"all"})});f.hidden=false;apply(sel.value,false)})();</script>
 
 </Layout>
