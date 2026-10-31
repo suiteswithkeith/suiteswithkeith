@@ -2,7 +2,7 @@
   "_readme": "Client-safe source for proposals/73def5c3fd6ef84a.html (Lani and Steve, Amalfi Coast 2027). This repo is public: no client emails or phones, no hotel rates, no internal notes in here. Excursion prices are the quoted options the clients choose between. Edit, then run: python3 tools/render_itinerary.py 73def5c3fd6ef84a",
   "meta": {
     "slug": "73def5c3fd6ef84a",
-    "build": "draft",
+    "build": "final",
     "_build_help": "draft shows the amber chips plus the dashed For Keith notes. final hides the For Keith notes. A chip disappears when its event status is set to confirmed.",
     "page_title": "Lani & Steve on the Amalfi Coast",
     "hero_names": "Lani & Steve",
@@ -13,8 +13,8 @@
     "hero_alt": "Il San Pietro di Positano on the cliffs above the sea",
     "intro_eyebrow": "Prepared for Lani and Steve",
     "timezone": "Europe/Rome",
-    "hello": "Lani and Steve, here is the whole trip in one place. Two nights at Santa Caterina in Amalfi, a day on the water down the coast, then three nights at Il San Pietro in Positano. Both hotels are booked. The transfers and days out are laid out as options, so tell me which ones you like and I will lock them in.",
-    "how_to_read": "Tap any day below to jump straight to it. Every address opens in Google Maps and every phone number is tap to call. Anything marked Your pick is waiting on your choice, and prices are per booking in euros, not per person.",
+    "hello": "Lani and Steve, here is the whole trip in one place. Two nights at Santa Caterina in Amalfi, a day on the water down the coast, then three nights at Il San Pietro in Positano. Both hotels are booked. For the transfers and days out, these are the first quotes I have in hand, with a second set on the way so we can compare before you choose. Have a look and tell me what appeals.",
+    "how_to_read": "Tap any day below to jump straight to it. Every address opens in Google Maps and every phone number is tap to call. Anything marked Your pick is an option for you to weigh in on. Prices are in euros for the two of you, not per person.",
     "updated": "2026-10-31"
   },
   "hotels": [
@@ -236,7 +236,7 @@
   "good_to_know": [
     {
       "title": "How the options work",
-      "text": "Every transfer and tour on this page is private, with an English-speaking driver or guide. Prices are in euros for the two of you. Tell me your picks and I will confirm each one here."
+      "text": "Every transfer and tour on this page is private, with an English-speaking driver or guide. These prices are from the first quote, and I am waiting on a second to compare. Once you tell me your picks, I will book the best option and confirm each one here."
     },
     {
       "title": "Helicopter pricing",
