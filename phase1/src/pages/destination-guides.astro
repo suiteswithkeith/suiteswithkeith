@@ -38,6 +38,8 @@ const practical = [
   { href: '/three-mistakes-greek-islands.html', img: '/images/islands/mykonos-divider.jpg', kicker: 'Logistics', title: 'Island-Hopping Mistakes', blurb: 'Three mistakes couples make between the Greek islands.' },
   { href: '/santorini-transfer-cheat-sheet.html', img: '/images/personal/santorini-rooftop.jpg', kicker: 'Logistics', title: 'Santorini Transfers', blurb: 'The cheat sheet for getting there, and getting around.' },
   { href: '/private-boat-transfers.html', img: '/images/transfers/private-boat-hero.jpg', kicker: 'Logistics', title: 'Private Boat Transfers', blurb: 'Island to island on your own schedule, from €1,000 per boat.' },
+  { href: '/getting-around-italy.html', img: '/images/hotels/aman-venice/grand-canal-arrival.jpg', w: 1135, h: 2000, kicker: 'Logistics · Italy', title: 'Getting Around Italy', blurb: 'Drivers, private boats, helicopters, and the train only where it beats the road.' },
+  { href: '/italy-10-day-itinerary.html', img: '/images/destinations/fs-florence.jpg', w: 1838, h: 1030, kicker: 'Itinerary · Italy', title: 'Ten Days in Italy', blurb: 'Rome, Florence and Venice, three nights each, door to door.' },
 ];
 ---
 <Layout
@@ -157,7 +159,7 @@ const practical = [
     <div class="cards four">
       {practical.map((g) => (
         <a class="card reveal" href={g.href}>
-          <img src={g.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
+          <img src={g.img} alt="" width={g.w || 1600} height={g.h || 1200} loading="lazy" decoding="async" />
           <div class="pad"><span class="kicker">{g.kicker}</span><h3>{g.title}</h3><p>{g.blurb}</p><span class="go">Read &rarr;</span></div>
         </a>
       ))}
