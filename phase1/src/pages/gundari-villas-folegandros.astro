@@ -1,9 +1,32 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import VillaSection from '../components/VillaSection.astro';
 
 const villas = [
-  ['Cliff Front Four-Bedroom Villa', 'Up to 10 (max. 8 adults and 2 children)', 'About 280 m&sup2; inside, plus a 200 m&sup2; terrace', 'Four king bedrooms, each en suite with indoor and outdoor showers, two living areas, a kitchen, an 80 m&sup2; lower floor with an auxiliary room, a 60 m&sup2; private pool and a jetted tub. About 70 m from the main building'],
-  ['Cliff Front Three-Bedroom Villa', 'Up to 8 (max. 6 adults and 2 children)', 'About 300 m&sup2; inside, plus a 300 m&sup2; terrace', 'Three king bedrooms, each en suite with indoor and outdoor showers, a kitchen and a large living area, a 100 m&sup2; lower floor with an auxiliary room and a private gym, a 60 m&sup2; private pool and a jetted tub. About 170 m from the main building'],
+  {
+    id: 'four-bedroom', name: 'Cliff Front Four-Bedroom Villa', kicker: 'For two families or friends · 4 bedrooms',
+    take: 'Room for ten, with two living areas, a 60 m&sup2; private pool and a jetted tub on the cliff edge, and the shorter walk to the main building.',
+    specs: [['Bedrooms', '<b>4</b> king bedrooms, each with its own bathroom and indoor and outdoor showers'], ['Sleeps', 'Up to 10 (max. 8 adults and 2 children)'], ['Size', 'About 280 m&sup2; inside, plus a 200 m&sup2; terrace'], ['Pool', '60 m&sup2; private pool and a jetted tub'], ['Location', 'About 70 m from the main building']],
+    features: ['Two living areas and a kitchen', 'An 80 m&sup2; lower floor with an auxiliary room', 'A sunken lounge and an outdoor kitchen facing the sea', 'No age restriction (the main pool is 12 and up)'],
+    photos: [
+      ['gundari-four-bedroom-villa-pool-pergola.jpg', 1800, 1201, 'The infinity pool, loungers and stone-and-timber pergola of the Four-Bedroom Villa at Gundari', 'The pool and the stone pavilions under the pergola'],
+      ['gundari-four-bedroom-villa-jetted-tub.jpg', 1800, 1201, 'The jetted tub and infinity pool on the cliff edge of the Four-Bedroom Villa at Gundari', 'The jetted tub above the infinity pool and the open sea'],
+      ['gundari-four-bedroom-villa-sunken-lounge.jpg', 1800, 1201, 'The sunken lounge on the Four-Bedroom Villa terrace at Gundari at sunset', 'The sunken lounge at golden hour'],
+      ['gundari-four-bedroom-villa-entrance.jpg', 1800, 1201, 'The stone entrance of the Four-Bedroom Villa at Gundari, framing the sea', 'The entrance, framing the sea'],
+    ],
+  },
+  {
+    id: 'three-bedroom', name: 'Cliff Front Three-Bedroom Villa', kicker: 'For one family · 3 bedrooms',
+    take: 'The larger 300 m&sup2; terrace and a private gym downstairs, for a family or a group that wants space.',
+    specs: [['Bedrooms', '<b>3</b> king bedrooms, each with its own bathroom and indoor and outdoor showers'], ['Sleeps', 'Up to 8 (max. 6 adults and 2 children)'], ['Size', 'About 300 m&sup2; inside, plus a 300 m&sup2; terrace'], ['Pool', '60 m&sup2; private pool and a jetted tub'], ['Location', 'About 170 m from the main building']],
+    features: ['A kitchen and a large living area', 'A 100 m&sup2; lower floor with an auxiliary room and a private gym', 'Outdoor dining under the pergola, beside an olive tree', 'No age restriction (the main pool is 12 and up)'],
+    photos: [
+      ['gundari-three-bedroom-villa-infinity-pool.jpg', 1201, 1800, 'The private infinity pool and sunken lounge of the Three-Bedroom Villa at Gundari', 'The 60 m² private pool and sunken lounge'],
+      ['gundari-three-bedroom-villa-outdoor-dining.jpg', 1800, 1201, 'The covered outdoor dining table and olive tree on the Three-Bedroom Villa terrace at Gundari', 'Outdoor dining under the pergola'],
+      ['gundari-three-bedroom-villa-living-room.jpg', 1800, 1201, 'The living room of the Three-Bedroom Villa at Gundari, opening onto the terrace and sea', 'The living room, open to the terrace and the sea'],
+      ['gundari-three-bedroom-villa-bedroom.jpg', 1800, 1201, 'A king bedroom in the Three-Bedroom Villa at Gundari', 'One of the three king bedrooms'],
+    ],
+  },
 ];
 
 const faq = [
@@ -51,39 +74,12 @@ const faq = [
       <p class="body-2" style="margin-top:14px; max-width:62ch;">There are two Cliff Front Villas. Each has king bedrooms with their own bathrooms and indoor and outdoor showers, a kitchen, a lower floor, and a huge terrace with a 60 m&sup2; private pool, a jetted tub, an outdoor kitchen and a dining area, all facing the sea. They have no age restriction, which matters here: the main pool is for ages 12 and up, so the villa pool is where younger kids swim.</p>
     </div>
   </div>
+  <div class="container" style="max-width:860px;"><nav class="jump reveal" aria-label="The two villas">
+    {villas.map((v) => <a href={`#${v.id}`}><b set:html={v.name.replace('Cliff Front ', '')} /><span set:html={v.specs[1][1]} /></a>)}
+  </nav></div>
 </section>
 
-<section class="section" style="padding-top:0;">
-  <div class="container" style="max-width:960px;">
-    <div class="sec-head reveal">
-      <span class="eyebrow">The two villas</span>
-      <h2 class="display-l">Cliff Front Villas</h2>
-    </div>
-    <div class="villa-table reveal" role="table" aria-label="Gundari villas">
-      <div class="vt-row vt-head" role="row"><span role="columnheader">Villa</span><span role="columnheader">Sleeps</span><span role="columnheader">Size</span><span role="columnheader">Notes</span></div>
-      {villas.map(([n, s, z, note]) => (
-        <div class="vt-row" role="row"><span role="cell" class="vt-name" set:html={n} /><span role="cell" set:html={s} /><span role="cell" set:html={z} /><span role="cell" set:html={note} /></div>
-      ))}
-    </div>
-  </div>
-</section>
-
-<section class="section" style="padding-top:0;">
-  <div class="container">
-    <div class="photos reveal">
-      <figure><img src="/images/hotels/gundari-three-bedroom-villa-infinity-pool.jpg" alt="The private infinity pool and sunken lounge of the Three-Bedroom Villa at Gundari" width="1201" height="1800" loading="lazy" decoding="async" /><figcaption>Three-Bedroom Villa: The 60 m&sup2; private pool and sunken lounge</figcaption></figure>
-      <figure><img src="/images/hotels/gundari-three-bedroom-villa-outdoor-dining.jpg" alt="The covered outdoor dining table and olive tree on the Three-Bedroom Villa terrace at Gundari" width="1800" height="1201" loading="lazy" decoding="async" /><figcaption>Three-Bedroom Villa: Outdoor dining under the pergola</figcaption></figure>
-      <figure><img src="/images/hotels/gundari-three-bedroom-villa-living-room.jpg" alt="The living room of the Three-Bedroom Villa at Gundari, opening onto the terrace and sea" width="1800" height="1201" loading="lazy" decoding="async" /><figcaption>Three-Bedroom Villa: The living room, open to the terrace and the sea</figcaption></figure>
-      <figure><img src="/images/hotels/gundari-three-bedroom-villa-bedroom.jpg" alt="A king bedroom in the Three-Bedroom Villa at Gundari" width="1800" height="1201" loading="lazy" decoding="async" /><figcaption>Three-Bedroom Villa: One of the three king bedrooms</figcaption></figure>
-    </div>
-    <div class="photos reveal" style="margin-top:28px;">
-      <figure><img src="/images/hotels/gundari-four-bedroom-villa-pool-pergola.jpg" alt="The infinity pool, loungers and stone-and-timber pergola of the Four-Bedroom Villa at Gundari" width="1800" height="1201" loading="lazy" decoding="async" /><figcaption>Four-Bedroom Villa: The pool and the stone pavilions under the pergola</figcaption></figure>
-      <figure><img src="/images/hotels/gundari-four-bedroom-villa-jetted-tub.jpg" alt="The jetted tub and infinity pool on the cliff edge of the Four-Bedroom Villa at Gundari" width="1800" height="1201" loading="lazy" decoding="async" /><figcaption>Four-Bedroom Villa: The jetted tub above the infinity pool and the open sea</figcaption></figure>
-      <figure><img src="/images/hotels/gundari-four-bedroom-villa-sunken-lounge.jpg" alt="The sunken lounge on the Four-Bedroom Villa terrace at Gundari at sunset" width="1800" height="1201" loading="lazy" decoding="async" /><figcaption>Four-Bedroom Villa: The sunken lounge at golden hour</figcaption></figure>
-      <figure><img src="/images/hotels/gundari-four-bedroom-villa-entrance.jpg" alt="The stone entrance of the Four-Bedroom Villa at Gundari, framing the sea" width="1800" height="1201" loading="lazy" decoding="async" /><figcaption>Four-Bedroom Villa: The entrance, framing the sea</figcaption></figure>
-    </div>
-  </div>
-</section>
+{villas.map((v, n) => <VillaSection villa={v} index={n} hotel="Gundari, Folegandros" />)}
 
 <section class="section band on-shadow">
   <div class="container" style="max-width:860px;">
@@ -162,15 +158,8 @@ const faq = [
 </Layout>
 
 <style>
-  .photos img { aspect-ratio: 4/3; }
-  .villa-table { margin-top: 28px; border-top: 1px solid var(--hairline-firm); }
-  .vt-row { display: grid; grid-template-columns: 1fr; gap: 4px; padding: 14px 0; border-bottom: 1px solid var(--hairline); font-size: .95rem; }
-  .vt-head { display: none; }
-  .vt-name { font-family: var(--display); font-size: 1.1rem; }
   @media (min-width: 760px) {
-    .vt-row { grid-template-columns: 1.2fr 1.2fr 1.2fr 2.6fr; gap: 20px; align-items: baseline; }
-    .vt-head { display: grid; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); }
-  }
+      }
   .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
   .why li { margin-top: 12px; line-height: 1.6; }
   .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }
@@ -180,4 +169,9 @@ const faq = [
   .faq summary::after { content: "+"; position: absolute; right: 0; top: 0; color: var(--brass); font-family: var(--body); }
   .faq details[open] summary::after { content: "\2013"; }
   .faq details p { margin-top: 12px; max-width: 62ch; }
+  .jump { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin-top: 40px; background: var(--hairline); border: 1px solid var(--hairline); }
+  .jump a { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; background: var(--plaster); color: var(--ink); text-decoration: none; }
+  .jump a b { font-family: var(--display); font-weight: 400; font-size: 1.15rem; }
+  .jump a span { font-size: .8rem; color: var(--ash); }
+  @media (hover:hover) { .jump a:hover { background: var(--lime); } }
 </style>
