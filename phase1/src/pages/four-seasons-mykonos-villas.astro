@@ -1,9 +1,31 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import VillaSection from '../components/VillaSection.astro';
 
 const villas = [
-  ['Syros Three-Bedroom Villa', '6 adults, or 4 adults and 2 children', '177 m&sup2; / 1,905 sq ft', 'Two king and two double beds, a crib on request, three full bathrooms plus a guest powder room, sea views, an infinity pool with a private cabana, and an outdoor living room with a bar and fireplace'],
-  ['Two-Bedroom Sea-View Villa', '4 adults, or 2 adults and 2 children', '120 m&sup2; / 1,291 sq ft', 'One king and two double beds, a sofa bed or crib, two full bathrooms plus a guest powder room, floor-to-ceiling glass doors, a terrace with a daybed, sea views and a private pool'],
+  {
+    id: 'syros', name: 'Syros Three-Bedroom Villa', kicker: 'For a family · 3 bedrooms',
+    take: 'Built for entertaining: an infinity pool with its own cabana above Kalo Livadi Bay, an outdoor living room with a bar and fireplace, and room for four adults and two kids.',
+    specs: [['Bedrooms', '<b>3</b>: two king and two double beds, crib on request'], ['Sleeps', '6 adults, or 4 adults and 2 children'], ['Size', '177 m&sup2; (1,905 sq ft)'], ['Pool', 'Infinity pool with a private cabana, sunbeds and an outdoor shower'], ['Bathrooms', 'Three full bathrooms plus a guest powder room']],
+    features: ['An outdoor living room with a dining table, bar and fireplace', 'An indoor living room with its own dining table', 'Sea views across the bay', 'The private beach and the Four Seasons kids club a short walk away'],
+    photos: [
+      ['four-seasons-mykonos-syros-infinity-pool.jpg', 1800, 1013, 'The Syros Villa infinity pool and cabana above Kalo Livadi Bay', 'The infinity pool and cabana above the bay'],
+      ['four-seasons-mykonos-syros-outdoor-living.jpg', 1800, 988, 'The shaded outdoor living room with a marble bar and dining table at the Syros Villa', 'The outdoor living room, bar and dining table'],
+      ['four-seasons-mykonos-syros-bedroom-sea-view.jpg', 1800, 1010, 'A Syros Villa bedroom opening onto a sea-view balcony', 'A bedroom with a sea-view balcony'],
+      ['four-seasons-mykonos-syros-bedroom-garden.jpg', 1800, 998, 'A Syros Villa bedroom opening onto a private garden', 'A bedroom opening onto the garden'],
+    ],
+  },
+  {
+    id: 'sea-view', name: 'Two-Bedroom Sea-View Villa', kicker: 'For a small family · 2 bedrooms',
+    take: 'Floor-to-ceiling glass, a terrace with a daybed and a private pool facing the sea, for two adults and two kids.',
+    specs: [['Bedrooms', '<b>2</b>: one king and two double beds, sofa bed or crib'], ['Sleeps', '4 adults, or 2 adults and 2 children'], ['Size', '120 m&sup2; (1,291 sq ft)'], ['Pool', 'Private pool, facing the sea'], ['Bathrooms', 'Two full bathrooms plus a guest powder room']],
+    features: ['Double sinks, a separate shower and an oval tub by the window in each bathroom', 'Floor-to-ceiling glass doors onto the terrace', 'A terrace with a daybed', 'Living and dining rooms'],
+    photos: [
+      ['four-seasons-mykonos-1.jpg', 1800, 1001, 'A light-filled room with sea-view balconies at Four Seasons Hotel Mykonos', 'At the hotel: Cycladic white, with the sea through every door'],
+      ['four-seasons-mykonos-3.jpg', 1800, 1010, 'A marble bathroom with a freestanding tub at Four Seasons Hotel Mykonos', 'At the hotel: marble bathrooms and a soaking tub'],
+      ['four-seasons-mykonos-2.jpg', 1800, 1021, 'A whitewashed terrace with loungers facing the Aegean at Four Seasons Hotel Mykonos', 'At the hotel: a terrace facing the Aegean'],
+    ],
+  },
 ];
 
 const faq = [
@@ -48,36 +70,12 @@ const faq = [
     <div class="reveal">
       <p class="deck" style="max-width:44ch;">I have a close relationship with the Four Seasons Mykonos team and have sent them clients, and the villas are what I point families to first.</p>
       <p class="body-2" style="margin-top:20px; max-width:62ch;">Four Seasons Hotel Mykonos opened in 2026 on a hillside above Kalo Livadi Bay, built like a Mykonian village with its own private beach below and two infinity pools facing the Aegean. Most Mykonos villa rentals leave you on your own for service, food and logistics. Here you get a private house and a full Four Seasons around it.</p>
-      <p class="body-2" style="margin-top:14px; max-width:62ch;">There are just two villas, both with living and dining rooms and a private pool. The Syros Three-Bedroom Villa takes up to six adults, or four adults and two children, and it&rsquo;s built for entertaining: an infinity pool with a private cabana, sunbeds and an outdoor shower, an outdoor living room with a dining table, bar and fireplace, an indoor living room with its own dining table, and three full bathrooms plus a guest powder room. The Two-Bedroom Sea-View Villa takes up to four, with two full bathrooms (each with double sinks, a separate shower and an oval tub by the window), a guest powder room, floor-to-ceiling glass doors and a terrace with a daybed. With only two villas, they go early for peak summer weeks.</p>
+      <p class="body-2" style="margin-top:14px; max-width:62ch;">There are just two villas, a three-bedroom and a two-bedroom, each with its own pool and living and dining rooms. With only two, they go early for peak summer weeks.</p>
     </div>
   </div>
 </section>
 
-<section class="section" style="padding-top:0;">
-  <div class="container" style="max-width:960px;">
-    <div class="sec-head reveal">
-      <span class="eyebrow">The two villas</span>
-      <h2 class="display-l">Syros and the Sea-View Villa</h2>
-    </div>
-    <div class="villa-table reveal" role="table" aria-label="Four Seasons Mykonos villas">
-      <div class="vt-row vt-head" role="row"><span role="columnheader">Villa</span><span role="columnheader">Sleeps</span><span role="columnheader">Size</span><span role="columnheader">Notes</span></div>
-      {villas.map(([n, s, z, note]) => (
-        <div class="vt-row" role="row"><span role="cell" class="vt-name" set:html={n} /><span role="cell" set:html={s} /><span role="cell" set:html={z} /><span role="cell" set:html={note} /></div>
-      ))}
-    </div>
-  </div>
-</section>
-
-<section class="section" style="padding-top:0;">
-  <div class="container">
-    <div class="photos photos-4 reveal">
-      <figure><img src="/images/hotels/four-seasons-mykonos-syros-outdoor-living.jpg" alt="The shaded outdoor living room with a marble bar and dining table at the Syros Villa, Four Seasons Mykonos" width="1800" height="988" loading="lazy" decoding="async" /><figcaption>Syros Villa: the outdoor living room, bar and dining table</figcaption></figure>
-      <figure><img src="/images/hotels/four-seasons-mykonos-syros-bedroom-sea-view.jpg" alt="A Syros Villa bedroom opening onto a sea-view balcony, Four Seasons Mykonos" width="1800" height="1010" loading="lazy" decoding="async" /><figcaption>Syros Villa: a bedroom with a sea-view balcony</figcaption></figure>
-      <figure><img src="/images/hotels/four-seasons-mykonos-syros-bedroom-garden.jpg" alt="A Syros Villa bedroom opening onto a private garden, Four Seasons Mykonos" width="1800" height="998" loading="lazy" decoding="async" /><figcaption>Syros Villa: a bedroom opening onto the garden</figcaption></figure>
-      <figure><img src="/images/hotels/four-seasons-mykonos-3.jpg" alt="A marble bathroom with a freestanding tub at Four Seasons Hotel Mykonos" width="1800" height="1010" loading="lazy" decoding="async" /><figcaption>Marble bathrooms and a soaking tub</figcaption></figure>
-    </div>
-  </div>
-</section>
+{villas.map((v, n) => <VillaSection villa={v} index={n} hotel="Four Seasons Mykonos" />)}
 
 <section class="section band on-shadow">
   <div class="container" style="max-width:860px;">
@@ -157,16 +155,8 @@ const faq = [
 </Layout>
 
 <style>
-  .photos img { aspect-ratio: 3/2; }
-  .photos-4 { row-gap: 28px; }
-  .villa-table { margin-top: 28px; border-top: 1px solid var(--hairline-firm); }
-  .vt-row { display: grid; grid-template-columns: 1fr; gap: 4px; padding: 14px 0; border-bottom: 1px solid var(--hairline); font-size: .95rem; }
-  .vt-head { display: none; }
-  .vt-name { font-family: var(--display); font-size: 1.1rem; }
   @media (min-width: 760px) {
-    .vt-row { grid-template-columns: 1.4fr 1.4fr 1.1fr 2.3fr; gap: 20px; align-items: baseline; }
-    .vt-head { display: grid; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); }
-  }
+      }
   .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
   .why li { margin-top: 12px; line-height: 1.6; }
   .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }

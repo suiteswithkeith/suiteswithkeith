@@ -1,11 +1,64 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import VillaSection from '../components/VillaSection.astro';
 
 const villas = [
-  ['Paradiso Villa', '7 bedrooms, up to 14 guests', '12,356 sq ft', 'The largest villa, across two levels above Paradise Bay, behind a secure gated entrance with a private driveway. Seven sea-facing bedrooms each with its own bathroom, a master with a private jacuzzi, a dedicated massage room, a heated private pool with a jacuzzi over the sea, a main terrace with outdoor dining and an outdoor kitchen, in-villa check-in, complimentary airport transfers, a 24/7 butler and a dedicated concierge'],
-  ['Delos Villa', '7 bedrooms, up to 14 guests', '7,847 sq ft', 'The hotel&rsquo;s signature villa, across two levels joined by a private elevator. A grand terrace with a long private pool suspended over the sea, a private gym, seven sea-view bedrooms each with its own bathroom and outdoor access, indoor lounges and open-air dining, a 24/7 butler, a dedicated concierge and access to ROKA Beach Club. The sales team&rsquo;s personal favorite'],
-  ['Rock Villa', '3 bedrooms and up to 6 guests today, 5 bedrooms from 2027', '2,799 sq ft', 'The most private villa, at the far end of the estate with the sea on both sides and views over Paraga and Paradiso bays. Single-story, with a panoramic terrace over the sea, a path through the rocks down to the water, outdoor access from every bedroom, a living room and kitchenette, a private pool, a 24/7 butler, a dedicated concierge and access to ROKA Beach Club'],
-  ['Cyclades Villa', '2 bedrooms, up to 4 guests', '1,603 sq ft', 'Perched at the hotel&rsquo;s furthest point for privacy, with a pool running the full length of the villa facing the open sea and a jacuzzi at one end. Inside, a kitchen and bar with wine fridges, and open living and dining rooms'],
+  {
+    id: 'paradiso', name: 'Paradiso Villa', kicker: 'The largest · 7 bedrooms',
+    take: 'Built for celebrations: two levels above Paradise Bay behind a gated private entrance, a big heated pool over the sea and an outdoor kitchen, with poolside BBQs or a DJ set on request.',
+    specs: [['Bedrooms', '<b>7</b>, all facing the sea, each with its own bathroom'], ['Sleeps', 'Up to 14'], ['Size', '12,356 sq ft across two levels'], ['Pool', 'Heated private pool with a jacuzzi, over the sea'], ['Service', '24/7 butler, dedicated concierge, in-villa check-in, airport transfers']],
+    features: ['A master bedroom with its own private jacuzzi', 'A dedicated massage room', 'Secure gated entrance and private driveway', 'Main terrace with outdoor dining and an outdoor kitchen', 'Sunrise over Paradise Bay from every bedroom'],
+    photos: [
+      ['fouquets-paradiso-villa-pool-wide.jpg', 1800, 1226, 'The large heated pool, palms and Paradise Bay from the Paradiso Villa terrace', 'The heated pool and Paradise Bay'],
+      ['fouquets-paradiso-villa-exterior.jpg', 1014, 692, 'The two-level stone and whitewashed Paradiso Villa above its pool', 'Two levels of stone and whitewash'],
+      ['fouquets-paradiso-villa-aerial.jpg', 1800, 1226, 'An aerial view of the Paradiso Villa terrace and pool above the rocky shoreline', 'The terrace and pool from above, right on the rocks'],
+      ['fouquets-paradiso-villa-pool.jpg', 998, 1626, 'The Paradiso Villa pool and palms looking over Paradise Bay', 'The pool, looking over Paradise Bay'],
+      ['fouquets-paradiso-villa-bathroom.jpg', 1800, 1236, 'A stone double-vanity bathroom in the Paradiso Villa', 'One of seven bathrooms'],
+      ['fouquets-paradiso-villa-vanity.jpg', 1014, 1516, 'A travertine double vanity in the Paradiso Villa', 'Travertine vanities'],
+    ],
+  },
+  {
+    id: 'delos', name: 'Delos Villa', kicker: 'The signature · 7 bedrooms',
+    take: 'The hotel&rsquo;s signature villa and the sales team&rsquo;s personal favorite: two levels joined by a private elevator, and a long private pool suspended over the open sea.',
+    specs: [['Bedrooms', '<b>7</b>, all with sea views, each with its own bathroom and outdoor access'], ['Sleeps', 'Up to 14'], ['Size', '7,847 sq ft across two levels'], ['Pool', 'A long private pool over the sea'], ['Service', '24/7 butler, dedicated concierge, access to ROKA Beach Club']],
+    features: ['A private elevator between the two levels', 'Ground-floor bedrooms open onto shaded patios by the sea', 'A private gym', 'Indoor lounges, a dining table for fourteen and open-air dining', 'A private chef or a sunset reception on request'],
+    photos: [
+      ['fouquets-delos-villa-living-room.jpg', 1036, 692, 'The Delos Villa living room opening onto the terrace and the sea at sunset', 'The living room, open to the terrace at sunset'],
+      ['fouquets-delos-villa-dining.jpg', 1800, 1233, 'The long dining table under a timber ceiling in the Delos Villa', 'Dining for fourteen, over the lower level'],
+      ['fouquets-delos-villa-bedroom.jpg', 1800, 1156, 'A king bedroom with a timber ceiling and woven headboard wall in the Delos Villa', 'One of the seven sea-view bedrooms'],
+      ['fouquets-delos-villa-garden-bedroom.jpg', 994, 1558, 'A Delos Villa bedroom opening onto a patio and lawn by the sea', 'A ground-floor bedroom opening onto the sea'],
+      ['fouquets-delos-villa-bathroom.jpg', 1800, 1225, 'A travertine bathroom with a woven freestanding tub in the Delos Villa', 'A travertine bathroom with a freestanding tub'],
+      ['fouquets-delos-villa-floor-plan-upper.jpg', 1670, 1236, 'Upper-level floor plan of the Delos Villa', 'Floor plan, upper level: pool terrace, living, dining, kitchen and master suite', true],
+      ['fouquets-delos-villa-floor-plan-lower.jpg', 1668, 1240, 'Lower-level floor plan of the Delos Villa', 'Floor plan, lower level: bedrooms onto patios by the sea, gym and elevator', true],
+    ],
+  },
+  {
+    id: 'rock', name: 'Rock Villa', kicker: 'The most private · 3 bedrooms, 5 from 2027',
+    take: 'At the far end of the estate with the sea on both sides, views over Paraga and Paradiso bays and a path through the rocks straight down to the water.',
+    specs: [['Bedrooms', '<b>3</b> today, each with outdoor access; upgrading to <b>5</b> for 2027'], ['Sleeps', 'Up to 6 today'], ['Size', '2,799 sq ft, single-story'], ['Pool', 'Private pool'], ['Service', '24/7 butler, dedicated concierge, access to ROKA Beach Club']],
+    features: ['A panoramic terrace suspended over the open sea', 'A private path through the rocks to the water', 'A living room and kitchenette', 'A chef or a private sunset reception on request'],
+    photos: [
+      ['fouquets-rock-villa-terrace.jpg', 1800, 1229, 'A shaded stone terrace with lounge chairs at the Rock Villa', 'A shaded terrace off the stone walls'],
+      ['fouquets-rock-villa-king-bedroom.jpg', 1800, 1237, 'A king bedroom with a timber ceiling at the Rock Villa', 'A king bedroom under a timber ceiling'],
+      ['fouquets-rock-villa-bedroom-en-suite.jpg', 1010, 690, 'A bedroom opening onto its en-suite bathroom at the Rock Villa', 'A bedroom with its own bathroom'],
+      ['fouquets-rock-villa-bathroom.jpg', 1006, 684, 'A stone double-vanity bathroom looking onto an olive-tree courtyard at the Rock Villa', 'Double vanities and an olive-tree courtyard'],
+    ],
+  },
+  {
+    id: 'cyclades', name: 'Cyclades Villa', kicker: 'The intimate one · 2 bedrooms',
+    take: 'Perched at the hotel&rsquo;s furthest point for privacy, with a pool running the full length of the villa toward the open sea.',
+    specs: [['Bedrooms', '<b>2</b>'], ['Sleeps', 'Up to 4'], ['Size', '1,603 sq ft'], ['Pool', 'Full-length private pool with a jacuzzi at one end']],
+    features: ['Loungers under the pergola, looking over the bay', 'Bedrooms that open straight onto the terrace', 'A kitchen and bar with wine fridges', 'Open living and dining rooms'],
+    photos: [
+      ['fouquets-cyclades-villa-pool.jpg', 1800, 1240, 'The full-length pool and jacuzzi of the Cyclades Villa facing the open sea', 'The full-length pool and jacuzzi, facing the open sea'],
+      ['fouquets-cyclades-villa-terrace.jpg', 1800, 1231, 'Loungers under the pergola beside the Cyclades Villa infinity pool, looking over the bay', 'Loungers under the pergola, over the bay'],
+      ['fouquets-cyclades-villa-bedroom.jpg', 1008, 688, 'A Cyclades Villa bedroom opening onto the terrace and the bay', 'A bedroom opening straight onto the terrace'],
+      ['fouquets-cyclades-villa-pergola-view.jpg', 1006, 1580, 'The Cyclades Villa infinity pool and the sea from under the pergola', 'The infinity edge, from under the pergola'],
+      ['fouquets-cyclades-villa-living-room.jpg', 1012, 1564, 'The Cyclades Villa living room with curved sofas and the dining table beyond', 'The living room, with dining beyond'],
+      ['fouquets-cyclades-villa-kitchen.jpg', 1800, 1232, 'The fluted-oak kitchen island and wine fridges in the Cyclades Villa', 'The kitchen and bar, with wine fridges'],
+      ['fouquets-cyclades-villa-floor-plan.jpg', 808, 604, 'Floor plan of the Cyclades Villa', 'Floor plan, with the full-length pool and jacuzzi', true],
+    ],
+  },
 ];
 
 const faq = [
@@ -47,71 +100,20 @@ const faq = [
 </header>
 
 <section class="section">
-  <div class="container" style="max-width:860px;">
+  <div class="container intro-grid">
     <div class="reveal">
       <p class="deck" style="max-width:44ch;">I toured the villas in May 2026. They&rsquo;re modern, private and absolutely stunning, honestly another level compared to other Mykonos offerings.</p>
       <p class="body-2" style="margin-top:20px; max-width:62ch;">Fouquet&rsquo;s is my pick for Best New Resort in Greece. It brings the energy of Mykonos&rsquo; south coast together with the comfort of a true luxury resort, and I had the chance to tour it while it was still under construction, so returning after it opened was especially rewarding.</p>
       <p class="body-2" style="margin-top:14px; max-width:62ch;">The villas are where it really separates itself. Most Mykonos villa rentals leave you on your own for food, service and logistics. Here you have a private villa with ZUMA for dinner, an underground sports court, polished service and Paraga Beach and Scorpios a walk away.</p>
     </div>
+    <figure class="reveal intro-fig"><img src="/images/hotels/fouquets-beach.jpg" alt="Loungers and umbrellas on the beach below Fouquet's Mykonos" width="1012" height="682" loading="lazy" decoding="async" /><figcaption>The beach below the estate</figcaption></figure>
   </div>
+  <div class="container"><nav class="jump reveal" aria-label="The four villas">
+    {villas.map((v) => <a href={`#${v.id}`}><b>{v.name.replace(' Villa', '')}</b><span>{v.specs.find((x) => x[0] === 'Sleeps')?.[1]}</span></a>)}
+  </nav></div>
 </section>
 
-<section class="section" style="padding-top:0;">
-  <div class="container" style="max-width:960px;">
-    <div class="sec-head reveal">
-      <span class="eyebrow">For 2027</span>
-      <h2 class="display-l">The four villas</h2>
-    </div>
-    <div class="villa-table reveal" role="table" aria-label="Fouquet's Mykonos villas">
-      <div class="vt-row vt-head" role="row"><span role="columnheader">Villa</span><span role="columnheader">Sleeps</span><span role="columnheader">Size</span><span role="columnheader">Notes</span></div>
-      {villas.map(([n, s, z, note]) => (
-        <div class="vt-row" role="row"><span role="cell" class="vt-name" set:html={n} /><span role="cell" set:html={s} /><span role="cell" set:html={z} /><span role="cell" set:html={note} /></div>
-      ))}
-    </div>
-  </div>
-</section>
-
-<section class="section" style="padding-top:0;">
-  <div class="container">
-    <div class="photos reveal">
-      <figure><img src="/images/hotels/fouquets-paradiso-villa-pool-wide.jpg" alt="The large heated pool, palms and Paradise Bay from the Paradiso Villa terrace, Fouquet's Mykonos" width="1800" height="1226" loading="lazy" decoding="async" /><figcaption>Paradiso Villa: the heated pool and Paradise Bay</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-paradiso-villa-exterior.jpg" alt="The two-level stone and whitewashed Paradiso Villa above its pool, Fouquet's Mykonos" width="1014" height="692" loading="lazy" decoding="async" /><figcaption>Paradiso Villa: two levels of stone and whitewash</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-paradiso-villa-pool.jpg" alt="The Paradiso Villa pool and palms looking over Paradise Bay, Fouquet's Mykonos" width="998" height="1626" loading="lazy" decoding="async" /><figcaption>Paradiso Villa: the pool, looking over Paradise Bay</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-paradiso-villa-aerial.jpg" alt="An aerial view of the Paradiso Villa terrace and pool above the rocky shoreline, Fouquet's Mykonos" width="1800" height="1226" loading="lazy" decoding="async" /><figcaption>Paradiso Villa: the terrace and pool from above, right on the rocks</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-paradiso-villa-bathroom.jpg" alt="A stone double-vanity bathroom in the Paradiso Villa, Fouquet's Mykonos" width="1800" height="1236" loading="lazy" decoding="async" /><figcaption>Paradiso Villa: one of seven bathrooms</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-paradiso-villa-vanity.jpg" alt="A travertine double vanity in the Paradiso Villa, Fouquet's Mykonos" width="1014" height="1516" loading="lazy" decoding="async" /><figcaption>Paradiso Villa: travertine vanities</figcaption></figure>
-    </div>
-    <div class="photos reveal" style="margin-top:28px;">
-      <figure><img src="/images/hotels/fouquets-rock-villa-terrace.jpg" alt="A shaded stone terrace with lounge chairs at the Rock Villa, Fouquet's Mykonos" width="1800" height="1229" loading="lazy" decoding="async" /><figcaption>Rock Villa: A shaded terrace off the stone walls</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-rock-villa-king-bedroom.jpg" alt="A king bedroom with a timber ceiling at the Rock Villa, Fouquet's Mykonos" width="1800" height="1237" loading="lazy" decoding="async" /><figcaption>Rock Villa: A king bedroom under a timber ceiling</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-rock-villa-bedroom-en-suite.jpg" alt="A bedroom opening onto its en-suite bathroom at the Rock Villa, Fouquet's Mykonos" width="1010" height="690" loading="lazy" decoding="async" /><figcaption>Rock Villa: A bedroom with its own bathroom</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-rock-villa-bathroom.jpg" alt="A stone double-vanity bathroom looking onto an olive-tree courtyard at the Rock Villa, Fouquet's Mykonos" width="1006" height="684" loading="lazy" decoding="async" /><figcaption>Rock Villa: Double vanities and an olive-tree courtyard</figcaption></figure>
-    </div>
-    <div class="photos reveal" style="margin-top:28px;">
-      <figure><img src="/images/hotels/fouquets-delos-villa-living-room.jpg" alt="The Delos Villa living room opening onto the terrace and the sea at sunset, Fouquet's Mykonos" width="1036" height="692" loading="lazy" decoding="async" /><figcaption>Delos Villa: the living room, open to the terrace at sunset</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-delos-villa-dining.jpg" alt="The long dining table under a timber ceiling in the Delos Villa, Fouquet's Mykonos" width="1800" height="1233" loading="lazy" decoding="async" /><figcaption>Delos Villa: dining for fourteen, over the lower level</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-delos-villa-bedroom.jpg" alt="A king bedroom with a timber ceiling and woven headboard wall in the Delos Villa, Fouquet's Mykonos" width="1800" height="1156" loading="lazy" decoding="async" /><figcaption>Delos Villa: one of the seven sea-view bedrooms</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-delos-villa-garden-bedroom.jpg" alt="A Delos Villa bedroom opening onto a patio and lawn by the sea, Fouquet's Mykonos" width="994" height="1558" loading="lazy" decoding="async" /><figcaption>Delos Villa: a ground-floor bedroom opening onto the sea</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-delos-villa-bathroom.jpg" alt="A travertine bathroom with a woven freestanding tub in the Delos Villa, Fouquet's Mykonos" width="1800" height="1225" loading="lazy" decoding="async" /><figcaption>Delos Villa: a travertine bathroom with a freestanding tub</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-beach.jpg" alt="Loungers and umbrellas on the beach below Fouquet's Mykonos, Fouquet's Mykonos" width="1012" height="682" loading="lazy" decoding="async" /><figcaption>The beach below the estate</figcaption></figure>
-    </div>
-    <div class="photos plans reveal" style="margin-top:28px;">
-      <figure><img src="/images/hotels/fouquets-delos-villa-floor-plan-upper.jpg" alt="Upper-level floor plan of the Delos Villa, with the pool terrace, living and dining rooms, kitchen and master suite, Fouquet's Mykonos" width="1670" height="1236" loading="lazy" decoding="async" /><figcaption>Delos Villa floor plan: the upper level, with the pool terrace, living, dining, kitchen and master suite</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-delos-villa-floor-plan-lower.jpg" alt="Lower-level floor plan of the Delos Villa, with bedrooms opening onto sea-facing patios, a gym and the elevator, Fouquet's Mykonos" width="1668" height="1240" loading="lazy" decoding="async" /><figcaption>Delos Villa floor plan: the lower level, with bedrooms opening onto patios by the sea, a gym and the elevator</figcaption></figure>
-    </div>
-    <div class="photos reveal" id="cyclades-photos" style="margin-top:28px;">
-      <figure><img src="/images/hotels/fouquets-cyclades-villa-pool.jpg" alt="The full-length pool and jacuzzi of the Cyclades Villa facing the open sea, Fouquet's Mykonos" width="1800" height="1240" loading="lazy" decoding="async" /><figcaption>Cyclades Villa: the full-length pool and jacuzzi, facing the open sea</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-cyclades-villa-terrace.jpg" alt="Loungers under the pergola beside the Cyclades Villa infinity pool, looking over the bay, Fouquet's Mykonos" width="1800" height="1231" loading="lazy" decoding="async" /><figcaption>Cyclades Villa: loungers under the pergola, over the bay</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-cyclades-villa-bedroom.jpg" alt="A Cyclades Villa bedroom opening onto the terrace and the bay, Fouquet's Mykonos" width="1008" height="688" loading="lazy" decoding="async" /><figcaption>Cyclades Villa: a bedroom opening straight onto the terrace</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-cyclades-villa-pergola-view.jpg" alt="The Cyclades Villa infinity pool and the sea from under the pergola, Fouquet's Mykonos" width="1006" height="1580" loading="lazy" decoding="async" /><figcaption>Cyclades Villa: the infinity edge, from under the pergola</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-cyclades-villa-living-room.jpg" alt="The Cyclades Villa living room with curved sofas and the dining table beyond, Fouquet's Mykonos" width="1012" height="1564" loading="lazy" decoding="async" /><figcaption>Cyclades Villa: the living room, with dining beyond</figcaption></figure>
-      <figure><img src="/images/hotels/fouquets-cyclades-villa-kitchen.jpg" alt="The fluted-oak kitchen island and wine fridges in the Cyclades Villa, Fouquet's Mykonos" width="1800" height="1232" loading="lazy" decoding="async" /><figcaption>Cyclades Villa: the kitchen and bar, with wine fridges</figcaption></figure>
-    </div>
-    <div class="photos plans reveal" style="margin-top:28px; grid-template-columns:1fr; max-width:820px; margin-left:auto; margin-right:auto;">
-      <figure><img src="/images/hotels/fouquets-cyclades-villa-floor-plan.jpg" alt="Floor plan of the Cyclades Villa, with two bedrooms, kitchen, living and dining rooms and a full-length pool, Fouquet's Mykonos" width="808" height="604" loading="lazy" decoding="async" /><figcaption>Cyclades Villa: floor plan, with the full-length pool and jacuzzi</figcaption></figure>
-    </div>
-  </div>
-</section>
+{villas.map((v, n) => <VillaSection villa={v} index={n} hotel="Fouquet’s Mykonos" />)}
 
 <section class="section band on-shadow">
   <div class="container" style="max-width:860px;">
@@ -187,19 +189,22 @@ const faq = [
   </div>
 </section>
 
+
 </Layout>
 
 <style>
-  .photos img { aspect-ratio: 4/3; }
-  .plans img { aspect-ratio: auto; object-fit: contain; background: var(--lime); }
-  .villa-table { margin-top: 28px; border-top: 1px solid var(--hairline-firm); }
-  .vt-row { display: grid; grid-template-columns: 1fr; gap: 4px; padding: 14px 0; border-bottom: 1px solid var(--hairline); font-size: .95rem; }
-  .vt-head { display: none; }
-  .vt-name { font-family: var(--display); font-size: 1.1rem; }
-  @media (min-width: 760px) {
-    .vt-row { grid-template-columns: 1.4fr 1.4fr 1fr 2.4fr; gap: 20px; align-items: baseline; }
-    .vt-head { display: grid; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); }
-  }
+  .intro-grid { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.3fr 1fr; gap: 64px; } }
+  .intro-grid > * { min-width: 0; }
+  .intro-fig { margin: 0; }
+  .intro-fig img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .intro-fig figcaption { font-family: var(--font-stamp); font-size: .68rem; color: var(--ash); margin-top: 10px; letter-spacing: .04em; }
+  .jump { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin-top: 48px; background: var(--hairline); border: 1px solid var(--hairline); }
+  @media (min-width: 760px) { .jump { grid-template-columns: repeat(4, 1fr); } }
+  .jump a { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; background: var(--plaster); color: var(--ink); text-decoration: none; }
+  .jump a b { font-family: var(--display); font-weight: 400; font-size: 1.15rem; }
+  .jump a span { font-size: .8rem; color: var(--ash); }
+  @media (hover:hover) { .jump a:hover { background: var(--lime); } }
   .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
   .why li { margin-top: 12px; line-height: 1.6; }
   .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }

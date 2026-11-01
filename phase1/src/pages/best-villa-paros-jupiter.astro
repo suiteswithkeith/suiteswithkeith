@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import VillaSection from '../components/VillaSection.astro';
 
 const faq = [
   ['What is the best villa on Paros?', 'Jupiter. When I put together the awards edit for my Greece Collection, it took the Paros category outright and I named it Best Paros Villa. I&rsquo;ve toured it in person. It&rsquo;s part of Par&#299;lio, the design hotel I stayed at on Paros, so you get a private five-bedroom villa with the hotel&rsquo;s service behind it.'],
@@ -13,13 +14,35 @@ const faq = [
   ['What if we&rsquo;d rather stay at a hotel?', 'My hotel picks on Paros are <a href="/hotels/vione-paros.html">Vione</a> and <a href="/hotels/andronis-minois-paros.html">Andronis Minois</a>, and my <a href="/cosme-vs-parilio-paros.html">Cosme vs. Par&#299;lio</a> piece covers the design-hotel route.'],
 ];
 
-const kv = [
-  ['Bedrooms', '<b>5</b>, each with a king-size bed'],
-  ['Size', '180 m&sup2; (1,938 sq ft), Par&#299;lio&rsquo;s most exclusive stay'],
-  ['Inside', 'A spacious living area, a fully equipped kitchen, a dining area and bathrooms with rainfall showers'],
-  ['Outside', 'A private pool on an expansive terrace, with sunbeds and an open-air sitting area among the gardens'],
-  ['Award', 'Best Paros Villa, The Greece Collection'],
-  ['Booking', 'Peak weeks go early, and minimum stays apply'],
+const villas = [
+  {
+    id: 'jupiter', name: 'Jupiter Villa', kicker: 'Best Paros Villa · 5 bedrooms',
+    take: 'Par&#299;lio&rsquo;s most exclusive stay, and the one I named Best Paros Villa in my Greece Collection: five king bedrooms around a private pool, for two families or a group celebration.',
+    specs: [['Bedrooms', '<b>5</b>, each with a king-size bed'], ['Size', '180 m&sup2; (1,938 sq ft)'], ['Inside', 'A spacious living area, a fully equipped kitchen and a dining area'], ['Pool', 'Private pool on an expansive terrace, with sunbeds and an open-air sitting area'], ['Award', 'Best Paros Villa, The Greece Collection']],
+    features: ['Bathrooms with rainfall showers', 'Outdoor dining under the pergola, by the pool', 'Terraces over the vineyards and hills', 'The Par&#299;lio team and restaurant a short walk away'],
+    photos: [
+      ['jupiter-villa-pool.jpg', 1632, 1686, 'The private pool at Jupiter inside its stone walls', 'The pool, inside its stone walls'],
+      ['jupiter-villa-living-room.jpg', 1800, 1061, 'The light-filled living room at Jupiter, with sea views through floor-to-ceiling doors', 'The living room, with the sea through the doors'],
+      ['jupiter-villa-dining.jpg', 1624, 1618, 'The dining room at Jupiter, with woven chairs and a view of the Paros hills', 'The dining room, looking out to the hills'],
+      ['jupiter-villa-outdoor-dining.jpg', 1800, 1150, 'The shaded outdoor dining table at Jupiter beside the stone wall and pool', 'Outdoor dining under the pergola, by the pool'],
+      ['jupiter-villa-terrace.jpg', 1800, 1094, 'A lounge terrace at Jupiter overlooking vineyards and the Paros hills', 'A terrace over the vineyards and hills'],
+      ['jupiter-villa-bathroom.jpg', 1800, 1094, 'A double-vanity bathroom with a walk-in shower at Jupiter', 'Double vanities and a walk-in shower'],
+    ],
+  },
+  {
+    id: 'aurelia', name: 'Aurelia Villa', kicker: 'For one family · 3 bedrooms',
+    take: 'The one I&rsquo;d book for a single family, or when Jupiter is taken: three king bedrooms and a private pool with views across the hills to Naousa and the sea.',
+    specs: [['Bedrooms', '<b>3</b>, each with a king-size bed'], ['Size', 'Up to 130 m&sup2; (1,400 sq ft)'], ['Inside', 'A spacious living area and a fully equipped kitchen'], ['Pool', 'Private pool framed by a large terrace, with sunbeds and a sitting area']],
+    features: ['Bathrooms with rainfall showers', 'A shaded dining table between stone columns', 'Views to Naousa and the sea', 'The Par&#299;lio team and restaurant a short walk away'],
+    photos: [
+      ['parilio-aurelia-villa-pool.jpg', 1800, 1094, 'The Aurelia Villa pool and yellow umbrellas with Naousa and the sea beyond', 'The pool, with Naousa and the sea beyond'],
+      ['parilio-aurelia-villa-dining.jpg', 1800, 907, 'The Aurelia Villa dining table with floor-to-ceiling views of the bay', 'Dining with the bay through the windows'],
+      ['parilio-aurelia-villa-outdoor-dining.jpg', 1800, 1087, 'The shaded outdoor dining table between stone columns at the Aurelia Villa', 'Outdoor dining between the stone columns'],
+      ['parilio-aurelia-villa-living-room.jpg', 1800, 1092, 'The Aurelia Villa living room opening onto the terrace and pool', 'The living room, open to the terrace and pool'],
+      ['parilio-aurelia-villa-bedroom.jpg', 1800, 1092, 'An Aurelia Villa bedroom with a balcony looking to the sea', 'A bedroom with a balcony toward the sea'],
+      ['parilio-aurelia-villa-terrace.jpg', 1800, 1153, 'A lounge terrace at the Aurelia Villa overlooking vineyards and the Paros hills', 'A terrace over the vineyards'],
+    ],
+  },
 ];
 ---
 <Layout
@@ -50,51 +73,20 @@ const kv = [
 </header>
 
 <section class="section">
-  <div class="container intro-grid">
+  <div class="container" style="max-width:860px;">
     <div class="reveal">
       <p class="deck" style="max-width:44ch;">I toured Jupiter in person, and when I put together the awards edit for my Greece Collection, it took the Paros category outright.</p>
       <p class="body-2" style="margin-top:20px; max-width:58ch;">Paros is my pick for the best island in Greece for return visitors, and it&rsquo;s the island I keep thinking about. For a family or group that wants a private base rather than a hotel, a villa of this caliber changes how the whole trip works.</p>
       <p class="body-2" style="margin-top:14px; max-width:58ch;">Five bedrooms changes the math. For a multi-family trip or a group celebration, a full villa often beats booking a row of suites, for privacy and for the experience. Every bedroom has a king-size bed, the kitchen is fully equipped, and the private pool sits on a big terrace with sunbeds and an open-air sitting area, so there&rsquo;s one shared home to come back to after the beach.</p>
       <p class="body-2" style="margin-top:14px; max-width:58ch;">Jupiter is part of <a href="/hotels/parilio-paros.html">Par&#299;lio</a>, the design hotel I stayed at on Paros, and that&rsquo;s the point. I&rsquo;m very pro private villas at hotels versus standalone villas: you get your own house, with a team, a restaurant and real service behind it, instead of arranging staff and groceries yourself.</p>
     </div>
-    <div class="reveal">
-      <dl class="kv">
-        {kv.map(([k, v]) => <div class="kv-row"><dt set:html={k} /><dd set:html={v} /></div>)}
-      </dl>
-    </div>
   </div>
+  <div class="container" style="max-width:860px;"><nav class="jump reveal" aria-label="The villas at Parilio">
+    {villas.map((v) => <a href={`#${v.id}`}><b set:html={v.name} /><span set:html={v.kicker} /></a>)}
+  </nav></div>
 </section>
 
-<section class="section" style="padding-top:0;">
-  <div class="container">
-    <div class="photos reveal">
-      <figure><img src="/images/hotels/jupiter-villa-living-room.jpg" alt="The light-filled living room at Jupiter, with sea views through floor-to-ceiling doors" width="1800" height="1061" loading="lazy" decoding="async" /><figcaption>Jupiter: the living room, with the sea through the doors</figcaption></figure>
-      <figure><img src="/images/hotels/jupiter-villa-dining.jpg" alt="The dining room at Jupiter, with woven chairs and a view of the Paros hills" width="1624" height="1618" loading="lazy" decoding="async" /><figcaption>Jupiter: the dining room, looking out to the hills</figcaption></figure>
-      <figure><img src="/images/hotels/jupiter-villa-outdoor-dining.jpg" alt="The shaded outdoor dining table at Jupiter beside the stone wall and pool" width="1800" height="1150" loading="lazy" decoding="async" /><figcaption>Jupiter: outdoor dining under the pergola, by the pool</figcaption></figure>
-      <figure><img src="/images/hotels/jupiter-villa-terrace.jpg" alt="A lounge terrace at Jupiter overlooking vineyards and the Paros hills" width="1800" height="1094" loading="lazy" decoding="async" /><figcaption>Jupiter: a terrace over the vineyards and hills</figcaption></figure>
-      <figure><img src="/images/hotels/jupiter-villa-bathroom.jpg" alt="A double-vanity bathroom with a walk-in shower at Jupiter" width="1800" height="1094" loading="lazy" decoding="async" /><figcaption>Jupiter: double vanities and a walk-in shower</figcaption></figure>
-      <figure><img src="/images/hotels/jupiter-villa-pool.jpg" alt="The private pool at Jupiter inside its stone walls" width="1632" height="1686" loading="lazy" decoding="async" /><figcaption>Jupiter: the pool, inside its stone walls</figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<section class="section" style="padding-top:0;">
-  <div class="container">
-    <div class="sec-head reveal" style="max-width:860px; margin-left:auto; margin-right:auto;">
-      <span class="eyebrow">Also at Par&#299;lio</span>
-      <h2 class="display-l">The Aurelia Villa</h2>
-    </div>
-    <p class="body-2 reveal" style="max-width:62ch; margin:0 auto;">Par&#299;lio&rsquo;s three-bedroom villa: up to 130 m&sup2; (1,400 sq ft), with a king-size bed in every bedroom, a spacious living area, a fully equipped kitchen and bathrooms with rainfall showers. A large terrace wraps the private pool, with sunbeds, a sitting area, a shaded dining table under stone columns and views across the hills to Naousa and the sea. If your group is one family rather than two, or Jupiter is booked, this is the one I&rsquo;d book.</p>
-    <div class="photos reveal" style="margin-top:28px;">
-      <figure><img src="/images/hotels/parilio-aurelia-villa-pool.jpg" alt="The Aurelia Villa pool and yellow umbrellas with Naousa and the sea beyond, Parilio, Paros" width="1800" height="1094" loading="lazy" decoding="async" /><figcaption>Aurelia Villa: the pool, with Naousa and the sea beyond</figcaption></figure>
-      <figure><img src="/images/hotels/parilio-aurelia-villa-outdoor-dining.jpg" alt="The shaded outdoor dining table between stone columns at the Aurelia Villa, Parilio" width="1800" height="1087" loading="lazy" decoding="async" /><figcaption>Aurelia Villa: outdoor dining between the stone columns</figcaption></figure>
-      <figure><img src="/images/hotels/parilio-aurelia-villa-living-room.jpg" alt="The Aurelia Villa living room opening onto the terrace and pool, Parilio" width="1800" height="1092" loading="lazy" decoding="async" /><figcaption>Aurelia Villa: the living room, open to the terrace and pool</figcaption></figure>
-      <figure><img src="/images/hotels/parilio-aurelia-villa-bedroom.jpg" alt="An Aurelia Villa bedroom with a balcony looking to the sea, Parilio" width="1800" height="1092" loading="lazy" decoding="async" /><figcaption>Aurelia Villa: a bedroom with a balcony toward the sea</figcaption></figure>
-      <figure><img src="/images/hotels/parilio-aurelia-villa-dining.jpg" alt="The Aurelia Villa dining table with floor-to-ceiling views of the bay, Parilio, Paros" width="1800" height="907" loading="lazy" decoding="async" /><figcaption>Aurelia Villa: dining with the bay through the windows</figcaption></figure>
-      <figure><img src="/images/hotels/parilio-aurelia-villa-terrace.jpg" alt="A lounge terrace at the Aurelia Villa overlooking vineyards and the Paros hills" width="1800" height="1153" loading="lazy" decoding="async" /><figcaption>Aurelia Villa: a terrace over the vineyards</figcaption></figure>
-    </div>
-  </div>
-</section>
+{villas.map((v, n) => <VillaSection villa={v} index={n} hotel="Parīlio, Paros" />)}
 
 <section class="section band on-shadow">
   <div class="container" style="max-width:860px;">
@@ -173,10 +165,6 @@ const kv = [
 </Layout>
 
 <style>
-  .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
-  @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.4fr 1fr; gap: 80px; } }
-  .intro-grid > * { min-width: 0; }
-  .photos img { aspect-ratio: 4/3; }
   .why { margin-top: 24px; padding-left: 1.1em; max-width: 62ch; }
   .why li { margin-top: 12px; line-height: 1.6; }
   .faq details { border-top: 1px solid var(--hairline); padding: 18px 0; }
@@ -186,4 +174,9 @@ const kv = [
   .faq summary::after { content: "+"; position: absolute; right: 0; top: 0; color: var(--brass); font-family: var(--body); }
   .faq details[open] summary::after { content: "\2013"; }
   .faq details p { margin-top: 12px; max-width: 62ch; }
+  .jump { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin-top: 40px; background: var(--hairline); border: 1px solid var(--hairline); }
+  .jump a { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; background: var(--plaster); color: var(--ink); text-decoration: none; }
+  .jump a b { font-family: var(--display); font-weight: 400; font-size: 1.15rem; }
+  .jump a span { font-size: .8rem; color: var(--ash); }
+  @media (hover:hover) { .jump a:hover { background: var(--lime); } }
 </style>
