@@ -18,6 +18,15 @@
 .im-line{font-weight:300;font-size:.92rem;line-height:1.5;color:var(--ash)}
 .im-go{color:var(--brass);flex:none}
 .im-note{font-size:.95rem;color:var(--ash);margin-top:16px}
+.im-first{display:grid;grid-template-columns:2fr 3fr;margin-top:36px;border:1px solid var(--hairline)!important;background:var(--lime);color:var(--ink);text-decoration:none}
+.im-first-img{display:block;min-height:240px;background:var(--shadow) center/cover no-repeat}
+.im-first-txt{display:flex;flex-direction:column;justify-content:center;gap:10px;padding:30px 32px}
+.im-first-h{font-family:var(--display);font-size:1.6rem;line-height:1.15}
+.im-first-p{font-weight:300;font-size:.98rem;line-height:1.6;color:var(--ash)}
+.im-first-go{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:var(--brass);margin-top:4px}
+.im-first:hover .im-first-h{color:var(--brass)}
+.im-routes{font-size:.95rem;color:var(--ash);margin-top:14px!important}
+@media (max-width:640px){.im-first{grid-template-columns:1fr}.im-first-img{min-height:220px}.im-first-txt{padding:24px 22px}}
 @media (max-width:640px){.im-toc{columns:1}.im-thumb{width:72px;height:56px}.im-row{gap:14px}}
 </style></head> <body> <nav class="nav" id="nav"> <div class="container"> <a class="wordmark" href="/index.html">Suites With Keith</a> <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button> <div class="nav-links" id="nav-links"> <a href="/services.html">Services</a> <a href="/collections.html" data-gtag-label="collections" data-gtag-location="nav">The Collections</a> <a href="/destination-guides.html" data-gtag-label="destination_guides" data-gtag-location="nav">Destination Guides</a> <a href="/rankings.html" data-gtag-label="keiths_rankings" data-gtag-location="nav">Keith's Rankings</a> <a href="/about.html">About</a> </div> </div> </nav>   <article class="swk-post">
 
@@ -41,7 +50,16 @@
 
     <p>The matrix comes first, because the right hotel starts with the right place. Lake Como and the Dolomites are both beautiful and they are completely different trips. Then the hotels: forty-nine of them, plus one that moves.</p>
 
-    <p>Once you know where you&rsquo;re going, <a href="/getting-around-italy.html">Getting Around Italy</a> covers how I move clients between them, and there are full routes for <a href="/italy-10-day-itinerary.html">ten days</a>, <a href="/italy-14-day-itinerary.html">fourteen days</a> and <a href="/italy-21-day-itinerary.html">three weeks</a>.</p>
+    <a class="im-first" href="/getting-around-italy.html">
+      <span class="im-first-img" style="background-image:url('/images/lake-como/general/riva-wake-film.jpg')" role="img" aria-label="The wake behind a wooden Riva on Lake Como"></span>
+      <span class="im-first-txt">
+        <span class="swk-label">First things first</span>
+        <span class="im-first-h">Getting around Italy</span>
+        <span class="im-first-p">Before the hotels, how you&rsquo;ll move between them: private drivers, boats and helicopters, and the few legs where the train wins.</span>
+        <span class="im-first-go">Read the guide&nbsp;&rarr;</span>
+      </span>
+    </a>
+    <p class="im-routes">Or start from a full route: <a href="/italy-10-day-itinerary.html">10 days</a> &middot; <a href="/italy-14-day-itinerary.html">14 days</a> &middot; <a href="/italy-21-day-itinerary.html">21 days</a></p>
 
     <figure style="margin-top:52px">
       <svg viewBox="0 0 760 745" role="img" aria-label="A chart placing fourteen places in Italy on two axes: rustic to polished, and undiscovered to well-trodden. Filled dots mark the ten places with hotels in my collection; hollow rings mark the four I know and love without a hotel pick." style="max-width:640px;margin:0 auto;display:block;background:#F2EFE6;border:1px solid #D8D3C3">
