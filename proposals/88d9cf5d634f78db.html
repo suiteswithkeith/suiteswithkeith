@@ -41,6 +41,13 @@
   .sw-hello p { font-family: var(--font-display); font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.5; margin: 0 0 16px; }
   .sw-hello p.sw-small { font-family: var(--font-body); font-size: 0.95rem; color: var(--ink-soft); line-height: 1.65; }
   .pr-itin-card a { color: inherit; text-decoration: none; }
+  .sw-stays { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
+  .sw-stay { display: flex; flex-direction: column; gap: 4px; padding: 18px 20px; background: var(--white); border: 1px solid var(--hairline); color: var(--charcoal); text-decoration: none; transition: border-color .18s; }
+  .sw-stay:hover { border-color: var(--tan-deep); }
+  .sw-stay-n { font-size: 0.66rem; letter-spacing: .18em; text-transform: uppercase; color: var(--tan-text); }
+  .sw-stay-name { font-family: var(--font-display); font-size: 1.15rem; line-height: 1.25; }
+  .sw-stay-tag { font-size: 0.8rem; color: var(--ink-soft); }
+  .sw-stay-go { margin-top: auto; padding-top: 10px; font-size: 0.76rem; letter-spacing: .06em; color: var(--tan-text); }
   .sw-mapwrap { margin: 0 0 44px; }
   .sw-map { height: min(62vh, 520px); min-height: 360px; border: 1px solid var(--hairline); background: #E9E5DA; }
   .sw-map .leaflet-tile-pane { filter: grayscale(1) sepia(.18) contrast(.92) brightness(1.04); }
@@ -98,11 +105,11 @@
   <div class="container-pr">
     <div class="sw-hello">
       <p>You said outdoors over big cities, so that is how I built these. More boat days, hikes and long lunches in the vineyards. Less time in museum lines.</p>
-      <p class="sw-small">Ellen and Barrett, each route is about fourteen nights between September 15 and 30, with at least three nights in every place so you never feel like you're packing every other morning. For every stop I've given you two hotels: a <strong>splurge</strong> and a <strong>smart pick</strong> that I'd still happily send you to. Mix and match. Once you know which direction you like, I'll price both tiers for your exact dates.</p>
+      <p class="sw-small">Ellen and Barrett, each route is about fourteen nights between September 15 and 30, with at least three nights in every place so you never feel like you're packing every other morning. Start with the side-by-side below, then scroll to the routes that catch your eye. I've linked my hotel guide for every stop. Once you pick a direction, I'll narrow it to a splurge and a save for each place and price them for your dates.</p>
     </div>
     <div class="sw-callout" style="max-width:760px;margin:0 auto 60px;">
       <p><strong>What to expect on price.</strong> The hotels in this proposal generally run from about &euro;1,000 to &euro;3,500 a night in late September. In the Dolomites it's more like &euro;1,000 to &euro;2,200. We can mix and match: splurge where it matters most to you and save somewhere else.</p>
-      <p><strong>Where you can't really save.</strong> I'll be upfront: on the Amalfi Coast and Lake Como, there isn't a true save option I'd send you to. The hotels worth staying at in both places are all splurges, so I've labeled them that way. The real savings are in Tuscany, on the Riviera (Grand Hotel Miramare instead of the Splendido is a great example) and in the Dolomites.</p>
+      <p><strong>Where you can't really save.</strong> I'll be upfront: on the Amalfi Coast and Lake Como, there isn't a true save option I'd send you to. The hotels worth staying at in both places are all splurges, so I've marked those stops "splurge only." The real savings are in Tuscany, on the Riviera (Grand Hotel Miramare instead of the Splendido is a great example) and in the Dolomites.</p>
     </div>
     <div class="pr-overview-head">
       <p class="pr-kicker">Side by Side</p>
@@ -170,25 +177,6 @@
     </div>
     <div class="pr-detail-grid">
       <div>
-        <div class="pr-journey">
-          <p class="pr-sub-label">The Journey</p>
-          <div class="pr-map">
-            <div class="pr-map-line"></div>
-            <div class="pr-stops">
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Naples</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Amalfi</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Rome</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Florence</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Tuscany</div></div>
-            </div>
-          </div>
-          <div class="pr-legs">
-            <span class="pr-leg">car or helicopter</span>
-            <span class="pr-leg">car or fast train</span>
-            <span class="pr-leg">90-min fast train</span>
-            <span class="pr-leg">private car</span>
-          </div>
-        </div>
         <div class="pr-step">
           <p class="pr-sub-label">Arrival</p>
           <p>Fly into Naples. A private car to the coast, or a 15-minute helicopter to the helipad at Scala, above Ravello.</p>
@@ -205,17 +193,6 @@
       </div>
       <div>
         <p class="pr-intro-p">This is the classic first trip to Italy, built for people who would rather be outside. You get the Amalfi Coast from the water, Rome in three nights instead of five, Florence from a hotel with a garden, and then real countryside during the grape harvest.</p>
-        <div class="pr-rated">
-          <p class="pr-sub-label">The Feel &middot; Rated</p>
-          <div class="pr-rated-grid">
-            <div class="pr-rate-row"><span>Outdoors</span><span class="pr-dots" data-on="3"></span></div>
-            <div class="pr-rate-row"><span>Scenery</span><span class="pr-dots" data-on="4"></span></div>
-            <div class="pr-rate-row"><span>Food &amp; wine</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Relaxed pace</span><span class="pr-dots" data-on="3"></span></div>
-            <div class="pr-rate-row"><span>Easy logistics</span><span class="pr-dots" data-on="4"></span></div>
-            <div class="pr-rate-row"><span>Away from crowds</span><span class="pr-dots" data-on="2"></span></div>
-          </div>
-        </div>
         <div class="pr-two-notes">
           <div>
             <p class="pr-sub-label">The Appeal</p>
@@ -244,115 +221,35 @@
 
     <div class="sw-block">
       <p class="pr-sub-label">Where You'd Stay</p>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>The Amalfi Coast</h4><span>4 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/tennis/il-san-pietro.jpg" alt="Il San Pietro di Positano on the cliffs" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Il San Pietro di Positano</h5>
-              <p class="sw-where">Just outside Positano</p>
-              <p class="sw-why">Carved into the cliffs just outside busy Positano, with a sunset beach club and free boat shuttles into town. It's the classic, done properly.</p>
-              <a href="../hotels/il-san-pietro-di-positano.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/hotels/santa-caterina/hero-arched-terrace.jpg" alt="The arched terrace at Hotel Santa Caterina, Amalfi" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Also a splurge</span>
-              <h5>Hotel Santa Caterina</h5>
-              <p class="sw-where">Amalfi</p>
-              <p class="sw-why">Family-owned for four generations, with a lido at the bottom of the cliff and an old-school warmth I loved when I stayed in October.</p>
-              <a href="../hotels/hotel-santa-caterina-amalfi.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">To be honest, there isn't a save option on the Amalfi Coast that I'd send you to. The good hotels there are all splurges. Le Sirenuse, Borgo Santandrea and Villa Treville are the other three I'd consider.</p>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Rome</h4><span>3 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/destinations/hotel-eden.jpg" alt="Hotel Eden, Rome" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Hotel Eden</h5>
-              <p class="sw-where">Near the Villa Borghese gardens</p>
-              <p class="sw-why">My top pick in Rome and one of my top three stays in all of Italy. The service anticipates what you need, the rooms are bright with real views, and the street is quiet while the rest of Rome is crowded.</p>
-              <a href="../hotels/hotel-eden-rome.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/hotels/casa-monti/press-terrace.jpg" alt="The rooftop terrace at Casa Monti, Rome" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Casa Monti</h5>
-              <p class="sw-where">Monti</p>
-              <p class="sw-why">A small boutique hotel surrounded by real trattorias, with a beautiful rooftop and a lovely team. Rome without the formality.</p>
-              <a href="../hotels/casa-monti-rome.html">My review</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Florence</h4><span>3 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/hotels/fs-firenze-courtyard.jpg" alt="The garden at Four Seasons Hotel Firenze" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Four Seasons Hotel Firenze</h5>
-              <p class="sw-where">Inside one of the city's largest private gardens</p>
-              <p class="sw-why">Two Renaissance palazzos and a huge garden, so it feels like a resort inside the city. The best fit in Florence for people who don't love cities.</p>
-              <a href="../hotels/four-seasons-hotel-firenze.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/florence/collegio-gardens.jpg" alt="The gardens at Collegio alla Querce above Florence" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">The hillside pick</span>
-              <h5>Collegio alla Querce</h5>
-              <p class="sw-where">The hills above Florence</p>
-              <p class="sw-why">Quiet and green, with views from almost every room. It feels like the countryside, and the city is a scenic walk away.</p>
-              <a href="../hotels/collegio-alla-querce-florence.html">My review</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Tuscany</h4><span>4 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/destinations/rosewood-castiglion.jpg" alt="Rosewood Castiglion del Bosco in the Val d'Orcia" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Rosewood Castiglion del Bosco</h5>
-              <p class="sw-where">Val d'Orcia, near Montalcino</p>
-              <p class="sw-why">My top Tuscany pick. A 5,000-acre estate with its own Brunello winery and trails, and room to roam without ever getting in the car.</p>
-              <a href="../hotels/rosewood-castiglion-del-bosco-tuscany.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/tuscany/borgo-san-felice-film/fiat-palazzo.jpg" alt="Borgo San Felice in Chianti" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Borgo San Felice</h5>
-              <p class="sw-where">Chianti, outside Siena</p>
-              <p class="sw-why">A perfectly restored medieval village among the vineyards. It's the most well-rounded borgo in Tuscany, and one of my favorite stays so far.</p>
-              <a href="../hotels/borgo-san-felice-tuscany.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">Other smart picks: <a href="../hotels/il-borro-tuscany.html">Il Borro</a>, the most authentic stay I've found in Tuscany, and <a href="../hotels/borgo-pignano-volterra-tuscany.html">Borgo Pignano</a>, a quiet hilltop borgo near Volterra.</p>
+      <div class="sw-stays">
+        <a class="sw-stay" href="../positano-hotels.html">
+          <span class="sw-stay-n">4 nights</span>
+          <span class="sw-stay-name">The Amalfi Coast</span>
+          <span class="sw-stay-tag">Splurge only</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../rome.html">
+          <span class="sw-stay-n">3 nights</span>
+          <span class="sw-stay-name">Rome</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../florence.html">
+          <span class="sw-stay-n">3 nights</span>
+          <span class="sw-stay-name">Florence</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../tuscany.html">
+          <span class="sw-stay-n">4 nights</span>
+          <span class="sw-stay-name">Tuscany</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
       </div>
     </div>
 
-    <p class="pr-finaprint"><span class="pr-fp-label">Pricing</span> &nbsp;Once you pick a direction, I'll quote both hotel tiers for your exact dates, with my Fora and Virtuoso perks: typically breakfast, a hotel credit and an upgrade when available. Transfers, the Colosseum tour and the days out are quoted separately.</p>
+    <p class="pr-finaprint"><span class="pr-fp-label">Next step</span> &nbsp;Once you choose a route, I'll narrow each stop to two hotels, a splurge and a save, and price them for your exact dates with my Fora and Virtuoso perks. Transfers, the Colosseum tour and the days out are quoted separately.</p>
   </div>
 </section>
 
@@ -378,25 +275,6 @@
     </div>
     <div class="pr-detail-grid">
       <div>
-        <div class="pr-journey">
-          <p class="pr-sub-label">The Journey</p>
-          <div class="pr-map">
-            <div class="pr-map-line"></div>
-            <div class="pr-stops">
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Florence</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Tuscany</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">S. Margherita</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Lake Como</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Milan</div></div>
-            </div>
-          </div>
-          <div class="pr-legs">
-            <span class="pr-leg">private car</span>
-            <span class="pr-leg">about 3 hours</span>
-            <span class="pr-leg">about 2&frac14; hours</span>
-            <span class="pr-leg">about 1 hour</span>
-          </div>
-        </div>
         <div class="pr-step">
           <p class="pr-sub-label">Arrival</p>
           <p>Fly into Florence, with a private car into the Tuscan hills and a day in Florence whenever you want it.</p>
@@ -413,17 +291,6 @@
       </div>
       <div>
         <p class="pr-intro-p">This is northern Italy at its most relaxed. Countryside first, then Santa Margherita Ligure, a real Riviera town where Milanese families still spend their summers, next door to Portofino. You finish on Lake Como, where the best days are spent on a boat.</p>
-        <div class="pr-rated">
-          <p class="pr-sub-label">The Feel &middot; Rated</p>
-          <div class="pr-rated-grid">
-            <div class="pr-rate-row"><span>Outdoors</span><span class="pr-dots" data-on="4"></span></div>
-            <div class="pr-rate-row"><span>Scenery</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Food &amp; wine</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Relaxed pace</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Easy logistics</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Away from crowds</span><span class="pr-dots" data-on="4"></span></div>
-          </div>
-        </div>
         <div class="pr-two-notes">
           <div>
             <p class="pr-sub-label">The Appeal</p>
@@ -452,89 +319,29 @@
 
     <div class="sw-block">
       <p class="pr-sub-label">Where You'd Stay</p>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Florence &amp; Tuscany</h4><span>5 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/destinations/rosewood-castiglion.jpg" alt="Rosewood Castiglion del Bosco in the Val d'Orcia" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Rosewood Castiglion del Bosco</h5>
-              <p class="sw-where">Val d'Orcia, near Montalcino</p>
-              <p class="sw-why">My top Tuscany pick, with 5,000 acres and its own Brunello winery. It's the farthest from Florence of these, so it's best if Florence is a maybe.</p>
-              <a href="../hotels/rosewood-castiglion-del-bosco-tuscany.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/tuscany/il-borro-village-lane-wide.jpg" alt="A lane in the medieval village at Il Borro" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Il Borro</h5>
-              <p class="sw-where">Valdarno hills, about an hour from Florence</p>
-              <p class="sw-why">A whole medieval village turned into a hotel, and the most authentic stay I've found in Tuscany. Ask for a room in the original village.</p>
-              <a href="../hotels/il-borro-tuscany.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">Also lovely: <a href="../hotels/borgo-san-felice-tuscany.html">Borgo San Felice</a> in Chianti and <a href="../hotels/borgo-pignano-volterra-tuscany.html">Borgo Pignano</a> near Volterra, which also makes the drive to the coast a little shorter.</p>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Santa Margherita &amp; Portofino</h4><span>4 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/hotels/splendido/hillside.jpg" alt="Splendido on the hillside above Portofino" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Splendido</h5>
-              <p class="sw-where">Above Portofino harbor</p>
-              <p class="sw-why">Belmond's Riviera showpiece, terraced above the harbor. The Italian Riviera at its most cinematic.</p>
-              <a href="../hotels/splendido-portofino.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/liguria/miramare-pool-bay-view.jpg" alt="The pool and bay at Grand Hotel Miramare, Santa Margherita" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Grand Hotel Miramare</h5>
-              <p class="sw-where">Santa Margherita Ligure</p>
-              <p class="sw-why">A beautifully restored grand hotel from 1904, in a real Italian beach town, at about half the price of the Splendido.</p>
-              <a href="../hotels/grand-hotel-miramare-santa-margherita.html">My review</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Lake Como</h4><span>5 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/proposals/lake-como/il-sereno/pool-deck-film.jpg" alt="The pool deck at Il Sereno, Lake Como" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Il Sereno</h5>
-              <p class="sw-where">Torno, on the water</p>
-              <p class="sw-why">The best true lakefront hotel on Lake Como, with its own fleet of Rivas. I stayed in October and couldn't find a single fault.</p>
-              <a href="../hotels/il-sereno-lake-como.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/lake-como/grand-hotel-tremezzo/facade-wide.jpg" alt="Grand Hotel Tremezzo on Lake Como" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Also a splurge</span>
-              <h5>Grand Hotel Tremezzo</h5>
-              <p class="sw-where">Tremezzo, facing Bellagio</p>
-              <p class="sw-why">Just a fun hotel. Tiered gardens, a pool on the water and lake-view junior suites looking straight across at Bellagio.</p>
-              <a href="../hotels/grand-hotel-tremezzo-lake-como.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">Like Amalfi, Lake Como doesn't really have a save tier. Both of these are splurges, and Tremezzo is the more relaxed of the two. For the biggest splurge on the lake, <a href="../hotels/passalacqua-lake-como.html">Passalacqua</a> is the other one to look at.</p>
+      <div class="sw-stays">
+        <a class="sw-stay" href="../tuscany.html">
+          <span class="sw-stay-n">5 nights</span>
+          <span class="sw-stay-name">Tuscany</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../italy.html#the-riviera">
+          <span class="sw-stay-n">4 nights</span>
+          <span class="sw-stay-name">Santa Margherita &amp; Portofino</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../lake-como.html">
+          <span class="sw-stay-n">5 nights</span>
+          <span class="sw-stay-name">Lake Como</span>
+          <span class="sw-stay-tag">Splurge only</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
       </div>
     </div>
 
-    <p class="pr-finaprint"><span class="pr-fp-label">Pricing</span> &nbsp;Once you pick a direction, I'll quote both hotel tiers for your exact dates, with my Fora and Virtuoso perks: typically breakfast, a hotel credit and an upgrade when available. Private cars, boats and the days out are quoted separately.</p>
+    <p class="pr-finaprint"><span class="pr-fp-label">Next step</span> &nbsp;Once you choose a route, I'll narrow each stop to two hotels, a splurge and a save, and price them for your exact dates with my Fora and Virtuoso perks. Private cars, boats and the days out are quoted separately.</p>
   </div>
 </section>
 
@@ -560,27 +367,6 @@
     </div>
     <div class="pr-detail-grid">
       <div>
-        <div class="pr-journey">
-          <p class="pr-sub-label">The Journey</p>
-          <div class="pr-map">
-            <div class="pr-map-line"></div>
-            <div class="pr-stops">
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Naples</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Amalfi</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Tuscany</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Lake Como</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Dolomites</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Venice</div></div>
-            </div>
-          </div>
-          <div class="pr-legs">
-            <span class="pr-leg">car or helicopter</span>
-            <span class="pr-leg">helicopter</span>
-            <span class="pr-leg">car or helicopter</span>
-            <span class="pr-leg">Stelvio Pass or helicopter</span>
-            <span class="pr-leg">car to the airport</span>
-          </div>
-        </div>
         <div class="pr-step">
           <p class="pr-sub-label">Arrival</p>
           <p>Fly into Naples, then a private car or a 15-minute helicopter to the coast.</p>
@@ -604,17 +390,6 @@
       </div>
       <div>
         <p class="pr-intro-p">This is the trip for people who want the most beautiful parts of Italy without any of the tourist cities. Every stop is about the landscape: cliffs and sea, then vineyards in the harvest, the lake by boat, and the jagged peaks of the Dolomites at the end.</p>
-        <div class="pr-rated">
-          <p class="pr-sub-label">The Feel &middot; Rated</p>
-          <div class="pr-rated-grid">
-            <div class="pr-rate-row"><span>Outdoors</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Scenery</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Food &amp; wine</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Relaxed pace</span><span class="pr-dots" data-on="2"></span></div>
-            <div class="pr-rate-row"><span>Easy logistics</span><span class="pr-dots" data-on="3"></span></div>
-            <div class="pr-rate-row"><span>Away from crowds</span><span class="pr-dots" data-on="5"></span></div>
-          </div>
-        </div>
         <div class="pr-two-notes">
           <div>
             <p class="pr-sub-label">The Appeal</p>
@@ -648,116 +423,35 @@
 
     <div class="sw-block">
       <p class="pr-sub-label">Where You'd Stay</p>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>The Amalfi Coast</h4><span>4 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/tennis/il-san-pietro.jpg" alt="Il San Pietro di Positano on the cliffs" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Il San Pietro di Positano</h5>
-              <p class="sw-where">Just outside Positano</p>
-              <p class="sw-why">The classic, done properly. On the cliffs outside Positano, with a sunset beach club and boat shuttles into town.</p>
-              <a href="../hotels/il-san-pietro-di-positano.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/hotels/santa-caterina/hero-arched-terrace.jpg" alt="The arched terrace at Hotel Santa Caterina, Amalfi" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Also a splurge</span>
-              <h5>Hotel Santa Caterina</h5>
-              <p class="sw-where">Amalfi</p>
-              <p class="sw-why">Family-run for four generations, with a lido by the sea and staff who have been there for decades.</p>
-              <a href="../hotels/hotel-santa-caterina-amalfi.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">There's no real save option on the Amalfi Coast. For a helicopter arrival at Scala, <a href="../hotels/belmond-hotel-caruso-ravello.html">Belmond Caruso</a> in Ravello is the closest of the great hotels.</p>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Tuscany</h4><span>4 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/destinations/rosewood-castiglion.jpg" alt="Rosewood Castiglion del Bosco in the Val d'Orcia" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Rosewood Castiglion del Bosco</h5>
-              <p class="sw-where">Val d'Orcia, near Montalcino</p>
-              <p class="sw-why">My top Tuscany pick. It's a 5,000-acre estate with its own Brunello winery, and you'll want a few days just to explore it.</p>
-              <a href="../hotels/rosewood-castiglion-del-bosco-tuscany.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/tuscany/borgo-san-felice-film/fiat-palazzo.jpg" alt="Borgo San Felice in Chianti" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Borgo San Felice</h5>
-              <p class="sw-where">Chianti, outside Siena</p>
-              <p class="sw-why">The most well-rounded borgo in Tuscany, and a little closer to Lake Como for the next leg.</p>
-              <a href="../hotels/borgo-san-felice-tuscany.html">My review</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Lake Como</h4><span>3 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/proposals/lake-como/il-sereno/pool-deck-film.jpg" alt="The pool deck at Il Sereno, Lake Como" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Il Sereno</h5>
-              <p class="sw-where">Torno, on the water</p>
-              <p class="sw-why">The best true lakefront hotel on the lake, with its own Rivas at the dock.</p>
-              <a href="../hotels/il-sereno-lake-como.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/lake-como/grand-hotel-tremezzo/facade-wide.jpg" alt="Grand Hotel Tremezzo on Lake Como" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Also a splurge</span>
-              <h5>Grand Hotel Tremezzo</h5>
-              <p class="sw-where">Tremezzo, facing Bellagio</p>
-              <p class="sw-why">Gardens, a pool on the water and a lot of fun, looking straight across at Bellagio.</p>
-              <a href="../hotels/grand-hotel-tremezzo-lake-como.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">There's no real save option on Lake Como either. Both of these are splurges. With only three nights here, it's a good place to spend more and save in Tuscany or the Dolomites instead.</p>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>The Dolomites</h4><span>3 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/dolomites/forestis/pool-dusk.jpg" alt="The pool at Forestis at dusk" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Forestis</h5>
-              <p class="sw-where">High above Bressanone</p>
-              <p class="sw-why">A wellness retreat with the best view of the Odle peaks of any luxury hotel in the Dolomites. It's built for peace and great food. It isn't the best base for hiking, so I'd add a guide for the big days.</p>
-              <a href="../hotels/forestis-dolomites.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/dolomites/gardena-grodnerhof/hero.jpg" alt="Gardena Grödnerhof in Ortisei" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Gardena Gr&ouml;dnerhof</h5>
-              <p class="sw-where">Ortisei, Val Gardena</p>
-              <p class="sw-why">A close second to Forestis for me, and the better base for active people. It's right in Ortisei, the best town for restaurants and hiking, with lifts from town up to Seceda.</p>
-              <a href="../hotels/gardena-grodnerhof-ortisei.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">Dolomites hotels run about &euro;1,000 to &euro;2,200 a night. Also worth a look: <a href="../hotels/aman-rosa-alpina-dolomites.html">Aman Rosa Alpina</a> in San Cassiano and <a href="../hotels/como-alpina-dolomites.html">COMO Alpina</a> up on the Alpe di Siusi.</p>
+      <div class="sw-stays">
+        <a class="sw-stay" href="../positano-hotels.html">
+          <span class="sw-stay-n">4 nights</span>
+          <span class="sw-stay-name">The Amalfi Coast</span>
+          <span class="sw-stay-tag">Splurge only</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../tuscany.html">
+          <span class="sw-stay-n">4 nights</span>
+          <span class="sw-stay-name">Tuscany</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../lake-como.html">
+          <span class="sw-stay-n">3 nights</span>
+          <span class="sw-stay-name">Lake Como</span>
+          <span class="sw-stay-tag">Splurge only</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../dolomites.html">
+          <span class="sw-stay-n">3 nights</span>
+          <span class="sw-stay-name">The Dolomites</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
       </div>
     </div>
 
-    <p class="pr-finaprint"><span class="pr-fp-label">Pricing</span> &nbsp;Once you pick a direction, I'll quote both hotel tiers for your exact dates, with my Fora and Virtuoso perks. Helicopters are quoted per flight. Plan on roughly &euro;8,000 to &euro;10,000 for Amalfi to Tuscany with the car and luggage transfers. I'll price each leg both ways (car or helicopter) so you can decide one at a time.</p>
+    <p class="pr-finaprint"><span class="pr-fp-label">Next step</span> &nbsp;Once you choose a route, I'll narrow each stop to two hotels, a splurge and a save, and price them for your exact dates with my Fora and Virtuoso perks. Helicopters are quoted per flight. Plan on roughly &euro;8,000 to &euro;10,000 for Amalfi to Tuscany with the car and luggage transfers, and I'll price every other leg both ways so you can decide one at a time.</p>
   </div>
 </section>
 
@@ -783,27 +477,6 @@
     </div>
     <div class="pr-detail-grid">
       <div>
-        <div class="pr-journey">
-          <p class="pr-sub-label">The Journey</p>
-          <div class="pr-map">
-            <div class="pr-map-line"></div>
-            <div class="pr-stops">
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Naples</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Amalfi</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Rome</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">The Train</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Dolomites</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Venice</div></div>
-            </div>
-          </div>
-          <div class="pr-legs">
-            <span class="pr-leg">car or helicopter</span>
-            <span class="pr-leg">car or fast train</span>
-            <span class="pr-leg">board in Rome</span>
-            <span class="pr-leg">car or helicopter</span>
-            <span class="pr-leg">car</span>
-          </div>
-        </div>
         <div class="pr-step">
           <p class="pr-sub-label">Arrival</p>
           <p>Fly into Naples, then a private car or a 15-minute helicopter to the coast.</p>
@@ -823,17 +496,6 @@
       </div>
       <div>
         <p class="pr-intro-p">I toured La Dolce Vita in Rome in October 2026, and it's one of the most fun things I've done in this industry. It has 1960s Italian design, a dining car run by Heinz Beck's team, Champagne in the lounge before you board, and around 40 to 60 guests on board. It turns a travel day into the highlight of the trip.</p>
-        <div class="pr-rated">
-          <p class="pr-sub-label">The Feel &middot; Rated</p>
-          <div class="pr-rated-grid">
-            <div class="pr-rate-row"><span>Outdoors</span><span class="pr-dots" data-on="4"></span></div>
-            <div class="pr-rate-row"><span>Scenery</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Food &amp; wine</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Relaxed pace</span><span class="pr-dots" data-on="3"></span></div>
-            <div class="pr-rate-row"><span>Easy logistics</span><span class="pr-dots" data-on="3"></span></div>
-            <div class="pr-rate-row"><span>Away from crowds</span><span class="pr-dots" data-on="4"></span></div>
-          </div>
-        </div>
         <div class="pr-two-notes">
           <div>
             <p class="pr-sub-label">The Appeal</p>
@@ -867,89 +529,41 @@
 
     <div class="sw-block">
       <p class="pr-sub-label">Where You'd Stay</p>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>The Amalfi Coast</h4><span>5 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/tennis/il-san-pietro.jpg" alt="Il San Pietro di Positano on the cliffs" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Il San Pietro di Positano</h5>
-              <p class="sw-where">Just outside Positano</p>
-              <p class="sw-why">The classic, done properly. With five nights, you'll really get to use the beach club and the boat.</p>
-              <a href="../hotels/il-san-pietro-di-positano.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/hotels/santa-caterina/hero-arched-terrace.jpg" alt="The arched terrace at Hotel Santa Caterina, Amalfi" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Also a splurge</span>
-              <h5>Hotel Santa Caterina</h5>
-              <p class="sw-where">Amalfi</p>
-              <p class="sw-why">Family-run, warm and old-school, with a lido right on the sea.</p>
-              <a href="../hotels/hotel-santa-caterina-amalfi.html">My review</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Rome</h4><span>2 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/hotels/la-minerva/press-suite-living.jpg" alt="A suite at Orient Express La Minerva, Rome" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Orient Express La Minerva</h5>
-              <p class="sw-where">By the Pantheon</p>
-              <p class="sw-why">Orient Express's own hotel in Rome, so it's the natural pairing with the train. It has the warmest shared spaces and the friendliest team I found in Rome.</p>
-              <a href="../hotels/orient-express-la-minerva-rome.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/hotels/casa-monti/press-terrace.jpg" alt="The rooftop terrace at Casa Monti, Rome" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Casa Monti</h5>
-              <p class="sw-where">Monti</p>
-              <p class="sw-why">A small boutique hotel with real trattorias all around and a beautiful rooftop.</p>
-              <a href="../hotels/casa-monti-rome.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">I'd pair La Minerva with the train because Orient Express runs both. If you'd rather have my favorite in Rome, <a href="../hotels/hotel-eden-rome.html">Hotel Eden</a> works just as well here.</p>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>The Dolomites</h4><span>5 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/dolomites/forestis/pool-dusk.jpg" alt="The pool at Forestis at dusk" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Forestis</h5>
-              <p class="sw-where">High above Bressanone</p>
-              <p class="sw-why">Peace, wellness, great food and the best view of the Odle peaks. It isn't the best base for hiking, so I'd book guided days out.</p>
-              <a href="../hotels/forestis-dolomites.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/dolomites/gardena-grodnerhof/hero.jpg" alt="Gardena Grödnerhof in Ortisei" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Gardena Gr&ouml;dnerhof</h5>
-              <p class="sw-where">Ortisei, Val Gardena</p>
-              <p class="sw-why">A close second to Forestis for me, and the better hiking base. It's right in Ortisei, with lifts from town up to Seceda.</p>
-              <a href="../hotels/gardena-grodnerhof-ortisei.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">Dolomites hotels run about &euro;1,000 to &euro;2,200 a night, and five nights there helps balance out the Amalfi splurge. For the last night in Venice, I'd pair the train with <a href="../orient-express-italy.html">Orient Express Venice</a>, its sister hotel, or put you at Aman Venice on the Grand Canal.</p>
+      <div class="sw-stays">
+        <a class="sw-stay" href="../positano-hotels.html">
+          <span class="sw-stay-n">5 nights</span>
+          <span class="sw-stay-name">The Amalfi Coast</span>
+          <span class="sw-stay-tag">Splurge only</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../rome.html">
+          <span class="sw-stay-n">2 nights</span>
+          <span class="sw-stay-name">Rome</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../la-dolce-vita-orient-express.html">
+          <span class="sw-stay-n">1 night</span>
+          <span class="sw-stay-name">La Dolce Vita Orient Express</span>
+          <span class="sw-stay-tag">Cabins &amp; suites</span>
+          <span class="sw-stay-go">Read about the train &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../dolomites.html">
+          <span class="sw-stay-n">5 nights</span>
+          <span class="sw-stay-name">The Dolomites</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../venice.html">
+          <span class="sw-stay-n">1 night</span>
+          <span class="sw-stay-name">Venice</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
       </div>
     </div>
 
-    <p class="pr-finaprint"><span class="pr-fp-label">Pricing</span> &nbsp;The train is priced per person by journey, cabin and date. Hotels are quoted in both tiers once you choose a direction. At La Minerva and Orient Express Venice, my clients typically get breakfast for two, a $100 hotel credit, an upgrade when available and a VIP welcome.</p>
+    <p class="pr-finaprint"><span class="pr-fp-label">Next step</span> &nbsp;Once you choose a route, I'll narrow each stop to two hotels, a splurge and a save, and price them for your exact dates with my Fora and Virtuoso perks. The train is priced per person by journey, cabin and date.</p>
   </div>
 </section>
 
@@ -975,25 +589,6 @@
     </div>
     <div class="pr-detail-grid">
       <div>
-        <div class="pr-journey">
-          <p class="pr-sub-label">The Journey</p>
-          <div class="pr-map">
-            <div class="pr-map-line"></div>
-            <div class="pr-stops">
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Venice Airport</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Dolomites</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Venice</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Tuscany</div></div>
-              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Florence</div></div>
-            </div>
-          </div>
-          <div class="pr-legs">
-            <span class="pr-leg">car or helicopter</span>
-            <span class="pr-leg">car, then water taxi</span>
-            <span class="pr-leg">fast train, then car</span>
-            <span class="pr-leg">private car</span>
-          </div>
-        </div>
         <div class="pr-step">
           <p class="pr-sub-label">Arrival</p>
           <p>Fly into Venice, and a private driver takes you straight up into the mountains, about two and a half to three hours. A helicopter is an option if you'd rather skip the drive after a long flight.</p>
@@ -1010,17 +605,6 @@
       </div>
       <div>
         <p class="pr-intro-p">This is the dream trip with a gentler rhythm. You get big mountain days in the Dolomites, a few nights in Venice from a hotel with gardens and pools on the quiet island of Giudecca, then a long, slow stretch in Tuscany. There are only three hotels, and no leg needs a helicopter.</p>
-        <div class="pr-rated">
-          <p class="pr-sub-label">The Feel &middot; Rated</p>
-          <div class="pr-rated-grid">
-            <div class="pr-rate-row"><span>Outdoors</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Scenery</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Food &amp; wine</span><span class="pr-dots" data-on="5"></span></div>
-            <div class="pr-rate-row"><span>Relaxed pace</span><span class="pr-dots" data-on="4"></span></div>
-            <div class="pr-rate-row"><span>Easy logistics</span><span class="pr-dots" data-on="4"></span></div>
-            <div class="pr-rate-row"><span>Away from crowds</span><span class="pr-dots" data-on="4"></span></div>
-          </div>
-        </div>
         <div class="pr-two-notes">
           <div>
             <p class="pr-sub-label">The Appeal</p>
@@ -1049,90 +633,29 @@
 
     <div class="sw-block">
       <p class="pr-sub-label">Where You'd Stay</p>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>The Dolomites</h4><span>5 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/dolomites/forestis/pool-dusk.jpg" alt="The pool at Forestis at dusk" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Forestis</h5>
-              <p class="sw-where">High above Bressanone</p>
-              <p class="sw-why">Peace, wellness, great food and the best view of the Odle peaks in the Dolomites. It isn't the best base for hiking, so I'd book guided days out.</p>
-              <a href="../hotels/forestis-dolomites.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/dolomites/gardena-grodnerhof/rooftop-pool.jpg" alt="The rooftop pool at Gardena Grödnerhof" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Gardena Gr&ouml;dnerhof</h5>
-              <p class="sw-where">Ortisei, Val Gardena</p>
-              <p class="sw-why">A close second to Forestis for me, and the better hiking base. It's right in Ortisei, with lifts from town up to Seceda.</p>
-              <a href="../hotels/gardena-grodnerhof-ortisei.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">Dolomites hotels run about &euro;1,000 to &euro;2,200 a night. Also worth a look: <a href="../hotels/aman-rosa-alpina-dolomites.html">Aman Rosa Alpina</a> and <a href="../hotels/como-alpina-dolomites.html">COMO Alpina</a>.</p>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Venice</h4><span>3 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/hotels/airelles-palladio-venice/garden-pool.jpg" alt="The garden pool at Airelles Palladio, Venice" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Airelles Palladio</h5>
-              <p class="sw-where">Giudecca, across the water from San Marco</p>
-              <p class="sw-why">My number one hotel in Italy. It has gardens, pools and a three-story Guerlain spa on a quiet island, which makes it the perfect Venice for people who don't love cities.</p>
-              <a href="../hotels/airelles-palladio-venice.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/hotels/orient-express-venice/press-lobby.jpg" alt="The lobby at Orient Express Venice" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Orient Express Venice</h5>
-              <p class="sw-where">Cannaregio</p>
-              <p class="sw-why">Less of a splurge than Airelles, in a palazzo restored over eight years, in a quiet but convenient corner of the city. My clients typically get breakfast, a hotel credit and an upgrade when available.</p>
-              <a href="../hotels/orient-express-venice.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">On the Grand Canal itself, <a href="../hotels/aman-venice.html">Aman Venice</a> is the other one I'd consider.</p>
-      </div>
-
-      <div class="sw-stop">
-        <div class="sw-stop-head"><h4>Tuscany</h4><span>6 nights</span></div>
-        <div class="sw-pair">
-          <div class="sw-hotel">
-            <img src="../images/destinations/rosewood-castiglion.jpg" alt="Rosewood Castiglion del Bosco in the Val d'Orcia" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip splurge">Splurge</span>
-              <h5>Rosewood Castiglion del Bosco</h5>
-              <p class="sw-where">Val d'Orcia, near Montalcino</p>
-              <p class="sw-why">My top Tuscany pick: 5,000 acres and a Brunello winery. With six nights, you'd really get to settle in.</p>
-              <a href="../hotels/rosewood-castiglion-del-bosco-tuscany.html">My review</a>
-            </div>
-          </div>
-          <div class="sw-hotel">
-            <img src="../images/tuscany/borgo-san-felice-film/fiat-palazzo.jpg" alt="Borgo San Felice in Chianti" loading="lazy">
-            <div class="sw-hotel-body">
-              <span class="sw-chip smart">Smart pick</span>
-              <h5>Borgo San Felice</h5>
-              <p class="sw-where">Chianti, outside Siena</p>
-              <p class="sw-why">The most well-rounded borgo in Tuscany, and one of my favorite stays so far.</p>
-              <a href="../hotels/borgo-san-felice-tuscany.html">My review</a>
-            </div>
-          </div>
-        </div>
-        <p class="sw-alt">Other smart picks: <a href="../hotels/il-borro-tuscany.html">Il Borro</a> and <a href="../hotels/borgo-pignano-volterra-tuscany.html">Borgo Pignano</a>. Six nights also splits nicely between two of them.</p>
+      <div class="sw-stays">
+        <a class="sw-stay" href="../dolomites.html">
+          <span class="sw-stay-n">5 nights</span>
+          <span class="sw-stay-name">The Dolomites</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../venice.html">
+          <span class="sw-stay-n">3 nights</span>
+          <span class="sw-stay-name">Venice</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
+        <a class="sw-stay" href="../tuscany.html">
+          <span class="sw-stay-n">6 nights</span>
+          <span class="sw-stay-name">Tuscany</span>
+          <span class="sw-stay-tag">Splurge or save</span>
+          <span class="sw-stay-go">See my hotel guide &rarr;</span>
+        </a>
       </div>
     </div>
 
-    <p class="pr-finaprint"><span class="pr-fp-label">Pricing</span> &nbsp;Once you pick a direction, I'll quote both hotel tiers for your exact dates, with my Fora and Virtuoso perks. Private cars, water taxis, the train and the days out are quoted separately.</p>
+    <p class="pr-finaprint"><span class="pr-fp-label">Next step</span> &nbsp;Once you choose a route, I'll narrow each stop to two hotels, a splurge and a save, and price them for your exact dates with my Fora and Virtuoso perks. Private cars, water taxis, the train and the days out are quoted separately.</p>
   </div>
 </section>
 
@@ -1140,7 +663,7 @@
 <section class="pr-closing" style="background-image:url('../images/tuscany/il-borro-estate-sunset.jpg');">
   <div class="pr-closing-inner">
     <h2>Tell me which one you love</h2>
-    <p>Pick a route, or the parts of two you like best, and tell me whether you're leaning splurge or smart pick. I'll come back with exact dates, real prices and the days out built in.</p>
+    <p>Pick a route, or the parts of two you like best, and tell me whether you're leaning splurge or save. I'll come back with exact dates, real prices and the days out built in.</p>
     <a href="mailto:keith.pence@fora.travel" class="btn btn-tan">Email Keith</a>
   </div>
 </section>
