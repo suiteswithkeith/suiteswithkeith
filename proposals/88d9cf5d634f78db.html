@@ -41,6 +41,9 @@
   .sw-hello p { font-family: var(--font-display); font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.5; margin: 0 0 16px; }
   .sw-hello p.sw-small { font-family: var(--font-body); font-size: 0.95rem; color: var(--ink-soft); line-height: 1.65; }
   .pr-itin-card a { color: inherit; text-decoration: none; }
+  .sw-five { grid-template-columns: repeat(3, 1fr); row-gap: 44px; }
+  @media (max-width: 1000px) { .sw-five { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .sw-five { grid-template-columns: 1fr; } .pr-compare table { min-width: 720px; } }
   .pr-stop .pr-place { font-size: 0.74rem; }
   @media (max-width: 860px) {
     .sw-pair, .sw-days { grid-template-columns: 1fr; }
@@ -60,7 +63,7 @@
     <p class="pr-eyebrow">A Private Italy Proposal</p>
     <h1>Italy, Outdoors</h1>
     <div class="pr-divider-line"></div>
-    <p class="pr-sub">Four ways to spend two weeks in Italy, built around the coast, the countryside, the lakes and the mountains. September 2027.</p>
+    <p class="pr-sub">Five ways to spend two weeks in Italy, built around the coast, the countryside, the lakes and the mountains. September 2027.</p>
     <p class="pr-prepared">Prepared For</p>
     <div class="pr-prepared-name">Ellen &amp; Barrett</div>
   </div>
@@ -81,10 +84,10 @@
     </div>
     <div class="pr-overview-head">
       <p class="pr-kicker">The Collection</p>
-      <h2 class="pr-h2">Four Ways to Do Italy</h2>
+      <h2 class="pr-h2">Five Ways to Do Italy</h2>
       <p class="pr-lead">About fourteen nights each &middot; three nights minimum per stop &middot; late September, harvest season</p>
     </div>
-    <div class="pr-three pr-three-4">
+    <div class="pr-three sw-five">
       <div class="pr-itin-card"><a href="#one">
         <p class="pr-num">Itinerary One</p>
         <h3>The Classic, Done Outdoors</h3>
@@ -112,6 +115,13 @@
         <p class="pr-tier">The most memorable</p>
         <p class="pr-route"><strong>Amalfi</strong> &rarr; <strong>Rome</strong> &rarr; <strong>La Dolce Vita</strong> &rarr; <strong>Dolomites</strong></p>
         <p class="pr-blurb">The coast and Rome, then a night on Italy's most glamorous train via Portofino to Venice, and up into the mountains.</p>
+      </a></div>
+      <div class="pr-itin-card"><a href="#five">
+        <p class="pr-num">Itinerary Five</p>
+        <h3>Mountains, Lagoon &amp; Vineyards</h3>
+        <p class="pr-tier">The dream, at a calmer pace</p>
+        <p class="pr-route"><strong>Dolomites</strong> &rarr; <strong>Venice</strong> &rarr; <strong>Tuscany</strong></p>
+        <p class="pr-blurb">The mountains first while everything is still open, Venice from a quiet island, then a slow finish in the vineyards.</p>
       </a></div>
     </div>
     <p class="pr-note">These are starting points, not fixed packages. Any stop can grow or shrink by a night, and any hotel can be swapped.</p>
@@ -189,7 +199,7 @@
           </div>
           <div>
             <p class="pr-sub-label">Worth Noting</p>
-            <p>The most city time of the four &middot; four hotel changes &middot; Rome and Florence are still busy in late September.</p>
+            <p>The most city time of the five &middot; four hotel changes &middot; Rome and Florence are still busy in late September.</p>
           </div>
         </div>
         <p class="pr-take"><strong>Keith's take:</strong> If you've never been and want to see the famous parts without the trip feeling like a checklist, this is the one. Rome gets three nights and one great morning, and the rest is outside.</p>
@@ -242,13 +252,13 @@
         <div class="sw-stop-head"><h4>Rome</h4><span>3 nights</span></div>
         <div class="sw-pair">
           <div class="sw-hotel">
-            <img src="../images/destinations/de-russie.jpg" alt="The garden courtyard at Hotel de Russie, Rome" loading="lazy">
+            <img src="../images/destinations/hotel-eden.jpg" alt="Hotel Eden, Rome" loading="lazy">
             <div class="sw-hotel-body">
               <span class="sw-chip splurge">Splurge</span>
-              <h5>Hotel de Russie</h5>
-              <p class="sw-where">Piazza del Popolo</p>
-              <p class="sw-why">I loved this hotel. A big garden courtyard, a real spa with an indoor pool and a calm base in the middle of Rome.</p>
-              <a href="../hotels/hotel-de-russie-rome.html">My review</a>
+              <h5>Hotel Eden</h5>
+              <p class="sw-where">Near the Villa Borghese gardens</p>
+              <p class="sw-why">My top pick in Rome and one of my top three stays in all of Italy. The service anticipates what you need, the rooms are bright with real views, and the street is quiet while the rest of Rome is crowded.</p>
+              <a href="../hotels/hotel-eden-rome.html">My review</a>
             </div>
           </div>
           <div class="sw-hotel">
@@ -371,7 +381,7 @@
           <p class="pr-sub-label">Departure</p>
           <p>Lake Como to Milan Malpensa, about an hour by car.</p>
         </div>
-        <p class="pr-desc">This is the easiest route of the four: three bases, nothing long between them, and an open-jaw flight from Florence home out of Milan. Florence is a day trip, not a stay.</p>
+        <p class="pr-desc">This is the easiest route here: three bases, nothing long between them, and an open-jaw flight from Florence home out of Milan. Florence is a day trip, not a stay.</p>
       </div>
       <div>
         <p class="pr-intro-p">This is northern Italy at its most relaxed. Countryside first, then Santa Margherita Ligure, a real Riviera town where Milanese families still spend their summers, next door to Portofino. You finish on Lake Como, where the best days are spent on a boat.</p>
@@ -576,7 +586,7 @@
         <div class="pr-two-notes">
           <div>
             <p class="pr-sub-label">The Appeal</p>
-            <p>Four completely different landscapes &middot; zero big cities &middot; the best hiking of the four routes &middot; a true once-in-a-lifetime trip.</p>
+            <p>Four completely different landscapes &middot; zero big cities &middot; the most variety of any route &middot; a true once-in-a-lifetime trip.</p>
           </div>
           <div>
             <p class="pr-sub-label">Worth Noting</p>
@@ -872,6 +882,7 @@
             </div>
           </div>
         </div>
+        <p class="sw-alt">I'd pair La Minerva with the train because Orient Express runs both. If you'd rather have my favorite in Rome, <a href="../hotels/hotel-eden-rome.html">Hotel Eden</a> works just as well here.</p>
       </div>
 
       <div class="sw-stop">
@@ -906,6 +917,185 @@
   </div>
 </section>
 
+<!-- ============ ITINERARY FIVE ============ -->
+<section class="pr-opener" id="five" style="background-image:url('../images/dolomites/gardena-grodnerhof/hero.jpg');">
+  <div class="container-pr">
+    <p class="pr-kicker">Itinerary Five &middot; The dream, at a calmer pace</p>
+    <h2>Mountains, Lagoon &amp; Vineyards</h2>
+    <p class="pr-pair">Dolomites &nbsp;&rarr;&nbsp; Venice &nbsp;&rarr;&nbsp; Tuscany</p>
+    <p class="pr-opener-sub">Three bases, no helicopters needed, and the mountains at the start of the trip while the lifts and huts are all still open.</p>
+  </div>
+</section>
+
+<section class="pr-section">
+  <div class="container-pr">
+    <div class="pr-detail-head">
+      <h3>Mountains, Lagoon &amp; Vineyards</h3>
+      <span class="pr-route-label">Dolomites 5 &middot; Venice 3 &middot; Tuscany 6 &middot; 14 Nights</span>
+    </div>
+    <div class="pr-detail-grid">
+      <div>
+        <div class="pr-journey">
+          <p class="pr-sub-label">The Journey</p>
+          <div class="pr-map">
+            <div class="pr-map-line"></div>
+            <div class="pr-stops">
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Venice Airport</div></div>
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Dolomites</div></div>
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Venice</div></div>
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Tuscany</div></div>
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Florence</div></div>
+            </div>
+          </div>
+          <div class="pr-legs">
+            <span class="pr-leg">car or helicopter</span>
+            <span class="pr-leg">car, then water taxi</span>
+            <span class="pr-leg">fast train, then car</span>
+            <span class="pr-leg">private car</span>
+          </div>
+        </div>
+        <div class="pr-step">
+          <p class="pr-sub-label">Arrival</p>
+          <p>Fly into Venice, and a private driver takes you straight up into the mountains, about two and a half to three hours. A helicopter is an option if you'd rather skip the drive after a long flight.</p>
+        </div>
+        <div class="pr-step">
+          <p class="pr-sub-label">In Between</p>
+          <p>A private car back down to the edge of Venice, then a water taxi to your hotel's dock. From Venice, the fast train to Florence takes a little over two hours, with porters at both stations and a driver waiting to take you out into the hills.</p>
+        </div>
+        <div class="pr-step">
+          <p class="pr-sub-label">Departure</p>
+          <p>Fly home from Florence, or drive to Rome for more flight options.</p>
+        </div>
+        <p class="pr-desc">Putting the mountains first matters in late September. Some huts and lifts start closing toward the end of the month, so doing the Dolomites around the 15th gets you the best of the hiking. You finish slowly, in the vineyards, during the harvest.</p>
+      </div>
+      <div>
+        <p class="pr-intro-p">This is the dream trip with a gentler rhythm. You get big mountain days in the Dolomites, a few nights in Venice from a hotel with gardens and pools on the quiet island of Giudecca, then a long, slow stretch in Tuscany. There are only three hotels, and no leg needs a helicopter.</p>
+        <div class="pr-rated">
+          <p class="pr-sub-label">The Feel &middot; Rated</p>
+          <div class="pr-rated-grid">
+            <div class="pr-rate-row"><span>Outdoors</span><span class="pr-dots" data-on="5"></span></div>
+            <div class="pr-rate-row"><span>Scenery</span><span class="pr-dots" data-on="5"></span></div>
+            <div class="pr-rate-row"><span>Food &amp; wine</span><span class="pr-dots" data-on="5"></span></div>
+            <div class="pr-rate-row"><span>Relaxed pace</span><span class="pr-dots" data-on="4"></span></div>
+            <div class="pr-rate-row"><span>Easy logistics</span><span class="pr-dots" data-on="4"></span></div>
+            <div class="pr-rate-row"><span>Away from crowds</span><span class="pr-dots" data-on="4"></span></div>
+          </div>
+        </div>
+        <div class="pr-two-notes">
+          <div>
+            <p class="pr-sub-label">The Appeal</p>
+            <p>Only three hotels &middot; the Dolomites while everything is open &middot; Venice without the crowds &middot; six nights to unwind in Tuscany.</p>
+          </div>
+          <div>
+            <p class="pr-sub-label">Worth Noting</p>
+            <p>No sea or beach days &middot; Venice is still a city, even from Giudecca &middot; the mountains can be cool in late September.</p>
+          </div>
+        </div>
+        <p class="pr-take"><strong>Keith's take:</strong> If the Dolomites are the part that excites you most, this is the one. It has most of the magic of the dream trip, with one less hotel change and no helicopter bill.</p>
+      </div>
+    </div>
+
+    <div class="sw-block">
+      <p class="pr-sub-label">Days Out</p>
+      <ul class="sw-days">
+        <li><strong>Seceda.</strong> Take the lift up from Ortisei and hike the ridge, with lunch at a mountain hut.</li>
+        <li><strong>The Alpe di Siusi.</strong> E-bikes across Europe's largest high-alpine meadow, with the peaks all around.</li>
+        <li><strong>Lago di Braies.</strong> A walk around the lake early in the morning, before the day-trippers arrive.</li>
+        <li><strong>The lagoon by private boat.</strong> Burano and Torcello, the quiet islands most visitors never reach, with lunch on the water.</li>
+        <li><strong>Venice early.</strong> St. Mark's and the back canals at sunrise, when the city is still empty.</li>
+        <li><strong>The harvest.</strong> E-bikes through the vineyards, a truffle hunt and a long lunch in a cellar.</li>
+      </ul>
+    </div>
+
+    <div class="sw-block">
+      <p class="pr-sub-label">Where You'd Stay</p>
+
+      <div class="sw-stop">
+        <div class="sw-stop-head"><h4>The Dolomites</h4><span>5 nights</span></div>
+        <div class="sw-pair">
+          <div class="sw-hotel">
+            <img src="../images/dolomites/forestis/pool-dusk.jpg" alt="The pool at Forestis at dusk" loading="lazy">
+            <div class="sw-hotel-body">
+              <span class="sw-chip splurge">Splurge</span>
+              <h5>Forestis</h5>
+              <p class="sw-where">High above Bressanone</p>
+              <p class="sw-why">Peace, wellness, great food and the best view of the Odle peaks in the Dolomites. It isn't the best base for hiking, so I'd book guided days out.</p>
+              <a href="../hotels/forestis-dolomites.html">My review</a>
+            </div>
+          </div>
+          <div class="sw-hotel">
+            <img src="../images/dolomites/gardena-grodnerhof/rooftop-pool.jpg" alt="The rooftop pool at Gardena Grödnerhof" loading="lazy">
+            <div class="sw-hotel-body">
+              <span class="sw-chip smart">Smart pick</span>
+              <h5>Gardena Gr&ouml;dnerhof</h5>
+              <p class="sw-where">Ortisei, Val Gardena</p>
+              <p class="sw-why">A close second to Forestis for me, and the better hiking base. It's right in Ortisei, with lifts from town up to Seceda.</p>
+              <a href="../hotels/gardena-grodnerhof-ortisei.html">My review</a>
+            </div>
+          </div>
+        </div>
+        <p class="sw-alt">Dolomites hotels run about &euro;1,000 to &euro;2,200 a night. Also worth a look: <a href="../hotels/aman-rosa-alpina-dolomites.html">Aman Rosa Alpina</a> and <a href="../hotels/como-alpina-dolomites.html">COMO Alpina</a>.</p>
+      </div>
+
+      <div class="sw-stop">
+        <div class="sw-stop-head"><h4>Venice</h4><span>3 nights</span></div>
+        <div class="sw-pair">
+          <div class="sw-hotel">
+            <img src="../images/hotels/airelles-palladio-venice/garden-pool.jpg" alt="The garden pool at Airelles Palladio, Venice" loading="lazy">
+            <div class="sw-hotel-body">
+              <span class="sw-chip splurge">Splurge</span>
+              <h5>Airelles Palladio</h5>
+              <p class="sw-where">Giudecca, across the water from San Marco</p>
+              <p class="sw-why">My number one hotel in Italy. It has gardens, pools and a three-story Guerlain spa on a quiet island, which makes it the perfect Venice for people who don't love cities.</p>
+              <a href="../hotels/airelles-palladio-venice.html">My review</a>
+            </div>
+          </div>
+          <div class="sw-hotel">
+            <img src="../images/hotels/orient-express-venice/press-lobby.jpg" alt="The lobby at Orient Express Venice" loading="lazy">
+            <div class="sw-hotel-body">
+              <span class="sw-chip smart">The other pick</span>
+              <h5>Orient Express Venice</h5>
+              <p class="sw-where">Cannaregio</p>
+              <p class="sw-why">A palazzo restored over eight years, in a quiet but convenient corner of the city. My clients typically get breakfast, a hotel credit and an upgrade when available.</p>
+              <a href="../hotels/orient-express-venice.html">My review</a>
+            </div>
+          </div>
+        </div>
+        <p class="sw-alt">On the Grand Canal itself, <a href="../hotels/aman-venice.html">Aman Venice</a> is the other one I'd consider.</p>
+      </div>
+
+      <div class="sw-stop">
+        <div class="sw-stop-head"><h4>Tuscany</h4><span>6 nights</span></div>
+        <div class="sw-pair">
+          <div class="sw-hotel">
+            <img src="../images/destinations/rosewood-castiglion.jpg" alt="Rosewood Castiglion del Bosco in the Val d'Orcia" loading="lazy">
+            <div class="sw-hotel-body">
+              <span class="sw-chip splurge">Splurge</span>
+              <h5>Rosewood Castiglion del Bosco</h5>
+              <p class="sw-where">Val d'Orcia, near Montalcino</p>
+              <p class="sw-why">My top Tuscany pick: 5,000 acres and a Brunello winery. With six nights, you'd really get to settle in.</p>
+              <a href="../hotels/rosewood-castiglion-del-bosco-tuscany.html">My review</a>
+            </div>
+          </div>
+          <div class="sw-hotel">
+            <img src="../images/tuscany/borgo-san-felice-film/fiat-palazzo.jpg" alt="Borgo San Felice in Chianti" loading="lazy">
+            <div class="sw-hotel-body">
+              <span class="sw-chip smart">Smart pick</span>
+              <h5>Borgo San Felice</h5>
+              <p class="sw-where">Chianti, outside Siena</p>
+              <p class="sw-why">The most well-rounded borgo in Tuscany, and one of my favorite stays so far.</p>
+              <a href="../hotels/borgo-san-felice-tuscany.html">My review</a>
+            </div>
+          </div>
+        </div>
+        <p class="sw-alt">Other smart picks: <a href="../hotels/il-borro-tuscany.html">Il Borro</a> and <a href="../hotels/borgo-pignano-volterra-tuscany.html">Borgo Pignano</a>. Six nights also splits nicely between two of them.</p>
+      </div>
+    </div>
+
+    <p class="pr-finaprint"><span class="pr-fp-label">Pricing</span> &nbsp;Once you pick a direction, I'll quote both hotel tiers for your exact dates, with my Fora and Virtuoso perks. Private cars, water taxis, the train and the days out are quoted separately.</p>
+  </div>
+</section>
+
 <div class="pr-band-img" style="background-image:url('../images/tuscany/borgo-san-felice-vineyard-aerial.jpg');"></div>
 
 <!-- ============ COMPARISON ============ -->
@@ -913,7 +1103,7 @@
   <div class="container-pr">
     <div class="pr-overview-head">
       <p class="pr-kicker">Side by Side</p>
-      <h2 class="pr-h2">The Four, Compared</h2>
+      <h2 class="pr-h2">The Five, Compared</h2>
     </div>
     <div class="pr-compare-wrap">
       <table>
@@ -924,19 +1114,20 @@
             <th><span class="pr-col-num">Two</span>Riviera &amp; Lake</th>
             <th><span class="pr-col-num">Three</span>The Dream</th>
             <th><span class="pr-col-num">Four</span>Orient Express</th>
+            <th><span class="pr-col-num">Five</span>Mountains &amp; Vineyards</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>Outdoors</td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
-          <tr><td>Scenery</td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
-          <tr><td>Food &amp; wine</td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
-          <tr><td>Relaxed pace</td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="2"></span></td><td><span class="pr-dots" data-on="3"></span></td></tr>
-          <tr><td>Easy logistics</td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="3"></span></td></tr>
-          <tr><td>Away from crowds</td><td><span class="pr-dots" data-on="2"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
-          <tr><td>Hotel changes</td><td class="pr-txt">Four</td><td class="pr-txt">Three</td><td class="pr-txt">Four</td><td class="pr-txt">Four, plus the train</td></tr>
-          <tr><td>Big-city time</td><td class="pr-txt">Rome &amp; Florence</td><td class="pr-txt">A Florence day</td><td class="pr-txt">None</td><td class="pr-txt">Rome, one Venice night</td></tr>
-          <tr><td>Best suited for</td><td class="pr-txt">A first trip to Italy</td><td class="pr-txt">Truly relaxing</td><td class="pr-txt">Hikers &amp; dreamers</td><td class="pr-txt">A trip with a story</td></tr>
-          <tr class="pr-rec"><td>Keith's recommendation</td><td>Most classic</td><td>Most relaxed</td><td>The dream</td><td>Most memorable</td></tr>
+          <tr><td>Outdoors</td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
+          <tr><td>Scenery</td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
+          <tr><td>Food &amp; wine</td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
+          <tr><td>Relaxed pace</td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="2"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
+          <tr><td>Easy logistics</td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
+          <tr><td>Away from crowds</td><td><span class="pr-dots" data-on="2"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
+          <tr><td>Hotel changes</td><td class="pr-txt">Four</td><td class="pr-txt">Three</td><td class="pr-txt">Four</td><td class="pr-txt">Four, plus the train</td><td class="pr-txt">Three</td></tr>
+          <tr><td>Big-city time</td><td class="pr-txt">Rome &amp; Florence</td><td class="pr-txt">A Florence day</td><td class="pr-txt">None</td><td class="pr-txt">Rome, one Venice night</td><td class="pr-txt">Venice, from Giudecca</td></tr>
+          <tr><td>Best suited for</td><td class="pr-txt">A first trip to Italy</td><td class="pr-txt">Truly relaxing</td><td class="pr-txt">Hikers &amp; dreamers</td><td class="pr-txt">A trip with a story</td><td class="pr-txt">Mountain lovers</td></tr>
+          <tr class="pr-rec"><td>Keith's recommendation</td><td>Most classic</td><td>Most relaxed</td><td>The dream</td><td>Most memorable</td><td>The calmer dream</td></tr>
         </tbody>
       </table>
     </div>
