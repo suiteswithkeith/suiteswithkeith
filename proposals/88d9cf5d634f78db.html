@@ -41,6 +41,28 @@
   .sw-hello p { font-family: var(--font-display); font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.5; margin: 0 0 16px; }
   .sw-hello p.sw-small { font-family: var(--font-body); font-size: 0.95rem; color: var(--ink-soft); line-height: 1.65; }
   .pr-itin-card a { color: inherit; text-decoration: none; }
+  .sw-mapwrap { margin: 0 0 44px; }
+  .sw-map { height: min(62vh, 520px); min-height: 360px; border: 1px solid var(--hairline); background: #E9E5DA; }
+  .sw-map .leaflet-tile-pane { filter: grayscale(1) sepia(.18) contrast(.92) brightness(1.04); }
+  .sw-map .leaflet-control-attribution { font-size: 10px !important; background: rgba(242,239,230,.85) !important; }
+  .sw-map .leaflet-bar { border-radius: 0 !important; border: 1px solid var(--hairline) !important; box-shadow: none !important; }
+  .sw-map .leaflet-bar a { border-radius: 0 !important; color: var(--charcoal) !important; }
+  .sw-pin { display: inline-flex; flex-direction: column; align-items: flex-start; transform: translate(12px, -50%); white-space: nowrap; }
+  .sw-pin.l { align-items: flex-end; transform: translate(calc(-100% - 12px), -50%); }
+  .sw-pin.t { align-items: center; transform: translate(-50%, calc(-100% - 10px)); }
+  .sw-pin b { background: var(--charcoal); color: var(--cream); border: 1px solid var(--cream); font-family: var(--font-body); font-weight: 500; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; padding: 5px 9px; line-height: 1.2; }
+  .sw-pin i { font-family: var(--font-display); font-style: italic; font-size: 11.5px; color: var(--charcoal); background: rgba(242,239,230,.92); padding: 1px 6px; margin-top: 2px; }
+  .sw-pin.air b { background: var(--olive); }
+  .sw-pin.via b { background: var(--cream); color: var(--charcoal); border-color: var(--tan-deep); font-size: 9.5px; }
+  .sw-legend { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; font-size: 0.8rem; color: var(--ink-soft); }
+  .sw-legend span { display: inline-flex; align-items: center; gap: 8px; }
+  .sw-legend svg { flex: none; }
+  .sw-top-table thead a { color: inherit; text-decoration: none; }
+  .sw-top-table .sw-route { font-size: 0.8rem; line-height: 1.45; color: var(--charcoal); }
+  .sw-top-table td { min-width: 120px; }
+  .sw-see { color: var(--tan-text); text-decoration: none; border-bottom: 1px solid currentColor; font-size: 0.78rem; letter-spacing: .06em; }
+  .sw-swipe { display: none; font-size: 0.75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); text-align: right; margin: 0 0 8px; }
+  @media (max-width: 860px) { .sw-swipe { display: block; } .pr-compare .sw-top-table { min-width: 860px; } .sw-map { min-height: 320px; height: 52vh; } }
   .sw-five { grid-template-columns: repeat(3, 1fr); row-gap: 44px; }
   @media (max-width: 1000px) { .sw-five { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 640px) { .sw-five { grid-template-columns: 1fr; } .pr-compare table { min-width: 720px; } }
@@ -83,48 +105,46 @@
       <p><strong>Where you can't really save.</strong> I'll be upfront: on the Amalfi Coast and Lake Como, there isn't a true save option I'd send you to. The hotels worth staying at in both places are all splurges, so I've labeled them that way. The real savings are in Tuscany, on the Riviera (Grand Hotel Miramare instead of the Splendido is a great example) and in the Dolomites.</p>
     </div>
     <div class="pr-overview-head">
-      <p class="pr-kicker">The Collection</p>
+      <p class="pr-kicker">Side by Side</p>
       <h2 class="pr-h2">Five Ways to Do Italy</h2>
       <p class="pr-lead">About fourteen nights each &middot; three nights minimum per stop &middot; late September, harvest season</p>
     </div>
-    <div class="pr-three sw-five">
-      <div class="pr-itin-card"><a href="#one">
-        <p class="pr-num">Itinerary One</p>
-        <h3>The Classic, Done Outdoors</h3>
-        <p class="pr-tier">A taste of everything</p>
-        <p class="pr-route"><strong>Amalfi</strong> &rarr; <strong>Rome</strong> &rarr; <strong>Florence</strong> &rarr; <strong>Tuscany</strong></p>
-        <p class="pr-blurb">The coast first, a short dose of Rome with a private Colosseum tour, then Florence and the countryside.</p>
-      </a></div>
-      <div class="pr-itin-card"><a href="#two">
-        <p class="pr-num">Itinerary Two</p>
-        <h3>The Riviera &amp; the Lake</h3>
-        <p class="pr-tier">The most relaxed</p>
-        <p class="pr-route"><strong>Tuscany</strong> &rarr; <strong>Santa Margherita</strong> &rarr; <strong>Lake Como</strong></p>
-        <p class="pr-blurb">Three stops, short drives and no big cities. Vineyards, then the sea, then the lake.</p>
-      </a></div>
-      <div class="pr-itin-card"><a href="#three">
-        <p class="pr-num">Itinerary Three</p>
-        <h3>The Dream Trip</h3>
-        <p class="pr-tier">Italy without the tourist cities</p>
-        <p class="pr-route"><strong>Amalfi</strong> &rarr; <strong>Tuscany</strong> &rarr; <strong>Lake Como</strong> &rarr; <strong>Dolomites</strong></p>
-        <p class="pr-blurb">The four most beautiful landscapes in the country, joined by helicopter where the road is the long way round.</p>
-      </a></div>
-      <div class="pr-itin-card"><a href="#four">
-        <p class="pr-num">Itinerary Four</p>
-        <h3>The Orient Express</h3>
-        <p class="pr-tier">The most memorable</p>
-        <p class="pr-route"><strong>Amalfi</strong> &rarr; <strong>Rome</strong> &rarr; <strong>La Dolce Vita</strong> &rarr; <strong>Dolomites</strong></p>
-        <p class="pr-blurb">The coast and Rome, then a night on Italy's most glamorous train via Portofino to Venice, and up into the mountains.</p>
-      </a></div>
-      <div class="pr-itin-card"><a href="#five">
-        <p class="pr-num">Itinerary Five</p>
-        <h3>Mountains, Lagoon &amp; Vineyards</h3>
-        <p class="pr-tier">The dream, at a calmer pace</p>
-        <p class="pr-route"><strong>Dolomites</strong> &rarr; <strong>Venice</strong> &rarr; <strong>Tuscany</strong></p>
-        <p class="pr-blurb">The mountains first while everything is still open, Venice from a quiet island, then a slow finish in the vineyards.</p>
-      </a></div>
+    <div class="pr-compare">
+      <p class="sw-swipe">Swipe to see all five &rarr;</p>
+      <div class="pr-compare-wrap">
+        <table class="sw-top-table">
+          <thead>
+          <tr>
+            <th></th>
+            <th><a href="#one"><span class="pr-col-num">One</span>The Classic</a></th>
+            <th><a href="#two"><span class="pr-col-num">Two</span>Riviera &amp; Lake</a></th>
+            <th><a href="#three"><span class="pr-col-num">Three</span>The Dream</a></th>
+            <th><a href="#four"><span class="pr-col-num">Four</span>Orient Express</a></th>
+            <th><a href="#five"><span class="pr-col-num">Five</span>Mountains &amp; Vineyards</a></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr><td>In a phrase</td><td class="pr-txt">A taste of everything</td><td class="pr-txt">The most relaxed</td><td class="pr-txt">Italy without the tourist cities</td><td class="pr-txt">The most memorable</td><td class="pr-txt">The dream, at a calmer pace</td></tr>
+          <tr><td>The route</td><td class="sw-route">Amalfi 4 &middot; Rome 3 &middot; Florence 3 &middot; Tuscany 4</td><td class="sw-route">Tuscany 5 &middot; Santa Margherita 4 &middot; Lake Como 5</td><td class="sw-route">Amalfi 4 &middot; Tuscany 4 &middot; Lake Como 3 &middot; Dolomites 3</td><td class="sw-route">Amalfi 5 &middot; Rome 2 &middot; Train 1 &middot; Dolomites 5 &middot; Venice 1</td><td class="sw-route">Dolomites 5 &middot; Venice 3 &middot; Tuscany 6</td></tr>
+          <tr><td>Fly in &rarr; fly home</td><td class="sw-route">Naples &rarr; Florence</td><td class="sw-route">Florence &rarr; Milan</td><td class="sw-route">Naples &rarr; Venice</td><td class="sw-route">Naples &rarr; Venice</td><td class="sw-route">Venice &rarr; Florence</td></tr>
+          <tr><td>Getting around</td><td class="sw-route">Private cars and fast trains</td><td class="sw-route">Private cars, short drives</td><td class="sw-route">Helicopter, cars and the Stelvio Pass</td><td class="sw-route">The Orient Express and cars</td><td class="sw-route">Cars, a water taxi and the fast train</td></tr>
+
+          <tr><td>Outdoors</td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
+          <tr><td>Scenery</td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
+          <tr><td>Food &amp; wine</td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
+          <tr><td>Relaxed pace</td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="2"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
+          <tr><td>Easy logistics</td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
+          <tr><td>Away from crowds</td><td><span class="pr-dots" data-on="2"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
+          <tr><td>Hotel changes</td><td class="pr-txt">Four</td><td class="pr-txt">Three</td><td class="pr-txt">Four</td><td class="pr-txt">Four, plus the train</td><td class="pr-txt">Three</td></tr>
+          <tr><td>Big-city time</td><td class="pr-txt">Rome &amp; Florence</td><td class="pr-txt">A Florence day</td><td class="pr-txt">None</td><td class="pr-txt">Rome, one Venice night</td><td class="pr-txt">Venice, from Giudecca</td></tr>
+          <tr><td>Best suited for</td><td class="pr-txt">A first trip to Italy</td><td class="pr-txt">Truly relaxing</td><td class="pr-txt">Hikers &amp; dreamers</td><td class="pr-txt">A trip with a story</td><td class="pr-txt">Mountain lovers</td></tr>
+          <tr class="pr-rec"><td>Keith's recommendation</td><td>Most classic</td><td>Most relaxed</td><td>The dream</td><td>Most memorable</td><td>The calmer dream</td></tr>
+                  <tr><td></td><td class="sw-route"><a class="sw-see" href="#one">See the route &darr;</a></td><td class="sw-route"><a class="sw-see" href="#two">See the route &darr;</a></td><td class="sw-route"><a class="sw-see" href="#three">See the route &darr;</a></td><td class="sw-route"><a class="sw-see" href="#four">See the route &darr;</a></td><td class="sw-route"><a class="sw-see" href="#five">See the route &darr;</a></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <p class="pr-note">These are starting points, not fixed packages. Any stop can grow or shrink by a night, and any hotel can be swapped.</p>
+    <p class="pr-note">The ratings are my honest read on these routes for people who would rather be outside than in a museum. They're starting points, not fixed packages. Any stop can grow or shrink by a night, and any hotel can be swapped between routes.</p>
   </div>
 </section>
 
@@ -143,6 +163,10 @@
     <div class="pr-detail-head">
       <h3>The Classic, Done Outdoors</h3>
       <span class="pr-route-label">Amalfi 4 &middot; Rome 3 &middot; Florence 3 &middot; Tuscany 4 &middot; 14 Nights</span>
+    </div>
+    <div class="sw-mapwrap">
+      <div class="sw-map" data-route="one" role="img" aria-label="Map of Itinerary One: Naples, the Amalfi Coast, Rome, Florence and Tuscany"></div>
+      <div class="sw-legend" data-legend="one"></div>
     </div>
     <div class="pr-detail-grid">
       <div>
@@ -348,6 +372,10 @@
       <h3>The Riviera &amp; the Lake</h3>
       <span class="pr-route-label">Tuscany 5 &middot; Santa Margherita 4 &middot; Lake Como 5 &middot; 14 Nights</span>
     </div>
+    <div class="sw-mapwrap">
+      <div class="sw-map" data-route="two" role="img" aria-label="Map of Itinerary Two: Florence, Tuscany, Santa Margherita and Lake Como"></div>
+      <div class="sw-legend" data-legend="two"></div>
+    </div>
     <div class="pr-detail-grid">
       <div>
         <div class="pr-journey">
@@ -525,6 +553,10 @@
     <div class="pr-detail-head">
       <h3>The Dream Trip</h3>
       <span class="pr-route-label">Amalfi 4 &middot; Tuscany 4 &middot; Lake Como 3 &middot; Dolomites 3 &middot; 14 Nights</span>
+    </div>
+    <div class="sw-mapwrap">
+      <div class="sw-map" data-route="three" role="img" aria-label="Map of Itinerary Three: the Amalfi Coast, Tuscany, Lake Como, the Stelvio Pass and the Dolomites"></div>
+      <div class="sw-legend" data-legend="three"></div>
     </div>
     <div class="pr-detail-grid">
       <div>
@@ -745,6 +777,10 @@
       <h3>The Orient Express</h3>
       <span class="pr-route-label">Amalfi 5 &middot; Rome 2 &middot; Train 1 &middot; Dolomites 5 &middot; Venice 1 &middot; 14 Nights</span>
     </div>
+    <div class="sw-mapwrap">
+      <div class="sw-map" data-route="four" role="img" aria-label="Map of Itinerary Four: the Amalfi Coast, Rome, the Orient Express via Portofino to Venice, and the Dolomites"></div>
+      <div class="sw-legend" data-legend="four"></div>
+    </div>
     <div class="pr-detail-grid">
       <div>
         <div class="pr-journey">
@@ -933,6 +969,10 @@
       <h3>Mountains, Lagoon &amp; Vineyards</h3>
       <span class="pr-route-label">Dolomites 5 &middot; Venice 3 &middot; Tuscany 6 &middot; 14 Nights</span>
     </div>
+    <div class="sw-mapwrap">
+      <div class="sw-map" data-route="five" role="img" aria-label="Map of Itinerary Five: Venice, the Dolomites and Tuscany"></div>
+      <div class="sw-legend" data-legend="five"></div>
+    </div>
     <div class="pr-detail-grid">
       <div>
         <div class="pr-journey">
@@ -1096,45 +1136,6 @@
   </div>
 </section>
 
-<div class="pr-band-img" style="background-image:url('../images/tuscany/borgo-san-felice-vineyard-aerial.jpg');"></div>
-
-<!-- ============ COMPARISON ============ -->
-<section class="pr-section pr-compare">
-  <div class="container-pr">
-    <div class="pr-overview-head">
-      <p class="pr-kicker">Side by Side</p>
-      <h2 class="pr-h2">The Five, Compared</h2>
-    </div>
-    <div class="pr-compare-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th><span class="pr-col-num">One</span>The Classic</th>
-            <th><span class="pr-col-num">Two</span>Riviera &amp; Lake</th>
-            <th><span class="pr-col-num">Three</span>The Dream</th>
-            <th><span class="pr-col-num">Four</span>Orient Express</th>
-            <th><span class="pr-col-num">Five</span>Mountains &amp; Vineyards</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>Outdoors</td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
-          <tr><td>Scenery</td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
-          <tr><td>Food &amp; wine</td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="5"></span></td></tr>
-          <tr><td>Relaxed pace</td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="2"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
-          <tr><td>Easy logistics</td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="3"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
-          <tr><td>Away from crowds</td><td><span class="pr-dots" data-on="2"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="5"></span></td><td><span class="pr-dots" data-on="4"></span></td><td><span class="pr-dots" data-on="4"></span></td></tr>
-          <tr><td>Hotel changes</td><td class="pr-txt">Four</td><td class="pr-txt">Three</td><td class="pr-txt">Four</td><td class="pr-txt">Four, plus the train</td><td class="pr-txt">Three</td></tr>
-          <tr><td>Big-city time</td><td class="pr-txt">Rome &amp; Florence</td><td class="pr-txt">A Florence day</td><td class="pr-txt">None</td><td class="pr-txt">Rome, one Venice night</td><td class="pr-txt">Venice, from Giudecca</td></tr>
-          <tr><td>Best suited for</td><td class="pr-txt">A first trip to Italy</td><td class="pr-txt">Truly relaxing</td><td class="pr-txt">Hikers &amp; dreamers</td><td class="pr-txt">A trip with a story</td><td class="pr-txt">Mountain lovers</td></tr>
-          <tr class="pr-rec"><td>Keith's recommendation</td><td>Most classic</td><td>Most relaxed</td><td>The dream</td><td>Most memorable</td><td>The calmer dream</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="pr-note">The ratings are my honest read on these specific routes for people who would rather be outside than in a museum. Every hotel shown can be swapped between routes.</p>
-  </div>
-</section>
-
 <!-- ============ CLOSING ============ -->
 <section class="pr-closing" style="background-image:url('../images/tuscany/il-borro-estate-sunset.jpg');">
   <div class="pr-closing-inner">
@@ -1174,6 +1175,86 @@
     for (var i = 0; i < of; i++) html += '<i' + (i < on ? '' : ' class="off"') + '></i>';
     el.innerHTML = html;
   });
+</script>
+<script>
+/* Route maps: Leaflet loads once, when the first map nears the viewport */
+(function () {
+  var P = {
+    nap: [40.886, 14.291], amalfi: [40.628, 14.485], rome: [41.9028, 12.4964], flr: [43.7696, 11.2558],
+    tus: [43.2, 11.45], sm: [44.335, 9.211], porto: [44.303, 9.21], como: [45.985, 9.257], mxp: [45.63, 8.723],
+    stelvio: [46.528, 10.453], dolo: [46.574, 11.672], vce: [45.4408, 12.3155]
+  };
+  /* stops: [place, name, note, kind]; legs: mode between consecutive stops */
+  var R = {
+    one: { stops: [['nap','Naples','Fly in','air'],['amalfi','Amalfi Coast','4 nights'],['rome','Rome','3 nights'],['flr','Florence','3 nights, fly home'],['tus','Tuscany','4 nights']],
+           legs: ['drive','drive','train','drive'] },
+    two: { stops: [['flr','Florence','Fly in','air'],['tus','Tuscany','5 nights'],['sm','Santa Margherita','4 nights'],['como','Lake Como','5 nights'],['mxp','Milan','Fly home','air']],
+           legs: ['drive','drive','drive','drive'] },
+    three: { stops: [['nap','Naples','Fly in','air'],['amalfi','Amalfi Coast','4 nights'],['tus','Tuscany','4 nights'],['como','Lake Como','3 nights'],['stelvio','Stelvio Pass','by car','via'],['dolo','Dolomites','3 nights'],['vce','Venice','Fly home','air']],
+             legs: ['drive','heli','drive','drive','drive','drive'] },
+    four: { stops: [['nap','Naples','Fly in','air'],['amalfi','Amalfi Coast','5 nights'],['rome','Rome','2 nights, board here'],['porto','Portofino','on the train','via'],['vce','Venice','off the train, last night, fly home'],['dolo','Dolomites','5 nights'],['vce']],
+            legs: ['drive','drive','otrain','otrain','drive','drive'] },
+    five: { stops: [['vce','Venice','fly in, 3 nights on the way back'],['dolo','Dolomites','5 nights'],['vce'],['flr','Florence','train in, fly home'],['tus','Tuscany','6 nights']],
+            legs: ['drive','drive','train','drive'] }
+  };
+  var LEFT = { nap: 1, rome: 1, flr: 1, sm: 1, porto: 1, como: 1, mxp: 1 };
+  var TOP = { stelvio: 1 };
+  var STYLE = {
+    drive: { color: '#4A5040', weight: 3, opacity: 0.9 },
+    train: { color: '#1F201A', weight: 3, dashArray: '1 7', lineCap: 'round', opacity: 0.9 },
+    heli: { color: '#836229', weight: 3, dashArray: '10 8', opacity: 1 },
+    otrain: { color: '#836229', weight: 5, opacity: 0.95 }
+  };
+  var NAME = { drive: 'Private car', train: 'Fast train', heli: 'Helicopter', otrain: 'La Dolce Vita Orient Express' };
+  function swatch(m) {
+    var st = STYLE[m];
+    return '<svg width="34" height="10" aria-hidden="true"><line x1="2" y1="5" x2="32" y2="5" stroke="' + st.color + '" stroke-width="' + st.weight + '"' +
+      (st.dashArray ? ' stroke-dasharray="' + st.dashArray + '"' : '') + (st.lineCap ? ' stroke-linecap="round"' : '') + '/></svg>';
+  }
+  /* Legends work without Leaflet */
+  Object.keys(R).forEach(function (k) {
+    var el = document.querySelector('[data-legend="' + k + '"]');
+    if (!el) return;
+    var seen = {}, html = '';
+    R[k].legs.forEach(function (m) { if (!seen[m]) { seen[m] = 1; html += '<span>' + swatch(m) + NAME[m] + '</span>'; } });
+    if (k === 'three') html += '<span>Any car leg can be a helicopter instead</span>';
+    el.innerHTML = html;
+  });
+  var maps = document.querySelectorAll('.sw-map');
+  if (!maps.length || !('IntersectionObserver' in window)) return;
+  function draw() {
+    var L = window.L;
+    maps.forEach(function (el) {
+      var r = R[el.getAttribute('data-route')];
+      var map = L.map(el, { zoomSnap: 0.25, scrollWheelZoom: false, dragging: !L.Browser.mobile, tap: false });
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors', maxZoom: 12 }).addTo(map);
+      map.zoomControl.setPosition('bottomright');
+      var pts = r.stops.map(function (s) { return P[s[0]]; });
+      r.legs.forEach(function (m, i) { L.polyline([pts[i], pts[i + 1]], STYLE[m]).addTo(map); });
+      r.stops.forEach(function (s) {
+        if (!s[1]) return;
+        var icon = L.divIcon({ className: '', iconSize: [0, 0],
+          html: '<div class="sw-pin ' + (s[3] || '') + (LEFT[s[0]] ? ' l' : TOP[s[0]] ? ' t' : '') + '"><b>' + s[1] + '</b><i>' + s[2] + '</i></div>' });
+        L.circleMarker(P[s[0]], { radius: s[3] === 'via' ? 4 : 6, color: '#F2EFE6', weight: 2, fillColor: s[3] === 'air' ? '#4A5040' : (s[3] === 'via' ? '#b7a37c' : '#1F201A'), fillOpacity: 1, interactive: false }).addTo(map);
+        L.marker(P[s[0]], { icon: icon, keyboard: false, interactive: false }).addTo(map);
+      });
+      map.fitBounds(L.latLngBounds(pts).pad(0.14));
+    });
+  }
+  var loaded = false;
+  function load() {
+    if (loaded) return; loaded = true;
+    var css = document.createElement('link'); css.rel = 'stylesheet'; css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    css.integrity = 'sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H'; css.crossOrigin = 'anonymous'; document.head.appendChild(css);
+    var js = document.createElement('script'); js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    js.integrity = 'sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH'; js.crossOrigin = 'anonymous';
+    js.onload = draw; document.head.appendChild(js);
+  }
+  var io = new IntersectionObserver(function (e) {
+    if (e.some(function (n) { return n.isIntersecting; })) { io.disconnect(); load(); }
+  }, { rootMargin: '800px 0px' });
+  maps.forEach(function (m) { io.observe(m); });
+})();
 </script>
 </body>
 </html>
