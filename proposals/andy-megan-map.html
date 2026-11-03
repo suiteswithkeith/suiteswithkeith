@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Route map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0;background:#EFEBDF;}
+  svg{display:block;width:100%;height:auto;}
+  .label{font-family:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;font-weight:600;font-size:13px;letter-spacing:.14em;fill:#1F201A;}
+  .dates{font-family:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;font-weight:500;font-size:11px;letter-spacing:.08em;fill:#65665C;}
+  .tiny{font-family:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;font-weight:500;font-size:10px;letter-spacing:.12em;fill:#8a8b80;}
+  .legend{font-family:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;font-weight:600;font-size:10px;letter-spacing:.14em;fill:#65665C;}
+  .num{font-family:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;font-weight:600;font-size:12px;fill:#FBFAF6;}
+  .title{font-family:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;font-weight:600;font-size:12px;letter-spacing:.2em;fill:#836229;}
+</style>
+</head>
+<body>
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Route map: Athens to Paros to Sifnos to Santorini, May 9 to 21, 2027">
+  <rect width="900" height="560" fill="#EFEBDF"/>
+
+  <!-- Attica coastline, top left -->
+  <path d="M -10 -10 L 230 -10 C 215 25 235 45 205 70 C 175 95 165 80 150 105 C 130 135 95 125 75 150 C 50 180 20 170 -10 185 Z" fill="#FBFAF6" stroke="rgba(22,23,18,.28)" stroke-width="1"/>
+
+  <!-- Islands -->
+  <ellipse cx="671" cy="302" rx="34" ry="26" fill="#FBFAF6" stroke="rgba(22,23,18,.28)" stroke-width="1" transform="rotate(-12 671 302)"/>
+  <ellipse cx="633" cy="334" rx="13" ry="9" fill="#FBFAF6" stroke="rgba(22,23,18,.28)" stroke-width="1" transform="rotate(-18 633 334)"/>
+  <ellipse cx="498" cy="356" rx="20" ry="25" fill="#FBFAF6" stroke="rgba(22,23,18,.28)" stroke-width="1" transform="rotate(8 498 356)"/>
+  <ellipse cx="449" cy="403" rx="11" ry="9" fill="#F5F2E7" stroke="rgba(22,23,18,.18)" stroke-width="1"/>
+  <ellipse cx="478" cy="416" rx="13" ry="10" fill="#F5F2E7" stroke="rgba(22,23,18,.18)" stroke-width="1" transform="rotate(20 478 416)"/>
+  <path d="M 700 462 C 688 470 684 492 696 506 C 704 515 718 516 726 508 C 716 502 712 492 714 480 C 716 470 722 466 730 464 C 722 458 708 457 700 462 Z" fill="#FBFAF6" stroke="rgba(22,23,18,.28)" stroke-width="1"/>
+
+  <!-- Leg 1: Athens to Paros, helicopter (dashed brass) -->
+  <path d="M 170 95 C 340 150 520 230 640 285" fill="none" stroke="#836229" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+  <text class="tiny" x="390" y="178" transform="rotate(16 390 178)">HELICOPTER &#183; 41 MIN</text>
+
+  <!-- Leg 2: Paros to Sifnos, boat via Antiparos (solid ink) -->
+  <path d="M 655 322 C 636 338 600 352 528 356" fill="none" stroke="#1F201A" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="612" cy="346" r="3" fill="#1F201A"/>
+  <text class="tiny" x="556" y="332">BOAT &#183; SWIM STOP ANTIPAROS</text>
+
+  <!-- Leg 3: Sifnos to Santorini, heli (dashed brass) or boat via Kimolos and Polyaigos (solid ash) -->
+  <path d="M 514 378 C 580 420 650 455 694 478" fill="none" stroke="#836229" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+  <path d="M 496 382 C 470 410 500 428 540 440 C 610 460 660 472 692 486" fill="none" stroke="#9a9b90" stroke-width="1.6" stroke-linecap="round"/>
+  <text class="tiny" x="560" y="416" transform="rotate(22 560 416)">HELICOPTER &#183; 26 MIN</text>
+  <text class="tiny" x="505" y="452" transform="rotate(12 505 452)">OR BOAT &#183; KIMOLOS &amp; POLYAIGOS</text>
+
+  <!-- Stops -->
+  <g>
+    <circle cx="170" cy="95" r="13" fill="#836229"/><text class="num" x="170" y="99.5" text-anchor="middle">1</text>
+    <text class="label" x="196" y="92">ATHENS</text>
+    <text class="dates" x="196" y="108">The Dolli &#183; May 9&#8211;11</text>
+  </g>
+  <g>
+    <circle cx="671" cy="282" r="13" fill="#836229"/><text class="num" x="671" y="286.5" text-anchor="middle">2</text>
+    <text class="label" x="694" y="279">PAROS</text>
+    <text class="dates" x="694" y="295">Cosme &#183; May 11&#8211;15</text>
+  </g>
+  <g>
+    <circle cx="470" cy="330" r="13" fill="#836229"/><text class="num" x="470" y="334.5" text-anchor="middle">3</text>
+    <text class="label" x="330" y="327">SIFNOS</text>
+    <text class="dates" x="330" y="343">NOS &#183; May 15&#8211;18</text>
+  </g>
+  <g>
+    <circle cx="714" cy="520" r="13" fill="#836229"/><text class="num" x="714" y="524.5" text-anchor="middle">4</text>
+    <text class="label" x="696" y="517" text-anchor="end">SANTORINI</text>
+    <text class="dates" x="696" y="533" text-anchor="end">Canaves Oia Suites &#183; May 18&#8211;21</text>
+  </g>
+
+  <!-- Title + legend -->
+  <text class="title" x="40" y="250">ANDY &amp; MEGAN &#183; MAY 9&#8211;21, 2027</text>
+  <g>
+    <line x1="40" y1="490" x2="78" y2="490" stroke="#836229" stroke-width="2" stroke-dasharray="7 6"/>
+    <text class="legend" x="88" y="494">PRIVATE HELICOPTER</text>
+    <line x1="40" y1="514" x2="78" y2="514" stroke="#1F201A" stroke-width="2"/>
+    <text class="legend" x="88" y="518">PRIVATE BOAT</text>
+  </g>
+</svg>
+</body>
+</html>
