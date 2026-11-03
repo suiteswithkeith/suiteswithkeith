@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Stephanie's 40th &middot; Greece 2027 | Suites With Keith</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../proposals.css">
+<style>
+  .sw-hello { max-width: 760px; margin: 0 auto 50px; text-align: center; }
+  .sw-hello p { font-family: var(--font-display); font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.5; margin: 0 0 16px; }
+  .sw-hello p.sw-small { font-family: var(--font-body); font-size: 0.95rem; color: var(--ink-soft); line-height: 1.65; }
+  .sw-callout { background: var(--cream-deep); padding: 22px 26px; }
+  .sw-callout p { margin: 0; font-size: 0.92rem; line-height: 1.65; }
+  .sw-callout p + p { margin-top: 10px; }
+  .pr-itin-card a { color: inherit; text-decoration: none; }
+
+  /* 21-night strip: one cell per night, the birthday marked */
+  .sw-strip-wrap { max-width: 980px; margin: 0 auto 56px; }
+  .sw-strip { display: grid; grid-template-columns: 8fr 8fr 5fr; gap: 4px; }
+  .sw-seg { padding: 14px 14px 12px; color: var(--cream); min-width: 0; }
+  .sw-seg.myk { background: var(--olive); }
+  .sw-seg.par { background: var(--tan-text); }
+  .sw-seg.san { background: var(--olive-deep); }
+  .sw-seg b { display: block; font-family: var(--font-display); font-weight: 500; font-size: 1.1rem; }
+  .sw-seg span { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.9; }
+  .sw-nights { display: grid; grid-template-columns: repeat(21, 1fr); gap: 4px; margin-top: 4px; }
+  .sw-nights i { height: 6px; background: var(--hairline); }
+  .sw-nights i.bday { background: var(--tan-deep); height: 6px; box-shadow: 0 0 0 2px var(--tan-deep); }
+  .sw-strip-key { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 12px; font-size: 0.8rem; color: var(--ink-soft); }
+  .sw-strip-key strong { color: var(--tan-text); font-weight: 500; }
+
+  .sw-block { margin-top: 46px; padding-top: 30px; border-top: 1px solid rgba(60, 60, 56, 0.25); }
+  .sw-block > .pr-sub-label { margin-bottom: 18px; }
+  .sw-days { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 40px; margin: 0; padding: 0; list-style: none; }
+  .sw-days li { font-size: 0.92rem; line-height: 1.6; padding-left: 18px; position: relative; }
+  .sw-days li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 7px; height: 7px; border-radius: 50%; background: var(--tan-deep); }
+  .sw-days strong { font-weight: 500; }
+  .sw-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .sw-hotel { background: var(--white); border: 1px solid var(--hairline); display: flex; flex-direction: column; }
+  .sw-hotel img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+  .sw-hotel-body { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+  .sw-chip { align-self: flex-start; font-size: 0.64rem; letter-spacing: 0.18em; text-transform: uppercase; padding: 4px 9px; margin-bottom: 10px; }
+  .sw-chip.main { background: var(--olive); color: var(--cream); }
+  .sw-chip.alt { background: var(--cream-deep); color: var(--olive-deep); box-shadow: inset 0 0 0 1px rgba(60, 60, 56, 0.25); }
+  .sw-hotel h5 { font-family: var(--font-display); font-weight: 500; font-size: 1.2rem; margin: 0 0 4px; }
+  .sw-hotel .sw-where { font-size: 0.78rem; color: var(--ink-soft); margin: 0 0 10px; }
+  .sw-hotel p.sw-why { font-size: 0.9rem; line-height: 1.6; margin: 0 0 12px; flex: 1; }
+  .sw-hotel a { font-size: 0.78rem; letter-spacing: 0.08em; color: var(--tan-text); text-decoration: none; border-bottom: 1px solid currentColor; align-self: flex-start; }
+  .sw-alt { font-size: 0.82rem; color: var(--ink-soft); line-height: 1.55; margin: 14px 0 0; }
+  .sw-alt a { color: var(--tan-text); }
+
+  /* Birthday weekend */
+  .sw-bday { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: start; }
+  .sw-bday img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; }
+  .sw-bday-days { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }
+  .sw-bday-days li { display: grid; grid-template-columns: 92px 1fr; gap: 16px; padding-bottom: 20px; border-bottom: 1px solid var(--hairline); }
+  .sw-bday-days li:last-child { border-bottom: 0; padding-bottom: 0; }
+  .sw-bday-days .sw-when { font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--tan-text); padding-top: 4px; }
+  .sw-bday-days .sw-when b { display: block; font-family: var(--font-display); font-size: 1.5rem; letter-spacing: 0; text-transform: none; color: var(--charcoal); font-weight: 500; }
+  .sw-bday-days h4 { font-family: var(--font-display); font-weight: 500; font-size: 1.15rem; margin: 0 0 4px; }
+  .sw-bday-days p { margin: 0; font-size: 0.92rem; line-height: 1.6; }
+  .sw-bday-days li.sw-star .sw-when b { color: var(--tan-text); }
+
+  /* Group plan */
+  .sw-group { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+  .sw-group h4 { font-family: var(--font-display); font-weight: 500; font-size: 1.2rem; margin: 0 0 10px; }
+  .sw-group p, .sw-group li { font-size: 0.92rem; line-height: 1.65; }
+  .sw-group ul { margin: 0; padding-left: 18px; }
+  .sw-dates { list-style: none; padding: 0 !important; margin: 0; display: grid; gap: 14px; }
+  .sw-dates li { display: grid; grid-template-columns: 120px 1fr; gap: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--hairline); }
+  .sw-dates li span { font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--tan-text); padding-top: 3px; }
+  .sw-dates li.sw-key span { font-weight: 600; }
+
+  @media (max-width: 860px) {
+    .sw-pair, .sw-days, .sw-bday, .sw-group { grid-template-columns: 1fr; }
+    .sw-bday img { aspect-ratio: 3 / 2; }
+  }
+  @media (max-width: 640px) {
+    .pr-legs { display: none; }
+    .pr-stop .pr-place { font-size: 0.66rem; }
+    .sw-seg { padding: 10px 8px; }
+    .sw-seg b { font-size: 0.92rem; }
+    .sw-seg span { font-size: 0.6rem; letter-spacing: 0.06em; }
+    .sw-dates li { grid-template-columns: 1fr; gap: 4px; }
+  }
+</style>
+</head>
+<body class="proposal">
+
+<!-- ============ COVER ============ -->
+<section class="pr-cover" style="background-image:url('../images/islands/cover.jpg');">
+  <div class="pr-brand">Suites With Keith</div>
+  <div class="pr-cover-inner">
+    <p class="pr-eyebrow">A Private Greece Proposal</p>
+    <h1>Stephanie Turns 40</h1>
+    <div class="pr-divider-line"></div>
+    <p class="pr-sub">Three weeks, three islands and one big birthday. Mykonos, Paros and Santorini, August 21 to September 11, 2027.</p>
+    <p class="pr-prepared">Prepared For</p>
+    <div class="pr-prepared-name">Stephanie Foster</div>
+  </div>
+</section>
+
+<div class="pr-band-img" style="background-image:url('../images/islands/paros-divider.jpg');"></div>
+
+<!-- ============ OVERVIEW ============ -->
+<section class="pr-section pr-overview">
+  <div class="container-pr">
+    <div class="sw-hello">
+      <p>Three weeks in the islands, your friends flying in and out as they can, and the birthday itself on a day when nobody has to pack a bag.</p>
+      <p class="sw-small">Stephanie, the route runs north to south, with one short boat ride between each stop. Your birthday, Saturday September 4, lands in the middle of the Paros stay. It's also Labor Day weekend, so it's the easiest weekend for friends to fly in. Each stop has a home base for you and whoever is staying longest, with rooms nearby for anyone joining for a few nights.</p>
+    </div>
+
+    <div class="sw-strip-wrap">
+      <div class="sw-strip">
+        <div class="sw-seg myk"><b>Mykonos</b><span>Aug 21&ndash;29 &middot; 8 nights</span></div>
+        <div class="sw-seg par"><b>Paros</b><span>Aug 29&ndash;Sep 6 &middot; 8 nights</span></div>
+        <div class="sw-seg san"><b>Santorini</b><span>Sep 6&ndash;11 &middot; 5</span></div>
+      </div>
+      <div class="sw-nights" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i><i></i><i class="bday"></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <div class="sw-strip-key"><span>Sat Aug 21</span><span><strong>Sat Sep 4 &middot; the birthday, no travel</strong></span><span>Sat Sep 11</span></div>
+    </div>
+
+    <div class="pr-overview-head">
+      <p class="pr-kicker">The Route</p>
+      <h2 class="pr-h2">Three Islands, North to South</h2>
+      <p class="pr-lead">21 nights &middot; one hotel per island &middot; friends join for any stretch</p>
+    </div>
+    <div class="pr-three">
+      <div class="pr-itin-card"><a href="#mykonos">
+        <p class="pr-num">Stop One &middot; 8 nights</p>
+        <h3>Mykonos</h3>
+        <p class="pr-tier">The kickoff &middot; about 8 to 10 of you</p>
+        <p class="pr-route"><strong>Bill &amp; Coo</strong></p>
+        <p class="pr-blurb">Start with the most energy. Beach club days, boat days and dinners in town while the island is in full swing.</p>
+      </a></div>
+      <div class="pr-itin-card"><a href="#paros">
+        <p class="pr-num">Stop Two &middot; 8 nights</p>
+        <h3>Paros</h3>
+        <p class="pr-tier">The birthday &middot; the biggest group, up to 15</p>
+        <p class="pr-route"><strong>Parilio</strong></p>
+        <p class="pr-blurb">Relaxed and beautiful. Villas for the group, Naoussa down the road and a boat day for the big day.</p>
+      </a></div>
+      <div class="pr-itin-card"><a href="#santorini">
+        <p class="pr-num">Stop Three &middot; 5 nights</p>
+        <h3>Santorini</h3>
+        <p class="pr-tier">The finale &middot; the core group</p>
+        <p class="pr-route"><strong>Canaves Epitome</strong> or <strong>Andronis Arcadia</strong></p>
+        <p class="pr-blurb">Sunsets over the Aegean and a slower pace once the weekend crowd has flown home.</p>
+      </a></div>
+    </div>
+    <p class="pr-note">Every stop can grow or shrink by a night. Friends can arrive and leave on any day except Saturday, September 4.</p>
+  </div>
+</section>
+
+<!-- ============ MYKONOS ============ -->
+<section class="pr-opener" id="mykonos" style="background-image:url('../images/islands/mykonos-hero.jpg');">
+  <div class="container-pr">
+    <p class="pr-kicker">Stop One &middot; August 21 to 29</p>
+    <h2>Mykonos</h2>
+    <p class="pr-pair">The kickoff</p>
+    <p class="pr-opener-sub">Start in the north with the island at full swing, then only head south from here.</p>
+  </div>
+</section>
+
+<section class="pr-section">
+  <div class="container-pr">
+    <div class="pr-detail-head">
+      <h3>Mykonos</h3>
+      <span class="pr-route-label">Sat Aug 21 to Sun Aug 29 &middot; 8 Nights &middot; About 8 to 10 People</span>
+    </div>
+
+    <div class="sw-pair">
+      <div class="sw-hotel">
+        <img src="../images/hotels/billandcoo-coast-1.jpg" alt="A private pool on the water at Bill &amp; Coo Coast, Mykonos" loading="lazy">
+        <div class="sw-hotel-body">
+          <span class="sw-chip main">Home base</span>
+          <h5>Bill &amp; Coo Coast</h5>
+          <p class="sw-where">On a protected bay &middot; adults only, 17 and up</p>
+          <p class="sw-why">The Bill &amp; Coo I'd always choose. The villas and suites are huge and genuinely private, right on the water, several with spectacular private pools. There's a private beach club with Beefbar for lunch, and the best breakfast I had anywhere in Greece. The bay is sheltered, so the August winds barely reach the pools.</p>
+          <a href="../hotels/bill-and-coo-coast-mykonos.html">My review</a>
+        </div>
+      </div>
+      <div class="sw-hotel">
+        <img src="../images/islands/mykonos-days.jpg" alt="Whitewashed terrace above the sea on Mykonos" loading="lazy">
+        <div class="sw-hotel-body">
+          <span class="sw-chip alt">For friends joining</span>
+          <h5>Bill &amp; Coo Suites</h5>
+          <p class="sw-where">Near Mykonos Town</p>
+          <p class="sw-why">The sister hotel, with the same warm team and my Best Breakfast award. It's walking distance to dinners and nights out in town. It's a great place for friends who come for a few nights to book their own room and still be part of the group.</p>
+          <a href="../hotels/bill-and-coo-suites-mykonos.html">My review</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sw-block">
+      <p class="pr-sub-label">Days Out</p>
+      <ul class="sw-days">
+        <li><strong>A private boat to Delos and Rhenia.</strong> The ancient island in the morning, then swim stops and lunch on board off Rhenia's empty beaches.</li>
+        <li><strong>The south coast by boat.</strong> Hop between beach clubs without sitting in traffic.</li>
+        <li><strong>Long lunches at the beach club.</strong> Bill &amp; Coo's own, or a table at one of the island's famous ones.</li>
+        <li><strong>A night in Mykonos Town.</strong> Dinner in Little Venice at sunset, then out for anyone who wants it.</li>
+      </ul>
+    </div>
+
+    <p class="pr-take"><strong>Keith's take:</strong> Bill &amp; Coo is the group that consistently out-executes the rest of Mykonos, and it took my Best Service award for the island. For a group, that's the thing that matters most.</p>
+  </div>
+</section>
+
+<!-- ============ PAROS ============ -->
+<section class="pr-opener" id="paros" style="background-image:url('../images/islands/paros-hero.jpg');">
+  <div class="container-pr">
+    <p class="pr-kicker">Stop Two &middot; August 29 to September 6</p>
+    <h2>Paros</h2>
+    <p class="pr-pair">The birthday</p>
+    <p class="pr-opener-sub">A one-hour boat ride south, and the stop where everyone comes together.</p>
+  </div>
+</section>
+
+<section class="pr-section">
+  <div class="container-pr">
+    <div class="pr-detail-head">
+      <h3>Paros</h3>
+      <span class="pr-route-label">Sun Aug 29 to Mon Sep 6 &middot; 8 Nights &middot; Up to 15 People</span>
+    </div>
+
+    <div class="sw-pair">
+      <div class="sw-hotel">
+        <img src="../images/hotels/parilio-1.jpg" alt="The pool courtyard at Parilio, Paros" loading="lazy">
+        <div class="sw-hotel-body">
+          <span class="sw-chip main">The hotel</span>
+          <h5>Parilio</h5>
+          <p class="sw-where">Just outside Naoussa</p>
+          <p class="sw-why">Maybe my favorite stay in the Cyclades as a design lover. The light at twilight is magical, the staff learn your name and how you like things, and the food is fantastic. You also get free use of the beach club at Cosme, its sister hotel.</p>
+          <a href="../hotels/parilio-paros.html">My review</a>
+        </div>
+      </div>
+      <div class="sw-hotel">
+        <img src="../images/hotels/parilio-aurelia-villa-pool.jpg" alt="The pool at one of Parilio's hilltop villas" loading="lazy">
+        <div class="sw-hotel-body">
+          <span class="sw-chip alt">For the group</span>
+          <h5>The Parilio Villas</h5>
+          <p class="sw-where">On the hill above the hotel</p>
+          <p class="sw-why">Brand-new three-bedroom villas with sea views and big private pools, plus everything the hotel offers. In peak season they run about $3,000 to $3,500 a night, which is reasonable at this level when it's split between friends. Two or three villas, plus suites in the hotel, can fit about 15 of you.</p>
+          <a href="../hotels/parilio-paros.html">More on Parilio</a>
+        </div>
+      </div>
+    </div>
+    <p class="sw-alt">One request when we book: one of the three Sun Suites sits up at the villas, with ocean views and a huge private pool. That's the one I'd put you in.</p>
+
+    <div class="sw-block">
+      <p class="pr-sub-label">Days Out</p>
+      <ul class="sw-days">
+        <li><strong>Antiparos and Despotiko by private boat.</strong> Swim stops in clear water, lunch on board, and back for sunset.</li>
+        <li><strong>The beach club at Cosme.</strong> Free for Parilio guests, a short hop away, right on the water.</li>
+        <li><strong>Naoussa in the evening.</strong> A little fishing harbour full of great tables, minutes from the hotel.</li>
+        <li><strong>Lefkes and the old marble path.</strong> A walk through the hill villages for anyone who wants a quiet morning.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BIRTHDAY WEEKEND ============ -->
+<section class="pr-section" style="background:var(--white);">
+  <div class="container-pr">
+    <div class="pr-overview-head">
+      <p class="pr-kicker">Labor Day Weekend &middot; Paros</p>
+      <h2 class="pr-h2">The Birthday Weekend</h2>
+      <p class="pr-lead">The weekend friends fly in for. These are ideas to react to, not a fixed schedule.</p>
+    </div>
+    <div class="sw-bday">
+      <img src="../images/hotels/parilio-aurelia-villa-outdoor-dining.jpg" alt="A long outdoor dining table on a Parilio villa terrace" loading="lazy">
+      <ul class="sw-bday-days">
+        <li>
+          <p class="sw-when">Thursday<b>Sep 2</b></p>
+          <div><h4>Friends start landing</h4><p>A 40-minute flight from Athens, or the ferry. Everyone is met at the airport or port and driven straight to Parilio.</p></div>
+        </li>
+        <li>
+          <p class="sw-when">Friday<b>Sep 3</b></p>
+          <div><h4>Welcome night in Naoussa</h4><p>Drinks at the villas as the last arrivals come in, then a long dinner by the harbour.</p></div>
+        </li>
+        <li class="sw-star">
+          <p class="sw-when">Saturday<b>Sep 4</b></p>
+          <div><h4>Stephanie turns 40</h4><p>A slow breakfast, then a private boat day to Antiparos and Despotiko. Back for sunset, then a private chef dinner for the whole group at a long table on the villa terrace.</p></div>
+        </li>
+        <li>
+          <p class="sw-when">Sunday<b>Sep 5</b></p>
+          <div><h4>Recovery day</h4><p>The beach club at Cosme, a massage and nowhere to be.</p></div>
+        </li>
+        <li>
+          <p class="sw-when">Monday<b>Sep 6</b></p>
+          <div><h4>Labor Day</h4><p>Weekend friends fly home, and the core group heads south to Santorini.</p></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SANTORINI ============ -->
+<section class="pr-opener" id="santorini" style="background-image:url('../images/islands/santorini-hero.jpg');">
+  <div class="container-pr">
+    <p class="pr-kicker">Stop Three &middot; September 6 to 11</p>
+    <h2>Santorini</h2>
+    <p class="pr-pair">The finale</p>
+    <p class="pr-opener-sub">Five slow days and the best sunset in Greece. September is a better month here than August.</p>
+  </div>
+</section>
+
+<section class="pr-section">
+  <div class="container-pr">
+    <div class="pr-detail-head">
+      <h3>Santorini</h3>
+      <span class="pr-route-label">Mon Sep 6 to Sat Sep 11 &middot; 5 Nights &middot; The Core Group</span>
+    </div>
+
+    <div class="sw-pair">
+      <div class="sw-hotel">
+        <img src="../images/hotels/epitome-villas/villa-pool-lounge.jpg" alt="A private pool and lounge at a Canaves Epitome villa" loading="lazy">
+        <div class="sw-hotel-body">
+          <span class="sw-chip main">My pick for a small group</span>
+          <h5>Canaves Epitome</h5>
+          <p class="sw-where">Just outside Oia, above Ammoudi Bay &middot; 53 rooms</p>
+          <p class="sw-why">My favorite hotel across nine islands, and one of the best stays of my life. It's quiet and private, with gardens behind volcanic-rock walls. Because it isn't inside the caldera, you watch the sun set into the open Aegean. The two-bedroom pool suites are the star, and Omnia was the best hotel restaurant of my whole trip.</p>
+          <a href="../hotels/canaves-epitome-santorini.html">My review</a>
+        </div>
+      </div>
+      <div class="sw-hotel">
+        <img src="../images/hotels/andronis-villas/arcadia-eden-villa.jpg" alt="The Eden Villa at Andronis Arcadia, Santorini" loading="lazy">
+        <div class="sw-hotel-body">
+          <span class="sw-chip alt">My pick for a bigger group</span>
+          <h5>Andronis Arcadia</h5>
+          <p class="sw-where">Next door to Epitome &middot; 114 suites and villas</p>
+          <p class="sw-why">A real resort, and the best hotel on Santorini for a room block. Every room has a private pool, and the Eden Villa sleeps up to 12. Pacman, with live music, and Beefbar are on property, so there's more of a scene. That's great if the group still wants a party.</p>
+          <a href="../hotels/andronis-arcadia-santorini.html">My review</a>
+        </div>
+      </div>
+    </div>
+    <p class="sw-alt">How I'd choose: if it's you and a handful of close friends by this point, Epitome. If eight or more are staying to the end and want some energy, Arcadia. They sit side by side, so either way you can have dinner at Omnia. My full <a href="../andronis-arcadia-vs-canaves-epitome.html">Arcadia vs. Epitome comparison</a>.</p>
+
+    <div class="sw-block">
+      <p class="pr-sub-label">Days Out</p>
+      <ul class="sw-days">
+        <li><strong>A sunset sail on the caldera.</strong> A private catamaran with swim stops at the hot springs and dinner on board.</li>
+        <li><strong>Dinner at Omnia.</strong> Poolside above Ammoudi Bay, for the last night of the trip.</li>
+        <li><strong>Santorini wine.</strong> A tasting at one of the volcanic vineyards, where the vines grow in little woven baskets.</li>
+        <li><strong>Ammoudi Bay.</strong> Fish tavernas on the water at the bottom of the cliff, a short walk from either hotel.</li>
+      </ul>
+    </div>
+
+    <div class="sw-block">
+      <p class="pr-sub-label">The Alternative</p>
+      <div class="sw-pair">
+        <div class="sw-hotel">
+          <img src="../images/islands/milos-hero.jpg" alt="A coastal path on Milos" loading="lazy">
+          <div class="sw-hotel-body">
+            <span class="sw-chip alt">Instead of Santorini</span>
+            <h5>Milos</h5>
+            <p class="sw-where">Southwest of Paros</p>
+            <p class="sw-why">Milos is beautiful and much quieter, with standout beaches and a great boat day out to Kleftiko. It fits this route, since it's south of Paros. The trade-offs are that there are very few villas at this level, fewer ferries, and only small planes to Athens for the flight home.</p>
+            <a href="../milos.html">My Milos guide</a>
+          </div>
+        </div>
+        <div class="sw-callout" style="align-self:start;">
+          <p><strong>My honest read.</strong> For a group finale, Santorini is easier. The hotels are better suited to a group, and the flights home are simpler.</p>
+          <p>If Milos is calling you, it works well for you and two or three friends. A bigger group gets harder to house and move.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GETTING AROUND ============ -->
+<div class="pr-band-img" style="background-image:url('../images/transfers/private-boat-hero.jpg');"></div>
+
+<section class="pr-section">
+  <div class="container-pr">
+    <div class="pr-detail-head">
+      <h3>Getting Around</h3>
+      <span class="pr-route-label">One boat ride between each stop &middot; no backtracking</span>
+    </div>
+    <div class="pr-detail-grid">
+      <div>
+        <div class="pr-journey">
+          <p class="pr-sub-label">The Journey</p>
+          <div class="pr-map">
+            <div class="pr-map-line"></div>
+            <div class="pr-stops">
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Athens</div></div>
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Mykonos</div></div>
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Paros</div></div>
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Santorini</div></div>
+              <div class="pr-stop"><div class="pr-dot"></div><div class="pr-place">Home</div></div>
+            </div>
+          </div>
+          <div class="pr-legs">
+            <span class="pr-leg">40-min flight</span>
+            <span class="pr-leg">about 1 hour by boat</span>
+            <span class="pr-leg">2 to 3 hours by boat</span>
+            <span class="pr-leg">via Athens or Europe</span>
+          </div>
+        </div>
+        <div class="pr-step">
+          <p class="pr-sub-label">Arrival</p>
+          <p>Fly to Athens, then a 40-minute flight to Mykonos. A private car meets you and takes you to Bill &amp; Coo.</p>
+        </div>
+        <div class="pr-step">
+          <p class="pr-sub-label">In Between</p>
+          <p>Mykonos to Paros on a private boat for the group, about an hour, with no ferry crowds. Paros to Santorini on the fast ferry or a private boat.</p>
+        </div>
+        <div class="pr-step">
+          <p class="pr-sub-label">Departure</p>
+          <p>Fly home from Santorini, which has the most connections of the three, via Athens or a European hub.</p>
+        </div>
+      </div>
+      <div>
+        <p class="pr-intro-p">Going north to south means every move is short and in one direction. Each stop is eight nights except the last, so you never feel like you're always packing.</p>
+        <div class="pr-two-notes">
+          <div>
+            <p class="pr-sub-label">For Friends</p>
+            <p>Everyone flies via Athens to whichever island the group is on, with transfers arranged so people land in groups and share cars.</p>
+          </div>
+          <div>
+            <p class="pr-sub-label">The Wind</p>
+            <p>The August meltemi can cancel fast ferries. I'll leave a cushion on travel days and keep a backup boat or flight ready.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE GROUP ============ -->
+<section class="pr-section" style="background:var(--white);">
+  <div class="container-pr">
+    <div class="pr-overview-head">
+      <p class="pr-kicker">The Practical Part</p>
+      <h2 class="pr-h2">How the Group Works</h2>
+      <p class="pr-lead">The best villas for late August book early, so I'll hold your home base now and add friends as they commit.</p>
+    </div>
+    <div class="sw-group">
+      <div>
+        <h4>Who books what</h4>
+        <ul>
+          <li><strong>You and the core group</strong> get the villas or suites at each stop, held now.</li>
+          <li><strong>Friends</strong> pick the stops they can make and book their own rooms through me, under their own names and cards. You aren't covering everyone's stay.</li>
+          <li><strong>Everyone</strong> gets my Fora perks, which typically include breakfast, a hotel credit and an upgrade when available, at the same rate as booking direct.</li>
+          <li><strong>Boats, transfers and the birthday dinner</strong> are quoted once we know the numbers, and can be split however the group likes.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Key dates</h4>
+        <ul class="sw-dates">
+          <li><span>Nov 20, 2026</span><div>You approve the route and hotels, and I request holds and quotes.</div></li>
+          <li><span>Jan 15, 2027</span><div>Soft headcount: which stops each friend expects to join.</div></li>
+          <li class="sw-key"><span>Mar 1, 2027</span><div>Final names and numbers. Villa and suite deposits are due.</div></li>
+          <li><span>Spring 2027</span><div>Boats, transfers, boat days and the birthday dinner are booked.</div></li>
+        </ul>
+      </div>
+    </div>
+    <p class="pr-finaprint"><span class="pr-fp-label">Pricing</span> &nbsp;Once you're happy with the route, I'll quote each hotel for these exact dates, along with group rates and deposit terms. The Parilio villa figure above is the typical peak-season rate. Every other price comes from the hotels.</p>
+  </div>
+</section>
+
+<!-- ============ CLOSING ============ -->
+<section class="pr-closing" style="background-image:url('../images/islands/mykonos-divider.jpg');">
+  <div class="pr-closing-inner">
+    <h2>Let's make forty a big one</h2>
+    <p>Tell me what you love and what you'd change. Once the route is set, I'll lock the home bases and send you a simple sign-up your friends can use to pick their stops.</p>
+    <a href="mailto:keith.pence@fora.travel" class="btn btn-tan">Email Keith</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Suites With Keith</h4>
+      <p class="footer-slogan">Better Rooms. Better Trips.</p>
+      <p>Luxury travel advisor specializing in Europe, honeymoons, hotel bookings, and personalized itineraries.</p>
+    </div>
+    <div class="footer-mid">
+      <div class="footer-badge">SWK</div>
+      <div class="partner-logos">
+        <a href="https://www.virtuoso.com/advisor/keitpenc76094/" target="_blank" rel="noopener" aria-label="Keith Pence on Virtuoso"><img src="../images/logos/virtuoso.png" alt="Virtuoso" width="812" height="292"></a>
+        <img src="../images/logos/fora-pro.png" alt="Fora Pro" width="180" height="56">
+      </div>
+    </div>
+    <div class="footer-right">
+      <h4>Get In Touch</h4>
+      <p>keith.pence@fora.travel</p>
+      <p><a href="https://instagram.com/suiteswithkeith">@suiteswithkeith</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
