@@ -111,7 +111,20 @@ import Divider from '../components/Divider.astro';
         <blockquote>&ldquo;Worth its weight in gold. I won&rsquo;t ever book a stay without Keith again.&rdquo;</blockquote>
         <figcaption>Caitlin M. &middot; Four Seasons Napa Valley</figcaption>
       </figure>
+      <figure class="proof">
+        <blockquote>&ldquo;He made sure the hotel helped to celebrate our anniversary and checked in with us during our stay to ensure we were happy and well taken care of.&rdquo;</blockquote>
+        <figcaption>Chris N. &middot; Meadowood</figcaption>
+      </figure>
+      <figure class="proof">
+        <blockquote>&ldquo;Keith thought of every detail including welcome bubbly and treats, booking all our dining and spa reservations.&rdquo;</blockquote>
+        <figcaption>Craig H. &middot; MacArthur Place</figcaption>
+      </figure>
+      <figure class="proof">
+        <blockquote>&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone: they need to book through you if they stay at a nice hotel!&rdquo;</blockquote>
+        <figcaption>Carla &middot; The Beverly Hills Hotel</figcaption>
+      </figure>
     </div>
+    <p class="reveal" style="margin-top:24px; font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase;"><a href="https://www.foratravel.com/advisor/keith-pence" target="_blank" rel="noopener" style="color:var(--brass); text-decoration:none;">&#9733; 5.00 from 8 verified reviews on Fora &rarr;</a></p>
   </div>
 </section>
 
@@ -205,8 +218,9 @@ import Divider from '../components/Divider.astro';
     .proof-grid { grid-template-columns: 1fr 1fr 1fr; }
     .proof { padding: clamp(26px, 3vw, 36px) clamp(20px, 2.6vw, 34px); }
     .proof + .proof { border-top: none; border-left: 1px solid var(--hairline); }
-    .proof:first-child { padding-left: 0; }
-    .proof:last-child { padding-right: 0; }
+    .proof:nth-child(3n+1) { padding-left: 0; border-left: none; }
+    .proof:nth-child(3n) { padding-right: 0; }
+    .proof:nth-child(n+4) { border-top: 1px solid var(--hairline); }
   }
   .collection-grid { display: grid; gap: var(--grid-gap); grid-template-columns: 1fr; align-items: center; }
   .adv-grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
