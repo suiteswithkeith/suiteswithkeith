@@ -23,6 +23,7 @@
     var modal = injectModal();
     injectFooterLink();
     injectHotelBand();
+    injectVersusBand();
 
     var lastFocus = null;
 
@@ -98,7 +99,27 @@
       '.swkx-alt{font-family:var(--body,"Jost",sans-serif);font-size:.76rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:rgba(242,239,230,.82);text-decoration:none;border-bottom:1px solid rgba(242,239,230,.35);padding-bottom:3px}',
       '.swkx-alt:hover{color:var(--plaster,#F2EFE6);border-bottom-color:var(--brass-lit,#BE975A)}',
       '.swkx-note{margin:0 auto;max-width:54ch;padding-top:18px;border-top:1px solid rgba(242,239,230,.16);font-family:var(--body,"Jost",sans-serif);font-weight:300;font-size:.8rem;line-height:1.7;color:rgba(242,239,230,.58)}',
-      '@media(max-width:560px){.swkx-card{padding:40px 22px 34px}}'
+      '@media(max-width:560px){.swkx-card{padding:40px 22px 34px}}',
+      /* "book through me" band and per-hotel asks on head-to-head pages */
+      '.swkv-ask{display:inline-block;margin-top:22px;font-family:var(--body,"Jost",sans-serif);font-size:.74rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--brass,#836229);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:3px}',
+      '.swkv-ask:hover{color:var(--ink,#1F201A)}',
+      '.swkv{padding-top:0}',
+      '.swkv-card{display:grid;grid-template-columns:1fr;gap:30px;background:var(--plaster-deep,#E9E5DA);padding:clamp(30px,5vw,56px) clamp(24px,5vw,60px);border-top:2px solid var(--brass,#836229)}',
+      '@media(min-width:900px){.swkv-card{grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}}',
+      '.swkv-card>*{min-width:0}',
+      '.swkv-eyebrow{margin:0 0 14px;font-family:var(--body,"Jost",sans-serif);font-size:.72rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--brass,#836229)}',
+      '.swkv-h{margin:0 0 16px;max-width:20ch;font-family:var(--display,"DM Serif Display",Didot,Georgia,serif);font-weight:400;font-size:clamp(1.6rem,3.4vw,2.2rem);line-height:1.15;letter-spacing:.01em;text-wrap:balance}',
+      '.swkv-h em{font-style:italic;color:var(--brass,#836229)}',
+      '.swkv-p{margin:0 0 24px;max-width:50ch;font-family:var(--body,"Jost",sans-serif);font-weight:300;font-size:.98rem;line-height:1.7}',
+      '.swkv-go{display:inline-block;padding:15px 28px;background:var(--olive,#4A5040);color:var(--plaster,#F2EFE6);font-family:var(--body,"Jost",sans-serif);font-size:.76rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;transition:background .18s ease}',
+      '.swkv-go:hover{background:var(--shadow,#161712)}',
+      '.swkv-list{list-style:none;margin:0;padding:0;display:grid;gap:0}',
+      '.swkv-list li{padding:16px 0;border-top:1px solid var(--hairline,rgba(22,23,18,.15));font-family:var(--body,"Jost",sans-serif);font-weight:300;font-size:.95rem;line-height:1.6}',
+      '.swkv-list li:last-child{border-bottom:1px solid var(--hairline,rgba(22,23,18,.15))}',
+      '.swkv-list b{display:block;font-weight:500;margin-bottom:2px}',
+      '.swkv-quote{grid-column:1/-1;margin:0;padding-top:28px;border-top:1px solid var(--hairline-firm,rgba(22,23,18,.32))}',
+      '.swkv-quote p{margin:0;max-width:62ch;font-family:var(--display,"DM Serif Display",Didot,Georgia,serif);font-style:italic;font-size:clamp(1.1rem,2.2vw,1.35rem);line-height:1.5}',
+      '.swkv-quote figcaption{margin-top:12px;font-family:var(--body,"Jost",sans-serif);font-size:.72rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--ash,#65665C)}'
     ].join('');
     var s = document.createElement('style');
     s.textContent = css;
@@ -164,6 +185,97 @@
     }
 
     inquire.parentNode.insertBefore(section, inquire);
+  }
+
+  /* Head-to-head pages (/x-vs-y.html): readers get their answer from the
+     two "Choose…" cards and often leave before the form at the bottom.
+     So, right where they decide:
+     - an "Ask me about <hotel>" link under each card, which carries the
+       hotel into the form (hidden field + heading) and jumps to it;
+     - a "book through me" band after the cards: why booking with Keith
+       is better than booking direct, at the same rate;
+     - the phone sticky button speaks to the page ("Booking one of these?").
+     Hotel names come from the comparison table's header row. */
+  function injectVersusBand() {
+    if (!/-vs-/.test(location.pathname)) return;
+    if (document.querySelector('.swkv-card')) return;
+    var choose = document.querySelector('.choose');
+    var inquire = document.getElementById('inquire');
+    var form = inquire && inquire.querySelector('form.inquire-form');
+    if (!choose || !form) return;
+
+    var names = [];
+    var ths = document.querySelectorAll('table thead th');
+    for (var i = 1; i < ths.length; i++) {
+      names.push(ths[i].textContent.replace(/\?$/, '').trim());
+    }
+
+    /* 1 · an ask under each choice */
+    var cols = choose.querySelectorAll('.choose-col');
+    for (var c = 0; c < cols.length && c < names.length; c++) {
+      if (!names[c]) continue;
+      var a = document.createElement('a');
+      a.className = 'swkv-ask';
+      a.href = '#inquire';
+      a.setAttribute('data-swkv-hotel', names[c]);
+      a.setAttribute('data-gtag-label', 'versus_ask_hotel');
+      a.setAttribute('data-gtag-location', 'choose_card');
+      a.textContent = 'Ask me about ' + names[c] + ' →';
+      cols[c].appendChild(a);
+    }
+
+    var heading = inquire.querySelector('h2');
+    var interested = document.createElement('input');
+    interested.type = 'hidden';
+    interested.name = 'interested_in';
+    form.appendChild(interested);
+
+    document.addEventListener('click', function (e) {
+      var ask = e.target.closest('[data-swkv-hotel]');
+      if (!ask) return;
+      var hotel = ask.getAttribute('data-swkv-hotel');
+      interested.value = hotel;
+      if (heading) heading.textContent = 'Leaning toward ' + hotel + '?';
+      var when = form.querySelector('input[name="travel_dates"]');
+      if (when) window.setTimeout(function () { when.focus({ preventScroll: true }); }, 450);
+    });
+
+    /* 2 · the band after the cards */
+    var host = choose.closest('section');
+    if (host && host.parentNode) {
+      var section = document.createElement('section');
+      section.className = 'section swkv';
+      section.innerHTML =
+        '<div class="container">' +
+          '<div class="swkv-card">' +
+            '<div>' +
+              '<p class="swkv-eyebrow">Booking one of these?</p>' +
+              '<h2 class="swkv-h">Book through me, and the hotel <em>knows you&rsquo;re coming.</em></h2>' +
+              '<p class="swkv-p">These are hotels I&rsquo;ve been to, whose teams I know and that I send clients to. They take extra care of Suites With Keith clients, and I make sure you&rsquo;re well looked after from the day you book to the day you check out.</p>' +
+              '<a class="swkv-go" href="#inquire" data-gtag-label="versus_trust_cta" data-gtag-location="versus_band">Get my recommendation</a>' +
+            '</div>' +
+            '<ul class="swkv-list">' +
+              '<li><b>The right room.</b>I know which rooms to ask for, and which ones to skip.</li>' +
+              '<li><b>A note before you arrive.</b>The hotel hears from me about you, the occasion and how you like things.</li>' +
+              '<li><b>Fora X perks.</b>Typically daily breakfast, a hotel credit and an upgrade when available.</li>' +
+              '<li><b>The same rate as booking direct.</b>Plus a direct line to me while you&rsquo;re there.</li>' +
+            '</ul>' +
+            '<figure class="swkv-quote">' +
+              '<p>&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone: they need to book through you if they stay at a nice hotel! Our room is amazing, and I love the treats waiting for us upon arrival.&rdquo;</p>' +
+              '<figcaption>Carla &middot; The Beverly Hills Hotel, October 2026</figcaption>' +
+            '</figure>' +
+          '</div>' +
+        '</div>';
+      host.parentNode.insertBefore(section, host.nextSibling);
+    }
+
+    /* 3 · the phone sticky button */
+    var sticky = document.querySelector('.sticky-cta');
+    if (sticky) {
+      sticky.textContent = 'Booking one of these? Ask me';
+      sticky.setAttribute('data-gtag-label', 'versus_sticky');
+      sticky.setAttribute('data-gtag-location', 'sticky_mobile');
+    }
   }
 
   function injectFooterLink() {
