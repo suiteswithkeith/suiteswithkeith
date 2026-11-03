@@ -58,6 +58,9 @@
     .page > .ph{order:-1}
     .cover .ph{aspect-ratio:4/5}
     .ph2{display:flex!important;flex-direction:column;gap:6px;order:-1;width:100%}
+    .page [style*="align-items:end"]{align-items:stretch!important}
+    .page [style*="grid-template-columns:150px"]{display:flex!important;flex-direction:column;gap:6px!important}
+    .page [style*="grid-template-columns:150px"] > div[style*="text-align:right"]{text-align:left!important;color:#836229}
     .page [style*="margin-top:auto"]{margin-top:24px!important}
     .page [style*="font-size:60px"],.page [style*="font-size:56px"],.page [style*="font-size:52px"]{font-size:42px!important}
     .page [style*="font-size:48px"],.page [style*="font-size:44px"],.page [style*="font-size:40px;line-height:1.15"]{font-size:36px!important}
@@ -137,6 +140,41 @@
   </div>
 </section>
 
+<section class="page" aria-label="Transfers" style="display:flex;flex-direction:column;gap:18px;padding:40px 56px 30px;background:#F2EFE6;color:#1F201A">
+  <div style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px;align-items:end">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">Getting around</div>
+      <h2 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:36px;line-height:1.06;margin:0">Your <em>transfers</em></h2>
+    </div>
+    <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:15.5px;line-height:1.6;color:#65665C;margin:0;text-wrap:pretty">Private and door to door, with a driver or boatman waiting for you. Pickup times are set once your flights are booked.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column">
+    <div style="display:grid;grid-template-columns:150px minmax(0,1fr) 130px;gap:24px;padding:16px 0;border-top:1px solid rgba(22,23,18,.15)">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#836229;line-height:1.6">Wed, Sept 22</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><h3 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:22px;line-height:1.15;margin:0">Venice airport to Forestis</h3><p style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;margin:0;text-wrap:pretty">Your driver meets you in arrivals, just outside customs, with a Mercedes V-Class (room for 7 suitcases and 3 carry-ons). About 3 hours.</p></div>
+      <div style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;text-align:right">€1,060</div>
+    </div>
+    <div style="display:grid;grid-template-columns:150px minmax(0,1fr) 130px;gap:24px;padding:16px 0;border-top:1px solid rgba(22,23,18,.15)">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#836229;line-height:1.6">Sat, Sept 25</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><h3 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:22px;line-height:1.15;margin:0">Forestis to Gardena Grödnerhof</h3><p style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;margin:0;text-wrap:pretty">About an hour through the valleys. By rental car, or Keith can add a private transfer.</p></div>
+      <div style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;text-align:right">To confirm</div>
+    </div>
+    <div style="display:grid;grid-template-columns:150px minmax(0,1fr) 130px;gap:24px;padding:16px 0;border-top:1px solid rgba(22,23,18,.15)">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#836229;line-height:1.6">Mon, Sept 27</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><h3 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:22px;line-height:1.15;margin:0">Gardena Grödnerhof to Airelles</h3><p style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;margin:0;text-wrap:pretty">A private car at 10 AM to Piazzale Roma (about 3.5 hours), then a private water taxi with an assistant to Airelles at 1:30 PM.</p></div>
+      <div style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;text-align:right">€1,490<br>+ €320 water taxi</div>
+    </div>
+    <div style="display:grid;grid-template-columns:150px minmax(0,1fr) 130px;gap:24px;padding:16px 0;border-top:1px solid rgba(22,23,18,.15);border-bottom:1px solid rgba(22,23,18,.15)">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#836229;line-height:1.6">Thu, Sept 30</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><h3 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:22px;line-height:1.15;margin:0">Airelles to Venice airport</h3><p style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;margin:0;text-wrap:pretty">A private water taxi with an assistant, straight from the hotel dock to the airport, timed to your flight.</p></div>
+      <div style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;text-align:right">€570</div>
+    </div>
+  </div>
+  <p style="margin:auto 0 0;font-family:'Jost',sans-serif;font-weight:300;font-size:13.5px;line-height:1.55;color:#65665C;text-wrap:pretty">Prices are for two. Transfers, guides and experiences are confirmed with a 20% non-refundable deposit; 80% is due 15 days before arrival. If plans change, 20% applies from August 9, 50% from September 7 and 100% from September 16.</p>
+  <div style="padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>04</span></div>
+</section>
+
 <section class="page" aria-label="Forestis" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);background:#F2EFE6;color:#1F201A">
   <div style="display:flex;flex-direction:column;gap:20px;padding:52px 56px 40px">
     <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">Above Brixen · Sept 22 to 25</div>
@@ -147,7 +185,7 @@
       <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.65;margin:0;padding:12px 0;border-top:1px solid rgba(22,23,18,.15);border-bottom:1px solid rgba(22,23,18,.15);text-wrap:pretty">Your Tower Suite is confirmed for three nights with breakfast and dinner. Keith's partner benefits add a $100 credit for the spa or dining, plus an upgrade and early check-in or late check-out when available.</p>
     </div>
     <p style="margin:0px 0 0;padding-left:12px;border-left:1px solid #836229;font-family:'Jost',sans-serif;font-weight:300;font-size:15.5px;line-height:1.5;color:#1F201A;text-wrap:pretty"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#836229">Keith's note </span>I'll push for the fourth or fifth floor or higher, in the tower closest to the lodge or the middle tower. That's where the view of the Odle is best. For one night, I'd book dinner at YERA, the fireside restaurant above the hotel.</p>
-    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>September 22 to 25 · 3 nights</span><span>04</span></div>
+    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>September 22 to 25 · 3 nights</span><span>05</span></div>
   </div>
   <div class="ph" style="position:relative"><img src="/images/dolomites/forestis/pool-dusk.jpg" alt="Forestis towers in the forest" loading="lazy" decoding="async"></div>
 </section>
@@ -158,7 +196,7 @@
     <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">Where you'll stay</div>
     <h2 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:38px;line-height:1.06;margin:0;text-wrap:balance">Your <em>Dolomites</em> map</h2>
     <div style="display:flex;flex-direction:column;border-bottom:1px solid rgba(22,23,18,.15)"><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:18px;line-height:1.2;color:#836229">■</span><span style="display:flex;flex-direction:column;gap:2px"><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.5;color:#1F201A">Forestis</span><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#65665C">Plose, above Brixen · Sept 22 to 25</span></span></div><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:18px;line-height:1.2;color:#836229">■</span><span style="display:flex;flex-direction:column;gap:2px"><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.5;color:#1F201A">Gardena Grödnerhof</span><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#65665C">Ortisei · Sept 25 to 27</span></span></div><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:18px;line-height:1.2;color:#836229">▲</span><span style="display:flex;flex-direction:column;gap:2px"><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.5;color:#1F201A">Hikes, numbered 1 to 6</span><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#65665C">Plose to Lagazuoi</span></span></div><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:18px;line-height:1.2;color:#836229">◆</span><span style="display:flex;flex-direction:column;gap:2px"><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.5;color:#1F201A">Abbazia di Novacella</span><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#65665C">Wine tasting near Brixen</span></span></div></div>
-    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>About an hour from Forestis to Ortisei</span><span>05</span></div>
+    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>About an hour from Forestis to Ortisei</span><span>06</span></div>
   </div>
 </section>
 
@@ -172,24 +210,54 @@
       <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.65;margin:0;padding:12px 0;border-top:1px solid rgba(22,23,18,.15);text-wrap:pretty;border-bottom:1px solid rgba(22,23,18,.15)">Your Superior Deluxe room is confirmed for two nights with breakfast. Keith's partner benefits add a $100 credit, a welcome of local sparkling wine with bites from Anna Stuben, and an upgrade and early or late check-out when available.</p>
     </div>
     <p style="margin:0;padding-left:12px;border-left:1px solid #836229;font-family:'Jost',sans-serif;font-weight:300;font-size:15.5px;line-height:1.5;color:#1F201A;text-wrap:pretty"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#836229">Keith's note </span>My pick for the best base in the Dolomites. I'd save one evening for Anna Stuben, and I can reserve it for you.</p>
-    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>September 25 to 27 · 2 nights</span><span>06</span></div>
+    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>September 25 to 27 · 2 nights</span><span>07</span></div>
   </div>
   <div class="ph2" style="display:grid;grid-template-rows:minmax(0,1.45fr) minmax(0,1fr);gap:6px;background:#F2EFE6"><div class="ph" style="position:relative;min-height:0"><img src="/images/dolomites/gardena-grodnerhof/indoor-pool.jpg" alt="Gardena Grödnerhof indoor pool" loading="lazy" decoding="async"></div><div class="ph" style="position:relative;min-height:0"><img src="/images/dolomites/gardena-grodnerhof/hero.jpg" alt="Gardena Grödnerhof bedroom" loading="lazy" decoding="async"></div></div>
 </section>
 
-<section class="page" aria-label="Dolomites experiences" style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);background:#E9E5DA;color:#1F201A">
-  <div class="ph" style="position:relative"><img src="/images/dolomites/forestis/restaurant.jpg" alt="Hiking trail or rifugio lunch" loading="lazy" decoding="async"></div>
-  <div style="display:flex;flex-direction:column;gap:20px;padding:52px 56px 40px">
-    <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">In the Dolomites</div>
-    <h2 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:48px;line-height:1.05;margin:0">Keith can <em>arrange</em></h2>
-    <div style="display:flex;flex-direction:column;margin-top:8px">
-      <div style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:22px;line-height:1.2;color:#836229">i.</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.65">Dinner at YERA, the fireside cave restaurant above Forestis: about three hours, a set menu with paired drinks (€650 per person), phones put away</span></div>
-      <div style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:22px;line-height:1.2;color:#836229">ii.</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.65">A private hiking guide, tailored to your pace</span></div>
-      <div style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:22px;line-height:1.2;color:#836229">iii.</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.65">Rifugio lunches at mountain huts</span></div>
-      <div style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15);border-bottom:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:22px;line-height:1.2;color:#836229">iv.</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.65">A wine tasting at Abbazia di Novacella near Brixen</span></div>
-          </div>
-    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#65665C"><span>Kate &amp; Mark · September 2027</span><span>07</span></div>
+<section class="page" aria-label="Dolomites days" style="display:flex;flex-direction:column;gap:18px;padding:36px 56px 28px;background:#E9E5DA;color:#1F201A">
+  <div style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px;align-items:end">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">Your days in the Dolomites</div>
+      <h2 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:36px;line-height:1.06;margin:0">Rest first, then <em>hike</em></h2>
+    </div>
+    <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:15.5px;line-height:1.6;color:#65665C;margin:0;text-wrap:pretty">Keith's suggestion: keep your first full day completely free at Forestis, then choose one or two guided days. Each comes with your own guide and a private car.</p>
   </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;flex:1;align-items:start">
+    <div style="display:flex;flex-direction:column;padding:18px 20px 8px;background:#FBFAF6;border:1px solid rgba(22,23,18,.15)">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#65665C">Thu, Sept 23 · Forestis</div>
+      <h3 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:24px;line-height:1.1;margin:8px 0 10px">A day for <em>nothing</em></h3>
+      <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:14.5px;line-height:1.55;margin:0 0 12px;text-wrap:pretty">After the overnight flight, nothing on the calendar. The spa, the pools, a slow walk in the forest, and dinner at YERA if you like.</p>
+      <div style="padding:12px 0 10px;border-top:1px solid rgba(22,23,18,.15)"><p style="margin:0;padding-left:12px;border-left:1px solid #836229;font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.5;color:#1F201A;text-wrap:pretty"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#836229">Keith's note </span>This is the day I'd protect. The jet lag is real, and Forestis is the place to give in to it.</p></div>
+    </div>
+    <div style="display:flex;flex-direction:column;padding:18px 20px 8px;background:#FBFAF6;border:1px solid rgba(22,23,18,.15)">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#65665C">Fri, Sept 24 · From Forestis</div>
+      <h3 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:24px;line-height:1.1;margin:8px 0 10px">Choose one, or stay put</h3>
+      <div style="display:flex;flex-direction:column;gap:5px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)">
+        <h4 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:19px;line-height:1.15;margin:0">Hike to the Witches' Benches</h4>
+        <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.5;margin:0;text-wrap:pretty">A guided hike across the Alpe di Siusi on the Bullaccia trail, to the benches with the big view.</p>
+        <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:9.5px;color:#65665C;line-height:1.7">9 km · 3 to 4 hrs walking · 340 m climb · about 7 hrs door to door</div>
+        <div style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.4;color:#836229">€2,400 for two</div>
+      </div><div style="display:flex;flex-direction:column;gap:5px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)">
+        <h4 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:19px;line-height:1.15;margin:0">Lake Braies and Kronplatz</h4>
+        <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.5;margin:0;text-wrap:pretty">Lago di Braies, the gondola up Kronplatz, the Lumen mountain photography museum, and a Michelin-starred tasting lunch. More scenery than hiking.</p>
+        <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:9.5px;color:#65665C;line-height:1.7">About 9 hrs with your guide and car</div>
+        <div style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.4;color:#836229">€3,780 for two</div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;padding:18px 20px 8px;background:#FBFAF6;border:1px solid rgba(22,23,18,.15)">
+      <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#65665C">Sun, Sept 26 · From Gardena</div>
+      <h3 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:24px;line-height:1.1;margin:8px 0 10px">Alpe di Siusi and Val Gardena</h3>
+      <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:14.5px;line-height:1.55;margin:0 0 12px;text-wrap:pretty">An easy guided walk across Europe's largest high alpine meadow, with the Sassolungo and Sciliar peaks all around. It starts minutes from Gardena.</p><div style="display:flex;flex-direction:column;gap:5px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)">
+        <h4 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:19px;line-height:1.15;margin:0">The details</h4>
+        <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.5;margin:0;text-wrap:pretty">Your guide meets you in the lobby, with a private car if needed.</p>
+        <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:9.5px;color:#65665C;line-height:1.7">6 km · 3 to 4 hrs · 100 m climb</div>
+        <div style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.4;color:#836229">€1,900 for two</div>
+      </div>
+    </div>
+  </div>
+  <div style="padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>08</span></div>
 </section>
 
 <section class="page" aria-label="Airelles" style="display:flex;flex-direction:column;gap:18px;padding:40px 56px 30px;background:#F2EFE6;color:#1F201A">
@@ -217,7 +285,7 @@
       </div>
     </div>
   </div>
-  <div style="padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>08</span></div>
+  <div style="padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>09</span></div>
 </section>
 
 <section class="page" aria-label="Venice map" style="position:relative;background:#E9E5DA;color:#1F201A;padding:0">
@@ -226,23 +294,22 @@
     <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">Where you'll stay</div>
     <h2 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:38px;line-height:1.06;margin:0;text-wrap:balance">Your <em>Venice</em> map</h2>
     <div style="display:flex;flex-direction:column;border-bottom:1px solid rgba(22,23,18,.15)"><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:18px;line-height:1.2;color:#836229">■</span><span style="display:flex;flex-direction:column;gap:2px"><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.5;color:#1F201A">Airelles Venezia</span><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#65665C">Giudecca · Sept 27 to 30</span></span></div><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:18px;line-height:1.2;color:#836229">□</span><span style="display:flex;flex-direction:column;gap:2px"><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.5;color:#1F201A">Venice airport</span><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#65665C">Water taxi to the hotel</span></span></div><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;font-size:18px;line-height:1.2;color:#836229">◆</span><span style="display:flex;flex-direction:column;gap:2px"><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.5;color:#1F201A">San Marco and the lagoon islands</span><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10.5px;color:#65665C">Murano, Burano, Torcello</span></span></div></div>
-    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>09</span></div>
+    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>10</span></div>
   </div>
 </section>
 
 <section class="page" aria-label="Venice experiences" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);background:#F2EFE6;color:#1F201A">
   <div style="display:flex;flex-direction:column;gap:18px;padding:52px 56px 40px">
-    <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">In Venice</div>
+    <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">In Venice · Choose what appeals</div>
     <h2 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:44px;line-height:1.05;margin:0">Keith can <em>arrange</em></h2>
-    <div style="display:flex;flex-direction:column;margin-top:4px;font-family:'Jost',sans-serif;font-weight:300;font-size:15.5px;line-height:1.55">
-      <p style="margin:0;padding:10px 0;border-top:1px solid rgba(22,23,18,.15)">A private boat day through the lagoon (Murano, Burano, Torcello) with lunch on Torcello</p>
-      <p style="margin:0;padding:10px 0;border-top:1px solid rgba(22,23,18,.15)">An after-hours or "secret itineraries" tour of St. Mark's or the Doge's Palace</p>
-      <p style="margin:0;padding:10px 0;border-top:1px solid rgba(22,23,18,.15)">A guided cicchetti and wine walk through the bacari</p>
-      <p style="margin:0;padding:10px 0;border-top:1px solid rgba(22,23,18,.15)">A traditional Venetian rowing lesson</p>
-      <p style="margin:0;padding:10px 0;border-top:1px solid rgba(22,23,18,.15)">A day trip to the Prosecco hills for tastings</p>
-      <p style="margin:0;padding:10px 0;border-top:1px solid rgba(22,23,18,.15);border-bottom:1px solid rgba(22,23,18,.15)">The 2027 Venice Biennale, running through November</p>
+    <div style="display:flex;flex-direction:column;margin-top:4px">
+      <div style="display:flex;flex-direction:column;gap:3px;padding:10px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10px;color:#65665C">Mon, Sept 27 · 4 PM · 3 hrs · €800</span><span style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:19px;line-height:1.2">Venice unveiled</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:14.5px;line-height:1.5;text-wrap:pretty">The Doge's Palace and St Mark's Basilica with a private guide and skip-the-line entry. Shoulders and knees covered.</span></div>
+      <div style="display:flex;flex-direction:column;gap:3px;padding:10px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10px;color:#65665C">Tue, Sept 28 · 6 hrs · €2,500</span><span style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:19px;line-height:1.2">Murano, Burano and Torcello</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:14.5px;line-height:1.5;text-wrap:pretty">Your own water taxi and guide across the lagoon, a glassmaking demonstration on Murano, and lunch along the way.</span></div>
+      <div style="display:flex;flex-direction:column;gap:3px;padding:10px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10px;color:#65665C">Wed, Sept 29 · 10 AM · 2 hrs · €600</span><span style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:19px;line-height:1.2">A Venetian food tour</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:14.5px;line-height:1.5;text-wrap:pretty">The Rialto market, then cicchetti and regional wines at a bacaro.</span></div>
+      <div style="display:flex;flex-direction:column;gap:3px;padding:10px 0;border-top:1px solid rgba(22,23,18,.15);border-bottom:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10px;color:#65665C">Wed, Sept 29 · 3 PM · €620</span><span style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:19px;line-height:1.2">A mask-making class</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:14.5px;line-height:1.5;text-wrap:pretty">Decorate your own Venetian mask with an artisan, with pickup at Airelles.</span></div>
     </div>
-    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>10</span></div>
+    <p style="margin:0;font-family:'Jost',sans-serif;font-weight:300;font-size:13.5px;line-height:1.55;color:#65665C">Choose any or none. Prices are for two. Also possible: a rowing lesson, the Prosecco hills, and the 2027 Biennale.</p>
+    <div style="margin-top:auto;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>11</span></div>
   </div>
   <div class="ph" style="position:relative"><img src="/images/hotels/airelles-palladio-venice/salute-view.jpg" alt="Venetian lagoon or Torcello" loading="lazy" decoding="async"></div>
 </section>
@@ -274,7 +341,7 @@
       <div style="display:flex;flex-direction:column;gap:3px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10px;color:#836229">Your room</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.45;text-wrap:pretty">Deluxe Room, 41 to 50 m², over the gardens, rooftops or a courtyard</span></div><div style="display:flex;flex-direction:column;gap:3px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10px;color:#836229">Included</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.45;text-wrap:pretty">Breakfast, the minibar, laundry, spa access and the hotel boat, plus Keith's partner benefits on page 08</span></div><div style="display:flex;flex-direction:column;gap:3px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10px;color:#836229">If plans change</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.45;text-wrap:pretty">Free to change or cancel until September 12. Full prepayment is taken then and is non-refundable</span></div><div style="display:flex;flex-direction:column;gap:3px;padding:9px 0;border-top:1px solid rgba(22,23,18,.15)"><span style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:10px;color:#836229">Local tax</span><span style="font-family:'Jost',sans-serif;font-weight:300;font-size:14px;line-height:1.45;text-wrap:pretty">€5 per adult per night</span></div>
     </div>
   </div>
-  <div style="padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>11</span></div>
+  <div style="padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>12</span></div>
 </section>
 
 <section class="page" aria-label="Planning" style="display:flex;flex-direction:column;padding:52px 56px 40px;background:#F2EFE6;color:#1F201A">
@@ -283,7 +350,7 @@
       <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#836229">Next steps</div>
       <h2 style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:48px;line-height:1.05;margin:0">Planning with <em>Keith</em></h2>
       <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:15.5px;line-height:1.6;margin:8px 0 0;color:#65665C;text-wrap:pretty">Covers transfers, the rental car, guides, boats, dinner and spa reservations, 24/7 in-trip support and your personal itinerary app</p>
-      <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.65;margin:0;padding-left:18px;border-left:1px solid #836229;text-wrap:pretty"><strong style="font-weight:500">Next step:</strong> book flights landing in Venice on the morning of September 22 and leaving Venice on September 30, then send Keith the details so every transfer lines up.</p>
+      <p style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.65;margin:0;padding-left:18px;border-left:1px solid #836229;text-wrap:pretty"><strong style="font-weight:500">Next step:</strong> tell Keith which guided days and Venice experiences you would like, and book flights landing in Venice on the morning of September 22 and leaving on September 30. Keith will confirm everything and time each transfer to your flights.</p>
     </div>
     <div style="display:flex;flex-direction:column;justify-content:flex-end;gap:24px;padding-bottom:12px">
       <p style="font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-style:italic;font-size:40px;line-height:1.15;margin:0;text-wrap:balance">Can't wait to plan this one with you both.</p>
@@ -291,7 +358,7 @@
       <div style="font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:12px;color:#1F201A;line-height:1.8">Keith Pence · Suites With Keith · <span style="color:#836229">@suiteswithkeith</span></div>
     </div>
   </div>
-  <div style="margin-top:28px;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>12</span></div>
+  <div style="margin-top:28px;padding-top:14px;border-top:1px solid rgba(22,23,18,.15);display:flex;justify-content:space-between;font-family:'Bodoni Moda',Didot,serif;text-transform:uppercase;letter-spacing:.2em;font-weight:600;font-size:11px;color:#8C8D82"><span>Kate &amp; Mark · September 2027</span><span>13</span></div>
 </section>
 </main>
 </body>
