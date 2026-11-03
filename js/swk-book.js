@@ -251,7 +251,7 @@
             '<div>' +
               '<p class="swkv-eyebrow">Booking one of these?</p>' +
               '<h2 class="swkv-h">Book through me, and the hotel <em>knows you&rsquo;re coming.</em></h2>' +
-              '<p class="swkv-p">I&rsquo;ve been to both of these hotels in person, as I have nearly every hotel on this site. I know their teams, and I send them clients. They take extra care of Suites With Keith clients, and I make sure you&rsquo;re well looked after from the day you book to the day you check out.</p>' +
+              '<p class="swkv-p">I&rsquo;ve been to both of these hotels in person, and I&rsquo;ve personally vetted every hotel on this site. I know their teams, and I send them clients. They take extra care of Suites With Keith clients, and I make sure you&rsquo;re well looked after from the day you book to the day you check out.</p>' +
               '<a class="swkv-go" href="#inquire" data-gtag-label="versus_trust_cta" data-gtag-location="versus_band">Get my recommendation</a>' +
             '</div>' +
             '<ul class="swkv-list">' +
