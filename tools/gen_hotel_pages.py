@@ -1074,7 +1074,7 @@ for h in HOTELS:
     mailto = ("mailto:keith.pence@fora.travel?subject=" + quote(plain_name + " Inquiry") + "&body=" + body)
     rank_href_v = h.get("rank_href", "best-hotels-greece.html")
     perks_default = (
-        "Work with me and you get two things: Fora perks, and someone who knows " + h.get("short_name", plain_name) + " personally. As a Fora advisor"
+        "Work with me and you get two things: Fora perks, and someone who knows " + h.get("short_name", plain_name) + " personally. As a Fora X advisor"
         + h.get("partner_clause", "")
         + ", my clients receive a space-available upgrade, daily breakfast, and a "
         + h.get("credit_label", "hotel credit")
