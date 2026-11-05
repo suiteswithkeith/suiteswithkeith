@@ -2,9 +2,11 @@
 // Renders one hand-authored hotel brief from phase1/src/data/hotelbriefs.json.
 import Layout from './Layout.astro';
 import briefs from '../data/hotelbriefs.json';
+import { clientQuoteFor } from '../data/clientquotes.js';
 
 const { slug } = Astro.props;
 const g = briefs[slug];
+const cq = clientQuoteFor(slug);
 const schema = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -88,7 +90,7 @@ const schema = JSON.stringify({
       <span class="eyebrow" style="display:block; margin-bottom:10px;" set:html={g.perks_eyebrow} />
       <h3 class="display-m" set:html={g.perks_h3} />
       <p class="body-2 hb-p" style="margin-top:12px;" set:html={g.perks_p} />
-      <figure class="swk-quote reveal" style="margin:26px 0 0; padding-top:26px; border-top:1px solid var(--hairline);"><blockquote style="margin:0; font-family:var(--display); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.3rem); line-height:1.5;">&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone: they need to book through you if they stay at a nice hotel! Our room is amazing, and I love the treats waiting for us upon arrival.&rdquo;</blockquote><figcaption style="margin-top:12px; font-size:.72rem; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--ash);">Carla &middot; The Beverly Hills Hotel, October 2026</figcaption></figure>
+      <figure class="swk-quote reveal" style="margin:26px 0 0; padding-top:26px; border-top:1px solid var(--hairline);"><blockquote style="margin:0; font-family:var(--display); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.3rem); line-height:1.5;" set:html={cq.quote} /><figcaption style="margin-top:12px; font-size:.72rem; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--ash);" set:html={cq.cite} /></figure>
       <p style="margin-top:20px;"><a class="btn btn-ghost" href="#inquire" data-gtag-label="check_availability" data-gtag-location="hotel_perks">Check availability</a></p>
     </div>
   </div>

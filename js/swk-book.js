@@ -243,11 +243,26 @@
     /* 2 · the band after the cards */
     var host = choose.closest('section');
     if (host && host.parentNode) {
-      /* The opening of Carla's note (C&J), with no single hotel named, so it
-         fits every head-to-head page. */
+      /* General client praise, one per page, picked from the page slug so it
+         stays put. Same list, order and pick as phase1/src/data/clientquotes.js;
+         Passalacqua pages always get C&J, who stayed there through Keith. */
+      var quotes = [
+        ['&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone.&rdquo;', 'C&amp;J &middot; SWK Clients'],
+        ['&ldquo;Worth its weight in gold. I won&rsquo;t ever book a stay without Keith again.&rdquo;', 'Caitlin M. &middot; SWK Client'],
+        ['&ldquo;Keith made me believe in using travel agents again. He carefully put together thoughtful options and called out why he would choose each.&rdquo;', 'Stephanie F. &middot; SWK Client'],
+        ['&ldquo;He handled everything, from booking to communications, and I didn&rsquo;t have to worry about a thing.&rdquo;', 'Nida T. &middot; SWK Client'],
+        ['&ldquo;Luxury hotels naturally have many guests competing for attention, but having Keith in our corner made us feel like a priority throughout the entire experience.&rdquo;', 'Tyler &amp; Spencer C. &middot; SWK Clients']
+      ];
+      var slug = location.pathname.replace(/^.*\//, '').replace(/\.html$/, '');
+      var pick = 0;
+      if (!/passalacqua/.test(slug)) {
+        var hsh = 0;
+        for (var k = 0; k < slug.length; k++) hsh = (hsh * 31 + slug.charCodeAt(k)) >>> 0;
+        pick = hsh % quotes.length;
+      }
       var quote = '<figure class="swkv-quote">' +
-          '<p>&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone.&rdquo;</p>' +
-          '<figcaption>C&amp;J &middot; SWK Clients</figcaption>' +
+          '<p>' + quotes[pick][0] + '</p>' +
+          '<figcaption>' + quotes[pick][1] + '</figcaption>' +
         '</figure>';
       var section = document.createElement('section');
       section.className = 'section swkv';
