@@ -3572,7 +3572,7 @@
   "h1_b": "Passalacqua?",
   "deck": "Same family, similar style of room, and completely different stays. Grand Hotel Tremezzo is a fun, busy grand hotel where outside guests come in droves. Passalacqua is a whimsical 24-room villa where only hotel guests can get in.",
   "stamp": "Toured both, had lunch at Tremezzo &middot; October 2026",
-  "preload": "/images/proposals/lake-como/passalacqua/garden-lake.jpg",
+  "preload": "/images/proposals/lake-como/passalacqua/garden-car-film.jpg",
   "choose": [
    {
     "eyebrow": "Choose Grand Hotel Tremezzo",
@@ -3587,10 +3587,10 @@
     "eyebrow": "Choose Passalacqua",
     "h3": "If you want it all to yourselves",
     "lead": "A whimsical villa that&rsquo;s meant to feel like your home, with antiques the family collected over time. Only guests can use the restaurants and spa, so it&rsquo;s peaceful and exclusive. It&rsquo;s a couple&rsquo;s retreat.",
-    "img": "/images/proposals/lake-como/passalacqua/garden-lake.jpg",
-    "alt": "Passalacqua’s terraced gardens above Lake Como",
-    "w": 1882,
-    "h": 1224
+    "img": "/images/proposals/lake-como/passalacqua/garden-car-film.jpg",
+    "alt": "A vintage orange beach car parked on the terrace steps in Passalacqua’s gardens, the lake beyond",
+    "w": 1600,
+    "h": 1240
    }
   ],
   "rows": [
@@ -3689,6 +3689,32 @@
     "alt": "Grand Hotel Tremezzo’s pool floating on Lake Como, above a busy lakefront terrace with orange-and-white umbrellas",
     "w": 898,
     "h": 1196
+   },
+   {
+    "h3": "The pools",
+    "paras": [
+     "Grand Hotel Tremezzo has two: the garden pool, my favorite, and the pool floating on the lake, which is the busier one. Passalacqua has one, in the gardens under the cedars with fringed umbrellas, and with only 24 rooms and no outside guests, it stays quiet."
+    ],
+    "img": "/images/proposals/lake-como/passalacqua/pool-film.jpg",
+    "alt": "Passalacqua’s pool with fringed umbrellas and the mountains behind",
+    "w": 1232,
+    "h": 1600
+   },
+   {
+    "h3": "The tennis courts",
+    "paras": [
+     "Both have a clay court. Passalacqua&rsquo;s sits above the lake and is one of the world&rsquo;s most iconic tennis courts; it&rsquo;s on my list of the <a href=\"/top-hotel-tennis-courts.html\">best hotel tennis courts</a>. Grand Hotel Tremezzo&rsquo;s is in the gardens, with the mountains behind."
+    ],
+    "img": "/images/lake-como/grand-hotel-tremezzo/clay-court-film.jpg",
+    "alt": "Grand Hotel Tremezzo’s clay tennis court in the gardens, the mountains behind",
+    "w": 1222,
+    "h": 1600,
+    "cap": "Grand Hotel Tremezzo",
+    "img2": "/images/proposals/lake-como/passalacqua/tennis-court.jpg",
+    "alt2": "Passalacqua’s clay tennis court above Lake Como and Moltrasio",
+    "w2": 1236,
+    "h2": 1600,
+    "cap2": "Passalacqua"
    },
    {
     "h3": "Getting there",
