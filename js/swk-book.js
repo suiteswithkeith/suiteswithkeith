@@ -115,7 +115,6 @@
       '.swkv-go:hover{background:var(--shadow,#161712)}',
       '.swkv-list{list-style:none;margin:0;padding:0;display:grid;gap:0}',
       '.swkv-list li{padding:16px 0;border-top:1px solid var(--hairline,rgba(22,23,18,.15));font-family:var(--body,"Jost",sans-serif);font-weight:300;font-size:.95rem;line-height:1.6}',
-      '.swkv-list li:last-child{border-bottom:1px solid var(--hairline,rgba(22,23,18,.15))}',
       '.swkv-list b{display:block;font-weight:500;margin-bottom:2px}',
       '.swkv-quote{grid-column:1/-1;margin:0;padding-top:28px;border-top:1px solid var(--hairline-firm,rgba(22,23,18,.32))}',
       '.swkv-quote p{margin:0;max-width:62ch;font-family:var(--display,"DM Serif Display",Didot,Georgia,serif);font-style:italic;font-size:clamp(1.1rem,2.2vw,1.35rem);line-height:1.5}',
