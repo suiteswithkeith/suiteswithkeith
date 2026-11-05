@@ -247,7 +247,7 @@
          page uses the general part of her note, credited to them as clients. */
       var quote = /grand-hotel-tremezzo-vs-passalacqua/.test(location.pathname)
         ? '<figure class="swkv-quote">' +
-            '<p>&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone: they need to book through you if they stay at a nice hotel!&rdquo;</p>' +
+            '<p>&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone.&rdquo;</p>' +
             '<figcaption>C&amp;J &middot; SWK Clients</figcaption>' +
           '</figure>'
         : '<figure class="swkv-quote">' +
