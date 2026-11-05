@@ -243,6 +243,17 @@
     /* 2 · the band after the cards */
     var host = choose.closest('section');
     if (host && host.parentNode) {
+      /* Carla (C&J) also stayed at Passalacqua through Keith, so that
+         page uses the general part of her note, credited to them as clients. */
+      var quote = /grand-hotel-tremezzo-vs-passalacqua/.test(location.pathname)
+        ? '<figure class="swkv-quote">' +
+            '<p>&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone: they need to book through you if they stay at a nice hotel!&rdquo;</p>' +
+            '<figcaption>C&amp;J &middot; SWK Clients</figcaption>' +
+          '</figure>'
+        : '<figure class="swkv-quote">' +
+            '<p>&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone: they need to book through you if they stay at a nice hotel! Our room is amazing, and I love the treats waiting for us upon arrival.&rdquo;</p>' +
+            '<figcaption>Carla &middot; The Beverly Hills Hotel, October 2026</figcaption>' +
+          '</figure>';
       var section = document.createElement('section');
       section.className = 'section swkv';
       section.innerHTML =
@@ -260,10 +271,7 @@
               '<li><b>Fora X perks.</b>Typically daily breakfast, a hotel credit and an upgrade when available.</li>' +
               '<li><b>The same rate as booking direct.</b>Plus a direct line to me while you&rsquo;re there.</li>' +
             '</ul>' +
-            '<figure class="swkv-quote">' +
-              '<p>&ldquo;I love booking hotels through you. I&rsquo;m going to spread the word to everyone: they need to book through you if they stay at a nice hotel! Our room is amazing, and I love the treats waiting for us upon arrival.&rdquo;</p>' +
-              '<figcaption>Carla &middot; The Beverly Hills Hotel, October 2026</figcaption>' +
-            '</figure>' +
+            quote +
           '</div>' +
         '</div>';
       host.parentNode.insertBefore(section, host.nextSibling);
