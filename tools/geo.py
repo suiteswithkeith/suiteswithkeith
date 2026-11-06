@@ -213,10 +213,14 @@ def sitemap_paths(sm):
     return out
 
 
+# Public pages outside hotels/ that the sitemap must always include.
+ALWAYS_LIST = ["santorini-guide.html"]
+
+
 def add_missing_hotels(sm):
     listed = {rel for _, rel in sitemap_paths(sm)}
     add = ""
-    for p in sorted((ROOT / "hotels").glob("*.html")):
+    for p in sorted((ROOT / "hotels").glob("*.html")) + [ROOT / f for f in ALWAYS_LIST]:
         rel = p.relative_to(ROOT).as_posix()
         if rel not in listed and "noindex" not in p.read_text(encoding="utf-8"):
             add += (f"  <url>\n    <loc>{SITE}{rel}</loc>\n    <changefreq>monthly</changefreq>\n"
