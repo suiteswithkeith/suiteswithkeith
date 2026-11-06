@@ -43,7 +43,7 @@ import Divider from '../components/Divider.astro';
       <h2 class="display-l">Counted, and on file</h2>
     </div>
     <div class="ledger reveal">
-      <div class="ledger-row"><span class="n">156</span><span class="d"><b>Hotels on file</b>. All researched, compared and written up across Europe, the islands, Asia, Africa and the Americas, from Aman Kyoto to Er&emacr;ma on Milos. The ones I&rsquo;ve slept in say so.</span></div>
+      <div class="ledger-row"><span class="n">156</span><span class="d"><b>Hotels on file</b>. All researched, compared and written up across Europe, the Greek islands, Asia, Africa and the Americas, from <a href="/hotels/aman-kyoto.html">Aman Kyoto</a> to <a href="/hotels/erema-milos.html">Er&emacr;ma on Milos</a>. The ones I&rsquo;ve slept in say so.</span></div>
       <div class="ledger-row"><span class="n">45</span><span class="d"><b>Toured and stayed in, most recently</b>: Italy this October, room by room. Every destination I recommend gets this treatment sooner or later; Italy was simply this fall&rsquo;s trip.</span></div>
       <div class="ledger-row"><span class="n">02</span><span class="d"><b>Collections. The second is out now.</b> Issue No. 01, Greece, in print; Issue No. 02, Napa &amp; Sonoma, published September 15. The field notes behind the recommendations.</span></div>
     </div>
@@ -180,7 +180,7 @@ import Divider from '../components/Divider.astro';
     <Tag class="reveal" style="display:block; margin-bottom:16px;">One question</Tag>
     <h2 class="display-l reveal">Where and when?</h2>
     <p class="deck reveal" style="margin:18px auto 0; max-width:38ch;">&ldquo;Santorini in June&rdquo; is a complete answer. I&rsquo;ll take it from there.</p>
-    <p class="proof-line reveal">&ldquo;Keith made me believe in using travel agents again.&rdquo;<span>Stephanie F. &middot; Capella Kyoto</span></p>
+    <p class="proof-line reveal">&ldquo;Keith made me believe in using travel agents again.&rdquo;<span>Stephanie F. &middot; <a href="/hotels/capella-kyoto.html">Capella Kyoto</a></span></p>
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
       <input type="hidden" name="_subject" value="Website Inquiry" />
       <input type="hidden" name="page" value="index" />
@@ -214,6 +214,7 @@ import Divider from '../components/Divider.astro';
   .proof figcaption { margin-top: 18px; font-family: var(--font-stamp); font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--ash);font-weight:400; }
   .proof-line { margin: 22px auto 0; max-width: 36ch; font-family: var(--font-display); font-style: italic; font-size: clamp(1rem, 1.5vw, 1.12rem); line-height: 1.45; color: var(--ash); }
   .proof-line span { display: block; margin-top: 8px; font-family: var(--font-stamp); font-style: normal; font-size: 13px; letter-spacing: .2em; text-transform: uppercase;font-weight:400; }
+.ledger-row .d a, .proof-line span a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
   @media (min-width: 900px) {
     .proof-grid { grid-template-columns: 1fr 1fr 1fr; }
     .proof { padding: clamp(26px, 3vw, 36px) clamp(20px, 2.6vw, 34px); }
