@@ -46,7 +46,7 @@
 .pr-h2 {
   font-family: var(--font-display);
   font-weight: 400;
-  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  font-size: clamp(2.128rem, 4.48vw, 3.024rem);
   color: var(--charcoal);
   margin: 0 0 18px;
   line-height: 1.02;
@@ -107,7 +107,7 @@
 .pr-cover h1 {
   font-family: var(--font-display);
   font-weight: 400;
-  font-size: clamp(2.4rem, 6vw, 4rem);
+  font-size: clamp(2.688rem, 6.72vw, 4.48rem);
   line-height: 1.08;
   margin: 0 0 24px;
 }
@@ -129,7 +129,7 @@
   opacity: 0.85;
   margin: 0 0 10px;font-weight:400;
 }
-.pr-prepared-name { font-family: var(--font-display); font-size: 1.6rem; }
+.pr-prepared-name { font-family: var(--font-display); font-size: 1.792rem; }
 
 /* ---- Full-bleed divider image ---- */
 .pr-band-img { height: 60vh; background-size: cover; background-position: center; }
@@ -148,7 +148,7 @@
 .pr-itin-card h3 {
   font-family: var(--font-display);
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.68rem;
   color: var(--charcoal);
   margin: 0 0 6px;
   line-height: 1.15;
@@ -187,7 +187,7 @@
 }
 .pr-opener .container-pr { position: relative; z-index: 1; }
 .pr-opener .pr-kicker { color: rgba(255, 255, 255, 0.85); }
-.pr-opener h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3.4rem); margin: 0 0 10px;line-height:1.02;}
+.pr-opener h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.464rem, 5.6vw, 3.808rem); margin: 0 0 10px;line-height:1.02;}
 .pr-opener .pr-pair { font-size: 1.05rem; margin: 0 0 14px; letter-spacing: 0.01em; }
 .pr-opener .pr-opener-sub {
   font-family: var(--font-display);
@@ -210,7 +210,7 @@
   margin-bottom: 36px;
   flex-wrap: wrap;
 }
-.pr-detail-head h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.8rem; margin: 0; color: var(--charcoal);line-height:1.02;}
+.pr-detail-head h3 { font-family: var(--font-display); font-weight: 400; font-size: 2.016rem; margin: 0; color: var(--charcoal);line-height:1.02;}
 .pr-route-label { font-family: 'Instrument Serif', Didot, Georgia, serif; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--tan-deep);font-weight:400; }
 .pr-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 54px; }
 
@@ -263,10 +263,10 @@
 }
 .pr-price-item h4 { font-family: var(--font-display); font-weight: 400; font-size: 1.15rem; margin: 0 0 4px; }
 .pr-price-item .pr-room { font-size: 0.8rem; color: var(--ink-soft); margin: 0 0 8px; line-height: 1.4; }
-.pr-price-item .pr-amt { font-family: var(--font-display); font-size: 1.5rem; color: var(--charcoal); }
+.pr-price-item .pr-amt { font-family: var(--font-display); font-size: 1.68rem; color: var(--charcoal); }
 .pr-total { text-align: right; }
 .pr-total-label { font-family: 'Instrument Serif', Didot, Georgia, serif; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--ink-soft);font-weight:400; }
-.pr-total-amt { font-family: var(--font-display); font-size: 1.9rem; display: block; margin: 4px 0 14px;line-height:1.02;}
+.pr-total-amt { font-family: var(--font-display); font-size: 2.128rem; display: block; margin: 4px 0 14px;line-height:1.02;}
 /* "View Live Quote" is shown as a button but is intentionally inert */
 .pr-btn-static { cursor: default; pointer-events: none; }
 .pr-finaprint { font-size: 0.72rem; color: var(--ink-soft); line-height: 1.5; margin: 22px 0 0; }
@@ -276,7 +276,7 @@
 .pr-compare-wrap { overflow-x: auto; }
 .pr-compare table { width: 100%; border-collapse: collapse; }
 .pr-compare th, .pr-compare td { padding: 13px 12px; text-align: center; vertical-align: middle; }
-.pr-compare thead th { font-family: var(--font-display); font-weight: 400; font-size: 1.2rem; }
+.pr-compare thead th { font-family: var(--font-display); font-weight: 400; font-size: 1.344rem; }
 .pr-col-num { font-family: 'Instrument Serif', Didot, Georgia, serif; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--tan-deep); display: block; margin-bottom: 4px;font-weight:400; }
 .pr-compare tbody td:first-child { text-align: left; font-size: 0.9rem; white-space: nowrap; padding-right: 24px; }
 .pr-compare tbody tr { border-top: 1px solid rgba(60, 60, 56, 0.14); }
@@ -299,7 +299,7 @@
 }
 .pr-closing::after { content: ""; position: absolute; inset: 0; background: rgba(40, 35, 30, 0.42); }
 .pr-closing-inner { position: relative; z-index: 1; max-width: 620px; }
-.pr-closing h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0 0 20px;line-height:1.02;}
+.pr-closing h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.016rem, 4.48vw, 2.912rem); margin: 0 0 20px;line-height:1.02;}
 .pr-closing p { font-size: 1rem; line-height: 1.6; margin: 0 0 30px; opacity: 0.95; }
 
 /* Responsive */

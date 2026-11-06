@@ -76,7 +76,7 @@
       '.swkb-x{position:absolute;top:14px;right:14px;width:40px;height:40px;border:0;background:none;color:var(--ash,#65665C);font-size:26px;line-height:1;cursor:pointer;font-family:inherit}',
       '.swkb-x:hover{color:var(--ink,#1F201A)}',
       '.swkb-eyebrow{margin:0 0 14px;font-family:"Instrument Serif", Didot, Georgia, serif;font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass,#836229)}',
-      '.swkb-card h2{margin:0 0 18px;font-family:var(--display,"Instrument Serif", Didot, Georgia, serif);font-weight:400;font-size:clamp(1.7rem,4.5vw,2.2rem);line-height:1.02;letter-spacing:.01em}',
+      '.swkb-card h2{margin:0 0 18px;font-family:var(--display,"Instrument Serif", Didot, Georgia, serif);font-weight:400;font-size:clamp(1.904rem,5.04vw,2.464rem);line-height:1.02;letter-spacing:.01em}',
       '.swkb-card p{margin:0 0 14px;font-family:var(--body,"Newsreader", Georgia, "Times New Roman", serif);font-weight:400;font-size:.98rem;line-height:1.65}',
       '.swkb-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:26px 0 18px}',
       '.swkb-go{display:inline-block;padding:15px 28px;background:var(--olive,#4A5040);color:var(--plaster,#F2EFE6);font-family:"Instrument Serif", Didot, Georgia, serif;font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;transition:background .18s ease}',
@@ -90,7 +90,7 @@
       '.swkx-card{position:relative;max-width:820px;margin:0 auto;background:var(--shadow,#161712);color:rgba(242,239,230,.9);padding:clamp(44px,6.5vw,68px) clamp(26px,5.5vw,64px);text-align:center;border:1px solid rgba(190,151,90,.4)}',
       '.swkx-card::after{content:"";position:absolute;inset:9px;border:1px solid rgba(190,151,90,.26);pointer-events:none}',
       '.swkx-eyebrow{margin:0 0 18px;font-family:"Instrument Serif", Didot, Georgia, serif;font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-lit,#BE975A)}',
-      '.swkx-h{margin:0 auto 18px;max-width:22ch;font-family:var(--display,"Instrument Serif", Didot, Georgia, serif);font-weight:400;font-size:clamp(1.6rem,3.6vw,2.3rem);line-height:1.02;letter-spacing:.01em;color:var(--plaster,#F2EFE6)}',
+      '.swkx-h{margin:0 auto 18px;max-width:22ch;font-family:var(--display,"Instrument Serif", Didot, Georgia, serif);font-weight:400;font-size:clamp(1.792rem,4.032vw,2.576rem);line-height:1.02;letter-spacing:.01em;color:var(--plaster,#F2EFE6)}',
       '.swkx-h em{font-style:italic;color:var(--brass-lit,#BE975A)}',
       '.swkx-p{margin:0 auto;max-width:52ch;font-family:var(--body,"Newsreader", Georgia, "Times New Roman", serif);font-weight:400;font-size:.96rem;line-height:1.7;color:rgba(242,239,230,.76)}',
       '.swkx-actions{display:flex;flex-wrap:wrap;gap:14px 18px;align-items:center;justify-content:center;margin:28px 0 24px}',
@@ -108,7 +108,7 @@
       '@media(min-width:900px){.swkv-card{grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}}',
       '.swkv-card>*{min-width:0}',
       '.swkv-eyebrow{margin:0 0 14px;font-family:"Instrument Serif", Didot, Georgia, serif;font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass,#836229)}',
-      '.swkv-h{margin:0 0 16px;max-width:20ch;font-family:var(--display,"Instrument Serif", Didot, Georgia, serif);font-weight:400;font-size:clamp(1.6rem,3.4vw,2.2rem);line-height:1.02;letter-spacing:.01em;text-wrap:balance}',
+      '.swkv-h{margin:0 0 16px;max-width:20ch;font-family:var(--display,"Instrument Serif", Didot, Georgia, serif);font-weight:400;font-size:clamp(1.792rem,3.808vw,2.464rem);line-height:1.02;letter-spacing:.01em;text-wrap:balance}',
       '.swkv-h em{font-style:italic;color:var(--brass,#836229)}',
       '.swkv-p{margin:0 0 24px;max-width:50ch;font-family:var(--body,"Newsreader", Georgia, "Times New Roman", serif);font-weight:400;font-size:.98rem;line-height:1.7}',
       '.swkv-go{display:inline-block;padding:15px 28px;background:var(--olive,#4A5040);color:var(--plaster,#F2EFE6);font-family:"Instrument Serif", Didot, Georgia, serif;font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;transition:background .18s ease}',
@@ -117,7 +117,7 @@
       '.swkv-list li{padding:16px 0;border-top:1px solid var(--hairline,rgba(22,23,18,.15));font-family:var(--body,"Newsreader", Georgia, "Times New Roman", serif);font-weight:400;font-size:.95rem;line-height:1.6}',
       '.swkv-list b{display:block;font-weight:600;margin-bottom:2px}',
       '.swkv-quote{grid-column:1/-1;margin:0;padding-top:28px;border-top:1px solid var(--hairline-firm,rgba(22,23,18,.32))}',
-      '.swkv-quote p{margin:0;max-width:62ch;font-family:var(--display,"Instrument Serif", Didot, Georgia, serif);font-style:italic;font-size:clamp(1.1rem,2.2vw,1.35rem);line-height:1.5}',
+      '.swkv-quote p{margin:0;max-width:62ch;font-family:var(--body,"Newsreader", Georgia, "Times New Roman", serif);font-style:italic;font-size:clamp(1.1rem,2.2vw,1.35rem);line-height:1.5}',
       '.swkv-quote figcaption{margin-top:12px;font-family:"Instrument Serif", Didot, Georgia, serif;font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--ash,#65665C)}'
     ].join('');
     var s = document.createElement('style');

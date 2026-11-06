@@ -67,7 +67,7 @@ def sec_head(eyebrow, h, intro=None, deck=None):
     s = '<div class="sec-head reveal">'
     if eyebrow:
         s += f' <span class="eyebrow">{e(eyebrow)}</span>'
-    s += f' <h2 class="display-l" style="font-size:clamp(1.7rem,3.4vw,2.5rem);">{e(h)}</h2>'
+    s += f' <h2 class="display-l" style="font-size:clamp(1.904rem,3.808vw,2.8rem);">{e(h)}</h2>'
     if deck:
         s += f' <p class="deck" style="margin-top:16px; max-width:56ch; font-style:italic;">{e(deck)}</p>'
     if intro:

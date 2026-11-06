@@ -43,11 +43,11 @@ def build_variable_parts(b):
 
     s0, s1 = b['sections']
     col0 = (f'<p class="stamp plain" style="font-weight:400; color:var(--brass-lit); margin-bottom:8px;">{s0["kicker"]}</p> '
-            f'<h2 class="display-l" style="font-size:clamp(1.5rem,2.6vw,2rem); margin-bottom:20px;">{s0["h3"]}</h2> '
+            f'<h2 class="display-l" style="font-size:clamp(1.68rem,2.912vw,2.24rem); margin-bottom:20px;">{s0["h3"]}</h2> '
             f'{notes_html(s0["notes"])}')
     take = f' <div class="verdict" style="margin-top:24px; border-left-color:var(--brass-lit);"><p class="hb-take">{s1["take"]}</p></div>' if s1.get('take') else ''
     col1 = (f'<p class="stamp plain" style="font-weight:400; color:var(--brass-lit); margin-bottom:8px;">{s1["kicker"]}</p> '
-            f'<h2 class="display-l" style="font-size:clamp(1.5rem,2.6vw,2rem); margin-bottom:20px;">{s1["h3"]}</h2> '
+            f'<h2 class="display-l" style="font-size:clamp(1.68rem,2.912vw,2.24rem); margin-bottom:20px;">{s1["h3"]}</h2> '
             f'{notes_html(s1["notes"])}{take}')
 
     related = ''.join(

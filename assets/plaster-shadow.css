@@ -59,10 +59,10 @@
   --body:    var(--font-body);
   --stamp:   var(--font-stamp);
 
-  --text-hero:       clamp(2.4rem, 5vw, 4.2rem);
-  --text-display-xl: clamp(2.6rem, 6.5vw, 5.2rem);
-  --text-h2:         clamp(1.8rem, 3vw, 2.4rem);
-  --text-h3:         1.5rem;
+  --text-hero:       clamp(2.688rem, 5.6vw, 4.704rem);
+  --text-display-xl: clamp(2.912rem, 7.28vw, 5.824rem);
+  --text-h2:         clamp(2.016rem, 3.36vw, 2.688rem);
+  --text-h3:         1.68rem;
   --text-body:       1.125rem;
   --text-pull-quote: 1.25rem;
   --text-stamp:      13px;
@@ -154,11 +154,11 @@ a { color: inherit; }
 }
 .display-l {
   font-family: var(--font-display); font-weight: var(--weight-display);
-  font-size: clamp(1.9rem, 4.2vw, 3rem); line-height: 1.08; letter-spacing: -.008em;
+  font-size: clamp(2.128rem, 4.704vw, 3.36rem); line-height: 1.08; letter-spacing: -.008em;
 }
-.display-m { font-family: var(--font-display); font-weight: var(--weight-display); font-size: clamp(1.3rem, 2.4vw, 1.65rem); line-height: 1.1; }
+.display-m { font-family: var(--font-display); font-weight: var(--weight-display); font-size: clamp(1.456rem, 2.688vw, 1.848rem); line-height: 1.1; }
 .deck {
-  font-family: var(--font-display); font-style: italic; font-weight: var(--weight-display);
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif; font-style: italic; font-weight: var(--weight-display);
   font-size: clamp(1.1rem, 2.1vw, 1.35rem); line-height: 1.45; color: var(--text-secondary);
 }
 .body-2 { color: var(--ash); }
@@ -372,7 +372,7 @@ a { color: inherit; }
 img[src*="santorini-hero"] { object-position: center bottom; }
 .card .pad { padding: 20px 20px 24px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .card .kicker { font-family: var(--font-stamp); font-weight: 400; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); }
-.card h3 { font-family: var(--font-display); font-weight: var(--weight-display); font-size: 1.3rem; }
+.card h3 { font-family: var(--font-display); font-weight: var(--weight-display); font-size: 1.456rem; }
 .card p { font-size: .9rem; color: var(--ash); line-height: 1.55; }
 .card .go { margin-top: auto; padding-top: 14px; font-family: var(--font-stamp); font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--brass);font-weight:400; }
 
@@ -398,7 +398,7 @@ img[src*="santorini-hero"] { object-position: center bottom; }
 @media (min-width: 760px) { .choose { grid-template-columns: 1fr 1fr; } }
 .choose-col { border: 1px solid var(--border-default); background: var(--surface-card); transition: border-color var(--dur-2) var(--ease); padding: clamp(24px, 3.5vw, 36px); }
 .choose-col .eyebrow { display: block; margin-bottom: 12px; }
-.choose-col h3 { font-family: var(--font-display); font-weight: var(--weight-display); font-size: clamp(1.5rem, 3vw, 2rem); margin-bottom: 12px;line-height:1.02;}
+.choose-col h3 { font-family: var(--font-display); font-weight: var(--weight-display); font-size: clamp(1.68rem, 3.36vw, 2.24rem); margin-bottom: 12px;line-height:1.02;}
 .choose-col .lead { font-size: 1rem; color: var(--ash); line-height: 1.6; }
 @media (hover:hover) { a.choose-col:hover { border-color: var(--hairline-firm); } }
 .table-wrap { overflow-x: auto; border: 1px solid var(--hairline); background: var(--lime); }
@@ -409,8 +409,8 @@ tbody tr:last-child td { border-bottom: none; }
 td.rowlabel { font-family: var(--font-stamp); font-weight: 400; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--ash-3); white-space: nowrap; }
 
 /* ── advocacy story ── */
-.story-quote { font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(1.35rem, 3vw, 1.9rem); line-height: 1.42; max-width: 30ch; }
-.story-quote b { font-style: normal; font-weight: var(--weight-display); }
+.story-quote { font-family: 'Newsreader', Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 400; font-size: clamp(1.35rem, 3vw, 1.9rem); line-height: 1.42; max-width: 30ch; }
+.story-quote b { font-style: normal; font-weight: 600; }
 .attr { margin-top: 22px; font-family: var(--font-stamp); font-weight: 400; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--band-ash); }
 
 /* ── inquiry ── */

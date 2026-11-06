@@ -14,7 +14,7 @@
   .jc-key span.k { display: inline; }
   .jc-intro .grid > * { min-width: 0; }
   .jc-key .jc-chip { margin: 0 6px 0 0; vertical-align: 1px; }
-  .jc-numbers .big { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; color: var(--charcoal); margin-top: 6px; }
+  .jc-numbers .big { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.68rem; color: var(--charcoal); margin-top: 6px; }
   .jc-numbers .big small { font-family: var(--font-body); font-weight: 400; font-size: 1rem; color: var(--ink-soft); }
 
   /* Day-by-day list */
@@ -53,14 +53,14 @@
   .jc-drive { font-family: var(--font-body); font-weight: 400; font-size: 0.98rem; color: var(--ink-soft); margin: 0 0 22px; padding-left: 14px; border-left: 2px solid var(--olive); line-height: 1.55; }
   .jc-night { border-top: 1px solid var(--hairline); padding: 26px 0 8px; scroll-margin-top: 58px; }
   .jc-night:first-of-type { border-top: 0; padding-top: 0; }
-  .jc-night .date { font-family: var(--font-display); font-weight: 400; font-size: 1.45rem; color: var(--charcoal); margin: 0 0 4px; }
+  .jc-night .date { font-family: var(--font-display); font-weight: 400; font-size: 1.624rem; color: var(--charcoal); margin: 0 0 4px; }
   .jc-night .date em { font-style: italic; font-weight: 400; color: var(--olive-deep); }
   .jc-night .lab { font-family: var(--font-body); font-weight: 400; font-size: 1rem; color: var(--ink-soft); margin: 0 0 12px; }
   .jc-stay { background: var(--cream-deep); padding: 16px 20px; margin: 0 0 8px; }
   .jc-stay.open { background: var(--red-bg); }
   .jc-stay.pending, .jc-stay.todo { background: var(--amber-bg); }
   .jc-stay .jc-label { margin-bottom: 6px; }
-  .jc-stay .hotel { font-family: var(--font-display); font-weight: 400; font-size: 1.25rem; color: var(--charcoal); }
+  .jc-stay .hotel { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; color: var(--charcoal); }
   .jc-stay .hotel-note { font-family: var(--font-body); font-weight: 400; font-size: 1rem; color: var(--charcoal); margin-top: 6px; line-height: 1.55; }
   .jc-options { list-style: none; margin: 12px 0 0; padding: 0; }
   .jc-options li { padding: 10px 0 0; margin-top: 10px; border-top: 1px solid rgba(0,0,0,0.07); font-family: var(--font-body); font-weight: 400; font-size: 0.98rem; color: var(--charcoal); line-height: 1.5; }

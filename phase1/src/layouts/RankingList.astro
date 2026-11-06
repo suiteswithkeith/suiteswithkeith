@@ -38,7 +38,7 @@ const ext = (href) => /^https?:/.test(href);
   )}
   <div class="container">
     <p class="eyebrow" set:html={g.eyebrow} />
-    <h1 class="display-l" style="margin-top:18px; max-width:20ch; color:var(--band-ink); font-size:clamp(2.1rem,5vw,3.6rem);" set:html={g.h1} />
+    <h1 class="display-l" style="margin-top:18px; max-width:20ch; color:var(--band-ink); font-size:clamp(2.352rem,5.6vw,4.032rem);" set:html={g.h1} />
     <p class="sub" style="margin-top:18px;" set:html={g.tagline} />
     <p class="hero-stats" set:html={g.stats.map((s) => `<b>${s.num}</b> ${s.label}`).join(' &nbsp;&middot;&nbsp; ')} />
     <div class="hero-ctas">
@@ -110,7 +110,7 @@ const ext = (href) => /^https?:/.test(href);
         </figure>
         <div class="reveal">
           <span class="rk-num">{c.num}</span>
-          <h2 class="display-l" style="font-size:clamp(1.6rem,3.4vw,2.4rem); margin-top:8px;" set:html={c.name} />
+          <h2 class="display-l" style="font-size:clamp(1.792rem,3.808vw,2.688rem); margin-top:8px;" set:html={c.name} />
           <p class="deck" style="margin-top:8px; font-size:1.05rem;" set:html={c.tag} />
           {c.bestfor && <p class="stamp plain rk-bestfor" set:html={c.bestfor} />}
           <p class="body-2" style="margin-top:16px;" set:html={c.desc} />
@@ -140,7 +140,7 @@ const ext = (href) => /^https?:/.test(href);
           <div class="reveal">
             <div class="sec-head" style="margin-bottom:28px;">
               <span class="eyebrow">Trip design</span>
-              <h2 class="display-l" style="font-size:clamp(1.7rem,3vw,2.3rem);">Smart island pairings</h2>
+              <h2 class="display-l" style="font-size:clamp(1.904rem,3.36vw,2.576rem);">Smart island pairings</h2>
             </div>
             <dl class="kv">
               {g.pairings.map((p) => (
@@ -153,7 +153,7 @@ const ext = (href) => /^https?:/.test(href);
           <div class="reveal">
             <div class="sec-head" style="margin-bottom:28px;">
               <span class="eyebrow">The superlatives</span>
-              <h2 class="display-l" style="font-size:clamp(1.7rem,3vw,2.3rem);">Category winners</h2>
+              <h2 class="display-l" style="font-size:clamp(1.904rem,3.36vw,2.576rem);">Category winners</h2>
             </div>
             <dl class="kv">
               {g.winners.map((w) => (
@@ -255,7 +255,7 @@ const ext = (href) => /^https?:/.test(href);
   .rk > * { min-width: 0; }
   .rk-media { margin: 0; }
   .rk-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
-  .rk-num { font-family: var(--display); font-weight: 400; font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1; color: var(--brass); font-variant-numeric: tabular-nums; }
+  .rk-num { font-family: var(--display); font-weight: 400; font-size: clamp(2.688rem, 5.6vw, 4.032rem); line-height: 1; color: var(--brass); font-variant-numeric: tabular-nums; }
   .rk-bestfor { display: block; margin-top: 14px; font-size: 13px; color: var(--ash-3); font-weight: 400; }
   .rk-note { font-size: .96rem; line-height: 1.65; margin-bottom: 13px; padding-left: 16px; position: relative; color: var(--ash); }
   .rk-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
@@ -272,7 +272,7 @@ const ext = (href) => /^https?:/.test(href);
   .tr-grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
   @media (min-width: 860px) { .tr-grid { grid-template-columns: repeat(3, 1fr); } }
   .tr-tile { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(24px, 3vw, 32px); display: flex; flex-direction: column; gap: 12px; }
-  .tr-tile h3 { font-family: var(--display); font-weight: 400; font-size: 1.3rem; }
+  .tr-tile h3 { font-family: var(--display); font-weight: 400; font-size: 1.456rem; }
   .tr-tile p { font-size: .94rem; color: var(--ash); line-height: 1.6; flex: 1; }
 
   .kit { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(30px, 4vw, 46px); }
@@ -281,7 +281,7 @@ const ext = (href) => /^https?:/.test(href);
   @media (min-width: 760px) { .vs-grid { grid-template-columns: repeat(2, 1fr); } }
   .vs-tile { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(24px, 3vw, 32px); display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: var(--ink); transition: transform .25s ease, box-shadow .25s ease; }
   @media (hover:hover) { .vs-tile:hover { transform: translateY(-2px); box-shadow: 0 2px 4px rgba(22,23,18,.07), 0 18px 40px rgba(22,23,18,.10); } }
-  .vs-names { font-family: var(--display); font-weight: 400; font-size: clamp(1.25rem, 2.2vw, 1.55rem); line-height: 1.3; }
+  .vs-names { font-family: var(--display); font-weight: 400; font-size: clamp(1.4rem, 2.464vw, 1.736rem); line-height: 1.3; }
   .vs-names em { font-style: italic; color: var(--brass); font-weight: 400; }
   .vs-q { font-size: .92rem; color: var(--ash); line-height: 1.6; flex: 1; }
   .vs-go { font-size: 13px; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); padding-top: 6px;font-family:'Instrument Serif', Didot, Georgia, serif; }

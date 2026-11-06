@@ -58,10 +58,10 @@
   --body:    var(--font-body);
   --stamp:   var(--font-stamp);
 
-  --text-hero:       clamp(2.4rem, 5vw, 4.2rem);
-  --text-display-xl: clamp(2.6rem, 6.5vw, 5.2rem);
-  --text-h2:         clamp(1.8rem, 3vw, 2.4rem);
-  --text-h3:         1.5rem;
+  --text-hero:       clamp(2.688rem, 5.6vw, 4.704rem);
+  --text-display-xl: clamp(2.912rem, 7.28vw, 5.824rem);
+  --text-h2:         clamp(2.016rem, 3.36vw, 2.688rem);
+  --text-h3:         1.68rem;
   --text-body:       1.125rem;
   --text-pull-quote: 1.25rem;
   --text-stamp:      13px;

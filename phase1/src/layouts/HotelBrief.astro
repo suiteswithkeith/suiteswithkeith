@@ -73,7 +73,7 @@ const schema = JSON.stringify({
     {g.sections.map((s) => (
       <div class="reveal">
         <p class="stamp plain" style="font-weight:400; color:var(--brass-lit); margin-bottom:8px;" set:html={s.kicker} />
-        <h2 class="display-l" style="font-size:clamp(1.5rem,2.6vw,2rem); margin-bottom:20px;" set:html={s.h3} />
+        <h2 class="display-l" style="font-size:clamp(1.68rem,2.912vw,2.24rem); margin-bottom:20px;" set:html={s.h3} />
         {s.notes.map((n) => (
           <p class="hb-note"><b set:html={n.b} /> <span set:html={n.t} /></p>
         ))}
@@ -90,7 +90,7 @@ const schema = JSON.stringify({
       <span class="eyebrow" style="display:block; margin-bottom:10px;" set:html={g.perks_eyebrow} />
       <h3 class="display-m" set:html={g.perks_h3} />
       <p class="body-2 hb-p" style="margin-top:12px;" set:html={g.perks_p} />
-      <figure class="swk-quote reveal" style="margin:26px 0 0; padding-top:26px; border-top:1px solid var(--hairline);"><blockquote style="margin:0; font-family:var(--display); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.3rem); line-height:1.5;" set:html={cq.quote} /><figcaption style="margin-top:12px; font-size:13px; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--ash); font-family: 'Instrument Serif', Didot, Georgia, serif;" set:html={cq.cite} /></figure>
+      <figure class="swk-quote reveal" style="margin:26px 0 0; padding-top:26px; border-top:1px solid var(--hairline);"><blockquote style="margin:0; font-family:var(--body); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.3rem); line-height:1.5;" set:html={cq.quote} /><figcaption style="margin-top:12px; font-size:13px; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--ash); font-family: 'Instrument Serif', Didot, Georgia, serif;" set:html={cq.cite} /></figure>
       <p style="margin-top:20px;"><a class="btn btn-ghost" href="#inquire" data-gtag-label="check_availability" data-gtag-location="hotel_perks">Check availability</a></p>
     </div>
   </div>
@@ -100,7 +100,7 @@ const schema = JSON.stringify({
 <section class="section inquire" id="inquire" style="scroll-margin-top:70px;">
   <div class="container">
     <span class="eyebrow reveal" style="display:block; margin-bottom:16px;" set:html={g.cta_eyebrow} />
-    <h2 class="display-l reveal" style="max-width:30ch; margin-inline:auto; font-size:clamp(1.6rem,3vw,2.3rem);" set:html={g.cta_h2} />
+    <h2 class="display-l reveal" style="max-width:30ch; margin-inline:auto; font-size:clamp(1.792rem,3.36vw,2.576rem);" set:html={g.cta_h2} />
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
       <input type="hidden" name="_subject" value={g.subject} />
       <input type="hidden" name="hotel" value={g.hotel_name} />
