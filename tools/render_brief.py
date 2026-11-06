@@ -42,16 +42,16 @@ def build_variable_parts(b):
         return ''.join(f'<p class="hb-note"><b>{n["b"]}</b> <span>{n["t"]}</span></p>' for n in notes)
 
     s0, s1 = b['sections']
-    col0 = (f'<p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:8px;">{s0["kicker"]}</p> '
+    col0 = (f'<p class="stamp plain" style="font-weight:400; color:var(--brass-lit); margin-bottom:8px;">{s0["kicker"]}</p> '
             f'<h2 class="display-l" style="font-size:clamp(1.5rem,2.6vw,2rem); margin-bottom:20px;">{s0["h3"]}</h2> '
             f'{notes_html(s0["notes"])}')
     take = f' <div class="verdict" style="margin-top:24px; border-left-color:var(--brass-lit);"><p class="hb-take">{s1["take"]}</p></div>' if s1.get('take') else ''
-    col1 = (f'<p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:8px;">{s1["kicker"]}</p> '
+    col1 = (f'<p class="stamp plain" style="font-weight:400; color:var(--brass-lit); margin-bottom:8px;">{s1["kicker"]}</p> '
             f'<h2 class="display-l" style="font-size:clamp(1.5rem,2.6vw,2rem); margin-bottom:20px;">{s1["h3"]}</h2> '
             f'{notes_html(s1["notes"])}{take}')
 
     related = ''.join(
-        f'<a href="{r["href"]}" style="font-size:.72rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; font-family: \'DM Serif Display\', Didot, Georgia, serif; '
+        f'<a href="{r["href"]}" style="font-size:.72rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; font-family: \'Instrument Serif\', Didot, Georgia, serif; '
         f'color:var(--brass); text-decoration:none;"><span>{r["label"]}</span>&nbsp;&rarr;</a>'
         for r in b['related'])
 

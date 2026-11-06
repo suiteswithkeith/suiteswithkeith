@@ -208,15 +208,15 @@ const sections = [
   <div class="container">
     <div class="adv reveal">
       <div>
-        <p class="stamp plain" style="font-weight:700; color:var(--brass);">Preferred partnerships</p>
+        <p class="stamp plain" style="font-weight:400; color:var(--brass);">Preferred partnerships</p>
         <p>I&rsquo;m a preferred partner of Rosewood, Four Seasons, Aman, Belmond, Auberge and many of the world&rsquo;s top hotel brands. Space-available upgrades, daily breakfast, property credits and VIP recognition come with your booking at no extra cost.</p>
       </div>
       <div>
-        <p class="stamp plain" style="font-weight:700; color:var(--brass);">Free-night promotions</p>
+        <p class="stamp plain" style="font-weight:400; color:var(--brass);">Free-night promotions</p>
         <p>Many of these properties run stay-3-pay-2 or stay-4-pay-3 offers through partner channels. I watch for them and time your booking so the promotion does the saving. The rate is never higher than booking direct.</p>
       </div>
       <div>
-        <p class="stamp plain" style="font-weight:700; color:var(--brass);">Priority over the portals</p>
+        <p class="stamp plain" style="font-weight:400; color:var(--brass);">Priority over the portals</p>
         <p>Partner bookings are typically prioritized ahead of credit-card travel programs like Amex or Chase when upgrades and special requests are handed out, and my direct relationships with the hotels&rsquo; teams close the rest of the gap.</p>
       </div>
     </div>
@@ -340,7 +340,7 @@ const sections = [
 
       {s.experiences && (
         <div class="exp reveal">
-          <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:20px;">On the ground</p>
+          <p class="stamp plain" style="font-weight:400; color:var(--brass); margin-bottom:20px;">On the ground</p>
           <div class="exp-grid">
             {s.experiences.map(([b, rest]) => (
               <p class="exp-item"><b set:html={b} /> &mdash; <span set:html={rest} /></p>
@@ -402,7 +402,7 @@ const sections = [
   .jump { position: sticky; top: 0; z-index: 25; background: var(--plaster); border-bottom: 1px solid var(--hairline); }
   .jump .container { display: flex; gap: 26px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; padding-top: 13px; padding-bottom: 13px; }
   .jump .container::-webkit-scrollbar { display: none; }
-  .jump a { font-size: .68rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--ash); text-decoration: none; white-space: nowrap;font-family:'DM Serif Display', Didot, Georgia, serif; }
+  .jump a { font-size: 13px; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--ash); text-decoration: none; white-space: nowrap;font-family:'Instrument Serif', Didot, Georgia, serif; }
   .jump a:hover { color: var(--ink); }
 
   .adv { display: grid; gap: 28px; grid-template-columns: 1fr; background: var(--lime); border: 1px solid var(--hairline); padding: clamp(28px, 4vw, 44px); }
@@ -418,13 +418,13 @@ const sections = [
   .wide-photo img { width: 100%; aspect-ratio: 21/9; object-fit: cover; }
 
   .circuit {
-    font-family: var(--stamp); font-size: .7rem; font-weight: 400; letter-spacing: .2em;
+    font-family: var(--stamp); font-size: 13px; font-weight: 400; letter-spacing: .2em;
     text-transform: uppercase; color: var(--brass);
     border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin: 34px 0 20px;
   }
   .band .circuit { color: var(--brass-lit); border-bottom-color: var(--band-hairline); }
 
-  .card .award { font-family: var(--stamp); font-size: .62rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); }
+  .card .award { font-family: var(--stamp); font-size: 13px; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); }
 
   .exp { margin-top: 44px; border-top: 1px solid var(--hairline); padding-top: 30px; }
   .band .exp { border-top-color: var(--band-hairline); }

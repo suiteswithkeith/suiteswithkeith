@@ -44,7 +44,7 @@ PAGE = Template("""<!DOCTYPE html>
 <style>
   .glance-row { display: block; font-size: 0.88rem; color: var(--charcoal); padding: 9px 0; border-bottom: 1px solid var(--hairline); }
   .glance-row:last-child { border-bottom: none; }
-  .glance-row .g-label { display: block; font-size: 0.64rem; letter-spacing: .2em; text-transform: uppercase; color: var(--olive-deep); font-weight: 400; font-family: 'DM Serif Display', Didot, Georgia, serif; margin-bottom: 2px; }
+  .glance-row .g-label { display: block; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--olive-deep); font-weight: 400; font-family: 'Instrument Serif', Didot, Georgia, serif; margin-bottom: 2px; }
 </style>
 <script type="application/ld+json">
 {

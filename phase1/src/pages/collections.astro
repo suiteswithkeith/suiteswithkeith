@@ -60,7 +60,7 @@ const upcoming = [
             ? <a href={i.href} target="_blank" rel="noopener"><img src={i.img} alt="" width="1600" height="1100" loading={n === 0 ? 'eager' : 'lazy'} decoding="async" /><span class="issue-badge" set:html={i.badge} /></a>: <a href={i.href}><img src={i.img} alt="" width="1600" height="1100" loading={n === 0 ? 'eager' : 'lazy'} decoding="async" /><span class="issue-badge" set:html={i.badge} /></a>}
         </figure>
         <div class="issue-body">
-          <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:10px;" set:html={i.meta} />
+          <p class="stamp plain" style="font-weight:400; color:var(--brass); margin-bottom:10px;" set:html={i.meta} />
           <h2 class="display-l" style="font-size:clamp(1.7rem,3.4vw,2.5rem);" set:html={i.h2} />
           <p class="body-2" style="margin-top:16px; max-width:52ch;" set:html={i.p} />
           <p style="margin-top:24px;">
@@ -83,7 +83,7 @@ const upcoming = [
         <ol class="editions reveal">
           {upcoming.map((u) => (
             <li class="edition">
-              <p class="stamp plain" style="font-weight:700; color:var(--brass); margin:0;" set:html={u.meta} />
+              <p class="stamp plain" style="font-weight:400; color:var(--brass); margin:0;" set:html={u.meta} />
               <h3 class="edition-title" set:html={u.h3} />
               <p class="body-2" set:html={u.p} />
             </li>
@@ -135,7 +135,7 @@ const upcoming = [
   .issue-cover { margin: 0; position: relative; }
   .issue-cover a { display: block; position: relative; }
   .issue-cover img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
-  .issue-badge { position: absolute; top: 16px; left: 16px; font-family: var(--stamp); font-size: .64rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--lime); background: var(--olive); padding: 6px 12px; }
+  .issue-badge { position: absolute; top: 16px; left: 16px; font-family: var(--stamp); font-size: 13px; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--lime); background: var(--olive); padding: 6px 12px; }
 
   .upcoming { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; padding-top: clamp(40px, 5.5vw, 64px); border-top: 1px solid var(--hairline); }
   @media (min-width: 900px) {

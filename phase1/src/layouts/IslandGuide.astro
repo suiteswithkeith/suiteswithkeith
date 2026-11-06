@@ -131,13 +131,13 @@ const ext = (href) => /^https?:/.test(href);
       </div>
       <div class="hp-notes">
         <div class="reveal">
-          <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:16px;">Keith&rsquo;s notes</p>
+          <p class="stamp plain" style="font-weight:400; color:var(--brass); margin-bottom:16px;">Keith&rsquo;s notes</p>
           {h.notes.map((n) => (
             <p class="hp-note"><b set:html={n.b} /> <span set:html={n.t} /></p>
           ))}
         </div>
         <div class="reveal">
-          <p class="stamp plain" style="font-weight:700; color:var(--brass); margin-bottom:16px;">The verdict</p>
+          <p class="stamp plain" style="font-weight:400; color:var(--brass); margin-bottom:16px;">The verdict</p>
           <div class="verdict"><p set:html={h.take} /></div>
           {h.img2 && <img src={h.img2} alt={h.img2_alt || ''} width="1200" height="900" loading="lazy" decoding="async" style="margin-top:24px; aspect-ratio:4/3; object-fit:cover;" />}
         </div>
@@ -174,7 +174,7 @@ const ext = (href) => /^https?:/.test(href);
     </div>
     {g.td_tip && (
       <div class="reveal" style="margin-top:44px; max-width:640px;">
-        <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:12px;">Keith&rsquo;s tip</p>
+        <p class="stamp plain" style="font-weight:400; color:var(--brass-lit); margin-bottom:12px;">Keith&rsquo;s tip</p>
         <p class="deck" set:html={g.td_tip} />
       </div>
     )}
@@ -199,7 +199,7 @@ const ext = (href) => /^https?:/.test(href);
 </Layout>
 
 <style>
-  .brass-link { font-size: .74rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); text-decoration: none;font-family:'DM Serif Display', Didot, Georgia, serif; }
+  .brass-link { font-size: 13px; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); text-decoration: none;font-family:'Instrument Serif', Didot, Georgia, serif; }
   .brass-link:hover { text-decoration: underline; }
 
   .glance-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
@@ -232,8 +232,8 @@ const ext = (href) => /^https?:/.test(href);
 
   .td-grid { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .td-grid { grid-template-columns: 1fr 1.4fr; gap: 64px; } }
-  .day-meta { display: block; margin-top: 10px; font-family: var(--stamp); font-weight: 400; font-size: .72rem; letter-spacing: .04em; color: var(--band-ash); line-height: 1.7; }
-  .day-meta :global(b) { color: var(--band-ink); font-weight: 700; }
+  .day-meta { display: block; margin-top: 10px; font-family: var(--stamp); font-weight: 400; font-size: 13px; letter-spacing: .04em; color: var(--band-ash); line-height: 1.7; }
+  .day-meta :global(b) { color: var(--band-ink); font-weight: 400; }
   .day-meta :global(a) { color: var(--brass-lit); }
 
   .note-x :global(a) { color: var(--brass); }

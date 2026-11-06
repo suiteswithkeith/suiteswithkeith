@@ -1,6 +1,6 @@
   /* ===== Research trip plan (tools/render_trip_plan.py) ===== */
   :root { --red: #8C3A2B; --red-bg: #F8E9E5; --red-line: #D08A7A; --grey: #6B6A64; --grey-bg: #EEECE6; --grey-line: #C9C6BC; }
-  .jc-chip { display: inline-block; font-family: 'DM Serif Display', Didot, Georgia, serif; font-size: 0.64rem; font-weight: 400; text-transform: uppercase; letter-spacing: .2em; padding: 3px 9px; margin: 0 8px 6px 0; vertical-align: 2px; white-space: nowrap; border: 1px solid transparent; }
+  .jc-chip { display: inline-block; font-family: 'Instrument Serif', Didot, Georgia, serif; font-size: 13px; font-weight: 400; text-transform: uppercase; letter-spacing: .2em; padding: 3px 9px; margin: 0 8px 6px 0; vertical-align: 2px; white-space: nowrap; border: 1px solid transparent; }
   .jc-chip.confirmed, .jc-chip.paid { color: var(--cream); background: var(--olive); border-color: var(--olive); }
   .jc-chip.pending { color: var(--amber); background: var(--amber-bg); border-color: var(--amber-line); }
   .jc-chip.todo { color: var(--amber); background: var(--white); border: 1px dashed var(--amber-line); }
@@ -38,7 +38,7 @@
     .jc-daylist .d { font-size: 0.78rem; }
     .jc-daylist .d b { font-size: 0.98rem; margin-right: 4px; }
     .jc-daylist .s { font-size: 0.94rem; }
-    .jc-daylist .jc-chip { font-size: 0.58rem; padding: 3px 6px; }
+    .jc-daylist .jc-chip { font-size: 13px; padding: 3px 6px; }
   }
   @media print { .jc-daylist .row { break-inside: avoid; background: #fff; } }
 
@@ -67,13 +67,13 @@
   .jc-options li strong { font-weight: 600; }
   .jc-stay .jc-todo { margin-top: 12px; }
   .jc-seen { font-family: var(--font-body); font-weight: 400; font-size: 0.92rem; color: var(--ink-soft); margin: 10px 0 0; }
-  .jc-seen b { font-weight: 400; font-size: 0.66rem; text-transform: uppercase; letter-spacing: .2em; color: var(--olive-deep); margin-right: 6px;font-family:'DM Serif Display', Didot, Georgia, serif; }
+  .jc-seen b { font-weight: 400; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: var(--olive-deep); margin-right: 6px;font-family:'Instrument Serif', Didot, Georgia, serif; }
   .jc-daysec .jc-item.is-open .jc-title { color: var(--charcoal); }
 
   /* Block-level groups */
   .jc-groups { margin-top: 26px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .jc-group { background: var(--white); border: 1px solid var(--hairline); padding: 18px 20px; }
-  .jc-group .title { font-family: 'DM Serif Display', Didot, Georgia, serif; font-size: 0.72rem; font-weight: 400; text-transform: uppercase; letter-spacing: .2em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 8px; margin-bottom: 4px; }
+  .jc-group .title { font-family: 'Instrument Serif', Didot, Georgia, serif; font-size: 13px; font-weight: 400; text-transform: uppercase; letter-spacing: .2em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 8px; margin-bottom: 4px; }
   .jc-group .gnote { font-family: var(--font-body); font-weight: 400; font-size: 0.92rem; color: var(--ink-soft); margin: 8px 0 0; }
   .jc-group ul { list-style: none; margin: 0; padding: 0; }
   .jc-group li { padding: 10px 0; border-bottom: 1px solid var(--hairline); font-family: var(--font-body); font-weight: 400; font-size: 0.98rem; color: var(--charcoal); line-height: 1.5; }
@@ -82,7 +82,7 @@
 
   /* Outstanding */
   .jc-todo-cols { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--grid-gap); }
-  .jc-todo-col .title { font-family: 'DM Serif Display', Didot, Georgia, serif; font-size: 0.72rem; font-weight: 400; text-transform: uppercase; letter-spacing: .2em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 6px; }
+  .jc-todo-col .title { font-family: 'Instrument Serif', Didot, Georgia, serif; font-size: 13px; font-weight: 400; text-transform: uppercase; letter-spacing: .2em; color: var(--charcoal); border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin-bottom: 6px; }
   .jc-todo-col ol, .jc-todo-col ul { margin: 0; padding-left: 26px; font-family: var(--font-body); font-weight: 400; font-size: 1.02rem; color: var(--charcoal); line-height: 1.55; }
   .jc-todo-col li { padding: 9px 0 9px 4px; border-bottom: 1px solid var(--hairline); }
   .jc-todo-col li:last-child { border-bottom: 0; }

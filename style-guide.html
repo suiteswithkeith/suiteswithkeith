@@ -17,22 +17,22 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --cream:#f5f1e9; --cream-deep:#efe9dd; --olive:#6f745c; --olive-deep:#565b46;
     --tan:#c9b997; --tan-deep:#b7a37c; --charcoal:#3c3c38; --ink-soft:#5c5c56;
     --white:#fff; --hairline:rgba(60,60,56,0.18);
     --navy:#1c2436; --navy-deep:#12182a; --gold:#c9b997; --gold-deep:#b7a37c; --guide-line:rgba(245,241,233,0.22);
-    --display:'Playfair Display',Georgia,serif; --body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-    --mag:'Cinzel',var(--display); --mag-body:'Cormorant Garamond',var(--display);
+    --display:'Instrument Serif', Didot, Georgia, serif; --body: 'Newsreader', Georgia, 'Times New Roman', serif;
+    --mag:'Instrument Serif', Didot, Georgia, serif; --mag-body:'Newsreader', Georgia, 'Times New Roman', serif;
   }
   *{box-sizing:border-box;}
-  body{margin:0;background:var(--cream);color:var(--charcoal);font-family:var(--body);font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased;}@media(max-width:700px){body{font-size:1.125rem}}
+  body{margin:0;background:var(--cream);color:var(--charcoal);font-family:var(--body);font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased;font-size:1.125rem;}@media(max-width:700px){body{font-size:1.125rem}}
   .wrap{max-width:1000px;margin:0 auto;padding:0 32px;}
 
   /* labels */
-  .eyebrow{font-family:'DM Serif Display', Didot, Georgia, serif;font-size:0.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:400;color:var(--ink-soft);}
+  .eyebrow{font-family:'Instrument Serif', Didot, Georgia, serif;font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:400;color:var(--ink-soft);}
   .eyebrow.gold{color:var(--gold-deep);}
 
   /* masthead */
@@ -43,7 +43,7 @@
   /* sections */
   section{padding:64px 0;border-bottom:1px solid var(--hairline);}
   .sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:40px;}
-  .sec-head h2{font-family:var(--display);font-weight:400;font-size:clamp(1.7rem,3vw,2.2rem);margin:0;}
+  .sec-head h2{font-family:var(--display);font-weight:400;font-size:clamp(1.7rem,3vw,2.2rem);margin:0;line-height:1.02;}
   .sec-head .num{font-family:var(--body);font-size:0.72rem;letter-spacing:0.2em;color:var(--tan-deep);font-weight:600;}
 
   /* color swatches */
@@ -52,19 +52,19 @@
   .sw .chip{height:82px;}
   .sw .meta{padding:12px 14px 16px;}
   .sw .nm{font-family:var(--body);font-weight:600;font-size:0.82rem;letter-spacing:0.02em;}
-  .sw .hex{font-family:'DM Serif Display', Didot, Georgia, serif;font-weight:400;font-size:0.78rem;color:var(--ink-soft);font-variant-numeric:tabular-nums;text-transform:uppercase;margin-top:2px;letter-spacing:.2em;}
+  .sw .hex{font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;font-size:13px;color:var(--ink-soft);font-variant-numeric:tabular-nums;text-transform:uppercase;margin-top:2px;letter-spacing:.2em;}
   .sw .use{font-size:0.74rem;color:var(--ink-soft);margin-top:8px;line-height:1.4;}
-  .palette-label{font-family:'DM Serif Display', Didot, Georgia, serif;font-weight:400;font-size:0.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--charcoal);margin:36px 0 18px;}
+  .palette-label{font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--charcoal);margin:36px 0 18px;}
   .palette-label:first-of-type{margin-top:0;}
 
   /* type specimens */
   .spec{padding:26px 0;border-top:1px solid var(--hairline);display:grid;grid-template-columns:150px 1fr;gap:28px;align-items:baseline;}
   .spec:first-child{border-top:none;padding-top:0;}
-  .spec .role{font-family:'DM Serif Display', Didot, Georgia, serif;font-size:0.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);line-height:1.5;font-weight:400;}
+  .spec .role{font-family:'Instrument Serif', Didot, Georgia, serif;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);line-height:1.5;font-weight:400;}
   .spec .role b{display:block;color:var(--charcoal);font-weight:600;letter-spacing:0.04em;margin-bottom:4px;}
-  .specimen-playfair{font-family:var(--display);font-weight:400;font-size:2.4rem;line-height:1.1;margin:0;}
+  .specimen-playfair{font-family:var(--display);font-weight:400;font-size:2.4rem;line-height:1.02;margin:0;}
   .specimen-jost{font-family:var(--body);font-weight:400;font-size:1.05rem;margin:0;max-width:60ch;}
-  .specimen-cinzel{font-family:var(--mag);font-weight:500;font-size:1.8rem;text-transform:uppercase;letter-spacing:0.08em;margin:0;}
+  .specimen-cinzel{font-family:var(--mag);font-weight:400;font-size:1.8rem;text-transform:uppercase;letter-spacing:.2em;margin:0;}
   .specimen-cormorant{font-family:var(--mag-body);font-style:italic;font-weight:500;font-size:1.7rem;line-height:1.35;margin:0;max-width:40ch;}
 
   /* type scale */
@@ -72,10 +72,10 @@
   .scale-row{display:grid;grid-template-columns:180px 1fr auto;gap:20px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--hairline);}
   .scale-row .lbl{font-weight:600;font-size:0.82rem;}
   .scale-row .val{font-size:0.78rem;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
-  .scale-row .face{font-size:0.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--tan-deep);text-align:right;font-family:'DM Serif Display', Didot, Georgia, serif;font-weight:400;}
+  .scale-row .face{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--tan-deep);text-align:right;font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;}
 
   /* buttons */
-  .btn{display:inline-block;padding:16px 30px;font-family:'DM Serif Display', Didot, Georgia, serif;font-size:0.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:400;border:none;cursor:default;}
+  .btn{display:inline-block;padding:16px 30px;font-family:'Instrument Serif', Didot, Georgia, serif;font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:400;border:none;cursor:default;}
   .btn-tan{background:var(--tan);color:var(--charcoal);}
   .btn-olive{background:var(--olive-deep);color:var(--cream);}
   .btn-dark{background:var(--charcoal);color:var(--cream);}
@@ -85,14 +85,14 @@
 
   /* forms */
   .field{max-width:340px;}
-  .field label{display:block;font-family:'DM Serif Display', Didot, Georgia, serif;font-size:0.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);font-weight:400;margin-bottom:8px;}
+  .field label{display:block;font-family:'Instrument Serif', Didot, Georgia, serif;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);font-weight:400;margin-bottom:8px;}
   .field input{width:100%;font-family:var(--body);font-size:0.95rem;color:var(--charcoal);background:#fff;border:1px solid var(--hairline);border-radius:2px;padding:13px 14px;}
   .field input:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px rgba(111,116,92,0.12);}
 
   /* token cards */
   .tokens{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px;}
   .token{border:1px solid var(--hairline);padding:22px;background:var(--white);}
-  .token h4{font-family:'DM Serif Display', Didot, Georgia, serif;font-weight:400;font-size:0.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 16px;}
+  .token h4{font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 16px;}
   .token .demo{margin-bottom:14px;}
   .token p{margin:0;font-size:0.8rem;color:var(--ink-soft);line-height:1.5;}
   .token p code{font-family:var(--body);font-variant-numeric:tabular-nums;color:var(--charcoal);}
@@ -105,14 +105,14 @@
   /* magazine theme panel */
   .mag-panel{background:var(--navy);color:var(--cream);border:none;margin-top:0;}
   .mag-panel .wrap{padding-top:72px;padding-bottom:72px;}
-  .mag-panel .sec-head h2{color:var(--cream);font-family:var(--mag);text-transform:uppercase;letter-spacing:0.08em;font-size:clamp(1.5rem,2.6vw,2rem);}
+  .mag-panel .sec-head h2{color:var(--cream);font-family:var(--mag);text-transform:uppercase;letter-spacing:.2em;font-size:clamp(1.5rem,2.6vw,2rem);}
   .mag-panel .sec-head .num{color:var(--gold);}
   .mag-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center;}
   .mag-quote{font-family:var(--mag-body);font-style:italic;font-size:1.5rem;line-height:1.5;margin:0;}
-  .mag-quote::before{content:"\201C";display:block;font-family:var(--mag);font-size:2.6rem;color:var(--gold);line-height:0.4;margin-bottom:12px;}
-  .mag-quote + .attr{margin-top:22px;font-family:'DM Serif Display', Didot, Georgia, serif;font-size:0.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:400;}
+  .mag-quote::before{content:"\201C";display:block;font-family:var(--mag);font-size:2.6rem;color:var(--gold);line-height:1.02;margin-bottom:12px;}
+  .mag-quote + .attr{margin-top:22px;font-family:'Instrument Serif', Didot, Georgia, serif;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:400;}
   .mag-swatches{display:flex;gap:0;}
-  .mag-swatches div{flex:1;height:120px;display:flex;align-items:flex-end;padding:10px;font-size:0.68rem;letter-spacing:.2em;text-transform:uppercase;font-family:'DM Serif Display', Didot, Georgia, serif;font-weight:400;}
+  .mag-swatches div{flex:1;height:120px;display:flex;align-items:flex-end;padding:10px;font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;}
   .mag-note{margin-top:28px;font-family:var(--mag-body);font-style:italic;font-size:1.05rem;color:rgba(245,241,233,0.7);}
 
   footer{padding:48px 0 80px;}

@@ -19,7 +19,7 @@ part = lambda n: open(f'{SPEC}/_{n}.html').read()
 HEAD_STYLES, NAV, FOOTER = part('head_styles'), part('nav'), part('footer')
 
 LINK = ('style="font-size:.72rem; font-weight:400; letter-spacing:.2em; '
-        'text-transform:uppercase; color:var(--brass); text-decoration:none; font-family: \'DM Serif Display\', Didot, Georgia, serif;"')
+        'text-transform:uppercase; color:var(--brass); text-decoration:none; font-family: \'Instrument Serif\', Didot, Georgia, serif;"')
 
 
 def attr(s):

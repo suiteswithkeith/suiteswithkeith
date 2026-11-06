@@ -28,19 +28,19 @@ EXTRA_CSS = """
 .exc-map-wrap{margin-top:34px;border:1px solid var(--hairline);background:var(--lime)}
 #exc-map{height:clamp(380px,62vh,560px);width:100%;background:var(--plaster-deep);z-index:0}
 .exc-map-filters{display:flex;flex-wrap:wrap;gap:8px;padding:14px;border-bottom:1px solid var(--hairline)}
-.exc-map-filters button{font-family:var(--stamp);font-size:.62rem;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--hairline-firm);padding:7px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.exc-map-filters button{font-family:var(--stamp);font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--hairline-firm);padding:7px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
 .exc-map-filters button[aria-pressed="false"]{opacity:.4}
 .exc-map-filters i{display:inline-block;width:9px;height:9px;border-radius:50%}
 .exc-map-note{padding:10px 14px;font-size:.78rem;color:var(--ash-3);border-top:1px solid var(--hairline)}
 .leaflet-popup-content-wrapper{border-radius:0;box-shadow:0 6px 24px rgba(22,23,18,.18)}
 .leaflet-popup-content{margin:14px 16px;font-family:var(--body);font-size:.86rem;line-height:1.5;color:var(--ash)}
 .leaflet-popup-content strong{display:block;font-family:var(--display);font-weight:400;font-size:1.02rem;color:var(--ink);margin-bottom:4px}
-.leaflet-popup-content em{display:block;font-style:normal;font-family:var(--stamp);font-size:.58rem;font-weight:400;letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px}
+.leaflet-popup-content em{display:block;font-style:normal;font-family:var(--stamp);font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px}
 .exc-group{margin-top:44px}
 .exc-group:first-of-type{margin-top:34px}
-.exc-group-h{font-family:var(--stamp);font-size:.7rem;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--olive);padding-bottom:10px;border-bottom:1px solid var(--hairline)}
+.exc-group-h{font-family:var(--stamp);font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--olive);padding-bottom:10px;border-bottom:1px solid var(--hairline)}
 .exc-group .exc-grid{margin-top:22px}
-.exc-link{margin-top:auto;padding-top:16px;font-family:var(--stamp);font-size:.66rem;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);text-decoration:none}
+.exc-link{margin-top:auto;padding-top:16px;font-family:var(--stamp);font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);text-decoration:none}
 .exc-link:hover{color:var(--ink)}
 """
 

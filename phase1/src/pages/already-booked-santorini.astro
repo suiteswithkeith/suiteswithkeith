@@ -74,7 +74,7 @@ const cards = [
       <p class="body-2" style="margin-top:14px; max-width:58ch;">I spent four weeks across the Cyclades touring nearly every luxury hotel on Santorini and eating, sailing, and driving my way around the island, so none of this comes off a list. Still deciding on the hotel? Start with my <a href="/santorini-hotels-ranked.html" style="color:var(--brass);">Santorini hotel rankings</a> or the <a href="/santorini.html" style="color:var(--brass);">Santorini guide</a>.</p>
     </div>
     <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
-      <p class="stamp plain" style="font-weight:700; color:var(--brass);">What I handle</p>
+      <p class="stamp plain" style="font-weight:400; color:var(--brass);">What I handle</p>
       <a class="toc-link" href="#inquire"><b>Send me your reservations &rarr;</b></a>
       <a class="toc-link" href="#restaurants">Dinner reservations</a>
       <a class="toc-link" href="#catamaran">Your day on the water</a>
@@ -154,7 +154,7 @@ const cards = [
         <img src={cards[3].img} alt={cards[3].alt} width="1800" height="1200" loading="lazy" decoding="async" />
       </figure>
       <div class="reveal">
-        <span class="stamp plain" style="font-weight:700; color:var(--brass);">No. 04</span>
+        <span class="stamp plain" style="font-weight:400; color:var(--brass);">No. 04</span>
         <h2 class="display-l" style="margin-top:12px;" set:html={cards[3].h} />
         <p class="deck" style="margin-top:10px; font-size:1.05rem;" set:html={cards[3].tag} />
         <p class="stamp plain ab-meta" set:html={cards[3].meta} />
@@ -211,7 +211,7 @@ const cards = [
       </div>
     </div>
     <div class="reveal">
-      <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:16px;">Rules I&rsquo;d give any client</p>
+      <p class="stamp plain" style="font-weight:400; color:var(--brass-lit); margin-bottom:16px;">Rules I&rsquo;d give any client</p>
       <div class="ab-rule"><b>Never book the last ferry of the day.</b> If it cancels, there&rsquo;s nothing behind it.</div>
       <div class="ab-rule"><b>Don&rsquo;t fly home the same day you sail.</b> Build in a night. The Aegean does not care about your itinerary.</div>
       <div class="ab-rule"><b>Two islands per week. That&rsquo;s the limit.</b> Three islands in seven nights is three travel days.</div>
@@ -254,7 +254,8 @@ const cards = [
 </Layout>
 
 <style>
-  .toc-link { font-size: .72rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); text-decoration: none;font-family:'DM Serif Display', Didot, Georgia, serif; }
+  .toc-link b { font-weight: 400; }
+  .toc-link { font-size: 13px; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); text-decoration: none;font-family:'Instrument Serif', Didot, Georgia, serif; }
   .toc-link:hover { text-decoration: underline; }
   .ab-intro { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .ab-intro { grid-template-columns: 1.5fr 1fr; gap: 80px; } }
@@ -268,7 +269,7 @@ const cards = [
   .ab-grid > * { min-width: 0; }
   .ab-media { margin: 0; }
   .ab-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
-  .ab-meta { display: block; margin-top: 14px; font-size: .64rem; font-weight: 700 !important; }
+  .ab-meta { display: block; margin-top: 14px; font-size: 13px; font-weight: 400 !important; }
   .band .ab-meta { color: var(--band-ash); }
   .ab-note { font-size: .95rem; line-height: 1.65; margin-bottom: 13px; padding-left: 16px; position: relative; color: var(--ash); }
   .band .ab-note { color: var(--band-ash); }
@@ -284,7 +285,7 @@ const cards = [
   .ab-wine { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .ab-wine { grid-template-columns: 1fr 1.4fr; gap: 64px; } }
   .ab-wine > * { min-width: 0; }
-  .ab-wmeta { display: block; margin-top: 8px; font-family: var(--stamp); font-weight: 400; font-size: .68rem; letter-spacing: .2em; color: var(--band-ash); text-transform: uppercase; }
+  .ab-wmeta { display: block; margin-top: 8px; font-family: var(--stamp); font-weight: 400; font-size: 13px; letter-spacing: .2em; color: var(--band-ash); text-transform: uppercase; }
 
   .ab-log { display: grid; gap: 56px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 980px) { .ab-log { grid-template-columns: 1.2fr 1fr; gap: 72px; } }

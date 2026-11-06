@@ -34,9 +34,9 @@ const g = lists[slug];
         <div class="reveal">
           <span class="pl-num">{c.num}</span>
           <h2 class="display-m" style="font-size:clamp(1.5rem,2.6vw,1.9rem); margin-top:6px;" set:html={c.name} />
-          <p class="stamp plain" style="margin-top:8px; font-size:.64rem; font-weight:700; color:var(--brass);" set:html={c.loc + (c.price ? ' &middot; ' + c.price : '') + (c.fora ? ' &middot; ' + c.fora : '')} />
+          <p class="stamp plain" style="margin-top:8px; font-size:13px; font-weight:400; color:var(--brass);" set:html={c.loc + (c.price ? ' &middot; ' + c.price : '') + (c.fora ? ' &middot; ' + c.fora : '')} />
           <p class="deck" style="margin-top:14px; font-size:1.1rem; max-width:34ch;" set:html={c.desc} />
-          {c.href && <p style="margin-top:20px;"><a href={c.href} style="font-size:.72rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--brass); text-decoration:none; font-family: 'DM Serif Display', Didot, Georgia, serif;">Read the brief &rarr;</a></p>}
+          {c.href && <p style="margin-top:20px;"><a href={c.href} style="font-size:13px; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--brass); text-decoration:none; font-family: 'Instrument Serif', Didot, Georgia, serif;">Read the brief &rarr;</a></p>}
         </div>
       </article>
     ))}

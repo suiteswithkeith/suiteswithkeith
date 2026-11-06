@@ -57,7 +57,7 @@ def render_card(c, i):
         f'<div class="container"> <div class="ab-grid{"" if band else " flip"}"> '
         f'<figure class="reveal ab-media"> <img src="{c["img"]}" alt="{c["alt"]}" width="1800" height="1300" '
         f'loading="{"eager" if i == 0 else "lazy"}" decoding="async"{style}> </figure> '
-        f'<div class="reveal"> <span class="stamp plain" style="font-weight:700; color:{"var(--brass-lit)" if band else "var(--brass)"};">No. {c["num"]}</span> '
+        f'<div class="reveal"> <span class="stamp plain" style="font-weight:400; color:{"var(--brass-lit)" if band else "var(--brass)"};">No. {c["num"]}</span> '
         f'<h2 class="display-l" style="margin-top:12px;">{c["h"]}</h2> '
         f'<p class="deck" style="margin-top:10px; font-size:1.05rem;">{c["tag"]}</p> '
         f'<p class="stamp plain ab-meta">{c["meta"]}</p> '

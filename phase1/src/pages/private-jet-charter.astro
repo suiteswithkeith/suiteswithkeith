@@ -111,7 +111,7 @@ const faqSchema = JSON.stringify({
   <div class="container">
     <div class="hc-grid">
       <div class="reveal hc-aside">
-        <span class="stamp plain" style="font-weight:700; color:var(--brass-lit);">No. 01</span>
+        <span class="stamp plain" style="font-weight:400; color:var(--brass-lit);">No. 01</span>
         <h2 class="display-l" style="margin-top:12px;">What a transparent quote looks like</h2>
         <p class="deck" style="margin-top:10px; font-size:1.05rem;">Every line, before you say yes</p>
         <p class="stamp plain small-meta">You&rsquo;ll see it &middot; before you sign anything</p>
@@ -138,7 +138,7 @@ const faqSchema = JSON.stringify({
   <div class="container">
     <div class="hc-grid flip">
       <div class="reveal hc-aside">
-        <span class="stamp plain" style="font-weight:700; color:var(--brass);">No. 02</span>
+        <span class="stamp plain" style="font-weight:400; color:var(--brass);">No. 02</span>
         <h2 class="display-l" style="margin-top:12px;">What a private jet actually costs</h2>
         <p class="deck" style="margin-top:10px; font-size:1.05rem;">Ballpark hourly rates, all-in</p>
         <p class="stamp plain small-meta">Rough guide &middot; 2026 &middot; rates move with fuel, season and demand</p>
@@ -164,7 +164,7 @@ const faqSchema = JSON.stringify({
   <div class="container">
     <div class="hc-grid">
       <div class="reveal hc-aside">
-        <span class="stamp plain" style="font-weight:700; color:var(--brass-lit);">No. 03</span>
+        <span class="stamp plain" style="font-weight:400; color:var(--brass-lit);">No. 03</span>
         <h2 class="display-l" style="margin-top:12px;">Good to know before you fly private</h2>
         <p class="deck" style="margin-top:10px; font-size:1.05rem;">The honest fine print</p>
         <p class="stamp plain small-meta">Read this &middot; before you commit to a date</p>
@@ -304,12 +304,12 @@ const faqSchema = JSON.stringify({
 .intro-grid{display:grid;gap:44px;grid-template-columns:1fr;align-items:start}@media(min-width:900px){.intro-grid{grid-template-columns:1.4fr 1fr;gap:80px}}.intro-grid>*{min-width:0}
 .hc-grid{display:grid;gap:40px;grid-template-columns:1fr;align-items:start}@media(min-width:900px){.hc-grid{grid-template-columns:.9fr 1.3fr;gap:72px}.hc-grid.flip .hc-aside{order:2}}.hc-grid>*{min-width:0}
 @media(min-width:900px){.hc-aside{position:sticky;top:96px}}
-.small-meta{display:block;margin-top:14px;font-size:.66rem}.band .small-meta{color:var(--band-ash)}
+.small-meta{display:block;margin-top:14px;font-size:13px}.band .small-meta{color:var(--band-ash)}
 .hc-note{font-size:.96rem;line-height:1.65;margin-bottom:13px;padding-left:16px;position:relative;color:var(--ash)}.band .hc-note{color:var(--band-ash)}.hc-note:before{content:"";position:absolute;left:0;top:.62em;width:4px;height:4px;background:var(--brass)}.band .hc-note:before{background:var(--brass-lit)}.hc-note b{color:var(--ink);font-weight:600}.band .hc-note b{color:var(--band-ink)}.band .verdict{border-left-color:var(--brass-lit)}
 .band .kv{border-top-color:var(--band-hairline)}.band .kv-row{border-bottom-color:var(--band-hairline)}.band .kv-row dd{color:var(--band-ash)}.band .kv-row dd b{color:var(--band-ink)}
-.fee-line{margin-top:28px;padding-top:22px;border-top:1px solid var(--hairline);font-family:var(--stamp);font-weight:400;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ash-3);line-height:1.8}.fee-line b{color:var(--brass);font-weight:700}
-.retainer{margin-top:22px;border:1px solid var(--hairline);background:var(--plaster-deep);padding:clamp(24px,3.5vw,36px);display:grid;gap:22px;grid-template-columns:1fr;align-items:center}@media(min-width:900px){.retainer{grid-template-columns:1.5fr auto;gap:48px}}.retainer .eyebrow{display:block;margin-bottom:12px}.retainer h3{font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,3vw,2rem);margin-bottom:12px}.retainer .lead{font-size:1rem;color:var(--ash);line-height:1.6;max-width:62ch}
-.pb-link{font-size:.7rem;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);text-decoration:none;font-family:'DM Serif Display', Didot, Georgia, serif}.pb-link:hover{text-decoration:underline}
+.fee-line{margin-top:28px;padding-top:22px;border-top:1px solid var(--hairline);font-family:var(--stamp);font-weight:400;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--ash-3);line-height:1.8}.fee-line b{color:var(--brass);font-weight:400}
+.retainer{margin-top:22px;border:1px solid var(--hairline);background:var(--plaster-deep);padding:clamp(24px,3.5vw,36px);display:grid;gap:22px;grid-template-columns:1fr;align-items:center}@media(min-width:900px){.retainer{grid-template-columns:1.5fr auto;gap:48px}}.retainer .eyebrow{display:block;margin-bottom:12px}.retainer h3{font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,3vw,2rem);margin-bottom:12px;line-height:1.02;}.retainer .lead{font-size:1rem;color:var(--ash);line-height:1.6;max-width:62ch}
+.pb-link{font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);text-decoration:none;font-family:'Instrument Serif', Didot, Georgia, serif}.pb-link:hover{text-decoration:underline}
 .pb-select{width:100%;font-family:var(--body);font-size:.95rem;color:var(--ink);background:var(--lime);border:1px solid var(--hairline);border-radius:2px;padding:14px;margin-bottom:16px}.pb-select:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px #4a504024}
 .faq details{border-bottom:1px solid var(--hairline)}.faq details:first-child{border-top:1px solid var(--hairline)}.faq summary{display:flex;align-items:baseline;justify-content:space-between;gap:20px;cursor:pointer;list-style:none;padding:18px 0;font-family:var(--display);font-weight:400;font-size:1.08rem;line-height:1.4}.faq summary::-webkit-details-marker{display:none}.faq .ind{font-family:var(--stamp);font-weight:400;color:var(--brass);font-size:1rem;transition:transform var(--dur-1) var(--ease)}.faq details[open] .ind{transform:rotate(45deg)}.faq details p{padding:0 0 22px;max-width:60ch;color:var(--ash);font-size:.98rem}.faq details p a{color:var(--brass)}
 </style>

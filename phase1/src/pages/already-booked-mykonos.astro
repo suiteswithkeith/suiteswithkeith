@@ -74,7 +74,7 @@ const cards = [
       <p class="body-2" style="margin-top:14px; max-width:58ch;">Mykonos was the most surprising island of my four weeks in the Cyclades. I expected a party island and found some of the best hotels, meals, and service of the entire trip. Still deciding on the hotel? Start with my <a href="/mykonos.html" style="color:var(--brass);">Mykonos guide</a>.</p>
     </div>
     <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
-      <p class="stamp plain" style="font-weight:700; color:var(--brass);">What I handle</p>
+      <p class="stamp plain" style="font-weight:400; color:var(--brass);">What I handle</p>
       <a class="toc-link" href="#inquire"><b>Send me your reservations &rarr;</b></a>
       <a class="toc-link" href="#restaurants">Dinner reservations</a>
       <a class="toc-link" href="#boat-day">Your day on the water</a>
@@ -151,7 +151,7 @@ const cards = [
       </div>
     </div>
     <div class="reveal">
-      <p class="stamp plain" style="font-weight:700; color:var(--brass-lit); margin-bottom:16px;">Rules I&rsquo;d give any client</p>
+      <p class="stamp plain" style="font-weight:400; color:var(--brass-lit); margin-bottom:16px;">Rules I&rsquo;d give any client</p>
       <div class="ab-rule"><b>Never book the last ferry of the day.</b> If it cancels, there&rsquo;s nothing behind it.</div>
       <div class="ab-rule"><b>Don&rsquo;t drive to dinner in August.</b> The south coast road jams at sunset. Boat taxi or leave early.</div>
       <div class="ab-rule"><b>Don&rsquo;t fly home the same day you sail.</b> Build in a night. The Aegean does not care about your itinerary.</div>
@@ -193,7 +193,8 @@ const cards = [
 </Layout>
 
 <style>
-  .toc-link { font-size: .72rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); text-decoration: none;font-family:'DM Serif Display', Didot, Georgia, serif; }
+  .toc-link b { font-weight: 400; }
+  .toc-link { font-size: 13px; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); text-decoration: none;font-family:'Instrument Serif', Didot, Georgia, serif; }
   .toc-link:hover { text-decoration: underline; }
   .ab-intro { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .ab-intro { grid-template-columns: 1.5fr 1fr; gap: 80px; } }
@@ -207,7 +208,7 @@ const cards = [
   .ab-grid > * { min-width: 0; }
   .ab-media { margin: 0; }
   .ab-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
-  .ab-meta { display: block; margin-top: 14px; font-size: .64rem; font-weight: 700 !important; }
+  .ab-meta { display: block; margin-top: 14px; font-size: 13px; font-weight: 400 !important; }
   .band .ab-meta { color: var(--band-ash); }
   .ab-note { font-size: .95rem; line-height: 1.65; margin-bottom: 13px; padding-left: 16px; position: relative; color: var(--ash); }
   .band .ab-note { color: var(--band-ash); }

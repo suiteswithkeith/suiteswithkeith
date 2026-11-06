@@ -50,9 +50,9 @@
   --band-ash:      var(--muted-on-dark);
 
   /* ── type · three voices, two families ── */
-  --font-display: 'DM Serif Display', Didot, Georgia, serif;   /* 400 + italic only */
-  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-  --font-stamp:   'DM Serif Display', Didot, Georgia, serif;   /* uppercase, .20em */
+  --font-display: 'Instrument Serif', Didot, Georgia, serif;   /* 400 + italic only */
+  --font-body: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-stamp:   'Instrument Serif', Didot, Georgia, serif;   /* uppercase, .20em */
   --font-logo:    'Cinzel', Georgia, serif;                    /* inline SVG marks only */
   --display: var(--font-display);
   --body:    var(--font-body);
@@ -62,18 +62,18 @@
   --text-display-xl: clamp(2.6rem, 6.5vw, 5.2rem);
   --text-h2:         clamp(1.8rem, 3vw, 2.4rem);
   --text-h3:         1.5rem;
-  --text-body:       1.09375rem;
+  --text-body:       1.125rem;
   --text-pull-quote: 1.25rem;
-  --text-stamp:      .72rem;
-  --text-button:     .75rem;
+  --text-stamp:      13px;
+  --text-button:     13px;
 
-  --weight-display: 400;   /* DM Serif Display ships one weight */
+  --weight-display: 400;   /* Instrument Serif ships one weight */
   --weight-body:    400;
   --weight-stamp:   400;
 
   --tracking-stamp:  .20em;
   --tracking-button: .20em;
-  --leading-body:    1.62;
+  --leading-body:    1.6;
 
   /* ── spacing + layout ── */
   --space-1: 8px;
@@ -107,5 +107,7 @@
   --ease:  cubic-bezier(.2,.6,.2,1);
 }
 
-/* DM Serif Display has no bold: render 500/600 requests at 400, never faux-bolded. */
+/* Instrument Serif has no bold: render 500/600 requests at 400, never faux-bolded. */
 html { font-synthesis-weight: none; }
+button, input, select, textarea { font-family: inherit; }   /* form controls do not inherit the body face by default */
+:is(.stamp, .eyebrow, .tag, .badge, .btn, .kicker) :is(b, strong) { font-weight: 400; }   /* Instrument Serif has no bold */
