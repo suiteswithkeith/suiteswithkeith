@@ -276,7 +276,7 @@ import Divider from '../components/Divider.astro';
 .dest-meta { grid-area: meta; display: flex; align-items: baseline; gap: 16px; margin: 0 0 14px; }
 .dest-num { font-family: var(--font-display); font-size: 1.35rem; line-height: 1; color: var(--brass); }
 .dest-kicker { font-family: var(--font-stamp); font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--ash); }
-.dest-name { grid-area: name; margin: 0; font-family: var(--font-display); font-weight: 400; font-size: clamp(3.4rem, 8.4vw, 6.7rem); line-height: .98; letter-spacing: -.01em; transition: transform var(--dur-2) var(--ease); }
+.dest-name { grid-area: name; margin: 0; font-family: var(--font-display); font-weight: 400; font-size: clamp(2.8rem, 6vw, 4.8rem); line-height: .98; letter-spacing: -.01em; transition: transform var(--dur-2) var(--ease); }
 .dest-img { grid-area: img; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: filter var(--dur-2) var(--ease); }
 .dest-desc { grid-area: desc; margin: 16px 0 0; max-width: 48ch; font-size: 1.125rem; line-height: 1.6; color: var(--ash); }
 @media (hover: hover) { .dest-row:hover .dest-name { transform: translateX(10px); } .dest-row:hover .dest-img { filter: brightness(1.07); } }
@@ -284,7 +284,7 @@ import Divider from '../components/Divider.astro';
 @media (prefers-reduced-motion: reduce) { .dest-name, .dest-img { transition: none; } }
 @media (max-width: 700px) {
   .dest-row { grid-template-columns: 1fr; grid-template-areas: "meta" "name" "img" "desc"; grid-template-rows: auto; padding: 28px 0; }
-  .dest-name { font-size: clamp(3rem, 15vw, 4rem); margin-bottom: 18px; }
+  .dest-name { font-size: clamp(2.6rem, 12vw, 3.4rem); margin-bottom: 18px; }
   .dest-meta { margin-bottom: 10px; }
 }
 
