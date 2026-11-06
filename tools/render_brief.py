@@ -51,7 +51,7 @@ def build_variable_parts(b):
             f'{notes_html(s1["notes"])}{take}')
 
     related = ''.join(
-        f'<a href="{r["href"]}" style="font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; '
+        f'<a href="{r["href"]}" style="font-size:.72rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; font-family: \'DM Serif Display\', Didot, Georgia, serif; '
         f'color:var(--brass); text-decoration:none;"><span>{r["label"]}</span>&nbsp;&rarr;</a>'
         for r in b['related'])
 

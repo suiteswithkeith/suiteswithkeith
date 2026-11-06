@@ -9,38 +9,38 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Jost:wght@300;400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <style>
   :root{
     --plaster:#F2EFE6; --plaster-deep:#E9E5DA; --lime:#FBFAF6; --shadow:#161712;
     --on-dark:#F2EFE6; --on-dark-muted:#9A9B90; --eyebrow-dark:#BE975A;
     --ink:#1F201A; --muted:#65665C; --ash:#8C8D82; --brass:#836229; --olive:#4A5040;
     --hair:rgba(22,23,18,.15); --rule:rgba(22,23,18,.1);
-    --display:'Bodoni Moda',Didot,'Bodoni MT',Georgia,serif;
-    --body:'Jost','Helvetica Neue',Arial,sans-serif;
+    --display: 'DM Serif Display', Didot, Georgia, serif;
+    --body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
     --pad:40px; --cpad:28px;
   }
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
-  body{margin:0;background:var(--plaster);color:var(--ink);font-family:var(--body);font-weight:300;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  body{margin:0;background:var(--plaster);color:var(--ink);font-family:var(--body);font-weight:400;-webkit-font-smoothing:antialiased;overflow-x:hidden}@media(max-width:700px){body{font-size:1.125rem}}
   a{color:var(--brass)}
   a:hover{color:var(--olive)}
   p{margin:0}
-  .stamp{font-family:var(--display);font-weight:600;text-transform:uppercase}
-  .num{font-family:var(--display);font-weight:600;font-variant-numeric:lining-nums}
+  .stamp{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:.2em}
+  .num{font-family:var(--display);font-weight:400;font-variant-numeric:lining-nums}
 
   header{background:var(--shadow);color:var(--on-dark);padding:64px var(--pad) 56px}
   header .in{max-width:900px;margin:0 auto}
   header .eb{font-size:.74rem;letter-spacing:.2em;color:var(--eyebrow-dark);margin-bottom:16px}
-  h1{font-family:var(--display);font-weight:500;font-size:3rem;line-height:1.1;margin:0 0 14px}
+  h1{font-family:var(--display);font-weight:400;font-size:3rem;line-height:1.1;margin:0 0 14px}
   header p{font-size:1.05rem;color:var(--on-dark-muted);line-height:1.6}
 
   section{max-width:980px;margin:0 auto;padding:56px var(--pad) 0}
   section.last{padding-bottom:80px}
-  h2{font-family:var(--display);font-weight:500;font-size:1.8rem;line-height:1.2;margin:0 0 6px}
+  h2{font-family:var(--display);font-weight:400;font-size:1.8rem;line-height:1.2;margin:0 0 6px}
   .intro{font-size:.94rem;color:var(--muted);line-height:1.6;margin:0 0 18px}
   .kicker{font-size:.72rem;letter-spacing:.18em;color:var(--brass);margin-bottom:6px}
-  .h3{font-family:var(--display);font-weight:500;font-size:1.35rem;margin-bottom:6px}
+  .h3{font-family:var(--display);font-weight:400;font-size:1.35rem;margin-bottom:6px}
   .sub{font-size:.9rem;color:var(--muted);line-height:1.55;margin:0 0 14px}
 
   .card{border:1px solid var(--hair);background:var(--lime)}
@@ -63,7 +63,7 @@
   .pm .k.plus{color:var(--brass)} .pm .k.minus{color:var(--ash)}
   .pm .t{font-size:.9rem;line-height:1.5}
 
-  .tag{font-family:var(--display);font-weight:600;text-transform:uppercase;font-size:.64rem;letter-spacing:.12em;border:1px solid currentColor;padding:2px 7px;white-space:nowrap;align-self:start}
+  .tag{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:.64rem;letter-spacing:.2em;border:1px solid currentColor;padding:2px 7px;white-space:nowrap;align-self:start}
   .tag.brass{color:var(--brass)} .tag.ash{color:var(--ash)}
 
   .stops{display:flex;flex-direction:column;gap:44px}
@@ -73,7 +73,7 @@
   .hotel .ph img{width:100%;height:100%;object-fit:cover;display:block}
   .hotel .bd{padding:22px 26px 24px;display:flex;flex-direction:column;flex:1}
   .hotel .top{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-bottom:8px}
-  .hotel .nm{font-family:var(--display);font-weight:500;font-size:1.2rem;line-height:1.25}
+  .hotel .nm{font-family:var(--display);font-weight:400;font-size:1.2rem;line-height:1.25}
   .hotel .nm a{color:var(--ink);text-decoration:none;border-bottom:1px solid rgba(22,23,18,.25)}
   .hotel .nm a:hover{border-bottom-color:var(--brass)}
   .hotel .room{font-size:.9rem;color:var(--muted);line-height:1.5;margin-bottom:12px}
@@ -89,9 +89,9 @@
   .rmap .leg.flight{stroke-dasharray:1 5;stroke-width:1.8}
   .rmap .stop{fill:var(--brass);stroke:var(--lime)}
   .rmap .opt{fill:var(--lime);stroke:var(--brass)}
-  .rmap .pl{font-family:var(--display);font-weight:600;text-transform:uppercase;fill:var(--ink);paint-order:stroke;stroke:var(--lime);stroke-linejoin:round}
+  .rmap .pl{font-family:var(--display);font-weight:400;text-transform:uppercase;fill:var(--ink);paint-order:stroke;stroke:var(--lime);stroke-linejoin:round;letter-spacing:.2em}
   .rmap .pl.dim{fill:var(--brass)}
-  .rmap figcaption{display:flex;flex-wrap:wrap;gap:6px 16px;border-top:1px solid var(--rule);padding:10px 16px 12px;font-family:var(--display);font-weight:600;text-transform:uppercase;font-size:.6rem;letter-spacing:.14em;color:var(--muted)}
+  .rmap figcaption{display:flex;flex-wrap:wrap;gap:6px 16px;border-top:1px solid var(--rule);padding:10px 16px 12px;font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:.6rem;letter-spacing:.2em;color:var(--muted)}
   .rmap figcaption span{display:inline-flex;align-items:center;gap:7px}
   .rmap .k{display:inline-block;width:18px;height:0;border-top:1.6px solid var(--brass)}
   .rmap .k.flight{border-top:2px dotted var(--brass)}
@@ -106,7 +106,7 @@
   .act .est{font-size:.76rem;letter-spacing:.03em;color:var(--brass);margin-top:3px}
 
   .tot{display:flex;flex-direction:column}
-  .tot .big{font-family:var(--display);font-weight:500;font-size:1.9rem;line-height:1.1;margin-bottom:12px}
+  .tot .big{font-family:var(--display);font-weight:400;font-size:1.9rem;line-height:1.1;margin-bottom:12px}
   .li{display:grid;grid-template-columns:1fr auto;gap:12px;border-top:1px solid var(--rule);padding:9px 0}
   .li .w{font-size:.88rem;line-height:1.45}
   .li .p{font-size:.8rem;letter-spacing:.03em;color:var(--brass);white-space:nowrap;padding-top:2px}

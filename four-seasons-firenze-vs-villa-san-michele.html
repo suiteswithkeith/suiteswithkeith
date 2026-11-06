@@ -23,13 +23,13 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <style>html{font-synthesis-weight:none}
   :root {
     --page: #F2EFE6; --card: #FBFAF6; --ink: #1F201A; --body: #4A4B42; --muted: #65665C;
     --olive: #4A5040; --band: #161712; --band-body: #D8D4C6; --sage: #9FA890; --photo: #22231C;
     --line: rgba(22,23,18,.15); --line-dark: rgba(242,239,230,.22); --card-line: rgba(22,23,18,.12); --field-line: rgba(22,23,18,.18);
-    --serif: 'DM Serif Display', Didot, serif; --sans: Jost, sans-serif;
+    --serif: 'DM Serif Display', Didot, serif; --sans: 'Source Serif 4', Georgia, 'Times New Roman', serif;
     --pad-x: clamp(20px,4vw,40px);
   }
   html { scroll-behavior: smooth; }
@@ -46,15 +46,15 @@
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 
   .wrap { max-width: 1180px; margin: 0 auto; padding-left: var(--pad-x); padding-right: var(--pad-x); }
-  .eyebrow { font-family: var(--serif); font-weight: 500; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--olive); }
+  .eyebrow { font-family: var(--serif); font-weight: 400; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--olive); }
   .h2 { font-size: clamp(28px,3.4vw,38px); line-height: 1.2; }
-  .lede { font-weight: 300; font-size: 16px; line-height: 1.75; color: var(--body); }
+  .lede { font-weight: 400; font-size: 16px; line-height: 1.75; color: var(--body); }
   .stack { display: flex; flex-direction: column; gap: 12px; }
 
   /* header */
   .top { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding-top: 22px; padding-bottom: 22px; }
-  .wordmark { font-family: var(--serif); font-weight: 500; font-size: 13px; letter-spacing: .22em; text-transform: uppercase; color: var(--ink); }
-  .top .plan { font-weight: 500; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; border-bottom: 1px solid var(--olive); padding-bottom: 3px; }
+  .wordmark { font-family: var(--serif); font-weight: 400; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--ink); }
+  .top .plan { font-weight: 400; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; border-bottom: 1px solid var(--olive); padding-bottom: 3px;font-family:'DM Serif Display', Didot, Georgia, serif; }
 
   /* hero */
   .hero { position: relative; background: var(--band); color: var(--page); }
@@ -66,9 +66,9 @@
   .hero-copy .wrap { padding-bottom: clamp(28px,5vw,56px); display: flex; flex-direction: column; gap: 18px; }
   .hero .eyebrow { color: #DCDFD2; }
   .hero h1 { font-size: clamp(34px,5.4vw,62px); line-height: 1.08; max-width: 16em; }
-  .hero p { font-weight: 300; font-size: clamp(15px,1.6vw,17px); line-height: 1.65; max-width: 36em; color: #EFE9DD; }
+  .hero p { font-weight: 400; font-size: clamp(15px,1.6vw,17px); line-height: 1.65; max-width: 36em; color: #EFE9DD; }
   .btns { display: flex; gap: 12px; flex-wrap: wrap; padding-top: 4px; }
-  .btn { font-weight: 500; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; }
+  .btn { font-weight: 400; font-size: 12px; letter-spacing: .2em; text-transform: uppercase;font-family:'DM Serif Display', Didot, Georgia, serif; }
   .btn-light { background: var(--page); color: var(--ink); padding: 15px 26px; }
   .btn-light:hover { background: #FFFFFF; color: var(--ink); }
   .btn-ghost { border: 1px solid rgba(242,239,230,.6); color: var(--page); padding: 14px 25px; }
@@ -80,7 +80,7 @@
   .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,320px),1fr)); gap: 20px; }
   .card { background: var(--card); border: 1px solid var(--card-line); padding: 28px 30px; display: flex; flex-direction: column; gap: 12px; }
   .card-h { font-family: var(--serif); font-size: 22px; line-height: 1.2; }
-  .card p { font-weight: 300; font-size: 15.5px; line-height: 1.7; color: var(--body); }
+  .card p { font-weight: 400; font-size: 15.5px; line-height: 1.7; color: var(--body); }
 
   /* hotel sections */
   .hotel { padding-top: clamp(56px,8vw,96px); display: flex; flex-wrap: wrap; gap: clamp(28px,4vw,56px); align-items: flex-start; }
@@ -101,9 +101,9 @@
   .gal-one .pic { aspect-ratio: 4/3; }
   .facts { display: flex; flex-direction: column; border-top: 1px solid var(--line); margin: 0; }
   .facts > div { display: grid; grid-template-columns: 110px minmax(0,1fr); gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); }
-  .facts dt { font-family: var(--serif); font-weight: 500; font-size: 9.5px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
-  .facts dd { margin: 0; font-weight: 300; font-size: 15px; line-height: 1.55; }
-  .more { align-self: flex-start; font-weight: 500; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; border-bottom: 1px solid var(--olive); padding-bottom: 3px; }
+  .facts dt { font-family: var(--serif); font-weight: 400; font-size: 9.5px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
+  .facts dd { margin: 0; font-weight: 400; font-size: 15px; line-height: 1.55; }
+  .more { align-self: flex-start; font-weight: 400; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; border-bottom: 1px solid var(--olive); padding-bottom: 3px;font-family:'DM Serif Display', Didot, Georgia, serif; }
 
   /* comparison */
   .compare { padding-top: clamp(56px,8vw,96px); display: flex; flex-direction: column; gap: 24px; }
@@ -112,8 +112,8 @@
   .row { display: grid; grid-template-columns: 150px minmax(0,1fr) minmax(0,1fr); gap: 24px; padding: 16px 0; border-bottom: 1px solid var(--line); }
   .row.head { padding: 0 0 12px; border-bottom-color: rgba(22,23,18,.3); }
   .row.head div { font-family: var(--serif); font-size: 20px; }
-  .row .k { font-family: var(--serif); font-weight: 500; font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
-  .row .v { font-weight: 300; font-size: 15px; line-height: 1.6; }
+  .row .k { font-family: var(--serif); font-weight: 400; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
+  .row .v { font-weight: 400; font-size: 15px; line-height: 1.6; }
   .closer { font-family: var(--serif); font-style: italic; font-size: 19px; line-height: 1.45; color: var(--body); }
 
   /* why book */
@@ -124,7 +124,7 @@
   .props { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,230px),1fr)); gap: 36px; }
   .prop { display: flex; flex-direction: column; gap: 10px; border-top: 1px solid var(--line-dark); padding-top: 18px; }
   .prop-h { font-family: var(--serif); font-size: 20px; line-height: 1.25; }
-  .prop p { font-weight: 300; font-size: 15px; line-height: 1.7; color: var(--band-body); }
+  .prop p { font-weight: 400; font-size: 15px; line-height: 1.7; color: var(--band-body); }
 
   /* inquiry */
   .plan-sec { padding-top: clamp(56px,8vw,96px); padding-bottom: clamp(56px,8vw,96px); display: flex; flex-wrap: wrap; gap: clamp(32px,5vw,60px); align-items: flex-start; }
@@ -136,8 +136,8 @@
   .fields { display: flex; flex-wrap: wrap; gap: 14px; }
   .field { display: flex; flex-direction: column; gap: 7px; flex: 1 1 180px; }
   .fields.three .field { flex-basis: 140px; }
-  .label { font-weight: 500; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: var(--olive); }
-  .field input, .field textarea { background: #FFFFFF; border: 1px solid var(--field-line); border-radius: 2px; padding: 12px 14px; font-weight: 300; font-size: 15px; width: 100%; transition: border-color .25s; }
+  .label { font-weight: 400; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: var(--olive);font-family:'DM Serif Display', Didot, Georgia, serif; }
+  .field input, .field textarea { background: #FFFFFF; border: 1px solid var(--field-line); border-radius: 2px; padding: 12px 14px; font-weight: 400; font-size: 15px; width: 100%; transition: border-color .25s; }
   .field input[type="date"] { padding: 11px 14px; min-height: 46px; }
   .field textarea { resize: vertical; min-height: 76px; }
   .field input:focus, .field textarea:focus { outline: none; border-color: var(--olive); }
@@ -148,13 +148,13 @@
   .chips { display: flex; flex-wrap: wrap; gap: 8px; }
   .chip { cursor: pointer; padding: 9px 14px; font-weight: 400; font-size: 13px; border-radius: 0; border: 1px solid var(--field-line); background: #FFFFFF; color: var(--ink); transition: background .25s, color .25s, border-color .25s; }
   .chip[aria-pressed="true"] { background: var(--olive); border-color: var(--olive); color: var(--page); }
-  .submit { cursor: pointer; border: 0; background: var(--olive); color: var(--page); font-weight: 500; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; padding: 16px; transition: background .25s; }
+  .submit { cursor: pointer; border: 0; background: var(--olive); color: var(--page); font-weight: 400; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; padding: 16px; transition: background .25s;font-family:'DM Serif Display', Didot, Georgia, serif; }
   .submit:hover { background: var(--ink); }
   .submit:disabled { cursor: default; background: var(--muted); }
-  .reassure { font-weight: 300; font-size: 12.5px; line-height: 1.6; color: var(--muted); }
+  .reassure { font-weight: 400; font-size: 12.5px; line-height: 1.6; color: var(--muted); }
   .sent { display: flex; flex-direction: column; gap: 12px; padding: 24px 0; }
   .sent-h { font-family: var(--serif); font-size: 28px; line-height: 1.2; }
-  .sent p { font-weight: 300; font-size: 15.5px; line-height: 1.7; color: var(--body); }
+  .sent p { font-weight: 400; font-size: 15.5px; line-height: 1.7; color: var(--body); }
   .form-status { font-size: 12px; color: #8A3B2E; }
   .form-status:empty { display: none; }
 
@@ -162,7 +162,7 @@
   footer { border-top: 1px solid var(--line); }
   footer .wrap { padding-top: 30px; padding-bottom: 30px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; align-items: center; }
   footer .wordmark { font-size: 12px; letter-spacing: .2em; }
-  .foot-links { display: flex; gap: 26px; flex-wrap: wrap; font-weight: 300; font-size: 13px; }
+  .foot-links { display: flex; gap: 26px; flex-wrap: wrap; font-weight: 400; font-size: 13px; }
 </style>
 <script type="application/ld+json" data-geo>{"@context": "https://schema.org", "@type": "WebPage", "name": "Four Seasons Firenze vs Villa San Michele", "url": "https://suiteswithkeith.com/four-seasons-firenze-vs-villa-san-michele.html", "description": "Four Seasons Hotel Firenze or Belmond Villa San Michele? Florence’s two grandest addresses, compared by someone who has toured both: a Renaissance palazzo in private gardens in the city, or a 15th-century monastery in Fiesole with the best views in Florence. Plus how to book either with partner perks.", "author": {"@type": "Person", "name": "Keith Pence", "url": "https://suiteswithkeith.com/about.html"}, "publisher": {"@type": "Organization", "name": "Suites With Keith", "url": "https://suiteswithkeith.com/"}, "datePublished": "2026-09-30", "dateModified": "2026-11-05", "inLanguage": "en", "image": "https://suiteswithkeith.com/images/hotels/fs-firenze-garden.jpg"}</script>
 </head>
@@ -282,7 +282,7 @@
       <div class="prop"><div class="prop-h">I can hold the room</div><p>Found the one you want but need a night to talk it over? I can ask the hotel to hold it while you decide.</p></div>
       <div class="prop"><div class="prop-h">No planning fee</div><p>You pay the hotel the same rate as booking direct, and nothing extra to me.</p></div>
     </div>
-    <figure class="why-quote" style="margin:0; padding-top:28px; border-top:1px solid var(--line-dark); max-width:62ch;"><blockquote style="margin:0; font-family:var(--serif); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.35rem); line-height:1.5; color:var(--page);">&ldquo;He handled everything, from booking to communications, and I didn&rsquo;t have to worry about a thing.&rdquo;</blockquote><figcaption style="margin-top:12px; font-family:var(--sans); font-size:.72rem; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--sage);">Nida T. &middot; SWK Client</figcaption></figure>
+    <figure class="why-quote" style="margin:0; padding-top:28px; border-top:1px solid var(--line-dark); max-width:62ch;"><blockquote style="margin:0; font-family:var(--serif); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.35rem); line-height:1.5; color:var(--page);">&ldquo;He handled everything, from booking to communications, and I didn&rsquo;t have to worry about a thing.&rdquo;</blockquote><figcaption style="margin-top:12px; font-family: 'DM Serif Display', Didot, Georgia, serif; font-size:.72rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--sage);">Nida T. &middot; SWK Client</figcaption></figure>
   </div>
 </section>
 

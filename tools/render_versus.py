@@ -58,8 +58,8 @@ def build(v, slug):
         for p in v['verdict']['paras'])
 
     related = ''.join(
-        f'<a href="{r["href"]}" style="font-size:.72rem; font-weight:500; letter-spacing:.14em; '
-        f'text-transform:uppercase; color:var(--brass); text-decoration:none;"><span>{r["label"]}</span>&nbsp;&rarr;</a>'
+        f'<a href="{r["href"]}" style="font-size:.72rem; font-weight:400; letter-spacing:.2em; '
+        f'text-transform:uppercase; color:var(--brass); text-decoration:none; font-family: \'DM Serif Display\', Didot, Georgia, serif;"><span>{r["label"]}</span>&nbsp;&rarr;</a>'
         for r in v['related'])
 
     return dict(url=url, ld=ld, choose=choose, thead=thead, rows=rows,

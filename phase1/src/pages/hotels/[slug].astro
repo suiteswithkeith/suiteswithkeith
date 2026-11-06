@@ -172,7 +172,7 @@ const reviewSchema = h.review && JSON.stringify({
     <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Book <Fragment set:html={h.short_name} /> through me</span>
     <h2 class="display-l reveal">Fora perks.<br>And someone who knows the hotel.</h2>
     <p class="body-2 reveal" style="margin:22px auto 0; max-width:52ch;" set:html={h.perks_html} />
-    <figure class="swk-quote reveal" style="margin:36px auto 0; max-width:52ch; padding-top:26px; border-top:1px solid var(--band-hairline);"><blockquote style="margin:0; font-family:var(--display); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.3rem); line-height:1.5;" set:html={h.quote_html || cq.quote} /><figcaption style="margin-top:12px; font-size:.72rem; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--band-ash);" set:html={h.quote_cite_html || cq.cite} /></figure>
+    <figure class="swk-quote reveal" style="margin:36px auto 0; max-width:52ch; padding-top:26px; border-top:1px solid var(--band-hairline);"><blockquote style="margin:0; font-family:var(--display); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.3rem); line-height:1.5;" set:html={h.quote_html || cq.quote} /><figcaption style="margin-top:12px; font-size:.72rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--band-ash); font-family: 'DM Serif Display', Didot, Georgia, serif;" set:html={h.quote_cite_html || cq.cite} /></figure>
   </div>
 </section>
 
@@ -202,8 +202,8 @@ const reviewSchema = h.review && JSON.stringify({
       <p class="status" role="status" aria-live="polite"></p>
     </form>
     <p class="reveal" style="margin-top:34px;">
-      <a href={`/${h.island_page}`} style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none; margin-right:22px; display:inline-block; margin-bottom:8px;"><Fragment set:html={h.cta_island_text} />&nbsp;&rarr;</a>
-      <a href={`/${h.cta2_href}`} style="font-size:.74rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none; display:inline-block; margin-bottom:8px;"><Fragment set:html={h.cta2_text} />&nbsp;&rarr;</a>
+      <a href={`/${h.island_page}`} style="font-size:.74rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--brass); text-decoration:none; margin-right:22px; display:inline-block; margin-bottom:8px; font-family: 'DM Serif Display', Didot, Georgia, serif;"><Fragment set:html={h.cta_island_text} />&nbsp;&rarr;</a>
+      <a href={`/${h.cta2_href}`} style="font-size:.74rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--brass); text-decoration:none; display:inline-block; margin-bottom:8px; font-family: 'DM Serif Display', Didot, Georgia, serif;"><Fragment set:html={h.cta2_text} />&nbsp;&rarr;</a>
     </p>
   </div>
 </section>

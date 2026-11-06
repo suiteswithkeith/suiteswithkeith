@@ -90,7 +90,7 @@ const schema = JSON.stringify({
       <span class="eyebrow" style="display:block; margin-bottom:10px;" set:html={g.perks_eyebrow} />
       <h3 class="display-m" set:html={g.perks_h3} />
       <p class="body-2 hb-p" style="margin-top:12px;" set:html={g.perks_p} />
-      <figure class="swk-quote reveal" style="margin:26px 0 0; padding-top:26px; border-top:1px solid var(--hairline);"><blockquote style="margin:0; font-family:var(--display); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.3rem); line-height:1.5;" set:html={cq.quote} /><figcaption style="margin-top:12px; font-size:.72rem; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--ash);" set:html={cq.cite} /></figure>
+      <figure class="swk-quote reveal" style="margin:26px 0 0; padding-top:26px; border-top:1px solid var(--hairline);"><blockquote style="margin:0; font-family:var(--display); font-style:italic; font-size:clamp(1.1rem,2.2vw,1.3rem); line-height:1.5;" set:html={cq.quote} /><figcaption style="margin-top:12px; font-size:.72rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--ash); font-family: 'DM Serif Display', Didot, Georgia, serif;" set:html={cq.cite} /></figure>
       <p style="margin-top:20px;"><a class="btn btn-ghost" href="#inquire" data-gtag-label="check_availability" data-gtag-location="hotel_perks">Check availability</a></p>
     </div>
   </div>
@@ -124,7 +124,7 @@ const schema = JSON.stringify({
     {g.related.length > 0 && (
       <p class="reveal" style="margin-top:26px; display:flex; gap:12px 32px; justify-content:center; flex-wrap:wrap;">
         {g.related.map((r) => (
-          <a href={r.href} style="font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); text-decoration:none;"><span set:html={r.label} /> &rarr;</a>
+          <a href={r.href} style="font-size:.72rem; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--brass); text-decoration:none; font-family: 'DM Serif Display', Didot, Georgia, serif;"><span set:html={r.label} /> &rarr;</a>
         ))}
       </p>
     )}
@@ -134,7 +134,7 @@ const schema = JSON.stringify({
 </Layout>
 
 <style is:global>
-  .hb-stats { margin: 20px 0 30px; font-family: var(--stamp); font-weight: 600; font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: rgba(242,239,230,.75); max-width: 60ch; line-height: 2; }
+  .hb-stats { margin: 20px 0 30px; font-family: var(--stamp); font-weight: 400; font-size: .68rem; letter-spacing: .2em; text-transform: uppercase; color: rgba(242,239,230,.75); max-width: 60ch; line-height: 2; }
   .hb-stats b { color: var(--brass-lit); font-weight: 700; }
   .hb-intro { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .hb-intro { grid-template-columns: 1.5fr 1fr; gap: 80px; } }
@@ -143,7 +143,7 @@ const schema = JSON.stringify({
   @media (min-width: 940px) { .hb-cols { grid-template-columns: 1fr 1fr; gap: 72px; } }
   .hb-note { font-size: .96rem; line-height: 1.65; margin-bottom: 14px; padding-left: 16px; position: relative; color: var(--band-ash); }
   .hb-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass-lit); }
-  .hb-note b { color: var(--band-ink); font-weight: 500; }
+  .hb-note b { color: var(--band-ink); font-weight: 600; }
   .hb-note a { color: var(--brass-lit); }
   .hb-take { color: var(--band-ink); }
   .hb-perks { background: var(--lime); border: 1px solid var(--hairline); padding: clamp(30px, 4vw, 44px); }
@@ -154,5 +154,5 @@ const schema = JSON.stringify({
   .cs-map .map-card { background: var(--shadow); padding: clamp(16px, 3vw, 36px); }
   .cs-map .map-scroll { overflow-x: auto; }
   .cs-map svg { display: block; width: 100%; min-width: 620px; height: auto; font-family: var(--body); }
-  .cs-map .map-caption { font-family: var(--stamp); font-weight: 600; font-size: .68rem; color: var(--ash); margin-top: 12px; letter-spacing: .04em; }
+  .cs-map .map-caption { font-family: var(--stamp); font-weight: 400; font-size: .68rem; color: var(--ash); margin-top: 12px; letter-spacing: .04em; }
 </style>

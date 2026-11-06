@@ -256,7 +256,7 @@ const cards = [
 </Layout>
 
 <style>
-  .toc-link { font-size: .72rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); text-decoration: none; }
+  .toc-link { font-size: .72rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); text-decoration: none;font-family:'DM Serif Display', Didot, Georgia, serif; }
   .toc-link:hover { text-decoration: underline; }
   .ab-intro { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .ab-intro { grid-template-columns: 1.5fr 1fr; gap: 80px; } }
@@ -276,7 +276,7 @@ const cards = [
   .band .ab-note { color: var(--band-ash); }
   .ab-note::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
   .band .ab-note::before { background: var(--brass-lit); }
-  .ab-note b { color: var(--ink); font-weight: 500; }
+  .ab-note b { color: var(--ink); font-weight: 600; }
   .band .ab-note b { color: var(--band-ink); }
   .band .verdict { border-left-color: var(--brass-lit); }
   .ab-take :global(a) { color: var(--brass); }
@@ -286,7 +286,7 @@ const cards = [
   .ab-wine { display: grid; gap: 40px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .ab-wine { grid-template-columns: 1fr 1.4fr; gap: 64px; } }
   .ab-wine > * { min-width: 0; }
-  .ab-wmeta { display: block; margin-top: 8px; font-family: var(--stamp); font-weight: 600; font-size: .68rem; letter-spacing: .04em; color: var(--band-ash); text-transform: uppercase; }
+  .ab-wmeta { display: block; margin-top: 8px; font-family: var(--stamp); font-weight: 400; font-size: .68rem; letter-spacing: .2em; color: var(--band-ash); text-transform: uppercase; }
 
   .ab-log { display: grid; gap: 56px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 980px) { .ab-log { grid-template-columns: 1.2fr 1fr; gap: 72px; } }
@@ -294,5 +294,5 @@ const cards = [
   .ab-log .kv { border-top-color: var(--band-hairline); }
   .ab-rule { font-size: .96rem; color: var(--band-ash); line-height: 1.65; margin-bottom: 14px; padding-left: 16px; position: relative; }
   .ab-rule::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass-lit); }
-  .ab-rule b { color: var(--band-ink); font-weight: 500; }
+  .ab-rule b { color: var(--band-ink); font-weight: 600; }
 </style>

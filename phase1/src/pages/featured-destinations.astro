@@ -402,7 +402,7 @@ const sections = [
   .jump { position: sticky; top: 0; z-index: 25; background: var(--plaster); border-bottom: 1px solid var(--hairline); }
   .jump .container { display: flex; gap: 26px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; padding-top: 13px; padding-bottom: 13px; }
   .jump .container::-webkit-scrollbar { display: none; }
-  .jump a { font-size: .68rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); text-decoration: none; white-space: nowrap; }
+  .jump a { font-size: .68rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--ash); text-decoration: none; white-space: nowrap;font-family:'DM Serif Display', Didot, Georgia, serif; }
   .jump a:hover { color: var(--ink); }
 
   .adv { display: grid; gap: 28px; grid-template-columns: 1fr; background: var(--lime); border: 1px solid var(--hairline); padding: clamp(28px, 4vw, 44px); }
@@ -418,13 +418,13 @@ const sections = [
   .wide-photo img { width: 100%; aspect-ratio: 21/9; object-fit: cover; }
 
   .circuit {
-    font-family: var(--stamp); font-size: .7rem; font-weight: 600; letter-spacing: .1em;
+    font-family: var(--stamp); font-size: .7rem; font-weight: 400; letter-spacing: .2em;
     text-transform: uppercase; color: var(--brass);
     border-bottom: 1px solid var(--hairline); padding-bottom: 10px; margin: 34px 0 20px;
   }
   .band .circuit { color: var(--brass-lit); border-bottom-color: var(--band-hairline); }
 
-  .card .award { font-family: var(--stamp); font-size: .62rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
+  .card .award { font-family: var(--stamp); font-size: .62rem; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); }
 
   .exp { margin-top: 44px; border-top: 1px solid var(--hairline); padding-top: 30px; }
   .band .exp { border-top-color: var(--band-hairline); }
@@ -434,7 +434,7 @@ const sections = [
   .band .exp-item { color: var(--band-ash); }
   .exp-item::before { content: ""; position: absolute; left: 0; top: .62em; width: 4px; height: 4px; background: var(--brass); }
   .band .exp-item::before { background: var(--brass-lit); }
-  .exp-item b { color: var(--ink); font-weight: 500; }
+  .exp-item b { color: var(--ink); font-weight: 600; }
   .band .exp-item b { color: var(--band-ink); }
   .exp-item :global(a) { color: var(--brass); }
   .band .exp-item :global(a) { color: var(--brass-lit); }
