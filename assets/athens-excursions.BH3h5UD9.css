@@ -48,3 +48,33 @@ figure.reveal.on img{transform:none}
 @keyframes quote-parallax{from{transform:translateY(-5%)}to{transform:translateY(5%)}}
 }
 }
+
+/* ── Comparison table, "facing pages": two hotels read across a centre spine ── */
+.vs-compare { overflow: visible; border: none; background: none; counter-reset: vsrow; }
+.vs-compare table { display: block; min-width: 0; width: 100%; font-size: inherit; }
+.vs-compare thead, .vs-compare tbody { display: block; }
+.vs-compare tr { display: grid; grid-template-columns: minmax(0, 1fr) 220px minmax(0, 1fr); align-items: start; }
+.vs-compare th, .vs-compare td { padding: 0; border: none; background: none; }
+.vs-compare thead tr { align-items: end; padding-bottom: 26px; border-bottom: 1px solid var(--hairline-firm); }
+.vs-compare thead th { font-family: var(--display); font-weight: 400; font-size: clamp(2.2rem, 4.6vw, 3.6rem); line-height: 1; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.vs-compare thead th a { text-decoration: none; } .vs-compare thead th a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
+.vs-compare thead th:nth-child(1) { order: 2; text-align: center; }
+.vs-compare thead th:nth-child(1)::before { content: "or"; font-style: italic; font-size: clamp(1.6rem, 2.6vw, 2.1rem); color: var(--brass); }
+.vs-compare thead th:nth-child(2) { order: 1; text-align: right; }
+.vs-compare thead th:nth-child(3) { order: 3; text-align: left; }
+.vs-compare tbody tr { padding: 26px 0; border-bottom: 1px solid var(--hairline); counter-increment: vsrow; }
+.vs-compare tbody tr:last-child { border-bottom: none; }
+.vs-compare tbody td { font-size: 1.2rem; line-height: 1.5; }
+.vs-compare tbody td:nth-child(2) { order: 1; text-align: right; }
+.vs-compare tbody td:nth-child(3) { order: 3; text-align: left; }
+.vs-compare td.rowlabel { order: 2; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 4px 16px 0; text-align: center; white-space: normal; line-height: 1.4; color: var(--ash); }
+.vs-compare td.rowlabel::before { content: counter(vsrow, decimal-leading-zero); font-family: var(--display); font-size: 1.4rem; line-height: 1; letter-spacing: 0; color: var(--brass); }
+@media (max-width: 700px) {
+  .vs-compare tr { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 22px; }
+  .vs-compare thead th:nth-child(1) { display: none; }
+  .vs-compare thead th { font-size: 2rem; }
+  .vs-compare tbody tr { padding: 22px 0; row-gap: 12px; }
+  .vs-compare td.rowlabel { grid-column: 1 / -1; order: 0; flex-direction: row; justify-content: center; padding: 0; }
+  .vs-compare td.rowlabel::before { font-size: 1.15rem; }
+  .vs-compare tbody td { font-size: 1.05rem; }
+}
