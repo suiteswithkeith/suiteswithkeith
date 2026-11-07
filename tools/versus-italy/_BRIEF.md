@@ -67,7 +67,7 @@ Lake Como [lake-como.html, lake-como-hotels-ranked.html] existing: grand-hotel-t
  lake-como-edition-vs-villa-serbelloni passalacqua-vs-villa-d-este passalacqua-vs-villa-serbelloni
 Venice [venice.html] existing: aman-venice-vs-airelles-palladio aman-venice-vs-danieli-four-seasons aman-venice-vs-orient-express-venice
  airelles-palladio-vs-danieli-four-seasons orient-express-venice-vs-danieli-four-seasons; new: airelles-palladio-vs-orient-express-venice
-Amalfi Coast [positano-hotels.html] existing: il-san-pietro-vs-le-sirenuse il-san-pietro-vs-villa-treville le-sirenuse-vs-villa-treville;
+Amalfi Coast [amalfi-coast.html] existing: il-san-pietro-vs-le-sirenuse il-san-pietro-vs-villa-treville le-sirenuse-vs-villa-treville;
  new: il-san-pietro-vs-santa-caterina le-sirenuse-vs-santa-caterina villa-treville-vs-santa-caterina
 
 Slug order is fixed (use exactly these filenames) even if you make the second-named hotel "a" in the spec.
