@@ -3135,9 +3135,9 @@
   "island": "Amalfi",
   "island_page": "top-hotel-pools.html",
   "locale": "Amalfi, Italy",
-  "img_dir": "pools",
-  "hero_img": "miramalfi.jpg",
-  "img2": "miramalfi.jpg",
+  "img_dir": "hotels/miramalfi",
+  "hero_img": "aerial-beach-club.jpg",
+  "img2": "pool-cliff.jpg",
   "tagline": "Beautifully renovated, every room facing the sea, and the pool that tops my worldwide list.",
   "meta_desc": "Keith's Miramalfi review: a beautiful new renovation in Amalfi, every room facing the sea, the #1 pool on his worldwide list, and a slightly lower rate than its neighbors.",
   "style_label": "Newly renovated cliffside hotel",
@@ -3197,7 +3197,36 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Miramalfi personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Top Hotel Pools Ranking",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "gallery": [
+   {
+    "src": "/images/hotels/miramalfi/balcony-sea-view.jpg",
+    "alt": "French doors open onto a Miramalfi balcony over the sea",
+    "w": 905,
+    "h": 1600,
+    "caption": "Every room faces the sea"
+   },
+   {
+    "src": "/images/hotels/miramalfi/bedroom.jpg",
+    "alt": "A Miramalfi bedroom with a vaulted ceiling and a plum headboard",
+    "w": 907,
+    "h": 1600,
+    "caption": "The new renovation"
+   },
+   {
+    "src": "/images/hotels/miramalfi/beach-club-life-ring.jpg",
+    "alt": "A Miramalfi Beach Club life ring on the railing above the sea",
+    "w": 900,
+    "h": 1600,
+    "caption": "The beach club"
+   },
+   {
+    "src": "/images/pools/miramalfi.jpg",
+    "alt": "The Miramalfi pool from above, on the cliffs over the sea",
+    "w": 1424,
+    "h": 1900
+   }
+  ]
  },
  {
   "slug": "le-sirenuse-positano",
