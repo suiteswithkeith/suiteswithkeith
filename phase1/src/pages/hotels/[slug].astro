@@ -39,7 +39,7 @@ const reviewSchema = h.review && JSON.stringify({
 {reviewSchema && <Fragment slot="head" set:html={`<script type="application/ld+json">${reviewSchema}</script>`} />}
 
 <header class="hero" style="min-height:min(72svh,680px);">
-  {heroSrc && <img class="hero-img" src={heroSrc} alt={`${h.plain_name}, ${h.island}`} fetchpriority="high" />}
+  {heroSrc && <img class="hero-img" src={heroSrc} alt={`${h.plain_name}, ${h.island}`} style={h.hero_pos ? `object-position:${h.hero_pos}` : undefined} fetchpriority="high" />}
   <div class="container">
     {h.review
       ? <p class="eyebrow">Hotel review &middot; <Fragment set:html={h.review.stamp} /> &middot; <Fragment set:html={h.locale} /></p>
