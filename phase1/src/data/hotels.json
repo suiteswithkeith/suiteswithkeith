@@ -2103,7 +2103,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows The Dolli personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Athens Guide",
   "cta2_text": "The Greece Collection",
-  "cta2_href": "greece-collection.html"
+  "cta2_href": "greece-collection.html",
+  "review": {
+   "stamp": "Visited June 2026",
+   "date": "2026-08-12",
+   "city": "Athens",
+   "country": "GR"
+  }
  },
  {
   "slug": "four-seasons-astir-palace-athens",
@@ -2171,7 +2177,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Astir Palace personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Athens Guide",
   "cta2_text": "The Greece Collection",
-  "cta2_href": "greece-collection.html"
+  "cta2_href": "greece-collection.html",
+  "review": {
+   "stamp": "Visited June 2026",
+   "date": "2026-08-10",
+   "city": "Athens Riviera",
+   "country": "GR"
+  }
  },
  {
   "slug": "skinopi-lodge-milos",
@@ -3021,7 +3033,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and an advisor who personalizes your stay, from the room I request to what&rsquo;s arranged before you arrive. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Athens Guide",
   "cta2_text": "See A Sample Itinerary",
-  "cta2_href": "sample-itinerary.html"
+  "cta2_href": "sample-itinerary.html",
+  "review": {
+   "stamp": "Visited June 2026",
+   "date": "2026-08-12",
+   "city": "Athens Riviera",
+   "country": "GR"
+  }
  },
  {
   "slug": "aman-sveti-stefan-montenegro",
