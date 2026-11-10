@@ -21,6 +21,7 @@
     ["To St. Mark&rsquo;s", "About five minutes on the hotel boat", "About five minutes on the complimentary hotel boat"],
     ["Opened", "2026", "1958, by Giuseppe Cipriani"],
     ["Size", "45 rooms and suites across three historic buildings", "55 rooms, 20 suites and 4 signature suites"],
+    ["Renovated rooms", "All of them: the hotel opened in 2026", "Only some: Peter Marino has redone the first rooms and suites, the rest still have the older decor"],
     ["The mood", "Private, but lively, social and fun", "Classic and quiet, with a calm, grown-up pool scene"],
     ["Pools", "A 25-meter pool in the gardens, a kids&rsquo; pool, and an indoor pool in the spa", "An Olympic-sized heated saltwater pool, the largest in Venice"],
     ["Spa", "Spa Airelles by Guerlain, 1,700 square meters over three levels", "Dior Spa, the first in Venice, new in 2026"],
@@ -54,7 +55,7 @@
     ]},
     {"img": "/images/hotels/airelles-palladio-venice/tapestry-bedroom.jpg", "alt": "A bedroom at Airelles Palladio, Venice", "h3": "Rooms and families", "paras": [
       "At <a href=\"/hotels/airelles-palladio-venice.html\">Airelles</a>, the rooms are incredibly spacious. For a family I would book Villa Mason, the three-bedroom suite with its own pool and garden. For the big occasion, the four-bedroom <a href=\"/hotels/airelles-palladio-venice-suite-del-doge.html\">Suite del Doge</a> looks straight at St. Mark&rsquo;s. Add the Kids Club and the kids&rsquo; pool and it is the best family hotel in Venice.",
-      "At <a href=\"/hotels/hotel-cipriani-venice.html\">the Cipriani</a>, ask for one of the junior suites or suites newly redesigned by Peter Marino, with balconies over the Casanova Gardens. Suites sleep up to four, and the signature suites, Laguna and Serenissima, are laid out like Venetian apartments facing the lagoon."
+      "At <a href=\"/hotels/hotel-cipriani-venice.html\">the Cipriani</a>, not every room has been renovated yet. Peter Marino&rsquo;s first phase redid a set of rooms and suites, including garden suites with balconies over the Casanova Gardens and the two signature suites, Laguna and Serenissima, laid out like Venetian apartments facing the lagoon. Many of the other rooms still have the older decor, so which room you book matters more here than at almost any hotel in Venice. Tell me your dates and I can tell you exactly which one to book."
     ]}
   ],
   "faq": [
@@ -62,6 +63,7 @@
     {"q": "Are Hotel Cipriani and Airelles Palladio near each other?", "a": "Yes. Both are on Giudecca, across the water from St. Mark&rsquo;s. <a href=\"/hotels/hotel-cipriani-venice.html\">The Cipriani</a> is on the tip of the island and <a href=\"/hotels/airelles-palladio-venice.html\">Airelles</a> is at the eastern end beside Le Zitelle. Each runs its own boat to St. Mark&rsquo;s, about five minutes."},
     {"q": "Which has the better pool?", "a": "<a href=\"/hotels/hotel-cipriani-venice.html\">The Cipriani</a> has the biggest single pool: Olympic-sized, heated and saltwater, the largest in Venice. <a href=\"/hotels/airelles-palladio-venice.html\">Airelles</a> has three: a 25-meter pool in the gardens, a kids&rsquo; pool and an indoor pool in the spa."},
     {"q": "Which is better for families?", "a": "<a href=\"/hotels/airelles-palladio-venice.html\">Airelles Palladio</a>: a Kids Club, a pool just for children, gardens and Villa Mason, a three-bedroom suite with its own pool. <a href=\"/hotels/hotel-cipriani-venice.html\">The Cipriani</a> has a children&rsquo;s club and suites for four, but its pool scene is quiet and leans adult."},
+    {"q": "Are all the rooms at the Hotel Cipriani renovated?", "a": "No. Peter Marino&rsquo;s renovation is happening in phases: the reception, a first set of rooms and suites, and the signature Laguna and Serenissima suites are done, while many other rooms still have the older decor. Every room at <a href=\"/hotels/airelles-palladio-venice.html\">Airelles Palladio</a> is new, since it opened in 2026. If you are set on the Cipriani, I can tell you which room to book so you get a renovated one."},
     {"q": "Which has tennis?", "a": "<a href=\"/hotels/hotel-cipriani-venice.html\">Hotel Cipriani</a>, with a clay court framed by hedges and the lagoon. It is number two in my <a href=\"/top-hotel-tennis-courts.html\">hotel tennis ranking</a>."},
     {"q": "Is Hotel Cipriani open year-round?", "a": "No. <a href=\"/hotels/hotel-cipriani-venice.html\">The Cipriani</a> is seasonal and closes for the winter; Belmond currently lists the reopening as 1 June 2027. If you are traveling outside its season, <a href=\"/hotels/airelles-palladio-venice.html\">Airelles Palladio</a> is the Giudecca alternative."}
   ],
