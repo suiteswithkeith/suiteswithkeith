@@ -4,7 +4,7 @@ import Layout from './Layout.astro';
 import Ask from '../components/Ask.astro';
 import rankings from '../data/rankings.json';
 
-const { slug, askPlaceholder, askDeck, versus = [] } = Astro.props;
+const { slug, askPlaceholder, askDeck, versus = [], versusLabel = '' } = Astro.props;
 const g = rankings[slug];
 const decode = (s) => s.replace(/&middot;/g, '·').replace(/&amp;/g, '&').replace(/&rsquo;/g, '’');
 const schema = JSON.stringify({
@@ -212,7 +212,7 @@ const ext = (href) => /^https?:/.test(href);
         <p class="deck" style="margin-top:16px; max-width:46ch;">The pairs I&rsquo;m asked to choose between most, compared side by side from the same trips.</p>
       </div>
       <div class="vs-grid reveal">
-        {versus.map((v) => (
+        {(versus.length > 8 ? versus.slice(0, 6) : versus).map((v) => (
           <a class="vs-tile" href={v.href}>
             <span class="vs-names"><span set:html={v.a} /> <em>or</em> <span set:html={v.b} /></span>
             <span class="vs-q" set:html={v.q} />
@@ -220,6 +220,20 @@ const ext = (href) => /^https?:/.test(href);
           </a>
         ))}
       </div>
+      {versus.length > 8 && (
+        <details class="vs-more">
+          <summary><span class="vs-more-open">See all the {versusLabel} head-to-heads</span><span class="vs-more-close">Show fewer</span></summary>
+          <div class="vs-grid">
+            {versus.slice(6).map((v) => (
+              <a class="vs-tile" href={v.href}>
+                <span class="vs-names"><span set:html={v.a} /> <em>or</em> <span set:html={v.b} /></span>
+                <span class="vs-q" set:html={v.q} />
+                <span class="vs-go">Settle it &rarr;</span>
+              </a>
+            ))}
+          </div>
+        </details>
+      )}
     </div>
   </section>
 )}
@@ -285,4 +299,12 @@ const ext = (href) => /^https?:/.test(href);
   .vs-names em { font-style: italic; color: var(--brass); font-weight: 400; }
   .vs-q { font-size: .92rem; color: var(--ash); line-height: 1.6; flex: 1; }
   .vs-go { font-size: 13px; font-weight: 400; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); padding-top: 6px;font-family:'Instrument Serif', Didot, Georgia, serif; }
+  /* more than 8 head-to-heads: 6 shown, the rest in a See all toggle (still in the HTML for search) */
+  .vs-more { margin-top: 28px; }
+  .vs-more > summary { list-style: none; cursor: pointer; display: table; margin: 0 auto; padding: 14px 26px; border: 1px solid var(--brass); color: var(--brass); font-size: 13px; letter-spacing: .2em; text-transform: uppercase; font-family: 'Instrument Serif', Didot, Georgia, serif; }
+  .vs-more > summary::-webkit-details-marker { display: none; }
+  .vs-more > summary:hover { background: var(--brass); color: var(--lime); }
+  .vs-more .vs-more-close, .vs-more[open] .vs-more-open { display: none; }
+  .vs-more[open] .vs-more-close { display: inline; }
+  .vs-more[open] > summary { margin-bottom: 28px; }
 </style>
