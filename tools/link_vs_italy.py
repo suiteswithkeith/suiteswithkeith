@@ -123,10 +123,13 @@ def link_hubs(versus):
             assert i > 0, hub
             s = s[:i] + sec + s[i:]
         start = s.find('id="head-to-heads"')
-        g = s.find('<div class="vsi-grid', start)
+        stop = s.find('</section>', start)
+        # rome.html shows a few tiles and tucks the rest in a <details> grid:
+        # check the whole section for existing tiles, append new ones to its last grid
+        g = s.rfind('<div class="vsi-grid', start, stop)
         end = s.find('</div>', g)
         assert g > 0 and end > g, hub
-        grid = s[g:end]
+        grid = s[start:stop]
         add = ''.join(tile(slug, v) for slug, v in mine if f'href="/{slug}.html"' not in grid)
         s = s[:end] + add + s[end:]
         write(hub, s)
