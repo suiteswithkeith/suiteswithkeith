@@ -103,6 +103,22 @@ const list = g.hotels.map((x) => {
   </div>
 </section>
 
+{g.film && (
+  <section class="section" id="on-film" style="padding-top:0;">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow" set:html={g.film.eyebrow} />
+        <h2 class="display-l" set:html={g.film.h} />
+      </div>
+      <div class="photos reveal">
+        {g.film.photos.map((p) => (
+          <figure><img src={p.src} alt={p.alt} width={p.w} height={p.h} loading="lazy" decoding="async" /><figcaption set:html={p.caption} /></figure>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
 {g.versus.length > 0 && (
   <section class="section" id="head-to-heads" style="padding-top:0; scroll-margin-top:70px;">
     <div class="container">
