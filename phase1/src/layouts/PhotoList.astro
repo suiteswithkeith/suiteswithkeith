@@ -2,6 +2,7 @@
 // Renders one photo-led list page (pools, tennis courts) from photolists.json.
 import Layout from './Layout.astro';
 import Ask from '../components/Ask.astro';
+import RankingFaq from '../components/RankingFaq.astro';
 import lists from '../data/photolists.json';
 
 const { slug, askPlaceholder, askDeck } = Astro.props;
@@ -42,6 +43,8 @@ const g = lists[slug];
     ))}
   </div>
 </section>
+
+<RankingFaq slug={slug} />
 
 <Ask
   subject={`Inquiry — ${slug}`}

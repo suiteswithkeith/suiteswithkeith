@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Ask from '../components/Ask.astro';
+import RankingFaq from '../components/RankingFaq.astro';
 
 const regions = [
   { label: 'Greece', items: [
@@ -79,6 +80,8 @@ const right = regions.slice(2);
     ))}
   </div>
 </section>
+
+<RankingFaq slug="the-fifteen" />
 
 <Ask
   subject="Inquiry — The Fifteen"

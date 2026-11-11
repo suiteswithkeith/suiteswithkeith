@@ -3,6 +3,8 @@
 import Layout from './Layout.astro';
 import Ask from '../components/Ask.astro';
 import rankings from '../data/rankings.json';
+import RankingFaq from '../components/RankingFaq.astro';
+import faqs from '../data/rankingfaqs.json';
 
 const { slug, askPlaceholder, askDeck, versus = [], versusLabel = '' } = Astro.props;
 const g = rankings[slug];
@@ -57,7 +59,7 @@ const ext = (href) => /^https?:/.test(href);
     </div>
     <div class="reveal" style="display:flex; flex-direction:column; gap:10px;">
       <p class="stamp plain" style="font-weight:400; color:var(--brass);">On this page</p>
-      {g.toc.map((l) => (
+      {g.toc.flatMap((l) => (l.href === '#inquire' && faqs[slug] ? [{ href: '#faq', label: 'FAQ' }, l] : [l])).map((l) => (
         <a class="toc-link" href={l.href} target={ext(l.href) ? '_blank' : undefined} rel={ext(l.href) ? 'noopener sponsored' : undefined}><span set:html={l.label} /> &rarr;</a>
       ))}
     </div>
@@ -237,6 +239,8 @@ const ext = (href) => /^https?:/.test(href);
     </div>
   </section>
 )}
+
+<RankingFaq slug={slug} />
 
 <Ask
   subject={`Inquiry — ${slug}`}
