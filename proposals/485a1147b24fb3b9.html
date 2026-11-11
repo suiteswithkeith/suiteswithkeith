@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>London, Paris &amp; Cotswolds · Site Visits, Nov 26 to Dec 10, 2026</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #161712; --paper: #F2EFE6; --card: #FBF9F3; --line: #DAD5C7; --muted: #6E6A5E;
+    --ok: #2F6B3F; --ok-bg: #E2EEDF; --wait: #8A5A00; --wait-bg: #F6EAD0;
+    --draft: #3D4F8A; --draft-bg: #E2E7F4; --tbd: #8A2E2E; --tbd-bg: #F4E0DD; --idea: #5E5A50; --idea-bg: #E8E5DC;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--paper); color: var(--ink); font-family: 'Newsreader', Georgia, serif; font-size: 17px; line-height: 1.5; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px 80px; }
+  header.cover { background: var(--ink); color: var(--paper); padding: 56px 16px 44px; }
+  header.cover .wrap { padding-bottom: 0; }
+  .eyebrow { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; opacity: .7; }
+  h1 { font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(38px, 7vw, 64px); line-height: 1.05; margin: 10px 0 14px; }
+  h1 em { font-style: italic; }
+  .sub { opacity: .85; max-width: 640px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-top: 28px; }
+  .stat { border: 1px solid rgba(242,239,230,.25); border-radius: 10px; padding: 12px 14px; }
+  .stat b { display: block; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 30px; line-height: 1; }
+  .stat span { font-size: 13px; opacity: .75; }
+  nav.toc { position: sticky; top: 0; z-index: 5; background: var(--paper); border-bottom: 1px solid var(--line); }
+  nav.toc .wrap { display: flex; gap: 18px; overflow-x: auto; padding: 12px 16px; white-space: nowrap; }
+  nav.toc a { color: var(--ink); text-decoration: none; font-size: 14px; letter-spacing: .04em; }
+  nav.toc a:hover { text-decoration: underline; }
+  section { padding-top: 44px; }
+  h2 { font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 34px; margin-bottom: 6px; }
+  .lede { color: var(--muted); margin-bottom: 18px; }
+  h3 { font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 24px; }
+  .pill { display: inline-block; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 999px; white-space: nowrap; vertical-align: middle; }
+  .ok { color: var(--ok); background: var(--ok-bg); }
+  .wait { color: var(--wait); background: var(--wait-bg); }
+  .draft { color: var(--draft); background: var(--draft-bg); }
+  .tbd { color: var(--tbd); background: var(--tbd-bg); }
+  .idea { color: var(--idea); background: var(--idea-bg); }
+
+  /* stays timeline */
+  .stays { display: grid; gap: 10px; }
+  .stay { display: grid; grid-template-columns: 130px 1fr auto; gap: 14px; align-items: start; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .stay .when { font-size: 14px; color: var(--muted); }
+  .stay .when b { display: block; color: var(--ink); font-size: 16px; }
+  .stay .name { font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; line-height: 1.2; }
+  .stay .note { font-size: 15px; color: var(--muted); margin-top: 2px; }
+  .city-tag { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 18px 0 6px; }
+
+  /* days */
+  .day { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; overflow: hidden; }
+  .day-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 12px 16px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  .day-head .d { font-family: 'Instrument Serif', Georgia, serif; font-size: 24px; }
+  .day-head .bed { font-size: 14px; color: var(--muted); }
+  .slots { list-style: none; }
+  .slots li { display: grid; grid-template-columns: 70px 1fr auto; gap: 12px; padding: 10px 16px; border-top: 1px solid #EEEADF; align-items: start; }
+  .slots li:first-child { border-top: 0; }
+  .slots .t { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; font-weight: 600; color: var(--muted); padding-top: 3px; }
+  .slots .w b { font-weight: 600; }
+  .slots .w small { display: block; color: var(--muted); font-size: 14px; }
+  .flag { margin: 0 16px 12px; padding: 8px 12px; border-left: 3px solid var(--wait); background: var(--wait-bg); font-size: 15px; border-radius: 0 8px 8px 0; }
+
+  /* actions */
+  .actions { list-style: none; counter-reset: a; }
+  .actions li { counter-increment: a; position: relative; padding: 12px 16px 12px 52px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 8px; }
+  .actions li::before { content: counter(a); position: absolute; left: 16px; top: 12px; width: 24px; height: 24px; border-radius: 50%; background: var(--ink); color: var(--paper); font: 600 12px/24px -apple-system, BlinkMacSystemFont, sans-serif; text-align: center; }
+  .actions li small { display: block; color: var(--muted); font-size: 14px; }
+  .group-label { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 18px 0 8px; }
+
+  /* tables */
+  .tbl { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 15px; }
+  .tbl th, .tbl td { text-align: left; padding: 9px 12px; border-top: 1px solid #EEEADF; vertical-align: top; }
+  .tbl th { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border-top: 0; background: #F5F2EA; }
+  .tbl a { color: var(--ink); }
+  .scroll { overflow-x: auto; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .box ul { padding-left: 18px; }
+  .box li { margin: 4px 0; }
+  footer { margin-top: 56px; font-size: 13px; color: var(--muted); text-align: center; }
+
+  @media (max-width: 680px) {
+    .stay { grid-template-columns: 1fr; gap: 4px; }
+    .stay .when b { display: inline; margin-right: 6px; }
+    .slots li { grid-template-columns: 56px 1fr; }
+    .slots li .pill { grid-column: 2; justify-self: start; }
+    .grid2 { grid-template-columns: 1fr; }
+    .tbl.stack thead { display: none; }
+    .tbl.stack tr { display: block; border-top: 1px solid var(--line); padding: 6px 0; }
+    .tbl.stack td { display: block; border: 0; padding: 3px 12px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="wrap">
+    <div class="eyebrow">Suites With Keith · Internal site-visit plan</div>
+    <h1>London, Paris <em>&amp;</em> the Cotswolds</h1>
+    <p class="sub">Thursday, Nov 26 to Thursday, Dec 10, 2026. Fifteen days of hotel site visits for reviews and comparison pages. Fly home from Heathrow on Dec 10.</p>
+    <div class="stats">
+      <div class="stat"><b>14</b><span>nights, 8 beds</span></div>
+      <div class="stat"><b>~30</b><span>hotels to see</span></div>
+      <div class="stat"><b>3</b><span>stays locked in</span></div>
+      <div class="stat"><b>4</b><span>London nights still TBD</span></div>
+    </div>
+  </div>
+</header>
+
+<nav class="toc"><div class="wrap">
+  <a href="#stays">Stays</a><a href="#london">London days</a><a href="#paris">Paris days</a><a href="#cotswolds">Cotswolds</a><a href="#actions">To do</a><a href="#flags">Watch-outs</a><a href="#content">Content plan</a>
+</div></nav>
+
+<main class="wrap">
+
+<!-- ================= STAYS ================= -->
+<section id="stays">
+  <h2>Where Keith sleeps</h2>
+  <p class="lede">Eight check-ins in fifteen days. Three are locked in (The Newman, Le Meurice, Daylesford); the rest hinge on replies over the next week.</p>
+
+  <div class="city-tag">London</div>
+  <div class="stays">
+    <div class="stay">
+      <div class="when"><b>Nov 26 to 28</b>Thu, Fri · 2 nts</div>
+      <div><div class="name">Dorchester or St Clement</div><div class="note">Asked via Becca and Perowne. Paid backup: 1 Hotel Mayfair, £1,463 total on Fora. Rugby finals weekend, so hold the backup until a host says yes.</div></div>
+      <span class="pill tbd">TBD</span>
+    </div>
+    <div class="stay">
+      <div class="when"><b>Nov 28 to 30</b>Sat, Sun · 2 nts</div>
+      <div><div class="name">The Newman</div><div class="note">Hosted. Move here Saturday after the Maybourne visits.</div></div>
+      <span class="pill ok">Confirmed</span>
+    </div>
+    <div class="stay">
+      <div class="when"><b>Nov 30 to Dec 2</b>Mon, Tue · 2 nts</div>
+      <div><div class="name">Dorchester, St Clement or Firmdale</div><div class="note">Firmdale target: The Soho Hotel at about £350 to £420/nt. Ham Yard offered £595/nt industry rate.</div></div>
+      <span class="pill tbd">TBD</span>
+    </div>
+  </div>
+
+  <div class="city-tag">Paris &amp; Versailles</div>
+  <div class="stays">
+    <div class="stay">
+      <div class="when"><b>Dec 2 to 4</b>Wed, Thu · 2 nts</div>
+      <div><div class="name">Le Meurice</div><div class="note">Comped.</div></div>
+      <span class="pill ok">Confirmed</span>
+    </div>
+    <div class="stay">
+      <div class="when"><b>Dec 4 to 6</b>Fri, Sat · 2 nts</div>
+      <div><div class="name">Hôtel Barrière Le Fouquet's</div><div class="note">Expected hosted through Keith's contact.</div></div>
+      <span class="pill wait">Expected</span>
+    </div>
+    <div class="stay">
+      <div class="when"><b>Dec 6 to 7</b>Sun · 1 nt</div>
+      <div><div class="name">Airelles Château de Versailles, Le Grand Contrôle</div><div class="note">Ruddy at Hidden Doorways asking. Sunday preferred, Saturday backup. Needs 2pm arrival. Fora rate €2,645 if paid.</div></div>
+      <span class="pill wait">Pending</span>
+    </div>
+  </div>
+
+  <div class="city-tag">Cotswolds</div>
+  <div class="stays">
+    <div class="stay">
+      <div class="when"><b>Dec 7 to 8</b>Mon · 1 nt</div>
+      <div><div class="name">Estelle Manor</div><div class="note">Idea only. Nothing requested yet.</div></div>
+      <span class="pill idea">Idea</span>
+    </div>
+    <div class="stay">
+      <div class="when"><b>Dec 8 to 10</b>Tue, Wed · 2 nts</div>
+      <div><div class="name">Daylesford</div><div class="note">Invited. Fly home from Heathrow Thu Dec 10.</div></div>
+      <span class="pill ok">Invited</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LONDON ================= -->
+<section id="london">
+  <h2>London days</h2>
+  <p class="lede">Nov 26 to Dec 2. Already seen and skipped: The Shard, Broadwick, The Peninsula, Rosewood London, Belmond Cadogan.</p>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Thu, Nov 26</span><span class="bed">Bed: Dorchester / St Clement / 1 Hotel Mayfair</span></div>
+    <ul class="slots"><li><span class="t">All day</span><span class="w"><b>Arrive and rest</b></span><span></span></li></ul>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Fri, Nov 27</span><span class="bed">Bed: same as Thu</span></div>
+    <ul class="slots">
+      <li><span class="t">11:00</span><span class="w"><b>Chancery Rosewood</b><small>Irantzu Gaffuri. Reply to Holly to confirm.</small></span><span class="pill draft">Confirm</span></li>
+      <li><span class="t">12:30</span><span class="w"><b>The Lanesborough</b>, site visit + lunch<small>Steven Sheridan. Confirm.</small></span><span class="pill draft">Confirm</span></li>
+      <li><span class="t">14:30</span><span class="w"><b>Cambridge House</b>, hard-hat tour to 16:00<small>Jacklyn Minker. Confirm.</small></span><span class="pill draft">Confirm</span></li>
+    </ul>
+    <div class="flag">Grosvenor Square to Hyde Park Corner to Piccadilly is all short hops, but lunch at the Lanesborough needs to wrap by about 14:10.</div>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Sat, Nov 28</span><span class="bed">Bed: The Newman</span></div>
+    <ul class="slots">
+      <li><span class="t">10:00</span><span class="w"><b>Claridge's</b><small>Maybourne block, draft to Cecily Hamilton.</small></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">11:15</span><span class="w"><b>The Connaught</b></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">14:00</span><span class="w"><b>The Berkeley</b></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">15:15</span><span class="w"><b>The Emory</b></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">Late pm</span><span class="w"><b>Move to The Newman</b></span><span class="pill ok">Confirmed</span></li>
+    </ul>
+    <div class="flag">Maybourne backup is Tue Dec 1 morning, which collides with the Goring at 11:00. If Saturday falls through, Claridge's + Connaught fit at 9:00 and 9:45 before the Goring, with Berkeley + Emory moving to Monday.</div>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Sun, Nov 29</span><span class="bed">Bed: The Newman</span></div>
+    <ul class="slots"><li><span class="t">All day</span><span class="w"><b>Personal plans</b><small>No visits.</small></span><span></span></li></ul>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Mon, Nov 30</span><span class="bed">Bed: Dorchester / St Clement / Firmdale</span></div>
+    <ul class="slots">
+      <li><span class="t">am</span><span class="w"><b>Move hotels</b></span><span></span></li>
+      <li><span class="t">TBC</span><span class="w"><b>Ham Yard</b> (must see) + <b>Charlotte Street Hotel</b><small>Martina Berducci / Laura Cruz. Correct the "Sunday Nov 30" typo: it is Monday Nov 30.</small></span><span class="pill wait">Pending</span></li>
+      <li><span class="t">TBC</span><span class="w"><b>Mandarin Oriental Mayfair</b><small>Via Tom Puleio, back Nov 20.</small></span><span class="pill wait">Pending</span></li>
+    </ul>
+    <div class="flag">Charlotte Street is a few minutes' walk from The Newman. Seeing it on the way out Monday morning, then Ham Yard, saves a trip back to Fitzrovia.</div>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Tue, Dec 1</span><span class="bed">Bed: same as Mon</span></div>
+    <ul class="slots">
+      <li><span class="t">11:00</span><span class="w"><b>The Goring</b><small>Paula McColgan, draft. Backup Fri 27 with Charlotte.</small></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">13:00</span><span class="w"><b>Admiralty Arch</b><small>Kane Savage; Thomas hosts.</small></span><span class="pill wait">Hosted</span></li>
+      <li><span class="t">pm</span><span class="w"><b>Raffles London at The OWO</b> + <b>Corinthia London</b></span><span class="pill wait">Pending</span></li>
+      <li><span class="t">pm</span><span class="w"><b>The Savoy</b></span><span class="pill wait">Pending</span></li>
+    </ul>
+    <div class="flag">Goring's Friday backup won't fit: Fri 27 is already full (11:00, 12:30, 14:30). Keep Tuesday. Admiralty Arch, The OWO and Corinthia are all within a 10-minute walk of each other; the Savoy is a short walk up the Strand to finish.</div>
+  </div>
+</section>
+
+<!-- ================= PARIS ================= -->
+<section id="paris">
+  <h2>Paris days</h2>
+  <p class="lede">Dec 2 to 7. ILTM Cannes runs about Nov 30 to Dec 3, so expect directors of sales to hand off to colleagues.</p>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Wed, Dec 2</span><span class="bed">Bed: Le Meurice</span></div>
+    <ul class="slots">
+      <li><span class="t">am</span><span class="w"><b>Eurostar</b> St Pancras to Gare du Nord<small>Not booked yet. Aim to land by 13:30 Paris time.</small></span><span class="pill tbd">Book</span></li>
+      <li><span class="t">pm</span><span class="w"><b>Check in, Le Meurice</b></span><span class="pill ok">Confirmed</span></li>
+      <li><span class="t">16:00</span><span class="w"><b>Ritz Paris</b><small>Sarah Ferron schedules after Nov 16; Margaux Deygat is Keith's contact. Two minutes' walk from Le Meurice.</small></span><span class="pill wait">Pending</span></li>
+    </ul>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Thu, Dec 3</span><span class="bed">Bed: Le Meurice</span></div>
+    <ul class="slots">
+      <li><span class="t">10:00</span><span class="w"><b>Hôtel de Crillon</b><small>Carla Zekri. Reply drafted.</small></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">11:30</span><span class="w"><b>Cheval Blanc Paris</b><small>Auriane De Castelnau.</small></span><span class="pill wait">Pending</span></li>
+      <li><span class="t">14:30</span><span class="w"><b>J.K. Place Paris</b><small>Riccardo Ortogni.</small></span><span class="pill wait">Pending</span></li>
+      <li><span class="t">16:00</span><span class="w"><b>Mandarin Oriental Lutetia</b><small>Via Tom Puleio.</small></span><span class="pill wait">Pending</span></li>
+    </ul>
+    <div class="flag">Nice left-to-right-bank loop: Crillon, then across to Cheval Blanc on the Pont Neuf, lunch, then J.K. Place (7th) and Lutetia (6th) are a 15-minute walk apart.</div>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Fri, Dec 4</span><span class="bed">Bed: Le Fouquet's</span></div>
+    <ul class="slots">
+      <li><span class="t">am</span><span class="w"><b>Move to Le Fouquet's</b><small>Drop bags early; Plaza is at 10:00.</small></span><span class="pill wait">Expected</span></li>
+      <li><span class="t">10:00</span><span class="w"><b>Hôtel Plaza Athénée</b><small>Ask the Dorchester Collection contact.</small></span><span class="pill tbd">Ask</span></li>
+      <li><span class="t">11:30</span><span class="w"><b>Four Seasons George V</b><small>Elodie Choquet.</small></span><span class="pill wait">Pending</span></li>
+      <li><span class="t">15:00</span><span class="w"><b>La Réserve Paris</b><small>Alexis Cases.</small></span><span class="pill ok">Confirmed</span></li>
+      <li><span class="t">16:30</span><span class="w"><b>Le Bristol</b><small>Matthias Ohresser. Update him from 14:30 to 16:30.</small></span><span class="pill draft">Update</span></li>
+    </ul>
+    <div class="flag">Everything today is in the 8th, within a 15-minute walk of Fouquet's. La Réserve to Le Bristol is about 5 minutes on foot.</div>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Sat, Dec 5</span><span class="bed">Bed: Le Fouquet's (or Versailles if Sat is the date)</span></div>
+    <ul class="slots"><li><span class="t">All day</span><span class="w"><b>Buffer</b><small>Catch-up slot for any visit that slips, and writing time.</small></span><span></span></li></ul>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Sun, Dec 6</span><span class="bed">Bed: Airelles Le Grand Contrôle</span></div>
+    <ul class="slots"><li><span class="t">14:00</span><span class="w"><b>Arrive Versailles</b><small>About 40 minutes by car from the 8th.</small></span><span class="pill wait">Pending</span></li></ul>
+  </div>
+
+  <div class="day">
+    <div class="day-head"><span class="d">Mon, Dec 7</span><span class="bed">Bed: Estelle Manor (idea)</span></div>
+    <ul class="slots">
+      <li><span class="t">11:30</span><span class="w"><b>Leave Versailles</b> by car to Gare du Nord<small>Leave by 12:00 at the latest.</small></span><span></span></li>
+      <li><span class="t">pm</span><span class="w"><b>Eurostar</b> to St Pancras, then car to the Cotswolds<small>About 6 to 7 hours door to door. Book a mid-afternoon train with slack.</small></span><span class="pill tbd">Book</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= COTSWOLDS ================= -->
+<section id="cotswolds">
+  <h2>Cotswolds</h2>
+  <p class="lede">Dec 7 to 10, then Heathrow.</p>
+  <div class="day">
+    <div class="day-head"><span class="d">Mon, Dec 7</span><span class="bed">Bed: Estelle Manor</span></div>
+    <ul class="slots"><li><span class="t">Eve</span><span class="w"><b>Arrive Estelle Manor</b><small>Late arrival after the Eurostar day. About 1.5 hrs from St Pancras, so it's the easier first stop.</small></span><span class="pill idea">Idea</span></li></ul>
+  </div>
+  <div class="day">
+    <div class="day-head"><span class="d">Tue, Dec 8 to Wed, Dec 9</span><span class="bed">Bed: Daylesford</span></div>
+    <ul class="slots"><li><span class="t">Tue</span><span class="w"><b>Move to Daylesford</b><small>About 40 minutes from Estelle Manor.</small></span><span class="pill ok">Invited</span></li></ul>
+  </div>
+  <div class="day">
+    <div class="day-head"><span class="d">Thu, Dec 10</span><span class="bed">Fly home</span></div>
+    <ul class="slots"><li><span class="t">TBC</span><span class="w"><b>Car to Heathrow</b><small>About 1.5 hrs from Daylesford. Allow for morning traffic on the M40.</small></span><span></span></li></ul>
+  </div>
+</section>
+
+<!-- ================= ACTIONS ================= -->
+<section id="actions">
+  <h2>To do</h2>
+  <p class="lede">As of Wed, Nov 11. Email style: no em dashes; Gmail drafts end at "Best, Keith" with no URLs or signature.</p>
+
+  <div class="group-label">This week</div>
+  <ol class="actions">
+    <li>Reply to Holly to confirm Chancery Rosewood, Fri 27 at 11:00.</li>
+    <li>Confirm The Lanesborough with Steven Sheridan, Fri 27 at about 12:30 with lunch.</li>
+    <li>Confirm Cambridge House hard-hat tour with Jacklyn Minker, Fri 27, 14:30 to 16:00.</li>
+    <li>Send the Maybourne draft to Cecily Hamilton (Sat 28: Claridge's 10:00, Connaught 11:15, Berkeley 14:00, Emory 15:15).</li>
+    <li>Send the Goring draft to Paula McColgan, Tue Dec 1 at 11:00.<small>Drop the Fri 27 backup; that day is full.</small></li>
+    <li>Reply to Firmdale (Martina Berducci / Laura Cruz) correcting the date to Monday Nov 30, and ask for a Soho Hotel rate in the £350 to £420 range.</li>
+    <li>Send the drafted reply to Carla Zekri for Crillon, Thu Dec 3 at 10:00.</li>
+    <li>Tell Matthias Ohresser the Le Bristol visit moves from 14:30 to 16:30 on Fri Dec 4.</li>
+    <li>Ask the Dorchester contact about Plaza Athénée, Fri Dec 4 at 10:00 (and Le Meurice is Dorchester Collection too).</li>
+  </ol>
+
+  <div class="group-label">Waiting on others</div>
+  <ol class="actions" start="10">
+    <li>Dorchester / St Clement hosting for Nov 26 to 28 and Nov 30 to Dec 2 (Becca, Perowne).<small>If no answer by about Nov 18, book 1 Hotel Mayfair on Fora (£1,463). Rugby finals will squeeze availability.</small></li>
+    <li>Sarah Ferron schedules the Ritz after Nov 16 (Margaux Deygat).</li>
+    <li>Tom Puleio back Nov 20: Mandarin Oriental Mayfair (Mon 30) and MO Lutetia (Thu Dec 3).</li>
+    <li>Ruddy at Hidden Doorways on Airelles Versailles, Sun Dec 6 with 2pm arrival.</li>
+    <li>Fouquet's hosting confirmation, Dec 4 to 6.</li>
+    <li>Cheval Blanc (Auriane De Castelnau), J.K. Place (Riccardo Ortogni), George V (Elodie Choquet).</li>
+    <li>OWO + Corinthia and Savoy for Tue Dec 1 afternoon.</li>
+  </ol>
+
+  <div class="group-label">Bookings to make</div>
+  <ol class="actions" start="17">
+    <li>Eurostar London to Paris, Wed Dec 2, morning.</li>
+    <li>Eurostar Paris to London, Mon Dec 7, mid-afternoon.</li>
+    <li>Cars: Versailles to Gare du Nord (Dec 7), St Pancras to Cotswolds (Dec 7), Daylesford to Heathrow (Dec 10).</li>
+    <li>Decide on Estelle Manor for Dec 7 and reach out.</li>
+  </ol>
+</section>
+
+<!-- ================= FLAGS ================= -->
+<section id="flags">
+  <h2>Watch-outs</h2>
+  <div class="grid2">
+    <div class="box">
+      <h3>Busy dates</h3>
+      <ul>
+        <li><b>Rugby Nations Championship finals, Nov 27 to 29.</b> London hotels busiest those nights, which is exactly the unbooked Nov 26 to 28 slot.</li>
+        <li><b>ILTM Cannes, about Nov 30 to Dec 3.</b> Overlaps Mon and Tue in London and Wed and Thu in Paris. Ask each contact who will host if they're in Cannes.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Schedule conflicts</h3>
+      <ul>
+        <li>Maybourne backup (Tue Dec 1 am) runs into the Goring at 11:00.</li>
+        <li>Goring backup (Fri 27) doesn't fit around Chancery, Lanesborough and Cambridge House.</li>
+        <li>If Versailles lands on Sat Dec 5 instead, Fouquet's drops to one night (Dec 4) and Sunday needs a bed in Paris.</li>
+        <li>Wed Dec 2: Ritz at 16:00 only works with a morning Eurostar.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTENT ================= -->
+<section id="content">
+  <h2>Content plan</h2>
+  <p class="lede">What each visit feeds on the site. Existing review pages get refreshed with Keith's own photos and notes; new ones get written.</p>
+
+  <div class="scroll">
+  <table class="tbl stack">
+    <thead><tr><th>Hotel</th><th>City</th><th>Visit</th><th>On the site now</th></tr></thead>
+    <tbody>
+      <tr><td>Claridge's</td><td>London</td><td>Sat 28</td><td><a href="../hotels/claridges-london.html">Review</a>, refresh</td></tr>
+      <tr><td>The Connaught</td><td>London</td><td>Sat 28</td><td><a href="../hotels/connaught-london.html">Review</a>, refresh</td></tr>
+      <tr><td>The Lanesborough</td><td>London</td><td>Fri 27</td><td><a href="../hotels/lanesborough-london.html">Review</a>, refresh</td></tr>
+      <tr><td>Raffles London at The OWO</td><td>London</td><td>Tue Dec 1</td><td><a href="../hotels/raffles-london-owo.html">Review</a>, refresh</td></tr>
+      <tr><td>The Berkeley · The Emory</td><td>London</td><td>Sat 28</td><td>New</td></tr>
+      <tr><td>Chancery Rosewood · Cambridge House</td><td>London</td><td>Fri 27</td><td>New (pre-opening)</td></tr>
+      <tr><td>The Goring · Corinthia · The Savoy</td><td>London</td><td>Tue Dec 1</td><td>New</td></tr>
+      <tr><td>Admiralty Arch</td><td>London</td><td>Tue Dec 1</td><td>New</td></tr>
+      <tr><td>Ham Yard · Charlotte Street · Soho Hotel</td><td>London</td><td>Mon 30</td><td>New</td></tr>
+      <tr><td>Mandarin Oriental Mayfair</td><td>London</td><td>Mon 30</td><td>New</td></tr>
+      <tr><td>The Newman · Dorchester / St Clement</td><td>London</td><td>Stay</td><td>New</td></tr>
+      <tr><td>Le Meurice</td><td>Paris</td><td>Stay</td><td><a href="../hotels/le-meurice-paris.html">Review</a>, refresh</td></tr>
+      <tr><td>Ritz Paris</td><td>Paris</td><td>Wed Dec 2</td><td><a href="../hotels/ritz-paris.html">Review</a>, refresh</td></tr>
+      <tr><td>Hôtel de Crillon</td><td>Paris</td><td>Thu Dec 3</td><td><a href="../hotels/hotel-de-crillon-paris.html">Review</a>, refresh</td></tr>
+      <tr><td>Cheval Blanc Paris</td><td>Paris</td><td>Thu Dec 3</td><td><a href="../hotels/cheval-blanc-paris.html">Review</a>, refresh</td></tr>
+      <tr><td>Le Fouquet's</td><td>Paris</td><td>Stay</td><td><a href="../hotels/hotel-barriere-fouquets-paris.html">Review</a>, refresh</td></tr>
+      <tr><td>J.K. Place · MO Lutetia</td><td>Paris</td><td>Thu Dec 3</td><td>New</td></tr>
+      <tr><td>Plaza Athénée · George V · La Réserve · Le Bristol</td><td>Paris</td><td>Fri Dec 4</td><td>New</td></tr>
+      <tr><td>Airelles Le Grand Contrôle</td><td>Versailles</td><td>Stay</td><td>New</td></tr>
+      <tr><td>Estelle Manor · Daylesford</td><td>Cotswolds</td><td>Stay</td><td>New</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="group-label">Comparison pages the visits set up</div>
+  <div class="grid2">
+    <div class="box"><h3>London</h3><ul>
+      <li>Claridge's vs The Connaught</li>
+      <li>The Berkeley vs The Emory</li>
+      <li>The Lanesborough vs The Goring</li>
+      <li>Raffles at The OWO vs Corinthia London</li>
+      <li>Ham Yard vs The Soho Hotel</li>
+      <li>The Dorchester vs Claridge's</li>
+    </ul></div>
+    <div class="box"><h3>Paris &amp; beyond</h3><ul>
+      <li>Le Meurice vs Ritz Paris</li>
+      <li>Hôtel de Crillon vs Le Meurice</li>
+      <li>Cheval Blanc vs Plaza Athénée</li>
+      <li>George V vs Le Bristol</li>
+      <li>La Réserve vs Le Bristol</li>
+      <li>Estelle Manor vs Daylesford</li>
+    </ul></div>
+  </div>
+</section>
+
+<footer>Unlisted working plan · Suites With Keith · Updated Nov 11, 2026</footer>
+</main>
+</body>
+</html>
