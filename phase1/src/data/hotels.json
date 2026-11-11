@@ -6657,9 +6657,9 @@
   "island": "Tuscany",
   "island_page": "tuscany.html",
   "locale": "Casole d'Elsa, Tuscany, Italy",
-  "img_dir": "destinations",
-  "hero_img": "castello-di-casole.jpg",
-  "img2": "castello-di-casole.jpg",
+  "img_dir": "hotels/castello-di-casole",
+  "hero_img": "chapel-lawn.jpg",
+  "img2": "chapel-lawn.jpg",
   "tagline": "A hilltop castle estate near Siena with sweeping countryside views, slightly more traditional in feel.",
   "meta_desc": "Keith has visited Belmond Castello di Casole, a hilltop castle estate near Siena with sweeping countryside views, slightly more traditional in feel. Who it suits, what to know, and partner perks when you book through him.",
   "style_label": "Hilltop castle estate (Belmond)",
@@ -6721,7 +6721,32 @@
    "date": "2026-08-12",
    "city": "Casole d'Elsa",
    "country": "IT"
-  }
+  },
+  "hero_pos": "50% 36%",
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/castello-di-casole/chapel-lawn.jpg",
+    "alt": "The stone chapel and bell tower above the lawn at Belmond Castello di Casole",
+    "caption": "The estate chapel",
+    "w": 1666,
+    "h": 2200
+   },
+   {
+    "src": "/images/hotels/castello-di-casole/stone-farmhouse-terrace.jpg",
+    "alt": "A stone farmhouse with an arched door and potted lemon trees above the valley at Belmond Castello di Casole",
+    "caption": "Stone, terracotta and the valley beyond",
+    "w": 1214,
+    "h": 1600
+   },
+   {
+    "src": "/images/destinations/castello-di-casole.jpg",
+    "alt": "Belmond Castello di Casole, Tuscany",
+    "caption": "Photo: Belmond",
+    "w": 766,
+    "h": 1254
+   }
+  ]
  },
  {
   "slug": "como-castello-del-nero-tuscany",
