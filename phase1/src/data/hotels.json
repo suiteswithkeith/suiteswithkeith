@@ -10,8 +10,8 @@
   "island_page": "santorini.html",
   "locale": "Santorini, Greece",
   "img_dir": "hotels",
-  "hero_img": "canaves-epitome-1.jpg",
-  "img2": "canaves-epitome-2.jpg",
+  "hero_img": "canaves-epitome/pool-terrace-sunset.jpg",
+  "img2": "canaves-epitome/pool-terrace-sunset.jpg",
   "tagline": "My favorite hotel across nine islands in the Cyclades, and perhaps one of the top three stays of my entire life.",
   "meta_desc": "Keith's firsthand review of Canaves Epitome, his favorite hotel across nine Greek islands, a short walk from Oia with the best sunset in Greece.",
   "style_label": "Boutique luxury resort",
@@ -81,7 +81,111 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "hero_video": "/video/canaves-epitome-hero.mp4",
+  "hero_poster": "/video/canaves-epitome-hero-poster.jpg",
+  "hero_pos": "50% 62%",
+  "gallery": [
+   {
+    "src": "/images/hotels/canaves-epitome/pool-terrace-sunset.jpg",
+    "alt": "The infinity pool and sunbeds at Canaves Epitome at sunset, with the caldera beyond",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The main pool at sunset. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/resort-aerial.jpg",
+    "alt": "Canaves Epitome from above: the main pool, the suites with private pools and the sea",
+    "w": 1510,
+    "h": 929,
+    "caption": "The whole estate above the sea. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/arch-pool-reading.jpg",
+    "alt": "A guest reading by a private pool, framed by a volcanic-stone arch, at Canaves Epitome",
+    "w": 1510,
+    "h": 927,
+    "caption": "A private pool through the arch. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/arch-dining-terrace.jpg",
+    "alt": "An outdoor dining table under a volcanic-stone arch at a Canaves Epitome suite",
+    "w": 908,
+    "h": 1600,
+    "caption": "Dining under the stone arches"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/arch-lounge-view.jpg",
+    "alt": "A volcanic-stone arch framing an outdoor lounge and pool at Canaves Epitome",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Volcanic-stone arches everywhere. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/suite-arched-hallway.jpg",
+    "alt": "An arched white hallway inside a Canaves Epitome suite",
+    "w": 1600,
+    "h": 1280,
+    "caption": "Inside a suite. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/suite-living-room.jpg",
+    "alt": "A suite living room with arched doors and stone tables at Canaves Epitome",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Two-bedroom suites, separated by floor. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/suite-pool-window.jpg",
+    "alt": "A Canaves Epitome room with an arched window looking into the pool",
+    "w": 899,
+    "h": 1600,
+    "caption": "Rooms below the pool look up into the water"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/stone-arch-entrance.jpg",
+    "alt": "A volcanic-stone archway leading into a suite courtyard at Canaves Epitome",
+    "w": 899,
+    "h": 1600,
+    "caption": "Every suite behind its own walls"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/stone-bathroom.jpg",
+    "alt": "A stone double vanity bathroom at Canaves Epitome",
+    "w": 1600,
+    "h": 1199,
+    "caption": "Stone bathrooms. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/sunbeds-olive-trees.jpg",
+    "alt": "Sunbeds set over the water among olive trees at Canaves Epitome",
+    "w": 1067,
+    "h": 1600,
+    "caption": "Sunbeds among the olive trees. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/villa-from-above.jpg",
+    "alt": "A Canaves Epitome villa and its private pool from above",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A villa and its pool from above. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/epitome-villas/family-arch-sunset.jpg",
+    "alt": "A family walking through a volcanic-stone arch toward their villa terrace at sunset, Canaves Epitome",
+    "w": 1510,
+    "h": 927,
+    "caption": "The family villas. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/epitome-villas/villa-pool-lounge.jpg",
+    "alt": "Volcanic-stone arches, a pool and a sunken lounge at a Canaves Epitome villa",
+    "w": 1007,
+    "h": 1060,
+    "caption": "A sunken lounge by a villa pool. Photo: Canaves"
+   }
+  ]
  },
  {
   "slug": "gundari-folegandros",
@@ -4642,9 +4746,9 @@
   "island": "Florence",
   "island_page": "florence.html",
   "locale": "Fiesole, Florence, Italy",
-  "img_dir": "destinations",
-  "hero_img": "villa-san-michele.jpg",
-  "img2": "villa-san-michele.jpg",
+  "img_dir": "hotels/villa-san-michele",
+  "hero_img": "loggia-florence-view.jpg",
+  "img2": "loggia-florence-view.jpg",
   "tagline": "A former 15th-century monastery in the Fiesole hills above the city, recently renovated, with the best views in Florence.",
   "meta_desc": "Keith toured Belmond Villa San Michele, a former 15th-century monastery built into the Fiesole hillside, with the best views in Florence. Which rooms are most private, and what to know before you book.",
   "style_label": "Historic hillside retreat (Belmond)",
@@ -4728,7 +4832,46 @@
    "date": "2026-08-12",
    "city": "Fiesole",
    "country": "IT"
-  }
+  },
+  "hero_pos": "50% 55%",
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/villa-san-michele/loggia-florence-view.jpg",
+    "alt": "Florence and the Arno valley through an arch of the loggia at Belmond Villa San Michele",
+    "caption": "Florence through the loggia",
+    "w": 2400,
+    "h": 1791
+   },
+   {
+    "src": "/images/hotels/villa-san-michele/lawn-duomo-view.jpg",
+    "alt": "The lawn terrace at Belmond Villa San Michele, with the Duomo and Florence below",
+    "caption": "The lawn, with the Duomo below",
+    "w": 1217,
+    "h": 1600
+   },
+   {
+    "src": "/images/hotels/villa-san-michele/hillside-terraces.jpg",
+    "alt": "A villa above terraced gardens on the hillside at Belmond Villa San Michele",
+    "caption": "Terraced gardens up the Fiesole hillside",
+    "w": 1600,
+    "h": 1179
+   },
+   {
+    "src": "/images/hotels/villa-san-michele/covered-courtyard.jpg",
+    "alt": "A covered courtyard with trees, arches and velvet curtains at Belmond Villa San Michele",
+    "caption": "The covered courtyard",
+    "w": 1194,
+    "h": 1600
+   },
+   {
+    "src": "/images/destinations/villa-san-michele.jpg",
+    "alt": "Belmond Villa San Michele, Florence",
+    "caption": "",
+    "w": 1600,
+    "h": 1067
+   }
+  ]
  },
  {
   "slug": "four-seasons-hotel-firenze",
@@ -4848,9 +4991,37 @@
   "island_page": "four-seasons-firenze-vs-collegio-alla-querce.html",
   "locale": "Florence, Italy",
   "img_dir": "florence",
-  "hero_img": "collegio-gardens.jpg",
-  "img2": "collegio-gardens.jpg",
+  "hero_img": "collegio-olive-grove-view.jpg",
+  "img2": "collegio-olive-grove-view.jpg",
   "gallery": [
+   {
+    "src": "/images/florence/collegio-olive-grove-view.jpg",
+    "alt": "Olive groves and Fiesole villas seen between the wings of Collegio alla Querce",
+    "caption": "The olive grove between the wings",
+    "w": 1807,
+    "h": 2400
+   },
+   {
+    "src": "/images/florence/collegio-arch-window.jpg",
+    "alt": "An arched window at Collegio alla Querce looking down a cypress-lined drive",
+    "caption": "The drive, through an arched window",
+    "w": 943,
+    "h": 1600
+   },
+   {
+    "src": "/images/florence/collegio-facade-golden-hour.jpg",
+    "alt": "The shuttered facade of Collegio alla Querce in evening light",
+    "caption": "The old college at golden hour",
+    "w": 1600,
+    "h": 1217
+   },
+   {
+    "src": "/images/florence/collegio-terrace-dining.jpg",
+    "alt": "The lantern-hung dining terrace at Collegio alla Querce",
+    "caption": "Lunch on the terrace",
+    "w": 1237,
+    "h": 1600
+   },
    {
     "src": "/images/florence/collegio-bath-view.jpg",
     "alt": "Soaking tub with a view over Florence at Collegio alla Querce",
@@ -4870,6 +5041,13 @@
     "alt": "Arched-window dining room at Collegio alla Querce",
     "caption": "Dining under the arches",
     "w": 684,
+    "h": 1024
+   },
+   {
+    "src": "/images/florence/collegio-gardens.jpg",
+    "alt": "The gardens at Collegio alla Querce, Florence",
+    "caption": "The gardens",
+    "w": 683,
     "h": 1024
    }
   ],
@@ -4938,7 +5116,9 @@
    "date": "2026-09-26",
    "city": "Florence",
    "country": "IT"
-  }
+  },
+  "hero_pos": "50% 45%",
+  "hide_hero_in_gallery": true
  },
  {
   "slug": "borgo-pignano-florence",
@@ -4953,6 +5133,12 @@
   "img2": "villa-gates.jpg",
   "hide_hero_in_gallery": true,
  "gallery": [
+  {
+   "src": "/images/hotels/borgo-pignano-florence/entrance-hall.jpg",
+   "alt": "Looking through the arched entrance hall at Borgo Pignano Florence, under a brass lantern, out to the fountain and cypresses",
+   "w": 1223,
+   "h": 1600
+  },
   {
    "src": "/images/hotels/borgo-pignano-florence/lavender-garden.jpg",
    "alt": "Lavender beds and a walled garden at Borgo Pignano Florence, the villa behind the trees",
@@ -6290,6 +6476,132 @@
   }
  },
  {
+  "slug": "six-senses-rome",
+  "name": "Six Senses Rome",
+  "plain_name": "Six Senses Rome",
+  "short_name": "Six Senses",
+  "island": "Rome",
+  "island_page": "rome.html",
+  "locale": "Rome, Italy",
+  "img_dir": "hotels/six-senses-rome",
+  "hero_img": "rooftop-notos.jpg",
+  "img2": "rooftop-notos.jpg",
+  "seo_title": "Six Senses Rome Review: Great For Wellness, Less So For Rome (2026)",
+  "tagline": "A very modern hotel near the Pantheon with a beautiful rooftop, built for wellness travelers in a city most people visit for pasta and wine.",
+  "meta_desc": "Honest Six Senses Rome review from a travel advisor who toured it in October 2026: a great location near the Pantheon, a beautiful rooftop, very modern rooms, and wellness programming that does not always feel like Rome.",
+  "style_label": "Modern urban wellness hotel (Six Senses)",
+  "perfect_for": "Wellness travelers who want a modern, central base",
+  "region_label": "Region",
+  "region_html": "Piazza di San Marcello, off Via del Corso, Rome, Italy",
+  "rank_text": "My pick in Rome for wellness travelers",
+  "rank_href": "rome.html",
+  "stat1_num": "",
+  "stat1_label": "",
+  "stat2_num": "A",
+  "stat2_label": "Great For Wellness, Less So For Rome",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "If wellness is the point of your trip, Six Senses is the hotel I would book in Rome. If it is not, I will tell you which one fits better. Either way, let me match you to the right room and build the rest of the trip around it.",
+  "intro": [
+   "I toured Six Senses Rome in October 2026. It opened in 2023 inside Palazzo Salviati Cesi Mellini, on Piazza di San Marcello just off Via del Corso, a short walk from the Pantheon and around the corner from La Minerva and the Corinthia. The location is fantastic.",
+   "The design is very, very modern. Patricia Urquiola did the interiors, and behind the historic facade it is clean lines, pale stone and soft natural textures. On the rooftop that works beautifully. In the rooms, it felt out of place to me. They could be in any city, and when I am in Rome, I want to feel like I am in Rome.",
+   "My bigger hesitation is the programming. Six Senses does wellness better than almost anyone, and at their island and nature resorts, where wellness is the reason you go, it makes complete sense. In the middle of Rome, blending essential oils at the Alchemy Bar felt like it belonged somewhere else. I get that wellness is a big thing right now, but very few people come to Rome for wellness. They come for pasta, wine and the city itself, and I think the brand has the same challenge in most of its city hotels.",
+   "Where the hotel really lands is the rooftop. Notos is beautiful, with views over the domes and terracotta rooftops, and it was the one space where the modern design and Rome felt like they belonged together. It was my favorite part of the visit."
+  ],
+  "stood_out": [
+   {
+    "b": "The location.",
+    "t": "Steps from the Pantheon and Via del Corso, central and walkable to almost everything you came to see."
+   },
+   {
+    "b": "The rooftop.",
+    "t": "Notos is beautiful, and the design I liked most in the hotel. Book a table up there even if wellness is not your thing."
+   },
+   {
+    "b": "Real wellness, if that is your trip.",
+    "t": "The spa and the full Six Senses program are built for travelers who want to keep their routines on the road. No other hotel I saw in Rome builds the stay around wellness the way this one does."
+   },
+   {
+    "b": "Modern, if that is your taste.",
+    "t": "If you are tired of gilt, damask and chandeliers, this is the clean, contemporary alternative to Rome&rsquo;s grand classics."
+   }
+  ],
+  "know": [
+   {
+    "b": "The rooms feel like Six Senses, not Rome.",
+    "t": "They are comfortable and well done, but if waking up somewhere unmistakably Roman matters to you, I would look at <a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> or the <a href=\"hotel-eden-rome.html\">Eden</a> first."
+   },
+   {
+    "b": "You are paying for the wellness program.",
+    "t": "Nobody makes you blend oils, and you can ignore the calendar entirely. But the hotel is built around it, so if you will not use it, a different hotel will give you more Rome for the money."
+   },
+   {
+    "b": "Compare the neighbors.",
+    "t": "<a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> is around the corner for a real Roman neighborhood feel, and the <a href=\"corinthia-rome.html\">Corinthia</a> is nearby for a quiet base with a beautiful spa and large rooms."
+   },
+   {
+    "b": "Transfers and drivers, arranged.",
+    "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
+   }
+  ],
+  "verdict": "A great location near the Pantheon, a beautiful rooftop, and the best hotel in Rome for wellness travelers. If you are coming to Rome for Rome, the pasta, the wine and the feeling of the city, I would book you somewhere that feels more Italian.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked the property. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I will tell you honestly whether Six Senses is the right fit for your trip, request the right room, and be your direct line to the hotel while you are there. Rates are identical to booking direct.",
+  "cta_island_text": "My Rome Hotel Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-11-11",
+   "city": "Rome",
+   "country": "IT"
+  },
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/six-senses-rome/courtyard-arch.jpg",
+    "alt": "The Six Senses Rome courtyard under a glass roof, with travertine floors, potted palms and a chalkboard of the day's activities",
+    "w": 1320,
+    "h": 2340,
+    "caption": "The glass-roofed courtyard, with the day&rsquo;s wellness activities on the board"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/courtyard-bar.jpg",
+    "alt": "Green marble bar, pink striped cushions and banquettes under palms in the Six Senses Rome courtyard",
+    "w": 1320,
+    "h": 2340,
+    "caption": "Green marble and pink cushions in the courtyard"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/suite-living.jpg",
+    "alt": "A Six Senses Rome suite living room with a globe chandelier, travertine coffee table, plaster hand sculpture and sheer curtains",
+    "w": 1320,
+    "h": 2340,
+    "caption": "A suite living room"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/bedroom.jpg",
+    "alt": "A Six Senses Rome bedroom with a fluted wood wall, globe lamps, a grey headboard and framed prints of classical busts",
+    "w": 1320,
+    "h": 2340,
+    "caption": "Fluted wood and soft lighting in the rooms"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/bedside-detail.jpg",
+    "alt": "A fluted white nightstand, brass globe lamps and a framed bust print beside the bed at Six Senses Rome",
+    "w": 1320,
+    "h": 2340,
+    "caption": "Well done, but it could be any city"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/chaise-lounge.jpg",
+    "alt": "A wooden chaise lounge in afternoon light against slatted oak panels in a Six Senses Rome suite",
+    "w": 1320,
+    "h": 2340,
+    "caption": "Afternoon light in a suite"
+   }
+  ],
+  "hero_pos": "50% 54%"
+ },
+ {
   "slug": "rosewood-castiglion-del-bosco-tuscany",
   "name": "Rosewood Castiglion del Bosco",
   "plain_name": "Rosewood Castiglion del Bosco",
@@ -6371,9 +6683,9 @@
   "island": "Tuscany",
   "island_page": "tuscany.html",
   "locale": "Casole d'Elsa, Tuscany, Italy",
-  "img_dir": "destinations",
-  "hero_img": "castello-di-casole.jpg",
-  "img2": "castello-di-casole.jpg",
+  "img_dir": "hotels/castello-di-casole",
+  "hero_img": "chapel-lawn.jpg",
+  "img2": "chapel-lawn.jpg",
   "tagline": "A hilltop castle estate near Siena with sweeping countryside views, slightly more traditional in feel.",
   "meta_desc": "Keith has visited Belmond Castello di Casole, a hilltop castle estate near Siena with sweeping countryside views, slightly more traditional in feel. Who it suits, what to know, and partner perks when you book through him.",
   "style_label": "Hilltop castle estate (Belmond)",
@@ -6435,7 +6747,32 @@
    "date": "2026-08-12",
    "city": "Casole d'Elsa",
    "country": "IT"
-  }
+  },
+  "hero_pos": "50% 36%",
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/castello-di-casole/chapel-lawn.jpg",
+    "alt": "The stone chapel and bell tower above the lawn at Belmond Castello di Casole",
+    "caption": "The estate chapel",
+    "w": 1666,
+    "h": 2200
+   },
+   {
+    "src": "/images/hotels/castello-di-casole/stone-farmhouse-terrace.jpg",
+    "alt": "A stone farmhouse with an arched door and potted lemon trees above the valley at Belmond Castello di Casole",
+    "caption": "Stone, terracotta and the valley beyond",
+    "w": 1214,
+    "h": 1600
+   },
+   {
+    "src": "/images/destinations/castello-di-casole.jpg",
+    "alt": "Belmond Castello di Casole, Tuscany",
+    "caption": "Photo: Belmond",
+    "w": 766,
+    "h": 1254
+   }
+  ]
  },
  {
   "slug": "como-castello-del-nero-tuscany",
@@ -6445,9 +6782,9 @@
   "island": "Tuscany",
   "island_page": "tuscany.html",
   "locale": "Chianti, Tuscany, Italy",
-  "img_dir": "destinations",
-  "hero_img": "como-castello.jpg",
-  "img2": "como-castello.jpg",
+  "img_dir": "hotels/como-castello-del-nero",
+  "hero_img": "clock-tower-lawn.jpg",
+  "img2": "clock-tower-lawn.jpg",
   "tagline": "A 12th-century converted castle in Chianti, well-positioned for day trips to Florence and Siena.",
   "meta_desc": "Keith has visited COMO Castello del Nero, a 12th-century converted castle in Chianti, well-positioned for day trips to Florence and Siena. Who it suits, what to know, and partner perks when you book through him.",
   "style_label": "Converted castle retreat (COMO)",
@@ -6509,7 +6846,25 @@
    "date": "2026-08-12",
    "city": "Chianti",
    "country": "IT"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "hero_pos": "50% 18%",
+  "gallery": [
+   {
+    "src": "/images/hotels/como-castello-del-nero/clock-tower-lawn.jpg",
+    "alt": "The clock tower and lawn tables at COMO Castello del Nero",
+    "caption": "The clock tower over the lawn",
+    "w": 2400,
+    "h": 1831
+   },
+   {
+    "src": "/images/destinations/como-castello.jpg",
+    "alt": "COMO Castello del Nero, Tuscany",
+    "caption": "",
+    "w": 2068,
+    "h": 1390
+   }
+  ]
  },
  {
   "slug": "borgo-pignano-volterra-tuscany",
@@ -6667,6 +7022,13 @@
     "caption": "The villa, the gardens and the pool",
     "w": 588,
     "h": 330
+   },
+   {
+    "src": "/images/tuscany/il-borro-chapel-door-film.jpg",
+    "alt": "A small whitewashed chapel with a carved door in the Il Borro village",
+    "caption": "The village chapel",
+    "w": 1227,
+    "h": 1600
    }
   ],
   "tagline": "A whole medieval borgo in the Valdarno hills, and the most authentic stay I&rsquo;ve found in Tuscany.",
@@ -7102,9 +7464,37 @@
   "island_page": "lake-como-pairing.html",
   "locale": "Bellagio, Lake Como, Italy",
   "img_dir": "lake-como/villa-serbelloni",
-  "hero_img": "aerial.jpg",
-  "img2": "balcony.jpg",
+  "hero_img": "facade-from-lake-film.jpg",
+  "img2": "facade-from-lake-film.jpg",
   "gallery": [
+   {
+    "src": "/images/lake-como/villa-serbelloni/facade-from-lake-film.jpg",
+    "alt": "Grand Hotel Villa Serbelloni seen from its lakeside landing in Bellagio",
+    "caption": "Arriving from the lake",
+    "w": 2400,
+    "h": 1810
+   },
+   {
+    "src": "/images/lake-como/villa-serbelloni/entrance-canopy-film.jpg",
+    "alt": "The Villa Serbelloni entrance canopy and its sign",
+    "caption": "The front door",
+    "w": 1242,
+    "h": 1600
+   },
+   {
+    "src": "/images/lake-como/villa-serbelloni/aerial.jpg",
+    "alt": "Grand Hotel Villa Serbelloni, Lake Como",
+    "caption": "Photo: Villa Serbelloni",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "/images/lake-como/villa-serbelloni/balcony.jpg",
+    "alt": "Grand Hotel Villa Serbelloni, Lake Como",
+    "caption": "",
+    "w": 1600,
+    "h": 1067
+   },
    {
     "src": "/images/lake-como/villa-serbelloni/beach.jpg",
     "alt": "Villa Serbelloni’s beach with loungers, umbrellas and a floating pier on the lake",
@@ -7197,7 +7587,9 @@
    "date": "2026-10-04",
    "city": "Bellagio",
    "country": "IT"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "forestis-dolomites",
