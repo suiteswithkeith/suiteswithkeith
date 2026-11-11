@@ -10,8 +10,8 @@
   "island_page": "santorini.html",
   "locale": "Santorini, Greece",
   "img_dir": "hotels",
-  "hero_img": "canaves-epitome-1.jpg",
-  "img2": "canaves-epitome-2.jpg",
+  "hero_img": "canaves-epitome/pool-terrace-sunset.jpg",
+  "img2": "canaves-epitome/pool-terrace-sunset.jpg",
   "tagline": "My favorite hotel across nine islands in the Cyclades, and perhaps one of the top three stays of my entire life.",
   "meta_desc": "Keith's firsthand review of Canaves Epitome, his favorite hotel across nine Greek islands, a short walk from Oia with the best sunset in Greece.",
   "style_label": "Boutique luxury resort",
@@ -81,7 +81,90 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "hero_video": "/video/canaves-epitome-hero.mp4",
+  "hero_poster": "/video/canaves-epitome-hero-poster.jpg",
+  "hero_pos": "50% 62%",
+  "gallery": [
+   {
+    "src": "/images/hotels/canaves-epitome/pool-terrace-sunset.jpg",
+    "alt": "The infinity pool and sunbeds at Canaves Epitome at sunset, with the caldera beyond",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The main pool at sunset. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/arch-lounge-view.jpg",
+    "alt": "A volcanic-stone arch framing an outdoor lounge and pool at Canaves Epitome",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Volcanic-stone arches everywhere. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/suite-arched-hallway.jpg",
+    "alt": "An arched white hallway inside a Canaves Epitome suite",
+    "w": 1600,
+    "h": 1280,
+    "caption": "Inside a suite. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/suite-living-room.jpg",
+    "alt": "A suite living room with arched doors and stone tables at Canaves Epitome",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Two-bedroom suites, separated by floor. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/suite-pool-window.jpg",
+    "alt": "A Canaves Epitome room with an arched window looking into the pool",
+    "w": 899,
+    "h": 1600,
+    "caption": "Rooms below the pool look up into the water"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/stone-arch-entrance.jpg",
+    "alt": "A volcanic-stone archway leading into a suite courtyard at Canaves Epitome",
+    "w": 899,
+    "h": 1600,
+    "caption": "Every suite behind its own walls"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/sunbeds-olive-trees.jpg",
+    "alt": "Sunbeds set over the water among olive trees at Canaves Epitome",
+    "w": 1067,
+    "h": 1600,
+    "caption": "Sunbeds among the olive trees. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/bathroom.jpg",
+    "alt": "A stone double vanity bathroom at Canaves Epitome",
+    "w": 1600,
+    "h": 1199,
+    "caption": "Stone bathrooms. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/canaves-epitome/villa-from-above.jpg",
+    "alt": "A Canaves Epitome villa and its private pool from above",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A villa and its pool from above. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/epitome-villas/family-arch-sunset.jpg",
+    "alt": "A family walking through a volcanic-stone arch toward their villa terrace at sunset, Canaves Epitome",
+    "w": 1510,
+    "h": 927,
+    "caption": "The family villas. Photo: Canaves"
+   },
+   {
+    "src": "/images/hotels/epitome-villas/villa-pool-lounge.jpg",
+    "alt": "Volcanic-stone arches, a pool and a sunken lounge at a Canaves Epitome villa",
+    "w": 1007,
+    "h": 1060,
+    "caption": "A sunken lounge by a villa pool. Photo: Canaves"
+   }
+  ]
  },
  {
   "slug": "gundari-folegandros",
