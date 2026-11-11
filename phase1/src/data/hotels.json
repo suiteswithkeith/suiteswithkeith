@@ -5131,7 +5131,33 @@
   "img_dir": "hotels/borgo-pignano-florence",
   "hero_img": "cypress-drive.jpg",
   "img2": "villa-gates.jpg",
-  "gallery": [],
+  "hide_hero_in_gallery": true,
+ "gallery": [
+  {
+   "src": "/images/hotels/borgo-pignano-florence/entrance-hall.jpg",
+   "alt": "Looking through the arched entrance hall at Borgo Pignano Florence, under a brass lantern, out to the fountain and cypresses",
+   "w": 1223,
+   "h": 1600
+  },
+  {
+   "src": "/images/hotels/borgo-pignano-florence/lavender-garden.jpg",
+   "alt": "Lavender beds and a walled garden at Borgo Pignano Florence, the villa behind the trees",
+   "w": 1219,
+   "h": 1600
+  },
+  {
+   "src": "/images/hotels/borgo-pignano-florence/lounge-arches.jpg",
+   "alt": "Stone columns, arched steel-framed glass doors and a Murano glass chandelier in a lounge at Borgo Pignano Florence",
+   "w": 903,
+   "h": 1600
+  },
+  {
+   "src": "/images/hotels/borgo-pignano-florence/marble-bathroom.jpg",
+   "alt": "A marble bathroom at Borgo Pignano Florence with a double vanity, a freestanding tub and a garden view",
+   "w": 900,
+   "h": 1600
+  }
+ ],
   "tagline": "The new city house from the family behind Borgo Pignano: a contemporary borgo on the largest hotel grounds in Florence, five minutes from the center.",
   "meta_desc": "Keith has slept at Borgo Pignano Florence, the new sister house to Borgo Pignano in Volterra, set in the hills just outside the center. Who it suits, which room to ask for, and Fora perks when you book through him.",
   "style_label": "Contemporary city borgo (Borgo Pignano)",
