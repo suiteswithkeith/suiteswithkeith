@@ -4330,5 +4330,112 @@
     "label": "Grand Hotel Tremezzo or Villa d&rsquo;Este"
    }
   ]
+ },
+ "nos-vs-stamna-sifnos": {
+  "title": "NOS or Stamna | Suites With Keith",
+  "description": "Keith's two Sifnos picks: sunrise and quiet above the fishing village of Faros, or the island's best hotel table in the hills above Apollonia. Here's how to decide.",
+  "eyebrow": "Head-to-head &middot; Sifnos",
+  "h1_a": "NOS",
+  "h1_b": "Stamna?",
+  "deck": "My two picks on Sifnos, a short drive apart and built on the same idea: quiet luxury, nothing in excess. The difference is how you want to spend the day. Sunrise over the Aegean and a walk to the Faros tavernas, or the best hotel dinner on the island and Apollonia on foot.",
+  "stamp": "Stayed at Stamna, visited NOS &middot; both June 2026 &middot; both in my Sifnos guide",
+  "preload": "/images/hotels/nos-2.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose NOS",
+    "h3": "If you want the sea and the sunrise",
+    "lead": "Minimalist Cycladic architecture above the fishing village of Faros, east-facing views that make early mornings the best part of the day, and some of Sifnos&rsquo;s best waterfront tavernas a walk away. Calm, quiet, grown-up.",
+    "img": "/images/hotels/nos-2.jpg",
+    "alt": "NOS above the fishing village of Faros, Sifnos",
+    "w": 1800,
+    "h": 1350
+   },
+   {
+    "eyebrow": "Choose Stamna",
+    "h3": "If dinner is the point",
+    "lead": "A small, design-forward perch in the hills above Platis Gialos, with Plio, a restaurant that holds its own on Greece&rsquo;s great foodie island, and Apollonia&rsquo;s wine bars and boutiques on foot. Earthy, warm, exactly what you want Sifnos to be.",
+    "img": "/images/hotels/stamna-2.jpg",
+    "alt": "Stamna in the hills above Platis Gialos, Sifnos",
+    "w": 1152,
+    "h": 1536
+   }
+  ],
+  "rows": [
+   [
+    "My rankings",
+    "Featured in my Sifnos guide",
+    "#10 on my Greece top 10"
+   ],
+   [
+    "The setting",
+    "Above Faros, a fishing village on the east coast",
+    "The hills above Platis Gialos, a walk from Apollonia"
+   ],
+   [
+    "The walk to dinner",
+    "Faros&rsquo;s waterfront tavernas",
+    "Apollonia, the island&rsquo;s lively capital"
+   ],
+   [
+    "Design",
+    "Minimalist Cycladic, everything intentional",
+    "Earthy, neutral and calming"
+   ],
+   [
+    "The best moment",
+    "Sunrise from your terrace",
+    "Dinner at Plio"
+   ],
+   [
+    "Wellness",
+    "The one I point wellness travelers to",
+    "No spa or gym that I could find"
+   ],
+   [
+    "Right for",
+    "Adults, quiet luxury, design lovers",
+    "Couples, food lovers, slow travelers"
+   ],
+   [
+    "The room to ask for",
+    "Faros Superior",
+    "Suite with Private Pool"
+   ],
+   [
+    "From",
+    "$700 / night",
+    "$600 / night"
+   ]
+  ],
+  "footnote": "Book either through me for Fora X perks (a space-available upgrade, daily breakfast and a hotel credit) at the same rate as booking direct. One heads-up at Stamna: the pool draws young families as well as honeymooners, so if a quiet swim matters, the Suite with Private Pool earns its price. And wherever you stay, have dinner at Cantina at least once. It&rsquo;s one of my favorite restaurants in the Cyclades.",
+  "verdict": {
+   "h2": "For a first trip to Sifnos: Stamna. For pure quiet: NOS.",
+   "paras": [
+    "Stamna is the one on my Greece top 10, and the one I stayed at. After ten nights between Mykonos and Paros it was exactly the respite I needed: the design, the perch over the Cyclades, and a dinner at Plio that lives up to the island&rsquo;s reputation. Sifnos is a food island first, and Stamna puts you closest to it, with Apollonia a walk away for the evening.",
+    "But NOS is one of my favorite stays in the Cyclades, and it&rsquo;s the better fit if you&rsquo;re coming for stillness rather than the table. Early mornings with the sun coming up over the Aegean, an afternoon of doing nothing by your suite, then a walk into Faros for dinner on the water. If that&rsquo;s the trip you&rsquo;re picturing, it settles the question.",
+    "And Sifnos rewards slow travel, so on a longer stay, splitting the nights between the two is an easy yes. You get both sides of the island."
+   ]
+  },
+  "subject": "NOS vs Stamna Inquiry",
+  "hotel": "NOS / Stamna, Sifnos",
+  "placeholder": "Sifnos in June, 5 nights",
+  "related": [
+   {
+    "href": "/sifnos.html",
+    "label": "My Sifnos guide"
+   },
+   {
+    "href": "/hotels/nos-sifnos.html",
+    "label": "NOS review"
+   },
+   {
+    "href": "/hotels/stamna-sifnos.html",
+    "label": "Stamna review"
+   },
+   {
+    "href": "/milos-vs-sifnos.html",
+    "label": "Milos or Sifnos"
+   }
+  ]
  }
 }
