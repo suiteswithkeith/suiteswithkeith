@@ -6756,9 +6756,9 @@
   "island": "Tuscany",
   "island_page": "tuscany.html",
   "locale": "Chianti, Tuscany, Italy",
-  "img_dir": "destinations",
-  "hero_img": "como-castello.jpg",
-  "img2": "como-castello.jpg",
+  "img_dir": "hotels/como-castello-del-nero",
+  "hero_img": "clock-tower-lawn.jpg",
+  "img2": "clock-tower-lawn.jpg",
   "tagline": "A 12th-century converted castle in Chianti, well-positioned for day trips to Florence and Siena.",
   "meta_desc": "Keith has visited COMO Castello del Nero, a 12th-century converted castle in Chianti, well-positioned for day trips to Florence and Siena. Who it suits, what to know, and partner perks when you book through him.",
   "style_label": "Converted castle retreat (COMO)",
@@ -6820,7 +6820,25 @@
    "date": "2026-08-12",
    "city": "Chianti",
    "country": "IT"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "hero_pos": "50% 18%",
+  "gallery": [
+   {
+    "src": "/images/hotels/como-castello-del-nero/clock-tower-lawn.jpg",
+    "alt": "The clock tower and lawn tables at COMO Castello del Nero",
+    "caption": "The clock tower over the lawn",
+    "w": 2400,
+    "h": 1831
+   },
+   {
+    "src": "/images/destinations/como-castello.jpg",
+    "alt": "COMO Castello del Nero, Tuscany",
+    "caption": "",
+    "w": 2068,
+    "h": 1390
+   }
+  ]
  },
  {
   "slug": "borgo-pignano-volterra-tuscany",
@@ -6978,6 +6996,13 @@
     "caption": "The villa, the gardens and the pool",
     "w": 588,
     "h": 330
+   },
+   {
+    "src": "/images/tuscany/il-borro-chapel-door-film.jpg",
+    "alt": "A small whitewashed chapel with a carved door in the Il Borro village",
+    "caption": "The village chapel",
+    "w": 1227,
+    "h": 1600
    }
   ],
   "tagline": "A whole medieval borgo in the Valdarno hills, and the most authentic stay I&rsquo;ve found in Tuscany.",
@@ -7413,9 +7438,37 @@
   "island_page": "lake-como-pairing.html",
   "locale": "Bellagio, Lake Como, Italy",
   "img_dir": "lake-como/villa-serbelloni",
-  "hero_img": "aerial.jpg",
-  "img2": "balcony.jpg",
+  "hero_img": "facade-from-lake-film.jpg",
+  "img2": "facade-from-lake-film.jpg",
   "gallery": [
+   {
+    "src": "/images/lake-como/villa-serbelloni/facade-from-lake-film.jpg",
+    "alt": "Grand Hotel Villa Serbelloni seen from its lakeside landing in Bellagio",
+    "caption": "Arriving from the lake",
+    "w": 2400,
+    "h": 1810
+   },
+   {
+    "src": "/images/lake-como/villa-serbelloni/entrance-canopy-film.jpg",
+    "alt": "The Villa Serbelloni entrance canopy and its sign",
+    "caption": "The front door",
+    "w": 1242,
+    "h": 1600
+   },
+   {
+    "src": "/images/lake-como/villa-serbelloni/aerial.jpg",
+    "alt": "Grand Hotel Villa Serbelloni, Lake Como",
+    "caption": "Photo: Villa Serbelloni",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "/images/lake-como/villa-serbelloni/balcony.jpg",
+    "alt": "Grand Hotel Villa Serbelloni, Lake Como",
+    "caption": "",
+    "w": 1600,
+    "h": 1067
+   },
    {
     "src": "/images/lake-como/villa-serbelloni/beach.jpg",
     "alt": "Villa Serbelloni’s beach with loungers, umbrellas and a floating pier on the lake",
@@ -7508,7 +7561,9 @@
    "date": "2026-10-04",
    "city": "Bellagio",
    "country": "IT"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "forestis-dolomites",
