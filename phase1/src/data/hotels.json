@@ -4746,9 +4746,9 @@
   "island": "Florence",
   "island_page": "florence.html",
   "locale": "Fiesole, Florence, Italy",
-  "img_dir": "destinations",
-  "hero_img": "villa-san-michele.jpg",
-  "img2": "villa-san-michele.jpg",
+  "img_dir": "hotels/villa-san-michele",
+  "hero_img": "loggia-florence-view.jpg",
+  "img2": "loggia-florence-view.jpg",
   "tagline": "A former 15th-century monastery in the Fiesole hills above the city, recently renovated, with the best views in Florence.",
   "meta_desc": "Keith toured Belmond Villa San Michele, a former 15th-century monastery built into the Fiesole hillside, with the best views in Florence. Which rooms are most private, and what to know before you book.",
   "style_label": "Historic hillside retreat (Belmond)",
@@ -4832,7 +4832,46 @@
    "date": "2026-08-12",
    "city": "Fiesole",
    "country": "IT"
-  }
+  },
+  "hero_pos": "50% 55%",
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/villa-san-michele/loggia-florence-view.jpg",
+    "alt": "Florence and the Arno valley through an arch of the loggia at Belmond Villa San Michele",
+    "caption": "Florence through the loggia",
+    "w": 2400,
+    "h": 1791
+   },
+   {
+    "src": "/images/hotels/villa-san-michele/lawn-duomo-view.jpg",
+    "alt": "The lawn terrace at Belmond Villa San Michele, with the Duomo and Florence below",
+    "caption": "The lawn, with the Duomo below",
+    "w": 1217,
+    "h": 1600
+   },
+   {
+    "src": "/images/hotels/villa-san-michele/hillside-terraces.jpg",
+    "alt": "A villa above terraced gardens on the hillside at Belmond Villa San Michele",
+    "caption": "Terraced gardens up the Fiesole hillside",
+    "w": 1600,
+    "h": 1179
+   },
+   {
+    "src": "/images/hotels/villa-san-michele/covered-courtyard.jpg",
+    "alt": "A covered courtyard with trees, arches and velvet curtains at Belmond Villa San Michele",
+    "caption": "The covered courtyard",
+    "w": 1194,
+    "h": 1600
+   },
+   {
+    "src": "/images/destinations/villa-san-michele.jpg",
+    "alt": "Belmond Villa San Michele, Florence",
+    "caption": "",
+    "w": 1600,
+    "h": 1067
+   }
+  ]
  },
  {
   "slug": "four-seasons-hotel-firenze",
