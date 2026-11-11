@@ -6270,6 +6270,132 @@
   }
  },
  {
+  "slug": "six-senses-rome",
+  "name": "Six Senses Rome",
+  "plain_name": "Six Senses Rome",
+  "short_name": "Six Senses",
+  "island": "Rome",
+  "island_page": "rome.html",
+  "locale": "Rome, Italy",
+  "img_dir": "hotels/six-senses-rome",
+  "hero_img": "rooftop-notos.jpg",
+  "img2": "rooftop-notos.jpg",
+  "seo_title": "Six Senses Rome Review: Great For Wellness, Less So For Rome (2026)",
+  "tagline": "A very modern hotel near the Pantheon with a beautiful rooftop, built for wellness travelers in a city most people visit for pasta and wine.",
+  "meta_desc": "Honest Six Senses Rome review from a travel advisor who toured it in October 2026: a great location near the Pantheon, a beautiful rooftop, very modern rooms, and wellness programming that does not always feel like Rome.",
+  "style_label": "Modern urban wellness hotel (Six Senses)",
+  "perfect_for": "Wellness travelers who want a modern, central base",
+  "region_label": "Region",
+  "region_html": "Piazza di San Marcello, off Via del Corso, Rome, Italy",
+  "rank_text": "My pick in Rome for wellness travelers",
+  "rank_href": "rome.html",
+  "stat1_num": "",
+  "stat1_label": "",
+  "stat2_num": "A",
+  "stat2_label": "Great For Wellness, Less So For Rome",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "If wellness is the point of your trip, Six Senses is the hotel I would book in Rome. If it is not, I will tell you which one fits better. Either way, let me match you to the right room and build the rest of the trip around it.",
+  "intro": [
+   "I toured Six Senses Rome in October 2026. It opened in 2023 inside Palazzo Salviati Cesi Mellini, on Piazza di San Marcello just off Via del Corso, a short walk from the Pantheon and around the corner from La Minerva and the Corinthia. The location is fantastic.",
+   "The design is very, very modern. Patricia Urquiola did the interiors, and behind the historic facade it is clean lines, pale stone and soft natural textures. On the rooftop that works beautifully. In the rooms, it felt out of place to me. They could be in any city, and when I am in Rome, I want to feel like I am in Rome.",
+   "My bigger hesitation is the programming. Six Senses does wellness better than almost anyone, and at their island and nature resorts, where wellness is the reason you go, it makes complete sense. In the middle of Rome, blending essential oils at the Alchemy Bar felt like it belonged somewhere else. I get that wellness is a big thing right now, but very few people come to Rome for wellness. They come for pasta, wine and the city itself, and I think the brand has the same challenge in most of its city hotels.",
+   "Where the hotel really lands is the rooftop. Notos is beautiful, with views over the domes and terracotta rooftops, and it was the one space where the modern design and Rome felt like they belonged together. It was my favorite part of the visit."
+  ],
+  "stood_out": [
+   {
+    "b": "The location.",
+    "t": "Steps from the Pantheon and Via del Corso, central and walkable to almost everything you came to see."
+   },
+   {
+    "b": "The rooftop.",
+    "t": "Notos is beautiful, and the design I liked most in the hotel. Book a table up there even if wellness is not your thing."
+   },
+   {
+    "b": "Real wellness, if that is your trip.",
+    "t": "The spa and the full Six Senses program are built for travelers who want to keep their routines on the road. No other hotel I saw in Rome builds the stay around wellness the way this one does."
+   },
+   {
+    "b": "Modern, if that is your taste.",
+    "t": "If you are tired of gilt, damask and chandeliers, this is the clean, contemporary alternative to Rome&rsquo;s grand classics."
+   }
+  ],
+  "know": [
+   {
+    "b": "The rooms feel like Six Senses, not Rome.",
+    "t": "They are comfortable and well done, but if waking up somewhere unmistakably Roman matters to you, I would look at <a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> or the <a href=\"hotel-eden-rome.html\">Eden</a> first."
+   },
+   {
+    "b": "You are paying for the wellness program.",
+    "t": "Nobody makes you blend oils, and you can ignore the calendar entirely. But the hotel is built around it, so if you will not use it, a different hotel will give you more Rome for the money."
+   },
+   {
+    "b": "Compare the neighbors.",
+    "t": "<a href=\"orient-express-la-minerva-rome.html\">La Minerva</a> is around the corner for a real Roman neighborhood feel, and the <a href=\"corinthia-rome.html\">Corinthia</a> is nearby for a quiet base with a beautiful spa and large rooms."
+   },
+   {
+    "b": "Transfers and drivers, arranged.",
+    "t": "I arrange private transfers from Fiumicino or Termini station, drivers for days outside the city, and onward travel by fast train or car to Florence, Naples or the Amalfi Coast."
+   }
+  ],
+  "verdict": "A great location near the Pantheon, a beautiful rooftop, and the best hotel in Rome for wellness travelers. If you are coming to Rome for Rome, the pasta, the wine and the feeling of the city, I would book you somewhere that feels more Italian.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked the property. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I will tell you honestly whether Six Senses is the right fit for your trip, request the right room, and be your direct line to the hotel while you are there. Rates are identical to booking direct.",
+  "cta_island_text": "My Rome Hotel Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-11-11",
+   "city": "Rome",
+   "country": "IT"
+  },
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/six-senses-rome/courtyard-arch.jpg",
+    "alt": "The Six Senses Rome courtyard under a glass roof, with travertine floors, potted palms and a chalkboard of the day's activities",
+    "w": 1320,
+    "h": 2340,
+    "caption": "The glass-roofed courtyard, with the day&rsquo;s wellness activities on the board"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/courtyard-bar.jpg",
+    "alt": "Green marble bar, pink striped cushions and banquettes under palms in the Six Senses Rome courtyard",
+    "w": 1320,
+    "h": 2340,
+    "caption": "Green marble and pink cushions in the courtyard"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/suite-living.jpg",
+    "alt": "A Six Senses Rome suite living room with a globe chandelier, travertine coffee table, plaster hand sculpture and sheer curtains",
+    "w": 1320,
+    "h": 2340,
+    "caption": "A suite living room"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/bedroom.jpg",
+    "alt": "A Six Senses Rome bedroom with a fluted wood wall, globe lamps, a grey headboard and framed prints of classical busts",
+    "w": 1320,
+    "h": 2340,
+    "caption": "Fluted wood and soft lighting in the rooms"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/bedside-detail.jpg",
+    "alt": "A fluted white nightstand, brass globe lamps and a framed bust print beside the bed at Six Senses Rome",
+    "w": 1320,
+    "h": 2340,
+    "caption": "Well done, but it could be any city"
+   },
+   {
+    "src": "/images/hotels/six-senses-rome/chaise-lounge.jpg",
+    "alt": "A wooden chaise lounge in afternoon light against slatted oak panels in a Six Senses Rome suite",
+    "w": 1320,
+    "h": 2340,
+    "caption": "Afternoon light in a suite"
+   }
+  ],
+  "hero_pos": "50% 54%"
+ },
+ {
   "slug": "rosewood-castiglion-del-bosco-tuscany",
   "name": "Rosewood Castiglion del Bosco",
   "plain_name": "Rosewood Castiglion del Bosco",
