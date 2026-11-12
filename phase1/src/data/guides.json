@@ -468,8 +468,8 @@
   "tagline": "Nature's masterpiece in the Cyclades.",
   "aag_h2": "The island built for exploration.",
   "already_booked": {
-    "href": "/already-booked-milos.html",
-    "label": "Already Booked Your Hotel? Start Here"
+   "href": "/already-booked-milos.html",
+   "label": "Already Booked Your Hotel? Start Here"
   },
   "facts": [
    {
@@ -694,7 +694,10 @@
    }
   ],
   "td_tip": "Milos rewards curiosity. Leave time to turn down roads you hadn't planned to take. You'll often discover your favorite beach by accident.",
-  "note_html": ""
+  "note_html": "",
+  "hero_video": "/video/milos-island-hero.mp4",
+  "hero_poster": "/video/milos-island-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  "sifnos": {
   "slug": "sifnos",
@@ -874,7 +877,10 @@
    }
   ],
   "td_tip": "The best days on Sifnos aren't built around checking off sights. Leave room for long lunches, spontaneous swims, and afternoons that unfold without a plan.",
-  "note_html": ""
+  "note_html": "",
+  "hero_video": "/video/sifnos-island-hero.mp4",
+  "hero_poster": "/video/sifnos-island-hero-poster.jpg",
+  "hero_pos": "50% 22%"
  },
  "folegandros": {
   "slug": "folegandros",
@@ -1020,7 +1026,10 @@
    }
   ],
   "td_tip": "Don't overplan Folegandros. The island is at its best when you leave room for long lunches, slow afternoons, and spontaneous moments.",
-  "note_html": ""
+  "note_html": "",
+  "hero_video": "/video/folegandros-island-hero.mp4",
+  "hero_poster": "/video/folegandros-island-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  "athens": {
   "slug": "athens",
