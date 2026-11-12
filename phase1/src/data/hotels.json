@@ -4767,7 +4767,8 @@
    "On my featured Italy page, Villa San Michele leads the Florence section, and my one-line case for it hasn't changed: a former 15th-century monastery in the Fiesole hills above the city, recently renovated, with the best views in Florence, and a private shuttle into town.",
    "That's the whole proposition. Florence's city-center hotels give you the streets; Villa San Michele gives you the city itself, laid out below your terrace, with the Duomo catching the evening light. The recent renovation brought the rooms fully current without disturbing the monastery bones. The facade is attributed to Michelangelo's school, and it reads that way.",
    "I toured the property in person and walked through a Garden Junior Suite. It's a genuinely unique place, built right into the hillside, with the villa, gardens, and terraces stepping down the slope. The one surprise: there isn't as much privacy as you'd expect at this level. Room choice really matters here, and when you book through me, I'll make sure you're in a private room.",
-   "How the rooms break down: rooms in the main building are smaller, but the views are incredible. The garden suites are tucked into the grounds, and one of them, which overlooks the parking lot, is the most private room on the entire property other than the chapel room. Tell me what matters most to you (view, space, or seclusion) and I'll match you to the right one.",
+   "The pool is a highlight, the chapel room is super special and unique, and the marble in the bathrooms is insanely beautiful.",
+   "How the rooms break down: rooms in the main building are smaller, but the views are incredible. The garden suites are tucked into the grounds, and one of them, which overlooks the parking lot, is the most private room on the entire property other than the chapel room. If I could choose a location, I'd book a Garden Junior Suite above the main lawn. Those are more private than the ones below the lawn, where people can look down on you. Tell me what matters most to you (view, space, or seclusion) and I'll match you to the right one.",
    "I'm a preferred partner of Belmond, so the upgrades, breakfast, and credits follow my clients up the hill, and the shuttle solves the only objection anyone ever raises about staying above the city."
   ],
   "stood_out": [
@@ -4778,6 +4779,18 @@
    {
     "b": "The monastery itself.",
     "t": "A 15th-century building with a facade attributed to Michelangelo's school, recently and beautifully renovated."
+   },
+   {
+    "b": "The pool.",
+    "t": "A highlight of the property, set on the hillside with the city below. (It&rsquo;s a climb, more on that below.)"
+   },
+   {
+    "b": "The chapel room.",
+    "t": "Super special and unique, and the most private room on the property."
+   },
+   {
+    "b": "The bathrooms.",
+    "t": "The marble is insanely beautiful."
    },
    {
     "b": "The private shuttle.",
@@ -4795,7 +4808,7 @@
    },
    {
     "b": "Privacy varies by room.",
-    "t": "There's less privacy than you'd expect at this level. I'll make sure you're in a private room. The most secluded garden suite overlooks the parking lot, but only the chapel room is more private."
+    "t": "There's less privacy than you'd expect at this level. If I could choose, I'd book a Garden Junior Suite above the main lawn: those are more private than the ones below it, where people can look down on you. The most secluded garden suite overlooks the parking lot, and only the chapel room is more private. I'll make sure you're in the right one."
    },
    {
     "b": "Lots of stairs up to the pool.",
@@ -4924,6 +4937,7 @@
   "intro": [
    "My featured-page line on the Four Seasons Firenze is the entire pitch: two Renaissance palazzos bordering one of the city's largest private gardens, with resort-like calm inside the city center. In a city of narrow streets and stone, that garden is close to a miracle.",
    "It solves Florence's fundamental trade-off. Normally you choose between being in the city and having room to breathe; here the Giardino della Gherardesca gives you acres of green, a real pool, and space for kids to run, all a ten-minute walk from the Duomo.",
+   "Inside, the rooms are a classic take on Italian style, and the gym is expansive: two full floors, which is almost unheard of in a historic city hotel. One of the coolest rooms on the property is the domed chapel, where the team can set up a super intimate dinner for two, or a proposal. It&rsquo;s a really well-rounded property, as almost all Four Seasons are.",
    "I'm a preferred partner of Four Seasons, and this is my Florence recommendation for families and for anyone staying long enough that the hotel has to work as a place to live."
   ],
   "stood_out": [
@@ -4936,12 +4950,24 @@
     "t": "Frescoed, restored, and museum-grade. The rooms live inside genuine Renaissance fabric."
    },
    {
+    "b": "Classic Italian rooms.",
+    "t": "A classic take on Italian style, set inside genuine Renaissance architecture."
+   },
+   {
     "b": "Resort infrastructure in the centro.",
     "t": "Pool, spa and garden dining, so you get the full resort day without leaving the city limits."
    },
    {
     "b": "Michelin-starred dining.",
     "t": "A Michelin-starred restaurant on site, with refined, formal service to match. Every detail is handled before you think to ask."
+   },
+   {
+    "b": "A two-floor gym.",
+    "t": "Expansive, and a real gym, which is rare in a historic city hotel."
+   },
+   {
+    "b": "The domed chapel.",
+    "t": "Private dinners for two, and proposals, under the dome. One of the coolest rooms on the property."
    }
   ],
   "know": [
@@ -4952,6 +4978,10 @@
    {
     "b": "The palazzo rooms vary wonderfully.",
     "t": "Frescoes here, garden views there. Tell me what matters and I'll request the right one."
+   },
+   {
+    "b": "A new, more modern wing is coming.",
+    "t": "The hotel is building an entire new section of more modern rooms, set to open in spring 2027, and from what I understand it will add around 90 rooms. Four Seasons is already at the top of Florence prices, next to Villa San Michele, so I&rsquo;ll be watching how the new rooms are priced. Ask me for the latest before you book."
    },
    {
     "b": "Families, this is your Florence hotel.",
@@ -5068,6 +5098,7 @@
   "intro": [
    "Collegio alla Querce is a brighter, more modern take on Florence. It sits in the hills about a 30-minute walk from the center. It's quiet and green, with an impressive art collection and sweeping views from almost every room.",
    "The appeal is light, space and the view: the city laid out below you, and a scenic walk when you want to be in it. The mood is a little more romantic and it draws a slightly younger crowd, while still being wonderful for families.",
+   "It&rsquo;s a beautifully designed property, and there&rsquo;s plenty to keep you on it: a beautiful pool, three fantastic dining venues, and a bar in the old headmaster&rsquo;s office from the building&rsquo;s days as a school, which is super cool.",
    "I&rsquo;ve stayed here myself, so I can tell you which rooms, views and layouts are worth asking for. I&rsquo;m a preferred partner of Auberge Resorts Collection, and this is my pick for return visitors, couples, and families who want a countryside feel without giving up Florence."
   ],
   "stood_out": [
@@ -5078,6 +5109,14 @@
    {
     "b": "The art collection.",
     "t": "An impressive collection throughout, set against bright, modern interiors."
+   },
+   {
+    "b": "The pool and three dining venues.",
+    "t": "A beautiful pool, and three fantastic places to eat, so dinner in town is a choice, not a necessity."
+   },
+   {
+    "b": "The bar in the old headmaster&rsquo;s office.",
+    "t": "The building was once a school, and the bar now sits in the headmaster&rsquo;s former office. Super cool."
    },
    {
     "b": "Quiet and green.",
@@ -7050,7 +7089,7 @@
    }
   ],
   "tagline": "A whole medieval borgo in the Valdarno hills, and the most authentic stay I&rsquo;ve found in Tuscany.",
-  "meta_desc": "Keith toured Il Borro, the Ferragamo family&rsquo;s medieval Tuscan borgo in the Valdarno hills, a Relais &amp; Ch&acirc;teaux property with newer accommodations a short drive away. Which part to stay in, who it suits, and Fora Reserve perks when you book through him.",
+  "meta_desc": "Keith toured Il Borro, the Ferragamo family&rsquo;s medieval Tuscan borgo in the Valdarno hills, a Relais &amp; Ch&acirc;teaux property with family-friendly rooms, a restaurant and a pool a short drive away. Which part to stay in, who it suits, and Fora Reserve perks when you book through him.",
   "style_label": "Restored medieval borgo and estate (Relais &amp; Ch&acirc;teaux, Fora Reserve)",
   "perfect_for": "Honeymooners in the original borgo, travelers who want a more modern room nearby, anyone after an authentic Tuscany",
   "region_label": "Region",
@@ -7066,7 +7105,7 @@
   "intro": [
    "Il Borro is a medieval village on a wooded ridge in the Valdarno hills, restored stone by stone by the Ferragamo family and run as one estate. The lanes, the terracotta roofs and the little church are the real thing. It&rsquo;s the most authentic Tuscan stay I&rsquo;ve walked through.",
    "It reminded me of <a href=\"aman-sveti-stefan-montenegro.html\">Aman Sveti Stefan</a> in its layout: an entire historic village turned into the hotel, so you&rsquo;re sleeping inside the borgo rather than looking at it from a resort across the road. That&rsquo;s rare, and it&rsquo;s what makes Il Borro so unique.",
-   "There are really two ways to stay. If you&rsquo;re on your honeymoon, stay in the original borgo. That&rsquo;s the magic. If you&rsquo;d rather have a more modern room, the estate&rsquo;s newer accommodations are a two-minute drive away, with the village still right there for dinner and an evening walk.",
+   "There are really two ways to stay. If you&rsquo;re on your honeymoon, stay in the original borgo. That&rsquo;s the magic. But Il Borro isn&rsquo;t just the borgo. There are more rooms about three minutes away by car, with their own restaurant and pool. They&rsquo;re more modern, much more accessible and better suited to families, with the village still right there for dinner and an evening walk.",
    "I toured it today, and it goes straight onto my Tuscany shortlist. Prices are competitive for the level, and it&rsquo;s a Relais &amp; Ch&acirc;teaux property and part of Fora Reserve, so the perks apply when you book through me."
   ],
   "stood_out": [
@@ -7083,8 +7122,8 @@
     "t": "Rooms inside the original borgo are the ones to book for a honeymoon. They're atmospheric, private and steps from dinner."
    },
    {
-    "b": "A modern option two minutes away.",
-    "t": "Travelers who prefer a newer, more contemporary room can stay in the estate&rsquo;s accommodations a two-minute drive from the village and still have all of it on the doorstep."
+    "b": "Rooms for families, down the road.",
+    "t": "More rooms about a three-minute drive from the village, with their own restaurant and pool. More modern, much more accessible and better suited to families, with the borgo on the doorstep."
    },
    {
     "b": "Stunning pools.",
@@ -7098,7 +7137,7 @@
   "know": [
    {
     "b": "Pick your stay before you pick your dates.",
-    "t": "Honeymooners and couples chasing atmosphere should be in the original borgo; if you want a more modern room, the newer accommodations are a two-minute drive away. Tell me which sounds like you and I&rsquo;ll match the room."
+    "t": "Honeymooners and couples chasing atmosphere should be in the original borgo; families, and anyone who wants a more modern, accessible room, should look at the rooms about three minutes away by car, which have their own restaurant and pool. Tell me which sounds like you and I&rsquo;ll match the room."
    },
    {
     "b": "You&rsquo;ll want a car (or a driver).",
