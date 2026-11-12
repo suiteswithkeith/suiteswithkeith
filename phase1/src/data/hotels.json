@@ -6791,13 +6791,7 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Castiglion del Bosco personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Tuscany Guide",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html",
-  "review": {
-   "stamp": "Visited October 2026",
-   "date": "2026-08-12",
-   "city": "Val d'Orcia",
-   "country": "IT"
-  }
+  "cta2_href": "rankings.html"
  },
  {
   "slug": "belmond-castello-di-casole-tuscany",
