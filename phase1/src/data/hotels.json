@@ -3516,7 +3516,10 @@
     "w": 1424,
     "h": 1900
    }
-  ]
+  ],
+  "hero_video": "/video/miramalfi-hero.mp4",
+  "hero_poster": "/video/miramalfi-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "le-sirenuse-positano",
@@ -3590,7 +3593,10 @@
    "date": "2026-08-12",
    "city": "Positano",
    "country": "IT"
-  }
+  },
+  "hero_video": "/video/le-sirenuse-hero.mp4",
+  "hero_poster": "/video/le-sirenuse-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "hotel-cap-estel-eze",
@@ -3796,7 +3802,10 @@
    "date": "2026-08-12",
    "city": "Positano",
    "country": "IT"
-  }
+  },
+  "hero_video": "/video/il-san-pietro-hero.mp4",
+  "hero_poster": "/video/il-san-pietro-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "hotel-cipriani-venice",
