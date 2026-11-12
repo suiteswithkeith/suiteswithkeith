@@ -263,7 +263,10 @@
    "date": "2026-08-09",
    "city": "Folegandros",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/gundari-folegandros-hero.mp4",
+  "hero_poster": "/video/gundari-folegandros-hero-poster.jpg",
+  "hero_pos": "50% 64%"
  },
  {
   "slug": "canaves-oia-suites-santorini",
@@ -343,7 +346,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/canaves-oia-suites-hero.mp4",
+  "hero_poster": "/video/canaves-oia-suites-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "parilio-paros",
@@ -421,7 +427,10 @@
    "date": "2026-08-09",
    "city": "Paros",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/parilio-paros-hero.mp4",
+  "hero_poster": "/video/parilio-paros-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "andronis-boutique-santorini",
@@ -499,7 +508,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/andronis-boutique-hero.mp4",
+  "hero_poster": "/video/andronis-boutique-hero-poster.jpg",
+  "hero_pos": "50% 60%"
  },
  {
   "slug": "bill-and-coo-coast-mykonos",
@@ -577,7 +589,10 @@
    "date": "2026-08-09",
    "city": "Mykonos",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/bill-and-coo-coast-hero.mp4",
+  "hero_poster": "/video/bill-and-coo-coast-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "kalesma-mykonos",
@@ -655,7 +670,10 @@
    "date": "2026-08-09",
    "city": "Mykonos",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/kalesma-mykonos-hero.mp4",
+  "hero_poster": "/video/kalesma-mykonos-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "cali-mykonos",
@@ -733,7 +751,10 @@
    "date": "2026-08-09",
    "city": "Mykonos",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/cali-mykonos-hero.mp4",
+  "hero_poster": "/video/cali-mykonos-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "cosme-paros",
@@ -885,7 +906,10 @@
    "date": "2026-08-09",
    "city": "Sifnos",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/stamna-sifnos-hero.mp4",
+  "hero_poster": "/video/stamna-sifnos-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "andronis-luxury-suites-santorini",
@@ -963,7 +987,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/andronis-luxury-suites-hero.mp4",
+  "hero_poster": "/video/andronis-luxury-suites-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "andronis-concept-santorini",
@@ -1041,7 +1068,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/andronis-concept-hero.mp4",
+  "hero_poster": "/video/andronis-concept-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "andronis-arcadia-santorini",
@@ -1123,7 +1153,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/andronis-arcadia-hero.mp4",
+  "hero_poster": "/video/andronis-arcadia-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "canaves-ena-santorini",
@@ -1203,7 +1236,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/canaves-ena-hero.mp4",
+  "hero_poster": "/video/canaves-ena-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "canaves-sunday-santorini",
@@ -1365,7 +1401,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/grace-santorini-hero.mp4",
+  "hero_poster": "/video/grace-santorini-hero-poster.jpg",
+  "hero_pos": "50% 64%"
  },
  {
   "slug": "mystique-santorini",
@@ -1443,7 +1482,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/mystique-santorini-hero.mp4",
+  "hero_poster": "/video/mystique-santorini-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "katikies-santorini",
@@ -1521,7 +1563,10 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/katikies-santorini-hero.mp4",
+  "hero_poster": "/video/katikies-santorini-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "meadowood-napa-valley",
@@ -2587,7 +2632,10 @@
    "date": "2026-08-09",
    "city": "Sifnos",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/nos-sifnos-hero.mp4",
+  "hero_poster": "/video/nos-sifnos-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "andronis-minois-paros",
@@ -2735,7 +2783,10 @@
    "date": "2026-08-09",
    "city": "Paros",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/vione-paros-hero.mp4",
+  "hero_poster": "/video/vione-paros-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "jupiter-villa-paros",
@@ -2883,7 +2934,10 @@
    "date": "2026-08-09",
    "city": "Mykonos",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/fouquets-mykonos-hero.mp4",
+  "hero_poster": "/video/fouquets-mykonos-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "four-seasons-mykonos",
@@ -3069,7 +3123,10 @@
    "date": "2026-08-09",
    "city": "Mykonos",
    "country": "GR"
-  }
+  },
+  "hero_video": "/video/bill-and-coo-suites-hero.mp4",
+  "hero_poster": "/video/bill-and-coo-suites-hero-poster.jpg",
+  "hero_pos": "50% 50%"
  },
  {
   "slug": "one-and-only-aesthesis-athens",
@@ -3948,7 +4005,7 @@
   "island_page": "featured-destinations.html",
   "locale": "Moltrasio, Lake Como, Italy",
   "img_dir": "proposals/lake-como/passalacqua",
-  "hero_img": "garden-lake.jpg",
+  "hero_img": "garden-car-film.jpg",
   "img2": "pool.jpg",
   "tagline": "An 18th-century villa turned 24-room showpiece. It's a villa you never want to leave, and a place I send clients without hesitation.",
   "meta_desc": "Honest Passalacqua review from a travel advisor who toured it in October 2026: the guests-only villa, the Moroccan-inspired spa, which rooms see the lake, dining, and whether it's worth it for a honeymoon.",
@@ -4069,7 +4126,8 @@
    "date": "2026-10-04",
    "city": "Moltrasio",
    "country": "IT"
-  }
+  },
+  "hero_pos": "50% 60%"
  },
  {
   "slug": "villa-d-este-lake-como",
@@ -7960,7 +8018,10 @@
    "date": "2026-10-04",
    "city": "Cadenabbia",
    "country": "IT"
-  }
+  },
+  "hero_video": "/video/lake-como-edition-hero.mp4",
+  "hero_poster": "/video/lake-como-edition-hero-poster.jpg",
+  "hero_pos": "50% 90%"
  },
  {
   "slug": "mandarin-oriental-lago-di-como",
@@ -8028,13 +8089,7 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Mandarin Oriental personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "My Sample Lake Como Proposal",
-  "cta2_href": "sample-proposal-lake-como.html",
-  "review": {
-   "stamp": "Visited October 2026",
-   "date": "2026-08-12",
-   "city": "Blevio",
-   "country": "IT"
-  }
+  "cta2_href": "sample-proposal-lake-como.html"
  },
  {
   "slug": "le-meurice-paris",
