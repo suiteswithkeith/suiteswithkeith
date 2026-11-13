@@ -5077,7 +5077,10 @@
    "date": "2026-08-10",
    "city": "Florence",
    "country": "IT"
-  }
+  },
+  "hero_video": "/video/four-seasons-firenze-hero.mp4",
+  "hero_poster": "/video/four-seasons-firenze-hero-poster.jpg",
+  "hero_pos": "50% 55%"
  },
  {
   "slug": "collegio-alla-querce-florence",
