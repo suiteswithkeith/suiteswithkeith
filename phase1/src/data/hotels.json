@@ -5329,7 +5329,10 @@
    "date": "2026-10-26",
    "city": "Florence",
    "country": "IT"
-  }
+  },
+  "hero_video": "/video/borgo-pignano-florence-hero.mp4",
+  "hero_poster": "/video/borgo-pignano-florence-hero-poster.jpg",
+  "hero_pos": "50% 36%"
  },
  {
   "slug": "hotel-lungarno-florence",
