@@ -7229,7 +7229,10 @@
    "date": "2026-09-29",
    "city": "Valdarno",
    "country": "IT"
-  }
+  },
+  "hero_video": "/video/il-borro-tuscany-hero.mp4",
+  "hero_poster": "/video/il-borro-tuscany-hero-poster.jpg",
+  "hero_pos": "50% 78%"
  },
  {
   "slug": "borgo-san-felice-tuscany",
