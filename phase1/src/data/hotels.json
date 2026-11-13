@@ -7875,6 +7875,7 @@
   "cta_line": "The Caruso earned its place on my list. Let me match you to the right room, time it to the right season, and build the rest of the trip around it.",
   "intro": [
    "Three Amalfi Coast hotels made my featured Italy page, and the Caruso is the one I describe as quieter and more composed than Positano, perched in Ravello above the coast, with the most dramatic infinity pool on the Amalfi Coast.",
+   "A note before you read on: I tried to visit the Caruso in October 2026, but it was closed for a private event, so I have not been inside yet. I did visit <a href=\"palazzo-avino-ravello.html\">Palazzo Avino</a> down the road. My inclination is that the service at the Caruso is slightly more elevated, but it runs around $1,000 more per night than Avino, and its base rooms are about double the size, so it is really a different product.",
    "Ravello is the coast's balcony: a village of gardens and music festivals a thousand feet above the sea, where the crowds thin and the views widen. The Caruso occupies an 11th-century palazzo at the town's edge, and its infinity pool hangs over the entire coastline. That image sells the trip on its own.",
    "As a Belmond preferred partner, I book the Caruso for couples who want the Amalfi Coast's drama at a composed distance, with Positano and Amalfi as day trips by the hotel's own boat rather than as your doorstep."
   ],
@@ -7898,6 +7899,10 @@
     "t": "The hotel runs boat trips and shuttles down to the coast. The elevation is the amenity, but plan for it."
    },
    {
+    "b": "Weighing it against Palazzo Avino?",
+    "t": "Both are in Ravello. <a href=\"palazzo-avino-ravello.html\">Palazzo Avino</a> is around $1,000 less per night, with smaller base rooms and a quieter, slightly awkward mood when I visited. The Caruso is the bigger splurge."
+   },
+   {
     "b": "Want the action instead?",
     "t": "<a href=\"le-sirenuse-positano.html\">Le Sirenuse</a> puts you in the center of Positano; <a href=\"il-san-pietro-di-positano.html\">Il San Pietro</a> gives you the cliffside icon. My featured page compares all three."
    },
@@ -7911,10 +7916,163 @@
    }
   ],
   "verdict": "Quieter and more composed than Positano, with the coast's most dramatic pool. It's the Amalfi stay for travelers who want the view without the crowds.",
-  "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Caruso personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
+  "perks_html": "Work with me and you get two things: Fora perks, and an honest read on the fit. As a Fora X advisor and Belmond preferred partner, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I will request the right room, arrange what you need before you arrive, and be your direct line to the hotel while you are there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All My Rankings",
   "cta2_href": "rankings.html"
+ },
+ {
+  "slug": "palazzo-avino-ravello",
+  "name": "Palazzo Avino",
+  "plain_name": "Palazzo Avino",
+  "short_name": "Palazzo Avino",
+  "island": "Amalfi Coast",
+  "island_page": "amalfi-coast.html",
+  "locale": "Ravello, Italy",
+  "img_dir": "hotels/palazzo-avino",
+  "hero_img": "palm-coast-view.jpg",
+  "img2": "terrace-view.jpg",
+  "hero_pos": "50% 58%",
+  "seo_title": "Palazzo Avino Review: Ravello, Amalfi Coast (2026)",
+  "tagline": "A historic pink palazzo in quiet Ravello, with sweeping views and a beautiful pool, for travelers who would trade the beach for a real village.",
+  "meta_desc": "Honest Palazzo Avino review from a travel advisor who visited in October 2026: a historic pink palazzo in quiet Ravello with sweeping views, tiered gardens and a beautiful pool at a lower rate than the coast, and the trade-offs, from the drive to the beach club to the mood.",
+  "style_label": "Historic pink palazzo in Ravello",
+  "perfect_for": "Travelers who want seclusion, a real village and a lower rate than the coast",
+  "region_label": "Region",
+  "region_html": "Ravello, Amalfi Coast, Italy",
+  "rank_text": "On my Amalfi Coast guide",
+  "rank_href": "amalfi-coast.html",
+  "stat1_num": "",
+  "stat1_label": "",
+  "stat2_num": "A",
+  "stat2_label": "Quiet Ravello, Sweeping Views, A Drive From The Beach",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "If Ravello sounds like your speed, let me match you to the right room and pair it with the right hotel on the water.",
+  "intro": [
+   "I visited Palazzo Avino in October 2026. It is a beautiful, historic and very pink property up in Ravello, which is relatively quiet compared to Amalfi and Positano. The rooms have sweeping mountain and sea views, and the tiered gardens step down to a beautiful pool overlooking the town below.",
+   "It is also significantly less expensive than most of the Amalfi Coast hotels I book. Of the ones I recommend, only Miramalfi comes in lower, and I would actually rank <a href=\"miramalfi-amalfi.html\">Miramalfi</a> above it.",
+   "The big thing to know is the location. The beach club is 15 to 20 minutes down a very windy, steep road, so you are not waking up and walking to the beach. There is also a fairly unsightly building below the property, which may bother some people.",
+   "I will be honest about the mood, too. The vibe felt a bit awkward to me, and I never fully settled in. Part of that may be that it was very quiet while I was there, especially in the indoor common areas. The food I had was not a highlight either.",
+   "Where Palazzo Avino shines is Ravello itself: an authentic Italian village that is not overrun by day-trippers. For travelers who want seclusion, and maybe do not have the budget to be right on the water, it works well. It also pairs nicely with a coastal hotel, three nights here and three nights by the sea."
+  ],
+  "stood_out": [
+   {
+    "b": "Sweeping views.",
+    "t": "Mountain and sea views from the rooms, over Ravello and down the coast."
+   },
+   {
+    "b": "Tiered gardens and the pool.",
+    "t": "The gardens step down the hillside to a beautiful pool overlooking the town below."
+   },
+   {
+    "b": "Historic, and very pink.",
+    "t": "A historic palazzo with a playful pink palette, from striped headboards to onyx basins."
+   },
+   {
+    "b": "Quiet Ravello.",
+    "t": "A real village that is not overrun by day-trippers, which is the whole selling point."
+   },
+   {
+    "b": "The rate.",
+    "t": "Significantly less expensive than most of the hotels I book on the coast."
+   }
+  ],
+  "know": [
+   {
+    "b": "The beach is a drive away.",
+    "t": "The beach club is 15 to 20 minutes down a windy, steep road. If walking down to the water matters, look at <a href=\"hotel-santa-caterina-amalfi.html\">Hotel Santa Caterina</a>, <a href=\"il-san-pietro-di-positano.html\">Il San Pietro</a> or <a href=\"miramalfi-amalfi.html\">Miramalfi</a>."
+   },
+   {
+    "b": "Mind the view below.",
+    "t": "A fairly unsightly building sits below the property. Some guests will not mind it, but I would rather you hear it from me."
+   },
+   {
+    "b": "It is very quiet.",
+    "t": "Especially in the indoor common areas. If you want energy and a scene, <a href=\"/amalfi-coast.html#positano\">Positano</a> is the other end of the spectrum."
+   },
+   {
+    "b": "Split the stay.",
+    "t": "Three nights in Ravello and three on the water is the version I would book: the village and the views here, then a hotel where you can swim off the rocks."
+   },
+   {
+    "b": "Weighing it against the Caruso?",
+    "t": "<a href=\"belmond-hotel-caruso-ravello.html\">Belmond Hotel Caruso</a> is also in Ravello. I have not been inside yet (it was closed for a private event when I tried), but it runs around $1,000 more per night, its base rooms are about double the size of Palazzo Avino&rsquo;s, and I expect the service is slightly more elevated. It is really a different product."
+   },
+   {
+    "b": "Transfers and boats, arranged.",
+    "t": "I arrange the private transfer from Naples, whether you land at the airport, the station or the port, and private boats along the coast and over to Capri."
+   }
+  ],
+  "verdict": "A beautiful, historic and very pink palazzo in quiet Ravello, with sweeping views and a lovely pool at a gentler rate. Book it for the village and the seclusion, not for the beach.",
+  "perks_html": "Work with me and you get two things: Fora perks where the hotel offers them, and an honest read on the fit. I will tell you whether Ravello is right for your trip, request the right room, and build the rest of the coast around it. Rates are identical to booking direct.",
+  "cta_island_text": "My Amalfi Coast Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "review": {
+   "stamp": "Visited October 2026",
+   "date": "2026-11-13",
+   "city": "Ravello",
+   "country": "IT"
+  },
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/palazzo-avino/terrace-view.jpg",
+    "alt": "The view from a Palazzo Avino terrace down the Amalfi Coast to Minori and Maiori",
+    "w": 1320,
+    "h": 2320,
+    "caption": "The view down the coast from the terrace"
+   },
+   {
+    "src": "/images/hotels/palazzo-avino/pool-garden.jpg",
+    "alt": "The pool at Palazzo Avino, edged with potted lemon trees and banana palms below the palazzo",
+    "w": 1320,
+    "h": 2320,
+    "caption": "The pool, tucked into the tiered gardens"
+   },
+   {
+    "src": "/images/hotels/palazzo-avino/lawn-umbrella.jpg",
+    "alt": "Pink striped umbrella and loungers on the lawn at Palazzo Avino, under olive trees above the sea",
+    "w": 1320,
+    "h": 2320,
+    "caption": "Loungers on the lawn, high above the sea"
+   },
+   {
+    "src": "/images/hotels/palazzo-avino/arched-window-view.jpg",
+    "alt": "An arched window at Palazzo Avino framing the mountains, the town below and the sea",
+    "w": 1320,
+    "h": 2320,
+    "caption": "Mountain and sea views from the rooms"
+   },
+   {
+    "src": "/images/hotels/palazzo-avino/lounge-piano.jpg",
+    "alt": "The white vaulted lounge at Palazzo Avino with rattan chairs, palms and a grand piano",
+    "w": 1320,
+    "h": 2320,
+    "caption": "The lounge, very quiet when I visited"
+   },
+   {
+    "src": "/images/hotels/palazzo-avino/striped-headboard.jpg",
+    "alt": "A pink and white striped headboard under a blue wave panel in a Palazzo Avino room",
+    "w": 1320,
+    "h": 2320,
+    "caption": "Very pink, in the best way"
+   },
+   {
+    "src": "/images/hotels/palazzo-avino/lion-pillows.jpg",
+    "alt": "Pillows embroidered with the pink Palazzo Avino lion against a patterned headboard",
+    "w": 1320,
+    "h": 2320,
+    "caption": "The lion on the pillows"
+   },
+   {
+    "src": "/images/hotels/palazzo-avino/onyx-sink.jpg",
+    "alt": "A pink onyx basin set into a granite vanity in a Palazzo Avino bathroom",
+    "w": 1320,
+    "h": 2320,
+    "caption": "Pink onyx in the bathrooms"
+   }
+  ]
  },
  {
   "slug": "lake-como-edition",
