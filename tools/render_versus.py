@@ -34,10 +34,12 @@ data-placeholder) so they are easy to find: grep -n 'data-placeholder' *.html
 Copy fields are HTML (entities, links) and are injected verbatim; title,
 description, subject, hotel and placeholder are plain text.
 """
-import html, json, os, re, sys
+import glob, html, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REF_SLUG = 'auberge-du-soleil-vs-montage-healdsburg'
+REF_SLUG = 'auberge-du-soleil-vs-montage-healdsburg'      # shell for a new versus.json page
+REF_SLUG_HERO = 'il-san-pietro-vs-borgo-santandrea'       # shell for a new Italy page
+ITALY = f'{ROOT}/tools/versus-italy'
 LINK_STYLE = ('style="font-size:13px; font-weight:400; letter-spacing:.2em; text-transform:uppercase; '
               'color:var(--brass); text-decoration:none; font-family: \'Instrument Serif\', Didot, Georgia, serif;"')
 
@@ -51,7 +53,43 @@ def attr(s):
 
 
 def names(g):
+    if g.get('names'):
+        return tuple(g['names'])
     return plain(g['h1_a']), plain(g['h1_b']).rstrip('?').strip()
+
+
+# ── data: versus.json entries, or Italy specs (tools/versus-italy/<slug>.json) ──
+def italy_entry(v):
+    """Map an Italy spec (see tools/versus-italy/_BRIEF.md) onto the shared entry shape.
+    style "hero" = the Italy look: a full-bleed photo pair behind the headline, a review
+    link on each card, linked table headers. Plain-text alts are entity-encoded here."""
+    a, b = v['a'], v['b']
+    e = {k: v[k] for k in ('title', 'description', 'h1_a', 'h1_b', 'stamp', 'rows', 'related') if k in v}
+    e.update(style='hero', place=v['place'], sub=v['sub'], names=[a['short'], b['short']],
+             hrefs=[a['href'], b['href']],
+             hero=[dict(h, alt=attr(h['alt'])) for h in v['hero']],
+             choose=[{'eyebrow': f'Choose {h["short"]}', 'h3': c['h3'], 'lead': c['lead'], 'review': h['href'],
+                      'img': c['img'], 'alt': attr(c['alt'])} for c, h in zip(v['choose'], (a, b))],
+             footnote=v['pitch'], verdict=v['band'],
+             guide=[{'h3': g['h3'], 'paras': g['paras'], 'img': g['img'], 'alt': attr(g['alt'])} for g in v['guide']],
+             faq=[[f['q'], f['a']] for f in v['faq']],
+             inquire_deck=v['inquire_deck'], subject=f'{a["short"]} vs {b["short"]} Inquiry',
+             hotel=f'{a["short"]} / {b["short"]}',
+             placeholder=html.unescape(v.get('dates_placeholder', 'September 2027 &middot; 4 nights')),
+             details_label='Anything else? Guests, budget, occasion (optional)',
+             details_placeholder='2 adults · honeymoon', note='Traveling within the next 30 days? You will hear from me today.')
+    for k in ('pair', 'row_photos', 'gallery', 'gallery_h2', 'gallery_eyebrow', 'map', 'final'):
+        if k in v:
+            e[k] = v[k]
+    return e
+
+
+def load(slug):
+    """The entry for a slug, and where it lives (so tools can write back to it)."""
+    spec = f'{ITALY}/{slug}.json'
+    if os.path.exists(spec):
+        return italy_entry(json.load(open(spec))), spec
+    return json.load(open(f'{ROOT}/phase1/src/data/versus.json'))[slug], 'versus.json'
 
 
 # ── pieces ──────────────────────────────────────────────────────────────────
@@ -78,6 +116,15 @@ def sec_head(eyebrow, h2):
 
 
 def header(g):
+    if g.get('style') == 'hero':
+        imgs = ''.join(
+            f'<img src="{h["src"]}" alt="{h["alt"]}" fetchpriority="high" style="width:100%; height:100%; '
+            f'object-fit:cover; display:block; object-position:{h.get("pos", "50% 50%")};">' for h in g['hero'])
+        return (f'<header class="hero" style="min-height:min(82svh,760px);">'
+                f'<div class="hero-img" style="display:grid; grid-template-columns:repeat(2,1fr); gap:2px;">{imgs}</div>'
+                f'<div class="container"> <p class="eyebrow">Head-to-head &middot; {g["place"]}</p> '
+                f'<h1 class="display-xl vs-h1" style="max-width:18ch;">{g["h1_a"]} <em style="font-style:italic; color:inherit;">{g["h1_b"]}</em></h1> '
+                f'<p class="sub" style="max-width:50ch;">{g["sub"]}</p> <p class="stamp" style="margin-top:20px;">{g["stamp"]}</p> </div></header>')
     return (f'<header class="section" style="padding-bottom:0;"> <div class="container"> '
             f'<p class="eyebrow reveal">{g["eyebrow"]}</p> '
             f'<h1 class="display-xl reveal vs-h1"><span>{g["h1_a"]}</span> or <em style="font-style:italic; color:var(--brass);">{g["h1_b"]}</em></h1> '
@@ -88,12 +135,19 @@ def header(g):
 def choose(g):
     cols = ''
     for c in g['choose']:
-        fig = ''
+        fig = review = ''
         if c.get('img'):
-            fig = (f' <figure style="margin:24px 0 0;"><img src="{c["img"]}" alt="{c["alt"]}" width="{c["w"]}" height="{c["h"]}" '
+            size = f' width="{c["w"]}" height="{c["h"]}"' if c.get('w') else ''
+            fig = (f' <figure style="margin:24px 0 0;"><img src="{c["img"]}" alt="{c["alt"]}"{size} '
                    f'loading="lazy" decoding="async" style="aspect-ratio:16/10; object-fit:cover; width:100%;"></figure>')
+        if c.get('review'):
+            short = c['eyebrow'].replace('Choose ', '', 1)
+            review = (f' <a href="{c["review"]}" style="font-size:13px; font-weight:400; letter-spacing:.2em; '
+                      f'text-transform:uppercase; color:var(--brass); text-decoration:none; display:inline-block; '
+                      f'margin-top:14px; font-family: \'Instrument Serif\', Didot, Georgia, serif;">'
+                      f'My {short} review&nbsp;&rarr;</a>')
         cols += (f'<div class="choose-col"> <span class="eyebrow">{c["eyebrow"]}</span> <h3>{c["h3"]}</h3> '
-                 f'<p class="lead">{c["lead"]}</p>{fig} </div>')
+                 f'<p class="lead">{c["lead"]}</p>{review}{fig} </div>')
     return f'<section class="section"> <div class="container"> <div class="choose reveal"> {cols} </div> </div> </section>'
 
 
@@ -122,8 +176,14 @@ def comparison(g):
     return (f'<section class="section" style="padding-top:0;"> <div class="container"> '
             f'{sec_head("Side by side", "How they <em>compare</em>")} '
             f'<div class="table-wrap vs-compare reveal"> <table> '
-            f'<thead><tr><th></th><th>{a}</th><th>{b}</th></tr></thead> <tbody> {body} </tbody> </table> </div> '
+            f'<thead><tr><th></th>{th(g, 0, a)}{th(g, 1, b)}</tr></thead> <tbody> {body} </tbody> </table> </div> '
             f'{foot} </div> </section>')
+
+
+def th(g, i, name):
+    if g.get('hrefs'):
+        return f'<th><a href="{g["hrefs"][i]}" style="color:inherit;">{name}</a></th>'
+    return f'<th>{name}</th>'
 
 
 def gallery(g):
@@ -195,7 +255,8 @@ def guide(g):
             img = (f'<div class="vs-guide-pair">{fig(s["img"], s["alt"], s["w"], s["h"], s.get("cap"))}'
                    f'{fig(s["img2"], s["alt2"], s["w2"], s["h2"], s.get("cap2"))}</div>')
         elif s.get('img'):
-            img = (f'<figure class="vs-guide-img"><img src="{s["img"]}" alt="{s["alt"]}" width="{s["w"]}" height="{s["h"]}" '
+            size = f' width="{s["w"]}" height="{s["h"]}"' if s.get('w') else ''
+            img = (f'<figure class="vs-guide-img"><img src="{s["img"]}" alt="{s["alt"]}"{size} '
                    f'loading="lazy" decoding="async"></figure>')
         else:
             img = ''
@@ -226,11 +287,15 @@ def inside(g):
             f'<div class="vsi-grid reveal"> {tiles} </div> </div> </section>')
 
 
+DECK = ('Tell me your dates and I&rsquo;ll tell you which one fits, and which room to ask for. Book through me for '
+        'Fora X perks and a hotel that knows you&rsquo;re coming, at the same rate as booking direct.')
+
+
 def inquire(g, slug):
     return (
         '<section class="section inquire" id="inquire"> <div class="container"> '
         '<h2 class="display-l reveal">Still deciding?</h2> '
-        '<p class="deck reveal" style="margin:18px auto 0; max-width:42ch;">Tell me your dates and I&rsquo;ll tell you which one fits, and which room to ask for. Book through me for Fora X perks and a hotel that knows you&rsquo;re coming, at the same rate as booking direct.</p> '
+        f'<p class="deck reveal" style="margin:18px auto 0; max-width:42ch;">{g.get("inquire_deck", DECK)}</p> '
         '<form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST"> '
         f'<input type="hidden" name="_subject" value="{attr(g["subject"])}"> '
         f'<input type="hidden" name="hotel" value="{attr(g["hotel"])}"> '
@@ -241,10 +306,10 @@ def inquire(g, slug):
         '<div class="step2"> <label for="q-name">And where do I send the recommendation?</label> '
         '<input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name"> '
         '<input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email"> '
-        '<label for="q-details" style="margin-top:2px;">Anything else? Nights, budget, occasion (optional)</label> '
-        '<input id="q-details" type="text" name="details" placeholder="7 nights · around $1,500/night · anniversary" autocomplete="off"> </div> '
+        f'<label for="q-details" style="margin-top:2px;">{g.get("details_label", "Anything else? Nights, budget, occasion (optional)")}</label> '
+        f'<input id="q-details" type="text" name="details" placeholder="{attr(g.get("details_placeholder", "7 nights · around $1,500/night · anniversary"))}" autocomplete="off"> </div> '
         '<button type="submit" class="btn" data-gtag-label="versus_inquiry_send" data-gtag-location="versus_cta">Send</button> '
-        '<p class="note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p> '
+        f'<p class="note">{g.get("note", "Traveling within the next 30 days? You&rsquo;ll hear from me today.")}</p> '
         '<p class="status" role="status" aria-live="polite"></p> </form> </div> </section>')
 
 
@@ -264,57 +329,66 @@ def body(g, slug):
 
 
 # ── head ────────────────────────────────────────────────────────────────────
-def uses_new_sections(g):
-    return any(g.get(k) for k in ('pair', 'row_photos', 'gallery', 'map', 'final'))
-
-
 def head(shell_head, g, slug):
     h = shell_head
     url = f'https://suiteswithkeith.com/{slug}.html'
     title, desc = attr(g['title']), attr(g['description'])
+    hero = g.get('style') == 'hero'
     h = re.sub(r'<title>.*?</title>', lambda _: f'<title>{title}</title>', h, flags=re.S)
     h = re.sub(r'(<meta (?:name="description"|property="og:description") content=")[^"]*"', lambda m: m.group(1) + desc + '"', h)
     h = re.sub(r'(<meta property="og:title" content=")[^"]*"', lambda m: m.group(1) + title + '"', h)
     h = re.sub(r'(<link rel="canonical" href=")[^"]*"', lambda m: m.group(1) + url + '"', h)
     h = re.sub(r'(<meta property="og:url" content=")[^"]*"', lambda m: m.group(1) + url + '"', h)
-    image = g.get('ld_image') or g.get('preload')
-    if g.get('preload'):
-        h = re.sub(r'(<link rel="preload" as="image" href=")[^"]*"', lambda m: m.group(1) + g['preload'] + '"', h)
+    preload = g['hero'][0]['src'] if hero else g.get('preload')
+    image = g.get('ld_image') or preload
+    if preload:
+        h = re.sub(r'(<link rel="preload" as="image" href=")[^"]*"', lambda m: m.group(1) + preload + '"', h)
+        h = re.sub(r'(<meta property="og:image" content=")[^"]*"', lambda m: m.group(1) + 'https://suiteswithkeith.com' + preload + '"', h)
 
     def ld(m):
         d = json.loads(m.group(1))
-        if d.get('@type') != 'Article':
+        if d.get('@type') == 'FAQPage' and g.get('faq'):
+            d['mainEntity'] = [{'@type': 'Question', 'name': plain(q),
+                                'acceptedAnswer': {'@type': 'Answer', 'text': plain(a)}} for q, a in g['faq']]
+        elif d.get('@type') == 'Article':
+            if not hero:  # the Italy Article block is written once and left alone (headline = the h1)
+                d['headline'] = g['title'].split('|')[0].strip()
+                d['description'] = g['description']
+                d['mainEntityOfPage'] = {'@type': 'WebPage', '@id': url}
+            if image:
+                d['image'] = 'https://suiteswithkeith.com' + image
+        else:
             return m.group(0)
-        d['headline'] = g['title'].split('|')[0].strip()
-        d['description'] = g['description']
-        if image:
-            d['image'] = 'https://suiteswithkeith.com' + image
-        d['mainEntityOfPage'] = {'@type': 'WebPage', '@id': url}
         return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False, separators=(',', ':')) + '</script>'
     h = re.sub(r'<script type="application/ld\+json">(.*?)</script>', ld, h, flags=re.S)
 
     css = '<link rel="stylesheet" href="/versus.css">'
-    if uses_new_sections(g) and css not in h:
-        h = h.replace('</head>', css + '</head>') if '</head>' in h else h + css
+    if css not in h:
+        h = h.replace('</head>', css + '</head>')
     return h
 
 
-def render(slug, versus):
-    g = versus[slug]
+def render(slug):
+    g, _ = load(slug)
     path = f'{ROOT}/{slug}.html'
-    shell = open(path if os.path.exists(path) else f'{ROOT}/{REF_SLUG}.html').read()
+    ref = REF_SLUG_HERO if g.get('style') == 'hero' else REF_SLUG
+    shell = open(path if os.path.exists(path) else f'{ROOT}/{ref}.html').read()
     i = shell.index('</nav>') + len('</nav>')
     j = shell.index('<footer')
-    hi = shell.index('</head>')
-    out = head(shell[:hi + 7], g, slug) + shell[hi + 7:i] + '  ' + body(g, slug) + '  ' + shell[j:]
+    hi = shell.index('</head>') + len('</head>')
+    out = head(shell[:hi], g, slug) + shell[hi:i] + '\n' + body(g, slug) + '\n' + shell[j:]
     if not os.path.exists(path):
         # a new page copies the reference shell: swap the reference slug wherever the shell names it
-        out = out.replace(f'/{REF_SLUG}.html', f'/{slug}.html')
+        out = out.replace(f'/{ref}.html', f'/{slug}.html')
     open(path, 'w').write(out)
     print('wrote', f'{slug}.html', f'({len(out) // 1024} KB)')
 
 
+def all_slugs():
+    italy = sorted(os.path.basename(p)[:-5] for p in glob.glob(f'{ITALY}/[!_]*.json'))
+    return sorted(json.load(open(f'{ROOT}/phase1/src/data/versus.json'))) + italy
+
+
 if __name__ == '__main__':
-    versus = json.load(open(f'{ROOT}/phase1/src/data/versus.json'))
-    for slug in sys.argv[1:]:
-        render(slug, versus)
+    for slug in sys.argv[1:] or all_slugs():
+        render(slug)
