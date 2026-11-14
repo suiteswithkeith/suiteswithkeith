@@ -2,6 +2,7 @@
 // Renders one head-to-head hotel comparison from phase1/src/data/versus.json.
 import Layout from './Layout.astro';
 import versus from '../data/versus.json';
+import Photo from '../components/VersusPhoto.astro';
 
 const { slug } = Astro.props;
 const g = versus[slug];
@@ -34,6 +35,12 @@ const faqSchema = g.faq && g.faq.length > 0 && JSON.stringify({
   '@type': 'FAQPage',
   mainEntity: g.faq.map(([q, a]) => ({ '@type': 'Question', name: plain(q), acceptedAnswer: { '@type': 'Answer', text: plain(a) } })),
 });
+// Optional photography / map / verdict sections (see tools/render_versus.py, the static twin of this layout).
+const nameA = plain(g.h1_a);
+const nameB = plain(g.h1_b).replace(/\?$/, '').trim();
+const hotelName = (k) => (k === 'a' ? nameA : k === 'b' ? nameB : null);
+const rowPhotos = Object.fromEntries((g.row_photos || []).map((p) => [p.after, p]));
+const usesNew = ['pair', 'row_photos', 'gallery', 'map', 'final'].some((k) => g[k] && (!Array.isArray(g[k]) || g[k].length));
 const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@media(min-width:900px){.vs-guide{grid-template-columns:1fr 1fr;gap:56px 72px}}.vs-guide>*{min-width:0}.vs-guide h3{font-family:var(--display);font-weight:400;font-size:clamp(1.512rem,2.912vw,1.904rem);line-height:1.25;margin-bottom:12px}.vs-guide p{margin-top:12px;max-width:60ch}.vs-guide-img{margin:0 0 20px}.vs-guide-img img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}.vs-guide-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 20px}.vs-guide-pair .vs-guide-img{margin:0}.vs-guide-pair img{aspect-ratio:3/4}.vs-guide-pair figcaption{margin-top:8px;font-size:.68rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--brass)}.vs-faq details{border-top:1px solid var(--hairline);padding:18px 0}.vs-faq details:last-child{border-bottom:1px solid var(--hairline)}.vs-faq summary{cursor:pointer;font-family:var(--display);font-size:1.344rem;list-style:none;position:relative;padding-right:28px}.vs-faq summary::-webkit-details-marker{display:none}.vs-faq summary::after{content:"+";position:absolute;right:0;top:0;color:var(--brass);font-family:var(--body)}.vs-faq details[open] summary::after{content:"\\2013"}.vs-faq details p{margin-top:12px;max-width:62ch}`;
 ---
 <Layout
@@ -47,6 +54,7 @@ const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@medi
 <Fragment slot="head" set:html={`<script type="application/ld+json">${schema}</script>`} />
 {faqSchema && <Fragment slot="head" set:html={`<script type="application/ld+json">${faqSchema}</script>`} />}
 {(faqSchema || g.guide) && <Fragment slot="head" set:html={`<style>${richCss}</style>`} />}
+{usesNew && <Fragment slot="head" set:html={`<link rel="stylesheet" href="/versus.css">`} />}
 
 <header class="section" style="padding-bottom:0;">
   <div class="container">
@@ -73,6 +81,16 @@ const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@medi
   </div>
 </section>
 
+{g.pair && (
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="vs-pair reveal">
+        {g.pair.map((ph, i) => <Photo ph={ph} hotel={i === 0 ? nameA : nameB} />)}
+      </div>
+    </div>
+  </section>
+)}
+
 <!-- the table -->
 <section class="section" style="padding-top:0;">
   <div class="container">
@@ -82,11 +100,19 @@ const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@medi
     </div>
     <div class="table-wrap vs-compare reveal">
       <table>
-        <thead><tr><th></th><th set:html={plain(g.h1_a)} /><th set:html={plain(g.h1_b).replace(/\?$/, '')} /></tr></thead>
+        <thead><tr><th></th><th set:html={nameA} /><th set:html={nameB} /></tr></thead>
         <tbody>
-          {g.rows.map(([label, a, b]) => (
-            <tr><td class="rowlabel" set:html={label} /><td set:html={a} /><td set:html={b} /></tr>
-          ))}
+          {g.rows.map(([label, a, b]) => {
+            const pics = rowPhotos[plain(label)] || rowPhotos[label];
+            return (
+              <Fragment>
+                <tr class={pics ? 'vs-has-pics' : undefined}><td class="rowlabel" set:html={label} /><td set:html={a} /><td set:html={b} /></tr>
+                {pics && (
+                  <tr class="vs-pics"><td class="vs-pics-mid" aria-hidden="true"></td><td><Photo ph={pics.a} hotel={nameA} /></td><td><Photo ph={pics.b} hotel={nameB} /></td></tr>
+                )}
+              </Fragment>
+            );
+          })}
         </tbody>
       </table>
     </div>
@@ -94,16 +120,81 @@ const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@medi
   </div>
 </section>
 
+{g.gallery && g.gallery.length > 0 && (
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow" set:html={g.gallery_eyebrow || 'In pictures'} />
+        <h2 class="display-l" set:html={g.gallery_h2 || 'A closer look'} />
+      </div>
+      <div class="vs-gallery reveal">
+        {g.gallery.map((ph) => <Photo ph={ph} hotel={hotelName(ph.hotel)} />)}
+      </div>
+    </div>
+  </section>
+)}
+
+{g.map && g.map.src && (
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow" set:html={g.map.eyebrow || 'On the map'} />
+        <h2 class="display-l" set:html={g.map.h2 || 'Where they are'} />
+      </div>
+      {g.map.intro && <p class="body-2 reveal" style="margin:-12px 0 34px; max-width:60ch;" set:html={g.map.intro} />}
+      <figure class="vs-map reveal">
+        <div class="vs-map-frame" style={`aspect-ratio:${g.map.ratio};`}>
+          <img src={g.map.src} alt={plain(g.map.alt)} loading="lazy" decoding="async" />
+          <div aria-hidden="true">
+            {(g.map.labels || []).map((lb) => (
+              <span class={`vs-map-label${lb.kind === 'water' ? ' is-water' : ''}`} style={`left:${lb.pos[0]}%; top:${lb.pos[1]}%;`} set:html={lb.text} />
+            ))}
+            {g.map.distance_miles && (
+              <span class="vs-map-distance" style={`left:${g.map.distance_pos[0]}%; top:${g.map.distance_pos[1]}%;`}>About {g.map.distance_miles} miles apart</span>
+            )}
+            {g.map.markers.map((mk) => (
+              <span class="vs-map-pin" data-side={mk.side || 'right'} style={`left:${mk.pos[0]}%; top:${mk.pos[1]}%;`}>
+                <span class="vs-map-name"><b set:html={mk.name} /><span set:html={mk.place} /></span>
+              </span>
+            ))}
+          </div>
+        </div>
+        {g.map.caption && <figcaption set:html={g.map.caption} />}
+      </figure>
+    </div>
+  </section>
+)}
+
 <!-- the verdict -->
-<section class="section band on-shadow">
-  <div class="container" style="max-width:860px;">
-    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">The question behind the question</span>
-    <h2 class="display-l reveal" set:html={g.verdict.h2} />
-    {g.verdict.paras.map((p) => (
-      <p class="body-2 reveal" style="margin-top:22px; max-width:56ch;" set:html={p} />
-    ))}
-  </div>
-</section>
+{g.final ? (
+  <section class="section band on-shadow vs-final" id="verdict">
+    <div class="container" style="max-width:1000px;">
+      <span class="eyebrow reveal" style="display:block; margin-bottom:16px;" set:html={g.final.eyebrow || 'The verdict'} />
+      <h2 class="display-l reveal" set:html={g.final.h2 || 'So, which would I book?'} />
+      {g.final.intro && <p class="body-2 reveal" style="margin-top:22px; max-width:56ch;" set:html={g.final.intro} />}
+      <div class="vs-final-picks reveal">
+        {g.final.picks.map((p, i) => (
+          <div class="vs-pick">
+            <span class="eyebrow" set:html={p.eyebrow || `Choose ${i === 0 ? nameA : nameB}`} />
+            <h3 set:html={p.h3} />
+            <p class="body-2" set:html={p.p} />
+          </div>
+        ))}
+      </div>
+      {g.final.close && <p class="vs-final-close body-2 reveal" set:html={g.final.close} />}
+    </div>
+  </section>
+) : (
+  <section class="section band on-shadow">
+    <div class="container" style="max-width:860px;">
+      <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">The question behind the question</span>
+      <h2 class="display-l reveal" set:html={g.verdict.h2} />
+      {g.verdict.paras.map((p) => (
+        <p class="body-2 reveal" style="margin-top:22px; max-width:56ch;" set:html={p} />
+      ))}
+    </div>
+  </section>
+)}
 
 {g.guide && g.guide.length > 0 && (
   <section class="section">
@@ -194,15 +285,22 @@ const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@medi
       <p class="note">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
       <p class="status" role="status" aria-live="polite"></p>
     </form>
-    {g.related.length > 0 && (
-      <p class="reveal" style="margin-top:26px; display:flex; gap:12px 32px; justify-content:center; flex-wrap:wrap;">
-        {g.related.map((r) => (
-          <a href={r.href} style="font-size:13px; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--brass); text-decoration:none; font-family: 'Instrument Serif', Didot, Georgia, serif;"><span set:html={r.label} /> &rarr;</a>
-        ))}
-      </p>
-    )}
   </div>
 </section>
+
+<!-- the booking band (js/swk-book.js) lands just before #inquire; keep reading after the form -->
+{g.related.length > 0 && (
+  <section class="section vs-related">
+    <div class="container">
+      <span class="eyebrow reveal" style="display:block; margin-bottom:22px;">Keep reading</span>
+      <p class="vs-related-links reveal">
+        {g.related.map((r) => (
+          <a href={r.href} style="font-size:13px; font-weight:400; letter-spacing:.2em; text-transform:uppercase; color:var(--brass); text-decoration:none; font-family: 'Instrument Serif', Didot, Georgia, serif;"><span set:html={r.label} />&nbsp;&rarr;</a>
+        ))}
+      </p>
+    </div>
+  </section>
+)}
 
 </Layout>
 

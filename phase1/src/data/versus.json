@@ -1422,9 +1422,9 @@
   ],
   "rows": [
    [
-    "The Fifteen",
-    "#14, the Napa entry",
-    "#15, the Sonoma entry (and #03 on my Napa &amp; Sonoma ranking)"
+    "My rankings",
+    "On my list of the world&rsquo;s 15 best honeymoon hotels",
+    "On the same honeymoon list, and #03 in my Napa &amp; Sonoma ranking"
    ],
    [
     "The valley",
@@ -1453,13 +1453,6 @@
    ]
   ],
   "footnote": "At Auberge, reserve your terrace table when you book the room. The tables sell out as fast as the rooms do, so I book both together. If you&rsquo;re bringing kids, other hotels on my Napa &amp; Sonoma list are a better fit. Both hotels are Fora / Virtuoso partners: you pay the same rate as booking direct, plus hotel credits and extras.",
-  "verdict": {
-   "h2": "Both are great honeymoons. Here&rsquo;s the difference.",
-   "paras": [
-    "Auberge du Soleil is the classic Napa romance: dinner on the terrace above the valley as the sun goes down. If that&rsquo;s the picture in your head, book Auberge.",
-    "Montage puts you in the vineyards themselves: your own bungalow, your own fire pit and the slower pace of Healdsburg. It&rsquo;s the hotel I&rsquo;ve gone back to more than any other in the world. Tell me a little about the two of you, and I&rsquo;ll tell you which one fits."
-   ]
-  },
   "subject": "Auberge du Soleil vs Montage Inquiry",
   "hotel": "Auberge du Soleil / Montage Healdsburg",
   "placeholder": "Harvest season, 3 nights",
@@ -1484,7 +1477,185 @@
     "href": "/auberge-du-soleil-vs-meadowood.html",
     "label": "Auberge or Meadowood"
    }
-  ]
+  ],
+  "pair": [
+   {
+    "placeholder": "Auberge du Soleil on the Rutherford hillside, looking out over the valley",
+    "cap": "On the Rutherford hillside, above the vines"
+   },
+   {
+    "src": "/images/napa/montage-1.jpg",
+    "alt": "The main lodge at Montage Healdsburg, set above rows of vineyard",
+    "w": 1800,
+    "h": 1013,
+    "cap": "The lodge above the vineyards"
+   }
+  ],
+  "row_photos": [
+   {
+    "after": "The view",
+    "a": {
+     "placeholder": "A guest room terrace looking out over Napa Valley",
+     "cap": "Looking out over the valley"
+    },
+    "b": {
+     "src": "/images/napa/montage-3-firepit.jpg",
+     "alt": "A vineyard-room terrace at Montage Healdsburg, its fire pit lit at dusk",
+     "w": 1200,
+     "h": 784,
+     "cap": "Your own fire pit, at dusk"
+    }
+   },
+   {
+    "after": "Dining",
+    "a": {
+     "placeholder": "The restaurant terrace at sunset",
+     "cap": "The restaurant terrace"
+    },
+    "b": {
+     "src": "/images/personal/montage-31st.jpg",
+     "alt": "Keith&rsquo;s 31st birthday dinner on the Hazel Hill terrace at Montage Healdsburg",
+     "w": 1360,
+     "h": 1802,
+     "pos": "50% 62%",
+     "cap": "My 31st birthday dinner on the Hazel Hill terrace"
+    }
+   }
+  ],
+  "gallery_h2": "A closer look",
+  "gallery": [
+   {
+    "hotel": "a",
+    "placeholder": "The pool, with the valley below",
+    "cap": "The pool"
+   },
+   {
+    "hotel": "b",
+    "src": "/images/napa/montage-2.jpg",
+    "alt": "A bungalow terrace at Montage Healdsburg with a stone fireplace, above oak-covered hills",
+    "w": 1355,
+    "h": 900,
+    "cap": "A bungalow terrace over the oak hills"
+   },
+   {
+    "hotel": "a",
+    "placeholder": "A guest room",
+    "cap": "A guest room"
+   },
+   {
+    "hotel": "b",
+    "placeholder": "A vineyard bungalow, inside",
+    "cap": "Inside a vineyard bungalow"
+   }
+  ],
+  "map": {
+   "data": "norcal-counties",
+   "bbox": [
+    -123.35,
+    37.95,
+    -121.95,
+    38.85
+   ],
+   "highlight": [
+    "Napa",
+    "Sonoma"
+   ],
+   "markers": [
+    {
+     "name": "Auberge du Soleil",
+     "place": "Rutherford &middot; Napa Valley",
+     "lat": 38.4971,
+     "lon": -122.4109,
+     "side": "below",
+     "source": "Relais & Chateaux property page, GPS 38.4971, -122.4109 (180 Rutherford Hill Rd)",
+     "pos": [
+      67.08,
+      39.21
+     ]
+    },
+    {
+     "name": "Montage Healdsburg",
+     "place": "Healdsburg &middot; Sonoma County",
+     "lat": 38.6175,
+     "lon": -122.8664,
+     "side": "above",
+     "source": "Healdsburg town center, Wikipedia (38.6175, -122.8664). The hotel (100 Montage Way) is just outside downtown; no published coordinates found for the property itself. CONFIRM.",
+     "pos": [
+      34.54,
+      25.83
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Sonoma County",
+     "lat": 38.4,
+     "lon": -122.98,
+     "kind": "region",
+     "pos": [
+      26.43,
+      50.0
+     ]
+    },
+    {
+     "text": "Napa County",
+     "lat": 38.25,
+     "lon": -122.3,
+     "kind": "region",
+     "pos": [
+      75.0,
+      66.67
+     ]
+    },
+    {
+     "text": "San Pablo Bay",
+     "lat": 38.05,
+     "lon": -122.36,
+     "kind": "water",
+     "pos": [
+      70.71,
+      88.89
+     ]
+    },
+    {
+     "text": "Pacific Ocean",
+     "lat": 38.22,
+     "lon": -123.16,
+     "kind": "water",
+     "pos": [
+      13.57,
+      70.0
+     ]
+    }
+   ],
+   "line": true,
+   "h2": "Two valleys, two different trips",
+   "intro": "Auberge du Soleil is in Rutherford, right in the middle of Napa Valley. Montage is just outside Healdsburg, in northern Sonoma County. The Mayacamas Mountains sit between the two valleys, so these really are two different wine-country trips: different towns, different wineries and a different pace.",
+   "alt": "Map of Napa and Sonoma counties, showing Auberge du Soleil in Rutherford, Napa Valley, and Montage Healdsburg in Healdsburg, Sonoma County",
+   "caption": "Distance shown as the crow flies. Montage is marked at Healdsburg; the hotel itself is just outside downtown.",
+   "distance_miles": 26,
+   "distance_pos": [
+    50.81,
+    32.52
+   ],
+   "src": "/images/maps/auberge-du-soleil-vs-montage-healdsburg.svg",
+   "ratio": "1000 / 820"
+  },
+  "final": {
+   "h2": "So, which would I book?",
+   "intro": "Both are on my list of the world&rsquo;s 15 best honeymoon hotels, so you can&rsquo;t go wrong. It comes down to the trip you want.",
+   "picks": [
+    {
+     "h3": "For a first trip to Napa",
+     "p": "Book Auberge if it&rsquo;s your first time in Napa and the trip is about romance. Dinner on the terrace as the sun goes down over the valley, a great bottle from the wine list, and the Napa most people picture before they arrive. For the classic version, this is the one."
+    },
+    {
+     "h3": "For the slower pace of Sonoma",
+     "p": "Book Montage if you&rsquo;d rather have a contemporary resort, your own bungalow in the vineyards and the slower pace of Healdsburg. It&rsquo;s the hotel I&rsquo;ve gone back to more than any other in the world, more than twenty stays, and the fire pit on your own terrace is a big part of why."
+    }
+   ],
+   "close": "Still torn? <a href=\"#inquire\">Tell me a little about the two of you</a>, and I&rsquo;ll tell you which one fits."
+  }
  },
  "santorini-vs-mykonos": {
   "title": "Santorini or Mykonos | Suites With Keith",
@@ -2063,7 +2234,7 @@
    },
    {
     "href": "/the-fifteen.html",
-    "label": "The Fifteen"
+    "label": "My 15 favorite honeymoon hotels"
    }
   ]
  },
@@ -2530,7 +2701,7 @@
   "rows": [
    [
     "Where it stands with me",
-    "#14 on My 15 favorite honeymoon hotels&rsquo;s Napa entry",
+    "On my list of the world&rsquo;s 15 best honeymoon hotels",
     "#01 in my Napa &amp; Sonoma ranking, after years of repeat stays"
    ],
    [

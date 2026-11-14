@@ -1,0 +1,20 @@
+---
+// One photograph on a head-to-head page: a real image already on the site,
+// or a clearly marked placeholder ({ placeholder, cap }) until Keith has his own.
+// Mirrors photo() in tools/render_versus.py.
+const { ph, hotel } = Astro.props;
+const strip = (s) => (s || '').replace(/<[^>]+>/g, '').replace(/&rsquo;/g, '’').replace(/&amp;/g, '&');
+---
+<figure class={ph.placeholder ? 'vs-fig vs-ph' : 'vs-fig'} data-placeholder={ph.placeholder ? strip(ph.placeholder) : undefined}>
+  {ph.placeholder ? (
+    <div class="vs-ph-box" role="img" aria-label={`Photograph to come${hotel ? ': ' + hotel : ''}, ${strip(ph.placeholder)}`}>
+      <span class="vs-ph-mark">Photograph to come</span>
+      <span class="vs-ph-note" set:html={ph.placeholder} />
+    </div>
+  ) : (
+    <img src={ph.src} alt={strip(ph.alt)} width={ph.w} height={ph.h} loading="lazy" decoding="async" style={ph.pos ? `object-position:${ph.pos};` : undefined} />
+  )}
+  {(hotel || ph.cap) && (
+    <figcaption>{hotel && <span class="vs-fig-hotel">{hotel}</span>}<Fragment set:html={ph.cap || ''} /></figcaption>
+  )}
+</figure>

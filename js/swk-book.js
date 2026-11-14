@@ -103,7 +103,7 @@
       /* "book through me" band and per-hotel asks on head-to-head pages */
       '.swkv-ask{display:inline-block;margin-top:22px;font-family:"Instrument Serif", Didot, Georgia, serif;font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass,#836229);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:3px}',
       '.swkv-ask:hover{color:var(--ink,#1F201A)}',
-      '.swkv{padding-top:0}',
+      '.swkv{padding-bottom:0}',
       '.swkv-card{display:grid;grid-template-columns:1fr;gap:30px;background:var(--plaster-deep,#E9E5DA);padding:clamp(30px,5vw,56px) clamp(24px,5vw,60px);border-top:2px solid var(--brass,#836229)}',
       '@media(min-width:900px){.swkv-card{grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}}',
       '.swkv-card>*{min-width:0}',
@@ -186,13 +186,12 @@
     inquire.parentNode.insertBefore(section, inquire);
   }
 
-  /* Head-to-head pages (/x-vs-y.html): readers get their answer from the
-     two "Choose…" cards and often leave before the form at the bottom.
-     So, right where they decide:
-     - an "Ask me about <hotel>" link under each card, which carries the
-       hotel into the form (hidden field + heading) and jumps to it;
-     - a "book through me" band after the cards: why booking with Keith
-       is better than booking direct, at the same rate;
+  /* Head-to-head pages (/x-vs-y.html):
+     - an "Ask me about <hotel>" link under each "Choose…" card, which carries
+       the hotel into the form (hidden field + heading) and jumps to it;
+     - a "book through me" band right before the inquiry form, once the reader
+       has had the comparison, photographs, map and verdict: why booking with
+       Keith is better than booking direct, at the same rate;
      - the phone sticky button speaks to the page ("Booking one of these?").
      Hotel names come from the comparison table's header row. */
   function injectVersusBand() {
@@ -239,9 +238,8 @@
       if (when) window.setTimeout(function () { when.focus({ preventScroll: true }); }, 450);
     });
 
-    /* 2 · the band after the cards */
-    var host = choose.closest('section');
-    if (host && host.parentNode) {
+    /* 2 · the band, after the editorial content and just before the form */
+    if (inquire.parentNode) {
       /* General client praise, one per page, picked from the page slug so it
          stays put. Same list, order and pick as phase1/src/data/clientquotes.js;
          Passalacqua pages always get C&J, who stayed there through Keith. */
@@ -283,7 +281,7 @@
             quote +
           '</div>' +
         '</div>';
-      host.parentNode.insertBefore(section, host.nextSibling);
+      inquire.parentNode.insertBefore(section, inquire);
     }
 
     /* 3 · the phone sticky button */
