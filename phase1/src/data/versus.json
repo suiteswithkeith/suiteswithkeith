@@ -4330,5 +4330,101 @@
     "label": "Grand Hotel Tremezzo or Villa d&rsquo;Este"
    }
   ]
+ },
+ "auberge-du-soleil-vs-stanly-ranch": {
+  "title": "Auberge du Soleil or Stanly Ranch? | Suites With Keith",
+  "description": "Two Auberge Resorts in Napa, two very different trips: the hillside romantic escape on Keith's honeymoon shortlist, or the contemporary ranch resort with the valley's prettiest spa.",
+  "eyebrow": "Head-to-head &middot; Two Auberge resorts",
+  "h1_a": "Auberge du Soleil",
+  "h1_b": "Stanly Ranch?",
+  "deck": "Same parent company, opposite ideas of a Napa trip. Auberge du Soleil is the original Napa luxury property, a romantic escape on the Rutherford hillside. Stanly Ranch is the contemporary resort down in Carneros, built around design and wellness. Here&rsquo;s how I split them.",
+  "stamp": "#14 on The Fifteen vs #06 in my Napa &amp; Sonoma ranking &middot; both Auberge Resorts Collection",
+  "preload": "/images/napa/stanly-ranch.jpg",
+  "choose": [
+   {
+    "eyebrow": "Choose Auberge du Soleil",
+    "h3": "If it&rsquo;s a romantic escape",
+    "lead": "The original Napa luxury property, perched on the Rutherford hillside, and still the most romantic seat in the valley. My note beside it on The Fifteen names the three reasons: the terrace, the valley, the wine list."
+   },
+   {
+    "eyebrow": "Choose Stanly Ranch",
+    "h3": "If you want a contemporary resort",
+    "lead": "Possibly the most architecturally striking hotel in wine country, with arguably the prettiest spa in the valley, a large fire-pit terrace on every room, and Bear, one of the more interesting restaurants in Napa right now.",
+    "img": "/images/napa/stanly-ranch.jpg",
+    "alt": "Modern ranch architecture at Stanly Ranch, Napa",
+    "w": 1800,
+    "h": 1013
+   }
+  ],
+  "rows": [
+   [
+    "Where it stands with me",
+    "#14 on The Fifteen, the Napa entry on my honeymoon shortlist",
+    "#06 in my Napa &amp; Sonoma ranking"
+   ],
+   [
+    "The setting",
+    "The Rutherford hillside, up-valley, looking out over the vines",
+    "The Carneros marshes at the south end, convenient to Napa and Sonoma"
+   ],
+   [
+    "The feel",
+    "Classic and romantic: the wine country people picture",
+    "Contemporary: modern ranch architecture done at full conviction"
+   ],
+   [
+    "The signature",
+    "The most famous dining terrace in the valley, and the wine list to match",
+    "Arguably the prettiest spa in the valley, and Bear"
+   ],
+   [
+    "The rooms",
+    "Elevated, so the whole stay looks out over the valley",
+    "A large terrace with its own fire pit on every room"
+   ],
+   [
+    "Who it suits",
+    "Honeymoons, anniversaries, food-and-wine couples; adults-first",
+    "Younger couples, wellness travelers, design lovers"
+   ],
+   [
+    "The booking math",
+    "Auberge preferred partner: amenity package and upgrade priority",
+    "Fora / Virtuoso partner: sometimes a third or fourth night free"
+   ]
+  ],
+  "footnote": "At Auberge du Soleil, book the terrace with the room. The famous tables go as fast as the rooms do, so I reserve both together. At Stanly Ranch, terrace privacy varies by room, so I&rsquo;ll steer you to the best-sited ones, and give the smart-room lighting a night to learn. Both book through me at the same rate as direct, with the extras layered on.",
+  "verdict": {
+   "h2": "The romance, or the resort.",
+   "paras": [
+    "Auberge du Soleil can be summarized in six words and lose nothing: the terrace, the valley, the wine list. If the trip is about the two of you, with dinner above the valley as the light goes, it&rsquo;s the one. It&rsquo;s the only Napa property on my honeymoon shortlist.",
+    "Stanly Ranch is the statement piece: the architecture, the spa, the fire pits. It&rsquo;s the better pick if you want a modern resort and a spa day matters as much as dinner. Just know it sits in the marshes, not the vineyard postcard. Romantic escape or contemporary resort? Tell me the trip and I&rsquo;ll book the right one."
+   ]
+  },
+  "subject": "Auberge du Soleil vs Stanly Ranch Inquiry",
+  "hotel": "Auberge du Soleil / Stanly Ranch",
+  "placeholder": "Anniversary in October, 3 nights",
+  "related": [
+   {
+    "href": "/napa-sonoma.html",
+    "label": "My full Napa &amp; Sonoma ranking"
+   },
+   {
+    "href": "/hotels/auberge-du-soleil-napa.html",
+    "label": "Auberge du Soleil review"
+   },
+   {
+    "href": "/hotels/stanly-ranch-napa.html",
+    "label": "Stanly Ranch review"
+   },
+   {
+    "href": "/auberge-du-soleil-vs-meadowood.html",
+    "label": "Auberge or Meadowood"
+   },
+   {
+    "href": "/carneros-resort-vs-stanly-ranch.html",
+    "label": "Carneros or Stanly Ranch"
+   }
+  ]
  }
 }
