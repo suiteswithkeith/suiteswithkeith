@@ -175,5 +175,94 @@
       "label": "Where to stay on the Amalfi Coast"
     }
   ],
-  "date": "2026-10-27"
+  "date": "2026-10-27",
+  "final": {
+    "picks": [
+      {
+        "h3": "For a hotel that knows itself",
+        "p": "Book Santa Caterina if you want warmth and history over a statement. The family has run it since 1904, many of the team have been there for decades, and I stayed in room 45, which was a dream. It&rsquo;s also my pick for a multigenerational trip."
+      },
+      {
+        "h3": "For something new, with a beach",
+        "p": "Book Borgo Santandrea if you want something very modern and brand new in feel, with a beautiful, massive, proper beach. Dinner at Alici is fantastic. Go May to June or September, since the sun leaves the water early in the fall, and let me pick the room."
+      }
+    ]
+  },
+  "map": {
+    "data": "amalfi-coast",
+    "bbox": [
+      14.43,
+      40.57,
+      14.65,
+      40.68
+    ],
+    "markers": [
+      {
+        "name": "Santa Caterina",
+        "place": "Amalfi",
+        "lat": 40.6294,
+        "lon": 14.5927,
+        "source": "Great Small Hotels, 40 37 46.16 N 14 35 34.09 E",
+        "pos": [
+          73.95,
+          46.0
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Borgo Santandrea",
+        "place": "Conca dei Marini",
+        "lat": 40.6189,
+        "lon": 14.5743,
+        "source": "Relais & Chateaux property page, GPS 40.6189, 14.5743",
+        "pos": [
+          65.59,
+          55.55
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Gulf of Salerno",
+        "lat": 40.59,
+        "lon": 14.56,
+        "kind": "water",
+        "pos": [
+          59.09,
+          81.82
+        ],
+        "edge": false
+      },
+      {
+        "text": "Ravello",
+        "lat": 40.6493,
+        "lon": 14.6117,
+        "kind": "region",
+        "pos": [
+          82.59,
+          27.91
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the coast",
+    "intro": "Santa Caterina is in Amalfi. Borgo Santandrea is in Conca dei Marini. The Amalfi Coast is one long cliffside road, so where your hotel sits decides which towns are on your doorstep.",
+    "alt": "Map showing Santa Caterina in Amalfi and Borgo Santandrea in Conca dei Marini",
+    "distance_miles": 1,
+    "distance_text": "About 1 mile apart",
+    "distance_pos": [
+      69.77,
+      50.77
+    ],
+    "src": "/images/maps/santa-caterina-vs-borgo-santandrea.svg",
+    "ratio": "1000 / 659",
+    "distance_pill": false,
+    "caption": "About 1 mile apart, as the crow flies."
+  }
 }

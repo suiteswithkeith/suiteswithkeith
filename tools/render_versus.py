@@ -201,17 +201,17 @@ def map_section(g):
     if not m or 'src' not in m:
         return ''
     pins = ''.join(
-        f'<span class="vs-map-pin" data-side="{mk.get("side", "right")}" style="left:{mk["pos"][0]}%; top:{mk["pos"][1]}%;">'
+        f'<span class="vs-map-pin" data-side="{mk.get("side", "right")}" data-align="{mk.get("align", "center")}" style="left:{mk["pos"][0]}%; top:{mk["pos"][1]}%;">'
         f'<span class="vs-map-name"><b>{mk["name"]}</b><span>{mk["place"]}</span></span></span>'
         for mk in m['markers'])
     labels = ''.join(
-        f'<span class="vs-map-label{" is-water" if lb["kind"] == "water" else ""}" '
+        f'<span class="vs-map-label{" is-water" if lb["kind"] == "water" else ""}{" is-edge" if lb.get("edge") else ""}" '
         f'style="left:{lb["pos"][0]}%; top:{lb["pos"][1]}%;">{lb["text"]}</span>'
         for lb in m.get('labels', []))
     dist = ''
-    if m.get('distance_miles'):
+    if m.get('distance_miles') and m.get('distance_pill', True):
         dist = (f'<span class="vs-map-distance" style="left:{m["distance_pos"][0]}%; top:{m["distance_pos"][1]}%;">'
-                f'About {m["distance_miles"]} miles apart</span>')
+                f'{m.get("distance_text") or "About " + str(m["distance_miles"]) + " miles apart"}</span>')
     intro = f'<p class="body-2 reveal" style="margin:-12px 0 34px; max-width:60ch;">{m["intro"]}</p>' if m.get('intro') else ''
     cap = f'<figcaption>{m["caption"]}</figcaption>' if m.get('caption') else ''
     return (f'<section class="section" style="padding-top:0;"> <div class="container"> '
@@ -229,7 +229,15 @@ def verdict(g):
             f'<div class="vs-pick"><span class="eyebrow">{p.get("eyebrow") or "Choose " + nm[i]}</span>'
             f'<h3>{p["h3"]}</h3><p class="body-2">{p["p"]}</p></div>'
             for i, p in enumerate(f['picks']))
-        intro = f'<p class="body-2 reveal" style="margin-top:22px; max-width:56ch;">{f["intro"]}</p>' if f.get('intro') else ''
+        if f.get('intro'):
+            intro = f'<p class="body-2 reveal" style="margin-top:22px; max-width:56ch;">{f["intro"]}</p>'
+        elif g.get('verdict'):
+            # no intro of its own: keep the page's existing verdict (its line, then its reasoning) above the picks
+            v = g['verdict']
+            intro = (f'<p class="deck reveal" style="margin-top:14px; max-width:40ch;">{v["h2"]}</p>' +
+                     ''.join(f'<p class="body-2 reveal" style="margin-top:22px; max-width:56ch;">{p}</p>' for p in v['paras']))
+        else:
+            intro = ''
         close = f'<p class="vs-final-close body-2 reveal">{f["close"]}</p>' if f.get('close') else ''
         return (f'<section class="section band on-shadow vs-final" id="verdict"> <div class="container" style="max-width:1000px;"> '
                 f'<span class="eyebrow reveal" style="display:block; margin-bottom:16px;">{f.get("eyebrow", "The verdict")}</span> '

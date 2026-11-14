@@ -179,5 +179,94 @@
       "label": "Where to stay on the Amalfi Coast"
     }
   ],
-  "date": "2026-10-27"
+  "date": "2026-10-27",
+  "final": {
+    "picks": [
+      {
+        "h3": "For sunsets and a fall trip",
+        "p": "Book Il San Pietro if you&rsquo;re coming in the fall or want sunsets, privacy and a hotel that fills your days. The beach club keeps the sun when the rest of the coast goes dark, and there&rsquo;s a complimentary yacht cruise and the iconic tennis court."
+      },
+      {
+        "h3": "If the beach is the point",
+        "p": "Book Borgo Santandrea if you want something new and very modern, with a beautiful, massive, proper beach and dinner at Alici. Come May to June or September, and let me choose your room; I&rsquo;d skip the private pool rooms if privacy matters."
+      }
+    ]
+  },
+  "map": {
+    "data": "amalfi-coast",
+    "bbox": [
+      14.43,
+      40.57,
+      14.65,
+      40.68
+    ],
+    "markers": [
+      {
+        "name": "Il San Pietro",
+        "place": "Just outside Positano",
+        "lat": 40.6234,
+        "lon": 14.5039,
+        "source": "Relais & Chateaux property page, GPS 40.6234, 14.5039",
+        "pos": [
+          33.59,
+          51.45
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Borgo Santandrea",
+        "place": "Conca dei Marini",
+        "lat": 40.6189,
+        "lon": 14.5743,
+        "source": "Relais & Chateaux property page, GPS 40.6189, 14.5743",
+        "pos": [
+          65.59,
+          55.55
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Gulf of Salerno",
+        "lat": 40.59,
+        "lon": 14.56,
+        "kind": "water",
+        "pos": [
+          59.09,
+          81.82
+        ],
+        "edge": false
+      },
+      {
+        "text": "Ravello",
+        "lat": 40.6493,
+        "lon": 14.6117,
+        "kind": "region",
+        "pos": [
+          82.59,
+          27.91
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the coast",
+    "intro": "Il San Pietro is in Just outside Positano. Borgo Santandrea is in Conca dei Marini. The Amalfi Coast is one long cliffside road, so where your hotel sits decides which towns are on your doorstep.",
+    "alt": "Map showing Il San Pietro in Just outside Positano and Borgo Santandrea in Conca dei Marini",
+    "distance_miles": 4,
+    "distance_text": "About 4 miles apart",
+    "distance_pos": [
+      49.59,
+      53.5
+    ],
+    "src": "/images/maps/il-san-pietro-vs-borgo-santandrea.svg",
+    "ratio": "1000 / 659",
+    "distance_pill": false,
+    "caption": "About 4 miles apart, as the crow flies."
+  }
 }

@@ -49,13 +49,15 @@
 .vs-map-pin[data-side="below"] .vs-map-name { top: 14px; left: 0; transform: translateX(-50%); }
 .vs-map-pin[data-side="right"] .vs-map-name { left: 16px; top: 0; transform: translateY(-50%); text-align: left; }
 .vs-map-pin[data-side="left"] .vs-map-name { right: 16px; top: 0; transform: translateY(-50%); text-align: right; }
+.vs-map-pin[data-align="start"] .vs-map-name { left: -12px; transform: none; text-align: left; }
+.vs-map-pin[data-align="end"] .vs-map-name { left: auto; right: -12px; transform: none; text-align: right; }
 .vs-map-name b { display: block; font-family: var(--display); font-weight: 400; font-size: clamp(1.02rem, 2.1vw, 1.45rem); line-height: 1.1; color: var(--ink); }
 .vs-map-name span { display: block; margin-top: 3px; font-family: var(--stamp); font-size: clamp(9px, 1.3vw, 11px); letter-spacing: .18em; text-transform: uppercase; color: var(--ash); }
 .vs-map-label { white-space: nowrap; font-family: var(--stamp); font-size: clamp(9px, 1.3vw, 11px); letter-spacing: .3em; text-transform: uppercase; color: var(--ash-light); }
 .vs-map-label.is-water { font-family: var(--body); font-style: italic; font-size: clamp(.78rem, 1.5vw, .95rem); letter-spacing: .04em; text-transform: none; }
 .vs-map-distance { position: absolute; transform: translate(-50%, -50%); padding: 3px 8px; background: var(--plaster); border: 1px solid var(--hairline); white-space: nowrap; font-family: var(--stamp); font-size: clamp(9px, 1.3vw, 11px); letter-spacing: .18em; text-transform: uppercase; color: var(--brass); }
 .vs-map figcaption { margin-top: 14px; font-size: .9rem; line-height: 1.5; color: var(--ash); max-width: 62ch; }
-@media (max-width: 560px) { .vs-map-label:not(.is-water), .vs-map-name span { letter-spacing: .12em; } }
+@media (max-width: 560px) { .vs-map-label:not(.is-water), .vs-map-name span { letter-spacing: .12em; } .vs-map-label.is-edge { display: none; } }
 
 /* ── the verdict: "So, which would I book?" ── */
 .vs-final .vs-final-picks { display: grid; grid-template-columns: 1fr; margin-top: clamp(34px, 5vw, 52px); border-top: 1px solid var(--band-hairline); }

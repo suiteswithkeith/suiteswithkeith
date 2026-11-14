@@ -69,5 +69,17 @@
     {"href": "/hotel-eden-vs-bulgari-rome.html", "label": "Hotel Eden or Bulgari"},
     {"href": "/corinthia-rome-vs-casa-monti.html", "label": "Corinthia or Casa Monti"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For space and everything under one roof",
+        "p": "Book the Bulgari if you want a big room without needing an upgrade, a serious gym and so many places to eat and drink that you barely need to go out. The trattoria downstairs, with &euro;18 pastas, is one I loved."
+      },
+      {
+        "h3": "For younger couples and honeymooners",
+        "p": "Book Casa Monti if you&rsquo;re a younger couple who wants a small, playful hotel in a real neighborhood. Walk out to trattorias full of Romans at Sunday lunch, and let me set up the spa so it&rsquo;s just the two of you."
+      }
+    ]
+  }
 }

@@ -69,5 +69,17 @@
     {"href": "/hotel-eden-vs-corinthia-rome.html", "label": "Hotel Eden or Corinthia"},
     {"href": "/hotel-de-russie-vs-bulgari-rome.html", "label": "Hotel de Russie or Bulgari"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For staying in for dinner and drinks",
+        "p": "Book the Bulgari if you like a hotel with a buzz and want to stay in for dinner, drinks and a workout. The rooftop bar, the trattoria downstairs and the biggest gym I saw in Rome mean you hardly need to leave."
+      },
+      {
+        "h3": "For a calm base with a spa",
+        "p": "Book the Corinthia if quiet matters when you get back to the hotel. It&rsquo;s across from parliament, incredibly safe and still in the middle of everything, with large rooms and a beautiful spa. I was blown away, and I think it&rsquo;s a game changer for Rome."
+      }
+    ]
+  }
 }

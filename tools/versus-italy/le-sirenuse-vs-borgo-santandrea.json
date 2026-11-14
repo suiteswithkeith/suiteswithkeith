@@ -175,5 +175,94 @@
       "label": "Where to stay on the Amalfi Coast"
     }
   ],
-  "date": "2026-10-27"
+  "date": "2026-10-27",
+  "final": {
+    "picks": [
+      {
+        "h3": "To walk straight into Positano",
+        "p": "Book Le Sirenuse if you want the energy of Positano at the door and like to see and be seen. I stayed, and the breakfast is out of this world. Book only a true sea-view room; the others face the courtyard or a loud pool."
+      },
+      {
+        "h3": "For a beach on the quiet side",
+        "p": "Book Borgo Santandrea if you want a modern statement on the quieter side of the coast, with a proper beach as the star. Dinner at Alici is fantastic, and the service is refined but warm. Ask me about the room first; the private pool rooms are overlooked."
+      }
+    ]
+  },
+  "map": {
+    "data": "amalfi-coast",
+    "bbox": [
+      14.43,
+      40.57,
+      14.65,
+      40.68
+    ],
+    "markers": [
+      {
+        "name": "Le Sirenuse",
+        "place": "Positano",
+        "lat": 40.62887,
+        "lon": 14.48769,
+        "source": "Italia-Italy.org, 40.62887, 14.48769 (Via Cristoforo Colombo 30)",
+        "pos": [
+          26.22,
+          46.48
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Borgo Santandrea",
+        "place": "Conca dei Marini",
+        "lat": 40.6189,
+        "lon": 14.5743,
+        "source": "Relais & Chateaux property page, GPS 40.6189, 14.5743",
+        "pos": [
+          65.59,
+          55.55
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Gulf of Salerno",
+        "lat": 40.59,
+        "lon": 14.56,
+        "kind": "water",
+        "pos": [
+          59.09,
+          81.82
+        ],
+        "edge": false
+      },
+      {
+        "text": "Ravello",
+        "lat": 40.6493,
+        "lon": 14.6117,
+        "kind": "region",
+        "pos": [
+          82.59,
+          27.91
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the coast",
+    "intro": "Le Sirenuse is in Positano. Borgo Santandrea is in Conca dei Marini. The Amalfi Coast is one long cliffside road, so where your hotel sits decides which towns are on your doorstep.",
+    "alt": "Map showing Le Sirenuse in Positano and Borgo Santandrea in Conca dei Marini",
+    "distance_miles": 5,
+    "distance_text": "About 5 miles apart",
+    "distance_pos": [
+      45.91,
+      51.01
+    ],
+    "src": "/images/maps/le-sirenuse-vs-borgo-santandrea.svg",
+    "ratio": "1000 / 659",
+    "distance_pill": false,
+    "caption": "About 5 miles apart, as the crow flies."
+  }
 }

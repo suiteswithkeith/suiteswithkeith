@@ -69,5 +69,17 @@
     {"href": "/hotel-de-russie-vs-hotel-de-la-ville.html", "label": "Hotel de Russie or Hotel de la Ville"},
     {"href": "/hotel-de-russie-vs-casa-monti.html", "label": "Hotel de Russie or Casa Monti"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "If the Spanish Steps are the dream",
+        "p": "Book Hotel de la Ville if the Spanish Steps and a sunset on Cielo are the dream. You get a Rocco Forte palazzo full of color right at the top of the Steps, along with the crowds from morning to night."
+      },
+      {
+        "h3": "For a younger, livelier trip",
+        "p": "Book Casa Monti if you&rsquo;re a younger couple who wants a hip hotel in a real neighborhood. Romans fill the trattorias around it at Sunday lunch, and I&rsquo;ll arrange the spa before you arrive so it&rsquo;s just the two of you."
+      }
+    ]
+  }
 }

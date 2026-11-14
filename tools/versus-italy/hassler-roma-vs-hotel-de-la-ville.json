@@ -68,5 +68,17 @@
     {"href": "/hotel-de-russie-vs-hotel-de-la-ville.html", "label": "Hotel de Russie or Hotel de la Ville"},
     {"href": "/hotel-eden-vs-hassler-roma.html", "label": "Hotel Eden or Hassler"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a serious dinner on the roof",
+        "p": "Book the Hassler if you love grand-hotel style and the trip is about a serious dinner. The Michelin-starred restaurant on the roof is the highlight, and the courtyard restaurant is a calmer place to eat than the streets outside."
+      },
+      {
+        "h3": "For color and a spa this trip",
+        "p": "Book Hotel de la Ville if you want a colorful palazzo, Cielo for sunset drinks and a spa you can use this year. And if you&rsquo;re choosing between the Rocco Forte hotels, I prefer its sister, the de Russie."
+      }
+    ]
+  }
 }

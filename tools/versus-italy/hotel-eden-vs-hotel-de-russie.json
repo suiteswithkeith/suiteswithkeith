@@ -178,5 +178,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For calm from the front door",
+        "p": "Book Hotel Eden if you want quiet from the moment you step outside. It sits on a calm residential street above the Spanish Steps, the service is anticipatory, and it&rsquo;s usually a little cheaper than the de Russie. It is my top overall pick in Rome."
+      },
+      {
+        "h3": "If a courtyard and pool matter more",
+        "p": "Book Hotel de Russie if a courtyard and a pool matter more to you than a quiet street. The street out front is busy, but the large courtyard feels like an escape from the city, and the spa has an indoor pool, rare in the centro storico. I loved it."
+      }
+    ]
+  }
 }

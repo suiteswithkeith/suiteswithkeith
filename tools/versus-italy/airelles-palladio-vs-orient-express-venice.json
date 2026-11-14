@@ -71,5 +71,17 @@
     {"href": "/airelles-palladio-vs-danieli-four-seasons.html", "label": "Airelles or the Danieli"},
     {"href": "/aman-venice-vs-orient-express-venice.html", "label": "Aman or Orient Express"},
     {"href": "/venice.html", "label": "My full Venice guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a resort in Venice",
+        "p": "Book Airelles Palladio if you want more from your hotel: pools, a three-story Guerlain spa, gardens and four chefs, with St. Mark&rsquo;s five minutes away by boat. It&rsquo;s the better choice for families, and for me it&rsquo;s the most beautiful hotel in Italy."
+      },
+      {
+        "h3": "For the marble and the ceilings",
+        "p": "Book Orient Express if the interiors are what you come to Venice for, or you&rsquo;re arriving by train. The eight-year restoration is almost overwhelming, the canal corner in Cannaregio is quiet, and three nights is the sweet spot. Ask for the piano nobile."
+      }
+    ]
+  }
 }

@@ -193,5 +193,94 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For the best base in the Dolomites",
+        "p": "Book Gardena Gr&ouml;dnerhof if you want the best base in the Dolomites. You&rsquo;re right in Ortisei, with great restaurants on foot, lifts to Seceda and the Alpe di Siusi, an incredible spa and warm, polished service. It&rsquo;s the one I would book for most trips."
+      },
+      {
+        "h3": "When only a suite will do",
+        "p": "Book Aman Rosa Alpina if the most luxurious stay in the region matters more than the town around you. The suites are the star, the lifts are about two minutes away by shuttle, and it&rsquo;s as good for families as for couples. Come in winter or summer."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Gardena Grödnerhof",
+        "place": "Ortisei &middot; Val Gardena",
+        "lat": 46.5727,
+        "lon": 11.6732,
+        "source": "Relais & Chateaux property page, GPS 46.5727, 11.6732",
+        "pos": [
+          62.32,
+          54.12
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Aman Rosa Alpina",
+        "place": "San Cassiano &middot; Alta Badia",
+        "lat": 46.571791,
+        "lon": 11.929865,
+        "source": "Directory listing, 46.571791, 11.929865 (Strada Micura de Rue 20)",
+        "pos": [
+          87.99,
+          54.34
+        ],
+        "side": "below",
+        "align": "end"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      },
+      {
+        "text": "Merano",
+        "lat": 46.6696,
+        "lon": 11.1594,
+        "kind": "region",
+        "pos": [
+          10.94,
+          31.05
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Gardena Grödnerhof is in Ortisei. Aman Rosa Alpina is in San Cassiano. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Gardena Grödnerhof in Ortisei · Val Gardena and Aman Rosa Alpina in San Cassiano · Alta Badia",
+    "distance_miles": 12,
+    "distance_text": "About 12 miles apart",
+    "distance_pos": [
+      75.15,
+      54.23
+    ],
+    "src": "/images/maps/aman-rosa-alpina-vs-gardena-grodnerhof.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": false,
+    "caption": "About 12 miles apart, as the crow flies."
+  }
 }

@@ -193,5 +193,94 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For the hotel itself",
+        "p": "Book Aman Rosa Alpina if the hotel itself matters most. It&rsquo;s the most luxurious stay in the Dolomites, as good for families as for couples, and the suites are the reason to come. Book one, and plan for winter or summer, when San Cassiano is buzzing."
+      },
+      {
+        "h3": "For a ski trip",
+        "p": "Book COMO Alpina if you want to walk out of your room onto the slopes in winter or the trails in summer. It&rsquo;s the only true ski-in, ski-out hotel I saw, my first choice for a ski trip, and it costs less than Aman."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Aman Rosa Alpina",
+        "place": "San Cassiano &middot; Alta Badia",
+        "lat": 46.571791,
+        "lon": 11.929865,
+        "source": "Directory listing, 46.571791, 11.929865 (Strada Micura de Rue 20)",
+        "pos": [
+          87.99,
+          54.34
+        ],
+        "side": "above",
+        "align": "end"
+      },
+      {
+        "name": "COMO Alpina",
+        "place": "Alpe di Siusi",
+        "lat": 46.5403,
+        "lon": 11.618,
+        "source": "Compatsch hamlet (Mapcarta 46.54027, 11.61791); the hotel is beside the cable car's top station there. CONFIRM the exact point.",
+        "pos": [
+          56.8,
+          61.83
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      },
+      {
+        "text": "Merano",
+        "lat": 46.6696,
+        "lon": 11.1594,
+        "kind": "region",
+        "pos": [
+          10.94,
+          31.05
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Aman Rosa Alpina is in San Cassiano. COMO Alpina is in Alpe di Siusi. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Aman Rosa Alpina in San Cassiano \u00b7 Alta Badia and COMO Alpina in Alpe di Siusi",
+    "distance_miles": 15,
+    "distance_text": "About 15 miles apart",
+    "distance_pos": [
+      72.39,
+      58.08
+    ],
+    "src": "/images/maps/aman-rosa-alpina-vs-como-alpina.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": false,
+    "caption": "About 15 miles apart, as the crow flies. COMO Alpina is marked at the village; the exact spot may differ slightly."
+  }
 }

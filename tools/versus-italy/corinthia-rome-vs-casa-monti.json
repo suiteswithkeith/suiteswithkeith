@@ -68,5 +68,17 @@
     {"href": "/bulgari-rome-vs-corinthia-rome.html", "label": "Bulgari or Corinthia"},
     {"href": "/hotel-de-la-ville-vs-casa-monti.html", "label": "Hotel de la Ville or Casa Monti"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a grand hotel to retreat to",
+        "p": "Book the Corinthia if you want large rooms, a beautiful spa and a quiet, safe square to come home to. It&rsquo;s a retreat in the middle of the city, and space like this is rare in central Rome."
+      },
+      {
+        "h3": "For living in a real neighborhood",
+        "p": "Book Casa Monti if you&rsquo;re a younger couple and the classic luxury hotels aren&rsquo;t what you&rsquo;re after. You get a hip, fun hotel in Monti, authentic trattorias all around and a spa I&rsquo;ll book just for the two of you."
+      }
+    ]
+  }
 }

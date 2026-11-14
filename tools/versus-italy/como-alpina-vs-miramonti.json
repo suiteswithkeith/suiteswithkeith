@@ -188,5 +188,83 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For days out on the mountain",
+        "p": "Book COMO Alpina if you&rsquo;re coming to ski or hike among the famous peaks. You&rsquo;re right on the Alpe di Siusi, the slopes and trails start outside your room, and the spa and pool hold their own against anyone in the region."
+      },
+      {
+        "h3": "If the pool is the point",
+        "p": "Book Miramonti if you value personality, the pool and the views over polish. The infinity pool is the best outdoor pool I saw in the region, every room is different, and it&rsquo;s an easy first or last stop on the way to or from Lake Como or Switzerland."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "COMO Alpina",
+        "place": "Alpe di Siusi",
+        "lat": 46.5403,
+        "lon": 11.618,
+        "source": "Compatsch hamlet (Mapcarta 46.54027, 11.61791); the hotel is beside the cable car's top station there. CONFIRM the exact point.",
+        "pos": [
+          56.8,
+          61.83
+        ],
+        "side": "below",
+        "align": "center"
+      },
+      {
+        "name": "Miramonti",
+        "place": "Avelengo &middot; above Merano",
+        "lat": 46.6497,
+        "lon": 11.2089,
+        "source": "hotel-miramonti.com location page, 46 38 59 N 11 12 32 E",
+        "pos": [
+          15.89,
+          35.79
+        ],
+        "side": "above",
+        "align": "start"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "COMO Alpina is in Alpe di Siusi. Miramonti is in Avelengo. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing COMO Alpina in Alpe di Siusi and Miramonti in Avelengo \u00b7 above Merano",
+    "distance_miles": 21,
+    "distance_text": "About 21 miles apart",
+    "distance_pos": [
+      36.34,
+      48.81
+    ],
+    "src": "/images/maps/como-alpina-vs-miramonti.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": false,
+    "caption": "About 21 miles apart, as the crow flies. COMO Alpina is marked at the village; the exact spot may differ slightly."
+  }
 }

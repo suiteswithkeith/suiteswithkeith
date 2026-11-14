@@ -193,5 +193,94 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For rest, views and service",
+        "p": "Book Forestis if the trip is about rest. It has the best view of the Odle, and it won my categories for wellness, views, dining and service. Ask for a high floor in the tower closest to the lodge; I request it for you."
+      },
+      {
+        "h3": "For walking out onto the slopes",
+        "p": "Book COMO Alpina if it&rsquo;s a ski trip or you want to hike straight from your door. It&rsquo;s the only true ski-in, ski-out hotel I saw, it&rsquo;s one of my picks for families, and you get one of the best locations in the Dolomites for less."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Forestis",
+        "place": "Palmschoss &middot; above Brixen",
+        "lat": 46.68158,
+        "lon": 11.70924,
+        "source": "forestis.it Contact & Arrival page, 46.68158, 11.70924",
+        "pos": [
+          65.92,
+          28.2
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "COMO Alpina",
+        "place": "Alpe di Siusi",
+        "lat": 46.5403,
+        "lon": 11.618,
+        "source": "Compatsch hamlet (Mapcarta 46.54027, 11.61791); the hotel is beside the cable car's top station there. CONFIRM the exact point.",
+        "pos": [
+          56.8,
+          61.83
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      },
+      {
+        "text": "Merano",
+        "lat": 46.6696,
+        "lon": 11.1594,
+        "kind": "region",
+        "pos": [
+          10.94,
+          31.05
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Forestis is in Palmschoss. COMO Alpina is in Alpe di Siusi. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Forestis in Palmschoss \u00b7 above Brixen and COMO Alpina in Alpe di Siusi",
+    "distance_miles": 11,
+    "distance_text": "About 11 miles apart",
+    "distance_pos": [
+      61.36,
+      45.01
+    ],
+    "src": "/images/maps/forestis-vs-como-alpina.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": true,
+    "caption": "Distance shown as the crow flies. COMO Alpina is marked at the village; the exact spot may differ slightly."
+  }
 }

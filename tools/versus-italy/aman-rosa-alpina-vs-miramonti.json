@@ -188,5 +188,83 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For polish and an active trip",
+        "p": "Book Aman Rosa Alpina if service and finish matter most, or you want to ski and hike. It&rsquo;s the most luxurious hotel in the Dolomites, with the lifts about two minutes away by shuttle, and it&rsquo;s the better of the two for families."
+      },
+      {
+        "h3": "For a first or last stop",
+        "p": "Book Miramonti if the pool and the views are the point. Its infinity pool is the best outdoor pool of any hotel I saw in the region, and it&rsquo;s an easy first or last stop if you&rsquo;re coming from or heading toward Lake Como or Switzerland."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Aman Rosa Alpina",
+        "place": "San Cassiano &middot; Alta Badia",
+        "lat": 46.571791,
+        "lon": 11.929865,
+        "source": "Directory listing, 46.571791, 11.929865 (Strada Micura de Rue 20)",
+        "pos": [
+          87.99,
+          54.34
+        ],
+        "side": "below",
+        "align": "end"
+      },
+      {
+        "name": "Miramonti",
+        "place": "Avelengo &middot; above Merano",
+        "lat": 46.6497,
+        "lon": 11.2089,
+        "source": "hotel-miramonti.com location page, 46 38 59 N 11 12 32 E",
+        "pos": [
+          15.89,
+          35.79
+        ],
+        "side": "above",
+        "align": "start"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Aman Rosa Alpina is in San Cassiano. Miramonti is in Avelengo. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Aman Rosa Alpina in San Cassiano \u00b7 Alta Badia and Miramonti in Avelengo \u00b7 above Merano",
+    "distance_miles": 35,
+    "distance_text": "About 35 miles apart",
+    "distance_pos": [
+      51.94,
+      45.06
+    ],
+    "src": "/images/maps/aman-rosa-alpina-vs-miramonti.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": false,
+    "caption": "About 35 miles apart, as the crow flies."
+  }
 }

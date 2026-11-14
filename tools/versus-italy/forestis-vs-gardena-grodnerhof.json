@@ -193,5 +193,94 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For complete quiet",
+        "p": "Book Forestis if you want to slow down. It&rsquo;s my favorite hotel in the Dolomites, with the best view of the Odle, the best wellness and the best service, and it&rsquo;s my honeymoon pick. Better still, pair it with Gardena: it&rsquo;s the pairing I would book."
+      },
+      {
+        "h3": "For hiking, eating out and kids",
+        "p": "Book Gardena Gr&ouml;dnerhof if you want to hike, eat out and have a town around you, or you&rsquo;re bringing children. Lifts leave Ortisei for Seceda and the Alpe di Siusi, and the restaurants are on foot. Just avoid July and August if you want quiet."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Forestis",
+        "place": "Palmschoss &middot; above Brixen",
+        "lat": 46.68158,
+        "lon": 11.70924,
+        "source": "forestis.it Contact & Arrival page, 46.68158, 11.70924",
+        "pos": [
+          65.92,
+          28.2
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Gardena Grödnerhof",
+        "place": "Ortisei &middot; Val Gardena",
+        "lat": 46.5727,
+        "lon": 11.6732,
+        "source": "Relais & Chateaux property page, GPS 46.5727, 11.6732",
+        "pos": [
+          62.32,
+          54.12
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      },
+      {
+        "text": "Merano",
+        "lat": 46.6696,
+        "lon": 11.1594,
+        "kind": "region",
+        "pos": [
+          10.94,
+          31.05
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Forestis is in Palmschoss. Gardena Grödnerhof is in Ortisei. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Forestis in Palmschoss · above Brixen and Gardena Grödnerhof in Ortisei · Val Gardena",
+    "distance_miles": 8,
+    "distance_text": "About 8 miles apart",
+    "distance_pos": [
+      64.12,
+      41.16
+    ],
+    "src": "/images/maps/forestis-vs-gardena-grodnerhof.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": true,
+    "caption": "Distance shown as the crow flies."
+  }
 }

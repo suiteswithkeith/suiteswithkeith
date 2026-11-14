@@ -72,5 +72,95 @@
     {"href": "/il-sereno-vs-passalacqua.html", "label": "Il Sereno or Passalacqua"},
     {"href": "/grand-hotel-tremezzo-vs-villa-d-este.html", "label": "Grand Hotel Tremezzo or Villa d&rsquo;Este"},
     {"href": "/lake-como.html", "label": "My Lake Como guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For couples who want the water",
+        "p": "Book Il Sereno if you&rsquo;re a couple after privacy, design and the lake right outside your room. Every room faces the water, the heated pool sits on land, and the hotel&rsquo;s Rivas take you to dinner across the lake. It&rsquo;s my #02 on Como."
+      },
+      {
+        "h3": "For history, tennis or a town",
+        "p": "Book Villa d&rsquo;Este if your Como dream is a renaissance estate, a tennis trip with friends or a group spanning generations. Eight clay courts line the water, lunch was fantastic, and Cernobbio is right outside the gate when you want to walk into town."
+      }
+    ]
+  },
+  "map": {
+    "data": "lake-como",
+    "bbox": [
+      8.95,
+      45.78,
+      9.4,
+      46.07
+    ],
+    "markers": [
+      {
+        "name": "Il Sereno",
+        "place": "Torno &middot; east shore",
+        "lat": 45.84666,
+        "lon": 9.11056,
+        "snap": "water",
+        "source": "Torno village, Wikipedia (45 51 N, 9 07 E); the hotel is on the lakefront about 250 yards from the village centre. CONFIRM the exact point.",
+        "pos": [
+          35.68,
+          77.01
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Villa d’Este",
+        "place": "Cernobbio &middot; west shore",
+        "lat": 45.844975,
+        "lon": 9.0799,
+        "source": "Wikipedia, Villa d'Este (Cernobbio): 45.8449750, 9.0799000",
+        "pos": [
+          28.87,
+          77.59
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Lake Como",
+        "lat": 45.94,
+        "lon": 9.155,
+        "kind": "water",
+        "pos": [
+          45.56,
+          44.83
+        ],
+        "edge": false
+      },
+      {
+        "text": "Switzerland",
+        "lat": 46.0,
+        "lon": 8.985,
+        "kind": "region",
+        "pos": [
+          7.78,
+          24.14
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the lake",
+    "intro": "Il Sereno is in Torno. Villa d’Este is in Cernobbio. Lake Como is shaped like an upside-down Y, so it helps to see where each hotel sits before you choose.",
+    "alt": "Map showing Il Sereno in Torno · east shore and Villa d’Este in Cernobbio · west shore",
+    "distance_miles": 1,
+    "distance_text": "About 1 mile apart",
+    "distance_pos": [
+      32.27,
+      77.3
+    ],
+    "src": "/images/maps/il-sereno-vs-villa-d-este.svg",
+    "ratio": "1000 / 926",
+    "distance_pill": false,
+    "caption": "About 1 mile apart, as the crow flies. Il Sereno is marked at the village; the exact spot may differ slightly."
+  }
 }

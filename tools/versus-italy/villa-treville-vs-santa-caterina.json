@@ -71,5 +71,94 @@
     {"href": "/il-san-pietro-vs-villa-treville.html", "label": "Il San Pietro or Villa Treville"},
     {"href": "/il-san-pietro-vs-santa-caterina.html", "label": "Il San Pietro or Santa Caterina"},
     {"href": "/amalfi-coast.html", "label": "Where to stay in Positano"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For romance near Positano",
+        "p": "Book Villa Treville if you&rsquo;re a couple and want privacy close to Positano. For me it&rsquo;s one of the two best options in town, with three boats running free shuttles in, a spa that opens to the sea and rooms that are all completely different."
+      },
+      {
+        "h3": "For family and slow days",
+        "p": "Book Santa Caterina if you want to slow down, or you&rsquo;re bringing the whole family. The three-bedroom villa at Casa Marchesa keeps everyone together, and I stayed in room 45, so private and serene. Many of my clients do both, Amalfi first."
+      }
+    ]
+  },
+  "map": {
+    "data": "amalfi-coast",
+    "bbox": [
+      14.43,
+      40.57,
+      14.65,
+      40.68
+    ],
+    "markers": [
+      {
+        "name": "Villa Treville",
+        "place": "Positano",
+        "lat": 40.62622,
+        "lon": 14.49744,
+        "source": "Sembo listing, N 40.626 E 14.497 (Via Arienzo 30)",
+        "pos": [
+          30.65,
+          48.89
+        ],
+        "side": "below",
+        "align": "center"
+      },
+      {
+        "name": "Santa Caterina",
+        "place": "Amalfi",
+        "lat": 40.6294,
+        "lon": 14.5927,
+        "source": "Great Small Hotels, 40 37 46.16 N 14 35 34.09 E",
+        "pos": [
+          73.95,
+          46.0
+        ],
+        "side": "above",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Gulf of Salerno",
+        "lat": 40.59,
+        "lon": 14.56,
+        "kind": "water",
+        "pos": [
+          59.09,
+          81.82
+        ],
+        "edge": false
+      },
+      {
+        "text": "Ravello",
+        "lat": 40.6493,
+        "lon": 14.6117,
+        "kind": "region",
+        "pos": [
+          82.59,
+          27.91
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the coast",
+    "intro": "Villa Treville is in Positano. Santa Caterina is in Amalfi. The Amalfi Coast is one long cliffside road, so where your hotel sits decides which towns are on your doorstep.",
+    "alt": "Map showing Villa Treville in Positano and Santa Caterina in Amalfi",
+    "distance_miles": 5,
+    "distance_text": "About 5 miles apart",
+    "distance_pos": [
+      52.3,
+      47.45
+    ],
+    "src": "/images/maps/villa-treville-vs-santa-caterina.svg",
+    "ratio": "1000 / 659",
+    "distance_pill": false,
+    "caption": "About 5 miles apart, as the crow flies."
+  }
 }

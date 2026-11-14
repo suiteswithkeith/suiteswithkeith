@@ -69,5 +69,17 @@
     {"href": "/hotel-de-russie-vs-hassler-roma.html", "label": "Hotel de Russie or Hassler"},
     {"href": "/hassler-roma-vs-hotel-de-la-ville.html", "label": "Hassler or Hotel de la Ville"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For the stronger stay of the two",
+        "p": "Book Hotel de Russie if you have no strong pull either way. The large courtyard is the star, the renovated rooms have lemon and orange ceilings, and the spa has an indoor pool. I loved it, and it was the stronger stay of the two sisters."
+      },
+      {
+        "h3": "For sunset on a rooftop",
+        "p": "Book Hotel de la Ville if sunset drinks and the Spanish Steps at your door are what you want most. Cielo, the rooftop bar and restaurant across the top two floors, has views all over the city, and it does that evening well."
+      }
+    ]
+  }
 }

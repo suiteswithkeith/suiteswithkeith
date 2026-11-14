@@ -174,5 +174,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a place to be yourself",
+        "p": "Book La Minerva if you&rsquo;re younger and want a real Roman neighborhood. I felt I could be myself here: a great laugh at check-in, the warmest team I met in Rome, and a restaurant upstairs and bar downstairs with a real buzz, by the Pantheon."
+      },
+      {
+        "h3": "If you love a classic grand hotel",
+        "p": "Book the Hassler if you love very traditional luxury and want the heart of the action at the top of the Spanish Steps. The Michelin-starred restaurant on the roof is the highlight, and the courtyard restaurant is a calmer place to eat than the streets outside."
+      }
+    ]
+  }
 }

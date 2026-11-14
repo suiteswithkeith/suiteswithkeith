@@ -174,5 +174,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a warm team by the Pantheon",
+        "p": "Book La Minerva if you want a real neighborhood and a team that lets you be yourself. The team is the warmest I met in Rome, and the rooftop restaurant over the domes, the bar and the lobby are spaces you actually want to sit in."
+      },
+      {
+        "h3": "For the Steps and Cielo",
+        "p": "Book Hotel de la Ville if you want the Spanish Steps on your doorstep and sunset drinks at Cielo, its rooftop bar and restaurant across the top two floors. It&rsquo;s nice, though before you book it, I would also look at its sister, the de Russie."
+      }
+    ]
+  }
 }

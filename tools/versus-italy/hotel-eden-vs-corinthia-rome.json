@@ -179,5 +179,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For warmth and romance",
+        "p": "Book Hotel Eden if this trip is about service and romance. I stayed, and it was one of my top three stays in all of Italy: anticipatory service, bright rooms and dinner at the restaurant upstairs. It is my top overall pick in Rome."
+      },
+      {
+        "h3": "When space and a spa come first",
+        "p": "Book the Corinthia if space and a real spa matter most. The rooms are large, which is rare in central Rome, the spa is beautiful, and the street across from parliament is safe and quiet. It&rsquo;s new, so let me steer you to the right room."
+      }
+    ]
+  }
 }

@@ -179,5 +179,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "To live in the neighborhood",
+        "p": "Book La Minerva if you&rsquo;re younger and want energy and personality. You step out by the Pantheon into the city as Romans live it, the warmth comes from the team and the shared spaces, and I kept the slippers. They were the best of my whole trip."
+      },
+      {
+        "h3": "For a first trip to Rome",
+        "p": "Book Hotel de Russie if it&rsquo;s your first time in Rome and you want a courtyard and a pool to come back to. The street out front is busy, but the large courtyard is the star, and the spa has an indoor pool, rare in the centro storico."
+      }
+    ]
+  }
 }

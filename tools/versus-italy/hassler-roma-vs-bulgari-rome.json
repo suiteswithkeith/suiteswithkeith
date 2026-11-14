@@ -68,5 +68,17 @@
     {"href": "/hassler-roma-vs-corinthia-rome.html", "label": "Hassler or Corinthia"},
     {"href": "/hotel-eden-vs-bulgari-rome.html", "label": "Hotel Eden or Bulgari"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For classic luxury at the Steps",
+        "p": "Book the Hassler if you love traditional grand hotels and want the Spanish Steps outside your door. Dinner at the Michelin-starred restaurant on the roof, with the rooftops of Rome below you, is the highlight here."
+      },
+      {
+        "h3": "For room to spread out",
+        "p": "Book the Bulgari if you want space, energy and a gym and spa on this trip. The base rooms are as big as junior suites elsewhere, the gym is the biggest I saw in Rome, and the Hassler&rsquo;s wellness area doesn&rsquo;t open until 2027."
+      }
+    ]
+  }
 }

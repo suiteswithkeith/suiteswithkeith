@@ -69,5 +69,17 @@
     {"href": "/hotel-de-russie-vs-hotel-de-la-ville.html", "label": "Hotel de Russie or Hotel de la Ville"},
     {"href": "/bulgari-rome-vs-casa-monti.html", "label": "Bulgari or Casa Monti"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "When the room matters most",
+        "p": "Book the Bulgari if room size is what you care about. The base rooms are what other hotels would sell as junior suites, so the entry rate already buys real space, and in central Rome that matters. Then add the gym and all those bars and restaurants."
+      },
+      {
+        "h3": "For waking up above the Steps",
+        "p": "Book Hotel de la Ville if waking up at the top of the Spanish Steps is the point, with sunset drinks on Cielo and views all over the city. If you like the idea of a Rocco Forte, also look at its sister, the de Russie, which I prefer."
+      }
+    ]
+  }
 }

@@ -75,5 +75,17 @@
     {"href": "/aman-venice-vs-airelles-palladio.html", "label": "Aman or Airelles"},
     {"href": "/airelles-palladio-vs-orient-express-venice.html", "label": "Airelles or Orient Express"},
     {"href": "/venice.html", "label": "My full Venice guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For families and the full resort",
+        "p": "Book Airelles Palladio if you want the most from a Venice resort: a bigger spa, more pools, four chefs, and the minibar, breakfast, laundry and spa included in the rate. For families it&rsquo;s the clear answer, and it&rsquo;s my number one hotel in Italy."
+      },
+      {
+        "h3": "For tennis and a grown-up pool",
+        "p": "Book Hotel Cipriani if you want the classic: the largest pool in Venice, a clay tennis court, Michelin-starred Oro and a quieter, more grown-up mood. Not every room is renovated yet, so let me pick yours. It&rsquo;s seasonal, so check your dates with me first."
+      }
+    ]
+  }
 }

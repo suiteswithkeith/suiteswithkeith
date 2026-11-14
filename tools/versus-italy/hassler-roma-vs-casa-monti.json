@@ -68,5 +68,17 @@
     {"href": "/hotel-de-russie-vs-casa-monti.html", "label": "Hotel de Russie or Casa Monti"},
     {"href": "/hassler-roma-vs-hotel-de-la-ville.html", "label": "Hassler or Hotel de la Ville"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "If grand-hotel style is the dream",
+        "p": "Book the Hassler if a classic Roman grand hotel is part of the dream: canopy beds, damask walls, the top of the Spanish Steps and a Michelin-starred dinner on the roof. Tell me what matters and I&rsquo;ll request the right room."
+      },
+      {
+        "h3": "For couples who want fun",
+        "p": "Book Casa Monti if the Hassler sounds too traditional and you&rsquo;re a younger couple who wants something fun. It&rsquo;s in Monti, among real Roman trattorias, and I&rsquo;ll set up the spa so the two of you have it to yourselves."
+      }
+    ]
+  }
 }

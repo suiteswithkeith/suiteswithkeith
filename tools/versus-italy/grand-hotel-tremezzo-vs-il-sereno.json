@@ -72,5 +72,95 @@
     {"href": "/grand-hotel-tremezzo-vs-lake-como-edition.html", "label": "Grand Hotel Tremezzo or the EDITION"},
     {"href": "/il-sereno-vs-passalacqua.html", "label": "Il Sereno or Passalacqua"},
     {"href": "/lake-como.html", "label": "My Lake Como guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a first trip or a family",
+        "p": "Book Grand Hotel Tremezzo if it&rsquo;s your first time on Lake Como, you&rsquo;re bringing the kids, or you like a little buzz. It&rsquo;s my favorite hotel on the lake, in the best spot, facing Bellagio. Take a lake-view junior suite and spend afternoons at the garden pool."
+      },
+      {
+        "h3": "When privacy matters most",
+        "p": "Book Il Sereno if you&rsquo;re a couple and want quiet, design and the water right outside your room. Only guests and boats get in, so it never feels busy. I stayed and couldn&rsquo;t find a single fault. Ask for the Grand Suite Lago, with the head-on view."
+      }
+    ]
+  },
+  "map": {
+    "data": "lake-como",
+    "bbox": [
+      8.95,
+      45.78,
+      9.4,
+      46.07
+    ],
+    "markers": [
+      {
+        "name": "Grand Hotel Tremezzo",
+        "place": "Tremezzo &middot; west shore",
+        "lat": 45.984889,
+        "lon": 9.2284306,
+        "source": "Wikipedia, Grand Hotel Tremezzo: 45.984889, 9.2284306",
+        "pos": [
+          61.87,
+          29.35
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Il Sereno",
+        "place": "Torno &middot; east shore",
+        "lat": 45.84666,
+        "lon": 9.11056,
+        "snap": "water",
+        "source": "Torno village, Wikipedia (45 51 N, 9 07 E); the hotel is on the lakefront about 250 yards from the village centre. CONFIRM the exact point.",
+        "pos": [
+          35.68,
+          77.01
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Lake Como",
+        "lat": 45.94,
+        "lon": 9.155,
+        "kind": "water",
+        "pos": [
+          45.56,
+          44.83
+        ],
+        "edge": false
+      },
+      {
+        "text": "Switzerland",
+        "lat": 46.0,
+        "lon": 8.985,
+        "kind": "region",
+        "pos": [
+          7.78,
+          24.14
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the lake",
+    "intro": "Grand Hotel Tremezzo is in Tremezzo. Il Sereno is in Torno. Lake Como is shaped like an upside-down Y, so it helps to see where each hotel sits before you choose.",
+    "alt": "Map showing Grand Hotel Tremezzo in Tremezzo \u00b7 west shore and Il Sereno in Torno \u00b7 east shore",
+    "distance_miles": 11,
+    "distance_text": "About 11 miles apart",
+    "distance_pos": [
+      48.78,
+      53.18
+    ],
+    "src": "/images/maps/grand-hotel-tremezzo-vs-il-sereno.svg",
+    "ratio": "1000 / 926",
+    "distance_pill": true,
+    "caption": "Distance shown as the crow flies. Il Sereno is marked at the village; the exact spot may differ slightly."
+  }
 }

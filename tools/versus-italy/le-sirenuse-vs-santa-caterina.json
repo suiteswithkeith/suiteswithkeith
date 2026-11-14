@@ -71,5 +71,94 @@
     {"href": "/il-san-pietro-vs-le-sirenuse.html", "label": "Il San Pietro or Le Sirenuse"},
     {"href": "/il-san-pietro-vs-santa-caterina.html", "label": "Il San Pietro or Santa Caterina"},
     {"href": "/amalfi-coast.html", "label": "Where to stay in Positano"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "If you want the thick of it",
+        "p": "Book Le Sirenuse if you want to walk out the door into Positano and be part of the scene. Service is very formal, the art is stunning and the rooftop pool is #02 on my worldwide list. Ask only for a true sea-view room or suite."
+      },
+      {
+        "h3": "For slow days and real warmth",
+        "p": "Book Santa Caterina if you want to slow down and be looked after by a team that&rsquo;s been there 15 to 20 years. I stayed at both, and this is where a whole day passes between your room, the gym and the sea. Ask for room 45."
+      }
+    ]
+  },
+  "map": {
+    "data": "amalfi-coast",
+    "bbox": [
+      14.43,
+      40.57,
+      14.65,
+      40.68
+    ],
+    "markers": [
+      {
+        "name": "Le Sirenuse",
+        "place": "Positano",
+        "lat": 40.62887,
+        "lon": 14.48769,
+        "source": "Italia-Italy.org, 40.62887, 14.48769 (Via Cristoforo Colombo 30)",
+        "pos": [
+          26.22,
+          46.48
+        ],
+        "side": "below",
+        "align": "center"
+      },
+      {
+        "name": "Santa Caterina",
+        "place": "Amalfi",
+        "lat": 40.6294,
+        "lon": 14.5927,
+        "source": "Great Small Hotels, 40 37 46.16 N 14 35 34.09 E",
+        "pos": [
+          73.95,
+          46.0
+        ],
+        "side": "above",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Gulf of Salerno",
+        "lat": 40.59,
+        "lon": 14.56,
+        "kind": "water",
+        "pos": [
+          59.09,
+          81.82
+        ],
+        "edge": false
+      },
+      {
+        "text": "Ravello",
+        "lat": 40.6493,
+        "lon": 14.6117,
+        "kind": "region",
+        "pos": [
+          82.59,
+          27.91
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the coast",
+    "intro": "Le Sirenuse is in Positano. Santa Caterina is in Amalfi. The Amalfi Coast is one long cliffside road, so where your hotel sits decides which towns are on your doorstep.",
+    "alt": "Map showing Le Sirenuse in Positano and Santa Caterina in Amalfi",
+    "distance_miles": 6,
+    "distance_text": "About 6 miles apart",
+    "distance_pos": [
+      50.09,
+      46.24
+    ],
+    "src": "/images/maps/le-sirenuse-vs-santa-caterina.svg",
+    "ratio": "1000 / 659",
+    "distance_pill": false,
+    "caption": "About 6 miles apart, as the crow flies."
+  }
 }

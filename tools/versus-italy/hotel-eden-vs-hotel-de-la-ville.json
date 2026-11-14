@@ -174,5 +174,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a calm street outside",
+        "p": "Book Hotel Eden if you want calm once you step outside. Anticipatory service, bright rooms and its own restaurant upstairs with the view across the domes, all a short walk from the Steps. It is my top overall pick in Rome, and the one I would book here."
+      },
+      {
+        "h3": "For sunset drinks above the Steps",
+        "p": "Book Hotel de la Ville if you want the Spanish Steps on your doorstep and a rooftop for sunset. Cielo, the bar and restaurant across the top two floors, is its highlight. If you&rsquo;re set on Rocco Forte, though, I prefer its sister, the de Russie."
+      }
+    ]
+  }
 }

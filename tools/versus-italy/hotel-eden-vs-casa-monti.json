@@ -174,5 +174,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a classic that gets it right",
+        "p": "Book Hotel Eden if you want a grand hotel that gets everything right. Anticipatory service, bright rooms with views over the rooftops, and a quiet street above the Spanish Steps. It suits almost everyone, couples especially, and it is my top overall pick in Rome."
+      },
+      {
+        "h3": "For a younger honeymoon",
+        "p": "Book Casa Monti if a grand hotel sounds too traditional and you&rsquo;re younger, especially on a honeymoon. It&rsquo;s playful and full of super cool patterns, with real trattorias all around in Monti and a spa I can arrange for just the two of you before you arrive."
+      }
+    ]
+  }
 }

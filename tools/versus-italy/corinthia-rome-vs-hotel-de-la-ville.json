@@ -69,5 +69,17 @@
     {"href": "/hassler-roma-vs-corinthia-rome.html", "label": "Hassler or Corinthia"},
     {"href": "/hotel-de-russie-vs-hotel-de-la-ville.html", "label": "Hotel de Russie or Hotel de la Ville"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "When calm and space matter most",
+        "p": "Book the Corinthia if you want to come home to quiet. It&rsquo;s across from parliament, safe and still in the middle of everything, with large rooms, onyx and marble bathrooms and a beautiful spa. It blew me away."
+      },
+      {
+        "h3": "For sunset drinks on Cielo",
+        "p": "Book Hotel de la Ville if the Spanish Steps and a sunset on the roof are the point. You trade quiet for the address, since the top of the Steps is crowded from morning to night, and Cielo&rsquo;s views all over the city are the reward."
+      }
+    ]
+  }
 }

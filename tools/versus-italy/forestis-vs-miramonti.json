@@ -188,5 +188,83 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For the top luxury stay",
+        "p": "Book Forestis if service and finish matter most. It&rsquo;s my favorite hotel in the Dolomites, with the best view of the Odle and my winners for wellness, dining and service. Come for the spa, the food and the quiet."
+      },
+      {
+        "h3": "For a stop with personality",
+        "p": "Book Miramonti if the pool and the personality are the point. It has the best outdoor pool of any hotel I saw in the region and beautiful views over Merano, and it&rsquo;s an easy add-on at either end of a Dolomites trip."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Forestis",
+        "place": "Palmschoss &middot; above Brixen",
+        "lat": 46.68158,
+        "lon": 11.70924,
+        "source": "forestis.it Contact & Arrival page, 46.68158, 11.70924",
+        "pos": [
+          65.92,
+          28.2
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Miramonti",
+        "place": "Avelengo &middot; above Merano",
+        "lat": 46.6497,
+        "lon": 11.2089,
+        "source": "hotel-miramonti.com location page, 46 38 59 N 11 12 32 E",
+        "pos": [
+          15.89,
+          35.79
+        ],
+        "side": "below",
+        "align": "start"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Forestis is in Palmschoss. Miramonti is in Avelengo. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Forestis in Palmschoss \u00b7 above Brixen and Miramonti in Avelengo \u00b7 above Merano",
+    "distance_miles": 24,
+    "distance_text": "About 24 miles apart",
+    "distance_pos": [
+      40.91,
+      31.99
+    ],
+    "src": "/images/maps/forestis-vs-miramonti.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": false,
+    "caption": "About 24 miles apart, as the crow flies."
+  }
 }

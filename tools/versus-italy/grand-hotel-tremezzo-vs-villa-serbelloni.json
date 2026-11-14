@@ -72,5 +72,94 @@
     {"href": "/grand-hotel-tremezzo-vs-villa-d-este.html", "label": "Grand Hotel Tremezzo or Villa d&rsquo;Este"},
     {"href": "/villa-d-este-vs-villa-serbelloni.html", "label": "Villa d&rsquo;Este or Villa Serbelloni"},
     {"href": "/lake-como.html", "label": "My Lake Como guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For most trips to the lake",
+        "p": "Book Grand Hotel Tremezzo if you want the most fun hotel on Lake Como and a view of Bellagio without its crowds. Take a lake-view junior suite, cross by boat for lunch in Bellagio, then come home to the gardens. For most trips, this is the one."
+      },
+      {
+        "h3": "If Bellagio is the whole point",
+        "p": "Book Villa Serbelloni if you love old Italian hotels and art, want to swim in the lake, and Bellagio is the reason you&rsquo;re coming. The pool, beach and floating pier are the best setup I&rsquo;ve seen on Como, and the modern spa surprised me."
+      }
+    ]
+  },
+  "map": {
+    "data": "lake-como",
+    "bbox": [
+      8.95,
+      45.78,
+      9.4,
+      46.07
+    ],
+    "markers": [
+      {
+        "name": "Grand Hotel Tremezzo",
+        "place": "Tremezzo &middot; west shore",
+        "lat": 45.984889,
+        "lon": 9.2284306,
+        "source": "Wikipedia, Grand Hotel Tremezzo: 45.984889, 9.2284306",
+        "pos": [
+          61.87,
+          29.35
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Villa Serbelloni",
+        "place": "Bellagio",
+        "lat": 45.98306,
+        "lon": 9.26222,
+        "source": "Relais & Chateaux property page, GPS 45.9889, 9.2609",
+        "pos": [
+          69.38,
+          29.98
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Lake Como",
+        "lat": 45.94,
+        "lon": 9.155,
+        "kind": "water",
+        "pos": [
+          45.56,
+          44.83
+        ],
+        "edge": false
+      },
+      {
+        "text": "Switzerland",
+        "lat": 46.0,
+        "lon": 8.985,
+        "kind": "region",
+        "pos": [
+          7.78,
+          24.14
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the lake",
+    "intro": "Grand Hotel Tremezzo is in Tremezzo. Villa Serbelloni is in Bellagio. Lake Como is shaped like an upside-down Y, so it helps to see where each hotel sits before you choose.",
+    "alt": "Map showing Grand Hotel Tremezzo in Tremezzo \u00b7 west shore and Villa Serbelloni in Bellagio",
+    "distance_miles": 2,
+    "distance_text": "About 2 miles apart",
+    "distance_pos": [
+      65.63,
+      29.66
+    ],
+    "src": "/images/maps/grand-hotel-tremezzo-vs-villa-serbelloni.svg",
+    "ratio": "1000 / 926",
+    "distance_pill": false,
+    "caption": "About 2 miles apart, as the crow flies."
+  }
 }

@@ -180,5 +180,94 @@
       "label": "Where to stay on the Amalfi Coast"
     }
   ],
-  "date": "2026-10-27"
+  "date": "2026-10-27",
+  "final": {
+    "picks": [
+      {
+        "h3": "When privacy is the point",
+        "p": "Book Villa Treville if privacy matters most. It has probably the most private rooms in Positano, every one different, and it feels more like a private estate than a hotel. Tell me your style and I&rsquo;ll match the room; the suite with the outdoor tub is a standout."
+      },
+      {
+        "h3": "For the modern hotel with the beach",
+        "p": "Book Borgo Santandrea if a modern statement and a real beach matter more to you than total privacy. The beach is beautiful and massive, and dinner at Alici is fantastic. Let me choose the room, because the private pool rooms are overlooked."
+      }
+    ]
+  },
+  "map": {
+    "data": "amalfi-coast",
+    "bbox": [
+      14.43,
+      40.57,
+      14.65,
+      40.68
+    ],
+    "markers": [
+      {
+        "name": "Villa Treville",
+        "place": "Positano",
+        "lat": 40.62622,
+        "lon": 14.49744,
+        "source": "Sembo listing, N 40.626 E 14.497 (Via Arienzo 30)",
+        "pos": [
+          30.65,
+          48.89
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Borgo Santandrea",
+        "place": "Conca dei Marini",
+        "lat": 40.6189,
+        "lon": 14.5743,
+        "source": "Relais & Chateaux property page, GPS 40.6189, 14.5743",
+        "pos": [
+          65.59,
+          55.55
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Gulf of Salerno",
+        "lat": 40.59,
+        "lon": 14.56,
+        "kind": "water",
+        "pos": [
+          59.09,
+          81.82
+        ],
+        "edge": false
+      },
+      {
+        "text": "Ravello",
+        "lat": 40.6493,
+        "lon": 14.6117,
+        "kind": "region",
+        "pos": [
+          82.59,
+          27.91
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the coast",
+    "intro": "Villa Treville is in Positano. Borgo Santandrea is in Conca dei Marini. The Amalfi Coast is one long cliffside road, so where your hotel sits decides which towns are on your doorstep.",
+    "alt": "Map showing Villa Treville in Positano and Borgo Santandrea in Conca dei Marini",
+    "distance_miles": 4,
+    "distance_text": "About 4 miles apart",
+    "distance_pos": [
+      48.12,
+      52.22
+    ],
+    "src": "/images/maps/villa-treville-vs-borgo-santandrea.svg",
+    "ratio": "1000 / 659",
+    "distance_pill": false,
+    "caption": "About 4 miles apart, as the crow flies."
+  }
 }

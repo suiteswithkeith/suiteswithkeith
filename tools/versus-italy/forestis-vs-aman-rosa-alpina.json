@@ -70,5 +70,94 @@
     {"href": "/hotels/aman-rosa-alpina-dolomites.html", "label": "Aman Rosa Alpina review"},
     {"href": "/forestis-vs-como-alpina.html", "label": "Forestis or COMO Alpina"},
     {"href": "/dolomites.html", "label": "My Dolomites guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For slowing down with a view",
+        "p": "Book Forestis if the mountains are something to look at. You get the best view of the Odle of any luxury hotel in the Dolomites, the best spa, and some of the best service I have had anywhere. For a honeymoon, it&rsquo;s my pick."
+      },
+      {
+        "h3": "To ski, hike or bring the family",
+        "p": "Book Aman Rosa Alpina if the mountains are something to ski and hike, or you&rsquo;re traveling with children. It&rsquo;s the most luxurious hotel in the region, the lifts are about two minutes away by shuttle, and it&rsquo;s as good for families as it is for couples."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Forestis",
+        "place": "Palmschoss &middot; above Brixen",
+        "lat": 46.68158,
+        "lon": 11.70924,
+        "source": "forestis.it Contact & Arrival page, 46.68158, 11.70924",
+        "pos": [
+          65.92,
+          28.2
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Aman Rosa Alpina",
+        "place": "San Cassiano &middot; Alta Badia",
+        "lat": 46.571791,
+        "lon": 11.929865,
+        "source": "Directory listing, 46.571791, 11.929865 (Strada Micura de Rue 20)",
+        "pos": [
+          87.99,
+          54.34
+        ],
+        "side": "below",
+        "align": "end"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      },
+      {
+        "text": "Merano",
+        "lat": 46.6696,
+        "lon": 11.1594,
+        "kind": "region",
+        "pos": [
+          10.94,
+          31.05
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Forestis is in Palmschoss. Aman Rosa Alpina is in San Cassiano. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Forestis in Palmschoss \u00b7 above Brixen and Aman Rosa Alpina in San Cassiano \u00b7 Alta Badia",
+    "distance_miles": 13,
+    "distance_text": "About 13 miles apart",
+    "distance_pos": [
+      76.96,
+      41.27
+    ],
+    "src": "/images/maps/forestis-vs-aman-rosa-alpina.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": true,
+    "caption": "Distance shown as the crow flies."
+  }
 }

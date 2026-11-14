@@ -69,5 +69,17 @@
     {"href": "/hotel-de-russie-vs-bulgari-rome.html", "label": "Hotel de Russie or Bulgari"},
     {"href": "/hotel-eden-vs-corinthia-rome.html", "label": "Hotel Eden or Corinthia"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a courtyard and a pool downstairs",
+        "p": "Book Hotel de Russie if you want a classic with a garden at its heart. The courtyard is where everyone gathers, the renovated rooms have the cutest lemon and orange ceilings, and the spa has an indoor pool. I loved it."
+      },
+      {
+        "h3": "For quiet outside as well as in",
+        "p": "Book the Corinthia if you want quiet on the street as well as inside, and more room. It&rsquo;s across from parliament, safe and central, with large rooms and a beautiful spa. Categories vary because it&rsquo;s new, so I&rsquo;ll steer you to the right one."
+      }
+    ]
+  }
 }

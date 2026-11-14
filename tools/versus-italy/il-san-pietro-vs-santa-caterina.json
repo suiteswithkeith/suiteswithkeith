@@ -71,5 +71,94 @@
     {"href": "/il-san-pietro-vs-villa-treville.html", "label": "Il San Pietro or Villa Treville"},
     {"href": "/villa-treville-vs-santa-caterina.html", "label": "Villa Treville or Santa Caterina"},
     {"href": "/amalfi-coast.html", "label": "Where to stay in Positano"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For Positano and the late sun",
+        "p": "Book Il San Pietro if you want Positano close by and the afternoon sun at the beach club. Every room has a sea view, the shuttles into town are free, and the days fill themselves with a yacht cruise, cooking classes and the iconic tennis court."
+      },
+      {
+        "h3": "To slow down in Amalfi",
+        "p": "Book Santa Caterina if you want to slow down and feel like a guest in someone&rsquo;s home. I stayed in room 45, and the family that has run it since 1904 made it hard to leave. Better still, do both: Amalfi first, then Positano."
+      }
+    ]
+  },
+  "map": {
+    "data": "amalfi-coast",
+    "bbox": [
+      14.43,
+      40.57,
+      14.65,
+      40.68
+    ],
+    "markers": [
+      {
+        "name": "Il San Pietro",
+        "place": "Just outside Positano",
+        "lat": 40.6234,
+        "lon": 14.5039,
+        "source": "Relais & Chateaux property page, GPS 40.6234, 14.5039",
+        "pos": [
+          33.59,
+          51.45
+        ],
+        "side": "below",
+        "align": "center"
+      },
+      {
+        "name": "Santa Caterina",
+        "place": "Amalfi",
+        "lat": 40.6294,
+        "lon": 14.5927,
+        "source": "Great Small Hotels, 40 37 46.16 N 14 35 34.09 E",
+        "pos": [
+          73.95,
+          46.0
+        ],
+        "side": "above",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Gulf of Salerno",
+        "lat": 40.59,
+        "lon": 14.56,
+        "kind": "water",
+        "pos": [
+          59.09,
+          81.82
+        ],
+        "edge": false
+      },
+      {
+        "text": "Ravello",
+        "lat": 40.6493,
+        "lon": 14.6117,
+        "kind": "region",
+        "pos": [
+          82.59,
+          27.91
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the coast",
+    "intro": "Il San Pietro is in Just outside Positano. Santa Caterina is in Amalfi. The Amalfi Coast is one long cliffside road, so where your hotel sits decides which towns are on your doorstep.",
+    "alt": "Map showing Il San Pietro in Just outside Positano and Santa Caterina in Amalfi",
+    "distance_miles": 5,
+    "distance_text": "About 5 miles apart",
+    "distance_pos": [
+      53.77,
+      48.73
+    ],
+    "src": "/images/maps/il-san-pietro-vs-santa-caterina.svg",
+    "ratio": "1000 / 659",
+    "distance_pill": false,
+    "caption": "About 5 miles apart, as the crow flies."
+  }
 }

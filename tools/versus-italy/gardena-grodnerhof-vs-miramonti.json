@@ -193,5 +193,83 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For the base of the whole trip",
+        "p": "Book Gardena Gr&ouml;dnerhof if you&rsquo;re coming to hike, eat out and see the famous peaks. It&rsquo;s right in Ortisei, with lifts to two completely different hiking areas, an incredible spa and warm, polished service. It works for couples and families alike."
+      },
+      {
+        "h3": "For the pool, as an add-on",
+        "p": "Book Miramonti if the pool and the views matter more to you than polish. The infinity pool is the best outdoor pool I saw in the region, and Ortisei to Merano is about an hour by car, so many trips can have both."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Gardena Grödnerhof",
+        "place": "Ortisei &middot; Val Gardena",
+        "lat": 46.5727,
+        "lon": 11.6732,
+        "source": "Relais & Chateaux property page, GPS 46.5727, 11.6732",
+        "pos": [
+          62.32,
+          54.12
+        ],
+        "side": "below",
+        "align": "center"
+      },
+      {
+        "name": "Miramonti",
+        "place": "Avelengo &middot; above Merano",
+        "lat": 46.6497,
+        "lon": 11.2089,
+        "source": "hotel-miramonti.com location page, 46 38 59 N 11 12 32 E",
+        "pos": [
+          15.89,
+          35.79
+        ],
+        "side": "above",
+        "align": "start"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Gardena Grödnerhof is in Ortisei. Miramonti is in Avelengo. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Gardena Grödnerhof in Ortisei · Val Gardena and Miramonti in Avelengo · above Merano",
+    "distance_miles": 23,
+    "distance_text": "About 23 miles apart",
+    "distance_pos": [
+      39.1,
+      44.95
+    ],
+    "src": "/images/maps/gardena-grodnerhof-vs-miramonti.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": false,
+    "caption": "About 23 miles apart, as the crow flies."
+  }
 }

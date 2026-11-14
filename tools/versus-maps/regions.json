@@ -1,0 +1,58 @@
+{
+  "_about": "Location maps for the Italy head-to-heads. Every hotel point was checked against a published source (recorded in 'source'). 'approx' points are a village or hamlet position, not the hotel's own; 'snap': 'water' moves a lakefront hotel to the nearest shoreline. Rebuild with: python3 tools/render_versus_map.py --region <name>",
+  "Lake Como": {
+    "data": "lake-como",
+    "bbox": [8.95, 45.78, 9.40, 46.07],
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the lake",
+    "lede": "Lake Como is shaped like an upside-down Y, so it helps to see where each hotel sits before you choose.",
+    "labels": [
+      {"text": "Lake Como", "lat": 45.94, "lon": 9.155, "kind": "water"},
+      {"text": "Switzerland", "lat": 46.0, "lon": 8.985, "kind": "region"}
+    ],
+    "hotels": {
+      "passalacqua-lake-como": {"place": "Moltrasio &middot; west shore", "lat": 45.860548, "lon": 9.099183, "source": "Sembo listing, N 45.860548 E 9.099183 (Via Besana 59, Moltrasio)"},
+      "villa-d-este-lake-como": {"place": "Cernobbio &middot; west shore", "lat": 45.844975, "lon": 9.0799, "source": "Wikipedia, Villa d'Este (Cernobbio): 45.8449750, 9.0799000"},
+      "il-sereno-lake-como": {"place": "Torno &middot; east shore", "lat": 45.850, "lon": 9.117, "snap": "water", "approx": true, "source": "Torno village, Wikipedia (45 51 N, 9 07 E); the hotel is on the lakefront about 250 yards from the village centre. CONFIRM the exact point."},
+      "grand-hotel-tremezzo-lake-como": {"place": "Tremezzo &middot; west shore", "lat": 45.984889, "lon": 9.2284306, "source": "Wikipedia, Grand Hotel Tremezzo: 45.984889, 9.2284306"},
+      "lake-como-edition": {"place": "Cadenabbia &middot; west shore", "lat": 45.99056, "lon": 9.23639, "snap": "water", "approx": true, "source": "Cadenabbia village, Wikipedia (45.99056, 9.23639); the hotel is on the lakefront in Cadenabbia (Griante). CONFIRM the exact point."},
+      "villa-serbelloni-bellagio": {"place": "Bellagio", "lat": 45.9889, "lon": 9.2609, "source": "Relais & Chateaux property page, GPS 45.9889, 9.2609"}
+    }
+  },
+  "Amalfi Coast": {
+    "data": "amalfi-coast",
+    "bbox": [14.43, 40.57, 14.65, 40.68],
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the coast",
+    "lede": "The Amalfi Coast is one long cliffside road, so where your hotel sits decides which towns are on your doorstep.",
+    "labels": [
+      {"text": "Gulf of Salerno", "lat": 40.59, "lon": 14.56, "kind": "water"},
+      {"text": "Ravello", "lat": 40.6493, "lon": 14.6117, "kind": "region"}
+    ],
+    "hotels": {
+      "le-sirenuse-positano": {"place": "Positano", "lat": 40.62887, "lon": 14.48769, "source": "Italia-Italy.org, 40.62887, 14.48769 (Via Cristoforo Colombo 30)"},
+      "villa-treville-positano": {"place": "Positano", "lat": 40.626, "lon": 14.497, "source": "Sembo listing, N 40.626 E 14.497 (Via Arienzo 30)"},
+      "il-san-pietro-di-positano": {"place": "Just outside Positano", "lat": 40.6234, "lon": 14.5039, "source": "Relais & Chateaux property page, GPS 40.6234, 14.5039"},
+      "hotel-santa-caterina-amalfi": {"place": "Amalfi", "lat": 40.6294, "lon": 14.5927, "source": "Great Small Hotels, 40 37 46.16 N 14 35 34.09 E"},
+      "borgo-santandrea-amalfi": {"place": "Conca dei Marini", "lat": 40.6189, "lon": 14.5743, "source": "Relais & Chateaux property page, GPS 40.6189, 14.5743"}
+    }
+  },
+  "Dolomites": {
+    "data": "dolomites",
+    "bbox": [11.05, 46.38, 12.05, 46.80],
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "lede": "These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "labels": [
+      {"text": "Bolzano", "lat": 46.5, "lon": 11.35, "kind": "region"},
+      {"text": "Merano", "lat": 46.6696, "lon": 11.1594, "kind": "region"}
+    ],
+    "hotels": {
+      "forestis-dolomites": {"place": "Palmschoss &middot; above Brixen", "lat": 46.68158, "lon": 11.70924, "source": "forestis.it Contact & Arrival page, 46.68158, 11.70924"},
+      "aman-rosa-alpina-dolomites": {"place": "San Cassiano &middot; Alta Badia", "lat": 46.571791, "lon": 11.929865, "source": "Directory listing, 46.571791, 11.929865 (Strada Micura de Rue 20)"},
+      "como-alpina-dolomites": {"place": "Alpe di Siusi", "lat": 46.5403, "lon": 11.618, "approx": true, "source": "Compatsch hamlet (Mapcarta 46.54027, 11.61791); the hotel is beside the cable car's top station there. CONFIRM the exact point."},
+      "gardena-grodnerhof-ortisei": {"place": "Ortisei &middot; Val Gardena", "lat": 46.5727, "lon": 11.6732, "source": "Relais & Chateaux property page, GPS 46.5727, 11.6732"},
+      "miramonti-merano": {"place": "Avelengo &middot; above Merano", "lat": 46.6497, "lon": 11.2089, "source": "hotel-miramonti.com location page, 46 38 59 N 11 12 32 E"}
+    }
+  }
+}

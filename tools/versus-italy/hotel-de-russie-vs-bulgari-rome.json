@@ -69,5 +69,17 @@
     {"href": "/hotel-de-russie-vs-corinthia-rome.html", "label": "Hotel de Russie or Corinthia"},
     {"href": "/bulgari-rome-vs-corinthia-rome.html", "label": "Bulgari or Corinthia"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a garden and a swim",
+        "p": "Book Hotel de Russie if, after a day on foot, you want to come back to calm. The courtyard feels like an escape from the city, and the spa has an indoor pool, which is rare in the centro storico. It&rsquo;s one I recommend to first-timers."
+      },
+      {
+        "h3": "When you want a buzz at home",
+        "p": "Book the Bulgari if you want room to spread out and a hotel with energy. The base rooms are as big as junior suites elsewhere, and between the rooftop bar, the trattoria and the biggest gym I saw in Rome, you barely need to leave."
+      }
+    ]
+  }
 }

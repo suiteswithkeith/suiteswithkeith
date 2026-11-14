@@ -179,5 +179,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a courtyard to come back to",
+        "p": "Book Hotel de Russie if a courtyard and a pool sound like your trip. Both streets are busy, and here you come back to a large, beautiful courtyard and a spa with an indoor pool. I loved this hotel. Ask me about the suite over Piazza del Popolo."
+      },
+      {
+        "h3": "For tradition and a big dinner",
+        "p": "Book the Hassler if classic grand-hotel style is what you want, with canopy beds, damask walls and the Spanish Steps right below you. For dining, it&rsquo;s the one I&rsquo;d point to: a Michelin-starred restaurant on the roof."
+      }
+    ]
+  }
 }

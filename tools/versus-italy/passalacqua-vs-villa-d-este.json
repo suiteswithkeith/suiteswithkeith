@@ -74,5 +74,94 @@
     {"href": "/il-sereno-vs-passalacqua.html", "label": "Il Sereno or Passalacqua"},
     {"href": "/grand-hotel-tremezzo-vs-villa-d-este.html", "label": "Grand Hotel Tremezzo or Villa d&rsquo;Este"},
     {"href": "/lake-como.html", "label": "My Lake Como guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "When the moment calls for it",
+        "p": "Book Passalacqua if it&rsquo;s a honeymoon or a milestone. It&rsquo;s a 1787 villa with 24 rooms, no outside guests and Three Michelin Keys, and it&rsquo;s the best honeymoon hotel on the lake. When the trip deserves it, it&rsquo;s worth every euro."
+      },
+      {
+        "h3": "For tennis, groups and a town",
+        "p": "Book Villa d&rsquo;Este if you&rsquo;re planning a tennis trip with friends, bringing several generations, or want a town to walk into. Eight clay courts run along the water, private villas on the estate hold a group, and Cernobbio is right outside the gate."
+      }
+    ]
+  },
+  "map": {
+    "data": "lake-como",
+    "bbox": [
+      8.95,
+      45.78,
+      9.4,
+      46.07
+    ],
+    "markers": [
+      {
+        "name": "Passalacqua",
+        "place": "Moltrasio &middot; west shore",
+        "lat": 45.860548,
+        "lon": 9.099183,
+        "source": "Sembo listing, N 45.860548 E 9.099183 (Via Besana 59, Moltrasio)",
+        "pos": [
+          33.15,
+          72.22
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "Villa d’Este",
+        "place": "Cernobbio &middot; west shore",
+        "lat": 45.844975,
+        "lon": 9.0799,
+        "source": "Wikipedia, Villa d'Este (Cernobbio): 45.8449750, 9.0799000",
+        "pos": [
+          28.87,
+          77.59
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Lake Como",
+        "lat": 45.94,
+        "lon": 9.155,
+        "kind": "water",
+        "pos": [
+          45.56,
+          44.83
+        ],
+        "edge": false
+      },
+      {
+        "text": "Switzerland",
+        "lat": 46.0,
+        "lon": 8.985,
+        "kind": "region",
+        "pos": [
+          7.78,
+          24.14
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the lake",
+    "intro": "Passalacqua is in Moltrasio. Villa d’Este is in Cernobbio. Lake Como is shaped like an upside-down Y, so it helps to see where each hotel sits before you choose.",
+    "alt": "Map showing Passalacqua in Moltrasio · west shore and Villa d’Este in Cernobbio · west shore",
+    "distance_miles": 1,
+    "distance_text": "About 1 mile apart",
+    "distance_pos": [
+      31.01,
+      74.91
+    ],
+    "src": "/images/maps/passalacqua-vs-villa-d-este.svg",
+    "ratio": "1000 / 926",
+    "distance_pill": false,
+    "caption": "About 1 mile apart, as the crow flies."
+  }
 }

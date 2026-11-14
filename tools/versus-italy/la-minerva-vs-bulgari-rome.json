@@ -174,5 +174,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For the buzz of a neighborhood",
+        "p": "Book La Minerva if personality and a neighborhood matter more than a big room. The energy comes from the people: the warmest team I met in Rome and a bar and lobby with a real buzz, steps from the Pantheon. I stayed, and felt I could be myself."
+      },
+      {
+        "h3": "When a big room matters",
+        "p": "Book the Bulgari if you want the hotel itself to be the scene. Base rooms are the size of junior suites elsewhere, there&rsquo;s a rooftop bar and a trattoria with &euro;18 pastas, and the biggest gym I saw in Rome. The entry rooms are the value."
+      }
+    ]
+  }
 }

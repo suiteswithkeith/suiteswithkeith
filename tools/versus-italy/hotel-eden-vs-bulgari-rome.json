@@ -179,5 +179,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For quiet and warm service",
+        "p": "Book Hotel Eden if you want to come home to quiet. The service is warm and a step ahead the whole time, the street above the Spanish Steps is calm, and it usually costs a little less than the Bulgari. It is my top overall pick in Rome."
+      },
+      {
+        "h3": "When you want a scene",
+        "p": "Book the Bulgari if you want space and energy without leaving the hotel. The base rooms are the size of junior suites elsewhere, so you often don&rsquo;t need to upgrade, and there are more bars and restaurants than I could count, down to a trattoria with &euro;18 pastas."
+      }
+    ]
+  }
 }

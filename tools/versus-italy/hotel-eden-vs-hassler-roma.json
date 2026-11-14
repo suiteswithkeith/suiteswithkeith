@@ -174,5 +174,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For calm just beyond the Steps",
+        "p": "Book Hotel Eden if you want the Spanish Steps close by and a quiet street to come home to. The service is warmer, the rooms look over the rooftops, and it is usually priced slightly below the Hassler. That is why it&rsquo;s my top overall pick in Rome."
+      },
+      {
+        "h3": "If tradition is what you love",
+        "p": "Book the Hassler if you love a very traditional grand hotel and want to be right at the top of the Steps. Canopy beds and damask walls, a Michelin-starred restaurant on the roof, and about as central as Rome gets. Expect crowds at the door."
+      }
+    ]
+  }
 }

@@ -69,5 +69,17 @@
     {"href": "/hassler-roma-vs-bulgari-rome.html", "label": "Hassler or Bulgari"},
     {"href": "/corinthia-rome-vs-hotel-de-la-ville.html", "label": "Corinthia or Hotel de la Ville"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For the Steps as your front yard",
+        "p": "Book the Hassler if you love traditional grand hotels and want to be in the middle of the action. You step out into the crowds at the Spanish Steps, then come back to Michelin-starred dining on the roof."
+      },
+      {
+        "h3": "To come home to calm",
+        "p": "Book the Corinthia if you want a quiet street, more room and a spa you can use today. It&rsquo;s across from parliament, incredibly safe and still central, and the renovation is a showstopper. I think it&rsquo;s a game changer for Rome."
+      }
+    ]
+  }
 }

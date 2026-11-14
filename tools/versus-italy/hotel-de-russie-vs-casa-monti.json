@@ -68,5 +68,17 @@
     {"href": "/hassler-roma-vs-casa-monti.html", "label": "Hassler or Casa Monti"},
     {"href": "/la-minerva-vs-casa-monti.html", "label": "La Minerva or Casa Monti"},
     {"href": "/rome.html", "label": "My Rome guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a first trip to Rome",
+        "p": "Book Hotel de Russie if it&rsquo;s your first time in Rome and you want the classic. You walk to the Spanish Steps and Piazza del Popolo, then come back to the courtyard and the indoor pool. I loved this hotel."
+      },
+      {
+        "h3": "For living like a local in Monti",
+        "p": "Book Casa Monti if you&rsquo;re a younger couple and a classic Rome hotel sounds a bit too traditional. You&rsquo;ll eat where real Romans eat lunch, come home to super cool patterns, and have the spa to yourselves once I set it up."
+      }
+    ]
+  }
 }

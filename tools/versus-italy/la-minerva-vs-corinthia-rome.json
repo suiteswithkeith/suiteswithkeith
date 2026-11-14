@@ -179,5 +179,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "If you want energy and real Rome",
+        "p": "Book La Minerva if you&rsquo;re younger and want energy and a real neighborhood. I shared a great laugh at check-in, the rooftop restaurant and bar have a real buzz, and the views are authentic Rome, by the Pantheon. That is part of its charm."
+      },
+      {
+        "h3": "For quiet and room to spread out",
+        "p": "Book the Corinthia if you want space, a real spa and quiet. It&rsquo;s across from parliament, so the area is incredibly safe while still in the middle of everything, and the rooms are large. It&rsquo;s new and categories vary, so I&rsquo;ll steer you to the right one."
+      }
+    ]
+  }
 }

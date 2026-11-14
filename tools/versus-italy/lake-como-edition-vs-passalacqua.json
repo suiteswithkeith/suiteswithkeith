@@ -73,5 +73,95 @@
     {"href": "/il-sereno-vs-passalacqua.html", "label": "Il Sereno or Passalacqua"},
     {"href": "/lake-como-edition-vs-il-sereno.html", "label": "The EDITION or Il Sereno"},
     {"href": "/lake-como.html", "label": "My Lake Como guide"}
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a honeymoon or a milestone",
+        "p": "Book Passalacqua if this trip calls for the pinnacle: a honeymoon, a big anniversary, or two couples traveling together. It&rsquo;s a 24-room villa run like a private home, and only guests get in. Take the Junior Suite Al Lago and plan a few dinners out by boat."
+      },
+      {
+        "h3": "For a scene and a great gym",
+        "p": "Book the Lake Como EDITION if you want a lively, social hotel with an excellent spa and one of the best hotel gyms I&rsquo;ve seen. It&rsquo;s a smart way into the lake when the trip doesn&rsquo;t need the pinnacle. Families should take the two-bedroom suite."
+      }
+    ]
+  },
+  "map": {
+    "data": "lake-como",
+    "bbox": [
+      8.95,
+      45.78,
+      9.4,
+      46.07
+    ],
+    "markers": [
+      {
+        "name": "Passalacqua",
+        "place": "Moltrasio &middot; west shore",
+        "lat": 45.860548,
+        "lon": 9.099183,
+        "source": "Sembo listing, N 45.860548 E 9.099183 (Via Besana 59, Moltrasio)",
+        "pos": [
+          33.15,
+          72.22
+        ],
+        "side": "below",
+        "align": "center"
+      },
+      {
+        "name": "Lake Como EDITION",
+        "place": "Cadenabbia &middot; west shore",
+        "lat": 45.98972,
+        "lon": 9.24055,
+        "snap": "water",
+        "source": "Cadenabbia village, Wikipedia (45.99056, 9.23639); the hotel is on the lakefront in Cadenabbia (Griante). CONFIRM the exact point.",
+        "pos": [
+          64.57,
+          27.68
+        ],
+        "side": "above",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Lake Como",
+        "lat": 45.94,
+        "lon": 9.155,
+        "kind": "water",
+        "pos": [
+          45.56,
+          44.83
+        ],
+        "edge": false
+      },
+      {
+        "text": "Switzerland",
+        "lat": 46.0,
+        "lon": 8.985,
+        "kind": "region",
+        "pos": [
+          7.78,
+          24.14
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they sit on the lake",
+    "intro": "Passalacqua is in Moltrasio. Lake Como EDITION is in Cadenabbia. Lake Como is shaped like an upside-down Y, so it helps to see where each hotel sits before you choose.",
+    "alt": "Map showing Passalacqua in Moltrasio \u00b7 west shore and Lake Como EDITION in Cadenabbia \u00b7 west shore",
+    "distance_miles": 11,
+    "distance_text": "About 11 miles apart",
+    "distance_pos": [
+      48.86,
+      49.95
+    ],
+    "src": "/images/maps/lake-como-edition-vs-passalacqua.svg",
+    "ratio": "1000 / 926",
+    "distance_pill": true,
+    "caption": "Distance shown as the crow flies. Lake Como EDITION is marked at the village; the exact spot may differ slightly."
+  }
 }

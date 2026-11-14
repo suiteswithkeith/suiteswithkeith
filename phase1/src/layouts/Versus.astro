@@ -147,13 +147,13 @@ const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@medi
           <img src={g.map.src} alt={plain(g.map.alt)} loading="lazy" decoding="async" />
           <div aria-hidden="true">
             {(g.map.labels || []).map((lb) => (
-              <span class={`vs-map-label${lb.kind === 'water' ? ' is-water' : ''}`} style={`left:${lb.pos[0]}%; top:${lb.pos[1]}%;`} set:html={lb.text} />
+              <span class={`vs-map-label${lb.kind === 'water' ? ' is-water' : ''}${lb.edge ? ' is-edge' : ''}`} style={`left:${lb.pos[0]}%; top:${lb.pos[1]}%;`} set:html={lb.text} />
             ))}
-            {g.map.distance_miles && (
-              <span class="vs-map-distance" style={`left:${g.map.distance_pos[0]}%; top:${g.map.distance_pos[1]}%;`}>About {g.map.distance_miles} miles apart</span>
+            {g.map.distance_miles && g.map.distance_pill !== false && (
+              <span class="vs-map-distance" style={`left:${g.map.distance_pos[0]}%; top:${g.map.distance_pos[1]}%;`}>{g.map.distance_text || `About ${g.map.distance_miles} miles apart`}</span>
             )}
             {g.map.markers.map((mk) => (
-              <span class="vs-map-pin" data-side={mk.side || 'right'} style={`left:${mk.pos[0]}%; top:${mk.pos[1]}%;`}>
+              <span class="vs-map-pin" data-side={mk.side || 'right'} data-align={mk.align || 'center'} style={`left:${mk.pos[0]}%; top:${mk.pos[1]}%;`}>
                 <span class="vs-map-name"><b set:html={mk.name} /><span set:html={mk.place} /></span>
               </span>
             ))}
@@ -171,7 +171,12 @@ const richCss = `.vs-guide{display:grid;gap:44px;grid-template-columns:1fr}@medi
     <div class="container" style="max-width:1000px;">
       <span class="eyebrow reveal" style="display:block; margin-bottom:16px;" set:html={g.final.eyebrow || 'The verdict'} />
       <h2 class="display-l reveal" set:html={g.final.h2 || 'So, which would I book?'} />
-      {g.final.intro && <p class="body-2 reveal" style="margin-top:22px; max-width:56ch;" set:html={g.final.intro} />}
+      {g.final.intro ? <p class="body-2 reveal" style="margin-top:22px; max-width:56ch;" set:html={g.final.intro} /> : g.verdict && (
+        <Fragment>
+          <p class="deck reveal" style="margin-top:14px; max-width:40ch;" set:html={g.verdict.h2} />
+          {g.verdict.paras.map((p) => <p class="body-2 reveal" style="margin-top:22px; max-width:56ch;" set:html={p} />)}
+        </Fragment>
+      )}
       <div class="vs-final-picks reveal">
         {g.final.picks.map((p, i) => (
           <div class="vs-pick">

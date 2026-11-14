@@ -179,5 +179,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a palazzo by the Pantheon",
+        "p": "Book La Minerva if you want a palazzo by the Pantheon and shared spaces you&rsquo;ll actually use. The team is the warmest I met in Rome, and the bar and lobby have a real buzz. Riding La Dolce Vita? This is where I put clients first."
+      },
+      {
+        "h3": "For a younger couple&rsquo;s honeymoon",
+        "p": "Book Casa Monti if you&rsquo;re a younger couple, especially on your honeymoon. It&rsquo;s smaller and more playful, from the team behind Le Fantaisie in Paris, with trattorias all around in Monti and a spa I can arrange for just the two of you."
+      }
+    ]
+  }
 }

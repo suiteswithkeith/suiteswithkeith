@@ -178,5 +178,17 @@
       "href": "/rome.html",
       "label": "My Rome guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For polish and calm",
+        "p": "Book Hotel Eden if you want more polish and calm, or you&rsquo;re a little older. The service is a step ahead the whole time, the rooms are bright with views to St. Peter&rsquo;s, and you come home to a quiet street. It&rsquo;s one of my top three stays in Italy."
+      },
+      {
+        "h3": "If you&rsquo;re younger and want energy",
+        "p": "Book La Minerva if you&rsquo;re younger and want energy. The team is the warmest I met in Rome, the bar and lobby have a real buzz, and you step out by the Pantheon into the city as Romans live it. Riding La Dolce Vita? I put you here first."
+      }
+    ]
+  }
 }

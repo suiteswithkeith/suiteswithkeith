@@ -193,5 +193,94 @@
       "href": "/dolomites.html",
       "label": "My Dolomites guide"
     }
-  ]
+  ],
+  "final": {
+    "picks": [
+      {
+        "h3": "For a town and its restaurants",
+        "p": "Book Gardena Gr&ouml;dnerhof if you want a real town around you. Ortisei has great restaurants on foot, the lifts take you to two completely different landscapes, and the renovation, spa and service make it the best base in the Dolomites. For most trips, it&rsquo;s my pick."
+      },
+      {
+        "h3": "For skiing from your door",
+        "p": "Book COMO Alpina if it&rsquo;s a ski trip, or you want to hike straight from your room in summer. It&rsquo;s the only true ski-in, ski-out hotel I saw and my first choice in winter. Or do both: it&rsquo;s one of my favorite pairings."
+      }
+    ]
+  },
+  "map": {
+    "data": "dolomites",
+    "bbox": [
+      11.05,
+      46.38,
+      12.05,
+      46.8
+    ],
+    "markers": [
+      {
+        "name": "Gardena Grödnerhof",
+        "place": "Ortisei &middot; Val Gardena",
+        "lat": 46.5727,
+        "lon": 11.6732,
+        "source": "Relais & Chateaux property page, GPS 46.5727, 11.6732",
+        "pos": [
+          62.32,
+          54.12
+        ],
+        "side": "above",
+        "align": "center"
+      },
+      {
+        "name": "COMO Alpina",
+        "place": "Alpe di Siusi",
+        "lat": 46.5403,
+        "lon": 11.618,
+        "source": "Compatsch hamlet (Mapcarta 46.54027, 11.61791); the hotel is beside the cable car's top station there. CONFIRM the exact point.",
+        "pos": [
+          56.8,
+          61.83
+        ],
+        "side": "below",
+        "align": "center"
+      }
+    ],
+    "labels": [
+      {
+        "text": "Bolzano",
+        "lat": 46.5,
+        "lon": 11.35,
+        "kind": "region",
+        "pos": [
+          30.0,
+          71.43
+        ],
+        "edge": false
+      },
+      {
+        "text": "Merano",
+        "lat": 46.6696,
+        "lon": 11.1594,
+        "kind": "region",
+        "pos": [
+          10.94,
+          31.05
+        ],
+        "edge": true
+      }
+    ],
+    "line": true,
+    "auto_sides": true,
+    "eyebrow": "On the map",
+    "h2": "Where they are in the mountains",
+    "intro": "Gardena Grödnerhof is in Ortisei. COMO Alpina is in Alpe di Siusi. These hotels sit in different valleys, so the one you choose also decides which mountains are on your doorstep.",
+    "alt": "Map showing Gardena Grödnerhof in Ortisei · Val Gardena and COMO Alpina in Alpe di Siusi",
+    "distance_miles": 3,
+    "distance_text": "About 3 miles apart",
+    "distance_pos": [
+      59.56,
+      57.98
+    ],
+    "src": "/images/maps/como-alpina-vs-gardena-grodnerhof.svg",
+    "ratio": "1000 / 611",
+    "distance_pill": false,
+    "caption": "About 3 miles apart, as the crow flies. COMO Alpina is marked at the village; the exact spot may differ slightly."
+  }
 }
