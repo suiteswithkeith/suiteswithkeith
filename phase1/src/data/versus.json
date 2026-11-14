@@ -1401,23 +1401,23 @@
  },
  "auberge-du-soleil-vs-montage-healdsburg": {
   "title": "Auberge du Soleil or Montage Healdsburg | Suites With Keith",
-  "description": "Only two American wine-country hotels made The Fifteen, Keith's honeymoon shortlist: the Rutherford terrace or the vineyard bungalows. Here's how he splits them.",
-  "eyebrow": "Head-to-head &middot; The honeymoon question",
+  "description": "Two of Keith's favorite honeymoon hotels in wine country: Auberge du Soleil in Napa, for dinner on the terrace above the valley, or Montage Healdsburg in Sonoma, for a bungalow in the vineyards. Here's how he chooses.",
+  "eyebrow": "Head-to-head &middot; Wine country honeymoons",
   "h1_a": "Auberge du Soleil",
   "h1_b": "Montage Healdsburg?",
-  "deck": "Only two American wine-country properties made The Fifteen, my shortlist of honeymoon hotels I&rsquo;d book anywhere in the world. Auberge du Soleil carries the Napa flag at #14; Montage Healdsburg carries Sonoma&rsquo;s at #15. This is how I split them.",
-  "stamp": "#14 and #15 on The Fifteen &middot; the shortlist&rsquo;s only wine-country entries &middot; both Fora / Virtuoso partners",
+  "deck": "I keep a list of my 15 favorite honeymoon hotels in the world, called The Fifteen. Only two in American wine country made it: Auberge du Soleil in Napa and Montage Healdsburg in Sonoma. Here&rsquo;s how I choose between them.",
+  "stamp": "Both on my list of the world&rsquo;s 15 best honeymoon hotels &middot; both Fora / Virtuoso partners",
   "preload": "/images/napa/montage-2.jpg",
   "choose": [
    {
     "eyebrow": "Choose Auberge du Soleil",
-    "h3": "If the terrace is the honeymoon",
-    "lead": "The original Napa luxury property, perched on the Rutherford hillside, and still the most romantic seat in the valley. My note beside it on The Fifteen names the three reasons: the terrace, the valley, the wine list."
+    "h3": "If dinner with a view is the highlight",
+    "lead": "Napa&rsquo;s original luxury hotel, set on a hillside in Rutherford with views across the whole valley. It&rsquo;s known for three things: the restaurant terrace, the view and the wine list. For a romantic dinner in Napa, there&rsquo;s nowhere better."
    },
    {
     "eyebrow": "Choose Montage",
     "h3": "If you want to live among the vines",
-    "lead": "Vineyard bungalows and a slower pace. Waking up by your own fire pit overlooking the vines never gets old, and after twenty-plus stays it still hasn&rsquo;t. The best restaurant view of any table on my list."
+    "lead": "Bungalows set right in the vineyards, and a slower pace. Every vineyard room has its own fire pit, and after more than twenty stays, waking up next to the vines still hasn&rsquo;t gotten old. The restaurant has the best view of any on my list."
    }
   ],
   "rows": [
@@ -1433,18 +1433,18 @@
    ],
    [
     "The view",
-    "Elevated above the valley floor, so the whole stay looks over the vines",
+    "Up on a hillside, with views across the whole valley",
     "Your own fire-pit terrace over the vineyards"
    ],
    [
     "Dining",
-    "The most famous dining terrace in the valley, the view that made it a legend",
+    "Napa&rsquo;s most famous restaurant terrace, looking out over the valley",
     "The best restaurant view on my list"
    ],
    [
     "The wine",
-    "One of the three reasons it made my shortlist, in the region where that bar is highest",
-    "Healdsburg&rsquo;s wineries minutes away, shuttle to the plaza"
+    "A wine list that stands out, even by Napa standards",
+    "Healdsburg&rsquo;s wineries minutes away, and a free shuttle into town"
    ],
    [
     "Who it suits",
@@ -1452,12 +1452,12 @@
     "Couples, wine lovers, returning visitors"
    ]
   ],
-  "footnote": "At Auberge, book the terrace with the room. The famous tables go as fast as the rooms do, so I reserve both together. Families are better matched elsewhere on my Napa &amp; Sonoma list. Both are Fora / Virtuoso preferred partners: same rate as direct, credits and extras layered on.",
+  "footnote": "At Auberge, reserve your terrace table when you book the room. The tables sell out as fast as the rooms do, so I book both together. If you&rsquo;re bringing kids, other hotels on my Napa &amp; Sonoma list are a better fit. Both hotels are Fora / Virtuoso partners: you pay the same rate as booking direct, plus hotel credits and extras.",
   "verdict": {
-   "h2": "Two seats on The Fifteen. One of them is yours.",
+   "h2": "Both are great honeymoons. Here&rsquo;s the difference.",
    "paras": [
-    "Auberge du Soleil can be summarized in six words and lose nothing: the terrace, the valley, the wine list. For the couple who wants the classic Napa romance (dinner above the valley as the light goes), it&rsquo;s still the most romantic seat in wine country.",
-    "Montage trades that elevation for intimacy with the vines themselves: the bungalow, the fire pit, the slower Healdsburg pace. It&rsquo;s the hotel I&rsquo;ve returned to more than any other, anywhere. Tell me your couple and I&rsquo;ll tell you which."
+    "Auberge du Soleil is the classic Napa romance: dinner on the terrace above the valley as the sun goes down. If that&rsquo;s the picture in your head, book Auberge.",
+    "Montage puts you in the vineyards themselves: your own bungalow, your own fire pit and the slower pace of Healdsburg. It&rsquo;s the hotel I&rsquo;ve gone back to more than any other in the world. Tell me a little about the two of you, and I&rsquo;ll tell you which one fits."
    ]
   },
   "subject": "Auberge du Soleil vs Montage Inquiry",
@@ -1466,7 +1466,7 @@
   "related": [
    {
     "href": "/the-fifteen.html",
-    "label": "The Fifteen, my honeymoon shortlist"
+    "label": "My 15 favorite honeymoon hotels"
    },
    {
     "href": "/hotels/auberge-du-soleil-napa.html",
@@ -2034,7 +2034,7 @@
    {
     "href": "/auberge-du-soleil-vs-montage-healdsburg.html",
     "label": "Auberge du Soleil <em>or</em> Montage",
-    "q": "The Fifteen&rsquo;s only two wine-country seats."
+    "q": "My two favorite wine-country honeymoon hotels."
    },
    {
     "href": "/meadowood-vs-stanly-ranch.html",
@@ -2509,17 +2509,17 @@
  },
  "auberge-du-soleil-vs-meadowood": {
   "title": "Auberge du Soleil or Meadowood? | Suites With Keith",
-  "description": "Napa's two grand names: the Rutherford terrace on Keith's honeymoon shortlist, or the St. Helena estate that tops his wine-country ranking.",
+  "description": "Napa's two classic luxury hotels: Auberge du Soleil, famous for dinner on its terrace above the valley, or Meadowood, Keith's #01 in wine country for service.",
   "eyebrow": "Head-to-head &middot; Napa&rsquo;s old guard",
   "h1_a": "Auberge du Soleil",
   "h1_b": "Meadowood?",
-  "deck": "The two grand names of Napa luxury: the original hillside property whose terrace made it a legend, and the wooded estate I measure every other wine-country stay against. One sits on my honeymoon shortlist; the other tops my ranking outright.",
-  "stamp": "#14 on The Fifteen vs #01 in my Napa &amp; Sonoma ranking &middot; both preferred-partner bookings",
+  "deck": "The two grand names of Napa luxury: the original hillside property whose terrace made it a legend, and the wooded estate I measure every other wine-country stay against. One is on my list of the world&rsquo;s 15 best honeymoon hotels; the other is #01 in my Napa &amp; Sonoma ranking.",
+  "stamp": "On my list of the world&rsquo;s 15 best honeymoon hotels vs #01 in my Napa &amp; Sonoma ranking &middot; both preferred partners",
   "choose": [
    {
     "eyebrow": "Choose Auberge du Soleil",
     "h3": "If dinner is the centerpiece of every day",
-    "lead": "The original Napa luxury property, perched on the Rutherford hillside, and still the most romantic seat in the valley. My note beside it on The Fifteen names the three reasons: the terrace, the valley, the wine list."
+    "lead": "Napa&rsquo;s original luxury hotel, set on a hillside in Rutherford with views across the whole valley. It&rsquo;s known for three things: the restaurant terrace, the view and the wine list. For a romantic dinner in Napa, there&rsquo;s nowhere better."
    },
    {
     "eyebrow": "Choose Meadowood",
@@ -2530,7 +2530,7 @@
   "rows": [
    [
     "Where it stands with me",
-    "#14 on The Fifteen, my honeymoon shortlist&rsquo;s Napa entry",
+    "#14 on My 15 favorite honeymoon hotels&rsquo;s Napa entry",
     "#01 in my Napa &amp; Sonoma ranking, after years of repeat stays"
    ],
    [
@@ -2561,10 +2561,10 @@
   ],
   "footnote": "Families are better matched elsewhere on my Napa &amp; Sonoma list than at Auberge, which is built for couples. At Meadowood there&rsquo;s a family pool, and it works well solo too. Both book through me at the same rate as direct, with the credits and extras layered on.",
   "verdict": {
-   "h2": "The most romantic seat, or the best-run house.",
+   "h2": "The most romantic dinner, or the best service.",
    "paras": [
-    "Auberge du Soleil can be summarized in six words and lose nothing: the terrace, the valley, the wine list. For the couple whose Napa is dinner above the valley as the light goes, it earned its seat on my honeymoon shortlist. It’s the only Napa property that made it.",
-    "Meadowood is harder to put your finger on. Every time I go, I feel well taken care of, and I can&rsquo;t say that about every property on my list. It&rsquo;s the benchmark I measure the rest of wine country against. Honeymoon romance or the best-run house in the valley? Tell me the occasion and I&rsquo;ll tell you which."
+    "Auberge du Soleil is known for three things: the restaurant terrace, the view and the wine list. If your idea of Napa is dinner above the valley as the sun goes down, book Auberge. It&rsquo;s the only Napa hotel on my list of the world&rsquo;s 15 best honeymoon hotels.",
+    "Meadowood is harder to put your finger on. Every time I go, I feel well taken care of, and I can&rsquo;t say that about every property on my list. It&rsquo;s the benchmark I measure the rest of wine country against. A romantic dinner with a view, or the best service in the valley? Tell me the occasion and I&rsquo;ll tell you which."
    ]
   },
   "subject": "Auberge du Soleil vs Meadowood Inquiry",
@@ -2577,7 +2577,7 @@
    },
    {
     "href": "/the-fifteen.html",
-    "label": "The Fifteen, my honeymoon shortlist"
+    "label": "My 15 favorite honeymoon hotels"
    },
    {
     "href": "/hotels/auberge-du-soleil-napa.html",
@@ -4333,18 +4333,18 @@
  },
  "auberge-du-soleil-vs-stanly-ranch": {
   "title": "Auberge du Soleil or Stanly Ranch? | Suites With Keith",
-  "description": "Two Auberge Resorts in Napa, two very different trips: the hillside romantic escape on Keith's honeymoon shortlist, or the contemporary ranch resort with the valley's prettiest spa.",
+  "description": "Two Auberge Resorts in Napa, two very different trips: the romantic hillside hotel on Keith's list of the world's 15 best honeymoon hotels, or the contemporary ranch resort with the valley's prettiest spa.",
   "eyebrow": "Head-to-head &middot; Two Auberge resorts",
   "h1_a": "Auberge du Soleil",
   "h1_b": "Stanly Ranch?",
   "deck": "Same parent company, opposite ideas of a Napa trip. Auberge du Soleil is the original Napa luxury property, a romantic escape on the Rutherford hillside. Stanly Ranch is the contemporary resort down in Carneros, built around design and wellness. Here&rsquo;s how I split them.",
-  "stamp": "#14 on The Fifteen vs #06 in my Napa &amp; Sonoma ranking &middot; both Auberge Resorts Collection",
+  "stamp": "On my list of the world&rsquo;s 15 best honeymoon hotels vs #06 in my Napa &amp; Sonoma ranking &middot; both Auberge Resorts Collection",
   "preload": "/images/napa/stanly-ranch.jpg",
   "choose": [
    {
     "eyebrow": "Choose Auberge du Soleil",
     "h3": "If it&rsquo;s a romantic escape",
-    "lead": "The original Napa luxury property, perched on the Rutherford hillside, and still the most romantic seat in the valley. My note beside it on The Fifteen names the three reasons: the terrace, the valley, the wine list."
+    "lead": "Napa&rsquo;s original luxury hotel, set on a hillside in Rutherford with views across the whole valley. It&rsquo;s known for three things: the restaurant terrace, the view and the wine list. For a romantic dinner in Napa, there&rsquo;s nowhere better."
    },
    {
     "eyebrow": "Choose Stanly Ranch",
@@ -4359,7 +4359,7 @@
   "rows": [
    [
     "Where it stands with me",
-    "#14 on The Fifteen, the Napa entry on my honeymoon shortlist",
+    "On my list of the world&rsquo;s 15 best honeymoon hotels",
     "#06 in my Napa &amp; Sonoma ranking"
    ],
    [
@@ -4397,7 +4397,7 @@
   "verdict": {
    "h2": "The romance, or the resort.",
    "paras": [
-    "Auberge du Soleil can be summarized in six words and lose nothing: the terrace, the valley, the wine list. If the trip is about the two of you, with dinner above the valley as the light goes, it&rsquo;s the one. It&rsquo;s the only Napa property on my honeymoon shortlist.",
+    "Auberge du Soleil is known for three things: the restaurant terrace, the view and the wine list. If the trip is about the two of you, with dinner above the valley as the sun goes down, book Auberge. It&rsquo;s the only Napa hotel on my list of the world&rsquo;s 15 best honeymoon hotels.",
     "Stanly Ranch is the statement piece: the architecture, the spa, the fire pits. It&rsquo;s the better pick if you want a modern resort and a spa day matters as much as dinner. Just know it sits in the marshes, not the vineyard postcard. Romantic escape or contemporary resort? Tell me the trip and I&rsquo;ll book the right one."
    ]
   },
