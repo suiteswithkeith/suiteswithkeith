@@ -1480,8 +1480,11 @@
   ],
   "pair": [
    {
-    "placeholder": "Auberge du Soleil on the Rutherford hillside, looking out over the valley",
-    "cap": "On the Rutherford hillside, above the vines"
+    "src": "/images/hotels/auberge-du-soleil/hillside-aerial.jpg",
+    "alt": "Auberge du Soleil from the air: guest cottages and the restaurant spread across the wooded Rutherford hillside",
+    "w": 1600,
+    "h": 1066,
+    "cap": "On the Rutherford hillside"
    },
    {
     "src": "/images/napa/montage-1.jpg",
@@ -1495,7 +1498,10 @@
    {
     "after": "The view",
     "a": {
-     "placeholder": "A guest room terrace looking out over Napa Valley",
+     "src": "/images/hotels/auberge-du-soleil/suite-terrace-view.jpg",
+     "alt": "An Auberge du Soleil suite with doors open to a private terrace and views across Napa Valley",
+     "w": 1600,
+     "h": 1067,
      "cap": "Looking out over the valley"
     },
     "b": {
@@ -1509,8 +1515,11 @@
    {
     "after": "Dining",
     "a": {
-     "placeholder": "The restaurant terrace at sunset",
-     "cap": "The restaurant terrace"
+     "src": "/images/hotels/auberge-du-soleil/restaurant-terrace-dusk.jpg",
+     "alt": "The restaurant terrace at Auberge du Soleil lit up at dusk, above the pool",
+     "w": 1600,
+     "h": 1100,
+     "cap": "The restaurant terrace at dusk"
     },
     "b": {
      "src": "/images/personal/montage-31st.jpg",
@@ -1526,8 +1535,11 @@
   "gallery": [
    {
     "hotel": "a",
-    "placeholder": "The pool, with the valley below",
-    "cap": "The pool"
+    "src": "/images/hotels/auberge-du-soleil/pool-valley-view.jpg",
+    "alt": "The pool at Auberge du Soleil, framed by flowering trees, with the valley beyond",
+    "w": 1600,
+    "h": 1067,
+    "cap": "The pool, with the valley beyond"
    },
    {
     "hotel": "b",
@@ -1536,16 +1548,6 @@
     "w": 1355,
     "h": 900,
     "cap": "A bungalow terrace over the oak hills"
-   },
-   {
-    "hotel": "a",
-    "placeholder": "A guest room",
-    "cap": "A guest room"
-   },
-   {
-    "hotel": "b",
-    "placeholder": "A vineyard bungalow, inside",
-    "cap": "Inside a vineyard bungalow"
    }
   ],
   "map": {
