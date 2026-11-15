@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Zach Caldwell · Greece, September 2027 | Suites With Keith</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap">
+<style>
+  :root {
+    --plaster: #F2EFE6;
+    --card: #FBFAF6;
+    --shadow-band: #161712;
+    --ink: #1F201A;
+    --muted: #65665C;
+    --ash: #8C8D82;
+    --on-dark-muted: #9A9B90;
+    --brass: #836229;
+    --brass-light: #BE975A;
+    --olive: #4A5040;
+    --hairline: rgba(22,23,18,.15);
+    --row-rule: rgba(22,23,18,.1);
+    --display: 'Instrument Serif', Didot, Georgia, serif;
+    --body: 'Newsreader', Georgia, 'Times New Roman', serif;
+    --stamp: 'Instrument Serif', Didot, Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--plaster);
+    color: var(--ink);
+    font-family: var(--body);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }@media(max-width:700px){body{font-size:1.125rem}}
+  a { color: var(--brass); }
+  a:hover { color: var(--olive); }
+
+  .wrap { max-width: 900px; margin: 0 auto; padding: 56px 40px 0; }
+
+  /* Header */
+  header { background: var(--shadow-band); color: #F2EFE6; padding: 64px 40px 56px; }
+  header .inner { max-width: 900px; margin: 0 auto; }
+  .eyebrow {
+    font-family: var(--stamp); font-weight: 400;
+    font-size: .76rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--brass-light);
+    margin-bottom: 16px;
+  }
+  h1 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 0 0 14px;
+  }
+  .sub { font-size: 1.05rem; color: var(--on-dark-muted); line-height: 1.6; margin: 0; }
+
+  h2 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 0 0 18px;
+  }
+  .section-intro { font-size: .94rem; color: var(--muted); line-height: 1.6; margin: 0 0 18px; }
+  h2.tight { margin-bottom: 6px; }
+
+  .card { border: 1px solid var(--hairline); background: var(--card); }
+  .card.rows { padding: 8px 28px; }
+
+  /* Itinerary / transport rows */
+  .row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 18px;
+    border-bottom: 1px solid var(--row-rule);
+    padding: 14px 0;
+  }
+  .row:last-child { border-bottom: none; }
+  .row-date {
+    font-family: var(--stamp); font-weight: 400;
+    font-size: .76rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--brass);
+    padding-top: 2px;
+  }
+  .row-what { font-weight: 400; font-size: 1rem; }
+  .row-note { font-size: .88rem; color: var(--muted); line-height: 1.5; margin-top: 2px; }
+  .row.with-chip { grid-template-columns: 120px 1fr auto; }
+  .chip {
+    font-family: var(--stamp); font-weight: 400;
+    font-size: .62rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding: 2px 7px;
+    align-self: start;
+    white-space: nowrap;
+  }
+  .chip.confirmed { border: 1px solid var(--brass); color: var(--brass); }
+  .chip.tbc { border: 1px solid var(--ash); color: var(--ash); }
+
+  /* Hotel cards */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .hotel-card img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .hotel-body { padding: 26px; }
+  .card-eyebrow {
+    font-family: var(--stamp); font-weight: 400;
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--brass);
+    margin-bottom: 8px;
+  }
+  .hotel-name {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: 1.35rem;
+    margin-bottom: 6px;
+  }
+  .hotel-name a, .act-row a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(22,23,18,.25);
+  }
+  .hotel-name a:hover, .act-row a:hover { color: var(--ink); border-bottom-color: currentColor; }
+  .hotel-room { font-size: .92rem; color: var(--muted); line-height: 1.5; margin-bottom: 14px; }
+  .rates { display: flex; flex-direction: column; gap: 6px; }
+  .rate {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    border-top: 1px solid var(--row-rule);
+    padding-top: 6px;
+  }
+  .rate-label { font-size: .9rem; color: var(--muted); }
+  .rate-price { font-family: var(--stamp); font-weight: 400; font-size: .9rem; color: var(--ink); white-space: nowrap; }
+  .hotel-note { font-size: .88rem; color: var(--muted); line-height: 1.55; margin: 14px 0 0; }
+  .footnote { font-size: .9rem; color: var(--muted); line-height: 1.6; margin: 16px 0 0; }
+
+  /* Booking references */
+  .refs-card { padding: 22px 28px; margin-top: 20px; }
+  .refs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 14px; }
+  .ref-label { font-family: var(--stamp); font-weight: 400; font-size: .72rem; color: var(--muted); }
+  .ref-code { font-family: var(--display); font-weight: 400; font-size: 1.8rem; letter-spacing: .06em; }
+  .pax-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .pax { border-top: 1px solid var(--row-rule); padding-top: 8px; }
+  .pax-name { font-weight: 400; font-size: .95rem; }
+  .pax-ticket { font-family: var(--stamp); font-weight: 400; font-size: .8rem; color: var(--muted); margin-top: 2px; }
+  .refs-note { font-size: .88rem; color: var(--muted); line-height: 1.55; margin: 14px 0 0; }
+
+  /* Activities */
+  .act-card { padding: 22px 26px; }
+  .act-head {
+    font-family: var(--stamp); font-weight: 400;
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--brass);
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+  }
+  .act-row { border-bottom: 1px solid rgba(22,23,18,.08); padding: 10px 0; }
+  .act-line { display: flex; justify-content: space-between; gap: 12px; }
+  .act-row a { font-weight: 400; font-size: .95rem; }
+  .act-est { font-family: var(--stamp); font-weight: 400; font-size: .78rem; color: var(--muted); white-space: nowrap; }
+
+  /* Next steps */
+  .steps.wrap { padding-bottom: 80px; }
+  .step {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 14px;
+    border-bottom: 1px solid var(--row-rule);
+    padding: 14px 0;
+  }
+  .step:last-child { border-bottom: none; }
+  .step-num { font-family: var(--stamp); font-weight: 400; font-size: .8rem; color: var(--brass); }
+  .step-text { font-size: .95rem; line-height: 1.55; }
+  .step-title { font-weight: 400; }
+  .step-note { color: var(--muted); }
+
+  @media (max-width: 700px) {
+    h1 { font-size: 2.25rem; }
+    .two-col, .refs-grid, .pax-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    .row, .row.with-chip { grid-template-columns: 1fr; gap: 4px; }
+    .row-date { padding-top: 0; }
+    .chip { justify-self: start; margin-top: 4px; }
+    .act-line { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <div class="eyebrow">Suites With Keith · Trip Itinerary</div>
+    <h1>Santorini &amp; <em>Paros</em></h1>
+    <p class="sub">September 15 to 25, 2027 · Santorini (4 nights) → Paros (6 nights) · Prepared for Zach Caldwell</p>
+  </div>
+</header>
+
+<section class="wrap">
+  <h2>Itinerary</h2>
+  <div class="card rows">
+    <div class="row">
+      <div class="row-date">Sep 15</div>
+      <div>
+        <div class="row-what">Arrive Santorini</div>
+        <div class="row-note">A driver meets you at the airport and takes you up to Oia.</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row-date">Sep 15–19</div>
+      <div>
+        <div class="row-what">Santorini, Canaves Oia Suites, 4 nights</div>
+        <div class="row-note">Your own pool on the caldera, and a private sunset catamaran one evening.</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row-date">Sep 19</div>
+      <div>
+        <div class="row-what">Ferry Santorini → Paros</div>
+        <div class="row-note">SuperSpeed Jet 3, 2:10pm to 3:55pm, business seats. A driver takes you to the port and another meets you on Paros. Your car is waiting at Cosme.</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row-date">Sep 19–25</div>
+      <div>
+        <div class="row-what">Paros, Cosme, 6 nights</div>
+        <div class="row-note">Naoussa on your doorstep, a car for the week and a private boat day to Antiparos, Despotiko and Panteronissia.</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row-date">Sep 25</div>
+      <div>
+        <div class="row-what">Depart Paros</div>
+        <div class="row-note">A driver from Cosme to Paros airport.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>The two stays</h2>
+  <div class="two-col">
+    <div class="card hotel-card">
+      <img src="/images/hotels/canaves-oia-1.jpg" alt="Canaves Oia Suites pool over the caldera" loading="lazy">
+      <div class="hotel-body">
+        <div class="card-eyebrow">Santorini · Sep 15–19 · 4 nights · Confirmed</div>
+        <div class="hotel-name"><a href="/hotels/canaves-oia-suites-santorini.html" target="_blank" rel="noopener">Canaves Oia Suites</a></div>
+        <div class="hotel-room">Pool Suite · 2 adults</div>
+        <div class="rates">
+          <div class="rate">
+            <span class="rate-label">Booked through Fora</span>
+            <span class="rate-price">Booked</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card hotel-card">
+      <img src="/images/hotels/cosme-1.jpg" alt="Cosme, Paros" loading="lazy">
+      <div class="hotel-body">
+        <div class="card-eyebrow">Paros · Sep 19–25 · 6 nights · Confirmed</div>
+        <div class="hotel-name"><a href="/hotels/cosme-paros.html" target="_blank" rel="noopener">Cosme, a Luxury Collection Resort</a></div>
+        <div class="hotel-room">Earth Suite: 35 sqm with an open-plan lounge, walk-in rain shower and a terrace with outdoor dining and sunbeds over the gardens · breakfast included · 2 adults</div>
+        <div class="rates">
+          <div class="rate">
+            <span class="rate-label">Confirmation 64792065 · flexible rate</span>
+            <span class="rate-price">Booked</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="footnote">Both stays are booked through Fora.</p>
+</section>
+
+<!-- os-deposit --><section class="osd" id="deposit"><style>.osd{max-width:900px;margin:0 auto;padding:56px 40px 0;font-family:'Newsreader',Georgia,'Times New Roman',serif;color:#1F201A}
+.osd *{box-sizing:border-box}
+.osd-eyebrow{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.76rem;text-transform:uppercase;letter-spacing:.2em;color:#836229;margin:0 0 10px}
+.osd h2.osd-h{font-family:'Instrument Serif',Didot,Georgia,serif;font-weight:400;font-size:1.8rem;line-height:1.15;margin:0 0 8px;color:#1F201A}
+.osd-intro{font-size:.96rem;color:#65665C;line-height:1.6;margin:0 0 20px;max-width:640px}
+.osd-card{border:1px solid rgba(22,23,18,.15);background:#FBFAF6;padding:8px 28px 24px}
+.osd-gh{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.72rem;text-transform:uppercase;letter-spacing:.2em;color:#836229;border-bottom:1px solid rgba(22,23,18,.15);padding:18px 0 8px}
+.osd-row{display:grid;grid-template-columns:110px 1fr auto;gap:16px;border-bottom:1px solid rgba(22,23,18,.08);padding:12px 0}
+.osd-date{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.74rem;text-transform:uppercase;letter-spacing:.16em;color:#836229;padding-top:3px}
+.osd-t{font-size:1rem;line-height:1.4}
+.osd-n{font-size:.86rem;color:#65665C;line-height:1.5;margin-top:3px}
+.osd-p{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:1.05rem;white-space:nowrap;text-align:right;padding-top:1px}
+.osd-p.pending{font-family:'Newsreader',Georgia,serif;font-size:.8rem;color:#8C8D82;font-style:italic}
+.osd-sum{margin-top:22px;display:grid;grid-template-columns:1fr 1fr 1fr;border:1px solid rgba(22,23,18,.15)}
+.osd-sum>div{padding:16px 18px;border-right:1px solid rgba(22,23,18,.15)}
+.osd-sum>div:last-child{border-right:none}
+.osd-sum .now{background:#161712;color:#F2EFE6}
+.osd-k{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.68rem;text-transform:uppercase;letter-spacing:.2em;color:#8C8D82}
+.osd-sum .now .osd-k{color:#BE975A}
+.osd-v{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:1.7rem;line-height:1.2;margin-top:4px}
+.osd-s{font-size:.82rem;color:#65665C;margin-top:2px;line-height:1.4}
+.osd-sum .now .osd-s{color:#9A9B90}
+.osd-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin-top:20px}
+.osd-btn{display:inline-block;background:#836229;color:#FBFAF6 !important;text-decoration:none !important;border:none !important;font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.8rem;text-transform:uppercase;letter-spacing:.2em;padding:15px 26px}
+.osd-btn:hover{background:#4A5040}
+.osd-btn.off{background:transparent;color:#8C8D82 !important;border:1px solid #8C8D82 !important;cursor:default}
+.osd-btn.paid{background:transparent;color:#4A5040 !important;border:1px solid #4A5040 !important;cursor:default}
+.osd-how{font-size:.84rem;color:#65665C;line-height:1.5;flex:1 1 260px}
+.osd-opt{margin-top:20px;border:1px dashed rgba(22,23,18,.25);padding:8px 28px 18px}
+.osd-opt .osd-row:last-child{border-bottom:none}
+.osd-opt-note{font-size:.86rem;color:#65665C;margin:12px 0 0}
+.osd-fine{margin-top:18px;border-top:1px solid rgba(22,23,18,.15)}
+.osd-fine summary{cursor:pointer;font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.74rem;text-transform:uppercase;letter-spacing:.2em;color:#836229;padding:14px 0;list-style:none}
+.osd-fine summary::-webkit-details-marker{display:none}
+.osd-fine summary:after{content:' +'}
+.osd-fine[open] summary:after{content:' \2212'}
+.osd-fine ul{margin:0 0 8px;padding-left:18px;font-size:.88rem;color:#65665C;line-height:1.55}
+.osd-fine li{margin-bottom:6px}
+@media(max-width:700px){
+ .osd{padding:44px 20px 0}
+ .osd-card,.osd-opt{padding-left:18px;padding-right:18px}
+ .osd-sum{grid-template-columns:1fr}
+ .osd-sum>div{border-right:none;border-bottom:1px solid rgba(22,23,18,.15)}
+ .osd-sum>div:last-child{border-bottom:none}
+ .osd-sum .now{order:-1}
+}
+@media(max-width:560px){
+ .osd-row{grid-template-columns:1fr auto;gap:2px 12px}
+ .osd-date{grid-column:1 / -1;padding-top:0}
+ .osd-btn{width:100%;text-align:center}
+}</style><div class="osd-eyebrow">Ferries, transfers &amp; boat days</div><h2 class="osd-h">Securing the <em>logistics</em></h2><p class="osd-intro">Your ferry, transfers, car and two boat days, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.</p><div class="osd-card"><div class="osd-gh">Private transfers</div><div class="osd-row"><div class="osd-date">Sep 15 to 25</div><div><div class="osd-t">All four island transfers</div><div class="osd-n">Santorini airport to Canaves Oia Suites, Canaves Oia Suites to Santorini port, Paros port to Cosme, and Cosme to Paros airport. Luxury vehicle with an English-speaking driver.</div></div><div class="osd-p">€595</div></div><div class="osd-gh">Ferries</div><div class="osd-row"><div class="osd-date">Sep 19</div><div><div class="osd-t">Santorini to Paros, SuperSpeed Jet 3</div><div class="osd-n">2:10pm to 3:55pm, business seats for two.</div></div><div class="osd-p">€210</div></div><div class="osd-gh">Boat days</div><div class="osd-row"><div class="osd-date">Santorini</div><div><div class="osd-t">Private sunset caldera cruise</div><div class="osd-n">Five to six hours on a Lagoon 450 catamaran, BBQ cooked on board, wine, beer and soft drinks, snorkel gear and a fishing rod, hotel transfers both ways.</div></div><div class="osd-p">€1,950</div></div><div class="osd-row"><div class="osd-date">Paros</div><div><div class="osd-t">Private full day to Antiparos, Despotiko &amp; Panteronissia</div><div class="osd-n">Eight hours on an Axopar 37 with an English-speaking captain, towels, snorkel gear, water toys, snacks and drinks.</div></div><div class="osd-p">€3,560</div></div><div class="osd-gh">Car rental</div><div class="osd-row"><div class="osd-date">Sep 19 to 25</div><div><div class="osd-t">Car on Paros, DFSK 600 automatic</div><div class="osd-n">Full cover, unlimited km, second driver and GPS, delivered to and collected from Cosme.</div></div><div class="osd-p">€800</div></div><div class="osd-gh">Travel insurance</div><div class="osd-row"><div class="osd-date"></div><div><div class="osd-t">Domestic travel insurance, two guests</div></div><div class="osd-p">€50</div></div><div class="osd-sum"><div><div class="osd-k">Trip total</div><div class="osd-v">€7,165</div><div class="osd-s">Everything above, for two</div></div><div class="now"><div class="osd-k">Deposit now</div><div class="osd-v">€2,224.25</div><div class="osd-s">Confirms everything above</div></div><div><div class="osd-k">Balance</div><div class="osd-v">€4,940.75</div><div class="osd-s">Due by Aug 16, 2027, 30 days before you arrive</div></div></div><div class="osd-cta"><span class="osd-btn off">Payment link on its way</span><div class="osd-how">The deposit covers 25% of transfers and cars, the full ferry fare and 30% of each boat day. Nothing is booked until it is paid, and boats and ferries go fast in high season.</div></div></div><div class="osd-opt"><div class="osd-gh">Add-ons, if you want them</div><div class="osd-row"><div class="osd-date">Sep 19 to 25</div><div><div class="osd-t">Range Rover Evoque instead of the DFSK</div><div class="osd-n">Same cover and delivery. Replaces the car above.</div></div><div class="osd-p">€1,290</div></div><div class="osd-row"><div class="osd-date">Santorini</div><div><div class="osd-t">Full day to Thirassia with a winery visit</div><div class="osd-n">Eight hours on the Lagoon 450 with BBQ on board, a guided tasting of three whites at Mikra Thira winery and a Greek lunch in a traditional canava.</div></div><div class="osd-p">€3,880</div></div><div class="osd-row"><div class="osd-date">Paros</div><div><div class="osd-t">Full day to Mykonos, Delos &amp; Rhenia</div><div class="osd-n">Axopar 37 with captain, plus a licensed guide and entry at Delos (€740).</div></div><div class="osd-p">€4,700</div></div><div class="osd-row"><div class="osd-date">Paros</div><div><div class="osd-t">Half day to Antiparos instead of the full day</div><div class="osd-n">Four hours on the same Axopar 37. Replaces the full day.</div></div><div class="osd-p">€2,960</div></div><p class="osd-opt-note">Not in the total above. Tell me and I will add any of these before you pay.</p></div><details class="osd-fine"><summary>Payment &amp; cancellation terms</summary><ul><li>Transfers, cars and experiences: €300 of the deposit is non-refundable if you cancel. From 30 to 21 days before arrival 30% is charged, 20 to 14 days 60%, and 13 days or less 100%.</li><li>Ferry tickets are fully refundable up to 15 days before sailing, and the date can be changed within 2027.</li><li>Boat days: 30% on confirmation, the rest plus VAT and fuel 30 days before arrival, with the same 30%, 60%, 100% scale inside 30 days. If the captain or port authority cancels for weather, you get it back less a €250 to €300 handling fee. Fuel can move with the market; you hear about any change in advance.</li><li>Crew tips are not included; 10 to 15% is customary.</li><li>Everything is arranged by Original Senses, my partner in Athens, under their full terms. Any change made once you are in Greece is charged in full.</li></ul></details></section><!-- /os-deposit -->
+
+<section class="wrap steps">
+  <h2>Next steps</h2>
+  <div class="card rows">
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-text"><span class="step-title">Pay the logistics deposit.</span> <span class="step-note">It confirms the ferry, every transfer, the car and both boat days above.</span></div>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-text"><span class="step-title">Send me your flights.</span> <span class="step-note">Once I have your arrival into Santorini and departure from Paros, the drivers are timed to them.</span></div>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-text"><span class="step-title">Anything from the add-ons?</span> <span class="step-note">Tell me before you pay and I&rsquo;ll fold it into the deposit.</span></div>
+    </div>
+  </div>
+  <div style="display:flex;align-items:center;gap:18px;margin-top:28px;"><img src="/images/personal/keith-headshot-square.jpg" alt="Keith Pence, luxury travel advisor" width="320" height="320" loading="lazy" decoding="async" style="width:76px;height:76px;border-radius:50%;object-fit:cover;display:block;flex:none;"><div><div style="font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;font-size:1.35rem;line-height:1.1;color:#1F201A;">Keith Pence</div><div style="font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;font-size:.68rem;text-transform:uppercase;letter-spacing:.2em;color:#836229;margin-top:6px;">Suites With Keith</div></div></div>
+
+</section>
+
+</body>
+</html>

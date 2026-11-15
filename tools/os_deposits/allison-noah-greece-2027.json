@@ -1,0 +1,65 @@
+{
+  "page": "proposals/allison-noah-greece-2027.html",
+  "arrival": "2027-05-10",
+  "total": 8195,
+  "intro": "Cosme, NOS and Canaves Oia Suites are set. Here is everything in between, arranged through Original Senses, my partner in Athens. A deposit locks it in; the balance is due a month before you land.",
+  "items": {
+    "transfers": [
+      {
+        "date": "May 10 to 22",
+        "title": "All six island transfers",
+        "note": "Paros airport to Cosme, Cosme to Paros port, Sifnos port to NOS, NOS to Sifnos port, Santorini port to Canaves Oia Suites, and Canaves Oia Suites to Santorini airport. Luxury vehicle with an English-speaking driver.",
+        "price": 795
+      }
+    ],
+    "boats": [
+      {
+        "date": "May 14",
+        "title": "Paros to Sifnos by private boat, with swim stops",
+        "note": "A full day on an Axopar 37 with an English-speaking captain, towels, snorkel gear, water toys, snacks and drinks. Your luggage goes with you and you step off at Sifnos.",
+        "price": 4000
+      },
+      {
+        "date": "May 19",
+        "title": "Private sunset caldera cruise",
+        "note": "Lagoon 450 catamaran, BBQ cooked on board, wine, beer and soft drinks, towels and snorkel gear, hotel transfers both ways.",
+        "price": 1950
+      }
+    ],
+    "ferries": [
+      {
+        "date": "May 18",
+        "title": "Sifnos to Santorini, SuperJet 2",
+        "note": "7:30am to 11:10am, business seats for two.",
+        "price": 270
+      }
+    ],
+    "experiences": [
+      {
+        "date": "May 15",
+        "title": "Hands-on cooking in a Sifnian house",
+        "note": "With a local cook, then the full meal with Greek wine, beer, tsipouro and homemade lemonade. Transfers both ways.",
+        "price": 1110
+      }
+    ],
+    "other": [
+      {
+        "title": "Domestic travel insurance, two guests",
+        "price": 70
+      }
+    ]
+  },
+  "how": "The deposit covers 25% of transfers and the cooking class, the full ferry fare and 30% of each boat day. Boat and ferry prices are live rates until booked, so sooner is better.",
+  "optional_title": "A lighter option",
+  "optional": [
+    {
+      "date": "May 14",
+      "title": "Paros to Sifnos on a 10m RIB instead",
+      "note": "Same crossing and swim stops on a smaller, open boat, with a Greek picnic, wine and beer. Replaces the Axopar.",
+      "price": 1850
+    }
+  ],
+  "optional_note": "Not in the total above. Tell me before you pay if you would rather the RIB and I will adjust the deposit.",
+  "inject_before": "section[data-screen-label=\"The experience\"]",
+  "width": 960
+}

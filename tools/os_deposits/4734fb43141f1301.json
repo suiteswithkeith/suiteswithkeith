@@ -1,0 +1,28 @@
+{
+  "page": "proposals/4734fb43141f1301.html",
+  "arrival": "2027-05-19",
+  "total": 3109,
+  "total_note": "Everything priced so far, for two",
+  "intro": "Your ferries, island transfers and the sunset cruise, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.",
+  "items": {
+    "transfers": [
+      {"date": "May 19", "title": "Athens airport to the ferry port", "note": "Met after the Delta arrival at 7:50am and driven to the port.", "price": null, "price_note": "Being priced"},
+      {"date": "May 19 to 27", "title": "All four island transfers", "note": "Paros port to Vione, Vione to Paros port, Santorini port to Andronis Arcadia, and Andronis Arcadia to Santorini airport. Luxury vehicle with an English-speaking driver.", "price": 635}
+    ],
+    "ferries": [
+      {"date": "May 19", "title": "Athens to Paros, high-speed ferry", "note": "Morning sailing after you land; met at Paros port.", "price": null, "price_note": "Being priced"},
+      {"date": "May 23", "title": "Paros to Santorini, Champions League Jet 1", "note": "1:25pm to 3:10pm, VIP seats for two.", "price": 224}
+    ],
+    "boats": [
+      {"date": "May 24", "title": "Private sunset caldera cruise on a Pardo 43", "note": "Fresh fish, salads, dips, cheese and charcuterie, dessert, wine and beer, snorkel gear and a paddleboard, hotel transfers both ways.", "price": 2200}
+    ],
+    "other": [
+      {"title": "Domestic travel insurance, two guests", "price": 50}
+    ]
+  },
+  "pending_note": "The Athens transfer and ferry are being priced by Original Senses now. I will add them to the deposit before you pay.",
+  "optional": [
+    {"date": "May 20", "title": "Private full day to Antiparos, Despotiko &amp; Panteronissia", "note": "Axopar 28 with your own captain, towels, snorkel gear, water toys, snacks and drinks, hotel transfers both ways.", "price": 2660},
+    {"date": "May 20", "title": "Or a half day on the bigger Axopar 37", "note": "Same islands, shorter day, more boat.", "price": 2960}
+  ]
+}

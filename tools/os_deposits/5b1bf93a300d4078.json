@@ -1,0 +1,30 @@
+{
+  "page": "proposals/5b1bf93a300d4078.html",
+  "arrival": "2027-09-15",
+  "total": 7165,
+  "intro": "Your ferry, transfers, car and two boat days, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.",
+  "items": {
+    "transfers": [
+      {"date": "Sep 15 to 25", "title": "All four island transfers", "note": "Santorini airport to Canaves Oia Suites, Canaves Oia Suites to Santorini port, Paros port to Cosme, and Cosme to Paros airport. Luxury vehicle with an English-speaking driver.", "price": 595}
+    ],
+    "ferries": [
+      {"date": "Sep 19", "title": "Santorini to Paros, SuperSpeed Jet 3", "note": "2:10pm to 3:55pm, business seats for two.", "price": 210}
+    ],
+    "boats": [
+      {"date": "Santorini", "title": "Private sunset caldera cruise", "note": "Five to six hours on a Lagoon 450 catamaran, BBQ cooked on board, wine, beer and soft drinks, snorkel gear and a fishing rod, hotel transfers both ways.", "price": 1950},
+      {"date": "Paros", "title": "Private full day to Antiparos, Despotiko &amp; Panteronissia", "note": "Eight hours on an Axopar 37 with an English-speaking captain, towels, snorkel gear, water toys, snacks and drinks.", "price": 3560}
+    ],
+    "cars": [
+      {"date": "Sep 19 to 25", "title": "Car on Paros, DFSK 600 automatic", "note": "Full cover, unlimited km, second driver and GPS, delivered to and collected from Cosme.", "price": 800}
+    ],
+    "other": [
+      {"title": "Domestic travel insurance, two guests", "price": 50}
+    ]
+  },
+  "optional": [
+    {"date": "Sep 19 to 25", "title": "Range Rover Evoque instead of the DFSK", "note": "Same cover and delivery. Replaces the car above.", "price": 1290},
+    {"date": "Santorini", "title": "Full day to Thirassia with a winery visit", "note": "Eight hours on the Lagoon 450 with BBQ on board, a guided tasting of three whites at Mikra Thira winery and a Greek lunch in a traditional canava.", "price": 3880},
+    {"date": "Paros", "title": "Full day to Mykonos, Delos &amp; Rhenia", "note": "Axopar 37 with captain, plus a licensed guide and entry at Delos (€740).", "price": 4700},
+    {"date": "Paros", "title": "Half day to Antiparos instead of the full day", "note": "Four hours on the same Axopar 37. Replaces the full day.", "price": 2960}
+  ]
+}

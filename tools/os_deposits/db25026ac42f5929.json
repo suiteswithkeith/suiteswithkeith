@@ -1,0 +1,66 @@
+{
+  "page": "proposals/db25026ac42f5929.html",
+  "arrival": "2027-09-25",
+  "total": 4680,
+  "intro": "Your transfers, both cars, the boat to Sifnos and the cooking class, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.",
+  "items": {
+    "transfers": [
+      {
+        "date": "Sep 25 to Oct 4",
+        "title": "All four island transfers",
+        "note": "Paros airport to Vione, Vione to Paros port, Sifnos port to Verina Astra, and Verina Astra to Sifnos port. Luxury vehicle with an English-speaking driver.",
+        "price": 485
+      }
+    ],
+    "boats": [
+      {
+        "date": "Sep 29",
+        "title": "Paros to Sifnos by private boat, via Antiparos",
+        "note": "A full day on a 10m RIB with swim stops, a Greek picnic, wine, beer and soft drinks, snorkel gear. Your luggage goes with you and you step off at Sifnos instead of taking the ferry.",
+        "price": 1850
+      }
+    ],
+    "cars": [
+      {
+        "date": "Sep 25 to 28",
+        "title": "Car on Paros, MG ZS automatic",
+        "note": "Full cover, unlimited km, second driver, delivered to and collected from Vione.",
+        "price": 410
+      },
+      {
+        "date": "Sep 29 to Oct 3",
+        "title": "Car on Sifnos, Peugeot 3008 automatic SUV or similar",
+        "note": "Full cover, unlimited km, delivered to and collected from Verina Astra.",
+        "price": 790
+      }
+    ],
+    "experiences": [
+      {
+        "date": "Sifnos",
+        "title": "Hands-on cooking in a Sifnian house",
+        "note": "With a local cook, then the full meal with Greek wine, beer, tsipouro and homemade lemonade. Transfers both ways.",
+        "price": 1095
+      }
+    ],
+    "other": [
+      {
+        "title": "Domestic travel insurance, two guests",
+        "price": 50
+      }
+    ]
+  },
+  "optional": [
+    {
+      "date": "Sep 29",
+      "title": "Upgrade the Sifnos crossing to an Axopar 37",
+      "note": "Covered cabin, captain, water toys, snacks and drinks. Replaces the RIB.",
+      "price": 4000
+    },
+    {
+      "date": "Paros",
+      "title": "Marpissa village with a local guide",
+      "note": "A traditional house (with a homemade spoon sweet) and the folklore museum, entry and transfers included.",
+      "price": 1385
+    }
+  ]
+}
