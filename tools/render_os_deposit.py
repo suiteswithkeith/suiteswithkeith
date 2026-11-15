@@ -29,14 +29,15 @@ RATES = {"ground": 0.25, "ferry": 1.0, "boat": 0.30}
 GROUP_TITLES = {
     "transfers": "Private transfers",
     "ferries": "Ferries",
+    "flights": "Flight",
     "boats": "Boat days",
     "cars": "Car rental",
     "experiences": "Experiences",
     "other": "Travel insurance",
 }
-GROUP_ORDER = ["transfers", "ferries", "boats", "cars", "experiences", "other"]
+GROUP_ORDER = ["transfers", "ferries", "flights", "boats", "cars", "experiences", "other"]
 KIND_OF_GROUP = {"transfers": "ground", "cars": "ground", "experiences": "ground",
-                 "other": "ground", "ferries": "ferry", "boats": "boat"}
+                 "other": "ground", "ferries": "ferry", "flights": "ferry", "boats": "boat"}
 
 CSS = """
 .osd{max-width:900px;margin:0 auto;padding:56px 40px 0;font-family:'Newsreader',Georgia,'Times New Roman',serif;color:#1F201A}
@@ -144,7 +145,7 @@ def render(data):
     out.append(f'<h2 class="osd-h">{data.get("heading", "Securing the <em>logistics</em>")}</h2>')
     out.append(f'<p class="osd-intro">{data["intro"]}</p>')
     out.append('<div class="osd-card">')
-    for g in GROUP_ORDER:
+    for g in data.get("group_order", GROUP_ORDER):
         items = data.get("items", {}).get(g, [])
         if not items:
             continue
@@ -172,10 +173,13 @@ def render(data):
     if ground:
         gtxt = ground[0] if len(ground) == 1 else ", ".join(ground[:-1]) + " and " + ground[-1]
         parts.append(f"25% of {gtxt}")
-    if items.get("ferries"):
+    if items.get("ferries") and items.get("flights"):
+        parts.append("the full ferry and flight fares")
+    elif items.get("ferries"):
         parts.append("the full ferry fare" + ("s" if len(items["ferries"]) > 1 else ""))
     if items.get("boats"):
-        parts.append("30% of " + ("each boat day" if len(items["boats"]) > 1 else "the boat day"))
+        bw = data.get("boat_word", "boat day")
+        parts.append(f"{int(RATES['boat']*100)}% of " + (f"each {bw}" if len(items["boats"]) > 1 else f"the {bw}"))
     ptxt = parts[0] if len(parts) == 1 else ", ".join(parts[:-1]) + " and " + parts[-1]
     how = data.get("how", f"The deposit covers {ptxt}. Nothing is booked until it is paid, and boats and ferries go fast in high season.")
     out.append(f'<div class="osd-cta">{btn}<div class="osd-how">{how}</div></div>')
@@ -193,9 +197,10 @@ def render(data):
         "Transfers, cars and experiences: €300 of the deposit is non-refundable if you cancel. "
         "From 30 to 21 days before arrival 30% is charged, 20 to 14 days 60%, and 13 days or less 100%.",
         "Ferry tickets are fully refundable up to 15 days before sailing, and the date can be changed within 2027.",
-        "Boat days: 30% on confirmation, the rest plus VAT and fuel 30 days before arrival, with the same 30%, 60%, 100% scale inside 30 days. "
+    ] + data.get("fine_after_ferry", []) + [
+        data.get("fine_boat") or ("Boat days: 30% on confirmation, the rest plus VAT and fuel 30 days before arrival, with the same 30%, 60%, 100% scale inside 30 days. "
         "If the captain or port authority cancels for weather, you get it back less a €250 to €300 handling fee. "
-        "Fuel can move with the market; you hear about any change in advance.",
+        "Fuel can move with the market; you hear about any change in advance."),
         "Crew tips are not included; 10 to 15% is customary.",
         "Everything is arranged by Original Senses, my partner in Athens, under their full terms. Any change made once you are in Greece is charged in full.",
     ] + data.get("fine_extra", [])
