@@ -8,8 +8,9 @@
  *    full-screen overlay, so it stays clear of Google's intrusive-interstitial rules.
  *  - "Not now" hides it for 30 days. Subscribing hides it for good.
  *  - Never appears on the home page, inquiry, planning, proposal or service pages.
- *  - Optional inline signup block: put <div data-swk-newsletter-inline></div>
- *    at the end of any article (comparison pages especially) and it renders there.
+ *  - Comparison pages: put <div data-swk-newsletter-inline></div> at the end of the
+ *    comparison. It is an invisible marker; when the reader scrolls to it, the same
+ *    floating card slides in with "Enjoyed this comparison?" copy, on any visit count.
  *
  * Install: add one line before </body> on every page:
  *   <script src="/js/swk-newsletter-prompt.js" defer></script>
@@ -214,19 +215,20 @@
     save(state);
   }
 
-  /* ---------------- inline block ---------------- */
-  function renderInline() {
-    var slots = document.querySelectorAll("[data-swk-newsletter-inline]");
-    if (!slots.length || state.subscribed) return;
-    injectStyles();
-    Array.prototype.forEach.call(slots, function (slot) {
-      slot.classList.add("swk-nl", "swk-nl-inline");
-      slot.innerHTML =
-        '<p class="swk-nl-eyebrow">' + CONFIG.copy.eyebrow + "</p>" +
-        '<h2 class="swk-nl-h">' + CONFIG.copy.inlineHeadline + "</h2>" +
-        '<p class="swk-nl-p">' + CONFIG.copy.inlineBody + "</p>";
-      slot.appendChild(buildForm("inline", markSubscribed));
-    });
+  /* ---------------- end-of-comparison trigger ---------------- */
+  // <div data-swk-newsletter-inline></div> is an invisible marker at the end of a
+  // comparison. When the reader scrolls to it, the floating card slides in with the
+  // comparison copy. Nothing renders in the page itself.
+  function armAtMarker(marker) {
+    function check() {
+      // Fire once the marker is in the lower part of the screen (or above it).
+      if (marker.getBoundingClientRect().top <= window.innerHeight * 0.85) {
+        window.removeEventListener("scroll", check);
+        openCard("comparison");
+      }
+    }
+    window.addEventListener("scroll", check, { passive: true });
+    setTimeout(check, 1500); // a reload that's already scrolled to the end
   }
 
   /* ---------------- slide-in card ---------------- */
@@ -245,8 +247,9 @@
 
   function onKey(e) { if (e.key === "Escape") closeCard(true); }
 
-  function openCard() {
+  function openCard(variant) {
     if (card) return;
+    var isComparison = variant === "comparison";
     injectStyles();
     lastFocus = document.activeElement;
     card = document.createElement("aside");
@@ -256,9 +259,9 @@
     card.innerHTML =
       '<button class="swk-nl-close" type="button" aria-label="Close">&times;</button>' +
       '<p class="swk-nl-eyebrow">' + CONFIG.copy.eyebrow + "</p>" +
-      '<h2 class="swk-nl-h">' + CONFIG.copy.headline + "</h2>" +
-      '<p class="swk-nl-p">' + CONFIG.copy.body + "</p>";
-    card.appendChild(buildForm("slide-in", function (ok) {
+      '<h2 class="swk-nl-h">' + (isComparison ? CONFIG.copy.inlineHeadline : CONFIG.copy.headline) + "</h2>" +
+      '<p class="swk-nl-p">' + (isComparison ? CONFIG.copy.inlineBody : CONFIG.copy.body) + "</p>";
+    card.appendChild(buildForm(isComparison ? "comparison" : "slide-in", function (ok) {
       if (!ok) return;
       markSubscribed();
       if (useEndpoint) setTimeout(function () { closeCard(false); }, 2200);
@@ -275,18 +278,23 @@
 
     document.body.appendChild(card);
     requestAnimationFrame(function () { requestAnimationFrame(function () { card && card.classList.add("is-open"); }); });
-    state.lastShown = now;
-    save(state);
+    if (!preview) {
+      // Only count it as shown once it has actually appeared, so leaving a page
+      // before the trigger fires doesn't use up this visit's prompt.
+      try { sessionStorage.setItem("swk_nl_seen", "1"); } catch (e) {}
+      state.lastShown = now;
+      save(state);
+    }
   }
 
-  function armTriggers() {
+  function armTriggers(variant) {
     var fired = false;
     function fire() {
       if (fired) return;
       fired = true;
       window.removeEventListener("scroll", onScroll);
       clearTimeout(t);
-      openCard();
+      openCard(variant);
     }
     function onScroll() {
       var h = document.documentElement.scrollHeight - window.innerHeight;
@@ -299,7 +307,8 @@
 
   /* ---------------- run ---------------- */
   function run() {
-    if (preview) { openCard(); renderInline(); return; }
+    var marker = document.querySelector("[data-swk-newsletter-inline]");
+    if (preview) { openCard(marker ? "comparison" : "article"); return; }
     if (excluded) return;
 
     if (state.pages.indexOf(path) === -1) {
@@ -308,19 +317,19 @@
       save(state);
     }
 
-    renderInline();
-
     var snoozed = state.snoozedUntil && state.snoozedUntil > now;
     var shownThisSession = false;
     try { shownThisSession = sessionStorage.getItem("swk_nl_seen") === "1"; } catch (e) {}
 
     if (state.subscribed || snoozed || shownThisSession) return;
-    if (state.pages.length < CONFIG.showOnArticle) return;
-    // Pages with the inline block already ask once; don't ask twice.
-    if (document.querySelector("[data-swk-newsletter-inline]")) return;
 
-    try { sessionStorage.setItem("swk_nl_seen", "1"); } catch (e) {}
-    armTriggers();
+    // Comparison pages: slide in when the reader reaches the end of the comparison,
+    // whatever their article count.
+    if (marker) { armAtMarker(marker); return; }
+
+    // Everything else: on the 3rd unique article, at 50% scroll or 25 seconds.
+    if (state.pages.length < CONFIG.showOnArticle) return;
+    armTriggers("article");
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run);
