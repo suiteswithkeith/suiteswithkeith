@@ -8,9 +8,10 @@
  *    full-screen overlay, so it stays clear of Google's intrusive-interstitial rules.
  *  - "Not now" hides it for 30 days. Subscribing hides it for good.
  *  - Never appears on the home page, inquiry, planning, proposal or service pages.
- *  - Comparison pages: put <div data-swk-newsletter-inline></div> at the end of the
- *    comparison. It is an invisible marker; when the reader scrolls to it, the same
- *    floating card slides in with "Enjoyed this comparison?" copy, on any visit count.
+ *  - Comparison pages: <div data-swk-newsletter-inline></div> sits between the
+ *    comparison and the booking section. It is an invisible marker; once the reader
+ *    has scrolled past that booking section, the same floating card slides in with
+ *    "Enjoyed this comparison?" copy, on any visit count.
  *
  * Install: add one line before </body> on every page:
  *   <script src="/js/swk-newsletter-prompt.js" defer></script>
@@ -121,10 +122,12 @@
     ".swk-nl-h{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:30px;line-height:1.08;margin:0 0 10px}",
     ".swk-nl-h em{font-style:italic}",
     ".swk-nl-p{font-size:16px;line-height:1.5;color:var(--ash);margin:0 0 18px}",
-    ".swk-nl-form{display:flex;gap:0;border:1px solid var(--ink)}",
-    ".swk-nl-input{flex:1;min-width:0;border:0;background:#fff;padding:12px 14px;font:400 16px 'Newsreader',Georgia,serif;color:var(--ink)}",
+    // Scoped under .swk-nl and pinned (direction, widths, margins) so page-level form
+    // styles, like the Florence comparison pages' stacked forms, can't override them.
+    ".swk-nl .swk-nl-form{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:stretch;gap:0;margin:0;padding:0;border:1px solid var(--ink);background:none}",
+    ".swk-nl .swk-nl-input{flex:1 1 auto;width:auto;min-width:0;height:auto;margin:0;border:0;border-radius:0;box-shadow:none;background:#fff;padding:12px 14px;font:400 16px 'Newsreader',Georgia,serif;color:var(--ink)}",
     ".swk-nl-input:focus{outline:2px solid var(--olive);outline-offset:-2px}",
-    ".swk-nl-btn{border:0;background:var(--olive);color:var(--plaster);padding:0 18px;font-family:'Instrument Serif',Georgia,serif;text-transform:uppercase;letter-spacing:.12em;font-size:13px;cursor:pointer}",
+    ".swk-nl .swk-nl-btn{flex:0 0 auto;width:auto;height:auto;margin:0;border-radius:0;box-shadow:none;border:0;background:var(--olive);color:var(--plaster);padding:0 18px;font-family:'Instrument Serif',Georgia,serif;text-transform:uppercase;letter-spacing:.12em;font-size:13px;cursor:pointer}",
     ".swk-nl-btn:hover{background:var(--olive-deep)}",
     ".swk-nl-btn[disabled]{opacity:.6;cursor:default}",
     ".swk-nl-embed{width:100%;height:52px;border:0;display:block;background:transparent}",
@@ -220,9 +223,22 @@
   // comparison. When the reader scrolls to it, the floating card slides in with the
   // comparison copy. Nothing renders in the page itself.
   function armAtMarker(marker) {
+    // The marker sits between the comparison and the booking ask ("Book through me" /
+    // "Still deciding?"). Wait until the reader has scrolled past that booking section
+    // too, so the newsletter never interrupts the comparison or the booking pitch.
+    var next = marker.nextElementSibling;
+    var bookingSection = next && next.tagName === "SECTION" ? next : null;
     function check() {
-      // Fire once the marker is in the lower part of the screen (or above it).
-      if (marker.getBoundingClientRect().top <= window.innerHeight * 0.85) {
+      var doc = document.documentElement;
+      var atPageEnd = window.scrollY + window.innerHeight >= doc.scrollHeight - 40;
+      // "Past" = the booking section's bottom edge has scrolled well up the screen (at
+      // least 45% of the screen height, min 320px, which clears the card's height on
+      // phones), so the card can't cover the booking button. Or they hit the page end.
+      var clearance = Math.max(320, window.innerHeight * 0.45);
+      var past = bookingSection
+        ? bookingSection.getBoundingClientRect().bottom <= window.innerHeight - clearance || atPageEnd
+        : marker.getBoundingClientRect().top <= window.innerHeight * 0.85;
+      if (past) {
         window.removeEventListener("scroll", check);
         openCard("comparison");
       }
