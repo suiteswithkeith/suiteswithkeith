@@ -70,7 +70,7 @@
       }
     }
   ],
-  "optional_note": "Not in the total above. If you would rather the RIB, tell me before you pay and I will have the deposit link adjusted.",
+  "optional_note": "Not in the total above. If you go for the RIB instead, your total gets adjusted and the deposit you've paid just goes towards the new balance.",
   "pay_url": "https://app.flywire.com/#/payment-request/7bd975cc-2300-40ac-9180-e7ffc1dd216e/init",
   "deposit": 2435
 }
