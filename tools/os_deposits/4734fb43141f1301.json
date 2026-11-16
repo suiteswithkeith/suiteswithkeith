@@ -7,13 +7,6 @@
   "items": {
     "transfers": [
       {
-        "date": "May 19",
-        "title": "Athens airport to the ferry port",
-        "note": "Met after the Delta arrival at 7:50am and driven to the port.",
-        "price": null,
-        "price_note": "Being priced"
-      },
-      {
         "date": "May 19 to 27",
         "title": "All four island transfers",
         "note": "Paros port to Vione, Vione to Paros port, Santorini port to Andronis Arcadia, and Andronis Arcadia to Santorini airport. Luxury vehicle with an English-speaking driver.",
@@ -23,8 +16,8 @@
     "ferries": [
       {
         "date": "May 19",
-        "title": "Athens to Paros, high-speed ferry",
-        "note": "Morning sailing after you land; met at Paros port.",
+        "title": "Athens to Paros, later afternoon ferry",
+        "note": "A later sailing so there is time for your stop in Athens first. Met at Paros port and driven to Vione.",
         "price": null,
         "price_note": "Being priced"
       },
@@ -50,7 +43,7 @@
       }
     ]
   },
-  "pending_note": "The Athens transfer and ferry are being priced by Original Senses now. I will add them to the deposit before you pay.",
+  "pending_note": "The Athens to Paros ferry is being priced by Original Senses now, and I will add it to the deposit before you pay. Your own driver is covering the Athens airport pickup and the Zara stop, so that transfer is not included here; if you would rather I arrange one, I am happy to price it.",
   "optional": [
     {
       "date": "May 20",
