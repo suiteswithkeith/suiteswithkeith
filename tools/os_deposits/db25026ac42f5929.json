@@ -2,7 +2,7 @@
   "page": "proposals/db25026ac42f5929.html",
   "arrival": "2027-09-25",
   "total": 4680,
-  "intro": "Your transfers, both cars, the boat to Sifnos and the cooking class, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.",
+  "intro": "Your transfers, both cars, the boat to Sifnos and the cooking class, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before your first transfer on Paros.",
   "items": {
     "transfers": [
       {
@@ -10,6 +10,13 @@
         "title": "All four island transfers",
         "note": "Paros airport to Vione, Vione to Paros port, Sifnos port to Verina Astra, and Verina Astra to Sifnos port. Luxury vehicle with an English-speaking driver.",
         "price": 485
+      },
+      {
+        "date": "Oct 4 to 8",
+        "title": "Santorini transfers",
+        "note": "Santorini port to Kapari, and Kapari to Santorini airport on October 8.",
+        "price": null,
+        "price_note": "Being priced"
       }
     ],
     "boats": [
@@ -52,6 +59,15 @@
         "title": "Domestic travel insurance, two guests",
         "price": 50
       }
+    ],
+    "ferries": [
+      {
+        "date": "Oct 4",
+        "title": "Sifnos to Santorini ferry",
+        "note": "Morning sailing south, seats for two.",
+        "price": null,
+        "price_note": "Being priced"
+      }
     ]
   },
   "optional": [
@@ -72,5 +88,6 @@
       "note": "A traditional house (with a homemade spoon sweet) and the folklore museum, entry and transfers included.",
       "price": 1385
     }
-  ]
+  ],
+  "pending_note": "The Sifnos to Santorini ferry and the Santorini drivers are being priced by Original Senses now, along with the deposit link for the RIB crossing. I will add them before you pay."
 }

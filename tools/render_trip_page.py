@@ -78,7 +78,7 @@ figcaption{font-family:%(s)s;text-transform:uppercase;letter-spacing:.2em;font-s
 .card{background:#FBFAF6;border:1px solid rgba(22,23,18,.15);padding:32px;display:flex;flex-direction:column;gap:16px}
 .b-ink .card{background:transparent;border-color:rgba(242,239,230,.18)}
 .kv{display:flex;flex-direction:column}
-.kv>div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)}
+.kv>div{display:grid;grid-template-columns:auto minmax(0,1fr);gap:24px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)}
 .b-ink .kv>div{border-color:rgba(242,239,230,.18)}
 .kv>div>span:last-child{text-align:right}
 .kv .k{color:#65665C}
@@ -231,7 +231,7 @@ def stay(s, bg):
         '<div class="w two"><div class="stack">'
         f'<p class="ey">{s["num"]} · {s["where"]} · {s["dates"]}</p>'
         f'<h2>{s["headline"]}</h2>{paras}</div>'
-        f'<div class="card"><p class="lbl">{c["label"]}<span class="tag">Booked</span></p>'
+        f'<div class="card"><p class="lbl">{c["label"]}<span class="tag">{c.get("tag", "Booked")}</span></p>'
         f'{kv(c["rows"])}{perks}{fine}{atv}</div>'
         '</div></section>')
 
