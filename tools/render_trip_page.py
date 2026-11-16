@@ -109,6 +109,7 @@ figcaption{font-family:%(s)s;text-transform:uppercase;letter-spacing:.2em;font-s
 .b-ink .btn.off{color:#9A9B90;border-color:rgba(242,239,230,.25)}
 .btn.paid{background:#BE975A;color:#161712}
 .cta{display:flex;flex-wrap:wrap;gap:20px 28px;align-items:center;margin-top:24px}
+.lock{margin-top:24px;border:1px solid rgba(131,98,41,.35);background:#FBFAF6;padding:20px 24px;display:flex;flex-direction:column;gap:6px}
 .cta .muted{flex:1;min-width:260px}
 details.fine{margin-top:28px;border-top:1px solid rgba(22,23,18,.15);padding-top:16px}
 details.fine summary{cursor:pointer;font-family:%(s)s;text-transform:uppercase;letter-spacing:.2em;font-size:13px;color:#65665C}
@@ -321,6 +322,11 @@ def logistics(t, data):
     ptxt = parts[0] if len(parts) == 1 else ", ".join(parts[:-1]) + " and " + parts[-1]
     how = data.get("how", f"The deposit covers {ptxt}. Boats and ferries go fast in high season, so it is worth locking them in early.")
     out.append(f'<div class="cta">{btn}<p class="muted">{how}</p></div>')
+    if data.get("status") != "paid":
+        lock = data.get("lock_by", "December 15, 2026")
+        out.append('<div class="lock"><p class="ey" style="font-size:13px">Best to lock this in by ' + lock + '</p>'
+                   '<p>Boat and ferry prices are live until they are booked, and the best boats and sailings for next summer go first. '
+                   f'The deposit holds everything at today\'s prices, and the rest is not due until {nice_date(due)}.</p></div>')
     if data.get("pending_note"):
         out.append(f'<p class="note" style="margin-top:20px">{data["pending_note"]}</p>')
     opts = data.get("optional", [])
