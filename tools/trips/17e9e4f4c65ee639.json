@@ -1,0 +1,61 @@
+{
+  "page": "proposals/17e9e4f4c65ee639.html",
+  "logistics": "tools/os_deposits/17e9e4f4c65ee639.json",
+  "title": "Jessica & Zach · Honeymoon, June 2027",
+  "eyebrow": "Suites With Keith · Your honeymoon, Jessica &amp; Zach",
+  "h1": "Paros to <em>Santorini</em>",
+  "meta": "June 8 to 16, 2027 · Two travelers · A day in Athens, seven island nights",
+  "intro": "A day in Athens, four nights at Vione on Paros with your own pool, then three at Canaves Ena in Oia to finish. Both island stays are booked, with a private boat day on each island.",
+  "hero": {"src": "/images/islands/paros-hero.jpg", "alt": "A Cycladic harbour at golden hour, whitewashed buildings above the water.", "caption": "Paros, the Cyclades", "pos": "center 50%"},
+  "route_title": "One island, then the <em>caldera</em>",
+  "route": [
+    {"dates": "Tue June 8 to Wed June 9", "where": "Athens", "stay": "Hotel ideas to come", "nights": 1},
+    {"dates": "Wed June 9 to Sun June 13", "where": "Paros", "stay": "Vione Paros", "tag": "Booked", "nights": 4},
+    {"dates": "Sun June 13 to Wed June 16", "where": "Santorini", "stay": "Canaves Ena", "tag": "Booked", "nights": 3}
+  ],
+  "route_note": "Both island stays are booked through Fora. Drivers meet you at every island airport and port.",
+  "days_intro": "Everything on the islands is arranged through Original Senses, my partner in Athens. Your own time is the rest of it.",
+  "days": [
+    {"date": "Tue June 8", "title": "Land in Athens", "note": "Enough for the Acropolis, a long lunch and an early night. I'll send hotel ideas for the night.", "tag": "To come", "soft": true},
+    {"date": "Wed June 9", "title": "Fly Athens to Paros", "note": "A 40-minute flight on your miles. A driver meets you at Paros airport and takes you to Vione.", "tag": "Arranged"},
+    {"date": "June 9 to 13", "title": "Vione, four nights", "note": "A sea-view suite with its own pool, and the best sunset of the Paros hotels.", "tag": "Booked"},
+    {"date": "On Paros", "title": "Private day to Antiparos, Despotiko and Panteronissia", "note": "Seven hours on a private RIB with your own captain.", "tag": "Arranged"},
+    {"date": "Sun June 13", "title": "Ferry to Santorini, Champions League Jet 2", "note": "1:25PM to 3:10PM in VIP seats, drivers at both ports.", "tag": "Arranged"},
+    {"date": "June 13 to 16", "title": "Canaves Ena, three nights", "note": "A plunge-pool suite on the caldera in Oia.", "tag": "Booked"},
+    {"date": "On Santorini", "title": "Private sunset caldera cruise", "note": "Five hours on a Lagoon 450 catamaran with BBQ cooked on board.", "tag": "Arranged"},
+    {"date": "Wed June 16", "title": "Fly home", "note": "A driver from Canaves Ena to Santorini airport.", "tag": "Arranged"}
+  ],
+  "stays": [
+    {
+      "num": "01", "where": "Paros", "dates": "June 9 to 13",
+      "img": {"src": "/images/hotels/vione-2.jpg", "alt": "Vione Paros pool and sea view", "caption": "Vione, on the low cliffs at Ambelas", "pos": "center 55%"},
+      "headline": "Vione, quiet design and your own <em>pool</em>",
+      "paras": [
+        "Vione is the kind of hotel that quietly impresses you. Newer, quieter and more private than the other Paros options, with clean architecture, understated interiors and the best sunset of the bunch.",
+        "Naoussa's old port is ten minutes away for dinner, and the boat day leaves for Antiparos and Despotiko from just down the coast."
+      ],
+      "card": {"label": "Your suite · 4 nights", "rows": [["Room", "Junior Suite, private pool, sea view"], ["Breakfast", "Included"], ["Guests", "2 adults"], ["Confirmation", "6886"]],
+        "perks": "Fora Reserve perks: a welcome amenity, €100 food and beverage credit, early check-in or late check-out and an upgrade when available."},
+      "atv_email": "reservations@vioneparos.com"
+    },
+    {
+      "num": "02", "where": "Santorini", "dates": "June 13 to 16",
+      "img": {"src": "/images/hotels/canaves-ena-1.jpg", "alt": "Canaves Ena, Santorini", "caption": "Canaves Ena, Oia", "pos": "center 55%"},
+      "headline": "Canaves Ena, eighteen suites on the <em>caldera</em>",
+      "paras": [
+        "Ena is where the Canaves story started, in suites that trace back to 17th-century wine caves. With just 18 suites it feels intimate, and it sits higher on the caldera than most, so it is noticeably more private.",
+        "It is at the entrance to Oia's lane rather than in the middle of it, so it stays quiet, and the swim-up pool bar is a fun extra on a honeymoon."
+      ],
+      "card": {"label": "Your suite · 3 nights", "rows": [["Room", "Superior Suite, 55 sqm, plunge pool with jacuzzi, sea view"], ["Breakfast", "Included"], ["Guests", "2 adults"], ["Confirmation", "78548SH005093"]],
+        "perks": "$100 food and beverage credit at the pool bar, wine and fruit on arrival and an upgrade when available.",
+        "fine": "Free cancellation until May 23, 2027. Climate tax of €15 per person a night, paid at checkout."},
+      "atv_email": "reservations@canaves.com"
+    }
+  ],
+  "next_title": "Your island stays are booked. Let's lock in the <em>logistics</em>",
+  "next": [
+    "Pay the logistics deposit. It confirms the ferry, every transfer and both boat days. June boats book up early.",
+    "Book your Athens to Paros flight on your miles for June 9 and send it over, so the driver is timed to it.",
+    "Then Athens: I'll send hotel ideas for your night on June 8."
+  ]
+}

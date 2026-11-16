@@ -1,522 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Linda &amp; Addison · Greece, May 2027 | Suites With Keith</title>
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Linda & Addison · Greece, May 2027</title>
+<meta name="description" content="A private itinerary from Suites With Keith.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Newsreader:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
 <style>
-  :root {
-    --plaster: #F2EFE6;
-    --card: #FBFAF6;
-    --shadow-band: #161712;
-    --ink: #1F201A;
-    --muted: #65665C;
-    --ash: #8C8D82;
-    --on-dark-muted: #9A9B90;
-    --brass: #836229;
-    --brass-light: #BE975A;
-    --olive: #4A5040;
-    --hairline: rgba(22,23,18,.15);
-    --row-rule: rgba(22,23,18,.1);
-    --display: 'Instrument Serif', Didot, Georgia, serif;
-    --body: 'Newsreader', Georgia, 'Times New Roman', serif;
-    --stamp: 'Instrument Serif', Didot, Georgia, serif;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--plaster);
-    color: var(--ink);
-    font-family: var(--body);
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  }@media(max-width:700px){body{font-size:1.125rem}}
-  a { color: var(--brass); }
-  a:hover { color: var(--olive); }
-
-  .wrap { max-width: 900px; margin: 0 auto; padding: 56px 40px 0; }
-
-  /* Header */
-  header { background: var(--shadow-band); color: #F2EFE6; padding: 64px 40px 56px; }
-  header .inner { max-width: 900px; margin: 0 auto; }
-  .eyebrow {
-    font-family: var(--stamp); font-weight: 400;
-    font-size: .76rem;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    color: var(--brass-light);
-    margin-bottom: 16px;
-  }
-  h1 {
-    font-family: var(--display);
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 1.1;
-    margin: 0 0 14px;
-  }
-  .sub { font-size: 1.05rem; color: var(--on-dark-muted); line-height: 1.6; margin: 0; }
-
-  h2 {
-    font-family: var(--display);
-    font-weight: 400;
-    font-size: 1.8rem;
-    margin: 0 0 18px;
-  }
-  .section-intro { font-size: .94rem; color: var(--muted); line-height: 1.6; margin: 0 0 18px; }
-  h2.tight { margin-bottom: 6px; }
-
-  .card { border: 1px solid var(--hairline); background: var(--card); }
-  .card.rows { padding: 8px 28px; }
-
-  /* Itinerary / transport rows */
-  .row {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 18px;
-    border-bottom: 1px solid var(--row-rule);
-    padding: 14px 0;
-  }
-  .row:last-child { border-bottom: none; }
-  .row-date {
-    font-family: var(--stamp); font-weight: 400;
-    font-size: .76rem;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    color: var(--brass);
-    padding-top: 2px;
-  }
-  .row-what { font-weight: 400; font-size: 1rem; }
-  .row-note { font-size: .88rem; color: var(--muted); line-height: 1.5; margin-top: 2px; }
-  .row.with-chip { grid-template-columns: 120px 1fr auto; }
-  .chip {
-    font-family: var(--stamp); font-weight: 400;
-    font-size: .62rem;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    padding: 2px 7px;
-    align-self: start;
-    white-space: nowrap;
-  }
-  .chip.confirmed { border: 1px solid var(--brass); color: var(--brass); }
-  .chip.tbc { border: 1px solid var(--ash); color: var(--ash); }
-
-  /* Hotel cards */
-  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-  .hotel-card img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
-  .hotel-body { padding: 26px; }
-  .card-eyebrow {
-    font-family: var(--stamp); font-weight: 400;
-    font-size: .72rem;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    color: var(--brass);
-    margin-bottom: 8px;
-  }
-  .hotel-name {
-    font-family: var(--display);
-    font-weight: 400;
-    font-size: 1.35rem;
-    margin-bottom: 6px;
-  }
-  .hotel-name a, .act-row a {
-    color: var(--ink);
-    text-decoration: none;
-    border-bottom: 1px solid rgba(22,23,18,.25);
-  }
-  .hotel-name a:hover, .act-row a:hover { color: var(--ink); border-bottom-color: currentColor; }
-  .hotel-room { font-size: .92rem; color: var(--muted); line-height: 1.5; margin-bottom: 14px; }
-  .rates { display: flex; flex-direction: column; gap: 6px; }
-  .rate {
-    display: flex;
-    justify-content: space-between;
-    gap: 12px;
-    border-top: 1px solid var(--row-rule);
-    padding-top: 6px;
-  }
-  .rate-label { font-size: .9rem; color: var(--muted); }
-  .rate-price { font-family: var(--stamp); font-weight: 400; font-size: .9rem; color: var(--ink); white-space: nowrap; }
-  .hotel-note { font-size: .88rem; color: var(--muted); line-height: 1.55; margin: 14px 0 0; }
-  .footnote { font-size: .9rem; color: var(--muted); line-height: 1.6; margin: 16px 0 0; }
-
-  /* Booking references */
-  .refs-card { padding: 22px 28px; margin-top: 20px; }
-  .refs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 14px; }
-  .ref-label { font-family: var(--stamp); font-weight: 400; font-size: .72rem; color: var(--muted); }
-  .ref-code { font-family: var(--display); font-weight: 400; font-size: 1.8rem; letter-spacing: .06em; }
-  .pax-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-  .pax { border-top: 1px solid var(--row-rule); padding-top: 8px; }
-  .pax-name { font-weight: 400; font-size: .95rem; }
-  .pax-ticket { font-family: var(--stamp); font-weight: 400; font-size: .8rem; color: var(--muted); margin-top: 2px; }
-  .refs-note { font-size: .88rem; color: var(--muted); line-height: 1.55; margin: 14px 0 0; }
-
-  /* Activities */
-  .act-card { padding: 22px 26px; }
-  .act-head {
-    font-family: var(--stamp); font-weight: 400;
-    font-size: .72rem;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    color: var(--brass);
-    border-bottom: 1px solid var(--hairline);
-    padding-bottom: 8px;
-    margin-bottom: 4px;
-  }
-  .act-row { border-bottom: 1px solid rgba(22,23,18,.08); padding: 10px 0; }
-  .act-line { display: flex; justify-content: space-between; gap: 12px; }
-  .act-row a { font-weight: 400; font-size: .95rem; }
-  .act-est { font-family: var(--stamp); font-weight: 400; font-size: .78rem; color: var(--muted); white-space: nowrap; }
-
-  /* Next steps */
-  .steps.wrap { padding-bottom: 80px; }
-  .step {
-    display: grid;
-    grid-template-columns: 40px 1fr;
-    gap: 14px;
-    border-bottom: 1px solid var(--row-rule);
-    padding: 14px 0;
-  }
-  .step:last-child { border-bottom: none; }
-  .step-num { font-family: var(--stamp); font-weight: 400; font-size: .8rem; color: var(--brass); }
-  .step-text { font-size: .95rem; line-height: 1.55; }
-  .step-title { font-weight: 400; }
-  .step-note { color: var(--muted); }
-
-  @media (max-width: 700px) {
-    h1 { font-size: 2.25rem; }
-    .two-col, .refs-grid, .pax-grid { grid-template-columns: 1fr; }
-  }
-  @media (max-width: 560px) {
-    .row, .row.with-chip { grid-template-columns: 1fr; gap: 4px; }
-    .row-date { padding-top: 0; }
-    .chip { justify-self: start; margin-top: 4px; }
-    .act-line { flex-wrap: wrap; }
-  }
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#F2EFE6;color:#1F201A;font-family:'Newsreader',Georgia,'Times New Roman',serif;font-size:18px;line-height:1.6}
+a{color:#836229}a:hover{color:#1F201A}
+a:focus-visible{outline:2px solid #4A5040;outline-offset:3px}
+img{max-width:100%;display:block}
+p{margin:0}
+.w{max-width:1180px;margin:0 auto}
+.band{padding:96px 24px}
+.b-cream{background:#F2EFE6}.b-stone{background:#E9E5DA}.b-ink{background:#161712;color:#F2EFE6}
+.ey{font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.2em;font-size:14px;color:#836229}
+.b-ink .ey{color:#BE975A}
+.lbl{font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.2em;font-size:13px;color:#65665C}
+.b-ink .lbl{color:#9A9B90}
+h1,h2,h3{margin:0;font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400}
+h2{font-size:clamp(2rem,4vw,3rem);line-height:1.05}
+h2 em,h1 em{font-style:italic}
+.b-ink h2 em,.b-ink h1 em{color:#BE975A}
+.muted{color:#65665C;font-size:16px}
+.b-ink .muted{color:#9A9B90}
+.stack{display:flex;flex-direction:column;gap:18px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:44px;align-items:start}
+figure{margin:0;display:flex;flex-direction:column;gap:12px}
+figcaption{font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.2em;font-size:13px;color:#65665C}
+.b-ink figcaption{color:#9A9B90}
+.band-fig{margin:0 auto 56px;max-width:1180px}
+.band-fig img{width:100%;height:600px;object-fit:cover}
+/* header */
+.hd{background:#161712;color:#F2EFE6;padding:104px 24px}
+.hd .w{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:56px;align-items:center}
+.hd h1{font-size:clamp(3rem,6vw,5.4rem);line-height:1;letter-spacing:-.01em}
+.hd .meta{font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.2em;font-size:15px;color:#9A9B90}
+.hd .intro{font-size:20px;max-width:680px}
+.hd img{width:100%;height:620px;object-fit:cover}
+.seal{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(190,151,90,.5);color:#BE975A;padding:10px 16px;font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.18em;font-size:13px;align-self:flex-start}
+.seal::before{content:"";width:8px;height:8px;border-radius:50%;background:#BE975A}
+/* tables */
+.tbl{border-top:1px solid rgba(22,23,18,.15)}
+.b-ink .tbl,.b-ink .tbl>*{border-color:rgba(242,239,230,.18)!important}
+.rt{display:grid;grid-template-columns:1.3fr 1fr 1.6fr .5fr;gap:24px;padding:18px 0;border-bottom:1px solid rgba(22,23,18,.15)}
+.rt.h{padding:14px 0}
+.rt>span:last-child{text-align:right}
+.tag{display:inline-block;margin-left:10px;font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:#4A5040;border:1px solid rgba(74,80,64,.45);padding:1px 8px;vertical-align:2px;white-space:nowrap}
+.b-ink .tag{color:#BE975A;border-color:rgba(190,151,90,.5)}
+.tag.soft{color:#836229;border-color:rgba(131,98,41,.45)}
+.dy{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:20px 0;border-bottom:1px solid rgba(22,23,18,.15)}
+.dy .d{font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.16em;font-size:14px;color:#836229;padding-top:3px}
+.dy .t{font-family:'Instrument Serif', Didot, Georgia, serif;font-size:24px;line-height:1.15}
+.dy .n{font-size:16px;color:#65665C;margin-top:6px}
+/* cards */
+.card{background:#FBFAF6;border:1px solid rgba(22,23,18,.15);padding:32px;display:flex;flex-direction:column;gap:16px}
+.b-ink .card{background:transparent;border-color:rgba(242,239,230,.18)}
+.kv{display:flex;flex-direction:column}
+.kv>div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;padding:12px 0;border-top:1px solid rgba(22,23,18,.15)}
+.b-ink .kv>div{border-color:rgba(242,239,230,.18)}
+.kv>div>span:last-child{text-align:right}
+.kv .k{color:#65665C}
+.b-ink .kv .k{color:#9A9B90}
+.note{font-size:15px;color:#65665C;border-left:2px solid #BE975A;padding-left:14px}
+.b-ink .note{color:#9A9B90}
+/* logistics */
+.lg-g{margin-top:8px}
+.lg-r{display:grid;grid-template-columns:130px 1fr auto;gap:24px;padding:18px 0;border-top:1px solid rgba(22,23,18,.15)}
+.lg-r .d{font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.14em;font-size:13px;color:#836229;padding-top:4px}
+.lg-r .t{font-family:'Instrument Serif', Didot, Georgia, serif;font-size:22px;line-height:1.2}
+.lg-r .n{font-size:16px;color:#65665C;margin-top:4px}
+.lg-r .p{font-family:'Instrument Serif', Didot, Georgia, serif;font-size:22px;text-align:right;white-space:nowrap}
+.lg-r .p.pend{font-size:13px;text-transform:uppercase;letter-spacing:.16em;color:#836229;padding-top:6px}
+.lg-r .ph{grid-column:2/4;margin-top:14px}
+.lg-r .ph img{width:100%;height:360px;object-fit:cover}
+.lg-r .ph figcaption{margin-top:8px}
+.sum{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid rgba(22,23,18,.15);margin-top:28px}
+.sum>div{padding:24px 26px;display:flex;flex-direction:column;gap:6px}
+.sum>div+div{border-left:1px solid rgba(22,23,18,.15)}
+.sum .v{font-family:'Instrument Serif', Didot, Georgia, serif;font-size:40px;line-height:1}
+.sum .s{font-size:15px;color:#65665C}
+.sum .now{background:#161712;color:#F2EFE6}
+.sum .now .lbl{color:#BE975A}.sum .now .s{color:#9A9B90}
+.btn{display:inline-block;background:#4A5040;color:#F2EFE6;text-decoration:none;padding:16px 28px;font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.16em;font-size:15px;border:0}
+.btn:hover{background:#1F201A;color:#F2EFE6}
+.btn.off{background:transparent;color:#65665C;border:1px solid rgba(22,23,18,.25)}
+.b-ink .btn.off{color:#9A9B90;border-color:rgba(242,239,230,.25)}
+.btn.paid{background:#BE975A;color:#161712}
+.cta{display:flex;flex-wrap:wrap;gap:20px 28px;align-items:center;margin-top:24px}
+.cta .muted{flex:1;min-width:260px}
+details.fine{margin-top:28px;border-top:1px solid rgba(22,23,18,.15);padding-top:16px}
+details.fine summary{cursor:pointer;font-family:'Instrument Serif', Didot, Georgia, serif;text-transform:uppercase;letter-spacing:.2em;font-size:13px;color:#65665C}
+details.fine ul{margin:14px 0 0;padding-left:18px;font-size:15px;color:#65665C}
+details.fine li{margin:6px 0}
+/* next steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:32px}
+.steps>div{border-top:1px solid rgba(242,239,230,.18);padding-top:20px;display:flex;flex-direction:column;gap:8px}
+.steps .num{font-family:'Instrument Serif', Didot, Georgia, serif;font-size:40px;line-height:1;color:#BE975A}
+.sig{border-top:1px solid rgba(242,239,230,.18);padding-top:24px;margin-top:24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
+.sig img{width:80px;height:80px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.8)}
+@media (max-width:700px){
+  .band,.hd{padding-top:64px;padding-bottom:64px}
+  .hd img{height:420px}
+  .band-fig img{height:340px}
+  .rt{grid-template-columns:1fr auto;gap:2px 16px}
+  .rt.h{display:none}
+  .rt>span:nth-child(1){grid-column:1/-1;font-size:15px;color:#65665C;order:-3}
+  .rt>span:nth-child(2){order:-2;font-family:'Instrument Serif', Didot, Georgia, serif;font-size:22px}
+  .rt>span:nth-child(4){order:-1;font-family:'Instrument Serif', Didot, Georgia, serif;font-size:22px}
+  .rt>span:nth-child(4)::after{content:" nights";font-size:15px;color:#65665C}
+  .rt>span:nth-child(3){grid-column:1/-1}
+  .dy{grid-template-columns:1fr;gap:4px}
+  .lg-r{grid-template-columns:1fr auto;gap:4px 16px}
+  .lg-r .d{grid-column:1/-1}
+  .lg-r .ph{grid-column:1/-1}
+  .lg-r .ph img{height:240px}
+  .sum{grid-template-columns:1fr}
+  .sum>div+div{border-left:0;border-top:1px solid rgba(22,23,18,.15)}
+  .card{padding:24px}
+}
 </style>
 </head>
 <body>
-
-<header>
-  <div class="inner">
-    <div class="eyebrow">Suites With Keith · Trip Itinerary</div>
-    <h1>Linda &amp; Addison, <em>Greece</em></h1>
-    <p class="sub">May 19 – 27, 2027 · Paros (4 nights) → Santorini (4 nights) · Ferries in and between, one short flight home.</p>
-  </div>
-</header>
-
-<section class="wrap">
-  <h2>Itinerary</h2>
-  <div class="card rows">
-    <div class="row">
-      <div class="row-date">May 18</div>
-      <div>
-        <div class="row-what">Fly New York JFK 3:10pm → Athens</div>
-        <div class="row-note">Delta nonstop, 9h 40m, confirmation G8W64L. Lands 7:50am on May 19.</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="row-date">May 19</div>
-      <div>
-        <div class="row-what">Land Athens 7:50am, ferry to Paros</div>
-        <div class="row-note">A driver meets you at arrivals and takes you to the port for the high-speed ferry (3 to 4.5 hours). Another meets you at Paros port and takes you to Vione.</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="row-date">May 19–23</div>
-      <div>
-        <div class="row-what">Paros, Vione, 4 nights</div>
-        <div class="row-note">Beach clubs, the Antiparos boat day, Naoussa evenings.</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="row-date">May 23</div>
-      <div>
-        <div class="row-what">Ferry Paros → Santorini</div>
-        <div class="row-note">Champions League Jet 1, 1:25pm to 3:10pm, VIP seats. Drivers at both ports.</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="row-date">May 23–27</div>
-      <div>
-        <div class="row-what">Santorini, Andronis Arcadia, Oia, 4 nights</div>
-        <div class="row-note">The caldera as the finale, with a private sunset cruise on May 24.</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="row-date">May 27</div>
-      <div>
-        <div class="row-what">Fly Santorini → Athens 8:25am, Athens → JFK 3:30pm</div>
-        <div class="row-note">Aegean A3353 lands 9:15am; Delta DL0283 departs 3:30pm and lands JFK 7:50pm. Both confirmed.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="wrap">
-  <h2>The two stays</h2>
-  <div class="two-col">
-    <div class="card hotel-card">
-      <img src="/images/proposals/weiner-greece-2027/vione-paros.jpg" alt="Vione Paros pool">
-      <div class="hotel-body">
-        <div class="card-eyebrow">Paros · May 19–23 · 4 nights · Confirmed</div>
-        <div class="hotel-name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Vione%20Paros" target="_blank" rel="noopener">Vione Paros</a></div>
-        <div class="hotel-room">Junior Suite with private plunge pool &amp; panoramic sea view · breakfast included · 2 adults</div>
-        <div class="rates">
-          <div class="rate">
-            <span class="rate-label">Reservation 6325 · prepaid, non-refundable</span>
-            <span class="rate-price">€2,520</span>
-          </div>
-        </div>
-        <p class="hotel-note">Fora Reserve perks: welcome amenity, €100 food &amp; beverage credit, early check-in/late check-out and upgrade on availability. Climate fee €15/night paid at checkout. Check-in 3pm, check-out 11am.</p>
-      </div>
-    </div>
-    <div class="card hotel-card">
-      <img src="/images/proposals/weiner-greece-2027/andronis-arcadia.jpg" alt="Andronis Arcadia terrace at sunset">
-      <div class="hotel-body">
-        <div class="card-eyebrow">Santorini · May 23–27 · 4 nights · Confirmed</div>
-        <div class="hotel-name"><a href="https://www.google.com/maps/search/?api=1&amp;query=Andronis%20Arcadia%2C%20Oia%2C%20Santorini" target="_blank" rel="noopener">Andronis Arcadia, Oia</a></div>
-        <div class="hotel-room">Sunset Suite: king, sea view, 42 sqm, private veranda with infinity pool · breakfast included · 2 adults</div>
-        <div class="rates">
-          <div class="rate">
-            <span class="rate-label">Fora rate, non-refundable · €775.80/night × 4</span>
-            <span class="rate-price">€3,103.20</span>
-          </div>
-        </div>
-        <p class="hotel-note">Fourth night added at the same rate. Perks: €150 resort credit, bottle of wine and champagne, welcome amenities, early check-in/late check-out and upgrade on availability.</p>
-      </div>
-    </div>
-  </div>
-  <p class="footnote">Both stays are booked and prepaid through Fora; rates include VAT, taxes and breakfast.</p>
-</section>
-
-<section class="wrap">
-  <h2 class="tight">Getting around</h2>
-  <p class="section-intro">Flights are confirmed. Ferries and transfers are priced below and booked as soon as the deposit is in.</p>
-  <div class="card rows">
-    <div class="row with-chip">
-      <div class="row-date">Tue May 18</div>
-      <div>
-        <div class="row-what">Delta · New York JFK 3:10pm → Athens 7:50am (May 19)</div>
-        <div class="row-note">Nonstop, 9h 40m · Delta One. Round trip, confirmation G8W64L.</div>
-      </div>
-      <div class="chip confirmed">Confirmed</div>
-    </div>
-    <div class="row with-chip">
-      <div class="row-date">May 19</div>
-      <div>
-        <div class="row-what">Ferry Athens → Paros</div>
-        <div class="row-note">High-speed from Piraeus or Rafina, 3 to 4.5 hours, with a driver from the airport to the port and another waiting at Paros port. Sailing being priced now.</div>
-      </div>
-      <div class="chip tbc">Being priced</div>
-    </div>
-    <div class="row with-chip">
-      <div class="row-date">May 23</div>
-      <div>
-        <div class="row-what">Ferry Paros → Santorini, Champions League Jet 1</div>
-        <div class="row-note">1:25pm to 3:10pm, VIP seats, so you check in to Arcadia by mid-afternoon.</div>
-      </div>
-      <div class="chip tbc">On deposit</div>
-    </div>
-    <div class="row with-chip">
-      <div class="row-date">Thu May 27</div>
-      <div>
-        <div class="row-what">Aegean A3353 · Santorini 8:25am → Athens 9:15am</div>
-        <div class="row-note">Nonstop, 50 min, Airbus A320 · Business. Arrives Athens El. Venizelos.</div>
-      </div>
-      <div class="chip confirmed">Confirmed</div>
-    </div>
-    <div class="row with-chip">
-      <div class="row-date">Thu May 27</div>
-      <div>
-        <div class="row-what">Delta DL0283 · Athens 3:30pm → New York JFK 7:50pm</div>
-        <div class="row-note">Nonstop, 11h 20m, Airbus A330-900neo · Delta One Classic, seats 2C &amp; 2G. Arrives JFK Terminal 4. About 6 hours to connect after the Aegean arrival.</div>
-      </div>
-      <div class="chip confirmed">Confirmed</div>
-    </div>
-  </div>
-  <div class="card refs-card">
-    <div class="card-eyebrow" style="margin-bottom:10px;">Booking references</div>
-    <div class="refs-grid">
-      <div>
-        <div class="ref-label">Aegean</div>
-        <div class="ref-code">8S2DEC</div>
-      </div>
-      <div>
-        <div class="ref-label">Delta</div>
-        <div class="ref-code">G8W64L</div>
-      </div>
-    </div>
-    <div class="pax-grid">
-      <div class="pax">
-        <div class="pax-name">Mrs Linda Weiner</div>
-        <div class="pax-ticket">Aegean ticket 390-2485932911</div>
-      </div>
-      <div class="pax">
-        <div class="pax-name">Mrs Addison Weiner</div>
-        <div class="pax-ticket">Aegean ticket 390-2485932910</div>
-      </div>
-    </div>
-    <p class="refs-note">Aegean hop is Business Basic (class D). Both confirmations are under Linda’s email; check in online 24 hours before each flight.</p>
-  </div>
-</section>
-
-<!-- os-deposit --><section class="osd" id="deposit"><style>.osd{max-width:900px;margin:0 auto;padding:56px 40px 0;font-family:'Newsreader',Georgia,'Times New Roman',serif;color:#1F201A}
-.osd *{box-sizing:border-box}
-.osd-eyebrow{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.76rem;text-transform:uppercase;letter-spacing:.2em;color:#836229;margin:0 0 10px}
-.osd h2.osd-h{font-family:'Instrument Serif',Didot,Georgia,serif;font-weight:400;font-size:1.8rem;line-height:1.15;margin:0 0 8px;color:#1F201A}
-.osd-intro{font-size:.96rem;color:#65665C;line-height:1.6;margin:0 0 20px;max-width:640px}
-.osd-card{border:1px solid rgba(22,23,18,.15);background:#FBFAF6;padding:8px 28px 24px}
-.osd-gh{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.72rem;text-transform:uppercase;letter-spacing:.2em;color:#836229;border-bottom:1px solid rgba(22,23,18,.15);padding:18px 0 8px}
-.osd-row{display:grid;grid-template-columns:110px 1fr auto;gap:16px;border-bottom:1px solid rgba(22,23,18,.08);padding:12px 0}
-.osd-date{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.74rem;text-transform:uppercase;letter-spacing:.16em;color:#836229;padding-top:3px}
-.osd-t{font-size:1rem;line-height:1.4}
-.osd-n{font-size:.86rem;color:#65665C;line-height:1.5;margin-top:3px}
-.osd-p{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:1.05rem;white-space:nowrap;text-align:right;padding-top:1px}
-.osd-p.pending{font-family:'Newsreader',Georgia,serif;font-size:.8rem;color:#8C8D82;font-style:italic}
-.osd-sum{margin-top:22px;display:grid;grid-template-columns:1fr 1fr 1fr;border:1px solid rgba(22,23,18,.15)}
-.osd-sum>div{padding:16px 18px;border-right:1px solid rgba(22,23,18,.15)}
-.osd-sum>div:last-child{border-right:none}
-.osd-sum .now{background:#161712;color:#F2EFE6}
-.osd-k{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.68rem;text-transform:uppercase;letter-spacing:.2em;color:#8C8D82}
-.osd-sum .now .osd-k{color:#BE975A}
-.osd-v{font-family:'Instrument Serif',Didot,Georgia,serif;font-size:1.7rem;line-height:1.2;margin-top:4px}
-.osd-s{font-size:.82rem;color:#65665C;margin-top:2px;line-height:1.4}
-.osd-sum .now .osd-s{color:#9A9B90}
-.osd-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin-top:20px}
-.osd-btn{display:inline-block;background:#836229;color:#FBFAF6 !important;text-decoration:none !important;border:none !important;font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.8rem;text-transform:uppercase;letter-spacing:.2em;padding:15px 26px}
-.osd-btn:hover{background:#4A5040}
-.osd-btn.off{background:transparent;color:#8C8D82 !important;border:1px solid #8C8D82 !important;cursor:default}
-.osd-btn.paid{background:transparent;color:#4A5040 !important;border:1px solid #4A5040 !important;cursor:default}
-.osd-how{font-size:.84rem;color:#65665C;line-height:1.5;flex:1 1 260px}
-.osd-opt{margin-top:20px;border:1px dashed rgba(22,23,18,.25);padding:8px 28px 18px}
-.osd-opt .osd-row:last-child{border-bottom:none}
-.osd-opt-note{font-size:.86rem;color:#65665C;margin:12px 0 0}
-.osd-fine{margin-top:18px;border-top:1px solid rgba(22,23,18,.15)}
-.osd-fine summary{cursor:pointer;font-family:'Instrument Serif',Didot,Georgia,serif;font-size:.74rem;text-transform:uppercase;letter-spacing:.2em;color:#836229;padding:14px 0;list-style:none}
-.osd-fine summary::-webkit-details-marker{display:none}
-.osd-fine summary:after{content:' +'}
-.osd-fine[open] summary:after{content:' \2212'}
-.osd-fine ul{margin:0 0 8px;padding-left:18px;font-size:.88rem;color:#65665C;line-height:1.55}
-.osd-fine li{margin-bottom:6px}
-@media(max-width:700px){
- .osd{padding:44px 20px 0}
- .osd-card,.osd-opt{padding-left:18px;padding-right:18px}
- .osd-sum{grid-template-columns:1fr}
- .osd-sum>div{border-right:none;border-bottom:1px solid rgba(22,23,18,.15)}
- .osd-sum>div:last-child{border-bottom:none}
- .osd-sum .now{order:-1}
-}
-@media(max-width:560px){
- .osd-row{grid-template-columns:1fr auto;gap:2px 12px}
- .osd-date{grid-column:1 / -1;padding-top:0}
- .osd-btn{width:100%;text-align:center}
-}</style><div class="osd-eyebrow">Ferries, transfers &amp; boat days</div><h2 class="osd-h">Securing the <em>logistics</em></h2><p class="osd-intro">Your ferries, island transfers and the sunset cruise, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.</p><div class="osd-card"><div class="osd-gh">Private transfers</div><div class="osd-row"><div class="osd-date">May 19</div><div><div class="osd-t">Athens airport to the ferry port</div><div class="osd-n">Met after the Delta arrival at 7:50am and driven to the port.</div></div><div class="osd-p pending">Being priced</div></div><div class="osd-row"><div class="osd-date">May 19 to 27</div><div><div class="osd-t">All four island transfers</div><div class="osd-n">Paros port to Vione, Vione to Paros port, Santorini port to Andronis Arcadia, and Andronis Arcadia to Santorini airport. Luxury vehicle with an English-speaking driver.</div></div><div class="osd-p">€635</div></div><div class="osd-gh">Ferries</div><div class="osd-row"><div class="osd-date">May 19</div><div><div class="osd-t">Athens to Paros, high-speed ferry</div><div class="osd-n">Morning sailing after you land; met at Paros port.</div></div><div class="osd-p pending">Being priced</div></div><div class="osd-row"><div class="osd-date">May 23</div><div><div class="osd-t">Paros to Santorini, Champions League Jet 1</div><div class="osd-n">1:25pm to 3:10pm, VIP seats for two.</div></div><div class="osd-p">€224</div></div><div class="osd-gh">Boat days</div><div class="osd-row"><div class="osd-date">May 24</div><div><div class="osd-t">Private sunset caldera cruise on a Pardo 43</div><div class="osd-n">Fresh fish, salads, dips, cheese and charcuterie, dessert, wine and beer, snorkel gear and a paddleboard, hotel transfers both ways.</div></div><div class="osd-p">€2,200</div></div><div class="osd-gh">Travel insurance</div><div class="osd-row"><div class="osd-date"></div><div><div class="osd-t">Domestic travel insurance, two guests</div></div><div class="osd-p">€50</div></div><div class="osd-sum"><div><div class="osd-k">Trip total</div><div class="osd-v">€3,109</div><div class="osd-s">Everything priced so far, for two</div></div><div class="now"><div class="osd-k">Deposit now</div><div class="osd-v">€1,055.25</div><div class="osd-s">Confirms everything above</div></div><div><div class="osd-k">Balance</div><div class="osd-v">€2,053.75</div><div class="osd-s">Due by Apr 19, 2027, 30 days before you arrive</div></div></div><div class="osd-cta"><span class="osd-btn off">Payment link on its way</span><div class="osd-how">The deposit covers 25% of transfers, the full ferry fares and 30% of the boat day. Nothing is booked until it is paid, and boats and ferries go fast in high season.</div></div><p class="osd-opt-note">The Athens transfer and ferry are being priced by Original Senses now. I will add them to the deposit before you pay.</p></div><div class="osd-opt"><div class="osd-gh">Add-ons, if you want them</div><div class="osd-row"><div class="osd-date">May 20</div><div><div class="osd-t">Private full day to Antiparos, Despotiko &amp; Panteronissia</div><div class="osd-n">Axopar 28 with your own captain, towels, snorkel gear, water toys, snacks and drinks, hotel transfers both ways.</div></div><div class="osd-p">€2,660</div></div><div class="osd-row"><div class="osd-date">May 20</div><div><div class="osd-t">Or a half day on the bigger Axopar 37</div><div class="osd-n">Same islands, shorter day, more boat.</div></div><div class="osd-p">€2,960</div></div><p class="osd-opt-note">Not in the total above. Tell me and I will add any of these before you pay.</p></div><details class="osd-fine"><summary>Payment &amp; cancellation terms</summary><ul><li>Transfers, cars and experiences: €300 of the deposit is non-refundable if you cancel. From 30 to 21 days before arrival 30% is charged, 20 to 14 days 60%, and 13 days or less 100%.</li><li>Ferry tickets are fully refundable up to 15 days before sailing, and the date can be changed within 2027.</li><li>Boat days: 30% on confirmation, the rest plus VAT and fuel 30 days before arrival, with the same 30%, 60%, 100% scale inside 30 days. If the captain or port authority cancels for weather, you get it back less a €250 to €300 handling fee. Fuel can move with the market; you hear about any change in advance.</li><li>Crew tips are not included; 10 to 15% is customary.</li><li>Everything is arranged by Original Senses, my partner in Athens, under their full terms. Any change made once you are in Greece is charged in full.</li></ul></details></section><!-- /os-deposit -->
-
-<section class="wrap">
-  <h2 class="tight">More to pick from</h2>
-  <p class="section-intro">The sunset cruise is already in the deposit above. Anything else here, tell me and I'll hold a date.</p>
-  <div class="two-col">
-    <div class="card act-card">
-      <div class="act-head">Paros</div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Antiparos%2C%20Greece" target="_blank" rel="noopener">Antiparos &amp; Despotiko boat day</a>
-          <span class="act-est">€130–160 pp · private €1,200–2,000</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Kleftiko%2C%20Milos" target="_blank" rel="noopener">Milos boat day from Paros</a>
-          <span class="act-est">private €1,800–3,000, by boat</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Monastiri%20Beach%2C%20Paros" target="_blank" rel="noopener">Monastiri Beach Club</a>
-          <span class="act-est">€40–80 / two beds</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Krios%20Beach%2C%20Paros" target="_blank" rel="noopener">Krios Beach (water taxi)</a>
-          <span class="act-est">€30–50 / two beds</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Lefkes%2C%20Paros" target="_blank" rel="noopener">Cooking class in Lefkes</a>
-          <span class="act-est">€110–140 pp</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Naoussa%20old%20port%2C%20Paros" target="_blank" rel="noopener">Naoussa after dark</a>
-          <span class="act-est">dinner €60–90 pp</span>
-        </div>
-      </div>
-    </div>
-    <div class="card act-card">
-      <div class="act-head">Santorini</div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Ammoudi%20Bay%2C%20Oia%2C%20Santorini" target="_blank" rel="noopener">Catamaran caldera sunset cruise</a>
-          <span class="act-est">€170–190 pp · private ~€1,600</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Santo%20Wines%2C%20Pyrgos%2C%20Santorini" target="_blank" rel="noopener">Cooking class &amp; wine pairing</a>
-          <span class="act-est">€150–180 pp</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Seaside%20by%20Notos%2C%20Perivolos%2C%20Santorini" target="_blank" rel="noopener">Seaside by Notos or FortyOne beach club</a>
-          <span class="act-est">€60–100 / two beds</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Venetsanos%20Winery%2C%20Santorini" target="_blank" rel="noopener">Sunset tasting at Venetsanos</a>
-          <span class="act-est">€45–65 pp</span>
-        </div>
-      </div>
-      <div class="act-row">
-        <div class="act-line">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Ammoudi%20Bay%2C%20Oia%2C%20Santorini" target="_blank" rel="noopener">Ammoudi Bay swim &amp; taverna lunch</a>
-          <span class="act-est">free · lunch €40–60 pp</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="wrap steps">
-  <h2>Next steps</h2>
-  <div class="card rows">
-    <div class="step">
-      <div class="step-num">01</div>
-      <div class="step-text"><span class="step-title">Pay the logistics deposit.</span> <span class="step-note">It confirms the Paros to Santorini ferry, every island transfer and the sunset cruise.</span></div>
-    </div>
-    <div class="step">
-      <div class="step-num">02</div>
-      <div class="step-text"><span class="step-title">Athens to Paros.</span> <span class="step-note">The morning ferry and the airport to port transfer are being priced now. I&rsquo;ll add them to the deposit before you pay.</span></div>
-    </div>
-    <div class="step">
-      <div class="step-num">03</div>
-      <div class="step-text"><span class="step-title">Anything else from the list above?</span> <span class="step-note">Tell me and I&rsquo;ll fold it in.</span></div>
-    </div>
-  </div>
-  <div style="display:flex;align-items:center;gap:18px;margin-top:28px;"><img src="/images/personal/keith-headshot-square.jpg" alt="Keith Pence, luxury travel advisor" width="320" height="320" loading="lazy" decoding="async" style="width:76px;height:76px;border-radius:50%;object-fit:cover;display:block;flex:none;"><div><div style="font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;font-size:1.35rem;line-height:1.1;color:#1F201A;">Keith Pence</div><div style="font-family:'Instrument Serif', Didot, Georgia, serif;font-weight:400;font-size:.68rem;text-transform:uppercase;letter-spacing:.2em;color:#836229;margin-top:6px;">Suites With Keith</div></div></div>
-</section>
-
+<header class="hd"><div class="w"><div class="stack" style="gap:28px"><p class="ey">Suites With Keith · Your itinerary, Linda &amp; Addison</p><h1>Paros to <em>Santorini</em></h1><p class="meta">May 19 to 27, 2027 · Two travelers · Eight nights</p><p class="intro">Four nights at Vione on Paros, then four at Andronis Arcadia in Oia with a private sunset cruise. Your flights and both stays are booked; the ferries and transfers are arranged through my partner in Athens.</p><span class="seal">Confirmed itinerary</span></div><figure><img src="/images/islands/santorini-hero.jpg" alt="Santorini" style="object-position:center 50%"><figcaption>Oia, Santorini</figcaption></figure></div></header><section class="band b-cream"><div class="w stack" style="gap:32px"><div class="stack" style="gap:12px"><p class="ey">The route</p><h2>Two stays, ferries in and <em>between</em></h2></div><div class="tbl"><div class="rt h lbl"><span>Dates</span><span>Where</span><span>Where you'll stay</span><span>Nights</span></div><div class="rt"><span>Wed May 19 to Sun May 23</span><span>Paros</span><span>Vione Paros<span class=tag>Booked</span></span><span>4</span></div><div class="rt"><span>Sun May 23 to Thu May 27</span><span>Santorini</span><span>Andronis Arcadia, Oia<span class=tag>Booked</span></span><span>4</span></div></div><p class="muted">Both stays are booked and prepaid through Fora. Rates include VAT, taxes and breakfast.</p></div></section><section class="band b-stone"><div class="w two"><div class="stack" style="position:sticky;top:24px"><p class="ey">Day by day</p><h2>How the trip <em>runs</em></h2><p>Flights and hotels are booked. The ferries, transfers and the sunset cruise are arranged through Original Senses, my partner in Athens.</p></div><div class="tbl"><div class="dy"><div class="d">Tue May 18</div><div><div class="t">Fly New York to Athens<span class="tag">Booked</span></div><div class=n>Delta nonstop from JFK at 3:10PM, Delta One. Lands 7:50AM on May 19.</div></div></div><div class="dy"><div class="d">Wed May 19</div><div><div class="t">Athens to Paros by ferry<span class="tag">Arranged</span></div><div class=n>A driver meets you at arrivals and takes you to the port for the high-speed ferry. Another meets you at Paros port and takes you to Vione.</div></div></div><div class="dy"><div class="d">May 19 to 23</div><div><div class="t">Vione, four nights<span class="tag">Booked</span></div><div class=n>Beach clubs, Antiparos and Naoussa evenings.</div></div></div><div class="dy"><div class="d">Sun May 23</div><div><div class="t">Ferry to Santorini, Champions League Jet 1<span class="tag">Arranged</span></div><div class=n>1:25PM to 3:10PM in VIP seats, drivers at both ports.</div></div></div><div class="dy"><div class="d">May 23 to 27</div><div><div class="t">Andronis Arcadia, four nights<span class="tag">Booked</span></div><div class=n>The caldera as the finale.</div></div></div><div class="dy"><div class="d">Mon May 24</div><div><div class="t">Private sunset cruise on a Pardo 43<span class="tag">Arranged</span></div><div class=n>Fresh fish, salads and wine on the water, hotel transfers both ways.</div></div></div><div class="dy"><div class="d">Thu May 27</div><div><div class="t">Fly home<span class="tag">Booked</span></div><div class=n>Aegean 8:25AM to Athens, then Delta at 3:30PM, landing JFK 7:50PM.</div></div></div></div></div></section><section class="band b-stone"><figure class="band-fig"><img loading="lazy" src="/images/proposals/weiner-greece-2027/vione-paros.jpg" alt="Vione Paros pool" style="object-position:center 55%"><figcaption>Vione, on the low cliffs at Ambelas</figcaption></figure><div class="w two"><div class="stack"><p class="ey">01 · Paros · May 19 to 23</p><h2>Vione, quiet design and your own <em>pool</em></h2><p>Vione is the kind of hotel that quietly impresses you. Clean architecture, understated interiors and a calm, adults-focused feel, with every detail considered.</p><p>Naoussa's old port is ten minutes away for dinner, and the beach clubs and Antiparos are an easy hop.</p></div><div class="card"><p class="lbl">Your suite · 4 nights<span class="tag">Booked</span></p><div class="kv"><div><span class="k">Room</span><span>Junior Suite, private plunge pool, panoramic sea view</span></div><div><span class="k">Breakfast</span><span>Included</span></div><div><span class="k">Guests</span><span>2 adults</span></div><div><span class="k">Reservation</span><span>6325</span></div><div><span class="k">Total</span><span>€2,520, prepaid</span></div></div><p class="ey" style="font-size:13px">Included through Suites With Keith</p><p style="font-size:16px">Welcome amenity, €100 food and beverage credit, early check-in or late check-out and an upgrade when available.</p><p class="muted" style="font-size:15px">Non-refundable. Climate fee €15 a night, paid at checkout. Check-in 3PM, check-out 11AM.</p><p class="note">Rather have an ATV than a car ? For liability reasons I unfortunately can't book ATVs, but the hotel can arrange one directly: <a href="mailto:reservations@vioneparos.com">reservations@vioneparos.com</a>.</p></div></div></section><section class="band b-cream"><figure class="band-fig"><img loading="lazy" src="/images/proposals/weiner-greece-2027/andronis-arcadia.jpg" alt="Andronis Arcadia terrace at sunset" style="object-position:center 55%"><figcaption>Andronis Arcadia, just outside Oia</figcaption></figure><div class="w two"><div class="stack"><p class="ey">02 · Santorini · May 23 to 27</p><h2>Andronis Arcadia, a pool on your own <em>terrace</em></h2><p>Every room at Arcadia has its own pool, some of the largest on the island, and it sits just outside Oia with sunset-facing suites and very private layouts.</p><p>It has more energy than most of Oia, with Beefbar and Pacman on property, so dinner can be a night out without leaving the hotel.</p></div><div class="card"><p class="lbl">Your suite · 4 nights<span class="tag">Booked</span></p><div class="kv"><div><span class="k">Room</span><span>Sunset Suite, king, 42 sqm, infinity pool on the veranda</span></div><div><span class="k">Breakfast</span><span>Included</span></div><div><span class="k">Guests</span><span>2 adults</span></div><div><span class="k">Rate</span><span>€775.80 a night, Fora rate</span></div><div><span class="k">Total</span><span>€3,103.20, prepaid</span></div></div><p class="ey" style="font-size:13px">Included through Suites With Keith</p><p style="font-size:16px">€150 resort credit, a bottle of wine and champagne, welcome amenities, early check-in or late check-out and an upgrade when available.</p><p class="muted" style="font-size:15px">Non-refundable.</p><p class="note">Rather have an ATV than a car ? For liability reasons I unfortunately can't book ATVs, but the hotel can arrange one directly: <a href="mailto:hostess@andronisarcadia.com">hostess@andronisarcadia.com</a>.</p></div></div></section><section class="band b-cream"><div class="w two"><div class="stack"><p class="ey">Flights</p><h2>Flights, all <em>confirmed</em></h2><p>Both confirmations are under Linda's email. Check in online 24 hours before each flight.</p><div class="card"><p class="lbl">Booking references</p><div class="kv"><div><span class="k">Delta</span><span>G8W64L</span></div><div><span class="k">Aegean</span><span>8S2DEC</span></div><div><span class="k">Aegean ticket, Linda</span><span>390-2485932911</span></div><div><span class="k">Aegean ticket, Addison</span><span>390-2485932910</span></div></div><p class="muted" style="font-size:15px">The Aegean hop is Business Basic (class D).</p></div></div><div><div class="lg-r"><div class="d">Tue May 18</div><div><div class="t">Delta · JFK 3:10PM to Athens 7:50AM<span class="tag">Booked</span></div><div class="n">Nonstop, 9h 40m, Delta One. Arrives May 19.</div></div><div></div></div><div class="lg-r"><div class="d">Thu May 27</div><div><div class="t">Aegean A3353 · Santorini 8:25AM to Athens 9:15AM<span class="tag">Booked</span></div><div class="n">Nonstop, 50 minutes, Business.</div></div><div></div></div><div class="lg-r"><div class="d">Thu May 27</div><div><div class="t">Delta DL0283 · Athens 3:30PM to JFK 7:50PM<span class="tag">Booked</span></div><div class="n">Nonstop, 11h 20m, Delta One, seats 2C and 2G. About 6 hours to connect after the Aegean arrival.</div></div><div></div></div></div></div></section><section class="band b-cream" id="deposit"><div class="w"><div class="two" style="margin-bottom:40px"><div class="stack"><p class="ey">Ferries, transfers &amp; boat days</p><h2>Securing the <em>logistics</em></h2></div><p style="align-self:end">Your ferries, island transfers and the sunset cruise, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.</p></div><div class="lg-g"><p class="lbl" style="padding:10px 0">Private transfers</p><div class="lg-r"><div class="d">May 19</div><div><div class="t">Athens airport to the ferry port</div><div class="n">Met after the Delta arrival at 7:50am and driven to the port.</div></div><div class="p pend">Being priced</div></div><div class="lg-r"><div class="d">May 19 to 27</div><div><div class="t">All four island transfers</div><div class="n">Paros port to Vione, Vione to Paros port, Santorini port to Andronis Arcadia, and Andronis Arcadia to Santorini airport. Luxury vehicle with an English-speaking driver.</div></div><div class="p">€635</div></div></div><div class="lg-g"><p class="lbl" style="padding:10px 0">Ferries</p><div class="lg-r"><div class="d">May 19</div><div><div class="t">Athens to Paros, high-speed ferry</div><div class="n">Morning sailing after you land; met at Paros port.</div></div><div class="p pend">Being priced</div></div><div class="lg-r"><div class="d">May 23</div><div><div class="t">Paros to Santorini, Champions League Jet 1</div><div class="n">1:25pm to 3:10pm, VIP seats for two.</div></div><div class="p">€224</div></div></div><div class="lg-g"><p class="lbl" style="padding:10px 0">Boat days</p><div class="lg-r"><div class="d">May 24</div><div><div class="t">Private sunset caldera cruise on a Pardo 43</div><div class="n">Fresh fish, salads, dips, cheese and charcuterie, dessert, wine and beer, snorkel gear and a paddleboard, hotel transfers both ways.</div></div><div class="p">€2,200</div></div></div><div class="lg-g"><p class="lbl" style="padding:10px 0">Travel insurance</p><div class="lg-r"><div class="d"></div><div><div class="t">Domestic travel insurance, two guests</div></div><div class="p">€50</div></div></div><div class="sum"><div><p class="lbl">Logistics total</p><p class="v">€3,109</p><p class="s">Everything priced so far, for two</p></div><div class="now"><p class="lbl">Deposit now</p><p class="v">€1,055.25</p><p class="s">Confirms everything above</p></div><div><p class="lbl">Balance</p><p class="v">€2,053.75</p><p class="s">Due by Apr 19, 2027, 30 days before you arrive</p></div></div><div class="cta"><span class="btn off">Payment link on its way</span><p class="muted">The deposit covers 25% of transfers, the full ferry fare and 30% of the boat day. Boats and ferries go fast in high season, so it is worth locking them in early.</p></div><p class="note" style="margin-top:20px">The Athens transfer and ferry are being priced by Original Senses now. I will add them to the deposit before you pay.</p><div class="card" style="margin-top:40px;gap:0"><p class="lbl" style="padding-bottom:10px">Add-ons, if you want them</p><div class="lg-r"><div class="d">May 20</div><div><div class="t">Private full day to Antiparos, Despotiko &amp; Panteronissia</div><div class="n">Axopar 28 with your own captain, towels, snorkel gear, water toys, snacks and drinks, hotel transfers both ways.</div></div><div class="p">€2,660</div></div><div class="lg-r"><div class="d">May 20</div><div><div class="t">Or a half day on the bigger Axopar 37</div><div class="n">Same islands, shorter day, more boat.</div></div><div class="p">€2,960</div></div><p class="muted" style="padding-top:14px;font-size:15px">Not in the total above. Tell me and I will add any of these before you pay.</p></div><details class="fine"><summary>Payment &amp; cancellation terms</summary><ul><li>Transfers, cars and experiences: €300 of the deposit is non-refundable if you cancel. From 30 to 21 days before arrival 30% is charged, 20 to 14 days 60%, and 13 days or less 100%.</li><li>Ferry tickets are fully refundable up to 15 days before sailing, and the date can be changed within 2027.</li><li>Boat days: 30% on confirmation, the rest plus VAT and fuel 30 days before arrival, with the same 30%, 60%, 100% scale inside 30 days. If the captain or port authority cancels for weather, you get it back less a €250 to €300 handling fee. Fuel can move with the market; you hear about any change in advance.</li><li>Crew tips are not included; 10 to 15% is customary.</li><li>Everything is arranged by Original Senses, my partner in Athens, under their full terms. Any change made once you are in Greece is charged in full.</li></ul></details></div></section><section class="band b-ink" style="padding-bottom:120px"><div class="w stack" style="gap:32px"><p class="ey">Next steps</p><h2 style="font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.02;max-width:820px">Your stays and flights are booked. Let's lock in the <em>logistics</em></h2><div class="steps"><div><p class="num">1</p><p>Pay the logistics deposit. It confirms the Paros to Santorini ferry, every island transfer and the sunset cruise.</p></div><div><p class="num">2</p><p>Athens to Paros: the morning ferry and the airport to port transfer are being priced now. I'll add them to the deposit before you pay.</p></div><div><p class="num">3</p><p>Anything from the add-ons ? Tell me and I'll fold it in.</p></div></div><div class="cta" style="margin-top:8px"><span class="btn off">Payment link on its way</span></div><div class="sig"><div style="display:flex;align-items:center;gap:18px"><img src="/images/personal/keith-headshot-square.jpg" alt="Keith Pence, luxury travel advisor" width="320" height="320" loading="lazy"><p style="font-family:'Instrument Serif', Didot, Georgia, serif;font-size:28px">Keith Pence <em style="color:#BE975A">· Suites With Keith</em></p></div><p class="lbl" style="align-self:center">+1 (415) 272-4316 · keith.pence@fora.travel</p></div></div></section>
 </body>
 </html>

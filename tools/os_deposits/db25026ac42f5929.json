@@ -17,7 +17,12 @@
         "date": "Sep 29",
         "title": "Paros to Sifnos by private boat, via Antiparos",
         "note": "A full day on a 10m RIB with swim stops, a Greek picnic, wine, beer and soft drinks, snorkel gear. Your luggage goes with you and you step off at Sifnos instead of taking the ferry.",
-        "price": 1850
+        "price": 1850,
+        "photo": {
+          "src": "/images/boats/rib.jpg",
+          "alt": "A private RIB boat in the Cyclades",
+          "caption": "A private RIB"
+        }
       }
     ],
     "cars": [
@@ -54,7 +59,12 @@
       "date": "Sep 29",
       "title": "Upgrade the Sifnos crossing to an Axopar 37",
       "note": "Covered cabin, captain, water toys, snacks and drinks. Replaces the RIB.",
-      "price": 4000
+      "price": 4000,
+      "photo": {
+        "src": "/images/boats/axopar-37.jpg",
+        "alt": "An Axopar 37 with a covered cabin on calm water at sunset",
+        "caption": "The Axopar 37"
+      }
     },
     {
       "date": "Paros",

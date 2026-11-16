@@ -1,0 +1,54 @@
+{
+  "page": "proposals/db25026ac42f5929.html",
+  "logistics": "tools/os_deposits/db25026ac42f5929.json",
+  "title": "Laura & Gary · Greece 2027",
+  "eyebrow": "Suites With Keith · Your honeymoon, Laura &amp; Gary",
+  "h1": "Paros to <em>Sifnos</em>",
+  "meta": "September 25 to October 4, 2027 · Two travelers · Nine nights",
+  "intro": "Four nights at Vione on Paros with your own plunge pool, a private boat across to Sifnos with swim stops on the way, then five nights at Verina Astra above Kastro. Both stays are booked, and a car is waiting on each island.",
+  "hero": {"src": "/images/islands/sifnos-hero.jpg", "alt": "Kastro village, Sifnos", "caption": "Kastro, Sifnos", "pos": "center 50%"},
+  "route_title": "Two islands, one private <em>boat</em> between them",
+  "route": [
+    {"dates": "Sat Sep 25 to Wed Sep 29", "where": "Paros", "stay": "Vione Paros", "tag": "Booked", "nights": 4},
+    {"dates": "Wed Sep 29 to Mon Oct 4", "where": "Sifnos", "stay": "Verina Astra", "tag": "Booked", "nights": 5}
+  ],
+  "route_note": "Both stays are booked through Fora. Drivers meet you at every airport and port.",
+  "days_intro": "Everything on the ground and on the water is arranged through Original Senses, my partner in Athens. Your own time is the rest of it.",
+  "days": [
+    {"date": "Sat Sep 25", "title": "Arrive Paros", "note": "A driver meets you at the airport and takes you to Vione. Your car is delivered to the hotel.", "tag": "Arranged"},
+    {"date": "Sep 25 to 29", "title": "Vione, four nights", "note": "A sea-view suite with its own plunge pool, Naoussa evenings and a car to explore the island.", "tag": "Booked"},
+    {"date": "Wed Sep 29", "title": "Paros to Sifnos by private boat", "note": "A full day on a private RIB via Antiparos, with swim stops and a Greek picnic. Your luggage comes with you and you step off on Sifnos. A second car is waiting at Verina Astra.", "tag": "Arranged"},
+    {"date": "Sep 29 to Oct 4", "title": "Verina Astra, five nights", "note": "The island the Greeks go to for food, quiet coves and village walks.", "tag": "Booked"},
+    {"date": "On Sifnos", "title": "Hands-on cooking in a Sifnian house", "note": "With a local cook, then the full meal with Greek wine.", "tag": "Arranged"},
+    {"date": "Mon Oct 4", "title": "Depart Sifnos", "note": "A driver from Verina Astra to Sifnos port.", "tag": "Arranged"}
+  ],
+  "stays": [
+    {
+      "num": "01", "where": "Paros", "dates": "Sep 25 to 29",
+      "img": {"src": "/images/hotels/vione-2.jpg", "alt": "Vione Paros pool and sea view", "caption": "Vione, on the low cliffs at Ambelas", "pos": "center 55%"},
+      "headline": "Vione, quiet design and your own <em>plunge pool</em>",
+      "paras": [
+        "Vione is the kind of hotel that quietly impresses you. Clean architecture, understated interiors and a calm, adults-focused feel, with every detail considered.",
+        "It sits just outside Naoussa, so dinner in the old port is ten minutes away, and with the car you have the beaches on the east coast and the hill villages of Lefkes and Marpissa."
+      ],
+      "card": {"label": "Your suite · 4 nights", "rows": [["Room", "Junior Suite, sea view, private plunge pool"], ["Guests", "2 adults"], ["Confirmation", "6517"]]},
+      "atv_email": "reservations@vioneparos.com"
+    },
+    {
+      "num": "02", "where": "Sifnos", "dates": "Sep 29 to Oct 4",
+      "img": {"src": "/images/hotels/verina-astra-1.jpg", "alt": "Verina Astra, Sifnos", "caption": "Verina Astra, on the cliff at Poulati above Kastro", "pos": "center 50%"},
+      "headline": "Verina Astra, a cliff over the <em>Aegean</em>",
+      "paras": [
+        "The most romantic stay on Sifnos: a handful of suites on the cliff at Poulati, with Kastro on foot and Bostani, the hotel's farm-to-table restaurant, for your dress-up dinner.",
+        "Sifnos is the island where Greece slows down. Days are about long lunches, pottery villages and swimming at quiet coves, and with the car you can reach all of them."
+      ],
+      "card": {"label": "Your suite · 5 nights", "rows": [["Room", "Orion Suite, 45 sqm"], ["Breakfast", "Included"], ["Guests", "2 adults"], ["Confirmation", "HZRYKSL4QZIW"], ["Rate", "Non-refundable"]]}
+    }
+  ],
+  "next_title": "Your stays are booked. Let's lock in the <em>logistics</em>",
+  "next": [
+    "Pay the logistics deposit. It confirms every transfer, both cars, the boat to Sifnos and the cooking class.",
+    "Flights in and out: into Paros on September 25 and onward from Sifnos on October 4. Send me what you book, or I can help with your Chase points.",
+    "Anything from the add-ons ? Tell me before you pay and I'll fold it into the deposit."
+  ]
+}

@@ -6,23 +6,61 @@
   "intro": "With Vione on Paros and Canaves Ena on Santorini, here is everything in between, arranged through Original Senses, my partner in Athens. A deposit locks it all in; the balance is due a month before you land.",
   "items": {
     "transfers": [
-      {"date": "Jun 9 to 16", "title": "All four island transfers", "note": "Paros airport to Vione, Vione to Paros port, Santorini port to Canaves Ena, and Canaves Ena to Santorini airport. Luxury vehicle with an English-speaking driver.", "price": 630}
+      {
+        "date": "Jun 9 to 16",
+        "title": "All four island transfers",
+        "note": "Paros airport to Vione, Vione to Paros port, Santorini port to Canaves Ena, and Canaves Ena to Santorini airport. Luxury vehicle with an English-speaking driver.",
+        "price": 630
+      }
     ],
     "ferries": [
-      {"date": "Jun 13", "title": "Paros to Santorini, Champions League Jet 2", "note": "1:25pm to 3:10pm, VIP seats for two.", "price": 240}
+      {
+        "date": "Jun 13",
+        "title": "Paros to Santorini, Champions League Jet 2",
+        "note": "1:25pm to 3:10pm, VIP seats for two.",
+        "price": 240
+      }
     ],
     "boats": [
-      {"date": "Paros", "title": "Private full day to Antiparos, Despotiko &amp; Panteronissia", "note": "Seven hours on a Fost 28 RIB with your own captain. Drinks, light snacks and fruit, snorkel masks and towels, hotel transfers both ways.", "price": 1995},
-      {"date": "Santorini", "title": "Private sunset caldera cruise", "note": "Five hours on a Lagoon 450 catamaran, BBQ cooked on board, wine, beer and soft drinks, snorkel gear, hotel transfers both ways.", "price": 1950}
+      {
+        "date": "Paros",
+        "title": "Private full day to Antiparos, Despotiko &amp; Panteronissia",
+        "note": "Seven hours on a Fost 28 RIB with your own captain. Drinks, light snacks and fruit, snorkel masks and towels, hotel transfers both ways.",
+        "price": 1995,
+        "photo": {
+          "src": "/images/boats/rib.jpg",
+          "alt": "A private RIB boat in the Cyclades",
+          "caption": "A private RIB"
+        }
+      },
+      {
+        "date": "Santorini",
+        "title": "Private sunset caldera cruise",
+        "note": "Five hours on a Lagoon 450 catamaran, BBQ cooked on board, wine, beer and soft drinks, snorkel gear, hotel transfers both ways.",
+        "price": 1950
+      }
     ],
     "other": [
-      {"title": "Domestic travel insurance, two guests", "price": 50}
+      {
+        "title": "Domestic travel insurance, two guests",
+        "price": 50
+      }
     ]
   },
   "optional_title": "Lighter options",
   "optional": [
-    {"date": "Paros", "title": "Half day instead, on a Nordkapp 27 cruiser", "note": "Same islands in four hours. Replaces the full day.", "price": 1675},
-    {"date": "Santorini", "title": "Semi-private sunset cruise instead", "note": "The same Lagoon 450 shared with a small group, shared transfers. Replaces the private cruise.", "price": 390}
+    {
+      "date": "Paros",
+      "title": "Half day instead, on a Nordkapp 27 cruiser",
+      "note": "Same islands in four hours. Replaces the full day.",
+      "price": 1675
+    },
+    {
+      "date": "Santorini",
+      "title": "Semi-private sunset cruise instead",
+      "note": "The same Lagoon 450 shared with a small group, shared transfers. Replaces the private cruise.",
+      "price": 390
+    }
   ],
   "optional_note": "Not in the total above. Either one swaps out the private version; tell me before you pay and I will adjust the deposit."
 }
