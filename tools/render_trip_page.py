@@ -117,6 +117,7 @@ details.fine li{margin:6px 0}
 /* next steps */
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:32px}
 .steps>div{border-top:1px solid rgba(242,239,230,.18);padding-top:20px;display:flex;flex-direction:column;gap:8px}
+.support>div{border-color:rgba(22,23,18,.15)}
 .steps .num{font-family:%(s)s;font-size:40px;line-height:1;color:#BE975A}
 .sig{border-top:1px solid rgba(242,239,230,.18);padding-top:24px;margin-top:24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
 .sig img{width:80px;height:80px;border-radius:50%%;object-fit:cover;border:2px solid rgba(255,255,255,.8)}
@@ -358,12 +359,29 @@ def next_steps(t, btn):
         '</div></section>')
 
 
+SUPPORT_DEFAULT = [
+    ("24/7 while you travel", "Original Senses, my partner in Athens, monitors every flight, ferry and transfer while you are in Greece and is on call around the clock. If a ferry is delayed or the weather turns, they rebook and move your drivers before you have to ask."),
+    ("Dining and beach clubs", "Once restaurants and beach clubs open their books for the 2027 season, we will help you book the tables and beds you want, from a long lunch by the water to the dress-up dinner."),
+    ("Me, the whole way", "I stay your point person before and during the trip, with the hotels and Original Senses on the other end of every request."),
+]
+
+
+def support(t):
+    items = t.get("support", SUPPORT_DEFAULT)
+    cols = "".join(f'<div><p class="ey" style="font-size:13px">{h}</p><p style="margin-top:10px">{b}</p></div>' for h, b in items)
+    return (
+        '<section class="band b-stone"><div class="w stack" style="gap:32px">'
+        '<div class="stack" style="gap:12px"><p class="ey">While you\'re in Greece</p>'
+        '<h2>Looked after, <em>start to finish</em></h2></div>'
+        f'<div class="steps support">{cols}</div></div></section>')
+
+
 def render(t):
     data = json.loads((ROOT / t["logistics"]).read_text())
     lg, total, dep, bal, due, btn = logistics(t, data)
     bgs = t.get("stay_bands", ["b-stone", "b-cream", "b-ink", "b-stone", "b-cream", "b-ink"])
     stays = "".join(stay(s, bgs[i % len(bgs)]) for i, s in enumerate(t["stays"]))
-    body = header(t) + route(t) + days(t) + stays + flights(t) + lg + next_steps(t, btn)
+    body = header(t) + route(t) + days(t) + stays + flights(t) + lg + support(t) + next_steps(t, btn)
     page = (
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
