@@ -93,8 +93,8 @@ figcaption{font-family:%(s)s;text-transform:uppercase;letter-spacing:.2em;font-s
 .lg-r .n{font-size:16px;color:#65665C;margin-top:4px}
 .lg-r .p{font-family:%(s)s;font-size:22px;text-align:right;white-space:nowrap}
 .lg-r .p.pend{font-size:13px;text-transform:uppercase;letter-spacing:.16em;color:#836229;padding-top:6px}
-.lg-r .ph{grid-column:2/4;margin-top:14px}
-.lg-r .ph img{width:100%%;height:360px;object-fit:cover}
+.lg-r .ph{grid-column:2/4;margin-top:14px;max-width:720px}
+.lg-r .ph img{width:100%%;height:auto}
 .lg-r .ph figcaption{margin-top:8px}
 .sum{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid rgba(22,23,18,.15);margin-top:28px}
 .sum>div{padding:24px 26px;display:flex;flex-direction:column;gap:6px}
@@ -136,7 +136,6 @@ details.fine li{margin:6px 0}
   .lg-r{grid-template-columns:1fr auto;gap:4px 16px}
   .lg-r .d{grid-column:1/-1}
   .lg-r .ph{grid-column:1/-1}
-  .lg-r .ph img{height:240px}
   .sum{grid-template-columns:1fr}
   .sum>div+div{border-left:0;border-top:1px solid rgba(22,23,18,.15)}
   .card{padding:24px}
@@ -216,6 +215,10 @@ def stay(s, bg):
         perks = (f'<p class="ey" style="font-size:13px">{c.get("perks_title", "Included through Suites With Keith")}</p>'
                  f'<p style="font-size:16px">{c["perks"]}</p>')
     fine = f'<p class="muted" style="font-size:15px">{c["fine"]}</p>' if c.get("fine") else ""
+    link = ""
+    if c.get("link"):
+        link = (f'<div><a class="btn" href="{esc(c["link"]["url"])}" target="_blank" rel="noopener">'
+                f'{c["link"]["label"]}</a></div>')
     atv = ""
     if s.get("atv", True) and s.get("island", True):
         if s.get("atv_email"):
@@ -232,7 +235,7 @@ def stay(s, bg):
         f'<p class="ey">{s["num"]} · {s["where"]} · {s["dates"]}</p>'
         f'<h2>{s["headline"]}</h2>{paras}</div>'
         f'<div class="card"><p class="lbl">{c["label"]}<span class="tag">{c.get("tag", "Booked")}</span></p>'
-        f'{kv(c["rows"])}{perks}{fine}{atv}</div>'
+        f'{kv(c["rows"])}{perks}{fine}{link}{atv}</div>'
         '</div></section>')
 
 
