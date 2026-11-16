@@ -56,7 +56,12 @@
       "date": "May 20",
       "title": "Private full day to Antiparos, Despotiko &amp; Panteronissia",
       "note": "Axopar 28 with your own captain, towels, snorkel gear, water toys, snacks and drinks, hotel transfers both ways.",
-      "price": 2660
+      "price": 2660,
+      "photo": {
+        "src": "/images/boats/axopar-28.jpg",
+        "alt": "An Axopar day boat anchored over clear turquoise water off a sandy beach",
+        "caption": "An Axopar day boat"
+      }
     },
     {
       "date": "May 20",
