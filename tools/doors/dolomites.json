@@ -1,0 +1,40 @@
+{
+ "replaces": [
+  "do"
+ ],
+ "deck": "The Dolomites are spread out, and the best days here take planning. These are the ones I set up for clients.",
+ "doors": [
+  {
+   "h": "A heli-hike",
+   "p": "A helicopter up to the high ground and a guided hike back down. If the budget allows, it’s the most memorable day you can have here."
+  },
+  {
+   "h": "A private hiking guide",
+   "p": "A full day on the quieter routes, with lunch at a mountain hut. They know the trails away from the crowds, and the good ones book up in summer, so I arrange them ahead."
+  },
+  {
+   "h": "Seceda, without the scramble",
+   "p": "The postcard ridgeline above Val Gardena. The lift runs on timed tickets that sell out, so I lock in your time before you arrive."
+  },
+  {
+   "h": "Novacella Abbey, privately",
+   "p": "A private visit of the 1142 abbey and its Rococo library, then wine from one of the oldest working cellars in the world, with raw-milk alpine cheeses. Ten minutes from Forestis."
+  },
+  {
+   "h": "The South Tyrol Wine Route",
+   "p": "Private visits and tastings at two family wine estates, with a car at your disposal all day and lunch somewhere the locals actually go."
+  },
+  {
+   "h": "Lago di Braies, then lunch on a summit",
+   "p": "The lake walk in the morning, then the gondola up Kronplatz for lunch at Norbert Niederkofler’s mountaintop restaurant and the Lumen photography museum. Car and guide all day."
+  },
+  {
+   "h": "Ortisei and a sculptor’s studio",
+   "p": "A slow morning in Ortisei, the funicular up to the Alpe di Rasciesa for an easy walk and lunch at the hut, then a visit to the atelier of a local woodcarver. Val Gardena has been carving for centuries."
+  },
+  {
+   "h": "The Sellaronda with a ski guide",
+   "p": "In winter, a full-day loop around the Sella massif through four valleys. A private guide knows the connections, and the best huts for lunch."
+  }
+ ]
+}
