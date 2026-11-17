@@ -1,0 +1,33 @@
+{
+ "deck": "The Lake Como most visitors never see. Tell me which of these sound like you and I’ll build the days around them.",
+ "doors": [
+  {
+   "h": "Villa del Balbianello, behind the scenes",
+   "p": "An exclusive tour of the lake’s most famous villa, beyond the rooms everyone else sees."
+  },
+  {
+   "h": "A private Riva day",
+   "p": "The lake from a classic wooden boat, with a captain and no schedule but yours. It’s the way Como was meant to be seen."
+  },
+  {
+   "h": "Lunch at Passalacqua",
+   "p": "A tour or lunch at my favorite hotel on the lake, even if you’re not staying there. It’s only 24 rooms, so getting in as a guest is the hard part."
+  },
+  {
+   "h": "Bellagio by boat, for an afternoon",
+   "p": "I wouldn’t stay in Bellagio, because it’s crowded. But by private boat for an afternoon, it’s lovely, and you leave before the day-trippers do."
+  },
+  {
+   "h": "A vintage Italian car",
+   "p": "A tour around the lake in a classic car, with stops in the villages the ferries skip."
+  },
+  {
+   "h": "A private arrival",
+   "p": "A car from Milan straight to your hotel. Trust me, Como’s roads are stressful, and this is the easiest way to start the trip."
+  },
+  {
+   "h": "Supercar transfers",
+   "p": "Moving on to the Dolomites or Tuscany? Make the drive the highlight, with a supercar instead of a sedan."
+  }
+ ]
+}

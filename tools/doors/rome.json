@@ -1,0 +1,33 @@
+{
+ "deck": "The Rome most visitors never see. Tell me which of these sound like you and I’ll build the days around them.",
+ "doors": [
+  {
+   "h": "The Sistine Chapel at dawn",
+   "p": "You walk in with the keymaster as he unlocks the Vatican, before it opens to anyone else. It’s the one room in Rome everyone wants to see, and you get to see it quiet."
+  },
+  {
+   "h": "Beneath the Colosseum",
+   "p": "The arena floor and the tunnels underneath, where the gladiators and animals waited, with a private guide. Most visitors only see it from the stands."
+  },
+  {
+   "h": "Bernini, up close",
+   "p": "The Borghese with a private art historian. Entry is timed and sells out, so I hold the slot, and you get the sculptures explained by someone who has spent a career on them."
+  },
+  {
+   "h": "Rome by Vespa",
+   "p": "A vintage sidecar, with a driver who knows the shortcuts. It covers more ground than a walking tour, and it’s the most fun you can have in Roman traffic."
+  },
+  {
+   "h": "A vintage Fiat 500",
+   "p": "If a sidecar isn’t your speed, the same idea in a classic Cinquecento, through the piazzas and up to the views most people never find."
+  },
+  {
+   "h": "The tables that fill up",
+   "p": "Romans sit down around 8:30, and the classic trattorias are booked well ahead. Tell me how you like to eat and I’ll hold the tables before you land."
+  },
+  {
+   "h": "Out of the city for a day",
+   "p": "A private driver to the countryside or the coast, with lunch somewhere I’d send a friend, and back in time for dinner."
+  }
+ ]
+}

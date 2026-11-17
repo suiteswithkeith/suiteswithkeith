@@ -1,0 +1,36 @@
+{
+ "replaces": [
+  "do"
+ ],
+ "deck": "The Dolomites are spread out, and the best days here take planning. These are the ones I set up for clients.",
+ "doors": [
+  {
+   "h": "A heli-hike",
+   "p": "A helicopter up to the high ground and a guided hike back down. If the budget allows, it’s the most memorable day you can have here."
+  },
+  {
+   "h": "A private hiking guide",
+   "p": "They know the quiet trails and when to go. I’d always choose one over going with the crowds, and the good ones book up in summer, so I arrange them ahead."
+  },
+  {
+   "h": "Seceda, without the scramble",
+   "p": "The postcard ridgeline above Val Gardena. The lift runs on timed tickets that sell out, so I lock in your time before you arrive."
+  },
+  {
+   "h": "The Alpe di Siusi",
+   "p": "Rolling meadows under the Sassolungo and the Sciliar, by gondola from Ortisei. A completely different landscape from Seceda, and easy walking for all levels."
+  },
+  {
+   "h": "The Sellaronda with a ski guide",
+   "p": "A full-day loop around the Sella massif, through four valleys. A private guide knows the connections, and the best huts for lunch."
+  },
+  {
+   "h": "Ski here, not Courchevel",
+   "p": "The hotels cost far less than the big-name Alps resorts, and it’s not a scene. December and March are the sweet spots, and I’ll find you the hotel offers worth booking."
+  },
+  {
+   "h": "A private driver between valleys",
+   "p": "Fly into Venice, split the trip between two hotels, and never think about the roads. I handle every transfer."
+  }
+ ]
+}

@@ -5,7 +5,8 @@ Content lives in tools/doors/<slug>.json:
     {
       "title": "Doors I can open in Rome",        # optional
       "deck": "One line under the heading.",       # optional
-      "doors": [ {"h": "Short name", "p": "Two or three sentences."}, ... ]
+      "doors": [ {"h": "Short name", "p": "Two or three sentences."}, ... ],
+      "replaces": ["do"]                            # optional: section ids to remove
     }
 
 The section goes right after the "Where I'd stay" (#hotels) section, wrapped in
@@ -36,8 +37,8 @@ NAMES = {
 }
 
 CSS = """<style>
-#doors .doors-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1px;margin-top:40px;background:var(--band-hairline);border:1px solid var(--band-hairline)}
-#doors .door{background:var(--shadow);padding:28px 24px 30px;display:flex;flex-direction:column;gap:12px}
+#doors .doors-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));margin-top:40px;border-top:1px solid var(--band-hairline);border-left:1px solid var(--band-hairline)}
+#doors .door{border-right:1px solid var(--band-hairline);border-bottom:1px solid var(--band-hairline);padding:28px 24px 30px;display:flex;flex-direction:column;gap:12px}
 #doors .door-n{font-family:var(--stamp);font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-lit)}
 #doors .door h3{margin:0;font-family:var(--display);font-weight:400;font-size:1.42rem;line-height:1.2;color:var(--band-ink)}
 #doors .door p{margin:0;font-size:.95rem;line-height:1.6;color:var(--band-ash);text-wrap:pretty}
@@ -95,6 +96,26 @@ def insert(page, block):
     return page[:i] + "\n" + block + "\n" + page[i:]
 
 
+def add_toc(page):
+    """Add an "On this page" link to #doors right after the #hotels link."""
+    if 'href="#doors"' in page:
+        return page
+    return re.sub(
+        r'(<a class="toc-link" href="#hotels">[^<]*</a>)',
+        r'\1 <a class="toc-link" href="#doors">Doors I can open</a>',
+        page, count=1)
+
+
+def drop_section(page, sid):
+    """Remove a section (and its toc link) that the doors replace."""
+    page = re.sub(r'\s*<a class="toc-link" href="#%s">[^<]*</a>' % sid, "", page)
+    m = re.search(r'<section[^>]*id="%s"' % sid, page)
+    if not m:
+        return page
+    end = page.index("</section>", m.start()) + len("</section>")
+    return page[:m.start()] + page[end:]
+
+
 def main():
     args = sys.argv[1:]
     if not args:
@@ -103,7 +124,9 @@ def main():
     out = Path(args[args.index("--out") + 1]) if "--out" in args else ROOT / f"{slug}.html"
     data = json.loads((ROOT / "tools" / "doors" / f"{slug}.json").read_text())
     page = (ROOT / f"{slug}.html").read_text()
-    out.write_text(insert(page, build(slug, data)))
+    for sid in data.get("replaces", []):
+        page = drop_section(page, sid)
+    out.write_text(add_toc(insert(page, build(slug, data))))
     print(f"wrote {out} ({len(data['doors'])} doors)")
 
 
