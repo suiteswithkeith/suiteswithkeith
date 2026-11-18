@@ -264,6 +264,26 @@
   "next": [
     "Pay the logistics deposit once I send the link. It confirms both helicopters, the boat to Sifnos and every transfer.",
     "Choose the May 18 crossing: the helicopter (my recommendation) is in the total, or the second boat day if you'd rather.",
+    "Tell me which extras you'd like, the Santorini boat day, the wine afternoon or the beach clubs, and I'll get them priced.",
     "Book your flights into Athens the morning of May 9 and home on May 21, then send me the times so the cars line up."
+  ],
+  "ideas_title": "A few things I'd <em>add</em>",
+  "ideas_intro": "Not in the logistics total above. Tell me which ones sound good and I'll have Original Senses price them.",
+  "ideas": [
+    {
+      "heading": "My pick",
+      "title": "One more boat day, on Santorini",
+      "note": "With the helicopter from Sifnos, one more day on the water is worth it. You'll already see the best of Paros and Antiparos on the boat to Sifnos, so I'd save it for the caldera. Either a full day of swimming at Red Beach, White Beach and the hot springs, finishing with the sunset off Oia, or a half day: a morning sail when the water is calmest, or an evening one timed to the sunset."
+    },
+    {
+      "heading": "Santorini",
+      "title": "Wine tasting and a long lunch",
+      "note": "An afternoon at a couple of the island's best wineries, tasting the volcanic Assyrtiko the island is known for, with a long lunch looking out over the caldera. A driver takes you there and back."
+    },
+    {
+      "heading": "Paros and Santorini",
+      "title": "Beach clubs and dinner tables",
+      "note": "Day beds at the beach clubs and the dinners worth dressing up for. Once the books open for the 2027 season, I'll reserve the ones you want so there's nothing to chase while you're there."
+    }
   ]
 }

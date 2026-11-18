@@ -385,12 +385,29 @@ def support(t):
         f'<div class="steps support">{cols}</div></div></section>')
 
 
+def ideas(t):
+    items = t.get("ideas")
+    if not items:
+        return ""
+    cards = "".join(
+        f'<div><p class="ey" style="font-size:13px">{i["heading"]}</p>'
+        f'<p style="font-family:{SERIF};font-size:26px;line-height:1.15;margin-top:10px">{i["title"]}</p>'
+        f'<p style="margin-top:10px">{i["note"]}</p></div>'
+        for i in items)
+    return (
+        '<section class="band b-cream"><div class="w stack" style="gap:32px">'
+        '<div class="stack" style="gap:12px;max-width:760px"><p class="ey">Worth adding</p>'
+        f'<h2>{t.get("ideas_title", "A few <em>ideas</em>")}</h2>'
+        f'{"<p>" + t["ideas_intro"] + "</p>" if t.get("ideas_intro") else ""}</div>'
+        f'<div class="steps support">{cards}</div></div></section>')
+
+
 def render(t):
     data = json.loads((ROOT / t["logistics"]).read_text())
     lg, total, dep, bal, due, btn = logistics(t, data)
     bgs = t.get("stay_bands", ["b-stone", "b-cream", "b-ink", "b-stone", "b-cream", "b-ink"])
     stays = "".join(stay(s, bgs[i % len(bgs)]) for i, s in enumerate(t["stays"]))
-    body = header(t) + route(t) + days(t) + stays + flights(t) + lg + support(t) + next_steps(t, btn)
+    body = header(t) + route(t) + days(t) + stays + flights(t) + lg + ideas(t) + support(t) + next_steps(t, btn)
     page = (
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
