@@ -43,6 +43,7 @@ CSS = """<style>
 #doors .door h3{margin:0;font-family:var(--display);font-weight:400;font-size:1.42rem;line-height:1.2;color:var(--band-ink)}
 #doors .door p{margin:0;font-size:.95rem;line-height:1.6;color:var(--band-ash);text-wrap:pretty}
 #doors .doors-cta{margin-top:36px;display:flex;flex-wrap:wrap;align-items:center;gap:18px}
+#doors + section{padding-top:clamp(64px,9vw,110px)!important}
 #doors .doors-cta p{margin:0;max-width:52ch;color:var(--band-ash)}
 </style>"""
 
