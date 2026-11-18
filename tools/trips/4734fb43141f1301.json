@@ -5,7 +5,7 @@
   "eyebrow": "Suites With Keith · Your itinerary, Linda &amp; Addison",
   "h1": "Paros to <em>Santorini</em>",
   "meta": "May 19 to 27, 2027 · Two travelers · Eight nights",
-  "intro": "Four nights at Vione on Paros, then four at Andronis Arcadia in Oia with a private sunset cruise. Your flights and both stays are booked; the Paros flight, the ferry and island transfers are arranged through my partner in Athens.",
+  "intro": "Four nights at Vione on Paros, then four at Andronis Arcadia in Oia with a private sunset cruise. Your flights and both stays are booked; the ferries and island transfers are arranged through my partner in Athens.",
   "hero": {
     "src": "/images/islands/santorini-hero.jpg",
     "alt": "Santorini",
@@ -30,7 +30,7 @@
     }
   ],
   "route_note": "Both stays are booked and prepaid through Fora. Rates include VAT, taxes and breakfast.",
-  "days_intro": "Flights and hotels are booked. The Paros flight, the ferry, transfers and the sunset cruise are arranged through Original Senses, my partner in Athens.",
+  "days_intro": "Flights and hotels are booked. The ferries, transfers and the sunset cruise are arranged through Original Senses, my partner in Athens.",
   "days": [
     {
       "date": "Tue May 18",
@@ -40,9 +40,10 @@
     },
     {
       "date": "Wed May 19",
-      "title": "Athens, then fly to Paros",
-      "note": "Your driver meets you at arrivals for a stop at Zara, then back to the airport for the 4:55PM Olympic flight to Paros (lands 5:40PM). A driver meets you at Paros airport and takes you to Vione.",
-      "tag": "Arranged"
+      "title": "Athens, then the ferry to Paros",
+      "note": "Your driver meets you at arrivals for a stop at Zara, then on to the port for a later ferry. A driver meets you at Paros port and takes you to Vione.",
+      "tag": "Ferry to be booked",
+      "soft": true
     },
     {
       "date": "May 19 to 23",
@@ -207,8 +208,8 @@
   },
   "next_title": "Your stays and flights are booked. Let's lock in the <em>logistics</em>",
   "next": [
-    "Pay the logistics deposit. It confirms the Paros flight, the Santorini ferry, every island transfer and the sunset cruise. Original Senses will ask you to sign their agreement on the payment page first.",
-    "Athens to Paros is now a 4:55PM flight, since there's no afternoon ferry that day. It's in the total and paid with the balance. If you'd rather have my driver than yours for the day, it's priced in the add-ons.",
+    "Pay the logistics deposit. It confirms the Paros to Santorini ferry, every island transfer and the sunset cruise.",
+    "Athens to Paros: the afternoon ferries for May 2027 aren't published yet, so I'll book a later one as soon as they are, leaving time for your Zara stop with your own driver. It gets added to your total and paid with the balance. Happy to price a private driver for that day too if you'd like.",
     "Anything from the add-ons ? Tell me and I'll fold it in."
   ]
 }
