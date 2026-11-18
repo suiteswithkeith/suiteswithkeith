@@ -86,9 +86,15 @@ import Divider from '../components/Divider.astro';
       <h2 class="display-l">You can book the room.<br>You can&rsquo;t make them know you.</h2>
     </div>
     <div class="reveal adv-grid">
-      <p class="story-quote">&ldquo;With less than 24 hours&rsquo; notice we needed a hotel in Saint-Tropez in peak season. Keith stepped in with the perfect recommendation and personally contacted the hotel before our arrival. <b>When we pulled up, the staff greeted us by name</b>, welcomed us with cold towels, and surprised us with a complimentary upgrade.&rdquo;</p>
       <div>
+        <p class="story-quote">&ldquo;With less than 24 hours&rsquo; notice we needed a hotel in Saint-Tropez in peak season. Keith stepped in with the perfect recommendation and personally contacted the hotel before our arrival. <b>When we pulled up, the staff greeted us by name</b>, welcomed us with cold towels, and surprised us with a complimentary upgrade.&rdquo;</p>
         <p class="attr">Tyler &amp; Spencer C. &middot; COMO Le Beauvallon &middot; Saint-Tropez</p>
+      </div>
+      <div>
+        <figure class="adv-keith">
+          <img src="/images/personal/keith-portrait-garden.jpg" alt="Keith Pence, luxury travel advisor with Fora" width="1080" height="1350" loading="lazy" decoding="async">
+          <figcaption class="attr">Keith Pence &middot; Fora</figcaption>
+        </figure>
         <p class="body-2" style="margin-top:20px; max-width:52ch;">The rate through me is the one you&rsquo;d pay booking direct, and sometimes it&rsquo;s better. What changes is who calls the hotel before you arrive, and who answers while you&rsquo;re there.</p>
       </div>
     </div>
@@ -276,6 +282,10 @@ import Divider from '../components/Divider.astro';
     .collection-grid figure { justify-self: center; }
     .adv-grid { grid-template-columns: 1.15fr 1fr; align-items: end; column-gap: 64px; }
   }
+  .adv-keith { margin: 0; }
+  .adv-keith img { display: block; width: 100%; max-width: 240px; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 2px; }
+  .adv-keith figcaption { margin-top: 14px; }
+  @media (min-width: 900px) { .adv-keith img { max-width: 300px; } }
 /* The destinations: an editorial numbered list */
 .dest-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--hairline-firm); }
 .dest-list li { border-bottom: 1px solid var(--hairline); }
