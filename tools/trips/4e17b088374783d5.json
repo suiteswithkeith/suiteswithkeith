@@ -22,7 +22,7 @@
     {"date": "June 26 to 29", "title": "Cali, three nights", "note": "Its own beach below the suites, on the quiet east coast.", "tag": "Booked"},
     {"date": "Tue June 29", "title": "Mykonos to Paros on a private yacht", "note": "A Sunseeker Manhattan 60 with captain and host, swim stops on the way and your luggage on board. Cali takes you to the port.", "tag": "Arranged"},
     {"date": "June 29 to July 3", "title": "Parilio, four nights", "note": "Just outside Naoussa, with Cosme's beach club yours at no charge.", "tag": "Booked"},
-    {"date": "Sat July 3", "title": "Paros to Santorini on a large car ferry", "note": "One of the big conventional ferries that carry cars, so the crossing is far steadier. Longer, around three and a half to four hours. Being re-booked now.", "tag": "Being re-booked", "soft": true},
+    {"date": "Sat July 3", "title": "Paros to Santorini on the Blue Star Delos", "note": "One of the big conventional ferries that carry cars, so the crossing is far steadier. Leaves Paros at 11:45AM and arrives Santorini at 2:50PM, business seats for four.", "tag": "Arranged"},
     {"date": "July 3 to 6", "title": "Andronis Arcadia, three nights", "note": "A private pool, the ARCADemy kids club and the caldera.", "tag": "Booked"},
     {"date": "Tue July 6", "title": "Fly Santorini to Athens", "note": "Aegean, booked on the 6:00AM departure. The time can move to a later flight so the girls are not up before dawn; tell me what suits. A driver meets you in Athens.", "tag": "Arranged"},
     {"date": "July 6 to 9", "title": "One&amp;Only Aesthesis, three nights", "note": "Bungalows running down to the water on the Riviera.", "tag": "Booked"},
@@ -82,7 +82,7 @@
   "stay_bands": ["b-stone", "b-cream", "b-ink", "b-stone"],
   "next_title": "Your hotels are booked. Let's lock in the <em>logistics</em>",
   "next": [
-    "I'm updating the deposit with Original Senses: the Mykonos transfers come off, and Paros to Santorini moves to a large car ferry.",
+    "Pay the deposit to lock in the yacht, ferry, flight and transfers. Original Senses will ask you to sign their agreement on the payment page first.",
     "Pick your yacht for Mykonos to Paros. The Sunseeker is in the price; the Azimut and Aicon are there if you'd rather.",
     "Tell me if you'd like a later Santorini to Athens flight, and send me your flights into Mykonos and home from Athens."
   ]
