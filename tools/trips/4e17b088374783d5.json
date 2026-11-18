@@ -16,15 +16,15 @@
     {"dates": "Tue July 6 to Fri July 9", "where": "Athens Riviera", "stay": "One&amp;Only Aesthesis", "tag": "Booked", "nights": 3}
   ],
   "route_note": "All four hotels are booked. Drivers meet you at every port and airport, and Cali looks after your Mykonos transfers.",
-  "days_intro": "The yacht, the ferry, the Athens flight and the transfers are arranged through Original Senses, my partner in Athens.",
+  "days_intro": "The yacht, the ferry and the transfers are arranged through Original Senses, my partner in Athens.",
   "days": [
     {"date": "Sat June 26", "title": "Land on Mykonos", "note": "Fly in through Athens. Cali's team meets you at the airport and takes you to the hotel.", "tag": "Included with Cali"},
     {"date": "June 26 to 29", "title": "Cali, three nights", "note": "Its own beach below the suites, on the quiet east coast.", "tag": "Booked"},
-    {"date": "Tue June 29", "title": "Mykonos to Paros on a private yacht", "note": "A Sunseeker Manhattan 60 with captain and host, swim stops on the way and your luggage on board. Cali takes you to the port.", "tag": "Arranged"},
+    {"date": "Tue June 29", "title": "Mykonos to Paros on a private yacht", "note": "An Azimut 55 with captain and host, swim stops on the way and your luggage on board. Cali takes you to the port.", "tag": "Arranged"},
     {"date": "June 29 to July 3", "title": "Parilio, four nights", "note": "Just outside Naoussa, with Cosme's beach club yours at no charge.", "tag": "Booked"},
     {"date": "Sat July 3", "title": "Paros to Santorini on the Blue Star Delos", "note": "One of the big conventional ferries that carry cars, so the crossing is far steadier. Leaves Paros at 11:45AM and arrives Santorini at 2:50PM, business seats for four.", "tag": "Arranged"},
     {"date": "July 3 to 6", "title": "Andronis Arcadia, three nights", "note": "A private pool, the ARCADemy kids club and the caldera.", "tag": "Booked"},
-    {"date": "Tue July 6", "title": "Fly Santorini to Athens", "note": "Aegean, booked on the 6:00AM departure. The time can move to a later flight so the girls are not up before dawn; tell me what suits. A driver meets you in Athens.", "tag": "Arranged"},
+    {"date": "Tue July 6", "title": "Fly Santorini to Athens", "note": "A midday flight you are booking yourselves. Send me the details and a driver will meet you in Athens for the Riviera.", "tag": "Your booking", "soft": true},
     {"date": "July 6 to 9", "title": "One&amp;Only Aesthesis, three nights", "note": "Bungalows running down to the water on the Riviera.", "tag": "Booked"},
     {"date": "Fri July 9", "title": "Fly home", "note": "A driver to Athens airport.", "tag": "Arranged"}
   ],
@@ -82,8 +82,8 @@
   "stay_bands": ["b-stone", "b-cream", "b-ink", "b-stone"],
   "next_title": "Your hotels are booked. Let's lock in the <em>logistics</em>",
   "next": [
-    "Pay the deposit to lock in the yacht, ferry, flight and transfers. Original Senses will ask you to sign their agreement on the payment page first.",
-    "Pick your yacht for Mykonos to Paros. The Sunseeker is in the price; the Azimut and Aicon are there if you'd rather.",
-    "Tell me if you'd like a later Santorini to Athens flight, and send me your flights into Mykonos and home from Athens."
+    "Pay the deposit once I send the updated link. It locks in the yacht, the ferry and every transfer; Original Senses will ask you to sign their agreement on the payment page first.",
+    "The Azimut 55 is now in the price for Mykonos to Paros; the Sunseeker and Aicon are there if you change your mind.",
+    "Send me your Santorini to Athens flight once it is booked, plus your flights into Mykonos and home from Athens."
   ]
 }

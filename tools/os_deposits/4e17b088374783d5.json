@@ -1,7 +1,7 @@
 {
   "page": "proposals/4e17b088374783d5.html",
   "arrival": "2027-06-26",
-  "total": 10190,
+  "total": 7880,
   "total_note": "Everything priced so far, for the four of you",
   "intro": "All four hotels are booked. Here is everything in between for the four of you, arranged through Original Senses, my partner in Athens. A deposit locks it in; the balance is due a month before you land.",
   "group_titles": {
@@ -21,12 +21,12 @@
       {
         "date": "Jun 29",
         "title": "Mykonos to Paros on a private yacht, with swim stops",
-        "note": "A 64 ft Sunseeker Manhattan 60 with captain and host. Generous outdoor space: a flybridge for the views, sunbeds on the foredeck and a hydraulic swim platform at the stern that makes the swim stops easy for the girls. Seabob, snorkel and fishing gear, cheeses, cold cuts and fresh fruit, soft drinks, beer and wine, towels and wifi, fuel included. Your luggage comes with you.",
-        "price": 8250,
+        "note": "A 59 ft Azimut 55 flybridge with captain and host. A covered aft deck with a dining table for shade, one of the largest flybridges in its class, sunbeds on the foredeck, and an air-conditioned salon and three cabins below for a rest out of the sun. Snorkel and fishing gear, cheeses, cold cuts and fresh fruit, soft drinks, beer and wine, towels and wifi, fuel included. Your luggage comes with you.",
+        "price": 6500,
         "photo": {
-          "src": "/images/boats/sunseeker-manhattan-60.jpg",
-          "alt": "A white Sunseeker Manhattan flybridge yacht at anchor over turquoise water",
-          "caption": "Your yacht for the day, the Sunseeker Manhattan"
+          "src": "/images/boats/azimut-55.jpg",
+          "alt": "A white Azimut 55 flybridge yacht under way over turquoise water",
+          "caption": "Your yacht for the day, the Azimut 55"
         }
       }
     ],
@@ -37,14 +37,6 @@
         "note": "Moved off the high-speed catamaran onto the Blue Star Delos, one of the big conventional ferries that carry cars, so the crossing is much steadier. Departs Paros 11:45am, arrives Santorini 2:50pm, business seats for four. A driver meets you at the port for Andronis Arcadia.",
         "price": 240,
         "flag": "Steadier crossing"
-      }
-    ],
-    "flights": [
-      {
-        "date": "Jul 6",
-        "title": "Santorini to Athens, Aegean A3351",
-        "note": "Booked on the 6:00am departure (lands 6:45am), Comfort Flex fares for four. The time can be moved to a later flight so the girls are not up before dawn; tell me what suits. A driver meets you in Athens for the Riviera.",
-        "price": 560
       }
     ],
     "other": [
@@ -58,19 +50,19 @@
   "optional": [
     {
       "date": "Jun 29",
-      "title": "Azimut 55 flybridge",
-      "note": "A 59 ft Azimut 55 with one of the largest flybridges in its class, a spacious dining area and sunbeds at the front. Same crew and inclusions, a comfortable day at sea for less. Replaces the Sunseeker.",
-      "price": 6500,
+      "title": "Sunseeker Manhattan 60 flybridge",
+      "note": "A 64 ft Sunseeker with a flybridge, foredeck sunbeds and a hydraulic swim platform at the stern, plus a Seabob. Replaces the Azimut.",
+      "price": 8250,
       "photo": {
-        "src": "/images/boats/azimut-55.jpg",
-        "alt": "A white Azimut 55 flybridge yacht under way over turquoise water",
-        "caption": "The Azimut 55"
+        "src": "/images/boats/sunseeker-manhattan-60.jpg",
+        "alt": "A white Sunseeker Manhattan flybridge yacht at anchor over turquoise water",
+        "caption": "The Sunseeker Manhattan 60"
       }
     },
     {
       "date": "Jun 29",
       "title": "Aicon 72 hardtop",
-      "note": "The largest of the three at 76 ft, with a big foredeck sunbathing area, a separate aft dining space, a wide swim platform, a Williams tender and a Seabob. It also has a Seakeeper gyrostabilizer, which noticeably cuts the rolling at sea, so it is the steadiest ride of the three. Replaces the Sunseeker.",
+      "note": "The largest of the three at 76 ft, with a big foredeck sunbathing area, a separate aft dining space, a wide swim platform, a Williams tender and a Seabob. It also has a Seakeeper gyrostabilizer, which noticeably cuts the rolling at sea, so it is the steadiest ride of the three. Replaces the Azimut.",
       "price": 10420,
       "photo": {
         "src": "/images/boats/aicon-72.jpg",
@@ -79,19 +71,16 @@
       }
     }
   ],
-  "optional_note": "Not in the total above. If you pick the Azimut or the Aicon instead of the Sunseeker, your total gets adjusted and the deposit goes towards the new balance.",
-  "fine_after_ferry": [
-    "The Santorini to Athens flight can change date for the fare difference; cancelling it carries airline fees."
-  ],
+  "optional_note": "Not in the total above. If you pick the Sunseeker or the Aicon instead of the Azimut, your total gets adjusted and the deposit goes towards the new balance.",
+  "fine_after_ferry": [],
   "fine_boat": "The yacht: 30% of the charter confirms it. Cancelling 45 to 30 days before the day costs 50% of the charter, and inside 30 days 100%. If the captain or port authority cancels for weather or a technical problem, it is refunded. Fuel can move with the market; you hear about any change in advance.",
   "group_order": [
     "transfers",
     "boats",
     "ferries",
-    "flights",
     "other"
   ],
-  "pay_url": "https://app.flywire.com/rest/payment-request/pay/public/d9c32abe-de01-41a2-b340-ccf89cdda462",
-  "deposit": 3525,
-  "how": "The deposit is set by Original Senses under their terms: 30% of the yacht charter, 25% of the transfers, and the ferry and flight fares in full. The balance is due 30 days before you arrive. Yachts go fast in late June, so it is worth locking this in early."
+  "deposit": 2440,
+  "how": "The deposit is set by Original Senses under their terms: 30% of the yacht charter, 25% of the transfers and the ferry fare in full. The balance is due 30 days before you arrive. Yachts go fast in late June, so it is worth locking this in early.",
+  "pending_note": "Updated for the Azimut, with the Santorini to Athens flight off since you are booking it yourselves. Original Senses is reissuing the payment link to match; I will send it over as soon as it comes through."
 }
