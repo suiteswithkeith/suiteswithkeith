@@ -21,7 +21,7 @@
     {"date": "Fri May 14", "title": "Paros to Sifnos by private boat", "note": "A full day on an Axopar 37 with your own captain, swim stops on the way and your luggage on board. A driver meets you on Sifnos.", "tag": "Arranged"},
     {"date": "May 14 to 18", "title": "Nos, four nights", "note": "Above the fishing village of Faros.", "tag": "Booked"},
     {"date": "Sat May 15", "title": "Hands-on cooking in a Sifnian house", "note": "With a local cook, then the full meal with Greek wine.", "tag": "Arranged"},
-    {"date": "Tue May 18", "title": "Ferry to Santorini, SuperJet 2", "note": "Booked on the 7:30AM sailing in business seats. I have asked for a later departure so the morning is not a rush.", "tag": "Later sailing requested", "soft": true},
+    {"date": "Tue May 18", "title": "Ferry to Santorini, SuperJet 2", "note": "The 7:30AM sailing in business seats, the only one that day. A private helicopter is the alternative if you'd rather skip the early start.", "tag": "Arranged"},
     {"date": "May 18 to 22", "title": "Canaves Oia Suites, four nights", "note": "A honeymoon suite with its own plunge pool over the caldera.", "tag": "Booked"},
     {"date": "Wed May 19", "title": "Private sunset caldera cruise", "note": "A Lagoon 450 catamaran with BBQ cooked on board.", "tag": "Arranged"},
     {"date": "Sat May 22", "title": "Fly home", "note": "A driver to Santorini airport. I'll tell you which connection to book.", "tag": "Arranged"}
@@ -69,6 +69,6 @@
   "next": [
     "Pay the logistics deposit. It confirms the boat to Sifnos, the Santorini ferry, every transfer, the cooking class and the sunset cruise.",
     "Send me your flights into Paros on May 10 and home from Santorini on May 22, so every driver is timed to them.",
-    "I'll confirm the later Sifnos to Santorini sailing as soon as Original Senses comes back."
+    "The 7:30AM ferry is the only Sifnos to Santorini sailing that day. Tell me if you'd like a private helicopter priced instead."
   ]
 }

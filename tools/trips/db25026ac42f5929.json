@@ -85,9 +85,8 @@
     {
       "date": "Mon Oct 4",
       "title": "Ferry to Santorini",
-      "note": "A driver to Sifnos port, the ferry south, and a driver up to Kapari. Being priced now.",
-      "tag": "Being priced",
-      "soft": true
+      "note": "A driver to Sifnos port, the SuperJet 2 south at 8:50AM (into Santorini at 2:30PM, business seats), and a driver up to Kapari.",
+      "tag": "Arranged"
     },
     {
       "date": "Oct 4 to 8",
@@ -99,8 +98,7 @@
       "date": "Fri Oct 8",
       "title": "Fly home",
       "note": "A driver from Kapari to Santorini airport.",
-      "tag": "Being priced",
-      "soft": true
+      "tag": "Arranged"
     }
   ],
   "stays": [
@@ -246,8 +244,7 @@
   ],
   "next_title": "Your stays are booked. Let's lock in the <em>logistics</em>",
   "next": [
-    "Pay the logistics deposit once I send the updated link. It confirms every transfer, both cars, the boat to Sifnos and the cooking class.",
-    "Sifnos to Santorini on October 4, plus the drivers on Santorini, are being priced now. I'll add them before you pay.",
+    "Pay the logistics deposit. It confirms every transfer, both cars, the boat to Sifnos, the Santorini ferry and the cooking class. Original Senses will ask you to sign their agreement on the payment page first.",
     "Flights: Athens to Paros on September 25, and home from Santorini on October 8. Send me what you book, or I can help with your Chase points."
   ],
   "stay_bands": [

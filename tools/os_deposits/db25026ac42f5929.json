@@ -1,22 +1,15 @@
 {
   "page": "proposals/db25026ac42f5929.html",
   "arrival": "2027-09-25",
-  "total": 4680,
-  "intro": "Your transfers, both cars, the boat to Sifnos and the cooking class, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before your first transfer on Paros.",
+  "total": 5238,
+  "intro": "Your transfers on all three islands, both cars, the boat to Sifnos, the ferry to Santorini and the cooking class, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before your first transfer on Paros.",
   "items": {
     "transfers": [
       {
-        "date": "Sep 25 to Oct 4",
-        "title": "All four island transfers",
-        "note": "Paros airport to Vione, Vione to Paros port, Sifnos port to Verina Astra, and Verina Astra to Sifnos port. Luxury vehicle with an English-speaking driver.",
-        "price": 485
-      },
-      {
-        "date": "Oct 4 to 8",
-        "title": "Santorini transfers",
-        "note": "Santorini port to Kapari, and Kapari to Santorini airport on October 8.",
-        "price": null,
-        "price_note": "Being priced"
+        "date": "Sep 25 to Oct 8",
+        "title": "All six island transfers",
+        "note": "Paros airport to Vione, Vione to Paros port, Sifnos port to Verina Astra, Verina Astra to Sifnos port, Santorini port to Kapari, and Kapari to Santorini airport on October 8. Luxury vehicle with an English-speaking driver.",
+        "price": 765
       }
     ],
     "boats": [
@@ -63,10 +56,9 @@
     "ferries": [
       {
         "date": "Oct 4",
-        "title": "Sifnos to Santorini ferry",
-        "note": "Morning sailing south, seats for two.",
-        "price": null,
-        "price_note": "Being priced"
+        "title": "Sifnos to Santorini, SuperJet 2",
+        "note": "Leaves Sifnos at 8:50am and arrives Santorini at 2:30pm, business seats for two. A driver meets you at the port for Kapari.",
+        "price": 278
       }
     ]
   },
@@ -89,5 +81,7 @@
       "price": 1385
     }
   ],
-  "pending_note": "The Sifnos to Santorini ferry and the Santorini drivers are being priced by Original Senses now, along with the deposit link for the RIB crossing. I will add them before you pay."
+  "pay_url": "https://app.flywire.com/rest/payment-request/pay/public/84d9d651-07ac-4980-8040-592f5b55158e",
+  "deposit": 1599,
+  "how": "The deposit is set by Original Senses under their terms: 25% of the transfers, cars and cooking class, 30% of the boat day and the ferry fare in full. The balance is due 30 days before you arrive. Boats and ferries go fast, so it is worth locking them in early."
 }

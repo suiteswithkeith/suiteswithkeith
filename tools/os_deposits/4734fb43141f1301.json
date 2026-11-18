@@ -1,26 +1,19 @@
 {
   "page": "proposals/4734fb43141f1301.html",
   "arrival": "2027-05-19",
-  "total": 3109,
-  "total_note": "Everything priced so far, for two",
-  "intro": "Your ferries, island transfers and the sunset cruise, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.",
+  "total": 3485,
+  "total_note": "Everything for the two of you",
+  "intro": "Your flight to Paros, the Santorini ferry, island transfers and the sunset cruise, arranged through Original Senses, my partner in Athens. A deposit locks them in; the balance is due a month before you land.",
   "items": {
     "transfers": [
       {
         "date": "May 19 to 27",
         "title": "All four island transfers",
-        "note": "Paros port to Vione, Vione to Paros port, Santorini port to Andronis Arcadia, and Andronis Arcadia to Santorini airport. Luxury vehicle with an English-speaking driver.",
+        "note": "Paros airport to Vione, Vione to Paros port, Santorini port to Andronis Arcadia, and Andronis Arcadia to Santorini airport. Luxury vehicle with an English-speaking driver.",
         "price": 635
       }
     ],
     "ferries": [
-      {
-        "date": "May 19",
-        "title": "Athens to Paros, later afternoon ferry",
-        "note": "A later sailing so there is time for your stop in Athens first. Met at Paros port and driven to Vione.",
-        "price": null,
-        "price_note": "Being priced"
-      },
       {
         "date": "May 23",
         "title": "Paros to Santorini, Champions League Jet 1",
@@ -41,10 +34,24 @@
         "title": "Domestic travel insurance, two guests",
         "price": 50
       }
+    ],
+    "flights": [
+      {
+        "date": "May 19",
+        "title": "Athens to Paros, Olympic OA078",
+        "note": "4:55pm to 5:40pm, Comfort Flex fares for two. There is no afternoon ferry from Athens that day, and the flight is far easier than the port: your driver takes you from the Zara stop to the airport, and a driver meets you at Paros airport for Vione.",
+        "price": 376
+      }
     ]
   },
-  "pending_note": "The Athens to Paros ferry is being priced by Original Senses now. Once it is confirmed it is added to your trip total and paid with the balance, so the deposit stays as it is. Your own driver is covering the Athens airport pickup and the Zara stop, so that transfer is not included here; if you would rather I arrange one, I am happy to price it.",
+  "pending_note": "The Athens to Paros flight was added after your deposit link went out, so it is paid with the balance and the deposit stays as it is. Your own driver covers the Athens airport pickup, the Zara stop and the run back to the airport, so no Athens transfer is included here.",
   "optional": [
+    {
+      "date": "May 19",
+      "title": "A private driver in Athens for the day",
+      "note": "A luxury car with an English-speaking driver at your disposal for 8 hours, ending at Athens airport for the Paros flight. Instead of your own driver, if you'd rather. A licensed guide to take you around the city adds €700.",
+      "price": 980
+    },
     {
       "date": "May 20",
       "title": "Private full day to Antiparos, Despotiko &amp; Panteronissia",
@@ -70,5 +77,13 @@
   ],
   "pay_url": "https://app.flywire.com/#/payment-request/5a36d91c-cab1-47f8-97c6-da341f90b408/init",
   "deposit": 934,
-  "how": "The deposit is set by Original Senses under their terms: 25% of transfers and experiences, the full ferry fare and 30% of private boat charters. The balance is due 30 days before you arrive. Boats and ferries go fast in high season, so it is worth locking them in early."
+  "how": "The deposit is set by Original Senses under their terms: 25% of transfers and experiences, the full ferry fare and 30% of private boat charters. The balance is due 30 days before you arrive. Boats and ferries go fast in high season, so it is worth locking them in early.",
+  "group_order": [
+    "transfers",
+    "flights",
+    "ferries",
+    "boats",
+    "other"
+  ],
+  "optional_note": "Not in the total above. Tell me if you'd like any of these and I'll add them; the deposit stays the same and they go into the balance."
 }
