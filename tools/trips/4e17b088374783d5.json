@@ -1,0 +1,89 @@
+{
+  "page": "proposals/4e17b088374783d5.html",
+  "logistics": "tools/os_deposits/4e17b088374783d5.json",
+  "title": "Seshadri Family · Greece 2027",
+  "eyebrow": "Suites With Keith · Your itinerary, the Seshadri family",
+  "h1": "Mykonos to the <em>Riviera</em>",
+  "meta": "June 26 to July 9, 2027 · Two adults, two girls · Thirteen nights",
+  "intro": "Three nights at Cali on Mykonos, a private boat to Paros for four nights at Parilio, then Andronis Arcadia on Santorini and three last nights at One&amp;Only Aesthesis on the Athens Riviera. All four hotels are booked.",
+  "hero": {"src": "/images/islands/mykonos-hero.jpg", "alt": "A protected bay on Mykonos", "caption": "Mykonos, where the trip begins", "pos": "center 50%"},
+  "seal": "All four hotels booked",
+  "route_title": "Four stays, each with room for the <em>girls</em>",
+  "route": [
+    {"dates": "Sat June 26 to Tue June 29", "where": "Mykonos", "stay": "Cali Mykonos", "tag": "Booked", "nights": 3},
+    {"dates": "Tue June 29 to Sat July 3", "where": "Paros", "stay": "Parilio", "tag": "Booked", "nights": 4},
+    {"dates": "Sat July 3 to Tue July 6", "where": "Santorini", "stay": "Andronis Arcadia", "tag": "Booked", "nights": 3},
+    {"dates": "Tue July 6 to Fri July 9", "where": "Athens Riviera", "stay": "One&amp;Only Aesthesis", "tag": "Booked", "nights": 3}
+  ],
+  "route_note": "All four hotels are booked. Drivers meet you at every port and airport, and Cali looks after your Mykonos transfers.",
+  "days_intro": "The boat, the ferry and the transfers are arranged through Original Senses, my partner in Athens.",
+  "days": [
+    {"date": "Sat June 26", "title": "Land on Mykonos", "note": "Fly in through Athens. Cali's team meets you at the airport and takes you to the hotel.", "tag": "Included with Cali"},
+    {"date": "June 26 to 29", "title": "Cali, three nights", "note": "Its own beach below the suites, on the quiet east coast.", "tag": "Booked"},
+    {"date": "Tue June 29", "title": "Mykonos to Paros by private boat", "note": "A half-day private boat with a swim stop on the way and your luggage on board. Cali takes you to the port.", "tag": "Being priced", "soft": true},
+    {"date": "June 29 to July 3", "title": "Parilio, four nights", "note": "Just outside Naoussa, with Cosme's beach club yours at no charge.", "tag": "Booked"},
+    {"date": "Sat July 3", "title": "Paros to Santorini on the Blue Star Delos", "note": "One of the big conventional ferries that carry cars, so the crossing is far steadier. Leaves Paros at 11:45AM and arrives Santorini at 2:50PM, business seats for four.", "tag": "Arranged"},
+    {"date": "July 3 to 6", "title": "Andronis Arcadia, three nights", "note": "A private pool, the ARCADemy kids club and the caldera.", "tag": "Booked"},
+    {"date": "Tue July 6", "title": "Fly Santorini to Athens", "note": "A midday flight you are booking yourselves. Send me the details and a driver will meet you in Athens for the Riviera.", "tag": "Your booking", "soft": true},
+    {"date": "July 6 to 9", "title": "One&amp;Only Aesthesis, three nights", "note": "Bungalows running down to the water on the Riviera.", "tag": "Booked"},
+    {"date": "Fri July 9", "title": "Fly home", "note": "A driver to Athens airport.", "tag": "Arranged"}
+  ],
+  "stays": [
+    {
+      "num": "01", "where": "Mykonos", "dates": "June 26 to 29",
+      "img": {"src": "/images/hotels/cali-mykonos-1.jpg", "alt": "Cali Mykonos", "caption": "Cali, on the quiet east coast at Kalafatis", "pos": "center 55%"},
+      "headline": "Cali, a beach of its own on the <em>quiet side</em>",
+      "paras": [
+        "Cali is one of Greece's great independent hotels, on Mykonos's quieter east coast at Kalafatis. Service is refined, the infinity pool is one of the largest in Greece with real space between loungers, and the beach sits directly below the suites, so the girls can run between room and sand.",
+        "Town is 20 minutes away, with a scheduled shuttle to Mykonos Town and Ano Mera from 11AM to 1AM."
+      ],
+      "card": {"label": "Your stay · 3 nights", "rows": [["Guests", "2 adults, 2 children"], ["Booked", "Directly with Cali"]],
+        "perks": "A complimentary boat transfer to a South Coast beach club (Nammos, Scorpios, Spilia and more), a $100 property credit, breakfast, a welcome bottle of sparkling Greek wine and fruit, early check-in or late check-out when available, and semi-private airport and port transfers to and from Cali."},
+      "atv_email": "reservations@calimykonos.com"
+    },
+    {
+      "num": "02", "where": "Paros", "dates": "June 29 to July 3",
+      "img": {"src": "/images/hotels/parilio-1.jpg", "alt": "The pool courtyard at Parilio, Paros", "caption": "Parilio, just outside Naoussa", "pos": "center 55%"},
+      "headline": "Parilio, the design one, with a <em>beach club</em> next door",
+      "paras": [
+        "As a design lover, Parilio was perhaps my favorite stay in the Cyclades. The light moving through it at twilight is magical, and the staff get to know you and your preferences by name.",
+        "Guests can use the beach club at sister hotel Cosme for free, five minutes away by the shared shuttle, so you get the beach without staying on it."
+      ],
+      "card": {"label": "Your suite · 4 nights", "rows": [["Room", "Sun Suite with private pool"], ["Breakfast", "Included"], ["Confirmation", "RH5464FOR"]],
+        "perks": "An upgrade at check-in when available, a $50 food and beverage credit, a welcome amenity and a cocktail each at the Parilio bar.",
+        "fine": "Free cancellation until 21 days before arrival."},
+      "atv_email": "reservations@pariliohotelparos.com"
+    },
+    {
+      "num": "03", "where": "Santorini", "dates": "July 3 to 6",
+      "img": {"src": "/images/hotels/andronis-arcadia-1.jpg", "alt": "Andronis Arcadia, Santorini", "caption": "Andronis Arcadia, just outside Oia", "pos": "center 55%"},
+      "headline": "Andronis Arcadia, built for <em>families</em> on the caldera",
+      "paras": [
+        "Arcadia is a true resort rather than a boutique hotel, just outside Oia with sunset-facing suites and very private layouts. Every room has its own pool, some of the largest on the island.",
+        "The family side is real: the ARCADemy kids club and the Evexia Spa give the girls and the two of you somewhere to be at the same time."
+      ],
+      "card": {"label": "Your stay · 3 nights", "rows": [["Guests", "2 adults, 2 children"], ["Confirmation", "600444796"]]},
+      "atv_email": "hostess@andronisarcadia.com"
+    },
+    {
+      "num": "04", "where": "Athens Riviera", "dates": "July 6 to 9",
+      "img": {"src": "/images/proposals/seshadri-aesthesis.jpg", "alt": "One&Only Aesthesis, Athens Riviera", "caption": "One&amp;Only Aesthesis, Glyfada", "pos": "center 55%"},
+      "headline": "One&amp;Only Aesthesis, a slow finish on the <em>Riviera</em>",
+      "paras": [
+        "A full seaside resort rather than a city hotel: bungalows and villas running down to the water in Glyfada, an easy run to the airport for the flight home.",
+        "The Acropolis becomes a morning out rather than the address, and the rest of the days are for the beach."
+      ],
+      "card": {"label": "Your bungalow · 3 nights", "rows": [["Room", "Aesthesis Bungalow, 41 sqm, two queen beds, private pool, garden view"], ["Breakfast", "Daily"], ["Guests", "2 adults, 2 children"], ["Confirmation", "40381SG026574"], ["Total", "€4,542.60, third night free"]],
+        "perks": "Stay three, pay two. An upgrade on arrival when available, daily breakfast, a $100 resort credit and early check-in or late check-out when available.",
+        "fine": "Free cancellation until June 21, 2027. Climate tax of €15 per room a night, paid at checkout."},
+      "island": false
+    }
+  ],
+  "stay_bands": ["b-stone", "b-cream", "b-ink", "b-stone"],
+  "next_title": "Your hotels are booked. Let's lock in the <em>logistics</em>",
+  "next": [
+    "Pay the deposit once I send the updated link. It locks in the boat, the ferry and every transfer; Original Senses will ask you to sign their agreement on the payment page first.",
+    "Mykonos to Paros is being re-priced as a half day with a swim stop, on a sturdy boat. I'll send the options as soon as they come in.",
+    "Send me your Santorini to Athens flight once it is booked, plus your flights into Mykonos and home from Athens."
+  ]
+}

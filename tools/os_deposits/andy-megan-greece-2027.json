@@ -1,0 +1,87 @@
+{
+  "page": "proposals/andy-megan-greece-2027.html",
+  "arrival": "2027-05-09",
+  "total": 16996,
+  "intro": "All four hotels are booked. Here is everything in between, arranged through Original Senses, my partner in Athens: no ferries, a helicopter for the long hops and a private boat where the water is short. A deposit locks it in; the balance is due a month before you land.",
+  "group_titles": {
+    "flights": "Private helicopters",
+    "boats": "Private boat"
+  },
+  "group_order": [
+    "transfers",
+    "flights",
+    "boats",
+    "other"
+  ],
+  "items": {
+    "transfers": [
+      {
+        "date": "May 9 to 21",
+        "title": "Every ground transfer, all four stops",
+        "note": "Athens airport to The Dolli, The Dolli to the heliport, Paros heliport to Cosme, Cosme to Paros port, Sifnos port to Nos, Nos to the Sifnos heliport, Santorini heliport to Canaves Oia Suites, and Canaves to Santorini airport. Luxury vehicle with an English-speaking driver.",
+        "price": 1098
+      }
+    ],
+    "flights": [
+      {
+        "date": "May 11",
+        "title": "Athens to Paros, Airbus ACH135",
+        "note": "Twin engine, about 41 minutes. The car collects you at The Dolli and meets you again at the Paros helipad.",
+        "price": 6230,
+        "photo": {
+          "src": "/images/transfers/heli-ach135.jpg",
+          "alt": "An Airbus ACH135 helicopter",
+          "caption": "The Airbus ACH135"
+        }
+      },
+      {
+        "date": "May 18",
+        "title": "Sifnos to Santorini, Bell 407",
+        "note": "About 26 minutes. My recommendation for this leg: it is open Aegean, so the boat version depends on the weather.",
+        "price": 3298,
+        "photo": {
+          "src": "/images/transfers/heli-bell407.jpg",
+          "alt": "A Bell 407 helicopter",
+          "caption": "The Bell 407"
+        }
+      }
+    ],
+    "boats": [
+      {
+        "date": "May 15",
+        "title": "Paros to Sifnos on a private Goldfish 43",
+        "note": "Your own captain and crew, a swim stop at Antiparos, beach towels, snorkel gear, water toys, snacks and drinks. Your luggage comes with you. We can trim it to 4 to 5 hours if you would rather settle in on Sifnos early.",
+        "price": 6300,
+        "photo": {
+          "src": "/images/transfers/goldfish-43-1.jpg",
+          "alt": "The Goldfish 43 private boat",
+          "caption": "The Goldfish 43"
+        }
+      }
+    ],
+    "other": [
+      {
+        "title": "Domestic travel insurance, two guests",
+        "price": 70
+      }
+    ]
+  },
+  "optional_title": "The other way to Santorini",
+  "optional": [
+    {
+      "date": "May 18",
+      "title": "Sifnos to Santorini by private boat instead",
+      "note": "The same Goldfish 43 as a full day with swim stops at Kimolos and Polyaigos, landing on Santorini late afternoon. Beautiful if the sea cooperates. Replaces the helicopter.",
+      "price": 7400
+    }
+  ],
+  "optional_note": "Not in the total above. If you go for the boat instead, your total gets adjusted and the deposit goes towards the new balance.",
+  "how": "The deposit is set by Original Senses under their terms. It covers the transfers, the helicopters and the Paros to Sifnos boat day. The balance is due 30 days before you arrive. Helicopters and private boats go fast in May, so it is worth locking them in early.",
+  "fine_after_ferry": [
+    "Helicopters are confirmed with your actual weights (EU rules assume 90 kg per man and 75 kg per woman) and carry about 5 to 6 medium bags, so pack accordingly."
+  ],
+  "fine_boat": "The boat day: 30% on confirmation, the rest plus VAT and fuel 30 days before arrival. Charters are weather dependent; if the captain or port authority cancels for weather, it is refunded. Fuel can move with the market; you hear about any change in advance.",
+  "total_note": "Everything above, with the helicopter on May 18",
+  "pay_url": "https://app.flywire.com/rest/payment-request/pay/public/17d8bea0-0f26-4cdc-b12d-3bf1994a23cc",
+  "deposit": 5023
+}

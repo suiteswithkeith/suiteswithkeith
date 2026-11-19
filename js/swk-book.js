@@ -103,7 +103,7 @@
       /* "book through me" band and per-hotel asks on head-to-head pages */
       '.swkv-ask{display:inline-block;margin-top:22px;font-family:"Instrument Serif", Didot, Georgia, serif;font-size:13px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--brass,#836229);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:3px}',
       '.swkv-ask:hover{color:var(--ink,#1F201A)}',
-      '.swkv{padding-top:0}',
+      '.swkv.swkv-tight{padding-top:0}',
       '.swkv-card{display:grid;grid-template-columns:1fr;gap:30px;background:var(--plaster-deep,#E9E5DA);padding:clamp(30px,5vw,56px) clamp(24px,5vw,60px);border-top:2px solid var(--brass,#836229)}',
       '@media(min-width:900px){.swkv-card{grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}}',
       '.swkv-card>*{min-width:0}',
@@ -239,8 +239,16 @@
       if (when) window.setTimeout(function () { when.focus({ preventScroll: true }); }, 450);
     });
 
-    /* 2 · the band after the cards */
+    /* 2 · the band, after "The question behind the question" so readers get the
+       comparison first (cards, table, the deciding question); falls back to right
+       after the cards on pages without that section. */
     var host = choose.closest('section');
+    var afterQuestion = false;
+    var secs = document.querySelectorAll('section');
+    for (var q = 0; q < secs.length; q++) {
+      var eb = secs[q].querySelector('.eyebrow');
+      if (eb && /question behind the question/i.test(eb.textContent)) { host = secs[q]; afterQuestion = true; break; }
+    }
     if (host && host.parentNode) {
       /* General client praise, one per page, picked from the page slug so it
          stays put. Same list, order and pick as phase1/src/data/clientquotes.js;
@@ -264,7 +272,7 @@
           '<figcaption>' + quotes[pick][1] + '</figcaption>' +
         '</figure>';
       var section = document.createElement('section');
-      section.className = 'section swkv';
+      section.className = 'section swkv' + (afterQuestion ? '' : ' swkv-tight');
       section.innerHTML =
         '<div class="container">' +
           '<div class="swkv-card">' +

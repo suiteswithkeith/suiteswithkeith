@@ -1,0 +1,289 @@
+{
+  "page": "proposals/andy-megan-greece-2027.html",
+  "logistics": "tools/os_deposits/andy-megan-greece-2027.json",
+  "title": "Andy & Megan · Greece 2027",
+  "eyebrow": "Suites With Keith · Your 25th anniversary, Andy &amp; Megan",
+  "h1": "Athens to the <em>caldera</em>",
+  "meta": "May 9 to 21, 2027 · Two travelers · Twelve nights",
+  "intro": "Two nights at The Dolli under the Acropolis, a helicopter to Paros for four at Cosme, a private boat to Sifnos for three at Nos, then the caldera at Canaves Oia Suites to finish. No ferries anywhere, and home a full day before graduation.",
+  "hero": {
+    "src": "/images/islands/paros-hero.jpg",
+    "alt": "A Cycladic harbour at golden hour, whitewashed buildings above the water.",
+    "caption": "Paros, the Cyclades",
+    "pos": "center 50%"
+  },
+  "route_title": "Four stays, no <em>ferries</em>",
+  "route": [
+    {
+      "dates": "Sun May 9 to Tue May 11",
+      "where": "Athens",
+      "stay": "The Dolli at Acropolis",
+      "tag": "Booked",
+      "nights": 2
+    },
+    {
+      "dates": "Tue May 11 to Sat May 15",
+      "where": "Paros",
+      "stay": "Cosme, a Luxury Collection Resort",
+      "tag": "Booked",
+      "nights": 4
+    },
+    {
+      "dates": "Sat May 15 to Tue May 18",
+      "where": "Sifnos",
+      "stay": "Nos Hotel &amp; Villas",
+      "tag": "Booked",
+      "nights": 3
+    },
+    {
+      "dates": "Tue May 18 to Fri May 21",
+      "where": "Santorini",
+      "stay": "Canaves Oia Suites",
+      "tag": "Booked",
+      "nights": 3
+    }
+  ],
+  "route_note": "All four hotels are booked; confirmations are in your inbox. A driver meets you at every airport, heliport and port.",
+  "days_intro": "Everything between the hotels is arranged through Original Senses, my partner in Athens. Your own time is the rest of it.",
+  "days": [
+    {
+      "date": "Sat May 8",
+      "title": "Fly to Athens",
+      "note": "Overnight from the US on the flights you book, landing the morning of May 9.",
+      "tag": "Your flights",
+      "soft": true
+    },
+    {
+      "date": "Sun May 9",
+      "title": "Arrive Athens",
+      "note": "A driver meets you at arrivals and takes you to The Dolli. Rooftop pool, the Acropolis in front of you, one long dinner in Plaka.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Tue May 11",
+      "title": "Helicopter to Paros",
+      "note": "About 41 minutes on an Airbus ACH135. The car collects you at The Dolli and meets you again at the Paros helipad.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "May 11 to 15",
+      "title": "Cosme, four nights",
+      "note": "The beach club out front, Naoussa on foot and no car all week.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Sat May 15",
+      "title": "Private boat to Sifnos",
+      "note": "The Goldfish 43 with your own crew and a swim stop at Antiparos, your luggage on board.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "May 15 to 18",
+      "title": "Nos, three nights",
+      "note": "The quiet island: trails, tavernas and almost nobody in early May.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Tue May 18",
+      "title": "Helicopter to Santorini",
+      "note": "About 26 minutes on a Bell 407, or a second boat day with swim stops if you would rather. Your call.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "May 18 to 21",
+      "title": "Canaves Oia Suites, three nights",
+      "note": "The caldera as the finale, with your pool heated for May.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Fri May 21",
+      "title": "Fly home",
+      "note": "Santorini to Athens to the US, landing the same day. I'll line the timing up to whatever you book.",
+      "tag": "Your flights",
+      "soft": true
+    }
+  ],
+  "stays": [
+    {
+      "num": "01",
+      "where": "Athens",
+      "dates": "May 9 to 11",
+      "island": false,
+      "img": {
+        "src": "/images/hotels/thedolli-1.jpg",
+        "alt": "The Dolli at Acropolis, Athens",
+        "caption": "The Dolli, under the Acropolis",
+        "pos": "center 50%"
+      },
+      "headline": "The Dolli, the best-placed hotel in <em>Athens</em>",
+      "paras": [
+        "Small, grown-up and right under the Acropolis. The rooftop at dusk is the right first night after the flight.",
+        "Two nights is enough to land, decompress and see the city properly before the islands."
+      ],
+      "card": {
+        "label": "Your room · 2 nights",
+        "rows": [
+          [
+            "Room",
+            "Athenian Room, marble bath, walk-in rain shower"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Confirmation",
+            "97604SH000746 (May 9, through Fora)"
+          ],
+          [
+            "Second night",
+            "Booked on your Amex"
+          ]
+        ]
+      }
+    },
+    {
+      "num": "02",
+      "where": "Paros",
+      "dates": "May 11 to 15",
+      "img": {
+        "src": "/images/hotels/cosme-1.jpg",
+        "alt": "Suite terrace at Cosme, Paros",
+        "caption": "Cosme, above the beach at Naoussa",
+        "pos": "center 60%"
+      },
+      "headline": "Cosme, the best beach stay on <em>Paros</em>",
+      "paras": [
+        "Cosme is my pick for a beach stay on Paros. The base rooms are bigger than many hotels' junior suites, the private beach club sits right in front, and the circular spa and gym are some of the most interesting buildings on the island.",
+        "Naoussa is a short walk, so no car all week. Easy and laid-back after the Athens pace."
+      ],
+      "card": {
+        "label": "Your suite · 4 nights",
+        "rows": [
+          [
+            "Room",
+            "Full Gaia Suite, king, partial sea view balcony"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Confirmation",
+            "78472056"
+          ],
+          [
+            "Total",
+            "€3,820, refundable"
+          ]
+        ]
+      },
+      "atv_email": "info@cosmehotelparos.com"
+    },
+    {
+      "num": "03",
+      "where": "Sifnos",
+      "dates": "May 15 to 18",
+      "img": {
+        "src": "/images/hotels/nos-2.jpg",
+        "alt": "NOS, Sifnos",
+        "caption": "Nos, above the fishing village of Faros",
+        "pos": "center 55%"
+      },
+      "headline": "Nos, the quiet island in the <em>middle</em>",
+      "paras": [
+        "Nos is one of my favorite stays in the Cyclades: minimalist Cycladic architecture above the fishing village of Faros, facing east for sunrise, with your own plunge pool.",
+        "Sifnos is the island for two foodies who like a trail: clay-pot cooking, the Kastro to Chrysopigi coastal walk, and tavernas that are worth the trip on their own."
+      ],
+      "card": {
+        "label": "Your suite · 3 nights",
+        "rows": [
+          [
+            "Room",
+            "Junior Suite, sea view, plunge pool"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Confirmation",
+            "1245"
+          ]
+        ]
+      },
+      "atv_email": "reservations@stayatnos.com"
+    },
+    {
+      "num": "04",
+      "where": "Santorini",
+      "dates": "May 18 to 21",
+      "img": {
+        "src": "/images/hotels/canaves-oia-1.jpg",
+        "alt": "Canaves Oia Suites pool over the caldera",
+        "caption": "Canaves Oia Suites, high on the caldera in Oia",
+        "pos": "center 55%"
+      },
+      "headline": "Canaves Oia Suites, the caldera <em>finale</em>",
+      "paras": [
+        "The nicest hotel on the caldera itself, higher up and more private than most of Oia, with panoramic sea views from the bed and the rain shower.",
+        "Canaves has confirmed your plunge pool can be heated for May, so it is a warm pool rather than a cold one."
+      ],
+      "card": {
+        "label": "Your suite · 3 nights",
+        "rows": [
+          [
+            "Room",
+            "Pool Suite, king, open-plan living room, veranda with loungers"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Confirmation",
+            "78762SH011546"
+          ],
+          [
+            "Total",
+            "€4,800"
+          ]
+        ],
+        "fine": "Free cancellation until April 28, 2027."
+      },
+      "atv_email": "reservations@canaves.com"
+    }
+  ],
+  "stay_bands": [
+    "b-stone",
+    "b-cream",
+    "b-ink",
+    "b-stone"
+  ],
+  "next_title": "Your hotels are booked. Let's lock in the <em>logistics</em>",
+  "next": [
+    "Pay the logistics deposit once I send the link. It confirms both helicopters, the boat to Sifnos and every transfer.",
+    "Choose the May 18 crossing: the helicopter (my recommendation) is in the total, or the second boat day if you'd rather.",
+    "Tell me which extras you'd like, the Santorini boat day, the wine afternoon or the beach clubs, and I'll get them priced.",
+    "Book your flights into Athens the morning of May 9 and home on May 21, then send me the times so the cars line up."
+  ],
+  "ideas_title": "A few things I'd <em>add</em>",
+  "ideas_intro": "Not in the logistics total above. Tell me which ones sound good and I'll have Original Senses price them.",
+  "ideas": [
+    {
+      "heading": "My pick",
+      "title": "One more boat day, on Santorini",
+      "note": "With the helicopter from Sifnos, one more day on the water is worth it. You'll already see the best of Paros and Antiparos on the boat to Sifnos, so I'd save it for the caldera. Either a full day of swimming at Red Beach, White Beach and the hot springs, finishing with the sunset off Oia, or a half day: a morning sail when the water is calmest, or an evening one timed to the sunset."
+    },
+    {
+      "heading": "Santorini",
+      "title": "Wine tasting and a long lunch",
+      "note": "An afternoon at a couple of the island's best wineries, tasting the volcanic Assyrtiko the island is known for, with a long lunch looking out over the caldera. A driver takes you there and back."
+    },
+    {
+      "heading": "Paros and Santorini",
+      "title": "Beach clubs and dinner tables",
+      "note": "Day beds at the beach clubs and the dinners worth dressing up for. Once the books open for the 2027 season, I'll reserve the ones you want so there's nothing to chase while you're there."
+    }
+  ]
+}

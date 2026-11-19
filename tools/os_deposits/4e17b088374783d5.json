@@ -1,0 +1,56 @@
+{
+  "page": "proposals/4e17b088374783d5.html",
+  "arrival": "2027-06-26",
+  "total": 1380,
+  "total_note": "Priced so far, before the boat",
+  "intro": "All four hotels are booked. Here is everything in between for the four of you, arranged through Original Senses, my partner in Athens. A deposit locks it in; the balance is due a month before you land.",
+  "group_titles": {
+    "boats": "Private boat"
+  },
+  "boat_word": "boat",
+  "items": {
+    "transfers": [
+      {
+        "date": "Jun 26 to Jul 9",
+        "title": "Six transfers on Paros, Santorini and Athens",
+        "note": "Paros port to Parilio, Parilio to Paros port, Santorini port to Andronis Arcadia, Andronis Arcadia to Santorini airport, Athens airport to One&amp;Only Aesthesis, and Aesthesis to Athens airport. Luxury vehicle with an English-speaking driver. Your Mykonos airport and port transfers come free with Cali.",
+        "price": 1000
+      }
+    ],
+    "boats": [
+      {
+        "date": "Jun 29",
+        "title": "Mykonos to Paros by private boat, with a swim stop",
+        "note": "A half day instead of a full one: a sturdy motor boat in the Pardo 43 class with captain, one swim stop on the way and your luggage on board. Original Senses is pricing the steadiest option around €3,000 to €4,000, with a morning departure when the sea is usually calmest.",
+        "price": null,
+        "price_note": "Being priced",
+        "flag": "Half day"
+      }
+    ],
+    "ferries": [
+      {
+        "date": "Jul 3",
+        "title": "Paros to Santorini on the Blue Star Delos",
+        "note": "Moved off the high-speed catamaran onto the Blue Star Delos, one of the big conventional ferries that carry cars, so the crossing is much steadier. Departs Paros 11:45am, arrives Santorini 2:50pm, business seats for four. A driver meets you at the port for Andronis Arcadia.",
+        "price": 240,
+        "flag": "Steadier crossing"
+      }
+    ],
+    "other": [
+      {
+        "title": "Domestic travel insurance, four guests",
+        "price": 140
+      }
+    ]
+  },
+  "fine_after_ferry": [],
+  "fine_boat": "The boat: 30% of the charter confirms it. Cancelling 45 to 30 days before the day costs 50% of the charter, and inside 30 days 100%. If the captain or port authority cancels for weather or a technical problem, it is refunded. Fuel can move with the market; you hear about any change in advance.",
+  "group_order": [
+    "transfers",
+    "boats",
+    "ferries",
+    "other"
+  ],
+  "how": "The deposit is set by Original Senses under their terms: 30% of the boat, 25% of the transfers and the ferry fare in full. The balance is due 30 days before you arrive.",
+  "pending_note": "The Mykonos to Paros boat is being re-priced as a half day, and the Santorini to Athens flight is off since you are booking it yourselves. I will send the updated payment link as soon as Original Senses comes back."
+}

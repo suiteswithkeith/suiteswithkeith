@@ -1,0 +1,162 @@
+{
+  "page": "proposals/5b1bf93a300d4078.html",
+  "logistics": "tools/os_deposits/5b1bf93a300d4078.json",
+  "title": "Zach Caldwell · Greece, September 2027",
+  "eyebrow": "Suites With Keith · Your itinerary, Zach Caldwell",
+  "h1": "Santorini to <em>Paros</em>",
+  "meta": "September 15 to 25, 2027 · Two travelers · Ten nights",
+  "intro": "Four nights on the caldera at Canaves Oia Suites, then six slow ones on Paros at Cosme, with a car for the week and two private days on the water. Both stays are booked. Here is the whole trip, start to finish.",
+  "hero": {
+    "src": "/images/islands/santorini-hero.jpg",
+    "alt": "Santorini",
+    "caption": "Oia, Santorini",
+    "pos": "center 50%"
+  },
+  "route_title": "Two stays, one short <em>ferry</em> between them",
+  "route": [
+    {
+      "dates": "Wed Sep 15 to Sun Sep 19",
+      "where": "Santorini",
+      "stay": "Canaves Oia Suites",
+      "tag": "Booked",
+      "nights": 4
+    },
+    {
+      "dates": "Sun Sep 19 to Sat Sep 25",
+      "where": "Paros",
+      "stay": "Cosme, a Luxury Collection Resort",
+      "tag": "Booked",
+      "nights": 6
+    }
+  ],
+  "route_note": "Both stays are booked through Fora. Drivers meet you at every airport and port.",
+  "days_intro": "Everything on the ground and on the water is arranged through Original Senses, my partner in Athens. Your own time is the rest of it.",
+  "days": [
+    {
+      "date": "Wed Sep 15",
+      "title": "Arrive Santorini",
+      "note": "A driver meets you at the airport and takes you up to Oia.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Sep 15 to 19",
+      "title": "Canaves Oia Suites, four nights",
+      "note": "Your own pool on the caldera, sunsets from the terrace.",
+      "tag": "Booked"
+    },
+    {
+      "date": "On Santorini",
+      "title": "Private sunset caldera cruise",
+      "note": "Five to six hours on a Lagoon 450 catamaran with BBQ cooked on board.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Sun Sep 19",
+      "title": "Ferry to Paros, SuperSpeed Jet 3",
+      "note": "2:10PM to 3:55PM in business seats. A driver to the port and another on Paros. Your car is waiting at Cosme.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Sep 19 to 25",
+      "title": "Cosme, six nights",
+      "note": "Naoussa on your doorstep and a car for the week.",
+      "tag": "Booked"
+    },
+    {
+      "date": "On Paros",
+      "title": "Private day to Antiparos, Despotiko and Panteronissia",
+      "note": "Eight hours on an Axopar 37 with your own captain.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Sat Sep 25",
+      "title": "Depart Paros",
+      "note": "A driver from Cosme to Paros airport.",
+      "tag": "Arranged"
+    }
+  ],
+  "stays": [
+    {
+      "num": "01",
+      "where": "Santorini",
+      "dates": "Sep 15 to 19",
+      "img": {
+        "src": "/images/hotels/canaves-oia-1.jpg",
+        "alt": "Canaves Oia Suites pool over the caldera",
+        "caption": "Canaves Oia Suites, high on the caldera in Oia",
+        "pos": "center 55%"
+      },
+      "headline": "Canaves Oia Suites, the classic <em>caldera</em> stay",
+      "paras": [
+        "This was the best hotel I saw for first-timers on Santorini. A full renovation brought beautiful finishes everywhere, and it sits higher on the caldera than most, so it is noticeably more private than the rest of Oia.",
+        "Every suite has its own water and covered outdoor space, which matters in September sun. Oia's lanes and the sunset are a short walk away."
+      ],
+      "card": {
+        "label": "Your suite · 4 nights",
+        "rows": [
+          [
+            "Room",
+            "Pool Suite"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Booked through",
+            "Fora"
+          ]
+        ]
+      },
+      "atv_email": "reservations@canaves.com"
+    },
+    {
+      "num": "02",
+      "where": "Paros",
+      "dates": "Sep 19 to 25",
+      "img": {
+        "src": "/images/hotels/cosme-1.jpg",
+        "alt": "Suite terrace at Cosme, Paros",
+        "caption": "Cosme, above the beach at Naoussa",
+        "pos": "center 60%"
+      },
+      "headline": "Cosme, the best beach stay on <em>Paros</em>",
+      "paras": [
+        "Cosme is my pick for a beach stay on Paros. The base rooms are bigger than many hotels' junior suites, the private beach club sits right in front of the hotel, and the circular spa and gym are some of the most interesting buildings on the island.",
+        "Naoussa is a short walk for dinner, and with the car you have the whole island, from Lefkes in the hills to the beaches on the south coast."
+      ],
+      "card": {
+        "label": "Your suite · 6 nights",
+        "rows": [
+          [
+            "Room",
+            "Earth Suite, 35 sqm, terrace over the gardens"
+          ],
+          [
+            "Breakfast",
+            "Included"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Confirmation",
+            "64792065"
+          ],
+          [
+            "Rate",
+            "Flexible"
+          ]
+        ]
+      },
+      "atv_email": "info@cosmehotelparos.com"
+    }
+  ],
+  "next_title": "Your stays are booked. Let's lock in the <em>logistics</em>",
+  "next": [
+    "Pay the logistics deposit. It confirms the ferry, every transfer, the car and both boat days.",
+    "Send me your flights into Santorini and out of Paros, so every driver is timed to them.",
+    "Anything from the add-ons ? Tell me before you pay and I'll fold it into the deposit."
+  ]
+}

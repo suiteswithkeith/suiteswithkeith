@@ -1,0 +1,74 @@
+{
+  "page": "proposals/allison-noah-greece-2027.html",
+  "logistics": "tools/os_deposits/allison-noah-greece-2027.json",
+  "title": "Allison & Noah · Greece 2027",
+  "eyebrow": "Suites With Keith · Your honeymoon, Allison &amp; Noah",
+  "h1": "Three islands, <em>twelve nights</em>",
+  "meta": "May 10 to 22, 2027 · Two travelers · Paros, Sifnos, Santorini",
+  "intro": "Four nights at Cosme on Paros, a private boat across to Sifnos for four nights at Nos, then four at Canaves Oia Suites to finish on the caldera. All three stays are booked, and every move has a driver waiting.",
+  "hero": {"src": "/images/islands/sifnos-hero.jpg", "alt": "Kastro village, Sifnos", "caption": "Sifnos, the middle of the trip", "pos": "center 50%"},
+  "route_title": "Paros, Sifnos, Santorini, four nights <em>each</em>",
+  "route": [
+    {"dates": "Mon May 10 to Fri May 14", "where": "Paros", "stay": "Cosme, a Luxury Collection Resort", "tag": "Booked", "nights": 4},
+    {"dates": "Fri May 14 to Tue May 18", "where": "Sifnos", "stay": "Nos Hotel &amp; Villas", "tag": "Booked", "nights": 4},
+    {"dates": "Tue May 18 to Sat May 22", "where": "Santorini", "stay": "Canaves Oia Suites", "tag": "Booked", "nights": 4}
+  ],
+  "route_note": "All three stays are booked. Drivers meet you at every airport and port.",
+  "days_intro": "Everything on the ground and on the water is arranged through Original Senses, my partner in Athens. Your own time is the rest of it.",
+  "days": [
+    {"date": "Mon May 10", "title": "Fly Athens to Paros", "note": "A 40-minute flight, on Paros by afternoon. A driver takes you to Cosme.", "tag": "Arranged"},
+    {"date": "May 10 to 14", "title": "Cosme, four nights", "note": "The beach club out front and Naoussa on foot.", "tag": "Booked"},
+    {"date": "Fri May 14", "title": "Paros to Sifnos by private boat", "note": "A full day on an Axopar 37 with your own captain, swim stops on the way and your luggage on board. A driver meets you on Sifnos.", "tag": "Arranged"},
+    {"date": "May 14 to 18", "title": "Nos, four nights", "note": "Above the fishing village of Faros.", "tag": "Booked"},
+    {"date": "Sat May 15", "title": "Hands-on cooking in a Sifnian house", "note": "With a local cook, then the full meal with Greek wine.", "tag": "Arranged"},
+    {"date": "Tue May 18", "title": "Ferry to Santorini, SuperJet 2", "note": "The 7:30AM sailing in business seats, the only one that day. A private helicopter is the alternative if you'd rather skip the early start.", "tag": "Arranged"},
+    {"date": "May 18 to 22", "title": "Canaves Oia Suites, four nights", "note": "A honeymoon suite with its own plunge pool over the caldera.", "tag": "Booked"},
+    {"date": "Wed May 19", "title": "Private sunset caldera cruise", "note": "A Lagoon 450 catamaran with BBQ cooked on board.", "tag": "Arranged"},
+    {"date": "Sat May 22", "title": "Fly home", "note": "A driver to Santorini airport. I'll tell you which connection to book.", "tag": "Arranged"}
+  ],
+  "stays": [
+    {
+      "num": "01", "where": "Paros", "dates": "May 10 to 14",
+      "img": {"src": "/images/hotels/cosme-1.jpg", "alt": "Suite terrace at Cosme, Paros", "caption": "Cosme, above the beach at Naoussa", "pos": "center 60%"},
+      "headline": "Cosme, the best beach stay on <em>Paros</em>",
+      "paras": [
+        "Cosme is my pick for a beach stay on Paros. The base rooms are bigger than many hotels' junior suites, the private beach club sits right in front of the hotel, and the circular spa and gym are some of the most interesting buildings on the island.",
+        "Between the beach, the spa and the restaurants you could happily stay put, and Naoussa is a short walk for dinner."
+      ],
+      "card": {"label": "Your suite · 4 nights", "rows": [["Room", "Earth Suite, 35 sqm, resort view, balcony"], ["Breakfast", "Included"], ["Guests", "2 adults"], ["Confirmation", "RH4489FOR"]],
+        "perks": "An upgrade at check-in when available, a welcome treat in the room, a $50 food and beverage credit and 20% off a spa treatment.",
+        "fine": "Free cancellation until 21 days before arrival."},
+      "atv_email": "info@cosmehotelparos.com"
+    },
+    {
+      "num": "02", "where": "Sifnos", "dates": "May 14 to 18",
+      "img": {"src": "/images/hotels/nos-2.jpg", "alt": "NOS, Sifnos", "caption": "Nos, above the fishing village of Faros", "pos": "center 55%"},
+      "headline": "Nos, the island where Greece <em>slows down</em>",
+      "paras": [
+        "Nos is one of my favorite stays in the Cyclades. Minimalist Cycladic architecture above the fishing village of Faros, sweeping Aegean views and a pace that matches Sifnos exactly.",
+        "Sifnos is the cooking island: pottery villages along a ridge, the best tavernas in the Cyclades for an island its size, and in May it is green and walkable."
+      ],
+      "card": {"label": "Your room · 4 nights", "rows": [["Room", "NISOS The Classic, sea view"], ["Breakfast", "Included at NŌS The Restaurant"], ["Guests", "2 adults"], ["Confirmation", "1274"]]},
+      "atv_email": "reservations@stayatnos.com"
+    },
+    {
+      "num": "03", "where": "Santorini", "dates": "May 18 to 22",
+      "img": {"src": "/images/hotels/canaves-oia-1.jpg", "alt": "Canaves Oia Suites pool over the caldera", "caption": "Canaves Oia Suites, high on the caldera in Oia", "pos": "center 55%"},
+      "headline": "Canaves Oia Suites, the classic <em>caldera</em> finale",
+      "paras": [
+        "This was the best hotel I saw for honeymooners on Santorini. A full renovation brought beautiful finishes everywhere, and it sits higher on the caldera than most, so it is noticeably more private than the rest of Oia.",
+        "After eight quiet nights you have earned the postcard: the sunset from your own terrace, and Oia's lanes a short walk away."
+      ],
+      "card": {"label": "Your suite · 4 nights", "rows": [["Room", "Honeymoon Suite, 45 sqm, plunge pool with jacuzzi, caldera view"], ["Breakfast", "Included"], ["Guests", "2 adults"], ["Confirmation", "78762SH011554"]],
+        "perks": "$100 food and beverage credit at the pool bar, wine and fruit on arrival and an upgrade when available.",
+        "fine": "Free cancellation until April 28, 2027. Climate tax of €15 per person a night, paid at checkout."},
+      "atv_email": "reservations@canaves.com"
+    }
+  ],
+  "next_title": "Your stays are booked. Let's lock in the <em>logistics</em>",
+  "next": [
+    "Pay the logistics deposit. It confirms the boat to Sifnos, the Santorini ferry, every transfer, the cooking class and the sunset cruise.",
+    "Send me your flights into Paros on May 10 and home from Santorini on May 22, so every driver is timed to them.",
+    "The 7:30AM ferry is the only Sifnos to Santorini sailing that day. Tell me if you'd like a private helicopter priced instead."
+  ]
+}

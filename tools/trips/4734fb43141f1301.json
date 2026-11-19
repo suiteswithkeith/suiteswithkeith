@@ -1,0 +1,215 @@
+{
+  "page": "proposals/4734fb43141f1301.html",
+  "logistics": "tools/os_deposits/4734fb43141f1301.json",
+  "title": "Linda & Addison · Greece, May 2027",
+  "eyebrow": "Suites With Keith · Your itinerary, Linda &amp; Addison",
+  "h1": "Paros to <em>Santorini</em>",
+  "meta": "May 19 to 27, 2027 · Two travelers · Eight nights",
+  "intro": "Four nights at Vione on Paros, then four at Andronis Arcadia in Oia with a private sunset cruise. Your flights and both stays are booked; the ferries and island transfers are arranged through my partner in Athens.",
+  "hero": {
+    "src": "/images/islands/santorini-hero.jpg",
+    "alt": "Santorini",
+    "caption": "Oia, Santorini",
+    "pos": "center 50%"
+  },
+  "route_title": "Two stays, ferries in and <em>between</em>",
+  "route": [
+    {
+      "dates": "Wed May 19 to Sun May 23",
+      "where": "Paros",
+      "stay": "Vione Paros",
+      "tag": "Booked",
+      "nights": 4
+    },
+    {
+      "dates": "Sun May 23 to Thu May 27",
+      "where": "Santorini",
+      "stay": "Andronis Arcadia, Oia",
+      "tag": "Booked",
+      "nights": 4
+    }
+  ],
+  "route_note": "Both stays are booked and prepaid through Fora. Rates include VAT, taxes and breakfast.",
+  "days_intro": "Flights and hotels are booked. The ferries, transfers and the sunset cruise are arranged through Original Senses, my partner in Athens.",
+  "days": [
+    {
+      "date": "Tue May 18",
+      "title": "Fly New York to Athens",
+      "note": "Delta nonstop from JFK at 3:10PM, Delta One. Lands 7:50AM on May 19.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Wed May 19",
+      "title": "Athens, then the ferry to Paros",
+      "note": "Your driver meets you at arrivals for a stop at Zara, then on to the port for a later ferry. A driver meets you at Paros port and takes you to Vione.",
+      "tag": "Ferry to be booked",
+      "soft": true
+    },
+    {
+      "date": "May 19 to 23",
+      "title": "Vione, four nights",
+      "note": "Beach clubs, Antiparos and Naoussa evenings.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Sun May 23",
+      "title": "Ferry to Santorini, Champions League Jet 1",
+      "note": "1:25PM to 3:10PM in VIP seats, drivers at both ports.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "May 23 to 27",
+      "title": "Andronis Arcadia, four nights",
+      "note": "The caldera as the finale.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Mon May 24",
+      "title": "Private sunset cruise on a Pardo 43",
+      "note": "Fresh fish, salads and wine on the water, hotel transfers both ways.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Thu May 27",
+      "title": "Fly home",
+      "note": "Aegean 8:25AM to Athens, then Delta at 3:30PM, landing JFK 7:50PM.",
+      "tag": "Booked"
+    }
+  ],
+  "stays": [
+    {
+      "num": "01",
+      "where": "Paros",
+      "dates": "May 19 to 23",
+      "img": {
+        "src": "/images/proposals/weiner-greece-2027/vione-paros.jpg",
+        "alt": "Vione Paros pool",
+        "caption": "Vione, on the low cliffs at Ambelas",
+        "pos": "center 55%"
+      },
+      "headline": "Vione, quiet design and your own <em>pool</em>",
+      "paras": [
+        "Vione is the kind of hotel that quietly impresses you. Clean architecture, understated interiors and a calm, adults-focused feel, with every detail considered.",
+        "Naoussa's old port is ten minutes away for dinner, and the beach clubs and Antiparos are an easy hop."
+      ],
+      "card": {
+        "label": "Your suite · 4 nights",
+        "rows": [
+          [
+            "Room",
+            "Junior Suite, private plunge pool, panoramic sea view"
+          ],
+          [
+            "Breakfast",
+            "Included"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Reservation",
+            "6325"
+          ],
+          [
+            "Total",
+            "€2,520, prepaid"
+          ]
+        ],
+        "perks": "Welcome amenity, €100 food and beverage credit, early check-in or late check-out and an upgrade when available.",
+        "fine": "Non-refundable. Climate fee €15 a night, paid at checkout. Check-in 3PM, check-out 11AM."
+      },
+      "atv_email": "reservations@vioneparos.com"
+    },
+    {
+      "num": "02",
+      "where": "Santorini",
+      "dates": "May 23 to 27",
+      "img": {
+        "src": "/images/proposals/weiner-greece-2027/andronis-arcadia.jpg",
+        "alt": "Andronis Arcadia terrace at sunset",
+        "caption": "Andronis Arcadia, just outside Oia",
+        "pos": "center 55%"
+      },
+      "headline": "Andronis Arcadia, a pool on your own <em>terrace</em>",
+      "paras": [
+        "Every room at Arcadia has its own pool, some of the largest on the island, and it sits just outside Oia with sunset-facing suites and very private layouts.",
+        "It has more energy than most of Oia, with Beefbar and Pacman on property, so dinner can be a night out without leaving the hotel."
+      ],
+      "card": {
+        "label": "Your suite · 4 nights",
+        "rows": [
+          [
+            "Room",
+            "Sunset Suite, king, 42 sqm, infinity pool on the veranda"
+          ],
+          [
+            "Breakfast",
+            "Included"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Rate",
+            "€775.80 a night, Fora rate"
+          ],
+          [
+            "Total",
+            "€3,103.20, prepaid"
+          ]
+        ],
+        "perks": "€150 resort credit, a bottle of wine and champagne, welcome amenities, early check-in or late check-out and an upgrade when available.",
+        "fine": "Non-refundable."
+      },
+      "atv_email": "hostess@andronisarcadia.com"
+    }
+  ],
+  "flights": {
+    "title": "Flights, all <em>confirmed</em>",
+    "intro": "Both confirmations are under Linda's email. Check in online 24 hours before each flight.",
+    "refs": [
+      [
+        "Delta",
+        "G8W64L"
+      ],
+      [
+        "Aegean",
+        "8S2DEC"
+      ],
+      [
+        "Aegean ticket, Linda",
+        "390-2485932911"
+      ],
+      [
+        "Aegean ticket, Addison",
+        "390-2485932910"
+      ]
+    ],
+    "refs_note": "The Aegean hop is Business Basic (class D).",
+    "rows": [
+      {
+        "date": "Tue May 18",
+        "title": "Delta · JFK 3:10PM to Athens 7:50AM",
+        "note": "Nonstop, 9h 40m, Delta One. Arrives May 19."
+      },
+      {
+        "date": "Thu May 27",
+        "title": "Aegean A3353 · Santorini 8:25AM to Athens 9:15AM",
+        "note": "Nonstop, 50 minutes, Business."
+      },
+      {
+        "date": "Thu May 27",
+        "title": "Delta DL0283 · Athens 3:30PM to JFK 7:50PM",
+        "note": "Nonstop, 11h 20m, Delta One, seats 2C and 2G. About 6 hours to connect after the Aegean arrival."
+      }
+    ]
+  },
+  "next_title": "Your stays and flights are booked. Let's lock in the <em>logistics</em>",
+  "next": [
+    "Pay the logistics deposit. It confirms the Paros to Santorini ferry, every island transfer and the sunset cruise.",
+    "Athens to Paros: the afternoon ferries for May 2027 aren't published yet, so I'll book a later one as soon as they are, leaving time for your Zara stop with your own driver. It gets added to your total and paid with the balance. Happy to price a private driver for that day too if you'd like.",
+    "Anything from the add-ons ? Tell me and I'll fold it in."
+  ]
+}

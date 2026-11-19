@@ -1,0 +1,256 @@
+{
+  "page": "proposals/db25026ac42f5929.html",
+  "logistics": "tools/os_deposits/db25026ac42f5929.json",
+  "title": "Laura & Gary · Greece 2027",
+  "eyebrow": "Suites With Keith · Your honeymoon, Laura &amp; Gary",
+  "h1": "Athens to <em>Santorini</em>",
+  "meta": "September 22 to October 8, 2027 · Two travelers · Sixteen nights",
+  "intro": "Three nights in Athens, four at Vione on Paros, a private boat across to Sifnos for five nights at Verina Astra, then four on the caldera at Kapari to finish. All four stays are booked, and a car is waiting on Paros and Sifnos.",
+  "hero": {
+    "src": "/images/islands/sifnos-hero.jpg",
+    "alt": "Kastro village, Sifnos",
+    "caption": "Kastro, Sifnos",
+    "pos": "center 50%"
+  },
+  "route_title": "Four stays, sixteen <em>nights</em>",
+  "route": [
+    {
+      "dates": "Wed Sep 22 to Sat Sep 25",
+      "where": "Athens",
+      "stay": "Grand Hyatt Athens",
+      "tag": "Booked",
+      "nights": 3
+    },
+    {
+      "dates": "Sat Sep 25 to Wed Sep 29",
+      "where": "Paros",
+      "stay": "Vione Paros",
+      "tag": "Booked",
+      "nights": 4
+    },
+    {
+      "dates": "Wed Sep 29 to Mon Oct 4",
+      "where": "Sifnos",
+      "stay": "Verina Astra",
+      "tag": "Booked",
+      "nights": 5
+    },
+    {
+      "dates": "Mon Oct 4 to Fri Oct 8",
+      "where": "Santorini",
+      "stay": "Kapari Natural Resort",
+      "tag": "Booked",
+      "nights": 4
+    }
+  ],
+  "route_note": "Vione and Verina Astra are booked through Fora; the Grand Hyatt and Kapari are booked on your points. Drivers meet you at every island airport and port.",
+  "days_intro": "Everything on the ground and on the water is arranged through Original Senses, my partner in Athens. Your own time is the rest of it.",
+  "days": [
+    {
+      "date": "Wed Sep 22",
+      "title": "Arrive Athens",
+      "note": "Three nights at the Grand Hyatt for the Acropolis, the Plaka and long dinners.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Sat Sep 25",
+      "title": "Fly to Paros",
+      "note": "A driver meets you at Paros airport and takes you to Vione. Your car is delivered to the hotel.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Sep 25 to 29",
+      "title": "Vione, four nights",
+      "note": "A sea-view suite with its own plunge pool, Naoussa evenings and a car to explore the island.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Wed Sep 29",
+      "title": "Paros to Sifnos by private boat",
+      "note": "A full day on a private RIB via Antiparos, with swim stops and a Greek picnic. Your luggage comes with you and you step off on Sifnos. A second car is waiting at Verina Astra.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Sep 29 to Oct 4",
+      "title": "Verina Astra, five nights",
+      "note": "The island the Greeks go to for food, quiet coves and village walks.",
+      "tag": "Booked"
+    },
+    {
+      "date": "On Sifnos",
+      "title": "Hands-on cooking in a Sifnian house",
+      "note": "With a local cook, then the full meal with Greek wine.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Mon Oct 4",
+      "title": "Ferry to Santorini",
+      "note": "A driver to Sifnos port, the SuperJet 2 south at 8:50AM (into Santorini at 2:30PM, business seats), and a driver up to Kapari.",
+      "tag": "Arranged"
+    },
+    {
+      "date": "Oct 4 to 8",
+      "title": "Kapari, four nights",
+      "note": "An indoor hot tub and the caldera out the window to finish.",
+      "tag": "Booked"
+    },
+    {
+      "date": "Fri Oct 8",
+      "title": "Fly home",
+      "note": "A driver from Kapari to Santorini airport.",
+      "tag": "Arranged"
+    }
+  ],
+  "stays": [
+    {
+      "num": "01",
+      "where": "Athens",
+      "dates": "Sep 22 to 25",
+      "img": {
+        "src": "/images/islands/athens-hero.jpg",
+        "alt": "Athens at dusk",
+        "caption": "Athens",
+        "pos": "center 50%"
+      },
+      "headline": "Grand Hyatt Athens, three nights in the <em>city</em>",
+      "paras": [
+        "Three nights is the right amount of Athens: the Acropolis early before the heat and the crowds, the Plaka and Anafiotika in the afternoon, and long dinners after.",
+        "Booked on your points, and an easy run to the airport for the short flight to Paros."
+      ],
+      "card": {
+        "label": "Your stay · 3 nights",
+        "rows": [
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Booked",
+            "On your Hyatt points"
+          ]
+        ]
+      },
+      "island": false
+    },
+    {
+      "num": "02",
+      "where": "Paros",
+      "dates": "Sep 25 to 29",
+      "img": {
+        "src": "/images/hotels/vione-2.jpg",
+        "alt": "Vione Paros pool and sea view",
+        "caption": "Vione, on the low cliffs at Ambelas",
+        "pos": "center 55%"
+      },
+      "headline": "Vione, quiet design and your own <em>plunge pool</em>",
+      "paras": [
+        "Vione is the kind of hotel that quietly impresses you. Clean architecture, understated interiors and a calm, adults-focused feel, with every detail considered.",
+        "It sits just outside Naoussa, so dinner in the old port is ten minutes away, and with the car you have the beaches on the east coast and the hill villages of Lefkes and Marpissa."
+      ],
+      "card": {
+        "label": "Your suite · 4 nights",
+        "rows": [
+          [
+            "Room",
+            "Junior Suite, sea view, private plunge pool"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Confirmation",
+            "6517"
+          ]
+        ]
+      },
+      "atv_email": "reservations@vioneparos.com"
+    },
+    {
+      "num": "03",
+      "where": "Sifnos",
+      "dates": "Sep 29 to Oct 4",
+      "img": {
+        "src": "/images/hotels/verina-astra-1.jpg",
+        "alt": "Verina Astra, Sifnos",
+        "caption": "Verina Astra, on the cliff at Poulati above Kastro",
+        "pos": "center 50%"
+      },
+      "headline": "Verina Astra, a cliff over the <em>Aegean</em>",
+      "paras": [
+        "The most romantic stay on Sifnos: a handful of suites on the cliff at Poulati, with Kastro on foot and Bostani, the hotel's farm-to-table restaurant, for your dress-up dinner.",
+        "Sifnos is the island where Greece slows down. Days are about long lunches, pottery villages and swimming at quiet coves, and with the car you can reach all of them."
+      ],
+      "card": {
+        "label": "Your suite · 5 nights",
+        "rows": [
+          [
+            "Room",
+            "Orion Suite, 45 sqm"
+          ],
+          [
+            "Breakfast",
+            "Included"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Confirmation",
+            "HZRYKSL4QZIW"
+          ],
+          [
+            "Rate",
+            "Non-refundable"
+          ]
+        ]
+      }
+    },
+    {
+      "num": "04",
+      "where": "Santorini",
+      "dates": "Oct 4 to 8",
+      "img": {
+        "src": "/images/islands/santorini-divider.jpg",
+        "alt": "Santorini",
+        "caption": "Santorini, to finish",
+        "pos": "center 50%"
+      },
+      "headline": "Kapari, the caldera to <em>finish</em>",
+      "paras": [
+        "Four nights on the caldera at Kapari Natural Resort, with an indoor hot tub in your room and the view straight out over the water.",
+        "After nine quiet island nights, Santorini is the postcard: sunsets from the terrace, and a slow last few days before the flight home."
+      ],
+      "card": {
+        "label": "Your room · 4 nights",
+        "rows": [
+          [
+            "Room",
+            "Premium Spa Room, indoor hot tub, caldera view"
+          ],
+          [
+            "Guests",
+            "2 adults"
+          ],
+          [
+            "Booked",
+            "On your points"
+          ]
+        ]
+      },
+      "atv": false
+    }
+  ],
+  "next_title": "Your stays are booked. Let's lock in the <em>logistics</em>",
+  "next": [
+    "Pay the logistics deposit. It confirms every transfer, both cars, the boat to Sifnos, the Santorini ferry and the cooking class. Original Senses will ask you to sign their agreement on the payment page first.",
+    "Flights: Athens to Paros on September 25, and home from Santorini on October 8. Send me what you book, or I can help with your Chase points."
+  ],
+  "stay_bands": [
+    "b-stone",
+    "b-cream",
+    "b-ink",
+    "b-stone"
+  ]
+}

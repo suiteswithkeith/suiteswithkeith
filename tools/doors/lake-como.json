@@ -1,0 +1,37 @@
+{
+ "deck": "The Lake Como most visitors never see. Tell me which of these sound like you and I’ll build the days around them.",
+ "doors": [
+  {
+   "h": "Villa del Balbianello, behind the scenes",
+   "p": "An exclusive tour of the lake’s most famous villa, beyond the rooms everyone else sees."
+  },
+  {
+   "h": "A private Riva day",
+   "p": "A classic wooden boat with a skipper, past Villa Carlotta, Bellagio and Varenna, stopping wherever you like. It’s the way Como was meant to be seen."
+  },
+  {
+   "h": "Lunch at Passalacqua",
+   "p": "A tour or lunch at my favorite hotel on the lake, even if you’re not staying there. It’s only 24 rooms, so getting in as a guest is the hard part."
+  },
+  {
+   "h": "A Ferrari to Lake Orta",
+   "p": "Drive a Ferrari yourself along Lake Maggiore, stop for lunch on the way, then a private guide in Orta San Giulio and a water taxi out to Isola San Giulio. A support car follows, so all you do is drive."
+  },
+  {
+   "h": "Bellagio by boat, for an afternoon",
+   "p": "I wouldn’t stay in Bellagio, because it’s crowded. But by private boat for an afternoon, it’s lovely, and you leave before the day-trippers do."
+  },
+  {
+   "h": "A vintage Italian car",
+   "p": "A tour around the lake in a classic car, with stops in the villages the ferries skip."
+  },
+  {
+   "h": "The Last Supper, on your way in",
+   "p": "Flying into Milan? Stop for Leonardo’s Codex Atlanticus at the Ambrosian Library, then the Last Supper at Santa Maria delle Grazie with a private guide, before a car takes you up to the lake."
+  },
+  {
+   "h": "Supercar transfers",
+   "p": "Moving on to the Dolomites or Tuscany? Make the drive the highlight, with a supercar instead of a sedan."
+  }
+ ]
+}

@@ -208,6 +208,7 @@ $know_notes
 <script src="../reveal.js" defer></script>
 <script defer src="../js/hotel-inquire.js"></script>
 <script defer src="../js/swk-events.js"></script>
+<script defer src="/js/swk-newsletter-prompt.js"></script>
 </body>
 </html>
 """)
