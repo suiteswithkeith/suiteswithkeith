@@ -5,7 +5,7 @@
   "eyebrow": "Suites With Keith · Your itinerary, the Seshadri family",
   "h1": "Mykonos to the <em>Riviera</em>",
   "meta": "June 26 to July 9, 2027 · Two adults, two girls · Thirteen nights",
-  "intro": "Three nights at Cali on Mykonos, a private yacht to Paros for four nights at Parilio, then Andronis Arcadia on Santorini and three last nights at One&amp;Only Aesthesis on the Athens Riviera. All four hotels are booked.",
+  "intro": "Three nights at Cali on Mykonos, a private boat to Paros for four nights at Parilio, then Andronis Arcadia on Santorini and three last nights at One&amp;Only Aesthesis on the Athens Riviera. All four hotels are booked.",
   "hero": {"src": "/images/islands/mykonos-hero.jpg", "alt": "A protected bay on Mykonos", "caption": "Mykonos, where the trip begins", "pos": "center 50%"},
   "seal": "All four hotels booked",
   "route_title": "Four stays, each with room for the <em>girls</em>",
@@ -16,11 +16,11 @@
     {"dates": "Tue July 6 to Fri July 9", "where": "Athens Riviera", "stay": "One&amp;Only Aesthesis", "tag": "Booked", "nights": 3}
   ],
   "route_note": "All four hotels are booked. Drivers meet you at every port and airport, and Cali looks after your Mykonos transfers.",
-  "days_intro": "The yacht, the ferry and the transfers are arranged through Original Senses, my partner in Athens.",
+  "days_intro": "The boat, the ferry and the transfers are arranged through Original Senses, my partner in Athens.",
   "days": [
     {"date": "Sat June 26", "title": "Land on Mykonos", "note": "Fly in through Athens. Cali's team meets you at the airport and takes you to the hotel.", "tag": "Included with Cali"},
     {"date": "June 26 to 29", "title": "Cali, three nights", "note": "Its own beach below the suites, on the quiet east coast.", "tag": "Booked"},
-    {"date": "Tue June 29", "title": "Mykonos to Paros on a private yacht", "note": "An Azimut 55 with captain and host, swim stops on the way and your luggage on board. Cali takes you to the port.", "tag": "Arranged"},
+    {"date": "Tue June 29", "title": "Mykonos to Paros by private boat", "note": "A half-day private boat with a swim stop on the way and your luggage on board. Cali takes you to the port.", "tag": "Being priced", "soft": true},
     {"date": "June 29 to July 3", "title": "Parilio, four nights", "note": "Just outside Naoussa, with Cosme's beach club yours at no charge.", "tag": "Booked"},
     {"date": "Sat July 3", "title": "Paros to Santorini on the Blue Star Delos", "note": "One of the big conventional ferries that carry cars, so the crossing is far steadier. Leaves Paros at 11:45AM and arrives Santorini at 2:50PM, business seats for four.", "tag": "Arranged"},
     {"date": "July 3 to 6", "title": "Andronis Arcadia, three nights", "note": "A private pool, the ARCADemy kids club and the caldera.", "tag": "Booked"},
@@ -82,8 +82,8 @@
   "stay_bands": ["b-stone", "b-cream", "b-ink", "b-stone"],
   "next_title": "Your hotels are booked. Let's lock in the <em>logistics</em>",
   "next": [
-    "Pay the deposit once I send the updated link. It locks in the yacht, the ferry and every transfer; Original Senses will ask you to sign their agreement on the payment page first.",
-    "The Azimut 55 is now in the price for Mykonos to Paros; the Sunseeker and Aicon are there if you change your mind.",
+    "Pay the deposit once I send the updated link. It locks in the boat, the ferry and every transfer; Original Senses will ask you to sign their agreement on the payment page first.",
+    "Mykonos to Paros is being re-priced as a half day with a swim stop, on a sturdy boat. I'll send the options as soon as they come in.",
     "Send me your Santorini to Athens flight once it is booked, plus your flights into Mykonos and home from Athens."
   ]
 }
