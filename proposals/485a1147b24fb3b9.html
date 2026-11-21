@@ -8,6 +8,7 @@
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -28,7 +29,7 @@
   .stat { border: 1px solid rgba(242,239,230,.25); border-radius: 10px; padding: 12px 14px; }
   .stat b { display: block; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 30px; line-height: 1; }
   .stat span { font-size: 13px; opacity: .75; }
-  nav.toc { position: sticky; top: 0; z-index: 5; background: var(--paper); border-bottom: 1px solid var(--line); }
+  nav.toc { position: sticky; top: 0; z-index: 1000; background: var(--paper); border-bottom: 1px solid var(--line); }
   nav.toc .wrap { display: flex; gap: 18px; overflow-x: auto; padding: 12px 16px; white-space: nowrap; }
   nav.toc a { color: var(--ink); text-decoration: none; font-size: 14px; letter-spacing: .04em; }
   nav.toc a:hover { text-decoration: underline; }
@@ -84,6 +85,26 @@
   .box li { margin: 4px 0; }
   footer { margin-top: 56px; font-size: 13px; color: var(--muted); text-align: center; }
 
+
+  /* maps */
+  .mapbox { isolation: isolate; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  .map { height: 420px; width: 100%; background: #E9E5DA; }
+  .chips { display: flex; gap: 6px; overflow-x: auto; padding: 10px 12px; border-bottom: 1px solid var(--line); scrollbar-width: thin; }
+  .chip { flex: 0 0 auto; font: 600 12px/1 -apple-system, BlinkMacSystemFont, sans-serif; letter-spacing: .04em; padding: 8px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .route { list-style: none; padding: 6px 0; }
+  .route li { display: grid; grid-template-columns: 30px 64px 1fr; gap: 10px; padding: 7px 16px; align-items: baseline; font-size: 15px; }
+  .route .n { width: 24px; height: 24px; border-radius: 50%; font: 600 12px/24px -apple-system, BlinkMacSystemFont, sans-serif; text-align: center; color: #fff; }
+  .route .tm { font: 600 13px -apple-system, BlinkMacSystemFont, sans-serif; color: var(--muted); }
+  .route small { color: var(--muted); font-size: 13px; }
+  .mapfoot { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 10px 16px 14px; border-top: 1px solid #EEEADF; font-size: 14px; }
+  .mapfoot a { color: var(--ink); }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
+  .pin { width: 26px; height: 26px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); color: #fff; font: 700 12px/22px -apple-system, BlinkMacSystemFont, sans-serif; text-align: center; }
+  .leaflet-container { font-family: 'Newsreader', Georgia, serif; }
+  @media (max-width: 680px) { .map { height: 340px; } .route li { grid-template-columns: 30px 56px 1fr; padding: 7px 12px; } }
+
   @media (max-width: 680px) {
     .stay { grid-template-columns: 1fr; gap: 4px; }
     .stay .when b { display: inline; margin-right: 6px; }
@@ -106,14 +127,14 @@
     <div class="stats">
       <div class="stat"><b>13</b><span>nights, 10 beds</span></div>
       <div class="stat"><b>~30</b><span>hotels to see</span></div>
-      <div class="stat"><b>10</b><span>stays locked in</span></div>
-      <div class="stat"><b>0</b><span>London nights still TBD</span></div>
+      <div class="stat"><b>9 of 10</b><span>stays locked in</span></div>
+      <div class="stat"><b>2</b><span>Cotswolds nights not confirmed</span></div>
     </div>
   </div>
 </header>
 
 <nav class="toc"><div class="wrap">
-  <a href="#stays">Stays</a><a href="#london">London days</a><a href="#paris">Paris days</a><a href="#cotswolds">Cotswolds</a><a href="#actions">To do</a><a href="#flags">Watch-outs</a><a href="#content">Content plan</a>
+  <a href="#stays">Stays</a><a href="#maps">Maps</a><a href="#london">London days</a><a href="#paris">Paris days</a><a href="#cotswolds">Cotswolds</a><a href="#actions">To do</a><a href="#flags">Watch-outs</a><a href="#content">Content plan</a>
 </div></nav>
 
 <main class="wrap">
@@ -121,7 +142,7 @@
 <!-- ================= STAYS ================= -->
 <section id="stays">
   <h2>Where Keith sleeps</h2>
-  <p class="lede">Eight check-ins in fifteen days. Seven are locked in (45 Park Lane, The Dorchester, The Newman, Le Meurice, George V, Airelles, Daylesford); the rest hinge on replies this week.</p>
+  <p class="lede">Ten beds in thirteen nights. Every London and Paris night is confirmed; only the Cotswolds (Dec 7 to 9) is still open. Pins for all of them are on the <a href="#maps">map</a>.</p>
 
   <div class="city-tag">London</div>
   <div class="stays">
@@ -132,7 +153,7 @@
     </div>
     <div class="stay">
       <div class="when"><b>Nov 28 to 30</b>Sat, Sun · 2 nts</div>
-      <div><div class="name">The Newman</div><div class="note">Hosted. Move here Saturday after the Maybourne visits.</div></div>
+      <div><div class="name">The Newman</div><div class="note">Hosted. 50 Newman Street, Fitzrovia. Move here Saturday after Claridge&rsquo;s (or after the British Pullman, if Belmond confirms).</div></div>
       <span class="pill ok">Confirmed</span>
     </div>
     <div class="stay">
@@ -142,7 +163,7 @@
     </div>
     <div class="stay">
       <div class="when"><b>Dec 1</b>Tue · 1 nt</div>
-      <div><div class="name">St Clement</div><div class="note">Hosted by Mathilde Maitre (Commercial Director): complimentary night. Show-around at check-in, about 16:30. On the Strand, 15 minutes to St Pancras.</div></div>
+      <div><div class="name">St Clement</div><div class="note">Hosted by Mathilde Maitre (Commercial Director): complimentary night. Show-around at check-in, about 16:30. 12 Temple Place, on the Embankment by Temple station; 15 to 20 minutes to St Pancras. Confirmation #202510540.</div></div>
       <span class="pill ok">Confirmed</span>
     </div>
   </div>
@@ -156,13 +177,13 @@
     </div>
     <div class="stay">
       <div class="when"><b>Dec 4 to 5</b>Fri · 1 nt</div>
-      <div><div class="name">Four Seasons Hotel George V</div><div class="note">Hosted. Four Seasons called Keith on Nov 12 to offer the night.</div></div>
+      <div><div class="name">Four Seasons Hotel George V</div><div class="note">Hosted. Four Seasons called Keith on Nov 12 to offer the night, plus the intimate festive dinner for 50 at Le George that evening (invitation sent Nov 19).</div></div>
       <span class="pill ok">Confirmed</span>
     </div>
     <div class="stay">
       <div class="when"><b>Dec 5 to 6</b>Sat · 1 nt</div>
-      <div><div class="name">Hôtel Barrière Le Fouquet's</div><div class="note">Ben Djaha passed the ask to Claire Hanniet, Area Director of Sales in Paris, who handles hosted stays. Waiting on Claire.</div></div>
-      <span class="pill draft">Asking</span>
+      <div><div class="name">Hôtel Barrière Le Fouquet's</div><div class="note">Claire Hanniet (Area Director of Sales) confirmed a complimentary night with breakfast on Nov 17. Directly across Avenue George V from the Four Seasons.</div></div>
+      <span class="pill ok">Confirmed</span>
     </div>
     <div class="stay">
       <div class="when"><b>Dec 6 to 7</b>Sun · 1 nt</div>
@@ -175,8 +196,32 @@
   <div class="stays">
     <div class="stay">
       <div class="when"><b>Dec 7 to 9</b>Mon, Tue · 2 nts</div>
-      <div><div class="name">Daylesford</div><div class="note">Suggested by Becca Williams (Perowne); Nikita Kapustkin handles it. Draft asks to host Dec 7 to 9. Flight home is now Wed Dec 9; Estelle Manor dropped.</div></div>
-      <span class="pill draft">Asking</span>
+      <div><div class="name">Daylesford</div><div class="note">Not confirmed. Nikita Kapustkin (Perowne) handles it; the Nov 17 email only mentioned it softly, and nobody has replied. Also still to decide: fly home Dec 9 or Dec 10. Needs a direct ask (or a paid booking) this week.</div></div>
+      <span class="pill tbd">Open</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MAPS ================= -->
+<section id="maps">
+  <h2>Maps</h2>
+  <p class="lede">Every bed, then each day in order. Pins are numbered in the order you visit; tap one for the time. &ldquo;Open in Google Maps&rdquo; loads the day as a route on your phone.</p>
+
+  <h3 style="margin-bottom:8px">Where you&rsquo;re sleeping</h3>
+  <div class="mapbox">
+    <div class="chips" id="stayChips" role="group" aria-label="Region"></div>
+    <div class="map" id="stayMap" role="img" aria-label="Map of all hotel stays"></div>
+    <ol class="route" id="stayList"></ol>
+  </div>
+
+  <h3 style="margin:26px 0 8px">Day by day</h3>
+  <div class="mapbox">
+    <div class="chips" id="dayChips" role="group" aria-label="Day"></div>
+    <div class="map" id="dayMap" role="img" aria-label="Map of the selected day"></div>
+    <ol class="route" id="dayList"></ol>
+    <div class="mapfoot">
+      <div class="legend"><span><i style="background:#161712"></i>Bed</span><span><i style="background:#2F6B3F"></i>Visit, confirmed</span><span><i style="background:#8A5A00"></i>Visit, waiting or to send</span><span><i style="background:#8C877A"></i>Getting there</span></div>
+      <a id="gmaps" href="#" target="_blank" rel="noopener">Open this day in Google Maps</a>
     </div>
   </div>
 </section>
@@ -190,11 +235,12 @@
     <div class="day-head"><span class="d">Thu, Nov 26</span><span class="bed">Bed: 45 Park Lane (hosted)</span></div>
     <ul class="slots">
       <li><span class="t">9:40</span><span class="w"><b>Land at Heathrow</b><small>UA 27 from Denver (UA 2447 from Austin Nov 25, 3:05pm). Seat 5A. Confirmation B0N6CP.</small></span><span class="pill ok">Booked</span></li>
-      <li><span class="t">~11:30</span><span class="w"><b>Check in at 45 Park Lane, rest</b><small>Susannah Lurie. About an hour from Heathrow by car or the Elizabeth line.</small></span><span class="pill ok">Confirmed</span></li>
-      <li><span class="t">13:00</span><span class="w"><b>Coffee with Nikita Kapustkin (Perowne)</b><small>At The Dorchester, before Perowne heads to ILTM. Mathilde Maitre (St Clement) invited.</small></span><span class="pill wait">Sent</span></li>
-      <li><span class="t">14:30</span><span class="w"><b>The Connaught</b><small>Maybourne, weekday visit via Patrick (Cecily cc). About an hour. 10 minutes on foot from Park Lane.</small></span><span class="pill draft">Draft</span></li>
-      <li><span class="t">16:00</span><span class="w"><b>The Berkeley</b><small>Maybourne. About 10 minutes by car to Knightsbridge.</small></span><span class="pill draft">Draft</span></li>
-      <li><span class="t">17:15</span><span class="w"><b>The Emory</b><small>Maybourne. Next door to The Berkeley. Done around 18:15.</small></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">10:10</span><span class="w"><b>Blacklane to 45 Park Lane</b><small>Booking 357880527. About an hour into Mayfair.</small></span><span class="pill ok">Booked</span></li>
+      <li><span class="t">~11:15</span><span class="w"><b>Check in at 45 Park Lane, rest</b><small>Susannah Lurie. Reservation 45PLR013657397.</small></span><span class="pill ok">Confirmed</span></li>
+      <li><span class="t">13:00</span><span class="w"><b>Coffee with Nikita Kapustkin (Perowne)</b><small>At The Dorchester. You proposed it Nov 17; Nikita hasn&rsquo;t confirmed. Worth a one-line nudge.</small></span><span class="pill wait">Waiting</span></li>
+      <li><span class="t">14:30</span><span class="w"><b>The Connaught</b><small>Patrick Antille (Maybourne) offered weekday visits; you asked for Thursday from 14:30 with about an hour each. Waiting on Patrick. 10 minutes on foot from Park Lane.</small></span><span class="pill wait">Waiting</span></li>
+      <li><span class="t">16:00</span><span class="w"><b>The Berkeley</b><small>About 10 minutes by car to Knightsbridge.</small></span><span class="pill wait">Waiting</span></li>
+      <li><span class="t">17:15</span><span class="w"><b>The Emory</b><small>Next door to The Berkeley. Done around 18:15.</small></span><span class="pill wait">Waiting</span></li>
     </ul>
   </div>
 
@@ -212,7 +258,8 @@
   <div class="day">
     <div class="day-head"><span class="d">Sat, Nov 28</span><span class="bed">Bed: The Newman</span></div>
     <ul class="slots">
-      <li><span class="t">10:00</span><span class="w"><b>Claridge&rsquo;s</b><small>Lorenza Pezzetta (Maybourne). Asked for 10:30; assume 10:00 until she replies. Connaught, Berkeley and Emory moved to Thursday (weekday only).</small></span><span class="pill ok">Confirmed</span></li>
+      <li><span class="t">10:00</span><span class="w"><b>Claridge&rsquo;s</b><small>Lorenza Pezzetta (Maybourne). You asked for 10:30; no reply, so plan on 10:00.</small></span><span class="pill ok">Confirmed</span></li>
+      <li><span class="t">~11:30</span><span class="w"><b>Belmond British Pullman (option)</b><small>Bombay Sapphire Distillery day trip from London Victoria. Ashton Kelly passed it to Claire Bergdoll on Nov 21. Departure time unknown: if it leaves before about 11:30, Claridge&rsquo;s has to move (to Thu 26 at 12:00 or Fri 27 at 10:00).</small></span><span class="pill wait">Waiting</span></li>
       <li><span class="t">Late pm</span><span class="w"><b>Check out of The Dorchester, move to The Newman</b></span><span class="pill ok">Confirmed</span></li>
     </ul>
   </div>
@@ -240,8 +287,8 @@
     <ul class="slots">
       <li><span class="t">11:00</span><span class="w"><b>The Goring</b><small>Paula McColgan confirmed. Check out of MO Hyde Park first; it is about 10 minutes away. Then car to St Clement to drop bags (about 20 minutes) before Admiralty Arch at 13:00.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">13:00</span><span class="w"><b>Waldorf Astoria Admiralty Arch</b><small>Thomas Picceri hosts (Kane Savage at ILTM). Meet at The Trafalgar St. James next door. Complete the Knightbuild visitor induction beforehand. Opens January.</small></span><span class="pill ok">Confirmed</span></li>
-      <li><span class="t">14:00</span><span class="w"><b>Raffles London at The OWO</b><small>Mitch Matthews (Victoria Diez-Davies at ILTM). Draft asks 14:00.</small></span><span class="pill draft">Draft</span></li>
-      <li><span class="t">15:00</span><span class="w"><b>Corinthia London</b><small>Marianne Kassapian. No comp available, so visit only; reply drafted confirming 15:00.</small></span><span class="pill wait">Waiting</span></li>
+      <li><span class="t">14:00</span><span class="w"><b>Raffles London at The OWO</b><small>Mitch Matthews confirmed Nov 19 (&ldquo;looking forward to meeting you on the 1st&rdquo;).</small></span><span class="pill ok">Confirmed</span></li>
+      <li><span class="t">15:00</span><span class="w"><b>Corinthia London</b><small>Marianne Kassapian. You passed on the paid stay and confirmed 15:00; no reply since. Marianne asked for the date, so it should stand.</small></span><span class="pill wait">Waiting</span></li>
     </ul>
     <div class="flag">Waldorf Astoria Admiralty Arch, The OWO and Corinthia are all within a 10-minute walk of each other.</div>
   </div>
@@ -267,7 +314,7 @@
       <li><span class="t">10:30</span><span class="w"><b>Hôtel de Crillon</b><small>Carla Zekri. 5-minute walk from Le Meurice.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">12:00</span><span class="w"><b>Cheval Blanc Paris</b><small>Eléonore Coyral (Lucile Koltuniak at ILTM). Optional thank-you drafted.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">14:30</span><span class="w"><b>J.K. Place Paris</b><small>Riccardo Ortogni.</small></span><span class="pill ok">Confirmed</span></li>
-      <li><span class="t">16:00</span><span class="w"><b>Mandarin Oriental Lutetia</b><small>Draft to Julien Guillon (Deputy Commercial Director), Tom Puleio cc, not sent yet.</small></span><span class="pill tbd">Send</span></li>
+      <li><span class="t">16:00</span><span class="w"><b>Mandarin Oriental Lutetia</b><small>Still not requested: the draft to Julien Guillon (Tom Puleio cc) has sat unsent since Nov 12. Send it now or drop this visit.</small></span><span class="pill tbd">Send</span></li>
     </ul>
     <div class="flag">Crillon is a 5-minute walk from Le Meurice; Cheval Blanc is about 10 minutes by car. Lunch near the Louvre, then walk across the Pont des Arts to J.K. Place (10 minutes) and on to Lutetia (10 minutes).</div>
   </div>
@@ -275,44 +322,37 @@
   <div class="day">
     <div class="day-head"><span class="d">Fri, Dec 4</span><span class="bed">Bed: Four Seasons George V (hosted)</span></div>
     <ul class="slots">
-      <li><span class="t">11:00</span><span class="w"><b>Ritz Paris</b><small>Sarah Ferron can&rsquo;t do Wed 16:00; offered Wed am, Thu 10:00 to 16:00 or Fri am. Reply drafted asking Fri 11:00, straight from Le Meurice.</small></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">11:00</span><span class="w"><b>Ritz Paris</b><small>Sarah Ferron confirmed Nov 16 and sent a calendar invite. 5 minutes on foot from Le Meurice.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">am</span><span class="w"><b>Check out of Le Meurice, move to George V</b></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">later</span><span class="w"><b>Four Seasons George V</b><small>Tour during the hosted stay (Elodie Choquet); time is flexible since you are staying.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">13:30</span><span class="w"><b>Hôtel Plaza Athénée</b>, with lunch<small>Georges-Alexis Dedeyan.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">15:00</span><span class="w"><b>La Réserve Paris</b><small>Alexis Cases.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">16:15</span><span class="w"><b>Le Bristol</b><small>Pierre Lecomte.</small></span><span class="pill ok">Confirmed</span></li>
+      <li><span class="t">Evening</span><span class="w"><b>Festive dinner at Le George</b><small>Four Seasons George V, about 50 guests. Invitation attached to the Nov 19 email; check the start time and RSVP.</small></span><span class="pill tbd">RSVP</span></li>
     </ul>
     <div class="flag">Everything today is in the 8th, within a 15-minute walk of George V.</div>
   </div>
 
   <div class="day">
-    <div class="day-head"><span class="d">Sat, Dec 5</span><span class="bed">Bed: Le Fouquet&rsquo;s (asking)</span></div>
+    <div class="day-head"><span class="d">Sat, Dec 5</span><span class="bed">Bed: Le Fouquet&rsquo;s (hosted)</span></div>
     <ul class="slots">
-      <li><span class="t">All day</span><span class="w"><b>Buffer</b><small>Catch-up slot for any visit that slips, and writing time.</small></span><span></span></li>
+      <li><span class="t">All day</span><span class="w"><b>Buffer</b><small>Move across the street to Fouquet&rsquo;s. Catch-up slot for any visit that slips, and writing time.</small></span><span class="pill idea">Free</span></li>
     </ul>
   </div>
 
   <div class="day">
     <div class="day-head"><span class="d">Sun, Dec 6</span><span class="bed">Bed: Airelles Le Grand Contrôle (hosted)</span></div>
     <ul class="slots">
-      <li><span class="t">11:00</span><span class="w"><b>Shangri-La Paris</b><small>Inthira Srisethnil (Global Luxury Sales). Draft updated asking Sun 11:00; Sunday, so ask for someone on duty. Bags in the car.</small></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">11:00</span><span class="w"><b>Shangri-La Paris</b><small>Timothee Lardy (Senior Sales Manager). You asked for Sun 11:00 on Nov 18; no reply yet. Bags in the car.</small></span><span class="pill wait">Waiting</span></li>
       <li><span class="t">12:15</span><span class="w"><b>Car to Versailles</b><small>About 35 to 40 minutes on a Sunday. Drop bags at Airelles first (about 12:55), then walk 10 minutes to Trianon Palace.</small></span><span class="pill tbd">Book car</span></li>
-      <li><span class="t">13:00</span><span class="w"><b>Waldorf Astoria Trianon Palace</b><small>Asking Thomas Picceri for an intro. Keep it to about an hour; ready-made Airelles vs Trianon Palace page.</small></span><span class="pill draft">Draft</span></li>
+      <li><span class="t">13:00</span><span class="w"><b>Waldorf Astoria Trianon Palace</b><small>Not requested: the draft asking Thomas Picceri for an intro was never sent. Send it, or ask Thomas in person on Dec 1 at Admiralty Arch.</small></span><span class="pill tbd">Send</span></li>
       <li><span class="t">14:15</span><span class="w"><b>Check in at Airelles, photograph in daylight</b><small>Sunset about 16:55 and the light goes flat by about 16:15, so shoot exteriors and the gardens first, rooms after. Backup light Mon morning from about 8:45.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">17:45</span><span class="w"><b>After-hours Palace of Versailles tour</b><small>Included with the stay; ends 19:30. Late arrivals can&rsquo;t join once it starts.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">20:00</span><span class="w"><b>Royal Feast dinner, Alain Ducasse</b><small>Included with the stay; table for 2.</small></span><span class="pill ok">Confirmed</span></li>
     </ul>
   </div>
 
-  <div class="day">
-    <div class="day-head"><span class="d">Mon, Dec 7</span><span class="bed">Bed: Cotswolds</span></div>
-    <ul class="slots">
-      <li><span class="t">9:40</span><span class="w"><b>Guided tour of the Estate of Trianon</b><small>Included with the stay; ends 11:30. Open to Airelles guests even though the estate is closed Mondays. Quick photos from 8:45 before it starts.</small></span><span class="pill ok">Confirmed</span></li>
-      <li><span class="t">11:45</span><span class="w"><b>Leave Versailles</b> by car to Gare du Nord<small>Ask the butler (Thomas) to arrange the car. About an hour on a Monday.</small></span><span class="pill tbd">Book car</span></li>
-      <li><span class="t">pm</span><span class="w"><b>Eurostar</b> to St Pancras, then on to the Cotswolds<small>About 6 to 7 hours door to door. Book a mid-afternoon train with slack.</small></span><span class="pill tbd">Book</span></li>
-    </ul>
-  </div>
-
+  
 </section>
 
 <!-- ================= COTSWOLDS ================= -->
@@ -320,19 +360,21 @@
   <h2>Cotswolds</h2>
   <p class="lede">Dec 7 to 9, then Heathrow.</p>
   <div class="day">
-    <div class="day-head"><span class="d">Mon, Dec 7</span><span class="bed">Bed: Daylesford (asking)</span></div>
+    <div class="day-head"><span class="d">Mon, Dec 7</span><span class="bed">Bed: Daylesford (not confirmed)</span></div>
     <ul class="slots">
+      <li><span class="t">8:45</span><span class="w"><b>Morning-light photos at Airelles</b><small>Light from about 8:45.</small></span><span class="pill idea">Plan</span></li>
+      <li><span class="t">9:40</span><span class="w"><b>Guided tour of the Estate of Trianon</b><small>Included with the stay; ends 11:30. Open to Airelles guests even though the estate is closed Mondays.</small></span><span class="pill ok">Confirmed</span></li>
       <li><span class="t">11:45</span><span class="w"><b>Leave Airelles</b> by car to Gare du Nord<small>Right after the Trianon tour. About an hour on a weekday, so at the station around 12:45. Eurostar gates close 30 minutes before departure and border lines can be long.</small></span><span class="pill tbd">Book car</span></li>
       <li><span class="t">~14:00</span><span class="w"><b>Eurostar</b> to St Pancras<small>A 13:00 train is too tight after the Trianon tour; book the first departure after about 13:45. About 2h20 minus the hour time change, so around 15:20 in London.</small></span><span class="pill tbd">Book</span></li>
       <li><span class="t">~16:00</span><span class="w"><b>On to Daylesford</b><small>Either a car from St Pancras (about 2 to 2.5 hours) or a taxi to Paddington, the train to Kingham (about 1h25), and a 10-minute pickup. Around 18:00 to 18:30 either way.</small></span><span class="pill tbd">Book</span></li>
     </ul>
   </div>
   <div class="day">
-    <div class="day-head"><span class="d">Tue, Dec 8</span><span class="bed">Bed: Daylesford (asking)</span></div>
+    <div class="day-head"><span class="d">Tue, Dec 8</span><span class="bed">Bed: Daylesford (not confirmed)</span></div>
     <ul class="slots"><li><span class="t">All day</span><span class="w"><b>Daylesford</b><small>Farm, spa and cottages. Nearby Soho Farmhouse and Estelle Manor are options for a quick look.</small></span><span></span></li></ul>
   </div>
   <div class="day">
-    <div class="day-head"><span class="d">Wed, Dec 9</span><span class="bed">Fly home</span></div>
+    <div class="day-head"><span class="d">Wed, Dec 9</span><span class="bed">Fly home (flight time still to confirm)</span></div>
     <ul class="slots"><li><span class="t">TBC</span><span class="w"><b>Car to Heathrow</b><small>About 1.5 hours. If the flight allows, stop at Coworth Park (Dorchester Collection, near Ascot) on the way for a site visit or lunch.</small></span><span class="pill tbd">Book</span></li></ul>
   </div>
 </section>
@@ -340,41 +382,40 @@
 <!-- ================= ACTIONS ================= -->
 <section id="actions">
   <h2>To do</h2>
-  <p class="lede">As of Mon, Nov 16. Email style: no em dashes; drafts end at "Best, Keith"; say "property", not "house".</p>
+  <p class="lede">Reviewed against the inbox on Sat, Nov 21. Email style: no em dashes; drafts end at "Best, Keith"; say "property", not "house".</p>
 
-  <div class="group-label">Drafts ready to send</div>
+  <div class="group-label">Send now (drafts sitting in Gmail or never sent)</div>
   <ol class="actions">
-    <li>Firmdale: thank Jihan Bowes, pass on the paid night, keep the Mon 30 visits.</li>
-    <li>MO Hyde Park: Ayfer Bedir, intro to MO Mayfair for Mon 12:30.</li>
-    <li>Ritz Paris: Sarah Ferron, Fri Dec 4 at 11:00.</li>
-    <li>Perowne: Nikita Kapustkin, St Clement site visit (Mon 30 or Tue 1) and Daylesford Dec 7 to 9.</li>
-    <li>Queen of Clubs: Kerry, experience ideas for the open evenings and Sat Dec 5.</li>
-    <li>Firmdale: Martina Berducci and Laura Cruz, Mon 30 afternoon (Charlotte Street, The Soho, Ham Yard).</li>
-    <li>MO Lutetia: Julien Guillon, Thu Dec 3 at 16:00.</li>
-    <li>Waldorf Astoria: complete the Knightbuild visitor induction when it arrives.</li>
+    <li><b>MO Mayfair:</b> reply to May Kitane (Elif and Tom cc) asking Mon Nov 30 at 12:30 with lunch at Hanover Bar. Drafted, not sent.<small>May is back Mon Nov 23.</small></li>
+    <li><b>MO Lutetia:</b> the Nov 12 draft to Julien Guillon for Thu Dec 3 at 16:00 was never sent.<small>Send it, or drop the slot and end Thursday after J.K. Place.</small></li>
+    <li><b>Waldorf Astoria Trianon Palace:</b> the intro ask to Thomas Picceri for Sun Dec 6 at 13:00 was never sent.<small>Or ask Thomas in person on Dec 1 at Admiralty Arch, though that is late for a Sunday visit.</small></li>
+    <li><b>Daylesford (Dec 7 to 9):</b> make a direct ask to Nikita, or book it. Decide Dec 9 vs Dec 10 for the flight first.</li>
+    <li><b>Le George dinner, Fri Dec 4:</b> open the Four Seasons invitation (Nov 19), note the time, RSVP.</li>
+    <li><b>Waldorf Astoria Admiralty Arch:</b> complete the Knightbuild visitor induction when it arrives.</li>
   </ol>
 
-  <div class="group-label">Waiting on others</div>
-  <ol class="actions" start="9">
-    <li>Claire Hanniet (Barrière Paris) on a hosted night at Fouquet's, Sat Dec 5. Ben Djaha made the intro.</li>
-    <li>Jacklyn Minker (Cambridge House) to confirm Fri 27 at 14:30.</li>
-    <li>Maybourne (Cecily Hamilton) for Sat Nov 28.</li>
-    <li>MO Mayfair (Elif Kochan), the Goring (Charlotte).</li>
-    <li>OWO (Mitch); Shangri-La Paris (Timothee Lardy).</li>
+  <div class="group-label">Waiting on replies</div>
+  <ol class="actions" start="7">
+    <li>Patrick Antille (Maybourne): The Connaught, The Berkeley and The Emory on Thu Nov 26 from 14:30.</li>
+    <li>Claire Bergdoll (Belmond): British Pullman on Sat Nov 28. Get the departure time before anything else; it decides whether Claridge&rsquo;s moves.</li>
+    <li>Lorenza (Claridge&rsquo;s): 10:30 instead of 10:00 on Sat Nov 28.</li>
+    <li>Nikita Kapustkin: coffee Thu Nov 26 at 13:00 at The Dorchester.</li>
+    <li>Jacklyn Minker (Cambridge House): Fri Nov 27 at 14:30. No reply since Nov 14; nudge Monday.</li>
+    <li>Marianne Kassapian (Corinthia): Tue Dec 1 at 15:00.</li>
+    <li>Timothee Lardy (Shangri-La Paris): Sun Dec 6 at 11:00.</li>
   </ol>
 
   <div class="group-label">Bookings to make</div>
-  <ol class="actions" start="20">
-    <li>Eurostar London to Paris, Wed Dec 2, leaving around 10:00 (arrive about 13:20).</li>
-    <li>Eurostar Paris to London, Mon Dec 7, around 14:00.</li>
-    <li>Car: Heathrow to 45 Park Lane, Thu Nov 26 after the 9:40 landing (ask The Dorchester first).</li>
-    <li>Car: London hotel to St Pancras, Wed Dec 2 morning.</li>
+  <ol class="actions" start="14">
+    <li>Eurostar London to Paris, Wed Dec 2, around 10:00 (arrive about 13:20). St Clement is 15 to 20 minutes from St Pancras.</li>
+    <li>Eurostar Paris to London, Mon Dec 7, first departure after about 13:45.</li>
     <li>Car: Gare du Nord to Le Meurice, Wed Dec 2 afternoon.</li>
-    <li>Car: Paris hotel to Airelles Versailles, Sun Dec 6, arriving 14:00.</li>
-    <li>Car: Airelles to Gare du Nord, Mon Dec 7 at 11:30.</li>
-    <li>St Pancras to Daylesford, Mon Dec 7 (car, or train from Paddington to Kingham).</li>
-    <li>Car: Daylesford to Heathrow, Wed Dec 9.</li>
+    <li>Car: Fouquet&rsquo;s to Shangri-La to Versailles, Sun Dec 6 (one car, bags on board).</li>
+    <li>Car: Airelles to Gare du Nord, Mon Dec 7 at 11:45 (ask the Airelles butler).</li>
+    <li>St Pancras to Daylesford, Mon Dec 7 (car, or Paddington to Kingham by train).</li>
+    <li>Car: Daylesford to Heathrow, Wed Dec 9, once the flight time is set.</li>
   </ol>
+  <p class="lede" style="margin-top:10px">Done: Blacklane Heathrow to 45 Park Lane, Thu Nov 26 at 10:10 (booking 357880527).</p>
 </section>
 
 <!-- ================= FLAGS ================= -->
@@ -384,17 +425,18 @@
     <div class="box">
       <h3>Busy dates</h3>
       <ul>
-        <li><b>Rugby Nations Championship finals, Nov 27 to 29.</b> London hotels busiest those nights. Now covered: 45 Park Lane and The Dorchester host Nov 26 and 27.</li>
-        <li><b>ILTM Cannes, about Nov 30 to Dec 3.</b> Overlaps Mon and Tue in London and Wed and Thu in Paris. Ask each contact who will host if they're in Cannes.</li>
+        <li><b>Rugby Nations Championship finals, Nov 27 to 29.</b> London hotels busiest those nights; your beds are already confirmed.</li>
+        <li><b>ILTM Cannes, about Nov 30 to Dec 3.</b> Most sales directors are away; your London and Paris hosts have handed you to colleagues (May at MO Mayfair, Lorenza at Claridge&rsquo;s, Thomas at Admiralty Arch).</li>
       </ul>
     </div>
     <div class="box">
-      <h3>Schedule conflicts</h3>
+      <h3>Schedule pressure points</h3>
       <ul>
-        <li>Tue Dec 1 is a move day: check out of MO Hyde Park, Goring 11:00, drop bags at St Clement on the way to Admiralty Arch at 13:00.</li>
-        <li>Fri 27 is now full: Chancery, Lanesborough, Cambridge House, then the Savoy.</li>
-        <li>If Versailles lands on Sat Dec 5 instead, skip Fouquet's as a stay (visit only) and find a Paris bed for Sunday.</li>
-        <li>Wed Dec 2: Le Meurice at 14:30 and the Ritz at 16:00 need the ~10:00 Eurostar.</li>
+        <li><b>Thu Nov 26:</b> land 9:40 and work until about 18:15 if Maybourne says yes. Long first day after an overnight flight.</li>
+        <li><b>Sat Nov 28:</b> Claridge&rsquo;s at 10:00 versus the British Pullman. Settle the train time first.</li>
+        <li><b>Tue Dec 1:</b> move day plus five stops. Drop bags at St Clement between the Goring and Admiralty Arch; everything after 13:00 is walkable.</li>
+        <li><b>Fri Dec 4:</b> check out of Le Meurice, Ritz at 11:00, then four Right Bank visits and the Le George dinner.</li>
+        <li><b>Sun Dec 6:</b> the 17:45 palace tour can&rsquo;t be joined late, and the light goes at about 16:15.</li>
       </ul>
     </div>
   </div>
@@ -461,5 +503,161 @@
 
 <footer>Unlisted working plan · Suites With Keith · Updated Nov 14, 2026</footer>
 </main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(function () {
+  if (!window.L) return;
+  var P = {
+    lhr: ['Heathrow Airport', 51.4700, -0.4543, 'London'],
+    pl45: ['45 Park Lane', 51.5066, -0.1513, 'London'],
+    dor: ['The Dorchester', 51.5073, -0.1520, 'London'],
+    con: ['The Connaught', 51.5103, -0.1497, 'London'],
+    ber: ['The Berkeley', 51.5017, -0.1568, 'London'],
+    emo: ['The Emory', 51.5025, -0.1576, 'London'],
+    chan: ['Chancery Rosewood', 51.5116, -0.1525, 'London'],
+    lan: ['The Lanesborough', 51.5024, -0.1522, 'London'],
+    cam: ['Cambridge House, 94 Piccadilly', 51.5058, -0.1468, 'London'],
+    sav: ['The Savoy', 51.5104, -0.1205, 'London'],
+    cla: ['Claridge’s', 51.5126, -0.1477, 'London'],
+    vic: ['London Victoria (British Pullman)', 51.4952, -0.1441, 'London'],
+    new: ['The Newman, 50 Newman Street', 51.5180, -0.1360, 'London'],
+    mohp: ['Mandarin Oriental Hyde Park', 51.5022, -0.1600, 'London'],
+    momf: ['Mandarin Oriental Mayfair', 51.5140, -0.1435, 'London'],
+    soho: ['The Soho Hotel', 51.5148, -0.1336, 'London'],
+    ham: ['Ham Yard Hotel', 51.5106, -0.1350, 'London'],
+    gor: ['The Goring', 51.4975, -0.1459, 'London'],
+    stc: ['St Clement, 12 Temple Place', 51.5112, -0.1137, 'London'],
+    adm: ['Waldorf Astoria Admiralty Arch', 51.5068, -0.1290, 'London'],
+    owo: ['Raffles London at The OWO', 51.5047, -0.1263, 'London'],
+    cor: ['Corinthia London', 51.5066, -0.1243, 'London'],
+    stp: ['St Pancras International', 51.5313, -0.1263, 'London'],
+    gdn: ['Gare du Nord', 48.8809, 2.3553, 'Paris'],
+    meu: ['Le Meurice', 48.8651, 2.3282, 'Paris'],
+    cri: ['Hôtel de Crillon', 48.8676, 2.3212, 'Paris'],
+    chb: ['Cheval Blanc Paris', 48.8589, 2.3426, 'Paris'],
+    jkp: ['J.K. Place Paris', 48.8551, 2.3243, 'Paris'],
+    lut: ['Mandarin Oriental Lutetia', 48.8511, 2.3272, 'Paris'],
+    ritz: ['Ritz Paris', 48.8680, 2.3290, 'Paris'],
+    fsgv: ['Four Seasons Hotel George V', 48.8688, 2.3006, 'Paris'],
+    pla: ['Hôtel Plaza Athénée', 48.8662, 2.3043, 'Paris'],
+    res: ['La Réserve Paris', 48.8697, 2.3132, 'Paris'],
+    bri: ['Le Bristol Paris', 48.8718, 2.3148, 'Paris'],
+    fqt: ['Hôtel Fouquet’s Paris', 48.8718, 2.3011, 'Paris'],
+    shg: ['Shangri-La Paris', 48.8637, 2.2934, 'Paris'],
+    air: ['Airelles Château de Versailles, Le Grand Contrôle', 48.8029, 2.1224, 'Versailles'],
+    tri: ['Waldorf Astoria Versailles Trianon Palace', 48.8093, 2.1240, 'Versailles'],
+    cha: ['Château de Versailles', 48.8049, 2.1204, 'Versailles'],
+    ptr: ['Petit Trianon', 48.8156, 2.1096, 'Versailles'],
+    day: ['Daylesford Organic Farm', 51.9334, -1.6464, 'Cotswolds'],
+    cow: ['Coworth Park', 51.4075, -0.6137, 'Ascot']
+  };
+  var C = { bed: '#161712', ok: '#2F6B3F', wait: '#8A5A00', move: '#8C877A' };
+
+  // [time, place key, kind, note, skipBounds]
+  var DAYS = [
+    ['Thu 26', 'Thu, Nov 26', [['9:40','lhr','move','Land; Blacklane at 10:10',1],['~11:15','pl45','bed','Check in'],['13:00','dor','wait','Coffee with Nikita'],['14:30','con','wait','Maybourne, about an hour'],['16:00','ber','wait','Maybourne'],['17:15','emo','wait','Maybourne, next door'],['Night','pl45','bed','Back to 45 Park Lane']]],
+    ['Fri 27', 'Fri, Nov 27', [['am','dor','bed','Move next door to The Dorchester'],['11:00','chan','ok',''],['12:30','lan','ok','Visit and lunch, leave 14:15'],['14:30','cam','wait','Hard-hat tour to 16:00'],['16:30','sav','ok',''],['Night','dor','bed','']]],
+    ['Sat 28', 'Sat, Nov 28', [['10:00','cla','ok','Lorenza'],['~11:30','vic','wait','British Pullman, if Belmond confirms'],['Late pm','new','bed','Check in to The Newman']]],
+    ['Sun 29', 'Sun, Nov 29', [['All day','new','bed','Personal plans']]],
+    ['Mon 30', 'Mon, Nov 30', [['am','new','move','Check out'],['11:00','mohp','ok','Ayfer; check in after'],['12:30','momf','wait','May Kitane, lunch at Hanover Bar'],['14:45','soho','ok','Laura Cruz'],['~15:45','ham','ok','Walk over with Laura'],['Night','mohp','bed','']]],
+    ['Tue 1', 'Tue, Dec 1', [['am','mohp','move','Check out'],['11:00','gor','ok','Paula McColgan'],['~12:30','stc','move','Drop bags'],['13:00','adm','ok','Thomas Picceri'],['14:00','owo','ok','Mitch Matthews'],['15:00','cor','wait','Marianne Kassapian'],['16:30','stc','bed','Show-around and check-in']]],
+    ['Wed 2', 'Wed, Dec 2', [['~9:15','stc','move','Check out'],['~10:00','stp','move','Eurostar'],['~13:20','gdn','move','Arrive Paris'],['14:30','meu','bed','Tour, then check in']]],
+    ['Thu 3', 'Thu, Dec 3', [['10:30','cri','ok','5 minutes on foot'],['12:00','chb','ok',''],['14:30','jkp','ok',''],['16:00','lut','wait','Draft never sent'],['Night','meu','bed','']]],
+    ['Fri 4', 'Fri, Dec 4', [['am','meu','move','Check out'],['11:00','ritz','ok',''],['~12:30','fsgv','move','Drop bags'],['13:30','pla','ok','With lunch'],['15:00','res','ok',''],['16:15','bri','ok',''],['Evening','fsgv','bed','Le George dinner, then stay']]],
+    ['Sat 5', 'Sat, Dec 5', [['am','fsgv','move','Check out'],['Day','fqt','bed','Across the street; buffer day']]],
+    ['Sun 6', 'Sun, Dec 6', [['am','fqt','move','Check out, bags in the car'],['11:00','shg','wait','Timothee Lardy'],['~12:55','air','move','Drop bags'],['13:00','tri','wait','Ask not sent yet'],['17:45','cha','ok','After-hours palace tour'],['Night','air','bed','Royal Feast dinner at 20:00']]],
+    ['Mon 7', 'Mon, Dec 7', [['9:40','ptr','ok','Trianon estate tour to 11:30'],['11:45','air','move','Car to Gare du Nord'],['~14:00','gdn','move','Eurostar'],['~15:20','stp','move','Arrive London'],['~18:30','day','bed','Not confirmed yet']]],
+    ['Tue 8', 'Tue, Dec 8', [['All day','day','bed','Not confirmed yet']]],
+    ['Wed 9', 'Wed, Dec 9', [['am','day','move','Check out'],['Optional','cow','wait','Coworth Park on the way'],['Flight','lhr','move','Fly home']]]
+  ];
+
+  var STAYS = [
+    ['Nov 26','pl45'],['Nov 27','dor'],['Nov 28–29','new'],['Nov 30','mohp'],['Dec 1','stc'],
+    ['Dec 2–3','meu'],['Dec 4','fsgv'],['Dec 5','fqt'],['Dec 6','air'],['Dec 7–8','day']
+  ];
+  var REGIONS = [['All',null],['London',['London']],['Paris & Versailles',['Paris','Versailles']],['Cotswolds',['Cotswolds']]];
+
+  function tiles(m) {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19, subdomains: 'abcd',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    }).addTo(m);
+  }
+  function pin(n, color) {
+    return L.divIcon({ className: '', html: '<div class="pin" style="background:' + color + '">' + n + '</div>', iconSize: [26, 26], iconAnchor: [13, 13], popupAnchor: [0, -12] });
+  }
+  function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function chips(el, labels, onPick) {
+    var btns = labels.map(function (lab, i) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'chip'; b.textContent = lab;
+      b.addEventListener('click', function () { pick(i); });
+      el.appendChild(b); return b;
+    });
+    function pick(i) {
+      btns.forEach(function (b, j) { b.setAttribute('aria-pressed', i === j ? 'true' : 'false'); });
+      onPick(i);
+    }
+    return pick;
+  }
+  function fit(m, pts) {
+    if (!pts.length) return;
+    if (pts.length === 1) { m.setView(pts[0], 15); return; }
+    m.fitBounds(L.latLngBounds(pts), { padding: [34, 34], maxZoom: 16 });
+  }
+
+  // Stays map
+  var sm = L.map('stayMap', { scrollWheelZoom: false }); tiles(sm);
+  var sLayer = L.layerGroup().addTo(sm);
+  var sList = document.getElementById('stayList');
+  var pickRegion = chips(document.getElementById('stayChips'), REGIONS.map(function (r) { return r[0]; }), function (ri) {
+    sLayer.clearLayers(); sList.innerHTML = '';
+    var want = REGIONS[ri][1], pts = [];
+    STAYS.forEach(function (st, i) {
+      var pl = P[st[1]];
+      if (want && want.indexOf(pl[3]) < 0) return;
+      var ll = [pl[1], pl[2]]; pts.push(ll);
+      L.marker(ll, { icon: pin(i + 1, C.bed) }).bindPopup('<b>' + esc(pl[0]) + '</b><br>' + esc(st[0])).addTo(sLayer);
+      var li = document.createElement('li');
+      li.innerHTML = '<span class="n" style="background:' + C.bed + '">' + (i + 1) + '</span><span class="tm">' + esc(st[0]) + '</span><span>' + esc(pl[0]) + '</span>';
+      sList.appendChild(li);
+    });
+    fit(sm, pts);
+  });
+
+  // Day map
+  var dm = L.map('dayMap', { scrollWheelZoom: false }); tiles(dm);
+  var dLayer = L.layerGroup().addTo(dm);
+  var dList = document.getElementById('dayList'), g = document.getElementById('gmaps');
+  var pickDay = chips(document.getElementById('dayChips'), DAYS.map(function (d) { return d[0]; }), function (di) {
+    dLayer.clearLayers(); dList.innerHTML = '';
+    var stops = DAYS[di][2], line = [], fitPts = [], seen = {}, names = [], n = 0, rank = { bed: 3, ok: 2, wait: 1, move: 0 }, best = {};
+    stops.forEach(function (st) { if (best[st[1]] === undefined || rank[st[2]] > rank[best[st[1]]]) best[st[1]] = st[2]; });
+    stops.forEach(function (st) {
+      var pl = P[st[1]], ll = [pl[1], pl[2]], key = st[1], col = C[best[key]];
+      line.push(ll); if (!st[4]) fitPts.push(ll);
+      if (!names.length || names[names.length - 1] !== key) names.push(key);
+      var label;
+      if (seen[key]) { label = seen[key]; }
+      else { n += 1; label = n; seen[key] = n;
+        L.marker(ll, { icon: pin(label, col) }).bindPopup('<b>' + esc(pl[0]) + '</b><br>' + esc(st[0]) + (st[3] ? ' · ' + esc(st[3]) : '')).addTo(dLayer); }
+      var li = document.createElement('li');
+      li.innerHTML = '<span class="n" style="background:' + col + '">' + label + '</span><span class="tm">' + esc(st[0]) + '</span><span>' + esc(pl[0]) + (st[3] ? ' <small>' + esc(st[3]) + '</small>' : '') + '</span>';
+      dList.appendChild(li);
+    });
+    if (line.length > 1) L.polyline(line, { color: '#161712', weight: 2, opacity: .55, dashArray: '5 6' }).addTo(dLayer);
+    fit(dm, fitPts.length ? fitPts : line);
+    var q = names.map(function (k) { return encodeURIComponent(P[k][0] + ', ' + P[k][3]); });
+    g.href = q.length === 1
+      ? 'https://www.google.com/maps/search/?api=1&query=' + q[0]
+      : 'https://www.google.com/maps/dir/?api=1&origin=' + q[0] + '&destination=' + q[q.length - 1] + (q.length > 2 ? '&waypoints=' + q.slice(1, -1).join('%7C') : '');
+  });
+
+  pickRegion(0);
+  var today = new Date(), start = new Date(2026, 10, 26), idx = Math.floor((today - start) / 864e5);
+  pickDay(idx >= 0 && idx < DAYS.length ? idx : 0);
+})();
+</script>
 </body>
 </html>
