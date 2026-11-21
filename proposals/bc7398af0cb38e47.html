@@ -85,6 +85,9 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 /* Buttons: olive fill, sharp corners */
 .btn{display:inline-block;background:var(--olive);color:var(--plaster)!important;text-decoration:none;padding:16px 28px;font-family:var(--display);text-transform:uppercase;letter-spacing:.16em;font-size:15px}
 .btn:hover{background:#3E4336}
+.btn.outline{background:transparent;color:var(--olive)!important;border:1px solid var(--olive);padding:15px 27px}
+.btn.outline:hover{background:var(--olive);color:var(--plaster)!important}
+.fee{border:1px solid var(--hair);background:var(--plaster-2);padding:32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:24px 44px;align-items:center}
 .links{display:flex;flex-wrap:wrap;gap:12px 28px}
 .links a{font-family:var(--display);text-transform:uppercase;letter-spacing:.2em;font-size:14px;text-decoration:none}
 
@@ -276,6 +279,7 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <h2>Private boats, not <em>ferries</em></h2>
 <p>The ferries between these three islands are infrequent and run on their own schedule, not yours. I'd move you by private boat both times: you leave when you're ready, your bags are handled, and a driver is waiting at the port on the other side.</p>
 <p class="label sm muted">Quoted separately</p>
+<p class="note">Or hand all of it to me with my planning fee, below.</p>
 </div>
 <div style="display:flex;flex-direction:column;border-top:1px solid var(--hair)">
 <div style="padding:20px 0;border-bottom:1px solid var(--hair);display:flex;flex-direction:column;gap:10px">
@@ -336,8 +340,19 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <p>I book it. Your rates are held through my Fora quote and paid directly to each hotel, with free cancellation until the dates above.</p>
 </div>
 </div>
+<div class="fee">
+<div class="stack" style="gap:10px">
+<p class="label sm">Want me to handle the whole thing?</p>
+<p>Booking the hotels through me costs you nothing. If you'd like me to handle everything in between too (ferries, private boat transfers, port and airport pickups, private boat days, dinner reservations), I charge a $500 planning fee for the trip, and you won't have to think about any of it.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;align-items:flex-start">
+<p style="font-family:var(--display);font-size:40px;line-height:1">$500</p>
+<p class="note">One planning fee for the full ten days.</p>
+</div>
+</div>
 <div style="display:flex;flex-wrap:wrap;gap:12px;padding-top:8px">
 <a class="btn" href="https://trips.foratravel.com/quotes/suites-with-keith/GVF18jEi5E" target="_blank" rel="noopener">View your bookable quote</a>
+<a class="btn outline" href="https://secure.foratravel.com/invoices/suites-with-keith/SipA1oEiU9" target="_blank" rel="noopener">Pay the $500 planning fee</a>
 </div>
 <div class="links">
 <a href="https://suiteswithkeith.com/planning-with-swk.html" target="_blank" rel="noopener">Working with SWK</a>
