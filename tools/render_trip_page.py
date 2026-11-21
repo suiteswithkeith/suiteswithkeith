@@ -122,6 +122,7 @@ details.fine li{margin:6px 0}
 .steps .num{font-family:%(s)s;font-size:40px;line-height:1;color:#BE975A}
 .sig{border-top:1px solid rgba(242,239,230,.18);padding-top:24px;margin-top:24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
 .sig img{width:80px;height:80px;border-radius:50%%;object-fit:cover;border:2px solid rgba(255,255,255,.8)}
+@media (min-width:800px){.pin{position:sticky;top:24px}}
 @media (max-width:700px){
   .band,.hd{padding-top:64px;padding-bottom:64px}
   .hd img{height:420px}
@@ -200,7 +201,7 @@ def days(t):
         for d in t["days"])
     return (
         '<section class="band b-stone"><div class="w two">'
-        '<div class="stack" style="position:sticky;top:24px">'
+        '<div class="stack pin">'
         '<p class="ey">Day by day</p>'
         f'<h2>{t.get("days_title", "How the trip <em>runs</em>")}</h2>'
         f'<p>{t.get("days_intro", "")}</p></div>'
