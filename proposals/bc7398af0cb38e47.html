@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Caroline · Greece Honeymoon 2027</title>
+<meta name="description" content="A private travel proposal from Suites With Keith.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Newsreader:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --plaster:#F2EFE6; --plaster-2:#FBFAF6; --shadow:#161712; --ink:#1F201A;
+  --ash:#65665C; --ash-dark:#9A9B90; --brass:#836229; --brass-dark:#BE975A;
+  --olive:#4A5040; --hair:rgba(22,23,18,.15); --hair-dark:rgba(242,239,230,.18);
+  --display:'Instrument Serif', Didot, Georgia, serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--plaster);color:var(--ink);font-family:'Newsreader', Georgia, 'Times New Roman', serif;font-weight:400;font-size:18px;line-height:1.6}
+a{color:var(--brass)}a:hover{color:var(--ink)}
+a:focus-visible{outline:2px solid var(--olive);outline-offset:3px}
+img{max-width:100%}
+p{margin:0}
+
+/* Sections alternate plaster and shadow */
+header,section{padding:96px 24px}
+header{padding:104px 24px}
+.plaster{background:var(--plaster);color:var(--ink)}
+.shadow{background:var(--shadow);color:var(--plaster)}
+.shadow a{color:var(--brass-dark)}.shadow a:hover{color:var(--plaster)}
+.wrap{max-width:1180px;margin:0 auto}
+.stack{display:flex;flex-direction:column;gap:18px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:44px;align-items:start}
+
+/* Type */
+.label{font-family:var(--display);text-transform:uppercase;letter-spacing:.2em;font-size:14px;color:var(--brass)}
+.label.sm{font-size:13px}
+.label.muted{color:var(--ash)}
+.shadow .label{color:var(--brass-dark)}
+.shadow .label.muted{color:var(--ash-dark)}
+h1,h2,h3{margin:0;font-family:var(--display);font-weight:400}
+h1{font-size:clamp(3rem,6vw,5.4rem);line-height:1;letter-spacing:-.01em}
+h2{font-size:clamp(2rem,4vw,3rem);line-height:1.05}
+h3{font-size:30px;line-height:1.1}
+.shadow h1 em,.shadow h2 em{color:var(--brass-dark)}
+.small{font-size:16px}
+.note{font-size:15px;color:var(--ash)}
+.shadow .note{color:var(--ash-dark)}
+
+/* Photos */
+figure{margin:0;display:flex;flex-direction:column;gap:12px}
+figure.lead{margin:0 auto 56px;max-width:1180px}
+figure img{display:block;width:100%;height:640px;object-fit:cover}
+figcaption{font-family:var(--display);text-transform:uppercase;letter-spacing:.2em;font-size:13px;color:var(--ash)}
+.shadow figcaption{color:var(--ash-dark)}
+
+/* Price cards */
+.card{background:var(--plaster-2);border:1px solid var(--hair);padding:32px;display:flex;flex-direction:column;gap:16px}
+.shadow .card{background:transparent;border-color:var(--hair-dark)}
+.card .photo{display:block;max-width:none;width:calc(100% + 64px);margin:-32px -32px 8px;height:240px;object-fit:cover}
+.rows{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;padding:12px 0;border-top:1px solid var(--hair)}
+.shadow .row{border-top-color:var(--hair-dark)}
+.row.total{border-top-color:var(--ink);font-family:var(--display);font-size:24px}
+.shadow .row.total{border-top-color:var(--plaster)}
+.row .sub{display:block;font-size:15px;color:var(--ash)}
+.shadow .row .sub{color:var(--ash-dark)}
+.take{padding:4px 0 4px 16px;border-left:2px solid var(--brass);font-style:italic}
+.shadow .take{border-left-color:var(--brass-dark);color:#D8D4C8}
+h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var(--brass);text-underline-offset:6px}
+.shadow h3 a{text-decoration-color:var(--brass-dark)}
+
+/* Route table */
+.route{border-top:1px solid var(--hair)}
+.route .r{display:grid;grid-template-columns:1.3fr 1fr 1.6fr .5fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--hair)}
+.route .r.head{padding:14px 0;font-family:var(--display);text-transform:uppercase;letter-spacing:.2em;font-size:13px;color:var(--ash)}
+.route .r span:last-child{text-align:right}
+
+/* Placeholder for Keith to fill in */
+.placeholder{border:1px dashed var(--brass);background:rgba(131,98,41,.06);padding:20px 24px;display:flex;flex-direction:column;gap:6px}
+.placeholder .label{color:var(--brass)}
+
+/* Buttons: olive fill, sharp corners */
+.btn{display:inline-block;background:var(--olive);color:var(--plaster)!important;text-decoration:none;padding:16px 28px;font-family:var(--display);text-transform:uppercase;letter-spacing:.16em;font-size:15px}
+.btn:hover{background:#3E4336}
+.btn.outline{background:transparent;color:var(--olive)!important;border:1px solid var(--olive);padding:15px 27px}
+.btn.outline:hover{background:var(--olive);color:var(--plaster)!important}
+.fee{border:1px solid var(--hair);background:var(--plaster-2);padding:32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:24px 44px;align-items:center}
+.links{display:flex;flex-wrap:wrap;gap:12px 28px}
+.links a{font-family:var(--display);text-transform:uppercase;letter-spacing:.2em;font-size:14px;text-decoration:none}
+
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:32px}
+.steps > div{border-top:1px solid var(--hair);padding-top:20px;display:flex;flex-direction:column;gap:8px}
+.steps .n{font-family:var(--display);font-size:40px;line-height:1;color:var(--brass)}
+
+@media (max-width:700px){
+  header,section{padding-top:64px;padding-bottom:64px}
+  figure img{height:380px}
+  .route .r{grid-template-columns:1fr auto;gap:2px 16px}
+  .route .r.head{display:none}
+  .route .r>span:nth-child(2){order:-2;font-size:20px}
+  .route .r>span:nth-child(4){order:-1;font-size:20px}
+  .route .r>span:nth-child(4)::after{content:" nights";font-size:15px;color:var(--ash)}
+  .route .r>span:nth-child(3){grid-column:1/-1}
+  .route .r>span:nth-child(1){grid-column:1/-1;font-size:15px;color:var(--ash)}
+}
+
+@media print{
+  @page{size:Letter;margin:0}
+  html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact;background:var(--plaster)}
+  body{font-size:15px}
+  header,section{padding:56px 40px}
+  header{min-height:100vh;display:flex;align-items:center}
+  header .hero-img{height:560px!important}
+  figure img{height:380px}
+  figure.lead{margin-bottom:36px}
+  .card,.row,.steps > div,.placeholder,figure,.route .r{break-inside:avoid}
+  .card .photo{height:200px}
+  .break{break-before:page}
+  .no-print{display:none!important}
+}
+</style>
+</head>
+<body>
+
+<header class="shadow">
+<div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:56px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:28px">
+<p class="label">Suites With Keith · A honeymoon proposal for Caroline Antunes</p>
+<h1>Milos, Folegandros &amp; <em>Santorini</em></h1>
+<p class="label muted" style="font-size:15px">June 17 to 27, 2027 · Two travelers · Ten nights</p>
+<p style="max-width:680px;font-size:20px">Four nights on Milos, three on Folegandros, three in Oia. I stayed at every one of these hotels this past June, and this is the honeymoon I'd book for myself: start slow on the island with the best beaches, disappear for a few days somewhere almost nobody makes it to, then finish on the caldera with the sunsets everyone flies across the world for.</p>
+</div>
+<figure>
+<img class="hero-img" src="../images/personal/canaves-oia-user-2.jpg" alt="The Santorini caldera framed by a whitewashed wall, with deep blue water and a single sailboat below the cliffs" style="height:620px;object-position:center 40%">
+<figcaption>The caldera from Canaves Oia Suites</figcaption>
+</figure>
+</div>
+</header>
+
+<section class="plaster">
+<div class="wrap" style="display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p class="label">The route</p>
+<h2>Three islands, one easy <em>line</em> across the Cyclades</h2>
+</div>
+<div class="route">
+<div class="r head"><span>Dates</span><span>Where</span><span>Where you'll stay</span><span>Nights</span></div>
+<div class="r"><span>Thu June 17 to Mon June 21</span><span>Milos</span><span>Erēma</span><span>4</span></div>
+<div class="r"><span>Mon June 21 to Thu June 24</span><span>Folegandros</span><span>Gundari</span><span>3</span></div>
+<div class="r"><span>Thu June 24 to Sun June 27</span><span>Santorini (Oia)</span><span>Canaves, your choice of four below</span><span>3</span></div>
+</div>
+<p class="note">Prices below are totals for each stay in euros, with breakfast included on every option and every perk I can add through my partnerships. All of it is fully refundable until the dates noted. I'll let each hotel know you're on your honeymoon.</p>
+</div>
+</section>
+
+<section class="shadow">
+<figure class="lead">
+<img loading="lazy" src="../images/journal/erema-milos.jpg" alt="A shaded stone terrace at Erēma with sun loungers and a private pool looking out to the Aegean" style="object-position:center 55%">
+<figcaption>A suite terrace at Erēma, above Plaka</figcaption>
+</figure>
+<div class="wrap two">
+<div class="stack">
+<p class="label">01 · Milos · June 17 to 21</p>
+<h2>Erēma, a private estate above <em>Plaka</em></h2>
+<p><a href="https://suiteswithkeith.com/hotels/erema-milos.html">Erēma</a> is the newest hotel on Milos from the group behind Cosme and Parīlio on Paros, and when I stayed in June it felt more like a private estate than a resort. It's all suites, the design is quiet and confident, and every suite has its own pool with the Aegean straight ahead. Plaka, the prettiest village on the island, is just below you for dinner.</p>
+<p>Milos is the island with the beaches, and the best of them you can only reach by water. Give one day to a private boat out to Kleftiko and the west coast: swimming in the sea caves, lunch on board, back in time for sunset from your pool. I'll set it up.</p>
+</div>
+<div class="card">
+<p class="label sm muted">Your suite · 4 nights · choose one</p>
+<div class="rows">
+<div class="row"><span>Element Suite<span class="sub">35 sqm · king bed · sea view · private pool</span></span><span>€4,200</span></div>
+<div class="row"><span>Drift Suite<span class="sub">45 sqm · everything above, plus a living area</span></span><span>€4,800</span></div>
+</div>
+<p class="take small">The Element Suite is plenty for two, and the pool is the same view either way. Go Drift if you want somewhere to spread out inside on a windy afternoon.</p>
+<p class="label sm">Included through Suites With Keith</p>
+<p class="small">Booked on the Design Hotels Collective rate: VIP status, a welcome note from the GM, daily breakfast, a €100 food and beverage credit, plus an upgrade and early check-in or late check-out when available.</p>
+<p class="note">Free cancellation until May 27, 2027.</p>
+</div>
+</div>
+</section>
+
+<section class="plaster">
+<figure class="lead">
+<img loading="lazy" src="../images/personal/gundari-sunset.jpg" alt="Gundari's infinity pool at dusk, with loungers on both sides and the sea fading into an orange sky" style="object-position:center 60%">
+<figcaption>The infinity pool at Gundari, Folegandros</figcaption>
+</figure>
+<div class="wrap two">
+<div class="stack">
+<p class="label">02 · Folegandros · June 21 to 24</p>
+<h2>Gundari, the coolest hotel in the <em>Cyclades</em></h2>
+<p><a href="https://suiteswithkeith.com/hotels/gundari-folegandros.html">Gundari</a> is number two on my Greece Top 10, and the one I can't stop talking about. You leave the port, turn onto a dirt road and drive out toward the edge of the island, and then this dark stone building appears on the cliff, set into 80 acres of raw, wild land. I've never seen anything like it.</p>
+<p>There's no airport on Folegandros, so the people who make it here really want to be here. When I stayed, nearly every other guest was on their honeymoon. Days are simple: your own infinity pool, a very good spa, the outdoor shower looking at the Aegean, and dinner in Chora, one of the most beautiful villages in Greece. I partner with Gundari directly, so I can look after you here more closely than almost anywhere.</p>
+</div>
+<div class="card">
+<p class="label sm muted">Your suite · 3 nights · choose one</p>
+<div class="rows">
+<div class="row"><span>Junior Suite<span class="sub">35 sqm · private infinity pool · sea view</span></span><span>€3,442</span></div>
+<div class="row"><span>Deluxe Suite<span class="sub">54 sqm · more outdoor space, with private pool</span></span><span>€4,090</span></div>
+</div>
+<p class="take small">If there's one place on this trip to size up, it's here. You'll spend more time in your suite at Gundari than anywhere else, and the Deluxe's bigger terrace earns the difference.</p>
+<p class="label sm">Included through Suites With Keith</p>
+<p class="small">Daily breakfast, a $100 food and beverage credit, plus an upgrade and early check-in or late check-out when available.</p>
+<p class="note">Free cancellation until June 1, 2027.</p>
+</div>
+</div>
+</section>
+
+<section class="shadow">
+<div class="wrap" style="display:flex;flex-direction:column;gap:44px">
+<div class="stack" style="max-width:820px">
+<p class="label">03 · Santorini · June 24 to 27</p>
+<h2>Three nights in Oia, and four ways to <em>do it</em></h2>
+<p>All four options are Canaves. I stayed at each of them in June, Canaves Oia Suites is my favorite hotel on the caldera, and I'm one of the brand's top agents, which matters when it comes to upgrades and which suite you're actually given.</p>
+<p>The real choice is caldera or quiet. Oia Suites and Ena sit right on the cliff with the classic view. Epitome is a short walk outside the village, off the caldera, where you get more space, far fewer people, and the sun setting straight into the open sea instead of behind the cliff.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:24px;align-items:start">
+
+<div class="card">
+<img class="photo" loading="lazy" src="../images/personal/canaves-oia-user-1.jpg" alt="A whitewashed arch at Canaves Oia Suites opening onto a private pool, a daybed and the caldera beyond" style="object-position:center 60%">
+<p class="label sm">Option A · my top pick</p>
+<h3><a href="https://suiteswithkeith.com/hotels/canaves-oia-suites-santorini.html">Canaves Oia Suites</a></h3>
+<p class="small">Cave suites carved into the cliff, polished but never stuffy. It sits higher on the caldera than most, so it's more private than you'd expect for Oia, and the recent renovation shows everywhere you look. For a first trip to Santorini, this is the one I'd book without thinking twice.</p>
+<div class="rows">
+<div class="row"><span>Superior Suite with plunge pool<span class="sub">45 sqm · caldera views</span></span><span>€4,500</span></div>
+</div>
+</div>
+
+<div class="card">
+<img class="photo" loading="lazy" src="../images/hotels/canaves-ena-1.jpg" alt="The whitewashed terraces of Canaves Ena stepping down the cliff in Oia, with the caldera and the islands beyond" style="object-position:center 50%">
+<p class="label sm">Option B · the best value</p>
+<h3><a href="https://suiteswithkeith.com/hotels/canaves-ena-santorini.html">Canaves Ena</a></h3>
+<p class="small">The intimate sister hotel, with just 18 suites at the highest point of Oia, built into 17th-century wine caves. It's adults-focused, the swim-up pool bar is a lot of fun, and the village is a short walk away. You give up a little space compared with Oia Suites, but not the view.</p>
+<div class="rows">
+<div class="row"><span>Superior Suite with plunge pool<span class="sub">55 sqm · caldera views</span></span><span>€3,600</span></div>
+</div>
+</div>
+
+<div class="card">
+<img class="photo" loading="lazy" src="../images/hotels/canaves-epitome/arch-pool-reading.jpg" alt="A private plunge pool at Canaves Epitome seen through a volcanic stone arch, with a daybed and the open sea beyond" style="object-position:center 70%">
+<p class="label sm">Option C · the most privacy</p>
+<h3><a href="https://suiteswithkeith.com/hotels/canaves-epitome-santorini.html">Canaves Epitome</a></h3>
+<p class="small">My favorite hotel across nine islands this summer, and number one on my Greece Top 10. It's just outside Oia, behind volcanic stone walls and gardens, and the sunset here is the best in Greece. The Honeymoon Suite is on the top floor. Pick this if privacy matters more to you than the postcard view.</p>
+<div class="rows">
+<div class="row"><span>Honeymoon Suite with plunge pool<span class="sub">50 sqm · top floor</span></span><span>€4,050</span></div>
+</div>
+</div>
+
+<div class="card">
+<img class="photo" loading="lazy" src="../images/hotels/canaves-epitome/villa-from-above.jpg" alt="A Canaves Epitome villa seen from above: a private pool with sunbeds in the water, a stone terrace, olive trees and an outdoor lounge" style="object-position:center 40%">
+<p class="label sm">Option C+ · the splurge</p>
+<h3><a href="https://suiteswithkeith.com/hotels/canaves-epitome-santorini.html">Canaves Epitome Pool Villa</a></h3>
+<p class="small">Same hotel, one big step up: your own villa with a full private pool, a walled terrace and nobody else in sight. For the last three nights of a honeymoon, it's hard to beat.</p>
+<div class="rows">
+<div class="row"><span>One Bedroom Pool Villa<span class="sub">65 sqm · private pool · complete privacy</span></span><span>€5,700</span></div>
+</div>
+</div>
+
+</div>
+<div class="two" style="border-top:1px solid var(--hair-dark);padding-top:28px;gap:32px">
+<div class="stack" style="gap:10px">
+<p class="label sm">Included through Suites With Keith, on every option</p>
+<p class="small">Daily breakfast, a $100 food and beverage credit, wine and fruit waiting on arrival, plus an upgrade when available.</p>
+</div>
+<div class="stack" style="gap:10px">
+<p class="label sm muted">Good to know</p>
+<p class="note">Free cancellation until June 3 or 4, 2027 depending on the hotel, with a 50% fee after that. Santorini's climate tax is paid at checkout and isn't included in these prices.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="plaster">
+<div class="wrap two">
+<div class="stack">
+<p class="label">Between the islands</p>
+<h2>Private boats, not <em>ferries</em></h2>
+<p>The ferries between these three islands are infrequent and run on their own schedule, not yours. I'd move you by private boat both times: you leave when you're ready, your bags are handled, and a driver is waiting at the port on the other side.</p>
+<p class="label sm muted">Quoted separately</p>
+<p class="note">Or hand all of it to me with my planning fee, below.</p>
+</div>
+<div style="display:flex;flex-direction:column;border-top:1px solid var(--hair)">
+<div style="padding:20px 0;border-bottom:1px solid var(--hair);display:flex;flex-direction:column;gap:10px">
+<p class="label sm muted">Mon June 21 · Milos to Folegandros</p>
+<!-- PLACEHOLDER: Milos to Folegandros private boat details -->
+<div class="placeholder" data-placeholder="transfer-milos-folegandros">
+<p class="label sm">Placeholder · Keith to fill in</p>
+<p class="small">Boat and operator, departure time, crossing time, port transfers, and price.</p>
+</div>
+</div>
+<div style="padding:20px 0;border-bottom:1px solid var(--hair);display:flex;flex-direction:column;gap:10px">
+<p class="label sm muted">Thu June 24 · Folegandros to Santorini</p>
+<!-- PLACEHOLDER: Folegandros to Santorini private boat details -->
+<div class="placeholder" data-placeholder="transfer-folegandros-santorini">
+<p class="label sm">Placeholder · Keith to fill in</p>
+<p class="small">Boat and operator, departure time, crossing time, port transfers, and price.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="shadow">
+<div class="wrap two">
+<div class="stack">
+<p class="label">The trip, all in</p>
+<h2>Your hotels, <em>totaled</em></h2>
+<p>Starting from the Element Suite at Erēma and the Junior Suite at Gundari, which come to €7,642 together, here's where the whole trip lands with each Santorini option.</p>
+<p class="note">Moving up to the Drift Suite at Erēma adds about €600, and the Deluxe Suite at Gundari adds about €650. Rates are live and can change until they're booked. Private boats are quoted separately.</p>
+</div>
+<div class="card">
+<p class="label sm muted">Ten nights · approximate totals</p>
+<div class="rows">
+<div class="row"><span>With Canaves Ena<span class="sub">Option B</span></span><span>€11,240</span></div>
+<div class="row"><span>With Canaves Epitome, Honeymoon Suite<span class="sub">Option C</span></span><span>€11,690</span></div>
+<div class="row"><span>With Canaves Oia Suites<span class="sub">Option A · my top pick</span></span><span>€12,140</span></div>
+<div class="row"><span>With Canaves Epitome, One Bedroom Pool Villa<span class="sub">Option C+</span></span><span>€13,340</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="plaster" style="padding-bottom:120px">
+<div class="wrap" style="display:flex;flex-direction:column;gap:32px">
+<p class="label">Next steps</p>
+<h2 style="font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.02;max-width:820px">Pick your Santorini, and I'll take it from <em>there</em></h2>
+<div class="steps">
+<div>
+<p class="n">1</p>
+<p>Choose a Santorini option and your room level at each hotel. If you're torn, my vote is Oia Suites for the classic caldera, or Epitome if you want it quiet.</p>
+</div>
+<div>
+<p class="n">2</p>
+<p>We get on a quick call to finalize, talk through the boat transfers, and anything you'd like planned for the days: the Kleftiko boat day, dinners, the spa.</p>
+</div>
+<div>
+<p class="n">3</p>
+<p>I book it. Your rates are held through my Fora quote and paid directly to each hotel, with free cancellation until the dates above.</p>
+</div>
+</div>
+<div class="fee">
+<div class="stack" style="gap:10px">
+<p class="label sm">Want me to handle the whole thing?</p>
+<p>Booking the hotels through me costs you nothing. If you'd like me to handle everything in between too (ferries, private boat transfers, port and airport pickups, private boat days, dinner reservations), I charge a $500 planning fee for the trip, and you won't have to think about any of it.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;align-items:flex-start">
+<p style="font-family:var(--display);font-size:40px;line-height:1">$500</p>
+<p class="note">One planning fee for the full ten days.</p>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px;padding-top:8px">
+<a class="btn" href="https://trips.foratravel.com/quotes/suites-with-keith/GVF18jEi5E" target="_blank" rel="noopener">View your bookable quote</a>
+<a class="btn outline" href="https://secure.foratravel.com/invoices/suites-with-keith/SipA1oEiU9" target="_blank" rel="noopener">Pay the $500 planning fee</a>
+</div>
+<div class="links">
+<a href="https://suiteswithkeith.com/planning-with-swk.html" target="_blank" rel="noopener">Working with SWK</a>
+<a href="https://suiteswithkeith.com/greece-collection.html" target="_blank" rel="noopener">The Greece Collection</a>
+<a class="no-print" href="bc7398af0cb38e47.pdf">Download as PDF</a>
+</div>
+<div style="border-top:1px solid var(--hair);padding-top:24px;margin-top:24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px">
+<div style="display:flex;align-items:center;gap:18px"><img src="../images/personal/keith-headshot-square.jpg" alt="Keith Pence, luxury travel advisor" width="320" height="320" loading="lazy" decoding="async" style="width:80px;height:80px;object-fit:cover;display:block;flex:none"><p style="font-family:var(--display);font-size:28px">Keith Pence <em style="color:var(--brass)">· Suites With Keith</em></p></div>
+<p class="label muted" style="align-self:center">@suiteswithkeith</p>
+</div>
+</div>
+</section>
+
+</body>
+</html>
