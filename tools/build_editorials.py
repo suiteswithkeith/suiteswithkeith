@@ -35,6 +35,7 @@ EXTRA_CSS = (
     ".ed-pull{border-left:2px solid var(--brass);padding-left:20px;margin-top:28px;font-family:var(--display);font-size:1.35rem;line-height:1.45}"
     ".ed-pull cite{display:block;font-family:var(--body);font-style:normal;font-size:.85rem;color:var(--ash);margin-top:8px}"
     ".ed-skip{margin-top:clamp(40px,6vw,64px)}"
+    "@media(max-width:719px){.ed-hero .hero-img{grid-template-columns:1fr!important}.ed-hero .hero-img img:not(:first-child){display:none}}"
     "</style>\n"
 )
 
@@ -58,7 +59,7 @@ def hero(p):
     tags = "\n".join(
         f'<img src="{i["src"]}" alt="{attr(i["alt"])}" fetchpriority="high" style="width:100%; height:100%; '
         f'object-fit:cover; display:block; object-position:{i.get("pos", "50% 50%")};">' for i in imgs)
-    return (f'<header class="hero" style="min-height:min(82svh,760px);">\n'
+    return (f'<header class="hero ed-hero" style="min-height:min(82svh,760px);">\n'
             f'<div class="hero-img" style="display:grid; grid-template-columns:repeat({cols},1fr); gap:2px;">\n{tags}\n</div>\n'
             f'<div class="container"> <p class="eyebrow">{p["eyebrow"]}</p> <h1 class="display-xl vs-h1" style="max-width:18ch;">{p["h1"]}\n'
             f'</h1> <p class="sub" style="max-width:50ch;">{p["sub"]}</p> <p class="stamp" style="margin-top:20px;">{p["stamp"]}</p> </div>\n'
