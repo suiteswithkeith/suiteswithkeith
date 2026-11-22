@@ -332,16 +332,18 @@ function allDays(t){ // every date of the trip, with plans and where they're sta
   const out=[]; for(let d=D(t.start); d<=D(t.end); d=new Date(d.getFullYear(),d.getMonth(),d.getDate()+1)){
     const k=iso(d), plan=t.days.find(x=>x.d===k);
     const stay=t.reservations.find(r=>r.type==="Hotel"&&r.out&&D(r.in)<=d&&d<D(r.out));
-    let items = plan?.items || [];
-    if(!items.length){ // no written plan for this day: show what's booked
-      const ev=[];
-      t.reservations.forEach(r=>{
-        const lodging = r.type==="Hotel" || r.type==="Villa";
-        if(r.out===k && lodging) ev.push(["", "Check out", r.name, ""]);
-        if(r.in===k) ev.push(["", lodging ? "Check in" : r.type, r.name, lodging ? (r.room||"") : (r.guests||"")]);
-      });
-      items = ev;
-    }
+    const planned = plan?.items || [];
+    const said = planned.map(x=>(x[2]+" "+x[3]).toLowerCase()).join(" ");
+    const ev=[];
+    t.reservations.forEach(r=>{
+      const lodging = r.type==="Hotel" || r.type==="Villa";
+      if(planned.length && !lodging) return;                    // the written plan already covers transfers and tours
+      const short = shortName(r.name).toLowerCase();
+      if(r.out===k && lodging) ev.push(["", "Check out", r.name, ""]);
+      if(r.in===k && !(planned.length && !lodging && said.includes(short))) ev.push(["", lodging ? "Check in" : r.type, r.name, lodging ? (r.room||"") : (r.guests||"")]);
+    });
+    const outs = ev.filter(x=>x[1]==="Check out"), ins = ev.filter(x=>x[1]!=="Check out");
+    let items = [...outs, ...planned, ...ins];
     const firstIn = items.find(x=>x[1]==="Check in");
     out.push({d:k, n:out.length+1, title:plan?.title||(firstIn?`Check in at ${shortName(firstIn[2])}`:items.find(x=>x[1]!=="Check out")?shortName(items.find(x=>x[1]!=="Check out")[2]):stay?`${stay.place||shortName(stay.name)}, at leisure`:items.find(x=>x[1]==="Check out")?`Check out of ${shortName(items.find(x=>x[1]==="Check out")[2])}`:"Travel day"), items, stay});
   } return out; }
@@ -579,9 +581,8 @@ function tripGuideLink(t){
     <span style="font-family:var(--serif);font-size:21px">${esc(c.name)} ${c.em?`<em>${esc(c.em)}</em>`:""}</span></span><span class="chev">&rsaquo;</span></button>`;
 }
 function reviewNotes(r){
-  const h=findHotel(r.name); if(!h||!h.k||!h.k.length) return "";
-  return `<div class="perks"><span class="label" style="color:var(--ash)">Know before you go, from my review</span><ul>${h.k.slice(0,2).map(k=>`<li><b style="font-weight:500">${esc(k[0])}</b> ${esc(k[1])}</li>`).join("")}</ul>
-    <button class="label" style="margin-top:8px;color:var(--brass)" onclick="go('hotel',{hotel:'${h.s}',prev:{view:'trip',trip:'${state.trip}',seg:'reservations',jump:'none'}})">Read my review &rsaquo;</button></div>`;
+  const h=findHotel(r.name); if(!h) return "";
+  return `<div class="perks" style="padding:10px 16px"><button class="label" style="color:var(--brass)" onclick="go('hotel',{hotel:'${h.s}',prev:{view:'trip',trip:'${state.trip}',seg:'reservations',jump:'none'}})">My review of ${esc(shortName(h.n))} &rsaquo;</button></div>`;
 }
 
 function vBook(){
@@ -591,11 +592,12 @@ function vBook(){
      <p>Search any hotel and book it yourself. Your stay is linked to me automatically, so you still get the perks and I can step in if anything goes wrong.</p></div>
    <div class="portal"><div class="portal-bar"><span class="dot"></span>trips.foratravel.com/suites-with-keith</div>
      <div class="portal-body">
-       <div class="mock-search"><div><span class="label">Where</span>Hotel or destination</div>
+       <a class="mock-search" href="${KEITH.portal}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block">
+         <div><span class="label">Where</span>Hotel or destination</div>
          <div><span class="label">Dates</span>Check in &middot; Check out</div>
-         <div><span class="label">Guests</span>2 adults</div></div>
+         <div><span class="label">Guests</span>Adults &middot; Children</div></a>
        <a class="btn" href="${KEITH.portal}" target="_blank" rel="noopener">Search hotels</a>
-       <div class="fine2">In the live app, the booking portal loads right here in this panel. In this prototype it opens in a new tab.</div></div></div>
+       <div class="fine2">Opens my booking portal. Anything you book there is linked to me automatically.</div></div></div>
    <ul class="why"><li>Perks like breakfast, credits and upgrades where the hotel offers them</li>
      <li>Pay the hotel directly, same as booking with them</li>
      <li>Shows up in your Trips tab once it's confirmed</li></ul>
