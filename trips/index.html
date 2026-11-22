@@ -60,13 +60,14 @@ h1 em,h2 em,h3 em{font-style:italic}
 
 /* sign-in */
 .signin{flex:1;display:flex;flex-direction:column;background:var(--shadow);color:var(--on-dark);padding:calc(48px + env(safe-area-inset-top)) 28px 32px}
-.signin{position:relative;overflow:hidden}
-.signin-photo{position:absolute;left:0;right:0;top:0;height:46%;overflow:hidden;border-bottom:1px solid var(--line-dark)}
+.signin{position:relative;min-height:100%}
+.signin-photo{position:relative;flex:none;height:min(42vh,400px);margin:calc(-48px - env(safe-area-inset-top)) -28px 28px;overflow:hidden;border-bottom:1px solid var(--line-dark)}
+.signin > div.wordmark{position:absolute;margin:0;top:calc(48px + env(safe-area-inset-top));left:28px}
 .signin-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;display:block}
 .signin > *:not(.signin-photo){position:relative}
 .signin .wordmark{background:var(--shadow);align-self:flex-start;padding:6px 10px;margin:-6px 0 0 -10px}
 .signin .wordmark{font-size:22px}
-.signin h1{font-size:46px;margin:auto 0 14px}
+.signin h1{font-size:46px;margin:0 0 14px}
 .signin p{color:var(--on-dark-muted);margin-bottom:28px}
 .field{display:block;width:100%;padding:15px 14px;background:transparent;border:1px solid var(--line-dark);color:var(--on-dark);font-family:var(--body);font-size:17px;outline:none}
 .field:focus{border-color:var(--on-dark-muted)}
@@ -377,7 +378,7 @@ function tabbar(){
 }
 
 function vSignin(){
-  if(state.step===0) return `<div class="signin"><div class="signin-photo"><img src="img/signin.jpg" alt="A Riva wake on Lake Como"></div>
+  if(state.step===0) return `<div class="signin"><div class="signin-photo"><img src="img/signin.jpg" alt="The boat dock at Grand Hotel Tremezzo, Lake Como"></div>
     <div class="wordmark">Suites <em>with</em> Keith</div>
     <h1>Your trips, <em>all in one place.</em></h1>
     <p>Reservations, day-by-day plans, and a direct line to Keith while you travel.</p>
@@ -387,7 +388,7 @@ function vSignin(){
       <button class="btn" type="submit" id="go">Email me a code</button>
     </form>
     <div class="fine">No password. We email you a 6-digit code.</div></div>`;
-  return `<div class="signin"><div class="signin-photo"><img src="img/signin.jpg" alt="A Riva wake on Lake Como"></div>
+  return `<div class="signin"><div class="signin-photo"><img src="img/signin.jpg" alt="The boat dock at Grand Hotel Tremezzo, Lake Como"></div>
     <div class="wordmark">Suites <em>with</em> Keith</div>
     <h1>Check <em>your email.</em></h1>
     <div class="sent-box">We sent a 6-digit code to <strong>${esc(state.email)}</strong>. It works for one hour.</div>
