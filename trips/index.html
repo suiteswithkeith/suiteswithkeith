@@ -490,7 +490,7 @@ const findHotel = name => {
   }
   return (_fh[name]=h||null);
 };
-const displayName = name => (findHotel(name)||{}).n || name;
+const displayName = name => (findHotel(name)||{}).n || String(name||"").split(/ - | – /)[0];
 const photo = (src,alt="") => src?`<img src="${src}" alt="${esc(alt)}" loading="lazy">`:"";
 const countryOf = id => COUNTRIES.find(c=>c.id===id);
 const inCountry = c => H.filter(h=>h.c===c.name);
