@@ -186,7 +186,7 @@ h1 em,h2 em,h3 em{font-style:italic}
 .today-tag{margin-left:auto;color:var(--brass)}
 .today-list{margin-top:14px;border-top:1px solid var(--line-dark)}
 .today-list div{padding:9px 0;border-bottom:1px solid var(--line-dark);font-size:15.5px}
-.today-list span{display:inline-block;width:56px;font-family:var(--serif);color:var(--on-dark-muted)}
+.today-list span{display:inline-block;min-width:56px;margin-right:10px;font-size:13px;text-transform:uppercase;letter-spacing:.08em;font-family:var(--serif);color:var(--on-dark-muted)}
 .preview{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
 .preview .btn{margin-top:8px}
 .guide-link{display:flex;justify-content:space-between;align-items:center;margin:22px 22px 0;padding:16px;border:1px solid var(--line);background:var(--lime);width:calc(100% - 44px);text-align:left}
@@ -339,13 +339,13 @@ function allDays(t){ // every date of the trip, with plans and where they're sta
       const lodging = r.type==="Hotel" || r.type==="Villa";
       if(planned.length && !lodging) return;                    // the written plan already covers transfers and tours
       const short = shortName(r.name).toLowerCase();
-      if(r.out===k && lodging) ev.push(["", "Check out", r.name, ""]);
-      if(r.in===k && !(planned.length && !lodging && said.includes(short))) ev.push(["", lodging ? "Check in" : r.type, r.name, lodging ? (r.room||"") : (r.guests||"")]);
+      if(r.out===k && lodging) ev.push(["", "Check out", displayName(r.name), ""]);
+      if(r.in===k && !(planned.length && !lodging && said.includes(short))) ev.push(["", lodging ? "Check in" : r.type, displayName(r.name), lodging ? (r.room||"") : (r.guests||"")]);
     });
     const outs = ev.filter(x=>x[1]==="Check out"), ins = ev.filter(x=>x[1]!=="Check out");
     let items = [...outs, ...planned, ...ins];
     const firstIn = items.find(x=>x[1]==="Check in");
-    out.push({d:k, n:out.length+1, title:plan?.title||(firstIn?`Check in at ${shortName(firstIn[2])}`:items.find(x=>x[1]!=="Check out")?shortName(items.find(x=>x[1]!=="Check out")[2]):stay?`${stay.place||shortName(stay.name)}, at leisure`:items.find(x=>x[1]==="Check out")?`Check out of ${shortName(items.find(x=>x[1]==="Check out")[2])}`:"Travel day"), items, stay});
+    out.push({d:k, n:out.length+1, title:plan?.title||(firstIn?`Check in at ${shortName(firstIn[2])}`:items.find(x=>x[1]!=="Check out")?shortName(items.find(x=>x[1]!=="Check out")[2]):stay?`${stay.place||shortName(displayName(stay.name))}, at leisure`:items.find(x=>x[1]==="Check out")?`Check out of ${shortName(items.find(x=>x[1]==="Check out")[2])}`:"Travel day"), items, stay});
   } return out; }
 
 function art(p, h){ // flat-colour landscape stand-in for photography
@@ -418,8 +418,8 @@ function vHome(){
    ${live?`<button class="next" onclick="go('trip',{trip:'${n.id}',seg:'itinerary',jump:'today'})">
      <div class="body"><div class="label eyebrow">Today &middot; Day ${live.n} of ${allDays(n).length}</div>
      <h2>${esc(live.title)}</h2>
-     <div class="meta">${live.stay?`Staying at ${esc(live.stay.name)}`:esc(n.name+" "+n.em)}</div>
-     <div class="today-list">${live.items.length?live.items.map(it=>`<div><span>${it[0]}</span>${esc(it[2])}</div>`).join(""):`<div><span>&nbsp;</span>Nothing scheduled. Enjoy it.</div>`}</div>
+     <div class="meta">${live.stay?`Staying at ${esc(displayName(live.stay.name))}`:esc(n.name+" "+n.em)}</div>
+     <div class="today-list">${live.items.length?live.items.map(it=>`<div><span>${esc(it[0]||it[1])}</span>${esc(it[2])}</div>`).join(""):`<div><span>&nbsp;</span>Nothing scheduled. Enjoy it.</div>`}</div>
      <div class="label" style="margin-top:14px;color:var(--brass-light)">Open today's plan &rsaquo;</div></div></button>`:n?`<button class="next" onclick="go('trip',{trip:'${n.id}',seg:'itinerary'})">
      ${tripPhoto(n)?`<div class="art">${tripArt(n,150)}</div>`:""}
      <div class="body"><div class="label eyebrow">Next trip</div>
@@ -448,13 +448,13 @@ function vTrip(){
       + days.map((d,i)=>`<div class="day" id="day-${d.d}"><div class="day-h">
       <span class="label">Day ${d.n} &middot; ${fmt(d.d,{weekday:"short",month:"short",day:"numeric"})}</span>${d.d===today?'<span class="today-tag label">Today</span>':''}</div>
       <h3 style="font-size:24px;margin:10px 0 2px">${esc(d.title)}</h3>
-      ${!d.items.length?`<div class="item"><div class="t">&nbsp;</div><div><div class="sub">${d.stay?`Staying at ${esc(d.stay.name)}. Nothing scheduled.`:"Nothing scheduled."}</div></div></div>`:""}
+      ${!d.items.length?`<div class="item"><div class="t">&nbsp;</div><div><div class="sub">${d.stay?`Staying at ${esc(displayName(d.stay.name))}. Nothing scheduled.`:"Nothing scheduled."}</div></div></div>`:""}
       ${d.items.map(it=>`<div class="item"><div class="t">${it[0]}</div><div>
         <div class="label k">${esc(it[1])}</div><div class="what">${esc(it[2])}</div>${it[3]?`<div class="sub">${esc(it[3])}</div>`:""}</div></div>`).join("")}</div>`).join("")
       : `<div class="pad" style="padding-top:24px;color:var(--ash)">This trip's reservations are under the Reservations tab.</div>`;
   } else {
     body = t.reservations.map((r,i)=>`<div class="res"><div class="top">
-      <div class="label eyebrow">${esc(r.type)}${r.place?` &middot; ${esc(r.place)}`:""}</div><h3>${esc(r.name)}</h3>
+      <div class="label eyebrow">${esc(r.type)}${r.place?` &middot; ${esc(r.place)}`:""}</div><h3>${esc(displayName(r.name))}</h3>
       <div class="meta">${!r.in?"":r.out?`${fmt(r.in,{weekday:"short",month:"short",day:"numeric"})} to ${fmt(r.out,{weekday:"short",month:"short",day:"numeric"})} &middot; ${nights(r.in,r.out)} nights`:fmt(r.in,{weekday:"short",month:"short",day:"numeric"})}</div></div>
       <div class="kv"><div><span class="label">Confirmation</span><b>${esc(r.conf||"Pending")}</b></div>
         <div><span class="label">Guests</span><b>${esc(r.guests)}</b></div>
@@ -478,7 +478,19 @@ function vTrip(){
 const HBY = Object.fromEntries(H.map(h=>[h.s,h]));
 const norm = x => String(x||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]/g,"");
 const HBN = Object.fromEntries(H.map(h=>[norm(h.n),h]));
-const findHotel = name => HBN[norm(name)] || H.find(h=>norm(h.n).startsWith(norm(name))||norm(name).startsWith(norm(h.n)));
+const STOP=new Set(["the","and","hotel","hotels","resort","resorts","residences","a","of","at","by","spa","&","small","luxury","world","member","collection","design"]);
+const toks = x => String(x||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").split(/[^a-z0-9]+/).filter(w=>w&&!STOP.has(w));
+const _fh = {};
+const findHotel = name => {
+  if(name in _fh) return _fh[name];
+  let h = HBN[norm(name)] || H.find(h=>norm(h.n).startsWith(norm(name))||norm(name).startsWith(norm(h.n)));
+  if(!h){ // every meaningful word of my review's hotel name appears in the booking name
+    const bt=new Set(toks(name));
+    h = H.filter(x=>{ const t=toks(x.n); return t.length>=2 && t.every(w=>bt.has(w)); }).sort((a,b)=>toks(b.n).length-toks(a.n).length)[0];
+  }
+  return (_fh[name]=h||null);
+};
+const displayName = name => (findHotel(name)||{}).n || name;
 const photo = (src,alt="") => src?`<img src="${src}" alt="${esc(alt)}" loading="lazy">`:"";
 const countryOf = id => COUNTRIES.find(c=>c.id===id);
 const inCountry = c => H.filter(h=>h.c===c.name);
