@@ -370,7 +370,7 @@ function vSignin(){
     <h1>Check <em>your email.</em></h1>
     <div class="sent-box">We sent a 6-digit code to <strong>${esc(state.email)}</strong>. It works for one hour.</div>
     <form onsubmit="event.preventDefault();checkCode(this.c)">
-      <input class="field code" name="c" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="000000" oninput="this.value=this.value.replace(/\\D/g,'');if(this.value.length===6)checkCode(this)">
+      <input class="field code" name="c" inputmode="numeric" autocomplete="one-time-code" maxlength="8" placeholder="000000" oninput="this.value=this.value.replace(/\\D/g,'');codeTyped(this)">
       <div class="err" id="err"></div>
       <button class="btn" type="submit">Sign in</button>
     </form>
@@ -609,7 +609,7 @@ async function resend(btn){
 }
 async function checkCode(f){
   if(busy) return;
-  if(!/^\d{6}$/.test(f.value)) return showErr('Enter the 6-digit code from your email.');
+  if(!/^\d{6,8}$/.test(f.value)) return showErr('Enter the code from your email.');
   busy=true; showErr("");
   const { error } = await sb.auth.verifyOtp({ email:state.email, token:f.value, type:'email' });
   busy=false;
@@ -634,6 +634,7 @@ async function boot(){
   if(data.session){ state.email=data.session.user.email; await afterSignIn(); }
   else go('signin',{step:0});
 }
+let codeTimer; function codeTyped(f){ clearTimeout(codeTimer); if(f.value.length>=8) return checkCode(f); if(f.value.length>=6) codeTimer=setTimeout(()=>checkCode(f),900); }
 /* ---------- sheet / toast ---------- */
 function openSheet(kind){
   const s = $("#sheet");
