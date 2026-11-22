@@ -78,7 +78,7 @@ def short_answer(sa):
                 f'text-underline-offset:3px; font-weight:600;">{r["name"]}</a>') if r.get("href") else \
             f'<b style="color:var(--band-ink); font-weight:600;">{r["name"]}</b>'
         rows.append(f'<div class="kv-row band-row">\n<dt style="color:var(--brass);">{r["label"]}</dt>\n'
-                    f'<dd style="color:var(--band-ink);">\n{name}\n'
+                    f'<dd style="color:var(--band-ink);">\n{name}'
                     f'<span class="body-2" style="color:var(--band-ash);">{r["text"]}</span>\n</dd>\n</div>')
     return (f' <section class="section band on-shadow" id="short-answer" style="scroll-margin-top:70px;">\n'
             f'<div class="container"> <div class="sec-head reveal">\n<span class="eyebrow">{sa.get("eyebrow", "The short answer")}</span>\n'
