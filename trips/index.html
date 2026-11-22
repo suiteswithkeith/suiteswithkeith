@@ -465,7 +465,7 @@ const coverOf = c => (HBY[c.cover]&&HBY[c.cover].img) || (inCountry(c).find(h=>h
 function tripArt(t,h){ const hh = t.reservations.map(r=>findHotel(r.name)).find(x=>x&&x.img);
   return hh ? photo(hh.img,t.name) : art(t.palette,h); }
 
-function hotelRow(h){ return `<button class="hrow" onclick="go('hotel',{hotel:'${h.s}',prev:null})">
+function hotelRow(h){ return `<button class="hrow" onclick="go('hotel',{hotel:'${h.s}',prev:null,from:null})">
   <div class="thumb">${h.img?photo(h.img,h.n):""}</div>
   <div class="hrow-t">${h.fh&&h.vis?`<div class="label eyebrow">${esc(h.vis)}</div>`:`<div class="label eyebrow">${esc(h.a)}</div>`}
   <h3>${esc(h.n)}</h3><p>${esc(h.v)}</p></div></button>`; }
@@ -494,7 +494,7 @@ function searchHotels(q){
   const t=norm(q); if(!t){ box.innerHTML=""; br.style.display=""; return; }
   const hits=H.filter(h=>norm(h.n+h.w+h.a+h.c+h.p).includes(t)).slice(0,40);
   br.style.display="none";
-  box.innerHTML = hits.length ? hits.map(hotelRow).join("") : `<div class="pad" style="color:var(--ash);padding-top:10px">No hotels match "${esc(q)}". Ask me, I may know it anyway.</div>`;
+  box.innerHTML = hits.length ? hits.map(h=>hotelRow(h).replace("prev:null,from:null})","prev:null,from:'search'})")).join("") : `<div class="pad" style="color:var(--ash);padding-top:10px">No hotels match "${esc(q)}". Ask me, I may know it anyway.</div>`;
 }
 
 function vGuide(){
@@ -526,7 +526,7 @@ function vHotel(){
   const h = HBY[state.hotel];
   const list=(title,items)=>items&&items.length?`<div class="section-h"><span class="label eyebrow">${title}</span></div>
      <div class="pts">${items.map((x,i)=>`<div class="pt"><span>${String(i+1).padStart(2,"0")}</span><div><b>${esc(x[0])}</b>${x[1]?`<p>${esc(x[1])}</p>`:""}</div></div>`).join("")}</div>`:"";
-  return `<div class="screen"><div class="h-hero">${h.img?photo(h.img,h.n):""}<button class="back label" onclick="state.prev?go(state.prev.view,Object.assign({},state.prev,{prev:null})):go('guide',{guide:(COUNTRIES.find(c=>c.name===h.c)||{}).id})">&lsaquo; Back</button></div>
+  return `<div class="screen"><div class="h-hero">${h.img?photo(h.img,h.n):""}<button class="back label" onclick="hotelBack('${(COUNTRIES.find(c=>c.name===h.c)||{}).id||""}')">&lsaquo; Back</button></div>
    <div class="pad" style="padding-top:20px"><div class="label eyebrow">${esc(h.w)}</div>
      <h1 class="h-name">${esc(h.n)}</h1>
      <div class="label" style="color:var(--ash);margin-top:6px">${h.fh&&h.vis?esc(h.vis):"Recommended by Keith"}</div>
@@ -541,6 +541,11 @@ function vHotel(){
   </div>`+tabbar();
 }
 
+function hotelBack(cid){
+  if(state.prev){ const p=state.prev; return go(p.view, Object.assign({}, p, {prev:null})); }
+  if(state.from==='search') return go('guides');
+  go(cid ? 'guide' : 'guides', cid ? {guide:cid} : {});
+}
 function tripGuideLink(t){
   const names=t.reservations.map(r=>findHotel(r.name)).filter(Boolean); if(!names.length) return "";
   const c=COUNTRIES.find(x=>x.name===names[0].c); if(!c) return "";
