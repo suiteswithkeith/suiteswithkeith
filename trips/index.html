@@ -62,7 +62,7 @@ h1 em,h2 em,h3 em{font-style:italic}
 .signin{flex:1;display:flex;flex-direction:column;background:var(--shadow);color:var(--on-dark);padding:calc(48px + env(safe-area-inset-top)) 28px 32px}
 .signin{position:relative;overflow:hidden}
 .signin-photo{position:absolute;left:0;right:0;top:0;height:46%;overflow:hidden;border-bottom:1px solid var(--line-dark)}
-.signin-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 60%;display:block}
+.signin-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;display:block}
 .signin > *:not(.signin-photo){position:relative}
 .signin .wordmark{background:var(--shadow);align-self:flex-start;padding:6px 10px;margin:-6px 0 0 -10px}
 .signin .wordmark{font-size:22px}
@@ -255,6 +255,9 @@ h1 em,h2 em,h3 em{font-style:italic}
 .pt b{font-weight:500}
 .pt p{font-size:15px;color:var(--ash);margin-top:2px}
 
+/* trips without a photo */
+.mono{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--shadow);color:var(--brass-light);font-family:var(--serif);font-size:28px}
+.trip-hero .art.noimg{height:64px}
 /* sheet + toast */
 .scrim{position:absolute;inset:0;background:rgba(22,23,18,.45);display:none;z-index:5}
 .sheet{position:absolute;left:0;right:0;bottom:0;background:var(--plaster);z-index:6;transform:translateY(100%);transition:transform .22s ease;border-top:1px solid var(--line);padding:20px 22px calc(22px + env(safe-area-inset-bottom))}
@@ -340,7 +343,7 @@ function allDays(t){ // every date of the trip, with plans and where they're sta
       items = ev;
     }
     const firstIn = items.find(x=>x[1]==="Check in");
-    out.push({d:k, n:out.length+1, title:plan?.title||(firstIn?`Check in at ${shortName(firstIn[2])}`:stay?`${stay.place||shortName(stay.name)}, at leisure`:"Travel day"), items, stay});
+    out.push({d:k, n:out.length+1, title:plan?.title||(firstIn?`Check in at ${shortName(firstIn[2])}`:items.find(x=>x[1]!=="Check out")?shortName(items.find(x=>x[1]!=="Check out")[2]):stay?`${stay.place||shortName(stay.name)}, at leisure`:items.find(x=>x[1]==="Check out")?`Check out of ${shortName(items.find(x=>x[1]==="Check out")[2])}`:"Travel day"), items, stay});
   } return out; }
 
 function art(p, h){ // flat-colour landscape stand-in for photography
@@ -416,7 +419,7 @@ function vHome(){
      <div class="meta">${live.stay?`Staying at ${esc(live.stay.name)}`:esc(n.name+" "+n.em)}</div>
      <div class="today-list">${live.items.length?live.items.map(it=>`<div><span>${it[0]}</span>${esc(it[2])}</div>`).join(""):`<div><span>&nbsp;</span>Nothing scheduled. Enjoy it.</div>`}</div>
      <div class="label" style="margin-top:14px;color:var(--brass-light)">Open today's plan &rsaquo;</div></div></button>`:n?`<button class="next" onclick="go('trip',{trip:'${n.id}',seg:'itinerary'})">
-     <div class="art">${tripArt(n,150)}</div>
+     ${tripPhoto(n)?`<div class="art">${tripArt(n,150)}</div>`:""}
      <div class="body"><div class="label eyebrow">Next trip</div>
      <h2>${esc(n.name)} <em>${esc(n.em)}</em></h2>
      <div class="meta">${range(n)} &middot; ${esc(n.places)}</div>
@@ -461,7 +464,7 @@ function vTrip(){
         ${r.phone?`<a href="tel:${r.phone.replace(/[^+\d]/g,'')}">Call ${r.type==="Hotel"?"hotel":"operator"}</a>`:`<a href="sms:${KEITH.tel}">Text Keith</a>`}</div></div>`).join("")+`<div style="height:8px"></div>`;
   }
   return `<div class="screen" style="padding-bottom:0"><div class="trip-hero">
-    <div class="art">${tripArt(t,190)}<button class="back label" onclick="go('home')">&lsaquo; Trips</button></div>
+    <div class="art${tripPhoto(t)?"":" noimg"}">${tripPhoto(t)?tripArt(t,190):""}<button class="back label" onclick="go('home')">&lsaquo; Trips</button></div>
     <div class="body"><div class="label eyebrow">${esc(t.places)}</div>
     <h1>${esc(t.name)} <em>${esc(t.em)}</em></h1><div class="meta">${range(t)} &middot; ${nights(t.start,t.end)} nights</div></div>
     <div class="seg">${segBtn("itinerary","Day by day")}${segBtn("reservations","Reservations")}</div></div>
@@ -484,9 +487,9 @@ function tripPhoto(t){
   if(hh) return hh.img;
   const c = COUNTRIES.find(c=>(t.name||"").includes(c.name) || (c.name==="England" && /United Kingdom|London/.test(t.name+t.places)));
   if(c && coverOf(c)) return coverOf(c);                                     // the destination guide's cover
-  return "img/home-default.jpg";                                            // Suites With Keith signature photo
+  return null;                                                              // no photo of this place: no photo
 }
-function tripArt(t,h){ return photo(tripPhoto(t), t.name); }
+function tripArt(t,h){ const src=tripPhoto(t); return src ? photo(src, t.name) : `<div class="mono">${esc((t.name||"").trim().charAt(0))}</div>`; }
 
 function hotelRow(h){ return `<button class="hrow" onclick="go('hotel',{hotel:'${h.s}',prev:null,from:null})">
   <div class="thumb">${h.img?photo(h.img,h.n):""}</div>
