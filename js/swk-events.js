@@ -45,3 +45,31 @@
     }
   }, true);
 })();
+
+/* Anchor links on load. The site sets html{scroll-behavior:smooth}, and a
+   smooth scroll to a #section started during page load gets cancelled, so a
+   link like /#inquire opened from a DM or email lands at the top of the page.
+   Jump to the target instantly instead, and back off once the visitor
+   touches, scrolls or types. Separate from the analytics block above so it
+   runs even when gtag is absent. */
+(function () {
+  var h = location.hash;
+  if (!h || h.length < 2) return;
+  var stop = false;
+  ['touchstart', 'wheel', 'keydown'].forEach(function (e) {
+    window.addEventListener(e, function () { stop = true; }, { passive: true, once: true });
+  });
+  function go() {
+    if (stop) return;
+    var el;
+    try { el = document.getElementById(decodeURIComponent(h.slice(1))); } catch (e) { return; }
+    if (!el) return;
+    var d = document.documentElement, p = d.style.scrollBehavior;
+    d.style.scrollBehavior = 'auto';
+    el.scrollIntoView();
+    d.style.scrollBehavior = p;
+  }
+  if (document.readyState !== 'loading') go();
+  else document.addEventListener('DOMContentLoaded', go);
+  window.addEventListener('load', function () { go(); setTimeout(go, 400); setTimeout(go, 1200); });
+})();
