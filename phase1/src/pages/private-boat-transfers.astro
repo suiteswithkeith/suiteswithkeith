@@ -85,6 +85,24 @@ const cards = [
   </div>
 </section>
 
+<!-- client texts -->
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:820px;">
+    <span class="eyebrow reveal" style="display:block;">Texts from my clients, mid-trip</span>
+    <h2 class="display-l reveal" style="margin-top:12px;">What the day <em>feels</em> like</h2>
+    <div class="tx reveal">
+      <blockquote class="tx-card"><p>&ldquo;Okay Keith, this private transfer was the best idea <em>ever</em>.&rdquo;</p><cite>E. &amp; K.</cite></blockquote>
+      <blockquote class="tx-card tx-offset"><p>&ldquo;That lunch at Captain Pipinos was just perfect. This might be the <em>highlight</em> of the trip?&rdquo;</p><cite>E. &amp; K.</cite></blockquote>
+    </div>
+    <dl class="tx-day reveal">
+      <div><dt>Morning</dt><dd>Pickup at the port</dd></div>
+      <div><dt>Midday</dt><dd>Swim stops in coves you can&rsquo;t reach by road</dd></div>
+      <div><dt>Afternoon</dt><dd>Lunch on a neighboring island</dd></div>
+      <div><dt>Evening</dt><dd>Back in time for sunset</dd></div>
+    </dl>
+  </div>
+</section>
+
 {cards.map((c, i) => (
   <section class={`section${i % 2 === 0 ? ' band on-shadow' : ''}`} id={c.id} style="scroll-margin-top:70px;">
     <div class="container">
@@ -206,6 +224,15 @@ const cards = [
 </Layout>
 
 <style>
+.tx{margin-top:34px;display:grid;gap:22px}
+.tx-card{margin:0;background:var(--white);border:1px solid var(--hairline);padding:28px 30px}
+.tx-card p{margin:0;font-family:var(--font-display);font-size:clamp(1.5rem,4.6vw,2.1rem);line-height:1.15;color:var(--charcoal)}
+.tx-card cite{display:block;margin-top:14px;font-style:normal;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft)}
+.tx-offset{margin-left:10%}
+.tx-day{margin:40px 0 0;display:grid;grid-template-columns:repeat(2,1fr);gap:22px 20px;border-top:1px solid var(--hairline);padding-top:20px}
+@media(min-width:700px){.tx-day{grid-template-columns:repeat(4,1fr)}}
+.tx-day dt{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft)}
+.tx-day dd{margin:6px 0 0;color:var(--charcoal);line-height:1.4}
   .intro-grid { display: grid; gap: 44px; grid-template-columns: 1fr; align-items: start; }
   @media (min-width: 900px) { .intro-grid { grid-template-columns: 1.4fr 1fr; gap: 80px; } }
   .intro-grid > * { min-width: 0; }
