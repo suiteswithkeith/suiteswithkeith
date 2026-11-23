@@ -79,8 +79,8 @@ const cards = [
         <div class="kv-row"><dt>Transfers from</dt><dd><b>&euro;1,500</b> per boat, not per person</dd></div>
         <div class="kv-row"><dt>Typical crossing</dt><dd><b>30&ndash;90 minutes</b> between neighbors</dd></div>
         <div class="kv-row"><dt>Best crossings</dt><dd>Sifnos &harr; Milos &middot; Mykonos &harr; Paros &middot; Santorini &harr; Folegandros &middot; Santorini &harr; Milos</dd></div>
-        <div class="kv-row"><dt>Included</dt><dd>Boat &amp; captain &middot; cars on both ends &middot; luggage handled &middot; optional swim stop</dd></div>
-      </dl>
+        <div class="kv-row"><dt>Included</dt><dd>Boat &amp; captain &middot; cars on both ends &middot; luggage handled &middot; optional swim stop</dd></div> <div class="kv-row"><dt>Planning now</dt><dd><b>Summer 2027</b> &middot; the best rooms go first, and the boat is built around them</dd></div>
+      </dl> <figure style="margin:34px 0 0; padding-left:18px; border-left:2px solid var(--brass);"><blockquote style="margin:0; font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-style:italic; font-size:1.08rem; line-height:1.5; color:var(--ink);">&ldquo;There was a snafu with our hotel on our first night in Greece. Keith communicated on our behalf, and the hotel went above and beyond, including an upgrade.&rdquo;</blockquote><figcaption style="margin-top:12px; font-family:'Instrument Serif', Didot, Georgia, serif; font-size:13px; letter-spacing:.2em; text-transform:uppercase; color:var(--ash);">Kai Yu W. &middot; Santorini</figcaption></figure><p style="margin-top:18px; font-size:13px; letter-spacing:.2em; text-transform:uppercase; font-family:'Instrument Serif', Didot, Georgia, serif;"><a href="https://www.foratravel.com/advisor/keith-pence" target="_blank" rel="noopener" style="color:var(--brass); text-decoration:none;">&#9733; 5.00 from 9 verified reviews on Fora &rarr;</a></p>
     </div>
   </div>
 </section>
@@ -168,16 +168,16 @@ const cards = [
 <!-- ask -->
 <section class="section inquire band on-shadow" id="inquire" style="scroll-margin-top:70px;">
   <div class="container">
-    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
+    <img class="reveal" src="/images/personal/keith-headshot-square.jpg" alt="Keith Pence, luxury travel advisor" width="320" height="320" loading="lazy" decoding="async" style="display:block; width:112px; height:112px; border-radius:50%; object-fit:cover; margin:0 auto 20px;" /> <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">One question</span>
     <h2 class="display-l reveal">Which islands, and when?</h2>
-    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;">Tell me the crossing, the dates, and where things stand with your hotels. I&rsquo;ll come back with the right boat and a real price.</p>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:44ch;">Tell me the crossing and rough dates, summer 2027 included. I&rsquo;ll come back with the right boat and a real price.</p> <p class="reveal" style="margin:22px auto 0; max-width:36ch; font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-style:italic; font-size:1.06rem; line-height:1.45; color:var(--band-ash);">&ldquo;Worth its weight in gold. I won&rsquo;t ever book a stay without Keith again.&rdquo;<span style="display:block; margin-top:8px; font-family:'Instrument Serif', Didot, Georgia, serif; font-style:normal; font-size:13px; letter-spacing:.2em; text-transform:uppercase;">Caitlin M. &middot; Four Seasons Napa Valley</span></p>
     <form class="inquire-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
       <input type="hidden" name="_subject" value="Inquiry — private boat transfers" />
       <input type="hidden" name="page" value="private-boat-transfers" />
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
       <div class="step1">
         <label for="q-when" style="color:var(--band-ash);">Which islands, and when?</label>
-        <input id="q-when" type="text" name="travel_dates" placeholder="Sifnos to Milos &middot; June 12 &middot; two of us" required autocomplete="off" />
+        <input id="q-when" type="text" name="travel_dates" placeholder="Sifnos to Milos &middot; June 2027 &middot; two of us" required autocomplete="off" />
       </div>
       <div class="step2">
         <label for="q-hotel-status" style="color:var(--band-ash);">Where do things stand with hotels?</label>
@@ -187,16 +187,14 @@ const cards = [
           <option>Hotels booked: take them over and build around them</option>
           <option>Partly booked (some islands still open)</option>
         </select>
-        <label for="q-hotels" style="color:var(--band-ash);">Your hotels, booked or in mind</label>
-        <input id="q-hotels" type="text" name="hotels" placeholder="Skinopi Lodge in Milos &middot; still deciding on Sifnos" autocomplete="off" />
         <label for="q-name" style="color:var(--band-ash);">And where do I send the plan?</label>
         <input id="q-name" type="text" name="name" placeholder="Name" required autocomplete="name" />
         <input id="q-email" type="email" name="email" placeholder="Email" required autocomplete="email" />
-        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Group size, luggage, swim stop (optional)</label>
-        <input id="q-details" type="text" name="details" placeholder="4 of us &middot; six bags &middot; add a swim stop" autocomplete="off" />
+        <label for="q-details" style="margin-top:2px; color:var(--band-ash);">Anything else? Hotels booked or in mind, group size, luggage (optional)</label>
+        <input id="q-details" type="text" name="details" placeholder="Skinopi Lodge in Milos &middot; 4 of us &middot; six bags" autocomplete="off" />
       </div>
       <button type="submit" class="btn">Send</button>
-      <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
+      <p class="note" style="color:var(--band-ash);">Came from Instagram? You can just reply to my DM instead.</p> <p class="note" style="color:var(--band-ash);">Traveling within the next 30 days? You&rsquo;ll hear from me today.</p>
       <p class="status" role="status" aria-live="polite"></p>
     </form>
   </div>
