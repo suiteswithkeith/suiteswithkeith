@@ -200,6 +200,9 @@ const cards = [
   </div>
 </section>
 
+<!-- land on #inquire (and other anchors) reliably: smooth scroll on load gets cancelled -->
+<script is:inline>(function(){var h=location.hash;if(!h||h.length<2)return;var stop=false;['touchstart','wheel','keydown'].forEach(function(e){window.addEventListener(e,function(){stop=true},{passive:true,once:true})});function go(){if(stop)return;var el;try{el=document.querySelector(h)}catch(e){return}if(!el)return;var d=document.documentElement,p=d.style.scrollBehavior;d.style.scrollBehavior='auto';el.scrollIntoView();d.style.scrollBehavior=p}document.addEventListener('DOMContentLoaded',go);window.addEventListener('load',function(){go();setTimeout(go,400);setTimeout(go,1200)})})();</script>
+
 </Layout>
 
 <style>
