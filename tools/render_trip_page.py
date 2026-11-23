@@ -294,8 +294,8 @@ def logistics(t, data):
     out.append('<div class="sum">'
                f'<div><p class="lbl">Logistics total</p><p class="v">{eur(total)}</p>'
                f'<p class="s">{esc(data.get("total_note", "Everything above, for two"))}</p></div>'
-               f'<div class="now"><p class="lbl">Deposit now</p><p class="v">{eur(dep)}</p>'
-               '<p class="s">Confirms everything above</p></div>'
+               f'<div class="now"><p class="lbl">{"Deposit paid" if data.get("status") == "paid" else "Deposit now"}</p><p class="v">{eur(dep)}</p>'
+               f'<p class="s">{"Received, everything above is confirmed" if data.get("status") == "paid" else "Confirms everything above"}</p></div>'
                f'<div><p class="lbl">Balance</p><p class="v">{eur(bal)}</p>'
                f'<p class="s">Due by {nice_date(due)}, 30 days before you arrive</p></div></div>')
     if data.get("status") == "paid":
