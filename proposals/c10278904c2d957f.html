@@ -128,6 +128,30 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
   .break{break-before:page}
   .no-print{display:none!important}
 }
+
+/* Comparison table */
+.cmp{border-top:1px solid var(--hair)}
+.cmp .c{display:grid;grid-template-columns:1.2fr 1.6fr .8fr .8fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--hair);align-items:baseline}
+.cmp .c.head{padding:14px 0;font-family:var(--display);text-transform:uppercase;letter-spacing:.2em;font-size:13px;color:var(--ash)}
+.cmp .c span:nth-child(1){font-family:var(--display);font-size:22px;line-height:1.15}
+.cmp .c.head span:nth-child(1){font-size:13px}
+.cmp .c span:nth-child(3),.cmp .c span:nth-child(4){text-align:right;font-family:var(--display);font-size:22px}
+.cmp .c.head span:nth-child(3),.cmp .c.head span:nth-child(4){font-size:13px}
+.cmp .tag{display:block;font-style:normal;font-family:var(--display);text-transform:uppercase;letter-spacing:.2em;font-size:12px;color:var(--brass);padding-top:4px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:24px;align-items:start}
+.row.pr{padding:6px 0 6px 16px;border-top:0;font-family:var(--display);font-size:20px}
+.contact{display:flex;flex-direction:column;gap:4px;align-items:flex-end}
+.contact a{font-family:var(--display);font-size:20px;text-decoration:none}
+@media (max-width:700px){
+  .cmp .c{grid-template-columns:1fr 1fr;gap:4px 16px}
+  .cmp .c.head{display:none}
+  .cmp .c span:nth-child(2){grid-column:1/-1;font-size:15px;color:var(--ash);padding-bottom:6px}
+  .cmp .c span:nth-child(1){grid-column:1/-1}
+  .cmp .c span:nth-child(3),.cmp .c span:nth-child(4){text-align:left}
+  .cmp .c span[data-l]::before{content:attr(data-l);display:block;font-size:12px;text-transform:uppercase;letter-spacing:.2em;color:var(--ash)}
+  .contact{align-items:flex-start}
+}
+@media print{.cmp .c,.grid2 .card{break-inside:avoid}}
 </style>
 </head>
 <body>
@@ -138,7 +162,7 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <p class="label">Suites With Keith · A proposal for KaryAnn Curtis</p>
 <h1>Napa &amp; Sonoma at <em>Christmas</em></h1>
 <p class="label muted" style="font-size:15px">December 19 to 26, 2026 · Four travelers · Seven nights</p>
-<p style="max-width:680px;font-size:20px">A first trip to wine country for you, your husband, your son and his fiancée. Northern California is my home region, and Christmas week there is quiet, green and cozy, with fire pits on every terrace. Below are two ways to do the week, each with a little space for both couples. Most options come in under your $18,000 budget, and I've marked a couple of stretch options in case they're worth it to you.</p>
+<p style="max-width:680px;font-size:20px">A first trip to wine country for you, your husband, your son and his fiancée. Northern California is my home region, and Christmas week there is quiet, green and cozy, with fire pits on every terrace. Here are my favorite resorts for your family, each set up so both couples have their own space.</p>
 </div>
 <figure>
 <img class="hero-img" src="../images/napa/montage-1.jpg" alt="Rows of vines in front of Montage Healdsburg's low glass and stone buildings, set among oak trees" style="height:620px;object-position:center 55%">
@@ -148,114 +172,134 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 </header>
 
 <section class="plaster">
-<div class="wrap two">
+<div class="wrap" style="display:flex;flex-direction:column;gap:40px">
+<div class="two">
 <div class="stack">
-<p class="label">The plan</p>
-<h2>One resort all week, or the coast <em>first</em></h2>
-<p>True two-bedroom suites in wine country are rare and get expensive fast at Christmas, so for most of these hotels I've paired a one-bedroom suite with a room next door, or two rooms that connect. You and your husband get the suite with the living room, the kids get their own room, and everyone still has a door to close.</p>
-<p>Plan A keeps you in one place for all seven nights. Plan B starts with two nights on the Sonoma Coast, with ocean views, fireplaces and a slower pace, then moves inland for five nights so you wake up in wine country on Christmas morning. Doing the coast first also skips the pricier weekend nights at the resorts, which is why Plan B costs less overall.</p>
+<p class="label">Step one · How you spend the week</p>
+<h2>All week in wine country, or the coast <em>first</em></h2>
 </div>
-<div class="route">
-<div class="r head"><span>Dates</span><span>Where</span><span>Where you'll stay</span><span>Nights</span></div>
-<div class="r"><span>Plan A · Sat Dec 19 to Sat Dec 26</span><span>Wine country</span><span>Montage, Stanly Ranch or Four Seasons</span><span>7</span></div>
-<div class="r"><span>Plan B · Sat Dec 19 to Mon Dec 21</span><span>Sonoma Coast</span><span>Bodega Bay Lodge or Sea Ranch Lodge</span><span>2</span></div>
-<div class="r"><span>Plan B · Mon Dec 21 to Sat Dec 26</span><span>Wine country</span><span>Montage, Stanly Ranch, Solage or Four Seasons</span><span>5</span></div>
-<p class="note" style="padding-top:16px">Every price on this page is the total for the stay, as shown in your bookable quote, and every rate is refundable until early to mid-December.</p>
+<div class="stack">
+<p><strong style="font-weight:400;font-family:var(--display);font-size:22px">The full week.</strong> Seven nights at one resort. Unpack once and settle in.</p>
+<p><strong style="font-weight:400;font-family:var(--display);font-size:22px">Coast first.</strong> Two nights at Bodega Bay on the Sonoma Coast, with ocean views and fireplaces, then five nights at the resort, so you wake up in wine country on Christmas morning. It also skips the resorts' pricier weekend nights, which is why it costs less.</p>
+</div>
+</div>
+<div class="stack">
+<p class="label">Step two · Pick your resort</p>
+<p>True two-bedroom suites in wine country are rare and expensive at Christmas, so at each resort I've paired a suite or cottage for you two with a room next door for the kids. Totals are for both rooms, with daily breakfast included.</p>
+</div>
+<div class="cmp">
+<div class="c head"><span>Resort</span><span>Your rooms</span><span>The full week</span><span>Coast first</span></div>
+<div class="c pick"><span>Montage Healdsburg<em class="tag">My pick</em></span><span>One-bedroom suite + vineyard room</span><span data-l="The full week">$17,282</span><span data-l="Coast first">$14,837</span></div>
+<div class="c"><span>Montage Healdsburg</span><span>Two-bedroom suite with king connector</span><span data-l="The full week">$21,900</span><span data-l="Coast first">$16,864</span></div>
+<div class="c"><span>Stanly Ranch</span><span>Freestanding cottage + king room</span><span data-l="The full week">$17,498</span><span data-l="Coast first">$14,616</span></div>
+<div class="c"><span>Solage</span><span>Silverado suite + king studio</span><span data-l="The full week">$19,695</span><span data-l="Coast first">$16,753</span></div>
+<div class="c"><span>Four Seasons Napa Valley</span><span>One-bedroom suite + resort room</span><span data-l="The full week">$21,308</span><span data-l="Coast first">$19,237</span></div>
+<p class="note" style="padding-top:16px">Coast-first totals include two rooms at Bodega Bay Lodge. Sea Ranch Lodge instead adds about $960. Every rate is refundable until early to mid-December.</p>
 </div>
 </div>
 </section>
 
 <section class="shadow">
-<figure class="lead">
-<img loading="lazy" src="../images/napa/montage-3-firepit.jpg" alt="A lit fire pit on a Montage Healdsburg balcony at sunset, with oak trees and hills beyond" style="object-position:center 55%">
-<figcaption>A balcony fire pit at Montage Healdsburg</figcaption>
-</figure>
-<div class="wrap" style="display:flex;flex-direction:column;gap:44px">
+<div class="wrap" style="display:flex;flex-direction:column;gap:32px">
 <div class="stack" style="max-width:820px">
-<p class="label">Plan A · Seven nights in one place · Dec 19 to 26</p>
-<h2>Settle in for the whole <em>week</em></h2>
-<p>Two rooms for seven nights, breakfast included every morning.</p>
+<p class="label">Where everything is</p>
+<h2>The coast and the <em>vineyards</em></h2>
+<p>Bodega Bay is under an hour from Montage in Healdsburg, and a little over an hour from Calistoga and Stanly Ranch. Sea Ranch is farther up the coast and more remote.</p>
 </div>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:24px;align-items:start">
-
-<div class="card">
-<img class="photo" loading="lazy" src="../images/napa/montage-2.jpg" alt="A Montage Healdsburg room with a stone chimney and a balcony hanging over golden oak hills" style="object-position:center 50%">
-<p class="label sm">Option A1 · my pick</p>
-<h3><a href="https://suiteswithkeith.com/hotels/montage-healdsburg.html">Montage Healdsburg</a></h3>
-<p class="small">My home away from home. I've stayed here more than 20 times, more than any other hotel in wine country. The vineyard rooms, with their fire pits looking over the vines, are the reason I keep going back, and the restaurant has the best view of any dining room in the region. A free shuttle runs into downtown Healdsburg, so nobody has to drive home from dinner.</p>
-<div class="rows">
-<div class="row"><span>Deluxe Vineyard One-Bedroom Suite<span class="sub">1,178 sq ft · king bedroom · living room · fire pit · for you two</span></span><span>$11,769</span></div>
-<div class="row"><span>Vineyard Room<span class="sub">599 sq ft · king · balcony with fire pit · for the kids</span></span><span>$5,514</span></div>
-<div class="row total"><span>Seven nights, both rooms</span><span>$17,282</span></div>
-<div class="row"><span>Stretch: Deluxe Forest Two-Bedroom Suite with King Connector<span class="sub">1,827 sq ft · two kings · living room · booked as one, so the connection is guaranteed</span></span><span>$21,900</span></div>
-</div>
-<p class="take small">Montage has suites that connect to a vineyard room. I'll confirm the pairing with the hotel directly and copy you on that email.</p>
-<p class="label sm">Included through Suites With Keith</p>
-<p class="small">Daily breakfast for two in each room, a $100 hotel credit, plus an upgrade and early check-in or late check-out when available.</p>
-<p class="note">Free cancellation until December 12.</p>
-</div>
-
-<div class="card">
-<img class="photo" loading="lazy" src="../images/napa/stanly-ranch.jpg" alt="A bright Stanly Ranch cottage with a king bed, a sitting area and sliding doors open to the terrace" style="object-position:center 50%">
-<p class="label sm">Option A2 · design lovers</p>
-<h3><a href="https://suiteswithkeith.com/hotels/stanly-ranch-napa.html">Stanly Ranch</a></h3>
-<p class="small">Possibly the most architecturally striking hotel in wine country, with the prettiest spa in the valley and a fire pit on every terrace. It sits in Carneros at the south end of Napa, so it's handy for both Napa and Sonoma wineries, though the setting is more open ranchland than vineyard postcard. Stanly has no one-bedroom suites, so I've paired a freestanding cottage with a king room, and the king rooms can connect.</p>
-<div class="rows">
-<div class="row"><span>Arbor Cottage<span class="sub">610 sq ft · freestanding · fireplace · soaking tub and outdoor shower</span></span><span>$10,298</span></div>
-<div class="row"><span>Acre King<span class="sub">411 sq ft · private terrace with fire pit</span></span><span>$7,200</span></div>
-<div class="row total"><span>Seven nights, both rooms</span><span>$17,498</span></div>
-</div>
-<p class="label sm">Included through Suites With Keith</p>
-<p class="small">Daily breakfast for two in each room, a $100 resort credit per room and a welcome amenity. This rate also carries a daily resort credit you can put toward dining, the spa and experiences.</p>
-<p class="note">Free cancellation until December 12. Stanly charges the full stay when you book.</p>
-</div>
-
-<div class="card">
-<img class="photo" loading="lazy" src="../images/napa/four-seasons-1.jpg" alt="Four Seasons Napa Valley set among its own vineyard in Calistoga" style="object-position:center 50%">
-<p class="label sm">Option A3 · the stretch</p>
-<h3><a href="https://suiteswithkeith.com/hotels/four-seasons-napa-valley.html">Four Seasons Napa Valley</a></h3>
-<p class="small">I've stayed here four or five times, and it's the most versatile luxury resort in wine country: true Four Seasons service, a working vineyard and winery on property, gorgeous pools and a Michelin-starred restaurant. It works as well for families as it does for couples. This is the one-bedroom suite with a dining table for six, plus a resort room for the kids.</p>
-<div class="rows">
-<div class="row"><span>Vineyard One-Bedroom Suite<span class="sub">960 sq ft · fireplace · living and dining room · vineyard view</span></span><span>$16,105</span></div>
-<div class="row"><span>Resort Room<span class="sub">480 to 530 sq ft · king · fireplace</span></span><span>$5,203</span></div>
-<div class="row total"><span>Seven nights, both rooms</span><span>$21,308</span></div>
-</div>
-<p class="label sm">Included through Suites With Keith</p>
-<p class="small">Daily breakfast for two in each room, a hotel credit of $200 for the suite and $100 for the room, plus an upgrade and early check-in or late check-out when available. This rate already includes every third night free.</p>
-<p class="note">Free cancellation until December 5.</p>
-</div>
-
-</div>
+<figure>
+<svg viewBox="0 0 1000 690" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the Sonoma Coast lodges and the wine country resorts, with approximate drive times" style="display:block;width:100%;height:auto;background:#FBFAF6;border:1px solid rgba(22,23,18,.15)">
+<path d="M0,0 L-12.3,0.0 L-12.3,0.0 L55.6,70.8 L98.8,125.9 L135.8,180.9 L179.0,228.1 L234.6,275.3 L302.5,322.5 L333.3,377.6 L339.5,416.9 L345.7,440.5 L401.2,487.7 L407.4,534.9 L407.4,605.7 L370.4,645.0 L401.2,684.3 L518.5,715.8 L580.2,755.1 L629.6,786.6 L672.8,810.2 L706.8,825.9 L685.2,841.6 L688.3,896.7 L0,690 Z" fill="#E9E5DA"/><path d="M688.3,896.7 L685.2,841.6 L706.8,825.9 L672.8,810.2 L629.6,786.6 L580.2,755.1 L518.5,715.8 L401.2,684.3 L370.4,645.0 L407.4,605.7 L407.4,534.9 L401.2,487.7 L345.7,440.5 L339.5,416.9 L333.3,377.6 L302.5,322.5 L234.6,275.3 L179.0,228.1 L135.8,180.9 L98.8,125.9 L55.6,70.8 L-12.3,0.0" fill="none" stroke="#65665C" stroke-width="1.2"/>
+<text x="74" y="582" font-family="Instrument Serif, Georgia, serif" font-style="italic" font-size="26" fill="#8C8D82">Pacific Ocean</text>
+<text x="519" y="653" font-family="Newsreader, Georgia, serif" font-size="15" fill="#65665C" text-anchor="middle">San Francisco is about 90 minutes south</text><path d="M519,663 l0,18 m-6,-7 l6,7 l6,-7" fill="none" stroke="#65665C" stroke-width="1.4"/>
+<line x1="354.9" y1="431.0" x2="475.3" y2="177.0" stroke="#4A5040" stroke-width="1.2" stroke-dasharray="4 5" opacity=".55"/>
+<line x1="354.9" y1="431.0" x2="651.2" y2="206.9" stroke="#4A5040" stroke-width="1.2" stroke-dasharray="4 5" opacity=".55"/>
+<line x1="354.9" y1="431.0" x2="808.6" y2="483.7" stroke="#4A5040" stroke-width="1.2" stroke-dasharray="4 5" opacity=".55"/>
+<line x1="108.0" y1="125.9" x2="475.3" y2="177.0" stroke="#4A5040" stroke-width="1.2" stroke-dasharray="4 5" opacity=".55"/>
+<text x="385" y="298" font-family="Newsreader, Georgia, serif" font-size="15" fill="#4A5040" text-anchor="middle">about 50 min</text>
+<text x="542" y="321" font-family="Newsreader, Georgia, serif" font-size="15" fill="#4A5040" text-anchor="middle">about 1 hr 15</text>
+<text x="582" y="479" font-family="Newsreader, Georgia, serif" font-size="15" fill="#4A5040" text-anchor="middle">about 1 hr 15</text>
+<text x="312" y="143" font-family="Newsreader, Georgia, serif" font-size="15" fill="#4A5040" text-anchor="middle">about 1 hr 45</text>
+<circle cx="822.8" cy="442.8" r="3" fill="#65665C"/><text x="831" y="448" font-family="Newsreader, Georgia, serif" font-size="15" fill="#65665C">Napa</text>
+<circle cx="717.3" cy="446.8" r="3" fill="#65665C"/><text x="725" y="452" font-family="Newsreader, Georgia, serif" font-size="15" fill="#65665C">Sonoma</text>
+<circle cx="314.8" cy="322.5" r="3" fill="#65665C"/><text x="323" y="327" font-family="Newsreader, Georgia, serif" font-size="15" fill="#65665C">Jenner</text>
+<circle cx="475.3" cy="177.0" r="8" fill="#4A5040"/><text x="485" y="165" text-anchor="start" font-family="Instrument Serif, Georgia, serif" font-size="21" fill="#1F201A">Montage Healdsburg</text>
+<circle cx="651.2" cy="206.9" r="8" fill="#4A5040"/><text x="663" y="197" text-anchor="start" font-family="Instrument Serif, Georgia, serif" font-size="21" fill="#1F201A">Four Seasons Napa Valley</text>
+<circle cx="645.1" cy="223.4" r="8" fill="#4A5040"/><text x="657" y="239" text-anchor="start" font-family="Instrument Serif, Georgia, serif" font-size="21" fill="#1F201A">Solage</text>
+<circle cx="808.6" cy="483.7" r="8" fill="#4A5040"/><text x="821" y="502" text-anchor="start" font-family="Instrument Serif, Georgia, serif" font-size="21" fill="#1F201A">Stanly Ranch</text>
+<circle cx="354.9" cy="431.0" r="8" fill="#FBFAF6" stroke="#1F201A" stroke-width="2.5"/><text x="369" y="421" font-family="Instrument Serif, Georgia, serif" font-size="21" fill="#1F201A">Bodega Bay Lodge</text>
+<circle cx="108.0" cy="125.9" r="8" fill="#FBFAF6" stroke="#1F201A" stroke-width="2.5"/><text x="122" y="116" font-family="Instrument Serif, Georgia, serif" font-size="21" fill="#1F201A">Sea Ranch Lodge</text>
+<rect x="682" y="18" width="300" height="104" fill="#FBFAF6" stroke="rgba(22,23,18,.15)"/>
+<circle cx="700" cy="48" r="7" fill="#FBFAF6" stroke="#1F201A" stroke-width="2.5"/><text x="718" y="53" font-family="Newsreader, Georgia, serif" font-size="16" fill="#1F201A">Coast lodges (2 nights)</text>
+<circle cx="700" cy="76" r="7" fill="#4A5040"/><text x="718" y="81" font-family="Newsreader, Georgia, serif" font-size="16" fill="#1F201A">Wine country resorts</text>
+<line x1="692" y1="104" x2="708" y2="104" stroke="#4A5040" stroke-width="1.4" stroke-dasharray="4 4"/><text x="718" y="109" font-family="Newsreader, Georgia, serif" font-size="16" fill="#1F201A">Approximate drive time</text>
+</svg>
+<figcaption>Drive times are approximate</figcaption>
+</figure>
 </div>
 </section>
 
 <section class="plaster">
 <div class="wrap" style="display:flex;flex-direction:column;gap:44px">
 <div class="stack" style="max-width:820px">
-<p class="label">Plan B · Part one · Sonoma Coast · Dec 19 to 21</p>
-<h2>Two nights by the <em>ocean</em></h2>
-<p>About 90 minutes north of San Francisco, and under an hour from Healdsburg. Both lodges are small and quiet, and both work well as a calm start before the wine country part of the week. Prices are for two rooms, one per couple.</p>
+<p class="label">The resorts</p>
+<h2>Where you'd <em>stay</em></h2>
 </div>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:24px;align-items:start">
+<div class="grid2">
 
 <div class="card">
-<p class="label sm">Option B1 · easy and cozy</p>
-<h3>The Lodge at Bodega Bay</h3>
-<p class="small">A classic coastal lodge looking out over the bay and the Pacific. Rooms have fireplaces and balconies, there's a pool and hot tub facing the water, and the restaurant focuses on local seafood. It's also the closer of the two, so less time in the car.</p>
+<img class="photo" loading="lazy" src="../images/napa/montage-3-firepit.jpg" alt="A lit fire pit on a Montage Healdsburg balcony at sunset, with oak trees and hills beyond" style="object-position:center 55%">
+<p class="label sm">My pick</p>
+<h3><a href="https://suiteswithkeith.com/hotels/montage-healdsburg.html">Montage Healdsburg</a></h3>
+<p class="small">My home away from home. I've stayed here more than 20 times, more than any other hotel in wine country. The vineyard rooms, with their fire pits looking over the vines, are the reason I keep going back, and the restaurant has the best view of any dining room in the region. A free shuttle runs into downtown Healdsburg, so nobody has to drive home from dinner.</p>
+<p class="label sm muted">Two ways to set it up</p>
 <div class="rows">
-<div class="row"><span>Pacific Coast Upper Room × 2<span class="sub">upper floor · bay view · fireplace · balcony</span></span><span>$2,348</span></div>
+<div class="row"><span>One-bedroom vineyard suite + vineyard room<span class="sub">1,178 sq ft suite with living room, plus a 599 sq ft king room · both with fire pits · I'll confirm they connect</span></span><span></span></div>
+<div class="row pr"><span>The full week</span><span>$17,282</span></div>
+<div class="row pr"><span>Coast first</span><span>$14,837</span></div>
+<div class="row"><span>Two-bedroom suite with king connector<span class="sub">1,827 sq ft · two kings · booked as one, so the connection is guaranteed · faces the oak forest rather than the vines</span></span><span></span></div>
+<div class="row pr"><span>The full week</span><span>$21,900</span></div>
+<div class="row pr"><span>Coast first</span><span>$16,864</span></div>
 </div>
-<p class="note">Free cancellation until December 16.</p>
+<p class="small">Included through me: daily breakfast, a $100 hotel credit, plus an upgrade and early check-in or late check-out when available.</p>
 </div>
 
 <div class="card">
-<p class="label sm">Option B2 · wild and quiet</p>
-<h3>The Sea Ranch Lodge</h3>
-<p class="small">A tiny, newly redone lodge with just 17 rooms, on the bluffs of The Sea Ranch, famous for its 1960s architecture. It's a longer, very scenic drive up Highway 1. Come for walking trails along the cliffs, the chapel and a well-regarded dining room. It's quieter and more remote than Bodega Bay.</p>
+<img class="photo" loading="lazy" src="../images/napa/four-seasons-1.jpg" alt="Four Seasons Napa Valley set among its own vineyard in Calistoga" style="object-position:center 50%">
+<p class="label sm">The splurge</p>
+<h3><a href="https://suiteswithkeith.com/hotels/four-seasons-napa-valley.html">Four Seasons Napa Valley</a></h3>
+<p class="small">I've stayed here four or five times, and it's the most versatile luxury resort in wine country: true Four Seasons service, its own working vineyard and winery, gorgeous pools and a Michelin-starred restaurant. It works as well for families as it does for couples.</p>
 <div class="rows">
-<div class="row"><span>King Room × 2<span class="sub">king bed · in the lodge</span></span><span>$3,306</span></div>
+<div class="row"><span>Vineyard one-bedroom suite + resort room<span class="sub">960 sq ft suite with fireplace and dining for six, plus a king room with fireplace</span></span><span></span></div>
+<div class="row pr"><span>The full week</span><span>$21,308</span></div>
+<div class="row pr"><span>Coast first</span><span>$19,237</span></div>
 </div>
-<p class="note">Free cancellation until December 5.</p>
+<p class="small">Included through me: daily breakfast, hotel credits of $200 for the suite and $100 for the room, an upgrade when available, and every third night free, already built into these prices.</p>
+</div>
+
+<div class="card">
+<img class="photo" loading="lazy" src="../images/napa/stanly-ranch.jpg" alt="A bright Stanly Ranch cottage with a king bed, a sitting area and sliding doors open to the terrace" style="object-position:center 50%">
+<p class="label sm">For design lovers</p>
+<h3><a href="https://suiteswithkeith.com/hotels/stanly-ranch-napa.html">Stanly Ranch</a></h3>
+<p class="small">Possibly the most architecturally striking hotel in wine country, with the prettiest spa in the valley and a fire pit on every terrace. It sits at the south end of Napa, handy for both Napa and Sonoma wineries, though the setting is more open ranchland than vineyard postcard.</p>
+<div class="rows">
+<div class="row"><span>Freestanding cottage + king room<span class="sub">610 sq ft cottage with fireplace and soaking tub, plus a king room with fire pit</span></span><span></span></div>
+<div class="row pr"><span>The full week</span><span>$17,498</span></div>
+<div class="row pr"><span>Coast first</span><span>$14,616</span></div>
+</div>
+<p class="small">Included through me: daily breakfast, a $100 resort credit per room, a welcome amenity, plus a daily resort credit for dining, the spa and experiences.</p>
+</div>
+
+<div class="card">
+<img class="photo" loading="lazy" src="../images/napa/solage-1.jpg" alt="A private Solage patio with a fire pit and lounge chairs under a large oak" style="object-position:center 50%">
+<p class="label sm">Relaxed and private</p>
+<h3><a href="https://suiteswithkeith.com/hotels/solage-calistoga.html">Solage</a></h3>
+<p class="small">Iconic Calistoga design with a relaxed, younger feel, and private patios on almost every room. The only suite open for your dates is the accessible Silverado Suite, which has a sitting area, fireplace and a private patio with a hot tub.</p>
+<div class="rows">
+<div class="row"><span>Silverado suite + king studio<span class="sub">suite with hot tub patio, plus a fireplace studio with soaking tub</span></span><span></span></div>
+<div class="row pr"><span>The full week</span><span>$19,695</span></div>
+<div class="row pr"><span>Coast first</span><span>$16,753</span></div>
+</div>
+<p class="small">Included through me: daily breakfast, a $100 resort credit per room and a welcome amenity.</p>
 </div>
 
 </div>
@@ -263,64 +307,31 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 </section>
 
 <section class="shadow">
-<div class="wrap" style="display:flex;flex-direction:column;gap:44px">
-<div class="stack" style="max-width:820px">
-<p class="label">Plan B · Part two · Wine country · Dec 21 to 26</p>
-<h2>Five nights, Christmas in the <em>vineyards</em></h2>
-<p>Prices are for both rooms for all five nights, with daily breakfast included. The total includes Bodega Bay. Sea Ranch adds about $960.</p>
+<figure class="lead">
+<img loading="lazy" src="../images/napa/bodega-bay-lodge.jpg" alt="The pool and steaming hot tub at Bodega Bay Lodge at sunset, with lawns, fire pits and the marsh and bay beyond" style="object-position:center 60%">
+<figcaption>Bodega Bay Lodge at sunset</figcaption>
+</figure>
+<div class="wrap two">
+<div class="stack">
+<p class="label">If you go coast first · Dec 19 to 21</p>
+<h2>Two nights by the <em>ocean</em></h2>
+<p>About 90 minutes north of San Francisco. Both lodges are small and quiet, a calm start before the wine country part of the week. Prices are for two rooms, one per couple.</p>
+<p class="note">Both lodges have nicer room categories too, like Bodega Bay's Ocean Club suites. Happy to upgrade either couple if you'd like.</p>
 </div>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:24px;align-items:start">
-
-<div class="card">
-<p class="label sm">Option B3 · my pick for your family</p>
-<h3><a href="https://suiteswithkeith.com/hotels/montage-healdsburg.html">Montage Healdsburg</a></h3>
-<p class="small">The closest thing to a true two-bedroom here: a one-bedroom suite with a king room built in next door, booked as one, so the connection is guaranteed. It has 1,827 square feet, two king beds, two bathrooms and a balcony with a fire pit. My one note is that it faces the oak forest rather than the vines. If the vineyard view matters most, the suite and room below cost less.</p>
-<div class="rows">
-<div class="row"><span>Deluxe Forest Two-Bedroom Suite with King Connector<span class="sub">1,827 sq ft · two kings · living room · fire pit</span></span><span>$14,516</span></div>
-<div class="row"><span>Or: Vineyard One-Bedroom Suite + Vineyard Room<span class="sub">vineyard views · connection confirmed with the hotel</span></span><span>$12,489</span></div>
-<div class="row total"><span>With Bodega Bay</span><span>$16,864 or $14,837</span></div>
+<div class="legs">
+<div>
+<p class="label sm">My pick for the coast</p>
+<h3>Bodega Bay Lodge</h3>
+<p class="small">A classic coastal lodge looking out over the bay and the Pacific, with fireplaces and balconies in the rooms, a pool and hot tub facing the water, and a restaurant focused on local seafood. It's the closer of the two to wine country.</p>
+<div class="row" style="border-top:0;padding:0"><span>Two bay-view rooms with fireplace · 2 nights</span><span>$2,348</span></div>
 </div>
-<p class="note">Free cancellation until December 14.</p>
+<div>
+<img loading="lazy" src="../images/napa/sea-ranch-lodge.jpg" alt="A round dining table set for four in the Sea Ranch Lodge dining room, with big windows over the bluffs and the Pacific at dusk" style="display:block;width:100%;max-width:460px;height:auto;margin-bottom:8px">
+<h3>The Sea Ranch Lodge</h3>
+<p class="small">A tiny, newly redone lodge with just 17 rooms on the bluffs of The Sea Ranch, famous for its 1960s architecture. Come for cliffside walking trails, the chapel and a well-regarded dining room. It's quieter and more remote, and a longer, very scenic drive.</p>
+<div class="row" style="border-top:0;padding:0"><span>Two king rooms · 2 nights</span><span>$3,306</span></div>
 </div>
-
-<div class="card">
-<p class="label sm">Option B4</p>
-<h3><a href="https://suiteswithkeith.com/hotels/stanly-ranch-napa.html">Stanly Ranch</a></h3>
-<p class="small">The same cottage and king room pairing as in Plan A, for five nights instead of seven, with the spa, Bear restaurant and a daily resort credit on top of breakfast.</p>
-<div class="rows">
-<div class="row"><span>Arbor Cottage<span class="sub">610 sq ft · fireplace · soaking tub</span></span><span>$7,223</span></div>
-<div class="row"><span>Acre King<span class="sub">411 sq ft · terrace with fire pit</span></span><span>$5,046</span></div>
-<div class="row total"><span>With Bodega Bay</span><span>$14,616</span></div>
 </div>
-<p class="note">Free cancellation until December 14. Paid in full at booking.</p>
-</div>
-
-<div class="card">
-<p class="label sm">Option B5</p>
-<h3><a href="https://suiteswithkeith.com/hotels/solage-calistoga.html">Solage</a></h3>
-<p class="small">Iconic Calistoga design with a relaxed, younger feel, and private patios on almost every room. The only suite open for these dates is the accessible Silverado Suite, which has a sitting area, fireplace and a private patio with a hot tub. Paired with a fireplace king studio for the kids.</p>
-<div class="rows">
-<div class="row"><span>Silverado Suite (accessible)<span class="sub">fireplace · private patio with hot tub · roll-in shower</span></span><span>$9,698</span></div>
-<div class="row"><span>Calistoga King Studio<span class="sub">fireplace · soaking tub · private patio</span></span><span>$4,707</span></div>
-<div class="row total"><span>With Bodega Bay</span><span>$16,753</span></div>
-</div>
-<p class="note">Free cancellation until December 14. Paid in full at booking.</p>
-</div>
-
-<div class="card">
-<p class="label sm">Option B6 · the stretch</p>
-<h3><a href="https://suiteswithkeith.com/hotels/four-seasons-napa-valley.html">Four Seasons Napa Valley</a></h3>
-<p class="small">The Plan A Four Seasons pairing for five nights: the Vineyard One-Bedroom Suite with its fireplace and dining room, plus a resort room, with every third night free already built into the rate.</p>
-<div class="rows">
-<div class="row"><span>Vineyard One-Bedroom Suite<span class="sub">960 sq ft · fireplace · vineyard view</span></span><span>$12,740</span></div>
-<div class="row"><span>Resort Room<span class="sub">king · fireplace</span></span><span>$4,149</span></div>
-<div class="row total"><span>With Bodega Bay</span><span>$19,237</span></div>
-</div>
-<p class="note">Free cancellation until December 7.</p>
-</div>
-
-</div>
-<p class="note" style="max-width:820px">I also looked at the true two-bedroom suites and villas at Four Seasons. They're wonderful, but they run $35,000 to $40,000 for Christmas week, so the suite and room pairing is the way to do Four Seasons on this trip.</p>
 </div>
 </section>
 
@@ -331,11 +342,11 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <div class="steps">
 <div>
 <p class="n">1</p>
-<p>Look through both plans and tell me your top three. If you're torn, my vote is Plan B with Bodega Bay and the Montage suite with the king connector: the ocean and the vineyards, Christmas at my favorite hotel, and about $16,900 in total.</p>
+<p>Tell me your top three. If you're torn, my vote is coast first with Bodega Bay and Montage: the ocean and the vineyards, Christmas at my favorite hotel, for about $14,800 with the suite and vineyard room.</p>
 </div>
 <div>
 <p class="n">2</p>
-<p>I'll email those three hotels to confirm the exact rooms, including that the suite and room connect, and copy you so you see their answers. Then I book your favorite. Rates are paid directly to the hotel and are refundable until early to mid-December.</p>
+<p>I'll email those three hotels to confirm the exact rooms, including that the suite and room connect, and copy you so you see their answers. Then I book your favorite. Rates are paid directly to the hotel.</p>
 </div>
 <div>
 <p class="n">3</p>
@@ -354,7 +365,7 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 </div>
 <div style="display:flex;flex-wrap:wrap;gap:12px;padding-top:8px">
 <a class="btn" href="https://trips.foratravel.com/quotes/suites-with-keith/Ea3geKwFtc" target="_blank" rel="noopener">View your bookable quote</a>
-<a class="btn outline" href="https://trips.foratravel.com/quotes/suites-with-keith/newLySdFaQ" target="_blank" rel="noopener">Four Seasons &amp; Montage stretch options</a>
+<a class="btn outline" href="https://trips.foratravel.com/quotes/suites-with-keith/newLySdFaQ" target="_blank" rel="noopener">More full-week options</a>
 <a class="btn outline" href="https://secure.foratravel.com/invoices/suites-with-keith/4fdLjRY6m8" target="_blank" rel="noopener">Pay the $650 planning fee</a>
 </div>
 <div class="links">
@@ -365,7 +376,11 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 </div>
 <div class="sign">
 <div style="display:flex;align-items:center;gap:18px"><img src="../images/personal/keith-headshot-square.jpg" alt="Keith Pence, luxury travel advisor" width="320" height="320" loading="lazy" decoding="async" style="width:80px;height:80px;object-fit:cover;display:block;flex:none"><p style="font-family:var(--display);font-size:28px">Keith Pence <em style="color:var(--brass)">· Suites With Keith</em></p></div>
-<p class="label muted" style="align-self:center">@suiteswithkeith</p>
+<div class="contact">
+<a href="tel:+14152724316">415.272.4316 · call or text</a>
+<a href="mailto:keith.pence@fora.travel">keith.pence@fora.travel</a>
+<span class="label muted">@suiteswithkeith</span>
+</div>
 </div>
 </div>
 </section>
