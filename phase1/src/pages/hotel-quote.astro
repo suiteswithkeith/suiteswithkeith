@@ -1,0 +1,100 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  canonical="hotel-quote.html"
+  title="Request a Hotel Quote | Suites With Keith"
+  description="Already know where you want to stay? Send the hotel, dates and room, and get a bookable quote back within 3 hours. Hotel bookings are complimentary."
+  current="services"
+  ctaLabel="Request a quote"
+>
+
+<section class="section inquire" id="inquire" style="scroll-margin-top:70px;">
+  <div class="container">
+    <span class="eyebrow reveal" style="display:block; margin-bottom:16px;">Hotel only</span>
+    <h1 class="display-l reveal">Already know where you want to book?</h1>
+    <p class="deck reveal" style="margin:18px auto 0; max-width:40ch;">Fill this out and I&rsquo;ll get back to you with a bookable quote within 3 hours of submitting.</p>
+
+    <form class="inquire-form hq-form reveal" action="https://formspree.io/f/mjgnadov" method="POST">
+      <input type="hidden" name="_subject" value="Hotel quote request" />
+      <input type="hidden" name="page" value="hotel-quote" />
+      <input type="hidden" name="form_type" value="hotel_quote" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+      <div class="step1">
+        <p class="hq-h">Personal details</p>
+        <div class="hq-row">
+          <div>
+            <label for="hq-first">First name <span class="hq-req" aria-hidden="true">*</span></label>
+            <input id="hq-first" type="text" name="first_name" required autocomplete="given-name" />
+          </div>
+          <div>
+            <label for="hq-last">Last name <span class="hq-req" aria-hidden="true">*</span></label>
+            <input id="hq-last" type="text" name="last_name" required autocomplete="family-name" />
+          </div>
+        </div>
+        <label for="hq-email">Email <span class="hq-req" aria-hidden="true">*</span></label>
+        <input id="hq-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+
+        <p class="hq-h">Hotel details</p>
+        <label for="hq-hotel">Hotel name <span class="hq-req" aria-hidden="true">*</span></label>
+        <input id="hq-hotel" type="text" name="hotel_name" placeholder="Hotel Il Pellicano" required autocomplete="off" />
+
+        <div class="hq-row">
+          <div>
+            <label for="hq-in">Check-in <span class="hq-req" aria-hidden="true">*</span></label>
+            <input id="hq-in" class="input" type="date" name="check_in" required />
+          </div>
+          <div>
+            <label for="hq-out">Check-out <span class="hq-req" aria-hidden="true">*</span></label>
+            <input id="hq-out" class="input" type="date" name="check_out" required />
+          </div>
+        </div>
+
+        <label for="hq-room">Room or suite category <span class="hq-req" aria-hidden="true">*</span></label>
+        <input id="hq-room" type="text" name="room_category" placeholder="Sea view junior suite, or &ldquo;not sure yet&rdquo;" required autocomplete="off" />
+        <p class="hq-hint">Not sure which room? Say so and I&rsquo;ll quote the one I&rsquo;d book.</p>
+
+        <div class="hq-row">
+          <div>
+            <label for="hq-adults">Adults <span class="hq-req" aria-hidden="true">*</span></label>
+            <input id="hq-adults" class="input" type="number" name="adults" min="1" max="20" value="2" required inputmode="numeric" />
+          </div>
+          <div>
+            <label for="hq-kids">Children &amp; ages</label>
+            <input id="hq-kids" type="text" name="children" placeholder="None, or 2 (ages 6, 9)" autocomplete="off" />
+          </div>
+        </div>
+
+        <label for="hq-notes">Anything else I should know?</label>
+        <textarea id="hq-notes" class="input" name="details" rows="4" placeholder="Occasion, bed type, connecting rooms, Amex FHR credit, loyalty number"></textarea>
+
+        <p class="hq-hint" style="margin-top:14px;">All rates are quoted as BAR (Best Available Rate) unless you tell me otherwise.</p>
+      </div>
+
+      <button type="submit" class="btn">Request my quote</button>
+      <p class="note">Booking is complimentary. Preferred-partner amenities are added where the hotel offers them.</p>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<script is:inline>(function(){var i=document.getElementById('hq-in'),o=document.getElementById('hq-out');if(!i||!o)return;var t=new Date();t.setMinutes(t.getMinutes()-t.getTimezoneOffset());var today=t.toISOString().slice(0,10);i.min=today;o.min=today;i.addEventListener('change',function(){if(!i.value)return;var d=new Date(i.value+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+1);var next=d.toISOString().slice(0,10);o.min=next;if(!o.value||o.value<next)o.value=next;});})();</script>
+
+</Layout>
+
+<style>
+  .hq-form { max-width: 520px; }
+  .hq-h { font-family: 'Newsreader', Georgia, serif; font-size: 1.35rem; color: var(--ink); margin: 34px 0 16px; padding-top: 22px; border-top: 1px solid var(--hairline); }
+  .hq-h:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .hq-row { display: grid; grid-template-columns: 1fr; gap: 0 14px; }
+  @media (min-width: 520px) { .hq-row { grid-template-columns: 1fr 1fr; } }
+  .hq-row > div { min-width: 0; }
+  .hq-req { color: var(--brass); }
+  .hq-form input[type="date"],.hq-form input[type="number"],.hq-form textarea{display:block;width:100%;box-sizing:border-box;font:inherit;font-size:1rem;color:var(--ink);background:var(--surface-input,#FAF8F3);border:1px solid var(--border-input,var(--hairline));border-radius:var(--radius-input,2px);padding:13px 14px;margin-bottom:16px;min-height:50px;-webkit-appearance:none;appearance:none}
+  .hq-form textarea{min-height:7.5em;line-height:1.55;resize:vertical}
+  .hq-form input[type="date"]:focus,.hq-form input[type="number"]:focus,.hq-form textarea:focus{outline:none;border-color:var(--olive);box-shadow:var(--shadow-focus)}
+  
+  .hq-hint { font-size: .85rem; color: var(--ash); margin: -8px 0 16px; line-height: 1.45; }
+  .hq-form .btn { margin-top: 8px; }
+</style>
