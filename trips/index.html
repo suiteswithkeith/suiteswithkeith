@@ -462,7 +462,7 @@ function vTrip(){
         ${r.room?`<div style="grid-column:1/3;border-right:0"><span class="label">${r.type==="Hotel"?"Room":"Details"}</span><b>${esc(r.room)}</b></div>`:""}</div>
       ${r.perks?.length?`<div class="perks"><span class="label" style="color:var(--ash)">Your perks through Keith</span><ul>${r.perks.map(p=>`<li>${esc(p)}</li>`).join("")}</ul></div>`:""}
       ${reviewNotes(r)}
-      ${r.note?`<div class="note">"${esc(r.note)}" &mdash; Keith</div>`:""}
+      ${r.note?`<div class="note">${esc(r.note)}</div>`:""}
       <div class="actions">${r.conf?`<button onclick="copy('${esc(r.conf)}','Confirmation number copied')">Copy conf. #</button>`:`<span></span>`}
         ${r.phone?`<a href="tel:${r.phone.replace(/[^+\d]/g,'')}">Call ${r.type==="Hotel"?"hotel":"operator"}</a>`:`<a href="sms:${KEITH.tel}">Text Keith</a>`}</div></div>`).join("")+`<div style="height:8px"></div>`;
   }
