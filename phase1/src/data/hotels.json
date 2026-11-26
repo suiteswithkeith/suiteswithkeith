@@ -11113,11 +11113,32 @@
     "caption": "The bathroom"
    },
    {
+    "src": "/images/hotels/the-berkeley/bar-mural.jpg",
+    "alt": "A curved banquette under a hand-painted mural of faces in a bar nook at The Berkeley",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A corner of the bar"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/dining-room.jpg",
+    "alt": "The dining room at The Berkeley, with brass table lamps, velvet chairs and a backlit ceiling",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The dining room"
+   },
+   {
     "src": "/images/hotels/the-berkeley/lounge-frieze.jpg",
     "alt": "A curved sofa beneath a sculpted plaster frieze in The Berkeley Bar &amp; Terrace",
     "w": 1066,
     "h": 1600,
     "caption": "The Berkeley Bar &amp; Terrace"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/corridor.jpg",
+    "alt": "A wood-paneled corridor at The Berkeley leading to a Christmas tree",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Wood-paneled halls at Christmas"
    },
    {
     "src": "/images/hotels/the-berkeley/rooftop-christmas.jpg",
