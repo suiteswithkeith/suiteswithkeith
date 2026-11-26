@@ -8,7 +8,7 @@
 <meta name="description" content="A private travel proposal from Suites With Keith.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Newsreader:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Newsreader:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet">
 <style>
 :root{
   --plaster:#F2EFE6; --plaster-2:#FBFAF6; --shadow:#161712; --ink:#1F201A;
@@ -21,6 +21,10 @@ html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--plaster);color:var(--ink);font-family:'Newsreader', Georgia, 'Times New Roman', serif;font-weight:400;font-size:18px;line-height:1.6}
 a{color:var(--brass)}a:hover{color:var(--ink)}
 a:focus-visible{outline:2px solid var(--olive);outline-offset:3px}
+html{scroll-behavior:smooth}
+[id]{scroll-margin-top:24px}
+.opt{font-weight:600;font-size:19px}
+.jump a{text-decoration:underline;text-decoration-color:var(--brass);text-underline-offset:3px}
 img{max-width:100%}
 p{margin:0}
 
@@ -193,9 +197,9 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <h2>All week in wine country, or start by the <em>water</em></h2>
 </div>
 <div class="stack">
-<p><strong style="font-weight:400;font-family:var(--display);font-size:22px">The full week.</strong> Seven nights at one resort. Unpack once and settle in.</p>
-<p><strong style="font-weight:400;font-family:var(--display);font-size:22px">Coast first.</strong> Two nights at Bodega Bay on the Sonoma Coast, with ocean views and fireplaces, then five nights at the resort, so you wake up in wine country on Christmas morning.</p>
-<p><strong style="font-weight:400;font-family:var(--display);font-size:22px">Golden Gate first.</strong> Two nights at Cavallo Point, right under the Golden Gate Bridge, with Sausalito at your doorstep and an easy ferry into San Francisco. Then up into Napa or Sonoma for five nights.</p>
+<p><span class="opt">The full week</span> <span class="jump">(<a href="#montage">Montage Healdsburg</a>, <a href="#four-seasons">Four Seasons Napa Valley</a> or <a href="#stanly-ranch">Stanly Ranch</a>)</span>. Seven nights at one resort. Unpack once and settle in.</p>
+<p><span class="opt">Coast first</span> <span class="jump">(<a href="#bodega-bay">Bodega Bay Lodge</a> or <a href="#sea-ranch">Sea Ranch Lodge</a>)</span>. Two nights at Bodega Bay on the Sonoma Coast, with ocean views and fireplaces, then five nights at the resort, so you wake up in wine country on Christmas morning.</p>
+<p><span class="opt">Golden Gate first</span> <span class="jump">(<a href="#cavallo-point">Cavallo Point</a>)</span>. Two nights at Cavallo Point, right under the Golden Gate Bridge, with Sausalito at your doorstep and an easy ferry into San Francisco. Then up into Napa or Sonoma for five nights.</p>
 <p class="note">Both two-night starts skip the resorts' pricier weekend nights, which is why they cost less than the full week.</p>
 </div>
 </div>
@@ -262,7 +266,7 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 </div>
 <div class="grid2">
 
-<div class="card">
+<div class="card" id="montage">
 <img class="photo" loading="lazy" src="../images/napa/montage-3-firepit.jpg" alt="A lit fire pit on a Montage Healdsburg balcony at sunset, with oak trees and hills beyond" style="object-position:center 55%">
 <p class="label sm">My pick</p>
 <h3><a href="https://suiteswithkeith.com/hotels/montage-healdsburg.html">Montage Healdsburg</a></h3>
@@ -281,7 +285,7 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <p class="small">Included through me: daily breakfast, a $100 hotel credit, plus an upgrade and early check-in or late check-out when available.</p>
 </div>
 
-<div class="card">
+<div class="card" id="four-seasons">
 <img class="photo" loading="lazy" src="../images/napa/four-seasons-1.jpg" alt="Four Seasons Napa Valley set among its own vineyard in Calistoga" style="object-position:center 50%">
 <p class="label sm">The splurge</p>
 <h3><a href="https://suiteswithkeith.com/hotels/four-seasons-napa-valley.html">Four Seasons Napa Valley</a></h3>
@@ -295,7 +299,7 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <p class="small">Included through me: daily breakfast, hotel credits of $200 for the suite and $100 for the room, an upgrade when available, and every third night free, already built into these prices.</p>
 </div>
 
-<div class="card">
+<div class="card" id="stanly-ranch">
 <img class="photo" loading="lazy" src="../images/napa/stanly-ranch.jpg" alt="A bright Stanly Ranch cottage with a king bed, a sitting area and sliding doors open to the terrace" style="object-position:center 50%">
 <p class="label sm">For design lovers</p>
 <h3><a href="https://suiteswithkeith.com/hotels/stanly-ranch-napa.html">Stanly Ranch</a></h3>
@@ -309,7 +313,7 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <p class="small">Included through me: daily breakfast, a $100 resort credit per room, a welcome amenity, plus a daily resort credit for dining, the spa and experiences.</p>
 </div>
 
-<div class="card">
+<div class="card" id="solage">
 <img class="photo" loading="lazy" src="../images/napa/solage-1.jpg" alt="A private Solage patio with a fire pit and lounge chairs under a large oak" style="object-position:center 50%">
 <p class="label sm">Relaxed and private</p>
 <h3><a href="https://suiteswithkeith.com/hotels/solage-calistoga.html">Solage</a></h3>
@@ -375,13 +379,13 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 <p class="note">Both lodges have nicer room categories too, like Bodega Bay's Ocean Club suites. Happy to upgrade either couple if you'd like.</p>
 </div>
 <div class="legs">
-<div>
+<div id="bodega-bay">
 <p class="label sm">My pick for the coast</p>
 <h3>Bodega Bay Lodge</h3>
 <p class="small">A classic coastal lodge looking out over the bay and the Pacific, with fireplaces and balconies in the rooms, a pool and hot tub facing the water, and a restaurant focused on local seafood. It's the closer of the two to wine country.</p>
 <div class="row" style="border-top:0;padding:0"><span>Two bay-view rooms with fireplace · 2 nights</span><span>$2,348</span></div>
 </div>
-<div>
+<div id="sea-ranch">
 <img loading="lazy" src="../images/napa/sea-ranch-lodge.jpg" alt="A round dining table set for four in the Sea Ranch Lodge dining room, with big windows over the bluffs and the Pacific at dusk" style="display:block;width:100%;max-width:460px;height:auto;margin-bottom:8px">
 <h3>The Sea Ranch Lodge</h3>
 <p class="small">A tiny, newly redone lodge with just 17 rooms on the bluffs of The Sea Ranch, famous for its 1960s architecture. Come for cliffside walking trails, the chapel and a well-regarded dining room. It's quieter and more remote, and a longer, very scenic drive.</p>
@@ -391,7 +395,7 @@ h3 a{color:inherit!important;text-decoration:underline;text-decoration-color:var
 </div>
 </section>
 
-<section class="shadow">
+<section class="shadow" id="cavallo-point">
 <div class="wrap two" style="align-items:center">
 <figure>
 <img loading="lazy" src="../images/napa/cavallo-point.jpg" alt="Cavallo Point's white historic buildings with red roofs, with the Golden Gate Bridge rising behind the trees" style="height:auto;max-height:620px;object-position:center 40%">
