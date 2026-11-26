@@ -341,12 +341,18 @@ function allDays(t){ // every date of the trip, with plans and where they're sta
       if(planned.length && !lodging) return;                    // the written plan already covers transfers and tours
       const short = shortName(r.name).toLowerCase();
       if(r.out===k && lodging) ev.push(["", "Check out", displayName(r.name), ""]);
-      if(r.in===k && !(planned.length && !lodging && said.includes(short))) ev.push(["", lodging ? "Check in" : r.type, displayName(r.name), lodging ? (r.room||"") : (r.guests||"")]);
+      if(r.in===k && !(planned.length && !lodging && said.includes(short))){
+        if(lodging) ev.push(["", "Check in", displayName(r.name), r.room||""]);
+        else { const tm=(String(r.note||"").match(/\b(\d{1,2}(?::\d{2})?\s?(?:am|pm))\b/i)||[])[1]||"";   // e.g. "Leaves SFO 12:15pm"
+          const e=[tm, r.type, displayName(r.name), r.note||r.guests||""]; e.place=r.place; ev.push(e); }
+      }
     });
-    const outs = ev.filter(x=>x[1]==="Check out"), ins = ev.filter(x=>x[1]!=="Check out");
+    const mins = x=>{ const m=String(x[0]).toLowerCase().match(/(\d{1,2})(?::(\d{2}))?\s?(am|pm)/); return m ? ((+m[1]%12)+(m[3]==="pm"?12:0))*60+(+(m[2]||0)) : 9999; };
+    const outs = ev.filter(x=>x[1]==="Check out");
+    const ins = [...ev.filter(x=>x[1]!=="Check out"&&x[1]!=="Check in").sort((x,y)=>mins(x)-mins(y)), ...ev.filter(x=>x[1]==="Check in")];
     let items = [...outs, ...planned, ...ins];
     const firstIn = items.find(x=>x[1]==="Check in");
-    out.push({d:k, n:out.length+1, title:plan?.title||(firstIn?`Check in at ${shortName(firstIn[2])}`:items.find(x=>x[1]!=="Check out")?shortName(items.find(x=>x[1]!=="Check out")[2]):stay?`${stay.place||shortName(displayName(stay.name))}, at leisure`:items.find(x=>x[1]==="Check out")?`Check out of ${shortName(items.find(x=>x[1]==="Check out")[2])}`:"Travel day"), items, stay});
+    out.push({d:k, n:out.length+1, title:plan?.title||(firstIn?`Check in at ${shortName(firstIn[2])}`:items.find(x=>x[1]!=="Check out")?(items.find(x=>x[1]!=="Check out").place||shortName(items.find(x=>x[1]!=="Check out")[2])):stay?`${stay.place||shortName(displayName(stay.name))}, at leisure`:items.find(x=>x[1]==="Check out")?`Check out of ${shortName(items.find(x=>x[1]==="Check out")[2])}`:"Travel day"), items, stay});
   } return out; }
 
 function art(p, h){ // flat-colour landscape stand-in for photography
