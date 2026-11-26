@@ -102,6 +102,10 @@
   .legend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
   .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
   .pin { width: 26px; height: 26px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); color: #fff; font: 700 12px/22px -apple-system, BlinkMacSystemFont, sans-serif; text-align: center; }
+  .day { scroll-margin-top: 56px; }
+  .day .mapbox { border: 0; border-bottom: 1px solid var(--line); border-radius: 0; }
+  .maplink { font: 600 11px/1 -apple-system, BlinkMacSystemFont, sans-serif; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 6px 10px; cursor: pointer; }
+  .today-tag { font: 600 11px/1 -apple-system, BlinkMacSystemFont, sans-serif; letter-spacing: .06em; text-transform: uppercase; color: var(--paper); background: var(--ok); border-radius: 999px; padding: 5px 9px; margin-left: 8px; vertical-align: middle; }
   .leaflet-container { font-family: 'Newsreader', Georgia, serif; }
   @media (max-width: 680px) { .map { height: 340px; } .route li { grid-template-columns: 30px 56px 1fr; padding: 7px 12px; } }
 
@@ -134,7 +138,7 @@
 </header>
 
 <nav class="toc"><div class="wrap">
-  <a href="#stays">Stays</a><a href="#maps">Maps</a><a href="#london">London days</a><a href="#paris">Paris days</a><a href="#cotswolds">Cotswolds</a><a href="#actions">To do</a><a href="#flags">Watch-outs</a><a href="#content">Content plan</a>
+  <a href="#" id="todayLink" hidden>Today</a><a href="#stays">Stays</a><a href="#maps">Maps</a><a href="#london">London days</a><a href="#paris">Paris days</a><a href="#cotswolds">Cotswolds</a><a href="#actions">To do</a><a href="#flags">Watch-outs</a><a href="#content">Content plan</a>
 </div></nav>
 
 <main class="wrap">
@@ -215,6 +219,7 @@
   </div>
 
   <h3 style="margin:26px 0 8px">Day by day</h3>
+  <p class="lede" id="dayMapNote" hidden>The day map is sitting above that day&rsquo;s schedule. Tap &ldquo;Map&rdquo; on any day to move it there.</p>
   <div class="mapbox">
     <div class="chips" id="dayChips" role="group" aria-label="Day"></div>
     <div class="map" id="dayMap" role="img" aria-label="Map of the selected day"></div>
@@ -635,7 +640,26 @@
   var dm = L.map('dayMap', { scrollWheelZoom: false }); tiles(dm);
   var dLayer = L.layerGroup().addTo(dm);
   var dList = document.getElementById('dayList'), g = document.getElementById('gmaps');
+  var dayBox = document.getElementById('dayMap').closest('.mapbox'), cards = {};
+  document.querySelectorAll('.day').forEach(function (c) {
+    var d = c.querySelector('.day-head .d'); if (!d) return;
+    var label = d.textContent.trim(); cards[label] = c;
+    var di = -1; DAYS.forEach(function (x, j) { if (x[1] === label) di = j; });
+    if (di < 0) return;
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'maplink'; b.textContent = 'Map';
+    b.addEventListener('click', function () { pickDay(di); });
+    c.querySelector('.day-head').appendChild(b);
+  });
+  function moveBox(di) {
+    var card = cards[DAYS[di][1]];
+    if (!card) return null;
+    card.querySelector('.day-head').after(dayBox);
+    document.getElementById('dayMapNote').hidden = false;
+    dm.invalidateSize();
+    return card;
+  }
   var pickDay = chips(document.getElementById('dayChips'), DAYS.map(function (d) { return d[0]; }), function (di) {
+    moveBox(di);
     dLayer.clearLayers(); dList.innerHTML = '';
     var stops = DAYS[di][2], line = [], fitPts = [], seen = {}, names = [], n = 0, rank = { bed: 3, ok: 2, wait: 1, move: 0 }, best = {};
     stops.forEach(function (st) { if (best[st[1]] === undefined || rank[st[2]] > rank[best[st[1]]]) best[st[1]] = st[2]; });
@@ -660,8 +684,18 @@
   });
 
   pickRegion(0);
-  var today = new Date(), start = new Date(2026, 10, 26), idx = Math.floor((today - start) / 864e5);
-  pickDay(idx >= 0 && idx < DAYS.length ? idx : 0);
+  var now = new Date(), today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var idx = Math.round((today - new Date(2026, 10, 26)) / 864e5);
+  var onTrip = idx >= 0 && idx < DAYS.length;
+  pickDay(onTrip ? idx : 0);
+  if (onTrip) {
+    var card = cards[DAYS[idx][1]], tl = document.getElementById('todayLink');
+    var tag = document.createElement('span'); tag.className = 'today-tag'; tag.textContent = 'Today';
+    card.querySelector('.day-head .d').appendChild(tag);
+    tl.hidden = false;
+    tl.addEventListener('click', function (e) { e.preventDefault(); pickDay(idx); card.scrollIntoView({ behavior: 'smooth' }); });
+    if (!location.hash) setTimeout(function () { card.scrollIntoView(); }, 50);
+  }
 })();
 </script>
 </body>
