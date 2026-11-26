@@ -10746,7 +10746,7 @@
   "plain_name": "45 Park Lane",
   "short_name": "45 Park Lane",
   "img_dir": "hotels/45-park-lane",
-  "hero_img": "suite-living-room.jpg",
+  "hero_img": "exterior-night.jpg",
   "img2": "suite-living-room.jpg",
   "hide_hero_in_gallery": true,
   "tagline": "Moody, sexy and small, with Dorchester-quality beds and service and stunning marble bathrooms.",
@@ -10829,6 +10829,13 @@
     "caption": "Dining in the suite"
    },
    {
+    "src": "/images/hotels/45-park-lane/suite-night.jpg",
+    "alt": "The living room of a 45 Park Lane suite at night, with the city lit up beyond the windows",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The suite after dark"
+   },
+   {
     "src": "/images/hotels/45-park-lane/suite-sofas.jpg",
     "alt": "Velvet sofas by the windows in a 45 Park Lane suite",
     "w": 1066,
@@ -10849,7 +10856,8 @@
     "h": 1600,
     "caption": "Moody, in the best way"
    }
-  ]
+  ],
+  "hero_pos": "50% 30%"
  },
  {
   "island": "London",
