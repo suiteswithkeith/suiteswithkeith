@@ -10780,6 +10780,10 @@
     "t": "The spa is a major selling point: a pool beside a floral mosaic wall, a hot tub and calm, warm lounges. The gym is super expansive, one of the nicer city-hotel gyms I&rsquo;ve seen. Guests of The Dorchester next door use the same spa."
    },
    {
+    "b": "Sushi Kanazawa.",
+    "t": "A hidden, 13-seat omakase that earned a Michelin star within six months. Everything is brought in from Japan, the team wears kimonos, and it&rsquo;s open to non-guests too."
+   },
+   {
     "b": "Original art.",
     "t": "Works by Sir Peter Blake and other British artists throughout, plus an artist residency in the public spaces that changes every three to four months."
    },
@@ -10818,8 +10822,12 @@
     "t": "Butler service starts at the one-bedroom suites, like the Curzon Suite."
    },
    {
+    "b": "Book Sushi Kanazawa early.",
+    "t": "Thirteen seats, and it&rsquo;s open to the public. Tell me your dates and I&rsquo;ll ask for seats with the room."
+   },
+   {
     "b": "The Dorchester next door.",
-    "t": "Guests share its spa, and its restaurants and Vesper Bar are steps away. See my <a href=\"the-dorchester-london.html\">Dorchester review</a>."
+    "t": "Guests share its spa, and Alain Ducasse and the Vesper Bar are steps away. See my <a href=\"the-dorchester-london.html\">Dorchester review</a>."
    },
    {
     "b": "Compare the rest of London.",
@@ -11559,8 +11567,8 @@
   "hero_img": "exterior-night.jpg",
   "img2": "exterior-night.jpg",
   "hide_hero_in_gallery": true,
-  "tagline": "Freshly renovated on Park Lane: quintessentially British without being stuffy, with three-star dining, a hidden omakase and the Vesper Bar.",
-  "meta_desc": "Keith's review of The Dorchester from a November 2026 site visit: the full renovation, rooms by floor, Alain Ducasse at The Dorchester, the 13-seat Sushi Kanazawa omakase, The Grill, the Promenade and Vesper Bar, and the spa it shares with 45 Park Lane.",
+  "tagline": "Freshly renovated on Park Lane: quintessentially British without being stuffy, with three-star dining, afternoon tea in the Promenade and the Vesper Bar.",
+  "meta_desc": "Keith's review of The Dorchester from a November 2026 site visit: the full renovation, rooms by floor, Alain Ducasse at The Dorchester, The Grill, the Promenade and Vesper Bar, and the spa it shares with 45 Park Lane.",
   "style_label": "Renovated Park Lane grande dame (Dorchester Collection)",
   "perfect_for": "Food lovers, celebrations, travelers who want classic British style that still feels bright and current",
   "region_label": "Neighborhood",
@@ -11569,20 +11577,16 @@
   "rank_href": "london.html",
   "stat1_num": "3&#9733;",
   "stat1_label": "Alain Ducasse At The Dorchester",
-  "stat2_num": "13",
-  "stat2_label": "Seats At Sushi Kanazawa",
+  "stat2_num": "2022",
+  "stat2_label": "Full Renovation, Floor By Floor",
   "know_heading": "The Fine Print, From Your Advisor",
-  "cta_line": "Want a table at Sushi Kanazawa or the right floor&rsquo;s color palette? Tell me your dates and I&rsquo;ll set it up with the hotel.",
+  "cta_line": "Want a table at Alain Ducasse or the right floor&rsquo;s color palette? Tell me your dates and I&rsquo;ll set it up with the hotel.",
   "intro": [
    "The Dorchester has been completely renovated since 2022, down to the lighting, the moldings and the room numbers. Before, it was brown, navy and heavy wood, with lighting that hadn&rsquo;t changed since the &rsquo;80s. Now it&rsquo;s quintessentially British without being stuffy: bright, with a real sense of place.",
    "The rooms share one design language, with a different color palette on each floor, from pale blue to pale green to dusky tones.",
-   "And the dining is a reason to stay on its own: Alain Ducasse at The Dorchester with three Michelin stars, a hidden 13-seat omakase, The Grill, the Promenade for afternoon tea, and the Vesper Bar."
+   "And the dining is a reason to stay on its own: Alain Ducasse at The Dorchester with three Michelin stars, The Grill, the Promenade for afternoon tea, and the Vesper Bar. Next door at <a href=\"45-park-lane-london.html\">45 Park Lane</a>, Sushi Kanazawa is a short walk away."
   ],
   "stood_out": [
-   {
-    "b": "Sushi Kanazawa.",
-    "t": "A hidden, 13-seat omakase that earned a Michelin star within six months. Everything is brought in from Japan, the team wears kimonos, and it&rsquo;s open to non-guests too."
-   },
    {
     "b": "Three Michelin stars.",
     "t": "Alain Ducasse at The Dorchester, plus The Grill for a classic London dinner."
@@ -11606,23 +11610,19 @@
   ],
   "know": [
    {
-    "b": "Book Sushi Kanazawa early.",
-    "t": "Thirteen seats, and it&rsquo;s open to the public. Tell me your dates and I&rsquo;ll ask for a table with the room."
-   },
-   {
     "b": "Hosting a group?",
     "t": "The Vesper Bar takes a reception of 30 to 40 without closing."
    },
    {
     "b": "The Dorchester or 45 Park Lane?",
-    "t": "Same family, same spa, next door to each other. The Dorchester is the grand hotel with the restaurants; <a href=\"45-park-lane-london.html\">45 Park Lane</a> is the small, moody one with 8am check-in and 8pm check-out through me."
+    "t": "Same family, same spa, next door to each other. The Dorchester is the grand hotel with Alain Ducasse and the Vesper Bar; <a href=\"45-park-lane-london.html\">45 Park Lane</a> is the small, moody one with Sushi Kanazawa and 8am check-in and 8pm check-out through me."
    },
    {
     "b": "Compare the rest of London.",
     "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
    }
   ],
-  "verdict": "London&rsquo;s classic grand hotel, made bright again, with the best dining of any hotel on my list.",
+  "verdict": "London&rsquo;s classic grand hotel, made bright again, with three-star dining under the same roof.",
   "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked The Dorchester personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which floors and rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My London Guide",
   "cta2_text": "All My Rankings",
