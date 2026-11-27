@@ -10752,7 +10752,7 @@
   "tagline": "Moody, sexy and small, with Dorchester-quality beds and service and stunning marble bathrooms.",
   "meta_desc": "Keith's 45 Park Lane review from his November 2026 stay: a moody, intimate Dorchester Collection hotel on Park Lane with stunning marble bathrooms, Dorchester-quality beds and service, and a guaranteed 8am check-in and 8pm check-out when you book through him.",
   "style_label": "Moody, intimate townhouse (Dorchester Collection)",
-  "perfect_for": "Couples, design lovers, repeat guests who want to be remembered, travelers who want Dorchester service at a smaller scale",
+  "perfect_for": "Privacy seekers, repeat guests who want to be remembered, couples, travelers who want high-touch Dorchester service at a smaller scale",
   "region_html": "Park Lane, Mayfair, London",
   "rank_text": "On my London guide",
   "stat1_num": "8am",
@@ -10826,8 +10826,8 @@
     "t": "Thirteen seats, and it&rsquo;s open to the public. Tell me your dates and I&rsquo;ll ask for seats with the room."
    },
    {
-    "b": "The Dorchester next door.",
-    "t": "Guests share its spa, and Alain Ducasse and the Vesper Bar are steps away. See my <a href=\"the-dorchester-london.html\">Dorchester review</a>."
+    "b": "45 Park Lane or The Dorchester?",
+    "t": "45 Park Lane is for privacy and a more high-touch stay. If you want afternoon tea, a lively bar and the classic British lobby, <a href=\"the-dorchester-london.html\">The Dorchester</a> is across the street, and guests share its spa."
    },
    {
     "b": "Compare the rest of London.",
@@ -11567,10 +11567,10 @@
   "hero_img": "exterior-night.jpg",
   "img2": "exterior-night.jpg",
   "hide_hero_in_gallery": true,
-  "tagline": "Freshly renovated on Park Lane: quintessentially British without being stuffy, with three-star dining, afternoon tea in the Promenade and the Vesper Bar.",
+  "tagline": "The quintessential British experience on Park Lane: afternoon tea, a lively bar, a classic lobby and beautifully renovated rooms.",
   "meta_desc": "Keith's review of The Dorchester from a November 2026 site visit: the full renovation, rooms by floor, Alain Ducasse at The Dorchester, The Grill, the Promenade and Vesper Bar, and the spa it shares with 45 Park Lane.",
   "style_label": "Renovated Park Lane grande dame (Dorchester Collection)",
-  "perfect_for": "Food lovers, celebrations, travelers who want classic British style that still feels bright and current",
+  "perfect_for": "Travelers who want the quintessential British hotel experience, afternoon tea lovers, food lovers, celebrations",
   "region_label": "Neighborhood",
   "region_html": "Park Lane, Mayfair, London",
   "rank_text": "My pick for dining and a classic London grand hotel &middot; London guide",
@@ -11582,26 +11582,30 @@
   "know_heading": "The Fine Print, From Your Advisor",
   "cta_line": "Want a table at Alain Ducasse or the right floor&rsquo;s color palette? Tell me your dates and I&rsquo;ll set it up with the hotel.",
   "intro": [
-   "The Dorchester has been completely renovated since 2022, down to the lighting, the moldings and the room numbers. Before, it was brown, navy and heavy wood, with lighting that hadn&rsquo;t changed since the &rsquo;80s. Now it&rsquo;s quintessentially British without being stuffy: bright, with a real sense of place.",
-   "The rooms share one design language, with a different color palette on each floor, from pale blue to pale green to dusky tones.",
-   "And the dining is a reason to stay on its own: Alain Ducasse at The Dorchester with three Michelin stars, The Grill, the Promenade for afternoon tea, and the Vesper Bar. Next door at <a href=\"45-park-lane-london.html\">45 Park Lane</a>, Sushi Kanazawa is a short walk away."
+   "The Dorchester is the quintessential British experience: afternoon tea in the Promenade, a lively Vesper Bar, a classic lobby, and that unmistakably English sense of occasion.",
+   "The rooms were completely renovated in 2022, down to the lighting, the moldings and the room numbers. Before, it was brown, navy and heavy wood, with lighting that hadn&rsquo;t changed since the &rsquo;80s. Now it feels classic in the right ways without ever feeling heavy or out of date. It&rsquo;s tasteful, and I love the design, with one design language and a different color palette on each floor, from pale blue to pale green to dusky tones.",
+   "The dining is a reason to stay on its own: Alain Ducasse at The Dorchester with three Michelin stars, The Grill, the Promenade and the Vesper Bar. And there&rsquo;s something I don&rsquo;t think I&rsquo;ve seen at another hotel: in-house tailoring, turned around the same day."
   ],
   "stood_out": [
+   {
+    "b": "Same-day tailoring.",
+    "t": "An in-house tailor who turns alterations around the same day. I don&rsquo;t think I&rsquo;ve seen that at another hotel."
+   },
    {
     "b": "Three Michelin stars.",
     "t": "Alain Ducasse at The Dorchester, plus The Grill for a classic London dinner."
    },
    {
     "b": "The Vesper Bar.",
-    "t": "Live music, a low-table dining menu and a semi-private snug. It can host a reception of 30 to 40 while the bar stays open."
+    "t": "Lively, with live music, a low-table dining menu and a semi-private snug. It can host a reception of 30 to 40 while the bar stays open."
    },
    {
     "b": "The Promenade.",
     "t": "Breakfast, lunch, afternoon tea and dinner in the hotel&rsquo;s grand central hall."
    },
    {
-    "b": "A bright renovation.",
-    "t": "New lighting, moldings and a palette that changes by floor, all done since 2022."
+    "b": "The 2022 renovation.",
+    "t": "Classic but never heavy or dated: new lighting, moldings and a palette that changes by floor. Tasteful, and I love the design."
    },
    {
     "b": "The spa.",
@@ -11615,14 +11619,14 @@
    },
    {
     "b": "The Dorchester or 45 Park Lane?",
-    "t": "Same family, same spa, next door to each other. The Dorchester is the grand hotel with Alain Ducasse and the Vesper Bar; <a href=\"45-park-lane-london.html\">45 Park Lane</a> is the small, moody one with Sushi Kanazawa and 8am check-in and 8pm check-out through me."
+    "t": "Same family, same spa, across the street from each other. Choose The Dorchester for the quintessential British experience: afternoon tea, a lively bar and a classic lobby. Choose <a href=\"45-park-lane-london.html\">45 Park Lane</a> for privacy and a more high-touch stay; you can always walk over here for tea."
    },
    {
     "b": "Compare the rest of London.",
     "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
    }
   ],
-  "verdict": "London&rsquo;s classic grand hotel, made bright again, with three-star dining under the same roof.",
+  "verdict": "The quintessential British hotel experience, beautifully renovated, with three-star dining under the same roof.",
   "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked The Dorchester personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which floors and rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My London Guide",
   "cta2_text": "All My Rankings",
