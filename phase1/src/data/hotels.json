@@ -11164,8 +11164,8 @@
   "island_page": "london.html",
   "locale": "London, England",
   "img_dir": "hotels/the-chancery-rosewood",
-  "hero_img": "living-room.jpg",
-  "img2": "living-room.jpg",
+  "hero_img": "exterior.jpg",
+  "img2": "exterior.jpg",
   "hide_hero_in_gallery": true,
   "tagline": "Grand, beautifully designed and international in feel, on Grosvenor Square.",
   "meta_desc": "Keith's review of The Chancery Rosewood from a November 2026 site visit: a grand, beautifully designed Rosewood on Grosvenor Square in Mayfair, who it suits best, and when he'd choose Rosewood London instead.",
@@ -11232,74 +11232,116 @@
   },
   "gallery": [
    {
-    "src": "/images/hotels/the-chancery-rosewood/living-room.jpg",
+    "src": "/images/hotels/the-chancery-rosewood/restaurant.jpg",
+    "alt": "The restaurant at The Chancery Rosewood, with tall windows over the trees of Grosvenor Square",
+    "w": 1600,
+    "h": 1043,
+    "caption": "The restaurant, over Grosvenor Square"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/restaurant-banquettes.jpg",
+    "alt": "Green banquettes and boucle chairs in the restaurant at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Banquettes by the windows"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/bar-lounge.jpg",
+    "alt": "The bar at The Chancery Rosewood, with leather sofas, palms and a curved lit ceiling",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The bar"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/bar.jpg",
+    "alt": "The curved marble bar with suede stools at The Chancery Rosewood",
+    "w": 1066,
+    "h": 1600,
+    "caption": "A seat at the bar"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/atrium.jpg",
+    "alt": "Looking down the wood-paneled atrium to the lobby and its glass chandelier at The Chancery Rosewood",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The atrium"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/suite-living.jpg",
+    "alt": "A suite living room with a curved velvet sofa and bay windows at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1034,
+    "caption": "A suite living room"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/suite-bedroom.jpg",
+    "alt": "A suite bedroom at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1043,
+    "caption": "The suite bedroom"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/suite-bed-detail.jpg",
+    "alt": "A bedside lamp and striped linens in a suite at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The details"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/suite-bar-cabinet.jpg",
+    "alt": "An onyx-lined bar and coffee cabinet in a suite at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The in-suite bar"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/residence-living-room.jpg",
     "alt": "The living room of a private residence at The Chancery Rosewood, with a coffered wood ceiling and tall windows over Grosvenor Square",
     "w": 1600,
     "h": 1017,
-    "caption": "The living room, over Grosvenor Square"
+    "caption": "The residence: living room"
    },
    {
-    "src": "/images/hotels/the-chancery-rosewood/dining-art.jpg",
+    "src": "/images/hotels/the-chancery-rosewood/residence-dining-art.jpg",
     "alt": "The dining table under brass pendants and a large abstract painting in a Chancery Rosewood residence",
     "w": 1600,
     "h": 1022,
-    "caption": "Dining for six"
+    "caption": "The residence: dining"
    },
    {
-    "src": "/images/hotels/the-chancery-rosewood/bedroom.jpg",
+    "src": "/images/hotels/the-chancery-rosewood/residence-bedroom.jpg",
     "alt": "The main bedroom of a private residence at The Chancery Rosewood",
     "w": 1600,
     "h": 1026,
-    "caption": "The main bedroom"
+    "caption": "The residence: main bedroom"
    },
    {
-    "src": "/images/hotels/the-chancery-rosewood/bathroom.jpg",
-    "alt": "A marble bathroom with brass fixtures and a deep tub at The Chancery Rosewood",
+    "src": "/images/hotels/the-chancery-rosewood/residence-bathroom.jpg",
+    "alt": "A marble bathroom with brass fixtures and a deep tub in a Chancery Rosewood residence",
     "w": 1600,
     "h": 1043,
-    "caption": "Marble bathrooms"
+    "caption": "The residence: marble bathroom"
    },
    {
-    "src": "/images/hotels/the-chancery-rosewood/bathroom-tub.jpg",
-    "alt": "A marble bath and vanity with brass fixtures at The Chancery Rosewood",
-    "w": 1600,
-    "h": 1057,
-    "caption": "Brass and marble"
-   },
-   {
-    "src": "/images/hotels/the-chancery-rosewood/study.jpg",
-    "alt": "A wood-paneled study with a green Snoopy lamp and abstract art at The Chancery Rosewood",
+    "src": "/images/hotels/the-chancery-rosewood/residence-study.jpg",
+    "alt": "A wood-paneled study with a green Snoopy lamp in a Chancery Rosewood residence",
     "w": 1600,
     "h": 1066,
-    "caption": "The study"
+    "caption": "The residence: study"
    },
    {
-    "src": "/images/hotels/the-chancery-rosewood/dressing-room.jpg",
-    "alt": "A lit walk-in dressing room leading to the living room at The Chancery Rosewood",
+    "src": "/images/hotels/the-chancery-rosewood/residence-dressing-room.jpg",
+    "alt": "A lit walk-in dressing room in a Chancery Rosewood residence",
     "w": 1600,
     "h": 976,
-    "caption": "The dressing room"
+    "caption": "The residence: dressing room"
    },
    {
-    "src": "/images/hotels/the-chancery-rosewood/kitchen.jpg",
-    "alt": "A marble galley kitchen in a private residence at The Chancery Rosewood",
+    "src": "/images/hotels/the-chancery-rosewood/residence-kitchen.jpg",
+    "alt": "A marble galley kitchen in a Chancery Rosewood residence",
     "w": 1600,
     "h": 1066,
-    "caption": "A full kitchen"
-   },
-   {
-    "src": "/images/hotels/the-chancery-rosewood/bar-cabinet.jpg",
-    "alt": "A lit bar cabinet behind the marble dining table at The Chancery Rosewood",
-    "w": 1018,
-    "h": 1600,
-    "caption": "The bar cabinet"
-   },
-   {
-    "src": "/images/hotels/the-chancery-rosewood/dining-bar.jpg",
-    "alt": "The dining area and bar cabinet in a Chancery Rosewood residence",
-    "w": 1600,
-    "h": 1000,
-    "caption": "Living and dining"
+    "caption": "The residence: full kitchen"
    }
   ]
  }
