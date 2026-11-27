@@ -10776,6 +10776,10 @@
     "t": "Stunning, with heated floors and Toto toilets."
    },
    {
+    "b": "Fast, every time.",
+    "t": "In-room dining arrived in 25 minutes and coffee in five. I timed both, here and at 45 Park Lane across the street."
+   },
+   {
     "b": "The spa and gym.",
     "t": "The spa is a major selling point: a pool beside a floral mosaic wall, a hot tub and calm, warm lounges. The gym is super expansive, one of the nicer city-hotel gyms I&rsquo;ve seen. Guests of The Dorchester next door use the same spa."
    },
@@ -11592,8 +11596,16 @@
     "t": "An in-house tailor who turns alterations around the same day. I don&rsquo;t think I&rsquo;ve seen that at another hotel."
    },
    {
+    "b": "A welcome with your name on it.",
+    "t": "A London street sign with my name and the W1 postcode, waiting in the room. A small touch, and the kind guests photograph."
+   },
+   {
     "b": "Three Michelin stars.",
     "t": "Alain Ducasse at The Dorchester, plus The Grill for a classic London dinner."
+   },
+   {
+    "b": "Fast, every time.",
+    "t": "In-room dining arrived in 25 minutes and coffee in five. I timed both, here and at 45 Park Lane across the street."
    },
    {
     "b": "The Vesper Bar.",
@@ -11652,6 +11664,13 @@
     "w": 1600,
     "h": 1066,
     "caption": "The arrival"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/street-sign-welcome.jpg",
+    "alt": "A personalized London street sign reading Keith Pence W1, The Dorchester, set out in the room",
+    "w": 1200,
+    "h": 1600,
+    "caption": "A welcome with your name on it"
    },
    {
     "src": "/images/hotels/the-dorchester/bedroom.jpg",
