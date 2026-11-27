@@ -11,6 +11,7 @@ const villas = [
   { href: '/borgo-pignano-villas-tuscany.html', img: '/images/tuscany/borgo-pignano-pool-wide.jpg', kicker: 'Tuscany · Stayed', title: 'Borgo Pignano', blurb: 'Around nine private villas on a hilltop estate outside Volterra, with a kids&rsquo; pool, tennis and a spa.', size: '2 to 5 bedrooms' },
   { href: '/hotels/airelles-palladio-venice-suite-del-doge.html', img: '/images/hotels/airelles-palladio-venice/press-doge-salon-salute.jpg', kicker: 'Venice · Toured', title: 'Airelles Palladio: Suite del Doge', blurb: 'A frescoed four-bedroom penthouse on Giudecca, with the Salute framed across the water, at my number one hotel in Italy.', size: 'Sleeps 8, villa buyout to 13 bedrooms' },
   { href: '/forestis-villa-dolomites.html', img: '/images/dolomites/forestis/tower-suite-view.jpg', kicker: 'The Dolomites · Stayed', title: 'Forestis Villa', blurb: 'Five bedrooms, a team of 14, a private pool and spa, and children welcome at an adults-only hotel.', size: 'Sleeps 10' },
+  { href: '/hotels/the-chancery-rosewood-london.html', img: '/images/hotels/the-chancery-rosewood/residence-living-room.jpg', kicker: 'London · Toured', title: 'The Chancery Rosewood: The Residences', blurb: 'Private residences on Grosvenor Square that live like a Mayfair apartment: a living room over the square, dining for six, a wood-paneled study, a walk-in dressing room and a full kitchen.', size: 'Families &amp; longer stays', cta: 'See the residences &rarr;' },
   { href: '/four-seasons-napa-valley-villas-residences.html', img: '/images/napa/four-seasons-1.jpg', kicker: 'Napa Valley · Stayed', title: 'Four Seasons Napa Valley', blurb: 'Villas and residences on a working vineyard in Calistoga, for families and groups of friends.', size: 'Families &amp; groups' },
 ];
 
@@ -39,9 +40,9 @@ const faq = [
 <header class="hero" style="min-height:min(72svh,680px);">
   <img class="hero-img" src="/images/hotels/fouquets-delos-villa-pool.jpg" alt="A long private villa pool suspended over the sea at dusk, Mykonos" width="1800" height="1230" fetchpriority="high" />
   <div class="container">
-    <p class="eyebrow">Greece &middot; Italy &middot; Napa Valley</p>
-    <h1 class="display-xl" style="margin-top:18px;">Luxury Villas, Hand-Selected</h1>
-    <p class="sub">Private villas at the hotels I know best, every one personally toured or vetted, for families, groups and the trips that deserve a whole house.</p>
+    <p class="eyebrow">Greece &middot; Italy &middot; London &middot; Napa Valley</p>
+    <h1 class="display-xl" style="margin-top:18px;">Luxury Villas &amp; Penthouses, Hand-Selected</h1>
+    <p class="sub">Private villas, residences and penthouses at the hotels I know best, every one personally toured or vetted, for families, groups and the trips that deserve a whole house.</p>
     <div class="hero-ctas">
       <a class="btn" href="#inquire" data-gtag-label="start_planning" data-gtag-location="hero">Ask about a villa</a>
     </div>
@@ -63,7 +64,7 @@ const faq = [
       {villas.map((v) => (
         <a class="card reveal" href={v.href}>
           <img src={v.img} alt="" width="1600" height="1200" loading="lazy" decoding="async" />
-          <div class="pad"><span class="kicker" set:html={v.kicker} /><h3 set:html={v.title} /><p set:html={v.blurb} /><span class="size" set:html={v.size} /><span class="go">See the villas &rarr;</span></div>
+          <div class="pad"><span class="kicker" set:html={v.kicker} /><h3 set:html={v.title} /><p set:html={v.blurb} /><span class="size" set:html={v.size} /><span class="go" set:html={v.cta || 'See the villas &rarr;'} /></div>
         </a>
       ))}
     </div>
