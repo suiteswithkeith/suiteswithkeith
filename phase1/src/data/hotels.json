@@ -10776,6 +10776,10 @@
     "t": "Stunning, with heated floors and Toto toilets."
    },
    {
+    "b": "The spa and gym.",
+    "t": "The spa is a major selling point: a pool beside a floral mosaic wall, a hot tub and calm, warm lounges. The gym is super expansive, one of the nicer city-hotel gyms I&rsquo;ve seen. Guests of The Dorchester next door use the same spa."
+   },
+   {
     "b": "Personal attention, remembered.",
     "t": "A hotel this size gives incredible personal attention, almost like <a href=\"/hotels/portrait-firenze.html\">Portrait</a> in Florence and Milan. It&rsquo;s a hotel for someone who likes to come back and know it will remember every little thing about them."
    },
@@ -10860,6 +10864,27 @@
     "w": 1066,
     "h": 1600,
     "caption": "Moody, in the best way"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/spa-pool.jpg",
+    "alt": "The indoor pool beside a floral mosaic wall in the spa shared by 45 Park Lane and The Dorchester",
+    "w": 1000,
+    "h": 1600,
+    "caption": "The spa pool"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/spa-lounge.jpg",
+    "alt": "The spa relaxation lounge with a hanging swing seat at 45 Park Lane",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The spa lounge"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/spa-fireside.jpg",
+    "alt": "A curved fireside lounge in the spa at 45 Park Lane",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Fireside in the spa"
    }
   ],
   "hero_pos": "50% 30%"
