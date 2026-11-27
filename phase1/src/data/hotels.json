@@ -11344,5 +11344,97 @@
     "caption": "The residence: full kitchen"
    }
   ]
+ },
+ {
+  "slug": "lanesborough-london",
+  "name": "The Lanesborough",
+  "plain_name": "The Lanesborough",
+  "short_name": "The Lanesborough",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "destinations",
+  "hero_img": "lanesborough.jpg",
+  "img2": "lanesborough.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Quintessentially British, on Hyde Park Corner, with a personal butler in every room and service that sets it apart.",
+  "meta_desc": "Keith's review of The Lanesborough from a November 2026 site visit: a Regency, Grade I listed Oetker Collection hotel on Hyde Park Corner with 93 rooms, a personal butler in every room, the Royal and Presidential suites for multi-generational stays, Café LPM, the spa and club, and Bridgerton afternoon tea.",
+  "style_label": "Regency palace (Oetker Collection)",
+  "perfect_for": "Travelers who want classic British London, multi-generational families, service lovers, Knightsbridge shoppers",
+  "region_label": "Neighborhood",
+  "region_html": "Hyde Park Corner, Knightsbridge, London",
+  "rank_text": "My pick for service and classic British style &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "93",
+  "stat1_label": "Rooms, Half Of Them Suites",
+  "stat2_num": "Butler",
+  "stat2_label": "In Every Room Category",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Traveling with family, or want the Royal Suite? Tell me who&rsquo;s coming and when, and I&rsquo;ll work out the right configuration with the hotel.",
+  "intro": [
+   "The Lanesborough is quintessentially British: a Grade I listed Regency building on Hyde Park Corner, renovated in 2017, with 93 rooms, half of them suites. Each of the four floors is designed a little differently, all in the Regency style.",
+   "What sets it apart is the service. There are around 360 staff for 93 rooms, and every room category, not just the suites, comes with a personal butler. It&rsquo;s part of the Oetker Collection, the family-founded group behind Le Bristol in Paris and Hotel du Cap-Eden-Roc, and you feel that same natural, family warmth here.",
+   "Across London the rooms are broadly excellent now, so service is what separates the top hotels. Your suite is a great memory; a flawless check-in and a butler who remembers how you take your tea are what make you come back. That&rsquo;s where The Lanesborough shines."
+  ],
+  "stood_out": [
+   {
+    "b": "A butler in every room.",
+    "t": "Every category, from Deluxe up, comes with a personal butler."
+   },
+   {
+    "b": "The Royal Suite.",
+    "t": "Up to seven bedrooms and around 400 square meters across an entire side of the building. The recently renovated Presidential Suite configures from one to five bedrooms. Both are made for multi-generational trips, and Thanksgiving week books out."
+   },
+   {
+    "b": "The new Pearl rooms.",
+    "t": "On the top floor, with balconies. It took four years of permissions to turn the windows into doors in a Grade I listed building."
+   },
+   {
+    "b": "Café LPM.",
+    "t": "The first café from La Petite Maison, launched here as a one-year pop-up, opening onto the terrace in summer."
+   },
+   {
+    "b": "Afternoon tea, and Bridgerton.",
+    "t": "The tea is a signature, and the hotel is the official Bridgerton partner, a natural fit for a Regency house."
+   },
+   {
+    "b": "The spa and club.",
+    "t": "A subterranean spa much larger than you&rsquo;d expect, with sauna, steam and a bio sauna, plus around seven classes a day (reformer Pilates, mat, yoga). Hotel guests become members of the club for their stay, and the class schedule arrives a week before you do."
+   }
+  ],
+  "know": [
+   {
+    "b": "Choosing your room.",
+    "t": "Categories run Deluxe, Executive and Premier, each with a larger &ldquo;B&rdquo; version, plus the Pearl rooms with balconies. The hotel&rsquo;s website has 3D walkthroughs of each, and I&rsquo;ll tell you which to pick."
+   },
+   {
+    "b": "Eat British.",
+    "t": "Four outlets: The Grill, the club restaurant, the Library Bar and the Withdrawing Room, with British classics like Beef Wellington and Dover sole. The newly renovated cigar lounge isn&rsquo;t always open to the public."
+   },
+   {
+    "b": "Lanesborough or Claridge&rsquo;s?",
+    "t": "Both are quintessentially British. The real difference is location: Hyde Park Corner and Knightsbridge here, Mayfair at <a href=\"claridges-london.html\">Claridge&rsquo;s</a>."
+   },
+   {
+    "b": "Book holidays early.",
+    "t": "The large suites go first for Thanksgiving and Christmas."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "Classic British London with service that stands apart: a butler in every room, and suites big enough for the whole family.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked The Lanesborough personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which rooms and suites to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "The Lanesborough Review, London: A Butler in Every Room (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-27",
+   "city": "London",
+   "country": "GB"
+  }
  }
 ]
