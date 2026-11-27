@@ -10761,10 +10761,10 @@
   "stat2_label": "Check-Out, Guaranteed Through Me",
   "cta_line": "Book through me and your room is ready at 8am and yours until 8pm. Tell me your dates and flights.",
   "intro": [
-   "Moody, sexy and small, with Dorchester-quality beds and service. The suites are all velvet sofas, soft textured walls and brass, and the marble bathrooms are stunning, with heated floors and Toto toilets.",
+   "Moody, sexy and small: just 45 rooms and suites, including one penthouse, with Dorchester-quality beds and service. The suites are all velvet sofas, soft textured walls and brass, and the marble bathrooms are stunning, with a separate WC, double vanity, tub and shower, heated floors and Toto toilets.",
    "It&rsquo;s the kind of hotel where the small things are already handled before you think to ask. There was oat milk and regular milk already in the fridge, so I could have my coffee first thing in the morning without calling down. A small touch, but an incredible one.",
    "And because it&rsquo;s so small, the personal attention is incredible, almost like <a href=\"/hotels/portrait-firenze.html\">Portrait</a> in Florence and Milan. This is a hotel for someone who likes to come back and know the hotel will remember every little thing about them. That&rsquo;s a great part of this property.",
-   "The one con: from my seventh-floor suite, there wasn&rsquo;t much of a view. Come for the rooms, the beds and the mood."
+   "Every room faces Hyde Park. The one con: from my seventh-floor suite, the view wasn&rsquo;t really the point. Come for the rooms, the beds and the mood."
   ],
   "stood_out": [
    {
@@ -10778,6 +10778,18 @@
    {
     "b": "The spa and gym.",
     "t": "The spa is a major selling point: a pool beside a floral mosaic wall, a hot tub and calm, warm lounges. The gym is super expansive, one of the nicer city-hotel gyms I&rsquo;ve seen. Guests of The Dorchester next door use the same spa."
+   },
+   {
+    "b": "Original art.",
+    "t": "Works by Sir Peter Blake and other British artists throughout, plus an artist residency in the public spaces that changes every three to four months."
+   },
+   {
+    "b": "Private entrances.",
+    "t": "Two of them, including a dedicated entrance for the ninth-floor penthouse. A quiet choice for high-profile guests."
+   },
+   {
+    "b": "A host on every floor.",
+    "t": "A dedicated host or hostess on each floor, available around the clock, and full butler service from the one-bedroom suites up."
    },
    {
     "b": "Personal attention, remembered.",
@@ -10794,12 +10806,20 @@
   ],
   "know": [
    {
-    "b": "Don&rsquo;t book it for the view.",
-    "t": "From my seventh-floor suite there wasn&rsquo;t much to see."
+    "b": "Park view, guaranteed.",
+    "t": "Every room faces Hyde Park, and booked through me as a Fora advisor that&rsquo;s guaranteed. From my seventh-floor suite, though, the view wasn&rsquo;t the main event."
    },
    {
-    "b": "Book a suite.",
-    "t": "For the bathroom alone."
+    "b": "Start with a Park View Studio.",
+    "t": "The entry category is bigger than a standard room. Two can interconnect (a king and a twin), sleeping up to six with rollaways and no suite required."
+   },
+   {
+    "b": "Book a suite for the butler.",
+    "t": "Butler service starts at the one-bedroom suites, like the Curzon Suite."
+   },
+   {
+    "b": "The Dorchester next door.",
+    "t": "Guests share its spa, and its restaurants and Vesper Bar are steps away. See my <a href=\"the-dorchester-london.html\">Dorchester review</a>."
    },
    {
     "b": "Compare the rest of London.",
@@ -11510,6 +11530,145 @@
     "w": 1600,
     "h": 1034,
     "caption": "The spa"
+   }
+  ]
+ },
+ {
+  "slug": "the-dorchester-london",
+  "name": "The Dorchester",
+  "plain_name": "The Dorchester",
+  "short_name": "The Dorchester",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "hotels/the-dorchester",
+  "hero_img": "exterior-night.jpg",
+  "img2": "exterior-night.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Freshly renovated on Park Lane: quintessentially British without being stuffy, with three-star dining, a hidden omakase and the Vesper Bar.",
+  "meta_desc": "Keith's review of The Dorchester from a November 2026 site visit: the full renovation, rooms by floor, Alain Ducasse at The Dorchester, the 13-seat Sushi Kanazawa omakase, The Grill, the Promenade and Vesper Bar, and the spa it shares with 45 Park Lane.",
+  "style_label": "Renovated Park Lane grande dame (Dorchester Collection)",
+  "perfect_for": "Food lovers, celebrations, travelers who want classic British style that still feels bright and current",
+  "region_label": "Neighborhood",
+  "region_html": "Park Lane, Mayfair, London",
+  "rank_text": "My pick for dining and a classic London grand hotel &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "3&#9733;",
+  "stat1_label": "Alain Ducasse At The Dorchester",
+  "stat2_num": "13",
+  "stat2_label": "Seats At Sushi Kanazawa",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Want a table at Sushi Kanazawa or the right floor&rsquo;s color palette? Tell me your dates and I&rsquo;ll set it up with the hotel.",
+  "intro": [
+   "The Dorchester has been completely renovated since 2022, down to the lighting, the moldings and the room numbers. Before, it was brown, navy and heavy wood, with lighting that hadn&rsquo;t changed since the &rsquo;80s. Now it&rsquo;s quintessentially British without being stuffy: bright, with a real sense of place.",
+   "The rooms share one design language, with a different color palette on each floor, from pale blue to pale green to dusky tones.",
+   "And the dining is a reason to stay on its own: Alain Ducasse at The Dorchester with three Michelin stars, a hidden 13-seat omakase, The Grill, the Promenade for afternoon tea, and the Vesper Bar."
+  ],
+  "stood_out": [
+   {
+    "b": "Sushi Kanazawa.",
+    "t": "A hidden, 13-seat omakase that earned a Michelin star within six months. Everything is brought in from Japan, the team wears kimonos, and it&rsquo;s open to non-guests too."
+   },
+   {
+    "b": "Three Michelin stars.",
+    "t": "Alain Ducasse at The Dorchester, plus The Grill for a classic London dinner."
+   },
+   {
+    "b": "The Vesper Bar.",
+    "t": "Live music, a low-table dining menu and a semi-private snug. It can host a reception of 30 to 40 while the bar stays open."
+   },
+   {
+    "b": "The Promenade.",
+    "t": "Breakfast, lunch, afternoon tea and dinner in the hotel&rsquo;s grand central hall."
+   },
+   {
+    "b": "A bright renovation.",
+    "t": "New lighting, moldings and a palette that changes by floor, all done since 2022."
+   },
+   {
+    "b": "The spa.",
+    "t": "Shared with 45 Park Lane next door, with a pool beside a floral mosaic wall."
+   }
+  ],
+  "know": [
+   {
+    "b": "Book Sushi Kanazawa early.",
+    "t": "Thirteen seats, and it&rsquo;s open to the public. Tell me your dates and I&rsquo;ll ask for a table with the room."
+   },
+   {
+    "b": "Hosting a group?",
+    "t": "The Vesper Bar takes a reception of 30 to 40 without closing."
+   },
+   {
+    "b": "The Dorchester or 45 Park Lane?",
+    "t": "Same family, same spa, next door to each other. The Dorchester is the grand hotel with the restaurants; <a href=\"45-park-lane-london.html\">45 Park Lane</a> is the small, moody one with 8am check-in and 8pm check-out through me."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "London&rsquo;s classic grand hotel, made bright again, with the best dining of any hotel on my list.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked The Dorchester personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which floors and rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "The Dorchester Review, London: After the Renovation (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-27",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/the-dorchester/exterior-christmas.jpg",
+    "alt": "The Dorchester&rsquo;s canopy lined with Christmas trees on Park Lane",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Christmas on Park Lane"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/exterior-entrance.jpg",
+    "alt": "The entrance of The Dorchester with a doorman and Christmas trees",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The arrival"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/bedroom.jpg",
+    "alt": "A Dorchester bedroom with botanical wallpaper and a pale blue headboard",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Palettes that change by floor"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/bathroom.jpg",
+    "alt": "A marble bathroom with a fluted double vanity at The Dorchester",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/bar-lounge.jpg",
+    "alt": "The Vesper Bar at The Dorchester, with velvet armchairs and a chandelier",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The Vesper Bar"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/bar.jpg",
+    "alt": "The long bar with green velvet stools at the Vesper Bar",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A seat at the bar"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/spa-pool.jpg",
+    "alt": "The pool in the spa shared by The Dorchester and 45 Park Lane",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The shared spa"
    }
   ]
  }
