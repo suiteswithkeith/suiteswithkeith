@@ -11248,8 +11248,8 @@
   "rank_href": "london.html",
   "stat1_num": "Mayfair",
   "stat1_label": "On Grosvenor Square",
-  "stat2_num": "Rosewood",
-  "stat2_label": "Service, Through My Preferred Partnership",
+  "stat2_num": "Junior Suite",
+  "stat2_label": "The Entry Category",
   "know_heading": "The Fine Print, From Your Advisor",
   "cta_line": "Choosing between The Chancery and Rosewood London? Tell me your dates and whether it&rsquo;s your first trip, and I&rsquo;ll match you to the right one.",
   "intro": [
@@ -11261,6 +11261,10 @@
    {
     "b": "The private residence.",
     "t": "The one I toured feels like a Mayfair apartment: a living room over Grosvenor Square, dining for six, a wood-paneled study, a walk-in dressing room, marble bathrooms and a full kitchen."
+   },
+   {
+    "b": "Every room is a suite.",
+    "t": "Accommodations start at a junior suite, so even the entry category gives you real space for London."
    },
    {
     "b": "The design.",
@@ -11276,6 +11280,10 @@
    }
   ],
   "know": [
+   {
+    "b": "Compare suite to suite.",
+    "t": "Since everything starts at a junior suite, the rate can look high next to another hotel&rsquo;s entry room. Compare it against their junior suites, and it&rsquo;s much closer than it first appears. I&rsquo;ll quote them side by side."
+   },
    {
     "b": "Contemporary over classic.",
     "t": "If you want old-school British charm, look at <a href=\"rosewood-london.html\">Rosewood London</a> or <a href=\"claridges-london.html\">Claridge&rsquo;s</a> instead."
