@@ -11353,9 +11353,9 @@
   "island": "London",
   "island_page": "london.html",
   "locale": "London, England",
-  "img_dir": "destinations",
-  "hero_img": "lanesborough.jpg",
-  "img2": "lanesborough.jpg",
+  "img_dir": "hotels/the-lanesborough",
+  "hero_img": "bedroom.jpg",
+  "img2": "bedroom.jpg",
   "hide_hero_in_gallery": true,
   "tagline": "Quintessentially British, on Hyde Park Corner, with a personal butler in every room and service that sets it apart.",
   "meta_desc": "Keith's review of The Lanesborough from a November 2026 site visit: a Regency, Grade I listed Oetker Collection hotel on Hyde Park Corner with 93 rooms, a personal butler in every room, the Royal and Presidential suites for multi-generational stays, Café LPM, the spa and club, and Bridgerton afternoon tea.",
@@ -11435,6 +11435,57 @@
    "date": "2026-11-27",
    "city": "London",
    "country": "GB"
-  }
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/the-lanesborough/canopy-bed.jpg",
+    "alt": "A canopied bed under a crystal chandelier in a Regency room at The Lanesborough",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Regency rooms, canopied beds"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/bathroom.jpg",
+    "alt": "A marble bathroom with a deep tub and brass fixtures at The Lanesborough",
+    "w": 1600,
+    "h": 1035,
+    "caption": "The bathroom"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/library-bar.jpg",
+    "alt": "The Library Bar at The Lanesborough, with a fireplace, vintage port and armchairs by the window",
+    "w": 1600,
+    "h": 1028,
+    "caption": "The Library Bar"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/dining-room.jpg",
+    "alt": "A dining room with botanical prints, antique mirrors and brass chandeliers at The Lanesborough",
+    "w": 1600,
+    "h": 1026,
+    "caption": "Botanical prints and antique mirrors"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/dining-room-tall.jpg",
+    "alt": "Brass chandeliers and a mirrored wall in a dining room at The Lanesborough",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Brass and mirror"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/corridor.jpg",
+    "alt": "A wood-paneled corridor with brass lanterns at The Lanesborough",
+    "w": 1600,
+    "h": 1044,
+    "caption": "The corridors"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/spa-pool.jpg",
+    "alt": "The pool in the subterranean spa at The Lanesborough",
+    "w": 1600,
+    "h": 1034,
+    "caption": "The spa"
+   }
+  ]
  }
 ]
