@@ -11154,5 +11154,77 @@
     "caption": "Christmas on the roof"
    }
   ]
+ },
+ {
+  "slug": "the-chancery-rosewood-london",
+  "name": "The Chancery Rosewood",
+  "plain_name": "The Chancery Rosewood",
+  "short_name": "The Chancery",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "rosewood",
+  "hero_img": "the-chancery.jpg",
+  "img2": "the-chancery.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Grand, beautifully designed and international in feel, on Grosvenor Square.",
+  "meta_desc": "Keith's review of The Chancery Rosewood from a November 2026 site visit: a grand, beautifully designed Rosewood on Grosvenor Square in Mayfair, who it suits best, and when he'd choose Rosewood London instead.",
+  "style_label": "Grand contemporary landmark (Rosewood)",
+  "perfect_for": "Return visitors to London, design and art lovers, travelers who want a sleek, contemporary base in Mayfair",
+  "region_label": "Neighborhood",
+  "region_html": "Grosvenor Square, Mayfair, London",
+  "rank_text": "My pick for contemporary design &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "Mayfair",
+  "stat1_label": "On Grosvenor Square",
+  "stat2_num": "Rosewood",
+  "stat2_label": "Service, Through My Preferred Partnership",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Choosing between The Chancery and Rosewood London? Tell me your dates and whether it&rsquo;s your first trip, and I&rsquo;ll match you to the right one.",
+  "intro": [
+   "The Chancery is grand, and the design is genuinely beautiful, with striking artwork throughout and the polish you expect from Rosewood.",
+   "It&rsquo;s also the most international-feeling hotel on my London list. It&rsquo;s sleek and contemporary rather than distinctly British, the kind of hotel that would feel just as at home in New York. For some travelers, that&rsquo;s exactly the point.",
+   "The service lives up to the Rosewood standard, and I fully expect guests have incredible stays here. I&rsquo;d match it to return visitors who already know London and want something contemporary, and send first-timers to its sister, <a href=\"rosewood-london.html\">Rosewood London</a>, for the classic British experience."
+  ],
+  "stood_out": [
+   {
+    "b": "The design.",
+    "t": "Grand, beautiful and contemporary, from the public spaces to the suites."
+   },
+   {
+    "b": "The artwork.",
+    "t": "Striking pieces throughout the hotel."
+   },
+   {
+    "b": "Rosewood service.",
+    "t": "Polished and attentive, to the standard you expect from the brand."
+   }
+  ],
+  "know": [
+   {
+    "b": "Contemporary over classic.",
+    "t": "If you want old-school British charm, look at <a href=\"rosewood-london.html\">Rosewood London</a> or <a href=\"claridges-london.html\">Claridge&rsquo;s</a> instead."
+   },
+   {
+    "b": "Best for a return trip.",
+    "t": "Once you know London, a sleek Mayfair base makes more sense than it does on a first visit."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "Beautiful, grand and international in feel. My pick for return visitors who want contemporary design over old-London tradition.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked The Chancery personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "The Chancery Rosewood Review, London: Grosvenor Square (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-27",
+   "city": "London",
+   "country": "GB"
+  }
  }
 ]
