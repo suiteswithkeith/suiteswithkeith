@@ -64,6 +64,16 @@ const reviewSchema = h.review && JSON.stringify({
         <div class="kv-row"><dt>My ranking</dt><dd><a href={`/${h.rank_href}`} style="color:var(--brass);" set:html={h.rank_text} /></a></dd></div>
       )}
     </dl>
+    {h.perks_list && (
+      <div style="margin-top:40px; border:1px solid var(--brass); padding:clamp(22px,4vw,34px);">
+        <p class="stamp plain" style="font-weight:400; color:var(--brass); margin:0 0 14px;" set:html={`Book ${h.short_name} through me and you get`} />
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px;">
+          {h.perks_list.map((x) => <li style="padding-left:22px; position:relative; line-height:1.5;"><span style="position:absolute; left:0; color:var(--brass);">&#10003;</span><span set:html={x} /></li>)}
+        </ul>
+        <p class="body-2" style="margin-top:16px;">Same rate as booking direct. You only get these by booking through an advisor like me.</p>
+        <p style="margin-top:18px;"><a class="btn" href="#inquire" data-gtag-label="perks_box" data-gtag-location="hotel_top">Check my dates and perks</a></p>
+      </div>
+    )}
   </div>
 </section>
 
