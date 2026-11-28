@@ -10511,7 +10511,13 @@
    "date": "2026-11-21",
    "city": "London",
    "country": "GB"
-  }
+  },
+  "perks_list": [
+   "Daily &agrave; la carte breakfast for two",
+   "A hotel credit of $90 per room or $200 per suite",
+   "VIP welcome treats and a letter from the General Manager",
+   "An upgrade, subject to availability"
+  ]
  },
  {
   "island": "London",
@@ -10587,7 +10593,13 @@
    "date": "2026-11-21",
    "city": "London",
    "country": "GB"
-  }
+  },
+  "perks_list": [
+   "<b>A one-category upgrade</b>, at booking or on arrival",
+   "Daily breakfast for two per bedroom",
+   "An &pound;85 food and drink or spa credit",
+   "A note and amenity from the Managing Director"
+  ]
  },
  {
   "island": "London",
@@ -10658,7 +10670,12 @@
    "date": "2026-11-21",
    "city": "London",
    "country": "GB"
-  }
+  },
+  "perks_list": [
+   "Priority early check-in, late check-out and upgrade, subject to availability",
+   "A personalized welcome amenity",
+   "On refundable rates: daily breakfast for two and a &pound;20 credit per day"
+  ]
  },
  {
   "island": "London",
@@ -10729,7 +10746,14 @@
    "date": "2026-11-21",
    "city": "London",
    "country": "GB"
-  }
+  },
+  "perks_list": [
+   "<b>A guaranteed upgrade</b> (room to room or suite to suite, up to the Grand Premier Room)",
+   "<b>Check-in from 6am and check-out until 10pm</b> (&ldquo;Peninsula Time&rdquo;)",
+   "Daily breakfast for two",
+   "A $100 food and drink or spa credit",
+   "An upgraded welcome amenity"
+  ]
  },
  {
   "island": "London",
@@ -10937,7 +10961,13 @@
     "caption": "Fireside in the spa"
    }
   ],
-  "hero_pos": "50% 30%"
+  "hero_pos": "50% 30%",
+  "perks_list": [
+   "<b>A one-category upgrade, guaranteed at booking</b> (rooms up to the Junior Suite category)",
+   "<b>8am check-in and 8pm check-out</b>, guaranteed",
+   "Daily breakfast for two",
+   "A &pound;100 hotel credit (&pound;100 a day per bedroom in suites)"
+  ]
  },
  {
   "island": "London",
@@ -11094,6 +11124,13 @@
     "h": 1066,
     "caption": "Four floors of wellness"
    }
+  ],
+  "perks_list": [
+   "<b>A guaranteed park-side upgrade</b> when you book a junior suite",
+   "Daily breakfast for two",
+   "A hotel credit of &pound;100 to &pound;250 per stay",
+   "A VIP seasonal welcome amenity",
+   "Early check-in and late check-out, subject to availability"
   ]
  },
  {
@@ -11228,6 +11265,12 @@
     "h": 1600,
     "caption": "Christmas on the roof"
    }
+  ],
+  "perks_list": [
+   "Daily breakfast for two",
+   "A hotel credit of &pound;100 to &pound;250 per stay",
+   "A VIP seasonal welcome amenity",
+   "An upgrade, early check-in and late check-out, subject to availability"
   ]
  },
  {
@@ -11426,6 +11469,13 @@
     "h": 1066,
     "caption": "The residence: full kitchen"
    }
+  ],
+  "perks_list": [
+   "<b>A one-category upgrade</b>, at booking or on arrival",
+   "Daily breakfast for two per bedroom",
+   "A &pound;100 food and drink credit in suites (&pound;100 a day in the Houses)",
+   "A note and amenity from the Managing Director",
+   "Pre-registration before you arrive"
   ]
  },
  {
@@ -11569,6 +11619,12 @@
     "h": 1034,
     "caption": "The spa"
    }
+  ],
+  "perks_list": [
+   "Daily full breakfast for two per bedroom",
+   "A &euro;100 food and drink or spa credit, <b>&euro;200 for stays of two nights or more</b>",
+   "Priority use of the hotel car",
+   "A personal butler, as every guest has"
   ]
  },
  {
@@ -11813,6 +11869,13 @@
     "h": 1600,
     "caption": "The shared spa"
    }
+  ],
+  "perks_list": [
+   "<b>A one-category upgrade, guaranteed at booking</b> (rooms up to the Junior Suite category)",
+   "<b>8am check-in and 8pm check-out</b>, guaranteed",
+   "Daily breakfast for two",
+   "A &pound;100 hotel credit (&pound;100 a day per bedroom in suites)",
+   "Current offer: <b>fourth night free</b> through June 12, 2027"
   ]
  },
  {
@@ -11967,6 +12030,12 @@
     "h": 1600,
     "caption": "The bathroom"
    }
+  ],
+  "perks_list": [
+   "Daily full breakfast for two per bedroom",
+   "A &pound;75 hotel credit per stay",
+   "An upgrade, early check-in and late check-out, subject to availability",
+   "First stays from April 1, 2027; I can get you on the books now"
   ]
  },
  {
@@ -12149,6 +12218,13 @@
     "h": 1067,
     "caption": "The lobby boutiques"
    }
+  ],
+  "perks_list": [
+   "Daily breakfast for two",
+   "A $100 hotel credit",
+   "A VIP welcome",
+   "An upgrade, early check-in and late check-out, subject to availability",
+   "Current offers: <b>stay 4, pay 3</b> or <b>stay 3, pay 2</b>, depending on dates"
   ]
  },
  {
@@ -12291,6 +12367,12 @@
     "h": 1400,
     "caption": "The spa"
    }
+  ],
+  "perks_list": [
+   "Daily breakfast for two",
+   "A hotel credit of &pound;100 to &pound;250 per stay",
+   "A VIP seasonal welcome amenity",
+   "An upgrade, early check-in and late check-out, subject to availability"
   ]
  }
 ]
