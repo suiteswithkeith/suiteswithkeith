@@ -11737,9 +11737,9 @@
   "island": "London",
   "island_page": "london.html",
   "locale": "London, England",
-  "img_dir": "hotels",
-  "hero_img": "",
-  "img2": "",
+  "img_dir": "hotels/cambridge-house",
+  "hero_img": "piano-nobile-suite.jpg",
+  "img2": "piano-nobile-suite.jpg",
   "tagline": "A Grade I listed Piccadilly mansion reborn as a hotel that feels like a private residence, opening February 2027.",
   "meta_desc": "Keith's preview of Cambridge House, Auberge Collection, from a November 2026 hard-hat tour: a Grade I listed mansion on Piccadilly opening in 2027 with 102 rooms, six Piano Nobile suites that connect into a 6,500 sq ft private floor, Major Food Group dining, a Roman bathhouse spa and the Reuben family's art collection.",
   "style_label": "Restored Piccadilly mansion (Auberge Collection)",
@@ -11796,7 +11796,7 @@
    },
    {
     "b": "A preview, for now.",
-    "t": "I saw it as a construction site. I&rsquo;ll update this page with a full review, and my own photos, once it opens."
+    "t": "I saw it as a construction site, so the images here are the hotel&rsquo;s own renderings and photography. I&rsquo;ll update this page with a full review, and my own photos, once it opens."
    },
    {
     "b": "Compare the rest of London.",
@@ -11815,6 +11815,65 @@
    "city": "London",
    "country": "GB",
    "word": "preview"
-  }
+  },
+  "hide_hero_in_gallery": true,
+  "gallery": [
+   {
+    "src": "/images/hotels/cambridge-house/exterior-piccadilly.jpg",
+    "alt": "Rendering of Cambridge House on Piccadilly, with its private forecourt between neighboring buildings",
+    "w": 1280,
+    "h": 854,
+    "caption": "Rendering: Cambridge House on Piccadilly"
+   },
+   {
+    "src": "/images/hotels/cambridge-house/suite-sitting-room.jpg",
+    "alt": "Rendering of a suite sitting room at Cambridge House with Wedgwood plasterwork, a fireplace and a bay window",
+    "w": 1400,
+    "h": 1000,
+    "caption": "Rendering: a suite sitting room"
+   },
+   {
+    "src": "/images/hotels/cambridge-house/suite-bedroom.jpg",
+    "alt": "Rendering of a pale blue suite bedroom at Cambridge House with a crystal chandelier and bay window",
+    "w": 1400,
+    "h": 1000,
+    "caption": "Rendering: a suite bedroom"
+   },
+   {
+    "src": "/images/hotels/cambridge-house/courtyard-dining.jpg",
+    "alt": "Rendering of the planted courtyard dining room at Cambridge House",
+    "w": 1400,
+    "h": 1000,
+    "caption": "Rendering: dining in the courtyard"
+   },
+   {
+    "src": "/images/hotels/cambridge-house/room-bed.jpg",
+    "alt": "A guest room at Cambridge House with sculpted sage-green walls and a green headboard",
+    "w": 1200,
+    "h": 1600,
+    "caption": "A guest room"
+   },
+   {
+    "src": "/images/hotels/cambridge-house/room-desk.jpg",
+    "alt": "A writing desk and armchair in a sage-green guest room at Cambridge House",
+    "w": 1200,
+    "h": 1600,
+    "caption": "The writing desk"
+   },
+   {
+    "src": "/images/hotels/cambridge-house/room-entry.jpg",
+    "alt": "An arched wooden doorway into a sage-green room at Cambridge House",
+    "w": 1200,
+    "h": 1600,
+    "caption": "Arches and dark wood"
+   },
+   {
+    "src": "/images/hotels/cambridge-house/bathroom.jpg",
+    "alt": "A marble and brass bathroom vanity at Cambridge House with a geometric marble floor",
+    "w": 1200,
+    "h": 1600,
+    "caption": "The bathroom"
+   }
+  ]
  }
 ]
