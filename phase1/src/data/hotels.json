@@ -10769,7 +10769,7 @@
   "stood_out": [
    {
     "b": "My Dorchester Diamond benefits.",
-    "t": "Book through me and an upgrade, 8am check-in and 8pm check-out are all guaranteed at booking, not just requested. Land on the overnight flight and go straight to bed, or take the evening flight home without losing the day."
+    "t": "Book through me and a one-category upgrade (for rooms up to the Junior Suite category), 8am check-in and 8pm check-out are guaranteed at booking, not just requested. Daily breakfast for two and a &pound;100 credit come with it. Land on the overnight flight and go straight to bed, or take the evening flight home without losing the day."
    },
    {
     "b": "The marble bathrooms.",
@@ -10814,6 +10814,10 @@
   ],
   "know": [
    {
+    "b": "Booking a Junior Suite?",
+    "t": "The guaranteed upgrade covers rooms up to the Junior Suite category. Book a Junior Suite and the upgrade is subject to availability at check-in instead; I&rsquo;ll still ask for it."
+   },
+   {
     "b": "Park view, guaranteed.",
     "t": "Every room faces Hyde Park, and booked through me as a Fora advisor that&rsquo;s guaranteed. In spring, summer and fall, the view over the park is beautiful."
    },
@@ -10839,7 +10843,7 @@
    }
   ],
   "verdict": "Dorchester-quality beds and service in a moody, intimate hotel, with a guaranteed upgrade and 8am check-in and 8pm check-out through me.",
-  "perks_html": "Book 45 Park Lane through me and three things are guaranteed, not just requested: an upgrade at booking, an 8am check-in and an 8pm check-out. As a Dorchester Diamond Club partner, I can guarantee my clients an upgrade at booking, plus 8am check-in and 8pm check-out, along with daily breakfast and a hotel credit, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "perks_html": "Book through me and you get my Dorchester Diamond Club benefits: a one-category upgrade guaranteed at booking (for rooms up to the Junior Suite category), 8am check-in and 8pm check-out, daily breakfast for two, and a &pound;100 credit for your stay. In suites, the credit is &pound;100 a day per bedroom, with breakfast for two per bedroom. I&rsquo;m also your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
   "seo_title": "45 Park Lane Review, London: My Stay at the Dorchester Collection (2026)",
   "review": {
    "stamp": "Stayed November 2026",
@@ -11601,7 +11605,7 @@
   "stood_out": [
    {
     "b": "My Dorchester Diamond benefits.",
-    "t": "Book through me and an upgrade, 8am check-in and 8pm check-out are all guaranteed at booking, not just requested. Land on the overnight flight and go straight to bed, or take the evening flight home without losing the day."
+    "t": "Book through me and a one-category upgrade (for rooms up to the Junior Suite category), 8am check-in and 8pm check-out are guaranteed at booking, not just requested. Daily breakfast for two and a &pound;100 credit come with it. Land on the overnight flight and go straight to bed, or take the evening flight home without losing the day."
    },
    {
     "b": "Same-day tailoring.",
@@ -11646,6 +11650,14 @@
   ],
   "know": [
    {
+    "b": "Booking a Junior Suite?",
+    "t": "The guaranteed upgrade covers rooms up to the Junior Suite category. Book a Junior Suite and the upgrade is subject to availability at check-in instead; I&rsquo;ll still ask for it."
+   },
+   {
+    "b": "Current offers through me.",
+    "t": "A fourth night free on stays through June 12, 2027, plus a roundtrip transfer on suite bookings through March 31, 2027. Ask me and I&rsquo;ll apply whichever fits your dates."
+   },
+   {
     "b": "Hosting a group?",
     "t": "The Vesper Bar takes a reception of 30 to 40 without closing."
    },
@@ -11663,7 +11675,7 @@
    }
   ],
   "verdict": "The quintessential British hotel experience, beautifully renovated, with three-star dining under the same roof.",
-  "perks_html": "Book The Dorchester through me and three things are guaranteed, not just requested: an upgrade at booking, an 8am check-in and an 8pm check-out. As a Dorchester Diamond Club partner, I can guarantee my clients an upgrade at booking, plus 8am check-in and 8pm check-out, along with daily breakfast and a hotel credit, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "perks_html": "Book through me and you get my Dorchester Diamond Club benefits: a one-category upgrade guaranteed at booking (for rooms up to the Junior Suite category), 8am check-in and 8pm check-out, daily breakfast for two, and a &pound;100 credit for your stay. In suites, the credit is &pound;100 a day per bedroom, with breakfast for two per bedroom. I&rsquo;m also your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My London Guide",
   "cta2_text": "All My Rankings",
   "cta2_href": "rankings.html",
