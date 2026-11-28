@@ -11728,5 +11728,93 @@
     "caption": "The shared spa"
    }
   ]
+ },
+ {
+  "slug": "cambridge-house-london",
+  "name": "Cambridge House",
+  "plain_name": "Cambridge House, Auberge Collection",
+  "short_name": "Cambridge House",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "hotels",
+  "hero_img": "",
+  "img2": "",
+  "tagline": "A Grade I listed Piccadilly mansion reborn as a hotel that feels like a private residence, opening February 2027.",
+  "meta_desc": "Keith's preview of Cambridge House, Auberge Collection, from a November 2026 hard-hat tour: a Grade I listed mansion on Piccadilly opening in 2027 with 102 rooms, six Piano Nobile suites that connect into a 6,500 sq ft private floor, Major Food Group dining, a Roman bathhouse spa and the Reuben family's art collection.",
+  "style_label": "Restored Piccadilly mansion (Auberge Collection)",
+  "perfect_for": "Travelers who want heritage with contemporary design, Mayfair regulars, large families and groups who want a whole floor",
+  "region_label": "Neighborhood",
+  "region_html": "Piccadilly, by Shepherd Market, Mayfair, London",
+  "rank_text": "Opening 2027 &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "102",
+  "stat1_label": "Rooms, Opening February 2027",
+  "stat2_num": "6,500",
+  "stat2_label": "Sq Ft Piano Nobile, Six Suites Connected",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Cambridge House opens in February and first stays are from April 1. Tell me your dates and I&rsquo;ll get you on the books early.",
+  "intro": [
+   "I toured Cambridge House in a hard hat in November 2026, a few months before it opens. It&rsquo;s a Grade I listed mansion on Piccadilly, begun in the 1750s for the Earl of Egremont, who died before it was finished; his widow became its first resident. It was later the Naval and Military Club for well over a century, until 1999, and has sat empty ever since.",
+   "Now it&rsquo;s been restored by the Reuben family and will be run by Auberge Collection. The idea is a hotel that doesn&rsquo;t feel like a hotel: you arrive through a private forecourt, and the spaces are called the hall, the study and the gallery, as if it were a private house.",
+   "In feel, it sits between the history of The Lanesborough and the modernity of The Chancery Rosewood: the architecture is all heritage, and the furnishings are contemporary. The interiors are by Jean-Louis Deniot (classic, a little feminine) and Laura Gonzalez (moody and textural), and the Reuben family&rsquo;s private art collection, with works by Richard Prince, Sterling Ruby and Robert Rauschenberg, will be shown publicly for the first time."
+  ],
+  "stood_out": [
+   {
+    "b": "The Piano Nobile.",
+    "t": "Six signature suites, each individually decorated and named for a figure from the house&rsquo;s history (the Augusta Suite has Wedgwood and pearl beading). They can all connect into a private floor of about 6,500 square feet with six bedrooms."
+   },
+   {
+    "b": "The largest suite.",
+    "t": "The Dolphus Suite, about 1,200 square feet with a private terrace over the courtyard."
+   },
+   {
+    "b": "Five places to eat and drink.",
+    "t": "The In and Out Bar for coffee and cocktails between inside and out; the Rose Room and Bay Room for all-day dining and a contemporary afternoon tea; Majors, the signature restaurant with Major Food Group (inspired by The Grill in New York), with the Orangerie for private dining; and the Reuben Bar, with Asian-inspired food and a cigar lounge."
+   },
+   {
+    "b": "A Roman bathhouse underground.",
+    "t": "A wellbeing space across three subterranean floors, built around water rituals, with poolside programming and arts and culture events."
+   },
+   {
+    "b": "Shepherd Market next door.",
+    "t": "One of the last real villages in Mayfair, now cafés, restaurants, members&rsquo; clubs and galleries."
+   }
+  ],
+  "know": [
+   {
+    "b": "Opening dates.",
+    "t": "Cambridge House opens February 1, 2027, with first stays from April 1."
+   },
+   {
+    "b": "Rates.",
+    "t": "Rooms start at about &pound;1,250 a night for 400 to 550 square feet. On the Piano Nobile, the Victoria Suite starts around &pound;5,000, mid-tier suites run &pound;10,000 to &pound;15,000, and the top suites &pound;20,000 to &pound;25,000."
+   },
+   {
+    "b": "Families and groups.",
+    "t": "Rooms connect room to room, suite to room and suite to suite, and twin configurations are available. For a big family, ask me about taking the whole Piano Nobile."
+   },
+   {
+    "b": "A preview, for now.",
+    "t": "I saw it as a construction site. I&rsquo;ll update this page with a full review, and my own photos, once it opens."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "Heritage you can feel and contemporary design you can live in. The most anticipated opening on my London list.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked Cambridge House before it opened. Auberge is one of my preferred partners, so my clients receive perks like a space-available upgrade, daily breakfast and a hotel credit. I&rsquo;m your direct line to the team. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "Cambridge House London Preview: Auberge on Piccadilly, Opening 2027",
+  "review": {
+   "stamp": "Hard-hat tour, November 2026",
+   "date": "2026-11-27",
+   "city": "London",
+   "country": "GB",
+   "word": "preview"
+  }
  }
 ]

@@ -43,9 +43,9 @@ const reviewSchema = h.review && JSON.stringify({
   {heroSrc && !h.hero_video && <img class="hero-img" src={heroSrc} alt={`${h.plain_name}, ${h.island}`} style={h.hero_pos ? `object-position:${h.hero_pos}` : undefined} fetchpriority="high" />}
   <div class="container">
     {h.review
-      ? <p class="eyebrow">Hotel review &middot; <Fragment set:html={h.review.stamp} /> &middot; <Fragment set:html={h.locale} /></p>
+      ? <p class="eyebrow">Hotel {h.review.word || 'review'} &middot; <Fragment set:html={h.review.stamp} /> &middot; <Fragment set:html={h.locale} /></p>
       : <p class="eyebrow">Hotel record &middot; <Fragment set:html={h.locale} /></p>}
-    <h1 class="display-xl" set:html={h.review ? `${h.name} <em style="color:inherit">review</em>` : h.name} />
+    <h1 class="display-xl" set:html={h.review ? `${h.name} <em style="color:inherit">${h.review.word || 'review'}</em>` : h.name} />
     <p class="stamp" style="margin-top:20px;" set:html={statLine} />
   </div>
 </header>
