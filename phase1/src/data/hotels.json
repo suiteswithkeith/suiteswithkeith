@@ -12150,5 +12150,147 @@
     "caption": "The lobby boutiques"
    }
   ]
+ },
+ {
+  "slug": "claridges-london",
+  "name": "Claridge&rsquo;s",
+  "plain_name": "Claridge's",
+  "short_name": "Claridge&rsquo;s",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "hotels/claridges",
+  "hero_img": "exterior-christmas.jpg",
+  "img2": "exterior-christmas.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Mayfair&rsquo;s grande dame: classic Art Deco below, contemporary suites above, and a spa dug six floors down.",
+  "meta_desc": "Keith's Claridge's review from a November 2026 site visit: the Art Deco and contemporary floors, the 11 designer Signature Suites, Dante, the Fumoir and the bars, the spa dug by hand beneath the hotel and its 2027 expansion, and the benefits of booking through him.",
+  "style_label": "Art Deco grande dame (Maybourne, Fora Reserve)",
+  "perfect_for": "First serious London trips, celebrations, design lovers, the classic Mayfair experience",
+  "region_label": "Neighborhood",
+  "region_html": "Brook Street, Mayfair, London",
+  "rank_text": "My pick for classic Mayfair &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "11",
+  "stat1_label": "Signature Suites, Each By A Different Designer",
+  "stat2_num": "1856",
+  "stat2_label": "Mayfair&rsquo;s Grande Dame",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Classic Art Deco or contemporary? Tell me your dates and your style, and I&rsquo;ll match you to the right floor.",
+  "intro": [
+   "Claridge&rsquo;s is the grande dame of Mayfair: open since 1856, with roots as a coffee house in 1812, and the building by C.W. Stephens, the architect of Harrods. It has 264 rooms across nine floors.",
+   "The hotel is really two hotels in style. Floors one to three are the classic, renovated Art Deco Claridge&rsquo;s. Floors seven to nine were added during the recent renovation, with sections of the facade craned into place, and they&rsquo;re contemporary. Decide which you want before you book.",
+   "Then there&rsquo;s the art (a Damien Hirst butterfly piece on the first floor and a Picasso on the fourth), the bars, and the Christmas tree, designed this year with Anya Hindmarch after Burberry last year."
+  ],
+  "stood_out": [
+   {
+    "b": "Eleven Signature Suites.",
+    "t": "Each by a different designer: the mirrored Penthouse by yacht designer Rémi Tessier, the Residence by André Fu (who also designed the spa), the Octagon Suite by Pierre-Yves Rochon and the Muse Suite by Bryan O&rsquo;Sullivan."
+   },
+   {
+    "b": "Dante.",
+    "t": "The signature restaurant for breakfast, lunch and dinner, with live music and a head bartender from Bar Termini known for his martinis. It began as a pop-up and is now permanent."
+   },
+   {
+    "b": "The bars.",
+    "t": "A champagne bar by David Collins, who also designed the Connaught Bar; the Fumoir, more intimate and private; and the very pink Painter&rsquo;s Room."
+   },
+   {
+    "b": "A spa dug by hand.",
+    "t": "Claridge&rsquo;s had no spa until about three years ago. They dug six floors beneath the hotel, by hand, so guests wouldn&rsquo;t hear it. Treatments open with a Japanese-inspired foot ritual, and Josh Wood does hair."
+   },
+   {
+    "b": "Christmas on Brook Street.",
+    "t": "The facade and the tree are an event every year."
+   }
+  ],
+  "know": [
+   {
+    "b": "Choose your floor.",
+    "t": "Floors one to three for classic Art Deco; floors seven to nine for contemporary. I&rsquo;ll request the right one."
+   },
+   {
+    "b": "The spa is expanding.",
+    "t": "Construction starts in January to add treatment rooms and a floor with a large pool, hot tub, sauna, steam and a snow shower. Today there&rsquo;s a small pool, kept at 32&deg;C."
+   },
+   {
+    "b": "Claridge&rsquo;s or The Connaught?",
+    "t": "Both are Maybourne and Mayfair. <a href=\"connaught-london.html\">The Connaught</a> is quieter and clubbier; Claridge&rsquo;s has more buzz."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "Mayfair&rsquo;s grande dame, now with contemporary floors up top and a spa dug by hand beneath it.",
+  "perks_html": "Book through me and you get daily breakfast for two, a hotel credit once per stay (&pound;100 in rooms, &pound;150 in suites, &pound;250 in Signature Suites), a VIP seasonal welcome amenity, and an upgrade, early check-in and late check-out, each subject to availability. I&rsquo;m also your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "Claridge's Review, London: Suites, Spa and Dante (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-28",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/claridges/suite-living-terrace.jpg",
+    "alt": "A contemporary suite at Claridge&rsquo;s with a dining table, chandelier and terrace",
+    "w": 1400,
+    "h": 934,
+    "caption": "A contemporary suite with a terrace"
+   },
+   {
+    "src": "/images/hotels/claridges/bedroom.jpg",
+    "alt": "A bed with an arched boucl&eacute; headboard and glass globe lights at Claridge&rsquo;s",
+    "w": 1400,
+    "h": 934,
+    "caption": "The bedroom"
+   },
+   {
+    "src": "/images/hotels/claridges/bedroom-window.jpg",
+    "alt": "A bedroom at Claridge&rsquo;s with a curved bay window and sofa",
+    "w": 1400,
+    "h": 934,
+    "caption": "Soft light"
+   },
+   {
+    "src": "/images/hotels/claridges/marble-bathroom.jpg",
+    "alt": "A bathroom in dramatic veined marble with a marble tub at Claridge&rsquo;s",
+    "w": 1400,
+    "h": 933,
+    "caption": "Marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/claridges/staircase.jpg",
+    "alt": "The grand staircase at Claridge&rsquo;s with a feather-patterned runner",
+    "w": 1400,
+    "h": 933,
+    "caption": "The staircase"
+   },
+   {
+    "src": "/images/hotels/claridges/lounge-banquettes.jpg",
+    "alt": "Red leather banquettes in a lounge at Claridge&rsquo;s",
+    "w": 933,
+    "h": 1400,
+    "caption": "Red leather and a Mayfair window"
+   },
+   {
+    "src": "/images/hotels/claridges/bar.jpg",
+    "alt": "A marble bar with brass shelving under a carved ceiling at Claridge&rsquo;s",
+    "w": 1400,
+    "h": 781,
+    "caption": "The bar"
+   },
+   {
+    "src": "/images/hotels/claridges/spa-nook.jpg",
+    "alt": "A quiet nook with a cherry blossom painting in the spa at Claridge&rsquo;s",
+    "w": 933,
+    "h": 1400,
+    "caption": "The spa"
+   }
+  ]
  }
 ]
