@@ -185,6 +185,12 @@
     "h": 1060,
     "caption": "A sunken lounge by a villa pool. Photo: Canaves"
    }
+  ],
+  "perks_list": [
+   "$100 food and drink credit in pool bar restaurant",
+   "Complimentary breakfast",
+   "Wine and fruit upon arrival",
+   "Upgrade subject to availability"
   ]
  },
  {
@@ -266,7 +272,12 @@
   },
   "hero_video": "/video/gundari-folegandros-hero.mp4",
   "hero_poster": "/video/gundari-folegandros-hero-poster.jpg",
-  "hero_pos": "50% 64%"
+  "hero_pos": "50% 64%",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily breakfast for up to two guests per bedroom, served in the restaurant",
+   "Early check-in / Late check-out, subject to availability"
+  ]
  },
  {
   "slug": "canaves-oia-suites-santorini",
@@ -349,7 +360,13 @@
   },
   "hero_video": "/video/canaves-oia-suites-hero.mp4",
   "hero_poster": "/video/canaves-oia-suites-hero-poster.jpg",
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "$100 food and drink credit in pool bar restaurant",
+   "Complimentary breakfast",
+   "Wine and fruit upon arrival",
+   "Upgrade subject to availability"
+  ]
  },
  {
   "slug": "parilio-paros",
@@ -430,7 +447,14 @@
   },
   "hero_video": "/video/parilio-paros-hero.mp4",
   "hero_poster": "/video/parilio-paros-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Full breakfast for up to two guests per bedroom, served in the restaurant",
+   "Stays of 7+ nights will receive an additional $200 food and drink credit (for a total of $300 during stay)",
+   "Early Check-In, Late Check-out, subject to availability",
+   "Welcome local amenities"
+  ]
  },
  {
   "slug": "andronis-boutique-santorini",
@@ -511,7 +535,14 @@
   },
   "hero_video": "/video/andronis-boutique-hero.mp4",
   "hero_poster": "/video/andronis-boutique-hero-poster.jpg",
-  "hero_pos": "50% 60%"
+  "hero_pos": "50% 60%",
+  "perks_list": [
+   "&euro;150 resort credit",
+   "Complimentary bottle of wine and champagne",
+   "Welcome amenities",
+   "Daily breakfast",
+   "Early check-in and late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "bill-and-coo-coast-mykonos",
@@ -673,7 +704,14 @@
   },
   "hero_video": "/video/kalesma-mykonos-hero.mp4",
   "hero_poster": "/video/kalesma-mykonos-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Breakfast for up to two guests per bedroom, served in the restaurant and via in-room dining",
+   "Welcome bottle of wine and fruits (upon arrival in the room)",
+   "Complimentary parking",
+   "Stays of 5+ nights will also receive a complimentary 4-course dinner for up to two guests per room, once per stay"
+  ]
  },
  {
   "slug": "cali-mykonos",
@@ -754,7 +792,14 @@
   },
   "hero_video": "/video/cali-mykonos-hero.mp4",
   "hero_poster": "/video/cali-mykonos-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "One complimentary boat transfer to a beach club on Mykonos&rsquo; South Coast",
+   "Upgrade on arrival (subject to availability)",
+   "Daily complimentary à la carte breakfast in the restaurant",
+   "Welcome amenity: Bottle of wine &amp; fruits upon arrival",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "cosme-paros",
@@ -828,7 +873,14 @@
    "date": "2026-08-09",
    "city": "Paros",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "A personalized welcome amenity",
+   "Complimentary breakfast daily for two guests per room",
+   "A $100 hotel credit, once per stay",
+   "Early check-in and late check-out (when available)",
+   "Complimentary upgrade (if available at check-in)"
+  ]
  },
  {
   "slug": "stamna-sifnos",
@@ -909,7 +961,14 @@
   },
   "hero_video": "/video/stamna-sifnos-hero.mp4",
   "hero_poster": "/video/stamna-sifnos-hero-poster.jpg",
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "VIP status",
+   "Welcome card from the General Manager",
+   "Daily breakfast for two",
+   "Room upgrade, early check-in, and late check-out (subject to availability)",
+   "For rooms"
+  ]
  },
  {
   "slug": "andronis-luxury-suites-santorini",
@@ -990,7 +1049,14 @@
   },
   "hero_video": "/video/andronis-luxury-suites-hero.mp4",
   "hero_poster": "/video/andronis-luxury-suites-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "&euro;150 resort credit",
+   "Complimentary bottle of wine and champagne",
+   "Welcome amenities",
+   "Daily breakfast",
+   "Early check-in and late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "andronis-concept-santorini",
@@ -1071,7 +1137,14 @@
   },
   "hero_video": "/video/andronis-concept-hero.mp4",
   "hero_poster": "/video/andronis-concept-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "&euro;150 resort credit",
+   "Complimentary bottle of wine and champagne",
+   "Welcome amenities",
+   "Daily breakfast",
+   "Early check-in and late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "andronis-arcadia-santorini",
@@ -1156,7 +1229,14 @@
   },
   "hero_video": "/video/andronis-arcadia-hero.mp4",
   "hero_poster": "/video/andronis-arcadia-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "&euro;150 resort credit",
+   "Complimentary bottle of wine and champagne",
+   "Welcome amenities",
+   "Daily breakfast",
+   "Early check in and late check out subject to availability"
+  ]
  },
  {
   "slug": "canaves-ena-santorini",
@@ -1239,7 +1319,13 @@
   },
   "hero_video": "/video/canaves-ena-hero.mp4",
   "hero_poster": "/video/canaves-ena-hero-poster.jpg",
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "$100 food and drink credit in pool bar restaurant",
+   "Complimentary breakfast",
+   "Wine and fruit upon arrival",
+   "Upgrade subject to availability"
+  ]
  },
  {
   "slug": "canaves-sunday-santorini",
@@ -1323,7 +1409,14 @@
    "date": "2026-08-09",
    "city": "Santorini",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "Early check-in and late check-out (subject to availability)",
+   "Complimentary room upgrade (subject to availability)",
+   "Daily American breakfast (via room service or à la carte)",
+   "Signature welcome amenity upon arrival",
+   "For stays of 7+ nights: an additional $200 food and drink credit (totaling $300 per stay)"
+  ]
  },
  {
   "slug": "grace-santorini",
@@ -1404,7 +1497,13 @@
   },
   "hero_video": "/video/grace-santorini-hero.mp4",
   "hero_poster": "/video/grace-santorini-hero-poster.jpg",
-  "hero_pos": "50% 64%"
+  "hero_pos": "50% 64%",
+  "perks_list": [
+   "$100 food and drink credit per stay",
+   "Daily breakfast for two",
+   "One category upgrade based upon availability at check-in",
+   "Early check-in, late check-out (based on availability)"
+  ]
  },
  {
   "slug": "mystique-santorini",
@@ -1485,7 +1584,14 @@
   },
   "hero_video": "/video/mystique-santorini-hero.mp4",
   "hero_poster": "/video/mystique-santorini-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "A personalized welcome amenity",
+   "Complimentary breakfast daily for two guests per room",
+   "A $100 hotel credit, once per stay",
+   "Early check-in and late check-out (when available)",
+   "Complimentary upgrade (if available at check-in)"
+  ]
  },
  {
   "slug": "katikies-santorini",
@@ -1566,7 +1672,14 @@
   },
   "hero_video": "/video/katikies-santorini-hero.mp4",
   "hero_poster": "/video/katikies-santorini-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "$150 credit per stay — can be tailored toward Spa or food and drink, depending on preference",
+   "Complimentary à la carte breakfast daily",
+   "Selene Rose signature wine &amp; fruit (locally produced) upon arrival",
+   "Complimentary upgrade upon availability",
+   "Welcome note from the General Manager"
+  ]
  },
  {
   "slug": "meadowood-napa-valley",
@@ -1636,7 +1749,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Meadowood personally. Meadowood is a Fora / Virtuoso preferred partner, and booking through me often includes an additional $500 property credit on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Full breakfast for up to two guests per bedroom, served in the restaurant and via in-room dining",
+   "Early Check-In / Late Check-Out, subject to availability",
+   "Napa Valley welcome amenity"
+  ]
  },
  {
   "slug": "four-seasons-napa-valley",
@@ -1706,7 +1825,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Four Seasons Napa personally. Four Seasons Napa Valley is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "montage-healdsburg",
@@ -1774,7 +1899,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Montage Healdsburg personally. Montage Healdsburg is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Daily breakfast for two",
+   "Room upgrade at the time of check in, based on availability",
+   "Early check in/late check out, based on availability",
+   "Food and drink Credit of $100 or equivalent, valid once per stay"
+  ]
  },
  {
   "slug": "solage-calistoga",
@@ -1842,7 +1973,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Solage personally. Solage is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Includes breakfast for 2",
+   "$100 Resort Credit per room",
+   "Welcome amenity",
+   "Late check-out, early check-in (subject to availability)",
+   "Upgrade (subject to availability on arrival)"
+  ]
  },
  {
   "slug": "macarthur-place-sonoma",
@@ -1912,7 +2050,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows MacArthur Place personally. MacArthur Place is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Breakfast for two daily",
+   "$100 Hotel Credit per Stay",
+   "Hotel Welcome Amenity and Welcome Note from the General Manager on behalf of Fora",
+   "Room Upgrade (subject to availability)",
+   "Priority Check-in and Check-out (subject to availability)"
+  ]
  },
  {
   "slug": "stanly-ranch-napa",
@@ -1980,7 +2125,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Stanly Ranch personally. Stanly Ranch is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Includes breakfast for 2",
+   "$100 resort credit per room",
+   "Welcome amenity",
+   "Late check-out, early check-in (subject to availability)",
+   "Upgrade (subject to availability on arrival)"
+  ]
  },
  {
   "slug": "madrona-manor-healdsburg",
@@ -2048,7 +2200,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Madrona personally. Madrona is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Upgrade to next room category, based upon availability at check-in",
+   "<b>Guaranteed 1pm late check-out</b>",
+   "Welcome treat in room on arrival",
+   "$25 hotel credit per room, per stay"
+  ]
  },
  {
   "slug": "carneros-resort-napa",
@@ -2116,7 +2274,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Carneros personally. Carneros is a Fora / Virtuoso preferred partner, and booking through me sometimes includes a third or fourth night free on top of standard amenities like breakfast and upgrade priority. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Breakfast for two daily",
+   "$150 resort credit",
+   "Early check-in, late check-out (based on availability)",
+   "Room upgrade (based on availability)"
+  ]
  },
  {
   "slug": "alila-napa-valley",
@@ -2184,7 +2348,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Alila personally. Alila is a Fora / Virtuoso preferred partner, and booking through me includes preferred partner amenities like breakfast, property credits, and upgrade priority where available. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Napa &amp; Sonoma Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Welcome letter from hotel leadership on behalf of the travel advisor and their agency",
+   "Welcome amenity provided to guests upon arrival",
+   "Daily complimentary full breakfast at a hotel restaurant for up to two guests",
+   "Property credit (value varies by property)",
+   "Priority for room upgrade (response within 24 hours of booking, subject to forecasted occupancy)"
+  ]
  },
  {
   "slug": "the-dolli-athens",
@@ -2258,7 +2429,14 @@
    "date": "2026-08-12",
    "city": "Athens",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "Daily complimentary breakfast for two guests per room",
+   "$100 equivalent property credit",
+   "Stays of 4+ nights will receive an additional $100 credit (for a total of $200 during stay)",
+   "Early check-in / late check-out subject to availability",
+   "Room upgrade subject to availability"
+  ]
  },
  {
   "slug": "four-seasons-astir-palace-athens",
@@ -2332,7 +2510,13 @@
    "date": "2026-08-10",
    "city": "Athens Riviera",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "skinopi-lodge-milos",
@@ -2484,7 +2668,14 @@
    "date": "2026-08-12",
    "city": "Milos",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "VIP status",
+   "A welcome card from the GM",
+   "Daily breakfast for two",
+   "A special amenity or local experience worth a minimum of &euro;50 per stay on guestrooms and &euro;100 per stay on suites",
+   "Room upgrade/early check-in/late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "white-pebble-suites-milos",
@@ -2558,7 +2749,13 @@
    "date": "2026-08-09",
    "city": "Milos",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "Upgrade to next room category, based upon availability at check-in",
+   "Complimentary drink at hotel bar per guest, per stay",
+   "Welcome treat in room on arrival",
+   "&euro;20 hotel credit per room, per stay"
+  ]
  },
  {
   "slug": "nos-sifnos",
@@ -2709,7 +2906,14 @@
    "date": "2026-08-09",
    "city": "Paros",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "&euro;150 resort credit",
+   "Complimentary bottle of wine and champagne",
+   "Welcome amenities",
+   "Daily breakfast",
+   "Early check in and late check out subject to availability"
+  ]
  },
  {
   "slug": "vione-paros",
@@ -2786,7 +2990,14 @@
   },
   "hero_video": "/video/vione-paros-hero.mp4",
   "hero_poster": "/video/vione-paros-hero-poster.jpg",
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "Welcome amenity upon arrival",
+   "&euro;100 on food and drink Consumptions per stay",
+   "Early check-in and late check-out (subject to availability)",
+   "Complimentary upgrade (subject to availability)",
+   "Complimentary breakfast (included in the rates)"
+  ]
  },
  {
   "slug": "jupiter-villa-paros",
@@ -3049,7 +3260,13 @@
    "date": "2026-10-30",
    "city": "Mykonos",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "bill-and-coo-suites-mykonos",
@@ -3126,7 +3343,13 @@
   },
   "hero_video": "/video/bill-and-coo-suites-hero.mp4",
   "hero_poster": "/video/bill-and-coo-suites-hero-poster.jpg",
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "Delivery of a personalized welcome note on behalf of the agency/travel advisor",
+   "Daily Breakfast for 2 for duration of their stay",
+   "Room upgrade on arrival, subject to availability",
+   "Early check-in late check-out subject to availability"
+  ]
  },
  {
   "slug": "one-and-only-aesthesis-athens",
@@ -3200,7 +3423,12 @@
    "date": "2026-08-12",
    "city": "Athens Riviera",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily breakfast for up to two guests per bedroom",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "aman-sveti-stefan-montenegro",
@@ -3340,7 +3568,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Mamula personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Montenegro Guide",
   "cta2_text": "Montenegro, Hotel By Hotel",
-  "cta2_href": "montenegro.html"
+  "cta2_href": "montenegro.html",
+  "perks_list": [
+   "Daily complimentary breakfast for 2, per room",
+   "VIP welcome",
+   "$100 credit to be spent on property",
+   "Early check-in &amp; late check-out (upon availability)",
+   "Upgrade at time of check-in (upon availability)"
+  ]
  },
  {
   "slug": "one-and-only-portonovi-montenegro",
@@ -3404,7 +3639,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and an advisor who personalizes your stay, from the room I request to what&rsquo;s arranged before you arrive. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Montenegro Guide",
   "cta2_text": "Montenegro, Hotel By Hotel",
-  "cta2_href": "montenegro.html"
+  "cta2_href": "montenegro.html",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Full breakfast for up to two guests per bedroom, served in the restaurant",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "zannier-ile-de-bendor-france",
@@ -3472,7 +3712,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows &Icirc;le de Bendor personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a $100 USD equivalent food &amp; beverage credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "All My Destination Guides",
   "cta2_text": "My Favorite Hotel Pools",
-  "cta2_href": "top-hotel-pools.html"
+  "cta2_href": "top-hotel-pools.html",
+  "perks_list": [
+   "Upgrade on arrival (subject to availability)",
+   "Daily breakfast for up to two guests per bedroom, served in the restaurant",
+   "Early check-in / Late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "miramalfi-amalfi",
@@ -3576,7 +3821,14 @@
   ],
   "hero_video": "/video/miramalfi-hero.mp4",
   "hero_poster": "/video/miramalfi-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "&euro;100 food and drink credit per stay",
+   "A bottle of Prosecco or Champagne (Champagne for suite categories), fresh fruit, and pastries",
+   "Daily Continental breakfast for two people",
+   "Room upgrade to next room category, subject to availability at the time of check-in",
+   "Early check-in, subject to availability at the time of check-in"
+  ]
  },
  {
   "slug": "le-sirenuse-positano",
@@ -3653,7 +3905,14 @@
   },
   "hero_video": "/video/le-sirenuse-hero.mp4",
   "hero_poster": "/video/le-sirenuse-hero-poster.jpg",
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "Daily breakfast for two",
+   "Room upgrade at the time of check in, based on availability",
+   "Early check in/late check out, based on availability",
+   "Hotel Credit of $100 or equivalent, valid once per stay and applicable only for the SPA",
+   "The following enhanced amenities/benefits (e.g. welcome amenity): Complimentary bottle of Spumante on arrival"
+  ]
  },
  {
   "slug": "hotel-cap-estel-eze",
@@ -3781,7 +4040,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Eden-Roc personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Top Hotel Pools Ranking",
   "cta2_text": "The Tennis Court Ranking",
-  "cta2_href": "top-hotel-tennis-courts.html"
+  "cta2_href": "top-hotel-tennis-courts.html",
+  "perks_list": [
+   "Daily full breakfast for two per bedroom",
+   "A &euro;100 food and drink or spa credit, &euro;200 for stays of two nights or more",
+   "Priority access to the courtesy car, where available"
+  ]
  },
  {
   "slug": "il-san-pietro-di-positano",
@@ -3862,7 +4126,13 @@
   },
   "hero_video": "/video/il-san-pietro-hero.mp4",
   "hero_poster": "/video/il-san-pietro-hero-poster.jpg",
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Buffet breakfast for up to two guests per bedroom, served in the restaurant",
+   "Early Check-In / Late Check-Out, subject to availability",
+   "Bottle of homemade limoncello"
+  ]
  },
  {
   "slug": "hotel-cipriani-venice",
@@ -3930,7 +4200,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Cipriani personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Tennis Court Ranking",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "perks_list": [
+   "Complimentary upgrade (based on availability at time of check-in)",
+   "VIP welcome treats with local flavors • Welcome letter from the General Manager recognizing your agency",
+   "A-la-carte breakfast for 2 daily",
+   "US $90 per room per stay",
+   "US $200 per suite per stay"
+  ]
  },
  {
   "slug": "burgenstock-resort-lake-lucerne",
@@ -3994,7 +4271,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows B&uuml;rgenstock personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Tennis Court Ranking",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily breakfast for up to two guests per bedroom, served in the restaurant (included in the room rate)",
+   "Early check-in and late check-out, subject to availability"
+  ]
  },
  {
   "slug": "passalacqua-lake-como",
@@ -4127,7 +4409,12 @@
    "city": "Moltrasio",
    "country": "IT"
   },
-  "hero_pos": "50% 60%"
+  "hero_pos": "50% 60%",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily breakfast for up to two guests per bedroom, served in the restaurant",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "villa-d-este-lake-como",
@@ -4210,7 +4497,14 @@
    "date": "2026-10-04",
    "city": "Cernobbio",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Daily breakfast for two",
+   "Room upgrade at the time of check-in, based on availability",
+   "Early check-in / late check-out, based on availability",
+   "Hotel or Resort Credit of $100 or equivalent, valid once per stay",
+   "Bookings in Suites will receive welcome amenities including premium champagne, fruit bowl, flowers, and friandises"
+  ]
  },
  {
   "slug": "gstaad-palace",
@@ -4274,7 +4568,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Gstaad Palace personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Tennis Court Ranking",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "perks_list": [
+   "Upgrade to next room category, based upon availability at check-in",
+   "CHF 100 hotel credit per room, per stay (2 night minimum)",
+   "<b>Guaranteed 2pm late check-out</b>",
+   "Welcome treat in room on arrival"
+  ]
  },
  {
   "slug": "splendido-portofino",
@@ -4352,7 +4652,14 @@
    "date": "2026-08-12",
    "city": "Portofino",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Complimentary upgrade (based on availability at time of check-in)",
+   "VIP welcome treats with local flavors • Welcome letter from the General Manager recognizing your agency",
+   "A-la-carte breakfast for 2 daily",
+   "US $90 per room per stay",
+   "US $200 per suite per stay"
+  ]
  },
  {
   "slug": "grand-hotel-miramare-santa-margherita",
@@ -4659,7 +4966,13 @@
    "date": "2026-10-01",
    "city": "Santa Margherita Ligure",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Buffet breakfast for up to two guests per bedroom, served in the restaurant",
+   "Stays of 7+ nights will receive an additional $200 food and drink credit (for a total of $300 during stay)",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "borgo-egnazia-puglia",
@@ -4729,7 +5042,14 @@
    "date": "2026-08-12",
    "city": "Puglia",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily à la carte breakfast served in hotel restaurant",
+   "$100 Resort credit to be utilized during stay off Spa or food and drink charges",
+   "Customized higher amenity of $500 Resort credit for bookings in 3-bdr Villas (all categories of CASA)",
+   "Early check-in / Late check-out, subject to availability"
+  ]
  },
  {
   "slug": "grand-hotel-timeo-taormina",
@@ -4803,7 +5123,14 @@
    "date": "2026-08-12",
    "city": "Taormina",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Complimentary upgrade (based on availability at time of check-in)",
+   "VIP welcome treats with local flavors • Welcome letter from the General Manager recognizing your agency",
+   "A-la-carte breakfast for 2 daily",
+   "US $90 per room per stay",
+   "US $200 per suite per stay"
+  ]
  },
  {
   "slug": "belmond-villa-san-michele-florence",
@@ -4951,6 +5278,13 @@
     "w": 1600,
     "h": 1067
    }
+  ],
+  "perks_list": [
+   "Complimentary upgrade (based on availability at time of check-in)",
+   "VIP welcome treats with local flavors • Welcome letter from the General Manager recognizing your agency",
+   "A-la-carte breakfast for 2 daily",
+   "US $90 per room per stay",
+   "US $200 per suite per stay"
   ]
  },
  {
@@ -5080,7 +5414,13 @@
   },
   "hero_video": "/video/four-seasons-firenze-hero.mp4",
   "hero_poster": "/video/four-seasons-firenze-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "collegio-alla-querce-florence",
@@ -5227,7 +5567,13 @@
    "country": "IT"
   },
   "hero_pos": "50% 45%",
-  "hide_hero_in_gallery": true
+  "hide_hero_in_gallery": true,
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Early Check-In / Late Check-Out, subject to availability",
+   "Daily breakfast for 2",
+   "$100 credit"
+  ]
  },
  {
   "slug": "borgo-pignano-florence",
@@ -5335,7 +5681,14 @@
   },
   "hero_video": "/video/borgo-pignano-florence-hero.mp4",
   "hero_poster": "/video/borgo-pignano-florence-hero-poster.jpg",
-  "hero_pos": "50% 36%"
+  "hero_pos": "50% 36%",
+  "perks_list": [
+   "Upgrade on arrival, subject to our availability",
+   "Complimentary organic buffet breakfast",
+   "Bookings in our Villas with pool will receive an additional $100 Resort or Hotel credit (for a total of $200 during stay)",
+   "Fresh Fruit, Flowers, a bottle of Borgo Pignano Red Wine in the room upon arrival",
+   "Early check-in/late check-out, subject to availability"
+  ]
  },
  {
   "slug": "hotel-lungarno-florence",
@@ -5409,7 +5762,13 @@
    "date": "2026-08-12",
    "city": "Florence",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Upgrade based on availability",
+   "Complimentary buffet breakfast",
+   "$100 food and drink credit",
+   "Early check-in/late check out based on availability"
+  ]
  },
  {
   "slug": "hotel-de-russie-rome",
@@ -5596,7 +5955,12 @@
   ],
   "hero_video": "/video/hotel-de-russie-rome-hero.mp4",
   "hero_poster": "/video/hotel-de-russie-rome-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "Daily breakfast for two",
+   "$100 food and drink credit",
+   "Room upgrade, based on availability at check in"
+  ]
  },
  {
   "slug": "hotel-eden-rome",
@@ -5755,6 +6119,11 @@
     "h": 764,
     "caption": "The Eden at night"
    }
+  ],
+  "perks_list": [
+   "<b>A one-category upgrade, guaranteed at booking</b> (rooms up to the Junior Suite category)</b>",
+   "Daily breakfast for two",
+   "A &euro;100 hotel credit (&euro;100 a day per bedroom in suites)"
   ]
  },
  {
@@ -5875,7 +6244,14 @@
   },
   "hero_video": "/video/la-minerva-rome-hero.mp4",
   "hero_poster": "/video/la-minerva-rome-hero-poster.jpg",
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "Daily complimentary breakfast for 2, per room",
+   "VIP welcome",
+   "$100 credit to be spent on property",
+   "Early check-in &amp; late check-out (upon availability)",
+   "Upgrade at time of check-in (upon availability)"
+  ]
  },
  {
   "slug": "corinthia-rome",
@@ -5984,7 +6360,13 @@
   ],
   "hero_video": "/video/corinthia-rome-hero-level.mp4",
   "hero_poster": "/video/corinthia-rome-hero-level-poster.jpg",
-  "hero_pos": "50% 68%"
+  "hero_pos": "50% 68%",
+  "perks_list": [
+   "Daily breakfast for two",
+   "Room upgrade at the time of check-in, based on availability",
+   "Early check-in/late check-out, based on availability",
+   "Food and drink Credit of $100 or equivalent, valid once per stay"
+  ]
  },
  {
   "slug": "bulgari-hotel-rome",
@@ -6137,6 +6519,13 @@
     "h": 1406,
     "caption": "The biggest gym I saw in Rome"
    }
+  ],
+  "perks_list": [
+   "A personalized welcome amenity",
+   "Complimentary breakfast daily for two guests per room",
+   "A $100 hotel credit, once per stay",
+   "Early check-in and late check-out (when available)",
+   "Complimentary upgrade (if available at check-in)"
   ]
  },
  {
@@ -6257,7 +6646,14 @@
   ],
   "hero_video": "/video/hassler-roma-hero.mp4",
   "hero_poster": "/video/hassler-roma-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "$100 food and beverage credit per stay",
+   "Buffet for two people",
+   "Early check-in upon availability",
+   "Sunset aperitivo",
+   "Room upgrade at check-in subject to availability"
+  ]
  },
  {
   "slug": "hotel-de-la-ville-rome",
@@ -6377,7 +6773,12 @@
   ],
   "hero_video": "/video/hotel-de-la-ville-rome-hero.mp4",
   "hero_poster": "/video/hotel-de-la-ville-rome-hero-poster.jpg",
-  "hero_pos": "50% 78%"
+  "hero_pos": "50% 78%",
+  "perks_list": [
+   "Daily breakfast for two",
+   "$100 food and drink credit",
+   "Room upgrade, based on availability at check in"
+  ]
  },
  {
   "slug": "casa-monti-rome",
@@ -6529,7 +6930,14 @@
   ],
   "hero_video": "/video/casa-monti-rome-hero.mp4",
   "hero_poster": "/video/casa-monti-rome-hero-poster.jpg",
-  "hero_pos": "50% 80%"
+  "hero_pos": "50% 80%",
+  "perks_list": [
+   "Complimentary daily breakfast",
+   "Upgrade upon availability",
+   "Early check-in / late check-out (subject to availability)",
+   "Bottle of champagne upon arrival",
+   "Stays of 2 nights or more: 100&euro; credit voucher (food and drink or Spa) in addition to the above amenities"
+  ]
  },
  {
   "slug": "the-st-regis-rome",
@@ -6603,7 +7011,14 @@
    "date": "2026-08-12",
    "city": "Rome",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "A personalized welcome amenity",
+   "Complimentary breakfast daily for two guests per room",
+   "A $100 hotel credit, once per stay",
+   "Early check-in and late check-out (when available)",
+   "Complimentary upgrade (if available at check-in)"
+  ]
  },
  {
   "slug": "six-senses-rome",
@@ -6729,7 +7144,14 @@
     "caption": "Afternoon light in a suite"
    }
   ],
-  "hero_pos": "50% 54%"
+  "hero_pos": "50% 54%",
+  "perks_list": [
+   "$100 (or local currency equivalent) hotel credit per stay",
+   "Daily complimentary breakfast for 2 guests (full or continental, depending on the hotel)",
+   "Complimentary room upgrade (subject to availability)",
+   "Local welcome amenity",
+   "Personalized welcome note"
+  ]
  },
  {
   "slug": "rosewood-castiglion-del-bosco-tuscany",
@@ -6797,7 +7219,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Castiglion del Bosco personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Tuscany Guide",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "perks_list": [
+   "&euro;95 food and drink or Spa credit",
+   "Daily breakfast for up to two people per bedroom",
+   "Complimentary one-category upgrade at booking or upon arrival (varies by hotel)",
+   "Personalized welcome",
+   "Pre-registration prior to arrival"
+  ]
  },
  {
   "slug": "belmond-castello-di-casole-tuscany",
@@ -6896,6 +7325,13 @@
     "w": 766,
     "h": 1254
    }
+  ],
+  "perks_list": [
+   "Complimentary upgrade (based on availability at time of check-in)",
+   "VIP welcome treats with local flavors • Welcome letter from the General Manager recognizing your agency",
+   "A-la-carte breakfast for 2 daily",
+   "US $90 per room per stay",
+   "US $200 per suite per stay"
   ]
  },
  {
@@ -6988,6 +7424,13 @@
     "w": 2068,
     "h": 1390
    }
+  ],
+  "perks_list": [
+   "Daily full breakfast for 2 people",
+   "$100 resort credit per stay",
+   "Complimentary room upgrade (subject to availability)",
+   "Early check-in / late check-out (subject to availability)",
+   "Complimentary roundtrip private airport transfers to Peretola Airport for bookings at Villa San Luigi"
   ]
  },
  {
@@ -7098,7 +7541,14 @@
    "date": "2026-09-27",
    "city": "Volterra",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily full breakfast for up to two guests per bedroom, served in the restaurant",
+   "Bookings in Villas with pool receive an additional $100 Resort or Hotel credit (for a total of $200 during the stay)",
+   "Early check-in / Late check-out, subject to availability",
+   "Local gift placed in room upon arrival"
+  ]
  },
  {
   "slug": "il-borro-tuscany",
@@ -7232,7 +7682,13 @@
   },
   "hero_video": "/video/il-borro-tuscany-hero.mp4",
   "hero_poster": "/video/il-borro-tuscany-hero-poster.jpg",
-  "hero_pos": "50% 78%"
+  "hero_pos": "50% 78%",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily breakfast for up to two guests per bedroom, served in the restaurant",
+   "$100 equivalent Hotel Credit, applicable towards wine tours, wine tastings, and Spa treatments",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "borgo-san-felice-tuscany",
@@ -7345,7 +7801,13 @@
    "date": "2026-09-29",
    "city": "Near Siena",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily breakfast for up to two guests per bedroom, served in the restaurant",
+   "$100 equivalent hotel/resort credit in local currency, to be used during the stay",
+   "Early check-in and late check-out, subject to availability"
+  ]
  },
  {
   "slug": "il-sereno-lake-como",
@@ -7463,6 +7925,13 @@
     "h": 1238,
     "caption": "Travertine and a sculpted tub"
    }
+  ],
+  "perks_list": [
+   "Complimentary daily breakfast",
+   "$100 credit per room per stay",
+   "Early check-in, late check-out upon availability",
+   "Upgrade upon availability",
+   "$25 credit at the bar per room per stay"
   ]
  },
  {
@@ -7580,7 +8049,13 @@
    "date": "2026-10-04",
    "city": "Tremezzo",
    "country": "IT"
-  }
+  },
+  "perks_list": [
+   "Room upgrade upon arrival, subject to availability",
+   "Daily breakfast for up to 2 guests per bedroom, served in the restaurant",
+   "$100 resort or hotel credit to use during the stay",
+   "Early check-in and late check-out, subject to availability"
+  ]
  },
  {
   "slug": "villa-serbelloni-bellagio",
@@ -7716,7 +8191,13 @@
    "country": "IT"
   },
   "hide_hero_in_gallery": true,
-  "hero_pos": "50% 50%"
+  "hero_pos": "50% 50%",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily breakfast for up to two guests per bedroom, served in the restaurant",
+   "Complimentary Tickets for two to the Botanical Gardens of Villa Melzi in Bellagio",
+   "Early check-in / Late check-out, subject to availability"
+  ]
  },
  {
   "slug": "forestis-dolomites",
@@ -7846,6 +8327,13 @@
     "h": 1600,
     "caption": "Arriving through the forest"
    }
+  ],
+  "perks_list": [
+   "$100 per room, per stay to be spent only on extras such as food and drink or Spa, only on property and during the stay",
+   "Daily Continental breakfast for two people",
+   "Room upgrade to the next room category, subject to availability at the time of check-in",
+   "Early check-in, subject to availability at the time of check-in",
+   "Late check-out, subject to availability"
   ]
  },
  {
@@ -7919,7 +8407,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and an honest read on the fit. As a Fora X advisor and Belmond preferred partner, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I will request the right room, arrange what you need before you arrive, and be your direct line to the hotel while you are there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All My Rankings",
-  "cta2_href": "rankings.html"
+  "cta2_href": "rankings.html",
+  "perks_list": [
+   "Complimentary upgrade (based on availability at time of check-in)",
+   "VIP welcome treats with local flavors • Welcome letter from the General Manager recognizing your agency",
+   "A-la-carte breakfast for 2 daily",
+   "US $90 per room per stay",
+   "US $200 per suite per stay"
+  ]
  },
  {
   "slug": "palazzo-avino-ravello",
@@ -8072,6 +8567,13 @@
     "h": 2320,
     "caption": "Pink onyx in the bathrooms"
    }
+  ],
+  "perks_list": [
+   "Daily hot and cold buffet breakfast included",
+   "Complimentary upgrade to a Superior Room, subject to availability at time of arrival",
+   "Welcome bottle of Mar-a-viglia, the white wine produced at Palazzo Avino&rsquo;s La Cascinetta vineyard",
+   "USD 100 (&euro;80) spa credit to be used during the stay; not applicable toward other charges",
+   "Departure gift"
   ]
  },
  {
@@ -8182,7 +8684,14 @@
   },
   "hero_video": "/video/lake-como-edition-hero.mp4",
   "hero_poster": "/video/lake-como-edition-hero-poster.jpg",
-  "hero_pos": "50% 90%"
+  "hero_pos": "50% 90%",
+  "perks_list": [
+   "A personalized welcome amenity",
+   "Complimentary breakfast daily for two guests per room",
+   "A $100 hotel credit, once per stay",
+   "Early check-in and late check-out (when available)",
+   "Complimentary upgrade (if available at check-in)"
+  ]
  },
  {
   "slug": "mandarin-oriental-lago-di-como",
@@ -8250,7 +8759,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Mandarin Oriental personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "My Sample Lake Como Proposal",
-  "cta2_href": "sample-proposal-lake-como.html"
+  "cta2_href": "sample-proposal-lake-como.html",
+  "perks_list": [
+   "Complimentary full daily breakfast for two in the restaurant or in the guest room or suite",
+   "$100 food and drink or Spa credit for guests staying in rooms per hotel stay (credit per room)",
+   "$100 food and drink and $100 Spa credit for guests staying in suites per hotel stay (credit per suite)",
+   "$500 concierge credit per mandarin oriental exceptional home stay",
+   "Personalised welcome amenity"
+  ]
  },
  {
   "slug": "le-meurice-paris",
@@ -8314,7 +8830,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Le Meurice personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "My Sample Paris Proposal",
-  "cta2_href": "sample-proposal-paris.html"
+  "cta2_href": "sample-proposal-paris.html",
+  "perks_list": [
+   "<b>A one-category upgrade, guaranteed at booking</b> (rooms up to the Junior Suite category)</b>",
+   "Daily breakfast for two",
+   "A &euro;100 hotel credit (&euro;100 a day per bedroom in suites)"
+  ]
  },
  {
   "slug": "the-peninsula-paris",
@@ -8378,7 +8899,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Peninsula personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "My Sample Paris Proposal",
-  "cta2_href": "sample-proposal-paris.html"
+  "cta2_href": "sample-proposal-paris.html",
+  "perks_list": [
+   "&euro;100 food and drink or spa treatment credit",
+   "Round trip airport transfer for Superior Suite or above",
+   "<b>Guaranteed room upgrade</b>",
+   "&ldquo;Peninsula Time&rdquo; flexible check-in and check-out programme",
+   "Complimentary daily breakfast for up to two persons"
+  ]
  },
  {
   "slug": "hotel-barriere-fouquets-paris",
@@ -8442,7 +8970,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Fouquet's personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "My Sample Paris Proposal",
-  "cta2_href": "sample-proposal-paris.html"
+  "cta2_href": "sample-proposal-paris.html",
+  "perks_list": [
+   "<b>Guaranteed complimentary 8am early check-in &amp; 4pm late check-out</b>",
+   "Complimentary one-category upgrade at time of booking (up to Superior Suite upgraded to Deluxe Suite)",
+   "Complimentary daily breakfast for up to two guests per bedroom",
+   "For stays of two nights or more: Complimentary one-way airport transfer",
+   "Complimentary minibar offering a selection of non-alcoholic drinks and snacks"
+  ]
  },
  {
   "slug": "hotel-de-crillon-paris",
@@ -8510,7 +9045,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows the Crillon personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "My Sample Paris Proposal",
-  "cta2_href": "sample-proposal-paris.html"
+  "cta2_href": "sample-proposal-paris.html",
+  "perks_list": [
+   "&euro;95 food and drink or Spa credit",
+   "Daily breakfast for up to two people per bedroom",
+   "Complimentary one-category upgrade at booking or upon arrival (varies by hotel)",
+   "Personalized welcome",
+   "Pre-registration prior to arrival"
+  ]
  },
  {
   "slug": "amangiri-utah",
@@ -8574,7 +9116,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Amangiri personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Top 10 Hotel Pools",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Welcome note from agent to guest prepared by resort",
+   "Full breakfast for two",
+   "Room upgrade subject to availability on check in",
+   "Early check-in and late check-out, subject to availability"
+  ]
  },
  {
   "slug": "six-senses-ibiza",
@@ -8638,7 +9186,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Six Senses Ibiza personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Top 10 Hotel Pools",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "$100 (or local currency equivalent) hotel credit per stay",
+   "Daily complimentary breakfast for 2 guests (full or continental, depending on the hotel)",
+   "Complimentary room upgrade (subject to availability)",
+   "Local welcome amenity",
+   "Personalized welcome note"
+  ]
  },
  {
   "slug": "cheval-blanc-randheli-maldives",
@@ -8830,7 +9385,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Mauna Kea personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Hotel Tennis Ranking",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Welcome amenity",
+   "Complimentary breakfast daily for two guests per room",
+   "Early check-in and late check-out (when available)",
+   "Complimentary upgrade (if available at check-in)",
+   "Personalized welcome note from GM"
+  ]
  },
  {
   "slug": "soneva-jani-maldives",
@@ -8894,7 +9456,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Soneva Jani personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Fifteen",
   "cta2_text": "A Sample Maldives Proposal",
-  "cta2_href": "sample-proposal.html"
+  "cta2_href": "sample-proposal.html",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily full breakfast for up to two guests per bedroom, served in the hotel restaurant",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "joali-being-maldives",
@@ -8958,7 +9525,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Joali Being personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Fifteen",
   "cta2_text": "A Sample Maldives Proposal",
-  "cta2_href": "sample-proposal.html"
+  "cta2_href": "sample-proposal.html",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily full breakfast for up to two guests per bedroom, served in the hotel restaurant",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "four-seasons-hualalai-hawaii",
@@ -9022,7 +9594,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Hualalai personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Fifteen",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "four-seasons-lanai-hawaii",
@@ -9086,7 +9664,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Lanai personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Fifteen",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "auberge-du-soleil-napa",
@@ -9150,7 +9734,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Auberge du Soleil personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Fifteen",
   "cta2_text": "My Napa &amp; Sonoma Ranking",
-  "cta2_href": "napa-sonoma.html"
+  "cta2_href": "napa-sonoma.html",
+  "perks_list": [
+   "$100 Resort credit per room",
+   "Breakfast daily in restaurant",
+   "One category upgrade at time of booking, subject to availability",
+   "Early check-in on arrival, subject to availability",
+   "Late check-out,, subject to availability on day of departure"
+  ]
  },
  {
   "slug": "aman-kyoto",
@@ -9214,7 +9805,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Aman Kyoto personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Welcome note from agent to guest prepared by resort",
+   "Daily Japanese or Western set breakfast for two per room at Living Pavilion",
+   "Room upgrade subject to availability on check in",
+   "Early check-in and late check-out, subject to availability"
+  ]
  },
  {
   "slug": "capella-kyoto",
@@ -9280,7 +9877,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Capella Kyoto personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Daily breakfast for two",
+   "Room upgrade at check-in (subject to availability)",
+   "Early check-in &amp; late check-out (subject to availability)",
+   "USD 100 hotel or resort credit (once per stay)"
+  ]
  },
  {
   "slug": "ritz-carlton-kyoto",
@@ -9344,7 +9947,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows The Ritz-Carlton Kyoto personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "A personalized welcome amenity",
+   "Complimentary breakfast daily for two guests per room",
+   "A $100 hotel credit, once per stay",
+   "Early check-in and late check-out (when available)",
+   "Complimentary upgrade (if available at check-in)"
+  ]
  },
  {
   "slug": "aman-tokyo",
@@ -9408,7 +10018,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Aman Tokyo personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Welcome note from agent to guest prepared by resort",
+   "Daily full breakfast for two at Arva (Japanese or American breakfast)",
+   "Room upgrade subject to availability on check in",
+   "Early check-in and late check-out, subject to availability"
+  ]
  },
  {
   "slug": "mandarin-oriental-tokyo",
@@ -9472,7 +10088,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Mandarin Oriental Tokyo personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Complimentary full daily breakfast for two in the restaurant or in the guest room or suite",
+   "$100 food and drink or Spa credit for guests staying in rooms per hotel stay (credit per room)",
+   "$100 food and drink and $100 Spa credit for guests staying in suites per hotel stay (credit per suite)",
+   "$500 concierge credit per mandarin oriental exceptional home stay",
+   "Personalised welcome amenity"
+  ]
  },
  {
   "slug": "peninsula-tokyo",
@@ -9536,7 +10159,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows The Peninsula Tokyo personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "A &yen;10,000 food and drink or spa credit",
+   "<b>Guaranteed room upgrade</b>",
+   "&ldquo;Peninsula Time&rdquo; flexible check-in and check-out programme",
+   "Complimentary daily breakfast for up to two persons",
+   "Upgraded welcome amenity"
+  ]
  },
  {
   "slug": "four-seasons-safari-lodge-serengeti",
@@ -9600,7 +10230,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Four Seasons Serengeti personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "angama-mara-kenya",
@@ -9792,7 +10428,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Montage Los Cabos personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Corporate &amp; Group Travel Page",
   "cta2_text": "Featured Destinations",
-  "cta2_href": "featured-destinations.html"
+  "cta2_href": "featured-destinations.html",
+  "perks_list": [
+   "Daily breakfast for two",
+   "Room upgrade at the time of check in, based on availability",
+   "Early check in/late check out, based on availability",
+   "Food and drink Credit of $100 or equivalent, valid once per stay"
+  ]
  },
  {
   "slug": "oneandonly-palmilla-los-cabos",
@@ -9860,7 +10502,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Palmilla personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Corporate &amp; Group Travel Page",
   "cta2_text": "Featured Destinations",
-  "cta2_href": "featured-destinations.html"
+  "cta2_href": "featured-destinations.html",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Full Breakfast for up to two guests per bedroom, served in the restaurant",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "chileno-bay-los-cabos",
@@ -9924,7 +10571,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Chileno Bay personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Corporate &amp; Group Travel Page",
   "cta2_text": "Featured Destinations",
-  "cta2_href": "featured-destinations.html"
+  "cta2_href": "featured-destinations.html",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily breakfast credit per person, for up to two guests per room",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "las-ventanas-los-cabos",
@@ -9988,7 +10640,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Las Ventanas personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "USD 125 resort credit (all room types)",
+   "USD 150 spa credit for Villas and an Oasis Experience",
+   "Daily breakfast for up to two people per bedroom",
+   "Complimentary one-category upgrade at booking or upon arrival (varies by hotel)",
+   "Personalized welcome"
+  ]
  },
  {
   "slug": "oneandonly-mandarina",
@@ -10052,7 +10711,12 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Mandarina personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Full breakfast for two guests per bedroom, served in Alma Restaurant",
+   "Early Check-In / Late Check-Out, subject to availability"
+  ]
  },
  {
   "slug": "four-seasons-punta-mita",
@@ -10116,7 +10780,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Punta Mita personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "My Featured Destinations",
   "cta2_text": "All Hotel Guides",
-  "cta2_href": "hotel-guides.html"
+  "cta2_href": "hotel-guides.html",
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "patina-maldives",
@@ -10180,7 +10850,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Patina personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Sample Maldives Proposal",
   "cta2_text": "The Fifteen",
-  "cta2_href": "the-fifteen.html"
+  "cta2_href": "the-fifteen.html",
+  "perks_list": [
+   "Daily breakfast for two",
+   "Room upgrade at check-in, subject to availability",
+   "Early check-in and late check-out, subject to availability",
+   "USD 100 hotel or resort credit, once per stay"
+  ]
  },
  {
   "slug": "six-senses-kanuhura-maldives",
@@ -10244,7 +10920,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Kanuhura personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Sample Maldives Proposal",
   "cta2_text": "The Fifteen",
-  "cta2_href": "the-fifteen.html"
+  "cta2_href": "the-fifteen.html",
+  "perks_list": [
+   "$100 (or local currency equivalent) hotel credit per stay",
+   "Daily complimentary breakfast for 2 guests (full or continental, depending on the hotel)",
+   "Complimentary room upgrade (subject to availability)",
+   "Local welcome amenity",
+   "Personalized welcome note"
+  ]
  },
  {
   "slug": "four-seasons-kuda-huraa-maldives",
@@ -10308,7 +10991,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Kuda Huraa personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Sample Maldives Proposal",
   "cta2_text": "The Fifteen",
-  "cta2_href": "the-fifteen.html"
+  "cta2_href": "the-fifteen.html",
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "four-seasons-landaa-giraavaru-maldives",
@@ -10372,7 +11061,13 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Landaa Giraavaru personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Sample Maldives Proposal",
   "cta2_text": "The Fifteen",
-  "cta2_href": "the-fifteen.html"
+  "cta2_href": "the-fifteen.html",
+  "perks_list": [
+   "Daily breakfast for 2",
+   "A $100 hotel credit ($200 in suites)",
+   "Room upgrade to next category (subject to availability)",
+   "Early check-in, late check-out (subject to availability)"
+  ]
  },
  {
   "slug": "banyan-tree-vabbinfaru-maldives",
@@ -10436,7 +11131,14 @@
   "perks_html": "Work with me and you get two things: Fora perks, and someone who knows Vabbinfaru personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know the property and the team, so I personalize your stay, from the room I request to what&rsquo;s arranged before you arrive, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
   "cta_island_text": "The Sample Maldives Proposal",
   "cta2_text": "The Fifteen",
-  "cta2_href": "the-fifteen.html"
+  "cta2_href": "the-fifteen.html",
+  "perks_list": [
+   "Daily complimentary breakfast for 2, per room",
+   "VIP welcome",
+   "$100 credit to be spent on property",
+   "Early check-in &amp; late check-out (upon availability)",
+   "Upgrade at time of check-in (upon availability)"
+  ]
  },
  {
   "island": "London",
