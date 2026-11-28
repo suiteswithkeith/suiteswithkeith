@@ -11882,5 +11882,187 @@
     "caption": "The bathroom"
    }
   ]
+ },
+ {
+  "slug": "the-savoy-london",
+  "name": "The Savoy",
+  "plain_name": "The Savoy",
+  "short_name": "The Savoy",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "hotels/the-savoy",
+  "hero_img": "christmas-entrance.jpg",
+  "img2": "christmas-entrance.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "London&rsquo;s first purpose-built luxury hotel, freshly refurbished, with river views from bed and the American Bar downstairs.",
+  "meta_desc": "Keith's review of The Savoy from a November 2026 site visit: the 135th-anniversary refurbishment, which rooms and River View Suites to book, the new Grand River View Suite, the American Bar, Savoy Grill and afternoon tea, current stay-and-save offers, and the spa reopening in March 2027.",
+  "style_label": "Edwardian and Art Deco icon on the Thames (Fairmont)",
+  "perfect_for": "Families, first trips to London, river views, theater weekends, cocktail lovers",
+  "region_label": "Neighborhood",
+  "region_html": "The Strand, on the Thames, London",
+  "rank_text": "My pick for river views and families &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "1889",
+  "stat1_label": "London&rsquo;s First Purpose-Built Luxury Hotel",
+  "stat2_num": "Half",
+  "stat2_label": "Of The Rooms Face The Thames",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "The Savoy&rsquo;s stay-and-save offers run into May. Tell me your dates and I&rsquo;ll apply the right one and request a river view.",
+  "intro": [
+   "The Savoy opened in 1889 as London&rsquo;s first purpose-built luxury hotel, and it&rsquo;s one of only two Fairmont hotels, with The Plaza in New York, that keeps its own name. For its 135th anniversary it has been completely refurbished, and every room has been sold as new since July 2026.",
+   "There are 263 rooms and 64 suites, in two styles: Edwardian, which is every room facing the river, and Art Deco. Half the hotel looks over the Thames, and sightseeing from bed, with the London Eye and Waterloo Bridge out the window, is the reason to book a river view.",
+   "It&rsquo;s also one of the most family-friendly grand hotels in London, with amenities for children and a dedicated kids&rsquo; afternoon tea, and it has a bar on the World&rsquo;s 50 Best list downstairs."
+  ],
+  "stood_out": [
+   {
+    "b": "The American Bar.",
+    "t": "A legendary, World&rsquo;s 50 Best bar with live music from 6:30pm. Princess Diana&rsquo;s table and Frank Sinatra&rsquo;s table, with a river view and a sightline to the bar, are still in use. Reserve ahead."
+   },
+   {
+    "b": "The new Grand River View Suite.",
+    "t": "About 900 square feet, sleeping up to five, with a living room and a guest bathroom. There are only three, from about &pound;4,500 a night."
+   },
+   {
+    "b": "River View Suites with a butler.",
+    "t": "Butler service is complimentary from the One-Bedroom River View Suite up, and there are 16 of them. The Signature Suites can become two bedrooms, and the Royal Suite is 2,600 square feet."
+   },
+   {
+    "b": "Four restaurants, four bars.",
+    "t": "The Savoy Grill, open since 1905, for beef Wellington; 1890 for Michelin-starred fine dining, with a dinner-dance on Saturdays; the Gallery for afternoon tea; and the new Bopo wine bar, with more than 100 wines by the glass. Three are run by Gordon Ramsay."
+   },
+   {
+    "b": "Breakfast, your way.",
+    "t": "&Agrave; la carte breakfast across the Gallery, the breakfast lounge and the lobby, at no extra charge."
+   },
+   {
+    "b": "A heated daylight pool.",
+    "t": "On the third floor, open year-round."
+   }
+  ],
+  "know": [
+   {
+    "b": "Current offers.",
+    "t": "Stay four nights, pay three through December 27; stay three, pay two from January 3 to May 9; then stay four, pay three again. I&rsquo;ll apply whichever fits your dates."
+   },
+   {
+    "b": "Start at the Deluxe King.",
+    "t": "The 17 Superior rooms are small (about 280 square feet, queen beds). From Deluxe King up, extra beds and connecting rooms can be guaranteed at booking."
+   },
+   {
+    "b": "What&rsquo;s included.",
+    "t": "From the Luxury King, the minibar is complimentary (soft drinks, snacks, coffee and tea, refilled daily). From the Luxury King River View, you get double sinks and a Dyson; walk-in showers are throughout."
+   },
+   {
+    "b": "Spa works, early 2027.",
+    "t": "The spa and gym are being renovated January to March 2027, with treatments in-room and a temporary gym meanwhile. The new spa opens March 22. About 90 rooms are also out of service until March."
+   },
+   {
+    "b": "Book the American Bar.",
+    "t": "Reservations are strongly recommended, especially for the live music."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "A London icon made new again: book a river view, and save an evening for the American Bar.",
+  "perks_html": "Work with me and you get two things: the best available offer for your dates, and someone who has walked The Savoy personally. I know which river views and suites to ask for, I&rsquo;ll request connecting rooms or extra beds at booking, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "The Savoy Review, London: After the 135th-Anniversary Refurbishment (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-27",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/the-savoy/savoy-court.jpg",
+    "alt": "Savoy Court, the entrance to The Savoy off the Strand, with palm trees and a London taxi",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Savoy Court, the arrival"
+   },
+   {
+    "src": "/images/hotels/the-savoy/lobby-christmas.jpg",
+    "alt": "The Savoy lobby with checkerboard marble floors and columns wrapped in Christmas garlands",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The lobby at Christmas"
+   },
+   {
+    "src": "/images/hotels/the-savoy/suite-river-view.jpg",
+    "alt": "A suite living room at The Savoy with a bay window over the Thames at night",
+    "w": 1600,
+    "h": 1066,
+    "caption": "River views from the suite"
+   },
+   {
+    "src": "/images/hotels/the-savoy/suite-bedroom-river.jpg",
+    "alt": "A suite bedroom at The Savoy with a window seat over the Thames and the London Eye",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Sightseeing from bed"
+   },
+   {
+    "src": "/images/hotels/the-savoy/suite-living-bedroom.jpg",
+    "alt": "A suite sitting room opening into the bedroom at The Savoy",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The suite"
+   },
+   {
+    "src": "/images/hotels/the-savoy/bathtub.jpg",
+    "alt": "A freestanding roll-top tub under black-and-white art at The Savoy",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The bathroom"
+   },
+   {
+    "src": "/images/hotels/the-savoy/bedroom.jpg",
+    "alt": "A guest room at The Savoy with velvet tub chairs and a winged headboard",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A refurbished room"
+   },
+   {
+    "src": "/images/hotels/the-savoy/bedside-lamp.jpg",
+    "alt": "A sculptural bird lamp beside the bed at The Savoy",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The details"
+   },
+   {
+    "src": "/images/hotels/the-savoy/bathroom-doors.jpg",
+    "alt": "Double doors opening onto a marble bathroom at The Savoy",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/the-savoy/gilded-dining.jpg",
+    "alt": "A gilded dining room at The Savoy with a gold leaf ceiling and a lit glass cabinet",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A gilded dining room"
+   },
+   {
+    "src": "/images/hotels/the-savoy/bar-gold-arch.jpg",
+    "alt": "A dark, palm-filled dining room with a gold-leaf arch at The Savoy",
+    "w": 1600,
+    "h": 1066,
+    "caption": "After dark"
+   },
+   {
+    "src": "/images/hotels/the-savoy/lobby-boutique.jpg",
+    "alt": "The boutiques in the Savoy lobby dressed for Christmas",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The lobby boutiques"
+   }
+  ]
  }
 ]
