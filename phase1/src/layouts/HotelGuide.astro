@@ -110,7 +110,7 @@ const list = g.hotels.map((x) => {
         <span class="eyebrow" set:html={g.film.eyebrow} />
         <h2 class="display-l" set:html={g.film.h} />
       </div>
-      <div class="photos reveal">
+      <div class="photos">
         {g.film.photos.map((p) => (
           <figure><img src={p.src} alt={p.alt} width={p.w} height={p.h} loading="lazy" decoding="async" /><figcaption set:html={p.caption} /></figure>
         ))}
