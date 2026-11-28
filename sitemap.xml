@@ -13,6 +13,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://suiteswithkeith.com/hotel-quote.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://suiteswithkeith.com/corporate-travel.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -371,6 +377,10 @@
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/london.html</loc>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://suiteswithkeith.com/rome.html</loc>
@@ -1675,5 +1685,41 @@
   <url>
     <loc>https://suiteswithkeith.com/what-makes-a-great-luxury-hotel.html</loc>
     <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/the-cadogan-london.html</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/rosewood-london.html</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/broadwick-soho-london.html</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/the-peninsula-london.html</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/45-park-lane-london.html</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/the-emory-london.html</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/the-berkeley-london.html</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/the-chancery-rosewood-london.html</loc>
+    <lastmod>2026-11-27</lastmod>
+  </url>
+  <url>
+    <loc>https://suiteswithkeith.com/hotels/the-dorchester-london.html</loc>
+    <lastmod>2026-11-27</lastmod>
   </url>
 </urlset>

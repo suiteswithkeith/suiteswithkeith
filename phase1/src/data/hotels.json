@@ -10437,5 +10437,1284 @@
   "cta_island_text": "The Sample Maldives Proposal",
   "cta2_text": "The Fifteen",
   "cta2_href": "the-fifteen.html"
+ },
+ {
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "region_label": "Neighborhood",
+  "rank_href": "london.html",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "slug": "the-cadogan-london",
+  "name": "The Cadogan",
+  "plain_name": "The Cadogan, A Belmond Hotel",
+  "short_name": "the Cadogan",
+  "img_dir": "hotels",
+  "hero_img": "",
+  "img2": "",
+  "tagline": "Intimate, quiet and residential, with London&rsquo;s best shopping on the doorstep. My pick for return visitors.",
+  "meta_desc": "Keith's review of The Cadogan, A Belmond Hotel, from a November 2026 site visit: 54 rooms in quiet, residential Chelsea by Sloane Street, the Deluxe Junior Suite he'd book, and why it suits return visitors to London.",
+  "style_label": "Intimate townhouse (Belmond)",
+  "perfect_for": "Return visitors to London, couples, shoppers, travelers who want quiet",
+  "region_html": "Sloane Street, Chelsea, London",
+  "rank_text": "My pick for return visitors &middot; London guide",
+  "stat1_num": "54",
+  "stat1_label": "Rooms In Chelsea",
+  "stat2_num": "Return",
+  "stat2_label": "Visitors, My Top Pick",
+  "cta_line": "The Cadogan is small and books up early. Tell me your dates and I&rsquo;ll go after the right room.",
+  "intro": [
+   "A small, polished hotel in a lovely, quiet corner of Chelsea. It feels residential rather than touristy, and a lot of London&rsquo;s best shopping is right outside the door.",
+   "There are just 54 rooms, and only seven of those are entry and superior rooms, so most of the hotel is generous rooms and suites. My favorite was the Deluxe Junior Suite on the fifth floor, with a cool, unique layout.",
+   "If you&rsquo;ve already done the sights and want to live like a Londoner for a few days, this is the one I&rsquo;d send you to."
+  ],
+  "stood_out": [
+   {
+    "b": "Quiet, not sleepy.",
+    "t": "A residential feel, with Sloane Street and Knightsbridge shopping steps away."
+   },
+   {
+    "b": "The Deluxe Junior Suite.",
+    "t": "My favorite room in the hotel, on the fifth floor, with a cool, unique layout."
+   },
+   {
+    "b": "Small on purpose.",
+    "t": "54 rooms, and the hotel feels it: personal, calm and never crowded."
+   }
+  ],
+  "know": [
+   {
+    "b": "Only seven entry and superior rooms.",
+    "t": "They go first. Ask early if you want one, or plan on a suite."
+   },
+   {
+    "b": "Three stairs in the Deluxe Junior Suite.",
+    "t": "Mention it if anyone in your party has mobility concerns and I&rsquo;ll pick a different room."
+   },
+   {
+    "b": "First time in London?",
+    "t": "Look at <a href=\"rosewood-london.html\">Rosewood London</a> instead: classic, central and easy for a first trip."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "My favorite for return visitors: intimate, quiet and beautifully located in Chelsea.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked the Cadogan personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "seo_title": "The Cadogan Review, London: A Belmond Hotel in Chelsea (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-21",
+   "city": "London",
+   "country": "GB"
+  }
+ },
+ {
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "region_label": "Neighborhood",
+  "rank_href": "london.html",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "slug": "rosewood-london",
+  "name": "Rosewood London",
+  "plain_name": "Rosewood London",
+  "short_name": "Rosewood London",
+  "img_dir": "worlds-50-best",
+  "hero_img": "rosewood-london.jpeg",
+  "img2": "rosewood-london.jpeg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Classic, old-luxury London with big rooms, a World&rsquo;s 50 Best bar and a lovely high tea. My pick for a first trip.",
+  "meta_desc": "Keith's Rosewood London review from a November 2026 site visit: classic old-luxury London in Holborn, large rooms and a massive one-bedroom suite, a World's 50 Best bar and high tea, and who it suits.",
+  "style_label": "Classic grand hotel (Rosewood)",
+  "perfect_for": "First-time London visitors, families, business travelers",
+  "region_html": "High Holborn, London",
+  "rank_text": "My pick for a first trip &middot; London guide",
+  "stat1_num": "300+",
+  "stat1_label": "Rooms In Holborn",
+  "stat2_num": "First",
+  "stat2_label": "Trip To London, My Top Pick",
+  "cta_line": "Rosewood is the easiest first-trip recommendation I can make. Tell me your dates and I&rsquo;ll match you to the right room.",
+  "intro": [
+   "Rosewood felt like classic, old-luxury London: a grand Edwardian building with more than 300 rooms, and rooms and suites that are large for the city.",
+   "It&rsquo;s a great base for families and business travelers, and the easiest recommendation I can make for a first trip to London. The one-bedroom suite is massive.",
+   "You don&rsquo;t need to leave to eat and drink well, either: there&rsquo;s a beautiful bistro-style restaurant, a bar on the World&rsquo;s 50 Best list, and a lovely high tea."
+  ],
+  "stood_out": [
+   {
+    "b": "Large rooms.",
+    "t": "Generous for London across the board, and the one-bedroom suite is massive."
+   },
+   {
+    "b": "A World&rsquo;s 50 Best bar.",
+    "t": "Book a table for your first night."
+   },
+   {
+    "b": "The bistro and the high tea.",
+    "t": "A beautiful bistro-style restaurant, and a high tea worth planning an afternoon around."
+   }
+  ],
+  "know": [
+   {
+    "b": "Romance, with a caveat.",
+    "t": "Maybe not the best fit for younger honeymooners or a romantic getaway. For couples 45 to 50 and up, the classic feel works well."
+   },
+   {
+    "b": "Families and business.",
+    "t": "The size of the rooms and the central location make it easy for both."
+   },
+   {
+    "b": "Been to London before?",
+    "t": "A quieter, smaller hotel may suit you better. Look at <a href=\"the-cadogan-london.html\">The Cadogan</a>."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "My pick for a first trip to London, and for families: classic, central and generous.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked Rosewood London personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "seo_title": "Rosewood London Review: Classic Luxury in Holborn (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-21",
+   "city": "London",
+   "country": "GB"
+  }
+ },
+ {
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "region_label": "Neighborhood",
+  "rank_href": "london.html",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "slug": "broadwick-soho-london",
+  "name": "Broadwick Soho",
+  "plain_name": "Broadwick Soho",
+  "short_name": "Broadwick Soho",
+  "img_dir": "hotels",
+  "hero_img": "",
+  "img2": "",
+  "tagline": "Unique, maximalist and young, in the heart of Soho, with Warhol pieces on the walls.",
+  "meta_desc": "Keith's Broadwick Soho review from a November 2026 site visit: a maximalist, art-filled hotel in the heart of Soho with Warhol pieces and a story behind it, and who it suits.",
+  "style_label": "Maximalist boutique",
+  "perfect_for": "Art lovers, younger travelers, anyone who wants to be in the middle of it",
+  "region_html": "Broadwick Street, Soho, London",
+  "rank_text": "My pick for art and energy &middot; London guide",
+  "stat1_num": "Soho",
+  "stat1_label": "In The Heart Of It",
+  "stat2_num": "Warhol",
+  "stat2_label": "And More On The Walls",
+  "cta_line": "Broadwick is for travelers who want London on the doorstep. Tell me your dates and I&rsquo;ll take it from there.",
+  "intro": [
+   "Unique, maximalist and young, right in the heart of Soho.",
+   "There&rsquo;s a lot of story behind this place, and the art is a big part of it, with Warhol pieces and much more on the walls.",
+   "If you want to walk out the door into the action, this is your hotel."
+  ],
+  "stood_out": [
+   {
+    "b": "The art.",
+    "t": "Warhol pieces and more throughout. Ask me for the backstory before you go."
+   },
+   {
+    "b": "The location.",
+    "t": "The middle of Soho: restaurants, bars and theaters on foot."
+   },
+   {
+    "b": "The design.",
+    "t": "Maximalist, playful and unlike any other hotel on my London list."
+   }
+  ],
+  "know": [
+   {
+    "b": "This is Soho.",
+    "t": "Lively day and night. Choose it for the energy, not for quiet."
+   },
+   {
+    "b": "Want calm instead?",
+    "t": "Look at <a href=\"the-cadogan-london.html\">The Cadogan</a> in Chelsea."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "The most fun address on my London list, for art lovers who want the action.",
+  "perks_html": "Work with me and you get someone who has walked the hotel and knows which rooms to ask for. Where a hotel is part of a Fora preferred program, my clients receive perks like daily breakfast and a hotel credit, and I&rsquo;ll tell you exactly what applies when I quote. Rates are identical to booking direct.",
+  "seo_title": "Broadwick Soho Review, London: Art and Energy in Soho (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-21",
+   "city": "London",
+   "country": "GB"
+  }
+ },
+ {
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "region_label": "Neighborhood",
+  "rank_href": "london.html",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "slug": "the-peninsula-london",
+  "name": "The Peninsula London",
+  "plain_name": "The Peninsula London",
+  "short_name": "the Peninsula",
+  "img_dir": "hotels",
+  "hero_img": "",
+  "img2": "",
+  "tagline": "Overlooking the park, with fun, serious dining and some of the largest penthouses in London.",
+  "meta_desc": "Keith's review of The Peninsula London from a November 2026 site visit: the location overlooking the park at Hyde Park Corner, the rally-car dining venue and Michelin-starred restaurant, penthouses with private entrances, and why it suits ultra-VIPs.",
+  "style_label": "Modern palace (Peninsula)",
+  "perfect_for": "Ultra-VIPs, privacy seekers, large families and groups, food lovers",
+  "region_html": "Hyde Park Corner, Belgravia, London",
+  "rank_text": "My pick for ultra-VIPs &middot; London guide",
+  "stat1_num": "Park",
+  "stat1_label": "Views At Hyde Park Corner",
+  "stat2_num": "Private",
+  "stat2_label": "Entrances To The Penthouses",
+  "cta_line": "For a high-profile stay, the details matter. Tell me who&rsquo;s traveling and I&rsquo;ll handle them with the hotel directly.",
+  "intro": [
+   "The location is the first selling point: overlooking the park at Hyde Park Corner.",
+   "Then the dining, which is some of the most fun in London, from the venue built around old rally cars to a beautiful Michelin-starred restaurant.",
+   "And the penthouses are some of the largest I&rsquo;ve ever seen, maybe in all of London, with private entrances. It&rsquo;s very private and great for ultra-VIPs. The design is unmistakably Peninsula, polished and precise."
+  ],
+  "stood_out": [
+   {
+    "b": "The penthouses.",
+    "t": "Some of the largest I&rsquo;ve ever seen, with private entrances."
+   },
+   {
+    "b": "The dining.",
+    "t": "The rally-car venue for fun, and the Michelin-starred restaurant for a beautiful dinner."
+   },
+   {
+    "b": "The park.",
+    "t": "Hyde Park outside the window."
+   }
+  ],
+  "know": [
+   {
+    "b": "Very private.",
+    "t": "Private entrances and the kind of discretion that makes it my first call for high-profile guests."
+   },
+   {
+    "b": "Book dinner in.",
+    "t": "Between the rally-car venue and the Michelin-starred restaurant, plan at least one night on property."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "My pick for ultra-VIPs and anyone who wants space and privacy, overlooking the park.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked the Peninsula personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "seo_title": "The Peninsula London Review: Penthouses on Hyde Park (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-21",
+   "city": "London",
+   "country": "GB"
+  }
+ },
+ {
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "region_label": "Neighborhood",
+  "rank_href": "london.html",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "slug": "45-park-lane-london",
+  "name": "45 Park Lane",
+  "plain_name": "45 Park Lane",
+  "short_name": "45 Park Lane",
+  "img_dir": "hotels/45-park-lane",
+  "hero_img": "exterior-night.jpg",
+  "img2": "suite-living-room.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Moody, sexy and small, with Dorchester-quality beds and service and stunning marble bathrooms.",
+  "meta_desc": "Keith's 45 Park Lane review from his November 2026 stay: a moody, intimate Dorchester Collection hotel on Park Lane with stunning marble bathrooms, Dorchester-quality beds and service, and a guaranteed 8am check-in and 8pm check-out when you book through him.",
+  "style_label": "Moody, intimate townhouse (Dorchester Collection)",
+  "perfect_for": "Privacy seekers, repeat guests who want to be remembered, couples, travelers who want high-touch Dorchester service at a smaller scale",
+  "region_html": "Park Lane, Mayfair, London",
+  "rank_text": "On my London guide",
+  "stat1_num": "8am",
+  "stat1_label": "Check-In, Guaranteed Through Me",
+  "stat2_num": "8pm",
+  "stat2_label": "Check-Out, Guaranteed Through Me",
+  "cta_line": "Book through me and your room is ready at 8am and yours until 8pm. Tell me your dates and flights.",
+  "intro": [
+   "Moody, sexy and small: just 45 rooms and suites, including one penthouse, with Dorchester-quality beds and service. The suites are all velvet sofas, soft textured walls and brass, and the marble bathrooms are stunning, with a separate WC, double vanity, tub and shower, heated floors and Toto toilets.",
+   "It&rsquo;s the kind of hotel where the small things are already handled before you think to ask. There was oat milk and regular milk already in the fridge, so I could have my coffee first thing in the morning without calling down. A small touch, but an incredible one.",
+   "And because it&rsquo;s so small, the personal attention is incredible, almost like <a href=\"/hotels/portrait-firenze.html\">Portrait</a> in Florence and Milan. This is a hotel for someone who likes to come back and know the hotel will remember every little thing about them. That&rsquo;s a great part of this property.",
+   "Every room faces Hyde Park. I was there in late November, when the trees are bare, but in spring, summer and fall the view across the park is beautiful."
+  ],
+  "stood_out": [
+   {
+    "b": "8am check-in, 8pm check-out, guaranteed.",
+    "t": "When you book through me. Land on the overnight flight and go straight to bed, or take the evening flight home without losing the day."
+   },
+   {
+    "b": "The marble bathrooms.",
+    "t": "Stunning, with heated floors and Toto toilets."
+   },
+   {
+    "b": "Fast, every time.",
+    "t": "In-room dining arrived in 25 minutes and coffee in five. I timed both, here and at 45 Park Lane across the street."
+   },
+   {
+    "b": "The spa and gym.",
+    "t": "The spa is a major selling point: a pool beside a floral mosaic wall, a hot tub and calm, warm lounges. The gym is super expansive, one of the nicer city-hotel gyms I&rsquo;ve seen. Guests of The Dorchester next door use the same spa."
+   },
+   {
+    "b": "Sushi Kanazawa.",
+    "t": "A hidden, 13-seat omakase that earned a Michelin star within six months. Everything is brought in from Japan, the team wears kimonos, and it&rsquo;s open to non-guests too."
+   },
+   {
+    "b": "Original art.",
+    "t": "Works by Sir Peter Blake and other British artists throughout, plus an artist residency in the public spaces that changes every three to four months."
+   },
+   {
+    "b": "Private entrances.",
+    "t": "Two of them, including a dedicated entrance for the ninth-floor penthouse. A quiet choice for high-profile guests."
+   },
+   {
+    "b": "A host on every floor.",
+    "t": "A dedicated host or hostess on each floor, available around the clock, and full butler service from the one-bedroom suites up."
+   },
+   {
+    "b": "Personal attention, remembered.",
+    "t": "A hotel this size gives incredible personal attention, almost like <a href=\"/hotels/portrait-firenze.html\">Portrait</a> in Florence and Milan. It&rsquo;s a hotel for someone who likes to come back and know it will remember every little thing about them."
+   },
+   {
+    "b": "Dorchester-quality beds and service.",
+    "t": "At a much smaller scale than The Dorchester itself."
+   },
+   {
+    "b": "The little things.",
+    "t": "Oat milk and regular milk already in the fridge. Coffee first thing, without calling down."
+   }
+  ],
+  "know": [
+   {
+    "b": "Park view, guaranteed.",
+    "t": "Every room faces Hyde Park, and booked through me as a Fora advisor that&rsquo;s guaranteed. In spring, summer and fall, the view over the park is beautiful."
+   },
+   {
+    "b": "Start with a Park View Studio.",
+    "t": "The entry category is bigger than a standard room. Two can interconnect (a king and a twin), sleeping up to six with rollaways and no suite required."
+   },
+   {
+    "b": "Book a suite for the butler.",
+    "t": "Butler service starts at the one-bedroom suites, like the Curzon Suite."
+   },
+   {
+    "b": "Book Sushi Kanazawa early.",
+    "t": "Thirteen seats, and it&rsquo;s open to the public. Tell me your dates and I&rsquo;ll ask for seats with the room."
+   },
+   {
+    "b": "45 Park Lane or The Dorchester?",
+    "t": "It&rsquo;s a lot like <a href=\"/grand-hotel-tremezzo-vs-passalacqua.html\">Grand Hotel Tremezzo or Passalacqua</a> on Lake Como: they&rsquo;re simply for different travelers. If you want the vibrant scene and to feel like you&rsquo;re in the middle of London, choose <a href=\"the-dorchester-london.html\">The Dorchester</a>. If you value the discretion, privacy and intimacy of a smaller hotel, choose 45 Park Lane. And you can always walk across the street for tea, or share the spa."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "Dorchester-quality beds and service in a moody, intimate hotel, with 8am check-in and 8pm check-out guaranteed through me.",
+  "perks_html": "Work with me and you get two things: perks you can&rsquo;t get booking direct, and someone who has stayed here. Book 45 Park Lane through me and an 8am check-in and 8pm check-out are guaranteed. I know the suites and the team, and I&rsquo;m your direct line to them while you&rsquo;re there. Rates are identical to booking direct.",
+  "seo_title": "45 Park Lane Review, London: My Stay at the Dorchester Collection (2026)",
+  "review": {
+   "stamp": "Stayed November 2026",
+   "date": "2026-11-25",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/45-park-lane/suite-park-view.jpg",
+    "alt": "A curved suite living room at 45 Park Lane with windows over the autumn trees of Hyde Park",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Over Hyde Park"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/marble-bathroom.jpg",
+    "alt": "The marble bathroom with a lit double vanity at 45 Park Lane",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Stunning marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/bedroom.jpg",
+    "alt": "The bedroom of a 45 Park Lane suite with a black-and-white portrait above the bed",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Dorchester-quality beds"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/suite-dining.jpg",
+    "alt": "The dining table under a brass chandelier in a 45 Park Lane suite",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Dining in the suite"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/suite-night.jpg",
+    "alt": "The living room of a 45 Park Lane suite at night, with the city lit up beyond the windows",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The suite after dark"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/suite-sofas.jpg",
+    "alt": "Velvet sofas by the windows in a 45 Park Lane suite",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Velvet and brass"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/champagne-corner.jpg",
+    "alt": "Champagne on ice beside a velvet armchair in a 45 Park Lane suite",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The welcome"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/bed-portrait.jpg",
+    "alt": "The bed in a 45 Park Lane suite in low lamplight",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Moody, in the best way"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/bed-wall-lamps.jpg",
+    "alt": "A bed with wall-mounted lamps in a 45 Park Lane room",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Soft light, crisp linens"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/spa-pool.jpg",
+    "alt": "The indoor pool beside a floral mosaic wall in the spa shared by 45 Park Lane and The Dorchester",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The spa pool"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/spa-lounge.jpg",
+    "alt": "The spa relaxation lounge with a hanging swing seat at 45 Park Lane",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The spa lounge"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/spa-fireside.jpg",
+    "alt": "A curved fireside lounge in the spa at 45 Park Lane",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Fireside in the spa"
+   }
+  ],
+  "hero_pos": "50% 30%"
+ },
+ {
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "region_label": "Neighborhood",
+  "rank_href": "london.html",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "slug": "the-emory-london",
+  "name": "The Emory",
+  "plain_name": "The Emory",
+  "short_name": "The Emory",
+  "img_dir": "hotels/the-emory",
+  "hero_img": "suite-park-view.jpg",
+  "img2": "suite-park-view.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Sixty suites on Hyde Park, everything included, and four floors of wellness.",
+  "meta_desc": "Keith's review of The Emory from a November 2026 site visit: an all-suite Maybourne hotel on Hyde Park by Richard Rogers, with an included minibar and daily wine or champagne, four floors of wellness with resident doctors, the Corner Park Suite, and a guaranteed park-side upgrade through Fora Reserve.",
+  "style_label": "All-suite modern landmark (Maybourne, Fora Reserve)",
+  "perfect_for": "Privacy-seekers and high-profile guests, wellness travelers, anyone who wants space in London",
+  "region_html": "Knightsbridge, on Hyde Park, London",
+  "rank_text": "My pick for privacy, space and wellness &middot; London guide",
+  "stat1_num": "60",
+  "stat1_label": "Suites, From 50 Square Meters",
+  "stat2_num": "Park",
+  "stat2_label": "Upgrade Guaranteed Through Me",
+  "cta_line": "Book a junior suite through me and the park-side upgrade is guaranteed. Tell me your dates and I&rsquo;ll set it up.",
+  "intro": [
+   "All 60 rooms at The Emory are suites, starting at 50 square meters, which is huge for London. The building is by Richard Rogers (the Pompidou Centre, the Lloyd&rsquo;s Building), suspended on its structure so you never feel the Piccadilly Line running underneath, and it won a 2026 RIBA award.",
+   "Six designers each did two floors, all on a warm wood-grain theme, so the rooms vary in tone and style. Find a floor you love and you can ask for it again next time.",
+   "Then there&rsquo;s what&rsquo;s included: the full minibar, alcohol too, and a bottle of wine or champagne each day, chosen from a list through your butler. Add four floors of wellness, with resident doctors, and it&rsquo;s a different kind of London hotel. It suits privacy-seeking clients best, celebrities and anyone avoiding crowds."
+  ],
+  "stood_out": [
+   {
+    "b": "Everything is included.",
+    "t": "The full minibar, alcohol included, plus a daily bottle of wine or champagne."
+   },
+   {
+    "b": "A butler on WhatsApp.",
+    "t": "Multilingual, reachable by message, and your preferences and dietary needs are remembered for next time. In-room dining was curated in part by Rosie Huntington-Whiteley."
+   },
+   {
+    "b": "Four floors of wellness.",
+    "t": "A Tracy Anderson studio, a members&rsquo; club with health-focused food and drink, and two resident doctors three days a week (one was a GP to Queen Elizabeth II for 30 years) offering full health checks and longevity advice."
+   },
+   {
+    "b": "The Corner Park Suite.",
+    "t": "The standout room, big enough for a proper dining table."
+   },
+   {
+    "b": "New Year&rsquo;s Eve.",
+    "t": "Free-flowing champagne for in-house guests, with views of the London Eye fireworks."
+   }
+  ],
+  "know": [
+   {
+    "b": "Book a junior suite through me.",
+    "t": "The park-side upgrade is guaranteed. The park view is the point of this hotel, and booked elsewhere that upgrade is rare."
+   },
+   {
+    "b": "Skip the courtyard.",
+    "t": "Courtyard rooms are junior suites only, and I wouldn&rsquo;t recommend them."
+   },
+   {
+    "b": "The exception: the terrace level.",
+    "t": "Every junior suite there has a private terrace, quieter and with private road access, and you can smoke outside."
+   },
+   {
+    "b": "Traveling with family or friends?",
+    "t": "A junior suite and a suite can be connected and closed off as a private apartment."
+   },
+   {
+    "b": "Want more buzz?",
+    "t": "Next door, <a href=\"the-berkeley-london.html\">The Berkeley</a> shares the same wellness floors."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "All suites, everything included, and wellness that goes far beyond a hotel spa.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked the hotel. The Emory is part of Fora Reserve, so my clients receive Fora perks on eligible stays, like daily breakfast and a hotel credit, and a junior suite booked through me comes with a guaranteed park-side upgrade. I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "seo_title": "The Emory Review, London: All Suites on Hyde Park (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-21",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/the-emory/sofa-park-view.jpg",
+    "alt": "A velvet sofa and tall lamp against the window over Hyde Park at The Emory",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Hyde Park from the suite"
+   },
+   {
+    "src": "/images/hotels/the-emory/bedroom.jpg",
+    "alt": "A bed under a paper lantern in a suite at The Emory",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Warm wood and soft light"
+   },
+   {
+    "src": "/images/hotels/the-emory/bathroom-tub.jpg",
+    "alt": "A freestanding tub in a marble bathroom, seen through sliding doors at The Emory",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The bathroom"
+   },
+   {
+    "src": "/images/hotels/the-emory/suite-dining.jpg",
+    "alt": "A dining table and banquette in a suite at The Emory",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Room to dine in"
+   },
+   {
+    "src": "/images/hotels/the-emory/bedroom-lantern.jpg",
+    "alt": "A lantern lamp beside the bed in a suite at The Emory",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Six designers, two floors each"
+   },
+   {
+    "src": "/images/hotels/the-emory/bedroom-leather.jpg",
+    "alt": "A bedroom with a padded headboard on another floor of The Emory",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A different designer, a different floor"
+   },
+   {
+    "src": "/images/hotels/the-emory/bathroom-vanity.jpg",
+    "alt": "A freestanding tub and marble double vanity at The Emory",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Marble double vanities"
+   },
+   {
+    "src": "/images/hotels/the-emory/marble-lounge.jpg",
+    "alt": "Curved shelves and bold marble in the lobby lounge at The Emory",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The lobby lounge"
+   },
+   {
+    "src": "/images/hotels/the-emory/spa-pool.jpg",
+    "alt": "Loungers beside the pool in the wellness floors at The Emory",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Four floors of wellness"
+   }
+  ]
+ },
+ {
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "region_label": "Neighborhood",
+  "rank_href": "london.html",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "slug": "the-berkeley-london",
+  "name": "The Berkeley",
+  "plain_name": "The Berkeley",
+  "short_name": "The Berkeley",
+  "img_dir": "hotels/the-berkeley",
+  "hero_img": "living-room.jpg",
+  "img2": "living-room.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "The contemporary Maybourne, with more buzz than its sisters and The Emory&rsquo;s wellness next door.",
+  "meta_desc": "Keith's review of The Berkeley from a November 2026 site visit: the contemporary Maybourne hotel in Knightsbridge, 190 rooms and suites, the first-floor balcony and terrace rooms he'd book, the Bar & Terrace, the Christmas rooftop and The Emory's wellness floors.",
+  "style_label": "Contemporary Knightsbridge classic (Maybourne, Fora Reserve)",
+  "perfect_for": "Travelers who want energy and style in Knightsbridge, with Emory-level wellness next door",
+  "region_html": "Wilton Place, Knightsbridge, London",
+  "rank_text": "My pick for buzz in Knightsbridge &middot; London guide",
+  "stat1_num": "190",
+  "stat1_label": "Rooms And Suites",
+  "stat2_num": "Fora",
+  "stat2_label": "Reserve Perks Through Me",
+  "cta_line": "The room design varies across The Berkeley, so the room matters. Tell me your dates and I&rsquo;ll request the right one.",
+  "intro": [
+   "The Berkeley has more buzz than its sister hotels, and it plays the contemporary one next to Claridge&rsquo;s and The Connaught. It&rsquo;s bigger than it looks from the entrance, with 190 rooms and suites in a C-shaped building.",
+   "Every textile was recently refreshed, and the room designs vary across the hotel. The first-floor balcony and terrace rooms are the ones I&rsquo;d book: consistent in design, with warm wood and felt walls, somewhere between a Japanese listening bar and a 1960s or &rsquo;70s caf&eacute;.",
+   "Guests can also use the four floors of wellness at The Emory next door."
+  ],
+  "stood_out": [
+   {
+    "b": "The first-floor balcony and terrace rooms.",
+    "t": "Warm wood and felt walls, and a consistent design you can count on."
+   },
+   {
+    "b": "The Emory&rsquo;s wellness.",
+    "t": "A Tracy Anderson studio, a members&rsquo; club and resident doctors, next door."
+   },
+   {
+    "b": "The Berkeley Bar &amp; Terrace.",
+    "t": "Curved boucl&eacute; sofas under a sculpted plaster frieze. A beautiful spot for a drink."
+   },
+   {
+    "b": "Christmas on the roof.",
+    "t": "The rooftop pool turns into a seasonal pop-up over the holidays."
+   }
+  ],
+  "know": [
+   {
+    "b": "Ask for the first floor.",
+    "t": "Room designs vary across the hotel, and the balcony and terrace rooms on the first floor are the most consistent."
+   },
+   {
+    "b": "Want more privacy?",
+    "t": "<a href=\"the-emory-london.html\">The Emory</a> next door is calmer, all suites, with everything included."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "The livelier choice in Knightsbridge, with The Emory&rsquo;s wellness on tap.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked the hotel. The Berkeley is part of Fora Reserve, so my clients receive Fora perks on eligible stays, like daily breakfast and a hotel credit. I know which rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "seo_title": "The Berkeley Review, London: The Contemporary Maybourne (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-21",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/the-berkeley/bedroom.jpg",
+    "alt": "The bedroom of a first-floor balcony and terrace room at The Berkeley",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A first-floor balcony and terrace room"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/sitting-corner.jpg",
+    "alt": "The sitting area of a first-floor balcony and terrace room at The Berkeley",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Warm wood and felt walls"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/bathroom.jpg",
+    "alt": "The stone bathroom of a first-floor balcony and terrace room at The Berkeley",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The bathroom"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/bar-mural.jpg",
+    "alt": "A curved banquette under a hand-painted mural of faces in a bar nook at The Berkeley",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A corner of the bar"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/dining-room.jpg",
+    "alt": "The dining room at The Berkeley, with brass table lamps, velvet chairs and a backlit ceiling",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The dining room"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/lounge-frieze.jpg",
+    "alt": "A curved sofa beneath a sculpted plaster frieze in The Berkeley Bar &amp; Terrace",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The Berkeley Bar &amp; Terrace"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/corridor.jpg",
+    "alt": "A wood-paneled corridor at The Berkeley leading to a Christmas tree",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Wood-paneled halls at Christmas"
+   },
+   {
+    "src": "/images/hotels/the-berkeley/rooftop-christmas.jpg",
+    "alt": "The Christmas pop-up on The Berkeley rooftop, with red gondola cabins",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Christmas on the roof"
+   }
+  ]
+ },
+ {
+  "slug": "the-chancery-rosewood-london",
+  "name": "The Chancery Rosewood",
+  "plain_name": "The Chancery Rosewood",
+  "short_name": "The Chancery",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "hotels/the-chancery-rosewood",
+  "hero_img": "exterior.jpg",
+  "img2": "exterior.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Grand, beautifully designed and international in feel, on Grosvenor Square.",
+  "meta_desc": "Keith's review of The Chancery Rosewood from a November 2026 site visit: a grand, beautifully designed Rosewood on Grosvenor Square in Mayfair, who it suits best, and when he'd choose Rosewood London instead.",
+  "style_label": "Grand contemporary landmark (Rosewood)",
+  "perfect_for": "Return visitors to London, design and art lovers, travelers who want a sleek, contemporary base in Mayfair",
+  "region_label": "Neighborhood",
+  "region_html": "Grosvenor Square, Mayfair, London",
+  "rank_text": "My pick for contemporary design &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "Mayfair",
+  "stat1_label": "On Grosvenor Square",
+  "stat2_num": "Junior Suite",
+  "stat2_label": "The Entry Category",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Choosing between The Chancery and Rosewood London? Tell me your dates and whether it&rsquo;s your first trip, and I&rsquo;ll match you to the right one.",
+  "intro": [
+   "The Chancery is grand, and the design is genuinely beautiful, with striking artwork throughout and the polish you expect from Rosewood.",
+   "It&rsquo;s also the most international-feeling hotel on my London list. It&rsquo;s sleek and contemporary rather than distinctly British, the kind of hotel that would feel just as at home in New York. For some travelers, that&rsquo;s exactly the point.",
+   "The service lives up to the Rosewood standard, and I fully expect guests have incredible stays here. I&rsquo;d match it to return visitors who already know London and want something contemporary, and send first-timers to its sister, <a href=\"rosewood-london.html\">Rosewood London</a>, for the classic British experience."
+  ],
+  "stood_out": [
+   {
+    "b": "The private residence.",
+    "t": "The one I toured feels like a Mayfair apartment: a living room over Grosvenor Square, dining for six, a wood-paneled study, a walk-in dressing room, marble bathrooms and a full kitchen."
+   },
+   {
+    "b": "Every room is a suite.",
+    "t": "Accommodations start at a junior suite, so even the entry category gives you real space for London."
+   },
+   {
+    "b": "The design.",
+    "t": "Grand, beautiful and contemporary, from the public spaces to the suites."
+   },
+   {
+    "b": "The artwork.",
+    "t": "Striking pieces throughout the hotel."
+   },
+   {
+    "b": "Rosewood service.",
+    "t": "Polished and attentive, to the standard you expect from the brand."
+   }
+  ],
+  "know": [
+   {
+    "b": "Compare suite to suite.",
+    "t": "Since everything starts at a junior suite, the rate can look high next to another hotel&rsquo;s entry room. Compare it against their junior suites, and it&rsquo;s much closer than it first appears. I&rsquo;ll quote them side by side."
+   },
+   {
+    "b": "Contemporary over classic.",
+    "t": "If you want old-school British charm, look at <a href=\"rosewood-london.html\">Rosewood London</a> or <a href=\"claridges-london.html\">Claridge&rsquo;s</a> instead."
+   },
+   {
+    "b": "Best for a return trip.",
+    "t": "Once you know London, a sleek Mayfair base makes more sense than it does on a first visit."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "Beautiful, grand and international in feel. My pick for return visitors who want contemporary design over old-London tradition.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked The Chancery personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "The Chancery Rosewood Review, London: Grosvenor Square (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-27",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/the-chancery-rosewood/restaurant.jpg",
+    "alt": "The restaurant at The Chancery Rosewood, with tall windows over the trees of Grosvenor Square",
+    "w": 1600,
+    "h": 1043,
+    "caption": "The restaurant, over Grosvenor Square"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/restaurant-banquettes.jpg",
+    "alt": "Green banquettes and boucle chairs in the restaurant at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Banquettes by the windows"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/bar-lounge.jpg",
+    "alt": "The bar at The Chancery Rosewood, with leather sofas, palms and a curved lit ceiling",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The bar"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/bar.jpg",
+    "alt": "The curved marble bar with suede stools at The Chancery Rosewood",
+    "w": 1066,
+    "h": 1600,
+    "caption": "A seat at the bar"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/atrium.jpg",
+    "alt": "Looking down the wood-paneled atrium to the lobby and its glass chandelier at The Chancery Rosewood",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The atrium"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/suite-living.jpg",
+    "alt": "A suite living room with a curved velvet sofa and bay windows at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1034,
+    "caption": "A suite living room"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/suite-bedroom.jpg",
+    "alt": "A suite bedroom at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1043,
+    "caption": "The suite bedroom"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/suite-bed-detail.jpg",
+    "alt": "A bedside lamp and striped linens in a suite at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The details"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/suite-bar-cabinet.jpg",
+    "alt": "An onyx-lined bar and coffee cabinet in a suite at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The in-suite bar"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/residence-living-room.jpg",
+    "alt": "The living room of a private residence at The Chancery Rosewood, with a coffered wood ceiling and tall windows over Grosvenor Square",
+    "w": 1600,
+    "h": 1017,
+    "caption": "The residence: living room"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/residence-dining-art.jpg",
+    "alt": "The dining table under brass pendants and a large abstract painting in a Chancery Rosewood residence",
+    "w": 1600,
+    "h": 1022,
+    "caption": "The residence: dining"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/residence-bedroom.jpg",
+    "alt": "The main bedroom of a private residence at The Chancery Rosewood",
+    "w": 1600,
+    "h": 1026,
+    "caption": "The residence: main bedroom"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/residence-bathroom.jpg",
+    "alt": "A marble bathroom with brass fixtures and a deep tub in a Chancery Rosewood residence",
+    "w": 1600,
+    "h": 1043,
+    "caption": "The residence: marble bathroom"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/residence-study.jpg",
+    "alt": "A wood-paneled study with a green Snoopy lamp in a Chancery Rosewood residence",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The residence: study"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/residence-dressing-room.jpg",
+    "alt": "A lit walk-in dressing room in a Chancery Rosewood residence",
+    "w": 1600,
+    "h": 976,
+    "caption": "The residence: dressing room"
+   },
+   {
+    "src": "/images/hotels/the-chancery-rosewood/residence-kitchen.jpg",
+    "alt": "A marble galley kitchen in a Chancery Rosewood residence",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The residence: full kitchen"
+   }
+  ]
+ },
+ {
+  "slug": "lanesborough-london",
+  "name": "The Lanesborough",
+  "plain_name": "The Lanesborough",
+  "short_name": "The Lanesborough",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "hotels/the-lanesborough",
+  "hero_img": "bedroom.jpg",
+  "img2": "bedroom.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "Quintessentially British, on Hyde Park Corner, with a personal butler in every room and service that sets it apart.",
+  "meta_desc": "Keith's review of The Lanesborough from a November 2026 site visit: a Regency, Grade I listed Oetker Collection hotel on Hyde Park Corner with 93 rooms, a personal butler in every room, the Royal and Presidential suites for multi-generational stays, Café LPM, the spa and club, and Bridgerton afternoon tea.",
+  "style_label": "Regency palace (Oetker Collection)",
+  "perfect_for": "Travelers who want classic British London, multi-generational families, service lovers, Knightsbridge shoppers",
+  "region_label": "Neighborhood",
+  "region_html": "Hyde Park Corner, Knightsbridge, London",
+  "rank_text": "My pick for service and classic British style &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "93",
+  "stat1_label": "Rooms, Half Of Them Suites",
+  "stat2_num": "Butler",
+  "stat2_label": "In Every Room Category",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Traveling with family, or want the Royal Suite? Tell me who&rsquo;s coming and when, and I&rsquo;ll work out the right configuration with the hotel.",
+  "intro": [
+   "The Lanesborough is quintessentially British: a Grade I listed Regency building on Hyde Park Corner, renovated in 2017, with 93 rooms, half of them suites. Each of the four floors is designed a little differently, all in the Regency style.",
+   "What sets it apart is the service. There are around 360 staff for 93 rooms, and every room category, not just the suites, comes with a personal butler. It&rsquo;s part of the Oetker Collection, the family-founded group behind Le Bristol in Paris and Hotel du Cap-Eden-Roc, and you feel that same natural, family warmth here.",
+   "Across London the rooms are broadly excellent now, so service is what separates the top hotels. Your suite is a great memory; a flawless check-in and a butler who remembers how you take your tea are what make you come back. That&rsquo;s where The Lanesborough shines."
+  ],
+  "stood_out": [
+   {
+    "b": "A butler in every room.",
+    "t": "Every category, from Deluxe up, comes with a personal butler."
+   },
+   {
+    "b": "The Royal Suite.",
+    "t": "Up to seven bedrooms and around 400 square meters across an entire side of the building. The recently renovated Presidential Suite configures from one to five bedrooms. Both are made for multi-generational trips, and Thanksgiving week books out."
+   },
+   {
+    "b": "The new Pearl rooms.",
+    "t": "On the top floor, with balconies. It took four years of permissions to turn the windows into doors in a Grade I listed building."
+   },
+   {
+    "b": "Café LPM.",
+    "t": "The first café from La Petite Maison, launched here as a one-year pop-up, opening onto the terrace in summer."
+   },
+   {
+    "b": "Afternoon tea, and Bridgerton.",
+    "t": "The tea is a signature, and the hotel is the official Bridgerton partner, a natural fit for a Regency house."
+   },
+   {
+    "b": "The spa and club.",
+    "t": "A subterranean spa much larger than you&rsquo;d expect, with sauna, steam and a bio sauna, plus around seven classes a day (reformer Pilates, mat, yoga). Hotel guests become members of the club for their stay, and the class schedule arrives a week before you do."
+   }
+  ],
+  "know": [
+   {
+    "b": "Choosing your room.",
+    "t": "Categories run Deluxe, Executive and Premier, each with a larger &ldquo;B&rdquo; version, plus the Pearl rooms with balconies. The hotel&rsquo;s website has 3D walkthroughs of each, and I&rsquo;ll tell you which to pick."
+   },
+   {
+    "b": "Eat British.",
+    "t": "Four outlets: The Grill, the club restaurant, the Library Bar and the Withdrawing Room, with British classics like Beef Wellington and Dover sole. The newly renovated cigar lounge isn&rsquo;t always open to the public."
+   },
+   {
+    "b": "Lanesborough or Claridge&rsquo;s?",
+    "t": "Both are quintessentially British. The real difference is location: Hyde Park Corner and Knightsbridge here, Mayfair at <a href=\"claridges-london.html\">Claridge&rsquo;s</a>."
+   },
+   {
+    "b": "Book holidays early.",
+    "t": "The large suites go first for Thanksgiving and Christmas."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "Classic British London with service that stands apart: a butler in every room, and suites big enough for the whole family.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked The Lanesborough personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which rooms and suites to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "The Lanesborough Review, London: A Butler in Every Room (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-27",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/the-lanesborough/canopy-bed.jpg",
+    "alt": "A canopied bed under a crystal chandelier in a Regency room at The Lanesborough",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Regency rooms, canopied beds"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/bathroom.jpg",
+    "alt": "A marble bathroom with a deep tub and brass fixtures at The Lanesborough",
+    "w": 1600,
+    "h": 1035,
+    "caption": "The bathroom"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/library-bar.jpg",
+    "alt": "The Library Bar at The Lanesborough, with a fireplace, vintage port and armchairs by the window",
+    "w": 1600,
+    "h": 1028,
+    "caption": "The Library Bar"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/cafe-lpm.jpg",
+    "alt": "Café LPM at The Lanesborough, with botanical prints, antique mirrors and brass chandeliers",
+    "w": 1600,
+    "h": 1026,
+    "caption": "Café LPM"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/cafe-lpm-tall.jpg",
+    "alt": "The restaurant at The Lanesborough Club &amp; Spa, with dark finishes, antique mirrors and brass chandeliers",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The spa&rsquo;s club restaurant"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/corridor.jpg",
+    "alt": "A wood-paneled corridor with brass lanterns at The Lanesborough",
+    "w": 1600,
+    "h": 1044,
+    "caption": "The corridors"
+   },
+   {
+    "src": "/images/hotels/the-lanesborough/spa-pool.jpg",
+    "alt": "The pool in the subterranean spa at The Lanesborough",
+    "w": 1600,
+    "h": 1034,
+    "caption": "The spa"
+   }
+  ]
+ },
+ {
+  "slug": "the-dorchester-london",
+  "name": "The Dorchester",
+  "plain_name": "The Dorchester",
+  "short_name": "The Dorchester",
+  "island": "London",
+  "island_page": "london.html",
+  "locale": "London, England",
+  "img_dir": "hotels/the-dorchester",
+  "hero_img": "exterior-night.jpg",
+  "img2": "exterior-night.jpg",
+  "hide_hero_in_gallery": true,
+  "tagline": "The quintessential British experience on Park Lane: afternoon tea, a lively bar, a classic lobby and beautifully renovated rooms.",
+  "meta_desc": "Keith's review of The Dorchester from a November 2026 site visit: the full renovation, rooms by floor, Alain Ducasse at The Dorchester, The Grill, the Promenade and Vesper Bar, and the spa it shares with 45 Park Lane.",
+  "style_label": "Renovated Park Lane grande dame (Dorchester Collection)",
+  "perfect_for": "Travelers who want the quintessential British hotel experience, afternoon tea lovers, food lovers, celebrations",
+  "region_label": "Neighborhood",
+  "region_html": "Park Lane, Mayfair, London",
+  "rank_text": "My pick for dining and a classic London grand hotel &middot; London guide",
+  "rank_href": "london.html",
+  "stat1_num": "3&#9733;",
+  "stat1_label": "Alain Ducasse At The Dorchester",
+  "stat2_num": "2022",
+  "stat2_label": "Full Renovation, Floor By Floor",
+  "know_heading": "The Fine Print, From Your Advisor",
+  "cta_line": "Want a table at Alain Ducasse or the right floor&rsquo;s color palette? Tell me your dates and I&rsquo;ll set it up with the hotel.",
+  "intro": [
+   "The Dorchester is the quintessential British experience: afternoon tea in the Promenade, a lively Vesper Bar, a classic lobby, and that unmistakably English sense of occasion.",
+   "The rooms were completely renovated in 2022, down to the lighting, the moldings and the room numbers. Before, it was brown, navy and heavy wood, with lighting that hadn&rsquo;t changed since the &rsquo;80s. Now it feels classic in the right ways without ever feeling heavy or out of date. It&rsquo;s tasteful, and I love the design, with one design language and a different color palette on each floor, from pale blue to pale green to dusky tones.",
+   "The dining is a reason to stay on its own: Alain Ducasse at The Dorchester with three Michelin stars, The Grill, the Promenade and the Vesper Bar. And there&rsquo;s something I don&rsquo;t think I&rsquo;ve seen at another hotel: in-house tailoring, turned around the same day."
+  ],
+  "stood_out": [
+   {
+    "b": "Same-day tailoring.",
+    "t": "An in-house tailor who turns alterations around the same day. I don&rsquo;t think I&rsquo;ve seen that at another hotel."
+   },
+   {
+    "b": "A welcome with your name on it.",
+    "t": "A London street sign with my name and the W1 postcode, waiting in the room. A small touch, and the kind guests photograph."
+   },
+   {
+    "b": "Three Michelin stars.",
+    "t": "Alain Ducasse at The Dorchester, plus The Grill for a classic London dinner."
+   },
+   {
+    "b": "Fast, every time.",
+    "t": "In-room dining arrived in 25 minutes and coffee in five. I timed both, here and at 45 Park Lane across the street."
+   },
+   {
+    "b": "The Vesper Bar.",
+    "t": "Lively, with live music, a low-table dining menu and a semi-private snug. It can host a reception of 30 to 40 while the bar stays open."
+   },
+   {
+    "b": "The Promenade.",
+    "t": "Breakfast, lunch, afternoon tea and dinner in the hotel&rsquo;s grand central hall."
+   },
+   {
+    "b": "The 2022 renovation.",
+    "t": "Classic but never heavy or dated: new lighting, moldings and a palette that changes by floor. Tasteful, and I love the design."
+   },
+   {
+    "b": "The spa.",
+    "t": "Shared with 45 Park Lane next door, with a pool beside a floral mosaic wall."
+   }
+  ],
+  "know": [
+   {
+    "b": "Hosting a group?",
+    "t": "The Vesper Bar takes a reception of 30 to 40 without closing."
+   },
+   {
+    "b": "The Dorchester or 45 Park Lane?",
+    "t": "It&rsquo;s a lot like <a href=\"/grand-hotel-tremezzo-vs-passalacqua.html\">Grand Hotel Tremezzo or Passalacqua</a> on Lake Como: they&rsquo;re simply for different travelers. If you want the vibrant scene and to feel like you&rsquo;re in the middle of London, choose The Dorchester. If you value the discretion, privacy and intimacy of a smaller hotel, choose <a href=\"45-park-lane-london.html\">45 Park Lane</a> across the street. Both share the spa."
+   },
+   {
+    "b": "Compare the rest of London.",
+    "t": "My <a href=\"/london.html\">London guide</a> puts every hotel I&rsquo;ve seen side by side."
+   }
+  ],
+  "verdict": "The quintessential British hotel experience, beautifully renovated, with three-star dining under the same roof.",
+  "perks_html": "Work with me and you get two things: Fora perks, and someone who has walked The Dorchester personally. As a Fora X advisor, my clients receive a space-available upgrade, daily breakfast, and a hotel credit. I know which floors and rooms to ask for, and I&rsquo;m your direct line to the team while you&rsquo;re there. Rates are identical to booking direct.",
+  "cta_island_text": "My London Guide",
+  "cta2_text": "All My Rankings",
+  "cta2_href": "rankings.html",
+  "seo_title": "The Dorchester Review, London: After the Renovation (2026)",
+  "review": {
+   "stamp": "Visited November 2026",
+   "date": "2026-11-27",
+   "city": "London",
+   "country": "GB"
+  },
+  "gallery": [
+   {
+    "src": "/images/hotels/the-dorchester/exterior-christmas.jpg",
+    "alt": "The Dorchester&rsquo;s canopy lined with Christmas trees on Park Lane",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Christmas on Park Lane"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/exterior-entrance.jpg",
+    "alt": "The entrance of The Dorchester with a doorman and Christmas trees",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The arrival"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/street-sign-welcome.jpg",
+    "alt": "A personalized London street sign reading Keith Pence W1, The Dorchester, set out in the room",
+    "w": 1200,
+    "h": 1600,
+    "caption": "A welcome with your name on it"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/bedroom.jpg",
+    "alt": "A Dorchester bedroom with botanical wallpaper and a pale blue headboard",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Palettes that change by floor"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/bathroom.jpg",
+    "alt": "A marble bathroom with a fluted double vanity at The Dorchester",
+    "w": 1066,
+    "h": 1600,
+    "caption": "Marble bathrooms"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/bar-lounge.jpg",
+    "alt": "The Vesper Bar at The Dorchester, with velvet armchairs and a chandelier",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The Vesper Bar"
+   },
+   {
+    "src": "/images/hotels/the-dorchester/bar.jpg",
+    "alt": "The long bar with green velvet stools at the Vesper Bar",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A seat at the bar"
+   },
+   {
+    "src": "/images/hotels/45-park-lane/spa-pool.jpg",
+    "alt": "The pool in the spa shared by The Dorchester and 45 Park Lane",
+    "w": 1066,
+    "h": 1600,
+    "caption": "The shared spa"
+   }
+  ]
  }
 ]
