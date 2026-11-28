@@ -623,7 +623,13 @@
   },
   "hero_video": "/video/bill-and-coo-coast-hero.mp4",
   "hero_poster": "/video/bill-and-coo-coast-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "Delivery of a personalized welcome note on behalf of the agency/travel advisor",
+   "Daily Breakfast for 2 for duration of their stay",
+   "Room upgrade on arrival, subject to availability",
+   "Early check-in late check-out subject to availability"
+  ]
  },
  {
   "slug": "kalesma-mykonos",
@@ -2832,7 +2838,13 @@
   },
   "hero_video": "/video/nos-sifnos-hero.mp4",
   "hero_poster": "/video/nos-sifnos-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "An upgrade on arrival, subject to availability",
+   "Daily breakfast for two",
+   "A $100 hotel credit",
+   "Early check-in and late check-out, subject to availability"
+  ]
  },
  {
   "slug": "andronis-minois-paros",
@@ -3067,7 +3079,14 @@
    "date": "2026-08-09",
    "city": "Parīlio",
    "country": "GR"
-  }
+  },
+  "perks_list": [
+   "Upgrade on arrival, subject to availability",
+   "Daily Full breakfast for up to two guests per bedroom, served in the restaurant",
+   "Stays of 7+ nights will receive an additional $200 food and drink credit (for a total of $300 during stay)",
+   "Early Check-In, Late Check-out, subject to availability",
+   "Welcome local amenities"
+  ]
  },
  {
   "slug": "fouquets-mykonos",
@@ -3148,7 +3167,14 @@
   },
   "hero_video": "/video/fouquets-mykonos-hero.mp4",
   "hero_poster": "/video/fouquets-mykonos-hero-poster.jpg",
-  "hero_pos": "50% 55%"
+  "hero_pos": "50% 55%",
+  "perks_list": [
+   "<b>Guaranteed complimentary 8am early check-in &amp; 4pm late check-out</b>",
+   "Complimentary one-category upgrade at time of booking (up to Superior Suite upgraded to Deluxe Suite)",
+   "Complimentary daily breakfast for up to two guests per bedroom",
+   "For stays of two nights or more: Complimentary one-way airport transfer",
+   "Complimentary minibar offering a selection of non-alcoholic drinks and snacks"
+  ]
  },
  {
   "slug": "four-seasons-mykonos",
