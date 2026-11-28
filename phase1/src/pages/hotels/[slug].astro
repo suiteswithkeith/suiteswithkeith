@@ -77,7 +77,7 @@ const reviewSchema = h.review && JSON.stringify({
     <div class="reveal" style="max-width:62ch;">
       {h.intro.map((p) => <p style="margin-bottom:16px;" set:html={p} />)}
     </div>
-    {heroSrc && <div class="photos reveal" style="margin-top:44px;">
+    {heroSrc && <div class="photos" style="margin-top:44px;">
       {!h.hide_hero_in_gallery && <figure><img src={heroSrc} alt={`${h.plain_name}, ${h.island}`} width="1600" height="1067" loading="lazy" decoding="async" /></figure>}
       {h.img2 !== h.hero_img && (
         <figure><img src={img2Src} alt={`${h.plain_name}, ${h.island}`} width="1600" height="1067" loading="lazy" decoding="async" /></figure>
